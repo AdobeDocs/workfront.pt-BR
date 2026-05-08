@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2825'
 ht-degree: 4%
 
 ---
@@ -306,7 +306,7 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
 
    Ou
 
-   Clique no ícone **Modo do menu** Mais![&#x200B; na lista de tarefas](assets/more-icon-task-list.png).
+   Clique no ícone ![Modo do menu **Mais** na lista de tarefas](assets/more-icon-task-list.png).
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -414,7 +414,7 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 
    Ou
 
-   Clique no ícone **Mais** do menu ![Mais na lista de tarefas](assets/more-icon-task-list.png).
+   Clique no ícone ![Mais **do menu** Mais na lista de tarefas](assets/more-icon-task-list.png).
 
 1. Selecione entre as seguintes opções:
 
@@ -469,29 +469,33 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 1. (Opcional) Digite uma atualização para a tarefa na área **Atualizações**.
 1. Clique em qualquer um dos ícones ou áreas a seguir para acessar a tarefa e editar as informações no nível da tarefa:
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Documentos</td> 
-      <td>Adicione documentos à tarefa. </td> 
-     </tr> 
-          <tr> 
-      <td role="rowheader">Formulários personalizados</td> 
-      <td>Adicione ou remova formulários personalizados ou atualize as informações nos formulários.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Horas</td> 
-      <td>Registre as horas.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Aprovações</td> 
-      <td>Adicionar aprovações de tarefa.</td> 
-     </tr> 
-     <tr> 
-    </tbody> 
-   </table>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Documentos</td> 
+         <td><p>Adicione documentos à tarefa.</p>
+         <p><b>Nota</b></p>
+         <p>Se sua empresa usa o armazenamento de documentos corporativos da Adobe, não é possível adicionar documentos a tarefas no painel Resumo para tarefas de armazenamento da Adobe.</p>
+         <p>Para obter informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Visão geral do gerenciamento de documentos para projetos e objetos relacionados</a>.</p>
+      </td> 
+      </tr> 
+            <tr> 
+         <td role="rowheader">Formulários personalizados</td> 
+         <td>Adicione ou remova formulários personalizados ou atualize as informações nos formulários.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Horas</td> 
+         <td>Registre as horas.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Aprovações</td> 
+         <td>Adicionar aprovações de tarefa.</td> 
+      </tr> 
+      <tr> 
+      </tbody> 
+      </table>
 
 1. Clique em **X** no canto superior direito do painel para fechá-lo.
 

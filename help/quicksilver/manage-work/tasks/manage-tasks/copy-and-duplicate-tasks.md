@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1781'
 ht-degree: 3%
 
 ---
@@ -103,6 +103,10 @@ Considere o seguinte ao copiar uma tarefa:
 
 * É possível copiar uma tarefa de cada vez ou várias tarefas de cada vez ao editar tarefas em uma lista.
 
+* Se sua organização usa o armazenamento corporativo herdado do Workfront e do Adobe, você não poderá copiar tarefas entre projetos que usam tipos de armazenamento diferentes.
+
+  Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Copiar tarefas em uma lista {#copy-tasks-in-a-list}
 
 1. Vá para o projeto que contém a(s) tarefa(s) que deseja copiar.
@@ -124,7 +128,7 @@ Considere o seguinte ao copiar uma tarefa:
 
    * Clique no **Mais menu** na parte superior da lista de tarefas e clique em **Copiar para**.
    * Clique com o botão direito do mouse nas tarefas selecionadas e clique em **Copiar para**.
-   * Ao selecionar uma tarefa, clique no ícone **Mais** do menu ![Mais na lista de tarefas](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista e clique em **Copiar para**.
+   * Ao selecionar uma tarefa, clique no ícone ![Mais **do menu** Mais na lista de tarefas](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista e clique em **Copiar para**.
 
    ![Copiar tarefa na lista](assets/copy-task-in-list-nwe-350x131.png)
 
@@ -245,7 +249,7 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
 
    A tarefa é exibida na lista.
 
-   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Selecione o botão de opção do pai depois de encontrá-lo.
 

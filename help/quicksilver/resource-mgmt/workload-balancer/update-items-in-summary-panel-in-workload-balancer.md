@@ -6,10 +6,10 @@ description: Você pode abrir o painel Resumo no Balanceador de carga de trabalh
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ O painel Resumo está disponível para tarefas e problemas nas áreas Trabalho a
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ O painel Resumo está disponível para tarefas e problemas nas áreas Trabalho a
   </tr>
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos; Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
   </tr>
   <tr> 
@@ -91,6 +91,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >Navegar do Resumo para a seção Subtarefas para adicionar subtarefas remove a tarefa original, pois as tarefas pai não são exibidas no Balanceador de carga de trabalho.
 
    Para obter mais informações sobre como atualizar informações usando o Resumo, consulte [Visão geral do Resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+   >[!NOTE]
+   >
+   >Se sua empresa usa o armazenamento de documentos corporativos da Adobe, não é possível adicionar documentos a itens de trabalho do armazenamento Adobe no painel Resumo.
+   >
+   >Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Condicional) Se você abriu qualquer uma das seções do item de trabalho, clique no **botão Voltar** do navegador para retornar ao Balanceador de carga de trabalho.
 1. Clique no **ícone Fechar** ![ícone Fechar](assets/close-icon.png) no canto superior direito do Resumo para fechá-lo.

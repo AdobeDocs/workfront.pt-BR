@@ -6,9 +6,9 @@ description: Dependendo de o administrador do Workfront escolher o padrão de su
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1779'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,7 @@ Considere o seguinte ao trabalhar com tarefas:
    * Uma tarefa de armazenamento corporativo da Adobe cria um projeto de armazenamento Adobe.
    * Usar um modelo de armazenamento Workfront para converter uma tarefa de armazenamento Adobe cria um projeto de armazenamento Adobe.
    * O uso de um modelo de armazenamento Adobe para converter uma tarefa de armazenamento Workfront cria um projeto de armazenamento Workfront.
+* Não é possível adicionar documentos a tarefas de armazenamento Adobe no painel Resumo.
 
 ### Gerenciamento de documentos para problemas
 
@@ -186,6 +187,7 @@ Leve em consideração o seguinte ao trabalhar com problemas:
    * Um problema de armazenamento corporativo da Adobe cria um projeto de armazenamento Adobe.
    * Usar um modelo de armazenamento Workfront para converter um problema de armazenamento Adobe cria um projeto de armazenamento Adobe.
    * Usar um modelo de armazenamento Adobe para converter um problema de armazenamento Workfront cria um projeto de armazenamento Workfront.
+* Não é possível adicionar documentos a problemas de armazenamento do Adobe no painel Resumo.
 
 ### Gerenciamento de documentos para modelos de projeto
 

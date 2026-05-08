@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '908'
 ht-degree: 6%
 
 ---
@@ -152,10 +152,15 @@ Para editar um problema em linha:
 
    | Ícone | Ação |
    |---|---|
-   | Documentos ![Ícone de documentos](assets/documents-icon-in-summary.png) | Clique **Clique aqui para adicionar** para adicionar documentos ao problema. |
+   | Documentos* ![Ícone Documentos](assets/documents-icon-in-summary.png) | Clique **Clique aqui para adicionar** para adicionar documentos ao problema. |
    | Detalhes ![Ícone de detalhes](assets/details-icon-in-summary.png) | Clique em para atualizar as informações sobre o problema. |
    | Horas ![Log de tempo](assets/log-time-icon-in-summary.png) | Clique para registrar horas. |
    | Aprovações ![Ícone de Aprovações](assets/approvals-icon-in-summary.png) | Clique para adicionar aprovações de problemas. |
+
+   *Se sua empresa usa o armazenamento de documentos corporativos da Adobe, não é possível adicionar documentos a problemas de armazenamento da Adobe no painel Resumo.
+
+   Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Opcional) Clique novamente no ícone **Abrir resumo** ou no ícone **X** no canto superior direito do resumo para fechar o painel e editar o problema em linha.
 
