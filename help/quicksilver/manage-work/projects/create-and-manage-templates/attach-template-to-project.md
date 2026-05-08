@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 5%
+source-wordcount: '1130'
+ht-degree: 8%
 
 ---
 
@@ -169,11 +169,11 @@ Você pode anexar um modelo a um projeto a partir da página do projeto ou de um
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Selecione a tarefa do projeto que você deseja como predecessora das tarefas neste modelo.</td> 
+      <td role="rowheader">Selecione a tarefa do projeto que você deseja usar como predecessora das tarefas neste modelo.</td> 
       <td> <p>Clique dentro da caixa de campo para exibir uma lista de tarefas do projeto e, em seguida, selecione qual tarefa deve ser concluída antes que as tarefas do modelo possam começar. Como alternativa, você pode ignorar essa etapa e configurar relações no projeto depois que o modelo for anexado. </p> <p> Selecione as informações de <strong>Tipo de Dependência</strong>, <strong>Tempo de Atraso</strong> e se desejar que o predecessor seja aplicado marcando a caixa de seleção <strong>Impor Predecessor</strong>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Selecione a tarefa de projeto que você deseja como a principal das tarefas neste modelo.</td> 
+      <td role="rowheader">Selecione a tarefa do projeto que você deseja usar como tarefa-pai das tarefas neste modelo.</td> 
       <td> <p>Selecione qual tarefa do projeto você deseja designar como tarefa pai para todas as tarefas do modelo. Se você não fizer uma seleção, todas as tarefas do modelo aparecerão no final das tarefas do projeto atual. Você pode ignorar essa etapa e mover tarefas no projeto depois que o modelo for anexado.</p>
       <p><b>Nota</b></p>
       <p>Se você selecionou uma tarefa de modelo pai com filhos adicionais, somente o pai exibirá a tarefa do projeto como sua predecessora depois de adicionada ao projeto. As tarefas de modelo filho não exibirão uma predecessora.</p>

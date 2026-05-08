@@ -6,10 +6,10 @@ description: O painel de navegação esquerdo do  [!DNL Workfront]  facilita a n
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 0fbbf7fccee0158cc0630703ed1b663cf42725dd
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 1%
+source-wordcount: '1377'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ A maioria das áreas e objetos no WF usam um painel de navegação simples no la
 
 ## Requisitos de acesso
 
-+++Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ A maioria das áreas e objetos no WF usam um painel de navegação simples no la
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
    <td>
-   <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p> 
+   <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p> 
    </td> 
   </tr> 
  </tbody> 
@@ -70,7 +70,7 @@ O painel esquerdo está disponível para os seguintes objetos:
 * Portfólio
 * Programa
 * Modelo
-* Modelo de Tarefa
+* Tarefa de modelo
 * Iteração
 * Usuário
 * Equipe
@@ -80,7 +80,7 @@ O painel esquerdo está disponível para os seguintes objetos:
 >[!IMPORTANT]
 >
 >Se o painel esquerdo exibir apenas uma seção por padrão, como **[!UICONTROL Todos os projetos]** na área **[!UICONTROL Projetos]**, um administrador do [!DNL Workfront] deverá adicionar pelo menos um painel a esta área ao criar um modelo de layout e atribuir você a esse modelo antes que o painel esquerdo seja exibido nessa área.
->&#x200B;>Para obter informações sobre como um administrador do [!DNL Workfront] personaliza o painel esquerdo em um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Para obter informações sobre como um administrador do [!DNL Workfront] personaliza o painel esquerdo em um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 O painel esquerdo está disponível para as seguintes áreas:
 
@@ -89,7 +89,7 @@ O painel esquerdo está disponível para as seguintes áreas:
 * [Seções padrão na área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
 * [Seções padrão na área [!UICONTROL Projetos]](#default-sections-in-the-projects-area)
 * [Seções padrão na área [!UICONTROL Folhas de horas]](#default-sections-in-the-timesheets-area)
-* [Seções padrão na área  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Seções padrão na área  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Seções padrão na área [!UICONTROL Painéis]
 
@@ -168,7 +168,7 @@ As seções a seguir são exibidas no painel esquerdo da área **[!UICONTROL Pro
         <td>Exibe todos os projetos que você tem acesso para visualizar. Use o menu suspenso [!UICONTROL Filtro] para alterar os projetos que deseja exibir</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Painéis]</strong></td>
+        <td><strong>[!UICONTROL Dashboards]</strong></td>
         <td>Você pode exibir todos os painéis adicionados pelo administrador do [!DNL Workfront] ao painel esquerdo para a área [!UICONTROL Projetos] no Modelo de layout. Esses painéis têm nomes que foram personalizados para o seu ambiente.</td>
     </tr>
 </table>
@@ -236,6 +236,7 @@ As seguintes seções são exibidas no painel esquerdo para a área **[!UICONTRO
     </tr>
 </table>
 -->
+
 Para saber como usar o painel esquerdo na área [!UICONTROL Metas], consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
 
 ## Usar o painel de navegação esquerdo
@@ -274,11 +275,11 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
 
 1. (Opcional) Para remover um link rápido do painel, passe o mouse sobre o painel na navegação à esquerda e clique no ícone **Remover** ![Ícone Remover](assets/remove-dashboard-from-left.png) quando ele aparecer.
 
-1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no ícone **&#x200B;**&#x200B;Arrastar![](assets/drag-icon.png) ao lado de uma seção e arraste-a para cima ou para baixo.
+1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no ícone ![](assets/drag-icon.png) **[!UICONTROL Arrastar]** ao lado de uma seção e arraste-a para cima ou para baixo.
 
    ![Arraste uma seção](assets/drag-section.png)
 
-1. (Opcional) Para fechar o painel esquerdo, clique no ícone **[!UICONTROL de]** Recolher![](assets/left-panel-collapse-icon.png).
+1. (Opcional) Para fechar o painel esquerdo, clique no ícone ![](assets/left-panel-collapse-icon.png) de **[!UICONTROL Recolher]**.
 
    >[!NOTE]
    >

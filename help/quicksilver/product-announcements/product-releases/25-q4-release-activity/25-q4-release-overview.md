@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '2245'
-ht-degree: 39%
+source-wordcount: '2457'
+ht-degree: 40%
 
 ---
 
@@ -36,7 +36,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >|----|----|
 >| <ul><li>25.8 (14 de agosto de 2025)</li><li>25.9 (11 de setembro de 2025)</li><li>25.10 (16 de outubro de 2025)</li></ul> | <ul><li>25.10 (16 de outubro de 2025)</li></ul> |
 >
->Observe que, para a versão final de cada trimestre (25.10 neste trimestre), os usuários no cronograma de lançamento rápido receberão a versão um dia antes (quinta-feira, 15 de outubro de 2025).
+>Observe que, para o lançamento final de cada trimestre (25.10 neste trimestre), os usuários no cronograma de lançamento rápido receberão o lançamento um dia antes (15 de outubro de 2025).
 >
 >Para obter mais informações sobre o processo de lançamento rápido, consulte [Habilitar ou desabilitar o processo de lançamento rápido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -231,15 +231,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Lançamento rápido</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
-      <!--
-      <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
-            <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
-        </td>
-        <td>August 21, 2025</td>
-        <td>September 11, 2025</td>
-        <td>October 16, 2025</td>
+    <!--
+    <tr>
+    <td>
+        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
+        <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
+    </td>
+    <td>August 21, 2025</td>
+    <td>September 11, 2025</td>
+    <td>October 16, 2025</td>
     </tr>
     -->
     <tr>
@@ -448,7 +448,7 @@ A atualização 2.1.51 incluiu atualizações internas de ferramentas e não afe
 
 Esta atualização é para Mac e Windows.
 
-## Anúncios
+## Avisos
 
 ### Nova versão do Workfront para Microsoft Teams
 
@@ -477,9 +477,9 @@ Para obter uma visão geral da Automação e Integração do Workfront, consulte
 
 ### API versão 20
 
-A versão 20 da API do Workfront foi lançada em segunda-feira, 4 de maio de 2025. Para a versão 20 da API, modificamos alguns recursos e pontos de acesso. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+A API do Workfront versão 20 foi lançada em 4 de maio de 2025. Para a API versão 20, modificamos alguns recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
-Para obter informações sobre as novidades e atualizações, consulte [Novidades na versão 20 da API](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Para obter informações sobre as versões da API, consulte [controle de versão da API e cronograma de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

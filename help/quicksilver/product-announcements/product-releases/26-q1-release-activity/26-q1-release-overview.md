@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: ed348f44-eae1-4478-8425-6114f2b310ad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '2885'
-ht-degree: 100%
+source-wordcount: '3176'
+ht-degree: 99%
 
 ---
 
@@ -115,23 +115,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
-   <tr>
+    <tr>
         <td><strong>Recurso</strong>
         </td>
         <td><strong>Pré-visualização</strong></td>
         <td><strong>Lançamento rápido</strong></td>
         <td><strong>Trimestralmente</strong></td>
-        </tr>
-       <!--
-       <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
-            <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
-            <p>The AI reviewer is currently in beta.</p>
-        </td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
+    </tr>
+    <!--
+    <tr>
+    <td>
+        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+        <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
+        <p>The AI reviewer is currently in beta.</p>
+    </td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
     </tr>
     -->
     </tr>
@@ -509,7 +509,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience agora disponível para mais organizações do Workfront</a><p></p>
             <p>Para permitir que as organizações tenham acesso aos benefícios da Experiência Unificada da Adobe, estamos continuando a disponibilizá-la para clientes do Workfront.</p>
         </td>
-        <td><p>sexta-feira, 11 de dezembro de 2025</p></td>
+        <td><p>11 de dezembro de 2025</p></td>
         <td><p>quinta-feira, 11 de fevereiro de 2026</p></td>
         <td><p>quinta-feira, 11 de fevereiro de 2026</p></td>
     <tr>
@@ -553,7 +553,7 @@ Ainda não há atualizações para o seguinte nesta versão:
 
 **Lançamento de produção para todos os clientes: 11 de dezembro de 2025**
 
-O Visualizador de prova para desktop foi atualizado da versão 2.1.52 para a 2.1.54. Essa atualização incluiu melhorias internas nas ferramentas e não impactou os recursos para o usuário final.
+O Visualizador de provas de desktop foi atualizado para da versão 2.1.52 para 2.1.54. Essa atualização incluiu atualizações internas de ferramentas e não afetou a funcionalidade do usuário final.
 
 A versão 2.1.53 também incluiu alterações internas nas ferramentas.
 
@@ -611,7 +611,7 @@ Recomendamos usar a Automação e Integração do Workfront para as necessidades
 Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
-### Atualizações de manutenção do Workfront 
+### Atualizações de manutenção do Workfront
 
 Para obter informações sobre as atualizações de manutenção feitas durante a versão do primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/releases/current-updates).
 
