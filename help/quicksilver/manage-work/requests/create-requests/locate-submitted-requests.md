@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 5%
+source-wordcount: '1411'
+ht-degree: 4%
 
 ---
 
@@ -125,7 +125,7 @@ Para exibir solicitações que você ou outros usuários enviaram na nova experi
 1. (Opcional) Para pesquisar uma solicitação, comece digitando na barra de pesquisa no canto superior direito da lista. Os resultados da pesquisa são exibidos à medida que você digita.
 1. (Opcional) Para gerenciar a forma como as informações são exibidas na lista de solicitações, atualize os seguintes elementos de exibição para a lista:
 
-   * Visualizar
+   * Exibir
    * Filtro
    * Colunas
    * Agrupamento
@@ -210,9 +210,13 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
 
    >[!TIP]
    >
-   >Se o painel Resumo já estiver aberto, o ícone Abrir resumo será alterado para Fechar resumo.
+   >* Se o painel Resumo já estiver aberto, o ícone Abrir resumo será alterado para Fechar resumo.
+   >
+   >* Se sua empresa usa o armazenamento de documentos corporativos da Adobe, não é possível adicionar documentos a solicitações de armazenamento da Adobe no painel Resumo.
+   >
+   >Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone **Fechar resumo** com texto![&#x200B; para fechar o Painel de Resumo.](assets/close-summary-with-text-nwe.png)
+1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone ![Fechar resumo **com texto](assets/close-summary-with-text-nwe.png) para fechar o Painel de Resumo.**
 
    Se um problema tiver sido convertido em uma tarefa ou projeto e tiver sido excluído no processo de conversão, o Painel de resumo ficará em branco. Para obter informações sobre a conversão de problemas, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -249,7 +253,7 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
     </tbody> 
    </table>
 
-1. (Opcional) Clique no ícone **Ícone Pesquisar** da ![página Filtro](assets/search-icon.png) na parte superior da lista para procurar uma solicitação por nome. A lista é atualizada com resultados que correspondem aos seus critérios de pesquisa.
+1. (Opcional) Clique no ícone ![Ícone Pesquisar](assets/search-icon.png) da **página Filtro** na parte superior da lista para procurar uma solicitação por nome. A lista é atualizada com resultados que correspondem aos seus critérios de pesquisa.
 
    <!--
 

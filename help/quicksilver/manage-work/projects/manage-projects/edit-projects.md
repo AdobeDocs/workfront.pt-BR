@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '8113'
+source-wordcount: '8107'
 ht-degree: 2%
 
 ---
@@ -287,7 +287,7 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
       <p><b>NOTAS</b></p>
       <ul>
       <li>Você deve ter permissões de gerenciamento no portfólio para poder adicioná-lo ou removê-lo do projeto.</li>
-      <li>Se sua empresa usa os tipos de armazenamento de documentos da Workfront e da Adobe, não é possível associar um projeto de armazenamento da Workfront a um portfólio de armazenamento da Adobe. O inverso também é verdadeiro. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.</li></ul> 
+      <li>Se sua organização usa o armazenamento corporativo herdado do Workfront e do Adobe, você não poderá copiar tarefas entre projetos que usam tipos de armazenamento diferentes. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.</li></ul> 
       Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Visão geral do gerenciamento de documentos para projetos e objetos relacionados</a>. 
       </td> 
       </tr> 
