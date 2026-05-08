@@ -89,7 +89,7 @@ O painel esquerdo está disponível para as seguintes áreas:
 * [Seções padrão na área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
 * [Seções padrão na área [!UICONTROL Projetos]](#default-sections-in-the-projects-area)
 * [Seções padrão na área [!UICONTROL Folhas de horas]](#default-sections-in-the-timesheets-area)
-* [Seções padrão na área  [!DNL Goals] ](#default-sections-in-the-goals-area)
+* [Seções padrão na área  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
 
 ### Seções padrão na área [!UICONTROL Painéis]
 
