@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1334'
 ht-degree: 2%
 
 ---
@@ -299,7 +299,7 @@ Agora, ao comentar em um documento, sua atualização aparecerá na guia Atualiz
 Ao atribuir um usuário a uma tarefa ou um problema, agora é possível ver um aviso em linha se o usuário selecionado tiver uma folga programada a qualquer momento entre as datas planejadas da tarefa ou problema.
 
 <!--
-* <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Add Fields That Represent Objects in Custom Forms</a> </MadCap:conditionalText> [ 
+  * <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Add Fields That Represent Objects in Custom Forms</a> </MadCap:conditionalText> [ 
 
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
   Add fields that represent objects in Custom Forms
