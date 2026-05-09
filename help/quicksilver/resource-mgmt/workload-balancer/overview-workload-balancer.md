@@ -7,7 +7,7 @@ description: Depois que gerentes de projeto planejam o trabalho nos projetos cri
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Depois que gerentes de projeto planejam o trabalho nos projetos criando tarefas 
 
 Este artigo descreve a finalidade geral do Balanceador de carga de trabalho e algumas das práticas recomendadas para configurar seus projetos e recursos, a fim de usá-lo de forma eficiente.
 
-Para examinar os tutoriais em vídeo do Balanceador de carga de trabalho, acesse a página [Tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR). No menu esquerdo, selecione **Gerenciar recursos** > **Balanceador de carga de trabalho** e escolha um tutorial.
+Para examinar os tutoriais em vídeo do Balanceador de carga de trabalho, acesse a página [Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR). No menu esquerdo, selecione **Gerenciar recursos** > **Balanceador de carga de trabalho** e escolha um tutorial.
 
 ## Localize o Balanceador de carga de trabalho
 

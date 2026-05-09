@@ -7,7 +7,7 @@ description: Você pode estimar e orçar a alocação dos recursos para os proje
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
 workflow-type: tm+mt
 source-wordcount: '2115'
 ht-degree: 4%
