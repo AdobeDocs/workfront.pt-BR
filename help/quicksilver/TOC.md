@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 143cb1477bb6e404907e680dfcee98a89177de60
+source-git-commit: 7c4a22a4ecf0b5919e3a4d578c93262a672197a6
 workflow-type: tm+mt
-source-wordcount: '14089'
+source-wordcount: '14106'
 ht-degree: 95%
 
 ---
@@ -1869,6 +1869,7 @@ ht-degree: 95%
    * [Revisar e aprovar trabalho](review-and-approve-work/review-and-approve-work.md)
    * [Visão geral unificada de revisão e aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+   * [Migrar para o Workfront no armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
    * [Visão geral das limitações do recurso de decisão de prova e documentos para usuários sem licenças pagas](review-and-approve-work/proof-doc-decision-limits.md)
    * {hide-from-toc}[Configurar Revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * Aprovações de trabalho {#work-approvals}
@@ -2029,6 +2030,7 @@ ht-degree: 95%
       * [Use o Adobe Experience Manager com a integração com Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
    * Dicas, truques e solução de problemas para aprovações {#ttt-approvals}
       * [Dicas, truques e solução de problemas para aprovações: índice do artigo](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Atualizar cenários do Workfront Fusion para revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)
       * [Exibir o número de decisões de prova e documento para todos os usuários](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Folhas de horas {#timesheets}
    * [Folhas de horas: índice do artigo](timesheets/timesheets-all.md)

@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: e25be455e16beee813e612b983bca1302f129e6f
+source-git-commit: 7b6d24d6a5b7fd052a3e7c97034e920e771022a6
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '436'
 ht-degree: 8%
 
 ---
@@ -74,7 +74,12 @@ A cota de armazenamento é atualizada diariamente para mostrar a contagem mais a
 
 ## armazenamento corporativo Adobe
 
-Se sua organização usa o armazenamento corporativo da Adobe, as informações do cliente mostram uma visão geral do armazenamento que divide o uso em diferentes seções para armazenamento Workfront herdado, armazenamento corporativo Adobe e Frame.io. O Workfront também aplica um limite flexível para uploads quando o uso excede a cota, para que os usuários ainda possam carregar documentos.
+<!--
+If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
+
+Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
+
+-->
 
 ### Visualizar o uso do armazenamento nas informações do cliente
 
@@ -84,8 +89,11 @@ Para verificar o armazenamento de documentos corporativos do Adobe:
 
 1. No painel esquerdo, clique em **Sistema** > **Informações do cliente**.
 1. Vá para a seção **Visão geral do armazenamento**.
-1. Visualize o uso do armazenamento corporativo da Adobe.
-   <!--Both Workfront and Frame.io usage are broken down separately, but roll up to the total usage for Adobe enterprise storage.-->
+1. Revise seu uso. A Visão geral de armazenamento mostra a cota de armazenamento em pool e divide o uso em:
+
+   * Os projetos herdados da Workfront e os projetos de armazenamento corporativo da Adobe são exibidos na barra azul.
+   * Os projetos autônomos do quadro são exibidos na barra verde. Esses projetos são separados do Workfront e só estarão disponíveis se você tiver uma licença Frame.io Enterprise.
+
 
 ![uso do armazenamento corporativo da Adobe nas Informações do cliente](assets/storage-usage.png)
 
@@ -93,6 +101,6 @@ Os números de uso são atualizados regularmente para que você veja uma contage
 
 ### Notificações por email para administradores
 
-Quando o uso ultrapassa 75%, 85% ou 100% da cota de armazenamento, a Workfront envia uma notificação por e-mail para os administradores do sistema.
+Quando o uso ultrapassa 75%, 90% ou 100% da cota de armazenamento, a Workfront envia uma notificação por e-mail para os administradores do sistema.
 
 </div>
