@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 62177a9cedcaf3155f95e91fc4ee506d7f6a04aa
+source-git-commit: 682cf24c4c7932afeb66a2e5434fe3cec887e889
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 18%
+source-wordcount: '529'
+ht-degree: 98%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 18%
 
 O Adobe Workfront lança regularmente novas versões da API, geralmente duas vezes por ano. As versões da API são compatíveis por 3 anos após o lançamento. As versões da API com mais de 3 anos não são mais compatíveis.
 
-Para obter mais informações sobre como identificar e usar versões de API, consulte [Especificar uma Versão de API em suas integrações](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
+Para obter mais informações sobre como identificar e usar versões de API, consulte [Especificar uma versão de API em suas integrações](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
-A tabela a seguir mostra a versão e a programação de suporte da API do Workfront.
+A tabela a seguir mostra a versão e o cronograma de suporte da API do Workfront.
 
 >[!NOTE]
 >
->O conector herdado do Workfront usa a API do Workfront versão 20, que está programada para ser descontinuada na versão 28.4 (abril de 2028). Os módulos no conector herdado continuarão a funcionar até esse momento.
+>O conector Workfront legado usa a API do Workfront versão 20, que está programada para ser descontinuada na versão 28.4 (abril de 2028). Os módulos no conector legado continuarão funcionando até essa data.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,26 +42,32 @@ A tabela a seguir mostra a versão e a programação de suporte da API do Workfr
  </thead> 
  <tbody> 
  <tr>
+   <td>22</td> 
+   <td> <p>8 de maio de 2026</p> </td> 
+   <td> <p>**durante 2029</p> <p>(com a versão 29.4)</p> </td> 
+   <td></td> 
+  </tr> 
+ <tr>
    <td>21</td> 
-   <td> <p>sexta-feira, 23 de outubro de 2025</p> </td> 
+   <td> <p>23 de outubro de 2025</p> </td> 
    <td> <p>**durante 2028</p> <p>(com a versão 28.10)</p> </td> 
    <td></td> 
   </tr> 
  <tr>
    <td>20</td> 
-   <td> <p>segunda-feira, 4 de maio de 2025</p> </td> 
+   <td> <p>4 de maio de 2025</p> </td> 
    <td> <p>**durante 2028</p> <p>(com a versão 28.4)</p> </td> 
    <td></td> 
   </tr> 
  <tr>
    <td>19</td> 
-   <td> <p>sexta-feira, 10 de outubro de 2024</p> </td> 
+   <td> <p>10 de outubro de 2024</p> </td> 
    <td> <p>**durante 2027</p> <p>(com a versão 27.10)</p> </td> 
    <td></td> 
   </tr> 
  <tr>
    <td>18</td> 
-   <td> <p>terça-feira, 8 de abril de 2024</p> </td> 
+   <td> <p>8 de abril de 2024</p> </td> 
    <td> <p>**durante 2027</p> <p>(com a versão 27.4)</p> </td> 
    <td></td> 
   </tr>  <tr>
@@ -80,7 +86,7 @@ A tabela a seguir mostra a versão e a programação de suporte da API do Workfr
    <td>15</td> 
    <td>Primeiro semestre de 2022</td> 
    <td>durante 2025</td> 
-   <td>sexta-feira, 18 de dezembro de 2025</td> 
+   <td>18 de dezembro de 2025</td> 
   </tr> 
   <tr> 
    <td>14</td> 
@@ -168,13 +174,13 @@ A tabela a seguir mostra a versão e a programação de suporte da API do Workfr
    <td>Obsoleto</td> 
   </tr> 
   <tr> 
-   <td>0,75</td> 
+   <td>0.75</td> 
    <td>2008</td> 
    <td> <p>Julho de 2017</p> <p>(com a versão 2017.2)</p> </td> 
    <td>Obsoleto</td> 
   </tr> 
   <tr> 
-   <td>0,5</td> 
+   <td>0.5</td> 
    <td>2008</td> 
    <td> <p>Julho de 2017</p> <p>(com a versão 2017.2)</p> </td> 
    <td>Obsoleto</td> 
@@ -182,8 +188,8 @@ A tabela a seguir mostra a versão e a programação de suporte da API do Workfr
  </tbody> 
 </table>
 
-&#42;Problemas relacionados a versões não compatíveis da API não serão solucionados pelo Workfront.
+&#42;Problemas relacionados a versões não compatíveis da API não serão tratados pelo Workfront.
 
-&#42;&#42;Datas sujeitas a alteração.
+&#42;&#42;As datas estão sujeitas a alterações.
 
 Para obter informações sobre como usar versões específicas da API, consulte [Especificar uma versão da API em suas integrações](../../wf-api/api/specify-api-version-integrations.md)
