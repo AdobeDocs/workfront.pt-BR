@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d10138467d81bbe87375d6a64e4fd5e269691808
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 1%
+source-wordcount: '944'
+ht-degree: 2%
 
 ---
 
@@ -104,8 +104,30 @@ Quando adicionado a um fluxo de trabalho de aprovação de documento, você pode
 * Miniatura do documento
 
 
+## Mapeamento de permissão para Frame.io
 
+Como parte da integração, as permissões do usuário são controladas no Workfront e fluem para o Frame.io. Isso significa que não é possível convidar um usuário para um projeto no Frame.io ou modificar permissões de usuário no Frame.io. Essas ações precisam ser feitas por meio do modal Compartilhamento de projetos no Workfront.
 
+A tabela a seguir mostra como as permissões do Workfront são mapeadas para permissões de Frame.io:
+
+<table>
+<tr>
+<th>Permissão de usuário do Workfront</th>
+<th>Permissão de usuário do Frame.io</th>
+</tr>
+<tr>
+<td>Gerenciar</td>
+<td>Editar e compartilhar</td>
+</tr>
+<tr>
+<td>Contribuir</td>
+<td>Editar e compartilhar</td>
+</tr>
+<tr>
+<td>Exibir</td>
+<td>Somente comentário</td>
+</tr>
+</table>
 
 
 
