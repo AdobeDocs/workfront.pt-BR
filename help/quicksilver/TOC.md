@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 7c4a22a4ecf0b5919e3a4d578c93262a672197a6
+source-git-commit: fe5165a858bc306348a59594692ce3912e2e531b
 workflow-type: tm+mt
-source-wordcount: '14106'
+source-wordcount: '14105'
 ht-degree: 95%
 
 ---
