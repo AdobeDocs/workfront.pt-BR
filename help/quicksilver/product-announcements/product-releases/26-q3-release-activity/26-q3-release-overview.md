@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 8c5290f5c9724fa1b382b0acf2a541fe7d3d44fa
+source-git-commit: efcb35e0d46670f581bda2943fbf74ab428f98d7
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 53%
+source-wordcount: '571'
+ht-degree: 43%
 
 ---
 
@@ -18,7 +18,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do terceiro trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -123,17 +123,11 @@ Esta atualização é para Mac e Windows.
 
 ## Avisos
 
-### API versão 21
+API versão 22
 
-A versão 21 da API do Workfront foi lançada em 23 de outubro de 2025. Para a versão 21 da API, modificamos alguns recursos e pontos de acesso. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+A API do Workfront versão 22 foi lançada em 8 de maio de 2026. Para a API versão 22, modificamos alguns recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
->[!IMPORTANT]
->
->Esta alteração na versão da API apresenta uma mudança significativa que pode afetar suas chamadas de API. Isso se deve ao fato de que a versão 21 da API usa a versão 2 das assinaturas de eventos.
->
-> Para campos de seleção múltipla, a versão 2 das Inscrições em eventos sempre é enviada como uma matriz. A versão 1 enviava uma matriz se mais de um valor fosse selecionado. Se apenas um valor fosse selecionado, ela enviaria uma string.
-
-Para obter informações sobre as novidades e atualizações, consulte [Novidades na versão 21 da API](/help/quicksilver/wf-api/api/new-api-version-21.md).
+Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 22](/help/quicksilver/wf-api/api/new-api-version-22.md).
 
 Para obter informações sobre as versões da API, consulte [controle de versão da API e cronograma de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -141,7 +135,7 @@ Para obter informações sobre as versões da API, consulte [controle de versão
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
