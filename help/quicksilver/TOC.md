@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: fe5165a858bc306348a59594692ce3912e2e531b
+source-git-commit: a0294e107bffab97b64d5c94187515a01f914190
 workflow-type: tm+mt
-source-wordcount: '14105'
+source-wordcount: '14114'
 ht-degree: 95%
 
 ---
@@ -238,6 +238,7 @@ ht-degree: 95%
          * [Outros aprimoramentos na 21.1](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Atividade de lançamento do Planejamento do Adobe Workfront{#planning-release-activity}
          * [Atividade de lançamento do Planejamento do Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Atividade da versão do terceiro trimestre de 2026 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
          * [Atividade da versão do segundo trimestre de 2026 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
          * [Atividade de lançamento do primeiro trimestre de 2026 do Planejamento do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
          * [Atividade de lançamento do quarto trimestre de 2025 do Planejamento do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)

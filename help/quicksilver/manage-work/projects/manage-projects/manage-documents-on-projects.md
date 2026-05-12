@@ -6,9 +6,9 @@ description: Dependendo de o administrador do Workfront escolher o padrão de su
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ As seções a seguir documentam como o armazenamento de documentos funciona para
 Leve em consideração o seguinte ao trabalhar com projetos:
 
 * Quando você cria um projeto de armazenamento corporativo do Adobe, o Workfront cria uma pasta na seção Documentos do projeto em que os documentos são salvos. O nome da pasta é igual ao do projeto. Não é possível excluir ou renomear manualmente a pasta. A pasta será renomeada se você alterar o nome do projeto para corresponder ao novo nome do projeto.
-* Quando você cria ou move um projeto de armazenamento corporativo da Adobe para um portfólio ou programa herdado de armazenamento da Workfront, o portfólio ou programa é convertido automaticamente em um objeto de armazenamento corporativo da Adobe.
+* Quando você cria ou move um projeto de armazenamento corporativo da Adobe para um portfólio ou programa herdado de armazenamento corporativo da Workfront, o portfólio ou programa é convertido automaticamente em um objeto de armazenamento corporativo da Adobe se o portfólio ou programa não tiver documentos anexados antes da adição do projeto.
 * Não é possível criar um projeto de armazenamento da Workfront para um portfólio ou programa de armazenamento corporativo da Adobe.
 * Quando você importa um projeto do MS Project, a Workfront cria um projeto de armazenamento Workfront, mesmo quando o administrador do Workfront tornou o armazenamento Adobe Enterprise padrão para o seu sistema.
 * Quando você cria projetos usando uma automação do Workfront Planning, o Workfront usa a preferência de armazenamento padrão do sistema para o projeto. Você deve adquirir o pacote do Planning para ter acesso ao Workfront Planning.
@@ -141,9 +141,11 @@ Leve em consideração o seguinte ao trabalhar com projetos:
 Considere o seguinte ao trabalhar com portfólios:
 
 * Quando você cria um portfólio de armazenamento corporativo da Adobe, a Workfront cria uma pasta na seção Documentos do portfólio em que os documentos são salvos. O nome da pasta é igual ao do portfólio. Não é possível excluir ou renomear manualmente a pasta. A pasta será renomeada se você alterar o nome do portfólio para corresponder ao novo nome dele.
-* Quando você cria ou move um projeto de armazenamento corporativo da Adobe para um portfólio de armazenamento corporativo herdado da Workfront, o portfólio é convertido automaticamente em um objeto de armazenamento corporativo da Adobe.
-* Se o portfólio convertido anteriormente tinha documentos anexados, eles continuam armazenados no armazenamento da Workfront. Novos documentos também são armazenados no armazenamento do Workfront.
-* Se o portfólio convertido não tiver documentos anexados ao armazenamento da Workfront, os novos documentos serão armazenados no armazenamento corporativo da Adobe.
+
+* Quando você adiciona um projeto de armazenamento Adobe a um portfólio de armazenamento Workfront e o portfólio não tem documentos anexados a ele, o portfólio é convertido em um portfólio de armazenamento Adobe.
+* Quando você adiciona um projeto de armazenamento da Adobe a um portfólio de armazenamento da Workfront e o portfólio tem documentos anexados a ele, o armazenamento de documentos do portfólio permanece no armazenamento da Workfront. No entanto, o ícone de armazenamento herdado do Workfront para o portfólio ![ícone de armazenamento herdado do portfólio](assets/legacy-storage-project-icon.png) é removido do portfólio.
+* Não é possível adicionar um projeto de armazenamento Workfront a um portfólio de armazenamento Adobe.
+
 * Ao criar portfólios usando uma automação do Workfront Planning, a Workfront usa a preferência de armazenamento padrão do sistema para o portfólio. Você deve adquirir o pacote do Planning para ter acesso ao Workfront Planning.
 
 ### Gerenciamento de documentos para programas
@@ -151,9 +153,11 @@ Considere o seguinte ao trabalhar com portfólios:
 Leve em consideração o seguinte ao trabalhar com programas:
 
 * Quando você cria um programa de armazenamento corporativo Adobe, a Workfront cria uma pasta na seção Documentos do programa em que os documentos são salvos. O nome da pasta é igual ao nome do programa. Não é possível excluir ou renomear manualmente a pasta. A pasta será renomeada se você alterar o nome do programa para corresponder ao novo nome do programa.
-* Quando você cria ou move um projeto de armazenamento corporativo da Adobe para um portfólio de armazenamento corporativo herdado da Workfront, o portfólio é convertido automaticamente em um objeto de armazenamento corporativo da Adobe.
-* Se o programa convertido anteriormente tinha documentos anexados, eles continuam armazenados no armazenamento do Workfront. Novos documentos também são armazenados no armazenamento do Workfront.
-* Se o programa convertido não tiver documentos anexados ao armazenamento do Workfront, novos documentos serão armazenados no armazenamento corporativo da Adobe.
+
+* Quando você adiciona um projeto Adobe-storage a um programa Workfront-storage e o programa não tem documentos anexados a ele, ele é convertido em um programa Adobe-storage.
+* Quando você adiciona um projeto Adobe-storage a um programa Workfront-storage e o programa tem documentos anexados a ele, o armazenamento de documentos do programa permanece no armazenamento da Workfront. No entanto, o ícone de armazenamento herdado do Workfront para o programa ![Ícone de armazenamento herdado do portfólio](assets/legacy-storage-project-icon.png) foi removido do programa.
+* Não é possível adicionar um projeto Workfront-storage a um programa Adobe-storage.
+
 * Quando você cria programas usando uma automação do Workfront Planning, a Workfront usa a preferência de armazenamento padrão do sistema para o programa. Você deve adquirir o pacote do Planning para ter acesso ao Workfront Planning.
 
 ### Gerenciamento de documentos para tarefas

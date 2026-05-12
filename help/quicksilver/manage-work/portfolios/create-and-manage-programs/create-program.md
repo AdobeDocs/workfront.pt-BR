@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1278'
 ht-degree: 5%
 
 ---
@@ -106,13 +106,18 @@ Você pode criar um programa no Workfront usando um dos seguintes métodos:
   Para obter informações sobre como importar dados usando o kick-starts no Workfront, consulte [Importar dados para o Adobe Workfront usando um modelo de Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 
-* Adicione programas à medida que você os conecta de um tipo de registro no Workfront Planning.
+* Crie programas do Workfront Planning das seguintes maneiras:
 
-  Você deve ter um pacote adicional do Workfront Planning.
+   * Ao conectá-los a partir de um tipo de registro no Workfront Planning.
 
-  Para obter informações sobre o acesso ao Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+  Para obter informações sobre como criar programas adicionando-os a registros, consulte a seção &quot;Criar registros ao conectá-los&quot; no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
+   * Uso das automações do Workfront Planning.
 
-  Para obter informações sobre como criar portfólios adicionando-os a registros, consulte a seção &quot;Criar registros conforme você os conecta&quot; no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
+  Para obter informações, consulte [Criar objetos usando as automações de registro do Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+  Você deve ter uma nova licença do Workfront e um pacote adicional do Workfront Planning para o Workfront Planning.
+
+  Para obter informações sobre o acesso ao Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
 
 ## Criar um programa
 

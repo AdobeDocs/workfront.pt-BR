@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 4%
+source-wordcount: '884'
+ht-degree: 3%
 
 ---
 
@@ -97,13 +97,18 @@ Você pode criar portfólios no Workfront usando um dos seguintes métodos:
 
   Para obter informações sobre como importar dados usando o kick-starts no Workfront, consulte [Importar dados para o Adobe Workfront usando um modelo de Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-* Adicione portfólios à medida que você os conecta a partir de um tipo de registro no Workfront Planning.
+* Adicione portfólios do Workfront Planning das seguintes maneiras:
 
-  Você deve ter uma nova licença do Workfront e uma licença adicional do Workfront Planning para o Workfront Planning.
-
-  Para obter informações sobre o acesso ao Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
+   * Ao conectá-los a partir de um tipo de registro no Workfront Planning.
 
   Para obter informações sobre como criar portfólios adicionando-os a registros, consulte a seção &quot;Criar registros conforme você os conecta&quot; no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
+   * Uso das automações do Workfront Planning.
+
+  Para obter informações, consulte [Criar objetos usando as automações de registro do Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+  Você deve ter uma nova licença do Workfront e um pacote adicional do Workfront Planning para o Workfront Planning.
+
+  Para obter informações sobre o acesso ao Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
 
 
 ## Criar um portfólio
@@ -111,8 +116,35 @@ Você pode criar portfólios no Workfront usando um dos seguintes métodos:
 {{step1-click-main-menu}}
 
 1. Clique em **[!UICONTROL Portfólios]**.
-1. Clique em **[!UICONTROL Novo Portfolio]**.
-1. Substitua **[!UICONTROL Portfolio]** sem título pelo nome desejado para o portfólio.
+
+1. (Condicional) Dependendo de qual armazenamento de documentos sua organização está usando, clique em uma das opções a seguir:
+
+   * **Novo portfólio**, quando o administrador do Workfront escolhe **Adobe Enterprise** ou **Workfront herdado** e selecionou ou não a configuração **Permitir que o usuário selecione o provedor de armazenamento**.
+   * **Novo portfólio (Armazenamento herdado)**, quando o administrador do Workfront escolhe **Adobe Enterprise** ou **Workfront herdado** e também selecionou a configuração **Permitir que o usuário selecione o provedor de armazenamento**.
+
+     Esta opção é exibida somente quando a configuração **Permitir que o usuário selecione o provedor de armazenamento** é selecionada na área Instalação.
+
+     Para obter mais informações, consulte [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+     >[!NOTE]
+     >
+     >Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
+
+     Um portfólio é criado e seu nome padrão segue os seguintes padrões, dependendo de qual armazenamento o Workfront usa para documentos:
+
+      * `Untitled Portfolio` para um portfólio de armazenamento da Workfront.
+
+        Um portfólio de armazenamento Workfront exibe um **ícone de armazenamento herdado do Workfront** ![ícone de portfólio de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado de seu nome.
+
+      * `Untitled Portfolio - < Month day, year hour.minute.second >` para um portfólio de armazenamento da Adobe
+
+        >[!IMPORTANT]
+        >
+        >Os portfólios que usam o armazenamento corporativo da Adobe devem ter nomes exclusivos.
+
+     Para portfólios de armazenamento do Adobe, uma nova pasta de documentos com o mesmo nome do portfólio é criada automaticamente na área Documentos.
+
+1. Substitua o nome do portfólio por um novo nome no cabeçalho do portfólio.
 
    O nome pode conter até 255 caracteres.
 

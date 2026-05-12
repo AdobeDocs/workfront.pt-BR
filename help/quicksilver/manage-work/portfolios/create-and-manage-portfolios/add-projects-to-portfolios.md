@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 4%
+source-wordcount: '637'
+ht-degree: 3%
 
 ---
 
@@ -152,6 +152,8 @@ Old:
     </tbody> 
    </table>
 
+   <!-- update screen shot for both kinds of storages??-->
+
    ![Lista suspensa de novos projetos](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Condicional) Se você optou por adicionar um projeto existente, a caixa **Adicionar projetos** será aberta. <!--check this after UI changes-->
@@ -161,6 +163,19 @@ Old:
 1. Comece digitando o nome de um projeto no campo **[!UICONTROL Adicionar projetos a este Portfolio]** e clique neles quando eles aparecerem na lista.  <!--check this after UI changes-->
 
    Você pode adicionar mais de um projeto.
+
+   >[!NOTE]
+   >
+   >Se sua organização usar o armazenamento de documentos corporativos herdados do Workfront e do Adobe, os seguintes cenários existem:
+   >
+   >
+   >* Quando você adiciona um projeto de armazenamento Adobe a um portfólio de armazenamento Workfront e o portfólio não tem documentos anexados a ele, o portfólio é convertido em um portfólio de armazenamento Adobe.
+   >* Quando você adiciona um projeto de armazenamento da Adobe a um portfólio de armazenamento da Workfront e o portfólio tem documentos anexados a ele, o armazenamento de documentos do portfólio permanece no armazenamento da Workfront. No entanto, o ícone de armazenamento herdado do Workfront ![ícone de armazenamento herdado do Workfront](assets/legacy-storage-project-icon.png) é removido do portfólio.
+   >* Não é possível adicionar um projeto de armazenamento Workfront a um portfólio de armazenamento Adobe.
+   >
+   >Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+   >
+   >Nem todas as instâncias do Workfront têm ambos os tipos de armazenamentos de documentos.
 
 1. (Opcional) Clique no ícone **X** à direita do nome do projeto para removê-lo da lista, caso decida não adicioná-lo ao portfólio.
 
