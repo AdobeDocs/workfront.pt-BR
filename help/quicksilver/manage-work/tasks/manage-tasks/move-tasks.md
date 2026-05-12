@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1417'
 ht-degree: 4%
 
 ---
@@ -119,6 +119,10 @@ Considere o seguinte ao mover uma tarefa:
 
    * Etapas
 
+* Se sua organização usa o armazenamento corporativo herdado do Workfront e do Adobe, você não pode mover tarefas entre projetos que usam tipos de armazenamento diferentes.
+
+  Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Mover tarefas em uma lista
 
 {{step1-to-projects}}
@@ -139,7 +143,7 @@ Considere o seguinte ao mover uma tarefa:
 
    * Clique no **Mais** ícone ![Mais](assets/main-more-icon.png) na parte superior da lista de tarefas e clique em **Mover para**.
    * Clique com o botão direito do mouse nas tarefas selecionadas e clique em **Mover para**.
-   * Ao selecionar uma tarefa, clique no ícone **Mais** do menu ![Mais](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista e clique em **Mover para**.
+   * Ao selecionar uma tarefa, clique no ícone ![Mais **do menu** Mais](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista e clique em **Mover para**.
 
    A caixa **Mover Tarefa** é exibida.
 
@@ -271,7 +275,7 @@ Além de mover tarefas de uma lista de tarefas, você pode mover uma tarefa no n
 
    A tarefa é exibida na lista.
 
-   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >
