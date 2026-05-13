@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '679'
 ht-degree: 5%
 
 ---
@@ -178,12 +178,16 @@ Considere o seguinte:
 
    A visualização do registro é aberta na exibição.
 
+   <!--update screen shot for new details views preview-->
+
    ![Caixa de visualização de detalhes](assets/details-box.png)
 
 
-1. (Opcional) Clique no ícone **Abrir em nova guia**![&#x200B; no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.](assets/open-details-in-a-new-tab-icon.png)<!--check the icon; they are changing it-->
+1. (Opcional) Clique no ícone ![Abrir em nova guia **<!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.**](assets/open-details-in-a-new-tab-icon.png)
 
    A página de registro é aberta.
+
+   <!--update screen shot for new details views preview-->
 
    ![Página de detalhes](assets/details-page.png)
 
@@ -207,6 +211,8 @@ A caixa **Capa de registro** é aberta na guia **Carregar**.
 1. Clique em **Usar imagem**.
 
    A imagem é carregada na parte superior da página de visualização ou detalhes do registro e as alterações são salvas automaticamente.
+
+   <!--update screen shot for new details views preview-->
 
    ![Gravar página com imagem de capa](assets/record-page-with-cover-image.png)
 
