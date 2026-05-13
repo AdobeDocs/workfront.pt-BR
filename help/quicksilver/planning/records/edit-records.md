@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2954'
 ht-degree: 1%
 
 ---
@@ -319,6 +319,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    Na exibição de tabela, clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) na primeira coluna. A visualização do registro é aberta na exibição.
 
+   <!--update screenshot for new details views preview-->
+
    ![Caixa Detalhes](assets/details-box.png)
 
 1. (Opcional) Clique no menu **Mais** à direita do título do registro e clique em **Renomear**. Isso atualiza o campo que é exibido como o título do registro.
@@ -373,6 +375,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
      ![Menu contextual da linha de registro](assets/contextual-menu-for-record-row.png)
 
      A página de registro é aberta.
+
+     <!--update screenshot for new details views preview-->
 
      ![Página de detalhes](assets/details-page.png)
 

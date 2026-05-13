@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 5%
 
 ---
@@ -65,9 +65,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 {{step1-click-profile-pic}}
 
-1. Clique no ícone **[!UICONTROL Mais]** ![Mais ícone](assets/more-icon.png) ao lado do seu nome e clique em **[!UICONTROL Editar]**.
+1. Clique no ícone **[!UICONTROL Mais]** ![Mais ícone](assets/more-icon.png) ao lado do seu nome e clique em **[!UICONTROL Editar Usuário]**.
 
-1. Na caixa **[!UICONTROL Editar Pessoa]** exibida, vá para a seção **[!UICONTROL Notificações]**.
+1. Na caixa **[!UICONTROL Editar Usuário]** que é exibida, vá para a seção **[!UICONTROL Notificações]**.
 
 1. Clique em uma categoria para exibir as configurações de notificação relacionadas a essa categoria.
 
@@ -83,10 +83,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    Na categoria **[!UICONTROL Comunicação]**, você pode selecionar notificações individuais somente para entrega instantânea. Para que as notificações sejam entregues em um resumo diário, selecione todas elas.
 
-   Se todas as notificações por email de uma determinada categoria estiverem ativadas, a caixa no título da categoria será exibida como selecionada. Se todas as notificações por email em uma determinada categoria estiverem desativadas, a caixa será desmarcada. Se algumas notificações forem ativadas e outras forem desativadas, a caixa de seleção de categoria aparecerá como uma linha reta.\
+   Se todas as notificações por email de uma determinada categoria estiverem ativadas, a caixa no título da categoria será exibida como selecionada. Se todas as notificações por email em uma determinada categoria estiverem desativadas, a caixa será desmarcada. Se algumas notificações forem ativadas e outras forem desativadas, a caixa de seleção de categoria aparecerá como uma linha reta.
+
    Quando você modifica uma configuração de notificação, o rótulo **[!UICONTROL Editado]** é exibido para essa configuração de notificação, para que você saiba que a configuração de notificação foi modificada.
 
-1. Se você selecionou alguma notificação para ser enviada como resumo diário, selecione a hora do dia que deseja recebê-la na parte superior da seção **[!UICONTROL Notificações]** no menu **[!UICONTROL Resumo diário por email após]**.
+1. Se você selecionou alguma notificação para ser enviada como resumo diário, selecione a hora do dia que deseja recebê-la na parte superior da seção **[!UICONTROL Notificações]** no menu **[!UICONTROL Resumo diário de emails após]**.
 
    ![Hora de escolha do Resumo Diário](assets/digest-time-stamp-my-settings-350x78.png)
 
@@ -97,4 +98,4 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    ![Receber emails da sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. Clique em **[!UICONTROL Salvar alterações]**.
+1. Clique em **[!UICONTROL Salvar]**.
