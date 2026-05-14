@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 4%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 4%
 
 Um espaço de trabalho é uma coleção de tipos de registro usados por uma unidade organizacional e representa o ciclo de vida e os processos de trabalho da unidade. Você pode personalizar totalmente os espaços de trabalho no Adobe Workfront Planning.
 
+<!--update screenshot with preview-->
 
 ![Conta de administrador da página de aterrissagem do Workspaces](assets/workspaces-landing-page-admin-account.png)
 
@@ -51,7 +52,18 @@ Um espaço de trabalho é uma coleção de tipos de registro usados por uma unid
       * **Espaços de trabalho em que estou**: exibe os espaços de trabalho que você criou ou os espaços de trabalho que são compartilhados com você.
       * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema.
 
+     <!--
+      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      -->
+
+     <!--      
+        >[!NOTE]
+        >
+        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
+        -->
+
    * Para todos os outros usuários, os espaços de trabalho que eles criaram e os espaços de trabalho que outros compartilharam com eles são exibidos na área Espaços de trabalho.
+  <!--* <span class="preview">**Sample workspaces**: Displays for Standard-license users when a Workfront administrator shared the workspaces on the tab with them. The tab displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span> -->
 
 * Os tipos de registro que um espaço de trabalho contém devem refletir o ciclo de vida do trabalho e os conceitos de uma unidade organizacional.
 
