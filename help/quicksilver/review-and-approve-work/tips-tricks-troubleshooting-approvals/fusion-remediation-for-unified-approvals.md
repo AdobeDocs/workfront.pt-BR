@@ -6,9 +6,9 @@ description: Inventarie, classifique e corrija cenários do Workfront Fusion cri
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 722ba7f6617e3ccc1a1dcbf51f5d539c550617ab
+source-git-commit: 0a635f80338cef38dec7d32391596ca9ccd2fd6c
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '804'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ Os cenários do Fusion existentes criados no Workfront Proof dependem de módulo
 
 | Tipo de cenário | Impacto | Caminho para frente |
 |---|---|---|
-| Criação e roteamento de prova | Quebras | Recriar usando a API de aprovações unificadas |
-| Webhooks de status de prova | Quebras | Recriar com novos acionadores de evento de aprovação |
-| Acionadores de upload de documento | Parcial: é necessário testar novamente | Auditoria e teste novamente após a migração |
+| Criação e roteamento de prova | Quebras | Reconstruir usando a API de aprovações unificadas no terceiro trimestre de 2026 |
+| Webhooks de status de prova | Quebras | Recriar com novos acionadores de evento de aprovação no terceiro trimestre de 2026 |
+| Acionadores de upload de documento | Parcial: é necessário testar novamente | Auditoria e reteste após a migração no terceiro trimestre de 2026 |
 | Notificações de lembrete de aprovação | Quebras | Substituir pelos prazos finais do modelo de aprovação |
 | Encaminhamento de decisão de aprovação | Quebras | Recriar usando novos campos de status de decisão |
 | Relatórios de aprovação personalizados | Parcial: os nomes de campo podem mudar | Mapear campos herdados para o novo esquema |
