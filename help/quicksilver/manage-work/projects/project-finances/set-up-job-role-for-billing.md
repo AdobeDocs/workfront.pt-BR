@@ -7,9 +7,9 @@ description: O Workfront permite cobrar de um usuário uma função de trabalho 
 author: Lisa
 feature: Work Management
 exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '683'
 ht-degree: 5%
 
 ---
@@ -79,7 +79,7 @@ Para atribuir uma função de cargo para faturamento no nível do projeto:
 1. Selecione a **Função de trabalho** a ser usada como a função de trabalho para cobrança para este usuário neste projeto.
 1. (Opcional) Clique em **Adicionar função de trabalho** para definir datas de efetivação para a função de trabalho para cobrança. Insira as datas de **Início** e **Término** para a função de trabalho.
 
-[Adicionar função de trabalho para faturamento no nível do projeto](assets/jrfb-project-level.png)
+   ![Adicionar função de trabalho para cobrança no nível do projeto](assets/jrfb-project-level.png)
 
 1. Clique em **Adicionar função de trabalho** novamente para especificar funções de cobrança adicionais para diferentes períodos.
 1. Clique em **Salvar**.
