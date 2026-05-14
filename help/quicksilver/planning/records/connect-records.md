@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
 workflow-type: tm+mt
-source-wordcount: '3445'
+source-wordcount: '3546'
 ht-degree: 2%
 
 ---
@@ -473,7 +473,7 @@ Para conectar registros a objetos do Experience Manager:
      >
      >* Um campo de registro vinculado aos registros vinculados do Workfront Planning não é criado para os ativos vinculados do Experience Manager no aplicativo do Experience Manager Assets.
 
-1. (Opcional e condicional) Para ativos, vá para o tipo de registro vinculado ao Experience Manager e clique no nome de um ativo no campo de registro vinculado. Os detalhes do Experience Manager do ativo são exibidos em uma janela pop-up. <!--not sure if this is also possible for fragments??-->
+1. (Opcional e condicional) Vá para o tipo de registro vinculado ao Experience Manager a partir de e clique no nome de um ativo no campo de registro vinculado. Os detalhes do Experience Manager do ativo são exibidos em uma janela pop-up. <!--not sure if this is also possible for fragments??-->
 
    ![Janela pop-up de ativo com detalhes e miniatura do AEM](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -489,13 +489,17 @@ Para conectar registros a objetos do Experience Manager:
    * Data de criação
    * Data de modificação
 
-1. (Opcional e condicional) Para ativos, para abrir a página de registro de ativos da Experience Manager no Experience Manager, vá para a página de tipo de registro do registro a partir do qual você está vinculando, clique no nome de um ativo no campo de registro vinculado para abrir a janela pop-up e clique no ícone **Abrir no AEM** no ícone ![&#x200B; para abrir o ativo. &#x200B;](assets/open-asset-icon.png)<!--not sure if this is also possible for fragments??-->
+     >[!TIP]
+     >
+     >A janela de detalhes do objeto Experience Manager é exibida em qualquer lugar no Planning onde o objeto conectado é exibido. Por exemplo, é possível abrir as janelas de detalhes para objetos AEM na janela de tabela ou na área Detalhes de um registro.
+
+1. (Opcional e condicional) Para abrir a página de registro do ativo ou fragmento do Experience Manager no Experience Manager, vá para a página de tipo do registro do qual você está vinculando, clique no nome de um ativo no campo de registro vinculado para abrir a janela pop-up e clique no ícone ![Abrir ativo no ícone do AEM](assets/open-asset-icon.png) do **Abrir no AEM** para abrir o ativo. <!--not sure if this is also possible for fragments??-->
 
    Isso abre o ativo Experience Manager no Adobe Experience Manager Assets.
 
-1. (Opcional e condicional) Para ativos, na exibição de tabela do tipo de registro, passe o mouse sobre o cabeçalho da coluna do ativo vinculado do Experience Manager, clique no menu suspenso e, em seguida, clique em **Editar campos de pesquisa**. <!--not sure if this is also possible for fragments??-->
+1. (Opcional e condicional) Na exibição de tabela do tipo de registro, passe o mouse sobre o cabeçalho da coluna do ativo ou fragmento vinculado do Experience Manager, clique no menu suspenso e clique em **Editar campos de pesquisa**. <!--not sure if this is also possible for fragments??-->
 
-1. Adicionar campos de objeto do Experience Manager Assets da área **de** campos não selecionados<!--not sure if this is also possible for fragments??-->
+1. Adicionar campos de objeto do Experience Manager Assets da área <!--not sure if this is also possible for fragments??--> de **campos não selecionados**
 
    Ou
 
