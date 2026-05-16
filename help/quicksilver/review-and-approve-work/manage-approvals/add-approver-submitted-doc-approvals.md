@@ -6,7 +6,7 @@ description: Você pode adicionar outros aprovadores a uma aprovação de docume
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 19%
@@ -28,7 +28,7 @@ Você pode adicionar outros aprovadores a uma aprovação de documento diretamen
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td><p>Qualquer pacote do Workfront para gerenciar aprovações usando o armazenamento herdado do Workfront</p>
-<p>Qualquer pacote de fluxo de trabalho para gerenciar aprovações usando o armazenamento corporativo da Adobe</p> </td> 
+<p>Qualquer pacote de fluxo de trabalho para gerenciar aprovações usando o Adobe Cloud Storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 

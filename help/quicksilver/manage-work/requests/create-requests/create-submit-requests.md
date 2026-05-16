@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 3%
@@ -312,7 +312,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
       <td> <p>Adicione documentos à sua solicitação. </p> <p> Dependendo de como a fila de solicitações foi configurada, a seção Documentos pode ser exibida antes ou depois dos campos personalizados. </p> <p>Os documentos que você carrega no Workfront são armazenados por 24 horas em uma solicitação em rascunho. Depois disso, você deverá reanexá-los quando retornar para editar e submeter o rascunho. Os documentos vinculados a partir de outras unidades são salvos no rascunho permanentemente. </p> 
       <p>Dependendo do tipo de armazenamento de documento selecionado pelo administrador do Workfront para o seu ambiente, os documentos anexados a solicitações serão adicionados ao seguinte:</p>
       <ul><li>Para solicitações que usam o armazenamento do Workfront, os documentos são adicionados à seção Documentos da solicitação recém-criada.</li>
-      <li>Para solicitações que usam o armazenamento corporativo Adobe, os documentos são adicionados a uma pasta recém-criada com o mesmo nome da solicitação, adicionada automaticamente à solicitação durante o processo de envio. </li></ul>
+      <li>Para solicitações que usam o Adobe Cloud Storage, os documentos são adicionados a uma pasta recém-criada com o mesmo nome da solicitação, adicionada automaticamente à solicitação durante o processo de envio. </li></ul>
       <p>Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.</p>
       <p>O tipo de armazenamento de problemas e solicitações é herdado do projeto. </p>
       <p>Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Visão geral do gerenciamento de documentos para projetos e objetos relacionados</a>.</p> 

@@ -6,10 +6,10 @@ description: Você pode usar o Supervisor de Conteúdo para vincular conteúdo o
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: ab868314aef0924906ca69e82a10ece130484ba7
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 5%
+source-wordcount: '1432'
+ht-degree: 4%
 
 ---
 
@@ -93,15 +93,15 @@ Para vincular conteúdo:
    <table style="table-layout:auto">
    <tbody>
       <tr>
-         <td><strong>Pesquise por ativos usando Pesquisas com IA.</strong> Use a pesquisa habilitada por IA que entenda o significado e a intenção por trás das consultas, oferecendo suporte a vários idiomas, erros de digitação e sinônimos.</td>
+         <td><strong>Pesquisar ativos usando Pesquisas com IA.</strong> Use a pesquisa baseada em IA que entende o significado e a intenção por trás das consultas, oferecendo suporte a vários idiomas, erros de digitação e sinônimos.</td>
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">Pesquisa com IA para descoberta de ativos mais inteligente</a>.</td>
       </tr>
       <tr>
-         <td><strong>Exiba sugestões inteligentes com base no contexto e na intenção.</strong> Descubra ativos que se alinham às suas necessidades de conteúdo usando as recomendações com reconhecimento de contexto do aplicativo host Adobe.</td>
+         <td><strong>Exibir sugestões inteligentes com base no contexto e na intenção.</strong> Descubra ativos que se alinham às suas necessidades de conteúdo usando as recomendações com reconhecimento de contexto do aplicativo host do Adobe.</td>
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Sugestões inteligentes com base no contexto e na intenção</a>.</td>
       </tr>
       <tr>
-         <td><strong>Carregue um resumo da campanha para descobrir ativos relevantes.</strong> Carregue um documento de resumo da campanha do PDF, DOCX ou TXT para que o Supervisor de Conteúdo possa analisá-lo e recomendar ativos relevantes.</td>
+         <td><strong>Carregue um resumo da campanha para descobrir ativos relevantes.</strong> Faça upload de um documento de resumo da campanha PDF, DOCX ou TXT para que o Supervisor de conteúdo possa analisá-lo e recomendar ativos relevantes.</td>
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Resumos da campanha para descobrir ativos relevantes</a>.</td>
       </tr>
       <tr>
@@ -109,27 +109,27 @@ Para vincular conteúdo:
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Representações de ativos do Dynamic Media disponíveis para uso</a>.</td>
       </tr>
       <tr>
-         <td><strong>Aplicar modificadores do Dynamic Media a representações.</strong> Adicione modificadores para transformar representações de ativos em tempo real e visualize os resultados antes de selecionar uma representação para seu aplicativo host.</td>
+         <td><strong>Aplicar modificadores do Dynamic Media a representações.</strong> Adicione modificadores para transformar representações de ativos em tempo real e visualizar os resultados antes de selecionar uma representação para seu aplicativo de host.</td>
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Representações de ativos do Dynamic Media disponíveis para uso</a>.</td>
       </tr>
       <tr>
-         <td><strong>Descubra e procure os Fragmentos de conteúdo.</strong> Pesquise por fragmentos de conteúdo, visualize visualizações de miniaturas em tempo real, verifique o status (Rascunho, Modificado ou Publicado) e inspecione propriedades, referências e variações detalhadas.</td>
+         <td><strong>Descobrir e procurar fragmentos de conteúdo.</strong> Pesquise por fragmentos de conteúdo, visualize visualizações em miniatura em tempo real, verifique o status (Rascunho, Modificado ou Publicado) e inspecione propriedades, referências e variações detalhadas.</td>
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Descoberta de fragmentos de conteúdo</a>.</td>
       </tr>
       <tr>
-         <td><strong>Acessar metadados de ativos.</strong> Examine as propriedades do ativo, como título, descrição, formato, tamanho e outras guias de metadados (Produto, Campanha, Marcas) compatíveis com o modo de exibição do Assets.</td>
+         <td><strong>Acessar metadados de ativos.</strong> Revise as propriedades do ativo, como título, descrição, formato, tamanho e outras guias de metadados (Produto, Campanha, Tags) consistentes com a exibição do Assets.</td>
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Acessar metadados de ativos consistentes com a exibição do Assets</a>.</td>
       </tr>
       <tr>
-         <td><strong>Filtre ativos usando filtros predefinidos.</strong> Refine os resultados do ativo usando filtros como Tipo de Arquivo, Formato de Arquivo, Status do Ativo, Tamanho do Arquivo, Largura da Imagem, Altura da Imagem, Data de Modificação e Data de Criação.</td>
+         <td><strong>Filtrar ativos usando filtros predefinidos.</strong> Refine os resultados do ativo usando filtros como Tipo de arquivo, Formato de arquivo, Status do ativo, Tamanho do arquivo, Largura da imagem, Altura da imagem, Data de modificação e Data de criação.</td>
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Acessar filtros consistentes com a exibição do Assets</a>.</td>
       </tr>
       <tr>
-         <td><strong>Salve e reutilize pesquisas.</strong> Crie pesquisas salvas especificando um termo de pesquisa e opções de filtro, e depois reutilize-as no Experience Manager Assets e em outros aplicativos da Adobe.</td>
+         <td><strong>Salvar e reutilizar pesquisas.</strong> Crie pesquisas salvas especificando um termo de pesquisa e opções de filtro, depois reutilize-as no Experience Manager Assets e em outros aplicativos da Adobe.</td>
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Acessar e reutilizar pesquisas recentes e salvas</a>.</td>
       </tr>
       <tr>
-         <td><strong>Pesquise por ativos nas coleções e dentro delas.</strong> Pesquise ativos ou coleções em todas as coleções ou limite a pesquisa a uma coleção específica.</td>
+         <td><strong>Pesquisar ativos entre e dentro de coleções.</strong> Pesquise ativos ou coleções em todas as coleções ou limite a pesquisa a uma coleção específica.</td>
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Pesquisar ativos em e dentro de coleções</a>.</td>
       </tr>
    </tbody>
@@ -183,7 +183,7 @@ Para vincular uma pasta:
 
 ## Considerações
 
-* A funcionalidade Supervisor de conteúdo não está disponível para objetos que usam o Adobe Enterprise Storage. Se sua organização usar o Adobe Enterprise Storage, você ainda poderá vincular ativos e pastas do Experience Manager Assets ou do Assets Essentials, mas não terá acesso aos recursos do Supervisor de conteúdo, como Pesquisas com IA, sugestões inteligentes ou representações do Dynamic Media. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+* A funcionalidade Supervisor de Conteúdo não está disponível para objetos que usam o armazenamento em nuvem do Adobe. Se sua organização usar o armazenamento em nuvem da Adobe, ainda será possível vincular ativos e pastas do Experience Manager Assets ou do Assets Essentials, mas você não terá acesso aos recursos do Supervisor de conteúdo, como Pesquisas com IA, sugestões inteligentes ou representações do Dynamic Media. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 * A funcionalidade Supervisor de conteúdo não está disponível para o Assets Essentials. Para vincular ativos e pastas do Assets Essentials, consulte [Vincular ativos e pastas do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
 

@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1468'
 ht-degree: 7%
 
 ---
@@ -88,7 +88,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 Antes de começar,
 
 * Você deve ter [!DNL Workfront] e [!DNL Adobe Experience Manager Assets] associados a uma ID de organização na [!DNL Adobe Admin Console]. Para obter mais informações, consulte [Diferenças de administração baseadas em plataforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-* Sua instância do Workfront deve usar o armazenamento corporativo da Adobe.
+* Sua instância do Workfront deve estar usando o Adobe Cloud Storage.
 
 
 ## Configurar as informações de integração

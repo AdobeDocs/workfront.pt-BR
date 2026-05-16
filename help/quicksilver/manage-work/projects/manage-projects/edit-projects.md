@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '8107'
+source-wordcount: '8112'
 ht-degree: 2%
 
 ---
@@ -287,7 +287,7 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
       <p><b>NOTAS</b></p>
       <ul>
       <li>Você deve ter permissões de gerenciamento no portfólio para poder adicioná-lo ou removê-lo do projeto.</li>
-      <li>Se sua organização usa o armazenamento corporativo herdado do Workfront e do Adobe, você não poderá copiar tarefas entre projetos que usam tipos de armazenamento diferentes. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.</li></ul> 
+      <li>Se sua organização usa o armazenamento em nuvem herdado do Workfront e do Adobe, não é possível copiar tarefas entre projetos que usam tipos de armazenamento diferentes. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.</li></ul> 
       Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Visão geral do gerenciamento de documentos para projetos e objetos relacionados</a>. 
       </td> 
       </tr> 
@@ -297,7 +297,7 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
       <p><b>NOTAS</b></p>
       <ul>
       <li>Você deve ter permissões de gerenciamento no programa para poder adicioná-lo ou removê-lo no projeto.</li>
-      <li>Se sua empresa usa os tipos de armazenamento de documentos da Workfront e da Adobe, não é possível associar um projeto Workfront-storage a um programa Adobe-storage. O inverso também é verdadeiro. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento. Os programas herdam o tipo de armazenamento do portfólio ao qual pertencem. </li></ul>
+      <li>Se sua organização usa o armazenamento em nuvem do Workfront e do Adobe para documentos, não é possível associar um projeto de armazenamento herdado do Workfront a um programa de armazenamento em nuvem do Adobe. O inverso também é verdadeiro. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento. Os programas herdam o tipo de armazenamento do portfólio ao qual pertencem. </li></ul>
 
    Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Visão geral do gerenciamento de documentos para projetos e objetos relacionados</a>.
 
@@ -804,7 +804,7 @@ Leve em consideração o seguinte ao editar projetos em massa:
 
 * Quando você seleciona vários projetos que pertencem a grupos diferentes, os status exibidos no campo Status são status de nível do sistema e não de nível de grupo.
 
-* Quando você seleciona vários projetos com diferentes tipos de armazenamentos de documentos e deseja atualizar o Portfolio ou o programa dos projetos selecionados, não é possível associar um projeto Workfront-storage a um portfólio Adobe-storage. O inverso também é verdadeiro. Nesse caso, selecione somente projetos que tenham tipos de armazenamento semelhantes de cada vez.
+* Ao selecionar vários projetos que têm diferentes tipos de armazenamentos de documentos e deseja atualizar o Portfolio ou o Programa para os projetos selecionados, não é possível associar um projeto de armazenamento Workfront herdado a um portfólio de armazenamento na nuvem da Adobe. O inverso também é verdadeiro. Nesse caso, selecione somente projetos que tenham tipos de armazenamento semelhantes de cada vez.
 
   Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
 

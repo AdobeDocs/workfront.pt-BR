@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 6%
@@ -157,10 +157,10 @@ Para obter informações sobre programas, consulte a seção [Criar e gerenciar 
    >Alguns clientes podem ter acesso a ambos os seguintes ambientes de armazenamento de documentos:
    >
    >  * **O armazenamento herdado do Workfront**: os portfólios que usam esse armazenamento têm o ícone de armazenamento herdado ![ícone de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado do nome.
-   >  * **O armazenamento corporativo da Adobe**
+   >  * **O armazenamento na nuvem do Adobe**
    >
    >O administrador do Workfront decide qual armazenamento sua empresa usa ou permite escolher a qual armazenamento você associa cada portfólio.
-   >Para obter mais informações, consulte [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+   >Para obter mais informações, consulte [Habilitar o armazenamento na nuvem do Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
    >
    >A adição de documentos a portfólios difere, dependendo do tipo de armazenamento usado.
    >

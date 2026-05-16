@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '604'
 ht-degree: 9%
 
 ---
@@ -128,7 +128,7 @@ Você pode criar um projeto na área **Projetos** do **Menu Principal**, ou na �
 
    >[!CAUTION]
    >
-   >Se sua instância do Workfront tiver acesso ao armazenamento de documentos do Workfront e do Adobe, importar um projeto do MS Project criará um projeto de armazenamento do Workfront, mesmo quando o administrador do Workfront tiver transformado o armazenamento do Adobe Enterprise no padrão de seu sistema.
+   >Se sua instância do Workfront tiver acesso ao armazenamento em nuvem do Workfront e do Adobe para documentos, importar um projeto do MS Project criará um projeto de armazenamento herdado do Workfront, mesmo quando o administrador do Workfront tiver tornado o armazenamento em nuvem do Adobe o padrão para o seu sistema.
    >
    >Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

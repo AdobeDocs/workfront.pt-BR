@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 9%
+source-wordcount: '870'
+ht-degree: 3%
 
 ---
 
@@ -24,9 +24,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 16 de abril de 2026
->Versão rápida de produção: sexta-feira, 16 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Visualização: 16 de abril de 2026>Versão rápida de produção: 16 de abril de 2026>Produção para todos: 16 de abril de 2026
 
 O Supervisor de conteúdo agora está disponível no Workfront com a integração do Adobe Experience Manager Assets, facilitando a descoberta e a reutilização de conteúdo de alto valor existente pelas equipes.
 
@@ -45,9 +43,7 @@ Essa integração ajuda as equipes a reduzir a criação de conteúdo duplicado,
 
 >[!NOTE]
 >
->Visualização: 31 de março de 2026
->Versão rápida de produção: quarta-feira, 31 de março de 2026
->Produção para todos: quarta-feira, 31 de março de 2026
+>Visualização: 31 de março de 2026>Lançamento rápido de produção: 31 de março de 2026>Produção para todos: 31 de março de 2026
 
 Em 31 de março de 2026, todos os clientes do Workfront foram provisionados para o GenStudio Foundation, e os administradores de sistema do Admin Console receberão um email informando sobre essa adição. Esse produto é provisionado apenas para que os clientes da Workfront possam conceder às marcas acesso aos clientes da Workfront, conforme necessário, para o lançamento dos colaboradores de IA. O produto em si é apenas um mecanismo de acesso para Marcas e não há nenhuma funcionalidade adicional disponível no produto GenStudio Foundation.
 
@@ -57,9 +53,7 @@ Os clientes não serão cobrados por esse novo produto.
 
 >[!NOTE]
 >
->Visualização: 2 de abril de 2026
->Versão rápida de produção: quinta-feira, 15 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Visualização: 2 de abril de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
 
 Adicionamos as seguintes melhorias ao widget Minhas aprovações na Página inicial:
 
@@ -76,9 +70,7 @@ Para obter mais informações, consulte [Gerenciar suas aprovações com o widge
 
 >[!NOTE]
 >
->Visualização: 12 de março de 2026
->Versão rápida de produção: quinta-feira, 15 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Visualização: 12 de março de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
 
 
 Estamos animados em apresentar a Revisão e aprovação unificadas potencializadas pelo Workfront e Frame.io, uma experiência simplificada de revisão e aprovação.
@@ -101,21 +93,19 @@ Revise e aprove o conteúdo diretamente no visualizador Frame.io e elimine a nec
 
 Envie ativos aprovados diretamente para a Adobe Experience Manager de maneira contínua. Essa integração ajuda a acelerar a ativação de conteúdo, conectando os workflows de revisão e aprovação ao gerenciamento de conteúdo downstream. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
-#### Acesso ao armazenamento corporativo da Adobe
+#### Acesso ao armazenamento em nuvem do Adobe
 
-O armazenamento corporativo da Adobe é uma solução de armazenamento em nuvem que serve como repositório central para ativos em produtos corporativos da Adobe. A integração do Workfront com o Frame.io é baseada no armazenamento corporativo da Adobe, permitindo colaboração e gerenciamento de ativos ininterruptos entre essas plataformas.
+O Adobe Cloud Storage é uma solução de armazenamento em nuvem que serve como repositório central para ativos em produtos corporativos da Adobe. A integração do Workfront e do Frame.io é criada no armazenamento em nuvem do Adobe, permitindo colaboração e gerenciamento de ativos ininterruptos entre essas plataformas.
 
-O acesso ao armazenamento corporativo da Adobe também prepara o caminho para futuras integrações de gerenciamento de ativos com outros produtos da Adobe, como o Adobe Creative Cloud.
+O acesso ao armazenamento em nuvem da Adobe também prepara o caminho para futuras integrações de gerenciamento de ativos com outros produtos da Adobe, como o Adobe Creative Cloud.
 
-Para obter mais informações, consulte [visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Para obter mais informações, consulte [visão geral do armazenamento na nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Fluxos de trabalho de aprovação de vários estágios disponíveis para aprovações unificadas
 
 >[!NOTE]
 >
->Visualização: 12 de março de 2026
->Versão rápida de produção: quinta-feira, 15 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Visualização: 12 de março de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
 
 Os fluxos de trabalho de aprovação em vários estágios agora estão disponíveis em aprovações unificadas, ajudando as organizações a aplicar processos de aprovação estruturados e repetíveis que refletem como o trabalho é revisado no mundo real. Com aprovações de vários estágios, você pode:
 
@@ -131,9 +121,7 @@ Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovaç�
 
 >[!NOTE]
 >
->Visualização: 12 de março de 2026
->Versão rápida de produção: quinta-feira, 15 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Visualização: 12 de março de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
 
 Agora é possível configurar e reutilizar modelos de fluxo de trabalho de aprovação de vários estágios, facilitando a aplicação de governança consistente em fluxos de trabalho de aprovação repetíveis.
 

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1061'
 ht-degree: 5%
 
 ---
@@ -119,7 +119,7 @@ Considere o seguinte ao copiar problemas que contêm documentos ou estão associ
 * **Quando um problema está associado a uma fila de solicitações:** Quando você copia um problema para outro objeto e o problema está associado a uma fila de solicitações, o problema copiado não está mais associado à fila original da qual o primeiro problema se originou.
 * **Quando um documento é anexado ao problema:** Quando você copia um problema para outro objeto e o problema tem um documento anexado a ele, o documento e suas versões também são movidos para o novo problema. As provas ou aprovações associadas ao documento não são movidas.
 * **Quando um problema está vinculado a um documento ou a uma pasta:** Quando você copia um problema que tem documentos ou pastas vinculados a um serviço de terceiros, como o Google Drive, os links para os documentos são transferidos para o problema copiado.
-* **Quando você copia problemas entre projetos com tipos de armazenamento diferentes**: não é possível copiar um problema de um projeto Workfront-storage para um projeto Adobe-storage. O inverso também é verdadeiro. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
+* **Quando você copia problemas entre projetos com tipos de armazenamento diferentes**: não é possível copiar um problema de um projeto herdado do Workfront Storage para um projeto do Adobe Cloud Storage. O inverso também é verdadeiro. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
 
   Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

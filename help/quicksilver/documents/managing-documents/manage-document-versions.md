@@ -6,7 +6,7 @@ description: É possível gerenciar várias versões de um documento no Workfron
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 8%
@@ -30,7 +30,7 @@ ht-degree: 8%
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer pacote do Workfront para gerenciar documentos usando o armazenamento herdado do Workfront</p>
-<p>Qualquer pacote de fluxo de trabalho para gerenciar documentos usando o armazenamento corporativo da Adobe</p></td> 
+<p>Qualquer pacote de fluxo de trabalho para gerenciar documentos usando o armazenamento em nuvem do Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 

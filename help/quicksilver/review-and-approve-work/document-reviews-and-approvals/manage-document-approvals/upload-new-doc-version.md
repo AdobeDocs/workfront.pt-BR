@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 9%
 
 ---
@@ -38,7 +38,7 @@ Se a versão mais recente do documento for excluída, as versões anteriores per
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer pacote do Workfront para gerenciar aprovações usando o armazenamento herdado do Workfront</p>
-<p>Qualquer pacote de fluxo de trabalho para gerenciar aprovações usando o armazenamento corporativo da Adobe</p> </td> 
+<p>Qualquer pacote de fluxo de trabalho para gerenciar aprovações usando o Adobe Cloud Storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 
@@ -66,7 +66,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Usar o recurso arrastar e soltar para adicionar uma nova versão na área de documentos herdados
 
-Se sua organização estiver no armazenamento da Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento da Workfront, consulte [Armazenamento da Workfront vs. armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+Se sua organização estiver no armazenamento da Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento Workfront, consulte [Diferenças entre o armazenamento na nuvem Adobe e o armazenamento Workfront herdado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
@@ -83,12 +83,12 @@ Para adicionar uma nova versão:
 1. Arraste e solte o novo arquivo sobre o documento anterior. Isso cria uma nova versão automaticamente.
 
 1. Quando o documento terminar de ser carregado, selecione-o para abrir o painel Resumo do documento. Aqui você verá o número da versão na parte superior do painel.
-   ![Open the document details page](assets/open-doc-details.png)
+   ![Abrir a página de detalhes do documento](assets/open-doc-details.png)
 
 
-1. Scroll down to the **Approvals** section.
+1. Role até a seção **Aprovações**.
 
-1. Click **Create workflow**, then fill in the following details:
+1. Clique em **Criar fluxo de trabalho** e preencha os seguintes detalhes:
 
    <table>
    <tr>
@@ -104,8 +104,8 @@ Para adicionar uma nova versão:
    <td>A primeira pessoa que toma uma decisão completa a etapa.</td>
    </tr>
    <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
+   <td><strong>Data de vencimento (opcional)</strong></td>
+   <td>Defina uma data de vencimento para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes da data de vencimento especificada.</td>
    </tr>
    </table>
 
@@ -117,17 +117,17 @@ Para adicionar uma nova versão:
 
 
 
-1. (Optional) To add an existing approval template, select a template from the left side of the dialog.
+1. (Opcional) Para adicionar um modelo de aprovação existente, selecione um modelo no lado esquerdo da caixa de diálogo.
 
    >[!TIP]
    >
-   >   Users with a Standard license can create reusable Approval Templates from the Setup area. For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+   >   Os usuários com uma licença Standard podem criar Modelos de aprovação reutilizáveis na área Configuração. Para obter mais informações, consulte [Criar um modelo de fluxo de trabalho de aprovação para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 
 
-1. Once you have added all the stages and participants you need, click **Request approval**.
+1. Depois de adicionar todos os estágios e participantes necessários, clique em **Solicitar aprovação**.
 
-   The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
+   O fluxo de trabalho de aprovação é iniciado e os aprovadores recebem uma notificação de que sua aprovação é necessária na nova versão do documento. A versão anterior do documento está bloqueada e todas as aprovações pendentes na versão anterior são retiradas.
 
-   ![request approval](assets/request-approval.png)
+   ![solicitar aprovação](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d1173e35a2455610474664f93159b97a54957488
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '905'
 ht-degree: 9%
 
 ---
@@ -116,20 +116,20 @@ Old:
 
 1. (Condicional) Dependendo de qual armazenamento de documentos sua organização está usando, clique em uma das opções a seguir:
 
-   * **Novo Modelo**, quando o administrador do Workfront escolhe **Adobe Enterprise** ou **Workfront herdado** e selecionou ou não a configuração **Permitir que o usuário selecione o provedor de armazenamento**.
-   * **Novo modelo (armazenamento herdado)**, quando o administrador do Workfront escolhe **Adobe Enterprise** ou **Workfront herdado** e também seleciona a configuração **Permitir que o usuário selecione o provedor de armazenamento**.
+   * **Novo Modelo**, quando o administrador do Workfront escolhe **Adobe Cloud Storage** ou **Workfront Cloud Storage** e selecionou ou não a configuração **Permitir que o usuário selecione o provedor de armazenamento**.
+   * **Novo modelo (armazenamento herdado)**, quando o administrador do Workfront escolhe **Adobe Cloud Storage** ou **Workfront Cloud Storage** e também selecionou a configuração **Permitir que o usuário selecione o provedor de armazenamento**.
 
      Esta opção é exibida somente quando a configuração **Permitir que o usuário selecione o provedor de armazenamento** é selecionada na área Instalação.
 
-     Para obter mais informações, consulte [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Para obter mais informações, consulte [Habilitar o armazenamento na nuvem do Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      Um modelo é criado e seu nome padrão segue os seguintes padrões, dependendo de qual armazenamento o Workfront usa para documentos:
 
       * **Modelo sem título** para um modelo de armazenamento do Workfront.
 
-        Um modelo de armazenamento Workfront exibe um **ícone de armazenamento herdado do Workfront** ![ícone de projeto de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado de seu nome.
+        Um modelo de armazenamento herdado do Workfront exibe um **ícone de armazenamento herdado do Workfront** ![ícone de projeto de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado de seu nome.
 
-      * **Modelo sem título - &lt; dia do mês, ano hora.minuto.segundo >** para um modelo de armazenamento Adobe
+      * **Modelo sem título - &lt; dia do mês, ano hora.minuto.segundo >** para um modelo de armazenamento na nuvem do Adobe
 
         >[!IMPORTANT]
         >

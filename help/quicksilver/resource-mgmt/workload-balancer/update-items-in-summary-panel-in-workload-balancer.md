@@ -6,9 +6,9 @@ description: Você pode abrir o painel Resumo no Balanceador de carga de trabalh
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 12%
 
 ---
@@ -94,7 +94,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    >[!NOTE]
    >
-   >Se sua empresa usa o armazenamento de documentos corporativos da Adobe, não é possível adicionar documentos a itens de trabalho do armazenamento Adobe no painel Resumo.
+   >Se sua organização usar o armazenamento em nuvem do Adobe para documentos, você não poderá adicionar documentos a itens de trabalho do armazenamento em nuvem do Adobe no painel Resumo.
    >
    >Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
