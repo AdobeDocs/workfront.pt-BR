@@ -2,11 +2,11 @@
 product-area: documents
 navigation-topic: approvals
 title: Atualizar cenários do Workfront Fusion para revisão e aprovação unificadas
-description: Inventarie, classifique e corrija cenários do Workfront Fusion criados na revisão herdada do Workfront, à medida que sua organização adota o armazenamento corporativo da Adobe e a revisão e aprovação unificadas.
+description: Inventarie, classifique e corrija cenários do Workfront Fusion criados na revisão herdada do Workfront, à medida que sua organização adota o armazenamento em nuvem da Adobe e a revisão e aprovação unificadas.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 0a635f80338cef38dec7d32391596ca9ccd2fd6c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 1%
@@ -15,18 +15,18 @@ ht-degree: 1%
 
 # Atualizar cenários do Workfront Fusion para revisão e aprovação unificadas
 
-Os cenários do Workfront Fusion criados na revisão herdada do Workfront não funcionam automaticamente em projetos de armazenamento corporativo da Adobe. Módulos específicos de prova, webhooks e endpoints de API têm equivalentes diretos em alguns casos e alterações significativas em outros. Este artigo ajuda você a inventariar os cenários afetados, classificá-los e decidir um caminho de correção antes de trazer equipes que dependem desses cenários para a implantação do armazenamento corporativo da Adobe.
+Os cenários do Workfront Fusion criados na revisão herdada do Workfront não funcionam automaticamente em projetos de armazenamento na nuvem da Adobe. Módulos específicos de prova, webhooks e endpoints de API têm equivalentes diretos em alguns casos e alterações significativas em outros. Este artigo ajuda você a inventariar cenários afetados, classificá-los e decidir um caminho de correção antes de trazer equipes que dependem desses cenários para a implantação do Adobe Cloud Storage.
 
-Os cenários com escopo para projetos herdados do Workfront continuam funcionando como atualmente. O trabalho de correção descrito neste artigo aplica-se a cenários que você pretende executar em projetos de armazenamento corporativo da Adobe.
+Os cenários com escopo para projetos herdados do Workfront continuam funcionando como atualmente. O trabalho de correção descrito neste artigo se aplica aos cenários que você pretende executar em projetos de armazenamento em nuvem da Adobe.
 
 Os conectores de fusão com suporte nativo para revisão e aprovação unificadas devem estar disponíveis no terceiro trimestre de 2026. Planeje a recriação agora, mas recomendamos aguardar os novos conectores antes de criar. Os cenários serão mais simples e confiáveis do que substituirão.
 
 Orientações detalhadas sobre automação serão publicadas juntamente com a versão do conector Fusion do terceiro trimestre de 2026. Use este artigo para inventariar e classificar cenários agora e estar pronto para agir assim que essa orientação estiver disponível.
 
-Para obter um resumo de alto nível sobre o que muda quando sua organização muda para o Workfront no Adobe Enterprise Storage, consulte [Mover para o Workfront no Adobe Enterprise Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+Para obter um resumo de alto nível sobre o que muda quando sua organização muda para o Workfront no Adobe Cloud Storage, consulte [Mover para o Workfront no Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 
-## O que muda para o Fusion em projetos de armazenamento corporativo da Adobe
+## O que muda para o Fusion em projetos de armazenamento em nuvem do Adobe
 
 Os cenários do Fusion existentes criados no Workfront Proof dependem de módulos específicos de prova, acionadores de webhook e endpoints de API que não fazem parte do modelo de dados de revisão e aprovação unificados. A tabela abaixo mapeia tipos de cenário comuns para o impacto esperado e o caminho a seguir:
 
@@ -54,9 +54,9 @@ Analise cada cenário em relação à sua lógica de negócios específica para 
 
 Use a seguinte abordagem para planejar e executar a correção do Fusion:
 
-1. **Inventário agora.** Obtenha uma lista completa de cenários ativos do Fusion e marque cada um que faz referência à criação de prova, status da prova, aprovações de documentos ou roteamento de aprovação. Não espere até que o armazenamento corporativo da Adobe esteja habilitado.
+1. **Inventário agora.** Obtenha uma lista completa de cenários ativos do Fusion e marque cada um que faz referência à criação de prova, status da prova, aprovações de documentos ou roteamento de aprovação. Não espere até que o armazenamento em nuvem do Adobe esteja ativado.
 1. **Classifique cada cenário** como Editar, Recompilar ou Desativar com base nos critérios da seção anterior.
-1. **Pausar cenários dependentes de prova** antes de trazer as equipes que dependem deles para o piloto de armazenamento corporativo da Adobe. A execução de automações obsoletas baseadas em prova no novo modelo pode produzir falhas silenciosas ou ações duplicadas.
+1. **Pausar cenários dependentes de prova** antes de trazer as equipes que dependem deles para o piloto de armazenamento na nuvem da Adobe. A execução de automações obsoletas baseadas em prova no novo modelo pode produzir falhas silenciosas ou ações duplicadas.
 1. **Usar modelos de aprovação para substituir a lógica de roteamento simples.** Modelos nativos de aprovação de vários estágios com automação de prazo podem lidar com muitos casos de uso que anteriormente exigiam o Fusion. Para obter mais informações, consulte [Criar um Modelo de Aprovação para ativos e documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 1. **Aguarde as atualizações do conector Fusion Q3 2026 antes de recompilar.** Os conectores atualizados expõem módulos criados especificamente para revisão e aprovação unificadas e tornam as reconstruções significativamente mais simples e confiáveis. Não recomendamos a recriação com antecedência em relação à API do Workfront versão 22. Se você continuar com um cenário crítico em termos de tempo, planeje revisitar esse trabalho depois que os novos conectores forem lançados.
 1. **Teste os cenários recriados de ponta a ponta em uma instância de sandbox** antes de habilitá-los na produção. Preste atenção especial às cargas de subscrição do evento: os nomes de campo e o esquema são diferentes dos eventos de prova herdados.
@@ -67,7 +67,7 @@ Use a seguinte abordagem para planejar e executar a correção do Fusion:
 
 ## Artigos relacionados
 
-* [Migrar para o Workfront no armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+* [Migrar para o Workfront no Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md)
 * [Visão geral unificada de revisão e aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [Criar um modelo de aprovação para ativos e documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

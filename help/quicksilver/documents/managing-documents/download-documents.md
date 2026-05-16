@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 12%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 12%
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer pacote do Workfront para gerenciar documentos usando o armazenamento herdado do Workfront</p>
-<p>Qualquer pacote de fluxo de trabalho para gerenciar documentos usando o armazenamento corporativo da Adobe</p></td> 
+<p>Qualquer pacote de fluxo de trabalho para gerenciar documentos usando o armazenamento em nuvem do Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -55,7 +55,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Baixar documentos na área de documentos herdados
 
-Se sua organização estiver no armazenamento herdado do Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento Workfront herdado, consulte [Diferenças entre o armazenamento Workfront herdado e o armazenamento corporativo Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se sua organização estiver no armazenamento herdado do Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento Workfront herdado, consulte [Diferenças entre o armazenamento Workfront herdado e o armazenamento na nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Baixar um documento individual na área de documentos herdados
 
@@ -84,7 +84,7 @@ Se sua organização estiver no armazenamento herdado do Workfront, você verá 
 
 ## Baixar documentos na nova área Documentos
 
-Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
 1. Localize os documentos necessários e clique em **Baixar**.

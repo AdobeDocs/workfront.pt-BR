@@ -10,7 +10,7 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 77b78c5905736092c972e08283fdabf321bfa580
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 10%
@@ -128,8 +128,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td>Permite optar por habilitar ou desabilitar a experiência da lista de trabalho de prioridades para seus usuários. Os usuários ainda verão os ícones de Prioridades no Workfront, mas não terão acesso à funcionalidade. Para obter mais informações sobre prioridades, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introdução às prioridades</a>.</td> 
      </tr>
       <tr> 
-      <td role="rowheader">Ativar o Adobe Enterprise Storage </td> 
-      <td>Permite ativar ou desativar o Adobe Enterprise Storage para toda a sua organização ou para grupos específicos. Para obter mais informações sobre o Adobe Enterprise Storage, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Habilitar o Adobe Enterprise Storage para sua organização</a>.</td> 
+      <td role="rowheader">Habilitar o armazenamento em nuvem do Adobe </td> 
+      <td>Permite optar por habilitar ou desabilitar o armazenamento em nuvem do Adobe para toda a organização ou para grupos específicos. Para obter mais informações sobre o Adobe Cloud Storage, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Habilitar o Adobe Cloud Storage para sua organização</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Habilitar IA </td> 

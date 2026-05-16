@@ -8,16 +8,16 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '811'
 ht-degree: 6%
 
 ---
 
 # Criar pastas de documentos
 
-Os documentos podem ser organizados em pastas. Atualmente, o Workfront tem duas versões da área Documentos: a área documentos herdados e a nova área Documentos. A versão usada por sua organização depende do armazenamento Workfront herdado ou do armazenamento corporativo. Para obter mais informações sobre esses tipos de armazenamento, consulte [visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Os documentos podem ser organizados em pastas. Atualmente, o Workfront tem duas versões da área Documentos: a área documentos herdados e a nova área Documentos. A versão usada por sua organização depende do fato de sua organização estar usando o armazenamento herdado do Workfront ou o armazenamento em nuvem do Adobe. Para obter mais informações sobre esses tipos de armazenamento, consulte [visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acesso
 
@@ -30,7 +30,7 @@ Os documentos podem ser organizados em pastas. Atualmente, o Workfront tem duas 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer pacote do Workfront para gerenciar documentos usando o armazenamento herdado do Workfront</p>
-<p>Qualquer pacote de fluxo de trabalho para gerenciar documentos usando o armazenamento corporativo da Adobe</p> </td> 
+<p>Qualquer pacote de fluxo de trabalho para gerenciar documentos usando o armazenamento em nuvem do Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -51,7 +51,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Criar pastas de documentos na área de documentos herdados
 
-Se sua organização estiver no armazenamento herdado do Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento Workfront herdado, consulte [Diferenças entre o armazenamento corporativo Adobe e o armazenamento Workfront herdado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Se sua organização estiver no armazenamento herdado do Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento Workfront herdado, consulte [Diferenças entre o armazenamento na nuvem do Adobe e o armazenamento Workfront herdado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Para obter informações sobre pastas de compartilhamento, consulte [Compartilha
 
 ## Criar pastas de documentos na nova área Documentos
 
-Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Pastas geradas pelo sistema
 
@@ -130,7 +130,7 @@ As pastas geradas pelo sistema podem ser movidas para outro projeto, tarefa ou p
 
 >[!NOTE]
 >
->Somente projetos, tarefas e problemas que usam o mesmo tipo de armazenamento estão disponíveis na caixa de diálogo Mover. Por exemplo, se você estiver movendo uma pasta em um projeto de armazenamento corporativo, apenas projetos, tarefas e problemas que usam armazenamento corporativo estarão disponíveis para movimentação.
+>Somente projetos, tarefas e problemas que usam o mesmo tipo de armazenamento estão disponíveis na caixa de diálogo Mover. Por exemplo, se você estiver movendo uma pasta em um projeto do Adobe Cloud Storage, apenas projetos, tarefas e problemas que usam o Adobe Cloud Storage estarão disponíveis para movimentação.
 
 
 Para mover uma pasta:

@@ -7,9 +7,9 @@ description: É possível criar uma pasta vinculada ao Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 11%
 
 ---
@@ -23,7 +23,7 @@ Se um ativo for excluído ou movido de uma pasta vinculada dentro do Experience 
 >[!NOTE]
 >
 >Essa funcionalidade não está disponível na nova área Documentos.<br>
->Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. A partir daí, você pode adicionar ativos do Experience Manager Assets ou do Assets Essentials, mas não poderá criar uma pasta vinculada.
+>Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. A partir daí, você pode adicionar ativos do Experience Manager Assets ou do Assets Essentials, mas não poderá criar uma pasta vinculada.
 
 ## Requisitos de acesso
 

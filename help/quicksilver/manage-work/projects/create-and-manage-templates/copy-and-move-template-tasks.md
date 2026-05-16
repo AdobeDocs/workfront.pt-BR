@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2239'
+source-wordcount: '2241'
 ht-degree: 5%
 
 ---
@@ -108,7 +108,7 @@ Considere o seguinte ao mover tarefas de modelo:
 
    * Etapas.
 
-* Não é possível copiar ou mover uma tarefa de modelo de um modelo de armazenamento Workfront para um modelo de armazenamento Adobe. O inverso também é verdadeiro. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
+* Não é possível copiar ou mover uma tarefa de modelo de um modelo de armazenamento herdado do Workfront para um modelo de armazenamento na nuvem do Adobe. O inverso também é verdadeiro. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
 
   Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

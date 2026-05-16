@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1269'
 ht-degree: 5%
 
 ---
@@ -95,11 +95,11 @@ Old:
 * Todas as subtarefas, problemas e notas são acumulados no novo projeto.
 * Documentos, versões de documentos e provas são movidos para o novo projeto.
 * Há um limite de processamento de 5 minutos ao converter uma tarefa em um projeto. Se a tarefa tiver um grande número de documentos anexados a ela e não for convertida, talvez seja necessário remover alguns dos documentos e tentar novamente.
-* Se sua organização usa o armazenamento de documentos corporativos herdados do Workfront e do Adobe, os seguintes cenários existem ao converter uma tarefa em um projeto: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Uma tarefa de armazenamento Workfront cria um projeto de armazenamento Workfront.
-   * Uma tarefa de armazenamento corporativo da Adobe cria um projeto de armazenamento Adobe.
-   * Usar um modelo de armazenamento Workfront para converter uma tarefa de armazenamento Adobe cria um projeto de armazenamento Adobe.
-   * O uso de um modelo de armazenamento Adobe para converter uma tarefa de armazenamento Workfront cria um projeto de armazenamento Workfront.
+* Se sua organização usa o armazenamento na nuvem herdado do Workfront e do Adobe para documentos, os seguintes cenários existem ao converter uma tarefa em um projeto: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+   * Uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
+   * Uma tarefa de armazenamento na nuvem do Adobe cria um projeto de armazenamento na nuvem do Adobe.
+   * Usar um modelo de armazenamento herdado do Workfront para converter uma tarefa de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
+   * Usar um modelo de armazenamento em nuvem do Adobe para converter uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
 
      Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

@@ -9,9 +9,9 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1117'
 ht-degree: 4%
 
 ---
@@ -119,7 +119,7 @@ Para criar tarefas em um projeto:
 
 1. Vá para o projeto em que deseja criar uma tarefa.
 1. Clique em **Tarefas** no painel esquerdo.
-1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição Agile, clique no ícone **Modo de Exibição de Lista** no modo de exibição Agile para tarefas![&#128279;](assets/list-view-in-agile-view-for-tasks.png) no canto superior direito para exibir a lista de tarefas.
+1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição Agile, clique no ícone **Modo de Exibição de Lista** no modo de exibição Agile para tarefas](assets/list-view-in-agile-view-for-tasks.png) no canto superior direito para exibir a lista de tarefas.![
 1. (Opcional) Clique no ícone **Modo de Plano** ícone ![Modo de plano para a lista de tarefas](assets/nwe-plan-mode-icon-task-list.png) e selecione **Salvar Manualmente** e, em seguida, selecione **Padrão** ou **Planejamento de Linha do Tempo**. Isso desabilita a opção **Salvamento automático**, que é habilitada por padrão.
 
    ![Selecionar Salvamento Manual](assets/manual-save-option.png)
@@ -170,7 +170,7 @@ Para criar tarefas em um projeto:
 
       >[!TIP]
       >
-      >Se sua organização tiver acesso ao armazenamento de documentos corporativos herdados do Workfront e do Adobe, a área Documentos para tarefas poderá ser exibida de forma diferente, dependendo do tipo de armazenamento usado pela tarefa. As tarefas herdam o tipo de armazenamento do projeto.
+      >Se sua organização tiver acesso ao armazenamento em nuvem herdado do Workfront e do Adobe para documentos, a área Documentos para tarefas poderá ser exibida de forma diferente, dependendo do tipo de armazenamento usado pela tarefa. As tarefas herdam o tipo de armazenamento do projeto.
       >
       >Para obter informações, consulte [Adicionar documentos ao Adobe Workfront a partir do seu sistema de arquivos](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 

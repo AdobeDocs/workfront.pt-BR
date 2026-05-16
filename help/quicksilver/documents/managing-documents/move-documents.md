@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 13%
 
 ---
@@ -38,7 +38,7 @@ Quando você move um documento, qualquer um dos itens a seguir também será mov
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td><p>Qualquer pacote do Workfront para gerenciar documentos usando o armazenamento herdado do Workfront</p>
-<p>Qualquer pacote de fluxo de trabalho para gerenciar documentos usando o armazenamento corporativo da Adobe</p></td> 
+<p>Qualquer pacote de fluxo de trabalho para gerenciar documentos usando o armazenamento em nuvem do Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 
@@ -63,7 +63,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Mover um documento na área de documentos herdados
 
-Se sua organização utiliza o Workfront Storage herdado, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o Workfront Storage, consulte [Diferenças entre o Adobe Enterprise Storage e o Workfront Storage herdado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Se sua organização utiliza o Workfront Storage herdado, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o Workfront Storage, consulte [Diferenças entre o Adobe Cloud Storage e o Workfront Storage herdado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 Para mover um documento:
 
@@ -87,7 +87,7 @@ Você também pode mover um documento da página Detalhes do documento.
 
 ## Mover um documento na nova área Documentos
 
-Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Para mover um documento:
 
@@ -103,6 +103,6 @@ Para mover um documento:
 
    >[!NOTE]
    >
-   >Você só pode mover para outro projeto, tarefa ou problema usando o armazenamento corporativo.
+   >Você só pode mover para outro projeto, tarefa ou problema usando o Adobe Cloud Storage.
 
 1. Clique em **Mover**.

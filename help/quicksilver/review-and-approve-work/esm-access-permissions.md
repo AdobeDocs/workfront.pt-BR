@@ -1,50 +1,50 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento corporativo da Adobe
-description: Visão geral das permissões e do acesso do armazenamento corporativo da Adobe
+title: Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento em nuvem do Adobe
+description: Permissões de armazenamento na nuvem e visão geral de acesso do Adobe
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d10138467d81bbe87375d6a64e4fd5e269691808
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento corporativo da Adobe
+# Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento em nuvem do Adobe
 
 <!--linked in UI -->
 
-O armazenamento corporativo da Adobe é uma solução de armazenamento baseada em nuvem que serve como repositório de armazenamento central para ativos em produtos corporativos da Adobe. Os ambientes Workfront que usam o armazenamento corporativo Adobe têm permissões de objeto e comportamentos de nível de acesso ligeiramente diferentes daqueles que usam o armazenamento de documentos Workfront herdado.
+O armazenamento em nuvem da Adobe é uma solução de armazenamento baseada em nuvem que serve como repositório de armazenamento central para ativos em produtos corporativos da Adobe. Os ambientes do Workfront que usam o Adobe Cloud Storage têm permissões de objeto e comportamentos de nível de acesso ligeiramente diferentes daqueles que usam o armazenamento de documentos herdado do Workfront.
 
 ## Níveis de acesso
 
 Os níveis de acesso do Workfront se aplicam somente no Workfront. As restrições de projeto e documento no Workfront nem sempre se aplicam a outros aplicativos da Adobe.
 
-### Ambientes que usam armazenamento corporativo Adobe e armazenamento Workfront herdado
+### Ambientes que usam o armazenamento em nuvem do Adobe e o armazenamento herdado do Workfront
 
-O acesso a documentos se comporta de forma diferente se o projeto estiver no armazenamento corporativo da Adobe ou no armazenamento Workfront herdado:
+O acesso a documentos se comporta de forma diferente dependendo se o projeto está no Adobe Cloud Storage ou no Workfront Storage herdado:
 
 * **Armazenamento herdado do Workfront**: projetos, programas, portfólios e modelos que usam o armazenamento herdado do Workfront seguem a lógica padrão de nível de acesso do Workfront para acesso a documentos. Quando um nível de acesso tem **Nenhum acesso** selecionado para documentos, eles não podem ver documentos no Workfront ou em outros produtos da Adobe, como Frame.io ou Creative Cloud.
-* **Adobe enterprise storage**: projetos, programas, portfólios e modelos que usam o Adobe enterprise storage seguem a lógica de nível de acesso ao armazenamento corporativo da Adobe para outros produtos Adobe.
+* **Adobe Cloud Storage**: projetos, programas, portfólios e modelos que usam o Adobe Cloud Storage seguem a lógica de nível de acesso do Adobe Cloud Storage para outros produtos da Adobe.
 
 
    * **Permissões de objeto de projetos, programas, portfólios e modelos**: quando um nível de acesso tem **Nenhum acesso** selecionado para projetos, programas, portfólios e modelos, mas o objeto é compartilhado com eles, os usuários não podem ver o objeto no Workfront, mas ainda podem exibir o nome do objeto e quaisquer documentos associados em outras ferramentas do Adobe, como Frame.io e Adobe Creative Cloud.
-   * **Permissões de documentos**: quando um nível de acesso tem **Nenhum acesso** selecionado para documentos, os usuários não podem ver documentos em projetos no Workfront, mas ainda podem exibir e gerenciar documentos de projetos compartilhados com eles em outras ferramentas do Adobe, como Frame.io e Adobe Creative Cloud. Isso ocorre porque o acesso a documentos é determinado por permissões no nível do projeto no armazenamento corporativo da Adobe, em vez de somente pelos níveis de acesso da Workfront.
+   * **Permissões de documentos**: quando um nível de acesso tem **Nenhum acesso** selecionado para documentos, os usuários não podem ver documentos em projetos no Workfront, mas ainda podem exibir e gerenciar documentos de projetos compartilhados com eles em outras ferramentas do Adobe, como Frame.io e Adobe Creative Cloud. Isso ocorre porque o acesso a documentos é determinado por permissões no nível do projeto no Adobe Cloud Storage, em vez de apenas nos níveis de acesso do Workfront.
 
-Se você tiver o armazenamento corporativo da Adobe habilitado em seu ambiente Workfront, poderá criar projetos de armazenamento corporativo da Adobe e projetos de armazenamento herdados da Workfront. Os projetos de armazenamento herdados do Workfront mostram um ícone ao lado do nome do projeto em toda a Workfront. Os projetos de armazenamento corporativo da Adobe não mostram um ícone.
+Se você tiver o Adobe Cloud Storage habilitado em seu ambiente Workfront, poderá criar projetos Adobe Cloud Storage e projetos Workfront Storage herdados. Os projetos de armazenamento herdados do Workfront mostram um ícone ao lado do nome do projeto em toda a Workfront. Os projetos de armazenamento na nuvem do Adobe não mostram um ícone.
 
 ![ícone de armazenamento herdado do workfront ao lado do nome do projeto](assets/legacy-project-icon.png)
 
 
-### Ambientes que usam somente o armazenamento corporativo Adobe
+### Ambientes que usam somente o armazenamento em nuvem do Adobe
 
-Não é possível modificar permissões de documentos no nível de acesso para projetos, programas e portfólios que usam o Adobe Enterprise Storage.
+Não é possível modificar permissões de documento no nível de acesso para projetos, programas e portfólios que usam o armazenamento na nuvem do Adobe.
 
 Todos os níveis de acesso têm acesso de edição aos documentos. As permissões no nível do projeto determinam o acesso aos documentos em outras ferramentas do Adobe.
 
@@ -61,7 +61,7 @@ As permissões de objeto determinam o que você pode ver e fazer com projetos, t
 
 >[!IMPORTANT]
 >
->No Adobe Enterprise Storage, as permissões de documento funcionam de forma diferente do armazenamento Workfront herdado. Os documentos herdam permissões do projeto, tarefa ou problema ao qual estão vinculados.
+>No Adobe Cloud Storage, as permissões de documento funcionam de forma diferente do armazenamento herdado do Workfront. Os documentos herdam permissões do projeto, tarefa ou problema ao qual estão vinculados.
 
 
 ### Como funcionam as permissões de documento

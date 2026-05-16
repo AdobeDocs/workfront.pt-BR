@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1683'
 ht-degree: 2%
 
 ---
@@ -81,6 +81,12 @@ A Sandbox de atualização personalizada contém seus dados reais de produção 
 If you are a Workfront Goals customer, Workfront Goals data does not transfer to the Custom Refresh Sandbox when you schedule a refresh. The ability to sync this data from your production environment to your Custom Refresh Sandbox will be available after September 2020.
 </note>
 -->
+
+## Armazenamento em nuvem do Adobe na sandbox de atualização personalizada
+
+O armazenamento na nuvem do Adobe está disponível na sandbox de atualização personalizada para que você possa testá-lo antes de habilitá-lo na produção. No entanto, o visualizador Frame.io não está disponível em ambientes de sandbox, portanto, a experiência de revisão e aprovação unificada completa deve ser validada na produção.
+
+Depois de atualizar para uma versão do Workfront compatível com o Adobe Cloud Storage, você deve atualizar sua sandbox de atualização personalizada para acessar a funcionalidade de armazenamento em nuvem do Adobe na sandbox. Depois que a atualização for concluída, você poderá começar a testar o armazenamento em nuvem do Adobe. Para obter mais informações, consulte [Habilitar o armazenamento na nuvem do Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 ## Acesse a sandbox de atualização personalizada a partir do ambiente de produção {#access-the-custom-refresh-sandbox-from-your-production-environment}
 

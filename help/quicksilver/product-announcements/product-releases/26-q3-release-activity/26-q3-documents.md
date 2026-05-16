@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: a7a0dc6ae01b3f1e9f295781805ed3e58f8acf1f
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 4%
@@ -33,13 +33,13 @@ Para obter mais informações sobre como enviar ativos para o Experience Manager
 
 Para obter mais informações sobre os status de aprovação, consulte [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
-## Visualizar o uso do armazenamento corporativo da Adobe
+## Exibir uso do armazenamento em nuvem do Adobe
 
 >[!NOTE]
 >
 >Visualização: 30 de abril de 2026>Versão rápida de produção: 14 de maio de 2026>Produção para todos: 16 de julho de 2026
 
-A página Informações do cliente em Configuração agora inclui uma nova seção Visão geral de armazenamento com medidores de uso para armazenamento corporativo Adobe.
+A página Informações do cliente em Configuração agora inclui uma nova seção Visão geral do armazenamento com medidores de uso para o armazenamento na nuvem do Adobe.
 
 Os administradores do Workfront recebem automaticamente notificações por email quando o uso do armazenamento atinge 75%, 85% e 100% da cota.
 

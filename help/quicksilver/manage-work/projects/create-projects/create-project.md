@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1639'
 ht-degree: 3%
 
 ---
@@ -170,15 +170,15 @@ Considere o seguinte:
 * Onde os documentos são armazenados para um projeto e para seus objetos filhos (tarefas e problemas) depende do que o administrador do Workfront escolhe como padrão para Preferências de armazenamento na área Preferências do sistema da Configuração. Dependendo de onde você armazena documentos na instância do Workfront, é possível criar os seguintes tipos de projetos:
 
    * Projetos de armazenamento herdados do Workfront
-   * Projetos de armazenamento corporativo da Adobe.
+   * Projetos de armazenamento em nuvem do Adobe.
 
-  Para obter mais informações, consulte [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+  Para obter mais informações, consulte [Habilitar o armazenamento na nuvem do Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
   >[!TIP]
   >
   > Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
 
-* Ao criar um projeto de armazenamento corporativo, uma pasta de documentos com o mesmo nome do projeto é criada na seção **Documentos** do projeto. Depois de adicionar tarefas ao projeto, pastas com o nome da tarefa são adicionadas à seção **Documentos** de cada tarefa.
+* Ao criar um projeto do Adobe Cloud Storage, uma pasta de documentos com o mesmo nome do projeto é criada na seção **Documentos** do projeto. Depois de adicionar tarefas ao projeto, pastas com o nome da tarefa são adicionadas à seção **Documentos** de cada tarefa.
 
 Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -199,29 +199,29 @@ Para obter mais informações, consulte [Visão geral do gerenciamento de docume
 
 1. (Condicional) Dependendo de qual armazenamento de documentos sua organização está usando, clique em uma das opções a seguir:
 
-   * **Novo projeto**, quando o administrador do Workfront escolhe **Adobe Enterprise** ou **Workfront herdado** e selecionou ou não a configuração **Permitir que o usuário selecione o provedor de armazenamento**.
-   * **Novo projeto (Armazenamento herdado)**, quando o administrador do Workfront escolhe **Adobe Enterprise** ou **Workfront herdado** e também selecionou a configuração **Permitir que o usuário selecione o provedor de armazenamento**.
+   * **Novo projeto**, quando o administrador do Workfront escolhe **Adobe Cloud Storage** ou **Workfront Cloud Storage** e selecionou ou não a configuração **Permitir que o usuário selecione o provedor de armazenamento**.
+   * **Novo projeto (Armazenamento herdado)**, quando o administrador do Workfront escolhe **Adobe Cloud Storage** ou **Workfront Cloud Storage** e também selecionou a configuração **Permitir que o usuário selecione o provedor de armazenamento**.
 
      Esta opção é exibida somente quando a configuração **Permitir que o usuário selecione o provedor de armazenamento** é selecionada na área Instalação.
 
-     Para obter mais informações, consulte [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Para obter mais informações, consulte [Habilitar o armazenamento na nuvem do Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      >[!NOTE]
      >
-     >* Quando você cria um projeto de armazenamento corporativo a partir de um portfólio ou programa de armazenamento da Workfront, o portfólio ou programa também é convertido em objetos de armazenamento corporativo. Todos os outros projetos de armazenamento da Workfront no mesmo portfólio ou programa permanecem inalterados.
+     >* Ao criar um projeto de armazenamento em nuvem do Adobe a partir de um portfólio ou programa de armazenamento herdado do Workfront, o portfólio ou programa também é convertido em objetos de armazenamento em nuvem do Adobe. Todos os outros projetos de armazenamento Workfront herdados no mesmo portfólio ou programa permanecem inalterados.
      >* Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
 
      Um projeto é criado e seu nome padrão segue os seguintes padrões, dependendo de qual armazenamento o Workfront usa para documentos:
 
-      * `Untitled Project` para um projeto de armazenamento Workfront.
+      * `Untitled Project` para um projeto de armazenamento herdado do Workfront.
 
-        Um projeto de armazenamento Workfront exibe um **ícone de armazenamento herdado do Workfront** ![ícone de projeto de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado de seu nome.
+        Um projeto de armazenamento herdado do Workfront exibe um **ícone de armazenamento herdado do Workfront** ![ícone de projeto de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado de seu nome.
 
-      * `Untitled Project - < Month day, year hour.minute.second >` para um projeto de armazenamento Adobe
+      * `Untitled Project - < Month day, year hour.minute.second >` para um projeto do Adobe Cloud Storage
 
         >[!IMPORTANT]
         >
-        >Os projetos que usam o armazenamento corporativo Adobe devem ter nomes exclusivos.
+        >Os projetos que usam o armazenamento em nuvem do Adobe devem ter nomes exclusivos.
 
 
 1. No cabeçalho do projeto, atualize o nome do projeto. Pressione Enter para salvar o nome.

@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Na área Documentos, é possível organizar, gerenciar e exibir metadados de documentos carregados no Adobe Workfront. Você também pode ver a decisão da prova.
 
-Atualmente, o Workfront tem duas versões da área Documentos: a área documentos herdados e a nova área Documentos. A versão usada por sua organização depende do armazenamento Workfront herdado ou do armazenamento corporativo. Para obter mais informações sobre esses tipos de armazenamento, consulte [visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Atualmente, o Workfront tem duas versões da área Documentos: a área documentos herdados e a nova área Documentos. A versão usada por sua organização depende do fato de sua organização estar usando o armazenamento herdado do Workfront ou o armazenamento em nuvem do Adobe. Para obter mais informações sobre esses tipos de armazenamento, consulte [visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Área de documentos herdados
 
@@ -74,7 +74,7 @@ A página Detalhes do documento fornece uma versão mais em escala completa dos 
 
 ## Nova área Documentos
 
-A nova área de documentos só estará disponível para o se sua organização estiver armazenada na empresa. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+A nova área Documentos só estará disponível para o se sua organização estiver no armazenamento na nuvem da Adobe. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Usar o painel de resumo
 
@@ -103,7 +103,7 @@ Você pode visualizar o histórico de um documento na nova área Documentos. O h
 
 ### Pastas no nível do sistema para permissões de documento
 
-O Workfront cria automaticamente uma pasta no nível do sistema quando o primeiro documento é carregado para uma tarefa ou problema. Essas pastas herdam permissões da tarefa ou do problema e estão visíveis na área de documentos do nível do projeto. Todos os documentos carregados para essa tarefa ou problema são armazenados nessa pasta e herdam permissões dela. Essa é a forma principal como as permissões são gerenciadas para documentos na nova área Documentos. Para obter mais informações, consulte [Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento corporativo do Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+O Workfront cria automaticamente uma pasta no nível do sistema quando o primeiro documento é carregado para uma tarefa ou problema. Essas pastas herdam permissões da tarefa ou do problema e estão visíveis na área de documentos do nível do projeto. Todos os documentos carregados para essa tarefa ou problema são armazenados nessa pasta e herdam permissões dela. Essa é a forma principal como as permissões são gerenciadas para documentos na nova área Documentos. Para obter mais informações, consulte [Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento na nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 ## Considerações
 

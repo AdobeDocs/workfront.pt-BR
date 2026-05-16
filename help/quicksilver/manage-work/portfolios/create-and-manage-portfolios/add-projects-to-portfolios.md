@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 3%
 
 ---
@@ -166,12 +166,12 @@ Old:
 
    >[!NOTE]
    >
-   >Se sua organização usar o armazenamento de documentos corporativos herdados do Workfront e do Adobe, os seguintes cenários existem:
+   >Se sua organização usar o armazenamento em nuvem herdado do Workfront e do Adobe para documentos, os seguintes cenários existem:
    >
    >
-   >* Quando você adiciona um projeto de armazenamento Adobe a um portfólio de armazenamento Workfront e o portfólio não tem documentos anexados a ele, o portfólio é convertido em um portfólio de armazenamento Adobe.
-   >* Quando você adiciona um projeto de armazenamento da Adobe a um portfólio de armazenamento da Workfront e o portfólio tem documentos anexados a ele, o armazenamento de documentos do portfólio permanece no armazenamento da Workfront. No entanto, o ícone de armazenamento herdado do Workfront ![ícone de armazenamento herdado do Workfront](assets/legacy-storage-project-icon.png) é removido do portfólio.
-   >* Não é possível adicionar um projeto de armazenamento Workfront a um portfólio de armazenamento Adobe.
+   >* Quando você adiciona um projeto de armazenamento em nuvem do Adobe a um portfólio de armazenamento Workfront herdado e o portfólio não tem documentos anexados a ele, o portfólio é convertido em um portfólio de armazenamento em nuvem do Adobe.
+   >* Quando você adiciona um projeto de armazenamento em nuvem do Adobe a um portfólio de armazenamento Workfront herdado e o portfólio tem documentos anexados a ele, o armazenamento de documentos do portfólio permanece no armazenamento do Workfront. No entanto, o ícone de armazenamento herdado do Workfront ![ícone de armazenamento herdado do Workfront](assets/legacy-storage-project-icon.png) é removido do portfólio.
+   >* Não é possível adicionar um projeto herdado do Workfront Storage a um portfólio Adobe de armazenamento na nuvem.
    >
    >Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
    >
