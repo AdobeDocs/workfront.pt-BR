@@ -12,7 +12,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Para obter mais informações sobre como assinar o contrato, consulte [Assinar o
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Tipo de arquivo incompatível"
->abstract="Este Revisor de Conteúdo não oferece suporte ao tipo de arquivo selecionado. Faça upload de um tipo de arquivo compatível ou remova o Revisor de conteúdo para enviar a solicitação."
+>abstract="Este Revisor de conteúdo não é compatível com o tipo de arquivo selecionado. Faça o upload de um tipo de arquivo compatível ou remova o Revisor de Conteúdo para enviar a solicitação."
 
 O Revisor de conteúdo pode revisar os seguintes tipos de arquivos:
 
