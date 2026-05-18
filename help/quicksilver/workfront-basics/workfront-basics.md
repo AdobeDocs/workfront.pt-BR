@@ -10,10 +10,10 @@ recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 434962cc354e545296610a73902d94fa1b6811f5
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 98%
 
 ---
 
@@ -39,4 +39,5 @@ Esta seção contém as seguintes subseções:
 * [Gerenciar sua conta e seu perfil](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [Aplicativos móveis](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Assistente de IA no Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+* [Servidor MCP do Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
 * [Dicas, truques e solução de problemas para o Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
