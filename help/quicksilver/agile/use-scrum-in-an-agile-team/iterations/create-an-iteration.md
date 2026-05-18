@@ -2,16 +2,16 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Criar uma iteração
-description: As iterações são um componente essencial para as equipes ágeis de Scrum no planejamento da capacidade de trabalho. [!DNL Adobe Workfront] permite que as equipes do Scrum Agile gerenciem seu trabalho criando várias iterações para acomodar as necessidades da equipe.
+description: As iterações são um componente essencial para as equipes do Scrum Agile no planejamento da capacidade de trabalho. [!DNL Adobe Workfront] permite que as equipes do Scrum Agile gerenciem seu trabalho criando várias iterações para acomodar as necessidades da equipe.
 author: Courtney
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 5%
+source-wordcount: '1025'
+ht-degree: 4%
 
 ---
 
@@ -41,7 +41,7 @@ As iterações são um componente essencial para as equipes ágeis de Scrum no p
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,11 +81,11 @@ Você pode adicionar uma iteração à lista para criar rapidamente uma iteraç�
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacidade]</strong></td> 
-      <td> Especifique a capacidade da iteração. Este é o número de pontos ou horas que sua equipe consegue completar na iteração. O número inserido deve ser igual ou maior que o número de pontos ou horas a partir da soma de todas as histórias na iteração.O <br>[!DNL Workfront] preenche este campo previamente com 50 caracteres por padrão. </td> 
+      <td> Especifique a capacidade da iteração. Este é o número de pontos ou horas que sua equipe consegue completar na iteração. O número inserido deve ser igual ou maior que o número de pontos ou horas a partir da soma de todas as histórias na iteração.<br>[!DNL Workfront] O preenche esse campo previamente com 50 caracteres por padrão. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Foco]</strong></td> 
-      <td>Especificar a porcentagem de foco da equipe. Se todos os membros da equipe estiverem totalmente focados nessa iteração, o foco será 100%.O <br>[!DNL Workfront] preenche este campo previamente com 100% por padrão. </td> 
+      <td>Especificar a porcentagem de foco da equipe. Se todos os membros da equipe forem completamente focalizados nessa iteração, o foco será 100%.<br>[!DNL Workfront] O preenche esse campo previamente com 100% por padrão. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -129,11 +129,11 @@ Use o recurso [!UICONTROL Planejar Iteração] para criar uma iteração usando 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Foco]</strong></td> 
-      <td>Especificar a porcentagem de foco da equipe. Se todos os membros da equipe estiverem totalmente focados nessa iteração, o foco será 100%.<br>[!DNL Workfront] preenche este campo previamente com o valor médio das iterações anteriores da sua equipe. Se esta for a primeira iteração da sua equipe, o valor deste campo será 0 por padrão.</td> 
+      <td>Especificar a porcentagem de foco da equipe. Se todos os membros da equipe forem completamente focalizados nessa iteração, o foco será 100%.<br>[!DNL Workfront] O preenche esse campo com o valor médio das iterações anteriores da equipe. Se esta for a primeira iteração da sua equipe, o valor deste campo será 0 por padrão.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL Capacidade]</strong></td> 
-      <td> Especifique a capacidade da iteração. Este é o número de pontos ou horas que sua equipe consegue completar na iteração. O número inserido deve ser igual ou maior que o número de pontos ou horas a partir da soma de todas as histórias na iteração.<br>[!DNL Workfront] preenche este campo previamente com o valor médio das iterações anteriores da sua equipe. Se esta for a primeira iteração da sua equipe, o valor deste campo será 0 por padrão.</td> 
+      <td> Especifique a capacidade da iteração. Este é o número de pontos ou horas que sua equipe consegue completar na iteração. O número inserido deve ser igual ou maior que o número de pontos ou horas a partir da soma de todas as histórias na iteração.<br>[!DNL Workfront] O preenche esse campo com o valor médio das iterações anteriores da equipe. Se esta for a primeira iteração da sua equipe, o valor deste campo será 0 por padrão.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL Meta]</strong></td> 
@@ -142,7 +142,7 @@ Use o recurso [!UICONTROL Planejar Iteração] para criar uma iteração usando 
     </tbody> 
    </table>
 
-1. Clique em **[!UICONTROL Salvar].** A iteração foi criada.
+1. Clique em **[!UICONTROL Salvar].** A iteração é criada.
 
 ## Adicionar tarefas ou problemas a uma iteração existente na guia Backlog
 

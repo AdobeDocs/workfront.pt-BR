@@ -9,10 +9,10 @@ feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 14%
+source-wordcount: '392'
+ht-degree: 13%
 
 ---
 
@@ -46,7 +46,7 @@ Uma iteração é uma quantidade definida de tempo reservado para concluir o tra
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

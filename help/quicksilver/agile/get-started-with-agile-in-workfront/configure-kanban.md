@@ -8,10 +8,10 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1561'
-ht-degree: 4%
+source-wordcount: '1554'
+ht-degree: 3%
 
 ---
 
@@ -64,7 +64,7 @@ Para obter informações sobre como configurar uma equipe do Scrum, consulte [Co
 </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Para configurar como as histórias são estimadas para sua equipe Agile:
 
 {{step1-to-team}}
 
-1. Clique no ícone ![](assets/switch-team-icon.png) Trocar Equipes **, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.**
+1. Clique no ícone ![](assets/switch-team-icon.png) Trocar Equipes ]**, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.**[!UICONTROL 
 1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 

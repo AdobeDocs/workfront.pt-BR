@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 7%
+source-wordcount: '625'
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ Nessa área, você pode executar as seguintes ações:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,13 +46,13 @@ Nessa área, você pode executar as seguintes ações:
   </tr> 
     <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Administrador de Sistema </p>
+   <td> <p>Administrador de sistema </p>
         </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

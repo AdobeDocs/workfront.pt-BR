@@ -8,9 +8,9 @@ feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1532'
 ht-degree: 5%
 
 ---
@@ -62,12 +62,12 @@ Para sincronizar cartões conectados com o Workfront, clique no menu **[!UICONTR
   <tr>
    <td role="rowheader">Permissões de objeto</td>
    <td><p>Visualize ou aumente as permissões para a tarefa ou problema do Workfront</p>
-</td>
+   </td>
   </tr>
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
