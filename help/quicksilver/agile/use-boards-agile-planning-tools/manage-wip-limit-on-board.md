@@ -9,10 +9,10 @@ feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 16%
+source-wordcount: '242'
+ht-degree: 14%
 
 ---
 
@@ -44,7 +44,7 @@ O limite WIP é simplesmente uma advertência visual e não o impede de ter mais
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
    Para adicionar uma nova coluna, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 1. Clique no menu **[!UICONTROL Mais]** na coluna e selecione **[!UICONTROL Editar]** para abrir a área Configurações.
-1. Em [!UICONTROL Políticas de Coluna], habilite a política de limite **[!UICONTROL de &#x200B;]Trabalho em andamento** para limitar o número de cartões que podem ser adicionados à coluna.
+1. Em [!UICONTROL Políticas de Coluna], habilite a política de limite **de**&#x200B;[!UICONTROL &#x200B; Trabalho em andamento] para limitar o número de cartões que podem ser adicionados à coluna.
 1. Digite o número de limite no campo **[!UICONTROL Definir limite]**.
 
    ![Limite de WIP para a coluna](assets/boards-wip-limit-in-column.png)

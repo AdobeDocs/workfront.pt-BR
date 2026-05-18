@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 12%
+source-wordcount: '503'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ Este artigo descreve como criar uma nova história do Agile quando você já est
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +74,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Ready]</strong></td>
-      <td>Selecione essa opção se a matéria estiver pronta para ser adicionada a uma iteração. Quando essa opção é selecionada, ela indica aos usuários quais histórias no backlog estão prontas para serem adicionadas a uma iteração.<br>Uma história pode ser adicionada a uma iteração independentemente de estar ou não marcada como <strong>[!UICONTROL Ready].</strong></td>
+      <td>Selecione essa opção se a matéria estiver pronta para ser adicionada a uma iteração. Quando essa opção é selecionada, ela indica aos usuários quais histórias na lista de pendências estão prontas para serem adicionadas a uma iteração.<br>Uma história pode ser adicionada a uma iteração independentemente de estar marcada como <strong>[!UICONTROL Ready].</strong></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimativa] (pontos)</strong></td>
@@ -86,7 +86,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Task]</strong></td>
-      <td>Depois de escolher um projeto principal, você tem a opção de escolher uma tarefa principal. Quando você seleciona uma tarefa pai, a história é criada como uma subtarefa da tarefa pai no projeto selecionado.<br>Comece a digitar o nome da tarefa pai da matéria e clique nela quando ela aparecer na lista suspensa.</td>
+      <td>Depois de escolher um projeto principal, você tem a opção de escolher uma tarefa principal. Quando você seleciona uma tarefa pai, a matéria é criada como uma subtarefa da tarefa pai no projeto selecionado.<br>Comece a digitar o nome da tarefa pai da matéria e clique nele quando ela aparecer na lista suspensa.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
