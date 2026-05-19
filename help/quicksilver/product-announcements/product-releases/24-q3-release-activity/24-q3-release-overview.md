@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 16%
+source-wordcount: '1948'
+ht-degree: 12%
 
 ---
 
@@ -70,7 +70,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 4 de julho de 2024</p>
+                                <p>Versão de pré-visualização: 4 de julho de 2024</p>
                             </li>
                             <li>
                                 <p>Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
@@ -89,7 +89,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: quinta-feira, 19 de junho de 2024</p>
+                                <p>Versão de pré-visualização: 19 de junho de 2024</p>
                             </li>
                             <li>
                                 <p>Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
@@ -120,7 +120,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 6 de junho de 2024</p>
+                                <p>Versão de pré-visualização: 6 de junho de 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Versão de produção para todos os clientes: 13 de junho</span></p>
@@ -137,7 +137,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 6 de junho de 2024</p>
+                                <p>Versão de pré-visualização: 6 de junho de 2024</p>
                             </li>
                             <li>
                                 <p>Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
@@ -154,10 +154,10 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: quarta-feira, 4 de junho de 2024</p>
+                                <p>Versão de pré-visualização: 4 de junho de 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produção para todos os clientes: quarta-feira, 4 de junho de 2024</span></p>
+                                <p><span class="preview">Produção para todos os clientes: 4 de junho de 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -196,10 +196,10 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sábado, 10 de maio de 2024</p>
+                                <p>Versão de pré-visualização: 10 de maio de 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produção para todos os clientes: sábado, 10 de maio de 2024</span></p>
+                                <p><span class="preview">Produção para todos os clientes: 10 de maio de 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -236,7 +236,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 27 de junho de 2024</p>
+                                <p>Versão de pré-visualização: 27 de junho de 2024</p>
                             </li>
                             <li>
                                 <p>Produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
@@ -272,7 +272,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 30 de maio de 2024</p>
+                                <p>Versão de pré-visualização: 30 de maio de 2024</p>
                             </li>
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento do 24.6 (13 de junho de 2024)</p>
@@ -292,7 +292,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: quarta-feira, 13 de fevereiro de 2024</p>
+                                <p>Versão de pré-visualização: 13 de fevereiro de 2024</p>
                             </li>
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
@@ -310,7 +310,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 21 de dezembro de 2023</p>
+                                <p>Versão de pré-visualização: 21 de dezembro de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
@@ -347,10 +347,10 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 4 de julho de 2024</p>
+                                <p>Versão de pré-visualização: 4 de julho de 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produção para todos os clientes: sexta-feira, 4 de julho de 2024</span></p>
+                                <p><span class="preview">Produção para todos os clientes: 4 de julho de 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -383,7 +383,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 6 de junho de 2024</p>
+                                <p>Versão de pré-visualização: 6 de junho de 2024</p>
                             </li>
                             <li>
                                 <p>Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
@@ -432,7 +432,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 20 de junho de 2024</p>
+                                <p>Versão de pré-visualização: 20 de junho de 2024</p>
                             </li>
                             <li>
                                 <p>Produção para clientes especificados: com a versão 24.7 (18 de julho de 2024)</p>
@@ -450,7 +450,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 6 de junho de 2024</p>
+                                <p>Versão de pré-visualização: 6 de junho de 2024</p>
                             </li>
                             <li>
                                 <p>Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
@@ -467,7 +467,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: quinta-feira, 27 de março de 2024</p>
+                                <p>Versão de pré-visualização: 27 de março de 2024</p>
                             </li>
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
@@ -517,9 +517,9 @@ Não há atualizações do Workfront Goals neste momento na versão. Esta área 
 
 ### API versão 18
 
-Para a versão 18 da API, modificamos alguns recursos e pontos de acesso. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+Para a API versão 18, modificamos alguns recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
-Para obter informações sobre as novidades e atualizações, consulte [Novidades na versão 18 da API](/help/quicksilver/wf-api/api/new-api-version-18.md).
+Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 Para obter informações sobre as versões da API, consulte [controle de versão da API e cronograma de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1808'
 ht-degree: 4%
 
 ---
@@ -242,7 +242,7 @@ IF({status} = "APR", true)
 
      É possível incluir um URL estático na mensagem de erro, um link para a documentação ou outras páginas úteis para orientar o usuário sobre como modificar sua ação dentro da restrição da regra.
 
-     Neste exemplo, &quot;Saiba mais&quot; vinculará ao URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` A URL deve estar entre parênteses, mas o texto do link entre parênteses não é necessário. Você pode exibir o URL completo e ele será um link clicável.
+     Neste exemplo, &quot;Saiba mais&quot; será vinculado à URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` O URL deve estar entre parênteses, mas o texto do link entre parênteses não é necessário. Você pode exibir o URL completo e ele será um link clicável.
 
    ![Caixa de diálogo Adicionar regra de negócio](assets/add-business-rule-new.png)
 

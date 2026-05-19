@@ -7,14 +7,14 @@ recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
 source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '874'
+ht-degree: 1%
 
 ---
 
 # Aprimoramentos do administrador no primeiro trimestre de 2025
 
-Esta página descreve todas as melhorias de administrador feitas com a versão do Primeiro trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todas as melhorias de administrador feitas com a versão do Primeiro trimestre de 2025 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2025, consulte [Visão geral da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
@@ -52,7 +52,7 @@ Para obter mais informações, consulte [Comparar objetos entre ambientes](/help
 
 Para expandir os recursos da funcionalidade de promoção do ambiente, adicionamos mais objetos. Agora, é possível adicionar os seguintes objetos a um pacote de promoção de ambiente:
 
-* Locais
+* Localizações
 * Cartões de tarifas
 * Atribuições
 
