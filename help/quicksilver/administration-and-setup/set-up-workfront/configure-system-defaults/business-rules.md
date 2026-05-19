@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1808'
 ht-degree: 4%
 
 ---
@@ -78,7 +78,7 @@ O formato de uma validação de regra de negócios é &quot;Se a condição defi
 
 A sintaxe das propriedades e outras funções em uma regra de negócios é igual à sintaxe de um campo calculado em um formulário personalizado. Para obter mais informações sobre a sintaxe, consulte [Adicionar campos calculados com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Para obter informações sobre instruções IF, consulte a [&#x200B; visão geral das instruções &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e os [Operadores de condição em campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Para obter informações sobre instruções IF, consulte a [ visão geral das instruções &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e os [Operadores de condição em campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Para obter informações sobre curingas baseados no usuário, consulte [Usar curingas baseados no usuário para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -242,7 +242,7 @@ IF({status} = "APR", true)
 
      É possível incluir um URL estático na mensagem de erro, um link para a documentação ou outras páginas úteis para orientar o usuário sobre como modificar sua ação dentro da restrição da regra.
 
-     Neste exemplo, &quot;Saiba mais&quot; vinculará ao URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` A URL deve estar entre parênteses, mas o texto do link entre parênteses não é necessário. Você pode exibir o URL completo e ele será um link clicável.
+     Neste exemplo, &quot;Saiba mais&quot; será vinculado à URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` O URL deve estar entre parênteses, mas o texto do link entre parênteses não é necessário. Você pode exibir o URL completo e ele será um link clicável.
 
    ![Caixa de diálogo Adicionar regra de negócio](assets/add-business-rule-new.png)
 

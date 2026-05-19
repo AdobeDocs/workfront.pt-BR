@@ -7,14 +7,14 @@ recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
 source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 0%
+source-wordcount: '707'
+ht-degree: 3%
 
 ---
 
 # Aprimoramentos do administrador no terceiro trimestre de 2024
 
-Esta página descreve todas as melhorias de administrador feitas com a versão do terceiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todas as melhorias de administrador feitas com a versão do terceiro trimestre de 2024 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
@@ -32,7 +32,7 @@ Para obter mais informações, consulte [Criar e editar regras de negócios](/he
 
 >[!IMPORTANT]
 >
->As regras de negócios só estão disponíveis para organizações no novo plano Ultimate.
+>As regras de negócios só estão disponíveis para organizações no novo plano do Ultimate.
 
 ## Designer de formulários personalizados geralmente disponível no Adobe Workfront
 
@@ -60,11 +60,11 @@ Anteriormente, os objetos precisavam ser configurados em ambientes de produção
 
 Para obter mais informações sobre a promoção do ambiente, consulte [Visão geral da movimentação de objetos entre ambientes do Workfront (Promoção do ambiente)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
->A promoção ambiental só está disponível para organizações nos novos planos Prime ou Ultimate.
+>A promoção do ambiente só está disponível para organizações nos novos planos do Prime ou do Ultimate.
 >
 
 ## Compartilhar formulários personalizados e campos personalizados no designer de formulários personalizado

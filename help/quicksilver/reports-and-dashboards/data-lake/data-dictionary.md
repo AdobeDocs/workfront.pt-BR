@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Dicionário de dados da Workfront Data Connect
+title: Dicionário de dados da conexão de dados do Workfront
 description: Esta página contém informações sobre a estrutura e o conteúdo dos dados no Workfront Data Connect.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
 source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8904'
-ht-degree: 9%
+source-wordcount: '8722'
+ht-degree: 10%
 
 ---
 
-# Dicionário de dados da Workfront Data Connect
+# Dicionário de dados da conexão de dados do Workfront
 
 Esta página contém informações sobre a estrutura e o conteúdo dos dados no Workfront Data Connect.
 
@@ -109,7 +109,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
 
 >[!NOTE]
 >
->Novos campos podem ser adicionados às visualizações de objetos sem aviso prévio para suportar as necessidades de dados em evolução do aplicativo Workfront. Atenção ao uso de consultas &quot;SELECT&quot; em que o destinatário de dados downstream não esteja preparado para lidar com colunas adicionais à medida que são adicionadas.<br>
+>Novos campos podem ser adicionados às visualizações de objetos sem aviso prévio para suportar as necessidades de dados em evolução do aplicativo Workfront. Recomendamos não usar consultas &quot;SELECT&quot; em que o recipient de dados downstream não esteja preparado para lidar com colunas adicionais conforme são adicionadas.<br>
 >Se for necessário renomear ou remover uma coluna, informaremos com antecedência dessas alterações.
 
 ### Nível de acesso
@@ -557,7 +557,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
         <tr>
             <td>Atribuição</td>
             <td>Atribuição</td>
-            <td>ATRIBUIR</td>
+            <td>ASSGN</td>
             <td>Atribuição</td>
             <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
         </tr>
@@ -1405,7 +1405,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
       <tbody>
         <tr>
             <td>Parâmetro da Categoria</td>
-            <td>Campos de formulário personalizados</td>
+            <td>Campos de formulário personalizado</td>
             <td>CTGYPA</td>
             <td>Parâmetro da Categoria</td>
             <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
@@ -1534,7 +1534,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
         <tr>
             <td>Empresa</td>
             <td>Empresa</td>
-            <td>COMPY</td>
+            <td>CMPY</td>
             <td>Empresa</td>
             <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANHIAS_EVENT</td>
         </tr>
@@ -1708,15 +1708,15 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
 >
 >O tipo de registro é identificado por meio da propriedade `enumClass`. Estes são os tipos esperados:<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Documento
@@ -3743,7 +3743,7 @@ Auto</td>
         <tr>
             <td>Nota</td>
             <td>Nota</td>
-            <td>Nota</td>
+            <td>NOTA</td>
             <td>Nota</td>
             <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
         </tr>
@@ -4745,7 +4745,7 @@ Auto</td>
         <tr>
             <td>Portfólio</td>
             <td>Portfólio</td>
-            <td>PORTA</td>
+            <td>PORT</td>
             <td>Portfólio</td>
             <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT</td>
         </tr>
@@ -6080,7 +6080,7 @@ Disponibilidade limitada para o cliente
         <tr>
             <td>Plano de recrutamento</td>
             <td>Plano de recrutamento</td>
-            <td>EQUIPE</td>
+            <td>STAFFP</td>
             <td>Plano de recrutamento</td>
             <td>STAFFING_PLAN_CURRENT<br>STAFFING_PLAN_DAILY_HISTORY<br>STAFFING_PLAN_EVENT</td>
         </tr>
@@ -6173,7 +6173,7 @@ Disponibilidade limitada para o cliente
         <tr>
             <td>Recurso do plano de recrutamento</td>
             <td>Recurso do plano de recrutamento</td>
-            <td>EQUIPE</td>
+            <td>STAFFR</td>
             <td>Recurso do plano de recrutamento</td>
             <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
         </tr>
@@ -6651,7 +6651,7 @@ Disponibilidade limitada para o cliente
 
 >[!NOTE]
 >
->Existem 3 tipos de equipe que são armazenados nas tabelas de objeto de Equipe: PROJECT, TEMPLATE e ADHOC. <br>
+>Há três tipos de equipes que são armazenados nas tabelas de objetos da Equipe: PROJETO, MODELO e ADHOC. <br>
 >Cada um desses tipos de equipe é representado juntos nas visualizações do data lake da Data Connect. Para isolar o tipo específico de grupo que você quer que seja retornado, você precisará filtrar na coluna `teamtype`. Por exemplo, se você quiser apenas as equipes tradicionais que fazem parte de suas estruturas organizacionais, configuradas na área Equipes do aplicativo, você pode ter uma consulta com esta aparência: <code>select * from team_current where teamtype = &#39;ADHOC&#39;;</code>
 
 ### Integrante da Equipe
@@ -7778,7 +7778,7 @@ Disponibilidade limitada para o cliente
         <tr>
             <td>Folha de horas</td>
             <td>Folha de horas</td>
-            <td>FOLHA</td>
+            <td>TSHET</td>
             <td>Folha de horas</td>
             <td>FOLHAS_DE_HORAS_ATUAIS<br>FOLHAS_DE_HORAS_DIÁRIAS_HISTÓRICO<br>FOLHAS_DE_HORAS_EVENTO</td>
         </tr>
