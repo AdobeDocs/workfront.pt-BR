@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 8%
+source-wordcount: '1179'
+ht-degree: 7%
 
 ---
 
@@ -114,6 +114,12 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 ## Anexar um modelo a um projeto existente {#attach-a-template-to-an-existing-project}
 
 Você pode anexar um modelo a um projeto a partir da página do projeto ou de uma lista de projetos ou relatório.
+
+>[!NOTE]
+>
+>Quando sua organização usa o armazenamento de documentos na nuvem herdado do Workfront e do Adobe, é possível anexar um modelo usando um tipo de armazenamento diferente daquele do projeto. Isso não altera o armazenamento de documentos do projeto.
+>
+>Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-projects}}
 

@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 6%
+source-wordcount: '676'
+ht-degree: 4%
 
 ---
 
 # Adicionar um projeto a um programa
 
-<!--Audited: 08/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -114,26 +114,34 @@ old:
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Projeto Existente]</td> 
-      <td> <p>Adicione um projeto já criado.</p> </td> 
-     </tr> 
-     <tr> 
+    <tbody>
+
+   <tr> 
       <td role="rowheader">[!UICONTROL Novo Projeto]</td> 
       <td> <p>Adicione um novo projeto do zero. </p> <p>Para obter mais informações sobre como criar um projeto do zero, consulte <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Criar um projeto</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Importar um Projeto de [!DNL MS Project]] </td> 
+      <td role="rowheader">[!UICONTROL Novo Projeto (Armazenamento Herdado)]</td> 
+      <td> <p>Adicione um novo projeto de armazenamento do Workfront. </p>
+      <p>A opção é exibida somente quando sua organização usa o armazenamento de documentos da nuvem do Workfront e do Adobe. Sua instância do Workfront pode não ter ambos os tipos de armazenamento.</p>
+      <p>Para obter mais informações sobre como criar um projeto, consulte <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Criar um projeto</a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">[!UICONTROL Novo Projeto de Modelo]</td> 
+      <td> <p>Adicione um novo projeto usando um modelo existente. </p> <p>Para obter mais informações sobre como criar um projeto a partir de um modelo, consulte <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Criar um projeto usando um modelo</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Importar [!DNL MS Project]] </td> 
       <td> <p>Adicione um projeto que você exportou anteriormente do [!DNL MS Project] e salvou no computador. </p> <p>Para obter mais informações sobre como criar um novo projeto importando-o de [!DNL Microsoft Project], consulte <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importar um projeto de [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Solicitar Projeto]</td> 
       <td> <p>Solicite que o novo projeto seja aprovado antes de começar a trabalhar nele.</p> <p>Para obter informações sobre a solicitação de projetos, consulte <a href="../../../manage-work/projects/create-projects/request-project.md">Solicitando um projeto</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Novo do Modelo]</td> 
-      <td> <p>Adicione um novo projeto usando um modelo existente. </p> <p>Para obter mais informações sobre como criar um projeto a partir de um modelo, consulte <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Criar um projeto usando um modelo</a>.</p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL Projeto Existente]</td> 
+      <td> <p>Adicione um projeto já criado.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -147,8 +155,22 @@ old:
    1. Na caixa **[!UICONTROL Adicionar projetos]**, digite o nome de um projeto no campo **Adicionar projetos a este programa** e selecione-o quando ele for exibido na lista. <!--check casing on links and buttons-->
 
       Você pode adicionar mais de um projeto.
+
+      >[!NOTE]
+      >
+      >Quando sua organização usa o armazenamento em nuvem herdado do Workfront e do Adobe para documentos, os seguintes cenários existem:
+      >
+      >
+      >* Quando você adiciona um projeto do Adobe Cloud Storage a um programa herdado do Workfront Storage e o programa não tem documentos anexados a ele, o programa e seu portfólio são convertidos em um objeto do Adobe Cloud Storage.
+      >* Quando você adiciona um projeto de armazenamento em nuvem do Adobe a um programa de armazenamento Workfront herdado e o programa ou o portfólio tem documentos anexados a ele, o programa ou o portfólio de armazenamento de documentos permanece no armazenamento do Workfront. No entanto, o ícone de armazenamento herdado do Workfront ![ícone de armazenamento herdado do Workfront](assets/legacy-storage-project-icon.png) é removido do programa ou do portfólio (o que tiver documentos anexados antes de mover o projeto).
+      >* Não é possível adicionar um projeto herdado do Workfront Storage a um programa do Adobe Cloud Storage.
+      >
+      >Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+      >
+      >Nem todas as instâncias do Workfront têm ambos os tipos de armazenamentos de documentos.
+
    1. (Opcional) Clique no ícone **Excluir** ![Excluir ícone](assets/delete-icon.png) ao lado do nome de um projeto se você decidir não adicioná-lo ao programa.
 
-   1. Clique em **[!UICONTROL Adicionar Projetos]**. <!--check at unshimming-->
+   1. Clique em **[!UICONTROL Adicionar projetos]**. <!--check at unshimming-->
 
-      O projeto aparece na guia **[!UICONTROL Projetos]** do programa e agora está associado ao programa e ao respectivo portfólio.
+      O projeto é exibido na guia **[!UICONTROL Projetos]** do programa e agora está associado ao programa e ao respectivo portfólio.

@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '21715'
+source-wordcount: '21830'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 <!--Audited: 04/2026-->
 
-Bob: 4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -1436,6 +1436,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL On Change Only]</td> 
    <td> <p>Um dos tipos de [!UICONTROL Atualizações de projeto]. Quando selecionado, as linhas do tempo [!UICONTROL Project Projected] e [!UICONTROL Planned] são atualizadas apenas quando uma atualização ou alteração é feita no projeto ou em uma tarefa dentro do projeto. Não atualiza o projeto todas as noites.</p> <p>Para obter mais informações, consulte <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selecionar o tipo de atualização do projeto </a>.</p> </td> 
+  </tr>
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL No armazenamento herdado do Workfront]</td> 
+   <td>  <p>O ícone de armazenamento herdado do Workfront <img src="assets/legacy-storage-project-icon.png"> indica que um objeto está associado ao armazenamento de documentos do Workfront. </p> 
+   <p>O ícone é exibido próximo ao nome de um objeto, no cabeçalho do objeto ou em algumas listas. </p>
+   <p>Alguns clientes têm armazenamento de documentos em nuvem herdado do Workfront e do Adobe. Os documentos podem ser armazenados em qualquer um desses ambientes para clientes que tenham ambos os tipos de armazenamento.</p>
+   <p>Os seguintes objetos podem ter armazenamento de documentos na nuvem do Workfront ou do Adobe:</p>
+   <ul><li>Projetos</li>
+   <li>Portfólios</li>
+   <li>Programas</li>
+   <li>Modelos</li>
+   <li>Tarefas</li>
+   <li>Problemas</li>
+   <li>Modelos de tarefa</li></ul>
+   <p>Somente projetos, portfólios, programas e modelos podem exibir o ícone On legacy Workfront storage. </p>
+   <p>Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento. 
+  <p>Para obter mais informações, consulte <a href="/help/quicksilver/review-and-approve-work/esm-overview.md">visão geral do armazenamento na nuvem do Adobe</a>. </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op Task]</td> 

@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '689'
 ht-degree: 3%
 
 ---
@@ -128,27 +128,34 @@ Old:
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Projeto Existente]</td> 
-      <td> <p>Adicione um projeto já criado.</p> </td> 
-     </tr> 
-     <tr> 
+    <tbody>
+
+   <tr> 
       <td role="rowheader">[!UICONTROL Novo Projeto]</td> 
-      <td> <p>Adicione um novo projeto. </p> <p>Para obter mais informações sobre como criar um novo projeto, consulte <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Criar um projeto</a>. </p> </td> 
+      <td> <p>Adicione um novo projeto. </p> <p>Para obter mais informações sobre como criar um projeto, consulte <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Criar um projeto</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Importar um Projeto de [!DNL MS Project]] </td> 
+      <td role="rowheader">[!UICONTROL Novo Projeto (Armazenamento Herdado)]</td> 
+      <td> <p>Adicione um novo projeto de armazenamento do Workfront. </p>
+      <p>A opção é exibida somente quando sua organização usa o armazenamento de documentos da nuvem do Workfront e do Adobe. Sua instância do Workfront pode não ter ambos os tipos de armazenamento.</p>
+       <p>Para obter mais informações sobre como criar um projeto, consulte <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Criar um projeto</a>. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Novo Projeto de Modelo]</td> 
+      <td> <p>Adicione um novo projeto usando um modelo existente. </p> <p>Para obter mais informações sobre como criar um projeto a partir de um modelo, consulte <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Criar um projeto usando um modelo</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Importar [!DNL MS Project]] </td> 
       <td> <p>Adicione um projeto que você exportou anteriormente do [!DNL MS Project] e salvou no computador. </p> <p>Para obter mais informações sobre como criar um novo projeto importando-o de [!DNL Microsoft Project], consulte <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importar um projeto de [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Solicitar Projeto]</td> 
       <td> <p>Solicitar que um projeto seja aprovado.</p> <p>Para obter informações sobre a solicitação de projetos, consulte <a href="../../../manage-work/projects/create-projects/request-project.md">Solicitando um projeto</a>. </p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Novo do Modelo]</td> 
-      <td> <p>Adicione um novo projeto usando um modelo existente. </p> <p>Para obter mais informações sobre como criar um projeto a partir de um modelo, consulte <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Criar um projeto usando um modelo</a>.</p> </td> 
-     </tr> 
+          <tr> 
+      <td role="rowheader">[!UICONTROL Projeto Existente]</td> 
+      <td> <p>Adicione um projeto já criado.</p> </td> 
+     </tr>
     </tbody> 
    </table>
 
@@ -160,13 +167,13 @@ Old:
 
    ![Adicionar projeto existente](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
-1. Comece digitando o nome de um projeto no campo **[!UICONTROL Adicionar projetos a este Portfolio]** e clique neles quando eles aparecerem na lista.  <!--check this after UI changes-->
+1. Comece digitando o nome de um projeto no campo **[!UICONTROL Adicionar projetos a este portfólio]** e clique neles quando eles aparecerem na lista.  <!--check this after UI changes-->
 
    Você pode adicionar mais de um projeto.
 
    >[!NOTE]
    >
-   >Se sua organização usar o armazenamento em nuvem herdado do Workfront e do Adobe para documentos, os seguintes cenários existem:
+   >Quando sua organização usa o armazenamento em nuvem herdado do Workfront e do Adobe para documentos, os seguintes cenários existem:
    >
    >
    >* Quando você adiciona um projeto de armazenamento em nuvem do Adobe a um portfólio de armazenamento Workfront herdado e o portfólio não tem documentos anexados a ele, o portfólio é convertido em um portfólio de armazenamento em nuvem do Adobe.
@@ -181,6 +188,6 @@ Old:
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
-1. Clique em **[!UICONTROL Adicionar Projetos]**. <!--check this after UI changes-->
+1. Clique em **[!UICONTROL Adicionar projetos]**. <!--check this after UI changes-->
 
    O projeto ou projetos selecionados agora estão associados ao portfólio.

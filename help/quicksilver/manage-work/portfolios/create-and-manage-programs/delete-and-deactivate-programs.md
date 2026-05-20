@@ -5,10 +5,11 @@ title: Excluir e desativar programas
 description: Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto. Os programas são uma subdivisão de portfólios e não podem existir fora de um portfólio. Os programas normalmente compartilham os mesmos recursos que outros programas no mesmo portfólio. Você pode excluir ou desativar um programa quando ele se tornar irrelevante.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+exl-id: 605d1ec5-ca2e-4ff0-87e1-fa53d8ac4a95
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: '464'
+ht-degree: 7%
 
 ---
 
@@ -38,7 +39,7 @@ Recomendamos desativar um portfólio, em vez de excluí-lo, para preservar as in
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td> <p>[!UICONTROL Padrão]</p><p>[!UICONTROL Plano]</p> </td> 
+   <td> <p>[!UICONTROL Padrão]</p><p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -51,7 +52,7 @@ Recomendamos desativar um portfólio, em vez de excluí-lo, para preservar as in
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +74,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 {{step1-to-programs}}
 
 1. Clique no nome de um programa para abri-lo.
-1. Clique no menu **Mais** à direita do nome do programa e em **Desativar Programa**.
+1. Siga um destes procedimentos:
+
+   * Clique no menu **Mais** à direita do nome do programa e em **Desativar Programa**.
+   * Clique no menu **Mais** à direita do programa e em **Editar**
+
+     Ou
+
+     Clique na seção **Detalhes do programa** no painel esquerdo e desmarque a caixa **Está ativo**.
 
    O programa é desativado imediatamente e as seguintes situações ocorrem:
 

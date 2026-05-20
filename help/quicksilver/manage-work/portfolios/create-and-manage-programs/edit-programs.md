@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1160'
 ht-degree: 5%
 
 ---
@@ -154,8 +154,17 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>Adicione o nome de um único grupo se ele estiver associado ao programa ou tiver responsabilidade de concluí-lo. </p> <p><b>DICA</b></p>  <p>Ao acessar o campo [!UICONTROL Group] na página [!UICONTROL Program Details], faça o seguinte para verificar se está selecionando o grupo correto: </p> <p>Passe o mouse sobre o nome do grupo e clique no ícone [!UICONTROL information] <img src="assets/info-icon.png"> ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opção não está disponível na caixa [!UICONTROL Editar Programa]. </p> </p> </td> 
-     </tr> 
-    </tbody> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL Está Ativo]</td> 
+      <td> <p>Marque essa configuração se desejar que esse programa esteja ativo e que os usuários o encontrem para associá-lo a projetos.</p>
+   <p>Quando desmarcada, o programa não é exibido no campo Programa de um projeto ou modelo. </p>
+   <p>Essa configuração é marcada por padrão. </p>
+   </td> 
+     </tr>
+
+   </tbody> 
    </table>
 
    <!--
