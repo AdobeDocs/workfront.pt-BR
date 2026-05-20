@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ca9663abd511508a327d074c54bde53450af08d5
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1792'
 ht-degree: 2%
 
 ---
@@ -240,3 +240,12 @@ Para o ambiente Personalizar atualização da sandbox, o recálculo noturno é d
 
    * Notificações de lembrete
    * Notificações automáticas de lembrete atrasadas ou antecipadas
+
+### Nota sobre Regras de Negócios
+
+As Regras de negócios são intencionalmente excluídas das atualizações do ambiente Visualização da Workfront e Sandbox. Ao contrário da maioria dos dados, as Regras de negócios são tratadas como configuração específica do ambiente, semelhante aos Usuários. Cada ambiente pode manter um conjunto distinto de regras adaptado à sua finalidade (por exemplo, teste, desenvolvimento ou produção).
+
+A inclusão de Regras de negócios em uma atualização substituiria essas configurações, possivelmente interrompendo as regras que os administradores definiram intencionalmente em ambientes não relacionados à produção.
+
+Se você precisar mover Regras de negócios entre ambientes, use a Promoção do ambiente, que permite transferir seletivamente objetos de configuração com controle sobre tempo e escopo. Para obter mais informações, consulte [Visão geral da movimentação de objetos entre ambientes do Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+

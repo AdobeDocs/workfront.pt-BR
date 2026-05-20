@@ -6,9 +6,9 @@ description: Planeje a implantação do Workfront no Adobe Cloud Storage. Saiba 
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ A tabela a seguir resume as principais diferenças ao alternar para o armazename
 | [A nova área Documentos](#the-new-documents-area) | Uma área Documentos unificada e reprojetada substitui a área Documentos herdada. | Nenhuma área Documentos global. Acesse documentos de um programa, portfólio, projeto, tarefa ou problema. |
 | [Permissões de documento](#document-permissions) | Os documentos herdam permissões do projeto, tarefa ou problema ao qual estão vinculados. | Você não pode compartilhar ou definir permissões em documentos individuais. Você gerencia todo o acesso por meio do modal Compartilhamento de objetos no Workfront, que é enviado em cascata para pastas de documentos geradas pelo sistema. |
 | [Mapeamento de permissões de objeto](#object-permissions-mapping) | As permissões Gerenciar e Contribuir da Workfront são mapeadas para Editar e Compartilhar no Frame.io. Visualizar mapas para Somente comentário. | As permissões são gerenciadas no Workfront. Os usuários do Manage e do Contribute obtêm o recurso de compartilhamento externo no Frame.io. |
-| [Visualizador de revisão e aprovação](#review-and-approval-viewer) | O visualizador Frame.io substitui o visualizador do Workfront Proofing. | Incluído para todos os usuários da Workfront com uma licença paga. Suporta marcação, comentários com carimbo de data e hora, histórico de versões, dispositivos móveis, formatos com mais de 40 anos e arquivos de até 500 GB. |
+| [Visualizador de revisão e aprovação](#review-and-approval-viewer) | O visualizador Frame.io substitui o visualizador do Workfront Proofing. | Incluído para todos os usuários do Workfront, incluindo Usuários externos atribuídos a uma revisão ou aprovação. Suporta marcação, comentários com carimbo de data e hora, histórico de versões, dispositivos móveis, formatos com mais de 40 anos e arquivos de até 500 GB. |
 | [Regras de nomenclatura de objetos](#object-naming-rules) | Regras de nomenclatura rígidas se aplicam: nomes exclusivos em um portfólio ou projeto, sem caracteres especiais, sem ponto ou espaço à direita e limite de 255 caracteres. | O Workfront renomeia objetos automaticamente quando surgem conflitos. Modelos de auditoria que geram novos nomes e estrutura de projeto. |
 | [Portabilidade de objeto](#object-portability) | Você pode mover, copiar e converter objetos somente entre modelos de armazenamento semelhantes. | Os objetos de armazenamento na nuvem do Adobe não podem ser movidos para projetos herdados, ou o inverso. Mover um projeto do Adobe Cloud Storage para um portfólio ou programa herdado converte o pai no Adobe Cloud Storage. |
 | [Recursos não disponíveis](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, o visualizador de documentos do Workfront, documentos favoritos e documentos de solicitação não fazem parte da experiência. | Os objetos herdados retêm esses recursos. O Workfront Proof não receberá novo investimento e será removido em uma versão futura. |
@@ -102,7 +102,7 @@ Para obter mais informações, consulte [Visão geral das permissões de objeto 
 
 ### Visualizador de revisão e aprovação
 
-Em objetos de armazenamento na nuvem do Adobe, o visualizador Frame.io é a superfície de revisão e aprovação no lugar do Workfront Proof. O visualizador Frame.io está incluído para todos os usuários do Workfront com uma licença paga.
+Em objetos de armazenamento na nuvem do Adobe, o visualizador Frame.io é a superfície de revisão e aprovação no lugar do Workfront Proof. O visualizador Frame.io é incluído para todos os usuários do Workfront sem custo adicional, incluindo usuários externos que são atribuídos a uma revisão ou aprovação.
 
 O visualizador Frame.io fornece:
 
