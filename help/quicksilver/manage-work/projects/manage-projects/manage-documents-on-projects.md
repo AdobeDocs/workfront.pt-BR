@@ -6,9 +6,9 @@ description: Dependendo de o administrador do Workfront escolher o padrão de su
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1920'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,10 @@ Leve em consideração o seguinte ao trabalhar com programas:
 
 * Ao criar um programa de armazenamento na nuvem do Adobe, o Workfront cria uma pasta na seção Documentos do programa em que os documentos são salvos. O nome da pasta é igual ao nome do programa. Não é possível excluir ou renomear manualmente a pasta. A pasta será renomeada se você alterar o nome do programa para corresponder ao novo nome do programa.
 
-* Quando você adiciona um projeto do Adobe Cloud Storage a um programa herdado do Workfront Storage e o programa não tem documentos anexados a ele, o programa é convertido em um programa do Adobe Cloud Storage.
-* Quando você adiciona um projeto de armazenamento em nuvem do Adobe a um programa de armazenamento Workfront herdado e o programa tem documentos anexados a ele, o armazenamento de documentos do programa permanece no armazenamento do Workfront. No entanto, o ícone de armazenamento herdado do Workfront para o programa ![Ícone de armazenamento herdado do portfólio](assets/legacy-storage-project-icon.png) foi removido do programa.
+* Quando você adiciona um projeto do Adobe Cloud Storage a um programa herdado do Workfront Storage e o programa não tem documentos anexados a ele, o programa é convertido em um programa do Adobe Cloud Storage. O portfólio do programa também é convertido.
+* Quando você adiciona um projeto de armazenamento em nuvem do Adobe a um programa de armazenamento Workfront herdado e o programa tem documentos anexados a ele, o armazenamento de documentos do programa permanece no armazenamento do Workfront. Se o portfólio também tiver documentos, seu armazenamento de documentos também permanecerá no armazenamento do Workfront; caso contrário, o portfólio será convertido no armazenamento em nuvem do Adobe.
+
+  O ícone de armazenamento herdado do Workfront para o programa ![Ícone de armazenamento herdado do portfólio](assets/legacy-storage-project-icon.png) foi removido do programa.
 * Não é possível adicionar um projeto herdado do Workfront Storage a um programa do Adobe Cloud Storage.
 
 * Quando você cria programas usando uma automação do Workfront Planning, a Workfront usa a preferência de armazenamento padrão do sistema para o programa. Você deve adquirir o pacote do Planning para ter acesso ao Workfront Planning.
@@ -199,8 +201,8 @@ Considere o seguinte ao trabalhar com modelos:
 
 * Ao criar um modelo de armazenamento na nuvem do Adobe, o Workfront cria uma pasta na seção Documentos do modelo em que os documentos são salvos. O nome da pasta é igual ao do programa. Não é possível excluir ou renomear manualmente a pasta. A pasta será renomeada se você alterar o nome do modelo para corresponder ao novo nome do modelo.
 * Você pode usar um modelo herdado do Workfront Storage para criar projetos herdados do Workfront Storage; pode usar um modelo do Adobe Cloud Storage para criar um projeto do Adobe Cloud Storage.
-* Você pode anexar um modelo de armazenamento herdado do Workfront a um projeto do Adobe Cloud Storage e isso não altera o local de armazenamento do projeto.
-* Você pode anexar um modelo de armazenamento na nuvem do Adobe a um projeto de armazenamento Workfront herdado e isso não altera o local de armazenamento do projeto. Os documentos na pasta de armazenamento na nuvem do Adobe para o modelo são adicionados ao projeto diretamente, sem a pasta, enquanto os documentos nas pastas de tarefa do modelo são adicionados às pastas anexadas às tarefas do projeto na seção Documentos das tarefas.
+* Você pode anexar um modelo de armazenamento herdado do Workfront a um projeto do Adobe Cloud Storage e isso não altera o local de armazenamento dos documentos no projeto.
+* Você pode anexar um modelo de armazenamento na nuvem do Adobe a um projeto de armazenamento Workfront herdado e isso não altera o local de armazenamento dos documentos no projeto. Os documentos na pasta de armazenamento na nuvem do Adobe para o modelo são adicionados ao projeto diretamente, sem a pasta, enquanto os documentos nas pastas de tarefa do modelo são adicionados às pastas anexadas às tarefas do projeto na seção Documentos das tarefas.
 
 ### Gerenciamento de documentos para tarefas de modelo
 
