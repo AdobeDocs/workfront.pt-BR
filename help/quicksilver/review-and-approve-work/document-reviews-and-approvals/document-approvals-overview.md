@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '3914'
+source-wordcount: '3928'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ O visualizador Frame.io suporta todos os tipos comuns de vídeo, imagem, áudio,
 
 #### Acesso e licenciamento para o visualizador Frame.io
 
-O visualizador Frame.io é o visualizador padrão para todos os fluxos de trabalho de revisão e aprovação do Workfront. Ele é incluído automaticamente para todos os usuários do Workfront com uma licença paga. Nenhuma licença adicional do Frame.io é necessária para usar o visualizador do Frame.io para revisões e aprovações.
+O visualizador Frame.io é o visualizador padrão para todos os fluxos de trabalho de revisão e aprovação do Workfront. Ele é incluído automaticamente para todos os usuários do Workfront, incluindo usuários externos atribuídos a uma revisão ou aprovação, sem custo adicional. Nenhuma licença adicional do Frame.io é necessária para usar o visualizador do Frame.io para revisões e aprovações.
 
 Se sua organização quiser aproveitar a funcionalidade adicional do Frame.io disponível com essa integração, como carregar ativos diretamente para projetos no Frame.io, você pode comprar uma licença do Frame.io Enterprise. Entre em contato com seu representante de conta da Adobe para agendar uma demonstração e explorar os benefícios da solução Frame.io completa.
 
@@ -180,7 +180,7 @@ Para usar a revisão e aprovação unificadas, as seguintes condições devem se
 
 **Preciso de uma licença Frame.io para usar esta integração?**
 
-Não. O visualizador Frame.io é incluído automaticamente para todos os usuários do Workfront com uma licença paga sem custo adicional. Você não precisa de uma licença Frame.io separada para revisar e aprovar ativos por meio do Workfront.
+Não. O visualizador Frame.io é incluído automaticamente para todos os usuários do Workfront sem custo adicional, incluindo usuários externos convidados para revisar ou aprovar ativos. Você não precisa de uma licença Frame.io separada para revisar e aprovar ativos por meio do Workfront.
 
 Se a sua organização quiser acessar recursos adicionais do Frame.io, como fazer upload de ativos diretamente em projetos no Frame.io, você poderá comprar uma licença do Frame.io Enterprise. Entre em contato com o representante de conta da Adobe para obter mais informações.
 
