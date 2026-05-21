@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+source-git-commit: 0c6d2d36be8de5e4950642910577ed8a59e667da
 workflow-type: tm+mt
 source-wordcount: '2939'
 ht-degree: 2%
@@ -453,5 +453,6 @@ Para classificar colunas individuais:
    >[!NOTE]
    >
    >A pesquisa procura em todas as colunas em todos os itens da lista. Se a lista for longa, a pesquisa incluirá itens que talvez você precise rolar para ver. Quando a lista é filtrada, a pesquisa só verifica o que está sendo exibido no momento.
+
 
 
