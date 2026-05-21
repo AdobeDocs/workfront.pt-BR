@@ -6,10 +6,10 @@ description: Você pode usar modelos de projeto para capturar a maioria dos proc
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 2%
+source-wordcount: '702'
+ht-degree: 5%
 
 ---
 
@@ -58,7 +58,7 @@ Considere o seguinte ao criar modelos:
    * [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [Visão geral da duração do projeto](../../../manage-work/projects/planning-a-project/project-duration.md)
 
-  Para obter informações sobre as Horas Planejadas, consulte [visão geral das Horas Planejadas](../../../manage-work/tasks/task-information/planned-hours.md).
+  Para obter informações sobre horas planejadas, consulte [Visão geral das horas planejadas](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Adicione as relações predecessoras entre as tarefas no final, quando você tiver uma compreensão clara do plano de projeto futuro em sua totalidade. Adicionar predecessores às tarefas de modelo é semelhante a adicionar predecessores às tarefas em um projeto.
 
@@ -70,6 +70,20 @@ Considere o seguinte ao criar modelos:
   Para obter informações sobre como criar aprovações, consulte [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
   Para obter informações sobre como associar um processo de aprovação a um item de trabalho, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+
+* Decida qual armazenamento de documento deseja usar para seus projetos futuros. Algumas organizações têm acesso aos seguintes tipos de armazenamento de documentos:
+
+   * Armazenamento herdado do Workfront
+   * armazenamento em nuvem Adobe
+
+  A adição de documentos varia dependendo do tipo de armazenamento escolhido. O tipo de armazenamento escolhido para seus modelos afetará o tipo de armazenamento que os futuros projetos herdarão.
+
+  Adicionar modelos aos projetos existentes não afetará o tipo de armazenamento do projeto.
+
+  Para obter mais informações, consulte também:
+
+   * [Criar um modelo de projeto](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+   * [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## Maneiras de criar modelos
 
