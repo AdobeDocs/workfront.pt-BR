@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '3503'
+source-wordcount: '3551'
 ht-degree: 2%
 
 ---
@@ -480,7 +480,7 @@ Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—* É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto—>
+&lt;!—!—* É possível aplicar até quatro níveis de agrupamento ao usar a API. —verificando este por enquanto—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
@@ -574,7 +574,7 @@ To sort grouped records:
    >
    >* Se a configuração Aplicar a toda a linha estiver desativada, somente o lado esquerdo do campo Primário exibirá um indicador de cor estreito com a cor selecionada. A configuração é desativada por padrão.
    >
-   >* Não é possível aplicar cores de linha a uma linha inteira quando há pelo menos um agrupamento selecionado na exibição de tabela.
+   >* Não é possível aplicar cores de linha a uma linha inteira quando há pelo menos um agrupamento selecionado na exibição de tabela. A cor da função se aplica somente à esquerda da célula do campo principal quando o agrupamento é aplicado à tabela.
 
 1. Clique fora da caixa **Cores da linha** para fechá-la. As cores são aplicadas automaticamente.
 
