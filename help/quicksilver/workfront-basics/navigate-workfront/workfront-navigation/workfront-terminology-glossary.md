@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
+source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
 workflow-type: tm+mt
-source-wordcount: '21833'
-ht-degree: 98%
+source-wordcount: '21953'
+ht-degree: 97%
 
 ---
 
@@ -686,6 +686,10 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
    <td>Um menu, localizado no lado esquerdo da tela, no qual os itens são alterados para se correlacionarem com o conteúdo ativo. Por exemplo, quando um usuário está visualizando um projeto, o [!UICONTROL Contextual Menu] exibirá links para informações e ferramentas relacionadas ao projeto.</td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Colaborador]</td> 
+   <td><p>Normalmente, é um tipo de licença. Um usuário com uma licença de [!UICONTROL Contributor] pode enviar solicitações para que novos trabalhos ocorram no sistema.</p> <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral dos níveis de acesso</a>.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Converted Issue Originator]</td> 
    <td>Um campo em um relatório de projeto ou tarefa que mostra informações sobre o usuário que é o [!UICONTROL Primary Contact] de um problema quando ele é convertido em um projeto ou tarefa. O campo também é exibido na seção [!UICONTROL Project Details], onde é exibido o nome do [!UICONTROL Primary Contact] do problema convertido. Consulte também “[!UICONTROL Primary Contact]” neste artigo.</td> 
   </tr> 
@@ -1276,6 +1280,10 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL License Limit Work]</td> 
    <td> <p>Em uma exibição ou relatório de [!UICONTROL Group], esse campo mostra o número máximo de licenças de [!UICONTROL Work] que podem ser atribuídas a usuários que têm o respectivo grupo designado como [!UICONTROL Home Group].</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Light]</td> 
+   <td><p>Normalmente, é um tipo de licença. Um usuário com uma licença [!UICONTROL Light] pode revisar e aprovar itens de trabalho no sistema.</p> <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral dos níveis de acesso</a>.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limited User]</td> 
@@ -2147,7 +2155,11 @@ The designated full time equivalency for users. A full-time user should have 100
     <li>As colunas Nome do projeto ou Nome da tarefa em um relatório de problema. </li> </ul>
     Para obter mais informações, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Executar e entregar um relatório com direitos de acesso de outro usuário</a> 
    </td> 
-  </tr> 
+  </tr>
+  <tr>
+   <td>[!UICONTROL Padrão]</td> 
+   <td> <p>Este é um tipo de licença completa no sistema do [!DNL Workfront]. Os usuários devem ter este recurso para acessar todos os recursos no [!DNL Workfront].</p><p>Para licenças neste modelo, não há equivalente a Trabalho. Os usuários que anteriormente tinham uma licença de Trabalho tornam-se usuários Padrão com todas as funcionalidades dessa licença.</p> <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral dos níveis de acesso</a>.</p> </td> 
+  </tr>  
   <tr> 
    <td>[!UICONTROL Start Date]</td> 
    <td> <p>A data em que o trabalho em um item está definido para iniciar. Há vários tipos de datas iniciais no [!DNL Workfront]: </p> 
@@ -2584,3 +2596,4 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
  </tbody> 
 </table>
+
