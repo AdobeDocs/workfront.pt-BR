@@ -8,16 +8,14 @@ feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 13%
 
 ---
 
 # Acesso necessário para gerenciar recursos no Balanceador de carga de trabalho
-
-{{preview-fast-release-general}}
 
 Sem acesso ou permissões corretos, talvez você não consiga visualizar ou gerenciar suas atribuições de trabalho no Balanceador de carga de trabalho.
 
@@ -90,7 +88,7 @@ Você deve ter o seguinte acesso para visualizar o Balanceador de carga de traba
 
 Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<span class="preview">Todos os usuários têm acesso para exibir o Balanceador de carga de trabalho em seus próprios perfis. Isso não é restrito pela licença ou nível de acesso. Observe que o Balanceador de Carga de Trabalho em um perfil de usuário é somente leitura e as atribuições e alocações não podem ser alteradas.</span>
+Todos os usuários têm acesso para visualizar o Balanceador de carga de trabalho em seus próprios perfis. Isso não é restrito pela licença ou nível de acesso. Observe que o Balanceador de carga de trabalho em um perfil de usuário é somente leitura e as atribuições e alocações não podem ser alteradas.
 
 ## Acesso necessário para gerenciar atribuições no Balanceador de carga de trabalho
 
@@ -124,8 +122,4 @@ Você deve ter o seguinte acesso para gerenciar o Balanceador de carga de trabal
 
 Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--
-these notes were inside the table: for the Edit access to Res Management
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. (NOTE: this is not possible yet!)</p>
-    -->
+

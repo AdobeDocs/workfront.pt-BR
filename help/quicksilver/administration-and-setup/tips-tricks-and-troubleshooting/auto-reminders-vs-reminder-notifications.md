@@ -9,14 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 3%
 
 ---
 
-# Lembretes automáticos vs. notificações de lembrete
+# Comparação entre lembretes automáticos e notificações de lembrete
 
 Este artigo descreve as diferenças entre lembretes automáticos e notificações de lembrete e fornece cenários para cada um. Para obter mais informações sobre todas as [!DNL Adobe Workfront] notificações, consulte [[!DNL Adobe Workfront] notificações](../../workfront-basics/using-notifications/wf-notifications.md).
 
@@ -35,7 +35,7 @@ Cenário: se você quiser que lembretes sejam acionados em todas as tarefas e pr
 
 As seguintes características são específicas para notificações de lembrete:
 
-* Pode ser criado por um administrador ou qualquer usuário com uma licença de Plano e acesso administrativo a Notificações de lembrete
+* Pode ser criado por um administrador ou qualquer usuário com uma licença Standard of Plan e acesso administrativo a Notificações de lembrete
 * Só pode ser associado manualmente a um objeto
 * Só é possível notificar sobre o objeto anexado
 * Pode ser enviado para vários participantes do objeto, como proprietário, criador, aprovador ou destinatário

@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 3%
+source-wordcount: '184'
+ht-degree: 20%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 3%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-Como administrador do Adobe Workfront ou usuário com uma licença de Plano, você pode visualizar quais projetos, tarefas, problemas e documentos foram restaurados nos últimos sete dias.
+Como administrador do Adobe Workfront ou usuário com uma licença Padrão ou Plano, você pode visualizar quais projetos, tarefas, problemas e documentos foram restaurados nos últimos sete dias.
 
 Para obter informações sobre como restaurar um projeto, tarefa, problema ou documento após sua exclusão, consulte [Restaurar itens excluídos](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,12 +39,12 @@ Para obter informações sobre como restaurar um projeto, tarefa, problema ou do
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td>Administrador de Sistema</td> 
+   <td>Administrador de sistema</td> 
   </tr> 
  </tbody> 
 </table>

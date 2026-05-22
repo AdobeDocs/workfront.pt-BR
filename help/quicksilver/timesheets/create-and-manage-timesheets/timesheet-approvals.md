@@ -6,14 +6,14 @@ description: O processo de aprovação de planilhas de horas fornece aos gerente
 author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 0%
+source-wordcount: '678'
+ht-degree: 6%
 
 ---
 
-# Aprovar uma planilha de horas
+# Aprovar uma folha de horas
 
 <!--Audited: 8/2024-->
 
@@ -25,7 +25,7 @@ Para obter informações sobre o envio de uma planilha de horas, consulte [Envia
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto">
  <col> 
@@ -38,7 +38,7 @@ Para obter informações sobre o envio de uma planilha de horas, consulte [Envia
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -56,11 +56,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Normalmente, as folhas de horas são aprovadas pelos gerentes funcionais ou pela equipe de recursos humanos. Geralmente, as planilhas de horas não são aprovadas pelos gerentes de projeto. Os gerentes de projeto podem aprovar horas reportadas nos projetos, mas os gerentes de equipe ou de recursos humanos devem aprovar folhas de horas.
 
-Um aprovador de folha de horas é definido ao criar o Perfil de folha de horas. Você deve ter uma licença de Plano para ser designado como um aprovador.
+Um aprovador de folha de horas é definido ao criar o Perfil de folha de horas. Você deve ter uma licença Padrão ou de Plano para ser designado como um aprovador.
 
 Para obter mais informações sobre como designar aprovadores de folha de horas, consulte a seção [Criar ou editar um perfil de folha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) no artigo [Criar, editar e atribuir perfis de folha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-## Aprovar uma planilha de horas
+## Aprovar uma folha de horas
 
 Você pode aprovar qualquer planilha de horas que tenha sido submetida na qual tenha sido designado como aprovador. Quando uma folha de horas é enviada para aprovação, ela é listada no widget **Minhas aprovações** na área **Página inicial**. Para obter mais informações, consulte [Aprovando trabalho](../../review-and-approve-work/manage-approvals/approving-work.md).
 
@@ -93,7 +93,7 @@ A área **Folhas de horas** é aberta.
    >   
    >
 
-1. (Opcional) Clique no ícone **da** pesquisa![](assets/search-icon.png) na parte superior da lista de folhas de horas e digite uma palavra-chave para localizar uma folha de horas específica. Você pode pesquisar um intervalo de tempo ou o nome de um proprietário ou aprovador.
+1. (Opcional) Clique no ícone ![](assets/search-icon.png) da **pesquisa** na parte superior da lista de folhas de horas e digite uma palavra-chave para localizar uma folha de horas específica. Você pode pesquisar um intervalo de tempo ou o nome de um proprietário ou aprovador.
 1. Clique no intervalo de tempo da folha de horas que você deseja aprovar. A folha de horas é aberta.
 
    >[!TIP]

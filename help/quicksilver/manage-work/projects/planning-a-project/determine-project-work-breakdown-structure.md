@@ -6,9 +6,9 @@ description: Definir uma Estrutura de divisão de trabalho (WBS) para um projeto
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1755'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Definir uma Estrutura de divisão de trabalho (WBS) para um projeto é um conjunto de atividades que descreve o plano do projeto. A WBS divide o resultado do projeto em elementos de trabalho gerenciáveis, que podem ser usados para definir marcos e organizar atribuições de trabalho.
 
-Você deve ter uma licença de Plano com acesso de Edição a Projetos para criar a Estrutura de divisão de trabalho de um projeto. Pode ser necessário acesso adicional a outras áreas do Adobe Workfront, dependendo de quantas atividades você executa ao criar a WBS.
+Você deve ter uma licença Padrão ou de Plano com acesso para Editar a Projetos para criar a Estrutura de divisão de trabalho de um projeto. Pode ser necessário acesso adicional a outras áreas do Adobe Workfront, dependendo de quantas atividades você executa ao criar a WBS.
 
 Recomendamos que você mantenha o projeto no status Planejamento enquanto faz alterações na Estrutura de divisão de trabalho, para evitar que as notificações sejam acionadas para os usuários na Equipe do projeto.
 
@@ -87,7 +87,7 @@ Considere o seguinte:
 Depois de definir a duração e as restrições de cada tarefa, é possível determinar quem tem tempo e habilidades para realizar o trabalho. Você pode atribuir tarefas às seguintes entidades no Workfront:
 
 * Usuários\
-  Somente usuários com nível de acesso de Planejador ou Trabalhador podem ser atribuídos a tarefas. Embora seja possível atribuir tarefas a Solicitantes e Revisores, eles não podem concluí-las. Por esse motivo, não recomendamos atribuir tarefas a eles.
+  Somente usuários com nível de acesso Padrão, Planejador ou Trabalhador podem ser atribuídos a tarefas. Embora seja possível atribuir tarefas a Solicitantes e Revisores, eles não podem concluí-las. Por esse motivo, não recomendamos atribuir tarefas a eles.
 
   Para obter informações sobre os níveis de acesso e como eles definem o que os usuários podem fazer com objetos do Workfront, consulte [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -176,7 +176,7 @@ Os seguintes elementos de uma Estrutura de detalhamento de trabalho podem ser sa
 * Dependências predecessoras
 * Atribuições (incluindo Proprietário do projeto, Patrocinador e Gerente de recursos)
 * Processos de Aprovação
-* Restrições de Tarefa
+* Restrições de tarefa
 * Documentos
 * Despesas e outras informações financeiras
 * Metas

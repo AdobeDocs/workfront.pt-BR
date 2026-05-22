@@ -6,16 +6,16 @@ description: Como admin do Adobe Workfront, você pode conceder aos usuários ac
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 19%
+source-wordcount: '596'
+ht-degree: 15%
 
 ---
 
 # Compartilhar um modelo
 
-Como admin do Adobe Workfront, você pode conceder aos usuários acesso para visualizar ou editar modelos, definindo seus níveis de acesso. Um usuário precisa ter uma licença de plano para ter acesso à edição de modelos.
+Como admin do Adobe Workfront, você pode conceder aos usuários acesso para visualizar ou editar modelos, definindo seus níveis de acesso. Um usuário deve ter uma licença Padrão ou de Plano para ter acesso a Editar modelos.
 
 Para obter mais informações sobre como conceder acesso a modelos, consulte [Conceder acesso a modelos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
@@ -48,7 +48,7 @@ As permissões são específicas a um item no Workfront e definem quais ações 
 
 * Quando você compartilha um modelo ou um projeto criado a partir do modelo, os usuários herdam as mesmas permissões para todos os objetos secundários associados ao modelo ou ao projeto, por padrão.
 
-  Para obter mais informações sobre a hierarquia de objetos no Workfront, consulte   [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Para obter mais informações sobre a hierarquia de objetos no Workfront, consulte [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Quando você compartilha um modelo, todas as tarefas e documentos do modelo, bem como os problemas no projeto futuro criado a partir do modelo herdam as mesmas permissões, a menos que especificado de outra forma.
 

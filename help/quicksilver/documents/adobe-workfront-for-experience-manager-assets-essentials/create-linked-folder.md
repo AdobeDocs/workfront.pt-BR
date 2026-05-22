@@ -7,10 +7,10 @@ description: É possível criar uma pasta vinculada ao Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 11%
+source-wordcount: '491'
+ht-degree: 10%
 
 ---
 
@@ -59,7 +59,7 @@ Se um ativo for excluído ou movido de uma pasta vinculada dentro do Experience 
   <tr>
    <td><strong>Configurações de nível de acesso</strong>
    </td>
-   <td>Você deve ser um administrador do Workfront para configurar uma integração com o Experience Manager. Após a configuração, os usuários com uma licença de Plano podem configurar pastas vinculadas em projetos individuais.
+   <td>Você deve ser um administrador do Workfront para configurar uma integração com o Experience Manager. Após a configuração, os usuários com uma licença Padrão ou Plano podem configurar pastas vinculadas em projetos individuais.
    </td>
   </tr>
 </table>

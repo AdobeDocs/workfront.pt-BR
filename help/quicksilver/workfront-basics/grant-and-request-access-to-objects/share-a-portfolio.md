@@ -4,16 +4,16 @@ description: Você pode compartilhar um portfólio com outros usuários se tiver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 7%
+source-wordcount: '901'
+ht-degree: 6%
 
 ---
 
 # Compartilhar um portfólio
 
-O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar portfólios ao atribuir seu nível de acesso. Você deve ter uma licença de Plano para ter acesso para editar um portfólio. Para obter mais informações, consulte [Conceder acesso aos portfólios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
+O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar portfólios ao atribuir seu nível de acesso. Você deve ter uma licença Padrão ou de Plano para ter acesso à edição de um portfólio. Para obter mais informações, consulte [Conceder acesso aos portfólios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
 Além do nível de acesso concedido, você também pode receber permissões para exibir ou gerenciar portfólios específicos de usuários que podem compartilhá-los com você. Para obter mais informações sobre níveis de acesso e permissões, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 

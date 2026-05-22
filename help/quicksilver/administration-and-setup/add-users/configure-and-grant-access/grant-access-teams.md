@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '677'
 ht-degree: 11%
 
 ---
@@ -71,7 +71,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
        </tbody>
       </table>
 
-   * **Editar**: se você estiver configurando como os usuários com uma licença de Plano e de Trabalho podem gerenciar equipes, altere qualquer uma das seguintes opções:
+   * **Editar**: se estiver configurando como os usuários com uma licença Padrão, Plano ou Trabalho podem gerenciar equipes, altere qualquer uma das seguintes opções:
 
      <table style="table-layout:auto">
        <col>
@@ -79,19 +79,19 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
        <tbody>
         <tr>
          <td role="rowheader">Criar</td>
-         <td><p>Permite que usuários com uma licença de Plano ou de Trabalho criem equipes.</p><p>Essa opção está ativada por padrão.</p></td>
+         <td><p>Permite que usuários com uma licença Padrão, Plano ou Trabalho criem equipes.</p><p>Essa opção está ativada por padrão.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Excluir</td>
-         <td><p> Permite que usuários com uma licença de Plano excluam as equipes que eles têm acesso para editar (indisponível para usuários com uma licença de Trabalho).</p><p>Essa opção está ativada por padrão.</p></td>
+         <td><p> Permite que usuários com uma licença Padrão ou de Plano excluam as equipes que eles têm acesso para editar (indisponível para usuários com uma licença de Trabalho).</p><p>Essa opção está ativada por padrão.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Editar equipes nos grupos que eu gerencio (somente administradores de grupo)</td>
-         <td><p>Permite que os usuários de licença do Plano designados como administradores de grupo editem equipes associadas aos grupos que gerenciam.</p><p>Essa opção está ativada por padrão.</p></td>
+         <td><p>Permite que os usuários de licença Padrão ou Plano designados como administradores de grupo editem equipes associadas aos grupos que gerenciam.</p><p>Essa opção está ativada por padrão.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Editar equipes nas quais participo</td>
-         <td><p>Permite que os usuários Planejem a licença ou a licença de Trabalho para editar equipes das quais são membros.</p><p>Essa opção está desabilitada por padrão.</p></td>
+         <td><p>Permite que usuários com uma licença Padrão, Plano ou Trabalho editem equipes das quais são membros.</p><p>Essa opção está desabilitada por padrão.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Exibir equipes associadas aos meu grupos</td>
@@ -125,4 +125,4 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Acesso a equipes por tipo de licença
 
-Para obter informações sobre o que os usuários em cada nível de acesso podem fazer com equipes, consulte a seção [Equipes](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) no artigo [Funcionalidade disponível para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Para obter informações sobre o que os usuários em cada nível de acesso podem fazer com equipes, consulte a seção [Equipes](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams) no artigo [Funcionalidade disponível para cada tipo de objeto](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).

@@ -5,13 +5,13 @@ title: Como compartilhar objetos sem gerar notificações
 description: Descubra como compartilhar objetos e impedir que notificações sobre essa alteração sejam enviadas. Isso é particularmente útil quando você compartilha objetos em massa.
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: b14dd633edec3e9746f7f1412445b74bcd37a676
+exl-id: 02106282-addb-4bdd-82d2-9da5a5f6a687
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 4%
+source-wordcount: '577'
+ht-degree: 11%
 
 ---
-
 
 # Como compartilhar objetos sem gerar notificações
 
@@ -36,23 +36,20 @@ Se precisar compartilhar vários objetos com várias pessoas (em massa), mas nã
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte para compartilhar objetos:
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Plano Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Nova licença: Standard</p> 
-   Ou
-   <p>Licença atual: plano</p>
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Padrão</p>
+   <p>Plano</p>
    </td> 
   </tr> 
   <tr> 
@@ -70,7 +67,7 @@ Você deve ter o seguinte para compartilhar objetos:
  </tbody> 
 </table>
 
-*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,9 +107,3 @@ Você deve ter o seguinte para compartilhar objetos:
 1. Clique em **Salvar alterações**.
 
    Os objetos foram compartilhados com os usuários selecionados e nenhum deles recebeu notificações por email sobre essa alteração.
-
-
-
-
-
-

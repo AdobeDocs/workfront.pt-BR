@@ -10,10 +10,10 @@ role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 3%
+source-wordcount: '2231'
+ht-degree: 4%
 
 ---
 
@@ -51,7 +51,7 @@ Para obter informações sobre aprovações associadas a documentos ou provas, c
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pacote do Adobe Workfront*</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td><p>Para o processo de aprovação de nível de sistema ou de uso único:</p><ul><li><p>Qualquer pacote</p></li></ul>
    <p>Para o processo de aprovação em nível de grupo:</p>
    <ul><li><p>Fluxo de trabalho Prime ou Ultimate</p></li>
@@ -73,7 +73,7 @@ Para obter informações sobre aprovações associadas a documentos ou provas, c
  </tbody> 
 </table>
 
-*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -219,7 +219,7 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Escolha o que acontece quando a aprovação é rejeitada</p> </td> 
       <td> <p>Selecione a ação que deseja realizar se o item de trabalho for rejeitado em qualquer estágio do caminho:</p> 
        <ul> 
-       <li><b>Criar um Problema</b>: (Disponível somente para processos de aprovação de projetos e tarefas) Um problema é criado no projeto ou tarefa em que o processo de aprovação está em execução. O recurso padrão atribuído na tarefa ou o proprietário do projeto é atribuído ao problema. Por padrão, o nome do problema criado é <b>Aprovação rejeitada (&lt;Nome do projeto ou da tarefa&gt;)</b>. Esse é um Problema de rejeição, inserido na tarefa ou no projeto, dependendo do processo de aprovação em que a rejeição aconteceu.</li> 
+       <li><b>Criar um Problema</b>: (Disponível somente para processos de aprovação de projetos e tarefas) Um problema é criado no projeto ou tarefa em que o processo de aprovação está em execução. O recurso padrão atribuído na tarefa ou o proprietário do projeto é atribuído ao problema. Por padrão, o nome do problema criado é <b>Aprovação rejeitada (&lt;Nome do Projeto ou da Tarefa&gt;)</b>. Esse é um Problema de rejeição, inserido na tarefa ou no projeto, dependendo do processo de aprovação em que a rejeição aconteceu.</li> 
        <li> <p><b>Definir Status como</b>: escolha uma das seguintes opções:</p> 
        <ul> 
        <li><b>Status Anterior</b>: o projeto, tarefa ou problema rejeitado reverte para o status anterior ao status que ativa o processo de aprovação.</li> 
