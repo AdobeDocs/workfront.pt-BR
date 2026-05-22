@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1558'
 ht-degree: 7%
 
 ---
@@ -33,7 +33,7 @@ Como administrador do Adobe Workfront, você pode criar outro administrador do W
 >Isso é diferente de usar um nível de acesso para conceder aos usuários acesso administrativo a determinadas áreas do sistema. Para obter mais informações, consulte:
 >
 >* [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Acesso de um administrador do Workfront vs. acesso de um usuário do Plano com direitos administrativos](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) neste artigo
+>* [Acesso de um administrador do Workfront vs. acesso de um usuário Padrão ou de Plano com direitos administrativos](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) neste artigo
 >
 
 ## Requisitos de acesso
@@ -80,17 +80,17 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
    O usuário agora tem direitos completos de Administrador do sistema no sistema.
 
-## Acesso de um administrador do Workfront vs. acesso de um usuário do Plano com direitos administrativos  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
+## Acesso de um administrador do Workfront versus acesso de um usuário Padrão ou Plano com direitos administrativos  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-As duas tabelas abaixo mostram a diferença entre os direitos de acesso de um usuário com um nível de acesso de Administrador de sistema do Workfront e os de um usuário com uma licença de Plano com alguns direitos administrativos.
+As duas tabelas abaixo mostram a diferença entre os direitos de acesso de um usuário com um nível de acesso de Administrador de sistema do Workfront e os de um usuário com uma licença Padrão ou de Plano com alguns direitos administrativos.
 
 Os administradores do Workfront podem visualizar todos os objetos no sistema (independentemente de quem os criou), criar novos e modificar ou excluir os existentes. Eles têm acesso total a todos os objetos no sistema.
 
-Os usuários com uma licença de Plano que podem editar a funcionalidade em uma área têm acesso total à funcionalidade nessa área.
+Os usuários com uma licença Padrão ou de Plano que podem editar a funcionalidade em uma área têm acesso total à funcionalidade nessa área.
 
 >[!NOTE]
 >
->Os usuários com uma licença de Plano designados como administradores de grupo podem executar algumas das ações permitidas para administradores do Workfront. Eles têm permissão para executar essas ações somente para os grupos que administram, seus subgrupos e os usuários nesses grupos e subgrupos. Para obter mais informações, consulte [Administradores de grupo](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>Os usuários com uma licença Padrão ou de Plano designados como administradores de grupo podem executar algumas das ações permitidas para administradores do Workfront. Eles têm permissão para executar essas ações somente para os grupos que administram, seus subgrupos e os usuários nesses grupos e subgrupos. Para obter mais informações, consulte [Administradores de grupo](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 * [Acesso à área Configuração](#access-to-the-setup-area)
 * [Acesso a objetos](#access-to-objects)
@@ -105,7 +105,7 @@ Os usuários com uma licença de Plano que podem editar a funcionalidade em uma 
   <tr> 
    <th>Área/objeto</th> 
    <th>administrador do Workfront </th> 
-   <th>Usuário com uma licença de Plano e alguns direitos administrativos</th> 
+   <th>Usuário com uma licença Padrão ou de Plano e alguns direitos administrativos</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -187,7 +187,7 @@ Os usuários com uma licença de Plano que podem editar a funcionalidade em uma 
   <tr> 
    <td>Fazer logon como</td> 
    <td>Acesso total </td> 
-   <td> <p>Se o acesso administrativo ao grupo estiver ativado no nível de acesso e forem designados como administradores de grupo, eles poderão fazer logon como os usuários no grupo que administram e seus subgrupos. Eles não podem efetuar login como um Administrador do sistema.<br>Para obter mais informações sobre como habilitar o acesso administrativo de grupo para usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
+   <td> <p>Se o acesso administrativo ao grupo estiver ativado no nível de acesso e forem designados como administradores de grupo, eles poderão fazer logon como os usuários no grupo que administram e seus subgrupos. Eles não podem fazer logon como um Administrador do Sistema.<br>Para obter mais informações sobre como habilitar o acesso administrativo de grupo para usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Cronogramas</td> 
@@ -419,7 +419,7 @@ Os usuários com uma licença de Plano que podem editar a funcionalidade em uma 
   <tr> 
    <td>Usuários</td> 
    <td>Acesso total</td> 
-   <td> <p>Acesso limitado</p> <p>Eles não podem atribuir grupos a usuários para os quais não são administradores de grupo ou grupos que não são públicos.</p> <p>Eles não podem atribuir um nível de acesso aos usuários que seja superior ao seu próprio nível de acesso.</p> <p>Se o acesso administrativo ao grupo estiver ativado no nível de acesso e forem designados como administradores de grupo em um grupo, eles poderão redefinir a senha e fazer logon como os usuários no grupo que administram e seus subgrupos. Eles não podem redefinir a senha ou fazer logon como um Administrador do sistema.<br>Para obter mais informações sobre como habilitar o acesso administrativo de grupo para usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
+   <td> <p>Acesso limitado</p> <p>Eles não podem atribuir grupos a usuários para os quais não são administradores de grupo ou grupos que não são públicos.</p> <p>Eles não podem atribuir um nível de acesso aos usuários que seja superior ao seu próprio nível de acesso.</p> <p>Se o acesso administrativo ao grupo estiver ativado no nível de acesso e forem designados como administradores de grupo em um grupo, eles poderão redefinir a senha e fazer logon como os usuários no grupo que administram e seus subgrupos. Eles não podem redefinir a senha ou fazer logon como um Administrador do Sistema.<br>Para obter mais informações sobre como habilitar o acesso administrativo de grupo para usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

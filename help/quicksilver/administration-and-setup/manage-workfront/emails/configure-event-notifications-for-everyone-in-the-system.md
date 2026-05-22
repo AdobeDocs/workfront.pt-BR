@@ -7,7 +7,7 @@ role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 7%
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
-As notificações de eventos acionam emails para usuários quando ocorre um determinado evento. Como administrador do Adobe Workfront ou usuário com nível de acesso de Planejador, você pode configurar uma notificação de evento para todos os usuários no sistema. A configuração de uma notificação de evento consiste em ativá-la ou desativá-la.
+As notificações de eventos acionam emails para usuários quando ocorre um determinado evento. Como administrador do Adobe Workfront ou usuário com nível de acesso Padrão ou Plano, você pode configurar uma notificação de evento para todos os usuários no sistema. A configuração de uma notificação de evento consiste em ativá-la ou desativá-la.
 
 <!--Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only-->
 
@@ -28,7 +28,7 @@ Dependendo do evento que você ativar e o usuário manter ativado em seu própri
 
 Primeiro, especifique quais notificações você deseja que todos os usuários recebam na área Configuração da sua instância do Workfront. Depois de ativar uma notificação na área Configuração, ela é exibida como ativada para cada usuário na página de perfil.
 
-Depois que as notificações forem ativadas na área Configuração e aparecerem nas páginas de perfil dos usuários, os usuários individuais ou outro usuário com uma licença de Plano também poderão configurar as notificações ativadas em um perfil de usuário para controlar quais notificações esse usuário específico recebe e com que frequência. Para obter mais informações, consulte [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Depois que as notificações forem ativadas na área Configuração e forem exibidas nas páginas de perfil dos usuários, os usuários individuais ou outro usuário com uma licença Padrão ou de Plano também poderão configurar as notificações ativadas em um perfil de usuário para controlar quais notificações esse usuário específico recebe e com que frequência. Para obter mais informações, consulte [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Para obter uma lista de todas as notificações de eventos que você pode ativar e desativar, consulte [Tipos de notificação de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
@@ -54,7 +54,7 @@ Para obter informações sobre como desbloquear uma notificação de evento para
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Planejador ou superior com acesso administrativo a notificações de lembrete</p> </td> 
+   <td> <p>Acesso administrativo a notificações de lembrete</p> </td> 
   </tr> 
  </tbody> 
 </table>

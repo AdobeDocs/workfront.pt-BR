@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 9%
+source-wordcount: '1545'
+ht-degree: 5%
 
 ---
 
@@ -65,7 +65,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
 * Por padrão, o criador de um projeto tem permissões para gerenciar o projeto e também é designado como o Proprietário do projeto. Se o projeto for atribuído a outro proprietário, esse usuário também terá permissões para gerenciar o projeto. Quando o criador (ou proprietário) do projeto compartilha o projeto com outros usuários, ele concede determinadas permissões a esses usuários para controlar o que eles podem fazer enquanto trabalham no projeto.
 
-  No entanto, se o proprietário de um projeto não tiver uma licença Plan ou Standard, ele não terá acesso total para gerenciar o projeto. Somente um usuário com uma licença do Plan ou Standard pode ter permissões para gerenciar um projeto. Para obter mais informações, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  No entanto, se o proprietário de um projeto não tiver uma licença Padrão ou de Plano, ele não terá acesso total para gerenciar o projeto. Somente um usuário com uma licença Padrão ou Plano pode ter permissões para gerenciar um projeto. Para obter mais informações, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Você pode compartilhar projetos individualmente ou vários deles de cada vez. O compartilhamento de projetos é idêntico ao compartilhamento de outros objetos. Para obter mais informações sobre como compartilhar itens no Workfront, consulte [Compartilhar um objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Você pode conceder as seguintes permissões a um projeto:
@@ -76,7 +76,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
 * Quando você compartilha um projeto, todas as tarefas, problemas e documentos herdam as mesmas permissões, a menos que especificado de outra forma.
 
-  Para obter informações sobre como gerenciar o acesso a tarefas e problemas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+  Para obter informações sobre como gerenciar o acesso a tarefas e problemas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
   O administrador do Workfront pode especificar se os documentos devem herdar permissões de objetos superiores no nível de acesso do usuário. Para obter mais informações sobre como restringir permissões herdadas em documentos, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -85,7 +85,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 ## Limitações para diferentes tipos de licença
 
 * Os usuários com uma licença de Trabalhador não têm permissões para gerenciar projetos. Para os funcionários, a maior permissão de compartilhamento é o Contribute.
-* Os usuários com uma Solicitação de licença podem visualizar informações do projeto, mas têm acesso limitado ao projeto.
+* Os usuários com um Colaborador ou uma Solicitação de licença podem exibir informações do projeto, mas têm acesso limitado ao projeto.
 * Uma exceção à alteração do status de um projeto ocorre quando um usuário com permissões de Exibição ou Contribute também é incluído em um processo de aprovação. Eles podem aprovar o projeto, o que altera o status do projeto, mas o status é o status predefinido para aprovação ou rejeição.
 * Para poder copiar um projeto, um usuário também deve ter acesso para criar projetos em seu Nível de acesso.
 
@@ -368,7 +368,7 @@ A tabela a seguir lista as permissões que os usuários podem conceder ao compar
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Editar Atribuições</p> </td> 
+   <td> <p>Editar atribuições</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>  </p> </td> 

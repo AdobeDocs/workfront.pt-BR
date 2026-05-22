@@ -8,9 +8,9 @@ feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '767'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ O botão [!UICONTROL Concluído] pode definir automaticamente o status de uma ta
 
 Os usuários com determinadas permissões podem configurar o botão [!UICONTROL Concluído] para associá-lo a determinados status no sistema. Há duas maneiras diferentes de o botão [!UICONTROL Concluído] funcionar para tarefas no [!UICONTROL Workfront]:
 
-* Se o usuário tiver uma Equipe Inicial atribuída, um administrador do [!DNL Workfront] ou um usuário com uma licença do [!UICONTROL Plano] poderá configurar o botão [!UICONTROL Concluído] para refletir determinados status para os membros da equipe. Consulte [Configurar o botão [!UICONTROL Concluído] para uma Equipe](#configure-the-uicontrol-done-button-for-a-team) neste artigo.
+* Se o usuário tiver uma Equipe Inicial atribuída, um administrador [!DNL Workfront] ou um usuário com uma licença [!UICONTROL Padrão] ou [!UICONTROL Plano] poderá configurar o botão [!UICONTROL Concluído] para refletir determinados status para os membros da equipe. Consulte [Configurar o botão [!UICONTROL Concluído] para uma Equipe](#configure-the-uicontrol-done-button-for-a-team) neste artigo.
 * Se o usuário não tiver uma [!UICONTROL Equipe interna], mas tiver [!UICONTROL Outras equipes] em seu perfil, a Workfront procurará a configuração do botão [!UICONTROL Concluído] em qualquer uma das equipes associadas ao usuário. A seleção é aleatória e o status associado a qualquer uma das equipes é usado para a tarefa.
 * Se o usuário não tiver uma Equipe interna atribuída, o botão [!UICONTROL Concluído] das tarefas estará vinculado a um status concluído. Não há opções de configuração disponíveis neste cenário. O botão [!UICONTROL Concluído] define automaticamente este status como padrão.
 
@@ -98,7 +98,7 @@ Para tornar as alterações na funcionalidade de botão [!UICONTROL Concluído] 
 
 Para associar usuários a uma Equipe da Página Inicial:
 
-1. Clique no ícone **[!UICONTROL do]** Menu Principal![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront].
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront].
 
 1. Clique em **[!UICONTROL Usuários]** e selecione o(s) usuário(s) que deseja associar a uma Equipe interna.
 1. Clique no menu **[!UICONTROL Mais]** e em **[!UICONTROL Editar]**.\

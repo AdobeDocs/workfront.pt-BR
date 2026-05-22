@@ -10,9 +10,9 @@ role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2867'
 ht-degree: 4%
 
 ---
@@ -363,8 +363,8 @@ Para criar uma Fila de solicitações:
      |---|---|
      | Todos | Qualquer usuário do Workfront com uma conta ativa pode visualizar essa fila de solicitações e adicionar solicitações a ela |
      | Pessoas com acesso de visualização a este projeto | Usuários com permissões de Visualização no projeto podem visualizar e adicionar solicitações a esta fila |
-     | Pessoas da empresa deste projeto  | Os usuários que pertencem à empresa associada a este projeto podem exibir e adicionar solicitações a esta fila. Se houver uma empresa associada ao projeto, o nome da empresa será listado entre parênteses após essa configuração. |
-     | Pessoas do grupo deste projeto  | Os usuários que pertencem ao grupo associado a este projeto podem exibir e adicionar solicitações a esta fila. Se houver um grupo associado ao projeto, o nome do grupo será listado entre parênteses após essa configuração, em fonte cinza. |
+     | Pessoas da empresa deste projeto | Os usuários que pertencem à empresa associada a este projeto podem exibir e adicionar solicitações a esta fila. Se houver uma empresa associada ao projeto, o nome da empresa será listado entre parênteses após essa configuração. |
+     | Pessoas do grupo deste projeto | Os usuários que pertencem ao grupo associado a este projeto podem exibir e adicionar solicitações a esta fila. Se houver um grupo associado ao projeto, o nome do grupo será listado entre parênteses após essa configuração, em fonte cinza. |
 
      {style="table-layout:auto"}
 
@@ -462,7 +462,7 @@ Se o administrador do Workfront definir as Horas típicas por dia de trabalho co
 Por exemplo, se a opção Horas típicas por dia de trabalho estiver definida como 7 horas na área Configuração do Workfront, a Duração padrão para problemas será 1,14 dia ou 8 horas.
 Para obter mais informações sobre como configurar o sistema de Horas Típicas por Dia Útil, consulte a seção &quot;Cálculos de Linha do Tempo&quot; no artigo [Configurar preferências de projeto para todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   * **As pessoas da mesma empresa herdarão as mesmas permissões para todas as solicitações.**: Quando selecionada, todas as solicitações enviadas para a fila ficam visíveis para usuários na mesma empresa. Os usuários podem exibir essas solicitações na seção Todas as solicitações, localizada na área Solicitações. Quando essa configuração é ativada ou desativada, isso afeta todas as solicitações futuras; não afeta as informações retroativamente.
+   * **As pessoas da mesma empresa herdarão as mesmas permissões para todas as solicitações.**: quando selecionado, todas as solicitações enviadas para a fila ficam visíveis para usuários na mesma empresa. Os usuários podem exibir essas solicitações na seção Todas as solicitações, localizada na área Solicitações. Quando essa configuração é ativada ou desativada, isso afeta todas as solicitações futuras; não afeta as informações retroativamente.
    * **Quando alguém faz uma solicitação, conceder automaticamente...:** Quando um usuário faz uma solicitação para a fila de solicitações, o usuário recebe automaticamente o nível de permissão que você escolher para essa solicitação. Clique no botão Acesso para selecionar entre os seguintes níveis de permissão:
 
       * **Exibir Acesso**
@@ -521,8 +521,8 @@ Para obter mais informações sobre como configurar o sistema de Horas Típicas 
 
      | Quais usuários podem ver todos os campos no formulário de solicitação | Descrição |
      |---|---|
-     | Todos os usuários (planejar licenças) | Todos os usuários que têm uma licença de Plano podem ver os campos selecionados, bem como os campos não selecionados. |
-     | Pessoas com acesso de exibição a este projeto (Licença de plano) | Os usuários com uma licença de Plano que também têm direitos de Exibição para este projeto podem ver os campos selecionados, bem como os campos não selecionados. O restante dos usuários que podem enviar solicitações para esse projeto pode ver apenas os campos selecionados. |
+     | Todos os usuários (planejar licenças) | Todos os usuários que têm uma licença Padrão ou de Plano podem ver os campos selecionados, bem como os campos não selecionados. |
+     | Pessoas com acesso de exibição a este projeto (Licença de plano) | Os usuários com uma licença Padrão ou de Plano que também têm direitos de Exibição para este projeto podem ver os campos selecionados, bem como os campos não selecionados. O restante dos usuários que podem enviar solicitações para esse projeto pode ver apenas os campos selecionados. |
      | Sem usuário | Nenhum usuário pode visualizar os campos não selecionados. Todos os usuários que podem enviar solicitações para este projeto só podem ver os campos selecionados. Esta é a seleção padrão. |
 
    * **Forms personalizado**: selecione um formulário personalizado para associar à Fila de solicitações no menu suspenso. Você pode selecionar vários formulários, em seguida, arrastá-los e soltá-los na ordem que você deseja que eles sejam exibidos no formulário de solicitação.

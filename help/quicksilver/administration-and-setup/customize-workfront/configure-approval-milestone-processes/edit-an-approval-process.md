@@ -10,9 +10,9 @@ role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2004'
 ht-degree: 4%
 
 ---
@@ -46,7 +46,7 @@ Para obter informações sobre como criar processos de aprovação, consulte [Cr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pacote do Adobe Workfront*</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td><p>Para o processo de aprovação de nível de sistema ou de uso único:</p><ul><li><p>Qualquer pacote</p></li></ul>
    <p>Para o processo de aprovação em nível de grupo:</p>
    <ul><li><p>Fluxo de trabalho Prime ou Ultimate</p></li>
@@ -68,7 +68,7 @@ Para obter informações sobre como criar processos de aprovação, consulte [Cr
  </tbody> 
 </table>
 
-*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

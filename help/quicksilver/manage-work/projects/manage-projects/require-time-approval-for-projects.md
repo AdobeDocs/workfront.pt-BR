@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '792'
 ht-degree: 6%
 
 ---
@@ -66,7 +66,7 @@ Para obter mais informações sobre registros de cobrança, consulte o artigo [C
        <li>Se você tiver Gerenciar permissões no projeto, poderá aprovar ou rejeitar horas registradas no projeto por qualquer outro usuário.</li>
        <li> Se tiver acesso ao Contribute ou à Visualização para o projeto, você poderá aprovar ou rejeitar apenas as horas registradas por você ou por qualquer outro usuário que reportar você.<br></li>
       </ul></li> 
-     <li>Você tem uma licença de Plano com acesso administrativo a Planilhas de Horas e Horas. Neste caso:
+     <li>Você tem uma licença Padrão ou de Plano com acesso administrativo a Folhas de horas e Horas. Neste caso:
       <ul>
        <li>Você pode aprovar ou rejeitar qualquer hora nos projetos para os quais tem pelo menos permissões de exibição. </li>
       </ul></li> 

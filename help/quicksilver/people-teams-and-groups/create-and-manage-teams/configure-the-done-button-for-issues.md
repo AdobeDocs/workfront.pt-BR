@@ -8,9 +8,9 @@ feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1181'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ O botão [!UICONTROL Concluído] pode definir automaticamente o status de uma ta
 
 Os usuários com determinadas permissões podem configurar o botão [!UICONTROL Concluído] para refletir determinados status no sistema. Há 3 maneiras diferentes de o botão [!UICONTROL Concluído] funcionar para problemas no [!DNL Workfront]:
 
-* Se o usuário tiver uma [!UICONTROL Equipe interna] atribuída, um administrador [!DNL Workfront] ou um usuário com uma licença [!UICONTROL Plano] poderá configurar o botão [!UICONTROL Concluído] para refletir determinados status para os membros da equipe. Consulte [Configurar o botão [!UICONTROL Concluído] para uma Equipe](#configure-the-uicontrol-done-button-for-a-team) neste artigo.
+* Se o usuário tiver uma [!UICONTROL Equipe interna] atribuída, um administrador [!DNL Workfront] ou um usuário com uma licença [!UICONTROL Padrão] ou [!UICONTROL Plano] poderá configurar o botão [!UICONTROL Concluído] para refletir determinados status para os membros da equipe. Consulte [Configurar o botão [!UICONTROL Concluído] para uma Equipe](#configure-the-uicontrol-done-button-for-a-team) neste artigo.
 * Se o usuário não tiver uma [!UICONTROL Equipe interna], mas tiver [!UICONTROL Outras equipes] em seu perfil, a Workfront procurará a configuração do botão [!UICONTROL Concluído] em qualquer uma das equipes associadas ao usuário. A seleção é aleatória e o status associado a qualquer uma das equipes é usado para o problema.
 * Se o usuário não tiver uma [!UICONTROL Equipe interna] atribuída, o botão [!UICONTROL Concluído] para problemas estará vinculado a um status gerado pelo sistema [!UICONTROL Resolvido] com o código de três letras [!UICONTROL RLV]. Não há opções de configuração disponíveis neste cenário. O botão [!UICONTROL Concluído] define automaticamente este status como padrão.
 * Se o status de [!UICONTROL Resolvido] ([!UICONTROL RLV]) for excluído e o usuário que estiver marcando o problema como [!UICONTROL Concluído] não tiver nenhuma [!UICONTROL Equipe Doméstica], o status padrão do problema será vinculado ao que for definido como o padrão para [!UICONTROL Fechado] para o grupo atribuído ao projeto ao qual o problema pertence. O administrador do Workfront pode definir uma configuração padrão em todo o sistema para o grupo. Consulte [Configurar o botão [!UICONTROL Concluído] quando o status [!UICONTROL Resolvido] for excluído](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) neste artigo.
@@ -103,7 +103,7 @@ Para tornar as alterações na funcionalidade de botão [!UICONTROL Concluído] 
 
 Para associar usuários a uma Equipe da Página Inicial:
 
-1. Clique no ícone **[!UICONTROL do]** Menu Principal![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront].
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront].
 
 1. Clique em **[!UICONTROL Usuários]** e selecione o(s) usuário(s) que deseja associar a uma Equipe interna.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.\
@@ -134,7 +134,7 @@ Para localizar o grupo associado ao projeto:
 
 Como administrador do [!UICONTROL Workfront], você pode atualizar o status de um grupo específico:
 
-1. Clique no ícone **[!UICONTROL do]** Menu Principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito do Adobe Workfront e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
 1. No painel esquerdo, clique em **[!UICONTROL Preferências do projeto]** e em **[!UICONTROL Status]**.
 
 1. Clique em **[!UICONTROL Problemas]** e digite o nome do grupo na caixa de pesquisa **[!UICONTROL Status do sistema]**, localizada à direita.

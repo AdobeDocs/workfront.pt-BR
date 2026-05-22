@@ -6,31 +6,29 @@ description: Leia este artigo para solucionar problemas do filtro Projetos em qu
 feature: Get Started with Workfront
 author: Alina
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 3%
+source-wordcount: '180'
+ht-degree: 23%
 
 ---
 
-# O filtro Projetos em que estou trabalhando inclui resultados inesperados
+# O filtro “Projetos em que estou envolvido” inclui resultados inesperados
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table>
   <tr>
    <td>Pacote do Adobe Workfront
    </td>
-   <td> <p>Prime ou Ultimate</p>
-    <p>Workflow Ultimate</p>
-   </td>
+   <td>Qualquer</td>
   </tr>
   <tr>
    <td>Licenças do Adobe Workfront
    </td>
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    <p>Plano</p>
    </td>
   </tr>

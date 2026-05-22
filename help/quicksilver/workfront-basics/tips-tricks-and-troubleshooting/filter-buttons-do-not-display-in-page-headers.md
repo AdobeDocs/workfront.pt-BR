@@ -1,36 +1,34 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Os botões de filtro não são exibidos nos cabeçalhos da página
+title: Os botões de filtro não são exibidos nos cabeçalhos das páginas
 description: Leia este artigo para solucionar problemas de botões de filtro que não são exibidos nos cabeçalhos da página.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '287'
+ht-degree: 19%
 
 ---
 
-# Os botões de filtro não são exibidos nos cabeçalhos da página
+# Os botões de filtro não são exibidos nos cabeçalhos das páginas
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table>
   <tr>
    <td>Pacote do Adobe Workfront
    </td>
-   <td> <p>Prime ou Ultimate</p>
-    <p>Workflow Ultimate</p>
-   </td>
+   <td>Qualquer</td>
   </tr>
   <tr>
    <td>Licenças do Adobe Workfront
    </td>
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    <p>Plano</p>
    </td>
   </tr>
@@ -59,7 +57,7 @@ Os botões de filtro a seguir não são exibidos nas respectivas áreas:
    <td><strong>Botões de filtro</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Projetos] </p> </td> 
+   <td> <p>[!UICONTROL Projects] </p> </td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projetos em que estou]</p> </li> 

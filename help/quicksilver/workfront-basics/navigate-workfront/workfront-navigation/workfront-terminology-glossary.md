@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
 workflow-type: tm+mt
-source-wordcount: '21830'
+source-wordcount: '21833'
 ht-degree: 98%
 
 ---
@@ -1271,7 +1271,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Plan]</td> 
-   <td> <p>Em uma exibição ou relatório de [!UICONTROL Group], esse campo mostra o número máximo de licenças [!UICONTROL Plan] que podem ser atribuídas a usuários que têm o respectivo grupo designado como [!UICONTROL Home Group].</p> </td> 
+   <td> <p>Em uma exibição ou relatório do [!UICONTROL Group], este campo mostra o número máximo de licenças do [!UICONTROL Standard] ou do [!UICONTROL Plan] que podem ser atribuídas a usuários que têm o respectivo grupo designado como seu [!UICONTROL Home Group].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Work]</td> 

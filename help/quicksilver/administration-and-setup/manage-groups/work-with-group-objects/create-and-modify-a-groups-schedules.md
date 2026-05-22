@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 10%
 
 ---
 
@@ -25,13 +25,13 @@ Para obter informações gerais sobre como criar e editar uma agenda, consulte [
 
 >[!NOTE]
 >
->Administradores de grupo e usuários com uma licença de plano que podem editar outros usuários podem adicionar um agendamento no nível do sistema ou no nível do grupo a outro usuário quando eles estiverem editando o perfil desse usuário.
+>Administradores de grupo e usuários com uma licença Padrão ou de Plano que podem editar outros usuários podem adicionar um agendamento no nível do sistema ou de grupo a outro usuário quando eles estão editando o perfil dele.
 
 Para obter informações sobre como os agendamentos são usados no planejamento de recursos, consulte [Visão geral dos agendamentos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) e [Visão geral do Planejador de recursos](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Para obter informações sobre como os agendamentos são usados no planejamento 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr>
   <tr> 

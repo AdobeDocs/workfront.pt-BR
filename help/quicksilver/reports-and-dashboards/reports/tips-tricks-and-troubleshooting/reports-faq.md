@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 4%
+source-wordcount: '1508'
+ht-degree: 3%
 
 ---
 
@@ -125,7 +125,7 @@ Para obter uma lista completa de visão geral das variáveis de filtro Curinga c
 
 Isso pode acontecer na maioria dos casos se você tiver um acesso limitado que o impeça de ver itens no sistema. Além disso, os itens que você deseja ver não são compartilhados com você.
 
-O criador do relatório pode editá-lo para executá-lo com os direitos de acesso de um administrador do sistema ou de qualquer usuário do Plano que tenha acesso para ver os dados.
+O criador do relatório pode editá-lo para executá-lo com os direitos de acesso de um administrador do sistema ou de qualquer usuário Padrão ou do Plano que tenha acesso para ver os dados.
 
 Para obter mais informações, consulte [Executar e entregar um relatório com direitos de acesso de outro usuário](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
@@ -188,7 +188,7 @@ Para obter mais informações sobre como atualizar um painel em cache, consulte 
 
 Você não pode alterar o proprietário de um relatório. No entanto, o usuário que criou o relatório pode permitir que outros usuários editem o relatório. A maneira de permitir que os usuários editem um relatório depende do tipo de usuário que você é.
 
-* Os administradores de sistema podem permitir que usuários com uma licença de Plano editem relatórios configurando a opção Editar na linha Relatórios para incluir o acesso a Criar um relatório.\
+* Os administradores de sistema podem permitir que usuários com uma licença Padrão ou de Plano editem relatórios configurando a opção Editar na linha Relatórios para incluir o acesso a Criar um relatório.\
   Para obter mais informações, consulte [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Qualquer usuário final com acesso para criar e compartilhar relatórios pode permitir que outros editem relatórios individuais, compartilhando-os e dando a outros usuários permissões de gerenciamento para eles.\

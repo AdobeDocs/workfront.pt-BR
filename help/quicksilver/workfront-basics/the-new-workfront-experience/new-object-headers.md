@@ -8,9 +8,9 @@ author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '3702'
 ht-degree: 3%
 
 ---
@@ -700,7 +700,7 @@ O cabeçalho do grupo exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Licenças em uso] </td> 
-   <td> <p>A caixa [!UICONTROL Licenças em uso] exibe o número de usuários de licença do [!UICONTROL Plano] e do [!UICONTROL Trabalho] no grupo e seus subgrupos. Você pode clicar nos números para ver essas informações para todos os 5 tipos de licença.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Exibir o número de licenças alocadas e usadas em um grupo na nova experiência [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>A caixa [!UICONTROL Licenças em uso] exibe o número de usuários de licença do [!UICONTROL Padrão] ou do [!UICONTROL Plano] e do [!UICONTROL Trabalho] no grupo e seus subgrupos. Você pode clicar nos números para ver essas informações para todos os tipos de licença.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Exibir o número de licenças alocadas e usadas em um grupo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Administradores de Grupos]</td> 
@@ -747,7 +747,7 @@ O cabeçalho do documento exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">A área de aprovação [!UICONTROL Decision]</td> 
-   <td> A área [!UICONTROL Decisões] é exibida no canto superior direito do cabeçalho do Documento. Essa área difere com base na fase de aprovação e se você é um aprovador, revisor ou nenhum dos dois. <ul><li> <p>Se você for um aprovador, poderá usar os seguintes ícones para gerenciar as aprovações do documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Aprovar]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Retroceder]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rejeitar]</p> <p>Para obter mais informações sobre decisões de aprovação, consulte <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprovando trabalho</a>.</li><li><p>Se você for um revisor, poderá clicar no botão Concluir minha revisão para indicar que revisou o documento.</p><p>Para obter mais informações sobre como revisar um documento, consulte <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Revisar um documento</a>.</p></li><li>Caso contrário, essa área mostrará o status atual de revisão e aprovação do documento.</li><ul></p> </td> 
+   <td> A área [!UICONTROL Decisões] é exibida no canto superior direito do cabeçalho do Documento.Essa área difere com base na fase de aprovação e se você é um aprovador, revisor ou nenhum dos dois. <ul><li> <p>Se você for um aprovador, poderá usar os seguintes ícones para gerenciar as aprovações do documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Aprovar]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Retroceder]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rejeitar]</p> <p>Para obter mais informações sobre decisões de aprovação, consulte <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprovando trabalho</a>.</li><li><p>Se você for um revisor, poderá clicar no botão Concluir minha revisão para indicar que revisou o documento.</p><p>Para obter mais informações sobre como revisar um documento, consulte <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Revisar um documento</a>.</p></li><li>Caso contrário, essa área mostrará o status atual de revisão e aprovação do documento.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
