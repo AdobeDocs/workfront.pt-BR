@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 0b856507a26de5812e2335a4a7c0c6622c678d09
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1499'
 ht-degree: 8%
 
 ---
@@ -269,13 +269,13 @@ Os tipos de campo do Workfront afetam se um determinado campo pode ser preenchid
 <li>Caixa de seleção</li>
 <li>Botões de opção</li>
 <li>menus suspensos Seleção única e múltipla</li>
+<li>Pesquisa externa</li>
+<!--<li>Internal lookup THIS FIELD TYPE IS NOT GA YET SO COMMENTING OUT - from Lisa</li>-->
+<li>Referência</li>
+<li>Campos incorporados do Workfront Planning</li>
 </ul>
 </td>
 <td><li>Typeahead</li>
-<li>Pesquisa externa</li>
-<li>Pesquisa interna</li>
-<li>Referência</li>
-<li>Campos incorporados do WF Planning</li>
 </ul>
 </td>
 </tr>
@@ -330,3 +330,4 @@ Se você não estiver recebendo as sugestões esperadas, talvez seja devido a um
 
 * Você deve ter pelo menos um mês de dados de solicitação no sistema para que ele possa sugerir valores de campo de solicitações anteriores.
 * Talvez você não tenha seguido as medidas de proteção de carregamento de documento ao carregar um documento do qual extrair sugestões. Para obter mais informações, consulte [Medidas de proteção para o carregamento de documentos](#document-upload-guardrails) neste artigo.
+* O Preenchimento de formulário de IA pode preencher um valor de campo de pesquisa externo. No entanto, se o campo de pesquisa externo tiver uma dependência em um campo de fórmula, o AI não poderá recuperar as opções de campo com precisão e não preencherá esse valor de campo.

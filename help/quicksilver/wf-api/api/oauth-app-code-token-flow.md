@@ -7,15 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 947a12504623e31a28d660675b12fb90522a56f4
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 0%
+source-wordcount: '730'
+ht-degree: 2%
 
 ---
 
 
-# Configure e use os aplicativos OAuth 2 personalizados de sua organização usando o fluxo de código de autorização
+# Configurar e usar os aplicativos OAuth 2 personalizados da sua organização com o fluxo de código de autorização
 
 Para integrar ao Workfront e permitir que seu aplicativo cliente se comunique com o Workfront em nome do usuário, é necessário:
 
@@ -157,7 +157,7 @@ Para fazer logon dos usuários com o OAuth2, use o seguinte processo:
    }
    ```
 
-   O token de acesso é o mesmo que ```sessionID```, e expira da mesma forma que o ```sessionID``` comum
+   O token de acesso é o mesmo que `sessionID`, e expira da mesma forma que o `sessionID` comum
 
    >[!IMPORTANT]
    >
