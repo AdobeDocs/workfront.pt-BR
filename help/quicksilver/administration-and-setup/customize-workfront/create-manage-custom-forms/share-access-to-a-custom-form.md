@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
+source-git-commit: 3e6ae76eea2e12fc7fc3a45dad753261a7bad628
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Compartilhar um formulário personalizado
 
-{#preview-fast-release-general}
+{{preview-fast-release-general}}
 
 É possível configurar o acesso para um formulário personalizado para controlar quem — pessoa, função, grupo, equipe, empresa, perfil de negócios — pode exibi-lo, compartilhá-lo e editá-lo.
 
