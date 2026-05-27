@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 5%
@@ -190,3 +190,4 @@ Em vez de deixar um formulário personalizado no estado de compartilhamento padr
 1. Na caixa de compartilhamento, clique no menu suspenso à direita do nome do usuário, equipe, função, grupo, empresa ou perfil comercial que você não deseja mais ter acesso especial ao formulário e selecione **Remover**.
 1. (Opcional) Repita a etapa anterior para outros nomes que você deseja remover.
 1. Clique em **Salvar**.
+
