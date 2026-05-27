@@ -1,20 +1,22 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Usar listas aprimoradas
-description: As listas aprimoradas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão
+description: As listas aprimoradas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c6d2d36be8de5e4950642910577ed8a59e667da
+source-git-commit: 80ca77043b0feac9579a4c41298c05afa8af1756
 workflow-type: tm+mt
-source-wordcount: '2939'
+source-wordcount: '3153'
 ht-degree: 2%
 
 ---
 
 # Usar listas aprimoradas
+
+{{preview-fast-release-general}}
 
 As listas aprimoradas estão disponíveis em algumas áreas do Adobe Workfront. Essas listas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão. O gerenciamento de visualizações também é aprimorado, incluindo filtragem, agrupamento, gerenciamento de colunas e pesquisa.
 
@@ -83,20 +85,32 @@ Dependendo da lista aprimorada que você estiver visualizando, execute um dos pr
 
    As listas aprimoradas são compatíveis com estes tipos de campo:
 
-   * Texto
-   * Número
-   * Moeda
-   * Data
-   * Data e hora
-   * Menus suspensos de seleção única/múltipla
-   * Typeahead
-   * Parágrafo
-   * Destinatário (um ou vários)
-   * Seletor de cores
+   * Texto de linha única: Você pode especificar informações alfanuméricas limitadas.
+   * Número: Você deve especificar informações em um formato de número.
+   * Moeda: Você deve especificar informações em um formato de número precedido por um símbolo de moeda.
+   * Data: use o calendário para selecionar uma data.
+   * Data e hora: use o calendário para selecionar uma data e hora.
+   * Seleção única ou múltipla: selecione uma ou várias opções em um menu suspenso. <span class="preview">Se houver suporte em uma lista, você poderá criar novas opções diretamente na lista suspensa quando nenhum resultado for encontrado.</span>
+   * Digitação antecipada: digite o nome de um objeto existente (por exemplo, o nome de um grupo ou um projeto) e escolha o nome na lista de sugestões.
+   * Parágrafo: Você pode informar várias linhas de informações alfanuméricas.
+   * Destinatário (um ou vários): selecione um ou mais usuários como o destinatário do item de lista.
+   * Seletor de cores: escolha uma cor no seletor ou digite um código, como hexadecimal ou RGB.
+
+   <div class="preview">
+
+   Os campos Destinatário, Lista suspensa de seleção única e Lista suspensa de seleção múltipla são compatíveis com os seguintes comandos de teclado:
+
+   * Use as setas para cima e para baixo do teclado para percorrer a lista de itens.
+   * Pressione a barra de espaço para selecionar um item.
+   * Pressione a tecla Delete para remover um item selecionado.
+
+   </div>
 
    >[!NOTE]
    >
    >Cada tipo de campo tem suas próprias opções de edição. Alguns campos podem ser somente leitura.
+   >
+   >Observe que nem todas as listas suportam todos os tipos de campo.
 
 ![Exemplo de lista aprimorada](assets/glist-exchange-rates.png)
 
@@ -153,6 +167,8 @@ Dependendo dos objetos que você está visualizando em uma lista aprimorada, é 
    Um indicador é exibido no botão **Colunas** quando as colunas estão ocultas. O indicador não aparece ao reordenar as colunas.
 
    ![Indicador para colunas ocultas](assets/glist-columns-hidden-indicator.png)
+
+   Algumas listas também permitem arrastar e soltar as próprias colunas na ordem preferencial.
 
 ### Renomear colunas
 
@@ -453,6 +469,5 @@ Para classificar colunas individuais:
    >[!NOTE]
    >
    >A pesquisa procura em todas as colunas em todos os itens da lista. Se a lista for longa, a pesquisa incluirá itens que talvez você precise rolar para ver. Quando a lista é filtrada, a pesquisa só verifica o que está sendo exibido no momento.
-
 
 
