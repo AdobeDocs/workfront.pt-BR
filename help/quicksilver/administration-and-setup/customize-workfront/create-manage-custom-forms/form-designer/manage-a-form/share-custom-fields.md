@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 1%
+source-wordcount: '744'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ Para obter informações sobre campos e widgets personalizados em formulários p
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Para obter informações sobre campos e widgets personalizados em formulários p
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -49,79 +49,78 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Configurar o compartilhamento de um campo ou widget personalizado da lista de formulários
+<!--
+
+## Configure sharing a custom field or widget from the list of forms
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Forms Personalizado**.
-1. Clique em **Campos** para abrir a área Campos.
-1. Selecione o item para o qual você deseja configurar o compartilhamento e clique em ![Ícone Compartilhar](assets/share-icon.png).
-1. Na caixa Acesso de campo personalizado exibida, especifique com quem você deseja compartilhar o item e como deseja compartilhá-lo:
+1. In the left panel, click **Custom Forms**.
+1. Click **Fields** to open the Fields area.
+1. Select the item you want to configure sharing for, then click ![Share icon](assets/share-icon.png).
+1. In the Custom Field Access box that displays, specify who you want to share the item with and how you want to share it:
 
-   1. Próximo ao canto inferior esquerdo da caixa **Acesso a Campo Personalizado**, em **Conceda acesso a campo personalizado a**, comece digitando o nome de um usuário, equipe, função de trabalho, grupo ou empresa com a qual deseja compartilhar o item e clique no nome quando ele aparecer.
+   1. Near the lower-left corner of the **Custom Field Access** box, under **Give custom field access to**, start typing the name of a user, team, job role, group, or company you want to share the item with, then click the name when it appears.
 
-      ![Caixa Acesso a Campo Personalizado](assets/share-field-give-access-to.jpg)
+      ![Custom Field Access box](assets/share-field-give-access-to.jpg)
 
-   1. Se quiser ser mais específico sobre como compartilhar o item, clique na lista suspensa à direita do nome e use uma das seguintes opções:
+   1. If you want to be more specific about how you want to share the item, click the drop-down list to the right of the name, then use any of the following options:
 
-      ![Opções de compartilhamento](assets/share-field-view-mng-options.jpg)
+      ![Sharing options](assets/share-field-view-mng-options.jpg)
 
       <table style="table-layout:auto"> 
        <col> 
        <col> 
        <tbody> 
         <tr> 
-         <td role="rowheader">Visualizar o projeto</td> 
-         <td> <p>Você pode clicar em <strong>Configurações Avançadas</strong> para especificar se deseja que o usuário ou usuários possam usar seu acesso para adicionar o item a um formulário personalizado ou compartilhá-lo com outros usuários.</p> </td> 
+         <td role="rowheader">View it</td> 
+         <td> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to add the item to a custom form or share it with other users.</p> </td> 
         </tr> 
         <tr> 
-         <td role="rowheader">Gerenciar o projeto</td> 
-         <td> <p>Permite acesso para editar o campo personalizado e vê-lo na Biblioteca de campos e na página onde você cria formulários personalizados.</p> <p>Você pode clicar em <strong>Configurações avançadas</strong> para especificar se deseja que o usuário ou usuários possam usar seu acesso para excluir o item do sistema ou compartilhá-lo com outros usuários.</p> </td> 
+         <td role="rowheader">Manage it</td> 
+         <td> <p>Allows access to edit the custom field and to see it in the Field Library and on the page where you build custom forms.</p> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to delete the item from the system or share it with other users.</p> </td> 
         </tr> 
        </tbody> 
-      </table>
+      </table>   
 
-1. (Opcional) Repita a etapa anterior para adicionar outros nomes à lista e configurar suas opções.
-1. (Opcional) Clique no ícone de engrenagem ![ícone de Configurações](assets/gear-icon-settings.png) no canto superior direito se desejar escolher uma opção de compartilhamento em todo o sistema para o campo.
+1. (Optional) Repeat the previous step to add other names to the list and configure their options.
+1. (Optional) Click the gear icon ![Settings icon](assets/gear-icon-settings.png) in the top-right corner if you want to choose a system-wide sharing option for the field.
 
-   Nem todas as opções a seguir são exibidas nesse menu suspenso ao mesmo tempo. Por exemplo, o segundo é exibido somente quando um dos outros dois é selecionado.
+   Not all of the following options display in this drop-down menu at the same time. For example, the second one displays only when one of the other two are selected.
 
-   * **Tornar isto editável em todo o sistema para que todos no Workfront possam editá-lo** (a opção padrão)
+   * **Make this editable system-wide so that everyone in Workfront can edit it** (the default option)
 
-     Ao adicionar um campo ou widget personalizado e não limitar o compartilhamento, todos os usuários no sistema que têm acesso a formulários personalizados podem visualizá-lo e editar suas propriedades.
+     When you add a custom field or widget and you don't limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
+   
+   * **Remove system-wide edit access**
 
-   * **Remover acesso de edição em todo o sistema**
+     Limits access to only those whom you added to the list. 
+   
+   * **Make this visible system-wide so that everyone in Workfront can see it**
 
-     Limita o acesso somente àqueles que você adicionou à lista.
+1. Click **Save**.
 
-   * **Tornar isto visível em todo o sistema para que todos no Workfront possam vê-lo**
+-->
 
-1. Clique em **Salvar**.
-
-## Configurar o compartilhamento de um campo ou widget personalizado no designer de formulário
+## Configurar o compartilhamento de um campo ou widget personalizado
 
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Forms Personalizado**.
-1. Abra um formulário personalizado ou crie um novo formulário personalizado.
-1. No designer do formulário, selecione o item para o qual você deseja configurar o compartilhamento e clique em **Compartilhar** na área de edição de campos à direita.
-1. Na caixa exibida, em **Conceder acesso ao formulário personalizado**, comece digitando o nome do usuário, da equipe, da função de trabalho, do grupo ou da empresa com a qual deseja compartilhar o item e pressione **Enter** quando o nome for exibido.
+1. Para compartilhar na lista de formulários e campos:
+
+   1. Clique em **Campos** para abrir a área Campos.
+   1. Selecione o campo que você deseja compartilhar e clique em ![Ícone Compartilhar](assets/share-icon.png).
+
+1. Para compartilhar no designer do formulário:
+   1. Abra um formulário personalizado ou crie um novo formulário personalizado.
+   1. No designer do formulário, selecione o campo que deseja compartilhar e clique em **Compartilhar** na área de edição de campos à direita.
+
+1. Na caixa de compartilhamento, em **Conceder acesso ao campo**, comece digitando o nome do usuário, da equipe, da função de trabalho, do grupo, da empresa ou do perfil comercial com o qual deseja compartilhar o item e pressione **Enter** quando o nome for exibido.
 1. Se quiser ser mais específico sobre como compartilhar o item, clique no menu suspenso à direita do nome e use uma das seguintes opções:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-      <tbody> 
-       <tr> 
-        <td role="rowheader">Visualizar o projeto</td> 
-        <td> <p>Clique em <strong>Configurações avançadas</strong> para especificar se você deseja que os usuários possam adicionar o item a um formulário personalizado ou compartilhá-lo com outros usuários.</p> </td> 
-       </tr> 
-       <tr> 
-        <td role="rowheader">Gerenciar o projeto</td> 
-        <td> <p>Permite o acesso para editar o campo personalizado e visualizá-lo na Biblioteca de campos e no designer do formulário.</p> <p>Clique em <strong>Configurações avançadas</strong> para especificar se você deseja que os usuários possam excluir o item do sistema ou compartilhá-lo com outros usuários.</p> </td> 
-       </tr> 
-     </tbody> 
-    </table>
+   * **Exibir**: clique no ícone **Configurações Avançadas** ![ícone Configurações Avançadas](assets/configure-options-icon.png) para especificar se você deseja que os usuários possam adicionar o item a um formulário personalizado ou compartilhá-lo com outros usuários.
+   * **Gerenciar**: permite acesso para editar o campo personalizado e visualizá-lo na biblioteca de campos e no designer do formulário. Clique no ícone **Configurações Avançadas** ícone ![Configurações Avançadas](assets/configure-options-icon.png) para especificar se você deseja que os usuários possam excluir o item do sistema ou compartilhá-lo com outros usuários.
 
 1. (Opcional) Repita as etapas 5 a 6 para adicionar outros nomes à lista e configurar suas opções.
 1. (Opcional) Escolha uma opção de compartilhamento em todo o sistema para o campo:
@@ -131,6 +130,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      Ao adicionar um campo ou widget personalizado e não limitar o compartilhamento, todos os usuários no sistema que têm acesso a formulários personalizados podem visualizá-lo e editar suas propriedades.
 
    * **Todos no sistema podem visualizar**
+
+     Todas as pessoas no sistema que têm acesso a formulários personalizados podem visualizar o campo, mas não editá-lo.
+
    * **Somente pessoas convidadas podem acessar**
 
      Limita o acesso somente àqueles que você adicionou à lista.
@@ -141,7 +143,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Acesso herdado a campos e widgets personalizados quando um formulário personalizado é compartilhado
 
-Quando alguém compartilha um formulário personalizado com um grupo, função de trabalho, equipe ou empresa, os recipients herdam o acesso de Visualização a quaisquer campos e widgets personalizados que estejam no formulário. Esse nível de acesso a esses itens no formulário é sempre retido para que o formulário possa funcionar para os recipients conforme pretendido pela pessoa que o criou. Isso é verdade mesmo para recipients que têm acesso para Editar ao formulário.
+Quando alguém compartilha um formulário personalizado com um grupo, função de trabalho, equipe, empresa ou perfil comercial, os destinatários herdam o acesso de Visualização a todos os campos e widgets personalizados que estão no formulário. Esse nível de acesso a esses itens no formulário é sempre retido para que o formulário possa funcionar para os recipients conforme pretendido pela pessoa que o criou. Isso é verdade mesmo para recipients que têm acesso para Editar ao formulário.
 
 Você pode descobrir quem herdou acesso a um campo ou widget personalizado e remover o acesso a ele.
 
@@ -160,4 +162,4 @@ Você pode descobrir quem herdou acesso a um campo ou widget personalizado e rem
 
 ### Remover o acesso a um campo ou widget personalizado em um formulário personalizado que foi compartilhado {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-Se você precisar remover o acesso a um campo ou widget personalizado em um formulário personalizado que foi compartilhado, será necessário cancelar o compartilhamento do formulário. Para obter instruções, consulte a seção [Remover acesso a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms) no artigo [Compartilhar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+Se você precisar remover o acesso a um campo ou widget personalizado em um formulário personalizado que foi compartilhado, será necessário cancelar o compartilhamento do formulário. Para obter instruções, consulte a seção [Remover acesso a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form) no artigo [Compartilhar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
