@@ -736,12 +736,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no formato a seguir, será possível usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      {
-       dados: {
+      &lbrace;
+       dados: &lbrace;
          { name: "USA"},
          { name: "Canada"}
-       }
-      }
+       &rbrace;
+      &rbrace;
       </pre>
       </p>
      <p>Para obter mais informações sobre o caminho JSON e garantir que você o escreva corretamente, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
