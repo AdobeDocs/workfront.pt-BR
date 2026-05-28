@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2582'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -101,7 +101,9 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
 ## Considerações sobre o envio de solicitações ao Workfront Planning
 
-* Não é possível editar uma solicitação no Workfront depois de enviá-la.
+* No ambiente de Produção, não é possível editar uma solicitação no Workfront depois de enviá-la.
+
+  <span class="preview">No ambiente de Visualização, só é possível editar uma solicitação enviada antes que um registro seja criado a partir dele. Depois que o registro for criado, não será mais possível editar a solicitação enviada. </span>
 * Cada solicitação enviada cria um registro para o tipo de registro associado ao form usado, se o form não estiver associado a uma aprovação ou se a aprovação tiver sido concedida por todos os aprovadores.
 * Os registros criados ao enviar formulários de solicitação são idênticos aos registros adicionados por qualquer outro método no Workfront Planning.
 
@@ -144,7 +146,7 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    >
    >* Você tem acesso para exibir pelo menos um espaço de trabalho.
 
-1. Clique na **Que solicitação deseja enviar?Barra** para abrir uma lista de formulários de solicitação.
+1. Clique na **Que solicitação você deseja enviar?** barra para abrir uma lista de formulários de solicitação.
 1. Selecione um formulário de solicitação na lista ou comece a digitar o nome do formulário de solicitação e selecione-o quando ele aparecer na lista.
 
    Uma janela é aberta com o nome do formulário de solicitação na parte superior.
@@ -167,9 +169,9 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    Para obter instruções, consulte [Usar preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 1. Clique em **Enviar**.
 
-   The request form closes and you return to the **Requests** area.
+   O formulário de solicitação é fechado e você retorna à área **Solicitações**.
 
-   Your form is submitted and the following things occur:
+   Seu formulário é enviado e os seguintes itens ocorrem:
 
    * Se o formulário de solicitação não estava associado a uma aprovação, a solicitação é adicionada à lista Solicitações na área Solicitações do Workfront e o widget Minhas solicitações na Página inicial, e um novo registro é adicionado ao tipo de registro associado ao formulário.
 
@@ -193,10 +195,10 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
 
      Há um link para a solicitação na notificação de confirmação ou aprovação por email.
 
-1. (Opcional) Clique em **Exibir sua solicitação** na mensagem de confirmação para abrir a solicitação ou clique no ícone **X** para fechar a confirmação.
+1. (Opcional) Clique em **Exibir sua solicitação** na mensagem de confirmação ou no nome da solicitação na lista para abrir a solicitação, ou clique no ícone **X** para fechar a confirmação.
 1. (Opcional) Para gerenciar a forma como as informações são exibidas na lista de solicitações, atualize os seguintes elementos de exibição para a lista:
 
-   * Visualizar
+   * Exibir
    * Filtro
    * Colunas
    * Agrupamento
@@ -234,6 +236,17 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    ![Solicitar página com comentário](assets/new-request-page-with-comment.png)
 
 1. (Opcional) Insira um comentário na área **Comentários**.
+1. <span class="preview">(Opcional e condicional) Se a solicitação estiver aguardando aprovação e você tiver aberto a solicitação, clique no ícone **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da solicitação e clique em **Editar** ou clique duas vezes nos campos na solicitação para editá-los. </span>
+
+   >[!NOTE]
+   >
+   >  <div class="preview">
+   >
+   >   * A edição de uma solicitação só é possível quando um registro ainda não foi criado e a solicitação está aguardando aprovação.
+   >   * Alguns campos são somente leitura e não podem ser editados.
+   >  * Não é mais possível editar uma solicitação depois que um registro foi criado a partir dela.
+   >
+   >  </div>
 1. (Condicional) Se o formulário de solicitação não estiver associado a uma aprovação ou se a solicitação tiver sido aprovada, clique no nome da solicitação e, em seguida, clique no nome do registro no campo **Objeto criado**.
 
    A página do registro é aberta no Workfront Planning.
@@ -287,11 +300,11 @@ Pessoas externas não podem acessar áreas internas da Workfront, como **Solicit
 
      Depois que a solicitação foi aprovada e o registro foi criado, os campos Approved by e Approved date exibem informações sobre a aprovação no registro.
 
-1. (Optional) Click **View your request** to open the request in Workfront.
+1. (Opcional) Clique em **Exibir sua solicitação** para abrir a solicitação no Workfront.
 
 Ou
 
-Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.
+Clique em [Enviar outra solicitação](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) para abrir o formulário e adicionar uma nova solicitação.
 
 A página de detalhes da solicitação é aberta.
 
@@ -324,9 +337,9 @@ Para obter mais informações, consulte [Copiar e enviar solicitações](/help/q
 
 ## Criar rascunhos e solicitações a partir de rascunhos existentes
 
-You can create a draft of a request, then return to the draft and submit it as a request later.
+Você pode criar um rascunho de uma solicitação, voltar ao rascunho e submetê-lo posteriormente como uma solicitação.
 
-Isso está disponível somente na nova experiência de solicitação. Creating drafts and requests from existing drafts in Workfront Planning is identical to creating them from Adobe Workfront.
+Isso está disponível somente na nova experiência de solicitação. A criação de rascunhos e solicitações a partir de rascunhos existentes no Workfront Planning é idêntica à criação a partir do Adobe Workfront.
 
 Para obter mais informações, consulte [Criar solicitações de rascunhos](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 
@@ -340,9 +353,17 @@ Quando você exclui uma solicitação do Planning, as seguintes situações ocor
 * O registro criado da solicitação não é excluído.
 * Os rascunhos excluídos não podem ser recuperados. Não há registros associados a rascunhos.
 
-Excluir solicitações do Planning é semelhante a excluir solicitações do Workfront.
+Excluir solicitações do Planning de uma lista é semelhante a excluir solicitações do Workfront.
 
 Para obter informações, consulte [Excluir uma solicitação enviada ou rascunho da solicitação](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
+
+Para deletar uma solicitação do Planning após a abertura da solicitação:
+
+1. Abra uma solicitação do Planning clicando em seu nome na lista Solicitações.
+1. Clique no ícone **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da solicitação e clique em **Excluir**.
+1. Clique em D **e** excluir na caixa **Excluir permanentemente** para confirmar.
+
+   A solicitação foi excluída e não pode ser recuperada.
 
 
 
