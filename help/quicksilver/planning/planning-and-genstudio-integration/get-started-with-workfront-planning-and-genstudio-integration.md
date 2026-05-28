@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2351'
 ht-degree: 2%
 
 ---
@@ -52,11 +52,12 @@ Com a integração entre o Workfront Planning e o GenStudio for Performance Mark
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * Exiba o espaço de trabalho do GenStudio no Workfront Planning.
-* Modifique suas campanhas, produtos, personalidades e ativações no GenStudio for Performance Marketing e atualize em tempo real as mesmas informações no Workfront Planning.
+* Modifique suas campanhas, produtos, perfis, regiões e ativações no GenStudio for Performance Marketing e atualize em tempo real as mesmas informações no Workfront Planning.
 * Modifique suas campanhas, produtos, personalidades e ativações no Workfront Planning e atualize em tempo real as mesmas informações no GenStudio for Performance Marketing.
 * Evite a entrada de dados duplicados.
 * Mantenha o alinhamento entre os esforços de planejamento e ativação.
 * Conecte as Marcas GenStudio e suas informações aos registros do Workfront Planning.
+* Sincronize as informações do GenStudio para campanhas, produtos, perfis, regiões e canais com o AEM Assets e Fragmentos de conteúdo quando eles se conectam a esses tipos de registro no espaço de trabalho do GenStudio no Planning.
 
 ## Requisitos de integração
 
@@ -376,16 +377,23 @@ Considere o seguinte sobre os campos do tipo de registro do GenStudio:
 
 Você pode criar conexões entre tipos de registro em espaços de trabalho do GenStudio nos quais tem permissões de gerenciamento.
 
-<!--When AEM object types are connected to GenStudio record types, AEM object metadata reflects on Planning records-->
-
 Você pode fazer as seguintes conexões entre tipos de registro do GenStudio e outros tipos de registro ou objeto no Workfront Planning:
 
 * Dois tipos de registro do GenStudio
 * Um tipo de registro GenStudio e um tipo de registro Planning do mesmo espaço de trabalho
 * Um tipo de registro do GenStudio e um tipo de registro do Planning de outro espaço de trabalho, se os tipos de registro estiverem configurados para se conectar de outro espaço de trabalho.
 * Um tipo de registro GenStudio e um tipo de objeto Workfront (projetos, portfólios, programas, empresas, grupos)
-* Um tipo de registro GenStudio e um tipo de objeto AEM. Você deve ter uma licença do Adobe Experience Manager para acessar objetos do AEM, além de uma licença do Workfront Planning e do Adobe GenStudio for Performance Marketing.
-* Tipos de registros GenStudio e marcas GenStudio. Por padrão, a conexão Marcas é adicionada aos tipos de registro Produtos e Personas.
+* Um tipo de registro GenStudio e um tipo de objeto AEM (Assets ou Fragmentos de conteúdo). Você deve ter uma licença do Adobe Experience Manager para acessar objetos do AEM, além de uma licença do Workfront Planning e uma licença do Adobe GenStudio for Performance Marketing.
+* Um tipo de registro GenStudio e marcas GenStudio. Por padrão, a conexão Marcas é adicionada aos tipos de registro Produtos e Personas.
+
+### Sincronização de metadados entre registros do espaço de trabalho do GenStudio e objetos do AEM
+
+Quando tipos de objetos do AEM (ativos e fragmentos de conteúdo) são conectados a tipos de registros do GenStudio no espaço de trabalho do GenStudio, as seguintes informações são sincronizadas entre registros do GenStudio e objetos do AEM:
+
+* As informações de ativos e fragmentos de conteúdo do AEM são exibidas no espaço de trabalho do GenStudio em campos de pesquisa adicionados quando os tipos de registro são conectados.
+* As informações de registro do GenStudio são exibidas no ativo AEM na guia Campanha ou no fragmento de conteúdo na guia Metadados no AEM.
+
+  Para obter informações, consulte [Gerenciar o espaço de trabalho do GenStudio no Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 ### Formulários de solicitação e automações no tipo de registro do GenStudio
 

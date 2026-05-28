@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '793'
 ht-degree: 2%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Como um gerenciador de espaço de trabalho, você pode adicionar um tipo de registro que existe em outro espaço de trabalho a um espaço de trabalho gerenciado no Adobe Workfront Planning.
 
@@ -134,7 +134,9 @@ And
    >Quando não há tipos de registro configurados para serem adicionados a outros espaços de trabalho em seu sistema, a opção **Adicionar existente** não é exibida.
 
 1. Clique em **Continuar**.
-1. Na caixa **Escolher o tipo de registro**, clique no cartão do tipo de registro que deseja adicionar de um espaço de trabalho existente e clique em **Adicionar**.
+1. (Condicional) Na caixa **Escolher o tipo de registro**, clique no cartão do tipo de registro que deseja adicionar de um espaço de trabalho existente e clique em **Adicionar**.
+
+   <span class="preview">Se estiver usando o ambiente de Visualização, você pode clicar em para selecionar vários tipos de registro e em **Adicionar**. Todos os tipos de registros globais de todos os espaços de trabalho em que estão disponíveis são exibidos na lista.</span>
 
    O tipo de registro é adicionado ao espaço de trabalho secundário selecionado e o ícone **Tipo de registro global** ![Ícone de registro global no espaço de trabalho secundário](assets/global-icon-secondary-workspace.png) é exibido no cartão do tipo de registro.
 O ícone de tipo de registro global inclui uma seta quando exibida em um tipo de registro no espaço de trabalho secundário, para indicar que o tipo de registro foi adicionado a partir de um tipo de registro existente.
@@ -171,7 +173,7 @@ This will be released later with another epic:
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.
 -->
 
-&lt;!—verificando com Lilit se podemos adicionar automações ou solicitar formulários para RTs globais secundários??—adicione etapa com links para esses artigos se/ quando sim—>
+&lt;!—verificando com Lilit se podemos adicionar automações ou solicitar formulários aos RTs globais secundários??—adicionar etapa com links para esses artigos se/ quando sim—>
 
 
 
