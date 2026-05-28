@@ -4,7 +4,7 @@ description: Melhorias na emissão de relatórios no terceiro trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a177e2887c2b8b281b19cda45ce59c6f8149cefb
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 4%
