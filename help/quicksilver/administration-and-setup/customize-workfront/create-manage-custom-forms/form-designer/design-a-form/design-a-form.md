@@ -10,10 +10,10 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
+source-git-commit: 7457f6888a0e79d499c4cca47bd4b4b5ac55a52b
 workflow-type: tm+mt
-source-wordcount: '7447'
-ht-degree: 92%
+source-wordcount: '7342'
+ht-degree: 91%
 
 ---
 
@@ -65,29 +65,29 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    ![Escolha os tipos de objeto](assets/new-custom-form-select-objects-032526.png)
 
-+++ Expanda para exibir a lista de objetos que oferecem suporte a formulários personalizados.
+   +++ Expanda para exibir a lista de objetos que oferecem suporte a formulários personalizados.
 
-* Projeto
-* Tarefa
-* Problema / Solicitação
-* Portfólio
-* Documento
-* Programa
-* Despesa
-* Usuário
-* Empresa
-* Iteração
-* Registro de cobrança
-* Grupo
-* Equipe
+   * Projeto
+   * Tarefa
+   * Problema / Solicitação
+   * Portfólio
+   * Documento
+   * Programa
+   * Despesa
+   * Usuário
+   * Empresa
+   * Iteração
+   * Registro de cobrança
+   * Grupo
+   * Equipe
 
-Se você estiver no pacote Workflow Ultimate, também poderá criar formulários personalizados para esses objetos:
+   Se você estiver no pacote Workflow Ultimate, também poderá criar formulários personalizados para esses objetos:
 
-* Função
-* Cartão de tarifa
-* Atribuição
+   * Função
+   * Cartão de tarifa
+   * Atribuição
 
-+++
+   +++
 
 1. Na área **Adicionar nome de formulário**, digite o título do formulário personalizado.
 1. (Opcional) Se quiser adicionar mais tipos de objeto ao formulário para que ele possa ser anexado a mais objetos, clique em **Tipos de Objeto** no cabeçalho do designer de formulário. Selecione os tipos de objeto que deseja adicionar e desmarque todos os tipos de objeto que deseja excluir do formulário.
@@ -155,8 +155,8 @@ Cada nome de campo personalizado deve ser exclusivo na instância do Workfront d
 
 >[!NOTE]
 >
->Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele possa ser referenciado em outras áreas do Workfront.
->Por exemplo, se você adicionar o campo personalizado a um relatório e, posteriormente, alterar o nome dele, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente, a menos que você o adicione novamente ao relatório com o novo nome.
+>Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele pode agora ser referenciado em outras áreas do Workfront.
+>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, a Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
 >
 >Recomendamos que você não digite um nome que já esteja sendo usado para campos integrados do Workfront.
 >
@@ -340,7 +340,7 @@ Para adicionar um campo de texto:
 
    Para copiar um campo, passe o mouse sobre ele e clique no ícone Copiar.
 
-   ![Ícone Copiar](assets/copy-field.png)
+   ![ícone de copiar](assets/copy-field.png)
 
 1. Para salvar as alterações, clique em **Aplicar** e acesse outra seção para continuar criando o formulário.
 
@@ -655,7 +655,7 @@ Para adicionar campos de preenchimento automático e de data:
 
    Para copiar um campo, passe o mouse sobre ele e clique no ícone Copiar.
 
-   ![Ícone Copiar](assets/copy-field.png)
+   ![ícone de copiar](assets/copy-field.png)
 
 1. Para salvar as alterações, clique em **Aplicar** e acesse outra seção para continuar criando o formulário.
 
@@ -684,7 +684,7 @@ Para adicionar uma pesquisa externa:
     <tbody> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo, porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
@@ -734,12 +734,12 @@ Para adicionar uma pesquisa externa:
      </tr>
      <tr> 
       <td role="rowheader">Caminho JSON</td>
-      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no formato a seguir, será possível usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
+      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar “$.data[*].name” para selecionar EUA e Canadá como opções de lista suspensa:</br>
       <pre>
       &lbrace;
-       dados: &lbrace;
-         { name: "USA"},
-         { name: "Canada"}
+       data: &lbrace;
+         { name: "EUA"},
+         { name: "Canadá"}
        &rbrace;
       &rbrace;
       </pre>
@@ -827,7 +827,7 @@ Para adicionar imagens, PDFs ou vídeos:
      </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo, porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
@@ -914,13 +914,13 @@ A tabela lista os campos nativos disponíveis para objetos específicos do Workf
 | Duração |   | ✓ |   |   | ✓ |   |   |   |
 | Tipo de duração |   | ✓ |   |   | ✓ |   |   |   |
 | Unidade de duração |   | ✓ |   |   | ✓ |   |   |   |
-| Cadastrado por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Inserido por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | Data de entrada | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | <span class="preview"> Data da Taxa de Câmbio </span> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
 | <span class="preview"> Custo Fixo </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | <span class="preview"> Receita Fixa </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Grupo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Última atualização realizada por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Última atualização por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Data da última atualização | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Nome | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Proprietário | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
@@ -929,7 +929,7 @@ A tabela lista os campos nativos disponíveis para objetos específicos do Workf
 | Data de conclusão planejada | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Duração planejada | ✓ |   |   | ✓ |   |   |   |   |
 | Horas planejadas | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
-| Data de início planejada | ✓ |   |   |   |   |   |   |   |
+| Data de início planejado | ✓ |   |   |   |   |   |   |   |
 | Portfólio | ✓ |   |   | ✓ |   |   | ✓ |   |
 | Prioridade | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Programa | ✓ |   |   | ✓ |   |   |   |   |
@@ -982,7 +982,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo, porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td>
@@ -1053,7 +1053,7 @@ Para adicionar um arquivo do Adobe XD:
      </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo, porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
@@ -1063,7 +1063,7 @@ Para adicionar um arquivo do Adobe XD:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obrigatório) Digite ou cole um link de protótipo válido do XD.</p> 
-      <p><b>Observação</b>: a configuração de Acesso ao link na guia Compartilhar do Adobe XD deve ser definida como Qualquer pessoa que tenha o link. Caso contrário, os usuários não poderão visualizar o protótipo. 
+      <p><b>Observação</b>: a configuração de Acesso ao Link na guia Compartilhar do Adobe XD deve ser definida como Qualquer pessoa com o link. Caso contrário, os usuários não poderão visualizar o protótipo. 
    </td> 
      </tr> 
      <tr> 
@@ -1084,7 +1084,7 @@ Para adicionar um arquivo do Adobe XD:
 
    Para copiar um campo, passe o mouse sobre ele e clique no ícone Copiar.
 
-   ![Ícone Copiar](assets/copy-field.png)
+   ![ícone de copiar](assets/copy-field.png)
 
 1. Para salvar as alterações, clique em **Aplicar** e acesse outra seção para continuar criando o formulário.
 
@@ -1180,7 +1180,7 @@ Para adicionar um campo de conexão do Planejamento:
 
    Para copiar um campo, passe o mouse sobre ele e clique no ícone Copiar.
 
-   ![Ícone Copiar](assets/copy-field.png)
+   ![ícone de copiar](assets/copy-field.png)
 
 1. Para salvar as alterações, clique em **Aplicar** e acesse outra seção para continuar criando o formulário.
 
