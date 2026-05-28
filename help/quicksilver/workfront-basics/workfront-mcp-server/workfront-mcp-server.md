@@ -4,7 +4,7 @@ content-type: reference
 description: Consulte uma lista de artigos disponíveis sobre o servidor MCP do Adobe Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e7dadae62ea2f5e9772705cafdc5e067cec1ae08
+source-git-commit: 8bd5032df4fc890de9d374bf3773dcb0ea0a5009
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 12%
