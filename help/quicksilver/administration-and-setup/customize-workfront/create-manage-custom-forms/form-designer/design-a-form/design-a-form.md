@@ -10,7 +10,7 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 63fc3b2c3ce58501333cad6155243a9fbed1f00b
+source-git-commit: af0475ae27fe92937b803083ef4577e7bc0283a9
 workflow-type: tm+mt
 source-wordcount: '7342'
 ht-degree: 91%
@@ -736,12 +736,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar “$.data[*].name” para selecionar EUA e Canadá como opções de lista suspensa:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "EUA"},
          { name: "Canadá"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o caminho JSON e garantir que você o escreva corretamente, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1202,6 +1202,3 @@ Um aplicativo pode ser incorporado a um formulário personalizado do Workfront u
 ## Organizar e visualizar um formulário com o designer de formulário
 
 Para obter informações sobre como organizar um formulário personalizado com quebras de seção e pré-visualizar, consulte [Organizar e pré-visualizar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-
-
-
