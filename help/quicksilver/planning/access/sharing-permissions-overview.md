@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 6%
+source-wordcount: '1372'
+ht-degree: 5%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 6%
 
 # Visão geral das permissões de compartilhamento no Adobe Workfront Planning
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
-
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -60,20 +56,17 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
 
   Para obter mais informações, consulte [Compartilhar tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
 
-<!--
 <div class="preview">
 
-* Records
-    
-    * You can share records with people inside your organization.
-    * Users inherit permissions from the workspace and the record type by default. 
-    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+* Registros
 
-    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+   * Você pode compartilhar registros com pessoas dentro da organização.
+   * Por padrão, os usuários herdam permissões do espaço de trabalho e do tipo de registro.
+   * Não é possível compartilhar um registro com um nível de permissão superior ou inferior ao que o usuário tem no tipo de registro.
+
+  Para obter mais informações, consulte [Compartilhar registros](/help/quicksilver/planning/access/share-records.md).
 
 </div>
-
--->
 
 * Exibições
 
@@ -190,11 +183,9 @@ Existem os seguintes cenários:
 
 ### Permissões para registros
 
-As permissões de registro são herdadas do tipo de registro quando você concede permissões ao espaço de trabalho e ao tipo de registro.
+Por padrão, as permissões de registro são herdadas do tipo de registro ao conceder permissões ao espaço de trabalho e ao tipo de registro.
 
-<!--In the Production environment, -->
-
-A seguir estão os níveis de permissões para registros:
+No ambiente de Produção, os níveis de permissões para registros são os seguintes:
 
 
 |        | Gerenciar | Contribuir | Exibir |
@@ -204,41 +195,36 @@ A seguir estão os níveis de permissões para registros:
 | Editar | ✓ | ✓ |       |
 | Exibir | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, the following are the levels of permissions for records: 
+No ambiente de Pré-visualização, os níveis de permissões para registros são os seguintes:
 
-|        | Manage |  View  |
+|        | Gerenciar | Exibir |
 |--------|--------|-------|
-| Create | ✓      |       |
-| Delete | ✓      |       |
-| Edit   | ✓      |       |
-| View   | ✓      | ✓     |
+| Criar | ✓ |       |
+| Excluir | ✓ |       |
+| Editar | ✓ |       |
+| Exibir | ✓ | ✓ |
 
+As permissões de registro são sempre herdadas ao conceder permissões ao espaço de trabalho e ao tipo de registro.
 
+Você pode remover as permissões herdadas do registro recebidas do tipo de registro. Os gerentes e criadores de registro do Workspace retêm as permissões Gerenciar para o registro.
 
-Record permissions are always inherited when you grant permissions to the workspace and the record type.
+Não é possível conceder aos usuários permissões mais baixas ou mais altas no registro do que no tipo de registro.
 
-You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+Existem os seguintes cenários:
 
-You cannot give users lower or higher permissions on the record than they have on the record type. 
-
-The following scenarios exist: 
-
-|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+| Workspace e permissões de tipo de registro | Permissões herdadas automáticas de um Registro | Possíveis permissões de registro quando permissões herdadas estão desativadas (concedidas manualmente) |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions*           |
-| Contribute |     Manage |  Manage, Remove permissions*        |
-| View   |  View     |      View, Remove permissions*        |
+| Gerenciar | Gerenciar | Gerenciar, remover permissões* |
+| Contribuir | Gerenciar | Gerenciar, remover permissões* |
+| Exibir | Exibir | Exibir, remover permissões* |
 
 >[!NOTE]
 >
->*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+>*Quando você remove permissões de um registro, os usuários ainda retêm permissões de Exibição para o espaço de trabalho e o tipo de registro, a menos que você remova as permissões deles do espaço de trabalho.
 
 </div>
--->
 
 ### Permissões para registrar campos
 
@@ -284,7 +270,10 @@ A seguir estão os níveis de permissões para exibições e elementos de exibi�
 | Exibir | ✓ |
 | Aplicar | ✓ |
 
-*Os usuários devem ter permissões de Visualização ou superiores em um espaço de trabalho para obter esse acesso de visualização.
+>[!NOTE]
+>
+>*Os usuários devem ter permissões de Visualização ou superiores em um espaço de trabalho para obter esse acesso de visualização.
+
 
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:

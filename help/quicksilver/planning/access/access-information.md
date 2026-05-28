@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 27%
+source-wordcount: '128'
+ht-degree: 31%
 
 ---
 
@@ -36,7 +36,12 @@ Os artigos a seguir contêm informações sobre qual acesso os usuários precisa
 * [Solicitar permissões para uma exibição ou um espaço de trabalho](/help/quicksilver/planning/access/request-permissions.md)
 * [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md)
 * [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
-* [Compartilhar tipos de registros](/help/quicksilver/planning/access/share-record-types.md)
-  <!--* <span class="preview">[Share records](/help/quicksilver/planning/access/share-records.md)</span>-->
+* [Compartilhar tipos de registro](/help/quicksilver/planning/access/share-record-types.md)
+
+<div class="preview">
+
+* [Compartilhar registros](/help/quicksilver/planning/access/share-records.md)
+
+</div>
 
 

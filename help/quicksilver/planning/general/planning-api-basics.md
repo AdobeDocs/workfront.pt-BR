@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
+source-git-commit: 083a2bbc49b4679f2c7b828f2726327ea24296b1
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 14%
+source-wordcount: '2206'
+ht-degree: 3%
 
 ---
 
@@ -19,119 +19,119 @@ ht-degree: 14%
 {{planning-important-intro}}
 
 <!--
+
 Lilit asked me to hide everything in this current article and replace it with her version of it. I kept just the Field type and search modifier section. The rest of the article is a re-write of the original from Lilit. 
 
 She also said we need to reword how we organize the version features, after we get more versions released but for now, she calls out what's different in V1 than the current (V2) with almost every feature. 
+
 -->
 
-<!--
-To comment out when we release V2 - everything else under this gets hidden after V2 release: 
+O objetivo da API de planejamento do Adobe Workfront é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura RESTful que opera via HTTP. Este documento supõe que você esteja familiarizado com as respostas REST e JSON.
 
-# Adobe Workfront Planning API Basics
+Para obter referência completa do ponto de extremidade, esquemas de solicitação/resposta e detalhes específicos da versão, consulte a [documentação do desenvolvedor da API do Workfront Planning](https://developer.adobe.com/wf-planning).
 
-The goal of the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a RESTful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses.
+## Autenticação
 
-For complete endpoint reference, request/ response schemas, and version-specific details, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning).
+A API do Workfront Planning usa o OAuth 2.0 para autenticação. As credenciais são configuradas por meio da Adobe Developer Console.
 
-## Authentication
+Dependendo do seu tipo de integração, oferecemos suporte aos dois fluxos a seguir:
 
-The Workfront Planning API uses OAuth 2.0 for authentication. Credentials are set up via the Adobe Developer Console. 
+* **Autenticação de servidor para servidor (JWT)**: para integrações automatizadas e serviços de back-end sem interação com o usuário. Usa a credencial do servidor para servidor OAuth (concessão de credenciais do cliente — seu aplicativo é autenticado diretamente usando a ID do cliente e o segredo para obter um token de acesso, sem logon do usuário ou etapa de consentimento).
 
-We support the following two flows depending on your integration type:
+  Para obter informações, consulte [Autenticação de Servidor para Servidor](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/).
 
-* **Server-to-server authentication (JWT)**: For automated integrations and backend services with no user interaction. Uses the OAuth Server-to-Server credential (client credentials grant — your application authenticates directly using its client ID and secret to obtain an access token, with no user login or consent step). 
+* **Autenticação de usuário (Fluxo de código de autorização)**: para integrações que atuam em nome de um usuário específico. Usa a credencial do aplicativo web OAuth ou do aplicativo de página única (concessão de código de autorização — o usuário faz logon e consente, após o qual o aplicativo recebe um código de autorização que troca por um token de acesso).
 
-    For information, see [Server to Server authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/).
+  Para obter informações, consulte [Autenticação de Usuário](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/).
 
-* **User authentication (Authorization Code flow)**: for integrations acting on behalf of a specific user. Uses the OAuth Web App or Single Page App credential (authorization code grant — the user logs in and consents, after which your application receives an authorization code it exchanges for an access token). 
+Para começar, crie um projeto no Adobe Developer Console e adicione a API do Workfront Planning para obter suas credenciais.
 
-    For information, see [User Authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/).
+Para configurar credenciais, crie um aplicativo OAuth2 no Workfront.
 
-To get started, create a project in the Adobe Developer Console and add the Workfront Planning API to obtain your credentials. 
-
-To set up credentials, create an OAuth2 application in Workfront. 
-
-For information, see [Create OAuth2 applications for Workfront integrations](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md). 
+Para obter informações, consulte [Criar aplicativos OAuth2 para integrações do Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
 
 >[!NOTE]
 >
->The `/login` endpoint and API key authentication are not supported for Workfront Planning. Do not use `sessionID` or `apiKey` parameters.
+>O ponto de extremidade `/login` e a autenticação de chave de API não são compatíveis com o Workfront Planning. Não use `sessionID` ou `apiKey` parâmetros.
 
 
-## API versioning
+## Controle de versão da API
 
-The Planning API is versioned via the URL path. 
+A versão da API do Planning é feita por meio do caminho do URL.
 
-The following are current supported versions: 
+Estas são as versões atuais compatíveis:
 
-| Version   | Release date   |
+| Versão | Data de lançamento |
 |-----------|----------------|
-| Version 1 | July 2024 |
-| Version 2 | May 2026   |
+| Versão 1 | Julho de 2024 |
+| Versão 2 | Maio de 2026 |
+
+<!--
 
 (*****************add deprecation date column above, when we have one*****************)
 
+-->
 
-For more information about the current supported versions, see the article [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning).
 
-We recommend explicitly targeting a version in all integrations:
+Para obter mais informações sobre as versões atuais com suporte, consulte o artigo [documentação do desenvolvedor da API do Workfront Planning](https://developer.adobe.com/wf-planning).
+
+Recomendamos o direcionamento explícito de uma versão em todas as integrações:
 
 ```
 https://{customer-domain}/maestro/api/v2/...
-
 ```
 
-When a new major version is released, the previous version will continue to be available until a deprecation date is communicated.
+Quando uma nova versão principal for lançada, a versão anterior continuará disponível até que uma data de desativação seja comunicada.
 
-Follow the Workfront release notes to stay informed of API changes.
+Siga as notas de versão do Workfront para se manter informado sobre alterações na API.
 
 
-## URL structure and operations
+## Estrutura e operações de URL
 
-Objects are manipulated by sending an HTTP request to their unique URI. The operation is specified by the HTTP method.
+Os objetos são manipulados enviando uma solicitação HTTP para seu URI exclusivo. A operação é especificada pelo método HTTP.
 
-| Method   | Operation                                                            |
+| Método | Operação |
 |----------|----------------------------------------------------------------------|
-| GET      | Retrieve a single object by ID, or search/list objects               |
-| POST     | Create a new object                                                  |
-| PUT      | Replace an existing object (full update)                             |
-| PATCH    | Partially update an existing object (only provided fields are modified) |
-| DELETE   | Delete an object                                                     |
+| GET | Recuperar um único objeto por ID ou objetos de pesquisa/lista |
+| POST | Criar um novo objeto |
+| PUT | Substituir um objeto existente (atualização completa) |
+| PATCH | Atualizar parcialmente um objeto existente (somente os campos fornecidos são modificados) |
+| EXCLUIR | Excluir um objeto |
 
 >[!NOTE]
 >
->**Version1 note:** `PATCH` is not supported in Version 1. Use `PUT` for all updates.
+>Observação de **Versão1:** `PATCH` não tem suporte na Versão 1. Use `PUT` para todas as atualizações.
 
 
-For full endpoint paths and request/response examples, see the **API reference** at [developer.adobe.com/wf-planning](https://developer.adobe.com/wf-planning).
+Para obter caminhos completos de pontos de extremidade e exemplos de solicitação/resposta, consulte a **Referência da API** em [developer.adobe.com/wf-planning](https://developer.adobe.com/wf-planning).
 
-## HTTP status codes
+## Códigos de status HTTP
 
-The Planning API returns standard HTTP status codes:
+A API do Planning retorna códigos de status HTTP padrão:
 
-| Code                   | Meaning                                         |
+| Código | Significado |
 |------------------------|-------------------------------------------------|
-| 200 OK                 | Successful GET, PUT, or PATCH                   |
-| 201 Created            | Successful POST (resource created)              |
-| 204 No Content         | Successful DELETE                               |
-| 207 Multi-Status          | Bulk operation completed with mixed results, where some items succeeded and some failed. Check individual item responses for details.                              |
-| 400 Bad Request        | Invalid request — see error response for details |
-| 401 Unauthorized       | Missing or invalid authentication token         |
-| 403 Forbidden          | Authenticated but insufficient permissions      |
-| 404 Not Found          | Resource does not exist                         |
-| 409 Conflict           | Write conflict, the resource was modified by another request. Retry with the latest version.                          |
-| 429 Too Many Requests  | Rate limit exceeded                             |
+| 200 OK | GET, PUT ou PATCH com êxito |
+| 201 Criado | POST bem-sucedido (recurso criado) |
+| 204 Sem conteúdo | DELETE bem-sucedido |
+| Status múltiplo 207 | A operação em massa foi concluída com resultados mistos, em que alguns itens tiveram êxito e alguns falharam. Verifique as respostas de item individual para obter detalhes. |
+| 400 Solicitação incorreta | Solicitação inválida — consulte a resposta do erro para obter detalhes |
+| 401 Não autorizado | Token de autenticação ausente ou inválido |
+| 403 Proibido | Permissões autenticadas, mas insuficientes |
+| 404 Não encontrado | O recurso não existe |
+| Conflito 409 | Conflito de gravação; o recurso foi modificado por outra solicitação. Tente novamente com a versão mais recente. |
+| 429 Muitas solicitações | Limite de taxa excedido |
 
 >[!NOTE]
 >
->**Version 1 note:** Version 1 returns `200 OK` for all successful operations, including POST and DELETE.
+>**Observação da versão 1:** a versão 1 retorna `200 OK` para todas as operações bem-sucedidas, incluindo POST e DELETE.
 
 
-## Error handling
+## Tratamento de erros
 
-The Planning API returns errors in a consistent format. Each error response includes a human-readable message, a machine-readable error code, and a request ID for support escalation.
+A API de Planejamento retorna erros em um formato consistente. Cada resposta de erro inclui uma mensagem legível por humanos, um código de erro legível por computador e uma ID de solicitação para escalonamento de suporte.
 
-Example error response:
+Exemplo de resposta de erro:
 
 ```
 json
@@ -145,18 +145,17 @@ json
     { "field": "name", "message": "must not be blank" }
   ]
 }
-
 ```
 
-Use `errorCode` (not `status`) to drive programmatic error handling. It provides the most specific classification of the failure.
+Use `errorCode` (não `status`) para direcionar tratamento de erros programáticos. Ela fornece a classificação mais específica da falha.
 
 >[!NOTE]
 >
->**Version 1 note:** Version 1 error responses use a numeric `type` field (e.g. `40001`) instead of a string `errorCode`, and wrap detail in a `report` object rather than a top-level `detail` field.
+>Observação sobre a **Versão 1:** as respostas de erro da versão 1 usam um campo numérico `type` (por exemplo, `40001`) em vez de uma cadeia de caracteres `errorCode`, e quebra automática de detalhes em um objeto `report` em vez de um campo `detail` de nível superior.
 
-## Filtering records
+## Filtrar registros
 
-Use the `filter` parameter in record search requests to return only records matching specific criteria. For POST requests, `filter` is a JSON property in the request body. For GET requests, `filter` is a query parameter containing a JSON-encoded filter group. Filters use a typed composite structure with explicit logical operators.  
+Use o parâmetro `filter` em solicitações de pesquisa de registro para retornar somente registros que correspondam a critérios específicos. Para solicitações POST, `filter` é uma propriedade JSON no corpo da solicitação. Para solicitações GET, `filter` é um parâmetro de consulta que contém um grupo de filtros codificado em JSON. Os filtros usam uma estrutura composta digitada com operadores lógicos explícitos.
 
 ```
 json
@@ -169,10 +168,9 @@ json
     ]
   }
 }
-
 ```
 
-Filters can be nested using `AND` / `OR` operators to build compound conditions:
+Filtros podem ser aninhados usando operadores `AND` / `OR` para criar condições compostas:
 
 ```
 json
@@ -197,60 +195,437 @@ json
     ]
   }
 }
-
 ```
 
 >[!NOTE]
 >
->**Version 1 note:** Version 1 uses Mongo-style untyped operators in a `filters` object. Operators are prefixed with `$` (e.g. `$and`, `$or`, `$is`, `$contains`, `$isBetween`). Pagination parameters (`offset`, `limit`) and `recordTypeId` are passed in the request body rather than as URL path and query parameters.
+>**Observação da versão 1:** a versão 1 usa operadores sem tipo de estilo Mongo em um objeto `filters`. Os operadores recebem o prefixo `$` (por exemplo, `$and`, `$or`, `$is`, `$contains`, `$isBetween`). Os parâmetros de paginação (`offset`, `limit`) e `recordTypeId` são passados no corpo da solicitação, em vez de como caminho de URL e parâmetros de consulta.
 
 
-## Field types and search modifiers
+## Tipos de campo e modificadores de pesquisa
 
-You can use modifiers and filters with fields to control what data will be returned in results. 
+Você pode usar modificadores e filtros com campos para controlar quais dados serão retornados nos resultados.
 
-For examples, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).
+Para obter exemplos, consulte a [documentação para desenvolvedores da API do Workfront Planning](https://developer.adobe.com/wf-planning/).
 
-### Using search modifiers 
+### Uso de modificadores de pesquisa
 
-Workfront Planning supports the following search modifiers: 
+O Workfront Planning suporta os seguintes modificadores de pesquisa:
 
 
 <table style="table-layout:auto"> 
   <colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>
   <thead>
     <tr>
-      <th>Modifier</th>
-      <th>Example</th>
-      <th>Description</th>
-      <th>Possible values</th>
+      <th>Modificador</th>
+      <th>Exemplo</th>
+      <th>Descrição</th>
+      <th>Valores possíveis</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td class="modifier">CONTAINS</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"CONTAINS","value":"product"}</td><td>Returns records whose field value contains the filter</td><td class="possible">"New Product Launch"</td></tr>
-    <tr><td class="modifier">DOES_NOT_CONTAIN</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"DOES_NOT_CONTAIN","value":"product"}</td><td>Returns records where the field value does not contain the filter</td><td class="possible">"New Launch"</td></tr>
-    <tr><td class="modifier">IS</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS","value":"new product launch"}</td><td>Returns records whose field value exactly matches the filter</td><td class="possible">"New Product Launch"</td></tr>
-    <tr><td class="modifier">IS_NOT</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_NOT","value":"product"}</td><td>Returns records whose field value does not exactly match the filter</td><td class="possible">"New Product Launch"</td></tr>
-    <tr><td class="modifier">IS_EMPTY</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_EMPTY"}</td><td>Returns records whose field value is empty</td><td class="possible">"" or null</td></tr>
-    <tr><td class="modifier">IS_NOT_EMPTY</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_NOT_EMPTY"}</td><td>Returns records whose field value is not empty</td><td class="possible">"New Product Launch"</td></tr>
-    <tr><td class="modifier">GREATER_THAN</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"GREATER_THAN","value":"10"}</td><td>Returns records whose field value is greater than the filter</td><td class="possible">"11"</td></tr>
-    <tr><td class="modifier">GREATER_THAN_OR_EQUAL</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"GREATER_THAN_OR_EQUAL","value":"10"}</td><td>Returns records whose field value is greater than or equal to the filter</td><td class="possible">"10", "11"</td></tr>
-    <tr><td class="modifier">LESS_THAN</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"LESS_THAN","value":"10"}</td><td>Returns records whose field value is less than the filter</td><td class="possible">"9"</td></tr>
-    <tr><td class="modifier">LESS_THAN_OR_EQUAL</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"LESS_THAN_OR_EQUAL","value":"10"}</td><td>Returns records whose field value is less than or equal to the filter</td><td class="possible">"9", "10"</td></tr>
-    <tr><td class="modifier">IS_BETWEEN</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_BETWEEN","value":["2024-01-01","2024-12-31"]}</td><td>Returns records whose field value falls between the two filter values</td><td class="possible">["2024-03-01","2024-06-30"]</td></tr>
-    <tr><td class="modifier">IS_NOT_BETWEEN</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_NOT_BETWEEN","value":["2024-01-01","2024-12-31"]}</td><td>Returns records whose field value does not fall between the two filter values</td><td class="possible">["2023-01-01","2025-06-30"]</td></tr>
-    <tr><td class="modifier">IS_AFTER</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_AFTER","value":"2024-01-01"}</td><td>Returns records whose date field value is after the filter</td><td class="possible">"2024-06-01"</td></tr>
-    <tr><td class="modifier">IS_BEFORE</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_BEFORE","value":"2024-12-31"}</td><td>Returns records whose date field value is before the filter</td><td class="possible">"2024-06-01"</td></tr>
-    <tr><td class="modifier">IS_ANY_OF</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_ANY_OF","value":["Active","Planned"]}</td><td>Returns records whose field value matches any value in the filter list</td><td class="possible">["Active","Planned","Complete"]</td></tr>
-    <tr><td class="modifier">IS_NONE_OF</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_NONE_OF","value":["Active","Planned"]}</td><td>Returns records whose field value matches none of the values in the filter list</td><td class="possible">["Active","Planned"]</td></tr>
-    <tr><td class="modifier">HAS_ANY_OF</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"HAS_ANY_OF","value":["Tag1","Tag2"]}</td><td>Returns records whose multi-value field contains any of the filter values</td><td class="possible">["Tag1","Tag2"]</td></tr>
-    <tr><td class="modifier">HAS_ALL_OF</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"HAS_ALL_OF","value":["Tag1","Tag2"]}</td><td>Returns records whose multi-value field contains all of the filter values</td><td class="possible">["Tag1","Tag2"]</td></tr>
-    <tr><td class="modifier">IS_EXACTLY</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_EXACTLY","value":["Tag1"]}</td><td>Returns records whose multi-value field contains exactly the filter values and no others</td><td class="possible">["Tag1"]</td></tr>
-    <tr><td class="modifier">HAS_NONE_OF</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"HAS_NONE_OF","value":["Tag1"]}</td><td>Returns records whose multi-value field contains none of the filter values</td><td class="possible">["Tag1"]</td></tr>
+    <tr><td class="modifier">CONTÉM</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"CONTAINS","value":"product"}</td><td>Retorna registros cujo valor de campo contém o filtro</td><td class="possible">"Lançamento de novo produto"</td></tr>
+    <tr><td class="modifier">DOES_NOT_CONTAIN</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"DOES_NOT_CONTAIN","value":"product"}</td><td>Retorna registros em que o valor do campo não contém o filtro</td><td class="possible">"Novo lançamento"</td></tr>
+    <tr><td class="modifier">É</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS","value":"new product launch"}</td><td>Retorna registros cujo valor de campo corresponde exatamente ao filtro</td><td class="possible">"Lançamento de novo produto"</td></tr>
+    <tr><td class="modifier">IS_NOT</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_NOT","value":"product"}</td><td>Retorna registros cujo valor de campo não corresponde exatamente ao filtro</td><td class="possible">"Lançamento de novo produto"</td></tr>
+    <tr><td class="modifier">IS_EMPTY</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_EMPTY"}</td><td>Retorna registros cujo valor de campo está vazio</td><td class="possible">"" ou nulo</td></tr>
+    <tr><td class="modifier">IS_NOT_EMPTY</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_NOT_EMPTY"}</td><td>Retorna registros cujo valor de campo não está vazio</td><td class="possible">"Lançamento de novo produto"</td></tr>
+    <tr><td class="modifier">GREATER_THAN</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"GREATER_THAN","value":"10"}</td><td>Retorna registros cujo valor de campo é maior que o filtro</td><td class="possible">"11"</td></tr>
+    <tr><td class="modifier">GREATER_THAN_OR_EQUAL</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"GREATER_THAN_OR_EQUAL","value":"10"}</td><td>Retorna registros cujo valor de campo é maior ou igual ao filtro</td><td class="possible">"10", "11"</td></tr>
+    <tr><td class="modifier">LESS_THAN</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"LESS_THAN","value":"10"}</td><td>Retorna registros cujo valor de campo é menor que o filtro</td><td class="possible">"9"</td></tr>
+    <tr><td class="modifier">LESS_THAN_OR_EQUAL</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"LESS_THAN_OR_EQUAL","value":"10"}</td><td>Retorna registros cujo valor de campo é inferior ou igual ao filtro</td><td class="possible">"9", "10"</td></tr>
+    <tr><td class="modifier">IS_BETWEEN</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_BETWEEN","value":["2024-01-01","2024-12-31"]}</td><td>Retorna registros cujo valor de campo está entre os dois valores de filtro</td><td class="possible">["2024-03-01","2024-06-30"]</td></tr>
+    <tr><td class="modifier">IS_NOT_BETWEEN</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_NOT_BETWEEN","value":["2024-01-01","2024-12-31"]}</td><td>Retorna registros cujo valor de campo não está entre os dois valores de filtro</td><td class="possible">["2023-01-01","2025-06-30"]</td></tr>
+    <tr><td class="modifier">IS_AFTER</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_AFTER","value":"2024-01-01"}</td><td>Retorna registros cujo valor de campo de data está após o filtro</td><td class="possible">"2024-06-01"</td></tr>
+    <tr><td class="modifier">IS_BEFORE</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_BEFORE","value":"2024-12-31"}</td><td>Retorna registros cujo valor de campo de data é anterior ao filtro</td><td class="possible">"2024-06-01"</td></tr>
+    <tr><td class="modifier">IS_ANY_OF</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_ANY_OF","value":["Ative","Planned"]}</td><td>Retorna registros cujo valor de campo corresponde a qualquer valor na lista de filtros</td><td class="possible">["Ativo","Planejado","Concluído"]</td></tr>
+    <tr><td class="modifier">IS_NONE_OF</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_NONE_OF","value":["Ative","Planned"]}</td><td>Retorna registros cujo valor de campo não corresponde a nenhum dos valores na lista de filtros</td><td class="possible">["Ativo","Planejado"]</td></tr>
+    <tr><td class="modifier">HAS_ANY_OF</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"HAS_ANY_OF","value":["Tag1","Tag2"]}</td><td>Retorna registros cujo campo de vários valores contém qualquer um dos valores de filtro</td><td class="possible">["Tag1","Tag2"]</td></tr>
+    <tr><td class="modifier">HAS_ALL_OF</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"HAS_ALL_OF","value":["Tag1","Tag2"]}</td><td>Retorna registros cujo campo de vários valores contém todos os valores de filtro</td><td class="possible">["Tag1","Tag2"]</td></tr>
+    <tr><td class="modifier">IS_EXACTLY</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"IS_EXACTLY","value":["Tag1"]}</td><td>Retorna registros cujo campo de vários valores contém exatamente os valores de filtro e nenhum outro</td><td class="possible">["Tag1"]</td></tr>
+    <tr><td class="modifier">HAS_NONE_OF</td><td class="example">{"fieldId":"&lt;id&gt;","condition":"HAS_NONE_OF","value":["Tag1"]}</td><td>Retorna registros cujo campo de vários valores não contém nenhum dos valores de filtro</td><td class="possible">["Tag1"]</td></tr>
   </tbody>
 </table>
+
+
+>[!NOTE]
+>
+>Observação sobre a versão 1: os nomes de modificadores V1 usam `$-prefixed camelCase` (por exemplo, `$contains`, `$isNot`, `$isEmpty`, `$greaterThan`, `$greaterThanOrEqual`, `$lessThan`, `$lessThanOrEqual`, `$isBetween`, `$isNotBetween`, `$isAnyOf`, `$hasAllOf`). O comportamento de cada modificador é o mesmo.
+
+
+## Condições de filtro compatíveis por tipo de campo
+
+| Tipo de campo | Condições suportadas |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------|
+| texto, texto longo | CONTAINS, DOES_NOT_CONTAIN, IS, IS_NOT, IS_EMPTY, IS_NOT_EMPTY |
+| número, porcentagem, moeda | IS, IS_NOT, GREATER_THAN, GREATER_THAN_OR_EQUAL, LESS_THAN, LESS_THAN_OR_EQUAL, IS_EMPTY, IS_NOT_EMPTY |
+| data | IS, IS_NOT, IS_AFTER, IS_BEFORE, IS_BETWEEN, IS_NOT_BETWEEN, IS_EMPTY, IS_NOT_EMPTY |
+| seleção única | IS, IS_NOT, IS_ANY_OF, IS_NONE_OF, IS_EMPTY, IS_NOT_EMPTY |
+| multisseleção, usuário | HAS_ANY_OF, HAS_ALL_OF, IS_EXACTLY, HAS_NONE_OF, IS_EMPTY, IS_NOT_EMPTY |
+| booleano | É |
+| fórmula | CONTAINS, DOES_NOT_CONTAIN, IS, IS_NOT, IS_EMPTY, IS_NOT_EMPTY |
+| created-by | IS, IS_NOT, IS_ANY_OF, IS_NONE_OF |
+| atualizado por | IS, IS_NOT, IS_ANY_OF, IS_NONE_OF, IS_EMPTY, IS_NOT_EMPTY |
+| created-at | IS, IS_NOT, IS_AFTER, IS_BEFORE, IS_BETWEEN, IS_NOT_BETWEEN |
+| atualizado-em | IS, IS_NOT, IS_AFTER, IS_BEFORE, IS_BETWEEN, IS_NOT_BETWEEN, IS_EMPTY, IS_NOT_EMPTY |
+| referência | HAS_ANY_OF, HAS_ALL_OF, IS_EXACTLY, HAS_NONE_OF, IS_EMPTY, IS_NOT_EMPTY |
+| pesquisa | Depende do tipo de campo vinculado |
+
+>[!NOTE]
+>
+>Observação sobre a **Versão 1:** a Versão 1 usa nomes de operadores com prefixos `$` (por exemplo, `$contains`, `$greaterThan`, `$isAnyOf`, `$hasAllOf`). O conjunto de condições aceitas por tipo de campo é o mesmo.
+
+## Filtragem por campos de pessoas
+
+Os filtros de campo de pessoas (`user`, `created-by`, `updated-by`, `approved-by`) aceitam IDs de usuário do Adobe IMS e IDs de usuário do Workfront. Um valor de string simples é interpretado como uma ID de usuário do Adobe IMS.
+
+Para definir o tipo de identificador para verificar a ID de usuário do Workfront, é necessário passar explicitamente os parâmetros `id` e `idType`. Os valores com suporte para `idType` são &quot;`WF`&quot; para IDs de usuário do Workfront e &quot;`IMS`&quot; para IDs de usuário do Adobe IMS.
+
+```
+{ 
+  "filter": { 
+   "operator": "AND", 
+    "conditions": [ 
+      { 
+        "fieldId": "<userFieldId>", 
+        "condition": "HAS_ANY_OF", 
+        "value": [ 
+          { "id": "63e3b13000078c1795146248182d15dc", "idType": "WF" } 
+        ] 
+      } 
+    ] 
+  } 
+} 
+```
+
+>[!NOTE]
+>
+> Observação da versão 1: V1 oferece suporte somente à filtragem por ID de IMS dos usuários.
+
+## Filtrar campos de referência externa por ID externa
+
+Os campos de referência externa vinculam registros a objetos em outros sistemas Adobe (como projetos Workfront ou AEM Assets). Internamente, o Planning atribui IDs de registro do Planning a esses objetos. Para filtrar esses campos diretamente pela ID de objeto original, adicione `"matchExternalId": true` a uma condição de filtro.
+
+Esse sinalizador só é válido para campos de referência onde `referenceOptions.isExternal` é `true`; ele é ignorado para campos de referência não externos. Se um único valor de cadeia de caracteres não puder ser resolvido, a solicitação falhará com `400 Bad Request`. Se um valor de lista for fornecido, as entradas não resolvidas passarão inalteradas e simplesmente não corresponderão.
+
+```
+{ 
+  "filter": { 
+    "operator": "AND", 
+    "conditions": [ 
+      { 
+        "fieldId": "<externalReferenceFieldId>", 
+        "condition": "IS_ANY_OF", 
+        "value": [ 
+          "5f6a4f6e00000123456789abcdef0123", 
+          "/content/dam/wknd/en/adventures/bali-surf-camp" 
+        ], 
+        "matchExternalId": true 
+      } 
+    ] 
+  } 
+} 
+```
+
+>[!NOTE]
+>
+>Observação da versão 1: V1 não oferece suporte à filtragem por IDs de objeto externo.
+
+## Campos de conexão externa
+
+Os tipos de registro do Planning podem hospedar campos de referência externa que vinculam registros a objetos em outros sistemas Adobe, em vez de outros tipos de registro do Planning.
+
+Para criar um campo de referência externa por meio da API, defina `referenceOptions.recordTypeId` em um novo campo `REFERENCE` como a ID do tipo de registro externo desejado. O servidor deriva automaticamente `referenceOptions.isExternal=true` e os metadados de conexão (`connectionName, objectName`) do tipo de registro de destino.
+
+Os tipos de objetos externos compatíveis incluem objetos do Workfront (projetos, tarefas, programas, portfólios, empresas, grupos, equipes, usuários) e do AEM Assets (ativos, fragmentos de conteúdo).
+
+>[!NOTE]
+>
+>Observação da versão 1: V1 não oferece suporte à criação de campos de conexão externa.
+
+
+## Classificação
+
+Classifique os resultados por qualquer campo incluindo uma matriz `sort` em sua solicitação:
+
+```
+json
+{
+  "sort": [
+    { "fieldId": "F6527ecb25df57c441d92b9fc", "direction": "asc" },
+    { "fieldId": "F658afcbd4a0273c67c346fd5", "direction": "desc" }
+  ]
+}
+```
+
+Os campos de classificação múltipla são avaliados em ordem. Sempre aplique uma classificação ao paginar para garantir uma ordem consistente entre as páginas.
+
+Para agrupar resultados, inclua uma matriz de grupo ao lado de classificar:
+
+```
+{ 
+  "sort": [{ "fieldId": "F001", "direction": "asc" }], 
+  "group": [{ "fieldId": "F002", "direction": "asc" }] 
+} 
+```
+
+>[!NOTE]
+>
+>Observação da versão 1: V1 usa `sorting` (não `sort`), `groupingFieldIds` (matriz de IDs de campo, não objetos `group`) e o `rowOrderViewId` obsoleto agora para aplicar uma ordem de linha de exibição existente. Nenhum desses parâmetros V1 é compatível com a versão
+
+## Projeção de campo
+
+Para limitar quais campos são retornados em uma resposta, use os parâmetros de consulta `fieldIds` ou `fieldAliases` com uma lista separada por vírgulas. Isso reduz o tamanho da carga de resposta e é recomendado para integrações de alto volume ou sensíveis à latência.
+
+>[!NOTE]
+>
+>Observação sobre a **Versão 1:** a Versão 1 usa `?attributes=` para projeção (por exemplo, `?attributes=data,createdBy`) em vez de `?fieldIds=` ou `?fieldAliases=`.
+
+## Paginação
+
+A API do Planning permite respostas paginadas para gerenciar grandes conjuntos de dados.
+
+* **A paginação baseada em cursor** é usada para espaços de trabalho, tipos de registro, campos e exibições. Passe um valor `cursor` da resposta anterior para recuperar a próxima página. As respostas baseadas em cursor incluem um sinalizador hasMore para indicar se há mais páginas ou não.
+* A **paginação baseada em página** é usada para a pesquisa de registro. Use `page` e `size` como parâmetros de consulta. Sempre aplique uma classificação ao paginar para garantir uma ordem consistente entre as páginas. Observe que a paginação é baseada em zero, portanto, para recuperar os resultados da segunda página, use &quot;`page=1`&quot; como parâmetro.
+
+Por exemplo, use a seguinte solicitação para recuperar a segunda página de 500 registros de uma pesquisa de registro:
+
+```
+POST /v2/record-types/{recordTypeId}/records/search?page=1&size=500 
+{ 
+  "sort": [{ "fieldId": "F6527ecb25df57c441d92b9fc", "direction": "asc" }], 
+  "filter": { "operator": "AND", "conditions": [ 
+    { "fieldId": "<fieldId>", "condition": "IS", "value": "active" } 
+  ] } 
+} 
+```
+
+Todas as respostas paginadas incluem um envelope estruturado indicando se mais resultados estão disponíveis. Sempre aplique uma classificação ao paginar para garantir uma ordem consistente entre as páginas.
+
+>[!NOTE]
+>
+> **Observação da versão 1:** a V1 usa `offset` e `limit` passados no corpo da solicitação (padrão 500, máx. 2.000). Para recuperar os registros 2001-4000, defina &quot;`offset`&quot;: &quot;`2000`&quot;, &quot;`limit`&quot;: &quot;`2000`&quot; no corpo da solicitação. A resposta retorna uma matriz de registros simples com um campo `totalCount`.
+
+## Operações em massa
+
+A API do Planning permite criar, atualizar, corrigir e excluir registros em massa em uma única solicitação. Consulte a **Referência da API** em [developer.adobe.com/wf-planning](https://developer.adobe.com/wf-planning) para obter os caminhos de ponto de extremidade, formatos de solicitação e limites de registro por operação.
+
+>[!NOTE]
+>
+>**Observação sobre a versão 1:** operações em massa não estão disponíveis na versão 1.
+
+
+## Permissões
+
+As permissões para entidades são gerenciadas por meio de uma API de permissões dedicada, separada dos próprios endpoints de recursos. Isso permite que você leia as permissões atuais, gerencie a lista de compartilhamento e lide com as solicitações de acesso independentemente das operações de dados. Para obter mais informações, consulte a seção &quot;Referências de API&quot; no artigo [API do Workfront Planning](https://developer.adobe.com/wf-planning).
+
+>[!NOTE]
+>
+>**Observação da versão 1:** a versão 1 não expõe uma API de permissões pública. O nível de permissão é incorporado diretamente nos DTOs de resposta do recurso.
+
+## Uso da API do Planning com formulários personalizados do Workfront
+
+Você pode chamar a API do Planning a partir de um campo de pesquisa Externo em um formulário personalizado do Workfront para exibir dados do Planning diretamente nos objetos do Workfront. Para obter mais informações, consulte [Exemplos do campo de pesquisa Externa em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+
+## Recursos relacionados
+
+Para obter mais documentação relacionada à API, consulte também os seguintes artigos:
+
+* Documentação e referência do desenvolvedor da [API do Workfront Planning](https://developer.adobe.com/wf-planning)
+* [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+* [Visão geral de acesso do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
+* [Criar aplicativos OAuth2 para integrações do Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+
+<!--
+
+Our version of this article before Lilit replaced it with the above: 
+
+The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Planning API.  
+
+A familiarity with the Workfront Planning schema will assist you in understanding the database relationships that can be utilized to pull data out of Workfront Planning for integration purposes. 
+
+You can call the planning API from an External lookup field in a Workfront custom form.
+
+For more information on External lookup fields, see [Examples of the External lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+
+>[!NOTE]
+>
+>When using the Planning API, all user-related information will be returned using the Adobe Identity Management System (IMS) user ID, and not the Workfront user ID.
+>
+>For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
+
+## Workfront Planning API versions
+
+* Version 1 - released in July 2024 
+
+  For more information, see the section [Workfront Planning API Version 1](#workfront-planning-api-version-1) in this article. 
+
+* Version 2 - released in May 2026
+
+  For more information, see the section [Workfront Planning API Version 2](#workfront-planning-api-version-2) in this article.
+
+
+## Workfront Planning API Version 1
+
+Workfront Planning API Version 1 was released in July 2024.
+
+The following sections described functionality that was made available in the Workfront API Version 1. 
+
+All future API version will contain the same functionality, unless otherwise specified. 
+
+### Operations 
+
+Objects are manipulated by sending an HTTP request to their unique URI. The operation to be performed is specified by the HTTP method. 
+
+The standard HTTP methods correspond to the following operations: 
+
+* **GET** - Retrieves an object by ID, searches for all objects by a query 
+* **POST** - Inserts a new object 
+* **PUT** - Edits an existing object 
+* **DELETE** - Deletes an object 
+
+For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).
+
+### Field types and search modifiers used with them 
+
+You can use modifiers and filters with fields to control what data will be returned in results. 
+
+For examples, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).
+
+#### Using search modifiers 
+
+Workfront Planning supports the following search modifiers: 
+
+<table>
+    <tr>
+        <td><b>Modifier</b></td>
+        <td><b>Example</b></td>
+        <td><b>Description</b></td>
+        <td><b>Possible Values</b></td>
+    </tr>
+    <tr>
+        <td>$contains </td>
+        <td><code>"fieldId": { "$contains": "product" } </code> </td>
+        <td>Returns records whose field value contains the filter  </td>
+        <td>"New Product Launch"  </td>
+    </tr>
+    <tr>
+        <td>$doesNotContain</td>
+        <td><code>"fieldId": { "$doesNotContain": "product" } </code> </td>
+        <td>Returns records where the field value does not contain the filter  </td>
+        <td>"New Launch"  </td>
+    </tr>
+    <tr>
+        <td>$is </td>
+        <td><ul><li><code>"fieldId" : { "$is": "new product launch" } </code></li><li><code>"fieldId" : { "new product launch" } </code></li><ul> </td>
+        <td>Returns records whose field value exactly match the filter  </td>
+        <td>"New Product Launch"  </td>
+    </tr>
+    <tr>
+        <td>$isNot </td>
+        <td><code>"fieldId": { "$isNot": "product" } </code> </td>
+        <td>Returns records whose field value exactly is not match the filter  </td>
+        <td>"New Product Launch"  </td>
+    </tr>
+    <tr>
+        <td>$isEmpty </td>
+        <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
+        <td>Returns records whose field value is empty  </td>
+        <td><ul><li>"" </li><li>null </li><ul>  </td>
+    </tr>
+    <tr>
+        <td>$isNotEmpty </td>
+        <td><ul><li><code>"fieldId": "$isNotEmpty"  </code></li><li><code>"fieldId": { "$isNotEmpty": null } </code></li><ul> </td>
+        <td>Returns records whose field value is not empty  </td>
+        <td>"New Product Launch"  </td>
+    </tr>
+    <tr>
+        <td>$greaterThan </td>
+        <td><code>"fieldId": { "$greaterThan": 10 } </code> </td>
+        <td>Returns records whose field value is greater than the filter  </td>
+        <td><ul><li>20</li><li>25</li><ul> </td>
+    </tr>
+    <tr>
+        <td>$greaterThanOrEqual </td>
+        <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
+        <td>Returns records whose field value is greater than or equal the filter  </td>
+        <td><ul><li>10</li><li>20</li><li>25</li> </ul></td>
+    </tr>
+    <tr>
+        <td>$lessThan </td>
+        <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
+        <td>Returns records whose field value is less than the filter  </td>
+        <td><ul><li>5</li><li>9</li></td></ul> 
+    </tr>
+    <tr>
+        <td>$lessThanOrEqual </td>
+        <td><code>"fieldId": { "$lessThanOrEqual": 10 } </code> </td>
+        <td>Returns records whose field value is less than or equal the filter </td>
+        <td><ul><li>5</li><li>9</li><ul><li>10</li> </td>
+    </tr>
+    <tr>
+        <td>$isAfter </td>
+        <td><code>"fieldId": { "$isAfter": "2024-05-14T20:00:00.000Z" } </code> </td>
+        <td>Returns records whose field value is after the filter  </td>
+        <td>"2024-05-15T20:00:00.000Z"  </td>
+    </tr>
+    <tr>
+        <td>$isBefore </td>
+        <td><code>"fieldId": { "$isBefore": "2024-05-14T20:00:00.000Z" } </code> </td>
+        <td>Returns records whose field value is before the filter </td>
+        <td>"2024-05-12T20:00:00.000Z" </td>
+    </tr>
+    <tr>
+        <td>$isBetween </td>
+        <td><code>"fieldId": { "$isBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
+        <td>Returns records whose field value is between the filter  </td>
+        <td><ul><li>"2024-05-12T20:00:00.000Z" </li><li>"2024-05-14T20:00:00.000Z" </li><ul>  </td>
+    </tr>
+    <tr>
+        <td>$isNotBetween </td>
+        <td><code>"fieldId": { "$isNotBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
+        <td>Returns records whose field value is not between the filter  </td>
+        <td><ul><li>"2024-05-09T20:00:00.000Z"  </li><li>"2024-05-17T20:00:00.000Z"  </li><ul>  </td>
+    </tr>
+    <tr>
+        <td>$isAnyOf </td>
+        <td><code>"fieldId": { "$isAnyOf": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value is any of the filter  </td>
+        <td><ul><li>"active" </li><li>"completed" </li><ul> </td>
+    </tr>
+    <tr>
+        <td>$isNoneOf </td>
+        <td><code>"fieldId": { "$isNoneOf": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value is none of the filter </td>
+        <td><ul><li>"finished"  </li><li>"fixed"  </li><ul> </td>
+    </tr>
+    <tr>
+        <td>$hasAnyOf </td>
+        <td><code>"fieldId": { "$hasAnyOf": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value has any of the filter  </td>
+        <td><ul><li>["active", "fixed"]  </li><li>["fixed", "completed", "finished"]  </li><ul> </td>
+    </tr>
+    <tr>
+        <td>$hasAllOf </td>
+        <td><code>"fieldId": { "$hasAllOf": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value has all of the filter  </td>
+        <td><ul><li>["active", "completed"]   </li><li>["active", "completed", "finished"]   </li><ul> </td>
+    </tr>
+    <tr>
+        <td>$hasNoneOf </td>
+        <td><code>"fieldId": { "$hasNoneOf": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value has none of the filter </td>
+        <td>["fixed", "finished"]  </td>
+    </tr>
+    <tr>
+        <td>$isExactly </td>
+        <td><code>"fieldId": { "$isExactly": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value is exactly the filter  </td>
+        <td>["active", "completed"]  </td>
+    </tr>
+</table>
  
-### Field types 
+#### Field types 
 
 Below is the list of supported field types and what search modifiers can be used with each of those field types  
 
@@ -275,424 +650,9 @@ Below is the list of supported field types and what search modifiers can be used
 | reference | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
 | lookup | Depends on the linked field |
 
-## Supported filter conditions by field type
+### Using "And" and "Or" statements 
 
-| Field Type                  | Supported Conditions                                                                                         |
-|-----------------------------|--------------------------------------------------------------------------------------------------------------|
-| text, long-text             | CONTAINS, DOES_NOT_CONTAIN, IS, IS_NOT, IS_EMPTY, IS_NOT_EMPTY                                              |
-| number, percentage, currency| IS, IS_NOT, GREATER_THAN, GREATER_THAN_OR_EQUAL, LESS_THAN, LESS_THAN_OR_EQUAL, IS_EMPTY, IS_NOT_EMPTY      |
-| date                        | IS, IS_NOT, IS_AFTER, IS_BEFORE, IS_BETWEEN, IS_NOT_BETWEEN, IS_EMPTY, IS_NOT_EMPTY                         |
-| single-select               | IS, IS_NOT, IS_ANY_OF, IS_NONE_OF, IS_EMPTY, IS_NOT_EMPTY                                                   |
-| multi-select, user          | HAS_ANY_OF, HAS_ALL_OF, IS_EXACTLY, HAS_NONE_OF, IS_EMPTY, IS_NOT_EMPTY                                    |
-| boolean                     | IS                                                                              |
-| formula               | CONTAINS, DOES_NOT_CONTAIN, IS, IS_NOT, IS_EMPTY, IS_NOT_EMPTY                                               |
-| created-by       | IS, IS_NOT, IS_ANY_OF, IS_NONE_OF                                                                             |
-| updated-by        | IS, IS_NOT, IS_ANY_OF, IS_NONE_OF, IS_EMPTY, IS_NOT_EMPTY                                                                              |
-| created-at      | IS, IS_NOT, IS_AFTER, IS_BEFORE, IS_BETWEEN, IS_NOT_BETWEEN                                                  |
-| updated-at      | IS, IS_NOT, IS_AFTER, IS_BEFORE, IS_BETWEEN, IS_NOT_BETWEEN, IS_EMPTY, IS_NOT_EMPTY                                                   |
-| reference                   | HAS_ANY_OF, HAS_ALL_OF, IS_EXACTLY, HAS_NONE_OF, IS_EMPTY, IS_NOT_EMPTY                                    |
-| lookup                      | Depends on the linked field type                                                                             |
-
->[!NOTE]
->
->**Version 1 note:** Version 1 uses `$`-prefixed operator names (e.g. `$contains`, `$greaterThan`, `$isAnyOf`, `$hasAllOf`). The set of supported conditions per field type is the same.
-
-## Filtering by People fields 
-
-People field filters (`user`, `created-by`, `updated-by`, `approved-by`) accept both Adobe IMS user IDs and Workfront user IDs. A plain string value is interpreted as an Adobe IMS user ID. 
-
-To set the identifier type to check the Workfront user ID, you need to explicitly pass `id` and `idType` parameters. Supported values for `idType` are "`WF`" for Workfront user IDs, and "`IMS`" for Adobe IMS user IDs. 
-
-```
-{ 
-  "filter": { 
-   "operator": "AND", 
-    "conditions": [ 
-      { 
-        "fieldId": "<userFieldId>", 
-        "condition": "HAS_ANY_OF", 
-        "value": [ 
-          { "id": "63e3b13000078c1795146248182d15dc", "idType": "WF" } 
-        ] 
-      } 
-    ] 
-  } 
-} 
-
-```
-
->[!NOTE]
->
-> Version 1 note: V1 only supports filtering by users' IMS ID.  
-
-## Filtering External Reference Fields by External ID 
-
-External reference fields link records to objects in other Adobe systems (such as Workfront projects or AEM Assets). Internally, Planning assigns Planning record IDs to these objects. To filter such fields directly by their original object ID, add `"matchExternalId": true` to a filter condition. 
-
-This flag is only valid for reference fields where `referenceOptions.isExternal` is `true`; it is ignored for non-external reference fields. If a single string value cannot be resolved, the request fails with `400 Bad Request`. If a list value is supplied, unresolved entries pass through unchanged and simply do not match. 
-
-```
-{ 
-  "filter": { 
-    "operator": "AND", 
-    "conditions": [ 
-      { 
-        "fieldId": "<externalReferenceFieldId>", 
-        "condition": "IS_ANY_OF", 
-        "value": [ 
-          "5f6a4f6e00000123456789abcdef0123", 
-          "/content/dam/wknd/en/adventures/bali-surf-camp" 
-        ], 
-        "matchExternalId": true 
-      } 
-    ] 
-  } 
-} 
-
-```
- 
->[!NOTE]
->
->Version 1 note: V1 does not support filtering by external object IDs. 
-
-## External Connection Fields 
-
-Planning record types can host external reference fields that link records to objects in other Adobe systems instead of other Planning record types. 
-
-To create an external reference field via the API, set `referenceOptions.recordTypeId` on a new `REFERENCE` field to the ID of the desired external record type. The server automatically derives `referenceOptions.isExternal=true` and the connection metadata (`connectionName, objectName`) from the target record type. 
-
-Supported external object types include Workfront objects (projects, tasks, programs, portfolios, companies, groups, teams, users) and AEM Assets (assets, content fragments). 
-
->[!NOTE]
->
->Version 1 note: V1 does not support creating external connection fields. 
-
-
-## Sorting
-
-Sort results by any field by including a `sort` array in your request:
-
-```
-json
-{
-  "sort": [
-    { "fieldId": "F6527ecb25df57c441d92b9fc", "direction": "asc" },
-    { "fieldId": "F658afcbd4a0273c67c346fd5", "direction": "desc" }
-  ]
-}
-
-```
-
-Multiple sort fields are evaluated in order. Always apply a sort when paginating to ensure consistent ordering across pages.
-
-To group results, include a group array alongside sort: 
-
-```
-{ 
-  "sort": [{ "fieldId": "F001", "direction": "asc" }], 
-  "group": [{ "fieldId": "F002", "direction": "asc" }] 
-} 
-
-```
-
->[!NOTE]
->
->Version 1 note: V1 uses `sorting` (not `sort`), `groupingFieldIds` (array of field IDs, not `group` objects), and the now-deprecated `rowOrderViewId` to apply an existing view's row order. None of these V1 parameters are supported in Version 2. 
-
-
----
-
-## Field projection
-
-To limit which fields are returned in a response, use the `fieldIds` or `fieldAliases` query parameters with a comma-separated list. This reduces response payload size and is recommended for high-volume or latency-sensitive integrations.
-
->[!NOTE]
->
->**Version 1 note:** Version 1 uses `?attributes=` for projection (e.g. `?attributes=data,createdBy`) rather than `?fieldIds=` or `?fieldAliases=`.
-
-## Pagination
-
-The Planning API supports paginated responses to manage large datasets.
-
-* **Cursor-based pagination** is used for workspaces, record types, fields, and views. Pass a `cursor` value from the previous response to retrieve the next page. Cursor-based responses include a hasMore flag to indicate if there are more pages or not.
-* **Page-based pagination** is used for record search. Use `page` and `size` as query parameters. Always apply a sort when paginating to ensure consistent ordering across pages. Note that pagination is zero-based, so in order to retrieve the results of the second page, use "`page=1`" as the parameter.   
-
-For example, use the following request to retrieve the second page of 500 records from a record search: 
-
-```
-POST /v2/record-types/{recordTypeId}/records/search?page=1&size=500 
-{ 
-  "sort": [{ "fieldId": "F6527ecb25df57c441d92b9fc", "direction": "asc" }], 
-  "filter": { "operator": "AND", "conditions": [ 
-    { "fieldId": "<fieldId>", "condition": "IS", "value": "active" } 
-  ] } 
-} 
-
-```
-
-All paginated responses include a structured envelope indicating whether more results are available. Always apply a sort when paginating to ensure consistent ordering across pages.
-
->[!NOTE]
->
-> **Version 1 note:** V1 uses `offset` and `limit` passed in the request body (default 500, max 2,000). To retrieve records 2001–4000, set "`offset`": "`2000`", "`limit`": "`2000`" in the request body. The response returns a flat records array with a `totalCount` field.
-
-## Bulk operations
-
-The Planning API supports bulk create, update, patch, and delete of records in a single request. Refer to the **API reference** at [developer.adobe.com/wf-planning](https://developer.adobe.com/wf-planning) for endpoint paths, request formats, and per-operation record limits.
-
->[!NOTE]
->
->**Version 1 note:** Bulk operations are not available in Version 1.
-
-
-## Permissions
-
-Permissions to entities are managed through a dedicated Permissions API, separate from the resource endpoints themselves. This allows you to read current permissions, manage the sharing list, and handle access requests independently of data operations. For more information, see the "API references" section in the article [Workfront Planning API](https://developer.adobe.com/wf-planning).
-
->[!NOTE]
->
->**Version 1 note:** Version 1 does not expose a public Permissions API. Permission level is embedded directly in resource response DTOs.
-
-## Using the Planning API with Workfront custom forms
-
-You can call the Planning API from an External lookup field in a Workfront custom form to surface Planning data directly within Workfront objects. For more information, see [Examples of the External lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
-
-## Related resources
-
-For more API-related documentation, also see the following articles:
-
-* [Workfront Planning API](https://developer.adobe.com/wf-planning) developer documentation and reference
-* [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-* [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md)
-* [Create OAuth2 applications for Workfront integrations](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
-
--->
-
-O objetivo da API de planejamento do Adobe Workfront é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura REST-ful que opera via HTTP. Este documento supõe que você esteja familiarizado com as respostas REST e JSON e descreve a abordagem adotada pela API de Planejamento.
-
-Uma familiaridade com o esquema do Workfront Planning o ajudará a entender os relacionamentos de banco de dados que podem ser utilizados para extrair dados do Workfront Planning para fins de integração.
-
-Você pode chamar a API de planejamento a partir de um campo de pesquisa externo em um formulário personalizado do Workfront.
-
-Para obter mais informações sobre campos de pesquisa externos, consulte [Exemplos do campo de pesquisa externo em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
-
->[!NOTE]
->
->Ao usar a API do Planning, todas as informações relacionadas ao usuário serão retornadas usando a ID de usuário do Adobe Identity Management System (IMS), e não a ID de usuário do Workfront.
->
->Para obter informações, consulte [Gerenciar usuários na Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
-
-## Versões da API do Workfront Planning
-
-* Versão 1 - lançada em julho de 2024
-
-  Para obter mais informações, consulte a seção [API do Workfront Planning Versão 1](#workfront-planning-api-version-1) neste artigo.
-  <!--
-    Maybe retitle the "Workfront Planning API" section below to "Workfront Planning API Version 1" when Version 2 releases
-    -->
-
-<!--
-* Version 2 - released in May 2026
-
-    For more information, see the section [Workfront Planning API Version 2](#workfront-planning-api-version-2) in this article.
--->
-
-## API do Workfront Planning Versão 1
-
-A API do Workfront Planning versão 1 foi lançada em julho de 2024.
-
-As seções a seguir descrevem a funcionalidade que foi disponibilizada na API do Workfront versão 1.
-
-Todas as versões futuras da API conterão a mesma funcionalidade, a menos que especificado de outra forma.
-
-<!--
-Becky had put the title of this article as"Workfront Planning API URL", but she did not document what that URL is; asking dev and hiding it for now
--->
-
-<!--
-For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).
--->
-
-### Operações
-
-Os objetos são manipulados enviando uma solicitação HTTP para seu URI exclusivo. A operação a ser executada é especificada pelo método HTTP.
-
-Os métodos HTTP padrão correspondem às seguintes operações:
-
-* **GET** - Recupera um objeto por ID, pesquisa todos os objetos por uma consulta
-* **POST**: insere um novo objeto
-* **PUT**: edita um objeto existente
-* **DELETE**: exclui um objeto
-
-Para obter mais detalhes e exemplos de cada operação, consulte a [documentação do desenvolvedor da API do Workfront Planning](https://developer.adobe.com/wf-planning/).
-
-### Tipos de campo e modificadores de pesquisa usados com eles
-
-Você pode usar modificadores e filtros com campos para controlar quais dados serão retornados nos resultados.
-
-<!--For examples, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->
-
-#### Uso de modificadores de pesquisa
-
-O Workfront Planning suporta os seguintes modificadores de pesquisa:
-
-<table>
-    <tr>
-        <td><b>Modificador</b></td>
-        <td><b>Exemplo</b></td>
-        <td><b>Descrição</b></td>
-        <td><b>Valores possíveis</b></td>
-    </tr>
-    <tr>
-        <td>$contém </td>
-        <td><code>"fieldId": { "$contains": "product" } </code> </td>
-        <td>Retorna registros cujo valor de campo contém o filtro  </td>
-        <td>"Lançamento de novo produto"  </td>
-    </tr>
-    <tr>
-        <td>$doesNotContain</td>
-        <td><code>"fieldId": { "$doesNotContain": "product" } </code> </td>
-        <td>Retorna registros em que o valor do campo não contém o filtro  </td>
-        <td>"Novo lançamento"  </td>
-    </tr>
-    <tr>
-        <td>$is </td>
-        <td><ul><li><code>"fieldId" : { "$is": "new product launch" } </code></li><li><code>"fieldId" : { "new product launch" } </code></li><ul> </td>
-        <td>Retorna registros cujo valor de campo corresponde exatamente ao filtro  </td>
-        <td>"Lançamento de novo produto"  </td>
-    </tr>
-    <tr>
-        <td>$isNot </td>
-        <td><code>"fieldId": { "$isNot": "product" } </code> </td>
-        <td>Retorna registros cujo valor de campo não corresponde exatamente ao filtro  </td>
-        <td>"Lançamento de novo produto"  </td>
-    </tr>
-    <tr>
-        <td>$isEmpty </td>
-        <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
-        <td>Retorna registros cujo valor de campo está vazio  </td>
-        <td><ul><li>"" </li><li>null </li><ul>  </td>
-    </tr>
-    <tr>
-        <td>$isNotEmpty </td>
-        <td><ul><li><code>"fieldId": "$isNotEmpty"  </code></li><li><code>"fieldId": { "$isNotEmpty": null } </code></li><ul> </td>
-        <td>Retorna registros cujo valor de campo não está vazio  </td>
-        <td>"Lançamento de novo produto"  </td>
-    </tr>
-    <tr>
-        <td>$greaterThan </td>
-        <td><code>"fieldId": { "$greaterThan": 10 } </code> </td>
-        <td>Retorna registros cujo valor de campo é maior que o filtro  </td>
-        <td><ul><li>20</li><li>25</li><ul> </td>
-    </tr>
-    <tr>
-        <td>$greaterThanOrEqual </td>
-        <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
-        <td>Retorna registros cujo valor de campo é maior ou igual ao filtro  </td>
-        <td><ul><li>10</li><li>20</li><li>25</li> </ul></td>
-    </tr>
-    <tr>
-        <td>$lessThan </td>
-        <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
-        <td>Retorna registros cujo valor de campo é menor que o filtro  </td>
-        <td><ul><li>5</li><li>9</li></td></ul> 
-    </tr>
-    <tr>
-        <td>$lessThanOrEqual </td>
-        <td><code>"fieldId": { "$lessThanOrEqual": 10 } </code> </td>
-        <td>Retorna registros cujo valor de campo é inferior ou igual ao filtro </td>
-        <td><ul><li>5</li><li>9</li><ul><li>10</li> </td>
-    </tr>
-    <tr>
-        <td>$isAfter </td>
-        <td><code>"fieldId": { "$isAfter": "2024-05-14T20:00:00.000Z" } </code> </td>
-        <td>Retorna registros cujo valor de campo está após o filtro  </td>
-        <td>"05-2024-15T20:00:00.000Z"  </td>
-    </tr>
-    <tr>
-        <td>$isBefore </td>
-        <td><code>"fieldId": { "$isBefore": "2024-05-14T20:00:00.000Z" } </code> </td>
-        <td>Retorna registros cujo valor de campo é anterior ao filtro </td>
-        <td>"05-2024-12T20:00:00.000Z" </td>
-    </tr>
-    <tr>
-        <td>$isBetween </td>
-        <td><code>"fieldId": { "$isBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
-        <td>Retorna registros cujo valor de campo está entre o filtro  </td>
-        <td><ul><li>"05-2024-12T20:00:00.000Z" </li><li>"05-2024-14T20:00:00.000Z" </li><ul>  </td>
-    </tr>
-    <tr>
-        <td>$isNotBetween </td>
-        <td><code>"fieldId": { "$isNotBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
-        <td>Retorna registros cujo valor de campo não está entre o filtro  </td>
-        <td><ul><li>"05/2024/09T20:00:00.000Z"  </li><li>"05-2024-17T20:00:00.000Z"  </li><ul>  </td>
-    </tr>
-    <tr>
-        <td>$isAnyOf </td>
-        <td><code>"fieldId": { "$isAnyOf": ["active", "completed"] } </code> </td>
-        <td>Retorna registros cujo valor de campo é qualquer um dos filtros  </td>
-        <td><ul><li>"ativo" </li><li>"concluído" </li><ul> </td>
-    </tr>
-    <tr>
-        <td>$isNoneOf </td>
-        <td><code>"fieldId": { "$isNoneOf": ["active", "completed"] } </code> </td>
-        <td>Retorna registros cujo valor de campo é none no filtro </td>
-        <td><ul><li>"concluído"  </li><li>"fixo"  </li><ul> </td>
-    </tr>
-    <tr>
-        <td>$hasAnyOf </td>
-        <td><code>"fieldId": { "$hasAnyOf": ["active", "completed"] } </code> </td>
-        <td>Retorna registros cujo valor de campo tem qualquer um dos filtros  </td>
-        <td><ul><li>["ativo", "fixo"]  </li><li>["fixo", "concluído", "concluído"]  </li><ul> </td>
-    </tr>
-    <tr>
-        <td>$hasAllOf </td>
-        <td><code>"fieldId": { "$hasAllOf": ["active", "completed"] } </code> </td>
-        <td>Retorna registros cujo valor de campo tem todo o filtro  </td>
-        <td><ul><li>["ativo", "concluído"]   </li><li>["ativo", "concluído", "concluído"]   </li><ul> </td>
-    </tr>
-    <tr>
-        <td>$hasNoneOf </td>
-        <td><code>"fieldId": { "$hasNoneOf": ["active", "completed"] } </code> </td>
-        <td>Retorna registros cujo valor de campo não tem nenhum do filtro </td>
-        <td>["fixo", "concluído"]  </td>
-    </tr>
-    <tr>
-        <td>$isExactly </td>
-        <td><code>"fieldId": { "$isExactly": ["active", "completed"] } </code> </td>
-        <td>Retorna registros cujo valor de campo é exatamente o filtro  </td>
-        <td>["ativo", "concluído"]  </td>
-    </tr>
-</table>
-
-#### Tipos de campo
-
-Abaixo está a lista de tipos de campo suportados e quais modificadores de pesquisa podem ser usados com cada um desses tipos de campo
-
-| Tipo de campo | Modificadores de pesquisa suportados |
-|---|---|
-| texto | $contém, $nãoContém, $é, $nãoÉ, $estáVazio, $nãoVazio |
-| long-text | $contém, $nãoContém, $é, $nãoÉ, $estáVazio, $nãoVazio |
-| número | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
-| porcentagem | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
-| moeda | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
-| data | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
-| seleção única | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
-| seleção múltipla | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
-| booleano | $is |
-| usuário | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
-| fórmula | $contém, $nãoContém, $é, $nãoÉ, $estáVazio, $nãoVazio |
-| url | $contém, $nãoContém, $é, $nãoÉ, $estáVazio, $nãoVazio |
-| created-by | $is, $isNot, $isAnyOf, $isNoneOf |
-| created-at | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween |
-| atualizado por | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
-| atualizado-em | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
-| referência | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
-| pesquisa | Depende do campo vinculado |
-
-### Uso de instruções &quot;And&quot; e &quot;Or&quot;
-
-Na chamada da API, você pode ter filtros baseados em vários critérios combinados por instruções $and&quot; e &quot;$or&quot;
+In the API call you can have filters that are based on several criteria combined by $and" and "$or" statements  
 
 ```
 {
@@ -746,11 +706,11 @@ Na chamada da API, você pode ter filtros baseados em vários critérios combina
 }
 ```
 
-### Uso do parâmetro de solicitação de campos
+### Using the fields request parameter 
 
-Você pode usar o parâmetro de solicitação de campos para especificar uma lista separada por vírgulas de campos específicos que devem ser retornados. Esses nomes de campo diferenciam maiúsculas de minúsculas.
+You can use the fields request parameter to specify a comma-separated list of specific fields that should be returned. These field names are case-sensitive.  
 
-Por exemplo, a solicitação
+For example, the request 
 
 `/v1/records/search?attributes=data,createdBy`
 
@@ -776,9 +736,9 @@ Por exemplo, a solicitação
 ..
 ```
 
-retorna uma resposta semelhante à seguinte:
+returns a response similar to the following: 
 
-
+  
 ```
 { 
     "priority": 2, 
@@ -788,14 +748,14 @@ retorna uma resposta semelhante à seguinte:
 } 
 ```
 
-### Classificação dos resultados da consulta na API
+### Sorting query results in the API 
 
-Você pode classificar seus resultados por qualquer campo se acrescentar o seguinte à sua chamada de API:
+You can sort your results by any field if you append the following to your API call: 
 
 
 `/v1/records/search`
 
-Corpo da solicitação:
+Request body:
 
 ```
 {
@@ -818,19 +778,18 @@ Corpo da solicitação:
 }
 ```
 
-### Limites de consulta e respostas paginadas
+### Query limits and paginated responses 
 
-Por padrão, as solicitações da API de Planejamento retornam 500 resultados, começando do início da lista. Para substituir a limitação padrão do número de resultados, você pode usar o parâmetro `limit` em suas solicitações e defini-lo como um número diferente, até 2000 resultados.
+By default, Planning API requests return 500 results, starting from the beginning of the list. To override the default limitation for number of results, you can use the `limit` parameter in your requests and set it to a different number, up to 2000 results.  
 
-Recomendamos que você considere usar respostas paginadas para conjuntos de dados grandes adicionando o parâmetro `offset` às suas solicitações. As respostas paginadas permitem especificar o local do primeiro resultado que deve ser retornado.
+We recommend that you consider using paginated responses for large datasets by adding the `offset` parameter to your requests. Paginated responses allow you to specify the location of the first result that should be returned. 
 
-Por exemplo, se quiser retornar os resultados 2001-4000, você poderá usar a solicitação a seguir. Este exemplo retorna 2000 registros que estão no status ativo, a partir do resultado 2001:
+For example, if you want to return the results 2001-4000, you can use the following request. This example returns 2000 records that are in active status, starting from the 2001st result: 
 
 `POST /v1/records/search`
 
 
-
-Corpo da solicitação:
+Request body: 
 
 ```
 { 
@@ -843,11 +802,10 @@ Corpo da solicitação:
 } 
 ```
 
-Para garantir que seus resultados sejam paginados corretamente, use um parâmetro de classificação. Isso permite que os resultados sejam retornados na mesma ordem, para que a paginação não repita ou pule resultados.
+To make sure your results are properly paginated, use a sorting parameter. This allows the results to be returned in the same order, so that the pagination does not repeat or skip results. 
 
-Para obter mais informações sobre classificação, consulte [Classificar resultados da consulta na API](#sorting-query-results-in-the-api) neste artigo.
+For more information on sorting, see [Sorting query results in the API](#sorting-query-results-in-the-api) in this article.
 
-<!--
 
 Lilit did not want this organized like this - keeping this for reference: 
 

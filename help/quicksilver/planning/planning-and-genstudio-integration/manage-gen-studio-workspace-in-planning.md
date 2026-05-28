@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 3%
+source-wordcount: '1769'
+ht-degree: 4%
 
 ---
 
@@ -88,7 +88,7 @@ Para obter informações gerais sobre a integração do GenStudio com o Workfron
    <td role="rowheader"><p>Funções de usuário do Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualquer função de usuário do GenStudio para acessar Campanhas, Produtos e Personalidades</li>
    <li>GenStudio System Manager para acessar Ativações <!--and Events--></li></ul>
-   Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
+   Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
    </p>
   </td> 
   </tr>   
@@ -147,7 +147,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -306,7 +306,7 @@ Para obter informações, consulte [Compartilhar tipos de registros](/help/quick
 Para obter informações, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
       * **Copiar o link de exibição**
 Um link para a exibição é copiado para a área de transferência.
-      * **Exportar a exibição atual**
+      * **Exportar o modo de exibição atual**
 Para obter informações, consulte [Exportar registros da exibição de tabela](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
         >[!NOTE]
@@ -377,17 +377,34 @@ Para obter informações, consulte [Exportar registros da exibição de tabela](
 
      Os campos criados no espaço de trabalho do GenStudio estão visíveis nas seguintes áreas:
 
-      * Exibições do Workfront Planning
-      * Detalhes do registro do Workfront Planning
-      * Detalhes do registro do GenStudio
+      * Exibições do Workfront Planning no Workfront Planning
+      * Detalhes do registro do Workfront Planning no Workfront Planning
+      * Detalhes do registro do GenStudio no GenStudio for Performance Marketing
 
      >[!NOTE]
      >
-     >* Você pode adicionar mais campos somente quando tem Gerenciar permissões no GenStudio.
+     >* Você pode adicionar campos somente quando tem Gerenciar permissões no GenStudio.
      >* Os campos criados no Workfront Planning não estão visíveis na exibição de lista no GenStudio.
      >
      >* É possível conectar qualquer tipo de registro do GenStudio ao tipo de registro do Brands GenStudio.
      >  Os produtos e personalidades estão conectados às marcas por padrão.
+     >
+     >* Você pode conectar tipos de registro do GenStudio no Planning com o AEM Assets ou Fragmentos de conteúdo no Adobe Experience Manager. Você deve ter uma licença do AEM para poder se conectar a objetos do AEM.
+     >
+
+1. (Condicional) Se você conectou tipos de registro do GenStudio a partir do espaço de trabalho do GenStudio no Planning com ativos do AEM ou fragmentos de conteúdo, faça o seguinte para navegar até o AEM e exibir informações de registro do GenStudio:
+
+   1. (Condicional) Em um ativo AEM conectado no espaço de trabalho do GenStudio, clique no nome do ativo e no ícone **Abrir no AEM** ![Abrir no AEM](assets/open-in-aem-icon.png) para abrir o ativo no AEM.
+   1. Clique para selecionar a guia **Campanha** no painel direito.
+
+      O nome da campanha conectada ao ativo é exibido no campo **Campanha**. Este campo é somente leitura.
+Se o ativo também estiver conectado a uma **Região**, **Pessoa**, **Produto** ou **Canal** no espaço de trabalho do GenStudio no Planning, os respectivos campos desses tipos de registro exibirão seus nomes na guia **Campanha** do ativo no modo somente leitura.
+   1. (Condicional) Em um fragmento de conteúdo do AEM conectado no espaço de trabalho do GenStudio no Planning, clique no nome do fragmento de conteúdo e no ícone **Abrir no AEM** ![Abrir no ícone AEM](assets/open-in-aem-icon.png) para abrir o fragmento de conteúdo no AEM.
+   1. Clique no ícone **Página inicial** ícone ![Página inicial no AEM](assets/home-icon-in-aem.png) para ir para uma lista de fragmentos de conteúdo e clique no ícone **Informações** ícone ![Informações no AEM](assets/info-icon-in-aem.png) à direita do nome do fragmento de conteúdo.
+   1. Clique na guia **Metadados** no painel direito.
+
+      O nome da campanha conectada ao fragmento de conteúdo é exibido no campo **xdm: campaignName**. Este campo é somente leitura. <!--tried to log a bug to rename this field-->
+Se o ativo também estiver conectado a uma **Região**, **Pessoa**, **Produto** ou **Canal** no espaço de trabalho do GenStudio no Planning, os respectivos campos desses tipos de registro exibirão seus nomes na guia **Metadados** do fragmento de conteúdo no modo somente leitura.
 
 1. Passe o mouse sobre um campo na exibição de tabela, em seguida, clique no menu suspenso para executar um dos seguintes procedimentos:
 
