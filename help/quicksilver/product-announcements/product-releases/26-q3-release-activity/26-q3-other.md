@@ -4,7 +4,7 @@ description: Outras melhorias durante o período do terceiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ec0c6db3ed0ff470af64fa28ca3e69f0f0bf840a
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 2%
@@ -61,4 +61,3 @@ Campos de referência como digitação antecipada e campos de pesquisa externa r
 Além disso, a experiência de arrastar e soltar colunas (em listas onde a opção arrastar e soltar está disponível) foi aprimorada visualmente.
 
 Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-

@@ -4,10 +4,10 @@ description: Melhorias no gerenciamento financeiro do terceiro trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ba7ac2d144a6dea7218eb58a0b421b915ae2714e
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 7%
+source-wordcount: '131'
+ht-degree: 9%
 
 ---
 
@@ -21,9 +21,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 21 de maio de 2026>Versão rápida de produção: 21 de maio de 2026>Produção para todos: 21 de maio de 2026>Esse recurso só está disponível para organizações no pacote Workflow Ultimate.
+>Visualização: 21 de maio de 2026>Versão rápida de produção: 21 de maio de 2026>Produção para todos: 21 de maio de 2026>Esse recurso só está disponível para organizações no pacote Ultimate de fluxo de trabalho.
 
 Depois que um atributo é adicionado a uma taxa no Workfront, você não pode mais editar esse atributo e seus filtros na área Configuração. Isso preserva a integridade dos dados e impede que as taxas sejam alteradas acidentalmente quando os atributos são atualizados.
 
 Para obter mais informações, consulte [Definir atributos de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
-
