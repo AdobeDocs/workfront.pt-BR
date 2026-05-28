@@ -10,9 +10,9 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
+source-git-commit: e3c540cde02d64e8a141828cc34641429da05d4b
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '933'
 ht-degree: 10%
 
 ---
@@ -148,6 +148,14 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      <tr> 
       <td role="rowheader">Aceitar versões beta da IA </td> 
       <td>Permite optar por ativar os recursos de IA que estão atualmente no Beta. Se você habilitar essa opção, poderá selecionar quais recursos do AI Beta devem ser habilitados. Para obter mais informações sobre cada recurso do AI Beta, clique no ícone de informações ao lado desse recurso.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Ferramentas MCP somente leitura</span></td> 
+      <td><span class="preview">Permite que o servidor MCP do Workfront execute ações de leitura em dados do Workfront — por exemplo, localizar ou listar projetos, tarefas ou outros itens. Essa opção está ativada por padrão.<p>Para obter mais informações sobre o servidor Workfront MCP, consulte <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configurar o servidor Adobe Workfront MCP</a>.</p></span></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Gravar ferramentas MCP</span></td> 
+      <td><span class="preview">Permite que o servidor MCP do Workfront execute ações de criação, atualização e exclusão em dados do Workfront. Essa opção está desabilitada por padrão.<p>Para obter mais informações sobre o servidor Workfront MCP, consulte <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configurar o servidor Adobe Workfront MCP</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Ambientes de Teste</td> 
