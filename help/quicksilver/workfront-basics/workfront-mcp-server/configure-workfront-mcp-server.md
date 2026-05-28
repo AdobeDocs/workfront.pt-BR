@@ -5,9 +5,9 @@ title: Configurar o servidor MCP do Adobe Workfront
 description: Configure sua instância do Workfront e sua plataforma de IA para trabalhar com o Workfront por meio de uma conversa em idioma natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
+source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,6 @@ ht-degree: 0%
 # Configurar o servidor MCP do Adobe Workfront
 
 {{highlighted-preview-article-level}}
-
 
 O servidor MCP do [!DNL Adobe Workfront] permite que você trabalhe com seus dados do Workfront por meio de conversas em linguagem natural em uma plataforma de agente de IA com suporte.
 
@@ -223,22 +222,16 @@ Para obter uma solução de problemas diária depois de se conectar (por exemplo
 
 +++
 
+## Perguntas frequentes sobre configuração
 
-<!--
-+++
++++ Expanda para exibir perguntas frequentes sobre a configuração do servidor MCP do Workfront.
 
-## Frequently asked questions about setup
+### Posso me conectar a várias instâncias do Workfront de uma só vez?
 
-+++ Expand to view frequently asked questions about setting up the Workfront MCP server.
+Não. Cada conexão vincula uma plataforma de IA a uma única instância do Workfront. Para alternar, desconecte e reconecte, autenticando para a nova instância.
 
-### Can I connect to multiple Workfront instances at once?
+### Qual administrador habilita isto?
 
-No. Each connection ties an AI agentic platform to a single Workfront instance. To switch, disconnect and reconnect, authenticating to the new instance.
-
-### Which administrator enables this?
-
-Both your Workfront administrator and the administrator for your AI agentic platform. Your Workfront administrator enables MCP server access on the Workfront side. The administrator for your AI agentic platform enables Workfront access on that platform's side. For [!DNL Claude], the [!DNL Claude] Enterprise administrator enables the [!DNL Adobe Workfront] connector.
+O administrador do Workfront e o administrador da plataforma de agente de IA. O administrador do Workfront habilita o acesso ao servidor MCP no Workfront. O administrador da sua plataforma de agente de IA habilita o acesso ao Workfront no lado dessa plataforma. Para [!DNL Claude], o administrador corporativo [!DNL Claude] habilita o conector [!DNL Adobe Workfront].
 
 +++
-
--->
