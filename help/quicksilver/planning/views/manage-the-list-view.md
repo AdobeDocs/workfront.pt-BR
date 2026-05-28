@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1948'
 ht-degree: 1%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 1%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -182,6 +182,9 @@ Removed - more direct steps below:
    1. Passe o mouse sobre o nome de uma coluna, clique na seta para baixo à esquerda do nome da coluna e clique em uma das seguintes opções:
       * **Renomear**, para adicionar um **Rótulo personalizado** para a coluna. O nome do campo original no Workfront não é alterado.
       * **Classificar**, para classificar a lista pelo campo selecionado. Um ícone de classificação que indica a direção da classificação é adicionado ao cabeçalho da coluna.
+   1. Clique no cabeçalho de uma coluna, em seguida, arraste-a e solte-a em outra posição na lista.
+
+      Não é possível mover a primeira coluna.
    1. Clique no ícone **+** no canto superior direito da lista para adicionar ou remover colunas à lista e clique em **Salvar**.
 
       O **Gerenciador de colunas** se abre.
@@ -252,6 +255,12 @@ Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exi
 1. Clique duas vezes dentro de uma célula na lista para editar as informações de um campo, em seguida, pressione Enter para salvar suas alterações.
 
    Alguns campos são somente leitura. Por exemplo, o percentual concluído de um projeto é um campo calculado pelo sistema e não pode ser editado manualmente.
+
+1. (Condicional) Para selecionar campos do tipo, use as setas do teclado para navegar na lista de opções e pressione a barra de espaço para selecionar a opção correta.
+
+   <span class="preview">Use a linha **Pesquisa** em tipos de campos selecionados para localizar a opção correta.</span>
+
+   <span class="preview">Você pode adicionar novas opções diretamente da célula do campo quando nenhum resultado for encontrado. Este recurso pode não estar disponível em todas as listas.</span>
 
 1. Passe o mouse sobre o nome de um item na lista e clique no menu **Mais** [Mais menu](assets/more-menu.png) e clique em **Exibir** para abrir o item em outra guia
 

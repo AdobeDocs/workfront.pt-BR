@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4251'
 ht-degree: 3%
 
 ---
 
 # Gerenciar a exibição de linha do tempo
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -286,11 +286,13 @@ Considere o seguinte ao trabalhar com filtros na exibição de linha do tempo:
 
 * Você pode filtrar por campos de registro conectados ou campos de pesquisa.
 * Você pode filtrar por campos de pesquisa que exibem vários valores.
+* <span class>Você pode filtrar por tipos de registros no modo de exibição de linha do tempo ou por qualquer tipo de registro conectado que faça parte da estrutura de detalhamento no modo de exibição. </span>
 
 Para adicionar um filtro a uma exibição de linha do tempo:
 
 1. Crie uma exibição de linha do tempo para uma página de tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
-1. Selecione uma exibição de linha do tempo e clique em **Filtros** no canto superior direito da tabela.
+1. Selecione uma exibição de linha do tempo e clique em **Filtros** no canto superior esquerdo da tabela.
+1. <span class>(Condicional)Se você adicionou uma estrutura de detalhamento à exibição de linha do tempo, expanda o tipo de registro na primeira lista suspensa da caixa de filtro. Esse é o tipo de registro cuja exibição da linha do tempo você está exibindo. </span>
 1. Clique em **Adicionar condição** e adicione as seguintes informações:
 
    * **Selecione um campo** para procurar um campo e selecione-o na lista.
@@ -374,14 +376,19 @@ Para adicionar um filtro a uma exibição de linha do tempo:
    * **OU**: qualquer uma das condições especificadas deve ser atendida.
 Esta é a opção padrão.
 
-   1. (Opcional) Adicione outros agrupamentos de filtros e junte-os com os operadores **AND** ou **OR**.
-
-      ![Filtros de várias camadas em exibições](assets/multi-tiered-filters-in-views.png)
+1. (Opcional) Adicione outros agrupamentos de filtros e junte-os com os operadores **AND** ou **OR**.
 
    A lista de registros é filtrada automaticamente com base nos critérios de filtro.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Opcional) Clique no ícone **x** para remover uma condição de filtro.
+1. <span class="preview">(Opcional e condicional) Se você adicionou uma estrutura de detalhamento à sua exibição de linha do tempo, expanda o tipo de registro na lista suspensa a seguir e repita as mesmas etapas descritas acima para adicionar um filtro para um tipo de registro incluído no detalhamento. </span>
+
+   <span class="preview"> Repita para cada tipo de registro no detalhamento.</span>
+
+   ![Filtro de várias camadas com detalhamento para exibição de linha do tempo](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+
+   <span class="preview">Você pode filtrar apenas os tipos de registro de detalhamento na exibição de linha do tempo.</span>
 1. (Opcional) Clique em **Filtros** ou em qualquer outro lugar da página para fechar a caixa de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
