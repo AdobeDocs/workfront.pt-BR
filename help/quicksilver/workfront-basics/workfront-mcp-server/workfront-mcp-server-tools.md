@@ -5,9 +5,9 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
+source-git-commit: 4c98518dfc667ee288e520c2bbe6e550803d5be7
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1664'
 ht-degree: 6%
 
 ---
@@ -48,8 +48,13 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | Obter documento por ID de versão | `approvals_get_document_by_version_id` | Busca detalhes do documento (nome, tamanho, data de upload, carregador) para uma ID de versão de documento conhecida. | Ler |
 | Obter documentos por projeto | `approvals_get_documents_by_project` | Lista documentos dentro de um projeto Workfront, com cada ID de versão atual do documento. | Ler |
 | Resolver escopo do documento | `approvals_resolve_document_scope` | Expande um projeto ou pasta para a lista de IDs de versão de documento que ela contém. Suporta escopos de projeto, pasta e pasta por nome. | Ler |
-| Listar pastas vinculadas ao AEM | `approvals_list_aem_linked_folders` | Lista as pastas de documentos do Workfront vinculadas ao Adobe Experience Manager. | Ler |
-| Enviar documentos para a pasta do AEM | `approvals_send_documents_to_aem_folder` | Move um ou mais documentos do Workfront para uma pasta vinculada ao AEM. | Gravar |
+| Listar pastas vinculadas à AEM* | `approvals_list_aem_linked_folders` | Lista as pastas de documentos do Workfront vinculadas ao Adobe Experience Manager. | Ler |
+| Enviar documentos para a pasta do AEM* | `approvals_send_documents_to_aem_folder` | Move um ou mais documentos do Workfront para uma pasta vinculada ao AEM. | Gravar |
+
+*Você deve ter uma integração nativa [!DNL Adobe Experience Manager] configurada na instância do Workfront para usar essas ferramentas. Para obter mais informações, consulte [Visão geral das integrações do Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+
+
+*O envio de documentos para uma pasta do AEM ainda não é compatível com projetos no Adobe Cloud Storage. O suporte é esperado em uma versão futura.
 
 ### Fluxos de trabalho de aprovação
 
@@ -191,4 +196,4 @@ Quando o Adobe lança uma nova versão do servidor MCP do Workfront, a plataform
 Estamos trabalhando para adicionar as seguintes ferramentas ao servidor MCP do Workfront no futuro:
 
 * Comentários
-* Quadro
+* Quadros
