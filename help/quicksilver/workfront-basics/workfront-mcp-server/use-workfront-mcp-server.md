@@ -5,10 +5,9 @@ title: Usar o servidor MCP do Adobe Workfront
 description: Use o servidor MCP do Adobe Workfront para pesquisar, criar, atualizar e gerenciar itens do Workfront por meio de conversas em linguagem natural em uma plataforma de agente de IA.
 author: Courtney
 feature: Get Started with Workfront
-hide: true
-source-git-commit: 152486b7850e01f3de23f22bbe3729c5cd3d3aa2
+source-git-commit: e7dadae62ea2f5e9772705cafdc5e067cec1ae08
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -16,21 +15,28 @@ ht-degree: 0%
 
 # Usar o servidor MCP do Adobe Workfront
 
-O servidor MCP [!DNL Adobe Workfront] permite localizar, criar, atualizar e gerenciar itens do Workfront solicitando uma plataforma de agente de IA em inglês simples. A plataforma decide quais ações do Workfront chamar e lida com a conversa com o Workfront para você.
+{{highlighted-preview-article-level}}
 
-[!DNL Claude] é a única plataforma de agente de IA com suporte no momento, mas os exemplos e padrões neste artigo se aplicam a qualquer plataforma de agente de IA com suporte para o servidor MCP do Workfront.
 
-Este artigo supõe que você já configurou a conexão. Para obter informações sobre a instalação, consulte [Configurar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md). Para obter mais informações sobre o servidor Workfront MCP, consulte [Visão geral do servidor Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
-
-## Ferramentas disponíveis
-
-O servidor MCP do Workfront expõe um conjunto de ferramentas que a plataforma de agente de IA chama em seu nome — por exemplo, ferramentas para pesquisar no Workfront, criar itens, atualizar campos e gerenciar aprovações. Para obter a lista de referência completa, agrupada por área do Workfront, consulte [Ferramentas de servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
+O servidor MCP [!DNL Adobe Workfront] permite localizar, criar, atualizar e gerenciar itens do Workfront solicitando uma plataforma de agente de IA em linguagem natural. A plataforma decide quais ações do Workfront chamar e lida com a conversa com o Workfront para você.
 
 >[!IMPORTANT]
 >
->Quando você conecta uma plataforma de agente de IA à Workfront, ela age no Workfront usando sua conta e as permissões da Workfront. As ações da plataforma têm o mesmo efeito que as ações executadas diretamente na interface do Workfront.
+>Atualmente, o servidor MCP do Workfront está disponível somente para clientes na região dos EUA que usam o AWS.
+
+## Pré-requisitos
+
+Este artigo supõe que você já configurou a conexão. Para obter informações sobre a instalação, consulte [Configurar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+
+## Ferramentas disponíveis
+
+O servidor MCP do Workfront expõe um conjunto de ferramentas que a plataforma de agente de IA chama em seu nome. Por exemplo, ferramentas para pesquisar no Workfront, criar itens, atualizar campos e gerenciar aprovações. Para obter a lista de referências completas, consulte [ferramentas de servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
+
+>[!IMPORTANT]
 >
->Você e seu provedor de plataforma de agente de IA são responsáveis pelas ações que a plataforma realiza no Workfront. A Adobe não se responsabiliza pelas alterações que a plataforma de IA Agent faz nos dados do Workfront.
+>Quando você conecta uma plataforma de agente de IA à Workfront, ela age no Workfront usando sua conta e as permissões da Workfront. As ações da plataforma têm o mesmo efeito que as ações executadas diretamente na interface do Workfront.<br>
+>
+>Você e seu provedor de plataforma de agente de IA são responsáveis pelas ações que a plataforma realiza no Workfront. A Adobe não se responsabiliza pelas alterações que a plataforma de IA Agent faz nos dados do Workfront.<br>
 >
 >Antes de permitir que a plataforma de agente de IA continue com uma solicitação, confirme se você entende o que ela pretende fazer, especialmente para ações que alteram ou excluem dados.
 
@@ -38,6 +44,11 @@ O servidor MCP do Workfront expõe um conjunto de ferramentas que a plataforma d
 ## Exemplos do que perguntar
 
 Depois de se conectar, digite solicitações em linguagem natural na plataforma do agente de IA. A plataforma de agente de IA decide quais ações do Workfront serão chamadas e retorna os resultados.
+
+>[!NOTE]
+>
+>Algumas ações podem não estar disponíveis devido aos controles do administrador na área Configuração do Workfront. Por exemplo, talvez você não consiga criar itens se o administrador do Workfront tiver desativado as ações de gravação para o servidor MCP.
+
 
 ### Localize e exiba seu trabalho
 
@@ -108,11 +119,10 @@ Você pode encadear solicitações em uma única conversa. A plataforma de agent
 1. Solicitar um conjunto de itens: *Localizar minhas tarefas vencidas.*
 1. Depois de obter a lista, peça uma ação sobre os resultados: *Atualize todos eles para a próxima sexta-feira.*
 
-<!-- NEEDS DETAIL: Test multi-step prompt chaining in a working setup and document the patterns that produce reliable results. -->
 
 ## Considerações
 
-Lembre-se das considerações a seguir ao usar o servidor MCP do Workfront.
+Lembre-se das seguintes considerações ao usar o servidor MCP do Workfront:
 
 ### A plataforma de agente de IA pode usar informações de versões anteriores da conversa
 
@@ -122,25 +132,27 @@ Para forçar a plataforma de agente de IA a buscar dados novos, solicite-os expl
 
 * *Obtenha os dados mais recentes do Workfront. Não usar resultados em cache.*
 
-### O servidor Workfront MCP é atualizado automaticamente
+### Verificar se há atualizações para o servidor MCP do Workfront
 
-Quando o Adobe lança uma nova versão do servidor MCP do Workfront, sua plataforma de agente de IA usa a nova versão automaticamente. Você não precisa reconectar ou alterar nada em seu lado.
+Você pode querer atualizar periodicamente sua conexão com o servidor MCP do Workfront para garantir que você tenha as ferramentas e os recursos mais recentes.
+
+A maioria das atualizações deve ocorrer automaticamente. No entanto, recomendamos verificar as notas de versão do Workfront periodicamente.
+
 
 ## Dados e segurança
 
-<!-- NEEDS DETAIL: Document Adobe's official position on data handling and security when Workfront data is passed through an AI agentic platform. Cover: what data leaves Workfront, where it goes, whether it is retained or used for training by the AI agentic platform provider, what happens to it after the conversation ends, and any differences between AI agentic platforms (for example, Anthropic's enterprise data handling policies for Claude). This section needs sign-off from security and legal before publication. -->
+As ferramentas do servidor MCP do Workfront são consistentes com o funcionamento das chamadas de API. A Workfront não armazena prompts, respostas ou quaisquer outros dados. Quaisquer dados do Workfront que você solicitar poderão ser acessados na plataforma do Workfront.
+
+Suas permissões de nível de acesso e objeto determinam o que você pode consultar ou gravar no Workfront. O administrador do Workfront tem controle das ações de leitura e gravação do MCP na área Configuração do Workfront.
 
 ### Quais dados saem do Workfront
 
-<!-- NEEDS DETAIL: List the categories of Workfront data that can be sent to the AI agentic platform (item names, field values, attachments, user identifiers, etc.) and any data that the MCP server explicitly does not expose. -->
+O provedor da plataforma do agente de IA tem acesso aos dados do Workfront com os quais você interage por meio do servidor MCP do Workfront. Consulte seu provedor de plataforma de IA para obter detalhes.
+
 
 ### Como os provedores da plataforma de IA Agentic lidam com os dados do Workfront
 
-<!-- NEEDS DETAIL: For each supported AI agentic platform, summarize the provider's data handling stance: retention, training opt-out, and enterprise vs. consumer differences. Link to the provider's official documentation. Start with Claude (Anthropic). -->
-
-### Diferenças entre plataformas de agentes de IA
-
-<!-- NEEDS DETAIL: Note any meaningful differences in how each supported AI agentic platform handles Workfront data once additional AI agentic platforms are supported. -->
+A Workfront não tem controle sobre como o provedor da plataforma de agente de IA lida com os dados do Workfront. Consulte seu provedor de plataforma de IA para obter detalhes.
 
 ## Solução de problemas de uso diário
 
@@ -150,7 +162,7 @@ Quando o Adobe lança uma nova versão do servidor MCP do Workfront, sua platafo
 |---|---|---|
 | A plataforma de agente de IA está fornecendo informações desatualizadas. | A plataforma de agente de IA está reutilizando dados do início da conversa. | Solicite dados novos do Workfront. |
 | A plataforma de agente de IA retornou dados dos itens incorretos do Workfront. | A plataforma de agente de IA escolheu os itens errados com base em termos ambíguos. | Pergunte novamente com nomes, IDs ou filtros mais específicos. |
-| Uma atualização ou exclusão não entrou em vigor no Workfront. | A plataforma de agente de IA ainda não chamou a ação ou suas permissões não permitem essa ação. | Confirme com a plataforma do agente de IA se a ação foi executada e verifique suas permissões do Workfront. |
+| Uma atualização ou exclusão não entrou em vigor no Workfront. | O administrador do Workfront desativou as ações de gravação do servidor MCP do Workfront ou você não tem permissão para executar a ação no item específico. | Confirme com a plataforma do agente de IA se a ação foi executada. Em seguida, verifique se as ações de gravação estão ativadas para o servidor MCP do Workfront e se você tem permissão para alterar o item. |
 
 Para obter mais informações sobre problemas de instalação e autenticação, consulte [Solução de problemas de instalação e autenticação](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication) em [Configurar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -160,22 +172,85 @@ Para obter mais informações sobre problemas de instalação e autenticação, 
 
 +++ Expanda para exibir as perguntas frequentes sobre o uso do servidor MCP do Workfront.
 
+### O que é uma plataforma de agente de IA?
+
+Uma plataforma de agente de IA é uma ferramenta de IA que pode realizar ações em seu nome no
+outros sistemas, não apenas responda as perguntas. Ao conectar um ao Workfront
+por meio do servidor MCP, é possível localizar, criar, atualizar e excluir o Workfront
+itens com base no que você solicita em linguagem natural. Exemplos incluem Claude
+Desktop, ChatGPT e outros clientes de IA compatíveis com MCP.
+
+
+### Preciso ser um administrador do Workfront para usar o servidor MCP do Workfront?
+
+Não. Qualquer usuário do Workfront pode usar o servidor MCP do Workfront por meio de uma conexão
+Plataforma de agente de IA. A plataforma de agente de IA atua usando o Workfront
+conta, nível de acesso e permissões de objeto, de modo que você só pode fazer o que
+O já poderia fazer diretamente no Workfront.
+
+### Por que a plataforma de IA Agent não pode criar, atualizar ou excluir itens para mim?
+
+O administrador do Workfront controla quais ações de MCP são permitidas no
+Área de configuração do Workfront. Se as ações de gravação estiverem desativadas, a plataforma de agente IA
+O ainda pode localizar e ler itens do Workfront, mas não pode fazer alterações. Você também
+precisam do nível de acesso correto e das permissões de objeto para os itens específicos
+você está trabalhando com.
+
+### A plataforma de agente de IA perguntará antes de alterar ou excluir os dados do Workfront?
+
+Isso depende da plataforma de agente de IA, não do Workfront. A maioria das plataformas
+solicitar que você confirme antes de executarem uma ação, especialmente para exclusões.
+Antes de aprovar uma solicitação, leia o que a plataforma diz que está prestes a fazer —
+as alterações acontecem no Workfront da mesma forma que aconteceriam se você as fizesse
+você mesmo na interface.
+
+<!--
+
+### Can I undo something the AI agentic platform did in Workfront?
+
+Changes the AI agentic platform makes in Workfront work the same way as 
+changes you make in the interface. If Workfront supports undoing or 
+restoring a particular action (for example, restoring a deleted item from 
+the Recycle Bin), the same options apply. If Workfront doesn't normally let 
+you undo an action, you can't undo it through the AI agentic platform either.
+
+-->
+
+### Por que a plataforma de agente de IA retornou os itens incorretos do Workfront?
+
+A plataforma de agente IA escolhe itens com base nas palavras usadas. Se o seu
+for ambígua — por exemplo, dois projetos têm nomes semelhantes — ela
+pode escolher a errada. Pergunte novamente com nomes, IDs, datas e endereços mais específicos
+ou filtros para restringir os resultados.
+
+
 ### Com quais itens do Workfront posso trabalhar por meio de uma plataforma de agente de IA?
 
-Todos os itens aos quais você tem acesso no Workfront por meio de níveis de acesso e permissões de objeto.
+Todos os itens aos quais você tem acesso no Workfront por meio do seu nível de acesso e
+permissões de objeto. Isso inclui projetos, tarefas, problemas, documentos,
+aprovações, registros do Planning e muito mais.
 
-<!-- NEEDS DETAIL: List the supported Workfront object types. -->
+### Outras pessoas podem ver minhas conversas com a plataforma de agente de IA?
+
+A Workfront não armazena seus prompts nem as respostas da plataforma de agente de IA.
+Quem quer que forneça sua plataforma de agente de IA controla como suas conversas
+são armazenados ou compartilhados. Consulte seu provedor de plataforma de IA para obter
+detalhes.
+
+### Preciso saber a API do Workfront ou qual ferramenta de MCP usar?
+
+Não. A plataforma de agente de IA traduz sua solicitação em linguagem natural para
+as ações certas do Workfront e escolhe as ferramentas certas para você. Se você estiver
+já familiarizadas com a API do Workfront, as ações se sentirão familiares,
+mas não é um requisito.
 
 ### Meus dados do Workfront são enviados ao provedor de plataforma do agente de IA ou armazenados por ele?
 
-Para obter mais informações, consulte [Dados e segurança](#data-and-security) neste artigo.
+Para obter mais informações, consulte [Dados e segurança](#data-and-security) neste
+artigo.
 
 ### O que acontece quando uma nova versão do servidor MCP do Workfront é lançada?
 
-O servidor MCP é atualizado automaticamente. Você não precisa reconectar ou alterar nada.
-
-### Preciso saber a API do Workfront para usar o servidor MCP do Workfront?
-
-Não. A plataforma de agente de IA traduz suas solicitações em linguagem natural para as ações certas do Workfront. Se você já estiver familiarizado com a API do Workfront, as ações serão familiares, mas não é um requisito.
+O servidor MCP geralmente é atualizado automaticamente, mas talvez seja necessário atualizar sua conexão com o servidor MCP algumas vezes para ver as ferramentas e os recursos mais recentes.
 
 +++
