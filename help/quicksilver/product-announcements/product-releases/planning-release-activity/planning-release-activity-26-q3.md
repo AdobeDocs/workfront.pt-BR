@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ab1ac1363d6531352e905536218618196651c3b9
+source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 1%
+source-wordcount: '1559'
+ht-degree: 0%
 
 ---
 
@@ -32,23 +32,6 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 
 
 <!--
-
-## Planning Designer now available in Beta for all Workfront Planning customers
-
->[!NOTE]
->
->Preview: May 28, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
->[!BADGE In Beta]{type=Neutral}
-
-You can now use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views.  
-
-Whether used directly or through the AI Assistant, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information. 
-
-A Workfront administrator can manage the availability of the Planning Designer from the System Preferences area in Setup.   
-
-For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 ## New Sample workspaces tab added to the Planning landing page
 
@@ -130,6 +113,20 @@ Ao optar por adicionar um registro a partir de tipos existentes, você verá ime
 É possível selecionar e adicionar um ou vários tipos de registro global ao mesmo tempo diretamente nessa tela.
 
 Para obter informações, consulte [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+
+## Planning Designer agora disponível no Beta para todos os clientes do Workfront Planning
+
+>[!NOTE]
+>
+>Visualização: 28 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026>[!BADGE No Beta]{type=Neutral}
+
+Agora você pode usar o Adobe Planning Designer viabilizado pela IA para configurar facilmente seus espaços de trabalho e estruturas de dados. O Planning Designer oferece suporte a tudo, desde a criação e configuração de espaços de trabalho até a definição de campos e fórmulas, gerenciamento de registros, revisão do histórico de alterações e criação de exibições personalizadas.
+
+Seja usado diretamente ou por meio do Assistente de IA, o Planning Designer oferece um ambiente flexível e eficiente para criar e manter informações estruturadas e conectadas.
+
+Um administrador do Workfront pode gerenciar a disponibilidade do Planning Designer na área Preferências do Sistema em Configuração.
+
+Para obter informações, consulte [Introdução ao Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 
 ## Sincronizar metadados do Planning para o AEM Assets
