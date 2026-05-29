@@ -6,10 +6,10 @@ description: Quando tarefas de trabalho e problemas são atribuídos a você, el
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: f1ab7f32131f997f65fb56834fa683ed6a020b0a
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 2%
+source-wordcount: '808'
+ht-degree: 4%
 
 ---
 
@@ -85,7 +85,9 @@ Para exibir um item de trabalho no widget Meu trabalho:
 
 ## Acessar uma solicitação de equipe no widget Solicitação de equipe
 
-Você pode acessar uma solicitação atribuída à sua equipe diretamente do widget Solicitações de equipe na área [!UICONTROL Página inicial]. Para obter mais informações sobre solicitações de equipe, consulte [Visão geral das solicitações de equipe](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Você pode acessar uma solicitação atribuída à sua equipe diretamente do widget Solicitações de equipe na área [!UICONTROL Página inicial]. O widget [!UICONTROL Solicitações de equipe] pode exibir até 2.000 solicitações para uma equipe.
+
+Para obter mais informações sobre solicitações de equipe, consulte [Visão geral das solicitações de equipe](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
 Para acessar uma solicitação de equipe:
 

@@ -9,9 +9,9 @@ feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab336c13968f1420ec08eb7ae965b697a862bfb4
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ As solicitações de equipe são encontradas na área [!UICONTROL Equipes] do [!
 >
 >As equipes Agile não têm solicitações de equipe.
 
-A guia [!UICONTROL Solicitações da equipe] mostra as solicitações aguardando atribuição para a equipe atualmente selecionada na lista suspensa. O número entre parênteses indica quantos itens estão prontos para serem trabalhados.
+A guia [!UICONTROL Solicitações da equipe] mostra as solicitações aguardando atribuição para a equipe atualmente selecionada na lista suspensa. O número entre parênteses indica quantos itens estão prontos para serem trabalhados. A guia [!UICONTROL Solicitações de equipe] pode exibir até 2.000 solicitações para uma equipe.
 
 Uma solicitação de equipe representa um item de trabalho pendente que não está atribuído a um usuário específico. Em vez disso, ele é atribuído a uma equipe, e qualquer membro dessa equipe pode se voluntariar para aceitar a responsabilidade pelo item. Se um usuário se voluntariar para trabalhar em uma solicitação de equipe, ele aceitará a atribuição de trabalho como sua própria atribuição. A tarefa é atribuída ao usuário individual, além da equipe.
 
