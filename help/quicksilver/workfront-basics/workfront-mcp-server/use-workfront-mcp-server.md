@@ -5,9 +5,9 @@ title: Usar o servidor MCP do Adobe Workfront
 description: Use o servidor MCP do Adobe Workfront para pesquisar, criar, atualizar e gerenciar itens do Workfront por meio de conversas em linguagem natural em uma plataforma de agente de IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
+source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,11 @@ O servidor MCP [!DNL Adobe Workfront] permite localizar, criar, atualizar e gere
 >Atualmente, o servidor MCP do Workfront está disponível somente para clientes na região dos EUA que usam o AWS.
 
 ## Pré-requisitos
+
+* Você deve configurar a conexão entre sua plataforma de agente de IA e o servidor MCP do Workfront. Para obter instruções de instalação, consulte [Configurar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+* Sua instância do Workfront deve estar ativada no Adobe Identity Management System (IMS).
+* Você deve ter uma conta do Workfront com o nível de acesso necessário e permissões de objeto para os itens com os quais deseja trabalhar.
+
 
 Este artigo supõe que você já configurou a conexão. Para obter informações sobre a instalação, consulte [Configurar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -251,5 +256,10 @@ artigo.
 ### O que acontece quando uma nova versão do servidor MCP do Workfront é lançada?
 
 O servidor MCP geralmente é atualizado automaticamente, mas talvez seja necessário atualizar sua conexão com o servidor MCP algumas vezes para ver as ferramentas e os recursos mais recentes.
+
+### Posso usar o servidor MCP do Workfront se minha instância do Workfront não estiver ativada no Adobe Identity Management System (IMS)?
+
+Não. Sua instância do Workfront deve estar ativada no Adobe Identity Management System (IMS) para usar o servidor MCP do Workfront. Se não tiver certeza se sua instância está ativada no IMS, entre em contato com o administrador do Workfront.
+
 
 +++
