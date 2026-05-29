@@ -8,21 +8,19 @@ recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '471'
 ht-degree: 4%
 
 ---
 
 # Exportar os detalhes de um registro
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Para colaborar de forma mais eficiente com outras pessoas que talvez não tenham uma conta do Workfront, é possível exportar a página de detalhes de um registro para um arquivo do Microsoft Word e compartilhá-la com elas.
 
@@ -52,7 +50,7 @@ Para colaborar de forma mais eficiente com outras pessoas que talvez não tenham
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Exiba ou aumente as permissões para um espaço de trabalho e tipo de registro</a> </p>  
+   <td>   <p>Exiba ou aumente as permissões para um espaço de trabalho, tipo de registro e <span class="preview">registro</span> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
   </tr> 
   </tr> 

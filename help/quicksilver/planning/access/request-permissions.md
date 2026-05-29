@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 7%
+source-wordcount: '597'
+ht-degree: 6%
 
 ---
 
 # Solicitar permissões para uma exibição ou um espaço de trabalho
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 <!-- 
 no longer needed: 
@@ -77,7 +77,10 @@ Ou
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>  <p>Após receber sua solicitação de permissão, você pode obter as seguintes permissões:</p>
    <ul><li><p>Exibir ou Gerenciar para um modo de exibição</p></li>
-   <li><p>Exibir, Contribute ou Gerenciar em um espaço de trabalho</p></li></ul>  
+   <li><p>Exibir, Contribute ou Gerenciar em um espaço de trabalho</p></li>
+   <li><p>Exibir, Contribute ou Gerenciar para um tipo de registro</p></li>
+   <li><p><span class="preview">Exibir ou gerenciar para um registro</span></p></li>
+   </ul>  
    <p>Somente usuários com permissões para Gerenciar um espaço de trabalho e uma visualização podem compartilhar uma visualização publicamente.</p></td> 
   </tr> 
 <tr>
@@ -168,17 +171,22 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 -->
 
 
-## Solicitar permissões para uma exibição ou espaço de trabalho
+## Solicitar permissões
 
-A solicitação de permissões para uma visualização é semelhante à solicitação de permissão para um espaço de trabalho.
+A solicitação de permissões para uma exibição é semelhante à solicitação de permissão para um espaço de trabalho, um tipo de registro ou <span class="preview">um registro</span>.
 
-Quando alguém compartilha com você um link para um espaço de trabalho ou uma visualização à qual você não tem acesso:
+Quando alguém compartilhar com você um link para um espaço de trabalho, tipo de registro, <span class="preview">registro</span> ou uma exibição à qual você não tem acesso:
 
 1. Clique no link compartilhado com você para a exibição ou o espaço de trabalho.
 
    Uma página **Você não tem acesso** é exibida para informá-lo de que você não tem acesso à exibição ou ao espaço de trabalho.
 
    ![Solicitar acesso para exibição](assets/request-access-to-view.png)
+
+   >[!NOTE]
+   >
+   >Quando você não tem acesso a um tipo de registro ou <span class="preview">registro</span>, a página Você não tem acesso a mostra que você deve ter acesso ao espaço de trabalho.
+
 
 1. (Condicional) Se o link compartilhado for para uma exibição de um espaço de trabalho ao qual você tem acesso, clique em **Abrir com exibição existente**. Se você tiver permissões para acessar o espaço de trabalho, a página do tipo de registro será aberta na exibição padrão.
 

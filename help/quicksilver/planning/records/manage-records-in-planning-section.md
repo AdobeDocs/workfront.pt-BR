@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1789'
 ht-degree: 2%
 
 ---
@@ -20,11 +20,10 @@ ht-degree: 2%
 
 # Gerenciar conexões de registros a partir de objetos do Workfront
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 {{planning-important-intro}}
 
@@ -71,7 +70,7 @@ Você pode exibir registros do Workfront Planning no Workfront nas seguintes ár
    <p>No Workfront Planning:</p>
    <ul><li>Exibir permissões para um espaço de trabalho e tipo de registro para exibir registros conectados </li>
    Ou
-   <li> Contribuir com permissões ou mais altas para um espaço de trabalho e tipo de registro para conectar ou desconectar registros</a></li></ul> 
+   <li> Permissões do Contribute ou superior para um espaço de trabalho e tipo de registro e <span class="preview">Gerenciar permissões para um registro</span> para conectar ou desconectar registros</a></li></ul> 
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho do Workfront Planning, incluindo aqueles que eles não criaram</p> 
   </td>
   </tr>   
@@ -263,7 +262,7 @@ Considere o seguinte ao exibir registros do Workfront Planning de um campo de co
 * Você pode associar apenas um tipo de registro a um campo de conexão do Planning. Não há limite para quantos campos de conexão do Planning você tem em um formulário.
 * Você deve ter o acesso e as permissões corretas para o objeto, o registro e o Workfront Planning para anexar um formulário personalizado com um campo personalizado de conexão do Planning a um objeto do Workfront.
 * Você deve ter permissões do Contribute para um espaço de trabalho no Workfront Planning para poder conectar ou desconectar registros do campo de conexão do Planning de um objeto do Workfront.
-* Os tipos de registro do Workfront Planning devem primeiro ser conectados aos tipos de objeto do Workfront. Para obter informações, consulte [Tipos de registro do Connect](/help/quicksilver/planning/architecture/connect-record-types.md). Isso torna os registros do Workfront Planning acessíveis no Workfront.
+* Os tipos de registro do Workfront Planning devem primeiro ser conectados aos tipos de objeto do Workfront. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).Isso torna os registros do Workfront Planning acessíveis no Workfront.
 * Você pode conectar ou desconectar registros do campo de conexão do Planning de um objeto do Workfront somente para objetos que podem ter conexões do Workfront Planning.
 
   Por exemplo, talvez seja possível anexar um formulário personalizado com um campo de conexão do Planning a tarefas, mas não é possível conectar objetos do Workfront Planning a tarefas.
