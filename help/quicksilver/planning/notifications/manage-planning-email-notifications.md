@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '641'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,7 @@ A página **Notificações** é aberta no Adobe Experience Cloud. Todas as notif
 
 ## Gerenciar notificações por email ao solicitar e conceder permissões
 
-1. (Condicional e opcional) Depois que alguém solicitar ou conceder permissões para acessar um tipo de objeto do Planning, vá para o email que informa sobre a solicitação de permissão. O remetente do email é o Adobe Experience Cloud.
+1. (Condicional e opcional) Depois que alguém solicitar ou conceder permissões para acessar um objeto do Planning, vá para o email que informa sobre a solicitação de permissão. O remetente do email é o Adobe Experience Cloud.
 
 1. (Opcional) Clique na mensagem na caixa **Workfront** dentro do email.
 
@@ -180,8 +180,7 @@ Para obter informações sobre como gerenciar as notificações do Workfront Pla
 
 ## Gerencie notificações por email sobre envio, aprovação ou rejeição de solicitações do Workfront Planning
 
-1. (Opcional) Vá para o email enviado pelo Workfront
-após submeter uma solicitação ou após uma solicitação submetida ter sido aprovada ou rejeitada. O remetente do email é o Adobe Workfront.
+1. (Opcional) Vá para o email que o Workfront envia depois de enviar uma solicitação ou depois que uma solicitação enviada foi aprovada ou rejeitada. O remetente do email é o Adobe Workfront.
 
 1. (Opcional) Clique em **Abrir solicitação**. Isso abre a solicitação no Workfront Planning.
 

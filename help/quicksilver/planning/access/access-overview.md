@@ -8,9 +8,9 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '759'
 ht-degree: 8%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 8%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 >[!IMPORTANT]
 >
@@ -96,7 +96,8 @@ Você deve ter o seguinte acesso para usar o Workfront Planning:
    <td>
    <ul>
    <li><p>Visualize ou aumente as permissões para espaços de trabalho, tipos de registro e visualizações que você não criou para acessá-los e seus objetos.</p></li>
-   <li><p>Contribute ou tenha permissões mais altas para espaços de trabalho e tipos de registro que você não criou para editá-los e criar, editar ou excluir tipos de registro e registros.</p></li>
+   <li><p>Contribute ou tenha permissões mais altas para espaços de trabalho e tipos de registro que você não criou para editá-los e criar, editar ou excluir tipos de registro.</p></li>
+   <li><p><span class="preview">Gerencie permissões para registros para editá-las, compartilhá-las ou excluí-las.</p>
    <li><p>Permissões do Contribute ou superior para exibições que você não criou, para editá-las, excluí-las e compartilhá-las</p>
    </li>
     <li><p>Os administradores do sistema podem gerenciar espaços de trabalho que não criaram. </p></li>

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ### Tipos de licença e permissões para espaços de trabalho e tipos de registro
 
-Somente os usuários com uma licença Standard podem ter permissões do Contribute ou do Manage para espaços de trabalho e tipos de registros. As permissões do Contribute e do Manage para espaços de trabalho e tipos de registros também são transferidas para registros e campos.
+Somente os usuários com uma licença Standard podem ter permissões do Contribute ou do Manage para espaços de trabalho e tipos de registros. As permissões do Contribute e do Manage para espaços de trabalho e tipos de registros também são transferidas para registros e campos, por padrão.
 
 Os administradores do sistema podem exibir todos os espaços de trabalho no sistema, incluindo aqueles que não criaram.
 
