@@ -4,10 +4,10 @@ description: Outras melhorias durante o período do terceiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 2%
+source-wordcount: '606'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,26 @@ Esta página descreve as melhorias feitas com a versão do terceiro trimestre de
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2026, consulte [Visão geral da versão do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+
+## Aparência e comportamento atualizados para emails de notificação de comentários
+
+>[!NOTE]
+>
+>Versão de produção para clientes: implantação em fases, data a ser anunciada
+
+As notificações por email para comentários na área Atualizações têm uma nova aparência que se alinha ao design de email mais amplo da Adobe.
+
+O formato de email atualizado inclui:
+
+* Um novo cabeçalho do Adobe Workfront que substitui a marca Workfront anterior.
+* Um layout simplificado que focaliza o comentário mais recente.
+* Um **botão principal Ver no Workfront** para abrir o item diretamente.
+
+O thread dos comentários anteriores não está mais incluído no corpo do email. Para exibir comentários anteriores sobre o item, use **Ver no Workfront** para abrir a conversa no Workfront.
+
+Essa alteração está sendo implementada para os clientes em fases. Essa página será atualizada quando o cronograma de implantação for confirmado.
+
+![email.png de notificação de comentário atualizado](assets/email-look-and-feel-update.png)
 
 ## Conectar o Workfront às ferramentas de IA com o servidor MCP do Workfront
 
