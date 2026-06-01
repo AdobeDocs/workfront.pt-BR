@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '4251'
+source-wordcount: '4209'
 ht-degree: 3%
 
 ---
@@ -388,7 +388,7 @@ Esta é a opção padrão.
 
    ![Filtro de várias camadas com detalhamento para exibição de linha do tempo](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">Você pode filtrar apenas os tipos de registro de detalhamento na exibição de linha do tempo.</span>
+   <span class="preview">Você pode filtrar por tipos de registros de detalhamento somente a partir da exibição da linha do tempo.</span>
 1. (Opcional) Clique em **Filtros** ou em qualquer outro lugar da página para fechar a caixa de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -402,7 +402,7 @@ Considere o seguinte ao trabalhar com agrupamentos na exibição de linha do tem
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—!—* É possível aplicar até quatro níveis de agrupamento ao usar a API. —verificando este por enquanto—>
+&lt;!—* Você pode aplicar até quatro níveis de agrupamento ao usar a API. —verificando esta por enquanto—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.

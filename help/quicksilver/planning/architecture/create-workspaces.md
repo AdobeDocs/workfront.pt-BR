@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1146'
 ht-degree: 2%
 
 ---
@@ -164,6 +164,8 @@ Você pode criar espaços de trabalho das seguintes maneiras:
 
 1. (Opcional e condicional) Clique em **Visualizar** dentro de qualquer um dos seguintes modelos de espaço de trabalho predefinidos:
 
+   * Operações do Initiative Studio
+   * Communications Planning Studio
    * Básico: Gestão de Marketing
    * Avançado: Gestão de Marketing
    * Corporativo: Gestão de Marketing
@@ -172,7 +174,7 @@ Você pode criar espaços de trabalho das seguintes maneiras:
 
    A caixa de pré-visualização do modelo é aberta.
 
-   Há uma indicação de quais tipos de registro operacional, taxonomias e quantos campos estão associados a cada modelo.
+   Há uma indicação de quais tipos de registro, seções e quantos campos estão associados a cada modelo.
 
    ![Visualizando um modelo de espaço de trabalho](assets/previewing-a-workspace-template.png)
 
@@ -262,7 +264,7 @@ Os modelos incluídos no pacote contêm espaços de trabalho, tipos de registro,
    * 5.Eventos globais da Fréscopa
    * 6.Fréscopa Liderança da Empresa Executiva
 
-1. Depois de abrir a caixa **Visualizar** para cada modelo de espaço de trabalho, clique em Voltar para voltar à caixa **Criar espaço de trabalho** ou clique em Usar modelos para usar os modelos, incluindo no pacote, e criar espaços de trabalho.
+1. Depois de abrir a caixa **Visualizar** para cada modelo de espaço de trabalho, clique em **Voltar** para voltar à caixa **Criar espaço de trabalho** ou clique em **Usar modelos** para usar os modelos, incluindo no pacote, e criar espaços de trabalho.
 
    Os espaços de trabalho são criados e exibidos nas guias **Espaços de trabalho em que estou** e **Todos os espaços de trabalho** para administradores do sistema. Todos os usuários com licenças Padrão verão os espaços de trabalho em sua área Espaços de trabalho depois que um Administrador do sistema criá-los e compartilhá-los com eles.
 
