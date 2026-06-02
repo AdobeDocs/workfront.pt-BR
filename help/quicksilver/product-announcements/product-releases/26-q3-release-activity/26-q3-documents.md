@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 3%
+source-wordcount: '450'
+ht-degree: 2%
 
 ---
 
@@ -18,21 +18,19 @@ Esta página descreve as melhorias de documentos feitas com a versão do terceir
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2026, consulte [Visão geral da versão do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
-## Print summary for documents in the new Documents area
+
+## Imprimir resumo para documentos na nova área Documentos
 
 >[!NOTE]
 >
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
+>Visualização: 2 de junho de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
 
-You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage. 
+Agora é possível abrir um resumo imprimível da aprovação de um documento diretamente da nova área Documentos. Esse recurso está disponível para organizações que usam o Adobe Cloud Storage.
 
-After a document has an approval, a **Print summary** option appears in the Document Details panel's Overview section. Clicking **Open Print Summary** opens the Frame.io Print Comments page, which shows the asset preview, comments, and approval decisions in a printable format.
+Depois que um documento é aprovado, a opção **Resumo de impressão** é exibida na seção Visão geral do painel Detalhes do documento. Clicar em **Abrir resumo de impressão** abre a página Comentários de impressão do Frame.io, que mostra a visualização do ativo, os comentários e as decisões de aprovação em um formato imprimível.
 
-For more information, see [Document Details overview](/help/quicksilver/documents/managing-documents/document-details-overview.md) and [Summary for documents overview](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
--->
+Para obter mais informações, consulte [Visão geral de Detalhes do Documento](/help/quicksilver/documents/managing-documents/document-details-overview.md) e [Resumo para visão geral de documentos](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
+
 
 ## Adicionar uma mensagem personalizada a uma etapa do fluxo de trabalho de aprovação de documentos
 

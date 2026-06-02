@@ -7,16 +7,21 @@ description: A página Detalhes do documento permite exibir, comunicar-se e gere
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 5%
+source-wordcount: 474
+ht-degree: 4%
 
 ---
 
 # Visão geral dos detalhes do documento
+
+{{highlighted-preview}}
 
 A página Detalhes do documento permite exibir, comunicar-se e gerenciar as propriedades de um documento anexado a um objeto do Adobe Workfront.
 
@@ -96,9 +101,32 @@ Você pode executar as seguintes ações para documentos na página Detalhes do 
 ![Ícone de mais detalhes do documento](assets/more-menu-new-doc.png)
 
 
+
 ### Abra o painel Detalhes do documento na nova área Documentos
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
-1. Selecione o documento e clique em **Exibir Detalhes**.
+1. Selecione o documento e clique em **Mostrar detalhes** na barra lateral esquerda.
 
    ![Detalhes do documento](assets/doc-details.png)
+
+
+<div class="preview">
+
+### Exibir o Resumo de Impressão na nova área Documentos
+
+Depois que um documento tiver uma aprovação, você poderá abrir a página Imprimir comentários do Frame.io para exibir a visualização do ativo, os comentários e as decisões de aprovação em um formato imprimível.
+
+1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
+1. Selecione o documento e clique em **Mostrar detalhes** na barra lateral esquerda.
+
+   ![Detalhes do documento](assets/doc-details.png)
+
+1. Na seção **Visão Geral**, clique em **Abrir Resumo de Impressão**.
+
+
+>[!NOTE]
+>
+>O link Print summary só é exibido depois que uma aprovação é adicionada ao documento.
+
+
+</div>
