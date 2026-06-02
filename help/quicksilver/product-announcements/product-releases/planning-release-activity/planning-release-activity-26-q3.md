@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Workspace managers can modify views in sample workspaces.
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
 -->
+
+## Nova guia Espaços de trabalho de amostra adicionada à página inicial do Planning
+
+>[!NOTE]
+>
+>Visualização: 1 de junho de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+
+Adicionamos a guia Espaços de trabalho de amostra na área de aterrissagem do Planning, onde você pode exibir exemplos de espaços de trabalho de práticas recomendadas. Os espaços de trabalho não são editáveis. Os gerentes do Workspace podem modificar exibições em espaços de trabalho de amostra. A guia está visível para usuários Padrão e Administrador do sistema.
+
+Recomendamos que você visualize os espaços de trabalho de amostra como exemplos e use o pacote de modelos de vários espaços de trabalho para criar, editar e compartilhar espaços de trabalho que resultam do uso desse modelo.  O conjunto de modelos contém os mesmos espaços de trabalho que a guia Espaços de trabalho de amostra.
+
+Para obter informações, consulte [Visão geral sobre espaços de trabalho](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## API do Workfront Planning versão 2
 
