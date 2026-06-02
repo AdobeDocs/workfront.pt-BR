@@ -5,11 +5,16 @@ description: Você pode usar a IA para preencher automaticamente os campos de so
 author: Alina, Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 83adea16ed7d66cec9ec2ce5b385b5ac4a7fdbac
+TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: 1503
 ht-degree: 8%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 8%
 
 O Preenchimento de formulário de IA pode ajudar a preencher automaticamente os campos de solicitação com base em um prompt inserido. Ele também pode preencher campos com base em texto, como emails ou documentos carregados. Você pode aprovar ou rejeitar essas sugestões antes de enviar a solicitação.
 
-Essa funcionalidade está disponível ao criar uma solicitação na área Solicitações do Workfront e no Workfront Planning.
+Essa funcionalidade está disponível ao criar uma solicitação na área Solicitações do Workfront, para solicitações do Workfront e do Workfront Planning.
 
 ## Requisitos de acesso
 
@@ -86,7 +91,6 @@ Considere o seguinte ao usar o Preenchimento de formulário fornecido pela IA
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
 -->
 
-
 ## Habilitar Preenchimento de formulário fornecido pela IA para sua organização
 
 >[!NOTE]
@@ -95,8 +99,8 @@ Considere o seguinte ao usar o Preenchimento de formulário fornecido pela IA
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
 1. Clique em **Sistema**, em Sistema, clique em **Preferências**.
-1. Na seção de preferência IA, verifique se **Habilitar IA** está ativado.
-1. Ativar/desativar **Preenchimento de Formulário de IA**.
+1. Na seção de preferência IA, ative a configuração **Habilitar IA**.
+1. Ative a configuração **Preenchimento de formulário de IA**.
 1. Para desabilitar o Preenchimento de Formulário fornecido por IA, desative o **Preenchimento de Formulário de IA**.
 
 ## Obter sugestões de um prompt de texto

@@ -6,9 +6,15 @@ description: Você só pode criar tarefas em um projeto depois de criá-lo.
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/-xOLBxAGitQAXXRxHSr6R9mv-2hfuLOq0VZKB2TzuqI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 926
 ht-degree: 0%
 
 ---
@@ -91,3 +97,7 @@ Ao definir as informações padrão a serem associadas com tarefas adicionadas a
 * Quando você move a tarefa para outro projeto, as configurações padrão da tarefa são salvas nas tarefas do projeto original, independentemente das configurações padrão da tarefa no novo projeto.
 
   Para obter informações sobre como mover tarefas, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+
+* Quando sua organização usa o armazenamento em nuvem herdado do Workfront e do Adobe, não é possível mover ou copiar tarefas entre projetos que usam tipos de armazenamento diferentes.
+
+  Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).

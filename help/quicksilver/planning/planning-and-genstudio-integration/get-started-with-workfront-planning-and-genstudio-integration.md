@@ -6,11 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+TQID: https://experienceleague.adobe.com/Dzo6SD-mf-89koGS55sYT8gSk7z1U7aEyrg1MzSEHGY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: 2355
 ht-degree: 2%
 
 ---
@@ -116,7 +121,7 @@ A tabela a seguir descreve os requisitos de acesso e permissões para usar o Ado
    <td role="rowheader"><p>Funções de usuário do Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualquer função de usuário do GenStudio para acessar Campanhas, Produtos e Personalidades</li>
    <li>GenStudio System Manager para acessar Ativações <!--and Events--></li></ul>
-   Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
+   Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
    </p>
   </td> 
   </tr>   
@@ -172,7 +177,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -375,14 +380,14 @@ Considere o seguinte sobre os campos do tipo de registro do GenStudio:
 
 ### Registrar conexões no espaço de trabalho do GenStudio
 
-Você pode criar conexões entre tipos de registro em espaços de trabalho do GenStudio nos quais tem permissões de gerenciamento.
+Você pode criar conexões entre tipos de registro no espaço de trabalho do GenStudio quando tem permissões de gerenciamento para o espaço de trabalho.
 
 Você pode fazer as seguintes conexões entre tipos de registro do GenStudio e outros tipos de registro ou objeto no Workfront Planning:
 
 * Dois tipos de registro do GenStudio
 * Um tipo de registro GenStudio e um tipo de registro Planning do mesmo espaço de trabalho
 * Um tipo de registro do GenStudio e um tipo de registro do Planning de outro espaço de trabalho, se os tipos de registro estiverem configurados para se conectar de outro espaço de trabalho.
-* Um tipo de registro GenStudio e um tipo de objeto Workfront (projetos, portfólios, programas, empresas, grupos)
+* Um tipo de registro GenStudio e um tipo de objeto Workfront (projetos, portfólios, programas, empresas, grupos).
 * Um tipo de registro GenStudio e um tipo de objeto AEM (Assets ou Fragmentos de conteúdo). Você deve ter uma licença do Adobe Experience Manager para acessar objetos do AEM, além de uma licença do Workfront Planning e uma licença do Adobe GenStudio for Performance Marketing.
 * Um tipo de registro GenStudio e marcas GenStudio. Por padrão, a conexão Marcas é adicionada aos tipos de registro Produtos e Personas.
 

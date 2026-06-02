@@ -6,24 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/yzpirNfY0Hsp0cbClQA8dFqhgqbpK8ZryIyeq4tBAgw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 5%
+source-wordcount: 499
+ht-degree: 4%
 
 ---
 
-
 # Excluir espaços de trabalho
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -145,6 +147,10 @@ Old:
 
    * **Estou** no(a) espaço(s) de trabalho para acessar espaços de trabalho criados por você
    * **Todos os espaços de trabalho** para acessar espaços de trabalho compartilhados com você ou com espaços de trabalho que você criou
+
+   >[!NOTE]
+   >
+   ><span class="preview">Não é possível excluir os espaços de trabalho na guia **Espaços de trabalho de exemplo**. Recomendamos usar o pacote de modelos de vários espaços de trabalho para criar espaços de trabalho semelhantes aos da guia Espaço de trabalho de amostra. Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).</span>
 
 1. (Opcional) Clique em **Mostrar tudo** para exibir espaços de trabalho adicionais. O link **Mostrar tudo** é exibido somente quando há mais de duas linhas de cartões de espaço de trabalho.
 1. (Opcional) Clique em K **Mostrar menos** para limitar o número de espaços de trabalho exibidos na tela.

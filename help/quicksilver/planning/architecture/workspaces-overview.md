@@ -7,12 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 3%
@@ -53,12 +50,7 @@ Um espaço de trabalho é uma coleção de tipos de registro usados por uma unid
 
    * **Espaços de trabalho em que estou**: exibe os espaços de trabalho que você criou ou os espaços de trabalho que são compartilhados com você.
    * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema. Isso só está disponível para Administradores do sistema.
-
-  <div class="preview">
-
-   * **Espaços de trabalho de exemplo**: exibe exemplos internos de espaços de trabalho de práticas recomendadas. Não é possível editar os espaços de trabalho, os tipos de registro ou adicionar registros ou campos, mas você pode adicionar, editar e compartilhar exibições com outras pessoas.
-
-  </div>
+   * <span class="preview">**Espaços de trabalho de exemplo**: exibe exemplos internos de espaços de trabalho de práticas recomendadas. Não é possível editar espaços de trabalho, tipos de registro ou adicionar registros ou campos, mas você pode adicionar, editar e compartilhar modos de exibição com outras pessoas.</span>
 
   >[!NOTE]
   >

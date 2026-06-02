@@ -6,11 +6,17 @@ description: Um projeto é uma grande unidade de trabalho no Adobe Workfront. Vo
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/ftDbs1BguO-wdhSEzFe318xKOV86cbfBbyHkm0FPmqM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: 1682
 ht-degree: 3%
 
 ---
@@ -123,7 +129,15 @@ Você pode criar um projeto no Workfront usando um dos seguintes métodos:
 
   Para obter informações sobre o acesso ao Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
 
-  Para obter informações sobre como criar projetos adicionando-os a registros, consulte a seção &quot;Criar projetos ao conectá-los a registros do Workfront Planning&quot; no artigo [Criar objetos do Workfront do Workfront Planning à medida que você os conecta a registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  Para obter informações sobre como criar projetos adicionando-os a registros, consulte a seção &quot;Criar projetos ao conectá-los a registros do Workfront Planning&quot; no artigo [Criar objetos do Workfront do Workfront Planning à medida que você os conecta a registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+* Adicione projetos usando as automações do Workfront Planning.
+
+  Para obter informações, consulte [Criar objetos usando as automações de registro do Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+  Você deve ter uma nova licença do Workfront e um pacote adicional do Workfront Planning para o Workfront Planning.
+
+  Para obter informações sobre o acesso ao Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
 
 ## Pré-requisitos
 
