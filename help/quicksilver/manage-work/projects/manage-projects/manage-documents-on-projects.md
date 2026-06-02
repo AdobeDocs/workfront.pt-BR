@@ -6,9 +6,9 @@ description: Dependendo de o administrador do Workfront escolher o padrão de su
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1961'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ O administrador do Adobe Workfront pode definir o padrão para a preferência de
 O administrador do Workfront pode escolher uma das seguintes opções:
 
 * armazenamento Workfront
-* armazenamento em nuvem Adobe
+* Armazenamento na nuvem da Adobe
 
 Essa preferência permite armazenar automaticamente documentos anexados a objetos do Workfront em um dos locais de armazenamento disponíveis.
 
@@ -187,13 +187,17 @@ Leve em consideração o seguinte ao trabalhar com problemas:
 * Você pode renomear e excluir a pasta de documentos do problema de armazenamento na nuvem do Adobe, que também exclui os documentos na pasta. Depois de adicionar novos documentos ao problema, a pasta é recriada automaticamente. Os documentos excluídos não são colocados de volta na pasta.
 * Para projetos do Adobe Cloud Storage, a pasta de documentos sobre um problema é exibida como uma subpasta na pasta de documentos criada automaticamente para o projeto.
 * Não é possível copiar ou mover um problema de um projeto herdado do Workfront Storage para um projeto do Adobe Cloud Storage. O inverso também não é possível.
-* Quando você envia uma solicitação com um documento anexado a um projeto herdado de armazenamento do Workfront, a área Documentos da solicitação exibe o documento usando o tipo de armazenamento do projeto, mesmo quando a preferência padrão de armazenamento do sistema é Armazenamento em nuvem do Adobe.
 * Os seguintes cenários existem ao converter um problema em um projeto: <!--this info also duplicated in Convert an issue to a project-->
    * Um problema de armazenamento herdado do Workfront cria um projeto de armazenamento herdado do Workfront.
    * Um problema de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
    * Usar um modelo de armazenamento herdado do Workfront para converter um problema do Adobe Cloud Storage cria um projeto do Adobe Cloud Storage.
    * Usar um modelo de armazenamento em nuvem do Adobe para converter um problema de armazenamento herdado do Workfront cria um projeto de armazenamento herdado do Workfront.
 * Não é possível adicionar documentos a problemas de armazenamento na nuvem do Adobe no painel Resumo.
+
+### Gerenciamento de documentos para solicitações
+
+* Quando você envia uma solicitação Workfront que tem um documento anexado a um projeto de armazenamento Workfront herdado que está funcionando como uma fila de solicitações, a área Documentos da solicitação exibe o documento usando o tipo de armazenamento do projeto, mesmo quando a preferência padrão de armazenamento do sistema é Armazenamento em nuvem Adobe.
+* Ao anexar um documento a um problema enviado a uma fila de solicitações associada ao armazenamento do Adobe, uma pasta é criada para cada problema enviado em que os documentos são armazenados. A pasta também é adicionada como uma subpasta à pasta do projeto criada automaticamente no projeto da fila de solicitações.
 
 ### Gerenciamento de documentos para modelos de projeto
 
@@ -203,6 +207,8 @@ Considere o seguinte ao trabalhar com modelos:
 * Você pode usar um modelo herdado do Workfront Storage para criar projetos herdados do Workfront Storage; pode usar um modelo do Adobe Cloud Storage para criar um projeto do Adobe Cloud Storage.
 * Você pode anexar um modelo de armazenamento herdado do Workfront a um projeto do Adobe Cloud Storage e isso não altera o local de armazenamento dos documentos no projeto.
 * Você pode anexar um modelo de armazenamento na nuvem do Adobe a um projeto de armazenamento Workfront herdado e isso não altera o local de armazenamento dos documentos no projeto. Os documentos na pasta de armazenamento na nuvem do Adobe para o modelo são adicionados ao projeto diretamente, sem a pasta, enquanto os documentos nas pastas de tarefa do modelo são adicionados às pastas anexadas às tarefas do projeto na seção Documentos das tarefas.
+* Ao salvar um projeto como modelo, o tipo de armazenamento do projeto é transferido para o modelo, independentemente do que o administrador do Workfront definiu para a preferência de armazenamento do sistema.
+
 
 ### Gerenciamento de documentos para tarefas de modelo
 
@@ -213,4 +219,4 @@ Considere o seguinte ao trabalhar com tarefas de modelo:
 * Você pode renomear e excluir a pasta de documentos da tarefa de modelo de armazenamento na nuvem do Adobe, que também exclui os documentos na pasta. Após adicionar novos documentos à tarefa de modelo, a pasta será automaticamente recriada. Os documentos excluídos não são colocados de volta na pasta.
 * Para modelos de armazenamento na nuvem do Adobe, a pasta de documentos em uma tarefa de modelo é exibida como uma subpasta na pasta de documentos criada automaticamente para o modelo.
 * Não é possível copiar ou mover uma tarefa de modelo de um modelo de armazenamento herdado do Workfront para um modelo de armazenamento na nuvem do Adobe. O inverso também não é possível.
-* Ao anexar um documento a um problema enviado a uma fila de solicitações associada ao armazenamento do Adobe, uma pasta é criada para cada problema enviado em que os documentos são armazenados. A pasta também é adicionada como uma subpasta à pasta de projeto criada automaticamente na fila de solicitações.
+

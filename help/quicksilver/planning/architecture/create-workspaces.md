@@ -6,24 +6,33 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: 1311
 ht-degree: 2%
 
 ---
 
-
 # Criar espaços de trabalho
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -230,12 +239,12 @@ Você pode criar espaços de trabalho das seguintes maneiras:
 >
 >A criação de vários espaços de trabalho de cada vez usando o pacote de modelos de práticas recomendadas estará disponível somente quando os seguintes pré-requisitos forem atendidos:
 >
->* Sua organização adquiriu um pacote do Workfront Planning Prime ou Ultimate.
+>* Sua organização adquiriu um pacote do Workfront ou do Workflow Planning Prime ou Ultimate
 >* Você é um Administrador do sistema
 
-Você pode usar um pacote de modelos de vários espaços de trabalho para criar 6 espaços de trabalho com um clique.
+Você pode usar o pacote de modelos de vários espaços de trabalho para criar 6 espaços de trabalho com um clique.
 
-Os modelos incluídos no pacote contêm espaços de trabalho, tipos de registro, registros, exibições e campos para ajudar você a começar a implementação do Planning.
+Os modelos incluídos no pacote contêm espaços de trabalho, tipos de registro, registros, exibições e campos para ajudar você a começar a implementação do Planning. Para obter informações, consulte [Lista de modelos de espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 >[!IMPORTANT]
 >
@@ -246,27 +255,44 @@ Os modelos incluídos no pacote contêm espaços de trabalho, tipos de registro,
 
 {{step1-to-planning}}
 
-1. Clique em **Criar espaço de trabalho**
+1. Siga um destes procedimentos:
 
-   A caixa Criar espaço de trabalho é exibida. Você pode criar um espaço de trabalho do zero ou criá-lo usando um dos modelos disponíveis.
+   * Clique em **Criar espaço de trabalho** e siga estas etapas:
 
-1. Clique em **Revisar configuração do espaço de trabalho** na área **Iniciar aqui (Recomendado)**.
-1. (Opcional) Clique em **Visualizar** dentro de qualquer um dos seguintes modelos de espaço de trabalho predefinidos para abrir a caixa Visualizar para cada modelo:
+      1. A caixa Criar espaço de trabalho é exibida. Você pode criar um espaço de trabalho do zero ou criá-lo usando um dos modelos disponíveis.
 
-   * 1.Classificações e taxonomias globais
+      1. Clique em **Revisar configuração do espaço de trabalho** na área **Iniciar aqui (Recomendado)**.
+      1. (Opcional) Clique em **Visualizar** dentro de qualquer um dos seguintes modelos de espaço de trabalho predefinidos para abrir a caixa Visualizar para cada modelo:
 
-     O modelo de Classificações e Taxonomias Globais inclui todos os tipos de registro e campos recomendados que você crie em seu ambiente para uma implementação bem-sucedida do Workfront Planning.
+         * 1.Classificações e taxonomias globais
 
-     Posteriormente, você poderá vincular ou importar os tipos de registro nesse modelo em outros espaços de trabalho criados.
-   * 2.Fréscopa Marketing Global
-   * 3.Fréscopa Marketing Social
-   * 4.Fréscopa Mídia e RP
-   * 5.Eventos globais da Fréscopa
-   * 6.Fréscopa Liderança da Empresa Executiva
+           O modelo de Classificações e Taxonomias Globais inclui todos os tipos de registro e campos recomendados que você crie em seu ambiente para uma implementação bem-sucedida do Workfront Planning.
 
-1. Depois de abrir a caixa **Visualizar** para cada modelo de espaço de trabalho, clique em **Voltar** para voltar à caixa **Criar espaço de trabalho** ou clique em **Usar modelos** para usar os modelos, incluindo no pacote, e criar espaços de trabalho.
+           Posteriormente, você poderá vincular ou importar os tipos de registro nesse modelo em outros espaços de trabalho criados.
+         * 2.Fréscopa Marketing Global
+         * 3.Fréscopa Marketing Social
+         * 4.Fréscopa Mídia e RP
+         * 5.Eventos globais da Fréscopa
+         * 6.Fréscopa Liderança da Empresa Executiva
 
-   Os espaços de trabalho são criados e exibidos nas guias **Espaços de trabalho em que estou** e **Todos os espaços de trabalho** para administradores do sistema. Todos os usuários com licenças Padrão verão os espaços de trabalho em sua área Espaços de trabalho depois que um Administrador do sistema criá-los e compartilhá-los com eles.
+      1. Depois de abrir a caixa **Visualizar** para cada modelo de espaço de trabalho, clique em **Voltar** para voltar à caixa **Criar espaço de trabalho** ou clique em **Usar modelos** para usar os modelos, incluindo no pacote, e criar espaços de trabalho.
+
+   <div class="preview">
+
+   * Clique na guia **Espaços de trabalho de amostra** e siga estas etapas:
+
+      1. Clique em um dos modelos de espaço de trabalho na guia para revisar os tipos de registro e os campos em cada modelo. Os modelos na guia **Espaços de trabalho de amostra** são somente leitura.
+      1. Clique em **Criar a partir de modelos** no canto superior direito de um modelo.
+      1. (Opcional) Clique em **Visualizar** em qualquer modelo para exibir os tipos de registro e seus campos.
+
+         >[!TIP]
+         >
+         >Clicar em um cartão de tipo de registro em um modelo exibe os campos do tipo de registro no painel direito.
+      1. Clique em **Usar modelos**.
+
+   </div>
+
+   Os 6 espaços de trabalho são criados e exibidos nas guias **Espaços de trabalho em que estou** e **Todos os espaços de trabalho** para administradores do sistema. Todos os usuários com licenças Padrão verão os espaços de trabalho em sua área Espaços de trabalho depois que um Administrador do sistema criá-los e compartilhá-los com eles.
 
 1. Comece a editar os espaços de trabalho criados e a adicionar tipos de registro, registros, exibições e campos pertinentes à sua organização.
 
