@@ -6,11 +6,25 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
 workflow-type: tm+mt
-source-wordcount: '3185'
+source-wordcount: 2948
 ht-degree: 2%
 
 ---
@@ -104,13 +118,13 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
 ## Criar um formulário de solicitação
 
-Para criar um formulário de solicitação, você deve começar a criar o formulário, configurar os detalhes do formulário e concluir publicando e compartilhando o formulário.
+Para criar um formulário de solicitação, você deve preencher o seguinte:
 
-### Começar a criar um formulário de solicitação
+* Adicionar um novo formulário e configurar seus campos e elementos de conteúdo
+* Definir as configurações do formulário para adicionar opções de aprovação e preenchimento para solicitações futuras
+* Publicar formulário
 
-Você pode criar um formulário de solicitação do tipo de registro associado ao formulário, <!--<span class="preview"> or from the Requests area of Workfront</span>-->.
-
-#### Criar um formulário de solicitação a partir de um tipo de registro
+### Adicionar um novo formulário
 
 {{step1-to-planning}}
 
@@ -120,7 +134,7 @@ Você pode criar um formulário de solicitação do tipo de registro associado a
 
 1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
+   A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página de tipo de registro é aberta na exibição em lista.
 
 1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação** ou **Gerenciar formulários de solicitação**, se você já tiver um formulário e quiser criar outros.
 
@@ -128,19 +142,254 @@ Você pode criar um formulário de solicitação do tipo de registro associado a
 
    ![Solicitar página de formulários](assets/request-forms-in-list-view.png)
 
-1. (Condicional) Se quiser adicionar outro formulário, clique em **Novo formulário de solicitação**.
+1. Clique em **Novo formulário de solicitação** para adicionar um novo formulário.
 
    A caixa **Criar formulário de solicitação** é aberta.
 
-1. Na caixa Criar formulário de solicitação, atualize o nome do formulário de solicitação. Por padrão, o nome do formulário é **Formulário sem título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+1. Na caixa **Criar formulário de solicitação**, atualize o nome do formulário de solicitação. Por padrão, o nome do formulário é **Formulário sem título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Opcional) Adicione uma **Descrição** para o formulário de solicitação.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
 1. Clique em **Criar**.
 
+   O construtor de formulários de solicitação para o tipo de registro selecionado é aberto na guia **Formulário**.
+
+   ![Modo de edição do formulário de solicitação de campanhas](assets/campaigns-request-form-edit-mode.png)
+
+   O formulário de solicitação contém as seguintes informações, por padrão:
+
+   * Campos de registro disponíveis na exibição de tabela do tipo de registro selecionado.
+
+     Os campos contidos no formulário de solicitação estarão visíveis para todos que enviarem uma solicitação para esse tipo de registro.
+
+   * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. Todos os campos de registro são exibidos na área **Seção padrão**.
+   * Campo **Assunto**: o campo que identificará a solicitação no Workfront. A configuração e o valor do campo **Assunto** não são editáveis.
+
+     >[!NOTE]
+     >
+     >* O campo **Assunto** exige um valor quando está visível no formulário de solicitação. No entanto, você pode remover o campo **Assunto**, se necessário, e os solicitantes não o verão no formulário quando enviarem a solicitação.
+     >* Quando o campo **Assunto** está ausente em um formulário de solicitação, mas há um campo Nome para o nome do registro futuro, o nome da solicitação é automaticamente atribuído ao mesmo nome do registro criado.
+     >* Quando os campos **Assunto** e **Nome** estão ausentes no formulário de solicitação, a solicitação é nomeada usando o seguinte padrão: `< Request form name > < Entry date of the request >`; o registro é nomeado como **Sem Título**.
+     >* Para exibir as informações do campo **Assunto** no Workfront Planning, é possível adicionar o campo de conexão **Solicitação original** ao tipo de registro associado ao formulário de solicitação. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
+1. (Opcional) Passe o mouse sobre qualquer campo no formulário que deseja remover, em seguida, clique no ícone **x** para removê-los. Eles são adicionados à guia **Campos** à esquerda do formulário.
+
+1. (Opcional) Para remover a **Seção padrão** do formulário, faça o seguinte:
+
+   1. Remover todos os campos da **Seção Padrão**.
+   1. Clique na guia **Elementos de conteúdo**, adicione uma nova seção e adicione um nome para a seção.
+   1. Adicione campos à nova seção.
+   1. Clique no ícone **x** para remover a **Seção padrão**.
+1. Clique em qualquer campo e use os controles no painel direito no formulário para definir seu tamanho ou qualquer uma das seguintes informações:
+
+   * **Rótulo**: este é o nome do campo como ele aparecerá no formulário de solicitação. Isso não altera o nome do campo de registro.
+   * **Instruções**: adicione mais informações sobre o campo.
+   * **Criar um campo obrigatório**: quando selecionado, o campo deve ter um valor. Caso contrário, o formulário não poderá ser enviado.
+   * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto.
+
+   >[!TIP]
+   >
+   >   O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.
+   >     
+1. (Opcional) Clique com o botão direito do mouse em um campo, arraste-o e solte-o em outra posição do formulário.
+1. (Opcional) Clique na guia **Elementos de conteúdo** no lado esquerdo do formulário e adicione qualquer um dos seguintes elementos:
+
+   * **Texto descritivo**: adicione instruções para uma nova seção, por exemplo.
+   * **Quebra de seção**: esta é uma área do formulário que contém vários campos.
+
+     >[!TIP]
+     >
+     >Criar um formulário de solicitação do Planning é semelhante a criar um formulário personalizado do Workfront. Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+1. (Opcional) Clique em **Visualizar** para ver como o formulário será exibido para outros usuários quando eles o usarem para enviar uma solicitação.
+1. Prossiga para um dos seguintes:
+
+   * [Definir configurações de formulário](#configure-form-settings) se desejar definir mais detalhes para o formulário no ambiente de Produção
+   * [Publicar formulário](#publish-form) se não quiser definir mais configurações.
+
+### Definir configurações de formulário
+
+Na guia Configurações, é possível definir regras de aprovação e definir quando uma solicitação criada a partir desse formulário será marcada como Concluída.
+
+As regras de aprovação definem o processo de aprovação com base nos valores dos campos nas solicitações enviadas.
+
+Por exemplo, se um formulário de solicitação tiver o campo &quot;Tipo de campanha&quot;, poderá ser criada uma regra que envia a solicitação para uma pessoa quando o campo tem o valor &quot;Digital&quot; e outra pessoa quando ele tem o valor &quot;Imprimir&quot;.
+
+Considere o seguinte ao adicionar regras de aprovação:
+
+* As regras são priorizadas por ordem. Se as primeiras condições de regra forem atendidas, essa regra será aplicada, mesmo se as condições para regras mais abaixo na lista também forem atendidas.
+* Se nenhuma condição for atendida, a regra padrão será aplicada.
+* Você pode adicionar um ou vários aprovadores a uma regra de aprovação.
+* Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na área Solicitações do Workfront.
+* Se você adicionar mais de um aprovador e a opção Somente uma decisão é obrigatória não estiver ativada, todos os aprovadores deverão tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
+* Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
+
+Para obter mais informações sobre como adicionar aprovações, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+As opções de conclusão permitem definir se uma solicitação é marcada como concluída quando o objeto solicitado é criado ou quando o objeto criado é concluído. Você define quando o objeto é concluído com base em uma condição especificada.
+
+Para definir configurações de formulário:
+
+1. Comece a criar ou editar um formulário de solicitação, conforme descrito na seção [Começar a criar um formulário de solicitação](#begin-creating-a-request-form).
+
    O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
-1. Continue em [Configurar detalhes para o formulário de solicitação](#set-up-details-for-the-request-form).
+1. (Opcional) Configure os detalhes do formulário, conforme descrito em [Configurar detalhes do formulário](#set-up-form-details).
+
+1. Para começar a configurar as regras de aprovação, clique no ícone Aprovações ![Aprovações](assets/approvals-icon-on-form.png) no painel de navegação esquerdo.
+
+1. (Opcional) Se quiser definir um processo de aprovação padrão, adicione pelo menos um usuário ou equipe ao campo **Aprovadores** da área Regra de aprovação padrão e clique na caixa de seleção **Somente uma decisão é necessária** se quiser que o registro seja criado depois que qualquer um dos aprovadores padrão o aprovar.
+
+   ![Área de regra de aprovação padrão](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. (Opcional) Para cada regra de aprovação adicional, faça o seguinte:
+
+   1. Clique em **Adicionar regra de aprovação**
+   1. Clique no título do espaço reservado &quot;Regra de aprovação sem título&quot; e insira um nome para a regra de aprovação.
+   1. Clique em **Selecionar um campo** e selecione o campo que ativa a regra.
+   1. Selecione o operador para a regra. Os operadores variam de acordo com o tipo de campo.
+   1. Se o operador selecionado exigir um valor, clique no ícone de adição e adicione um ou mais valores.
+   1. (Opcional) Adicione mais condições usando AND ou OR ao clicar em Add condition e configurar a condição adicional.
+   1. Na área Ações da regra de aprovação, no campo **Aprovadores**, adicione pelo menos um usuário ou equipe a ser definido como o aprovador quando a condição for atendida.
+   1. (Condicional) Se desejar que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.
+
+1. (Opcional) Para reordenar as regras de roteamento, clique na alça de arrastar no lado esquerdo da regra e arraste a regra para o local desejado.
+
+   A regra padrão não pode ser reordenada.
+
+1. (Opcional) Para excluir uma regra de roteamento, clique em **X** à direita da regra.
+1. Clique em **Salvar** para salvar as regras de aprovação.
+1. Clique em **Solicitar opções de conclusão** no painel esquerdo.
+1. Selecione entre as seguintes opções:
+
+   * **A solicitação é concluída quando o objeto solicitado é criado**: isso concluirá a solicitação quando o registro for criado.
+   * **A solicitação é concluída quando o objeto solicitado é concluído**: isso concluirá a solicitação quando o registro for marcado como concluído.
+
+1. (Condicional) Se você selecionou que a solicitação seja marcada como concluída quando o objeto solicitado for concluído, selecione o campo e o valor que indica quando o objeto será concluído. Por exemplo, você pode selecionar o campo Status e o valor Concluído para concluir a solicitação quando o status do objeto criado for definido como Concluído.
+1. Continue em [Publicar formulário](#publish-form).
+
+### Publicar formulário
+
+1. Depois de criar o formulário e salvá-lo, clique em **Publicar** para publicar o formulário e obter um link exclusivo para ele.
+
+   As seguintes situações ocorrem:
+
+   * O botão **Publicar** foi removido.
+
+     O formulário fica disponível na área Solicitações do menu Principal do Workfront.
+   * O botão **Cancelar publicação** substitui o botão **Publicar**. Clicar nele impedirá que o formulário seja acessível.
+   * Um botão **Compartilhar** é adicionado ao formulário.
+
+1. Clique em **Compartilhar** para compartilhar o formulário com outras pessoas.
+
+   Para obter informações sobre como compartilhar um formulário de solicitação, consulte a seção [Compartilhar um formulário de solicitação](#share-a-request-form) neste artigo
+1. Clique na seta à esquerda do nome do formulário no cabeçalho para fechar o formulário.
+
+   A lista **Formulários de solicitação** é aberta e o formulário é exibido na lista.
+
+## Compartilhar um formulário de solicitação
+
+1. Vá para uma lista de formulários de solicitação e siga um destes procedimentos:
+
+   * Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário de solicitação na página do tipo de registro.
+   * Clique no nome de um formulário de solicitação na lista para abri-lo.
+
+1. Clique em **Compartilhar** para compartilhar o formulário com outras pessoas.
+
+1. Para compartilhar o formulário internamente, selecione a guia **Compartilhamento interno**, procure o nome de um usuário, equipe, função de trabalho, grupo ou empresa no campo **Conceder acesso para enviar este formulário** e selecione-o quando ele aparecer na lista. A permissão **Enviar** é selecionada por padrão para cada entidade.
+
+1. (Opcional) Clique no menu suspenso após o nome de uma entidade e clique em **Remover** para removê-la da lista e parar de compartilhar o formulário com ela.
+
+   >[!NOTE]
+   >
+   >Além de equipes, grupos, empresas e funções de trabalho, você pode compartilhar somente com usuários que foram adicionados à Adobe Admin Console. Não é possível adicionar usuários somente do Workfront. Para obter informações, consulte [Gerenciar usuários na Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+
+1. Na seção **Quem pode enviar solicitações por meio deste formulário**, selecione uma das seguintes opções para indicar quais tipos de usuários podem acessar este formulário:
+
+   * Somente pessoas convidadas podem acessar
+   * Qualquer pessoa com acesso de exibição ou superior ao espaço de trabalho
+   * Qualquer pessoa com acesso de contribuição ou superior ao espaço de trabalho
+
+   ![Compartilhar caixa para o formulário de solicitação](assets/share-box-for-request-form.png)
+
+1. (Opcional) Clique em **Copiar link** para compartilhar o link para o formulário com pessoas que têm acesso para acessar o formulário e enviar solicitações. O link é copiado para a área de transferência e pode ser compartilhado com outras pessoas.
+1. Para compartilhar o formulário publicamente, selecione a guia **Compartilhamento público** e ative a configuração **Criar link público**. Está desativada por padrão.
+
+   ![Compartilhamento público para o formulário de solicitação](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* Quando você habilita a configuração **Criar link público**, qualquer pessoa pode acessar o formulário e enviar um novo registro, mesmo pessoas de fora da sua organização que não tenham uma conta do Workfront.
+   >
+   >* Um formulário que contém os seguintes tipos de campo não pode ser compartilhado publicamente:
+   >
+   >     * Conexões do Workfront ou Adobe Experience Manager
+   >     * People
+   >
+
+1. Escolha uma **Data de expiração do link**.
+
+   Você pode selecionar datas futuras dentro de 180 dias a partir da data atual.
+
+   >[!TIP]
+   >
+   >Depois que a data de compartilhamento expirar, o formulário de solicitação não estará mais disponível na área Solicitações do Workfront e os links compartilhados com outros usuários não estarão mais acessíveis.
+
+   As pessoas receberão um erro depois que o link expirar e você deverá atualizar a data do link e gerar um novo link para compartilhar antes que as pessoas possam acessar o formulário novamente.
+
+1. (Opcional e condicional) Clique em **Salvar** para salvar os detalhes de compartilhamento do formulário.
+1. (Condicional) Se o formulário foi salvo anteriormente, clique em **Copiar link**.
+
+   As opções de compartilhamento de formulário são salvas e o link é copiado para a área de transferência. Agora você pode compartilhá-lo com outras pessoas.
+
+   Para obter informações sobre como criar registros usando um link para um formulário de solicitação, consulte [Enviar solicitações do Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. (Condicional) Se você abriu o formulário, clique em **Salvar** no canto inferior direito da guia **Formulário** para salvar o formulário.
+
+## Gerenciar formulários de solicitação existentes
+
+1. Clique no espaço de trabalho onde deseja gerenciar formulários de solicitação.
+
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
+
+1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Gerenciar formulários de solicitação**.
+
+   A página **Formulários de solicitação** é aberta e todos os formulários de solicitação associados ao tipo de registro são exibidos em uma exibição de lista.
+1. (Opcional) Atualize os seguintes elementos de exibição na página **Formulários de solicitação** para alterar como as informações são exibidas na tabela:
+
+   * Colunas
+   * Agrupamento
+   * Altura da linha
+
+   Para obter mais informações, consulte [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+1. (Opcional) Passe o mouse sobre o nome de um formulário de solicitação na exibição de lista, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário e clique em um dos seguintes:
+
+   * **Editar formulário**: clique para editar mais informações sobre o formulário.
+   * **Cancelar publicação**: clique para desfazer a publicação do formulário que o remove da área Solicitações no Workfront.
+   * **Compartilhar**: clique aqui para modificar quem tem acesso ao formulário.
+   * **Copiar link**: clique para copiar rapidamente o link do formulário de solicitação sem abrir o formulário.
+   * **Excluir**: clique aqui para excluir o formulário. Todas as solicitações e registros adicionados usando o formulário não são excluídos. O formulário não pode ser recuperado.
+
+   ![Mais menus no formulário de solicitação da lista de formulários de solicitação](assets/more-menu-on-request-form-from-request-forms-list.png)
+
+1. Clique na seta à esquerda de **Formulários de solicitação** no cabeçalho para fechar a lista de formulários de solicitação.
+
+   <!--
+   Not possible anymore: 
+      The record type page opens. 
+   1. (Optional and conditional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+      
+      1. Click **Update request form** to make any changes to the request form, then click a request form to open and edit it.
+      1. Click **Copy link to request form**  to share the link to the form with others. 
+   -->
+
+1. (Opcional) Vá para a área **Solicitações** no Workfront e localize o formulário compartilhado para enviar uma solicitação. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
 <!--
 
@@ -167,79 +416,6 @@ Você pode criar um formulário de solicitação do tipo de registro associado a
 </div>
 
 -->
-
-### Configurar detalhes do formulário de solicitação
-
-Os detalhes do formulário são divididos em guias.
-
-* A guia **Formulário** permite adicionar campos e elementos de conteúdo ao formulário
-* A guia **Configurações** permite definir um processo de aprovação para o formulário e definir opções de conclusão da solicitação.
-
-#### Configurar detalhes do formulário
-
-1. Comece a criar ou editar um formulário de solicitação, conforme descrito na seção [Começar a criar um formulário de solicitação](#begin-creating-a-request-form).
-
-   Ou
-
-   Localize o formulário de solicitação na lista Formulários de solicitação, clique na caixa ao lado do nome do formulário e clique em **Editar formulário** na barra azul na parte inferior da tela.
-
-   O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
-
-   ![Modo de edição do formulário de solicitação de campanhas](assets/campaigns-request-form-edit-mode.png)
-
-   O formulário de solicitação contém as seguintes informações, por padrão:
-
-   * Campos de registro disponíveis na exibição de tabela do tipo de registro selecionado. <!--they are working on removing the limitation below-->
-
-   * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. Todos os campos de registro são exibidos na área **Seção padrão**.
-   * Campo **Assunto**: o campo que identificará a solicitação no Workfront. A configuração e o valor do campo **Assunto** não são editáveis.
-
-     >[!NOTE]
-     >
-     >* O campo **Assunto** exige um valor quando está visível no formulário de solicitação. No entanto, você pode remover o campo **Assunto**, se necessário, e os solicitantes não o verão no formulário quando enviarem a solicitação.
-     >* Quando o campo **Assunto** está ausente em um formulário de solicitação, mas há um campo Nome para o nome do registro futuro, o nome da solicitação é automaticamente atribuído ao mesmo nome do registro criado.
-     >* Quando os campos **Assunto** e **Nome** estão ausentes no formulário de solicitação, a solicitação é nomeada usando o seguinte padrão: `< Request form name > < Entry date of the request >`; o registro é nomeado como **Sem Título**.
-     >* Para exibir as informações do campo **Assunto** no Workfront Planning, é possível adicionar o campo de conexão **Solicitação original** ao tipo de registro associado ao formulário de solicitação. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-   * Todos os campos associados ao tipo de registro.
-
-     Os campos contidos no formulário de solicitação estarão visíveis para todos que enviarem uma solicitação para esse tipo de registro.
-
-1. (Opcional) Passe o mouse sobre qualquer campo no formulário que deseja remover, em seguida, clique no ícone **x** para removê-los. Eles são adicionados à guia **Campos** à esquerda do formulário.
-
-1. (Opcional) Para remover a **Seção padrão** do formulário, faça o seguinte:
-
-   1. Remova todos os campos da Seção padrão.
-   1. Clique em **Elementos de conteúdo**, adicione uma nova seção e adicione um nome à seção.
-   1. Adicione campos à nova seção.
-   1. Clique no ícone **x** para remover a **Seção padrão**.
-1. Clique em qualquer campo e use os controles no painel direito no formulário para definir seu tamanho ou qualquer uma das seguintes informações:
-
-   * **Rótulo**: este é o nome do campo como ele aparecerá no formulário de solicitação. Isso não altera o nome do campo de registro.
-   * **Instruções**: adicione mais informações sobre o campo.
-   * **Criar um campo obrigatório**: quando selecionado, o campo deve ter um valor. Caso contrário, o formulário não poderá ser enviado.
-   * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto.
-
-   >[!TIP]
-   >
-   >   O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.
-   >     
-
-1. (Opcional) Clique na guia **Elementos de conteúdo** no lado esquerdo do formulário e adicione qualquer um dos seguintes elementos:
-
-   * **Texto descritivo**
-   * **Quebra de seção**
-
-   Para obter mais informações sobre como criar um formulário personalizado, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-1. (Opcional) Clique em **Visualizar** para ver como o formulário será exibido para outros usuários quando eles o usarem para enviar um novo registro.
-1. Prossiga para um dos seguintes:
-
-   <!--
-   * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
-   -->
-   * [Defina as configurações](#configure-settings) se desejar definir mais detalhes para o formulário no ambiente de Produção
-   * [Conclua a criação do formulário de solicitação](#complete-request-form-creation) se não quiser definir outras configurações.
 
 <!--
 #### Set up Configuration details
@@ -276,74 +452,6 @@ On the Configuration tab, you can set the approval process and configure when a 
 
 -->
 
-### Ajustar configurações
-
-Na guia Configurações, é possível definir regras de aprovação e definir quando uma solicitação criada a partir desse formulário será marcada como Concluída.
-
-#### Configurar regras de aprovação
-
-As regras de aprovação definem o processo de aprovação com base nos valores de campo em nas solicitações enviadas.
-
-Por exemplo, se um formulário de solicitação tiver o campo &quot;Tipo de campanha&quot;, poderá ser criada uma regra que envia a solicitação para uma pessoa quando o campo tem o valor &quot;Digital&quot; e outra pessoa quando ele tem o valor &quot;Imprimir&quot;.
-
-Considere o seguinte ao adicionar regras de aprovação:
-
-* As regras são priorizadas por ordem. Se as primeiras condições de regra forem atendidas, essa regra será aplicada, mesmo se as condições para regras mais abaixo na lista também forem atendidas.
-* Se nenhuma condição for atendida, a regra padrão será aplicada.
-* Você pode adicionar um ou vários aprovadores a uma regra de aprovação.
-* Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na área Solicitações do Workfront.
-* Se você adicionar mais de um aprovador e a opção Somente uma decisão é obrigatória não estiver ativada, todos os aprovadores deverão tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
-* Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
-
-Para obter mais informações sobre como adicionar aprovações, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
-
-Para definir regras de aprovação para um formulário de solicitação:
-
-1. Comece a criar ou editar um formulário de solicitação, conforme descrito na seção [Começar a criar um formulário de solicitação](#begin-creating-a-request-form).
-
-   O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
-1. (Opcional) Configure os detalhes do formulário, conforme descrito em [Configurar detalhes do formulário](#set-up-form-details).
-
-1. Para começar a configurar as regras de aprovação, clique no ícone Aprovações ![Aprovações](assets/approvals-icon-on-form.png) no painel de navegação esquerdo.
-
-1. (Opcional) Se quiser definir um processo de aprovação padrão, adicione pelo menos um usuário ou equipe ao campo **Aprovadores** da área Regra de aprovação padrão e clique na caixa de seleção **Somente uma decisão é necessária** se quiser que o registro seja criado depois que qualquer um dos aprovadores padrão o aprovar.
-
-   ![Área de regra de aprovação padrão](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
-
-1. (Opcional) Para cada regra de aprovação adicional, faça o seguinte:
-
-   1. Clique em **Adicionar regra de aprovação**
-   1. Clique no título do espaço reservado &quot;Regra de aprovação sem título&quot; e insira um nome para a regra de aprovação.
-   1. Clique em **Selecionar um campo** e selecione o campo que ativa a regra.
-   1. Selecione o operador para a regra. Os operadores variam de acordo com o tipo de campo.
-   1. Se o operador selecionado exigir um valor, clique no ícone de adição e adicione um ou mais valores.
-   1. (Opcional) Adicione mais condições usando AND ou OR ao clicar em Add condition e configurar a condição adicional.
-   1. Na área Ações da regra de aprovação, no campo **Aprovadores**, adicione pelo menos um usuário ou equipe a ser definido como o aprovador quando a condição for atendida.
-   1. (Condicional) Se desejar que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.
-
-1. (Opcional) Para reordenar as regras de roteamento, clique na alça de arrastar no lado esquerdo da regra e arraste a regra para o local desejado.
-
-   A regra padrão não pode ser reordenada.
-
-1. (Opcional) Para excluir uma regra de roteamento, clique em **X** à direita da regra.
-1. Clique em **Salvar** para salvar as regras de aprovação.
-1. Continue para [Definir opções de conclusão da solicitação](#set-request-completion-options)
-
-#### Definir opções de conclusão da solicitação
-
-As opções de conclusão permitem definir se uma solicitação é marcada como concluída quando o objeto solicitado é criado ou quando o objeto criado é concluído. Você define quando o objeto é concluído com base em uma condição especificada.
-
-1. Comece a criar ou editar um formulário de solicitação, conforme descrito na seção [Começar a criar um formulário de solicitação](#begin-creating-a-request-form).
-
-   O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
-1. (Opcional) Configure os detalhes do formulário, conforme descrito em [Configurar detalhes do formulário](#set-up-form-details).
-
-1. Selecione se você deseja que uma solicitação criada a partir deste formulário seja marcada como concluída quando o objeto solicitado for criado ou quando o objeto solicitado for concluído.
-1. (Condicional) Se você selecionou que a solicitação seja marcada como concluída quando o objeto solicitado for concluído, selecione o campo e o valor que indicam quando o objeto é concluído. Por exemplo, você pode selecionar o campo Status e o valor Concluído para concluir a solicitação quando o status do objeto criado for definido como Concluído.
-1. Prossiga para <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Concluir criação de formulário de solicitação](#complete-request-form-creation).
-
 <!--
  
 <div class="preview">
@@ -372,123 +480,3 @@ For information on creating automations in other areas of Workfront Planning, se
 </div>
 
 -->
-
-### Concluir criação do formulário de solicitação
-
-1. Crie e configure o formulário conforme descrito em [Comece a criar um formulário de solicitação](#begin-creating-a-request-form) e [Configure os detalhes para o formulário de solicitação](#set-up-details-for-the-request-form).
-1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário no cabeçalho, em seguida, clique em **Editar** para atualizar o nome do formulário e sua **Descrição** e em **Salvar**.
-
-1. Clique em **Publicar** para publicar o formulário e obter um link exclusivo para ele.
-
-   As seguintes situações ocorrem:
-
-   * O botão **Publicar** foi removido.
-
-     O formulário fica disponível na área Solicitações do menu Principal do Workfront.
-   * O botão **Cancelar publicação** é adicionado ao formulário. Clicar nele impedirá que o formulário seja acessível.
-   * Um botão **Compartilhar** é adicionado ao formulário.
-
-1. Clique em **Compartilhar** para compartilhar o formulário com outras pessoas.
-
-   Para obter informações sobre como compartilhar um formulário de solicitação, consulte a seção [Compartilhar um formulário de solicitação](#share-a-request-form) neste artigo
-1. Clique na seta à esquerda do nome do formulário no cabeçalho para fechar o formulário.
-
-   A exibição de lista **Formulários de solicitação** é aberta e o formulário é adicionado a ela.
-
-## Gerenciar formulários de solicitação existentes
-
-
-1. Clique no espaço de trabalho onde deseja gerenciar formulários de solicitação.
-
-   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
-
-1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
-
-   A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
-
-1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Gerenciar formulários de solicitação**.
-
-   A página **Formulários de solicitação** é aberta e todos os formulários de solicitação associados ao tipo de registro são exibidos em uma exibição de tabela.
-1. (Opcional) Atualize os seguintes elementos de exibição na página **Formulários de solicitação** para alterar como as informações são exibidas na tabela:
-
-   * Colunas
-   * Agrupamento
-   * Altura da linha
-
-   Para obter mais informações, consulte [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
-
-1. (Opcional) Passe o mouse sobre o nome de um formulário de solicitação na exibição de tabela, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário e clique em um dos seguintes:
-
-   * **Editar formulário**: clique para editar mais informações sobre o formulário.
-   * **Cancelar publicação**: clique para desfazer a publicação do formulário que o remove da área Solicitações no Workfront.
-   * **Compartilhar**: clique aqui para modificar quem tem acesso ao formulário.
-   * **Copiar link**: clique para copiar rapidamente o link do formulário de solicitação sem abrir o formulário.
-   * **Excluir**: clique aqui para excluir o formulário. Todas as solicitações e registros adicionados usando o formulário não são excluídos. O formulário não pode ser recuperado.
-
-   ![Mais menus no formulário de solicitação da lista de formulários de solicitação](assets/more-menu-on-request-form-from-request-forms-list.png)
-
-1. Clique na seta à esquerda de **Formulários de solicitação** no cabeçalho para fechar a tabela de formulários de solicitação.
-
-   A página de tipo de registro é aberta.
-1. (Opcional e condicional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e siga um destes procedimentos:
-
-   1. Clique em **Atualizar formulário de solicitação** para fazer alterações no formulário de solicitação e, em seguida, clique em um formulário de solicitação para abri-lo e editá-lo.
-   1. Clique em **Copiar link para solicitar o formulário** para compartilhar o link para o formulário com outras pessoas.
-
-1. (Opcional) Vá para a área **Solicitações** no Workfront e localize o formulário compartilhado para enviar uma solicitação. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
-
-## Compartilhar um formulário de solicitação
-
-1. Crie um formulário de solicitação conforme descrito na seção [Criar um formulário de solicitação para um tipo de registro](#create-a-request-form-for-a-record-type) deste artigo.
-1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário de solicitação na página do tipo de registro.
-1. Clique em **Compartilhar** para compartilhar o formulário com outras pessoas.
-
-1. Para compartilhar o formulário internamente, selecione a guia **Compartilhamento interno**, procure o nome de um usuário, equipe, função de trabalho, grupo ou empresa no campo **Conceder acesso para enviar este formulário** e selecione-o quando ele aparecer na lista. A permissão **Enviar** é selecionada por padrão para cada entidade.
-
-   ![Compartilhar caixa para o formulário de solicitação](assets/share-box-for-request-form.png)
-
-1. (Opcional) Clique no menu suspenso após o nome de uma entidade e clique em **Remover** para removê-la da lista e parar de compartilhar o formulário com ela.
-
-   >[!NOTE]
-   >
-   >Além de equipes, grupos, empresas e funções de trabalho, você pode compartilhar somente com usuários que foram adicionados à Adobe Admin Console. Não é possível adicionar usuários somente do Workfront. Para obter informações, consulte [Gerenciar usuários na Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
-
-1. Na seção **Quem pode enviar solicitações por meio deste formulário**, selecione uma das seguintes opções para indicar quais tipos de usuários podem acessar este formulário:
-
-   * Somente pessoas convidadas podem acessar
-   * Qualquer pessoa com acesso de exibição ou superior ao espaço de trabalho
-   * Qualquer pessoa com acesso de contribuição ou superior ao espaço de trabalho
-1. (Opcional) Clique em **Copiar link** para compartilhar o link para o formulário com as pessoas que têm acesso para fazer isso. O link é copiado para a área de transferência.
-1. Para compartilhar o formulário publicamente, selecione a guia **Compartilhamento público** e habilite a configuração **Criar link público**.
-
-   ![Compartilhamento público para o formulário de solicitação](assets/share-request-form-publicly-tab.png)
-
-   >[!WARNING]
-   >
-   >* Quando você habilita a configuração **Criar link público**, qualquer pessoa pode acessar o formulário e enviar um novo registro, mesmo pessoas de fora da sua organização que não tenham uma conta do Workfront.
-   >
-   >* Um formulário que contém os seguintes tipos de campo não pode ser compartilhado publicamente:
-   >
-   >     * Conexões do Workfront ou Adobe Experience Manager
-   >     * People
-   >
-
-1. Escolha uma **Data de expiração do link**.
-
-   Você pode selecionar datas futuras dentro de 180 dias a partir da data atual.
-
-   >[!TIP]
-   >
-   >Depois que a data de compartilhamento expirar, o formulário de solicitação não estará mais disponível na área Solicitações do Workfront e os links compartilhados com outros usuários não estarão mais acessíveis.
-
-   As pessoas receberão um erro depois que o link expirar e você deverá atualizar a data do link e gerar um novo link para compartilhar antes que as pessoas possam acessar o formulário novamente.
-
-
-1. (Opcional e condicional) Clique em **Salvar** para salvar os detalhes de compartilhamento do formulário.
-1. (Condicional) Se o formulário foi salvo anteriormente, clique em **Copiar link**.
-
-   As opções de compartilhamento de formulário são salvas e o link é copiado para a área de transferência. Agora você pode compartilhá-lo com outras pessoas.
-
-   Para obter informações sobre como criar registros usando um link para um formulário de solicitação, consulte [Enviar solicitações do Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
-
-1. Clique em **Salvar** no canto inferior direito da guia **Formulário** para salvar o formulário.
