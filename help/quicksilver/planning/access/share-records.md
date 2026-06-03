@@ -6,11 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: 1720
 ht-degree: 2%
 
 ---
@@ -125,6 +131,8 @@ maybe use the Share record types as example here and touch on the same points: h
 Quando os usuários têm permissões do Contribute para um espaço de trabalho ou tipo de registro, eles recebem permissões de gerenciamento para os registros desse tipo de registro.
 * Quando você remove uma entidade de um espaço de trabalho, todas as permissões de compartilhamento são removidas dos tipos de registro e de todos os registros nele.
 * Não é possível compartilhar um registro com um usuário que não tem permissões para o espaço de trabalho ou o tipo de registro.
+
+  Se você compartilhar um registro com alguém que não esteja no espaço de trabalho, ele será adicionado automaticamente ao espaço de trabalho.
 * O acesso de um usuário ao registro é determinado por meio da combinação das três configurações a seguir:
 
    * Suas permissões herdadas do tipo de registro e do espaço de trabalho
@@ -149,7 +157,7 @@ Quando os usuários têm permissões do Contribute para um espaço de trabalho o
 
 * Você pode desabilitar permissões herdadas para um único registro, nesse caso, você pode conceder permissões a usuários selecionados para registros individuais, ou eles podem obter permissões se pertencerem ao espaço de trabalho, devido à opção **Todos no espaço de trabalho podem exibir**.
 
-* Se várias permissões de compartilhamento se aplicarem ao mesmo usuário, ele receberá a maior permissão dessas permissões.
+* Se várias permissões de compartilhamento se aplicarem ao mesmo usuário, ele receberá o nível mais alto dessas permissões.
 
   Por exemplo, se um registro for compartilhado com um usuário com permissões de Exibição e seu grupo com acesso de Gerenciamento, ele receberá permissões de Gerenciamento para o registro.
 
