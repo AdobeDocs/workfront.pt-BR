@@ -5,12 +5,33 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/JhnaFQbcX6-s-AsTT8icddervRkfGPi-MN0hU0gwBLA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2773'
-ht-degree: 10%
+source-wordcount: 2909
+ht-degree: 6%
 
 ---
 
@@ -82,10 +103,10 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 12 de outubro de 2023</p>
+                                <p>Versão de pré-visualização: 12 de outubro de 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produção para todos os clientes: sexta-feira, 12 de outubro de 2023</span></p>
+                                <p><span class="preview">Produção para todos os clientes: 12 de outubro de 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -98,7 +119,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 5 de outubro de 2023</p>
+                                <p>Versão de pré-visualização: 5 de outubro de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.10</p>
@@ -118,7 +139,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 14 de setembro de 2023</p>
+                                <p>Versão de pré-visualização: 14 de setembro de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.9</p>
@@ -155,7 +176,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 12 de outubro de 2023</p>
+                                <p>Versão de pré-visualização: 12 de outubro de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para acesso antecipado a placas: N/D</p>
@@ -176,7 +197,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: terça-feira, 21 de agosto de 2023</p>
+                                <p>Versão de pré-visualização: 21 de agosto de 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produção para todos os clientes: 24 de agosto de 2023</span>
@@ -191,7 +212,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: terça-feira, 21 de agosto de 2023</p>
+                                <p>Versão de pré-visualização: 21 de agosto de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para acesso antecipado a placas: 24 de agosto de 2023</p>
@@ -212,7 +233,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 3 de agosto de 2023</p>
+                                <p>Versão de pré-visualização: 3 de agosto de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para acesso antecipado a placas: 10 de agosto de 2023</p>
@@ -233,7 +254,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 3 de agosto de 2023</p>
+                                <p>Versão de pré-visualização: 3 de agosto de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para acesso antecipado a placas: N/D</p>
@@ -274,7 +295,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 29 de junho de 2023</p>
+                                <p>Versão de pré-visualização: 29 de junho de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.10</p>
@@ -312,7 +333,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 12 de outubro de 2023</p>
+                                <p>Versão de pré-visualização: 12 de outubro de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.10</p>
@@ -331,7 +352,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 12 de outubro de 2023</p>
+                                <p>Versão de pré-visualização: 12 de outubro de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.10</p>
@@ -350,7 +371,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 12 de outubro de 2023</p>
+                                <p>Versão de pré-visualização: 12 de outubro de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.10</p>
@@ -370,7 +391,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: quinta-feira, 13 de setembro de 2023<br /></p>
+                                <p>Versão de pré-visualização: 13 de setembro de 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.9</p>
@@ -390,7 +411,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: quinta-feira, 13 de setembro de 2023<br /></p>
+                                <p>Versão de pré-visualização: 13 de setembro de 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.9</p>
@@ -410,7 +431,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 17 de agosto de 2023<br /></p>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.8</p>
@@ -429,10 +450,10 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 17 de agosto de 2023<br /></p>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produção para todos os clientes: sexta-feira, 31 de agosto de 2023</span></p>
+                                <p><span class="preview">Produção para todos os clientes: 31 de agosto de 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -446,7 +467,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 17 de agosto de 2023<br /></p>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.8</p>
@@ -466,7 +487,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 17 de agosto de 2023<br /></p>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produção para lançamento rápido: 17 de agosto de 2023</p>
@@ -503,10 +524,10 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 24 de agosto de 2023<br /></p>
+                                <p>Versão de pré-visualização: 24 de agosto de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produção para todos os clientes: sexta-feira, 31 de agosto de 2023</span></p>
+                                <p><span class="preview">Produção para todos os clientes: 31 de agosto de 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -518,7 +539,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 24 de agosto de 2023<br /></p>
+                                <p>Versão de pré-visualização: 24 de agosto de 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Produção para todos os clientes: após a versão 23.10</span></p>
@@ -553,7 +574,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 12 de outubro de 2023<br /></p>
+                                <p>Versão de pré-visualização: 12 de outubro de 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.10</p>
@@ -592,7 +613,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: quinta-feira, 26 de julho de 2023<br /></p>
+                                <p>Versão de pré-visualização: 26 de julho de 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.8</p>
@@ -612,7 +633,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 17 de agosto de 2023<br /></p>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.8</p>
@@ -632,7 +653,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 17 de agosto de 2023<br /></p>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.8</p>
@@ -670,7 +691,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 12 de outubro de 2023</p>
+                                <p>Versão de pré-visualização: 12 de outubro de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para versão rápida: com a versão 23.10</p>
@@ -759,9 +780,9 @@ Não há atualizações do Workfront Goals neste momento na versão. Esta área 
 
 ### API versão 17
 
-A versão 17 da API foi lançada em 12 de outubro de 2023. Para a versão 17 da API, modificamos alguns recursos e pontos de acesso. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+A versão 17 da API foi lançada em 12 de outubro de 2023. Para a API versão 17, modificamos alguns recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
-Para obter informações sobre as novidades e atualizações, consulte [Novidades na versão 17 da API](/help/quicksilver/wf-api/api/new-api-version-17.md).
+Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
 Para obter informações sobre as versões da API, consulte [controle de versão da API e cronograma de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -785,7 +806,7 @@ Observe que o aplicativo móvel Workfront requer um logon Workfront. Usuários e
 
 #### Fluxos de trabalho removidos para contas que não os usam
 
-Para contas que nunca criaram um fluxo de trabalho em Quadros do Adobe Workfront, a área Fluxos de trabalho foi removida do painel Quadros a partir de 11 de outubro de 2023. As contas que usam fluxos de trabalho ainda têm acesso a elas. A funcionalidade aprimorada do scrum será abordada em versões futuras.
+Para contas que nunca criaram um fluxo de trabalho em Quadros do Adobe Workfront, a área Fluxos de trabalho foi removida do painel Quadros a partir de 11 de outubro de 2023. As contas que usam fluxos de trabalho ainda têm acesso a eles. A funcionalidade aprimorada do scrum será abordada em versões futuras.
 
 <!--
  HTML you might need

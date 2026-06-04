@@ -5,10 +5,25 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/mSp9mTaMbW8iuwYtUIKK0tSnrhXmK2r9ei6C4Zrhm1k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 0%
+source-wordcount: 1709
+ht-degree: 11%
 
 ---
 
@@ -24,9 +39,9 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [re
 >
 >A versão 23.3 incluía a opção de mover sua organização para versões mensais. Portanto, a Workfront alterou o esquema de numeração de versões para contabilizar as faixas de lançamento mensais e trimestrais.
 >
->Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira da segunda semana completa do mês, a menos que especificado de outra forma.
+>As versões mensais e trimestrais estão previstas para serem disponibilizadas na quinta-feira da segunda semana completa do mês, salvo indicação em contrário.
 >
->| Lançamento mensal | Versão trimestral |
+>| Versão mensal | Versão trimestral |
 >|----|----|
 >| <ul><li>Nenhuma versão (novembro de 2024)</li><li>Nenhuma versão (dezembro de 2024)</li><li>24.1 (janeiro de 2024)</li></ul> | <ul><li>24.1 (janeiro de 2024)</li></ul> |
 >| <ul><li>24.2 (fevereiro de 2024)</li><li>24.3 (março de 2024)</li><li>24.4 (abril de 2024)</li></ul> | <ul><li>24.4 (abril de 2024)</li></ul> |
@@ -36,15 +51,15 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [re
 
 ## Aprimoramentos do Adobe Workfront
 
-* [Melhorias do administrador](#administrator-enhancements)
+* [Aprimoramentos do administrador](#administrator-enhancements)
 * [Melhorias nas placas](#boards-enhancements)
 * [Aprimoramentos no gerenciamento de documentos](#document-management-enhancements)
 * [Aprimoramentos na página inicial](#home-enhancements)
 * [Aprimoramentos de integração](#integration-enhancements)
-* [Aprimoramentos do projeto](#project-enhancements)
+* [Aprimoramentos de projeto](#project-enhancements)
 * [Melhorias no fluxo de atualização e na notificação](#update-stream-and-notification-enhancements)
 
-### Melhorias do administrador
+### Aprimoramentos do administrador
 
 <table>
             <col style="width: 50%;" />
@@ -330,7 +345,7 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [re
         </table>
 
 
-### Aprimoramentos do projeto
+### Aprimoramentos de projeto
 
 <table>
             <col style="width: 50%;" />
@@ -458,7 +473,7 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [re
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na produção em uma cadência fora da programação de lançamento do Primeiro trimestre de 2023. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na produção em uma cadência fora da programação de lançamento do Primeiro trimestre de 2023. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Aprimoramentos no Planejador de cenários do Workfront
 
@@ -474,16 +489,16 @@ Não há atualizações do Workfront Goals neste momento na versão. Esta área 
 
 ### API versão 17
 
-Para a API versão 17, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+Para a API versão 17, modificamos alguns recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
 Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
-Para obter informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Para obter informações sobre as versões da API, consulte [controle de versão da API e cronograma de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Atualizações de manutenção do Workfront 
+### Atualizações de manutenção do Workfront
 
 Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2024, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/releases/current-updates).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
+Explore as últimas atualizações feitas nos programas de aprendizagem, caminhos de aprendizagem, vídeos e guias para cada versão do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página de tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
