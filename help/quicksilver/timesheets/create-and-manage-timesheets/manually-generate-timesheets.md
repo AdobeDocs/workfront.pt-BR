@@ -6,10 +6,16 @@ description: Para permitir que as alterações feitas nos perfis de folha de hor
 author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/0hU3VlHM8l5TXee6K3lJaV9-W3ZKujDYf9-f1NXH-Nc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: 437
+ht-degree: 9%
 
 ---
 
@@ -21,7 +27,7 @@ Para obter instruções sobre como excluir folhas de horas, consulte [Excluir fo
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto">
  <col> 
@@ -34,7 +40,7 @@ Para obter instruções sobre como excluir folhas de horas, consulte [Excluir fo
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -59,7 +65,7 @@ Ao gerar folhas de horas manualmente:
 
 Você pode gerar manualmente folhas de horas no nível do sistema ou do grupo na área Folhas de horas e horas na Configuração.
 
-1. Clique no ícone **do** Menu Principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Se você estiver gerando planilhas de horas em uso em todo o sistema, clique em **Planilhas de horas e horas.**
 
@@ -78,7 +84,7 @@ Você pode gerar manualmente folhas de horas no nível do sistema ou do grupo na
 
 Você pode gerar manualmente planilhas de horas no nível do sistema a partir da área Diagnóstico na Configuração.
 
-1. Clique no ícone **do** Menu Principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Expanda **Sistema** e clique em **Diagnósticos**.
 

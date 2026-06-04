@@ -6,10 +6,16 @@ description: Um Tipo de Hora é um rótulo que permite categorizar a entrada de 
 author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/EAwrDZagapXvWyUQ2PS4Bcmxi42n8W-mARDXDix0ZlY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 0%
+source-wordcount: 1498
+ht-degree: 4%
 
 ---
 
@@ -28,11 +34,11 @@ Ao registrar o tempo no Workfront, os tipos de horas específicos do projeto que
 
 Os tipos de horas disponíveis para seleção ao registrar horas (em projetos, tarefas e problemas) são determinados primeiro pelos tipos de horas disponibilizados em todo o sistema pelo administrador do sistema e, em seguida, pelos tipos de horas selecionados nos níveis de projeto e usuário.
 
-Após configurar os tipos de horas apropriados, você pode registrar horas de vários locais no Workfront. Para obter mais informações, consulte [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+Após configurar os tipos de horas apropriados, você pode registrar horas de vários locais no Workfront. Para obter mais informações, consulte [Registro de tempo](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +50,7 @@ Após configurar os tipos de horas apropriados, você pode registrar horas de v�
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
+   <td> <p>Padrão</p> 
    <p>Plano</p>
    </td> 
   </tr> 
@@ -65,7 +71,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Definir disponibilidade no nível do sistema
 
-O administrador do sistema determina quais tipos de horas específicos do projeto são disponibilizados em todo o sistema. Para obter mais informações, consulte [Gerenciar tipos de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+O administrador do sistema determina quais tipos de horas específicos do projeto são disponibilizados em todo o sistema. Para obter mais informações, consulte [Gerenciar tipos de hora](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Definir disponibilidade no nível do projeto {#define-availability-at-the-project-level}
 

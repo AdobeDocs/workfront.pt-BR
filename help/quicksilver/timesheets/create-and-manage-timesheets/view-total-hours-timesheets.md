@@ -1,19 +1,25 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Exibir horas totais na folha de horas
+title: Exibir o total de horas na folha de horas
 description: Você pode exibir o número total de horas em sua folha de horas. O número total de horas na planilha de horas inclui horas registradas para projetos, tarefas, problemas e todas as horas gerais.
 author: Lisa
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/oh6bBQz6sfxCpodHahZXtlMMuYYT-4U7-5MP6TQeuIs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 0%
+source-wordcount: 459
+ht-degree: 10%
 
 ---
 
-# Exibir horas totais na folha de horas
+# Exibir o total de horas na folha de horas
 
 <!--Audited: 8/2024-->
 
@@ -23,7 +29,7 @@ O total de horas reflete as horas enviadas por meio da folha de horas, da área 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 

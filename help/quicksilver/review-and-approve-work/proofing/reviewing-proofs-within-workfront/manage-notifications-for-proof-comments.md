@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Gerenciar notificações para comentários e decisões de prova
+title: Gerenciar notificações de comentários e decisões de prova
 description: Ao trabalhar em uma prova, seja um usuário do Adobe Workfront ou um colaborador externo, você pode especificar quais notificações por email deseja receber sobre comentários e decisões tomadas na prova. Para obter mais informações, consulte Notificações para comentários de prova e visão geral de decisões.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/2zcWEp77u5Eds1eB9r5UDdIAtNxSv9DdxGDIAd8b4Yw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 2%
+source-wordcount: 731
+ht-degree: 12%
 
 ---
 
-# Gerenciar notificações para comentários e decisões de prova
+# Gerenciar notificações de comentários e decisões de prova
 
 <!-- Audited: 4/2025 -->
 
@@ -25,7 +30,7 @@ Ao trabalhar em uma prova, seja um usuário do Adobe Workfront ou um colaborador
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +63,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Gerenciar notificações para comentários e decisões de prova
+## Gerenciar notificações de comentários e decisões de prova
 
 1. Abra a prova para a qual deseja configurar notificações.
 1. Se a barra de ferramentas esquerda não for exibida, clique no ícone **Menu** no canto superior esquerdo do Visualizador de Provas da Web.
@@ -103,9 +108,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td>Nenhum alerta de email é enviado.<br><p>Essa configuração é útil para uma pessoa que é adicionada a uma prova somente para fins de referência e não precisa ser notificada de qualquer alteração.</p><p>Observação: <p>Essa opção desativa apenas alertas de email sobre comentários e decisões de prova; não desativa os alertas de email que você pode receber sobre o fluxo de uma prova, como o email Nova prova ou Prova atrasada. Para obter mais informações, consulte os seguintes artigos: </p>
         <ul>
          <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md" class="MCXref xref">Novo email de prova</a></li>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md" class="MCXref xref">O email da nova versão</a></li>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md" class="MCXref xref">Email de prova tardia</a></li>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">O email de prova</a></li>
+         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md" class="MCXref xref">Email de Nova versão</a></li>
+         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md" class="MCXref xref">Email de prova atrasado</a></li>
+         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">Email de prova criada</a></li>
         </ul></p></td> 
      </tr> 
     </tbody> 

@@ -2,26 +2,31 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
-title: Diferenças entre o Visualizador de provas da Web e a visão geral do Visualizador de provas do desktop
+title: Diferenças entre o visualizador de provas para web e a visão geral do visualizador de provas para desktop
 description: Saiba mais sobre as diferenças entre os visualizadores de desktop e de prova na web.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+TQID: https://experienceleague.adobe.com/5wUR3OHvmgjQmRtvt85iax2gbY0rC0yWsLzuLULia3M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 0%
+source-wordcount: 872
+ht-degree: 9%
 
 ---
 
-# Diferenças entre o Visualizador de provas da Web e a visão geral do Visualizador de provas do desktop
+# Diferenças entre o visualizador de provas para web e a visão geral do visualizador de provas para desktop
 
 O Adobe Workfront fornece dois revisores de prova diferentes:
 
 * **Visualizador de Provas da Web:** Projetado principalmente para provas de arquivos estáticos e de vídeo. É executado no Google Chrome, Firefox ou Safari.
 * **Visualizador de Revisão de Texto para Desktop:** Projetado para revisar arquivos interativos, assim como arquivos estáticos e de vídeo. É executado como um aplicativo independente na estação de trabalho. Para obter mais informações, consulte [Entender o Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
-* Se sua organização não puder usar o aplicativo Visualizador de provas de desktop por motivos de segurança, o administrador do Workfront poderá configurar seu sistema para que você possa revisar o conteúdo interativo, incluído em um arquivo ZIP, no Visualizador de provas de web. Para obter mais informações, consulte  [Configurar provas de conteúdo interativas no Visualizador de Provas da Web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* Se sua organização não puder usar o aplicativo Visualizador de provas de desktop por motivos de segurança, o administrador do Workfront poderá configurar seu sistema para que você possa revisar o conteúdo interativo, incluído em um arquivo ZIP, no Visualizador de provas de web. Para obter mais informações, consulte [Configurar prova de conteúdo interativa no Visualizador de Provas da Web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
 A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser usado para revisar determinados tipos de conteúdo:
 
@@ -34,17 +39,17 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
 
 | **Recurso** | **Visualizador de Provas da Web** | **Visualizador de Revisores de Texto para Desktop** |
 |---|---|---|
-| Abrir provas estáticas | ✓ µ | ✓ ➡&#42; |
-| Visualizações únicas, de revista e contínuas | ✓ µ | ✓ ➡&#42; |
-| Panorâmica | ✓ µ | ✓ ➡&#42; |
-| Zoom | ✓ µ | ✓ ➡&#42; |
-| Girar | ✓ µ | ✓ ➡&#42; |
-| Ferramenta de medição | ✓ ➡ (definir uma área com tamanho personalizado) | ✓ ➡&#42; |
-| Exibição em miniatura | ✓ µ | ✓ ➡&#42; |
-| Navegador de prova estática | ✓ µ | ✓ ➡&#42; |
-| Pesquisa de documentos | ✓ µ | ✓ ➡&#42; |
-| Comentário do Post em várias páginas | ✓ (disponível em todas as exibições) | ✓ ➡&#42; (disponível em todas as exibições) |
-| Atalhos de prova estáticos avançados | ✓ (para obter mais informações, consulte [Atalhos de teclado no visualizador de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓ ➡&#42;(para obter mais informações, consulte [Atalhos de teclado no visualizador de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
+| Abrir provas estáticas | ✓ | ✓&#42; |
+| Visualizações únicas, de revista e contínuas | ✓ | ✓&#42; |
+| Panorâmica | ✓ | ✓&#42; |
+| Zoom | ✓ | ✓&#42; |
+| Girar | ✓ | ✓&#42; |
+| Ferramenta de medição | ✓ (definir uma área com tamanho personalizado) | ✓&#42; |
+| Exibição em miniatura | ✓ | ✓&#42; |
+| Navegador de prova estática | ✓ | ✓&#42; |
+| Pesquisa de documentos | ✓ | ✓&#42; |
+| Publicar comentário em várias páginas | ✓ (disponível em todas as exibições) | ✓&#42; (disponível em todas as exibições) |
+| Atalhos de prova estáticos avançados | ✓ (para obter mais informações, consulte [Atalhos de teclado no visualizador de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(para obter mais informações, consulte [Atalhos de teclado no visualizador de revisões](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
 {style="table-layout:auto"}
 
@@ -54,16 +59,16 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
 
 | **Recurso**  | **Visualizador de Provas da Web** | **Visualizador de Revisores de Texto para Desktop** |
 |---|---|---|
-| Abrir provas de vídeo | ✓ µ | ✓ ➡&#42; |
-| Buffering | ✓ µ | ✓ ➡&#42; |
-| Revisar usando o tempo | ✓ µ | ✓ ➡&#42; |
-| Revisar usando quadros ou código de tempo | ✓ µ | ✓ ➡&#42; |
-| Revisar mais rápido ou mais lento | ✓ µ | ✓ ➡&#42; |
-| Regulação de volume | ✓ µ | ✓ ➡&#42;  |
-| modo de tela cheia | ✓ µ | ✓ ➡&#42;  |
-| Comentários de intervalo | ✓ µ | ✓ ➡&#42;  |
-| Executar provas de vídeo em loop (os vídeos são concluídos e iniciados automaticamente) | ✓ µ | ✓ ➡&#42;  |
-| Atalhos de vídeo avançados | ✓ (para obter mais informações, consulte [Atalhos de teclado no visualizador de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓ ➡&#42;  |
+| Abrir provas de vídeo | ✓ | ✓&#42; |
+| Buffering | ✓ | ✓&#42; |
+| Revisar usando o tempo | ✓ | ✓&#42; |
+| Revisar usando quadros ou código de tempo | ✓ | ✓&#42; |
+| Revisar mais rápido ou mais lento | ✓ | ✓&#42; |
+| Regulação de volume | ✓ | ✓&#42;  |
+| modo de tela cheia | ✓ | ✓&#42;  |
+| Comentários de intervalo | ✓ | ✓&#42;  |
+| Executar provas de vídeo em loop (os vídeos são concluídos e iniciados automaticamente) | ✓ | ✓&#42;  |
+| Atalhos de vídeo avançados | ✓ (para obter mais informações, consulte [Atalhos de teclado no visualizador de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
 {style="table-layout:auto"}
 
@@ -73,12 +78,12 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
 
 | **Recurso**  | **Visualizador de Provas da Web** | **Visualizador de Revisores de Texto para Desktop** |
 |---|---|---|
-| Abrir provas interativas criadas a partir de conteúdo agrupado em um arquivo ZIP | ✓ µ | ✓ ➡ (recomendado) |
-| Abrir uma prova interativa criada a partir de um URL | Não suportado | ✓ µ |
-| Exibir provas interativas (criadas a partir do conteúdo agrupado em um arquivo ZIP) em vários tamanhos de tela | ✓ µ | ✓ µ |
-| Visualizar provas interativas (criadas a partir de conteúdo agrupado em um arquivo ZIP) para vários dispositivos | Não suportado | ✓ µ |
-| Revisar sites não seguros (HTTP) | Não suportado | ✓ µ |
-| Revisar sites protegidos pelo iFrame (sites protegidos contra visualização em um iFrame) | Não suportado | ✓ µ |
+| Abrir provas interativas criadas a partir de conteúdo agrupado em um arquivo ZIP | ✓ | ✓ (recomendado) |
+| Abrir uma prova interativa criada a partir de um URL | Incompatível | ✓ |
+| Exibir provas interativas (criadas a partir do conteúdo agrupado em um arquivo ZIP) em vários tamanhos de tela | ✓ | ✓ |
+| Visualizar provas interativas (criadas a partir de conteúdo agrupado em um arquivo ZIP) para vários dispositivos | Incompatível | ✓ |
+| Revisar sites não seguros (HTTP) | Incompatível | ✓ |
+| Revisar sites protegidos pelo iFrame (sites protegidos contra visualização em um iFrame) | Incompatível | ✓ |
 
 {style="table-layout:auto"}
 
@@ -92,39 +97,39 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
   <tr> 
    <th>Recurso</th> 
    <th>Visualizador de provas da web </th> 
-   <th>Visualizador de provas de desktop </th> 
+   <th>Visualizador de revisão para desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>Adicionar, excluir e editar comentários</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Adicionar e excluir respostas</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Ferramentas de marcação de retângulo, seta, linha, à mão livre e realce</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Ferramenta Poligonal</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Ferramentas de marcação da máscara de corte</p> </td> 
-   <td>Não suportado</td> 
-   <td>Não suportado</td> 
+   <td>Incompatível</td> 
+   <td>Incompatível</td> 
   </tr> 
   <tr> 
    <td> <p>Ferramenta Marcação de seleção de texto</p> </td> 
-   <td>✓ µ Somente provas estáticas</td> 
-   <td>✓ µ Somente provas estáticas</td> 
+   <td>✓ Apenas provas estáticas</td> 
+   <td>✓ Apenas provas estáticas</td> 
   </tr> 
   <tr> 
    <td> <p>Alterar cor de marcação</p> </td> 
@@ -133,63 +138,63 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
   </tr> 
   <tr> 
    <td> <p>Alterar opacidade da marcação</p> </td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Alterar espessura da marcação</p> </td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Recortar, copiar e colar marcações</p> </td> 
-   <td> Não suportado</td> 
-   <td> Não suportado</td> 
+   <td> Incompatível</td> 
+   <td> Incompatível</td> 
   </tr> 
   <tr> 
    <td> <p>Desfazer e refazer a última operação</p> </td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Marcações duplicadas</p> </td> 
-   <td> Não suportado</td> 
-   <td> Não suportado</td> 
+   <td> Incompatível</td> 
+   <td> Incompatível</td> 
   </tr> 
   <tr> 
    <td>Definir ações como comentários</td> 
-   <td>✓ (As ações ficam visíveis nos comentários imediatamente após a definição da ação)</td> 
-   <td>✓ µ</td> 
+   <td>✓ (As ações estão visíveis nos comentários imediatamente após a ação ser definida)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Definir cor de marcação como padrão</p> </td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Resolver comentários</p> </td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Bloquear comentários</p> </td> 
-   <td>Não suportado</td> 
-   <td> Não suportado</td> 
+   <td>Incompatível</td> 
+   <td> Incompatível</td> 
   </tr> 
   <tr> 
    <td> <p>Marcar usuários</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Retomar comentários</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Exibir a lista de comentários em uma exibição compacta</p> </td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Exibir a lista de comentários em uma visualização padrão, completa ou única</p> </td> 
@@ -198,38 +203,38 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
   </tr> 
   <tr> 
    <td> <p>Pesquisar comentários</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Filtrar comentários por usuário</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Filtrar comentários e respostas por usuário</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Classificar comentários</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Atualizações automáticas de comentário</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Decisões
 
-| Recurso | Visualizador de provas da web | Visualizador de provas de desktop |
+| Recurso | Visualizador de provas da web | Visualizador de revisão para desktop |
 |---|---|---|
-| Tomar decisões | ✓ µ | ✓ µ |
-| Personalizar decisões | ✓ µ | ✓ µ |
+| Tomar decisões | ✓ | ✓ |
+| Personalizar decisões | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -243,19 +248,19 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
   <tr> 
    <th>Recurso</th> 
    <th>Visualizador de provas da web </th> 
-   <th>Visualizador de provas de desktop </th> 
+   <th>Visualizador de revisão para desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Comparar diferentes versões de provas</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ<br></td> 
+   <td>✓</td> 
+   <td>✓<br></td> 
   </tr> 
   <tr> 
    <td>Comparar provas separadas</td> 
-   <td> ✓ µ </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> ✓ </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -270,14 +275,14 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
   <tr> 
    <th>Recurso</th> 
    <th>Visualizador de provas da web </th> 
-   <th>Visualizador de provas de desktop </th> 
+   <th>Visualizador de revisão para desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Alterar a versão da prova </td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td>Criar uma nova versão</td> 
@@ -286,53 +291,53 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
   </tr> 
   <tr> 
    <td>Revisar detalhes da prova </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Revisar fluxos de trabalho de prova</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Editar estágios de fluxo de trabalho</td> 
-   <td>Não suportado</td> 
-   <td>Não suportado</td> 
+   <td>Incompatível</td> 
+   <td>Incompatível</td> 
   </tr> 
   <tr> 
    <td>Compartilhar provas</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Obter URL da equipe</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Alterar notificações por email</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ</td> 
+   <td>✓ </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Baixar arquivo original</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Bloquear e desbloquear provas e estágios</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Imprimir resumo da prova</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Excluir provas</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Gerenciar provas na mesma pasta</td> 
@@ -341,13 +346,13 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
   </tr> 
   <tr> 
    <td>Marcas (logotipos personalizados)</td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ<br>(Logotipo do Workfront na página de lançamento) </td> 
+   <td>✓</td> 
+   <td> ✓<br>(Logotipo Workfront na página de lançamento) </td> 
   </tr> 
   <tr> 
    <td>Links personalizados (somente Workfront Proof)</td> 
-   <td>Não suportado</td> 
-   <td> Não suportado </td> 
+   <td>Incompatível</td> 
+   <td> Incompatível </td> 
   </tr> 
   <tr> 
    <td>Integrações do basecamp (somente Workfront Proof) </td> 
@@ -356,13 +361,13 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
   </tr> 
   <tr> 
    <td>Indicador de presença </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Atualizações automáticas de prova (alterações de permissão e novas versões)</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ </td> 
+   <td>✓</td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -371,7 +376,7 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
 
 | **Recurso**  | **Visualizador de Provas da Web**  | **Visualizador de Revisores de Texto para Desktop** |
 |---|---|---|
-| Código incorporado | Planejado para o futuro para provas de vídeo estáticas e nativas | Não suportado  |
+| Código incorporado | Planejado para o futuro para provas de vídeo estáticas e nativas | Incompatível  |
 
 {style="table-layout:auto"}
 
@@ -391,8 +396,8 @@ A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser
  <tbody> 
   <tr> 
    <td>Idiomas de suporte diferentes do inglês</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ<br></td> 
+   <td>✓</td> 
+   <td>✓<br></td> 
   </tr> 
  </tbody> 
 </table>

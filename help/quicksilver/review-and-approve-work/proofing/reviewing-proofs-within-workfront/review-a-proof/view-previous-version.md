@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Exibir versões de prova anteriores no visualizador de provas
+title: Visualizar versões anteriores de provas no visualizador de provas
 description: É possível exibir uma versão anterior de uma prova, se existir. As versões anteriores são bloqueadas por padrão. Não é possível adicionar comentários ou alterar uma decisão em uma versão bloqueada.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 9416a3ee-2812-4a25-af38-2c5daeaeef07
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/OOioWEV0JX5BwXDQGubtk77s6bQxv8R-YygvNy3YM1U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: 253
+ht-degree: 24%
 
 ---
 
-# Exibir versões de prova anteriores no visualizador de provas
+# Visualizar versões anteriores de provas no visualizador de provas
 
 É possível exibir uma versão anterior de uma prova, se existir. As versões anteriores são bloqueadas por padrão. Não é possível adicionar comentários ou alterar uma decisão em uma versão bloqueada.
 
@@ -23,7 +28,7 @@ ht-degree: 1%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +61,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Exibir versões de prova anteriores no visualizador de provas
+## Visualizar versões anteriores de provas no visualizador de provas
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Encontre a prova necessária e clique em **Abrir prova**.

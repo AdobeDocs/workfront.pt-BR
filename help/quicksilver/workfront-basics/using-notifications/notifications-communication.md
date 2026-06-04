@@ -1,19 +1,23 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notificações: Comunicação'
+title: 'Notificações: comunicação'
 description: As notificações a seguir alertam você sobre a comunicação, como um comentário atualizado, que acontece em um item de trabalho com o qual você está envolvido. Para obter informações sobre como configurar as notificações recebidas, consulte Modificar suas próprias notificações por email.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/u5d9-5-2VWQLfRUKea2ca86vgMbFcVkZkbGqiaA-keA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 0%
+source-wordcount: 1492
+ht-degree: 1%
 
 ---
 
-# Notificações: Comunicação
+# Notificações: comunicação
 
 As notificações a seguir alertam você sobre a comunicação, como um comentário atualizado, que acontece em um item de trabalho com o qual você está envolvido. Para obter informações sobre como configurar as notificações recebidas, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -71,7 +75,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Alguém comentou um dos meus itens de trabalho</strong> </p> <p>O destinatário do item de trabalho recebe uma notificação por email sempre que um usuário adiciona uma atualização a um item de trabalho, a menos que o usuário que adiciona a atualização também seja o destinatário. </p> <p>Quando um comentário for postado em uma solicitação, envie um email para o contato principal do problema.</p> <p>O contato principal de um problema recebe uma notificação por email quando um comentário é postado em uma solicitação, a menos que o usuário que postou o comentário também seja o contato principal do problema.</p> <p>Todos os usuários incluídos diretamente no comentário também recebem uma notificação por email.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Comentário sobre] &lt;Nome do Item de Trabalho&gt; em &lt;Nome do Projeto (ref# &lt;Número de Referência do Item de Trabalho&gt;)</em></p> <p> O assunto da notificação de resumo diário é:<em> [!UICONTROL Resumo da Comunicação] &lt;Data do resumo diário&gt;</em></p> </td> 
-   <td> Nome do Item de Trabalho<br>Nome do Projeto<br>Número de Referência do Item de Trabalho<br>Nome do usuário que comentou o Item de Trabalho<br>Texto do comentário feito no Item de Trabalho<br>Data e Hora em que o comentário foi feito<br>*Número total de comentários recebidos<br>*Número de comentários recebidos para cada objeto<br>*Nome do Projeto<br>*<strong>[!UICONTROL Ver Todas as Notificações]</strong>*Data do resumo diário<br> </td> 
+   <td> Nome do Item de Trabalho<br>Nome do Projeto<br>Número de Referência do Item de Trabalho<br>Nome do usuário que comentou o Item de Trabalho<br>Texto do comentário feito no Item de Trabalho<br>Data e Hora em que o comentário foi feito<br>*Número total de comentários recebidos<br>*Número de comentários recebidos para cada objeto<br>*Nome do Projeto<br>*<strong>[!UICONTROL Ver Todas as Notificações]</strong>*Data do resumo diário <br></td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 

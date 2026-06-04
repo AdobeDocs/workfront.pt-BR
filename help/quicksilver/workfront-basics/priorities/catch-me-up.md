@@ -6,14 +6,19 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+TQID: https://experienceleague.adobe.com/mBMWgWWwrY4CufE8bc9yyV4PnNGdzvaOv8cbcCURp1w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 4%
+source-wordcount: 176
+ht-degree: 27%
 
 ---
 
-# Recuperar o trabalho nas prioridades
+# Recuperar o trabalho em Prioridades
 
 Capturar-me—ativado pelo Assistente de IA da Workfront—resume atualizações, documentos carregados e outras alterações importantes sobre seus projetos dentro dos seguintes prazos: 24 horas, 3 dias, 7 dias. Isso ajuda a reduzir a quantidade de tempo que procura informações sobre projetos ativos.
 
@@ -23,7 +28,7 @@ Capturar-me—ativado pelo Assistente de IA da Workfront—resume atualizações
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +40,12 @@ Capturar-me—ativado pelo Assistente de IA da Workfront—resume atualizações
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</td>
+   <td><p>Padrão</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,10 +6,16 @@ description: Cada widget contém sua própria lista de trabalho. As listas de tr
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+TQID: https://experienceleague.adobe.com/fITdY6-HlQ-4527-RiI9m52-Kg3nRUxsk32vjpw-A-g
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 4%
+source-wordcount: 990
+ht-degree: 7%
 
 ---
 
@@ -26,7 +32,7 @@ Cada widget contém sua própria lista de trabalho. As listas de trabalho exibem
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,7 +111,7 @@ Para filtrar o trabalho:
 1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar um dos seguintes widgets:
 
-   | Dispositivo | Descrição |
+   | Widget | Descrição |
    |--------------|---------------------------------------------------------------------------------------------------|
    | Quadros | Exibe todos os painéis que você criou ou que foi convidado a usar |
    | Meu trabalho | Exibe tarefas e problemas atribuídos a você |
@@ -132,7 +138,7 @@ Para agrupar a lista de trabalho:
 1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar um dos seguintes widgets:
 
-   | Dispositivo | Descrição |
+   | Widget | Descrição |
    |--------------|---------------------------------------------------------------------------------------------------|
    | Quadros | Exibe todos os painéis que você criou ou que foi convidado a usar |
    | Meu trabalho | Exibe tarefas e problemas atribuídos a você |
@@ -154,7 +160,7 @@ Você pode escolher quais colunas aparecerão na lista de trabalho do widget:
 1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar um dos seguintes widgets:
 
-   | Dispositivo | Descrição |
+   | Widget | Descrição |
    |--------------|---------------------------------------------------------------------------------------------------|
    | Quadros | Exibe todos os painéis que você criou ou que foi convidado a usar |
    | Meu trabalho | Exibe tarefas e problemas atribuídos a você |

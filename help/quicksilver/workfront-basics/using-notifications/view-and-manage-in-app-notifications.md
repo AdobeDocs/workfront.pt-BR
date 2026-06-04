@@ -1,18 +1,23 @@
 ---
 navigation-topic: notifications
-title: Exibir e gerenciar notificações no aplicativo
+title: Visualizar e gerenciar notificações no aplicativo
 description: 'As Notificações no aplicativo mantêm você informado sobre dois tipos de informações: notificações de anúncio e notificações de item de trabalho. Eles estão disponíveis no aplicativo web e no aplicativo móvel.'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/2PxHbwQ0pfjUTIThm5ATGXl4IKPZFV8pQeL8s9waOOw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 0%
+source-wordcount: 986
+ht-degree: 4%
 
 ---
 
-# Exibir e gerenciar notificações no aplicativo
+# Visualizar e gerenciar notificações no aplicativo
 
 As Notificações no aplicativo mantêm você informado sobre dois tipos de informações: notificações de anúncio e notificações de item de trabalho. Eles estão disponíveis no aplicativo web e no aplicativo móvel.
 
@@ -28,7 +33,7 @@ Para obter uma lista do item de trabalho e notificações de comunicado que voc�
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +48,8 @@ Para obter uma lista do item de trabalho e notificações de comunicado que voc�
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
    <td> 
-   <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p> </td> 
+   <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
  </tbody> 
 </table>

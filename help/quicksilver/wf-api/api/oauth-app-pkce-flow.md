@@ -7,14 +7,19 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/qBZFtRLkYCfnIVzOvX4ygc-KiAsJ9R9445hRsCF--G8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 0%
+source-wordcount: 817
+ht-degree: 2%
 
 ---
 
-# Configure e use os aplicativos OAuth 2 personalizados de sua organização usando o fluxo PKCE
+# Configurar e usar os aplicativos OAuth 2 personalizados da sua organização usando o fluxo PKCE
 
 O PKCE é um fluxo de autorização seguro que funciona bem com a atualização dinâmica de aplicativos, como aplicativos móveis, mas é valioso em todos os clientes OAuth2. Em vez de um segredo de cliente estático, o PKCE usa uma string gerada dinamicamente, eliminando o risco de um segredo de cliente vazado.
 

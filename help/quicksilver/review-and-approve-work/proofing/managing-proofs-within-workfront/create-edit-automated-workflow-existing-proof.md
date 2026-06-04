@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Criar ou editar um Fluxo de trabalho automatizado para uma prova existente
+title: Criar ou editar um fluxo de trabalho automatizado de uma prova existente
 description: Os fluxos de trabalho automatizados facilitam o gerenciamento do processo de revisão se ele for complexo ou se você enviar conteúdo regularmente para revisão para os mesmos grupos de pessoas. Ao criar uma prova com um fluxo de trabalho automatizado, a prova é movida de estágio para estágio até a aprovação final. Os participantes são notificados quando é a vez de revisar o documento.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/-DB-GcrMJXtRFlMwPnH6yTfoN7MMy1-9Q1weey8U6r4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 1%
+source-wordcount: 1149
+ht-degree: 6%
 
 ---
 
-# Criar ou editar um Fluxo de trabalho automatizado para uma prova existente
+# Criar ou editar um fluxo de trabalho automatizado de uma prova existente
 
 Os fluxos de trabalho automatizados facilitam o gerenciamento do processo de revisão se ele for complexo ou se você enviar conteúdo regularmente para revisão para os mesmos grupos de pessoas. Ao criar uma prova com um fluxo de trabalho automatizado, a prova é movida de estágio para estágio até a aprovação final. Os participantes são notificados quando é a vez de revisar o documento.
 
@@ -21,7 +26,7 @@ Para obter informações sobre como criar um fluxo de trabalho automatizado para
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +39,7 @@ Para obter informações sobre como criar um fluxo de trabalho automatizado para
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Trabalho ou Plano</p>
    </td> 
   </tr> 
@@ -178,4 +183,4 @@ Considere o seguinte ao adicionar revisores a um estágio:
 * Os revisores que não são adicionados a um estágio privado não podem ver esse estágio na prova ou nos comentários feitos nesse estágio.
 * Por padrão, adicionar um usuário a um estágio concede a ele acesso para visualizar a prova a partir do momento em que a prova é criada.
 
-  O administrador do Workfront pode impedir que os usuários acessem a prova até que o fluxo de trabalho entre no estágio em que o usuário foi adicionado. Para obter mais informações, consulte  em .
+  O administrador do Workfront pode impedir que os usuários acessem a prova até que o fluxo de trabalho entre no estágio em que o usuário foi adicionado. Para obter mais informações, consulte em .

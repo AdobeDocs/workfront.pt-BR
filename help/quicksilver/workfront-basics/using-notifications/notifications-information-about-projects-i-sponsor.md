@@ -1,19 +1,22 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notificações: Informações sobre projetos que eu patrociono'
+title: 'Notificações: informações sobre projetos que patrocino'
 description: As notificações a seguir alertam sobre atividades que ocorrem em um projeto que você está patrocinando.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/J3pTBQe0mePli1bPtY3pdXm0iPhAKlSLqzlYeABiplU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 0%
+source-wordcount: 1254
+ht-degree: 1%
 
 ---
 
-# Notificações: Informações sobre projetos que eu patrociono
+# Notificações: informações sobre projetos que patrocino
 
 As notificações a seguir alertam sobre atividades que ocorrem em um projeto que você está patrocinando.
 
@@ -45,7 +48,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Quando um projeto for alterado de uma status positiva de progresso (no prazo) para uma status negativa de progresso (em atraso)</strong>, enviar email para o patrocinador do projeto </p> <p>O Patrocinador do projeto recebe uma notificação por email quando o projeto atrasa o agendamento. "Um projeto está atrasado no agendamento quando o Status de Progresso é "[!UICONTROL Em Risco]" ou "[!UICONTROL Com Problemas]"."</p> <p>Os usuários com uma licença de [!UICONTROL Review] não recebem uma notificação.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Alteração de Progresso do Projeto]: &lt;Nome do Projeto&gt;</em></p> <p>O assunto da notificação de resumo diário é: <em>[!UICONTROL Resumo dos Projetos que Você Patrocinou] &lt;Data do resumo diário&gt;</em></p> </td> 
-   <td> Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status de Progresso do Projeto<br>Data de Início Planejada do Projeto <br>Data de Término Planejada do Projeto <br>Projeto [!UICONTROL Data de Início Projetada]<br>Projeto [!UICONTROL Data de Término Projetada]<br>Percentual de Término do Projeto<br>Status do Projeto<br>Proprietário do Projeto<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status de Progresso do Projeto<br> diário do Projeto resumo </td> 
+   <td> Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status de Progresso do Projeto<br>Data de Início Planejada do Projeto [!UICONTROL]<br>Data de Término Planejada do Projeto [!UICONTROL]<br>Projeto [!UICONTROL Data de Início Projetada]<br>Projeto [!UICONTROL Data de Término Projetada]<br>Percentual de Término do Projeto<br>Status do Projeto<br>Proprietário do Projeto<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status de Progresso do Projeto<br> diário do Projeto resumo </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 

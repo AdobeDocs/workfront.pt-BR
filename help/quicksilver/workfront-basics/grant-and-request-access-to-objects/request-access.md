@@ -6,10 +6,16 @@ description: A visibilidade dos objetos no Adobe Workfront depende do seu acesso
 author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+TQID: https://experienceleague.adobe.com/PVwnZ-nB7hftkdmH-xs5YmuD4Iv13-EBAUfn-BuS-fw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 1%
+source-wordcount: 1343
+ht-degree: 5%
 
 ---
 
@@ -36,7 +42,7 @@ Você pode solicitar acesso inicial a objetos se alguém compartilhar um link pa
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,8 +54,8 @@ Você pode solicitar acesso inicial a objetos se alguém compartilhar um link pa
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> 
    </td> 
   </tr> 
   <tr> 
@@ -59,7 +65,7 @@ Você pode solicitar acesso inicial a objetos se alguém compartilhar um link pa
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

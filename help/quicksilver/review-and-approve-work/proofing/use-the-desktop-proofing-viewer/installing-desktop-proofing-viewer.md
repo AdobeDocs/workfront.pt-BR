@@ -1,19 +1,24 @@
 ---
 product-area: documents;setup
 navigation-topic: use-the-desktop-proofing-viewer
-title: Instale o Visualizador de provas de desktop
+title: Instalar o visualizador de provas para desktop
 description: O Desktop Proofing Viewer, projetado principalmente para revisar conteúdo interativo, é um aplicativo que deve ser instalado em sua máquina local.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/PDjYArZxxpPs5nMfep6p6F4IO4cF-z4X3HYMvExK1oo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 0%
+source-wordcount: 579
+ht-degree: 7%
 
 ---
 
-# Instale o Visualizador de provas de desktop
+# Instalar o visualizador de provas para desktop
 
 <!--Audited: 12/2023-->
 
@@ -30,7 +35,7 @@ Este aplicativo é compatível com os seguintes sistemas operacionais:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 
 <table style="table-layout:auto"> 
@@ -48,7 +53,7 @@ Este aplicativo é compatível com os seguintes sistemas operacionais:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -8,13 +8,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/7ozt2OXI0CWlPmtkJGlaD-n6pekapA0X-GBpwDhFZ4Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 0%
+source-wordcount: 478
+ht-degree: 2%
 
 ---
-
 
 # Uso da API para sincronizar dados de programas e serviços
 
@@ -26,7 +30,7 @@ O Adobe Workfront usa &quot;Assinaturas de eventos&quot; (também comumente cham
 
 ## Atualizações em lote
 
-As atualizações em lote são uma maneira de configurar o sistema para atualizações, fazendo solicitações periódicas aos servidores do Workfront. Há várias maneiras de fazer isso, mas geralmente o processo consiste em fazer com que seu serviço faça uma solicitação aos servidores de API do Workfront e procure objetos que foram criados ou modificados desde a última chamada de solicitação. GET Para obter informações sobre chamadas de solicitações potenciais e parâmetros úteis, consulte a seção [Comportamento](../../wf-api/general/api-basics.md#get-behavior) do artigo [noções básicas sobre API](../../wf-api/general/api-basics.md).
+As atualizações em lote são uma maneira de configurar o sistema para atualizações, fazendo solicitações periódicas aos servidores do Workfront. Há várias maneiras de fazer isso, mas geralmente o processo consiste em fazer com que seu serviço faça uma solicitação aos servidores de API do Workfront e procure objetos que foram criados ou modificados desde a última chamada de solicitação. Para obter informações sobre possíveis chamadas de solicitação e parâmetros úteis, consulte a seção [Comportamento de GET](../../wf-api/general/api-basics.md#get-behavior) do artigo [noções básicas sobre API](../../wf-api/general/api-basics.md).
 
 Ao configurar seu serviço para atualizações em lote, lembre-se das seguintes informações importantes:
 
@@ -42,7 +46,7 @@ As datas de entrada são armazenadas utilizando a formatação ISO 8601. Esse pa
 
 Tanto a data em que um objeto é criado quanto a última data em que o objeto foi modificado são armazenadas como &quot;entryDate&quot; e &quot;lastUpdateDate&quot;, respectivamente. Para obter informações detalhadas sobre objetos Workfront, seus campos associados e nomes de campo, consulte o [API Explorer](../../wf-api/general/api-explorer.md). Observe que a entryDate de um determinado objeto do Workfront não é alterada, enquanto a lastUpdatedDate é alterada sempre que o objeto é modificado.
 
-**Exemplo:** GET para um objeto de problema, utilizando o campo **lastUpdateDate**. Essa solicitação retornaria todos os problemas atualizados desde a data especificada.
+**Exemplo:** solicitação GET para um objeto de problema, utilizando o campo **lastUpdateDate**. Essa solicitação retornaria todos os problemas atualizados desde a data especificada.
 
 <!-- [Copy](javascript:void(0);) -->
  

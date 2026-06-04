@@ -6,10 +6,15 @@ description: Com um fluxo de trabalho básico, é possível incluir vários revi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/xv-t9JjvYQvYv15ZV8wYPzBHFybKGU8J572demN1EPg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 4%
+source-wordcount: 1725
+ht-degree: 5%
 
 ---
 
@@ -21,7 +26,7 @@ Com um fluxo de trabalho básico, é possível incluir vários revisores em uma 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +41,7 @@ Com um fluxo de trabalho básico, é possível incluir vários revisores em uma 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
     <p>Trabalho ou Plano</p> </td> 
   </tr> 
   <tr> 
@@ -333,7 +338,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
        </ul><p>
         <ul>
          <li><strong>Acesso de prova via link de email necessário para:</strong> Configure se o assinante receberá um email com um link para a prova. Você pode selecionar <strong>Nenhum email</strong> (o link do email não é necessário para acessar a prova), <strong>Somente email de notificação de prova</strong> (o assinante recebe um link para a prova por email sem qualquer verificação) ou <strong>Emails de notificação de validação e prova</strong> (o assinante recebe um link para a prova por email e deve clicar no link para acessar uma prova; a finalidade dessa opção é garantir que a pessoa tenha inserido um endereço de email correto ao qual tem acesso).</li>
-        </ul><p>Nota:  Se as provas tiverem o Fluxo de trabalho automatizado anexado, todas as assinaturas gerarão emails de confirmação para os Proprietários da prova, para que eles possam decidir em qual estágio a pessoa deve ser adicionada.<br></p></p></td> 
+        </ul><p>Observação: se as provas tiverem o Fluxo de trabalho automatizado anexado, todas as assinaturas gerarão emails de confirmação para os Proprietários da prova, para que eles possam decidir em qual estágio a pessoa deve ser adicionada.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>

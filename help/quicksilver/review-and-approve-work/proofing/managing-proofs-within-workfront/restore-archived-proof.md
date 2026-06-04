@@ -6,10 +6,15 @@ description: Uma prova é arquivada automaticamente quando não for aberta por 6
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/TJXD4jA-Hzny1e0NG-7ZuwJOGrkFIKwjYIGgFS0Obvc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 0%
+source-wordcount: 164
+ht-degree: 25%
 
 ---
 
@@ -19,7 +24,7 @@ Uma prova é arquivada automaticamente quando não for aberta por 60 dias consec
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 

@@ -1,19 +1,25 @@
 ---
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
-title: Conceder acesso a objetos na área Página inicial
+title: Conceder acesso a objetos na área da Página inicial
 description: Os usuários podem solicitar acesso a objetos no Adobe Workfront. Para obter mais informações sobre como solicitar acesso, consulte Solicitar acesso a objetos .
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/XBAiNe19HTNr8Zq0QUGg3S3CQhrlCa0hDPQ2hIYoK9U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 1%
+source-wordcount: 486
+ht-degree: 15%
 
 ---
 
-# Conceder acesso a objetos na área Página inicial
+# Conceder acesso a objetos na área da Página inicial
 
 <!--Audited: 10/2024-->
 
@@ -25,7 +31,7 @@ Se você for o proprietário de um objeto, poderá conceder ou negar acesso aos 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,8 +43,8 @@ Se você for o proprietário de um objeto, poderá conceder ou negar acesso aos 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p>
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,15 +58,15 @@ Se você for o proprietário de um objeto, poderá conceder ou negar acesso aos 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Conceder acesso a objetos na área Página inicial
+## Conceder acesso a objetos na área da Página inicial
 
 1. Clique no **Menu principal** ![](assets/dots-main-menu.png) no canto superior direito da tela ou no **Menu principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida clique em **Página inicial**
 Ou
-Clique no ícone **da** Página inicial![](assets/home-icon-30x29.png), no canto superior esquerdo da Adobe Workfront.
+Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >

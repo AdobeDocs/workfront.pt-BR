@@ -1,15 +1,18 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Ser um testador beta do iOS
+title: Seja um testador beta do iOS
 description: Leia este artigo para se tornar um testador beta do iOS para o  [!DNL Adobe Workfront] aplicativo móvel.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/HUw6I8SHhD7iM9l4l0XIBDeG6g26cNy54-3BKQL9mHw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 0%
+source-wordcount: 442
+ht-degree: 1%
 
 ---
 
@@ -41,7 +44,7 @@ Para instalar a versão beta do aplicativo [!DNL Workfront], você precisa ter o
 1. Toque em **[!UICONTROL Aceitar]** para aceitar os Termos e Condições do aplicativo [!DNL TestFlight].\
    O aplicativo [!DNL TestFlight] está instalado em seu dispositivo. Continue para a próxima seção.
 
-#### &#x200B;2. Instale o aplicativo Beta [!DNL Workfront] em [!DNL TestFlight]
+#### &#x200B;2. Instalar o aplicativo Beta [!DNL Workfront] em [!DNL TestFlight]
 
 Você deve ter o aplicativo [!DNL Workfront] e o aplicativo [!DNL TestFlight] instalados em seu dispositivo iOS antes de ser um testador beta em um dispositivo iOS.
 

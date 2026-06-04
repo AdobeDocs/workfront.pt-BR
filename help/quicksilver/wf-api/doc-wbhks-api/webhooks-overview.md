@@ -2,21 +2,25 @@
 content-type: api;overview
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Visão geral do Webhooks
-description: Visão geral do Webhooks
+title: Visão geral de webhooks
+description: Visão geral de webhooks
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/5bBLva-jIjwc953MVjAnwo4y0nABq1N0HGDTIurXk40
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 0%
+source-wordcount: 193
+ht-degree: 4%
 
 ---
 
-
-# Visão geral do Webhooks
+# Visão geral de webhooks
 
 Os Webhooks de documentos do Adobe Workfront definem um conjunto de endpoints de API pelos quais o Workfront faz chamadas de API autorizadas para um Provedor de documentos externo. Isso permite que qualquer pessoa crie um plug-in middleware para qualquer provedor de armazenamento de documentos.
 
@@ -30,7 +34,7 @@ A experiência do usuário para integrações baseadas em webhook será semelhan
 * Fazer upload de arquivos para o provedor de documentos externos
 * Exibir uma miniatura do documento
 
-**Implementação de referência**
+Implementação de referência do ****
 
 Para ajudar a iniciar o desenvolvimento de uma nova implementação de webhooks, o Workfront fornece exemplos de uma implementação de referência. Estes exemplos podem ser encontrados em [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Os exemplos são baseados em Java e permitem que o Workfront conecte documentos em um sistema de arquivos de rede. 
 

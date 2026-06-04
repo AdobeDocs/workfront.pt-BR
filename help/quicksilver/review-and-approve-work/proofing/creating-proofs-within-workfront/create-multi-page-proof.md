@@ -1,25 +1,30 @@
 ---
 product-area: documents
 navigation-topic: create-proofs-within-workfront
-title: Criar uma prova de várias páginas
+title: Criar uma prova com várias páginas
 description: É possível combinar vários arquivos em uma única prova de várias páginas. Os revisores podem usar as ferramentas de navegação no visualizador de provas para navegar pelas páginas em uma prova de várias páginas.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/ftAfhh-z2L4bKJ9l5IErMy8cJ-YASuKcIcjSEJjavcU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: 611
+ht-degree: 9%
 
 ---
 
-# Criar uma prova de várias páginas
+# Criar uma prova com várias páginas
 
 É possível combinar vários arquivos em uma única prova de várias páginas. Os revisores podem usar as ferramentas de navegação no visualizador de provas para navegar pelas páginas em uma prova de várias páginas.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +37,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
     <p>Trabalho ou Plano</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +55,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Criar uma prova de várias páginas
+## Criar uma prova com várias páginas
 
 Quando essa opção está ativada, os arquivos estáticos e os sites ficam disponíveis em uma única prova. Quando essa opção está desativada, todos os documentos e sites são gerados como provas individuais e você pode carregar até 100 arquivos em um determinado momento.
 
@@ -89,4 +94,4 @@ Considere o seguinte ao combinar arquivos em uma única prova:
 * Não é possível combinar arquivos AV e capturas da Web interativas.
 * A imagem da miniatura da prova é retirada da primeira página da prova (consulte [Gerenciar detalhes da prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)).
 * Você pode verificar os nomes dos arquivos que foram combinados para criar a prova na página Detalhes da prova. Para obter mais informações, consulte [Gerenciar detalhes da prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-* Se a opção para baixar os arquivos originais estiver ativada na prova, você poderá baixar todos os arquivos que foram combinados para criar a prova como um arquivo .zip. Para obter mais informações, consulte  [Baixar Arquivos Armazenados no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+* Se a opção para baixar os arquivos originais estiver ativada na prova, você poderá baixar todos os arquivos que foram combinados para criar a prova como um arquivo .zip. Para obter mais informações, consulte [Baixar Arquivos Armazenados no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).

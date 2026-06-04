@@ -1,19 +1,25 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Lembrar aprovadores sobre aprovações enviadas
+title: Lembrar aprovadores sobre as aprovações enviadas
 description: Você pode lembrar os aprovadores sobre aprovações pendentes para objetos no Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+TQID: https://experienceleague.adobe.com/YkKaw84vbUyuzPoQUJiFPE49af5-kI2Tcg1n7vYqBe4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 3%
+source-wordcount: 417
+ht-degree: 14%
 
 ---
 
-# Lembrar aprovadores sobre aprovações enviadas
+# Lembrar aprovadores sobre as aprovações enviadas
 
 Você pode lembrar os aprovadores sobre aprovações pendentes para os seguintes objetos: 
 
@@ -22,7 +28,7 @@ Você pode lembrar os aprovadores sobre aprovações pendentes para os seguintes
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +42,7 @@ Você pode lembrar os aprovadores sobre aprovações pendentes para os seguintes
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
    <p>Contribute ou superior</p>
-   <p>Solicitação ou superior</p>
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
   <tr> 

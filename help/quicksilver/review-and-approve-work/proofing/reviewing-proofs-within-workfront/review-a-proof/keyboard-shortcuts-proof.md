@@ -6,10 +6,13 @@ description: Os atalhos de teclado descritos neste artigo estão disponíveis no
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5a408439-9767-4d68-be04-034f0bce275a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+TQID: https://experienceleague.adobe.com/KaPjGHbES--UPqcVBW9yiZsne-MTeA6Ykcs--UnozWw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 1%
+source-wordcount: 348
+ht-degree: 7%
 
 ---
 
@@ -134,13 +137,13 @@ Os atalhos de teclado descritos neste artigo estão disponíveis no Web Proofing
   </tr> 
   <tr> 
    <td> <p><strong>Mac:</strong> cmd++ <br>Ou <br>cmd+shift+scroll up</p> <p><strong>Windows:</strong> Ctrl++</p> </td> 
-   <td> <p> Mais zoom</p> </td> 
-   <td> <p>Mais zoom </p> </td> 
+   <td> <p> Aumentar o zoom</p> </td> 
+   <td> <p>Aumentar o zoom </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Mac:</strong> cmd+- <br>Ou <br>cmd+shift+scroll para baixo</p> <p><strong>Windows:</strong> Ctrl+-</p> </td> 
-   <td> <p>Menos zoom </p> </td> 
-   <td> <p>Menos zoom</p> </td> 
+   <td> <p>Diminuir o zoom </p> </td> 
+   <td> <p>Diminuir o zoom</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Windows:</strong> Mantenha a barra de espaço pressionada ao arrastar a imagem</p> </td> 

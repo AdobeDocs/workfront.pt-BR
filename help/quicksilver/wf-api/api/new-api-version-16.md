@@ -1,20 +1,26 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades da API versão 16
+title: Novidades na versão 16 da API
 description: O Adobe Workfront lançou a API versão 16 em 6 de abril de 2022. A API versão 16 apresenta as seguintes alterações da versão 15.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: acd1fe5500776b8f16c67b05048a88d0c8107079
+TQID: https://experienceleague.adobe.com/jAxE1NwlHqJRkJg8blCWgkAZI9KDBysb6MMFqFzCu-c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 0%
+source-wordcount: 1256
+ht-degree: 3%
 
 ---
 
-# Novidades da API versão 16
+# Novidades na versão 16 da API
 
 O Adobe Workfront lançou a API versão 16 em 6 de abril de 2023. A API versão 16 apresenta as seguintes alterações da versão 15.
 
@@ -82,7 +88,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 
 ### Aprovação (APPROVAL)
 
-Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de horas, pode exigir que um supervisor ou outro usuário faça logoff no item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
+Um determinado item de trabalho, como uma tarefa, documento ou folha de horas, pode exigir que um supervisor ou outro usuário aprove o item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
 
 <table>
   <col/>
@@ -169,7 +175,7 @@ Um objeto CustomerPreferences representa o conjunto de preferências que um clie
       <td>
         <ul>
           <li>
-            <p><b>nome</b>
+            <p><b>name</b>
             </p>
             <p>Foram adicionados os seguintes valores possíveis:</p>
             <ul>
@@ -514,7 +520,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>
@@ -538,7 +544,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>
@@ -579,7 +585,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>

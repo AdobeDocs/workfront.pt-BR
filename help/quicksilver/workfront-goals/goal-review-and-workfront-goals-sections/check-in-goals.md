@@ -6,11 +6,17 @@ description: Você deve revisar suas metas periodicamente e atualizar o progress
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/lmq3zaiYBN3MVineWzWNJ2KgWbuRRIfA40ybTVW7Y2U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: 644
 ht-degree: 12%
 
 ---
@@ -138,19 +144,19 @@ Você deve ter uma meta ativa antes de começar.
 
 Não é possível atualizar o progresso das metas rascunhos, inativas ou fechadas.
 
-## Considerations for updating goals
+## Considerações para atualização de metas
 
-Consider the following when updating progress on goals:
+Leve em consideração o seguinte ao atualizar o progresso das metas:
 
-* Workfront Goals automatically calculates the progress of a goal when you  update the progress of its progress indicators.
+* O Workfront Goals calcula automaticamente o progresso de uma meta ao atualizar o progresso de seus indicadores de progresso.
 
   >[!TIP]
   >
-  >You cannot update progress directly on a goal. You must update the progress of the goal&#39;s progress indicators (activities, results, connected projects) which in turn updates the progress of the goal. To update the progress on projects, you must update the tasks on the project.
+  >Não é possível atualizar o progresso diretamente em uma meta. Você deve atualizar o progresso dos indicadores de progresso da meta (atividades, resultados, projetos conectados) que, por sua vez, atualizam o progresso da meta. Para atualizar o progresso dos projetos, você deve atualizar as tarefas no projeto.
 
-  See also the following articles:
+  Consulte também os seguintes artigos:
 
-   * For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+   * Para obter informações sobre como adicionar atividades às metas, consulte [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
    * Para obter informações sobre como adicionar resultados às metas, consulte [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
    * Para obter informações sobre como o Workfront Goals calcula o progresso em uma meta, consulte [Visão geral do progresso e da condição da meta no Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
@@ -159,13 +165,13 @@ Consider the following when updating progress on goals:
   Consulte também os seguintes artigos:
 
    * Para obter informações sobre como criar metas, consulte [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
-   * For information about activating goals, see the [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
+   * Para obter informações sobre como ativar metas, consulte [Ativar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!IMPORTANT]
   >
-  >You cannot update the progress of goals that are drafted, closed, or inactive.
+  >Não é possível atualizar o progresso das metas que estão em rascunho, fechadas ou inativas.
 
-* The first time you or someone else updates the progress of a result or activity on a goal, the goal Progress changes from New and Workfront Goals starts recording progress and progress status updates on the goal.
+* Na primeira vez que você ou outra pessoa atualiza o progresso de um resultado ou atividade em uma meta, o Progresso da meta é alterado de Novas Metas e do Workfront começa a registrar atualizações de progresso e status de progresso na meta.
 
 <!--
 
@@ -294,15 +300,15 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 -->
 
-To update progress on goals:
+Para atualizar o progresso das metas:
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/lines-main-menu.png) > **Goals** in the upper-right corner.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/lines-main-menu.png) > **Metas** no canto superior direito.
 
    <!--
     Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   This opens the goal list. Todas as metas que você tem acesso para visualizar são exibidas por padrão.
+   Isso abre a lista de metas. Todas as metas que você tem acesso para visualizar são exibidas por padrão.
 
    Como alternativa, você pode clicar em Alinhamento de metas no painel esquerdo.
 
@@ -313,7 +319,7 @@ To update progress on goals:
 
    >[!NOTE]
    >
-   >  * You can only update results and activities.
+   >  * Você só pode atualizar resultados e atividades.
    >  * Você deve atualizar os indicadores de progresso das metas secundárias para mostrar o progresso nas metas secundárias.
    >  * Você deve atualizar as tarefas nos projetos conectados para mostrar o progresso nos projetos.
    >   
@@ -322,7 +328,7 @@ To update progress on goals:
 
 1. Para atualizar o progresso de um resultado ou atividade, clique no valor dentro da coluna **Progresso Real** do resultado ou atividade, digite um número para atualizar seu valor e pressione Enter.
 
-   ![Actual progress](assets/actual-progress-result-updating-highlighted-unshimmed.png)
+   ![Progresso real](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
-   The progress bar for the progress indicator in the Progress column and the progress of the goal in the goal header update immediately.
+   A barra de progresso do indicador de progresso na coluna Progresso e o progresso da meta no cabeçalho da meta são atualizados imediatamente.
 

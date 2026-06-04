@@ -1,19 +1,23 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notificações: Informações sobre projetos em que estou'
+title: 'Notificações: informações sobre projetos em que estou'
 description: As notificações a seguir alertam sobre atividades que ocorrem em projetos nos quais você está trabalhando.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/RLrCDv5K-2Qf2VfoSGJ1NGxyFuhc03bS-U5QKKtL4ws
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 0%
+source-wordcount: 1516
+ht-degree: 1%
 
 ---
 
-# Notificações: Informações sobre projetos em que estou
+# Notificações: informações sobre projetos em que estou
 
 As notificações a seguir alertam sobre atividades que ocorrem em projetos nos quais você está trabalhando.
 
@@ -45,12 +49,12 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Quando uma status de projeto for alterada de ideia/aprovado/solicitado/em planejamento para atual, enviar email para a equipe</strong> </p> <p>Os membros de uma equipe de projeto recebem uma notificação por email quando o status do projeto é definido como [!UICONTROL Atual].</p> <p>Observação: os usuários devem ser listados na guia Equipe de um projeto para receber notificações quando o status do projeto for definido como [!UICONTROL Atual]. Para obter informações sobre como adicionar usuários a uma equipe de projeto, consulte <a href="../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gerenciar a Equipe de Projeto</a>.</p> <p>O assunto do email de notificação instantânea é <em>&lt;Nome do Projeto&gt; [!UICONTROL é Atual - Vá para o seu projeto e veja as suas tarefas!]</em></p> <p> O assunto da notificação de resumo diário é <em> [!UICONTROL Resumo dos Projetos em que você está] &lt;Data do resumo diário&gt; </em></p> </td> 
-   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status do Projeto<br>Data de Conclusão Planejada do Projeto <br>Proprietário do Projeto<br>Uma lista de tarefas atribuídas a você, a uma de suas funções de trabalho ou a uma de suas equipes<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status do Projeto<br>*Data do resumo diário</p> </td> 
+   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status do Projeto<br>Data de Conclusão Planejada do Projeto [!UICONTROL]<br>Proprietário do Projeto<br>Uma lista de tarefas atribuídas a você, a uma de suas funções de trabalho ou a uma de suas equipes<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status do Projeto<br>*Data do resumo diário</p> </td> 
    <td><strong>Instantâneo</strong> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Um projeto em que minha equipe se torna ativa</strong> <p>Os membros de uma equipe recebem uma notificação por email quando um projeto se torna ativo. A equipe deve ser atribuída a pelo menos uma tarefa para receber a notificação.</p><p>Se um usuário individual e uma equipe forem atribuídos a uma tarefa no projeto. a equipe não receberá uma notificação.</p><p>O assunto do email de notificação instantânea é <i>&lt;Nome do Projeto&gt; [!UICONTROL está Ativo - Vá para o seu projeto e veja as suas tarefas!]</i></p><p>O assunto da notificação de resumo diário é <em> [!UICONTROL Resumo dos Projetos em que você está] &lt;Data do resumo diário&gt; </em></p></td> 
-   <td>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status do Projeto<br>Data de Conclusão Planejada do Projeto <br>Proprietário do Projeto<br>Uma lista de tarefas atribuídas à sua equipe<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status do Projeto<br>*Data do resumo diário</td> 
+   <td>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status do Projeto<br>Data de Conclusão Planejada do Projeto [!UICONTROL]<br>Proprietário do Projeto<br>Uma lista de tarefas atribuídas à sua equipe<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status do Projeto<br>*Data do resumo diário</td> 
    <td><strong>Instantâneo</strong> </td> 
   </tr> 
   <tr> 

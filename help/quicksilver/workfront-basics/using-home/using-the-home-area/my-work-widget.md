@@ -1,19 +1,25 @@
 ---
 product-area: home
 navigation-topic: use-the-home-area
-title: Gerencie seu trabalho com o widget Meu trabalho
+title: Gerenciar trabalho com o widget Meu trabalho
 description: O widget Meu trabalho exibe todas as tarefas, problemas e solicitações atribuídas a você em um único local. Aqui, você pode filtrar e organizar seu trabalho, registrar horas, fazer atualizações e marcar itens de trabalho como concluídos.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+TQID: https://experienceleague.adobe.com/sOTb-WRIEy2h1ncn-CLd-uRUlO3NOSIKYxeCP6GMGmw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 4%
+source-wordcount: 725
+ht-degree: 12%
 
 ---
 
-# Gerencie seu trabalho com o widget Meu trabalho
+# Gerenciar trabalho com o widget Meu trabalho
 
 O widget Meu trabalho exibe todas as tarefas, problemas e solicitações atribuídas a você em um único local. Aqui, você pode filtrar e organizar seu trabalho, registrar horas, fazer atualizações e marcar itens de trabalho como concluídos.
 
@@ -23,7 +29,7 @@ O widget Meu trabalho exibe todas as tarefas, problemas e solicitações atribu�
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -114,7 +120,7 @@ Você pode ajustar os filtros Meu trabalho para se concentrar em itens específi
 >
 >Se estiver procurando opções de filtragem mais específicas, você pode usar os widgets Minha tarefa ou Meu problema. Para obter mais informações sobre os filtros Minha tarefa e Meu problema, consulte [Visão geral dos filtros de widget da página inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 
-## Organize o seu trabalho
+## Organizar seu trabalho
 
 Você pode usar a classificação e os recursos de grupo do widget Meu trabalho para organizar seu trabalho de uma forma que faça sentido para você.
 
@@ -122,7 +128,7 @@ Você pode usar a classificação e os recursos de grupo do widget Meu trabalho 
 
 Você pode classificar a lista de trabalho por
 
-* Prazo
+* Data vencida
 Os itens vencidos exibem um ícone de aviso ao lado da data. O Workfront usa a Data de conclusão planejada para determinar se as tarefas e os problemas estão vencidos.
 * Nome
 * Percentual concluído
@@ -141,7 +147,7 @@ Você pode agrupar a lista de trabalho por
 
 * Projeto
 * Status
-* Prazo
+* Data vencida
 A Data de vencimento é determinada pela Data de conclusão planejada.
 
 >[!NOTE]
@@ -176,7 +182,7 @@ Você pode usar o menu de ações rápidas para
 * Registrar de tempo
 * Adicionar uma atualização
 * Atualizar um formulário personalizado
-* Carregar um arquivo
+* Fazer upload de um arquivo
 
 Para localizar o menu de ações rápidas, passe o mouse sobre o item de trabalho. A lista de ações rápidas é exibida próximo ao botão **Trabalhar nisto** ou **Concluído**.
 

@@ -1,19 +1,24 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Adicionar e gerenciar links rápidos nas Prioridades
+title: Adicionar e gerenciar links rápidos em Prioridades
 description: Você salva links que visita com frequência em uma tarefa ou problema em Prioridades.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+TQID: https://experienceleague.adobe.com/xCCyTLfCsX3-hFfqKaiAtBgLLCQ6QmVTx7UfSGpBp3s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 0%
+source-wordcount: 283
+ht-degree: 14%
 
 ---
 
-# Adicionar e gerenciar links rápidos nas Prioridades
+# Adicionar e gerenciar links rápidos em Prioridades
 
 Você pode salvar links que visita com frequência em uma tarefa ou problema e acessar na guia Visão geral em Prioridades.
 
@@ -21,7 +26,7 @@ Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ve
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,7 +76,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 1. Clique em um nome de item de trabalho para abrir a página **Visão geral**.
 1. Na seção **Links rápidos**, localize o link que deseja copiar.
-1. Clique no ícone **Copiar**![&#x200B; Copiar](assets/copy-icon.png).
+1. Clique no ícone **Copiar**![ Copiar](assets/copy-icon.png).
    ![Copiar link](assets/copy-link.png)
 
 ## Abrir um link rápido

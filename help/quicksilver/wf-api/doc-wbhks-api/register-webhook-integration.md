@@ -2,21 +2,25 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Registrar uma integração do Webhook
-description: Registrar uma integração do Webhook
+title: Registrar uma integração de webhook
+description: Registrar uma integração de webhook
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 11%
+source-wordcount: 346
+ht-degree: 13%
 
 ---
 
-
-# Registrar uma integração do Webhook
+# Registrar uma integração de webhook
 
 Os administradores do Adobe Workfront podem adicionar uma integração de webhook personalizada para a empresa navegando até Configuração > Documentos > Integrações personalizadas no Workfront. Na página Integração personalizada da Configuração, os administradores podem exibir uma lista de integrações existentes do Webhook. Nessa página, as integrações podem ser adicionadas, editadas, ativadas e desativadas.
 
@@ -48,7 +52,7 @@ Ao adicionar uma integração, o administrador inserirá valores nos seguintes c
   </tr> 
   <tr> 
    <td>Parâmetros de solicitação</td> 
-   <td> <p>Valores opcionais a serem acrescentados à querystring de todas as chamadas para a API. Por exemplo, access_type </p> </td> 
+   <td> <p>Valores opcionais a serem acrescentados à querystring de todas as chamadas de API. Por exemplo, access_type </p> </td> 
   </tr> 
   <tr> 
    <td>Tipo de autenticação</td> 

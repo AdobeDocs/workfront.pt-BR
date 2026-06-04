@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: create-proofs-within-workfront
-title: Criar uma prova estática para um site ou outro conteúdo da Web
+title: Criar uma prova estática para um site ou outro conteúdo da web
 description: Você pode gerar uma nova prova estática ou uma nova versão de uma prova estática existente para conteúdo da Web. O conteúdo da Web pode incluir itens como anúncios com vídeo em streaming, animações do HTML ou banners interativos, mas ele será cortado em várias capturas de tela para permitir provas estáticas.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/OH3u2WwNNiciuJEkPmjXRLRQGv4znlkRW6FHiUCHW-M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 1%
+source-wordcount: 678
+ht-degree: 14%
 
 ---
 
-# Criar uma prova estática para um site ou outro conteúdo da Web
+# Criar uma prova estática para um site ou outro conteúdo da web
 
 Você pode gerar uma nova prova estática ou uma nova versão de uma prova estática existente para conteúdo da Web. O conteúdo da Web pode incluir itens como anúncios com vídeo em streaming, animações do HTML ou banners interativos, mas ele será cortado em várias capturas de tela para permitir provas estáticas.
 
@@ -21,7 +26,7 @@ Considere o seguinte ao criar provas estáticas para um site ou outro conteúdo 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +39,7 @@ Considere o seguinte ao criar provas estáticas para um site ou outro conteúdo 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td> 
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Trabalho ou Plano</p> </td> 
   </tr> 
   <tr> 
@@ -52,9 +57,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Criar uma prova estática para um site ou outro conteúdo da Web
+## Criar uma prova estática para um site ou outro conteúdo da web
 
-Para criar uma prova estática, o site precisa estar acessível publicamente (não por trás de um firewall) ou a inclui na lista de permissões de sua organização deve incluir o domínio do Workfront. O Workfront não pode capturar um site protegido por senha como uma prova estática.
+Para criar uma prova estática, o site precisa estar acessível publicamente (não por trás de um firewall) ou o incluo na lista de permissões de sua organização deve incluir o domínio Workfront. O Workfront não pode capturar um site protegido por senha como uma prova estática.
 
 >[!TIP]
 >
@@ -107,7 +112,7 @@ Para criar uma prova estática, o site precisa estar acessível publicamente (n�
 
 1. Clique em **Concluído**.
 
-   Se você selecionou várias resoluções de captura de tela na etapa 8, a lista inclui um conjunto de capturas de tela para cada resolução. Você pode gerar essas capturas de tela como provas separadas ou combiná-las em uma única prova (consulte  em .). Recomendamos que você as combine, especialmente se estiver criando uma prova estática de site.
+   Se você selecionou várias resoluções de captura de tela na etapa 8, a lista inclui um conjunto de capturas de tela para cada resolução. Você pode gerar essas capturas de tela como provas separadas ou combiná-las em uma única prova (consulte em .). Recomendamos que você as combine, especialmente se estiver criando uma prova estática de site.
 
    >[!NOTE]
    >

@@ -2,18 +2,22 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: O nome do documento alterado após o upload contém um caractere inválido
+title: O nome do documento foi alterado após o upload e contém um caractere inválido
 description: Determinados documentos não podem ser convertidos em provas.
 author: Courtney
 exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+TQID: https://experienceleague.adobe.com/bE5iUIG7rFpIIa3zXt-5pO0sgfbEO-3QDVFVLwkayIo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 0%
+source-wordcount: 135
+ht-degree: 16%
 
 ---
 
-# O nome do documento alterado após o upload contém um caractere inválido
+# O nome do documento foi alterado após o upload e contém um caractere inválido
 
 ## Problema
 

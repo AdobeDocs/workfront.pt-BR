@@ -5,10 +5,13 @@ description: Saiba mais sobre as práticas recomendadas para usar o Assistente d
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
+TQID: https://experienceleague.adobe.com/FTfet4al9-gwRXHYFzVlC3qrDfW8HUJA22sHN00eKOM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 4%
+source-wordcount: 744
+ht-degree: 5%
 
 ---
 
@@ -25,7 +28,7 @@ Para obter mais informações sobre o Assistente de IA, consulte [Visão geral d
 >À medida que os recursos do Assistente de IA evoluem, o tipo de solicitações e perguntas que você pode fazer se expande. Recomendamos revisitar este artigo à medida que novos recursos do Assistente de IA são lançados para saber mais sobre os prompts disponíveis que você pode usar.
 
 
-## Tipos de objeto disponíveis para o Assistente de IA
+## Tipos de objetos disponíveis para o Assistente de IA
 
 O assistente de IA pode fornecer dados para os seguintes tipos de objetos:
 

@@ -1,19 +1,22 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Configurar prova de conteúdo interativa no Visualizador de Prova da Web
+title: Configurar prova de conteúdo interativa no visualizador de provas para web
 description: Recomendamos que você revise todo o conteúdo interativo usando o Visualizador de provas de desktop. No entanto, se as políticas de sua organização impedirem isso, o administrador do Workfront poderá configurar seu sistema para usar o Visualizador de provas da Web para provas interativas. Para obter informações comparativas sobre esses dois visualizadores, consulte Diferenças entre o Visualizador de provas da Web e a visão geral do Visualizador de provas do desktop.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/ICuW3kxD5GmRC4k2wDaxgqnDFva6iOnP5FRo-dBAVOw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 0%
+source-wordcount: 412
+ht-degree: 6%
 
 ---
 
-# Configurar prova de conteúdo interativa no Visualizador de Prova da Web
+# Configurar prova de conteúdo interativa no visualizador de provas para web
 
 >[!IMPORTANT]
 >
@@ -24,7 +27,7 @@ Recomendamos que você revise todo o conteúdo interativo usando o Visualizador 
 
 Depois que o administrador do Workfront configurar o sistema para provas interativas no Visualizador de provas da Web, será necessário baixar uma extensão para adicionar comentários e marcações às provas interativas:
 
-## Limitação
+## Limitações
 
 O Visualizador de provas da web tem as seguintes limitações:
 
@@ -36,7 +39,7 @@ O Visualizador de provas da web tem as seguintes limitações:
 >
 >Você deve instalar o plug-in do navegador herdado para comentar sobre provas interativas no Visualizador de provas da Web. Este plug-in só está disponível no Firefox na [loja de complementos do Firefox](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/).
 
-## Configurar prova de conteúdo interativa no Visualizador de Prova da Web
+## Configurar prova de conteúdo interativa no visualizador de provas para web
 
 1. Abra uma prova criada a partir de um arquivo ZIP com conteúdo interativo.
 

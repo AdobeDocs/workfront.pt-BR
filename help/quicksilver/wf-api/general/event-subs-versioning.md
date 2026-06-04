@@ -2,28 +2,32 @@
 content-type: api
 navigation-topic: general-api
 title: Versão de Assinatura de Evento
-description: API de assinatura de evento
+description: API de Assinatura de evento
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
+TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 0%
+source-wordcount: 1055
+ht-degree: 17%
 
 ---
 
-# Versão de assinatura do evento
+# Controle de versão da assinatura de evento
 
 O Workfront tem duas versões de assinaturas de evento. Este artigo descreve as diferenças entre elas.
 
 A nova versão não é uma alteração na API do Workfront, mas uma alteração na funcionalidade de assinatura do evento.
 
-A capacidade de atualizar ou fazer downgrade de assinaturas de eventos garante que, quando alterações forem feitas na estrutura dos eventos, as assinaturas existentes não sejam interrompidas, permitindo testar e atualizar para a nova versão sem uma lacuna na assinatura do evento.
+A capacidade de atualizar ou fazer downgrade de assinaturas de evento garante que, quando alterações forem feitas na estrutura dos eventos, as assinaturas existentes não sejam interrompidas, permitindo testar e atualizar para a nova versão sem uma lacuna na assinatura do evento.
 
 
-Ao atualizar ou fazer downgrade da assinatura de evento para outra versão, você recebe eventos duplicados para cada entrega de evento por uma janela de cinco minutos após a alteração da versão. As duplicatas incluem uma de cada versão de assinatura de evento 1 e versão 2. Isso garante que você não perca nenhum evento devido à alteração da versão de assinatura do evento.
+Ao atualizar ou fazer downgrade da assinatura de evento para outra versão, você recebe eventos duplicados para cada entrega de evento por uma janela de cinco minutos após a alteração da versão. Os duplicados incluem um de cada versão da assinatura de eventos: versão 1 e versão 2. Isso garante que você não perca nenhum evento devido à alteração da versão de assinatura do evento.
 
 Para obter informações sobre os pontos de extremidade usados para atualizar ou rebaixar assinaturas de eventos, consulte [Versão de assinatura de eventos](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) no artigo API de assinatura de eventos.
 
@@ -90,7 +94,7 @@ As seguintes alterações foram feitas para assinaturas de evento Versão 2:
  </thead> 
  <tbody> 
   <tr> 
-   <th rowspan="1">ATRIBUIR</th> 
+   <th rowspan="1">ASSGN</th> 
    <td>
     <ul>
      <li><code>projectID</code></li>
@@ -255,6 +259,6 @@ As seguintes alterações foram feitas para assinaturas de evento Versão 2:
 
 O Workfront Fusion usa assinaturas de eventos para observar alterações no Workfront a fim de acionar cenários. Você pode atualizar a versão de assinatura de evento que o Fusion usa diretamente em um cenário, usando o módulo Workfront > Atualizar versão de payload de eventos.
 
-Para obter instruções sobre como usar este módulo, consulte [Módulos do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) na documentação do Workfront Fusion.
+Para obter instruções sobre como usar este módulo, consulte [Módulos do Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) na documentação do Workfront Fusion.
 
-Para obter recursos sobre como preservar seus cenários do Workfront Fusion durante a atualização da assinatura do evento, incluindo uma gravação de webinário, consulte [Preservando seus cenários do Fusion Durante a Atualização da V2 de Assinaturas do Evento](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=pt).
+Para obter recursos sobre como preservar os cenários do Workfront Fusion durante a atualização da assinatura do evento, incluindo uma gravação de webinário, consulte [Preservação de seus cenários do Fusion durante a atualização da V2 de assinaturas do evento](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).

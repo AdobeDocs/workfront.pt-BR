@@ -1,20 +1,24 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades da API versão 7
+title: Novidades na versão 7 da API
 description: Coleções
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/16roY0csrhwq92dDL9hI0NNGj3LcbUw9FGSJMyxbKMA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 43%
+source-wordcount: 488
+ht-degree: 63%
 
 ---
 
-# Novidades da API versão 7
+# Novidades na versão 7 da API
 
 ## Novos Objetos
 
@@ -42,7 +46,7 @@ ht-degree: 43%
   <tr> 
    <th>Campos</th> 
    <th>Referências</th> 
-   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Coleções</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++ </p> </th> 
+   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Coleções</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++ </p> </th> 
    <th>Pesquisar</th> 
    <th>Ações</th> 
    <th>Consultas</th> 
@@ -165,7 +169,7 @@ ht-degree: 43%
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| ID |   |  hourTypes |   |   |   | Adicionar |
+| ID |   |  hourTypes |   |   |   | Add |
 | name |   |   |   |   |   | Copiar |
 |   |   |   |   |   |   | Contagem |
 |   |   |   |   |   |   | Excluir |
@@ -183,7 +187,7 @@ ht-degree: 43%
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| ID | cliente | usuários |   |   |   | Adicionar |
+| ID | cliente | usuários |   |   |   | Add |
 | customerID  | enteredBy  |   |   |   |   | Contagem |
 | descrição  | lastUpdatedBy  |   |   |   |   | Excluir |
 | enteredByID  |   |   |   |   |   | Editar |
@@ -314,7 +318,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
  
 
-### Enumerado Personalizado 
+### Lista Discriminada Personalizada 
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
@@ -371,7 +375,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
  
 
-### Entrada no Relatório
+### Lançamento documentado
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
@@ -544,7 +548,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
  </tbody> 
 </table>
 
-### Nota do usuário
+### Observação do usuário
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|

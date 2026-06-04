@@ -1,20 +1,24 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades da API versão 17
+title: Novidades na versão 17 da API
 description: O Adobe Workfront lançou a API versão 17 em 6 de abril de 2022. A API versão 17 apresenta as seguintes alterações da versão 16.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
-source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
+TQID: https://experienceleague.adobe.com/6cMTHhlWM6xf4Y7w4HRIdqV-w0aOOj0cq21fp1fDa2s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 1%
+source-wordcount: 1358
+ht-degree: 6%
 
 ---
 
-# Novidades da API versão 17
+# Novidades na versão 17 da API
 
 O Adobe Workfront lançou a API versão 17 em 12 de outubro de 2023. A API versão 17 apresenta as seguintes alterações da versão 16.
 
@@ -209,7 +213,7 @@ O objeto de Linha de Base removeu o sinalizador **INLINE_EDITABLE**.
 
 ### Registro de Cobrança (BILL)
 
-Um objeto BillingRecord registra a receita, as horas ou as despesas que podem ser faturadas. Essas informações podem ser usadas para criar faturas em um sistema de contabilidade externo.
+Um objeto BillingRecord registra a receita, as horas ou as despesas que podem ser faturadas. Essas informações podem ser usadas para criar faturas em um sistema contábil externo.
 
 O objeto BillingRecord removeu o sinalizador **INLINE_EDITABLE**.
 
@@ -257,7 +261,7 @@ Um objeto CustomerPreferences representa o conjunto de preferências que um clie
       <td>
         <ul>
           <li>
-            <p><b>nome</b>
+            <p><b>name</b>
             </p>
             <p>Adição do valor possível "config.defaultToNewHomeDescription" (customer:config.defaultToNewHome)&gt;/p?<p>Isso permite que uma organização torne a nova experiência da Página inicial a padrão para seus usuários.</p>
           </li>
@@ -395,7 +399,7 @@ O objeto JournalEntry pode ser configurado para registrar informações sobre ca
               <li>Revisor alterado (ARC)</li>
               <li>Revisão concluída (RDC)</li>
               <li>Revisão revogada (RDR)</li>
-              <li>Publish (PUB)</li>
+              <li>Publicar (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -413,7 +417,7 @@ O objeto do Quadro Kanban removeu o sinalizador **INLINE_EDITABLE**.
 
 ### LinkedFolder (LNKFDR)
 
-Um objeto LinkedFolder representa uma pasta vinculada de um provedor de documentos externo, como Google Drive ou Dropbox.
+Um objeto LinkedFolder representa uma pasta vinculada de um provedor de documentos externo, como o Google Drive ou o Dropbox.
 
 <table>
   <col/>

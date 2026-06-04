@@ -6,10 +6,16 @@ description: É possível compartilhar uma prova no visualizador de provas se o 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/-EUf54B-yS68PPW4BmPmQWN4aIi7KgyU2567zbrD3ag
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 0%
+source-wordcount: 1446
+ht-degree: 4%
 
 ---
 
@@ -23,7 +29,7 @@ ht-degree: 0%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -153,7 +159,7 @@ Para compartilhar uma prova com usuários individuais:
 
    * **Função de prova**: para obter mais informações, consulte [Gerenciar Funções de Prova no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-   * **Estágio**: (disponível somente se a prova tiver um Fluxo de Trabalho Automatizado). Para obter mais informações, consulte  [Visão geral dos Estágios do Fluxo de Trabalho Automatizado](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+   * **Estágio**: (disponível somente se a prova tiver um Fluxo de Trabalho Automatizado). Para obter mais informações, consulte [Visão geral dos Estágios do Fluxo de Trabalho Automatizado](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
 
    * **Alertas por email**: selecione uma das seguintes opções para especificar como a pessoa será notificada sobre a atividade na prova.
 

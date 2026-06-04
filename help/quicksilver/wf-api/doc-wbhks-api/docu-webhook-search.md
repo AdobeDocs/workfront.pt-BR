@@ -2,20 +2,24 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Pesquisar por webhooks de documentos
-description: Pesquisar por webhooks de documentos
+title: Pesquisar por meio de webhooks de documentos
+description: Pesquisar por meio de webhooks de documentos
 author: Becky
 feature: Workfront API, Digital Content and Documents
 role: Developer
 exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/flRrmTOPVSGP83tVYfKG9AZOT7CNZN4IeWZNsVwcOO4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 3%
+source-wordcount: 139
+ht-degree: 14%
 
 ---
 
-# Pesquisar por webhooks de documentos
+# Pesquisar por meio de webhooks de documentos
 
 Retorna metadados dos arquivos e pastas retornados de uma pesquisa. Isso pode ser implementado como uma pesquisa de texto completo ou como uma consulta de banco de dados regular. O Adobe Workfront chama o endpoint /search quando o usuário realiza uma pesquisa no navegador de arquivos externos.
 
@@ -44,7 +48,7 @@ GET /search
    <td> <p>(opcional) A ID da pasta da qual a pesquisa foi executada. Observação: este é um espaço reservado para um recurso futuro no Workfront. Atualmente, o Workfront não passa este parâmetro. </p> </td> 
   </tr> 
   <tr> 
-   <td>máx</td> 
+   <td>max</td> 
    <td>O número máximo de itens a serem retornados. Usado para paginação.</td> 
   </tr> 
   <tr> 

@@ -1,25 +1,30 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Converter um fluxo de trabalho básico em um Fluxo de trabalho automatizado em uma prova
+title: Converter um fluxo de trabalho básico em um fluxo de trabalho automatizado em uma prova
 description: Se você for o proprietário da prova, poderá converter o fluxo de trabalho básico de uma prova existente em um Fluxo de trabalho automatizado.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c676c696-ab7d-415b-bf5e-5d0335a3920f
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/nlNOw5CSZl6OwbRtx8qAa6NadtYbFgYfOgTzyf2dR-4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: 250
+ht-degree: 25%
 
 ---
 
-# Converter um fluxo de trabalho básico em um Fluxo de trabalho automatizado em uma prova
+# Converter um fluxo de trabalho básico em um fluxo de trabalho automatizado em uma prova
 
 Se você for o proprietário da prova, poderá converter o fluxo de trabalho básico de uma prova existente em um Fluxo de trabalho automatizado.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +37,7 @@ Se você for o proprietário da prova, poderá converter o fluxo de trabalho bá
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Trabalho ou Plano</p>
    </td> 
   </tr> 

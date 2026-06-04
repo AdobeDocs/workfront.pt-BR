@@ -2,20 +2,23 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: 'Revisar provas no Adobe Workfront: índice do artigo'
+title: 'Revisar provas no Adobe Workfront: índice de artigos'
 description: Saiba como revisar provas no Workfront.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cf62d4ef-1244-4038-a56d-4a325140f93a
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+TQID: https://experienceleague.adobe.com/wf2QgpPaa0Lgoa63k1MjzzOX0w9MKfCET-knIf3lJNQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 0%
+source-wordcount: 51
+ht-degree: 58%
 
 ---
 
-# Revisar provas no Adobe Workfront: índice do artigo
+# Revisar provas no Adobe Workfront: índice de artigos
 
 Esta seção contém os seguintes artigos:
 
@@ -24,4 +27,4 @@ Esta seção contém os seguintes artigos:
 * [Tomar uma decisão sobre uma prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
 
 * [Gerenciar notificações para comentários de prova e decisões](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
-* [Definir configurações do revisor de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+* [Definir configurações do visualizador de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)

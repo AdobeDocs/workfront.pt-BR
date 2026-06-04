@@ -1,19 +1,25 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Cancelar aprovações enviadas
+title: Recuperar aprovações enviadas
 description: Você pode rechamar qualquer um dos seguintes objetos enviados para aprovação.
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+TQID: https://experienceleague.adobe.com/ItAwwM5EdjZeV5LRwfkSnEYB6GCfpuLzOCfANanm-hE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 1%
+source-wordcount: 1202
+ht-degree: 4%
 
 ---
 
-# Cancelar aprovações enviadas
+# Recuperar aprovações enviadas
 
 Você pode rechamar qualquer um dos seguintes objetos enviados para aprovação:
 
@@ -26,7 +32,7 @@ Você pode rechamar qualquer um dos seguintes objetos enviados para aprovação:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +46,7 @@ Você pode rechamar qualquer um dos seguintes objetos enviados para aprovação:
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
    <p>Contribute ou superior</p>
-   <p>Solicitação ou superior</p>
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +72,7 @@ Se você cancelar uma aprovação associada ao status inicial do projeto, o proc
 
 >[!NOTE]
 >
->Você pode associar o primeiro status de um projeto ou tarefa a um processo de aprovação usando um modelo. Para obter mais informações sobre adicionar aprovações a um modelo, consulte  [Editar modelos de projeto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>Você pode associar o primeiro status de um projeto ou tarefa a um processo de aprovação usando um modelo. Para obter mais informações sobre como adicionar aprovações a um modelo, consulte [Editar modelos de projeto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 Para cancelar uma aprovação de projeto enviada:
 

@@ -6,10 +6,16 @@ description: Um fluxo de trabalho automatizado facilita o gerenciamento do proce
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/JCDEDcmb2GOWTW-GqUTHdQKp7O6FC2ACvj0HsIXaaRs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 0%
+source-wordcount: 1760
+ht-degree: 4%
 
 ---
 
@@ -21,7 +27,7 @@ Um fluxo de trabalho automatizado facilita o gerenciamento do processo de revis�
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +39,7 @@ Um fluxo de trabalho automatizado facilita o gerenciamento do processo de revis�
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> Standard</p>
+   <td> Padrão</p>
    <p>Trabalho ou Plano</p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +53,7 @@ Um fluxo de trabalho automatizado facilita o gerenciamento do processo de revis�
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

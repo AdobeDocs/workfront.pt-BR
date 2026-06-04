@@ -7,10 +7,15 @@ description: Saiba como editar o perfil de permissão de prova em massa.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/yP3H3CCWVpgtlPhP-mtmuQMhTfbhCEiJnCJq1kfASRw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 3%
+source-wordcount: 190
+ht-degree: 34%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 3%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 

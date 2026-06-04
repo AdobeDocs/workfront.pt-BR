@@ -6,10 +6,15 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+TQID: https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 9%
+source-wordcount: 1226
+ht-degree: 6%
 
 ---
 
@@ -85,7 +90,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
    * Especifique as permissões em qualquer um dos objetos principais do problema: projeto, programa ou portfólio. Os problemas herdam as permissões de seus objetos principais. Para obter informações sobre a exibição de permissões herdadas em objetos, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Adicione entidades ao Compartilhamento de projeto em um modelo usado para criar o projeto no qual o problema está. Para obter informações sobre como compartilhar projetos a partir de modelos, consulte [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique as permissões em todos os problemas em um projeto ao editá-lo. Para obter informações sobre como gerenciar o acesso a problemas ou solicitações no projeto com base nas permissões de um usuário para o projeto, consulte a seção [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Especifique as permissões em todos os problemas em um projeto ao editá-lo. Para obter informações sobre como gerenciar o acesso a problemas ou solicitações no projeto com base nas permissões de um usuário para o projeto, consulte a seção [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >

@@ -6,10 +6,16 @@ description: Você pode fazer upload de pranchetas como provas diretamente no Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+TQID: https://experienceleague.adobe.com/5hqDm2la-PWL4l7MghSST8VhSx0eeQoJt5eVClY5yrw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 0%
+source-wordcount: 1014
+ht-degree: 4%
 
 ---
 
@@ -19,7 +25,7 @@ Você pode fazer upload de pranchetas como provas diretamente no [!DNL Adobe Wor
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +37,7 @@ Você pode fazer upload de pranchetas como provas diretamente no [!DNL Adobe Wor
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td> <p>Standard</p> <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produtos adicionais</td> 
@@ -118,7 +124,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    ![Opções do PDF](assets/pdf-options.png)
 
-1. Clique em **[!UICONTROL Carregar]**.\
+1. Clique em **[!UICONTROL Fazer upload]**.\
    O documento aparece na área [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.
 
 ## Carregar uma prova interativa {#upload-an-interactive-proof}
@@ -188,7 +194,7 @@ Você pode criar uma prova interativa para suas pranchetas com o plug-in [!DNL W
 1. No menu suspenso **[!UICONTROL Tipo de ativo]**, escolha o link que acabou de criar na guia **Links compartilhados**. Para obter mais informações, consulte [Criar um link interativo para sua prancheta](#create-an-interactive-link-for-your-artboard).\
    ![Links compartilhados em XDS](assets/shared-links-xd-350x870.png)
 
-1. Clique em **[!UICONTROL Carregar]**.
+1. Clique em **[!UICONTROL Fazer upload]**.
 
    O documento aparece na área [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.
 
@@ -254,5 +260,5 @@ Você pode fazer upload de uma nova versão de uma prova. O plug-in lembra o flu
 
    Opções do PDF
 
-1. Clique em **[!UICONTROL Carregar]**.\
+1. Clique em **[!UICONTROL Fazer upload]**.\
    O documento aparece na área [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.

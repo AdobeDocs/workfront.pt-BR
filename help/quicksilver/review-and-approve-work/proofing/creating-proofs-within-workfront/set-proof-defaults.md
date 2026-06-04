@@ -1,25 +1,30 @@
 ---
 product-area: documents
 navigation-topic: create-proofs-within-workfront
-title: Configurar padrões de provas pessoais
+title: Configurar padrões de revisão pessoais
 description: É possível definir configurações padrão de prova pessoal que se aplicam às provas criadas por você. Esses padrões são aplicados sempre que você gera uma prova pela primeira vez ou carrega uma nova versão de prova no Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/zn0FFZ-tmsdRO9cyX-Mc6BZikNR-9i7V5PEOMU1Efl0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 0%
+source-wordcount: 477
+ht-degree: 9%
 
 ---
 
-# Configurar padrões de provas pessoais
+# Configurar padrões de revisão pessoais
 
 É possível definir configurações padrão de prova pessoal que se aplicam às provas criadas por você. Esses padrões são aplicados sempre que você gera uma prova pela primeira vez ou carrega uma nova versão de prova no Workfront.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +37,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
     <p>Trabalho ou Plano</p>
     </td> 
   </tr> 
@@ -47,7 +52,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Configurar padrões de provas pessoais
+## Configurar padrões de revisão pessoais
 
 {{step1-to-proofing}}
 
