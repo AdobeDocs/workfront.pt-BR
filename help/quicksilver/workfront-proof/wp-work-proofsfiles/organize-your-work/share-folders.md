@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 57f846a1-f315-42c1-911a-cfbc8b4879ba
 TQID: https://experienceleague.adobe.com/J7dSfuj-8f8m4pNsPGejE-k29Bkk1Rlh-HbpYkwx2xM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 955
@@ -77,7 +79,7 @@ Quando alguém compartilha uma pasta com você, ela aparece na barra lateral da 
 
 1. Clique no link do email de notificação recebido.
 1. Faça logon no [!DNL Workfront Proof].\
-     [!DNL  Workfront Proof] exibe a página Detalhes da pasta. Para obter mais informações, consulte [Gerenciar pastas e seus conteúdos em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+     [!DNL &#x200B; Workfront Proof] exibe a página Detalhes da pasta. Para obter mais informações, consulte [Gerenciar pastas e seus conteúdos em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Sobre o compartilhamento de subpastas
 
