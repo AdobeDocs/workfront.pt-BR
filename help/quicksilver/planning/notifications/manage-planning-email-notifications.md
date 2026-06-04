@@ -9,20 +9,14 @@ exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/4MvX3EX6KfcXwk5lrq6bRU7HC6gzAI1Zgi49TMZbP7M
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: 611
 ht-degree: 2%
 
 ---
@@ -76,12 +70,6 @@ Você pode receber notificações por email do Workfront Planning quando os segu
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Exibir ou aumentar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
-   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>
@@ -162,7 +150,7 @@ OLD:
 
 ## Gerenciar notificações por email quando alguém adicionar uma tag a você em um comentário
 
-1. (Condicional e opcional) Depois que alguém marcar você ou sua equipe em um comentário em um registro, acesse a notificação por email que informa você sobre a tag e o comentário. O remetente do email é o Adobe Experience Cloud.
+1. (Condicional e opcional) Depois que alguém marcar você ou sua equipe em um comentário em um registro, acesse a notificação por email que informa você sobre a tag e o comentário. O remetente do email é a Adobe Experience Cloud.
 
    ![Exemplo de notificações por email](assets/email-notification-example.png)
 
