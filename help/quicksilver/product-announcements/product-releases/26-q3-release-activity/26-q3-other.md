@@ -4,9 +4,9 @@ description: Outras melhorias durante o período do terceiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Versão de produção para clientes: implantação em fases, data a ser anunciada
+>Versão de produção para clientes: implantação em fases a partir de 16 de julho de 2026
 
 As notificações por email para comentários na área Atualizações têm uma nova aparência que se alinha ao design de email mais amplo da Adobe.
 
