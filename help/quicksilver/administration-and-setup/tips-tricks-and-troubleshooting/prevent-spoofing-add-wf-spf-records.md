@@ -9,10 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: 929502c256011b464d938ad1095c127407e4a795
+TQID: https://experienceleague.adobe.com/6VnF205aiahPEWdP2kPk-YXF8UfPwSJ0-yJ6nGq3-FM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 1%
+source-wordcount: 292
+ht-degree: 9%
 
 ---
 
@@ -24,7 +29,7 @@ Se os usuários não estiverem recebendo notificações por email do [!DNL Adobe
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +41,7 @@ Se os usuários não estiverem recebendo notificações por email do [!DNL Adobe
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] licença</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -52,13 +57,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Solução
 
-Se você já tiver adicionado os endereços IP ao arquivo de produção, conforme descrito em [Configurar o arquivo de incluir na lista de permissões inclui na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md), e os usuários ainda não estiverem recebendo emails:
+Se você já tiver adicionado os endereços IP ao seu incluo na lista de permissões para o ambiente de produção, conforme descrito em [Configurar o incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) e os usuários ainda não estiverem recebendo emails:
 
 1. Adicione o seguinte registro SPF ao firewall:
 
    *spf.workfront.com*
 
-   Isso adiciona automaticamente todos os endereços IP do [!DNL Workfront] à sua inclui na lista de permissões do  no firewall e permite que todos os filtros de spam (que usam registros SPF) validem servidores do [!DNL Workfront] como remetentes válidos para seu domínio.
+   Isso adiciona automaticamente todos os endereços IP do [!DNL Workfront] ao seu incluo na lista de permissões no firewall e permite que todos os filtros de spam (que usam registros SPF) validem servidores do [!DNL Workfront] como remetentes válidos para seu domínio.
 
    >[!NOTE]
    >

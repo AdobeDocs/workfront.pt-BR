@@ -6,11 +6,16 @@ description: O Adobe Workfront permite que as equipes do Agile concluam o trabal
 author: Courtney
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/LPML04xJOX-N5kVmXX5iBgDipiFIAPbQ11vA1zrZtBo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: 944
 ht-degree: 5%
 
 ---
@@ -74,10 +79,10 @@ A seguinte funcionalidade é compatível com essa metodologia:
 Para obter mais informações, consulte [Adicionar o backlog ao quadro [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
 * Configure os itens na lista de pendências a serem adicionados automaticamente ao [!UICONTROL Kanban] do storyboard Agile quando outros itens forem movidos para um status que equivale a Concluído.
-Para obter mais informações, consulte a seção [Configurar histórias que serão adicionadas automaticamente da lista de pendências](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) no artigo [Configurar Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Para obter mais informações, consulte a seção [Configurar histórias que serão adicionadas automaticamente do backlog](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) no artigo [Configurar Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 * Configure um limite de Trabalho em andamento (WIP) a ser exibido no storyboard Agile [!UICONTROL Kanban].
-Para obter mais informações, consulte [Gerenciar o limite de trabalhos em andamento (WIP) no quadro Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+Para obter mais informações, consulte [Gerenciar o limite de trabalho em andamento (WIP) no quadro Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Benefícios do uso do Scrum em [!DNL Workfront]
 

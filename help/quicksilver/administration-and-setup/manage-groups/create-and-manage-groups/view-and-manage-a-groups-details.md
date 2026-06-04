@@ -5,14 +5,20 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/SpYyjn3ahnu85wb0chS5Z-AVgqds9byXlytU9oZs2SM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 1%
+source-wordcount: 609
+ht-degree: 9%
 
 ---
 
-# Exibir e gerenciar os detalhes de um grupo
+# Visualizar e gerenciar detalhes de um grupo
 
 Você pode exibir e editar a página Detalhes do Grupo de um grupo ou subgrupo que gerencia. Esta página inclui:
 
@@ -26,7 +32,7 @@ Para obter informações sobre como desativar ou reativar um grupo, consulte [De
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +44,7 @@ Para obter informações sobre como desativar ou reativar um grupo, consulte [De
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr>
   <tr> 
@@ -52,7 +58,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Exibir e gerenciar os detalhes de um grupo
+## Visualizar e gerenciar detalhes de um grupo
 
 {{step-1-to-setup}}
 

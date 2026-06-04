@@ -8,10 +8,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+TQID: https://experienceleague.adobe.com/X8pRi3tIYP9R-ZGcSaIKpOn50-K44RNZryjjircaaSY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 0%
+source-wordcount: 849
+ht-degree: 5%
 
 ---
 
@@ -25,7 +30,7 @@ Este guia tem como foco a configuração do ADFS sem provisionamento automático
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +42,7 @@ Este guia tem como foco a configuração do ADFS sem provisionamento automático
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p><p>Plano</p></td> 
+   <td><p>Padrão</p><p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -78,11 +83,11 @@ Para habilitar a autenticação para o aplicativo web do Workfront e o aplicativ
 1. Clique com o botão direito do mouse em **Confiança da Terceira Parte Confiável** e selecione **Adicionar Confiança da Terceira Parte Confiável** para iniciar o Assistente para Adicionar Confiança da Terceira Parte Confiável.
 1. Na **Página de Boas-vindas**, selecione **Iniciar**.
 1. Na seção **Selecionar Source de Data**, cole a URL de metadados do Workfront.
-1. Clique em **Avançar**.
+1. Clique em **Próximo**.
 1. Clique em **OK** para confirmar a mensagem de aviso.
 1. Na seção **Especificar Nome para Exibição**, adicione um **Nome para Exibição** e **Observações** para distinguir a Confiança e clique em **Avançar**.
 1. Selecione **Permitir que todos os usuários acessem esta terceira parte confiável** (Ou **Nenhuma** se desejar configurá-la posteriormente).
-1. Clique em **Avançar**.
+1. Clique em **Próximo**.
 
    Você será direcionado à seção **Pronto para Adicionar Confiança**.
 

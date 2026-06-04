@@ -1,19 +1,23 @@
 ---
-title: Vincular ativos e pastas ao conector aprimorado
+title: Vincular ativos e pastas com o conector aprimorado
 description: Você pode vincular um ativo ou pasta do Experience Manager Assets a qualquer objeto do Workfront que suporte documentos.
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+TQID: https://experienceleague.adobe.com/e7Lmt14iKZNJpq3MirbKST-KjdZJODNbG9pbmvZveeU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 0%
+source-wordcount: 519
+ht-degree: 13%
 
 ---
 
-
-# Vincular ativos e pastas ao conector aprimorado
+# Vincular ativos e pastas com o conector aprimorado
 
 Você pode vincular um ativo ou pasta do Experience Manager Assets a qualquer objeto do Workfront que suporte documentos. O Assets enviado do Experience Manager Assets não conta para o armazenamento geral de documentos no Workfront. Os documentos carregados e enviados do Workfront para o Experience Manager Assets contam para o armazenamento geral.
 
@@ -24,7 +28,7 @@ Você pode vincular um ativo ou pasta do Experience Manager Assets a qualquer ob
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,8 +41,8 @@ Você pode vincular um ativo ou pasta do Experience Manager Assets a qualquer ob
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p> 
+   <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p> 
     </td> 
   </tr> 
   <tr> 

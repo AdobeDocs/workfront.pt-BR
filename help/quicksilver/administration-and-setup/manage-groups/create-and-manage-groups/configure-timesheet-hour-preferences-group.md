@@ -9,10 +9,16 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/HI9qlIldQ6WFaHJZeoOOJTUK89MaLcxi3TPWKcYc4XE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 1%
+source-wordcount: 1347
+ht-degree: 4%
 
 ---
 
@@ -38,7 +44,7 @@ Para obter informações sobre como um administrador do Workfront desbloqueia um
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +56,7 @@ Para obter informações sobre como um administrador do Workfront desbloqueia um
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr>
   <tr> 
@@ -64,7 +70,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Preferências de Horas e Planilha de Horas do Grupo
+## Preferências de horas e folhas de horas do grupo
 
 Considere as seguintes informações sobre a configuração de uma folha de horas desbloqueada ou preferência de horas para um grupo:
 

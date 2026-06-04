@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
+TQID: https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 0%
+source-wordcount: 1869
+ht-degree: 2%
 
 ---
 
@@ -23,7 +28,7 @@ Como administrador do [!DNL Adobe Workfront], você pode integrar o [!DNL Workfr
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table>
   <tr>
@@ -36,7 +41,7 @@ Como administrador do [!DNL Adobe Workfront], você pode integrar o [!DNL Workfr
   <tr>
    <td>Licenças do Adobe Workfront
    </td>
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    <p>Plano</p>
    </td>
   </tr>
@@ -62,7 +67,7 @@ O [!DNL Workfront for AEM Assets connector] permite que sua organização faça 
 
 * Integre com o repositório do [!DNL AEM Digital Asset Managemen]t (DAM), permitindo que você use o [!DNL Workfront] para gerenciar e compartilhar ativos digitais armazenados no DAM.
 
-  Para obter mais informações sobre como vincular documentos e pastas de ativos, consulte   [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+  Para obter mais informações sobre como vincular documentos e pastas de ativos, consulte [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 * Combine e aplique metadados de ambos os aplicativos a um ativo.
 * Exibir um fluxo de comunicação abrangente para um ativo. Atualizações e comentários feitos em um ativo no [!DNL Workfront] ou no [!UICONTROL AEM Assets] são sincronizados com o outro aplicativo, estabelecendo um histórico abrangente das comunicações feitas com o ativo.
@@ -73,7 +78,7 @@ O [!DNL Workfront for AEM Assets connector] permite que sua organização faça 
 
 Antes de instalar o conector [!DNL Workfront] para [!UICONTROL AEM Assets], verifique se os seguintes pré-requisitos foram atendidos:
 
-* O [!UICONTROL AEM Assets] está instalado e configurado, versão 6.5 ou posterior. Para obter informações sobre como instalar o [!UICONTROL AEM Assets], consulte a [[!DNL Adobe Experience Manager] documentação](https://experienceleague.adobe.com/pt-br/docs/experience-manager).
+* O [!UICONTROL AEM Assets] está instalado e configurado, versão 6.5 ou posterior. Para obter informações sobre como instalar o [!UICONTROL AEM Assets], consulte a [[!DNL Adobe Experience Manager] documentação](https://experienceleague.adobe.com/en/docs/experience-manager).
 * (Condicional) Se as regras de firewall não permitirem o tráfego conforme esperado, adicione o endereço IP e/ou domínio do cluster ao incluo na lista de permissões. Para obter mais informações, consulte [Configurar incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Instalar o pacote do conector [!DNL Workfront for AEM Assets] {#install-the-workfront-for-aem-assets-connector-package}

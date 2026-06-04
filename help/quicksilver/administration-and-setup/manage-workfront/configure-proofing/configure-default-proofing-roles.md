@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/1bEnBH5l58juHFYsg1bfR-LMcQ-wGgKNkeGAGQlNbJs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 2%
+source-wordcount: 505
+ht-degree: 8%
 
 ---
 
@@ -21,9 +26,9 @@ Como administrador do Adobe Workfront, você pode configurar as funções de pro
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,99 +122,99 @@ A tabela a seguir mostra cada função e os direitos associados a ela:
  <tbody> 
   <tr> 
    <td> <p><strong>Somente Leitura</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Oliveira</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Aprovador</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Revisor e Aprovador</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Autor</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td> <p>✓ µ</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p><strong>Moderador</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ <strong></strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> <p> </p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td> <p>✓ µ</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p><strong> ✔</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> <p> </p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

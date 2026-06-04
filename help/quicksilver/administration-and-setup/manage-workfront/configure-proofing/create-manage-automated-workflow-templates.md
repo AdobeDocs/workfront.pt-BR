@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+TQID: https://experienceleague.adobe.com/HoUALwtvCHKaN408VjpHaxFI6bF-XpInL6S1chuxXt4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 0%
+source-wordcount: 2083
+ht-degree: 3%
 
 ---
 
@@ -35,21 +40,21 @@ Para obter informações sobre Fluxos de Trabalho Automatizados, consulte [visã
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Novo: Qualquer um</p><p>Atual: Pro ou superior</p><p>Herdados: Premium ou Select</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
+   <td role="rowheader">Plano Adobe Workfront</td> 
+   <td> <p>Novo: qualquer um</p><p>Atual: Pro ou superior</p><p>Herdados: Premium ou Select</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Padrão</p><p>Atual: Trabalho ou Plano</p> <p>Herdado: qualquer um (Você deve ter a prova ativada para o usuário)</p> </td> 
+   <td> <p>Novo: padrão</p><p>Atual: Trabalho ou Plano</p> <p>Herdado: qualquer um (Você deve ter a prova ativada para o usuário)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -58,7 +63,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

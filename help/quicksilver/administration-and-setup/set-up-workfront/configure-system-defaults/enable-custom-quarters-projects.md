@@ -8,12 +8,17 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/8kRfZ17zcgN0-hlc16wh328YGRjTlzuI3LAe-Yjj25s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 10%
+source-wordcount: 350
+ht-degree: 9%
 
 ---
 
@@ -53,7 +58,7 @@ Dependendo dos produtos comprados por sua empresa, é possível configurar o seg
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>[!UICONTROL Administrador do Sistema]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +86,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >
    > Se sua empresa comprou o [!DNL Workfront Planning], você não poderá salvar trimestres personalizados se houver lacunas ou sobreposições entre os trimestres.
    >![Trimestres personalizados com aviso de sobreposição](assets/custom-quarters-with-overlap-warning.png)
-   >Gaps and overlaps between the quarters are allowed for [!DNL Workfront] only customers.
+   >Intervalos e sobreposições entre os trimestres são permitidos somente para [!DNL Workfront] clientes.
 
 1. (Opcional e condicional) Se sua empresa comprou apenas o [!DNL Workfront], sem o [!DNL Workfront Planning], crie um elemento de relatório que faça referência aos trimestres fiscais.
 

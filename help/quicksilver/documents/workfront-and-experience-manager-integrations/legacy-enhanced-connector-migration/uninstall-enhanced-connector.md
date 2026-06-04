@@ -6,20 +6,24 @@ description: Você deve desinstalar o conector aprimorado do Workfront com Adobe
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
-source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
+TQID: https://experienceleague.adobe.com/CeCyF8zbwp4tVcxQebq0EdaJqagDyppVuCL6ilqEvJA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 0%
+source-wordcount: 260
+ht-degree: 3%
 
 ---
 
-# Desinstale o conector aprimorado do Workfront com Adobe Experience Manager
+# Desinstalar o Workfront com conector aprimorado do Adobe Experience Manager
 
 Você deve desinstalar o conector aprimorado do Workfront com Adobe Experience Manager para a integração nativa mais recente que conecta o Workfront e o Adobe Experience Manager Assets as a Cloud Service.
 
 ## Pré-requisitos
 
-* (Opcional) Se necessário, reverta quaisquer alterações feitas nas configurações do Workfront firewall e do AEM dispatcher.
+* (Opcional) Se necessário, reverta quaisquer alterações feitas na configuração de firewall do Workfront e nas configurações do AEM Dispatcher.
 
 ## Desinstale o conector aprimorado
 
@@ -104,4 +108,4 @@ Você deve desinstalar o conector aprimorado do Workfront com Adobe Experience M
 
 1. Confirme as alterações e envie o código para o repositório do Cloud Manager
 
-1. Execute o pipeline do Cloud Manager para implantar as alterações na instância do Cloud Service
+1. Execute o pipeline do Cloud Manager para implantar as alterações na instância do Cloud Services

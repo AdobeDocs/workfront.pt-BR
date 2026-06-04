@@ -8,20 +8,25 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/J-2MAo46KrxdE-b8InXVnihPhQd7wfZAo5IgWYiugEw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 2%
+source-wordcount: 234
+ht-degree: 17%
 
 ---
 
-# Criar subordinados diretos
+# Criar relatórios diretos
 
 Você pode designar usuários como subordinados diretos para outro usuário. Isso permite criar um organograma que exibe a estrutura de gerenciamento da organização. Para obter mais informações, consulte [Exibir o organograma](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +38,7 @@ Você pode designar usuários como subordinados diretos para outro usuário. Iss
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p><p>Plano</p></td> 
+   <td><p>Padrão</p><p>Plano</p></td> 
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -50,7 +55,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Criar subordinados diretos
+## Criar relatórios diretos
 
 1. Comece a editar um usuário conforme descrito em [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 1. Na seção **Organização**, verifique se uma empresa está selecionada no campo **Empresa**.

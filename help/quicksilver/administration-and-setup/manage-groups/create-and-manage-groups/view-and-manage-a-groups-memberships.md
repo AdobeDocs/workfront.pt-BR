@@ -9,14 +9,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/yEORuaXJ2dT7kEsLleHU1P7ZnYXZUriA1ZLu8gZwvM4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 0%
+source-wordcount: 742
+ht-degree: 6%
 
 ---
 
-# Exibir e gerenciar associações de um grupo
+# Visualizar e gerenciar associações de um grupo
 
 Como administrador do Adobe Workfront, você pode exibir, adicionar, remover, exportar, ativar e desativar membros de qualquer grupo gerenciado. Você também pode editar os perfis, adicionar Atualizações aos perfis e atribuí-los como administradores de grupo adicionais para o grupo.
 
@@ -24,7 +29,7 @@ Se houver algum grupo acima do seu, os administradores também poderão fazer es
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +41,7 @@ Se houver algum grupo acima do seu, os administradores também poderão fazer es
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr>
   <tr> 
@@ -50,7 +55,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Exibir e gerenciar associações de um grupo
+## Visualizar e gerenciar associações de um grupo
 
 {{step-1-to-setup}}
 

@@ -8,10 +8,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+TQID: https://experienceleague.adobe.com/0bS4VdGyGBzH4LBw-WTeF0Ud8gtRAaxu0UevRtyZLQo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 1%
+source-wordcount: 841
+ht-degree: 5%
 
 ---
 
@@ -23,7 +28,7 @@ Para obter informações sobre como criar uma nova empresa, consulte [Criar e ed
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto">
  <tbody> 
@@ -34,7 +39,7 @@ Para obter informações sobre como criar uma nova empresa, consulte [Criar e ed
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licença</p> </td> 
-   <td><p>[!UICONTROL Plano]</p>
+   <td><p>[!UICONTROL Plan]</p>
    <p>[!UICONTROL Padrão]</p>
    </td> 
   </tr>

@@ -8,16 +8,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+TQID: https://experienceleague.adobe.com/gJ8o3kijaGF2W2aIaal4mv9iWXRfGMJ1-kkG3XLSB18
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 1%
+source-wordcount: 406
+ht-degree: 13%
 
 ---
 
-# Habilitar ou desabilitar versões rápidas para sua organização
+# Habilitar ou desabilitar lançamentos rápidos na organização
 
-A Adobe Workfront tem dois modelos para lançar novos recursos e atualizações. Você pode escolher se deseja receber novas funcionalidades trimestralmente ou em uma programação de lançamento mais rápida.
+O Adobe Workfront possui dois modelos para lançar novos recursos e atualizações. Você pode escolher se deseja receber novas funcionalidades trimestralmente ou em uma programação de lançamento mais rápida.
 
 Ambos os modelos oferecem os mesmos recursos e atualizações. A única diferença está no tempo.
 
@@ -33,7 +38,7 @@ Exemplo:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +50,7 @@ Exemplo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> <p>Plano</p></td> 
+   <td><p>Padrão</p> <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 

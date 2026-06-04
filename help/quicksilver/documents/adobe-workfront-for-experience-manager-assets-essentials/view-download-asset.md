@@ -1,25 +1,30 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Exibir ou baixar um ativo vinculado do Experience Manager Assets ou do Assets Essentials
+title: Visualizar ou baixar um ativo vinculado do Experience Manager Assets ou Assets Essentials
 description: Você pode visualizar ou baixar no Adobe Workfront um ativo vinculado do Experience Manager Assets ou do Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+TQID: https://experienceleague.adobe.com/dYoVL5-iJd6Y1-6fWFpVGow92z-MhE-15WVi3ur3ZTQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 0%
+source-wordcount: 229
+ht-degree: 34%
 
 ---
 
-# Exibir ou baixar um ativo vinculado do Experience Manager Assets ou do Assets Essentials
+# Visualizar ou baixar um ativo vinculado do Experience Manager Assets ou Assets Essentials
 
 Você pode visualizar ou baixar no Adobe Workfront um ativo vinculado do Experience Manager Assets ou do Assets Essentials.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,8 +37,8 @@ Você pode visualizar ou baixar no Adobe Workfront um ativo vinculado do Experie
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 
    <td>
-   <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p> </td> 
+   <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produtos adicionais</td> 
@@ -50,7 +55,7 @@ Você pode visualizar ou baixar no Adobe Workfront um ativo vinculado do Experie
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

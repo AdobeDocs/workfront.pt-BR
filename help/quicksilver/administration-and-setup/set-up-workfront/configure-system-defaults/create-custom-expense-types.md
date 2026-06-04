@@ -8,10 +8,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+TQID: https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 4%
+source-wordcount: 382
+ht-degree: 11%
 
 ---
 
@@ -25,7 +30,7 @@ Como administrador do [!DNL Adobe Workfront], você pode criar tipos de despesas
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +43,7 @@ Como administrador do [!DNL Adobe Workfront], você pode criar tipos de despesas
   <tr> 
    <td>[!DNL Adobe Workfront] licença</td> 
    <td><p>[!UICONTROL Padrão]</p>
-       <p>[!UICONTROL Plano]</p></td>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -78,7 +83,7 @@ Os tipos de despesas padrão em [!DNL Workfront] que não podem ser excluídos o
       * Quilômetro
       * Quilograma
       * Dólar
-      * Hour
+      * Hora
       * Day
       * Outro - A seleção dessa opção solicita que você nomeie sua unidade de medida e defina a unidade de medida como algo familiar à sua organização.
 

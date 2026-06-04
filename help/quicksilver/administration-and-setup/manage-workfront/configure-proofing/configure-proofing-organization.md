@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/IgFtq0CPnrWvKEs8lLv-dhOHvWo4hJnDABDwkYTnpUk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 0%
+source-wordcount: 1245
+ht-degree: 2%
 
 ---
 
@@ -21,7 +26,7 @@ Como administrador do Adobe Workfront ou administrador do Workfront Proof, você
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -123,7 +128,7 @@ Para adicionar um dispositivo personalizado:
       <td>Especifique as dimensões a serem usadas para este dispositivo. Os usuários veem as dimensões exibidas abaixo do nome do dispositivo.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Taxa</td> 
+      <td role="rowheader">Proporção</td> 
       <td>Especifique a taxa do dispositivo.</td> 
      </tr> 
      <tr> 
@@ -171,7 +176,7 @@ Para obter informações sobre como configurar padrões de prova para sua organi
 
 Para obter informações mais detalhadas sobre as configurações de compartilhamento no Workfront Proof, consulte [Definir configurações de compartilhamento para seus usuários](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
 
-## Marcar o site do Workfront Proof
+## Adicionar identidade visual ao site do Workfront Proof
 
 Se você estiver usando o Workfront Proof, poderá configurar a identidade visual nas seguintes áreas do site:
 
