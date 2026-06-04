@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
 source-wordcount: 409
 ht-degree: 10%
@@ -76,7 +76,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 {{step1-to-priorities}}
 
 1. Na lista de trabalho, passe o mouse sobre o nome do item de trabalho e clique no ícone **Resumo** ![abrir ícone de resumo](assets/summary-icon.png).
-1. Clique em **Projeto** na parte superior do painel Resumo. Aqui você pode
+1. Clique em **Projeto** na parte superior do painel Resumo. Aqui você pode:
    * Exibir e editar detalhes e descrição do projeto
    * Exibir e adicionar comentários ao projeto
    * Registrar de tempo
@@ -90,7 +90,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 {{step1-to-priorities}}
 
 1. Na lista de trabalho, passe o mouse sobre o nome do trabalho e clique no ícone **Resumo** ![abrir ícone de resumo](assets/summary-icon.png).
-1. Tarefa é selecionada por padrão. Aqui você pode
+1. Tarefa é selecionada por padrão. Aqui você pode:
    * Exibir e editar detalhes e descrição do projeto e da tarefa
    * Exibir e adicionar comentários ao projeto
    * Exibir e adicionar documentos
@@ -127,7 +127,7 @@ Você pode exibir atualizações em tempo real na página Detalhes de uma tarefa
 
 {{step1-to-priorities}}
 
-1. Na lista de trabalho, clique no nome do item de trabalho. Na página Detalhes, é possível
+1. Na lista de trabalho, clique no nome do item de trabalho. Na página Detalhes, é possível:
 
 * Exibir e editar detalhes e descrição do projeto
 * Exibir e adicionar comentários ao projeto
