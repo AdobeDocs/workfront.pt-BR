@@ -8,10 +8,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
 TQID: https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 746
@@ -64,7 +68,7 @@ Para obter mais informações sobre o cancelamento de inscrição nos emails de 
 
 ## Configure como os marcos são exibidos no Gráfico de Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***CORREÇÃO **: este recurso não está atualmente no ambiente de Pré-visualização de Sandbox. Seu lançamento está planejado para uma data posterior, durante o mês de junho de 2017.*
+***CORREÇÃO &#x200B;**: este recurso não está atualmente no ambiente de Pré-visualização de Sandbox. Seu lançamento está planejado para uma data posterior, durante o mês de junho de 2017.*
 
 Agora há duas opções para exibir informações de etapas em um gráfico de Gantt. Você pode configurar um ou ambos os indicadores de marcos a seguir:
 

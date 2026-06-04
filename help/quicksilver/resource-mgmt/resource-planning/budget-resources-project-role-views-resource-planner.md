@@ -7,11 +7,18 @@ author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
 TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2087
@@ -110,7 +117,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    * Clique no menu **Mais** do projeto e em **Definir as horas planejadas das funções como orçadas**.\
      As horas orçadas para cada função são calculadas usando a seguinte fórmula:\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -159,7 +166,7 @@ Você deve ter acesso de Edição a Gerenciamento de Recursos e a Dados Financei
 
 Para obter informações sobre o acesso necessário para recursos de orçamento, consulte o artigo [Acesso necessário para recursos de orçamento no Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Para alocações de orçamento no Planejador de recursos na visualização de função ****:
+Para alocações de orçamento no Planejador de recursos na visualização de função **&#x200B;**:
 
 1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 
@@ -180,8 +187,8 @@ Para alocações de orçamento no Planejador de recursos na visualização de fu
    * Na coluna **BDG**, especifique manualmente um número de horas orçadas, FTE ou custo para as funções de trabalho.\
      Isso distribui as Horas orçadas da função para as Horas orçadas do projeto para os projetos que você tem acesso para gerenciar.
 
-   * Clique no menu **Mais** da função de trabalho e clique em **Definir as horas planejadas dos projetos como orçadas.**As horas orçadas da função são calculadas usando a seguinte fórmula:\
-     *
+   * Clique no menu **Mais** da função de trabalho e clique em **Definir as horas planejadas dos projetos como orçadas.**&#x200B;As horas orçadas da função são calculadas usando a seguinte fórmula:\
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
