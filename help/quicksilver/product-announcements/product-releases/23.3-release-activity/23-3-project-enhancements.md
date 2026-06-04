@@ -39,4 +39,4 @@ Nesta primeira versão, o processo de aprovação foi simplificado tanto para a 
 
 A opção Compartilhar foi retirada do menu Mais para projetos, tarefas e problemas, tornando o compartilhamento mais intuitivo. O novo botão Compartilhar agora é exibido ao lado do nome de um objeto, antes do menu Mais. O compartilhamento de documentos, portfólios e programas permanece inalterado.
 
-Para obter mais informações sobre objetos de compartilhamento, consulte [Compartilhar um objeto](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).
+Para obter mais informações sobre objetos de compartilhamento, consulte [Compartilhar um objeto](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).
