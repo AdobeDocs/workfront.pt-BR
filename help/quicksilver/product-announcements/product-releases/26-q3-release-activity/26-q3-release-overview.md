@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1541'
 ht-degree: 19%
 
 ---
@@ -18,7 +18,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do terceiro trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -276,9 +276,9 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Aparência e comportamento atualizados para emails de notificação de comentários</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>As notificações por email para comentários na área Atualizações têm uma nova aparência que se alinha ao design de email mais amplo da Adobe. O thread dos comentários anteriores não está mais incluído no corpo do email.</p>
             </td>
-            <td><p>Implantação em fases, data de início a ser anunciada</p></td>
-            <td><p>Implantação em fases, data de início a ser anunciada</p></td>
-            <td><p>Implantação em fases, data de início a ser anunciada</p></td>
+            <td><p>N/D</p></td>
+            <td><p>Implantação em fases, a partir de 16 de julho de 2026</p></td>
+            <td><p>Implantação em fases, a partir de 16 de julho de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -373,7 +373,7 @@ Para obter mais informações, consulte [Introdução à avaliação gratuita do
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
