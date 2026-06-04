@@ -1,19 +1,26 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Preparação para a HIPAA para o Workfront
+title: Preparação para HIPAA no Workfront
 description: Um cliente da Workfront que seja, conforme definido na HIPAA, um Associado comercial e/ou a Entidade coberta em cujo nome o Associado comercial fornece a Adobe Workfront deve usar as diretrizes a seguir para configurar o Workfront para uso pronto para a HIPAA.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/l-NtMh5XxyfqH8jX87OPwwYbE8Qg2i5-vFK1tvdzuh0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 0%
+source-wordcount: 457
+ht-degree: 2%
 
 ---
 
-# Preparação para a HIPAA para o Workfront
+# Preparação para HIPAA no Workfront
 
 Um cliente da Workfront que seja, conforme definido na HIPAA, um Associado comercial e/ou a Entidade coberta em cujo nome o Associado comercial fornece a Adobe Workfront deve usar as seguintes diretrizes para configurar o Workfront para uso Pronto para HIPAA:
 
@@ -59,7 +66,7 @@ Em especial, as seguintes responsabilidades e obrigações devem ser revistas e 
 
 >[!IMPORTANT]
 >
->O Workfront não foi projetado para ser um repositório de registros eletrônicos de saúde (EHRs). A ePHI só poderá ser processada se expressamente autorizada por escrito pela Adobe. 
+>O Workfront não foi projetado para ser um repositório de EHRs (Electronic Health Records, registros eletrônicos de saúde). A ePHI só poderá ser processada se expressamente autorizada por escrito pela Adobe. 
 
 * Para qualquer banco de dados do Workfront em que ePHI possa ser acessado, verifique se **a Criptografia em repouso (EAR)** está habilitada.
    * Entre em contato com o Executivo de conta (AE) para verificar se o EAR está incluído em sua compra da Workfront.

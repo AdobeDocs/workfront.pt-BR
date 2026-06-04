@@ -7,10 +7,17 @@ description: Os fluxos de trabalho automatizados permitem criar uma série de es
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d643970a-c00c-4fb4-94bc-fca4e090dcc9
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+TQID: https://experienceleague.adobe.com/-BRaaTZcKosdFv6Au4RU0LDMuKffzxtWqprpzJfoh4g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 0%
+source-wordcount: 730
+ht-degree: 1%
 
 ---
 

@@ -6,14 +6,28 @@ description: Enviar sua planilha de horas para aprovação oferece ao seu gerent
 author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 0%
+source-wordcount: 845
+ht-degree: 6%
 
 ---
 
-# Enviar uma planilha de horas para aprovação
+# Enviar uma folha de horas para aprovação
 
 <!--Audited: 8/2024-->
 
@@ -21,7 +35,7 @@ Enviar sua planilha de horas para aprovação oferece ao seu gerente visibilidad
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,12 +65,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Enviar uma planilha de horas para aprovação
+## Enviar uma folha de horas para aprovação
 
 * [Enviar uma planilha de horas para aprovação](#submit-a-timesheet-for-approval)
 * [Exibir o status de uma folha de horas enviada](#view-the-status-of-a-submitted-timesheet)
 
-### Enviar uma planilha de horas para aprovação
+### Enviar uma folha de horas para aprovação
 
 Depois que um aprovador de folha de horas é definido (conforme descrito na seção [Designar aprovadores de folha de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) no artigo [Aprovar uma folha de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), o botão **Fechar** na parte inferior da folha de horas muda para um botão **Enviar para aprovação**.
 
@@ -87,7 +101,7 @@ Sem essas notificações, você pode saber mais sobre o status de suas folhas de
 
 Para exibir o status de uma planilha de horas:
 
-1. Clique no ícone **do** Menu principal![](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 1. Clique em **Folhas de horas**. O filtro **Todos** é selecionado por padrão.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
@@ -153,7 +167,7 @@ Você pode cancelar uma planilha de horas que já foi enviada para aprovação. 
 
 Para chamar novamente uma planilha de horas:
 
-1. Clique no ícone **do** Menu principal![](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
 1. Clique em **Folhas de horas**.
 1. Clique em **Minhas Planilhas de Horas** no canto superior direito da tela ou selecione **Minhas Planilhas de Horas** no menu suspenso **Filtro** ![](assets/filter-nwepng.png).

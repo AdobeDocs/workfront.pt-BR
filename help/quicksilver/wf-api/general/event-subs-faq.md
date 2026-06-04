@@ -1,20 +1,29 @@
 ---
 content-type: api;faq
 navigation-topic: general-api
-title: Perguntas frequentes - Assinaturas de eventos
-description: Perguntas frequentes - Assinaturas de eventos
+title: 'Perguntas frequentes: assinaturas de eventos'
+description: 'Perguntas frequentes: assinaturas de eventos'
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
+TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 0%
+source-wordcount: 987
+ht-degree: 1%
 
 ---
 
-# Perguntas frequentes - Assinaturas de eventos
+# Perguntas frequentes: assinaturas de eventos
 
 <!--
 {{highlighted-preview}}
@@ -50,7 +59,7 @@ Procure os seguintes cenários e use a solução recomendada:
 * A solicitação de entrega de evento pode estar expirando antes de ser concluída. Certifique-se de que o endpoint responda de forma consistente em 5 segundos. Esse é o tempo limite padrão definido para a solicitação HTTP para entregar uma mensagem de Assinatura de evento. Se o seu ponto de extremidade não responder em 5 segundos, contate o Suporte da Workfront ou consulte [Requisitos de entrega de Assinatura de Eventos](../../wf-api/general/setup-event-sub-endpoint.md).
 * Os eventos podem não gerar o que você pensa. Certifique-se de que você não esteja fazendo suposições sobre como ou quando os eventos devem ser disparados. Por exemplo, você pode pensar que a atualização de um documento em uma tarefa gera um evento de atualização de tarefa, mas em vez disso, gera um evento de criação de documento ou atualização de documento.
 * Sua assinatura pode não estar configurada conforme o esperado. Você pode criar assinaturas de evento em diferentes ambientes e esperar que elas sejam transferidas como seus outros dados do Workfront. No entanto, os dados de Assinatura de evento não estão configurados para serem copiados ou promovidos para outros ambientes. Verifique se você está emitindo solicitações de API para o ambiente correto e se as assinaturas nesse ambiente estão configuradas conforme esperado.
-* A carga não foi recebida porque o endereço IP necessário do Workfront não foi adicionado ao arquivo de inclui na lista de permissões do firewall. Os eventos de Assinatura de eventos são enviados de apenas alguns endereços IP. Verifique se a rede de destino tem todas as exceções de IP necessárias para receber cargas das Assinaturas de Eventos da Workfront.
+* A carga não foi recebida porque o endereço IP necessário do Workfront não foi adicionado ao incluo na lista de permissões no firewall. Os eventos de Assinatura de eventos são enviados de apenas alguns endereços IP. Verifique se a rede de destino tem todas as exceções de IP necessárias para receber cargas das Assinaturas de Eventos da Workfront.
 * A carga não foi recebida porque tinha mais de 1 MB. O objeto ou as mensagens de inscrição em eventos não podem ter mais de 1 MB.
 
 ## Por que está demorando muito para que minhas mensagens cheguem ao meu terminal?
@@ -94,4 +103,4 @@ Em geral, você pode esperar receber solicitações de entrega de eventos de Ass
 
 * **Noções básicas sobre as tentativas de Assinatura de Evento**: [Novas tentativas de assinatura de evento](../../wf-api/api/event-sub-retries.md)
 
-* **Configurando o firewall para o Workfront**: [Configurar a inclui na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **Configurando o firewall para o Workfront**: [Configurar o incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

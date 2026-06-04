@@ -1,20 +1,33 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades da API versão 14
+title: Novidades na versão 14 da API
 description: O Adobe Workfront lançou a API versão 14 em 9 de setembro de 2021. A API versão 14 apresenta as seguintes alterações da versão 14.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/gRCMOHLFlV01R9aOqqFuDzTVjGbxjvU2NVIVmPiTE5E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 0%
+source-wordcount: 897
+ht-degree: 4%
 
 ---
 
-# Novidades da API versão 14
+# Novidades na versão 14 da API
 
 O Adobe Workfront lançou a API versão 14 em 9 de setembro de 2021. A API versão 14 apresenta as seguintes alterações da versão 14.
 
@@ -47,7 +60,7 @@ Os recursos a seguir foram modificados para a API versão 14.
 
 ### Registro de Cobrança (BILL) {#billingrecord-bill}
 
-Um objeto BillingRecord registra a receita, as horas ou as despesas que podem ser faturadas. Essas informações podem ser usadas para criar faturas em um sistema de contabilidade externo.
+Um objeto BillingRecord registra a receita, as horas ou as despesas que podem ser faturadas. Essas informações podem ser usadas para criar faturas em um sistema contábil externo.
 
 Para obter mais informações sobre registros de cobrança, consulte [Criar registros de cobrança](../../manage-work/projects/project-finances/create-billing-records.md).
 
@@ -152,7 +165,7 @@ Um objeto CustomerPreferences representa o conjunto de preferências que um clie
    <td role="rowheader">Campos diretos</td> 
    <td> 
     <ul> 
-     <li> <p><b>nome</b> </p> <p>Valor adicionado possível:</p> 
+     <li> <p><b>name</b> </p> <p>Valor adicionado possível:</p> 
       <ul> 
        <li> <p>Permitir que os usuários adicionem imagens em atualizações (updates:images.toggle)</p> </li> 
       </ul> <p>Este parâmetro oferece suporte à capacidade de adicionar imagens em atualizações de item de trabalho. </p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Atualizar trabalho</a>.</p> </li> 
@@ -218,7 +231,7 @@ Para obter mais informações sobre marcação em atualizações, consulte [Marc
      <li> <p><b>CONTAGEM</b> </p> </li> 
      <li> <p><b>GET</b> </p> </li> 
      <li> <p><b>RELATÓRIO</b> </p> </li> 
-     <li> <p><b>PESQUISAR</b> </p> </li> 
+     <li> <p><b>SEARCH</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

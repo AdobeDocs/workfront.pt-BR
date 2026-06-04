@@ -5,9 +5,19 @@ description: O recurso Integridade do projeto utiliza o poder do Assistente de I
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
+TQID: https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: 2065
 ht-degree: 4%
 
 ---
@@ -259,11 +269,11 @@ Você pode ter várias configurações de Integridade do Projeto em seu sistema.
 
    * **Custo**: se o projeto estiver acima do orçamento.
 
-1. No **Quando o projeto é iniciado oficialmente?**, selecione o evento que sinaliza o início do seu projeto no menu suspenso.
+1. No **Quando seu projeto começa oficialmente?** selecione o evento que sinaliza o início do projeto no menu suspenso.
 
-1. No **Como você estima o escopo do trabalho em um projeto?Seção**, selecione qual fator de projeto aumentará à medida que o escopo do projeto aumentar.
+1. No **Como você estima o escopo do trabalho em um projeto?** selecione qual fator de projeto aumentará à medida que o escopo do projeto aumentar.
 
-1. Na **Qual você deseja verificar por campos obrigatórios?**, selecione um ou mais campos que devem conter um valor para o projeto.
+1. Na **Em qual você deseja verificar os campos obrigatórios?** selecione um ou mais campos que devem conter um valor para o projeto.
 
    ![Campos necessários para a integridade do projeto](assets/project-completeness-fields.png)
 
@@ -318,7 +328,7 @@ Para gerar uma avaliação de Integridade do Projeto para um projeto ou programa
 
    >[!NOTE]
    >
-   >Se você estiver acessando o Assistente de IA de uma página diferente no Workfront, poderá digitar *Qual é a integridade do projeto [NOME DO PROJETO]?* ou *Qual é a integridade do programa [NOME DO PROGRAMA]?* <br>
+   >Se você estiver acessando o Assistente de IA de outra página do Workfront, poderá digitar *Qual é a integridade do projeto [NOME DO PROJETO]?* ou *Qual é a integridade do programa [NOME DO PROGRAMA]?* <br>
    >Para obter uma lista completa dos prompts atuais que você pode inserir, consulte a seção [lista de prompts do Assistente de IA](#ai-assistant-prompts-list) neste artigo.
 
 1. Clique no ícone **Enviar** ![Ícone Enviar](assets/send-icon.png). A avaliação de Integridade do projeto é gerada e exibida no painel. Um selo é exibido na parte superior de cada avaliação de Integridade do projeto, o que reflete a condição atual do projeto.

@@ -1,21 +1,25 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: Requisitos de entrega de Assinatura de Evento
-description: Requisitos de entrega de Assinatura de Evento
+title: Requisitos de entrega de assinatura de evento
+description: Requisitos de entrega de assinatura de evento
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 0%
+source-wordcount: 275
+ht-degree: 4%
 
 ---
 
-
-# Requisitos de entrega de Assinatura de Evento
+# Requisitos de entrega de assinatura de evento
 
 As mensagens de assinatura de evento são notificações que podem ser configuradas para notificar os usuários quando determinados eventos ocorrem. Para saber mais sobre o que são Assinaturas de Eventos, consulte [Perguntas frequentes - Assinaturas de Eventos](../../wf-api/general/event-subs-faq.md).
 
@@ -29,9 +33,9 @@ Os endpoints de serviço que consomem mensagens de assinatura de eventos do Adob
 
 * Se um status de nível 200 não for retornado, o sistema de assinatura de eventos presumirá que a mensagem não foi entregue com êxito e começará a aplicar a política de repetição apropriada. Para saber mais sobre a política de novas tentativas do Workfront, consulte [Novas tentativas de assinatura de evento](../../wf-api/api/event-sub-retries.md).
 
-* Juntamente com o retorno de um status de nível 200 como status de resposta, a resposta HTTP deve ser recebida dentro de cinco segundos após o início da tentativa de delivery. Essa restrição garante que os processos de negócios do consumidor ou as limitações de infraestrutura não atrasem o delivery de outras mensagens com entrega pendente.
+* Juntamente com o retorno de um status de nível 200 como o status de resposta, a resposta HTTP deve ser recebida dentro de cinco segundos após o início da tentativa de delivery.Essa restrição garante que os processos de negócios do consumidor ou as limitações de infraestrutura não atrasem a entrega de outras mensagens pendentes.
 
-* Se um processo de negócios de longa duração for acionado a partir de uma mensagem de assinatura de evento, a Workfront recomenda  que
+* Se um processo de negócios de longa duração for acionado a partir de uma mensagem de assinatura de evento, a Workfront recomenda que
 
    1. o endpoint salva as informações da mensagem no recebimento e responde imediatamente com um status de nível 200.
    1. Depois que um endpoint responde a uma solicitação de delivery de subscrição de evento, as mensagens salvas podem ser processadas.

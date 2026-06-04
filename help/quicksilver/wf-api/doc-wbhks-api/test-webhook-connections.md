@@ -2,21 +2,30 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Testar conexões do Webhook
-description: Testar conexões do Webhook
+title: Testar conexões de webhook
+description: Testar conexões de webhook
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/08obyXZ-MxoG1JqSrG-skblpHIudRUTeCcZ3vsUocBs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 0%
+source-wordcount: 809
+ht-degree: 1%
 
 ---
 
-
-# Testar conexões do Webhook
+# Testar conexões de webhook
 
 Para verificar se a implementação do webhook do seu documento funciona corretamente, execute os testes manuais nesta seção. Essas etapas passam pela interface da Web do Adobe Workfront e atingem indiretamente os endpoints da implementação do webhook.
 

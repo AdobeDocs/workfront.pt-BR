@@ -6,14 +6,26 @@ description: Por padrão, as informações que você vê no aplicativo Web  [!DN
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/GnU1tvjVHwZFsJwu8p1Y9tULbgRjE5-reFejaNEAt2Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 4%
+source-wordcount: 635
+ht-degree: 8%
 
 ---
 
-# Adicionar um painel no painel esquerdo de um objeto ou área do Workfront
+# Adicionar um painel na tela esquerda de um objeto ou área do Workfront
 
 ## [!DNL Adobe Workfront] seções
 

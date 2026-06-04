@@ -2,22 +2,27 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: 'Detalhes da folha de horas: índice do artigo'
+title: 'Detalhes da folhas de horas: índice do artigo'
 description: Saiba mais sobre folhas de horas e seu layout nos artigos a seguir.
 author: Lisa
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 59ddd607-5e99-43b4-aea5-c6cb0d6aa13d
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/T2bJ9wFV1aXZxWexZZdsOTQC1sYcYiI-dmbz2SBlPcA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 6%
+source-wordcount: 30
+ht-degree: 63%
 
 ---
 
-# Detalhes da folha de horas: índice do artigo
+# Detalhes da folhas de horas: índice do artigo
 
 Esta seção contém os seguintes artigos:
 
 * [Visão geral das planilhas de horas](../../timesheets/timesheets/timesheets-overview.md)
-* [Visão geral do layout da folha de horas](../../timesheets/timesheets/timesheet-layout.md)
+* [Visão geral do layout das folhas de horas](../../timesheets/timesheets/timesheet-layout.md)

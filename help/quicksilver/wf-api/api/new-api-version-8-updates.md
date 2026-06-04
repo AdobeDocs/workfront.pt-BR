@@ -1,20 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Atualizações da API versão 8
+title: Atualizações na versão 8 da API
 description: Veja as atualizações da API versão 8.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+TQID: https://experienceleague.adobe.com/Vlqf19ewhFl6znlfdKapHUmpLWm0gyXDh7eTH1PrMRo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 31%
+source-wordcount: 492
+ht-degree: 48%
 
 ---
 
-# Atualizações da API versão 8
+# Atualizações na versão 8 da API
 
 ## Recursos Atualizados
 
@@ -136,7 +141,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-### Curtir
+### É como
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
@@ -290,7 +295,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 <sup>1</sup>Alterações em valores possíveis
 
-Atualizar
+Atualização
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|

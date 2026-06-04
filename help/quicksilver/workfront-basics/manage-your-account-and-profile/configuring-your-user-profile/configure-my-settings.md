@@ -6,11 +6,28 @@ description: Seu perfil  [!DNL Adobe Workfront]  contém informações sobre voc
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+TQID: https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: 3263
 ht-degree: 2%
 
 ---
@@ -342,14 +359,14 @@ Especifique o que deseja exibir na interface do [!DNL Workfront] nesta seção.
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Local de Email]</strong> </td> 
    <td><p>Especifique seu idioma preferido aqui. Controla o idioma, a data e o formato do número usados nas mensagens de email de saída.</p>
-   <p><strong>OBSERVAÇÃO:</strong> quando sua organização está na Experiência unificada do Adobe, as preferências de idioma são armazenadas em seu perfil do Adobe e a localidade de email não é usada. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Alterar o idioma do Adobe Experience Cloud</a> no artigo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas com suporte no Adobe Workfront</a>.</p></td> 
+   <p><strong>OBSERVAÇÃO:</strong> quando sua organização está na Experiência unificada do Adobe, as preferências de idioma são armazenadas em seu perfil do Adobe e a localidade de email não é usada. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Alterar o idioma da Adobe Experience Cloud</a> no artigo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas com suporte na Adobe Workfront</a>.</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL Definir automaticamente o status da tarefa como Em Andamento quando as tarefas forem autoatribuídas]</strong> </td>
   <td>Selecione esta opção se quiser que o status do trabalho atribuído a você mesmo seja automaticamente definido como Em andamento em vez de Novo.</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>(Condicional) Gera provas automaticamente ao carregar documentos</strong></td> 
-   <td>Selecione este campo para começar a gerar uma prova imediatamente após o documento ser carregado em [!DNL Workfront]. Esse campo está desativado por padrão e só pode ser atualizado por um administrador do Workfront.<br>Este campo só estará disponível se sua empresa tiver comprado o componente Workfront Proof para Workfront e se você estiver habilitado como usuário de prova. Para obter mais informações sobre o Workfront Proof, consulte <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gerenciar provas no Adobe Workfront</a>.
+   <td>Selecione este campo para começar a gerar uma prova imediatamente após o documento ser carregado em [!DNL Workfront]. Este campo está desabilitado por padrão e só pode ser atualizado por um administrador do Workfront.<br>Este campo só estará disponível se sua empresa tiver comprado o componente do Workfront Proof para o Workfront e se você estiver habilitado como usuário de prova. Para obter mais informações sobre o Workfront Proof, consulte <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gerenciar provas no Adobe Workfront</a>.
    <p><b>Observação:</b> documentos carregados em uma solicitação não geram automaticamente uma prova. </p></td> 
   </tr> 
  </tbody> 

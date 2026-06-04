@@ -8,13 +8,25 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d6f15301-a604-47ff-897b-83a19659dedf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3649'
-ht-degree: 2%
+source-wordcount: 3699
+ht-degree: 4%
 
 ---
-
 
 # API de webhooks do documento
 
@@ -62,7 +74,7 @@ Ao adicionar uma integração, o administrador inserirá valores nos seguintes c
   </tr> 
   <tr> 
    <td>Parâmetros de solicitação</td> 
-   <td> <p>Valores opcionais a serem acrescentados à querystring de todas as chamadas para a API. Por exemplo, access_type</p> </td> 
+   <td> <p>Valores opcionais a serem anexados à querystring de cada chamada de API. Por exemplo, access_type=offline.</p> </td> 
   </tr> 
   <tr> 
    <td>Tipo de autenticação</td> 
@@ -146,7 +158,7 @@ Por exemplo, pode ser usado para a Autenticação básica. Para fazer isso, o ad
 
    Autorização básica QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 
-onde QWxhZGRpbjpvcGVuIHNlc2FtZQ== é uma string codificada na base 64 de &quot;username:password&quot;. Consulte Autenticação básica. Desde que tenha sido adicionado, o Workfront passará isso no cabeçalho da solicitação HTTP, além de outros cabeçalhos de solicitação:
+onde QWxhZGRpbjpvcGVuIHNlc2FtZQ== é uma cadeia de caracteres codificada na base 64 de &quot;nome de usuário:password&quot;. Consulte Autenticação básica. Desde que tenha sido adicionado, o Workfront passará isso no cabeçalho da solicitação HTTP, além de outros cabeçalhos de solicitação:
 
 ```
 ­­­­­­­­­­­­­­­­­­­­­­­­­­-------------------------------
@@ -242,7 +254,7 @@ O URL é configurável e corresponde ao valor do URL do endpoint do token na pá
   </tr> 
   <tr> 
    <td>expires_in </td> 
-   <td>long</td> 
+   <td>longo</td> 
    <td>  <p>(Opcional) O tempo (em segundos) antes que o access_token expire, geralmente 3.600.</p></td> 
   </tr> 
  </tbody> 
@@ -490,7 +502,7 @@ Retorna os bytes brutos de um documento.
 
 **URL**
 
-GET /download
+GET/download
 
 **Parâmetros de consulta**
 
@@ -603,7 +615,7 @@ Carrega os bytes de um documento para o provedor de webhook.
 
 **URL**
 
-PUT /upload
+PUT/upload
 
 **Parâmetros de consulta**
 

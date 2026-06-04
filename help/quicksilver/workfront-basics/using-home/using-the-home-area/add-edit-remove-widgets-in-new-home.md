@@ -6,13 +6,17 @@ description: Você pode escolher entre vários widgets para personalizar o conte
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 4%
+source-wordcount: 1123
+ht-degree: 6%
 
 ---
-
 
 # Adicionar, editar ou remover widgets na Página inicial
 
@@ -32,7 +36,7 @@ Por padrão, a Página inicial é preenchida com widgets específicos de acordo 
         <td><b>Widgets padrão</b></td>
     </tr>
     <tr>
-        <td>Standard</td>
+        <td>Padrão</td>
         <td>Meus projetos, Meu trabalho, Menções, Tarefas pendentes</td>
     </tr>
     <tr>
@@ -119,7 +123,7 @@ Para adicionar um widget:
        Exibe todas as solicitações pendentes para as equipes nas quais você está, classificadas por equipe, bem como botões para atribuir diretamente uma solicitação a um usuário ou para trabalhar nela você mesmo.
 
    * **Minhas aprovações**\
-       Exibe todas as aprovações atribuídas ou delegadas pendentes, um botão para delegar aprovações e botões para tomar decisões de aprovação diretamente no widget. As aprovações são ordenadas da seguinte maneira:
+       Exibe todas as suas aprovações atribuídas ou delegadas pendentes, um botão para delegar aprovações e botões para tomar decisões de aprovação diretamente no widget. As aprovações são ordenadas da seguinte maneira:
       * Prazos atrasados
       * Próximos prazos de conclusão
       * Itens sem prazo de conclusão

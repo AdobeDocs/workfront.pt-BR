@@ -7,9 +7,17 @@ description: 'Mensagem de Erro no  [!DNL Adobe Workfront] Aplicativo Móvel: ''S
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
+TQID: https://experienceleague.adobe.com/t-ANxgXpzPBSM8cGUipyAIczqSEUJGXTthbaVP5dh2E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: 161
 ht-degree: 15%
 
 ---
@@ -53,7 +61,7 @@ O administrador do [!DNL Workfront] não habilitou o ambiente [!DNL Workfront] p
 1. Vá para a área **[!UICONTROL Configuração]**.
 1. Expanda o menu **[!UICONTROL Sistema]** e clique em **[!UICONTROL Preferências]**.
 
-1. Na seção **[!UICONTROL Segurança]**, selecione a opção **[!UICONTROL Permitir que as pessoas usem os aplicativos móveis[!DNL Workfront] de]** para habilitá-la.
+1. Na seção **[!UICONTROL Segurança]**, selecione a opção **[!UICONTROL Permitir que as pessoas usem os aplicativos móveis]** de [!DNL Workfront] para habilitá-la.
 
 1. Clique em **[!UICONTROL Salvar]**.\
    Todos os usuários no sistema agora podem acessar [!DNL Workfront] por meio de seus aplicativos móveis.

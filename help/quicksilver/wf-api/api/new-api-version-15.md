@@ -1,20 +1,33 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades da API versão 15
+title: Novidades na versão 15 da API
 description: O Adobe Workfront lançou a API versão 14 em 14 de junho de 2022. A API versão 15 apresenta as seguintes alterações da versão 14.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/8aay3Ew3jFaxu2L-uvvlW-aqGo7ZT5Jj5TvrTCg96gM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 0%
+source-wordcount: 2294
+ht-degree: 3%
 
 ---
 
-# Novidades da API versão 15
+# Novidades na versão 15 da API
 
 O Adobe Workfront lançou a API versão 15 em 14 de junho de 2022. A API versão 15 apresenta as seguintes alterações da versão 14.
 
@@ -82,7 +95,7 @@ Para obter mais informações sobre Iniciativas, consulte [Visão geral das Inic
             <p>A data em que a Iniciativa foi publicada pela última vez no Planejador de cenários do Workfront.</p>
           </li>
           <li>
-            <p><b>nome</b>
+            <p><b>name</b>
             </p>
             <p>O nome da Iniciativa</p>
           </li>
@@ -142,7 +155,7 @@ Para obter mais informações sobre Iniciativas, consulte [Visão geral das Inic
             </p>
           </li>
           <li>
-            <p><b>nome</b>
+            <p><b>name</b>
             </p>
           </li>
           <li>
@@ -169,7 +182,7 @@ Para obter mais informações sobre Iniciativas, consulte [Visão geral das Inic
             </p>
           </li>
           <li>
-            <p><b>PESQUISAR</b>
+            <p><b>SEARCH</b>
             </p>
           </li>
         </ul>
@@ -529,7 +542,7 @@ O objeto TaskDef representa um conjunto de dados relativos ao formato de tarefas
             </p>
           </li>
           <li>
-            <p><b>PESQUISAR</b>
+            <p><b>SEARCH</b>
             </p>
           </li>
         </ul>
@@ -781,7 +794,7 @@ Um objeto AccessRule representa um conjunto de regras em níveis de acesso perso
 
 ### Aprovação (APPROVAL)
 
-Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de horas, pode exigir que um supervisor ou outro usuário faça logoff no item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
+Um determinado item de trabalho, como uma tarefa, documento ou folha de horas, pode exigir que um supervisor ou outro usuário aprove o item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
 
 <table>
   <col/>
@@ -930,7 +943,7 @@ Um objeto CustomerPreferences representa o conjunto de preferências que um clie
       <td>
         <ul>
           <li>
-            <p><b>nome</b>
+            <p><b>name</b>
             </p>
             <p>Os seguintes valores foram adicionados:</p>
             <ul>
@@ -1127,7 +1140,7 @@ O objeto JournalEntry pode ser configurado para registrar informações sobre ca
 
 ### LinkedFolder (LNKFDR)
 
-Um objeto LinkedFolder representa uma pasta vinculada de um provedor de documentos externo, como Google Drive ou Dropbox.
+Um objeto LinkedFolder representa uma pasta vinculada de um provedor de documentos externo, como o Google Drive ou o Dropbox.
 
 Para obter mais informações sobre Pastas vinculadas, consulte Vincular documentos de aplicativos externos.
 
@@ -1231,7 +1244,7 @@ Um objeto Parameter é um campo personalizado.
 
 ### Portfolio (PORTA)
 
-Um objeto Portfolio é uma coleção de projetos que competem pelos mesmos recursos, normalmente dinheiro ou pessoas para concluí-los.
+Um objeto do Portfolio é uma coleção de projetos que competem pelos mesmos recursos, normalmente dinheiro ou pessoas para concluí-los.
 
 <table>
   <col/>
@@ -1405,7 +1418,7 @@ Para obter mais informações sobre Filas de solicitações, consulte [Criar uma
 
 ### ScoreCardQuestion (SCOREQ)
 
-Um objeto ScoreCardQuestion representa uma pergunta que foi adicionada a um Scorecard. Essas perguntas geralmente são determinadas pelo gerente de Portfolio, e suas respostas permitem que o gerente entenda como um projeto se alinha com as metas do portfólio.
+Um objeto ScoreCardQuestion representa uma pergunta que foi adicionada a um Scorecard. Essas perguntas geralmente são determinadas pelo gerente da Portfolio e suas respostas permitem que o gerente entenda como um projeto se alinha às metas do portfólio.
 
 Para obter mais informações sobre Perguntas do Scorecard, consulte [Criar um scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 

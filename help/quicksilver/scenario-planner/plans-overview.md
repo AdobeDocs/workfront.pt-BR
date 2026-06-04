@@ -7,9 +7,16 @@ description: Como gerente de negócios, você pode usar o Planejador de cenário
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 3f53cb49bbe8de21c42ec557fd367490f8ae8956
+TQID: https://experienceleague.adobe.com/FvNrULxi5wJwH6C6Rok0gnIriccNiYRXx150Ea-9-HI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: 1167
 ht-degree: 0%
 
 ---
@@ -91,7 +98,7 @@ Você pode exibir o seguinte nas caixas [!UICONTROL Financeiro] e [!UICONTROL Re
    <td>Esse é o valor monetário que sua empresa decide que está disponível para executar o plano. A Workfront distribui o orçamento uniformemente para cada mês dentro da duração do plano. Normalmente, os orçamentos são definidos para um ano, mas também podem ser definidos para um período de 3 ou 5 anos. A moeda nos parênteses à esquerda do título da caixa Financial indica a moeda do sistema. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Custos]</td> 
+   <td role="rowheader">[!UICONTROL Costs]</td> 
    <td> <p>Este é o valor total dos custos de todas as iniciativas do plano. O Workfront calcula os Custos do plano usando a seguinte fórmula:</p> <p><code>Plan Costs = SUM(Initiative Costs)</code> </p> <p>Para obter informações sobre como os Custos das Iniciativas são calculados, consulte <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Criar e editar iniciativas na [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr> 

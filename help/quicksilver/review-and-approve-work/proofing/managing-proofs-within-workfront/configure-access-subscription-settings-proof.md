@@ -1,25 +1,35 @@
 ---
 product-area: documents;system-administration;setup
 navigation-topic: manage-proofs-within-workfront
-title: Definir configurações de acesso e subscrição para uma prova
+title: Definir configurações de acesso e assinatura de uma prova
 description: Você pode definir determinadas configurações de acesso e subscrição para provas individuais, como exigir que os usuários façam logon e permitir que os usuários assinem a prova. Você pode definir as configurações de acesso e subscrição para uma prova enquanto a cria ou pode defini-las para uma prova que já existe no Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/lcalyeMjj8Vj7hcdgwQx03101gSgocB82uWXHaZCacQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 0%
+source-wordcount: 823
+ht-degree: 7%
 
 ---
 
-# Definir configurações de acesso e subscrição para uma prova
+# Definir configurações de acesso e assinatura de uma prova
 
 Você pode definir determinadas configurações de acesso e subscrição para provas individuais, como exigir que os usuários façam logon e permitir que os usuários assinem a prova. Você pode definir as configurações de acesso e subscrição para uma prova enquanto a cria ou pode defini-las para uma prova que já existe no Workfront.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +42,7 @@ Você pode definir determinadas configurações de acesso e subscrição para pr
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Trabalho ou Plano</p> 
     </td> 
   </tr> 
@@ -59,7 +69,7 @@ Para definir as configurações de acesso e subscrição de uma prova enquanto a
 1. Clique em **Adicionar novo** na área superior direita.
 1. Role até a seção **Configurações de prova** no canto inferior direito da página **Nova prova**.
 
-1. Defina as seguintes configurações:
+1. Configure as seguintes definições:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -78,7 +88,7 @@ Para definir as configurações de acesso e subscrição de uma prova enquanto a
        </ul><p>
         <ul>
          <li><strong>Acesso de prova via link de email necessário para:</strong> Configure se o assinante receberá um email com um link para a prova. Você pode selecionar <strong>Nenhum email</strong> (o link do email não é necessário para acessar a prova), <strong>Somente email de notificação de prova</strong> (o assinante recebe um link para a prova por email sem qualquer verificação) ou <strong>Emails de notificação de validação e prova</strong> (o assinante recebe um link para a prova por email e deve clicar no link para acessar uma prova; a finalidade dessa opção é garantir que a pessoa tenha inserido um endereço de email correto ao qual tem acesso).</li>
-        </ul><p>Nota:  Se as provas tiverem o Fluxo de trabalho automatizado anexado, todas as assinaturas gerarão emails de confirmação para os Proprietários da prova, para que eles possam decidir em qual estágio a pessoa deve ser adicionada.<br></p></p></td> 
+        </ul><p>Observação: se as provas tiverem o Fluxo de trabalho automatizado anexado, todas as assinaturas gerarão emails de confirmação para os Proprietários da prova, para que eles possam decidir em qual estágio a pessoa deve ser adicionada.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -91,7 +101,7 @@ Para definir as configurações de acesso e subscrição para uma prova que já 
 
 1. Na área Documentos, selecione o documento que contém a prova para a qual deseja definir configurações e clique em **Detalhes do Documento**.
 1. No painel esquerdo, clique em **Configurações do visualizador de provas**.
-1. Defina as seguintes configurações:
+1. Configure as seguintes definições:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -110,7 +120,7 @@ Para definir as configurações de acesso e subscrição para uma prova que já 
        </ul><p>
         <ul>
          <li><strong>Acesso de prova via link de email necessário para:</strong> Configure se o assinante receberá um email com um link para a prova. Você pode selecionar <strong>Nenhum email</strong> (o link do email não é necessário para acessar a prova), <strong>Somente email de notificação de prova</strong> (o assinante recebe um link para a prova por email sem qualquer verificação) ou <strong>Emails de notificação de validação e prova</strong> (o assinante recebe um link para a prova por email e deve clicar no link para acessar uma prova; a finalidade dessa opção é garantir que a pessoa tenha inserido um endereço de email correto ao qual tem acesso).</li>
-        </ul><p>Nota:  Se as provas tiverem o Fluxo de trabalho automatizado anexado, todas as assinaturas gerarão emails de confirmação para os Proprietários da prova, para que eles possam decidir em qual estágio a pessoa deve ser adicionada.<br></p></p></td> 
+        </ul><p>Observação: se as provas tiverem o Fluxo de trabalho automatizado anexado, todas as assinaturas gerarão emails de confirmação para os Proprietários da prova, para que eles possam decidir em qual estágio a pessoa deve ser adicionada.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>

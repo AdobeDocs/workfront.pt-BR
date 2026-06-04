@@ -6,9 +6,21 @@ description: As notificações a seguir informam se é necessário realizar algu
 author: Courtney
 feature: Get Started with Workfront
 exl-id: dd383bd4-da30-45ea-889e-e6b49416974b
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/3ZDXEj-RkaVm046mfT-xVk2Cij5mQOc9N-t7khpq7Ww
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: 2366
 ht-degree: 0%
 
 ---
@@ -33,7 +45,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
  <tbody> 
   <tr> 
    <td> <p><strong>Recebo uma nova solicitação de trabalho</strong> </p> <p>O destinatário do item de trabalho recebe uma notificação por email, a menos que o usuário que faz a solicitação também seja o destinatário. </p> <p>Uma notificação não será enviada se o status da tarefa for [!UICONTROL Concluído] ou se o status do problema for [!UICONTROL Fechado].</p> <p>Os usuários com uma licença de [!UICONTROL Review] ou [!UICONTROL Requestor] não recebem uma notificação.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Nova Solicitação de Trabalho]: &lt;Nome da Solicitação&gt;</em></p> <p>O assunto da notificação de resumo diário é: <em>[!UICONTROL Resumo da Ação Necessária] &lt;Data do resumo diário&gt;</em></p> </td> 
-   <td> <p>Nome da tarefa</p> <p>[!UICONTROL Data de Término Planejada]</p> <p>Pais</p> <p>Atribuído por</p> <p>Atribuído a</p> <p>[!UICONTROL Status]</p> <p>[!UICONTROL Descrição]</p> <p>Botão [!UICONTROL View]<br>Opção para adicionar ao resumo diário</p> <br> </td> 
+   <td> <p>Nome da tarefa</p> <p>[!UICONTROL Planned Completion Date]</p> <p>Pais</p> <p>Atribuído por</p> <p>Atribuído a</p> <p>[!UICONTROL Status]</p> <p>[!UICONTROL Description]</p> <p>Botão [!UICONTROL View]<br>Opção para adicionar ao resumo diário</p> <br> </td> 
    <td><strong>Instantâneo e</strong> <strong>Diário</strong></td> 
   </tr> 
   <tr> 

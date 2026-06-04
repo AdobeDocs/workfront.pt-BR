@@ -6,10 +6,21 @@ description: Você pode fazer comentários nas folhas de horas, nos itens de tra
 author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 0%
+source-wordcount: 873
+ht-degree: 4%
 
 ---
 
@@ -27,7 +38,7 @@ Você pode exibir atualizações de uma folha de horas ou de entradas de horas i
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +70,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Exibir comentários de entrada de horas em uma folha de horas {#view-hour-entry-comments-on-a-timesheet}
 
-Você pode configurar comentários feitos em entradas de horas individuais a serem exibidas na folha de horas. A opção de mostrar e ocultar comentários não afeta os comentários feitos na folha de horas geral ou os comentários feitos em itens individuais. Para obter mais informações, consulte  [Fazer comentários em uma folha de horas](#make-comments-on-a-timesheet).
+Você pode configurar comentários feitos em entradas de horas individuais a serem exibidas na folha de horas. A opção de mostrar e ocultar comentários não afeta os comentários feitos na folha de horas geral ou os comentários feitos em itens individuais. Para obter mais informações, consulte [Fazer comentários em uma folha de horas](#make-comments-on-a-timesheet).
 
 Por padrão, os comentários ficam ocultos na primeira vez que você acessa uma folha de horas.
 

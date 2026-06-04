@@ -6,10 +6,20 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 4%
+source-wordcount: 309
+ht-degree: 19%
 
 ---
 
@@ -21,7 +31,7 @@ Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ve
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,10 +42,10 @@ Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ve
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenças da Adobe Workfront*</td> 
+   <td role="rowheader">Licenças do Adobe Workfront*</td> 
    <td> 
-   <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p> </td> 
+   <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -53,7 +63,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 {{step1-to-priorities}}
 
 1. Passe o mouse sobre o nome, em seguida, clique no ícone **Mais** ![Mais](assets/more-icon.png).
-1. Clique em **Carregar**.
+1. Clique em **Fazer upload**.
    ![Atualizar, registrar horário e carregar](assets/update-log-upload.png)
 1. (Opcional) Na caixa **Carregar arquivos**, selecione uma pasta.
 1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
@@ -66,7 +76,7 @@ Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de 
    >[!NOTE]
    >
    >Arquivos adicionais são carregados como documentos separados.
-1. Clique em **Carregar**.
+1. Clique em **Fazer upload**.
 
 ## Fazer upload de um arquivo em um item de trabalho
 
@@ -90,4 +100,4 @@ Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de 
    >
    >Arquivos adicionais são carregados como documentos separados.
 
-1. Clique em **Carregar**.
+1. Clique em **Fazer upload**.

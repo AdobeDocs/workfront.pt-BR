@@ -1,19 +1,24 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notificações: Informações sobre projetos que eu patrociono'
+title: 'Notificações: informações sobre projetos que patrocino'
 description: As notificações a seguir alertam sobre atividades que ocorrem em um projeto que você está patrocinando.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/J3pTBQe0mePli1bPtY3pdXm0iPhAKlSLqzlYeABiplU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 0%
+source-wordcount: 1254
+ht-degree: 1%
 
 ---
 
-# Notificações: Informações sobre projetos que eu patrociono
+# Notificações: informações sobre projetos que patrocino
 
 As notificações a seguir alertam sobre atividades que ocorrem em um projeto que você está patrocinando.
 

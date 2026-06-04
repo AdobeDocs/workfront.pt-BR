@@ -1,19 +1,28 @@
 ---
 product-area: projects
 navigation-topic: recent-and-favorites
-title: Exibir e gerenciar favoritos
+title: Visualizar e gerenciar favoritos
 description: O menu Favoritos permite acessar itens rapidamente. Os itens permanecem no menu Favoritos até que você os remova. Você pode ter até 40 itens no menu Favoritos.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+TQID: https://experienceleague.adobe.com/S0cPTosyBInMh-Pji9TY1JEtsHB7lyTNlMlM6-M-yNQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 0%
+source-wordcount: 375
+ht-degree: 13%
 
 ---
 
-# Exibir e gerenciar favoritos
+# Visualizar e gerenciar favoritos
 
 <!-- Audited: 5/2025 -->
 
@@ -21,7 +30,7 @@ O menu [!UICONTROL Favoritos] permite acessar itens rapidamente. Os itens perman
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,13 +45,13 @@ O menu [!UICONTROL Favoritos] permite acessar itens rapidamente. Os itens perman
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>
-      <p>Colaborador ou superior<p>
-      <p>Solicitação ou superior</td> 
+      <p>Colaborador ou posterior<p>
+      <p>Solicitação ou posterior</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

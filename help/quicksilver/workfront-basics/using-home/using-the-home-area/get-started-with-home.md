@@ -6,12 +6,17 @@ description: O Início ajuda você a gerenciar seu trabalho. É possível person
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/QenYRRNaW0mkZ4oszgmrvs2XBRx7RQ1rKkuJffP2qV0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 4%
+source-wordcount: 1003
+ht-degree: 7%
 
 ---
 
@@ -46,7 +51,7 @@ Para obter informações sobre como adicionar, mover, redimensionar ou excluir w
 Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um resumo das informações que eles exibem:
 
 * **Meu trabalho**\
-    Um ótimo local para começar para gerenciar uma variedade de trabalhos, este widget exibe todas as tarefas, problemas e solicitações atribuídas em um único local. Você pode clicar no botão Trabalhar nisso para começar a trabalhar em um item ou no botão Concluído para marcá-los como concluídos. Você também pode atualizar informações (Status, Condição, Percentual concluído) sobre tarefas e problemas, tempo de registro e adicionar atualizações do widget Meu trabalho.
+    Um ótimo lugar para começar a gerenciar uma variedade de trabalhos, este widget exibe todos os problemas, solicitações e tarefas atribuídas a você em um só lugar. Você pode clicar no botão Trabalhar nisso para começar a trabalhar em um item ou no botão Concluído para marcá-los como concluídos. Você também pode atualizar informações (Status, Condição, Percentual concluído) sobre tarefas e problemas, tempo de registro e adicionar atualizações do widget Meu trabalho.
 
 * **Quadros**\
     Exibe todos os painéis que você criou ou que foi convidado a usar. Você também pode criar um novo quadro com base nos seguintes modelos: Quadro básico, Quadro Kanban, Quadro retrospectivo, Quadro dinâmico

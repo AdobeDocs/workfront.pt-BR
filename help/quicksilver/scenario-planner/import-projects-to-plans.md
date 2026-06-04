@@ -6,11 +6,23 @@ description: Você pode importar projetos existentes para um plano. Os projetos 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yZ3-dqcetTEtRr3-SBAMrsmEE0JcW-DhOOhO9dPsakM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: 1679
 ht-degree: 2%
 
 ---
@@ -185,7 +197,7 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
 >
 >Ocorrem os seguintes:
 >
->* As alterações no projeto nunca afetam a iniciativa após você importar o projeto para o plano. Essas alterações incluem alterações nas alocações de funções de trabalho.
+>* As alterações no projeto nunca afetam a iniciativa após você importar o projeto para o plano.Essas alterações incluem alterações nas alocações de funções de trabalho.
 >* As alterações na iniciativa afetam as informações na área [!DNL Scenario Planner] do projeto somente quando você publica a iniciativa no projeto correspondente. Caso contrário, elas não afetarão as informações de [!UICONTROL Horas planejadas] para as tarefas e problemas do projeto.
 >
 >  Para obter informações sobre como as iniciativas de publicação afetam os projetos vinculados, consulte [Atualizar ou criar projetos publicando iniciativas no Planejador de Cenários](../scenario-planner/publish-scenarios-update-projects.md).

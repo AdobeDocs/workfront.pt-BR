@@ -7,13 +7,28 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4461'
-ht-degree: 96%
+source-wordcount: 4436
+ht-degree: 95%
 
 ---
-
 
 # Noções básicas sobre API
 
@@ -300,7 +315,7 @@ em seguida, use a seguinte chamada de API com suas várias instruções OR:
 
 #### Utilização de parâmetros de filtro
 
-Uma possível armadilha ao usar parâmetros de URL para filtros de pesquisa é que o Workfront analisa determinados parâmetros antes de verificar os diferentes métodos de autenticação (ou seja, nome de usuário, senha, apiKey, cookie). Quando isso acontece, os parâmetros não são usados como filtros na chamada. 
+Uma possível armadilha no uso de parâmetros de URL para filtros de pesquisa é que o Workfront analisa determinados parâmetros antes de verificar se há diferentes métodos de autenticação (ou seja, nome de usuário, senha, apiKey, cookie). Quando isso acontece, os parâmetros não são usados como filtros na chamada. 
 
 Para evitar esse problema, você pode colocar esses valores em parâmetros de filtro com formatação JSON. Por exemplo, se você deseja filtrar pelo nome de usuário testuser, em vez de usar 
 <pre>/attask/api/v15.0/user/search?username=testuser@workfront.com</pre>passe o parâmetro de URL em um filtro, como mostrado no exemplo a seguir:
@@ -436,7 +451,7 @@ Para garantir um desempenho ideal, a tabela a seguir mostra as limitações impo
 Para substituir a limitação da consulta Número padrão de resultados e permitir 200 resultados, você pode incluir o filtro `$$LIMIT=200` na sua consulta, conforme mostrado no exemplo a seguir:
 <pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Para garantir a confiabilidade e o desempenho para outros locatários no sistema, o limite máximo permitido de resultados por consulta é de 2.000 objetos. Tentar especificar um limite maior resultará em uma mensagem de erro `IllegalArgumentException`. 
+Para garantir a confiabilidade e o desempenho de outros locatários no sistema, o limite máximo de resultados permitido por consulta é de 2000 objetos. Tentar especificar um limite maior resultará em uma mensagem de erro `IllegalArgumentException`. 
 
 Portanto, recomendamos que você considere o uso de respostas paginadas para grandes conjuntos de dados. Para especificar o primeiro resultado que deve ser retornado, adicione o filtro `$$FIRST`. Por exemplo, a solicitação a seguir retorna os resultados 201–250 para uma consulta:
 <pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
@@ -492,24 +507,24 @@ As atualizações dos objetos são sempre feitas por meio de IDs, utilizando o U
 ### Especificar edições em JSON
 
 Conforme mostrado no exemplo a seguir, você pode usar o parâmetro de solicitação de atualizações para especificar os campos a serem atualizados usando a sintaxe JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace;<br>     nome: "Novo Nome de Projeto", <br>     status: "CUR", <br>     ... <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br> name: "Novo nome de projeto", <br> status: "CUR", <br> ... <br>}</pre>
 
 ### Fazer atualizações aninhadas
 
 Alguns objetos possuem coleções particulares que podem ser atualizadas. O exemplo a seguir demonstra como substituir as atribuições existentes para uma determinada tarefa:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>&lbrace;<br>    atribuições: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br> atribuições: [ <br> { <br> assignedToID: "2222...54d0, <br> assignmentPercent: 50.0 <br> },{ <br> roleID: "1111...54d0"<br> } <br> ] <br>}</pre>
 
 >[!NOTE]
 >
 >Embora as atualizações feitas no nível superior sejam esparsas, as atualizações em uma coleção ou objeto aninhado substituem completamente a coleção existente. Para editar uma única atribuição em uma tarefa sem afetar os objetos, use PUT na atribuição em vez de na tarefa.
 
 O exemplo a seguir transforma um projeto em uma fila pública de suporte técnico. Observe que as propriedades da fila já existente são substituídas.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br> queueDef: { <br> isPublic: 1 <br> } <br>}</pre>
 
 ### Usar o parâmetro de solicitação de ação
 
 Alguns objetos aceitam ações adicionais que podem ser realizadas além de edições simples. Você pode especificar essas ações usando o parâmetro de solicitação de ação. Por exemplo, a seguinte solicitação recalcula o cronograma de um determinado projeto:
-<pre>PUT /attask/api/v15.0/project/4c7...?action=calculateTimeline<br><br>ou<br><br>PUT /attask/api/v15.0/project/4c7.../calculateTimeline </pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?action=calculateTimeline<br><br>or<br><br>PUT /attask/api/v15.0/project/4c7.../calculateTimeline </pre>
 
 ### Mover objetos
 

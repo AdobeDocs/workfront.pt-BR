@@ -6,10 +6,19 @@ description: Gerenciar feedback em várias versões ou revisões de um trabalho 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/ZqIOiAuptaPBQBAMkiLZeLa3rBZUW3UuZOTwhlvJWBw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 0%
+source-wordcount: 1460
+ht-degree: 4%
 
 ---
 
@@ -26,7 +35,7 @@ Considere as seguintes informações ao criar uma nova versão de uma prova:
 
   Para obter mais informações, consulte [Gerenciar funções de prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) e [Perfis de permissões de prova no Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-  Para obter informações sobre o compartilhamento de versões de prova, consulte  [Compartilhar uma prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+  Para obter informações sobre como compartilhar versões de prova, consulte [Compartilhar uma Prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
@@ -34,7 +43,7 @@ Considere as seguintes informações ao criar uma nova versão de uma prova:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +55,7 @@ Considere as seguintes informações ao criar uma nova versão de uma prova:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
+   <td> <p>Padrão</p> 
    <p>Trabalho ou Plano</p>
    </td> 
   </tr> 

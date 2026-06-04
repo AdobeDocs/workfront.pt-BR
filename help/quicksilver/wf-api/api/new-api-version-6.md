@@ -1,20 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades da API versão 6
-description: Novidades da API versão 6
+title: Novidades na versão 6 da API
+description: Novidades na versão 6 da API
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/ZXBvvhz5ObfHlwX2BBBs2-F2DbSmgY4lj8TwWnMCzBM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 34%
+source-wordcount: 513
+ht-degree: 53%
 
 ---
 
-# Novidades da API versão 6
+# Novidades na versão 6 da API
 
 ## Novos Objetos
 
@@ -22,7 +27,7 @@ ht-degree: 34%
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| ID | cliente |   |   |   |   | Adicionar |
+| ID | cliente |   |   |   |   | Add |
 | customerID | projeto |   |   |   |   | Contagem |
 | projectID | resourceManager |   |   |   |   | Excluir |
 | resourceManagerID | modelo |   |   |   |   | Obter |
@@ -43,7 +48,7 @@ ht-degree: 34%
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| ID |   |   |   | checkDelete | customLabels | Adicionar |
+| ID |   |   |   | checkDelete | customLabels | Add |
 |   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Contagem |
 |   |   |   |   | removeCustomLabel |   | Excluir |
 |   |   |   |   |   |   | Obter |
@@ -55,7 +60,7 @@ ht-degree: 34%
 
 Alterações em objetos existentes: as adições são simplesmente listadas, as remoções têm tachado, as alterações em objetos existentes têm uma nota anexada após a tabela
 
-### Atualizar
+### Atualização
 
  
 
@@ -118,7 +123,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| approvedStatus |   |   |   |   |   | Adicionar |
+| approvedStatus |   |   |   |   |   | Add |
 | approvedStatusLabel |   |   |   |   |   | Contagem |
 | comentário |   |   |   |   |   | Excluir |
 | enteredByID |   |   |   |   |   | Editar |
@@ -188,7 +193,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
  
 
-### Registro de Cobrança
+### Registro de cobrança
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
@@ -220,7 +225,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
  
 
-Enumerado Personalizado 
+Lista Discriminada Personalizada 
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
@@ -265,7 +270,7 @@ Taxa de câmbio 
 
  
 
-### Entrada no Relatório
+### Lançamento documentado
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
@@ -374,7 +379,7 @@ Taxa de câmbio 
 
  
 
-### Nota do usuário
+### Observação do usuário
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|

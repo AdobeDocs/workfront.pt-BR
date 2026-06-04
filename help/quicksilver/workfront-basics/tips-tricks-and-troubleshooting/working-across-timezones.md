@@ -6,11 +6,24 @@ description: Pode ser útil entender como o  [!DNL Adobe Workfront] usa fusos ho
 feature: Get Started with Workfront
 author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: 1252
 ht-degree: 0%
 
 ---
@@ -84,7 +97,7 @@ O fuso horário no navegador deve ser configurado para o local em que você trab
   Se usuários em vários fusos horários forem atribuídos a um objeto, o [!DNL Workfront] converterá os horários do objeto para todos os envolvidos, usando o fuso horário configurado no navegador de cada usuário.
 
   **EXEMPLO**
-Na zona Horário Padrão da Costa Leste (EST) onde você trabalha, você define uma tarefa para começar às 16h20 e a atribui aos usuários que trabalham na zona Horário Padrão do Pacífico (PST). :00 Para esses usuários, a hora de início é exibida como 1:00 PM. Se fosse exibido como 4:00 PM, eles começariam a trabalhar nele com três horas de atraso.
+Na zona Horário Padrão da Costa Leste (EST) onde você trabalha, você define uma tarefa para começar às 16h10 e a atribui aos usuários que trabalham na zona Horário Padrão do Pacífico (PST). :00Para esses usuários, a hora de início é exibida como 1:00 PM. Se fosse exibido como 4:00 PM, eles começariam a trabalhar nele com três horas de atraso.
 
   Se o criador do objeto não souber a diferença entre os fusos horários dos atribuídos e não fizer os ajustes necessários ao definir os tempos do objeto, ou se os atribuídos não souberem essa diferença, pode ser difícil obter o tempo correto enquanto todos colaboram no objeto.
 

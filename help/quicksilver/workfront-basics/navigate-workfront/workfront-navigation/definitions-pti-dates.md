@@ -6,10 +6,17 @@ description: Este artigo fornece definições para as datas mais comuns associad
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+TQID: https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 3%
+source-wordcount: 2359
+ht-degree: 8%
 
 ---
 
@@ -26,7 +33,7 @@ Este artigo fornece definições para as datas mais comuns associadas a projetos
 Para obter informações sobre relatórios e listas, consulte os seguintes artigos:
 
 * [Introdução a listas em  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
-* [Introdução a relatórios](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Introdução aos relatórios](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
 Para obter mais informações sobre campos de projeto, tarefa e problema, consulte [Glossário de [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -86,13 +93,13 @@ A data de início do caminho de aprovação está visível em listas e relatóri
 
 ## Data de conclusão orçada
 
-Este é um campo obsoleto para projetos. Qualquer informação que este campo possa exibir em uma lista ou relatório está relacionada a um recurso que a Workfront removeu. Este campo não pode ser atualizado.
+Este é um campo obsoleto para projetos. Qualquer informação que este campo possa exibir em uma lista ou relatório está relacionada a um recurso que a Workfront removeu. Não é possível atualizar esse campo.
 
 O campo fica visível nos relatórios e listas do projeto.
 
 ## Data de início orçada
 
-Este é um campo obsoleto para projetos. Qualquer informação exibida neste campo está relacionada a um recurso removido pelo Workfront. Este campo não pode ser atualizado.
+Este é um campo obsoleto para projetos. Qualquer informação exibida neste campo está relacionada a um recurso removido pelo Workfront. Não é possível atualizar esse campo.
 
 O campo fica visível nos relatórios e listas do projeto.
 
@@ -113,7 +120,7 @@ Se você estiver usando uma Restrição de Tarefa vinculada a uma data específi
 As seguintes restrições de tarefa atualizam o campo Data de Restrição:
 
 * Precisa Iniciar Em
-* Precisa Terminar Em
+* Deve concluir em
 * Não Iniciar Depois De
 * Não Iniciar Antes De
 
@@ -134,7 +141,7 @@ A Data de entrada do problema convertido está visível em listas de projetos e 
 
 A data em que uma tarefa ou um problema deve ser concluído. A Data de Vencimento de uma tarefa ou problema é a mesma data que a Data de Conclusão Planejada.
 
-A Data de Conclusão da tarefa e do problema está visível nas listas de tarefas e problemas e nos relatórios.
+A data de vencimento da tarefa e do problema está visível nas listas de tarefas e problemas e nos relatórios.
 
 Para obter informações, consulte a seção [Data de conclusão planejada](#planned-completion-date) neste artigo.
 
@@ -198,7 +205,7 @@ A Data de início fixa de um projeto está visível na seção Business Case do 
 
 ## Data de Transferência
 
-A data em que uma tarefa se torna disponível para trabalho. Isso significa que todas as restrições, aprovações e dependências foram concluídas e os usuários podem começar a trabalhar na tarefa.
+A data em que uma tarefa fica disponível para ser realizada. Isso significa que todas as restrições, aprovações e dependências foram concluídas e os usuários podem começar a trabalhar na tarefa.
 
 A Data de Transferência é um cálculo e não pode ser definida manualmente.
 
@@ -212,7 +219,7 @@ A data em que qualquer informação financeira de um projeto foi atualizada. Iss
 
 A Última Data de Atualização Financeira está visível em listas e relatórios de projeto.
 
-## Última data de atualização
+## Data da última atualização
 
 A data em que o projeto, tarefa ou problema foi atualizado pela última vez. Uma atualização é considerada qualquer alteração que aciona o salvamento de um projeto, tarefa ou problema. Isso inclui alterações de status, condição, linha do tempo, finanças ou qualquer outro campo.
 
@@ -259,15 +266,15 @@ Para obter mais informações, consulte os seguintes artigos:
 
 ## Alinhamento de Data Planejada
 
-Este é um indicador automático que o Workfront atribui a projetos, tarefas e problemas para mostrar quando um item será concluído em relação à Data de conclusão planejada.
+Esse é um indicador automático que o Workfront atribui a projetos, tarefas e problemas para mostrar quando um item será concluído em relação à data de conclusão planejada.
 
-A seguir estão os valores possíveis para o indicador de Alinhamento de Data Planejada:
+A seguir, estão os valores possíveis para o indicador Alinhamento à data planejada:
 
-* Será terminado na data planejada de término
-* Será terminado antes da data planejada de término
-* Será terminado depois da data planejada de término
+* Será terminado na data de conclusão planejada
+* Será terminado antes da data de conclusão planejada
+* Será terminado depois da data de conclusão planejada
 
-O Alinhamento da data planejada está visível em listas e relatórios de projetos, tarefas e problemas.
+O Alinhamento à data planejada está visível em listas e relatórios de projetos, tarefas e problemas.
 
 ## [!UICONTROL Data de Início Planejada]
 

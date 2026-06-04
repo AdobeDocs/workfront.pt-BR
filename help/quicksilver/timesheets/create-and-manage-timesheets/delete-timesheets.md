@@ -1,19 +1,32 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Excluir planilhas de horas no Adobe Workfront
+title: Excluir folhas de horas no Adobe Workfront
 description: As alterações feitas em um perfil de folha de horas não têm efeito imediatamente para as folhas de horas existentes, como explicado em Criar, editar e atribuir perfis de folha de horas. Para tornar as alterações visíveis em folhas de horas existentes, você deve excluir as folhas de horas que foram geradas e gerar novas. Isso se aplica somente às folhas de horas que foram geradas ao associar perfis de folha de horas a usuários.
 author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/kgFaOSFwNQIjArobJBWf5kT19pS8k0an1O05IIYxg9E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 1%
+source-wordcount: 755
+ht-degree: 7%
 
 ---
 
-# Excluir planilhas de horas no Adobe Workfront
+# Excluir folhas de horas no Adobe Workfront
 
 As alterações feitas em um perfil de planilha de horas não entrarão em vigor imediatamente para as planilhas existentes, conforme explicado em [Criar, editar e atribuir perfis de planilha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). Para tornar as alterações visíveis em folhas de horas existentes, você deve excluir as folhas de horas que foram geradas e gerar novas. Isso se aplica somente às folhas de horas que foram geradas ao associar perfis de folha de horas a usuários.
 
@@ -35,7 +48,7 @@ Os administradores do Adobe Workfront ou de grupo podem gerar folhas de horas pa
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto">
  <col> 
@@ -48,7 +61,7 @@ Os administradores do Adobe Workfront ou de grupo podem gerar folhas de horas pa
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -64,7 +77,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Excluir planilhas de horas em uma lista
 
-1. Clique no ícone **do** Menu principal![](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
 1. Clique em **Folhas de horas**. O filtro **Todos** é selecionado por padrão e exibe todas as planilhas de horas que você tem acesso para visualizar.
 
@@ -118,7 +131,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Excluir uma planilha de horas da página Planilha de horas
 
-1. Clique no ícone [!UICONTROL **do**] Menu principal![](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do [!UICONTROL **Menu principal**], no canto superior direito do Adobe Workfront.
 1. Clique na folha de horas que deseja excluir para abri-la.
 1. Clique no ícone [!UICONTROL **Mais**] ![](assets/more-icon.png) à direita do nome da folha de horas e clique em **Excluir**.
 

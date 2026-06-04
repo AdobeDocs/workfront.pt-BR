@@ -3,19 +3,24 @@ content-type: overview
 product-area: documents
 keywords: prova,permissão
 navigation-topic: proofing-overview
-title: Visão geral do perfil de permissão de prova
+title: Visão geral do perfil de permissão da prova
 description: Os perfis de permissão de prova determinam quais permissões gerais os usuários têm sobre todas as provas em sua conta. Perfis de permissão de prova são atribuídos a usuários em seus respectivos Perfis de usuário. Os perfis de permissão de prova são diferentes das funções de prova.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/ZmDKCMhNl-NKjqTsR5JsrJbRerOWzoT4KSdWa5sgsv0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 2%
+source-wordcount: 508
+ht-degree: 7%
 
 ---
 
-# Visão geral do perfil de permissão de prova
+# Visão geral do perfil de permissão da prova
 
 <!--Audited: 12/2023-->
 

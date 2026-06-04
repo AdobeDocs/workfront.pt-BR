@@ -5,10 +5,18 @@ draft: Probably
 feature: Get Started with Workfront
 author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 0%
+source-wordcount: 368
+ht-degree: 1%
 
 ---
 
@@ -31,7 +39,7 @@ Você tem acesso às seguintes informações no site Status:
 
 Você pode exibir atualizações de status no site de Status [!DNL Adobe].
 
-1. Digite [status.adobe.com](https://status.adobe.com/pt-br/) em seu navegador para acessar o site Status.
+1. Digite [status.adobe.com](https://status.adobe.com/pt/) em seu navegador para acessar o site Status.
 
 1. Selecione **[!UICONTROL Experience Cloud]**.
 1. Role para baixo e selecione **[!UICONTROL Adobe Workfront]** na lista de soluções.
@@ -40,7 +48,7 @@ Você pode exibir atualizações de status no site de Status [!DNL Adobe].
 
 Para se inscrever no site Status ou gerenciar sua inscrição depois de já ter se inscrito:
 
-1. Vá para [status.adobe.com](https://status.adobe.com/pt-br/).
+1. Vá para [status.adobe.com](https://status.adobe.com/pt/).
 1. Na barra de status, selecione **[!UICONTROL Gerenciar assinaturas]**.
    ![](assets/manage-subs.png)
 1. Se você tiver uma conta existente, faça logon nela; caso contrário, crie uma nova conta.
@@ -59,7 +67,7 @@ Pesquisadores de vulnerabilidades e criadores de explorações nomeiam seus proj
 
 ### Como exibir vulnerabilidades nomeadas identificadas por [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Vá para [status.adobe.com](https://status.adobe.com/pt-br/) e clique em **[!UICONTROL Segurança]**.
+1. Vá para [status.adobe.com](https://status.adobe.com/pt/) e clique em **[!UICONTROL Segurança]**.
 
 ## Por que isso é importante? {#why-is-this-important}
 

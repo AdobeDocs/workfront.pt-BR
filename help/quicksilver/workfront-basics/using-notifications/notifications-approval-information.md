@@ -6,11 +6,16 @@ description: As notificações a seguir alertam sobre as atividades de aprovaç�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: 675
 ht-degree: 1%
 
 ---
@@ -44,7 +49,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Uma solicitação de aprovação de projeto foi concluída</strong> </p> <p>Uma aprovação de projeto delegada a outro usuário foi aprovada ou rejeitada por esse usuário.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Aprovação/Rejeição de Projeto Feita em Seu Nome por] &lt;Nome de Usuário&gt;</em></p> <p><em>O assunto da notificação de resumo diário é: [!UICONTROL Resumo das Informações de Aprovação] &lt;Data do resumo diário&gt;</em> </p> </td> 
+   <td> <p><strong>Uma solicitação de aprovação de projeto foi concluída</strong> </p> <p>Uma aprovação de projeto delegada a outro usuário foi aprovada ou rejeitada por esse usuário.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Aprovação/Rejeição de Projeto feita em Seu Nome por] &lt;Nome de Usuário&gt;</em></p> <p><em>O assunto da notificação de resumo diário é: [!UICONTROL Resumo das Informações de Aprovação] &lt;Data do resumo diário&gt;</em> </p> </td> 
    <td> Nome do Projeto<br>[!UICONTROL Nome da Portfolio]<br>[!UICONTROL Número de Referência do Projeto]<br>Nome do usuário que aprovou/rejeitou o projeto em seu nome<br>[!UICONTROL Decisão de Aprovação]<br>[!UICONTROL Status do Projeto]<br>Nome do usuário que solicitou a aprovação<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Número de Referência do Projeto<br>*Nome do Projeto<br>*Nome do Aprovador<br>[!UICONTROL *Data do dia resumo]<br></td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 

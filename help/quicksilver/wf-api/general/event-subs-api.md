@@ -7,15 +7,23 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3190'
-ht-degree: 97%
+source-wordcount: 3146
+ht-degree: 95%
 
 ---
-
 
 # API de Assinatura de evento
 
@@ -852,13 +860,13 @@ Esse filtro permite a entrada das mensagens somente se o campo especificado (`fi
 
 #### estado
 
-Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo do objeto que foi criado ou atualizado. Isso é útil quando você quer saber de onde uma alteração foi feita.
+Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo do objeto que foi criado ou atualizado. Isso é útil quando você quer saber onde uma alteração foi feita de algo para outro.
 `oldState` não é possível em CREATE `eventTypes`.
 
 >[!NOTE]
 >
->A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, como era antes de uma atualização ser feita na tarefa.
->Um caso de uso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar algum nome de equipe&quot;
+>A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, qual era antes de uma atualização ser feita na tarefa.
+>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 
 ```
 {

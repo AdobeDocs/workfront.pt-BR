@@ -2,19 +2,27 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: "Perguntas frequentes: comprovação na Adobe Workfront - Migração dos EUA para a EMEA"
+title: 'Perguntas frequentes: provas no Adobe Workfront – Migração dos EUA para a EMEA'
 description: A Adobe Workfront está entrando em contato diretamente com todas as organizações afetadas pela migração da Workfront Proof dos EUA para a EMEA.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
-source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
+TQID: https://experienceleague.adobe.com/X-9pECfI-MyNS7FaQhfurFq8P0ytkrknYRlJ6GW6rn8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 0%
+source-wordcount: 417
+ht-degree: 4%
 
 ---
 
-# Perguntas frequentes: comprovação na migração do Adobe Workfront para o EMEA dos EUA
+# Perguntas frequentes: provas no Adobe Workfront – Migração dos EUA para a EMEA
 
 ## Como saber se essa alteração afeta minha organização? 
 
@@ -22,7 +30,7 @@ A Adobe Workfront está entrando em contato diretamente com todas as organizaç�
 
 ## Preciso fazer algo para me preparar para a migração?
 
-Sim. Antes da migração, adicione o seguinte código ao incluo na lista de permissões de pesquisa da sua organização:\
+Sim. Antes da migração, adicione o seguinte código ao incluo na lista de permissões de sua organização:\
 **webcapture.proofhq.eu**
 
 ## Quanto tempo levará para migrar minha conta?

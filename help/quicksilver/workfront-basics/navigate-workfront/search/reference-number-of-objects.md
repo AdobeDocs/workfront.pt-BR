@@ -1,19 +1,26 @@
 ---
 content-type: reference
 navigation-topic: search
-title: Usar o número de referência de objetos
+title: Usar número de referência de objetos
 description: Em  [!DNL Adobe Workfront], os itens são identificados como objetos. Os objetos correspondem ao banco de dados e são usados para correlacionar dados com um item. Números de referência são úteis na distinção entre dois objetos semelhantes (como tarefas com o mesmo nome). Você pode pesquisar números de referência e incluí-los nos relatórios.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/IllwtQ1nujBL-7tjcfRqQAtg7JagQV2MEktjJQ0r4z0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 0%
+source-wordcount: 448
+ht-degree: 3%
 
 ---
 
-# Usar o número de referência de objetos
+# Usar número de referência de objetos
 
 Em [!DNL Adobe Workfront], os itens são identificados como objetos. Os objetos correspondem ao banco de dados e são usados para correlacionar dados com um item.
 

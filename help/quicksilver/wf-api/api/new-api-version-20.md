@@ -1,22 +1,29 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades na versão 20 da API
+title: Novidades da API versão 20
 description: O Adobe Workfront lançou a API versão 20 em 6 de abril de 2022. A API versão 20 apresenta as seguintes alterações da versão 19.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2cf9d708-ce62-4434-8352-31dd8440ecb9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/68EwYY0fktdR0x0e3tR8V0MJ2QkmmpL3nkxZ9CBnEn8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 3%
+source-wordcount: 1807
+ht-degree: 2%
 
 ---
 
-# Novidades na versão 20 da API
+# Novidades da API versão 20
 
 O Adobe Workfront lançou a API versão 20 em 4 de maio de 2025. A API versão 20 apresenta as seguintes alterações da versão 19.
 

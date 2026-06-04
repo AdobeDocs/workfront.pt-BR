@@ -2,19 +2,32 @@
 content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Visão geral das planilhas de horas
+title: Visão geral das folhas de horas
 description: Você pode usar folhas de horas para rastrear o tempo que você gasta no trabalho, dentro e fora do Adobe Workfront.
 author: Lisa
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/VJQGCqYo3FZNceECWZrbsrTNX7jnKMZnIV1N4TQo9GA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: 515
+ht-degree: 3%
 
 ---
 
-# Visão geral das planilhas de horas
+# Visão geral das folhas de horas
 
 <!-- Audited: 12/2023 -->
 
@@ -41,13 +54,13 @@ As planilhas de horas fornecem aos usuários uma forma simples de monitorar o te
 
   Além disso, quando um recurso registra horas diretamente em tarefas, problemas e projetos aparecem automaticamente quando o usuário acessa a folha de horas. Isso pressupõe que o intervalo de datas da folha de horas abrange as datas em que as horas foram registradas.
 
-* **Hora Não Pertencente ao Projeto:** Diretamente na planilha de horas do usuário. Para obter mais informações sobre como rastrear o tempo no Workfront, consulte   [Log de tempo](../../timesheets/create-and-manage-timesheets/log-time.md).
+* **Hora Não Pertencente ao Projeto:** Diretamente na planilha de horas do usuário. Para obter mais informações sobre como monitorar o tempo no Workfront, consulte [Registrar tempo](../../timesheets/create-and-manage-timesheets/log-time.md).
 
   Em uma planilha de horas, você pode registrar horas de férias, licença médica, horas em trânsito, horas gastas reparando ou mantendo equipamentos, ou quaisquer tipos de horas gerais que desejar criar.
 
 ## Acessar folhas de horas na área Folhas de horas
 
-A área Planilhas de Horas está disponível por padrão para todos os usuários. Os administradores do Workfront podem alterar isso no modelo de layout, conforme necessário. Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+A área Planilhas de Horas está disponível por padrão para todos os usuários. Os administradores do Workfront podem alterar isso no modelo de layout, conforme necessário. Para obter mais informações, consulte [Personalizar o menu principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 Para acessar uma planilha de horas:
 

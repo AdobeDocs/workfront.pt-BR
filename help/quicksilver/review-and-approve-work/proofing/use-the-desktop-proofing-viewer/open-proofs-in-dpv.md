@@ -1,25 +1,34 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Abrir provas no Visualizador de provas da área de trabalho
+title: Abrir provas no Visualizador de provas para desktop
 description: Se não conseguir abrir uma prova conforme descrito abaixo, entre em contato com o administrador do Adobe Workfront ou do Workfront Proof.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/KW4JU7-KX4ai5Y-JN-Iz4G25f0GU-q21QP-5g9Bj3Y8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 5%
+source-wordcount: 218
+ht-degree: 28%
 
 ---
 
-# Abrir provas no Visualizador de provas da área de trabalho
+# Abrir provas no Visualizador de provas para desktop
 
 Se não conseguir abrir uma prova conforme descrito abaixo, entre em contato com o administrador do Adobe Workfront ou do Workfront Proof.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +65,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Pré-requisitos
 
-* Você precisa instalar o Desktop Proofing Viewer. Para obter mais informações, consulte [Instalar o Visualizador de prova para desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+* Você precisa instalar o Desktop Proofing Viewer. Para obter mais informações, consulte [Instalar o Visualizador de revisões para desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Abrir provas no Visualizador de provas da área de trabalho
 

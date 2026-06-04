@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Exibir estágios do fluxo de trabalho automatizado em uma prova
+title: Visualizar estágios do fluxo de trabalho automatizado em uma prova
 description: Você pode acompanhar convenientemente o progresso de uma prova configurada com um fluxo de trabalho automatizado. É possível visualizar, modificar, adicionar, iniciar e bloquear o trabalho já feito em estágios na prova.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/eIoOAdfvVqxgP-ez66L21LuuBp3l-2ssg5wGG1cHM9E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 0%
+source-wordcount: 490
+ht-degree: 9%
 
 ---
 
-# Exibir estágios do fluxo de trabalho automatizado em uma prova
+# Visualizar estágios do fluxo de trabalho automatizado em uma prova
 
 Você pode acompanhar convenientemente o progresso de uma prova configurada com um fluxo de trabalho automatizado. É possível visualizar, modificar, adicionar, iniciar e bloquear o trabalho já feito em estágios na prova.
 
@@ -21,7 +26,7 @@ Para obter informações sobre como adicionar estágios e usuários a uma prova 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +41,7 @@ Para obter informações sobre como adicionar estágios e usuários a uma prova 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p >
+   <p>Padrão</p >
    <p>Trabalho ou Plano</p>
    </td> 
   </tr> 
@@ -66,13 +71,13 @@ Para obter informações sobre como adicionar estágios e usuários a uma prova 
    ![dot.png](assets/dot.png) estágio ativo
 
    Estágio inativo ![gray_dot.png](assets/grey-dot.png)\
-   ![sbw-key-icon.png](assets/sbw-key-icon.png)  Estágio privado
+   ![sbw-key-icon.png](assets/sbw-key-icon.png) Fase privada
 
-   ![sbw-padlock-icon.png](assets/sbw-padlock-icon.png)  Estágio bloqueado
+   ![sbw-padlock-icon.png](assets/sbw-padlock-icon.png) estágio Bloqueado
 
    As linhas entre os estágios retratam as dependências entre os estágios. As linhas que levam aos estágios inativos são pontilhadas até que o estágio seja ativado.
 
-   Você pode passar o mouse sobre um estágio no diagrama para exibir seu progresso. Se o estágio não estiver ativo e você tiver direitos de edição nele, poderá clicar no botão Ativar estágio ![Ativar estágio](assets/activate-stage-btn.png) para iniciar o estágio. Se o estágio estiver ativo e você tiver direitos de edição nele, é possível bloqueá-lo. ![Estágio de bloqueio](assets/lock-stage-btn.png) Para obter mais informações sobre a barra de progresso (S, O, C, D) , consulte  [Exibir o progresso e o status de uma prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+   Você pode passar o mouse sobre um estágio no diagrama para exibir seu progresso. Se o estágio não estiver ativo e você tiver direitos de edição nele, poderá clicar no botão Ativar estágio ![Ativar estágio](assets/activate-stage-btn.png) para iniciar o estágio. Se o estágio estiver ativo e você tiver direitos de edição nele, é possível bloqueá-lo. ![Estágio de bloqueio](assets/lock-stage-btn.png) Para obter mais informações sobre a barra de Progresso (S, O, C, D) , consulte [Exibir o Progresso e o Status de uma Prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ## Exibir um estágio
 

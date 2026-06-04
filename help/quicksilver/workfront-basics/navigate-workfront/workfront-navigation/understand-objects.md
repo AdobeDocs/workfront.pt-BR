@@ -6,9 +6,25 @@ description: As informações exibidas em  [!DNL Adobe Workfront]  são represen
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
+TQID: https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: 2393
 ht-degree: 3%
 
 ---
@@ -258,8 +274,8 @@ Você pode criar relatórios sobre os seguintes objetos ao usar o construtor de 
 * [!UICONTROL Favorito]
 * [!UICONTROL Filtro]
 * [!UICONTROL Meta]
-   * Você pode criar um relatório para metas estratégicas ou exibir informações relacionadas a metas em um relatório de projeto quando os projetos são associados a metas como atividades de meta. Você só poderá criar metas estratégicas e conectá-las a projetos se a sua organização tiver comprado uma licença do [!DNL Workfront Goals]. Para obter informações sobre [!DNL Workfront Goals], consulte [[!DNL Workfront Goals] visão geral](../../../workfront-goals/goal-management/wf-goals-overview.md). Para obter informações sobre como conectar projetos a metas estratégicas, consulte [Adicionar projetos a metas nas Metas da Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-*Você não pode relatar metas de projeto associadas a um [!UICONTROL Business Case]. Para obter informações sobre metas do projeto versus metas estratégicas, consulte [Glossário de [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   * Você pode criar um relatório para metas estratégicas ou exibir informações relacionadas a metas em um relatório de projeto quando os projetos são associados a metas como atividades de meta. Você só poderá criar metas estratégicas e conectá-las a projetos se a sua organização tiver comprado uma licença do [!DNL Workfront Goals]. Para obter informações sobre [!DNL Workfront Goals], consulte [[!DNL Workfront Goals] visão geral](../../../workfront-goals/goal-management/wf-goals-overview.md). Para obter informações sobre como conectar projetos a metas estratégicas, consulte [Adicionar projetos a metas no Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+*Você não pode relatar metas de projeto associadas a um [!UICONTROL Business Case]. Para obter informações sobre metas do projeto e metas estratégicas, consulte [Glossário da [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Grupo]
 * [!UICONTROL Agrupamento]

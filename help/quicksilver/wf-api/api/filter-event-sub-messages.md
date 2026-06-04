@@ -8,9 +8,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/BJyCmAyuNBT-b8wscY66X9w4g6tq0TYh3NshJZjNy6o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: 1843
 ht-degree: 0%
 
 ---
@@ -25,7 +32,7 @@ Para saber mais sobre assinaturas de evento, consulte [API de Assinatura de Even
 
 Esta seção contém trechos de código de filtragem que podem ser implementados para diminuir a carga de mensagens de subscrição de eventos.  Para ajudar a mostrar as diferenças na sintaxe de vários idiomas, esses trechos ilustram o mesmo conjunto de filtros escritos nos seguintes idiomas:
 
-Você pode ver exemplos de filtragem em [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), onde você pode ver as diferenças na sintaxe de cada idioma e os meios de interação com o SDK do AWS. Esses exemplos são escritos como AWS Lambdas, que é um método comum para empregar filtragem intermediária e componentes de processamento.
+Você pode ver exemplos de filtragem em [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), onde você pode ver as diferenças na sintaxe de cada idioma e os meios de interação com o AWS SDK. Esses exemplos são escritos como AWS Lambdas, que é um método comum para empregar filtragem intermediária e componentes de processamento.
 
 Os trechos de código a seguir estão quase prontos para implantação e podem ser usados como ponto de partida para ajudar você a escrever seus próprios filtros e componentes de processamento mais complexos.
 
@@ -107,7 +114,7 @@ O exemplo a seguir em Java mostra como filtrar cargas do projeto com base na ID 
    }
    ```
 
-   O SDK do AWS é usado para invocar outro Lambda, que é responsável por enviar a mensagem filtrada para o endpoint desejado.
+   O AWS SDK é usado para invocar outro Lambda, que é responsável por enviar a mensagem filtrada para o endpoint desejado.
 
    O objetivo de passar a responsabilidade de entregar a mensagem para outro Lambda é evitar um tempo limite da solicitação de entrega proveniente do serviço de Assinatura do evento. Atualmente, o tempo limite permitido para entrega é definido como cinco segundos. Se o filtro levar mais tempo do que o permitido pela configuração, você poderá processar a solicitação, mas o serviço de Assinatura de evento expirará e entrará em um loop de repetição até que receba uma resposta de 200 níveis dentro do período de tempo limite.
 
@@ -179,7 +186,7 @@ O exemplo a seguir no Python mostra como filtrar cargas do projeto com base na I
       )
    ```
 
-   O SDK do AWS é usado para invocar outro Lambda, que é responsável por enviar a mensagem filtrada para o endpoint desejado.
+   O AWS SDK é usado para invocar outro Lambda, que é responsável por enviar a mensagem filtrada para o endpoint desejado.
 
    O objetivo de passar a responsabilidade de entregar a mensagem para outro Lambda é evitar um tempo limite da solicitação de entrega proveniente do serviço de Assinatura do evento. Atualmente, o tempo limite para entrega é definido como cinco segundos. Se o filtro levar mais tempo do que o permitido pela configuração, você poderá processar a solicitação, mas o serviço de Assinatura de evento expirará e entrará em um loop de repetição até que receba uma resposta de 200 níveis dentro do período de tempo limite.
 
@@ -259,7 +266,7 @@ O exemplo a seguir em Node.js mostra como filtrar cargas do projeto com base na 
    }
    ```
 
-   O SDK do AWS é usado para invocar outro Lambda, que é responsável por enviar a mensagem filtrada para o endpoint desejado.\
+   O AWS SDK é usado para invocar outro Lambda, que é responsável por enviar a mensagem filtrada para o endpoint desejado.\
    O objetivo de passar a responsabilidade de entregar a mensagem para outro Lambda é evitar um tempo limite da solicitação de entrega proveniente do serviço de Assinatura do evento. Atualmente, o tempo limite para entrega é definido como cinco segundos. Se o filtro levar mais tempo do que o permitido pela configuração, você poderá processar a solicitação, mas o serviço de Assinatura de evento expirará e entrará em um loop de repetição até que receba uma resposta de 200 níveis dentro do período de tempo limite.\
    Para saber mais sobre como gerenciar a entrega de mensagens, consulte [Melhorando a Entrega de Mensagens Enquanto Acomoda Tempos Limite](#improving-message-delivery-while-accommodating-timeouts).
 
@@ -332,4 +339,4 @@ Ao consultar os recursos, você garante que seus sistemas de integração tenham
 
 Todos os exemplos na seção [Filtering Event Messages](#filtering-event-messages) passam a responsabilidade de entregar mensagens filtradas para outro AWS Lambda. Isso é feito para evitar exceder o tempo limite de cinco segundos na solicitação de delivery, que é imposta pelo serviço de Assinatura de evento que emite a solicitação.
 
-Em uma arquitetura sem nuvem, talvez seja necessário implementar um mecanismo de processamento assíncrono semelhante ao modo como o SDK do AWS permite chamadas assíncronas para outros AWS Lambdas. A maioria das linguagens de programação modernas tem bibliotecas de terceiros ou principais que lidam com o processamento assíncrono, permitindo que você aproveite o estilo assíncrono de processamento implementado em nossos exemplos.
+Em uma arquitetura sem nuvem, talvez seja necessário implementar um mecanismo de processamento assíncrono semelhante ao modo como o AWS SDK permite chamadas assíncronas para outros AWS Lambdas. A maioria das linguagens de programação modernas tem bibliotecas de terceiros ou principais que lidam com o processamento assíncrono, permitindo que você aproveite o estilo assíncrono de processamento implementado em nossos exemplos.

@@ -1,19 +1,26 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notificações: Informações sobre o trabalho atribuído a mim'
+title: 'Notificações: informações sobre o trabalho atribuído a mim'
 description: As notificações a seguir alertam sobre atividades que ocorrem em um item de trabalho atribuído a você.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 1%
+source-wordcount: 2016
+ht-degree: 2%
 
 ---
 
-# Notificações: Informações sobre o trabalho atribuído a mim
+# Notificações: informações sobre o trabalho atribuído a mim
 
 As notificações a seguir alertam sobre atividades que ocorrem em um item de trabalho atribuído a você.
 

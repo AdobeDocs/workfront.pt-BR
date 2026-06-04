@@ -6,10 +6,20 @@ description: Você pode gerar uma prova para um documento no momento em que esti
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/Pn0eWLEK9gi1eqztoZCg-aR9s7zm60M-SLkRudYGdnU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 1%
+source-wordcount: 617
+ht-degree: 11%
 
 ---
 
@@ -27,7 +37,7 @@ If a proof fails to generate after following the steps described in the followin
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +52,7 @@ If a proof fails to generate after following the steps described in the followin
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Trabalho ou Plano</p>
    </td> 
   </tr> 
@@ -99,7 +109,7 @@ Você pode arrastar e soltar um documento do seu sistema de arquivos (como a ár
 Para usar o arrastar e soltar a fim de gerar uma nova prova ou nova versão de prova:
 
 1. Verifique se as provas estão configuradas para serem geradas automaticamente, conforme descrito em .
-1. Continuar com  [Adicionar documentos ao Adobe Workfront a partir do sistema de arquivos](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), o que explica o método de arrastar e soltar para adicionar documentos. 
+1. Continue com [Adicionar documentos ao Adobe Workfront a partir do seu sistema de arquivos](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), o que explica o método de arrastar e soltar para adicionar documentos. 
 
 ## Criar uma prova para um documento existente
 

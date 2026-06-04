@@ -7,13 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+TQID: https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 0%
+source-wordcount: 769
+ht-degree: 3%
 
 ---
-
 
 # Campos de rich text na API do Adobe Workfront
 
@@ -27,7 +31,7 @@ Um campo personalizado com formatação rich text é chamado Campo com rich text
 
 ![Exemplo de rich text](assets/rich-text-example-350x158.png)
 
-Exemplo: uma solicitação básica do GET para recuperar o valor do Campo com campo de formulário personalizado rich text:
+Exemplo: uma solicitação GET básica para recuperar o valor do Campo com campo de formulário personalizado rich text:
 
 ```
 GET /attask/api-internal/<OBJ Code>/<OBJ ID>?fields=parameterValues#
@@ -120,7 +124,7 @@ Para salvar os seguintes valores de um campo rich text usando a API do Workfront
    >
    >Embora a funcionalidade entityMap não seja compatível durante a versão inicial, ela ainda é um campo obrigatório para transmitir esse JSON em uma solicitação.
 
-1. Use o método stringify no JSON descrito acima para fazer uma solicitação do PUT e enviar atualizações.
+1. Use o método stringify no JSON descrito acima para fazer uma solicitação PUT e enviar atualizações.
 
    <!-- [Copy](javascript:void(0);) -->
    <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
