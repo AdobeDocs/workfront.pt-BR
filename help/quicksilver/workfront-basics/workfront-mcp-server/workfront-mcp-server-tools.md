@@ -5,9 +5,9 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 6301888b4d758fbf8a60c2698f800395618bb527
+source-git-commit: d942af03d03f3e22b7fea0aa3782520d3dcb7f54
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1559'
 ht-degree: 6%
 
 ---
@@ -67,8 +67,11 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | Obter informações de fluxo de trabalho de aprovação | `approvals_get_approval_info` | Retorna o fluxo de trabalho de aprovação atual (estágios, participantes, status) para uma versão do documento. | Ler |
 | Criar ou atualizar fluxo de trabalho de aprovação | `approvals_create_or_update_approval_workflow` | Cria ou atualiza os estágios do fluxo de trabalho de aprovação para uma versão do documento. Suporta dependências de estágio linear e paralelo (gráfico). | Gravar |
 | Criar aprovação a partir do modelo | `approvals_create_approval_from_template` | Cria um fluxo de trabalho de aprovação em um documento usando um modelo existente. | Gravar |
-| Solicitar aprovação de documento | `approvals_request_document_approval` | Abre um formulário guiado para solicitar aprovação em uma versão do documento (título, aprovadores/revisores, data de vencimento e mensagem opcionais). | Gravar |
 | Excluir estágio de aprovação | `approvals_delete_approval_stage` | Exclui um único estágio de um fluxo de trabalho de aprovação por nome ou posição. Somente estágios não iniciados podem ser excluídos. | Gravar |
+
+<!--
+| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
+-->
 
 ### Lembretes
 
