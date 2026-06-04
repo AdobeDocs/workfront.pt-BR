@@ -5,10 +5,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+TQID: https://experienceleague.adobe.com/oIZ0F7oKuK-UsGCnjgXQphxTLqBcYCxHuGEHKBN328Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 0%
+source-wordcount: 610
+ht-degree: 8%
 
 ---
 
@@ -20,7 +32,7 @@ Além do acesso ao Planejador de Cenários, um usuário com um nível de acesso 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +63,7 @@ Além do acesso ao Planejador de Cenários, um usuário com um nível de acesso 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,13 +89,13 @@ As informações a seguir podem ajudá-lo a entender como usar as configuraçõe
 
 * [Sem acesso](#no-access)
 * [Acesso de visualização](#view-access)
-* [Editar acesso](#edit-access)
+* [Acesso para editar](#edit-access)
 
 ### Sem acesso {#no-access}
 
 Um usuário sem acesso ao Planejador de cenários não pode ver o ícone Cenários no Menu principal quando ele é adicionado ao modelo de layout, nem visualizar planos e iniciativas compartilhados com ele. Se o link para um plano for compartilhado com um usuário que não tem acesso ao Planejador de cenários, o usuário não poderá visualizar ou editar o plano.
 
-### Exibir acesso {#view-access}
+### Acesso para visualizar {#view-access}
 
 Os usuários com acesso de Exibição ao Planejador de cenários podem fazer o seguinte:
 
@@ -94,7 +106,7 @@ Os usuários com acesso de Exibição ao Planejador de cenários podem fazer o s
 
   Também inclui taxas de função de trabalho e informações de custo no plano se o usuário destinatário também tiver acesso a dados financeiros. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-### Editar acesso {#edit-access}
+### Acesso para editar {#edit-access}
 
 Os usuários com acesso de Edição ao Planejador de cenários podem fazer o seguinte:
 

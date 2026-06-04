@@ -1,19 +1,32 @@
 ---
 content-type: overview
 navigation-topic: business-case-and-scorecards
-title: Visão geral dos campos financeiros do Business Case
+title: Visão geral dos campos financeiros do business case
 description: A subguia Business Case inclui campos financeiros para o projeto. Para que alguns campos financeiros tenham valores, as áreas correspondentes do Business Case devem ser preenchidas.
 author: Becky
 feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/rtNmXiZoe-NqCa8neuASw1BDMl8OBBbsN6Jm0a6Z-90
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 2%
+source-wordcount: 746
+ht-degree: 3%
 
 ---
 
-# Visão geral dos campos financeiros do Business Case
+# Visão geral dos campos financeiros do business case
 
 A subguia Business Case inclui campos financeiros para o projeto. Para que alguns campos financeiros tenham valores, as áreas correspondentes do Business Case devem ser preenchidas.
 
@@ -35,7 +48,7 @@ Os seguintes campos financeiros do projeto são exibidos no Business Case:
   </tr> 
   <tr> 
    <td>Custo Orçado</td> 
-   <td> <p>O custo total estimado que será associado ao projeto quando o projeto for iniciado.</p> <p>O Custo Orçado do projeto é calculado pela seguinte fórmula:<br></p> <p><code>Budgeted Cost = Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>O Adobe Workfront usa as horas orçadas do Planejador de recursos para calcular o custo do trabalho orçado.<br>Para obter mais informações sobre como calcular o Custo Orçado, consulte <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calcular Custo Orçado</a>. </p> <p>Esse campo é exibido na área Resumo de Business Case.</p> </td> 
+   <td> <p>O custo total estimado que será associado ao projeto quando o projeto for iniciado.</p> <p>O Custo Orçado do projeto é calculado pela seguinte fórmula:<br></p> <p><code>Budgeted Cost = Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>O Adobe Workfront usa as Horas Orçadas do Planejador de Recursos para calcular o Custo de Trabalho Orçado.<br>Para obter mais informações sobre como calcular o Custo Orçado, consulte <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calcular Custo Orçado</a>. </p> <p>Esse campo é exibido na área Resumo de Business Case.</p> </td> 
   </tr> 
   <tr> 
    <td>Custo de despesa do orçamento</td> 
@@ -43,7 +56,7 @@ Os seguintes campos financeiros do projeto são exibidos no Business Case:
   </tr> 
   <tr> 
    <td>Custo do Trabalho Orçado</td> 
-   <td> <p>O custo associado aos recursos atribuídos para concluir o trabalho no projeto.</p> <p>O Custo do Trabalho Orçado para o projeto é calculado pela seguinte fórmula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>O Workfront usa as horas orçadas do Planejador de recursos para calcular o custo do trabalho orçado.<br>Para obter mais informações sobre como calcular o Custo do Trabalho Orçado, consulte <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Entender o Custo do Trabalho Orçado e as Horas Orçadas dos projetos</a>.</p> <p>Esse campo é exibido na área Orçamento de Recursos do Business Case. </p> </td> 
+   <td> <p>O custo associado aos recursos atribuídos para concluir o trabalho no projeto.</p> <p>O Custo do Trabalho Orçado para o projeto é calculado pela seguinte fórmula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>O Workfront usa as Horas Orçadas do Planejador de Recursos para calcular o Custo de Trabalho Orçado.<br>Para obter mais informações sobre o cálculo do Custo de Trabalho Orçado, consulte <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Entender o Custo de Trabalho Orçado e as Horas Orçadas dos projetos</a>.</p> <p>Esse campo é exibido na área Orçamento de Recursos do Business Case. </p> </td> 
   </tr> 
   <tr> 
    <td>Custo Planejado de Despesas</td> 

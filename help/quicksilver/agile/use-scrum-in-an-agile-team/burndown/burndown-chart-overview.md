@@ -7,11 +7,23 @@ description: O gráfico de burndown fornece uma representação visual de como a
 author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: 976
 ht-degree: 0%
 
 ---
@@ -60,7 +72,7 @@ O gráfico de burndown contém os seguintes indicadores visuais:
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Ponto verde para trabalho queimado"> </td> 
    <td> <p>Um ponto verde ou vermelho é exibido na taxa de burndown real sempre que o trabalho é reduzido. (Quando a taxa de burndown real naquele dia é vermelha, o ponto é vermelho; quando a taxa de burndown real naquele dia é verde, o ponto é verde.)</p> <p>O trabalho é queimado quando qualquer uma das seguintes situações ocorre:</p> 
     <ul> 
-     <li> A [!UICONTROL Percentual concluído] é aumentada na matéria.<br>[!UICONTROL Percentual Concluído] aumenta quando: 
+     <li> A [!UICONTROL Porcentagem Concluída] é aumentada na matéria.<br>[!UICONTROL Porcentagem Concluída] é aumentada quando: 
       <ul> 
        <li> <p>Alterado manualmente</p> </li> 
        <li> <p>O número de pontos ou horas é atualizado na história</p> </li> 
@@ -73,7 +85,7 @@ O gráfico de burndown contém os seguintes indicadores visuais:
 
 ## Como os dias de folga afetam o gráfico de burndown {#how-days-off-affect-the-burndown-chart}
 
-O agendamento padrão definido em [!DNL Workfront] afeta o gráfico de burndown excluindo dias de folga (finais de semana e feriados) do burndown. O gráfico de burndown usa a programação padrão para definir dias úteis (conforme descrito em  [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+O agendamento padrão definido em [!DNL Workfront] afeta o gráfico de burndown excluindo dias de folga (finais de semana e feriados) do burndown. O gráfico de burndown usa o agendamento padrão para definir dias úteis (conforme descrito em [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
 As equipes Agile podem incorporar dias não úteis específicos da equipe definindo um agendamento alternativo (conforme descrito no artigo [Usar um agendamento de equipe alternativo para gráficos de burndown](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Esse cronograma alternativo é refletido no gráfico de burndown de qualquer iteração atribuída à equipe. A programação alternativa afeta somente o gráfico de burndown.
 

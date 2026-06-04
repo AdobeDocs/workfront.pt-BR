@@ -2,20 +2,32 @@
 content-type: release-notes
 keywords: notas,trimestral,atualizar,versão
 navigation-topic: 2021-2-release-activity
-title: 21.2 Aprimoramentos do projeto
+title: Aprimoramentos no projeto na 21.2
 description: Esta página descreve todas as melhorias de projeto feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte Visão geral da versão 21.2.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/WvKzdm-PGGseRZDvHqDW7TxIeTflgx-XCv-rFaehbps
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 1%
+source-wordcount: 1698
+ht-degree: 4%
 
 ---
 
-# 21.2 Aprimoramentos do projeto
+# Aprimoramentos no projeto na 21.2
 
 Esta página descreve todas as melhorias de projeto feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte a [Visão geral da versão 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
@@ -29,7 +41,7 @@ Como parte do redesign das caixas Novo e Editar tarefa, adicionamos a capacidade
 
 Para obter mais informações, consulte [Criar tarefas recorrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 2: planejar um projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no caminho de aprendizado do Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 2: planejar um projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR) no caminho de aprendizado do Workfront One.
 
 ## Novos botões disponíveis no cabeçalho Projetos
 
@@ -39,7 +51,7 @@ Este recurso agora está incluído nos [Fundamentos do planejador para a nova ex
 
 Para permitir que você filtre rapidamente a lista de projetos na página Projetos, há dois novos botões no cabeçalho que permitem aplicar rapidamente o filtro Projetos em que estou ou Projetos que possuo.
 
-Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 1: Criar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 1: Criar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR) no Workfront One.
 
 ## Mover ou excluir uma história ou problema do quadro Scrum
 

@@ -6,14 +6,24 @@ description: texto
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/vA8FflK8mA9a002-Mf8WKzECsEhOaIlvnd0kG958ySE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 0%
+source-wordcount: 397
+ht-degree: 3%
 
 ---
 
-# Desinstale o conector herdado do Workfront com Adobe Experience Manager
+# Desinstalar o Workfront com o conector legado do Adobe Experience Manager
 
 Você deve desinstalar o conector herdado do Workfront com Adobe Experience Manager para a integração nativa mais recente que conecta o Workfront e o Adobe Experience Manager Assets as a Cloud Service.
 
@@ -60,7 +70,7 @@ Se você não precisar do Day CQ Link Externalizer, poderá reverter isso para `
 
 >[!NOTE]
 >
->Se você estiver usando o Adobe Experience Manager as a Cloud Service, altere isso verificando seu projeto e localizando o arquivo _com.day.cq.commons.impl.ExternalizerImpl.xml_ dentro de _ui.apps/src/main/content/jcr_root/apps/mysite/config_.
+>Se você estiver usando o Adobe Experience Manager as a Cloud Service, altere isso verificando seu projeto e localizando o arquivo _com.day.cq.commons.impl.ExternalizerImpl.xml_ dentro de _ui.apps/src/main/content/jcr_ root/apps/mysite/config_.
 
 ![Externalizador de links CQ de dias](assets/Day-CQ-Link-Externalizer.png)
 

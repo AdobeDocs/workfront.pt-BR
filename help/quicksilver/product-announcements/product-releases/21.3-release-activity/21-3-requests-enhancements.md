@@ -1,19 +1,26 @@
 ---
-title: 21.3 Solicitações de melhorias
-description: 21.3 Solicitações de melhorias
+title: Aprimoramentos em solicitações na 21.3
+description: Aprimoramentos em solicitações na 21.3
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e3cdb642-83f5-4dc0-a4da-1f9378ab3914
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/RFWwGFIK7vYTuzMrRuYvkFs2YzIaxZ-MPlUUjBZj-hg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 0%
+source-wordcount: 163
+ht-degree: 5%
 
 ---
 
-# 21.3 Solicitações de melhorias
+# Aprimoramentos em solicitações na 21.3
 
 Esta página descreve todas as melhorias nas Solicitações feitas com a versão 21.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 21 de julho de 2021.
 

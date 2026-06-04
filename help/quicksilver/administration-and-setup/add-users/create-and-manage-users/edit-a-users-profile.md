@@ -8,9 +8,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 579b550fef222922de1ed5fe2c9928a92b3fb7f2
+TQID: https://experienceleague.adobe.com/BK1OTfwr8q8XTrCeQh50s-wXtnCKzv2Bbn-PzDes4hc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: 3451
 ht-degree: 3%
 
 ---
@@ -93,7 +106,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
   Não é possível redefinir a senha de um administrador do Workfront.
 
-* **&lt;Configuração de SSO> Nome de usuário**: se o administrador do Workfront habilitou uma integração de SSO com o Workfront, o Nome de usuário do SSO é exibido neste campo. O tipo de configuração de SSO ativado para sua instância do Workfront é visível nesse campo.
+* **&lt;Configuração de SSO> Nome de usuário**: se o administrador do Workfront habilitou uma integração de SSO com o Workfront, o Nome de Usuário de SSO é exibido neste campo. O tipo de configuração de SSO ativado para sua instância do Workfront é visível nesse campo.
 * **Permitir &lt;Configuração de SSO> Autenticação**: se o administrador do Workfront habilitou uma integração de SSO com o Workfront e atualizou todos os usuários para SSO, esse campo será selecionado por padrão. O tipo de configuração de SSO ativado para sua instância do Workfront é visível nesse campo.
 
   Quando esse campo é selecionado, o usuário precisa fazer logon no Workfront com suas credenciais de SSO. Ao desmarcá-la, você poderá fazer logon no Workfront com as credenciais da Workfront.
@@ -108,12 +121,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
   >
   >Se você for um administrador de grupo e tiver a permissão Administrador de Usuário (Todos os Usuários) ativada em seu nível de acesso, poderá editar os campos &lt;Configuração do SSO> para todos os usuários.
 
-* **Foto do perfil**: clique em **Carregar novo** para carregar a imagem de perfil do usuário. É possível carregar um arquivo JPG, GIF ou PNG. O limite de tamanho do arquivo é 4 MB.
+* **Foto do perfil**: clique em **Carregar novo** para carregar a imagem de perfil do usuário. Você pode fazer upload de um JPG, GIF, ou arquivo PNG. O limite de tamanho do arquivo é 4 MB.
 
   A imagem de perfil se torna o avatar do usuário e é visível em todo o sistema Workfront, onde quer que o nome do usuário seja exibido.
 
 * **Informações do trabalho**: Informações sobre o trabalho, como o cargo (no campo **Título**), e a área de conhecimento pela qual o usuário é responsável (no campo **Fale Comigo Sobre**).
-* **Informações de contato**: o número de telefone do usuário (no **Número de telefone**, **Ramal.** e **Número do celular** campos) e endereço (nos campos **Endereço**, **Cidade**, **Estado**, **CEP** e **País**).
+* **Informações de contato**: o número de telefone do usuário (nos campos **Número de telefone**, **Ramal** e **Número de celular**) e o endereço (nos campos **Endereço**, **Cidade**, **Estado**, **CEP** e **País**).
 
   O campo **País** na seção de informações de contato aceita apenas valores de código de país (por exemplo, EUA, GB, IN).
 

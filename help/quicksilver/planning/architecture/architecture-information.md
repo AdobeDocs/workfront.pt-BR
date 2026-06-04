@@ -6,19 +6,24 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+TQID: https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: 235
+ht-degree: 42%
 
 ---
 
-
-# Arquitetura: índice de artigos
+# Arquitetura: índice do artigo
 
 {{planning-important-intro}}
 
-Como líder em operações de marketing, você pode usar o Adobe Workfront Planning para organizar trabalhos em todo o ciclo de vida de marketing para todas as suas equipes.
+Como líder de operações de marketing, você pode usar o Adobe Workfront Planning para organizar o trabalho em todo o ciclo de vida de marketing para todas as suas equipes.
 
 Com o Workfront Planning, você pode personalizar totalmente seus workflows, desde decidir quais tipos de objeto (ou tipos de registro) sua organização usa até configurar como esses objetos se vinculam uns aos outros.
 
@@ -28,14 +33,14 @@ Os artigos nas seções a seguir descrevem como configurar os espaços de trabal
 
 * [Visão geral dos espaços de trabalho](/help/quicksilver/planning/architecture/workspaces-overview.md)
 * [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md)
-* [Lista de modelos do espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md)
+* [Lista de modelos de espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Visão geral dos tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
-* [Criar tipos de registro importando informações de um arquivo CSV ou do Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
+* [Criar tipos de registro importando informações de um arquivo CSV ou Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
 * [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [Visão geral dos tipos de registro conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
-* [Exemplo de conexão de tipos de registro e registros](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)
+* [Exemplo de conexão entre tipos de registro e registros](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)
 * [Excluir espaços de trabalho](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Excluir tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md)
@@ -44,4 +49,4 @@ Os artigos nas seções a seguir descrevem como configurar os espaços de trabal
 * [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Definir a área Configurações de um tipo de registro](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [Visão geral da hierarquia e da navegação estrutural](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
-* [Criar hierarquias do espaço de trabalho](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
+* [Criar hierarquias de espaços de trabalho](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)

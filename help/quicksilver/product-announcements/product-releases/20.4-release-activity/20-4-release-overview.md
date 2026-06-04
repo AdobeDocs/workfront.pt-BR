@@ -7,10 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/da7NZ9tWFrk32NgR4lTjS0LAVpzf1qGoJza4AEnaOSk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3695'
-ht-degree: 0%
+source-wordcount: 3852
+ht-degree: 1%
 
 ---
 
@@ -42,9 +61,9 @@ Esta página fornece informações sobre a funcionalidade do Adobe Workfront Cla
 * [Analítica aprimorada](#enhanced-analytics)
 * [Aprimoramentos da revisão](#proofing-enhancements)
 * [Aprimoramentos de dispositivos móveis e integração](#mobile-and-integration-enhancements)
-* [Outras melhorias](#other-enhancements)
+* [Outros aprimoramentos](#other-enhancements)
 
-### Melhorias do administrador {#administrator-enhancements}
+### Aprimoramentos do administrador {#administrator-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -259,7 +278,7 @@ Esta página fornece informações sobre a funcionalidade do Adobe Workfront Cla
  </tbody> 
 </table>
 
-### Outras melhorias {#other-enhancements}
+### Outros aprimoramentos {#other-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -320,7 +339,7 @@ Para obter mais informações sobre versões de API, consulte [Controle de vers�
 
 .
 
-## Atualizações de manutenção do Workfront 
+## Atualizações de manutenção do Workfront
 
 Para obter informações sobre as atualizações de manutenção feitas durante a versão 20.3, consulte [Atualizações de manutenção do Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -329,7 +348,7 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 * [Descontinuação de Flash](#flash-deprecation)
 * [Webinar da versão 20.4](#20-4-release-webinar)
 * [Alteração na cadência da versão de Visualização](#change-in-preview-release-cadence)
-* [Inclui na lista de permissões de domínios adicionais necessários para acessar o Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
+* [Incluo na lista de permissões de domínios adicionais necessários para acessar o Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 
 ### Descontinuação do Flash {#flash-deprecation}
@@ -342,7 +361,7 @@ Todas as ferramentas baseadas em Flash serão removidas de todos os produtos em 
 
 ### Webinário da versão 20.4 {#20-4-release-webinar}
 
-O webinário da versão do Workfront 20.4 será apresentado na quarta-feira, 28 de outubro de 2020, às 11h, horário do Pacífico. Inscreva-se para o webinário [aqui](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
+O webinário da versão 20.4 do Workfront será apresentado na quarta-feira, 28 de outubro de 2020, às 11:00, horário de verão da Europa. Inscreva-se para o webinário [aqui](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
 
 ### Alteração na cadência de lançamento da Visualização {#change-in-preview-release-cadence}
 
@@ -350,14 +369,14 @@ A partir de 20 de maio de 2020, o Workfront começou a disponibilizar a funciona
 
 Para obter mais informações, consulte [Perguntas frequentes sobre a alteração na cadência da versão de visualização do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home)
 
-### ➡ Inclui na lista de permissões de domínios adicionais necessários para acessar o Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
+### Incluo na lista de permissões de domínios adicionais necessários para acessar o Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
 Se sua organização usar um firewall, você deverá adicionar os seguintes domínios adicionais ao incluo na lista de permissões para garantir acesso ininterrupto ao Workfront:
 
 * event.split.io
 * sdk.split.io
 
-Incluir na lista de permissões Para obter mais informações, consulte [Configurar o arquivo do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Para obter mais informações, consulte [Configurar incluo na lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ### Workfront One {#workfront-one}
 

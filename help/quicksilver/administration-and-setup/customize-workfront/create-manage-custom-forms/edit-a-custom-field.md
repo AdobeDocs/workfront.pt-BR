@@ -8,10 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+TQID: https://experienceleague.adobe.com/ShPo7xQopsQS5j61ofqDw1UUohRdtzgxCmzm1KrFuYg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: 409
+ht-degree: 22%
 
 ---
 
@@ -25,7 +37,7 @@ Configurar um campo personalizado como Inativo o exclui dos relatórios, filtros
 
 >[!NOTE]
 >
->Marcar um campo existente como inativo o torna indisponível para uso em elementos de relatórios e formulários personalizados a partir desse ponto. Se o campo inativo for usado atualmente em um relatório ou formulário, o campo e seus dados históricos permanecerão no lugar.
+>Marcar um campo existente como inativo torna-o indisponível para uso em elementos de relatórios e formulários personalizados a partir desse momento. Se o campo inativo estiver sendo usado atualmente em um relatório ou formulário, o campo e seus dados históricos permanecerão no lugar.
 
 Se você remover um campo personalizado de um formulário personalizado, ele ainda existirá em todos os outros formulários aos quais foi adicionado e você poderá editá-lo em um formulário ou na área Campos. Para obter informações sobre como excluir um campo, consulte [Excluir um campo ou widget personalizado do sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 

@@ -2,19 +2,28 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcular o Índice de Desempenho de Tempo (CSI)
+title: Calcular o Índice de desempenho do cronograma de custos (CSI)
 description: O Índice de Desempenho de Programação de Custo (CSI) é um cálculo automático que combina o Índice de Desempenho de Custo (CPI) e o Índice de Desempenho de Programação (SPI) em uma métrica geral que equilibra custo e programação.
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+TQID: https://experienceleague.adobe.com/USODdaQOyE-D76BVmLLVUS1WxUMrK6Q05xZU1Xg9Gjc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 0%
+source-wordcount: 332
+ht-degree: 16%
 
 ---
 
-# Calcular o Índice de Desempenho de Tempo (CSI)
+# Calcular o Índice de desempenho do cronograma de custos (CSI)
 
 <!-- Audited: 6/2025 -->
 
@@ -24,7 +33,7 @@ ht-degree: 0%
 
 ## Visão geral do Índice de Desempenho de Agendamento de Custo (CSI)
 
-O Índice de Desempenho de Programação de Custo (CSI) é um cálculo automático que combina o Índice de Desempenho de Custo (CPI) e o Índice de Desempenho de Programação (SPI) em uma métrica geral que equilibra custo e programação. Ao multiplicar esses valores, uma única métrica pode contabilizar uma programação prolongada com um orçamento menor ou vice-versa. Os gerentes de projeto podem usar isso para determinar a integridade geral do projeto ou da tarefa quando o custo é sacrificado para impulsionar o cronograma no meio do projeto.
+O Índice de Desempenho de Programação de Custo (CSI) é um cálculo automático que combina o Índice de Desempenho de Custo (CPI) e o Índice de Desempenho de Programação (SPI) em uma métrica geral que equilibra custo e programação. Ao multiplicar esses valores, uma única métrica pode justificar um cronograma prolongado com um orçamento menor, ou vice-versa. Os gerentes de projeto podem usar isso para determinar a integridade geral do projeto ou da tarefa quando o custo é sacrificado para cumprir o cronograma no meio do projeto.
 
 >[!TIP]
 >

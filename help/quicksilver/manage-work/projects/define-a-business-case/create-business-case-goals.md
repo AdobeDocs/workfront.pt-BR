@@ -1,18 +1,31 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Criar metas do Business Case
+title: Criar metas de business case
 description: Como parte da criação de um Business Case, você pode criar um conjunto de metas para definir os objetivos de um projeto. As metas de Business Case são usadas para comunicar ao Gerente do Portfolio ou ao Patrocinador do Projeto a finalidade de concluir um projeto.
 author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+TQID: https://experienceleague.adobe.com/emLd-NhUj2Xo5jI9KSoNxI3YJQjxUu-ObKiew1dOJNY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 2%
+source-wordcount: 434
+ht-degree: 11%
 
 ---
 
-# Criar metas do Business Case
+# Criar metas de business case
 
 <!-- Audited: 6/2025 -->
 
@@ -41,7 +54,7 @@ Considere o seguinte ao criar metas do Business Case para seus projetos:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +69,7 @@ Considere o seguinte ao criar metas do Business Case para seus projetos:
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td> 
-   <p>Standard</p> 
+   <p>Padrão</p> 
    <p>Plano </p> 
    </td> 
   </tr> 

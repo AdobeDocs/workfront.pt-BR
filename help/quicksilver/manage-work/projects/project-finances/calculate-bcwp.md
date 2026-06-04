@@ -2,19 +2,31 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcular o COTR (Custo Orçado do Trabalho Realizado)
+title: Calcular o custo orçado do trabalho realizado (BCWP)
 description: Também conhecido como Valor Agregado, o Custo Orçado do Trabalho Realizado (COTR) é uma métrica de desempenho do projeto que representa a quantidade da tarefa que foi realmente concluída no momento em que essa métrica é calculada.
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/ahGgQPcR7LoWSLthsvYytqMIyoVcE86N2A3kAflYS2I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 2%
+source-wordcount: 573
+ht-degree: 10%
 
 ---
 
-# Calcular o COTR (Custo Orçado do Trabalho Realizado)
+# Calcular o custo orçado do trabalho realizado (BCWP)
 
 ## Visão Geral do Custo Orçado do Trabalho Executado (COTR)
 
@@ -36,7 +48,7 @@ Considere o seguinte ao revisar os valores para o COTR em uma tarefa ou projeto:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +61,7 @@ Considere o seguinte ao revisar os valores para o COTR em uma tarefa ou projeto:
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 

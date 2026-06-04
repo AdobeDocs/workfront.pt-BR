@@ -6,10 +6,22 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/ieutvnVZOYbQpqpUgAMx81QcoRXOUuwyB9Tq18b2p4Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4758'
-ht-degree: 0%
+source-wordcount: 4991
+ht-degree: 3%
 
 ---
 
@@ -65,7 +77,7 @@ For specific release dates and times for each cluster, see the
 * [Outros aprimoramentos](#other-enhancements)
 * [Melhorias na mobilidade](#mobile-enhancements)
 
-### Melhorias do administrador {#administrator-enhancements}
+### Aprimoramentos do administrador {#administrator-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -157,7 +169,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Aprimoramentos do projeto {#project-enhancements}
+### Aprimoramentos de projeto {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -243,7 +255,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Melhorias nas solicitações {#requests-enhancements}
+### Aprimoramentos nas solicitações {#requests-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -298,7 +310,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Outras melhorias {#other-enhancements}
+### Outros aprimoramentos {#other-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -365,7 +377,7 @@ For specific release dates and times for each cluster, see the
 
 ## Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 22.1. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 22.1. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Aprimoramentos no Planejador de cenários do Workfront
 
@@ -389,13 +401,13 @@ Não há atualizações do Workfront Goals neste momento na versão. Esta área 
 
 ## API versão 14
 
-Para a API versão 14, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+Para a API versão 14, modificamos alguns recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
 Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 14](../../../wf-api/api/new-api-version-14.md).
 
-Para obter informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](../../../wf-api/api/api-version-support-schedule.md).
+Para obter informações sobre as versões da API, consulte [controle de versão da API e cronograma de suporte](../../../wf-api/api/api-version-support-schedule.md).
 
-## Atualizações de manutenção do Workfront 
+## Atualizações de manutenção do Workfront
 
 Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.1, consulte [Atualizações de manutenção do Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -417,7 +429,7 @@ O webinário da versão 22.1 do Workfront foi apresentado em 12 de janeiro de 20
 
 ## Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
+Explore as últimas atualizações feitas nos programas de aprendizagem, caminhos de aprendizagem, vídeos e guias para cada versão do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
 ## Funcionalidade não mais compatível
 

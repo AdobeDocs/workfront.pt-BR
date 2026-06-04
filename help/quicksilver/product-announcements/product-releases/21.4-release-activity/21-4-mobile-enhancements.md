@@ -1,19 +1,24 @@
 ---
-title: 21.4 Melhorias na mobilidade
-description: 21.4 Melhorias na mobilidade
+title: Aprimoramentos para dispositivos móveis na 21.4
+description: Aprimoramentos para dispositivos móveis na 21.4
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbc013eb-aecc-405b-91b8-ce45f2ea10dc
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/Ze4C1aNFqXc-gIj3CxTyFD3nPQe40WqJB2w-YDbHwXk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 0%
+source-wordcount: 245
+ht-degree: 6%
 
 ---
 
-# 21.4 Melhorias na mobilidade
+# Aprimoramentos para dispositivos móveis na 21.4
 
 Esta página descreve todas as melhorias móveis feitas com a versão 21.4 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 4 de outubro de 2021.
 

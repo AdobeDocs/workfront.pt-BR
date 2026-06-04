@@ -1,19 +1,30 @@
 ---
-title: 20.4 Aprimoramentos no gerenciamento de projetos
-description: 20.4 Aprimoramentos no gerenciamento de projetos
+title: Aprimoramentos no gerenciamento de projetos na 20.4
+description: Aprimoramentos no gerenciamento de projetos na 20.4
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/JEZa2a24AG6-bzIRPgp01mn-f7pywb0Dbzi88zCrCYw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 0%
+source-wordcount: 1376
+ht-degree: 2%
 
 ---
 
-# 20.4 Aprimoramentos no gerenciamento de projetos
+# Aprimoramentos no gerenciamento de projetos na 20.4
 
 Esta página descreve todas as melhorias de gerenciamento de projeto feitas com a versão 20.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 9 de novembro de 2020.
 
@@ -95,7 +106,7 @@ Para obter informações sobre acesso administrativo a empresas, consulte [Conce
 
 <!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
-## Substitua o botão Trabalhar na tarefa por um botão Iniciar
+## Substituir o botão Trabalhar nisso por um botão Iniciar
 
 Para ajudar a capturar a data e a hora em que o trabalho começa em um item de trabalho, os usuários podem substituir o botão Trabalhar na tarefa por um botão Iniciar que atualiza automaticamente o status e a Data de início real do item de trabalho.
 

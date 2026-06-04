@@ -7,10 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/VfnZ55ge62fYOUITajcdR8S4pqHyPzri5QoUDEZUv2s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d83a421c-ecb9-4757-b609-c531392f90eb
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3829'
-ht-degree: 0%
+source-wordcount: 3985
+ht-degree: 2%
 
 ---
 
@@ -110,7 +131,7 @@ A versão 2020.3 contém os seguintes aprimoramentos para todos os usuários:
 * [Aprimoramentos no Gerenciamento de Projetos](#project-management-enhancements)
 * [Aprimoramentos de prova](#proof-enhancements)
 * [Integração e aprimoramentos móveis](#integration-and-mobile-enhancements)
-* [Outras melhorias](#other-enhancements)
+* [Outros aprimoramentos](#other-enhancements)
 
 ### Workfront Goals  {#workfront-goals}
 
@@ -125,7 +146,7 @@ A versão 2020.3 contém os seguintes aprimoramentos para todos os usuários:
 >
 >  O Workfront Goals está disponível somente na nova experiência do Adobe Workfront.
 >
->Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obter informações adicionais sobre o acesso ao Adobe Workfront Goals, consulte [Requisitos para usar o Adobe Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -164,7 +185,7 @@ A versão 2020.3 contém os seguintes aprimoramentos para todos os usuários:
 >&gt;  </tr> 
 >&gt;  <tr> 
 >&gt;   <td role="rowheader">Produto</td> 
->&gt;   <td>Planejador de cenário do Workfront <p>Para obter informações sobre o Planejador de cenários do Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral do Planejador de cenários</a>.</p> </td> 
+>&gt;   <td>Planejador de cenário do Workfront <p>Para obter informações sobre o planejador de cenários do Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Visão geral do planejador de cenários</a>.</p> </td> 
 >&gt;  </tr> 
 >&gt;  <tr data-mc-conditions=""> 
 >&gt;   <td role="rowheader"><strong>Nível de acesso*</strong> </td> 
@@ -357,7 +378,7 @@ A versão 2020.3 contém os seguintes aprimoramentos para todos os usuários:
  </tbody> 
 </table>
 
-### Outras melhorias {#other-enhancements}
+### Outros aprimoramentos {#other-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -396,7 +417,7 @@ A versão 2020.3 contém os seguintes aprimoramentos para todos os usuários:
    <td><strong>Disponível nestas datas:</strong> <p>Versão de visualização do Beta: 29 de julho de 2020</p> <p>Versão de produção: a partir da versão 20.3 em uma implantação em fases e disponível para todos os clientes até 1º de setembro de 2020.</p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Codificação <a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#base64" class="MCXref xref">Base64 para Assinaturas de Eventos</a> </p> <p>O campo base64Encoding é um campo opcional usado para habilitar a codificação Base64 de cargas de assinatura de evento. Se uma solicitação for feita usando o campo base64Encoding definido como true, os objetos newState e oldState na carga serão entregues como strings de codificação Base64. Esse recurso pode ser útil se sua rede estiver configurada de forma a não permitir caracteres especiais em Assinaturas de eventos.</p> </td> 
+   <td> <p>Codificação <a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#base64" class="MCXref xref">Base64 para Assinaturas de Eventos</a> </p> <p>O campo base64Encoding é um campo opcional usado para habilitar a codificação Base64 de conteúdos de assinaturas de eventos. Se uma solicitação for feita usando o campo base64Encoding definido como true, os objetos newState e oldState na carga serão entregues como strings de codificação Base64. Esse recurso pode ser útil se sua rede estiver configurada de forma a não permitir caracteres especiais em Assinaturas de eventos.</p> </td> 
    <td><strong>Disponível nestas datas:</strong> <p>Versão de visualização do Beta: 8 de julho de 2020</p> <p>Versão de produção: 10 de julho de 2020</p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +441,7 @@ Para obter mais informações sobre versões de API, consulte [Controle de vers�
 
 .
 
-## Atualizações de manutenção do Workfront 
+## Atualizações de manutenção do Workfront
 
 Para obter informações sobre as atualizações de manutenção feitas durante a versão 20.3, consulte [Atualizações de manutenção do Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 

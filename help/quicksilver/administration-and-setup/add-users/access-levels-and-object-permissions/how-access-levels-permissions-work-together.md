@@ -10,10 +10,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/yO-2iQdJUwZgAE93N-7Tqw3V8j3-JfYv0PrKohb-3o8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 2%
+source-wordcount: 908
+ht-degree: 48%
 
 ---
 
@@ -21,7 +35,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->As informações neste artigo se referem aos níveis de acesso herdados. Para obter informações sobre os níveis de acesso atuais, consulte [Visão geral sobre novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>As informações contidas neste artigo referem-se aos níveis de acesso legados. Para obter informações sobre os níveis de acesso atuais, consulte [Visão geral dos novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 O administrador do Adobe Workfront determina o nível de acesso que cada usuário deve ter. Esse nível de acesso define o que os usuários podem ver e fazer com os tipos de objetos e áreas no sistema.
 
@@ -69,7 +83,7 @@ Em um nível de acesso personalizado, você pode definir as configurações dess
 
 >[!IMPORTANT]
 >
->É altamente recomendável que você deixe os níveis de acesso incorporados inalterados para que possa consultá-los após configurar os usuários. Para personalizar um nível de acesso, copie o nível de acesso padrão e modifique a cópia. (Você pode fazer isso para todos os níveis de acesso, exceto para Administrador do sistema e Usuário externo.)
+>É altamente recomendável deixar os níveis de acesso integrados inalterados para que possa consultá-los após configurar os usuários. Para personalizar um nível de acesso, copie o nível de acesso padrão e modifique a cópia. (Você pode fazer isso para todos os níveis de acesso, exceto para Administrador do sistema e Usuário externo.)
 
 Para obter uma explicação detalhada de cada nível de acesso padrão, consulte [Níveis de acesso predefinidos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
@@ -79,22 +93,22 @@ Para obter instruções sobre como atribuir um nível de acesso a um usuário, c
 
 Ao compartilhar um objeto com alguém no sistema, um usuário pode conceder ao recipient qualquer uma das seguintes permissões para o objeto.
 
-* **Exibir**: este nível de permissão permite que o destinatário compartilhe o objeto de uma das seguintes maneiras:
+* **Visualização**: esse nível de permissão permite que o destinatário compartilhe o objeto de uma das seguintes maneiras:
 
    * Em todo o sistema, para que todos os usuários possam visualizá-lo (não disponível para todos os objetos)
    * Com usuários externos que não têm uma licença do Workfront (não disponível para todos os objetos)
    * Com um endereço de email (disponível somente para documentos)
 
 * **Contribute**: (não disponível para todos os objetos)
-* **Gerenciar**: quando alguém compartilha um objeto, os direitos do destinatário ao objeto são determinados por uma combinação do nível de acesso do destinatário e das permissões do objeto que foram concedidas pelo compartilhador. O grau mais baixo de acesso disponível nessa combinação é o que determina o que o recipient pode fazer com o objeto.
+* **Gerenciamento**: quando alguém compartilha um objeto, os direitos do destinatário ao objeto são determinados por uma combinação entre o nível de acesso do destinatário e as permissões do objeto que foram concedidas pelo compartilhador. O nível de acesso mais baixo disponível nessa combinação é o que determina o que o destinatário pode fazer com o objeto.
 
   >[!INFO]
   >
   >**Exemplo:** se o nível de acesso do destinatário não permitir a edição de projetos, essa pessoa não poderá editar nem excluir um projeto, mesmo que o compartilhador tenha concedido permissões para gerenciá-lo.
   >
-  >Ou, se o nível de acesso do recipient permitir a edição do projeto, mas o compartilhador conceder permissões somente de visualização para um projeto, o usuário não poderá editar nem excluir o projeto.
+  >Ou, se o nível de acesso do destinatário permitir a edição do projeto, mas quem compartilhou concedeu permissões somente de visualização para um projeto, o usuário não poderá editar ou excluir o projeto.
 
-A tabela a seguir compara o acesso geral de um usuário a objetos (definido pelo nível de acesso do usuário) com permissões para um objeto compartilhado específico:
+A tabela a seguir compara o acesso geral de um usuário aos objetos (definido pelo nível de acesso do usuário) com permissões para um objeto compartilhado específico:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,18 +143,18 @@ A tabela a seguir compara o acesso geral de um usuário a objetos (definido pelo
 
 >[!NOTE]
 >
->* Se um usuário compartilhar um objeto com determinadas permissões e esse objeto tiver quaisquer objetos filho abaixo dele, o recipient herdará as mesmas permissões para esses objetos filho.
->* Se um nível de acesso impedir que os usuários excluam determinados objetos, isso não os impedirá de excluir objetos filho contidos nesses objetos.
+>* Se um usuário compartilhar um objeto com determinadas permissões e esse objeto tiver objetos secundários abaixo dele, o destinatário herdará as mesmas permissões para eles também.
+>* Se um nível de acesso impedir que os usuários excluam determinados objetos, isso não os impedirá de excluir objetos secundários contidos nesses objetos.
 >
 
 ## Mais exemplos de cenários
 
-Quando Olivia compartilha um projeto do Workfront com Tony, o acesso de Tony a ele é determinado por uma combinação de duas coisas:
+Quando Olivia compartilha um projeto do Workfront com Tony, o acesso de Tony ao projeto é determinado por uma combinação de dois fatores:
 
-* Nível de acesso de Tony, atribuído pelo administrador do Workfront
-* As permissões de Tony para o projeto, especificado por Olivia
+* O nível de acesso de Tony, atribuído pelo administrador do Workfront
+* As permissões de Tony para o projeto, especificadas por Olivia
 
-As ações de Tony no projeto podem ser restritas ainda mais no projeto, mas elas não podem ser irrestritas além do que é permitido em seu nível de acesso:
+As ações de Tony no projeto podem ser ainda mais restringidas no próprio projeto, mas não podem ser irrestritas além do que é permitido em seu nível de acesso:
 
-* Se o nível de acesso de Tony não permite que ele crie tarefas, ele não pode adicionar tarefas ao projeto, mesmo se Olivia lhe deu permissões para adicionar tarefas a ele.
-* Se o nível de acesso de Tony permite que ele crie tarefas, mas Olivia não concedeu permissões para adicionar tarefas ao projeto, ele não pode adicionar tarefas a esse projeto, mas ele pode adicionar tarefas a outros projetos onde ele tem permissões para fazê-lo.
+* Se o nível de acesso de Tony não permitir que ele crie tarefas, ele não poderá adicionar tarefas ao projeto, mesmo que Olivia tenha lhe dado permissões para adicionar tarefas.
+* Se o nível de acesso de Tony permitir que ele crie tarefas, mas Olivia não tiver concedido permissões para adicionar tarefas ao projeto, ele não poderá adicionar tarefas a esse projeto, mas poderá adicionar tarefas a outros projetos nos quais tenha recebido permissões para isso.

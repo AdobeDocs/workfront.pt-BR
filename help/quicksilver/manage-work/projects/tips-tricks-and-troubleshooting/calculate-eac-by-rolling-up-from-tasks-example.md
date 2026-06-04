@@ -7,14 +7,26 @@ description: Este artigo fornece um exemplo de cálculo da EAC (Estimativa no t�
 author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/O-A-9mMVMuqsnHXpph-J5Qwh6Qj5r46zxj7VG85rX04
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 2%
+source-wordcount: 1155
+ht-degree: 5%
 
 ---
 
-# Exemplo de cálculo - Calcular EAC como um acúmulo a partir de tarefas
+# Exemplo de cálculo - Calcular EAC como um acúmulo de tarefas
 
 ## Método EAC: acumular de tarefas ou subtarefas
 
@@ -294,25 +306,25 @@ Método EAC = Extrair de tarefas/subtarefas
    <tr> 
       <td> <p>Tarefa 1</p> </td> 
       <td> <p>5 horas</p> </td> 
-      <td> <p>$ 500,00</p> </td> 
+      <td> <p>$500.00</p> </td> 
       <td> <p>25 horas</p> </td> 
-      <td> <p>$ 2.500,00</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
       <td> <p>20%</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tarefa 2</p> </td> 
       <td> <p>10 horas</p> </td> 
-      <td> <p>$ 1.000,00</p> </td> 
+      <td> <p>$1,000.00</p> </td> 
       <td> <p>25 horas</p> </td> 
-      <td> <p>$ 2.500,00</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
       <td> <p>30%</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tarefa 3</p> </td> 
       <td> <p>15 horas</p> </td> 
-      <td> <p>$ 1.500,00</p> </td> 
+      <td> <p>$1,500.00</p> </td> 
       <td> <p>25 horas</p> </td> 
-      <td> <p>$ 2.500,00</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
       <td> <p>40%</p> </td> 
    </tr> 
    </tbody> 
@@ -337,26 +349,26 @@ Método EAC = Extrair de tarefas/subtarefas
    <tr> 
       <td> <p>Tarefa 1</p> </td> 
       <td> <p>Tarefa 1 Exp 1</p> </td> 
-      <td> <p>$ 300,00</p> </td> 
-      <td> <p>$ 400,00</p> </td> 
+      <td> <p>$300.00</p> </td> 
+      <td> <p>$400.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tarefa 1</p> </td> 
       <td> <p>Tarefa 1 Despesa 2</p> </td> 
-      <td> <p>$ 500,00</p> </td> 
-      <td> <p>$ 0,00</p> </td> 
+      <td> <p>$500.00</p> </td> 
+      <td> <p>$0.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tarefa 2</p> </td> 
       <td> <p>Tarefa 2 Exp</p> </td> 
-      <td> <p>$ 200,00</p> </td> 
-      <td> <p>$ 100,00</p> </td> 
+      <td> <p>$200.00</p> </td> 
+      <td> <p>$100.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tarefa 3</p> </td> 
       <td> <p>Tarefa 3 Exp</p> </td> 
-      <td> <p>$ 800,00</p> </td> 
-      <td> <p>$ 700,00</p> </td> 
+      <td> <p>$800.00</p> </td> 
+      <td> <p>$700.00</p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -377,13 +389,13 @@ Método EAC = Extrair de tarefas/subtarefas
    <tbody> 
    <tr> 
       <td> <p>Despesa de Projeto 1</p> </td> 
-      <td> <p>$ 1.000,00</p> </td> 
-      <td> <p>$ 1.500,00</p> </td> 
+      <td> <p>$1,000.00</p> </td> 
+      <td> <p>$1,500.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tarefa 1 Despesa 2</p> </td> 
-      <td> <p>$ 2.500,00</p> </td> 
-      <td> <p>$ 0,00</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
+      <td> <p>$0.00</p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -406,34 +418,34 @@ Método EAC = Extrair de tarefas/subtarefas
    <tbody> 
    <tr> 
       <td> <p>Tarefa 1</p> </td> 
-      <td> <p>$ 500,00</p> </td> 
-      <td> <p>$ 300,00</p> </td> 
-      <td> <p>$ 400,00</p> </td> 
+      <td> <p>$500.00</p> </td> 
+      <td> <p>$300.00</p> </td> 
+      <td> <p>$400.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tarefa 2</p> </td> 
-      <td> <p>$ 0,00</p> </td> 
-      <td> <p>$ 200,00</p> </td> 
-      <td> <p>$ 100,00</p> </td> 
+      <td> <p>$0.00</p> </td> 
+      <td> <p>$200.00</p> </td> 
+      <td> <p>$100.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tarefa 3</p> </td> 
-      <td> <p>$ 0,00</p> </td> 
-      <td> <p>$ 800,00</p> </td> 
-      <td> <p>$ 700,00</p> </td> 
+      <td> <p>$0.00</p> </td> 
+      <td> <p>$800.00</p> </td> 
+      <td> <p>$700.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Projeto</p> </td> 
-      <td> <p>$ 3.000,00</p> </td> 
-      <td> <p>$ 2.300,00</p> </td> 
-      <td> <p>$ 2.700,00</p> </td> 
+      <td> <p>$3,000.00</p> </td> 
+      <td> <p>$2,300.00</p> </td> 
+      <td> <p>$2,700.00</p> </td> 
    </tr> 
    </tbody> 
    </table>
 
 1. Em Ações do Projeto, execute Recalcular Finanças
 1. A **CPI**&#x200B;**&#x200B; para a Tarefa 1** = .14 é calculada da seguinte maneira:\
-   **CPI**&#x200B;**para a Tarefa 1** = *IF* Custo Real do Trabalho + IncurredAtualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; para a Tarefa 1 &#x200B;** = *IF* Custo Real do Trabalho + IncurredAtualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
@@ -455,7 +467,7 @@ Método EAC = Extrair de tarefas/subtarefas
    **Mão de obra CPI***para a Tarefa 1** = 100/2500\
    **Mão de obra CPI***para a Tarefa 1** = .04
 
-   **Mão-de-Obra EAC**&#x200B;**para a Tarefa 1** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Mão-de-Obra EAC**&#x200B;**&#x200B; para a Tarefa 1 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
@@ -478,7 +490,7 @@ Método EAC = Extrair de tarefas/subtarefas
    Tarefa 3 = 0,44 / US$ 6.950,00&#x200B;**&#x200B;**
 
 1. A CPI do projeto = 0,32\
-   **CPI*** para Projeto** = *IF* Custo Real do Trabalho + IncurredAtualExpenseCost &lt;> 0 *THEN*
+   **CPI***para Projeto**=* IF* Custo Real do Trabalho + IncurredAtualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)

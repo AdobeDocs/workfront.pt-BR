@@ -9,10 +9,23 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/n-fUDmSaLJtcjRr-VGoHW1w5c1Yd60iD-1Eb-Nle7-A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 8%
+source-wordcount: 980
+ht-degree: 15%
 
 ---
 
@@ -30,7 +43,7 @@ A exportação de dados por meio do Kick-Starts também é útil para entender q
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,12 +55,12 @@ A exportação de dados por meio do Kick-Starts também é útil para entender q
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td>Administrador de Sistema</td> 
+   <td>Administrador de sistema</td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,7 +154,7 @@ As seguintes limitações existem ao exportar dados por meio de kick-starts (os 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col" valign="top"> <p>Tipo de Despesa</p> </td> 
+      <td scope="col" valign="top"> <p>Tipo de despesa</p> </td> 
       <td valign="top"> <p>Tipo de Despesa<br>Preferências</p> </td> 
       <td scope="col" valign="top"> <p>Excel</p> </td> 
      </tr> 
@@ -233,7 +246,7 @@ As seguintes limitações existem ao exportar dados por meio de kick-starts (os 
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
-      <td valign="top">Hour</td> 
+      <td valign="top">Hora</td> 
       <td valign="top"> Hora<br>Preferências </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -248,12 +261,12 @@ As seguintes limitações existem ao exportar dados por meio de kick-starts (os 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">Caminho de Etapas</td> 
+      <td valign="top">Caminho de marcos</td> 
       <td valign="top"> Etapa<br>Caminho da Etapa<br>Preferências </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
-      <td valign="top">Observação</td> 
+      <td valign="top">Nota</td> 
       <td valign="top"> Nota<br>Preferências </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -283,7 +296,7 @@ As seguintes limitações existem ao exportar dados por meio de kick-starts (os 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">Tipo de Risco</td> 
+      <td valign="top">Tipo de risco</td> 
       <td valign="top"> Tipo de Risco<br>Preferências  </td> 
       <td valign="top">Excel </td> 
      </tr> 
@@ -308,12 +321,12 @@ As seguintes limitações existem ao exportar dados por meio de kick-starts (os 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
-      <td valign="top">Modelo de Tarefa</td> 
+      <td valign="top">Tarefa de modelo</td> 
       <td valign="top"> Preferências de Modelo de Tarefa<br> </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
-      <td valign="top">Planilha de horas</td> 
+      <td valign="top">Folha de horas</td> 
       <td valign="top"> Perfil de Planilha de Horas<br>Planilha de Horas<br>Preferências </td> 
       <td valign="top">Excel  </td> 
      </tr> 
@@ -333,7 +346,7 @@ As seguintes limitações existem ao exportar dados por meio de kick-starts (os 
 
    Não é possível exportar relatórios de matriz. Para obter mais informações sobre relatórios de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-   O Kick-Starts não é compatível com filtros ou agrupamentos do modo de texto. Para uma exportação bem-sucedida, os filtros e agrupamentos de relatórios devem ser alternados para o Modo Padrão.
+   O Kick-Start não permite o uso de filtros ou agrupamentos no Modo texto. Para uma exportação bem-sucedida, os filtros e agrupamentos de relatórios devem ser alternados para o Modo padrão.
 
    Você pode selecionar até 100 painéis e 100 relatórios em uma única exportação.
 

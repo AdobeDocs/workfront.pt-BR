@@ -2,19 +2,33 @@
 content-type: overview
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
-title: Visão geral do conector aprimorado do Workfront para Experience Manager
+title: Visão geral do conector aprimorado do Workfront para o Experience Manager
 description: O Adobe Workfront é um aplicativo de gerenciamento de trabalho que ajuda você a gerenciar todo o ciclo de vida do trabalho em um único local. A integração entre o Workfront e o Experience Manager Assets permite que as organizações melhorem a velocidade do conteúdo e o prazo para comercialização, conectando intrinsecamente o trabalho e o gerenciamento de ativos digitais. No contexto do gerenciamento de trabalho no Workfront, os usuários têm acesso aos documentos e imagens necessários.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: b0c6df90-3ea8-4c81-abe2-48c2748a4d2b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/Rleqw7v8hVl-ABo5aDKwh5-g4XxTPUYl9WZ-FD2f-MU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 0%
+source-wordcount: 563
+ht-degree: 5%
 
 ---
 
-# Visão geral do conector aprimorado do Workfront para Experience Manager
+# Visão geral do conector aprimorado do Workfront para o Experience Manager
 
 <!-- Audited: 01/2024 -->
 
@@ -49,7 +63,7 @@ O conector aprimorado do Workfront para Experience Manager agora permite:
 
 ## Introdução
 
-1. **Instalar e configurar o conector**. Usando um parceiro certificado ou a Adobe Professional Services, instale e configure o conector aprimorado do Workfront for Experience Manager para organizar, padronizar processos, estabelecer governança e simplificar o ciclo de vida do ativo, desde a criação até a entrega. [Instalar no Adobe Experience Manager 6.5](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/integrations/workfront-integrations) ou [instalar no Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
+1. **Instalar e configurar o conector**. Usando um parceiro certificado ou a Adobe Professional Services, instale e configure o conector aprimorado do Workfront for Experience Manager para organizar, padronizar processos, estabelecer governança e simplificar o ciclo de vida do ativo, desde a criação até a entrega. [Instalar no Adobe Experience Manager 6.5](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/integrations/workfront-integrations) ou [instalar no Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install?lang=pt-BR).
 1. **Usar o conector**. Veja os recursos do conector aprimorado em ação com a geração automática de pastas vinculadas ao projeto no Experience Manager Assets, metadados do Workfront mapeados para Experience Manager Assets e pastas, sincronização de metadados bidirecional e muito mais. Para obter mais informações, consulte [Conector aprimorado do Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
 
 ## Veja mais aqui

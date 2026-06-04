@@ -1,19 +1,32 @@
 ---
-title: 21.4 Aprimoramentos de integração
-description: 21.4 Aprimoramentos de integração
+title: Aprimoramentos na integração na 21.4
+description: Aprimoramentos na integração na 21.4
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: d3e2342e-1c44-49c2-90bc-9fd77fbb2db8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/dCRr9YQiXiX82Jw7wyeT786T8oJ74-u6kOuevYy-SWY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: 367
+ht-degree: 2%
 
 ---
 
-# 21.4 Aprimoramentos de integração
+# Aprimoramentos na integração na 21.4
 
 Esta página descreve todas as melhorias de Integração feitas com a versão 21.4 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 4 de outubro de 2021.
 
@@ -21,7 +34,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão 21.4, c
 
 ## Vincular documentos do Dropbox Business
 
-Adicionamos o Dropbox Business como uma integração de documentos disponível. Agora, você pode acessar os documentos armazenados no Dropbox Business diretamente da Workfront.
+Adicionamos o Dropbox Business como uma integração de documentos disponível. Agora, você pode acessar documentos armazenados no Dropbox Business diretamente da Workfront.
 
 O Dropbox Business permite vincular documentos compartilhados e carregá-los em pastas compartilhadas. O Dropbox (não o Dropbox Business) permite que somente o proprietário dos documentos visualize o documento no Workfront.
 
@@ -33,16 +46,16 @@ Para obter informações sobre como um administrador do Workfront pode habilitar
 
 ## Atualizações do Workfront para Slack
 
-As seguintes atualizações estão agora visíveis no Workfront para integração de Slack:
+As seguintes atualizações estão visíveis na integração do Workfront para Slack:
 
-* O Workfront for Slack tem uma nova aparência.
-* Agora você recebe seu Workfront para notificações de Slack em tempo real.
+* O Workfront para Slack tem uma nova aparência.
+* Agora você recebe as notificações do Workfront for Slack em tempo real.
 
   Por exemplo, se estiver atribuído a uma tarefa, você receberá essa notificação assim que for atribuído. Anteriormente, podia haver um atraso antes de a notificação aparecer no Slack.
 
-Esta atualização exige que você reautorize seu Workfront para integração com o Slack. Para obter informações sobre como autorizar a integração, consulte [Configurar Adobe Workfront para Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Esta atualização requer que você autorize novamente sua integração do Workfront para Slack. Para obter informações sobre como autorizar a integração, consulte [Configurar Adobe Workfront para Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-Para obter mais informações sobre o Workfront para notificações Slack, consulte [Receber notificações Adobe Workfront no Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Para obter mais informações sobre notificações do Workfront para Slack, consulte [Receber notificações do Adobe Workfront no Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Veja mais claramente os detalhes de acesso à conta ao consentir com integrações do Adobe Workfront
 

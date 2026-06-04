@@ -6,10 +6,20 @@ description: Você pode usar a API para migrar pastas e documentos vinculados pa
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 586ab0a8-52ee-4aba-9298-af5a304acb02
-source-git-commit: aad8f4648a57c93047a1a691d5e608c327d78c1b
+TQID: https://experienceleague.adobe.com/W2Y50cEqsMIxHpG5-8uwVtR4OKd4TfdCLET9oYpycSk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 0%
+source-wordcount: 926
+ht-degree: 1%
 
 ---
 
@@ -45,7 +55,7 @@ Você pode usar a API para migrar pastas e documentos vinculados para o Adobe Ex
 
 ## Informações da API
 
-Para obter mais informações sobre as APIs do Workfront nesta seção, consulte [Documentação do desenvolvedor:Documentos](https://developer.workfront.com/documents.html).
+Para obter mais informações sobre as APIs do Workfront nesta seção, consulte [Documentação do desenvolvedor:Documents](https://developer.workfront.com/documents.html).
 
 ### Localizar todos os documentos
 
@@ -128,7 +138,7 @@ DOCUMENTOS DA API: (Endpoints de link internos não cobertos atualmente em devel
 
 >[!IMPORTANT]
 >
-> Para qualquer Tipo de provedor de documento, um cliente pode ter várias instâncias conectadas. Eles podem ter vários repositórios AEM vinculados, por exemplo. Ou várias instâncias do Google Drive vinculadas. A ID do provedor de documentos indica a instância específica do tipo de conexão que queremos substituir ou para a qual queremos alternar.
+> Para qualquer Tipo de provedor de documento, um cliente pode ter várias instâncias conectadas. Eles podem ter vários Repositórios AEM vinculados, por exemplo. Ou várias instâncias do Google Drive vinculadas. A ID do provedor de documentos indica a instância específica do tipo de conexão que queremos substituir ou para a qual queremos alternar.
 
 * **Tipo de Provedor de Armazenamento de Documentos (também &quot;Tipo de Integração Externa&quot;)**: o tipo de integração do provedor de armazenamento de documentos ao qual a Workfront dá suporte. Por meio de uma integração dedicada ou uma &quot;integração personalizada&quot;.
 
@@ -160,7 +170,7 @@ DOCUMENTOS DA API: (Endpoints de link internos não cobertos atualmente em devel
 
   >[!NOTE]
   >
-  > O Workfront ainda não tem um padrão para identificadores de documentos externos. Uma nova especificação está sendo usada para IDs AEM, mas para outras IDs, a ID do documento externo pode assumir diferentes formas, dependendo do tipo de provedor.
+  > O Workfront ainda não tem um padrão para identificadores de documentos externos. Uma nova especificação está sendo usada para AEM IDs, mas para outras IDs, a ID do documento externo pode assumir diferentes formas, dependendo do tipo de provedor.
 
 
 * **Tipo de Objeto**: este é um termo somente para API para fins deste documento. É um tipo de objeto genérico no Workfront com o qual você deseja interagir. Nesse caso, você interagirá com documentos e pastas que têm os tipos &quot;DOCU&quot; e &quot;DOCFDR&quot;, respectivamente.

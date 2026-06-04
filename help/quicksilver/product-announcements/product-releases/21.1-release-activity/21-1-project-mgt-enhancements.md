@@ -2,20 +2,29 @@
 content-type: release-notes
 keywords: notas,trimestral,atualizar
 navigation-topic: product-releases
-title: 21.1 Aprimoramentos no gerenciamento de projetos
+title: Aprimoramentos no gerenciamento de projetos na 21.1
 description: Esta página descreve todas as melhorias de Gerenciamento de projetos feitas com a versão 21.1 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 15 de fevereiro de 2021.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/jOE1oLgVpzfmYDzfK4rCJTbjD-dl1RGcn9suthS5N-E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 1%
+source-wordcount: 998
+ht-degree: 6%
 
 ---
 
-# 21.1 Aprimoramentos no gerenciamento de projetos
+# Aprimoramentos no gerenciamento de projetos na 21.1
 
 Esta página descreve todas as melhorias de Gerenciamento de projetos feitas com a versão 21.1 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 15 de fevereiro de 2021.
 
@@ -27,7 +36,7 @@ Para compartilhar mais facilmente o status e o progresso de um projeto, você po
 
 Para obter mais informações, consulte [Visão geral das métricas do projeto](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 3: Gerenciar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 3: Gerenciar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR) no Workfront One.
 
 ## Atualizar percentual concluído de problema quando o projeto ou tarefa convertido a partir da atualização de problema
 

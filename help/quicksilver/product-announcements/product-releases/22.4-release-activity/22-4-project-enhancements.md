@@ -1,19 +1,26 @@
 ---
-title: 22.4 Aprimoramentos do projeto
-description: 22.4 Aprimoramentos do projeto
+title: Aprimoramentos no projeto na 22.4
+description: Aprimoramentos no projeto na 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 2%
+source-wordcount: 965
+ht-degree: 3%
 
 ---
 
-# 22.4 Aprimoramentos do projeto
+# Aprimoramentos no projeto na 22.4
 
 Esta página descreve todas as melhorias feitas no Project com a versão 22.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas na semana de 3 de outubro de 2022.
 
@@ -51,7 +58,7 @@ Para obter mais informações, consulte [Editar Projetos](/help/quicksilver/mana
 
 OBSERVAÇÃO: campos de usuário adicionais para projetos, tarefas e problemas serão atualizados com essa funcionalidade em versões futuras.
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## Os campos de data calculados são sempre salvos com base no Tempo Universal Coordenado (UTC)
 
@@ -78,7 +85,7 @@ Com base em seus comentários, introduzimos as seguintes melhorias para melhorar
 
   Para obter mais informações sobre o Filtro Rápido, consulte [Aplicar o filtro rápido a uma lista](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
 ## Beta público - Nova experiência de filtro para projetos, tarefas e problemas
 
@@ -129,4 +136,4 @@ Queremos agregar valor a você iterativamente para que continuemos a agregar val
 
 Para obter mais informações, consulte [Visão geral dos filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Criar ou editar filtros no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412391/)
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412391/)

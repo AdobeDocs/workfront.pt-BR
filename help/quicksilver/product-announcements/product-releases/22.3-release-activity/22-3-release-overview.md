@@ -6,10 +6,32 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/yhdEiiC-0I-M1m8xTKfqQa1BSsyf-kZOGDWtCKMhTyA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3221'
-ht-degree: 0%
+source-wordcount: 3364
+ht-degree: 5%
 
 ---
 
@@ -24,12 +46,12 @@ Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11
 * [Aprimoramentos do administrador](#administrator-enhancements)
 * [Aprimoramentos do projeto](#project-enhancements)
 * [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
-* [Melhorias nos relatórios](#reporting-enhancements)
+* [Aprimoramentos nos relatórios](#reporting-enhancements)
 * [Aprimoramentos de integração](#integration-enhancements)
 * [Aprimoramentos móveis](#mobile-enhancements)
-* [Outras melhorias](#other-enhancements)
+* [Outros aprimoramentos](#other-enhancements)
 
-### Melhorias do administrador {#administrator-enhancements}
+### Aprimoramentos do administrador {#administrator-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +120,7 @@ Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">O editor de cálculo de campo de formulário personalizado exibe informações de erro
-</a><span style="color: #ff0000; font-weight: bold;"> (Temporariamente indisponível)</span></p></p> <p>A edição de cálculos para campos personalizados agora é mais fácil com informações de erro úteis indicadas diretamente no cálculo. Ao criar um campo calculado em um formulário personalizado, os erros são destacados em rosa. Quando você passa o mouse sobre a parte destacada, uma dica de ferramenta é exibida para descrever qual é o problema.</p>
+</a><span style="color: #ff0000; font-weight: bold;"> (Indisponível temporariamente)</span></p></p> <p>A edição de cálculos para campos personalizados agora é mais fácil com informações de erro úteis indicadas diretamente no cálculo. Ao criar um campo calculado em um formulário personalizado, os erros são destacados em rosa. Quando você passa o mouse sobre a parte destacada, uma dica de ferramenta é exibida para descrever qual é o problema.</p>
     </td> 
     <td> <p><b>Disponível nestas datas:</b> </p> 
     <ul> 
@@ -163,7 +185,7 @@ Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11
  </tbody> 
 </table>
 
-### Aprimoramentos do projeto {#project-enhancements}
+### Aprimoramentos de projeto {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -340,7 +362,7 @@ As campanhas foram lançadas para Pré-visualização beta com a versão 22.3, e
  </tbody> 
 </table>
 
-### Melhorias nos relatórios {#reporting-enhancements}
+### Aprimoramentos nos relatórios {#reporting-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -439,7 +461,7 @@ As campanhas foram lançadas para Pré-visualização beta com a versão 22.3, e
  </tbody> 
 </table>
 
-### Outras melhorias {#other-enhancements}
+### Outros aprimoramentos {#other-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -498,7 +520,7 @@ As campanhas foram lançadas para Pré-visualização beta com a versão 22.3, e
 
 ## Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 22.3. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 22.3. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Melhorias no Planejador de cenários do Workfront
 
@@ -526,13 +548,13 @@ Não há atualizações do Workfront Goals neste momento na versão. Esta área 
 
 ## API versão 14
 
-Para a API versão 14, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+Para a API versão 14, modificamos alguns recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
 Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 14](../../../wf-api/api/new-api-version-14.md).
 
-Para obter informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](../../../wf-api/api/api-version-support-schedule.md).
+Para obter informações sobre as versões da API, consulte [controle de versão da API e cronograma de suporte](../../../wf-api/api/api-version-support-schedule.md).
 
-## Atualizações de manutenção do Workfront 
+## Atualizações de manutenção do Workfront
 
 Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/releases/current-updates).
 
@@ -565,7 +587,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
+Explore as últimas atualizações feitas nos programas de aprendizagem, caminhos de aprendizagem, vídeos e guias para cada versão do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
 ## Funcionalidade não mais compatível
 

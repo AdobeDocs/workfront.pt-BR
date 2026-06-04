@@ -1,17 +1,26 @@
 ---
-title: Adquirir e instalar aplicativos da Adobe Exchange
+title: Adquirir e instalar aplicativos do Adobe Exchange
 description: As extensões da interface do Workfront, viabilizadas pelo Adobe App Builder, permitem que clientes e parceiros criem experiências do usuário personalizadas.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
-source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
+TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 1%
+source-wordcount: 1301
+ht-degree: 3%
 
 ---
 
-# Adquirir e instalar aplicativos da Adobe Exchange
+# Adquirir e instalar aplicativos do Adobe Exchange
 
 Agora você pode instalar aplicativos criados por parceiros para o Workfront diretamente da Adobe Exchange. Esse recurso conecta os clientes a um ecossistema cada vez maior de parceiros da Adobe que fornecem ferramentas desenvolvidas especificamente para melhorar a produtividade, simplificar as operações e estender a funcionalidade da Workfront. Por meio do Adobe Exchange, os clientes podem descobrir e instalar aplicativos que se integram perfeitamente ao Workfront usando extensões de interface do usuário.
 
@@ -79,7 +88,7 @@ O WorkFocus está ansioso para discutir como ele pode servir como parceiro estra
 
 * Pode iniciar a aquisição, mas será solicitado a fazer logon e poderá encontrar restrições se o aplicativo exigir consentimento do administrador ou licenciamento especial.
 
-## Adquirir e instalar aplicativos da Adobe Exchange
+## Adquirir e instalar aplicativos do Adobe Exchange
 
 Os clientes do Adobe podem navegar, pesquisar e instalar aplicativos diretamente do Adobe Exchange Marketplace para usar no Workfront.
 

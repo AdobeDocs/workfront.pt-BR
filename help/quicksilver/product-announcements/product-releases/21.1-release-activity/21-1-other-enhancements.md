@@ -2,20 +2,31 @@
 content-type: release-notes
 keywords: notas,trimestral,atualizar
 navigation-topic: product-releases
-title: 21.1 Outras melhorias
+title: Outros aprimoramentos na 21.1
 description: Esta página descreve todas as outras melhorias feitas com a versão 21.1 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 15 de fevereiro de 2021.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/1lcvQ0nqvMnGKfZmGhLU-brSdgjnNRu70P1RhEmBW2A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 0%
+source-wordcount: 766
+ht-degree: 2%
 
 ---
 
-# 21.1 Outras melhorias
+# Outros aprimoramentos na 21.1
 
 Esta página descreve todas as outras melhorias feitas com a versão 21.1 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 15 de fevereiro de 2021.
 
@@ -47,7 +58,7 @@ Para obter mais informações, consulte [Habilitar usuários a enviar um problem
 
 Para obter mais informações sobre por que estamos fazendo essa alteração, consulte [Novo sistema gerenciado pela Adobe Workfront para substituir o email POP por Filas de solicitações 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Este recurso agora está incluído no [Gerenciamento da fila no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Gerenciamento da fila no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR) no Workfront One.
 
 ## Restringir a edição de horas em folhas de horas
 
@@ -64,7 +75,7 @@ Adicionamos as seguintes melhorias quando você adiciona um projeto, tarefa ou p
 * Filtros: adicionamos filtros para projetos e problemas. Clique em Mais opções para visualizar esses filtros. Anteriormente, somente Tarefas tinham filtragem disponível.
 * Exibições: adicionamos opções de Exibição e Agrupamento à página Pesquisar.
 
-Para obter mais informações, consulte [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Para obter mais informações, consulte [Registro de tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Ocultar a caixa de horas extras na Planilha de horas
 

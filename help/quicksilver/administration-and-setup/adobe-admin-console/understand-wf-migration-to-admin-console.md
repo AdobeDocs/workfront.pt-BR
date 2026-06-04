@@ -9,9 +9,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+TQID: https://experienceleague.adobe.com/Pn1D37jOnAFIX0fxTLgRk3gJ4g9iiqzp6aiGKhmSU6w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: 1115
 ht-degree: 0%
 
 ---
@@ -32,7 +44,7 @@ Como parte da migração, seu gerenciamento de usuários passará do aplicativo 
 
 * **Os administradores de Perfil de Produto (administradores de sistema do Workfront)** gerenciam quais usuários da organização têm acesso ao Workfront.
 
-* **Os usuários entrarão com a Adobe Identity.** Depois que o Adobe migrar os usuários existentes para o Adobe Admin Console, os usuários entrarão em suas instâncias do Workfront usando sua nova Identidade do Adobe - uma Adobe ID ou Adobe Federated ID (SSO).
+* **Os usuários entrarão com a Adobe Identity.** Depois que o Adobe migrar os usuários existentes para o Adobe Admin Console, os usuários farão logon em suas instâncias do Workfront usando sua nova Identidade do Adobe - uma Adobe ID ou um Adobe Federated ID (SSO).
 
 * **Não há alteração na forma como você gerencia todas as outras funcionalidades** no próprio aplicativo do Workfront, incluindo o gerenciamento de recursos, funções de usuário, espaços de trabalho, funcionalidade e comportamento.
 
@@ -77,7 +89,7 @@ Como administrador do Perfil de produto do Workfront (administrador do Workfront
 
 * **A migração de usuário começará à meia-noite do Workfront Datacenter de hospedagem do cliente.**
 
-* **O Adobe migrará automaticamente os administradores do Workfront primeiro.** Quando os administradores do Workfront migrarem para a Adobe Identity, eles receberão a função de administrador do Perfil de Produto do Adobe (administrador do Workfront System). As funções existentes que um usuário pode ter antes da migração não serão afetadas.
+* **O Adobe migrará automaticamente os administradores do Workfront primeiro.** Quando os administradores do Workfront forem migrados para o Adobe Identity, eles receberão a função de administrador do Perfil de produto do Adobe (administrador do Workfront System). As funções existentes que um usuário pode ter antes da migração não serão afetadas.
 
   >[!NOTE]
   >
@@ -85,9 +97,9 @@ Como administrador do Perfil de produto do Workfront (administrador do Workfront
 
 
 
-* **À medida que os usuários forem migrados, eles receberão um email da Adobe notificando-os sobre a alteração na maneira como entram no Workfront.** usuários serão convidados a aceitar um convite para entrar usando a Adobe Identity pela primeira vez, seja entrando com uma Adobe ID existente ou configurando uma nova Adobe ID usando o mesmo endereço de email.
+* **À medida que os usuários forem migrados, eles receberão um email da Adobe notificando-os sobre a alteração na maneira como entram no Workfront.** Os usuários serão convidados a aceitar um convite para fazer logon usando a Adobe Identity pela primeira vez, fazendo logon com uma Adobe ID existente ou configurando uma nova Adobe ID usando o mesmo endereço de email.
 
-  Para obter informações sobre como fazer logon no Workfront com uma Adobe ID, consulte [Fazer logon no Adobe Experience Cloud](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
+  Para obter informações sobre como fazer logon no Workfront com uma Adobe ID, consulte [Fazer logon na Adobe Experience Cloud](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
 
 ### Migração de usuário concluída
 

@@ -1,19 +1,32 @@
 ---
-title: 22.3 Aprimoramentos do administrador
-description: 22.3 Aprimoramentos do administrador
+title: Aprimoramentos de admin na 22.3
+description: Aprimoramentos de admin na 22.3
 author: Luke
-draft: false
+draft: No
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/WCt-16lnZP57hwfKa2ejmA8-QyjQoFOEldI4TtjIdJk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 1%
+source-wordcount: 781
+ht-degree: 4%
 
 ---
 
-# 22.3 Aprimoramentos do administrador
+# Aprimoramentos de admin na 22.3
 
 Esta página descreve todas as melhorias de Administrador feitas com a versão 22.3 no ambiente de Pré-visualização. Essas melhorias foram disponibilizadas na semana de 11 de julho de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.3, consulte a [Visão geral da versão 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
@@ -52,7 +65,7 @@ Para obter mais informações, consulte os seguintes artigos:
 
 ## Adicionar um arquivo PDF a um formulário personalizado
 
-Continuamos a ajudá-lo a tornar os formulários personalizados mais visuais e informativos com os novos widgets de ativos que você pode adicionar, como imagens e vídeos. Agora é possível adicionar um link para um arquivo PDF a um formulário personalizado. Quando o formulário é anexado a um objeto, os usuários que trabalham com o objeto podem visualizar e interagir com o PDF de dentro do formulário.
+Continuamos a ajudá-lo a tornar os formulários personalizados mais visuais e informativos com os novos widgets de ativos que você pode adicionar, como imagens e vídeos. Agora é possível adicionar um link para um arquivo PDF a um formulário personalizado. Quando o formulário é anexado a um objeto, os usuários que trabalham com o objeto podem visualizar e interagir com a PDF de dentro do formulário.
 
 ## O editor de cálculo de campo de formulário personalizado exibe informações de erro
 

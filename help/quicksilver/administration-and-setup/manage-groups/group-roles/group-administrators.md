@@ -9,10 +9,22 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 1%
+source-wordcount: 1037
+ht-degree: 5%
 
 ---
 
@@ -66,7 +78,7 @@ Recomendamos que os administradores de grupo tenham acesso de edição aos usuá
 >[!IMPORTANT]
 >
 >Os administradores de grupo devem ter acesso maior do que aqueles que gerenciam; caso contrário, não poderão visualizar ou modificar níveis de acesso mais baixos.
->&#x200B;>Para obter instruções sobre como conceder esse acesso, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Para obter instruções sobre como conceder esse acesso, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Para um administrador de grupo que precisa atribuir perfis de folha de horas a usuários em seus grupos e subgrupos, também recomendamos Acesso administrativo a folhas de horas e horas. Para obter instruções sobre como conceder esse acesso, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -79,11 +91,11 @@ Como administrador de grupo, você pode realizar as tarefas descritas abaixo par
 >No novo modelo de preços e pacotes, você deve ter um plano do Prime ou superior para executar o seguinte:
 >
 > * Criar notificações de evento de grupo
-> * Configurar preferências do projeto do grupo
-> * Configurar preferências de tarefas de grupo e problemas
-> * Desbloquear a configuração de preferências de subgrupo
-> * Preferências de Horas e Planilha de Horas do Grupo
-> * Desbloquear a preferência de horas e planilhas de horas
+> * Configurar preferências de projeto do grupo
+> * Configurar preferências de tarefas e problemas do grupo
+> * Desbloquear configuração das preferências do subgrupo
+> * Preferências de horas e folhas de horas do grupo
+> * Desbloquear preferências de horas e folhas de horas
 
 ### Gerenciar membros do grupo {#manage-group-members}
 

@@ -2,19 +2,31 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcular Custo de Trabalho Planejado
+title: Calcular o custo do trabalho planejado
 description: À medida que você planeja o trabalho em seus projetos, a Adobe Workfront calcula o Custo de mão de obra planejado para as funções e usuários atribuídos a esse trabalho com base em seus valores de Custo por hora.
 author: Lisa
 feature: Work Management
 exl-id: af053e9a-09dc-4b4d-8ed4-f681ed611a59
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+TQID: https://experienceleague.adobe.com/xzjI7jrIuUBcwF7MpZ8fcWGuFgDrY-V2OUlAq95lDAw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 0%
+source-wordcount: 309
+ht-degree: 3%
 
 ---
 
-# Calcular Custo de Trabalho Planejado
+# Calcular o custo do trabalho planejado
 
 À medida que você planeja o trabalho em seus projetos, a Adobe Workfront calcula o Custo de mão de obra planejado para as funções e usuários atribuídos a esse trabalho com base em seus valores de Custo por hora.
 

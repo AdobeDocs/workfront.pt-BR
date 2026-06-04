@@ -9,10 +9,19 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/wgUZVPkh6AWQtmafLAcRFq0-P7lHtKuELUlOcCqpG0k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 4%
+source-wordcount: 1214
+ht-degree: 9%
 
 ---
 
@@ -22,7 +31,7 @@ Ao implementar o Adobe Workfront, em vez de inserir dados manualmente, você pod
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,12 +43,12 @@ Ao implementar o Adobe Workfront, em vez de inserir dados manualmente, você pod
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td>Administrador de Sistema</td> 
+   <td>Administrador de sistema</td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +78,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Nome** | Chris |
 | **Sobrenome** | Tripulação |
 | **Nome de Usuário/Email** | mailto:cmanning@foo.com |
-| **Senha** | updateMe |
+| **Password** | updateMe |
 | **Access** | Integrante da Equipe |
 | **Empresa** | &lt;*Sua Empresa>* |
 | **Grupo Padrão** | Marketing |
@@ -84,7 +93,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Nome** | Jennifer |
 | **Sobrenome** | Campbell |
 | **Nome de Usuário/Email** | jcampbell@foo.com |
-| **Senha** | updateMe |
+| **Password** | updateMe |
 | **Access** | Gerente de projeto |
 | **Empresa** | &lt;*Sua Empresa>* |
 | **Grupo Padrão** | Marketing |
@@ -99,7 +108,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Nome** | Jill |
 | **Sobrenome** | Sullivan |
 | **Nome de Usuário/Email** | jsullivan@foo.com |
-| **Senha** | updateMe |
+| **Password** | updateMe |
 | **Access** | Help Desk |
 | **Empresa** | &lt;*Sua Empresa>* |
 | **Grupo Padrão** | Vendas |
@@ -114,7 +123,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Nome** | Marc |
 | **Sobrenome** | Lewis |
 | **Nome de Usuário/Email** | mlewis@foo.com |
-| **Senha** | updateMe |
+| **Password** | updateMe |
 | **Access** | Gerente de Portfólio |
 | **Empresa** | &lt;*Sua Empresa>* |
 | **Grupo Padrão** | Finanças |
@@ -129,7 +138,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Nome** | Pam |
 | **Sobrenome** | Reynolds |
 | **Nome de Usuário/Email** | preynolds@foo.com |
-| **Senha** | updateMe |
+| **Password** | updateMe |
 | **Access** | Gerente de projeto |
 | **Empresa** | *Sua Empresa>* |
 | **Grupo Padrão** | Marketing |
@@ -144,7 +153,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Nome** | Ray |
 | **Sobrenome** | Andrews |
 | **Nome de Usuário/Email** | randrews@foo.com |
-| **Senha** | updateMe |
+| **Password** | updateMe |
 | **Access** | Administrador |
 | **Empresa** | *Sua Empresa>* |
 | **Grupo Padrão** | Gerenciador de Recursos |
@@ -274,7 +283,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 
 1. Insira os detalhes do Grupo Padrão do usuário.
 
-   De acordo com o cenário, Chris Manning pertence ao grupo Marketing. Na planilha do **Grupo**, localize a ID do grupo de marketing, copie-a e, na planilha do **Usuário**, cole-a na coluna **setHomeGroupID** na linha do usuário. &#x200B;Repita essa etapa para cada atribuição de usuário e grupo.
+   De acordo com o cenário, Chris Manning pertence ao grupo Marketing. Na planilha do **Grupo**, localize a ID do grupo de marketing, copie-a e, na planilha do **Usuário**, cole-a na coluna **setHomeGroupID** na linha do usuário. &#x200B;Repita esta etapa para cada atribuição de usuário e grupo.
 
    ![Copiar ID do grupo](assets/copygroupid-1-350x133.png) ![Colar ID do grupo](assets/pastegroupid-350x59.png)
 
@@ -288,7 +297,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 
 1. Insira os detalhes da Função do usuário.
 
-   De acordo com o cenário, Chris Manning terá a função de Analista de negócios. Na planilha **Função**, localize a ID da função de Analista de Negócios, copie-a e, na planilha **Usuário**, cole-a na coluna **setRoleID**, na linha do usuário. &#x200B;Repita essa etapa para cada atribuição de usuário e grupo.
+   De acordo com o cenário, Chris Manning terá a função de Analista de negócios. Na planilha **Função**, localize a ID da função de Analista de Negócios, copie-a e, na planilha **Usuário**, cole-a na coluna **setRoleID**, na linha do usuário. &#x200B;Repita esta etapa para cada atribuição de usuário e grupo.
 
    ![Copiar ID de função](assets/copyroleid-350x149.png) ![Colar ID de função](assets/pasteroleid-350x95.png)
 
@@ -303,4 +312,4 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 > 
 >Se sua organização tiver sido migrada para a Adobe Admin Console e um usuário não sair do status Desativado e Aprovação pendente em alguns minutos, você poderá adicionar o lote de usuários diretamente à Adobe Admin Console.
 >
->Para obter instruções, consulte [Gerenciar vários usuários | Upload em massa de CSV](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html) na documentação do Adobe.
+>Para obter instruções, consulte [Gerenciar vários usuários | Upload em massa de CSV](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html) na documentação da Adobe.

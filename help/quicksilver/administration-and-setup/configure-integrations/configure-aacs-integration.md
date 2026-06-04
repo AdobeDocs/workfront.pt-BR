@@ -6,11 +6,24 @@ description: Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experien
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/URGZIZPNbkj-wshinxLbaj2AFhWtXG-KPvNyz-5mkcw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: 1733
 ht-degree: 2%
 
 ---
@@ -281,7 +294,7 @@ Os seguintes fluxos de trabalho estão disponíveis na integração do Adobe Exp
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
    1. Para adicionar uma pasta aninhada à árvore de pastas, clique no menu de três pontos ao lado da pasta na qual deseja criar uma pasta aninhada e selecione **Adicionar pasta**. Preencha os campos conforme descrito em Etapa da etapa anterior.
-   1. Para vincular uma pasta à Workfront, selecione a pasta e clique em **Criar pasta vinculada**   ícone ![Vincular pasta](assets/link-folder.png).
+   1. Para vincular uma pasta à Workfront, selecione a pasta e clique no ícone **Criar pasta vinculada** ![Vincular pasta](assets/link-folder.png).
    1. (Opcional) Para editar uma pasta, selecione-a e clique no **ícone Editar Pasta** ![ícone Editar](assets/edit-icon.png).
    1. (Opcional) Para excluir uma pasta, selecione-a e clique no ícone **Excluir Pasta** ![Excluir pasta](assets/delete-folder.png).
 1. (Condicional) Para adicionar outra árvore de pastas, clique em **+ Adicionar árvore de pastas** e siga as etapas da Etapa 5.

@@ -2,20 +2,45 @@
 content-type: release-notes
 keywords: notas,trimestral,atualizar
 navigation-topic: 2021-3-release-activity
-title: 21.3 Visão geral da versão
+title: Visão geral da versão 21.3
 description: Esta página fornece informações sobre a funcionalidade do Adobe Workfront Classic e a nova experiência do Adobe Workfront incluída na versão 21.3 para ajudá-lo a desbloquear a produtividade e a colaboração . [Comercialização de uma linha para a versão]
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+TQID: https://experienceleague.adobe.com/T7r9XDUzONpksCcMEV5-lz2GBplu5-9XQjvBgO-1-xg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2310'
-ht-degree: 0%
+source-wordcount: 2403
+ht-degree: 4%
 
 ---
 
-# 21.3 Visão geral da versão
+# Visão geral da versão 21.3
 
 Esta página fornece informações sobre a funcionalidade do Adobe Workfront Classic e da nova experiência do Adobe Workfront incluída na versão 21.3
 
@@ -69,9 +94,9 @@ For specific release dates and times for each cluster, see the
 * [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
 * [Solicitações de aprimoramentos](#requests-enhancements)
 * [Aprimoramentos da revisão](#proofing-enhancements)
-* [Outras melhorias](#other-enhancements)
+* [Outros aprimoramentos](#other-enhancements)
 
-### Melhorias do administrador {#administrator-enhancements}
+### Aprimoramentos do administrador {#administrator-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -96,7 +121,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Aprimoramentos do projeto {#project-enhancements}
+### Aprimoramentos de projeto {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -174,7 +199,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Melhorias nas solicitações {#requests-enhancements}
+### Aprimoramentos nas solicitações {#requests-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -216,7 +241,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Outras melhorias {#other-enhancements}
+### Outros aprimoramentos {#other-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -231,7 +256,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Disponível nestas datas:</strong> </p> <p>Versão de pré-visualização: N/D<br></p> <p>Versão de produção: com a versão 21.3</p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>iOS</p> <p>Android</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">Filtros de assinatura de eventos</a> </p> <p>Agora, os filtros de assinatura de evento estão ativados em ambientes de visualização. A filtragem por assinatura de evento pode ser usada para garantir que você receba apenas mensagens relevantes. Criar filtros para suas assinaturas pode diminuir significativamente o número de mensagens que seu terminal precisa consumir. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">Filtros de assinatura de eventos</a> </p> <p>Agora, os filtros de assinatura de evento estão ativados em ambientes de visualização. Você pode usar a filtragem de assinatura de evento para garantir que receba apenas mensagens relevantes. Criar filtros para as assinaturas pode diminuir significativamente o número de mensagens que o ponto de acesso precisa consumir. </p> </td> 
    <td><strong>Disponível nestas datas: Versão de visualização: 20 de maio de 2021 Versão de produção: 3 de junho de 2021 Disponível nestes ambientes: A nova experiência do Adobe Workfront</strong>Adobe Workfront Classic </td> 
   </tr> 
  </tbody> 
@@ -249,7 +274,7 @@ Novos recursos estão chegando à versão do Workfront Scenario Planner com a ve
 
 ## Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 21.3. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 21.3. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Aprimoramentos do Workfront Proof
 
@@ -265,11 +290,11 @@ Não há atualizações do Workfront Goals neste momento na versão. Esta área 
 
 ## Anúncios
 
-### Atualização de inclui na lista de permissões de IP necessária para usar a integração do Workfront para Jira
+### Atualização necessária do incluo na lista de permissões IP para usar o Workfront para integração com o Jira
 
-Fizemos algumas atualizações de back-end no Workfront para integração com o Jira. Verifique se os endereços IP listados no artigo [Configurar o seguinte incluir na lista de permissões incluo na lista de permissões de IP do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) foram adicionados ao seu arquivo de para conexões de entrada e saída:
+Fizemos algumas atualizações de back-end no Workfront para integração com o Jira. Verifique se os seguintes endereços IP listados no artigo [Configurar incluo na lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) foram adicionados ao seu incluo na lista de permissões para conexões de entrada e saída:
 
-* 34 213 36 118
+* 34.213.36.118
 * 35.160.0.242
 * 3.209.27.146
 * 18.205.251.4
@@ -282,7 +307,7 @@ Para obter mais informações sobre como configurar a integração do Jira, cons
 
 ### API versão 13
 
-Para a API versão 13, modificamos vários recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+Para a API versão 13, modificamos vários recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
 Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 13](../../../wf-api/api/new-api-version-13.md).
 

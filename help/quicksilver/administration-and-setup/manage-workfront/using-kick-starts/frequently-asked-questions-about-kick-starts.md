@@ -10,10 +10,19 @@ author: LIsa
 feature: System Setup and Administration
 role: Admin
 exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+TQID: https://experienceleague.adobe.com/XpKG-fYAFVRk89b5TjSWyrzqv5z1zzIavWJQNLuKlsc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 0%
+source-wordcount: 441
+ht-degree: 3%
 
 ---
 
@@ -60,6 +69,6 @@ Ao importar um Kickstart de usuário com o campo **setCountry**, esses dados nã
 
 ### Responder
 
-Se o usuário estiver habilitado para Unified User Management (UUM) ou Adobe Identity Management System (IMS), o campo **País** só aceitará valores de código de país (por exemplo, EUA, GB, IN). Verifique se o campo **setCountry** no modelo de Início está usando valores de código de país antes de importar.
+Se o usuário estiver habilitado para o Gerenciamento Unificado de Usuários (UUM) ou o Adobe Identity Management System (IMS), o campo **País** só aceitará valores de código de país (por exemplo, EUA, GB, IN). Verifique se o campo **setCountry** no modelo de Início está usando valores de código de país antes de importar.
 
 Para obter mais informações sobre como importar dados corretamente no Workfront usando o Kick-Starts, consulte [Importar dados para o Adobe Workfront usando um modelo de Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

@@ -2,14 +2,25 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Visão geral do Portfolio Otimizer
+title: Visão geral do otimizador de portfólios
 description: O [!UICONTROL Portfolio Otimizer] é a ferramenta usada para avaliação e comparação do projeto. O processo de revisar e comparar valores de Business Case de projetos atribuídos a um portfólio é como um gerente de portfólio pode priorizar projetos e gerar o maior valor para uma organização.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+TQID: https://experienceleague.adobe.com/rboyRUa-HquCIv42DGtpGjwFa-eLptIWOnAb8Lo4W28
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: 1648
 ht-degree: 0%
 
 ---
@@ -53,7 +64,7 @@ Você pode exibir informações financeiras nas seguintes áreas do [!UICONTROL 
 * **[!UICONTROL Portfolio Finances para Projetos Selecionados]**: esta área exibe informações financeiras coletadas dos projetos selecionados no [!UICONTROL Portfolio Otimizer]. É possível adicionar ou remover projetos e entender como isso afetará as finanças do portfólio, visualizando as informações nesta área.
 * **[!UICONTROL Finanças do Projects]**: esta área exibe as informações financeiras de cada projeto listado no [!UICONTROL Portfolio Otimizer].
 
-### Os campos financeiros no [!UICONTROL Portfolio Otimizer] {#the-financial-fields-in-the-portfolio-optimizer}
+### Os campos financeiros no [!UICONTROL Portfolio Otimizer]  {#the-financial-fields-in-the-portfolio-optimizer}
 
 Os seguintes campos financeiros são exibidos no [!UICONTROL Portfolio Otimizer]:
 
@@ -117,7 +128,7 @@ Os seguintes campos financeiros são exibidos no [!UICONTROL Portfolio Otimizer]
    <td>[!UICONTROL Número de projetos]</td> 
    <td> <p>O número total de projetos ativos no portfólio. Os projetos considerados ativos em um portfólio podem estar em qualquer um dos seguintes status:</p> 
     <ul> 
-     <li>[!UICONTROL Atual]</li> 
+     <li>[!UICONTROL Current]</li> 
      <li>[!UICONTROL Planning]</li> 
      <li>[!UICONTROL Aprovado]</li> 
     </ul> </td> 
@@ -135,7 +146,7 @@ Os seguintes campos financeiros são exibidos no [!UICONTROL Portfolio Otimizer]
    <td> <p>A soma dos custos de todos os projetos exibidos no [!UICONTROL Portfolio Otimizer]. O custo de cada projeto é o mesmo que o [!UICONTROL Custo Orçado] do Projeto exibido no [!UICONTROL Resumo de Business Case]. </p> <p>Para obter mais informações sobre os campos financeiros de projetos no [!UICONTROL Business Case], consulte a seção "Entendendo os Campos Financeiros no Business Case" no artigo <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Criar um Business Case para um projeto</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Risco] </td> 
+   <td>[!UICONTROL Risk] </td> 
    <td> <p>A soma de todos os [!UICONTROL Custos de Risco Potencial] de todos os projetos no portfólio. O [!UICONTROL Custo do Risco Potencial] de cada projeto está listado na coluna [!UICONTROL Risco] do [!UICONTROL Portfolio Otimizer]. </p> <p>Para obter mais informações sobre como calcular riscos para projetos, consulte o artigo <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calcular Custo do Risco Potencial</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -177,9 +188,9 @@ Os ícones e opções a seguir estão disponíveis para o [!UICONTROL Portfolio 
    <td>[!UICONTROL Otimizar portfólio]</td> 
    <td>Use este ícone para otimizar o portfólio com base nos seguintes valores financeiros dos projetos:
     <ul>
-     <li>[!UICONTROL Custo]</li>
+     <li>[!UICONTROL Cost]</li>
      <li>[!UICONTROL Alinhamento]</li>
-     <li>[!UICONTROL Valor]</li>
+     <li>[!UICONTROL Value]</li>
      <li>[!UICONTROL Risco para Benefício]</li>
      <li>[!UICONTROL ROI]</li>
     </ul><p>Para obter mais informações sobre como otimizar seu portfólio, consulte o artigo <a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">Otimizar projetos no [!UICONTROL Portfolio Otimizer]</a>.</p></td> 

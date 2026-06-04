@@ -8,22 +8,32 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+TQID: https://experienceleague.adobe.com/S7EfI5qY6OdXY1XTEgFtODWIBqS6UzMKVp0GUL1geyg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 7%
+source-wordcount: 565
+ht-degree: 13%
 
 ---
 
-# Definir configurações padrão de prova
+# Definir configurações padrão da prova
 
 Essas configurações permitem que você defina valores padrão que se aplicam a todas as novas provas criadas pelos usuários. No entanto, os usuários podem substituir a maioria dessas configurações ao criar uma prova.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +46,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td>
-   <p>Novo: Padrão</p>
+   <p>Novo: padrão</p>
    ou
    <p>Atual: Plano</p></td> 
   </tr> 

@@ -7,14 +7,23 @@ description: Os artigos a seguir contêm informações sobre projetos, a Equipe 
 author: Alina
 feature: Work Management
 exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+TQID: https://experienceleague.adobe.com/-9LnyWSk5gBuuWAYDL2lmghIBpEx52Ry13-4sC3MMOg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 0%
+source-wordcount: 157
+ht-degree: 12%
 
 ---
 
-# Planejar um projeto: índice do artigo
+# Planejar um projeto: índice de artigos
 
 <!-- Audited: 4/2025 -->
 
@@ -35,7 +44,7 @@ Para obter informações sobre o projeto, a Equipe do Projeto e como planejar um
 * [Visão geral da duração do projeto](../../../manage-work/projects/planning-a-project/project-duration.md)
 * [Visão geral do Tipo de Atualização de Projeto](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)
 * [Compreender e atualizar as prioridades de projeto](../../../manage-work/projects/planning-a-project/project-priority.md)
-* [Visão geral do Status de Progresso do Projeto](../../../manage-work/projects/planning-a-project/project-progress-status.md)
+* [Visão geral do status do progresso do projeto](../../../manage-work/projects/planning-a-project/project-progress-status.md)
 * [Definir a Data de Término Planejada do projeto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Visão geral da Data de Início Projetada do projeto](../../../manage-work/projects/planning-a-project/project-projected-start-date.md)
-* [Visão geral da Data de conclusão projetada para projetos, tarefas e problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
+* [Visão geral da data de conclusão projetada para projetos, tarefas e problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)

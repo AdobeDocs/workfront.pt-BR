@@ -6,15 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/v1IRcsFil5-ba26LoUX6IgD5gG-9h2344Tfs-qRvvPU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1101
 ht-degree: 2%
 
 ---
-
 
 <!--keep the global record type reference in yellow till January 2026-->
 
@@ -257,6 +268,6 @@ Para deletar um tipo de registro global de um espaço de trabalho secundário:
    * O tipo de registro criado de um tipo de registro global é removido do espaço de trabalho secundário selecionado.
    * O tipo de registro original com seus campos permanecem em seu espaço de trabalho original.
    * O tipo de registro permanece em todos os outros espaços de trabalho aos quais foi adicionado.
-   * Os registros <!--and fields--> adicionados ao tipo de registro do espaço de trabalho secundário são excluídos. Todos os outros registros adicionados de espaços de trabalho adicionais onde o tipo de registro global foi adicionado são preservados em seus respectivos espaços de trabalho e no espaço de trabalho original. &lt;!— Os campos são preservados nos espaços de trabalho onde foram adicionados.
+   * Os registros <!--and fields--> adicionados ao tipo de registro do espaço de trabalho secundário são excluídos. Todos os outros registros adicionados de espaços de trabalho adicionais onde o tipo de registro global foi adicionado são preservados em seus respectivos espaços de trabalho e no espaço de trabalho original. &lt;!—!—Os campos são preservados nos espaços de trabalho onde foram adicionados.
 
 

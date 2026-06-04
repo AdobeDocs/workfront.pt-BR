@@ -8,9 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+TQID: https://experienceleague.adobe.com/EbnybXqWehstH2ziLqNZfMHtarMvUiugvWioYv9wLds
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 445
 ht-degree: 6%
 
 ---
@@ -73,7 +82,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. (Condicional) Se você estiver adicionando mais de uma taxa de faturamento, especifique as seguintes informações:
 
-   * **[!UICONTROL Taxas de Cobrança 1], 2, etc.**: O valor da taxa de cobrança para o período.
+   * **[!UICONTROL Taxas de Cobrança 1], 2, etc.**: o valor da taxa de cobrança para o período de tempo.
    * **[!UICONTROL Data de Início]**: a data quando a taxa se torna efetiva.
    * **[!UICONTROL Data de término]**: a data em que a taxa termina.
 

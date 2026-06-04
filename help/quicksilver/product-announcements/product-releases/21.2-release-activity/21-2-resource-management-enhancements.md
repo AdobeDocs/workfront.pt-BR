@@ -2,20 +2,32 @@
 content-type: release-notes
 keywords: notas,trimestral,atualizar,versão
 navigation-topic: 2021-2-release-activity
-title: 21.2 Aprimoramentos no gerenciamento de recursos
+title: Aprimoramentos no gerenciamento de recursos na 21.2
 description: Esta página descreve todas as melhorias no Gerenciamento de recursos feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte Visão geral da versão 21.2.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00133efe-f779-4217-87af-a223dcf043ee
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/cAM0R2azvfhRW25brnRKCUXZ5f2ZLGeBVd19okbdBpU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: 575
+ht-degree: 3%
 
 ---
 
-# 21.2 Aprimoramentos no gerenciamento de recursos
+# Aprimoramentos no gerenciamento de recursos na 21.2
 
 Esta página descreve todas as melhorias no Gerenciamento de recursos feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte a [Visão geral da versão 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
@@ -36,7 +48,7 @@ Para ajudá-lo com o planejamento estratégico de seus projetos e garantir que e
 Para obter informações, consulte os seguintes artigos:
 
 * [Visão geral da reconciliação de alocações de recursos entre projetos e iniciativas](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
-* [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+* [Navegar no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
 >

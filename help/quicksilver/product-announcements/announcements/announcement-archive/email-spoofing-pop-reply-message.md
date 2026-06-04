@@ -6,10 +6,19 @@ description: Estamos fazendo duas alterações no modo como o Adobe Workfront en
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/eOFRSbJicMbYHqq74-O9VW0c73RDQmAC-OIkLX-FKFw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: 319
+ht-degree: 3%
 
 ---
 
@@ -23,7 +32,7 @@ Em um esforço para aumentar o sucesso da entrega de emails, eliminaremos a fals
 
 ![Exemplo de email](assets/noreply.png)
 
-*É altamente recomendável entrar em contato com a equipe de TI* para garantir que os emails de `notifications@my.workfront.com` não sejam bloqueados para emails de entrada no sistema. Você também pode fazer referência à [inclui na lista de permissões sobre o](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) do seu firewall para obter detalhes sobre os endereços IP dos quais nosso tráfego e email são provenientes.
+*É altamente recomendável entrar em contato com a equipe de TI* para garantir que os emails de `notifications@my.workfront.com` não sejam bloqueados para emails de entrada no sistema. Você também pode consultar [Configurar o incluo na lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) para obter detalhes sobre os endereços IP de onde vêm nosso tráfego e email.
 
 ## Respostas de email de entrada para notificações (resposta POP)
 
@@ -31,4 +40,4 @@ Certas notificações por email permitem que os usuários respondam por email e 
 
 Não haverá alterações nos emails provenientes diretamente do sistema do Workfront Proof. Você continuará a receber esses emails como recebeu no passado.
 
-Se tiver outras dúvidas ou dúvidas, entre em contato com a [Equipe de suporte da Workfront](https://experienceleague.adobe.com/pt-br?support-tab=home#support).
+Se tiver outras dúvidas ou dúvidas, entre em contato com a [Equipe de suporte da Workfront](https://experienceleague.adobe.com/pt-br?support-tab=home&lang=pt-BR#support).

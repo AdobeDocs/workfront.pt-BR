@@ -7,9 +7,24 @@ description: Você pode rastrear custos de projetos, tarefas e problemas no Adob
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/QlZHaPhBX1e8VKXlVCAc-vB1D-BDS4-LDq3dZrBuPXI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: 2756
 ht-degree: 1%
 
 ---
@@ -214,7 +229,7 @@ A tabela a seguir descreve os Tipos de Custo da tarefa disponíveis no Workfront
      <ul> 
       <li>Se você atribuir vários recursos a uma tarefa, o Workfront ajustará cálculos para o Custo Planejado com base na porcentagem da tarefa atribuída a cada recurso.</li>
       <li>Para taxas de custo de efetivação da data, o custo de Trabalho Planejado é a soma dos custos planejados de cada período coberto na tarefa.</li>
-      <li>O valor do campo Custo Planejado pode diferir dependendo se você exibe o Custo Planejado da própria tarefa ou do relatório de Utilização.<br><strong>Ao exibir o Custo Planejado da própria tarefa:</strong> o campo Custo Planejado leva em consideração o campo Custo/Hr definido no nível da Função de Trabalho (quando o campo Custo/Hr não foi definido no nível do usuário).<br><strong>Ao exibir o Custo Planejado do relatório de Utilização no projeto:</strong> o campo Custo Planejado não leva em consideração o campo Custo/Hr definido no nível de Função de Trabalho. Em vez disso, se você quiser que o relatório de Utilização considere o campo Custo/Hr definido no nível de Função do Cargo, defina o Tipo de Custo na tarefa como Função por Hora. </li> 
+      <li>O valor do campo Custo Planejado pode diferir dependendo se você exibe o Custo Planejado da própria tarefa ou do relatório de Utilização.<br><strong>Ao exibir o Custo Planejado da própria tarefa:</strong> o campo Custo Planejado leva em consideração o campo Custo/Hr definido no nível da Função de Trabalho (quando o campo Custo/Hr não foi definido no nível do usuário).<br><strong>Ao exibir o Custo Planejado do relatório de Utilização no projeto:</strong> o campo Custo Planejado não leva em consideração o campo Custo/Hr definido no nível da Função de Trabalho. Em vez disso, se você quiser que o relatório de Utilização considere o campo Custo/Hr definido no nível de Função do Cargo, defina o Tipo de Custo na tarefa como Função por Hora. </li> 
      </ul> </p> <p>O <strong>Custo Efetivo</strong> é calculado pela seguinte fórmula: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Onde o Custo Efetivo do Trabalho é calculado por:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>Por exemplo, um usuário tem uma taxa de Custo por hora de US$ 20 em seu perfil. Quando registram 5 horas para uma tarefa, o Custo de Mão de Obra Real é de US$ 100 para essa tarefa. Se o usuário não tiver uma taxa de Custo por hora associada a ele, o Custo real será calculado com base na taxa de Custo por hora da função de trabalho principal. Se eles não tiverem uma função de trabalho ou se a taxa de Custo por hora de sua função de trabalho não estiver definida, o Custo Real da tarefa será zero. </p> <p>Nota: Os Custos Reais são calculados com base na taxa de Custo por Hora do usuário que está registrando o tempo, independentemente de quem está atribuído à tarefa. Além disso, a taxa de custo por hora na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> </td> 
   </tr> 
   <tr> 

@@ -6,12 +6,21 @@ description: Você pode adicionar um arquivo de imagem ao Adobe Workfront copian
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/yZd5lRulx6-3DOcqUC-IZRTt0y13yMiqKuOreqmx9rc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 15%
+source-wordcount: 335
+ht-degree: 16%
 
 ---
 
@@ -21,8 +30,8 @@ Você pode adicionar um arquivo de imagem ao Adobe Workfront copiando-o e coland
 
 >[!NOTE]
 >
->Essa funcionalidade não está disponível na nova área Documentos.<br>
->Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Esta funcionalidade não está disponível na nova área Documentos.<br>
+>Se sua organização usar o Adobe Cloud Storage, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos do navegador para colar da área de transferência
 

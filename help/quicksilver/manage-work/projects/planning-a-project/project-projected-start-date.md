@@ -2,19 +2,30 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Visão Geral da Data de Início Projetada do projeto
+title: Visão geral da data de início projetada do projeto
 description: A Data de Início Projetada é uma data em tempo real em que o projeto vai iniciar com base na Data de Início Projetada da primeira tarefa do projeto.
 author: Alina
 feature: Work Management
 exl-id: 6277e6cf-0a73-4ba8-a3fd-c0da473dc5d4
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+TQID: https://experienceleague.adobe.com/2rcx201EGt4cqRpqfXws6P-NbRnXyVlFoTbJrQJBipg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: 430
+ht-degree: 6%
 
 ---
 
-# Visão Geral da Data de Início Projetada do projeto
+# Visão geral da data de início projetada do projeto
 
 ## Visão geral da Data de Início Projetada para projetos e tarefas
 

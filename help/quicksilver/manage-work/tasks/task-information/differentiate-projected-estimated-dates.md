@@ -2,19 +2,29 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Visão Geral das Datas Projetadas e Estimadas
+title: Visão geral das datas projetadas e estimadas
 description: Há vários tipos de datas que mostram a linha do tempo de tarefas entre o momento em que elas podem ser iniciadas e o momento em que podem ser concluídas.
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+TQID: https://experienceleague.adobe.com/H-lO-an4TrEuwNx-l76JFpACJfyM22g36F3pa3aP6EY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 0%
+source-wordcount: 925
+ht-degree: 1%
 
 ---
 
-# Visão Geral das Datas Projetadas e Estimadas
+# Visão geral das datas projetadas e estimadas
 
 <!--Audited: 07/2024-->
 
@@ -39,7 +49,7 @@ As Datas planejadas são as datas que o Proprietário do projeto define como as 
 
 Quando uma tarefa é criada pela primeira vez, ela não tem Datas Reais porque ainda não foi iniciada ou concluída.
 
-## Visão Geral das Datas Projetadas e Estimadas
+## Visão geral das datas projetadas e estimadas
 
 Durante a vida útil de um projeto, as Datas projetada e estimada estão mais alinhadas com a realidade do projeto, pois levam em consideração o que pode influenciar o início e o fim reais de uma tarefa. Isso faz com que elas mudem das Datas planejadas.
 

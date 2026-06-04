@@ -1,18 +1,33 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Estimativa de recursos no Business Case usando o Planejador de recursos
+title: Recursos orçamentários no business case por meio do Planejador de Recursos
 description: Como parte do planejamento de recursos, você pode usar o Planejador de recursos no nível do projeto para fazer o orçamento das funções de trabalho necessárias para concluir o trabalho em um projeto ao criar o business case.
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/qCdK5wvSZkx4ROkfy21JK7P5v7YY1hKkJwwIUDKXvNI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 1%
+source-wordcount: 1212
+ht-degree: 8%
 
 ---
 
-# Estimativa de recursos no Business Case usando o Planejador de recursos
+# Recursos orçamentários no business case por meio do Planejador de Recursos
 
 <!--Audited: 06/2025-->
 
@@ -35,7 +50,7 @@ Você também pode estimar recursos no business case usando o Planejador de cen�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Plano Adobe Workfront</p></td> 
    <td> <p>Prime ou superior</p>
     </td> 
   </tr> 
@@ -72,7 +87,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Antes de começar, você deve fazer o seguinte:
 
-* Atenda a todos os pré-requisitos para o planejamento de recursos na Adobe Workfront. Para obter informações, consulte [Visão geral do Planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* Atenda a todos os pré-requisitos para o planejamento de recursos na Adobe Workfront. Para obter informações, consulte [Visão geral do planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Associar Conjuntos de Recursos ao projeto.
 
@@ -82,7 +97,7 @@ Antes de começar, você deve fazer o seguinte:
 
   >[!NOTE]
   >
-  >Não é possível estimar recursos atribuídos a problemas no Business Case. Você pode fazer o orçamento deles no Planejador de recursos no nível do sistema. Para obter mais informações sobre o Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  >Não é possível estimar recursos atribuídos a problemas no Business Case. Você pode fazer o orçamento deles no Planejador de recursos no nível do sistema. Para obter mais informações sobre o planejador de recursos, consulte [Visão geral do planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Embora isso não seja um pré-requisito, também recomendamos que você indique as Horas planejadas para as tarefas no projeto. Isso ajuda a entender a quantidade de trabalho que uma tarefa pode precisar concluir, o que ajuda na decisão de quanto tempo os recursos devem ser orçados para a conclusão da tarefa. Para obter informações sobre como associar tarefas com Horas Planejadas, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -114,7 +129,7 @@ Para aplicar Conjuntos de Recursos e prever recursos do projeto no Business Case
 
    Usa as Horas Orçadas do projeto para calcular o Custo de Mão-de-Obra Orçado do projeto.
 
-   O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
+   O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o planejador de cenários do Workfront, consulte [Visão geral do planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
 
    >[!NOTE]
    >
@@ -134,7 +149,7 @@ Para aplicar Conjuntos de Recursos e prever recursos do projeto no Business Case
 
    Por padrão, as primeiras 20 funções de cargo associadas a esse projeto são listadas na seção Orçamento de Recursos em ordem alfabética.
 
-   Para obter mais informações sobre o Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Para obter mais informações sobre o planejador de recursos, consulte [Visão geral do planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
    <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 

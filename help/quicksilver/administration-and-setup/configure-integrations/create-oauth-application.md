@@ -8,18 +8,30 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 8%
+source-wordcount: 1959
+ht-degree: 6%
 
 ---
 
 # Criar aplicativos OAuth2 para integrações de [!DNL Workfront]
 
-Como administrador [!DNL Adobe Workfront], você pode criar aplicativos OAuth2 para sua instância do [!DNL Workfront], que permitem que outros aplicativos acessem [!DNL Workfront]. Seus usuários podem conceder permissão a esses outros aplicativos para acessar os dados do [!DNL Workfront]. Dessa forma, é possível integrar   com aplicativos de sua escolha, incluindo aplicativos internos.
+Como administrador [!DNL Adobe Workfront], você pode criar aplicativos OAuth2 para sua instância do [!DNL Workfront], que permitem que outros aplicativos acessem [!DNL Workfront]. Seus usuários podem conceder permissão a esses outros aplicativos para acessar os dados do [!DNL Workfront]. Dessa forma, você pode integrar o aos aplicativos de sua escolha, incluindo seus próprios aplicativos internos.
 
 Ao criar um aplicativo [!UICONTROL OAuth2], você gera uma ID do cliente e um Segredo do cliente. Seus usuários podem usar a ID do cliente em chamadas de API para integrar com o aplicativo criado.
 
@@ -147,7 +159,7 @@ A caixa **Novo aplicativo OAuth2** é exibida.
       <td role="rowheader">[!UICONTROL Segredo do cliente]</td> 
       <td> <p>Este campo é gerado automaticamente</p> <p><b>IMPORTANTE</b>:  <p>Copie o conteúdo desse campo para outro arquivo seguro antes de fechar esta página. Você não poderá ver essa chave secreta novamente.</p> <p>Se você perder essa chave, exclua-a e crie um Segredo do cliente.</p> 
         <ol> 
-         <li value="1"> <p>Clique no ícone <b> </b>[!UICONTROL Excluir]<img src="assets/delete.png"> para excluir o Segredo do Cliente atual.</p> </li> 
+         <li value="1"> <p>Clique no ícone <img src="assets/delete.png"> <b>[!UICONTROL Excluir]</b> para excluir o Segredo do Cliente atual.</p> </li> 
          <li value="2"> <p>Clique em <b>[!UICONTROL Adicionar segredo do cliente]</b> para gerar um novo Segredo do Cliente.</p> </li> 
         </ol> </p> </td> 
      </tr> 
@@ -207,7 +219,7 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
       <td role="rowheader">[!UICONTROL Segredo do cliente]</td> 
       <td> <p>Este campo é gerado automaticamente</p> <p><b>IMPORTANTE</b>:  <p>Copie o conteúdo desse campo para outro arquivo seguro antes de fechar esta página. Você não poderá ver essa chave secreta novamente.</p> <p>Se você perder essa chave, exclua-a e crie um Segredo do cliente.</p> 
         <ol> 
-         <li value="1"> <p>Clique no ícone <b> </b>[!UICONTROL Excluir]<img src="assets/delete.png"> para excluir o Segredo do Cliente atual.</p> </li> 
+         <li value="1"> <p>Clique no ícone <img src="assets/delete.png"> <b>[!UICONTROL Excluir]</b> para excluir o Segredo do Cliente atual.</p> </li> 
          <li value="2"> <p>Clique em <b>[!UICONTROL Adicionar segredo do cliente]</b> para gerar um novo Segredo do Cliente.</p> </li> 
         </ol> </p> </td> 
      </tr> 
@@ -217,7 +229,7 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Atualizar rotação de token]</td> 
-      <td>Habilite esta opção para emitir um novo token de atualização sempre que o token de atualização for usado. Seu aplicativo deve armazenar o novo token de atualização após cada atualização.</td> 
+      <td>Ative esta opção para emitir um novo token de atualização sempre que o token de atualização for usado. Seu aplicativo deve armazenar o novo token de atualização após cada atualização.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Expiração de token de atualização absoluta]</td> 
@@ -277,7 +289,7 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Girar token de atualização sempre que for usado]</td> 
-      <td>Habilite esta opção para emitir um novo token de atualização sempre que o token de atualização for usado. Seu aplicativo deve armazenar o novo token de atualização após cada atualização.</td> 
+      <td>Ative esta opção para emitir um novo token de atualização sempre que o token de atualização for usado. Seu aplicativo deve armazenar o novo token de atualização após cada atualização.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Expiração absoluta]</td> 
@@ -342,10 +354,10 @@ A configuração e o uso adicionais do aplicativo OAuth2 criado exigem algum con
 
 ### Autorização com um código de autorização e um token de acesso {#authorizing-with-an-authorization-code-and-access-token}
 
-1. O ClientApp precisa de algumas informações de [!DNL Workfront], por isso envia uma solicitação para o ponto de extremidade [!DNL Workfront] da API `/authorize`. A solicitação inclui o [!UICONTROL response_type] `code`, que indica que a solicitação deve retornar um código de autorização.
+1. O ClientApp precisa de algumas informações de [!DNL Workfront], por isso envia uma solicitação para o ponto de extremidade `/authorize` da API [!DNL Workfront]. A solicitação inclui o [!UICONTROL response_type] `code`, que indica que a solicitação deve retornar um código de autorização.
 1. Isso aciona [!DNL Workfront] para enviar um prompt de autenticação ao usuário. O usuário pode inserir suas credenciais no prompt, que fornece a [!DNL Workfront] permissão para se comunicar com o ClientApp. Se o usuário já estiver conectado ao [!DNL Workfront], esta etapa pode ser ignorada.
 1. A API [!DNL Workfront] envia um código de autorização para o ClientApp.
-1. O ClientApp envia as seguintes informações em uma solicitação para a API [!DNL Workfront] `/token`   endpoint:
+1. O ClientApp envia as seguintes informações em uma solicitação para o ponto de extremidade `/token` da API [!DNL Workfront]:
 
    * O código de autorização enviado ao ClientApp na etapa 3. Isso identifica a instância específica da permissão do usuário.
    * O Segredo do Cliente gerado ao configurar o aplicativo OAuth2 do ClientApp em [!DNL Workfront]. Isso permite que [!DNL Workfront] saiba que a solicitação vem do ClientApp.

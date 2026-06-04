@@ -6,15 +6,27 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/3I5y7eTZml-nkAiAYnBFuaw72DyXgNG12D-EVYVourA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 785
 ht-degree: 7%
 
 ---
-
 
 # Visão geral do Assistente de IA do Planejamento do Adobe Workfront
 
@@ -27,7 +39,7 @@ ht-degree: 7%
 
 {{planning-important-intro}}
 
-You can use the AI Assistant to generate, update, or remove records based on the current page context and record structure.
+Você pode usar o Assistente de IA para gerar, atualizar ou remover registros com base no contexto da página atual e na estrutura de registro.
 
 Os comandos do usuário e a execução desses comandos pela IA trabalham juntos para garantir que as alterações feitas pela IA sejam refletidas com precisão no ambiente.
 
@@ -66,12 +78,12 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++
 
-## Considerations about the AI Assistant
+## Considerações sobre o Assistente de IA
 
-* The AI Assistant must be enabled for your organization before it is available for users in your company. For information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
-* After Workfront has enabled the AI Assistant for your organization, it is available for the main Workfront administrator. For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* O Assistente de IA deve estar ativado para sua organização antes de estar disponível para usuários em sua empresa. Para obter informações, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+* Depois que a Workfront ativar o Assistente de IA para sua organização, ele estará disponível para o administrador principal do Workfront. Para obter informações, consulte [Configurar informações básicas do sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
-* The Workfront administrator must enable the AI Assistant for all other users. Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* O administrador do Workfront deve ativar o Assistente de IA para todos os outros usuários. Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 * O Assistente de IA funciona no contexto de cada página. As solicitações que você está enviando para o Assistente de IA devem fazer referência à funcionalidade que está disponível na página que você abriu.
 
@@ -96,14 +108,14 @@ Atualmente, o Assistente de IA está disponível na área Planejamento do Workfr
 
 Você pode usar o Assistente de IA para executar as seguintes ações neste momento:
 
-* Search for records. You can search by information contained in any record fields.
-* Create records. An ID with a link to the new record displays after the record is created. You can specify the fields you want to update during the creation process, like dates or description.
-* Create records based on a document that you upload. Workfront supports the following document formats for the AI Assistant:
+* Pesquisar registros. Você pode pesquisar pelas informações contidas em qualquer campo de registro.
+* Criar registros. Uma ID com um link para o novo registro é exibida após a criação do registro. Você pode especificar os campos que deseja atualizar durante o processo de criação, como datas ou descrição.
+* Crie registros com base em um documento do qual você fez upload. O Workfront é compatível com os seguintes formatos de documento para o Assistente de IA:
 
   PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT e a maioria dos formatos de imagem
 * Atualize os campos dos registros exibidos na tela
 * Excluir registros
-* Restore records that you just deleted
+* Restaurar registros que você acabou de excluir
 
 
 ## Localize o Assistente de IA no Workfront Planning
@@ -121,15 +133,15 @@ Você pode localizar o Assistente de IA nas seguintes áreas do Workfront Planni
 
 1. Clique em um **cartão de espaço de trabalho**.
 
-1. (Optional) Click a **record type card**.
+1. (Opcional) Clique em um **cartão de tipo de registro**.
 
-1. (Optional) Click a **record** to open the record&#39;s **Details** page.
+1. (Opcional) Clique em um **registro** para abrir a página **Detalhes** do registro.
 
-1. Click the **AI Assistant icon** in the upper-right corner of the screen in the global navigation bar or in the upper-right corner of the record&#39;s preview or page.
+1. Clique no **ícone do Assistente de IA**, no canto superior direito da tela da barra de navegação global ou no canto superior direito da visualização ou página do registro.
 
-   ![AI Assistant icon](assets/ai-assistant-icon-highlighted.png)
+   ![Ícone do Assistente de IA](assets/ai-assistant-icon-highlighted.png)
 
-1. In the space provided, start typing commands for the AI Assistant, then click Enter when you are done.
+1. No espaço fornecido, comece a digitar comandos para o Assistente de IA e, em seguida, clique em Inserir quando terminar.
 
    ![Painel do Assistente de IA com caixa de comando vazia](assets/ai-assistant-panel-with-empty-command-box.png)
 
@@ -137,7 +149,7 @@ Você pode localizar o Assistente de IA nas seguintes áreas do Workfront Planni
 
    * Crie uma campanha com uma data de início em 4 de julho e uma data de término em 30 de julho
    * Atualize o campo Description do registro Campanha de Verão com data a ser determinada
-   * Delete the last record
+   * Excluir o último registro
    * Restaurar o registro
 
    Um indicador visual é exibido enquanto o Assistente de IA processa comandos, definindo expectativas para o tempo de resposta.
