@@ -41,7 +41,7 @@ Como parte do redesign das caixas Novo e Editar tarefa, adicionamos a capacidade
 
 Para obter mais informações, consulte [Criar tarefas recorrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 2: planejar um projeto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR) no caminho de aprendizado do Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 2: planejar um projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR) no caminho de aprendizado do Workfront One.
 
 ## Novos botões disponíveis no cabeçalho Projetos
 
@@ -51,7 +51,7 @@ Este recurso agora está incluído nos [Fundamentos do planejador para a nova ex
 
 Para permitir que você filtre rapidamente a lista de projetos na página Projetos, há dois novos botões no cabeçalho que permitem aplicar rapidamente o filtro Projetos em que estou ou Projetos que possuo.
 
-Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 1: Criar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 1: Criar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR) no Workfront One.
 
 ## Mover ou excluir uma história ou problema do quadro Scrum
 
