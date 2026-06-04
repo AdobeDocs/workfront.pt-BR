@@ -3,13 +3,22 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Configurar  [!DNL Workfront Proof] emails para evitar filtros de spam
-description: "O filtro de spam do seu cliente de e-mail tem um propósito importante: protegê-lo contra e-mails de spam irritantes e possivelmente maliciosos. Mas, se você não tiver as configurações corretas no filtro de spam, ele poderá impedir que você veja os seguintes emails  [!DNL Workfront Proof] importantes: notificações por email de prova, boletins informativos e comunicações especiais."
+description: 'O filtro de spam do seu cliente de email tem um objetivo importante: proteger você contra emails de spam irritantes e possivelmente mal-intencionados. Porém, se você não tiver as configurações corretas no filtro de spam, ele poderá impedir que você veja os seguintes emails  [!DNL Workfront Proof]  importantes: notificações por email de prova, boletins informativos e comunicações especiais.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: 496
 ht-degree: 0%
 
 ---
@@ -22,12 +31,12 @@ ht-degree: 0%
 
 O filtro de spam do seu cliente de email tem um objetivo importante: proteger você contra emails de spam irritantes e possivelmente mal-intencionados. Porém, se você não tiver as configurações corretas no filtro de spam, ele poderá impedir que você veja os seguintes emails importantes do [!DNL Workfront Proof]: notificações por email de prova, boletins informativos e comunicações especiais.
 
-Para garantir que seus emails do [!DNL Workfront Proof] sejam sempre roteados para sua caixa de entrada em vez de sua pasta de spam, você deve adicionar o seguinte à inclui na lista de permissões:
+Para garantir que seus emails do [!DNL Workfront Proof] sejam sempre roteados para sua caixa de entrada em vez da pasta de spam, você deve adicionar o seguinte código ao incluo na lista de permissões:
 
 * Servidor de email [!DNL Workfront Proof]: **[!DNL mx.proofhq.com]**
 * [!DNL Workfront Proof] &quot;[!UICONTROL de]&quot; endereços de email (por exemplo, notification@proofhq.com)
 
-Para obter mais informações sobre URLs a serem adicionadas ao arquivo, consulte [Configurar a incluir na lista de permissões inclui na lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) no artigo [Configurar a inclui na lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Para obter mais informações sobre as URLs a serem adicionadas ao seu incluo na lista de permissões, consulte [Configurar incluo na lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) no artigo [Configurar incluo na lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## [!DNL Workfront Proof] &quot;[!UICONTROL de]&quot; endereços de email
 

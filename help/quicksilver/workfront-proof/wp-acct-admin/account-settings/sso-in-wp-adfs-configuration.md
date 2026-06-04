@@ -7,9 +7,20 @@ description: Se você for um administrador no servidor AD, poderá instalar e co
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
+TQID: https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: 769
 ht-degree: 0%
 
 ---
@@ -57,7 +68,7 @@ Sua ID de entidade pode ser encontrada no arquivo XML de Metadados de Federaçã
 1. Os Metadados de Federação são encontrados no snap-in do AD FS 2.0 > Serviço > pasta Pontos de Extremidade. Na seção Metadados, localize aquele com o tipo de Metadados da Federação. Para exibir metadados, cole esse endpoint no navegador. Você também pode acessar este link diretamente: https://*&lt;adfs.your-company.com>*/FederationMetadata/2007-06/FederationMetadata.xml depois de substituir o {adfs.your-company.com} pelos seus próprios detalhes.
 1. Na caixa **[!UICONTROL URL de Logon]**, cole seu logon com SSO.
 1. Veja a seguir um exemplo de logon com SSO:
-1. http://*&lt;adfs.your-company.com>*/adfs/ls.
+1. http://*<adfs.your-company.com>*/adfs/ls.
 1. Este link pode estar localizado no arquivo XML de Metadados de Federação.
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
@@ -70,7 +81,7 @@ https://*&lt;adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
 
       * Tipo de Ponto de Extremidade = Logout SAML
       * Vinculação = POST
-      * URL = https://*&lt;adfs.your-company.com*>/adfs/ls/?wa=wsignout1.0
+      * URL = https://*&lt;adfs.your-company.com*/adfs/ls/?wa=wsignout1.0
       * Esta etapa pode ser concluída após a configuração do Objeto de Confiança de Terceira Parte Confiável (veja abaixo) no AD FS.
    1. Na caixa **[!UICONTROL Impressão digital do certificado]**, insira os dados do certificado.
    1. Vá para o snap-in do ADFS 2.0 navegue até Serviço > Certificados > Assinatura de token.

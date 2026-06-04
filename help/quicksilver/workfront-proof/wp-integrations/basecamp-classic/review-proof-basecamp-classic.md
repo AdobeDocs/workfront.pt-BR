@@ -7,10 +7,17 @@ description: Basecamp é uma ferramenta de gerenciamento de projetos on-line des
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b14f33dc-e059-4ee2-a429-9f1852a2b9bb
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+TQID: https://experienceleague.adobe.com/H4oPVQW1kV-6efM04x0lIa1mUOrGfskjfcSVo8t8O2I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 0%
+source-wordcount: 864
+ht-degree: 1%
 
 ---
 
@@ -74,7 +81,7 @@ Você pode acessar uma prova de uma mensagem [!DNL Basecamp Classic].
    1. Digite seu endereço de email (6).\
 
       Você deve usar o mesmo endereço de email usado quando foi adicionado à prova.
-   1. Clique em **[!UICONTROL Avançar]**.
+   1. Clique em **[!UICONTROL Próximo]**.
    1. Digite sua senha do [!DNL Workfront Proof] (7).\
 
       Ou\

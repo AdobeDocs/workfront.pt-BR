@@ -3,9 +3,14 @@ title: Aplicativo móvel do Workfront Proof para tablets
 description: O aplicativo tablet [!DNL Workfront Proof]  permite que você revise e aprove convenientemente suas provas quando estiver em movimento. O aplicativo está disponível para download para todos. Você não precisa ser um  [!DNL Workfront Proof] usuário para poder revisar provas no tablet ou no telefone.
 hide: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/Unk0yRCZtepX7LK-J7Y8JnUtcbUdMRzWo3XmMQuBXQM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: 1979
 ht-degree: 1%
 
 ---
@@ -185,7 +190,7 @@ A ferramenta de comparação exibe as duas versões mais recentes da prova.
 1. Para alterar as versões que deseja comparar, use os menus suspensos de versões na parte superior da página.
 1. Para selecionar uma prova diferente da mesma pasta, use o navegador de pastas (o ícone de pasta disponível na parte superior da página).
 
-   ![versão_menus.png](assets/version-dropdowns-350x265.png)
+   ![version_dropdowns.png](assets/version-dropdowns-350x265.png)
    ![folder_browser.png](assets/folder-browser-350x269.png)
 A ferramenta de comparação oferece a capacidade de comparar versões lado a lado para verificar se as alterações solicitadas foram feitas. Se você desbloquear a navegação, será possível comparar páginas diferentes de ambas as versões.
 

@@ -2,19 +2,26 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
-title: Adicionar uma prova a um projeto de carimbo de base
+title: Adicionar uma prova a um projeto do Basecamp
 description: Após configurar a integração do  [!DNL Basecamp] , você pode começar a adicionar provas aos projetos dentro da sua conta do  [!DNL Basecamp] .
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd62db43-bc45-4ede-b1ef-a198323793ca
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+TQID: https://experienceleague.adobe.com/9I0B1LPJmHz77brClrBv91-PyJ59w8ri-Foq6VRV3mc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 0%
+source-wordcount: 674
+ht-degree: 2%
 
 ---
 
-# Adicionar uma prova a um projeto de carimbo de base
+# Adicionar uma prova a um projeto do Basecamp
 
 >[!IMPORTANT]
 >

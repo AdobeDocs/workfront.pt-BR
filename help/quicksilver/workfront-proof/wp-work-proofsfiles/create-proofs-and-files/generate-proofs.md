@@ -7,10 +7,17 @@ description: O Workfront Proof permite criar provas a partir de documentos ou si
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
+TQID: https://experienceleague.adobe.com/iBlyGnTO5o6I5gtqDsguJIijR--fvcdo1lWspoqHouk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 2%
+source-wordcount: 1895
+ht-degree: 3%
 
 ---
 
@@ -198,7 +205,7 @@ Você pode gerar uma prova estática usando o URL de um site.
 
    * [Compartilhar uma prova no  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * [Configurar uma prova com um Fluxo de Trabalho Automatizado no  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
-   * [Definir configurações de acesso e subscrição para uma prova](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+   * [Definir configurações de acesso e assinatura de uma prova](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. Clique em **[!UICONTROL Concluído]**.
 
@@ -233,7 +240,7 @@ Para obter informações sobre como adicionar uma prova de URL interativa, consu
 1. (Opcional) Configure todas as opções de prova avançada, como compartilhar a prova, adicionar um fluxo de trabalho automatizado ou definir as configurações de acesso e subscrição. Para obter mais detalhes sobre essas opções, consulte os seguintes artigos:
 
    * [Compartilhar uma prova no  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
-   * [Definir configurações de acesso e subscrição para uma prova](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+   * [Definir configurações de acesso e assinatura de uma prova](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. Clique em **[!UICONTROL Criar prova]**. O Workfront gera uma prova do arquivo zip.
 

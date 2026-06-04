@@ -8,10 +8,20 @@ description: Uma prova é um arquivo estático, de áudio ou vídeo que está di
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb0eb160-4bcf-4bc1-ad13-df19f692bef6
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+TQID: https://experienceleague.adobe.com/0oYcd7WkVWw4a1mX8yXtOSdmcqcXXC2cxNbXTarsQt0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 1%
+source-wordcount: 1370
+ht-degree: 2%
 
 ---
 
@@ -73,7 +83,7 @@ Combinar vários arquivos em uma única prova é um recurso disponível nos plan
 
 Sim, você pode criar provas de sites e outros conteúdos da Web. Ao adicionar um URL para criar uma prova, você pode especificar se deseja uma prova estática ou uma prova interativa:
 
-* Em uma prova interativa, os revisores podem navegar e interagir normalmente com o site ou outro conteúdo da Web, como anúncios com vídeo ou áudio em fluxo contínuo, elementos [!DNL Flash] em um anúncio, animações HTML e banners interativos. Para obter mais informações, consulte [Criar uma prova para conteúdo interativo em um arquivo ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
+* Em uma prova interativa, os revisores podem navegar e interagir normalmente com o site ou outro conteúdo da Web, como anúncios com vídeo ou áudio em fluxo contínuo, elementos do [!DNL Flash] em um anúncio, animações do HTML e banners interativos. Para obter mais informações, consulte [Criar uma prova para conteúdo interativo em um arquivo ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 * Para uma prova estática, o [!DNL Workfront] captura um conjunto de capturas de tela das páginas e subpáginas que você especificar. Os hiperlinks estão ativos na prova, para que você possa testar se eles levam ou não ao destino correto. Para obter mais informações, consulte [Criar uma prova estática para um site ou outro conteúdo da Web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md).
 
 Você pode adicionar vários URLs de uma só vez se separá-los com um espaço. Observe que a combinação só está disponível nos planos de edição [!UICONTROL Empresa] e [!UICONTROL Ilimitado].

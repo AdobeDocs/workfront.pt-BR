@@ -3,13 +3,18 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Gerenciando Versões de Prova em  [!DNL Workfront Proof]
-description: Gerenciar feedback em várias versões ou revisões de um trabalho pode ser um enorme desafio.O  [!DNL Workfront Proof] simplifica esse processo permitindo que você crie e compare várias versões de uma prova.
+description: Gerenciar comentários em várias versões ou revisões de um trabalho pode ser um enorme desafio. [!DNL Workfront Proof] simplifica esse processo permitindo que você crie e compare várias versões de uma prova.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/8dEKTMfZ6-nhdjvY4Ar-m29jxGJV8q4FysGAqIl6nEs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: 768
 ht-degree: 0%
 
 ---

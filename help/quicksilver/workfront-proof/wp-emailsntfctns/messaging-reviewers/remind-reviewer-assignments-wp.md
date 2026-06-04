@@ -7,9 +7,18 @@ description: Você pode enviar uma única mensagem para um revisor lembrando-o s
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb29f888-bc99-47ef-852f-1197efb2b41e
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/QgADyJaadtQoow17rY7u5dZO9fKXNspU6cFQQR78VKE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: 225
 ht-degree: 0%
 
 ---
@@ -35,6 +44,6 @@ O email replicará o email de notificação sobre o qual foi enviado originalmen
 
 1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Mensagem.]**
 
-1. Na caixa **[!UICONTROL Enviar mensagem]** exibida, digite um **[!UICONTROL Título]** e **[!UICONTROL Mensagem],** e clique em **[!UICONTROL Enviar].**&#x200B;O contato recebe um email contendo informações e links pessoais para todas as provas em um único email.
+1. Na caixa **[!UICONTROL Enviar mensagem]** exibida, digite um **[!UICONTROL Título]** e uma **[!UICONTROL Mensagem],** e clique em **[!UICONTROL Enviar].**&#x200B;O contato recebe um email contendo informações e links pessoais para todas as provas em um único email.
 
 

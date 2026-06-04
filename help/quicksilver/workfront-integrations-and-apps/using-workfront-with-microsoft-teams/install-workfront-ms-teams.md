@@ -6,10 +6,23 @@ description: O aplicativo [!DNL Adobe Workfront for Microsoft Teams] permite exe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/6bVoPpO5kyn202DJrUZ8lEmwzz6-V0wVEY8D9F42jFo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 0%
+source-wordcount: 715
+ht-degree: 19%
 
 ---
 
@@ -19,9 +32,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Como o [Microsoft faz a transição para o novo cliente Teams](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), o cliente Teams Classic não estará mais disponível após 1º de julho de 2025. Para continuar usando o Microsoft Teams e aplicativos integrados como o Workfront, os clientes devem fazer a transição para o novo cliente do Teams antes dessa data.
+>Como a [Microsoft faz a transição para o novo cliente Teams](https://learn.microsoft.com/pt-br/microsoftteams/teams-classic-client-end-of-availability), o cliente Classic Teams não estará mais disponível após 1º de julho de 2025. Para continuar usando o Microsoft Teams e aplicativos integrados como o Workfront, os clientes devem fazer a transição para o novo cliente Teams antes dessa data.
 >
->A integração atualizada do Workfront agora está disponível e é totalmente compatível com a experiência Novas equipes. Na maioria dos casos, o Workfront será exibido automaticamente assim que os usuários fizerem a transição. Caso contrário, a integração pode ser instalada manualmente no Microsoft Teams App Store.
+>A integração atualizada do Workfront já está disponível e é totalmente compatível com a nova experiência do Teams. Na maioria dos casos, o Workfront aparecerá automaticamente assim que os usuários tiverem feito a transição. Caso contrário, a integração pode ser instalada manualmente a partir da App Store do Microsoft Teams.
 
 
 O aplicativo [!DNL Adobe Workfront for Microsoft Teams] permite executar ações básicas no [!DNL Workfront] sem sair dos canais de chat do [!DNL Microsoft Teams].
@@ -35,7 +48,7 @@ O aplicativo [!DNL Adobe Workfront for Microsoft Teams] permite executar ações
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,8 +60,8 @@ O aplicativo [!DNL Adobe Workfront for Microsoft Teams] permite executar ações
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p>
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,7 +139,7 @@ Para fazer login em [!DNL Workfront] a partir de [!DNL Microsoft Teams]:
 
    >[!NOTE]
    >
-   >* Quando for solicitado que você insira o domínio da sua conta do [!DNL Workfront], digite-o usando este formato: *yourCompany&#39;sDomain.my.workfront.com*. O domínio da sua empresa geralmente é o nome da sua empresa.
+   >* Quando for solicitado que você insira o domínio da sua conta do [!DNL Workfront], digite-o usando este formato: *yourCompany&#39;sDomain.my.workfront.com*. O domínio da empresa geralmente é o nome da empresa.
    >* A Autenticação Aprimorada não estará disponível até que um administrador do [!DNL Workfront] a habilite para esta integração.
    >* O Workfront para Microsoft Teams não é compatível com ambientes de sandbox da Workfront.
 

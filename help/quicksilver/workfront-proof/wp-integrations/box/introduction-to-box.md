@@ -8,9 +8,16 @@ description: Nossa integração com o sistema de gerenciamento de conteúdo e co
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0050a478-30a9-4400-9854-9d6339114243
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+TQID: https://experienceleague.adobe.com/2E60Y2iwE12qd8ofXwjXcuBj83lSZc9RqkhnKI-ydrs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 435
 ht-degree: 0%
 
 ---
@@ -34,7 +41,7 @@ Nossa funcionalidade de sincronização de pastas permite sincronizar uma pasta 
 * **Obtenha maior visibilidade e responsabilidade:** você pode registrar versões de arquivos, comentários e decisões com carimbos de data e hora em uma trilha de auditoria rastreável. Isso proporciona total responsabilidade por cada estágio do processo de revisão e ajuda a atender aos requisitos de conformidade.\
    ![Box_and_ProofHQ_integration.jpg](assets/box-and-proofhq-integration-350x157.jpg)
 
-## Principais recursos
+## Recursos principais
 
 * Envie seus arquivos de criação para [!DNL Workfront Proof] diretamente da sua conta do [!DNL Box].
 * Notifique a equipe de revisão sobre uma nova prova por email contendo um link para o arquivo na [!UICONTROL Caixa].

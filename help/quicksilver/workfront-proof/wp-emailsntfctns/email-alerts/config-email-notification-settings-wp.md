@@ -7,10 +7,20 @@ description: As notificações por email geradas pelo Workfront Proof informam o
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/BGkemxbMeYw-pkWCR1NRMbuVbLZzYoB-m91cOLAwqwc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2065'
-ht-degree: 0%
+source-wordcount: 2072
+ht-degree: 1%
 
 ---
 
@@ -54,9 +64,9 @@ Para obter informações sobre perfis, consulte [Perfis de permissões de prova 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
 <tr> 
@@ -133,7 +143,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Formato dos emails enviados para mim] </td> 
-      <td> <p>Escolha entre emails com estilo HTML e emails de texto sem formatação. </p> <p><b>Nota</b></p>
+      <td> <p>Escolha entre emails com estilo do HTML e emails de texto sem formatação. </p> <p><b>Nota</b></p>
       <p>As configurações padrão de prova são substituídas pelas configurações no nível da prova. No entanto, se as notificações por email de prova estiverem desabilitadas para toda a conta nas configurações da [!UICONTROL Conta], nenhum alerta por email será enviado aos colaboradores, mesmo que o [!UICONTROL Alerta de email Desabilitado] não esteja selecionado nas provas.<br></p> </td> 
      </tr> 
     </tbody> 
@@ -227,7 +237,7 @@ Se você for um administrador do [!DNL Workfront Proof], poderá definir padrõe
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Formato dos emails enviados para mim] </td> 
-      <td> <p>Escolha entre emails com estilo HTML e emails de texto sem formatação. </p> <p><b>Nota</b></p> <p>As configurações padrão de prova são substituídas pelas configurações no nível da prova. No entanto, se as notificações por email de prova estiverem desabilitadas para toda a conta nas configurações da [!UICONTROL Conta], nenhum alerta por email será enviado aos colaboradores, mesmo que o [!UICONTROL Alerta de email Desabilitado] não esteja selecionado nas provas.<br></p> </td> 
+      <td> <p>Escolha entre emails com estilo do HTML e emails de texto sem formatação. </p> <p><b>Nota</b></p> <p>As configurações padrão de prova são substituídas pelas configurações no nível da prova. No entanto, se as notificações por email de prova estiverem desabilitadas para toda a conta nas configurações da [!UICONTROL Conta], nenhum alerta por email será enviado aos colaboradores, mesmo que o [!UICONTROL Alerta de email Desabilitado] não esteja selecionado nas provas.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>

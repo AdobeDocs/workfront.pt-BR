@@ -6,10 +6,23 @@ description: Você pode acessar [!DNL Adobe Workfront] de [!DNL Microsoft Teams]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/ztTWhJ3wias0xujQofaN-PZZfSM1BHNnCajJnruzdO8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 1%
+source-wordcount: 516
+ht-degree: 29%
 
 ---
 
@@ -19,9 +32,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Como o [Microsoft faz a transição para o novo cliente Teams](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), o cliente Teams Classic não estará mais disponível após 1º de julho de 2025. Para continuar usando o Microsoft Teams e aplicativos integrados como o Workfront, os clientes devem fazer a transição para o novo cliente do Teams antes dessa data.
+>Como a [Microsoft faz a transição para o novo cliente Teams](https://learn.microsoft.com/pt-br/microsoftteams/teams-classic-client-end-of-availability), o cliente Classic Teams não estará mais disponível após 1º de julho de 2025. Para continuar usando o Microsoft Teams e aplicativos integrados como o Workfront, os clientes devem fazer a transição para o novo cliente Teams antes dessa data.
 >
->A integração atualizada do Workfront agora está disponível e é totalmente compatível com a experiência Novas equipes. Na maioria dos casos, o Workfront será exibido automaticamente assim que os usuários fizerem a transição. Caso contrário, a integração pode ser instalada manualmente no Microsoft Teams App Store. Para instalar ou verificar a integração do Workfront no novo cliente Teams, consulte [Instalar [!DNL Adobe Workfront] para Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>A integração atualizada do Workfront já está disponível e é totalmente compatível com a nova experiência do Teams. Na maioria dos casos, o Workfront aparecerá automaticamente assim que os usuários tiverem feito a transição. Caso contrário, a integração pode ser instalada manualmente a partir da App Store do Microsoft Teams. Para instalar ou verificar a integração do Workfront no novo cliente do Teams, consulte [Instalar [!DNL Adobe Workfront] para Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 
 Você pode acessar [!DNL Adobe Workfront] de [!DNL Microsoft Teams] e executar várias ações em [!DNL Workfront] digitando comandos no canal de bot [!DNL Workfront] ou em qualquer outro canal de equipe.
@@ -41,7 +54,7 @@ Os comandos usados de [!DNL Microsoft Teams] para executar essas ações são di
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,8 +66,8 @@ Os comandos usados de [!DNL Microsoft Teams] para executar essas ações são di
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p>
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +102,7 @@ Você deve estar conectado ao Workfront.
 
 1. Siga um destes procedimentos:
 
-   * Clique em **[!UICONTROL O que posso fazer?]**, depois **[!UICONTROL Faça logon]** ou **[!UICONTROL Faça logoff]** de [!DNL Workfront], crie uma **[!UICONTROL Nova tarefa]** (tarefa pessoal) em [!DNL Workfront] ou obtenha a **[!UICONTROL Ajuda]** listando os comandos disponíveis.
+   * Clique em **[!UICONTROL O que posso fazer?]**, depois em **[!UICONTROL Fazer logon]** ou **[!UICONTROL Fazer logoff]** de [!DNL Workfront], criar uma **[!UICONTROL Nova tarefa]** (tarefa pessoal) em [!DNL Workfront] ou obter a **[!UICONTROL Ajuda]** listando os comandos disponíveis.
 
    * Acesse [!DNL Workfront] diretamente digitando um comando no campo **[!UICONTROL Digite suas perguntas aqui]**.
 

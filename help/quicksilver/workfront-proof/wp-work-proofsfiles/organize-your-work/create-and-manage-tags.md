@@ -7,9 +7,14 @@ description: Você pode criar e editar tags e aplicá-las às suas provas e arqu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+TQID: https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: 915
 ht-degree: 0%
 
 ---
@@ -98,7 +103,7 @@ As tags aplicadas a uma prova ou a um arquivo são exibidas nas páginas Detalhe
 
 ## Procurando um item usando um nome de tag
 
-Você pode pesquisar um item usando o nome de uma tag que você sabe que é aplicada ao item.Se você compartilhar um item com alguém, essa pessoa poderá pesquisar esse item da mesma maneira.Para ver uma lista de todos os itens que tiveram a tag aplicada a eles:
+É possível pesquisar um item usando o nome de uma tag que você sabe que está aplicada ao item.Se você compartilhar um item com alguém, essa pessoa será capaz de procurar por aquele item da mesma forma.Para ver uma lista de todos os itens aos quais foi aplicada a tag:
 
 1. Em qualquer exibição de lista ou no Painel, abra a guia **[!UICONTROL Marcas]** na barra lateral esquerda e clique na marca na lista de marcas exibidas.\
    ![Pesquisando_por_marca.png](assets/searching-by-tag-350x209.png)\

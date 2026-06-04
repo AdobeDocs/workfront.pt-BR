@@ -8,10 +8,19 @@ description: Como administrador do Workfront ou administrador do Workfront Proof
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/bnWwfz-MsjXnfJIix2k3prysLG6S-IGgAndYQLGT6o4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1924'
-ht-degree: 0%
+source-wordcount: 1840
+ht-degree: 1%
 
 ---
 
@@ -33,15 +42,15 @@ Como administrador do [!DNL Workfront] ou administrador do [!DNL Workfront Proof
 
 A tabela a seguir exibe as permissões disponíveis com cada Perfil de permissões de prova.
 
-| **Próprios itens** |  |  |  |  | **Itens de Outros Usuários** |  |  | **Administrador** | **Faturamento** |
+| **Próprios itens** |  |  |  |  | **Itens de Outros Usuários** |  |  | **Admin** | **Faturamento** |
 |---|---|---|---|---|---|---|---|---|---|
 |   | **Adicionar** | **Exibir** | **Editar** | **Excluir** | **Exibir** | **Editar** | **Excluir** | **Editar e Excluir** | **Editar** |
 | Administrador de Cobrança | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) |
-| Admin | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) |   |
+| Administrador | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) |   |
 | Supervisor | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) |   |   |
 | Gerente | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) |   |   |   |   |   |
 | Observador |   | ![Marca de seleção](assets/cleaner2.png) |   |   |   |   |   |   |   |
-| Visitante |   | ![Marca de seleção](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Visitor |   | ![Marca de seleção](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -55,7 +64,7 @@ Considere o seguinte sobre funções e permissões:
 As seções a seguir descrevem cada perfil e as permissões associadas ao perfil em uma configuração padrão do [!DNL Workfront Proof]:
 
 * [Administrador de Cobrança](#billing-administrator)
-* [Administrador](#administrator)
+* [Admin](#administrator)
 * [Supervisor](#supervisor)
 * [Gerente](#manager)
 * [Observador](#observer)
@@ -234,7 +243,7 @@ Os observadores têm as seguintes permissões:
 >* Os observadores não veem os seguintes links em suas Configurações: Configurações da conta, Faturamento
 >
 
-### Visitante {#visitor}
+### Visitor {#visitor}
 
 Os visitantes têm as seguintes permissões:
 
