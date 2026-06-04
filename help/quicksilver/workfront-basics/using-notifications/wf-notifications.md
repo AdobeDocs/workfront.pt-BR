@@ -7,11 +7,16 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
 TQID: https://experienceleague.adobe.com/-sN5x6OFqN9NJN0J8yR8uuV-R3XCNWQ5Q5R-qYrvTzY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1398
@@ -160,7 +165,7 @@ Há outros emails que você pode receber de [!DNL Workfront] que não podem ser 
 
 Os emails a seguir são enviados automaticamente por [!DNL Workfront] quando estas condições são atendidas:
 
-* Restaurar um item: Quando o administrador do [!DNL Workfront] restaura um objeto da Lixeira [!UICONTROL 2}, um email é enviado ao administrador do [!DNL Workfront].]
+* Restaurar um item: Quando o administrador do [!DNL Workfront] restaura um objeto da Lixeira [!UICONTROL 2&rbrace;, um email é enviado ao administrador do [!DNL Workfront].]
 * Falha ao restaurar: Quando o administrador do [!DNL Workfront] tenta restaurar um objeto da Lixeira e a restauração falha, um email é enviado ao administrador do [!DNL Workfront].
 
 Os emails a seguir podem ser configurados somente no nível do perfil do usuário. Eles não podem ser ativados ou desativados no nível do sistema:

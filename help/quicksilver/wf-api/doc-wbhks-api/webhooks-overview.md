@@ -9,10 +9,14 @@ feature: Workfront API
 role: Developer
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
 TQID: https://experienceleague.adobe.com/5bBLva-jIjwc953MVjAnwo4y0nABq1N0HGDTIurXk40
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 193
@@ -34,7 +38,7 @@ A experiência do usuário para integrações baseadas em webhook será semelhan
 * Fazer upload de arquivos para o provedor de documentos externos
 * Exibir uma miniatura do documento
 
-Implementação de referência do ****
+Implementação de referência do **&#x200B;**
 
 Para ajudar a iniciar o desenvolvimento de uma nova implementação de webhooks, o Workfront fornece exemplos de uma implementação de referência. Estes exemplos podem ser encontrados em [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Os exemplos são baseados em Java e permitem que o Workfront conecte documentos em um sistema de arquivos de rede. 
 
