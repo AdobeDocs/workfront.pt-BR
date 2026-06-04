@@ -7,10 +7,14 @@ description: É possível criar provas estáticas nas páginas da Web. Além dis
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b93ed288-1bf2-4268-96c3-6263ab6be633
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 0%
+source-wordcount: 493
+ht-degree: 1%
 
 ---
 
@@ -40,7 +44,7 @@ Selecione uma resolução menor se quiser revisar designs para dispositivos móv
 
 [!DNL Workfront Proof] não pode capturar um site protegido por senha como uma prova estática.
 
-Para criar provas a partir de páginas que exigem autorização, sua equipe de TI deve adicionar um dos seguintes URLs ao Incluo na lista de permissões da sua empresa por meio do qual nossa ferramenta de captura da Web se conecta:
+Para criar provas a partir de páginas que exigem autorização, sua equipe de TI deve adicionar um dos seguintes URLs ao Incluo na lista de permissões de sua empresa por meio do qual nossa ferramenta de captura da Web se conecta:
 
 **clusters AWS nos EUA**: webcapture.proofhq.com
 
@@ -61,5 +65,5 @@ Para criar provas a partir de páginas que exigem autorização, sua equipe de T
 * O [!DNL Workfront Proof] captura páginas da Web de até 195 polegadas de comprimento após a rasterização. Se a página da Web for maior que isso, a prova falhará.
 * A extração de texto está disponível em todos os elementos de texto, mas o texto inserido como imagens não é extraído.
 * Hiperlinks de texto são clicáveis nas provas e as páginas vinculadas abrem nas novas guias do navegador.
-* Os hiperlinks nas imagens não podem ser clicados se os elementos style=&quot;display:block&quot; forem usados dentro das tags `<a>`. Recomendamos ajustar essas partes do design da página.
+* Os hiperlinks nas imagens não podem ser clicados se os elementos style=&quot;display:block&quot; forem usados dentro das marcas `<a>`. Recomendamos ajustar essas partes do design da página.
 * Para obter melhores resultados, recomendamos criar as páginas usando as melhores práticas de codificação e padrões reconhecidos.

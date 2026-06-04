@@ -2,15 +2,20 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Marcar o site  [!DNL Workfront Proof]
+title: 'Marcar o site  [!DNL Workfront Proof] '
 description: Como administrador do [!DNL Workfront Proof] você pode marcar sua [!DNL Workfront Proof] conta para fornecer a você e a seus usuários uma experiência mais personalizada.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+TQID: https://experienceleague.adobe.com/RA5oWAqGovk6LODhTtcgETCubkVzvassVU7g6xYeies
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 1%
+source-wordcount: 576
+ht-degree: 2%
 
 ---
 
@@ -65,7 +70,7 @@ Para adicionar sua própria imagem de marca à página [!UICONTROL carregamento 
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
 1. No menu suspenso, selecione **[!UICONTROL Imagem de marca]**.
-Se você selecionar **[!UICONTROL Desabilitar]**, o logotipo [!DNL Workfront Proof] aparecerá na página de carregamento de prova
+Se você selecionar **[!UICONTROL Desativar]**, o logotipo [!DNL Workfront Proof] aparecerá na página de carregamento de prova
 
 1. Clique em **[!UICONTROL Salvar]**. (3)
 
@@ -73,7 +78,7 @@ Se você selecionar **[!UICONTROL Desabilitar]**, o logotipo [!DNL Workfront Pro
 
 1. Clique em **[!UICONTROL Editar]** para selecionar a imagem de marca (4).
 
-   Você pode usar JPG, GIF ou PNGs. A transparência é compatível. O tamanho de imagem recomendado é 150x300px. Sua imagem nas páginas de logon e logout será redimensionada para essas dimensões.
+   Você pode usar JPGs, GIFs ou PNGs. A transparência é compatível. O tamanho de imagem recomendado é 150x300px. Sua imagem nas páginas de logon e logout será redimensionada para essas dimensões.
 
    ![Proof_loading_page_setup_3.png](assets/proof-loading-page-setup-3-350x116.png)
 

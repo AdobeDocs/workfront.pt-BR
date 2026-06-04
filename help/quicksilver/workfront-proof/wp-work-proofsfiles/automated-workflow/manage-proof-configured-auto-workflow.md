@@ -7,9 +7,13 @@ description: Você pode rastrear convenientemente o progresso das provas do flux
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/3leSASgnGumvy-osh9SgS57U6czt2CRQDYEe44pTlIU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: 688
 ht-degree: 0%
 
 ---
@@ -79,15 +83,15 @@ As etapas do diagrama são marcadas da seguinte maneira:
 ![dot.png](assets/dot.png)- um estágio ativo
 
 ![gray_dot.png](assets/grey-dot.png)- um estágio inativo\
-![sbw-key-icon.png](assets/sbw-key-icon.png)  - uma fase privada
+![sbw-key-icon.png](assets/sbw-key-icon.png) - um estágio privado
 
-![sbw-padlock-icon.png](assets/sbw-padlock-icon.png)  - um estágio bloqueado
+![sbw-padlock-icon.png](assets/sbw-padlock-icon.png) - um estágio bloqueado
 
 As linhas entre os estágios retratam as dependências entre os estágios. As linhas que levam aos estágios inativos são pontilhadas até que o estágio seja ativado.
 
 Passar o mouse sobre um estágio no diagrama mostrará o progresso do estágio. Se o estágio não estiver ativo e você tiver direitos de edição nele, será possível iniciar o estágio na janela pop-up usando o botão [!UICONTROL Iniciar estágio]. Da mesma forma, a opção Bloquear um estágio ativo será exibida.
 
-Para saber mais sobre a barra de progresso, consulte  [Exibir o Progresso e o Status de uma Prova em [!DNL Workfront] Prova](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+Para saber mais sobre a barra de progresso, consulte [Exibir o progresso e o status de uma prova em [!DNL Workfront] Prova](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ![Diagrama_-_stage_summary.png](assets/diagram---stage-summary-350x214.png)
 

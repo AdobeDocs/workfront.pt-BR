@@ -2,16 +2,22 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Introdução à prova e ao Creative Cloud Express
-description: Introdução à prova e ao Creative Cloud Express
+title: Introdução ao uso de provas com o Creative Cloud Express
+description: Introdução ao uso de provas com o Creative Cloud Express
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
+TQID: https://experienceleague.adobe.com/BCihPeFt421LF8Fa0-XRsAmxSMv-T7kqGEZQ3XeZ-EQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e4bd5f48-22a4-465d-a046-5ffb52e27856id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 2%
+source-wordcount: 520
+ht-degree: 11%
 
 ---
 
@@ -83,7 +89,7 @@ Quando um modelo expresso for remisturado, uma aprovação será necessária ant
 
 Os usuários devem ter uma licença Standard Workfront para solicitar aprovação da Adobe Express.
 
-Saiba como [obter aprovação em designs](https://helpx.adobe.com/br/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Saiba como [obter aprovação em designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Modelos Remix Express e enviar para revisão e aprovação
@@ -95,15 +101,15 @@ Durante todo o processo de produção, revisão e aprovação de conteúdo, os u
 * Veja quem abriu o arquivo
 * Exibir o status de decisão de todos os participantes
 * Ler comentários
-* e mais
+* e muito mais
 
 ### Escolher um projeto do Workfront ao solicitar aprovação
 
-Ao solicitar aprovação em um modelo Express remixado, os usuários podem escolher um projeto do Workfront para o qual enviar a prova. Isso ajuda a manter todos os ativos e provas relacionados organizados no mesmo projeto.
+Ao solicitar aprovação em um modelo Express remixado, os usuários podem escolher um projeto do Workfront para o qual enviar a prova. Isso ajuda a manter todos os ativos e provas relacionados organizados dentro do mesmo projeto.
 
 Se nenhum projeto for selecionado, a prova assumirá como padrão um projeto específico do Express.
 
-Para obter mais informações, consulte [Enviar modelos para revisão e aprovação](https://helpx.adobe.com/br/express/web/invite-collaborate/request-approval.html).
+Para obter mais informações, consulte [Enviar modelos para revisão e aprovação](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 ## Revisar e aprovar o arquivo Express remixado
 

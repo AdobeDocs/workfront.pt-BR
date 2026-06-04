@@ -7,9 +7,14 @@ description: A marca avançada está disponível nos planos Select e Premium e e
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+TQID: https://experienceleague.adobe.com/D1jNALj0-WWhVocGr56-zhxe4zKvDlOI2-tJMA65XlY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 754
 ht-degree: 1%
 
 ---
@@ -49,7 +54,7 @@ Consulte a seção abaixo para obter informações mais detalhadas sobre como co
 Você pode marcar as seguintes áreas do [!DNL Workfront Proof]:
 
 * [Aplicativo web](#web-application)
-* [Cabeçalho](#header)
+* [Header](#header)
 * [Links de cabeçalho](#header-links)
 * [Barra lateral](#sidebar)
 * [Caixa de boas-vindas](#welcome-box)
@@ -65,11 +70,11 @@ Você tem três opções de marca para o cabeçalho da aplicação Web (2):
 * O nome da sua conta no cabeçalho
 * Se você desabilitar a marca, o logotipo [!DNL Workfront Proof] permanecerá no cabeçalho do aplicativo Web
 
-Imagem da marca - redimensiona para um tamanho máximo de 550x90px. É possível usar JPG ou GIF ou PNGs, e os planos de fundo transparentes são compatíveis.
+Imagem da marca - redimensiona para um tamanho máximo de 550x90px. Você pode usar JPGs, GIFs ou PNGs, e os planos de fundo transparentes são compatíveis.
 
 Nome da conta - extraído dos detalhes da conta e exibido com fonte branca. O nome da sua conta pode ter até 60 caracteres (incluindo espaços e sinais de pontuação).
 
-### Cabeçalho {#header}
+### Header {#header}
 
 Neste campo (3) você pode definir o fundo do cabeçalho e escolher uma cor sólida ou uma imagem de fundo.
 
@@ -79,7 +84,7 @@ Cor - aqui, como em todos os outros campos de marca da configuração do esquema
 
 Imagem de plano de fundo - pode ser combinada com a imagem da marca.
 
-* Você pode usar JPG ou GIF ou PNGs - para os arquivos com transparência, uma cor de fundo branca é exibida.
+* Você pode usar JPGs, GIFs ou PNGs - para os arquivos com transparência, uma cor de fundo branca é exibida.
 * A altura do cabeçalho é 96px e a imagem carregada não será redimensionada para a opção [!UICONTROL Não repetir].
 * A imagem de fundo está posicionada no canto superior esquerdo.
 
@@ -117,7 +122,7 @@ Neste campo (10) da configuração Branding você pode compor um rodapé que ser
 
 >[!NOTE]
 >
->Não é possível editar HTML no editor de texto de rodapé, mas você pode colar um design copiado (incluindo todos os links e imagens).
+>Não é possível editar o HTML no editor de texto de rodapé, mas você pode colar um design copiado (incluindo todos os links e imagens).
 
 **Favicon e título de página**
 

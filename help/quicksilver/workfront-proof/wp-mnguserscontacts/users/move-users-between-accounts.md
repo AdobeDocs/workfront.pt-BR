@@ -7,9 +7,14 @@ description: Se você for um  [!DNL Workfront Proof] administrador e tiver uma o
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a7cf8086-8291-4a27-abd1-afd8217f1fcc
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/WnZLS4iV-4W05UukPr7-uKYGbtoj49ol-W0kJSWy9R4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 767
 ht-degree: 0%
 
 ---
@@ -33,7 +38,7 @@ Se você for um administrador de Prova [!DNL Workfront] e tiver uma ou mais cont
 1. Selecione uma conta de destino na lista de contas conectadas (2).
 1. Atribua a permissão de perfil (3) que este usuário deve ter na nova conta.
 1. Selecione um usuário (4) que deve assumir a propriedade dos itens que não serão movidos.
-Isso inclui os itens que você decidirá deixar na conta antiga e os itens que não podem ser movidos (consulte [Itens que não podem ser movidos](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) abaixo).
+Isso inclui os itens que você decidirá deixar na conta antiga e os itens que não podem ser movidos (consulte [Itens que não podem ser movidos](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can't-be-moved) abaixo).
 
 1. Marque as caixas de seleção se desejar mover as provas (5) e os arquivos (6) junto com o usuário.
 1. Crie um nome para a pasta (7) na qual todos os itens movidos serão colocados na nova conta.

@@ -7,10 +7,15 @@ description: Adicione um grupo a uma prova para enviar automaticamente o conteú
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6ec52948-0317-4ffa-b135-1c9696a937b7
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/q4FJcSmm7mR-e2vVPCR--nUcdHXsxg76lYNsJ1yLUHI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 0%
+source-wordcount: 208
+ht-degree: 5%
 
 ---
 
@@ -39,8 +44,8 @@ Para obter informações sobre como criar um grupo, consulte [Criar grupos de re
 1. Selecione o nome do grupo.
 Os membros do grupo agora são exibidos.<br><img src="assets/membersofthegroupdisplay-350x117.png" alt="Screenshot_2018-04-06_15-07-06.png" style="width: 350;height: 117;">
 1. (Opcional) Altere a **Função de prova** ou os **Alertas por email** de um membro individual com os menus suspensos.
-Para obter mais informações, consulte <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Gerenciar Funções de Prova em [!DNL Workfront Proof]</a> e <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Definir configurações de notificação por email em [!DNL Workfront Proof]</a>.
+Para obter mais informações, consulte <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Gerenciar Funções de Prova no [!DNL Workfront Proof]</a> e <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Definir configurações de notificação por email no [!DNL Workfront Proof]</a>.
 1. (Opcional) Exclua um membro de grupo da prova, passando o mouse sobre as informações do usuário e clicando no **[!UICONTROL X]**.
 Ou
 Exclua todos os membros da prova clicando em **[!UICONTROL Excluir tudo]**.
-1. Continue criando a prova conforme descrito em <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref">Gerar provas em [!DNL Workfront Proof]</a>  ou <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">Copiando Provas em [!DNL Workfront Proof]</a>. 
+1. Continue criando a prova conforme descrito em <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref">Gerar provas em [!DNL Workfront Proof]</a> ou <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">Copiar provas em [!DNL Workfront Proof]</a>. 

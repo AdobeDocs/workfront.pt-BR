@@ -3,19 +3,24 @@ content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
-title: Perguntas frequentes - Revisar provas
+title: 'Perguntas frequentes: revisar provas'
 description: Os revisores convidados, que não têm seus próprios logons no ProofHQ, acessam suas provas usando o link [!UICONTROL Ir para prova] nos emails recebidos. Os usuários podem acessar suas provas pelos emails e também têm a vantagem de usar seu painel na conta. Na exibição do painel, é possível visualizar uma lista de provas que exigem sua decisão e acessá-las com um clique, clicando no ícone azul [!UICONTROL Ir para prova].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d8bcddf8-0586-4263-8445-26615fdf07f7
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+TQID: https://experienceleague.adobe.com/ugmfko-cMBK-g6po1pPQ4RQKAZ3pEbe4PkRf2EUb2C0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: 1127
 ht-degree: 0%
 
 ---
 
-# Perguntas frequentes - Revisar provas
+# Perguntas frequentes: revisar provas
 
 >[!IMPORTANT]
 >
@@ -59,7 +64,7 @@ A ferramenta de anotação de texto disponível no [!UICONTROL Visualizador de P
 
 * realçar - realça o texto e o copia para a caixa de comentário
 * replace - copia o texto e adiciona [[!UICONTROL REPLACE]] e [[!UICONTROL WITH]] à caixa de comentário, para que você possa sugerir facilmente um texto de substituição
-* excluir - ataca o texto e adiciona [[!UICONTROL DELETE]] à caixa de comentário
+* excluir - percorre o texto e adiciona [[!UICONTROL DELETE]] à caixa de comentário
 * inserir depois - permite sugerir facilmente o texto que precisa ser inserido após a frase destacada
 
 Se o texto que você deseja usar for salvo em um documento separado, você poderá usar os atalhos de teclado (ctrl+c e ctrl+v em um PC, cmd+c e cmd+v em um [!DNL Mac]) para copiá-lo e colá-lo na caixa [!UICONTROL comentário].

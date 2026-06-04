@@ -7,9 +7,12 @@ description: A página [!UICONTROL Exibições] permite que você veja e trabalh
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: 1544
 ht-degree: 0%
 
 ---
@@ -197,4 +200,4 @@ Se você tiver os direitos de edição necessários, poderá mover provas, arqui
 1. Siga um destes procedimentos:
 
    * Para mover um item, clique nele e segure-o, arrastando-o e soltando-o na pasta onde deseja colocá-lo.
-   * Para mover vários itens ao mesmo tempo, marque as caixas de seleção à esquerda dos itens e clique em **[!UICONTROL Mover para]**&#x200B;acima da lista, selecione a pasta onde deseja colocá-los ou crie uma nova pasta para eles.
+   * Para mover vários itens ao mesmo tempo, marque as caixas de seleção à esquerda dos itens e clique em **[!UICONTROL Mover para]**acima da lista, selecione a pasta onde deseja colocá-los ou crie uma nova pasta para eles.

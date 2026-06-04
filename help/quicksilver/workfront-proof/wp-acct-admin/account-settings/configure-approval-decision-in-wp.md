@@ -7,9 +7,14 @@ description: Você pode configurar as opções de decisão de aprovação para t
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+TQID: https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -74,14 +79,14 @@ A etapa mais importante é selecionar as decisões nas quais os motivos devem se
 1. Marque as caixas na coluna **[!UICONTROL Exibir motivos]** na lista de decisões na parte superior da página. Você pode selecionar uma ou mais decisões por seus motivos.
    ![reason_-_decision_selection.png](assets/reasons---decision-selection-350x150.png)
 
-## Criação de uma mensagem de decisão do Post
+## Criação de uma mensagem de decisão de postagem
 
 Você pode criar uma mensagem de decisão de publicação para exibir depois que um revisor salvar sua decisão sobre a prova.
 
 1. Clique em **[!UICONTROL Configurações]** > **[!UICONTROL Configurações da conta]**.
 
 1. Abra a guia **[!UICONTROL Decisões]**.
-1. Na seção **[!UICONTROL Mensagem de decisão do Post]**, clique em **[!UICONTROL Editar]** no final da linha **[!UICONTROL Mensagem]**.
+1. Na seção **[!UICONTROL Postar mensagem de decisão]**, clique em **[!UICONTROL Editar]** no final da linha **[!UICONTROL Mensagem]**.
 Você também pode decidir se deseja que a mensagem seja exibida para todos os tomadores de decisão ou se deseja limitá-la ao Tomador de decisão principal.
    ![post_decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 

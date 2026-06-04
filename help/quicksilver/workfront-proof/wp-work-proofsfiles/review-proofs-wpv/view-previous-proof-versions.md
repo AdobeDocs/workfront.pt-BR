@@ -2,19 +2,22 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: Exibir versões de prova anteriores no Visualizador de provas da Web
-description: "Observação: as informações descritas nesta seção estão disponíveis somente com o Visualizador de provas da Web e somente ao revisar provas de vídeo ou estáticas (não interativas)."
+title: Visualizar versões de prova anteriores no visualizador de provas para web
+description: 'Observação: as informações descritas nesta seção estão disponíveis somente com o Web Proofing Viewer e somente ao revisar provas de vídeo ou estáticas (não interativas).'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 98a9917d-246d-438f-b6a6-98b5958df4a3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/DkOIuT0-HQEhQcDUbq5SRxTRsE1Jv9tj9wiYF1JIzNg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 0%
+source-wordcount: 187
+ht-degree: 11%
 
 ---
 
-# Exibir versões de prova anteriores no Visualizador de provas da Web
+# Visualizar versões de prova anteriores no visualizador de provas para web
 
 >[!IMPORTANT]
 >
