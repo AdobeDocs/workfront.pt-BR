@@ -1,19 +1,25 @@
 ---
-title: 21.4 Melhorias no gerenciamento de recursos
-description: 21.4 Melhorias no gerenciamento de recursos
+title: Aprimoramentos no gerenciamento de recursos na 21.4
+description: Aprimoramentos no gerenciamento de recursos na 21.4
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/IRUIGTXNd-5lf-Du-VCO-mG80hlkG76fR-bCdpCz2DQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 0%
+source-wordcount: 368
+ht-degree: 3%
 
 ---
 
-# 21.4 Melhorias no gerenciamento de recursos
+# Aprimoramentos no gerenciamento de recursos na 21.4
 
 Esta página descreve todas as melhorias no Gerenciamento de recursos feitas com a versão 21.4 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 4 de outubro de 2021.
 

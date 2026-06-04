@@ -2,20 +2,26 @@
 content-type: release-notes
 keywords: notas,trimestral,atualizar
 navigation-topic: product-releases
-title: 21.2 Visão geral da versão
+title: Visão geral da versão 21.2
 description: A versão 21.2 do foi disponibilizada no ambiente de Produção na semana de 10 de maio de 2021.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+TQID: https://experienceleague.adobe.com/R3wSSgj2kfPhGFa2qga9vWBdk0HKouiIDjXP7QzeLUc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c10f2e93-7a58-4212-aa24-684c265ebe76id: c33d85a1-be85-4290-854c-87408c10aa80id: c3a155b4-a54b-4a82-a3d2-c8f0f971673eid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '5545'
-ht-degree: 0%
+source-wordcount: 5714
+ht-degree: 1%
 
 ---
 
-# 21.2 Visão geral da versão
+# Visão geral da versão 21.2
 
 A versão 21.2 do foi disponibilizada no ambiente de Produção na semana de 10 de maio de 2021.
 
@@ -75,7 +81,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Melhorias do administrador {#administrator-enhancements}
+### Aprimoramentos do administrador {#administrator-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -144,7 +150,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Aprimoramentos do projeto {#project-enhancements}
+### Aprimoramentos de projeto {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -209,7 +215,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Melhorias nas solicitações {#requests-enhancements}
+### Aprimoramentos nas solicitações {#requests-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,7 +289,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Melhorias nos relatórios {#reporting-enhancements}
+### Aprimoramentos nos relatórios {#reporting-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -348,7 +354,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Datas e ambientes de lançamento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Introdução ao Adobe Workfront para XD</a> </p> <p>Estamos animados em anunciar o lançamento de nosso novo plug-in: Adobe Workfront para XD. Esse plug-in permite que você acesse detalhes do item de trabalho, colabore com colegas de trabalho na área Atualizações e envie provas para revisão, tudo sem sair do XD. Vá para o marketplace do Adobe XD para baixar o plug-in hoje mesmo.</p> </td> 
+   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Apresentação do Adobe Workfront para XD</a> </p> <p>Estamos animados em anunciar o lançamento de nosso novo plug-in: o Adobe Workfront para XD. Esse plug-in permite que você acesse detalhes do item de trabalho, colabore com colegas de trabalho na área Atualizações e envie provas para revisão, tudo sem sair do XD. Vá para o marketplace do Adobe XD para baixar o plug-in hoje mesmo.</p> </td> 
    <td><strong>Disponível nestas datas:</strong> <p>Versão de pré-visualização do Beta: 27 de abril de 2021<br></p> <p>Versão de produção: 27 de abril de 2021</p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -362,7 +368,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Outras melhorias {#other-enhancements}
+### Outros aprimoramentos {#other-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -373,7 +379,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Datas e ambientes de lançamento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#email" class="MCXref xref" xrefformat="{para}">Validação de inclui na lista de permissões de email</a> </p> <p>Se você usar a inclui na lista de permissões por e-mail, os endereços de e-mail novos e atualizados do usuário serão validados em relação ao arquivo de inclui na lista de permissões. Ao adicionar um novo usuário ou editar um usuário existente e inserir um domínio de email que não esteja na inclui na lista de permissões, uma mensagem notificará que o usuário não receberá mensagens de email. Incluir na lista de permissões Ainda é possível salvar o perfil do usuário, mas você deve adicionar o domínio ao arquivo para que o usuário receba emails.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#email" class="MCXref xref" xrefformat="{para}">Validação do incluo na lista de permissões de email</a> </p> <p>Se você usar o incluo na lista de permissões de email, os endereços de email de usuário novos e atualizados serão validados em relação ao incluo na lista de permissões. Ao adicionar um novo usuário ou editar um usuário existente e inserir um domínio de email que não esteja no incluo na lista de permissões, uma mensagem notificará que o usuário não receberá mensagens de email. Você ainda pode salvar o perfil de usuário, mas deve adicionar o domínio ao incluo na lista de permissões para que o usuário receba emails.</p> </td> 
    <td><strong>Disponível nestas datas:</strong> <p>Versão de pré-visualização do Beta: 22 de abril de 2021<br></p> <p>Versão de produção: com a versão 21.2</p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -446,7 +452,7 @@ Os novos recursos do Workfront Fusion estão disponíveis na Produção em uma c
 
 ## API versão 13
 
-Para a API versão 13, modificamos vários recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+Para a API versão 13, modificamos vários recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
 Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 13](../../../wf-api/api/new-api-version-13.md).
 

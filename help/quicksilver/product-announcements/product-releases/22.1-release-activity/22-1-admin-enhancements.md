@@ -1,19 +1,25 @@
 ---
-title: 22.1 Aprimoramentos do administrador
-description: 22.1 Aprimoramentos do administrador
+title: Aprimoramentos de admin na 22.1
+description: Aprimoramentos de admin na 22.1
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/5OkRMNtGZPFq3UTOlmP9rUqvkdkxrB4Eo6Gh-culwZw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: a29813d3-f0cc-4b60-9396-13b558370803id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 0%
+source-wordcount: 1466
+ht-degree: 1%
 
 ---
 
-# 22.1 Aprimoramentos do administrador
+# Aprimoramentos de admin na 22.1
 
 Esta página descreve todas as melhorias de Administrador feitas com a versão 22.1 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção
 

@@ -7,11 +7,17 @@ description: Como gerente de projeto, você pode usar taxas de faturamento para 
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/yyAlbvsYdc94k3yDGUB5fi6-ZMM9zfG04dlRzHhuBsk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4540'
+source-wordcount: 4494
 ht-degree: 1%
 
 ---
@@ -311,7 +317,7 @@ Os cenários a seguir existem ao calcular a receita da tarefa com base no Tipo d
     </tr> 
     <tr> 
      <td role="rowheader">Taxa por hora de faturamento para Receita Planejada</td> 
-     <td>$ 0,00</td> 
+     <td>$0.00</td> 
      <td> Se um usuário tiver uma taxa de faturamento em seu perfil, essa taxa será usada para calcular a Receita planejada. Caso contrário, será usada a taxa de cobrança do sistema da função de trabalho principal. <br><p><b>OBSERVAÇÃO</b> O usuário pode ser atribuído à tarefa com uma de suas funções de trabalho secundárias, mas a taxa da função de trabalho primária é usada aqui.</p><p>Se a função do usuário tiver sido alterada durante a atribuição, as taxas corretas serão aplicadas quando as finanças do projeto forem recalculadas.</p></td> 
      <td>A taxa de cobrança do sistema da função de trabalho atribuída à tarefa é usada para calcular a Receita Planejada. As taxas de cobrança podem ser substituídas no nível do projeto.</td> 
     </tr> 
@@ -349,7 +355,7 @@ Os cenários a seguir existem ao calcular a receita da tarefa com base no Tipo d
     </tr> 
     <tr> 
      <td role="rowheader">Taxa por hora de faturamento para Receita Planejada</td> 
-     <td>$ 0,00</td> 
+     <td>$0.00</td> 
      <td><p>A Workfront analisa a função de trabalho que o usuário desempenha na tarefa para calcular a Receita planejada. <br>Se o usuário não estiver associado a nenhuma função na tarefa, a Receita será de $0,00.</p> <p><strong>OBSERVAÇÃO</strong><br>Se a função do usuário tiver sido alterada durante a atribuição, as taxas corretas serão aplicadas quando as finanças do projeto forem recalculadas.</p> </td> 
      <td>A taxa de cobrança da função de trabalho atribuída à tarefa é usada para calcular a Receita Planejada. As taxas de cobrança podem ser substituídas no nível do projeto.</td> 
     </tr> 
@@ -366,7 +372,7 @@ Os cenários a seguir existem ao calcular a receita da tarefa com base no Tipo d
 
 | Taxa por hora de faturamento | Nenhuma atribuição | Atribuição de usuário | Atribuição de funções de trabalho |
 | --- | --- | --- | --- |
-| Taxa por hora de faturamento para Receita Planejada | $ 0,00 | Quando um usuário é atribuído, o sistema procura a taxa em uma ordem especificada, começando com uma taxa de cobrança preservada. O próximo é uma taxa de cartão de taxa bloqueada, uma taxa informada manualmente na atribuição, a Função de Trabalho para Faturamento na atribuição, a sobreposição da taxa de faturamento do usuário no nível do projeto, a Função de Trabalho para Faturamento no nível do projeto, a taxa do sistema do usuário e a taxa da função de trabalho principal do usuário. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando uma função de trabalho é atribuída, o sistema primeiro procura uma taxa de cobrança preservada e, em seguida, uma taxa de cartão de taxa bloqueada para a função de trabalho na atribuição. Em seguida, ele procura uma taxa de funções de trabalho adicionada manualmente na atribuição. Se essa taxa não for encontrada, ela procurará uma taxa de função de trabalho no nível do projeto, primeiro a partir de um cartão de taxa e, em seguida, a partir da taxa do sistema. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
+| Taxa por hora de faturamento para Receita Planejada | $0.00 | Quando um usuário é atribuído, o sistema procura a taxa em uma ordem especificada, começando com uma taxa de cobrança preservada. O próximo é uma taxa de cartão de taxa bloqueada, uma taxa informada manualmente na atribuição, a Função de Trabalho para Faturamento na atribuição, a sobreposição da taxa de faturamento do usuário no nível do projeto, a Função de Trabalho para Faturamento no nível do projeto, a taxa do sistema do usuário e a taxa da função de trabalho principal do usuário. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando uma função de trabalho é atribuída, o sistema primeiro procura uma taxa de cobrança preservada e, em seguida, uma taxa de cartão de taxa bloqueada para a função de trabalho na atribuição. Em seguida, ele procura uma taxa de funções de trabalho adicionada manualmente na atribuição. Se essa taxa não for encontrada, ela procurará uma taxa de função de trabalho no nível do projeto, primeiro a partir de um cartão de taxa e, em seguida, a partir da taxa do sistema. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 | Taxa por hora de faturamento para Receita Efetiva | Somente as taxas associadas ao usuário que registra o tempo são consideradas para o cálculo, mesmo quando outro usuário é atribuído à tarefa. <p> O sistema procura a taxa em uma ordem especificada, começando com uma taxa de cobrança preservada. Em seguida, há uma taxa de cartão de taxa bloqueada, uma sobreposição de taxa de faturamento no projeto, a função de trabalho para faturamento, a taxa no nível do sistema no perfil de usuário do proprietário e a taxa de faturamento da função de trabalho principal do proprietário. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando um usuário é atribuído, o sistema procura a taxa em uma ordem especificada, começando com uma taxa de cobrança preservada. O próximo é uma taxa de cartão de taxa bloqueada, uma taxa informada manualmente na atribuição, a Função de Trabalho para Faturamento na atribuição, a sobreposição da taxa de faturamento do usuário no nível do projeto, a Função de Trabalho para Faturamento no nível do projeto, a taxa do sistema do usuário e a taxa da função de trabalho principal do usuário. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando uma função de trabalho é atribuída, o sistema primeiro procura uma taxa de cobrança preservada e, em seguida, uma taxa de cartão de taxa bloqueada para a função de trabalho na atribuição. Em seguida, ele procura uma taxa de funções de trabalho adicionada manualmente na atribuição. Se essa taxa não for encontrada, ela procurará uma taxa de função de trabalho no nível do projeto, primeiro a partir de um cartão de taxa e, em seguida, a partir da taxa do sistema. Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 
 ### Cálculos de receita para projetos

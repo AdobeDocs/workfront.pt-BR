@@ -2,19 +2,25 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Entender o custo do trabalho orçado e as horas orçadas dos projetos
-description: Entender o custo do trabalho orçado e as horas orçadas dos projetos
+title: Compreender os custos de mão de obra orçados e as horas orçadas para os projetos
+description: Compreender os custos de mão de obra orçados e as horas orçadas para os projetos
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+TQID: https://experienceleague.adobe.com/bIS8VOfmyYX32cnh3oL7DgHYfx3Jmal6exqdWe96DAw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 0%
+source-wordcount: 1140
+ht-degree: 6%
 
 ---
 
-# Entender o custo do trabalho orçado e as horas orçadas dos projetos
+# Compreender os custos de mão de obra orçados e as horas orçadas para os projetos
 
 <!--
 <(NOTE: Keep the structure of this article similar to Calculating Budgeted Cost)</p>
@@ -129,7 +135,7 @@ O Custo de Mão-de-Obra Orçado, conforme refletido na área Orçamento de Recur
 
 >[!NOTE]
 >
->Se você usar o Planejador de Cenários do Adobe Workfront para orçar recursos do projeto, o Custo de Mão-de-Obra Orçado na área Orçamento de Recursos do Business Case será o mesmo que os Custos de Pessoas da iniciativa vinculada ao projeto. O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md). Para obter informações sobre recursos de orçamento usando o Planejador de cenários, consulte [Recursos de orçamento no Business Case usando o Planejador de cenários](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+>Se você usar o Planejador de Cenários do Adobe Workfront para orçar recursos do projeto, o Custo de Mão-de-Obra Orçado na área Orçamento de Recursos do Business Case será o mesmo que os Custos de Pessoas da iniciativa vinculada ao projeto. O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o planejador de cenários do Workfront, consulte [Visão geral do planejador de cenários](../../../scenario-planner/scenario-planner-overview.md). Para obter informações sobre recursos de orçamento usando o Planejador de cenários, consulte [Recursos de orçamento no Business Case usando o Planejador de cenários](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Localizar as horas orçadas de um projeto
 
@@ -150,7 +156,7 @@ Você pode visualizar as Horas orçadas no Workfront nos campos listados na tabe
 As horas orçadas na área Orçamento de recursos do Business Case ou do Planejador de recursos são exibidas nas seguintes áreas do Workfront e sob os seguintes nomes:
 
 * **Horas**: área de orçamento de recursos do Business Case
-* **BDG**:Planejador de recursos visualizado por Horas
+* **BDG**:Resource Planejador visualizado por Horas
 * **Horas Orçadas**: exibição das Horas do relatório de utilização
 Para obter informações, consulte [Exibir informações sobre a utilização de recursos](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 * **Bud. Horas**: relatório de horas orçadas

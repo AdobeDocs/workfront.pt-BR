@@ -1,18 +1,21 @@
 ---
-title: 21.4 Melhorias na agilidade
-description: 21.4 Melhorias na agilidade
+title: Aprimoramentos ágeis na 21.4
+description: Aprimoramentos ágeis na 21.4
 author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/Y-y7BSMD-4NVL4G5hleSgZZmXKRjir4voenmbggO-AU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: 412
+ht-degree: 5%
 
 ---
 
-# 21.4 Melhorias na agilidade
+# Aprimoramentos ágeis na 21.4
 
 Esta página descreve todas as melhorias de Agile feitas com a versão 21.4 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 4 de outubro de 2021.
 
@@ -25,7 +28,7 @@ Atualizamos os cartões de história nos quadros Kanban e Scrum para facilitar a
 Para obter mais informações, consulte
 
 * [Atribuir usuários a uma história no quadro Kanban](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
-* [Atribuir usuários a uma história no quadro Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
+* [Atribuir usuários a um story no quadro Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
 
 ## Configure como as datas são aplicadas ao adicionar itens de trabalho a uma iteração Scrum
 

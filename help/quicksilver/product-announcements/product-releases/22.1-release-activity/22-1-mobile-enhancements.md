@@ -1,19 +1,22 @@
 ---
-title: Aprimoramentos do 22.1 Mobile
-description: Aprimoramentos do 22.1 Mobile
+title: Aprimoramentos para dispositivos móveis na 22.1
+description: Aprimoramentos para dispositivos móveis na 22.1
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc7dc0c2-768b-4331-acea-b9978574d948
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/gcJ073f4xbnhrIdfzBq1OF9I--JobcA-0GSdkwAP1zU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 0%
+source-wordcount: 129
+ht-degree: 16%
 
 ---
 
-# Aprimoramentos do 22.1 Mobile
+# Aprimoramentos para dispositivos móveis na 22.1
 
 Esta página descreve todas as melhorias móveis feitas com a versão 22.1 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção
 
@@ -41,4 +44,4 @@ No aplicativo móvel do Adobe Workfront, agora é possível:
 
 O seguinte artigo será atualizado quando o aplicativo for lançado nas lojas de aplicativos:
 
-[Revise e tome decisões sobre provas no aplicativo móvel do Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+[Revise e tome decisões sobre provas no aplicativo móvel Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)

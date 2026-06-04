@@ -6,9 +6,15 @@ description: É possível usar as taxas de faturamento para calcular a receita d
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/R4sO92imTe1YBO0YGJIsuD5OOlhfbhlN-0qvyYU48t0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4653'
+source-wordcount: 4595
 ht-degree: 1%
 
 ---
@@ -144,7 +150,7 @@ Se você tiver várias taxas de faturamento de sobreposição para uma função 
 >[!NOTE]
 >
 >Quando a **Data de Início** ou a **Data de Término** está em branco para uma taxa efetiva por data, a Workfront presume que a primeira taxa de substituição é aplicada para todas as horas com uma data anterior à **Data de Término** da primeira substituição e a última taxa de substituição é aplicada para todas as horas com uma data posterior à **Data de Início** da última substituição.
->Se uma hora for registrada antes da Data de início planejada do projeto, a primeira taxa de cobrança será usada.\
+>Se uma hora for registrada antes da Data de Início Planejada do projeto, a primeira taxa de cobrança será usada.\
 >Se uma hora for registrada depois da Data de conclusão planejada do projeto, a última taxa de cobrança será usada.
 
 ## Visão Geral da seção Taxas de Faturamento de um projeto - todos os outros pacotes do Workfront e do Workflow
@@ -185,7 +191,7 @@ Na linha de agrupamento de uma função de trabalho, observe a taxa de cobrança
 
 ### Vários valores de Taxa de Cobrança e cronogramas {#multiple-billing-rate-values-and-timeframes}
 
-Se você tiver várias taxas de faturamento de sobreposição para uma função de trabalho específica, elas serão listadas no agrupamento dessa função de trabalho. Usando a edição em linha, você pode alterar as taxas de substituição e a **Data de início**&#x200B;**Data** e a **Data de término** das taxas de cobrança de substituição nesta guia. Ou selecione uma taxa e clique no ícone **Editar** para definir taxas de substituição de data efetiva.
+Se você tiver várias taxas de faturamento de sobreposição para uma função de trabalho específica, elas serão listadas no agrupamento dessa função de trabalho. Usando a edição em linha, você pode alterar as taxas de substituição e a **Data de início****Data** e a **Data de término** das taxas de cobrança de substituição nesta guia. Ou selecione uma taxa e clique no ícone **Editar** para definir taxas de substituição de data efetiva.
 
 >[!NOTE]
 >

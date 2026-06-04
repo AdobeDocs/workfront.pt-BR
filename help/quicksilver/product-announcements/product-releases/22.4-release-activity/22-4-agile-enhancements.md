@@ -1,19 +1,23 @@
 ---
-title: 22.4 Melhorias na agilidade
-description: 22.4 Melhorias na agilidade
+title: Aprimoramentos ágeis na 22.4
+description: Aprimoramentos ágeis na 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/aT7LstXDYaNh1acR5Zwzj4eNFiqKwDSL7iEWJaKGoDs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 0%
+source-wordcount: 750
+ht-degree: 1%
 
 ---
 
-# 22.4 Melhorias na agilidade
+# Aprimoramentos ágeis na 22.4
 
 Esta página descreve todas as melhorias de Agile feitas com a versão 22.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas na semana de 3 de outubro de 2022.
 
@@ -31,7 +35,7 @@ Só é permitida uma coluna de entrada no quadro.
 
 Para obter mais informações, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412867/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
 ## Painel de filtro atualizado em quadros
 
@@ -41,7 +45,7 @@ Os ícones de filtro e pesquisa em um quadro foram movidos para a esquerda da te
 
 Para obter mais informações, consulte [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412868/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
 ## Usar grupos em um quadro para criar raias
 
@@ -53,7 +57,7 @@ Nenhum cartão na coluna de entrada está incluído em um grupo.
 
 Para obter mais informações, consulte [Usar grupos em um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412869/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
 ## Melhorias nos itens da lista de verificação nos quadros
 
@@ -77,7 +81,7 @@ Depois de adicionar a equipe ao quadro, é possível atribuí-la a cartões. Em 
 
 Para obter mais informações, consulte [Adicionar ou remover membros de um quadro](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412870/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
 ## O limite de trabalhos em andamento agora está disponível nas colunas da placa
 
@@ -89,7 +93,7 @@ Agora é possível definir um limite de Trabalho em andamento (WIP) para qualque
 
 Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412871/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 
 ## Campo de estimativa adicionado aos cartões
 
@@ -99,4 +103,4 @@ Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quic
 
 Um novo campo Estimativa em cartões ad hoc e conectados permite inserir o número estimado de horas para que o cartão seja concluído. Esta é uma entrada manual, não um valor calculado, e o valor não pode ser maior que 99. A estimativa é exibida no cartão no quadro, bem como nos detalhes do cartão.
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412872/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412872/){target=_blank}

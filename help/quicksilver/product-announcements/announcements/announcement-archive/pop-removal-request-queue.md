@@ -1,15 +1,18 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Novo sistema gerenciado pela Adobe Workfront para substituir o email POP em Filas de solicitações pela versão 21.1
+title: Novo sistema gerenciado do Adobe Workfront substituirá o email POP em filas de solicitações na 21.1
 description: Estamos substituindo a opção de email POP para filas de solicitações por um novo sistema gerenciado pela Adobe Workfront. Você ainda poderá enviar solicitações por email, mas precisará configurar um novo endereço de email gerenciado pela Workfront na área Fila de solicitações.
 author: Luke
 feature: Product Announcements
 exl-id: d7147641-ba36-422b-a9b2-3c2f4ab609d8
-source-git-commit: f05b462ff596ccc19215ca684802a9820a98211a
+TQID: https://experienceleague.adobe.com/zzr53eiyA6o-VpZQnFQt-xCXZBKaScZUz8jDmOgX-Ns
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 0%
+source-wordcount: 332
+ht-degree: 4%
 
 ---
 

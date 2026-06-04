@@ -7,11 +7,17 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/BZTQcZAO2RpucCKTHYGI95pRO1em05dtE3vKPjBIpto
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: 1117
 ht-degree: 4%
 
 ---
@@ -119,7 +125,7 @@ Para criar tarefas em um projeto:
 
 1. Vá para o projeto em que deseja criar uma tarefa.
 1. Clique em **Tarefas** no painel esquerdo.
-1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição Agile, clique no ícone **Modo de Exibição de Lista** no modo de exibição Agile para tarefas![&#128279;](assets/list-view-in-agile-view-for-tasks.png) no canto superior direito para exibir a lista de tarefas.
+1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição Agile, clique no ícone **Modo de Exibição de Lista** no modo de exibição Agile para tarefas](assets/list-view-in-agile-view-for-tasks.png) no canto superior direito para exibir a lista de tarefas.![
 1. (Opcional) Clique no ícone **Modo de Plano** ícone ![Modo de plano para a lista de tarefas](assets/nwe-plan-mode-icon-task-list.png) e selecione **Salvar Manualmente** e, em seguida, selecione **Padrão** ou **Planejamento de Linha do Tempo**. Isso desabilita a opção **Salvamento automático**, que é habilitada por padrão.
 
    ![Selecionar Salvamento Manual](assets/manual-save-option.png)

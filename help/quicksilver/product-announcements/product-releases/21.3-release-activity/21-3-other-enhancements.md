@@ -1,19 +1,22 @@
 ---
-title: 21.3 Outras melhorias
-description: 21.3 Outras melhorias
+title: Outros aprimoramentos na 21.3
+description: Outros aprimoramentos na 21.3
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 82f51b74-4743-497c-87c6-6258aa7b02bf
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/W7A3QX4u4LTn5u24dqi9lUt7PoSbr3X67QF5fowdCMc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 0%
+source-wordcount: 274
+ht-degree: 16%
 
 ---
 
-# 21.3 Outras melhorias
+# Outros aprimoramentos na 21.3
 
 Esta página descreve todas as outras melhorias feitas com a versão 21.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 21 de julho de 2021.
 
@@ -42,6 +45,6 @@ Os seguintes artigos serão atualizados quando o aplicativo for lançado nas loj
 >
 >Esse recurso foi lançado no ambiente de Pré-visualização em 20 de maio de 2021. Ele será lançado no ambiente de Produção em 3 de junho de 2021.
 
-Agora, os filtros de assinatura de evento estão ativados em ambientes de visualização. A filtragem por assinatura de evento pode ser usada para garantir que você receba apenas mensagens relevantes. Criar filtros para suas assinaturas pode diminuir significativamente o número de mensagens que seu terminal precisa consumir.
+Agora, os filtros de assinatura de evento estão ativados em ambientes de visualização. Você pode usar a filtragem de assinatura de evento para garantir que receba apenas mensagens relevantes. Criar filtros para as assinaturas pode diminuir significativamente o número de mensagens que o ponto de acesso precisa consumir.
 
 Para saber mais sobre assinaturas de evento, consulte [API de Assinatura de Evento](../../../wf-api/general/event-subs-api.md) e [Perguntas Frequentes - Assinaturas de Evento](../../../wf-api/general/event-subs-faq.md).

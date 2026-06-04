@@ -6,14 +6,20 @@ description: É possível usar tarefas predecessoras (ou apenas predecessoras) p
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+TQID: https://experienceleague.adobe.com/BOZkyUl3TKCzpbjbLnUcMQZjM-1laW-TSsVptvBP-0U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 0%
+source-wordcount: 422
+ht-degree: 8%
 
 ---
 
-# Criar um relacionamento predecessor usando a área Predecessores
+# Criar uma relação de predecessor usando a área Predecessores
 
 <!-- Audited: 5/2025 -->
 
@@ -33,7 +39,7 @@ Para obter informações sobre predecessores, consulte [Visão geral dos predece
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +51,7 @@ Para obter informações sobre predecessores, consulte [Visão geral dos predece
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
    <p>Plano</p> </td> 
   </tr> 
   <tr> 

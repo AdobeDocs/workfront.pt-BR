@@ -6,12 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 9%
+source-wordcount: 784
+ht-degree: 5%
 
 ---
 
@@ -249,7 +253,7 @@ Além disso, oferecemos suporte às seguintes expressões para os campos de fór
 
 <tr> 
    <td><strong>SEMANA</strong> </td> 
-   <td> <p>Retorna o número da semana em um ano. Como opção, é possível indicar em qual dia a semana começa (use 1 para domingo ou 2 para segunda-feira). Se omitido, as semanas começarão no domingo, por padrão.</p> <p>A expressão é formatada da seguinte maneira:
+   <td> <p>Retorna o número da semana em um ano. Como opção, você pode indicar em qual dia a semana começa (use 1 para domingo ou 2 para segunda-feira). Se omitido, as semanas começarão no domingo, por padrão.</p> <p>A expressão é formatada da seguinte maneira:
 
 <code>WEEKOFYEAR(data,2)</code>
 ou

@@ -1,18 +1,24 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Aprovar um Business Case
+title: Aprovar um business case
 description: Depois de concluir e enviar o Business Case para uma solicitação de projeto, o Business Case deve ser aprovado. Depende do workflow em sua organização. Um projeto pode ser iniciado sem a aprovação do Business Case, mas o administrador e os proprietários do projeto do Adobe Workfront podem não considerar ideal.
 author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+TQID: https://experienceleague.adobe.com/DCLPGdt9b-7jkg7ajSbaRJRO968yAdetzVvOXpNI9nc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 0%
+source-wordcount: 682
+ht-degree: 6%
 
 ---
 
-# Aprovar um Business Case
+# Aprovar um business case
 
 <!--Audit: 6/2025-->
 
@@ -22,7 +28,7 @@ Para obter mais informações sobre como concluir e enviar um Business Case, con
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +43,7 @@ Para obter mais informações sobre como concluir e enviar um Business Case, con
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Standard </p> 
+   <p>Padrão </p> 
    <p>Plano </p> </td> 
   </tr> 
   <tr> 

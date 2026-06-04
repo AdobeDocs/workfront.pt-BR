@@ -2,20 +2,26 @@
 content-type: release-notes
 keywords: notas,trimestral,atualizar
 navigation-topic: 2021-4-release-activity
-title: 21.4 Visão geral da versão
-description: Esta página fornece informações sobre a funcionalidade do Adobe Workfront Classic e da nova experiência do Adobe Workfront incluída na versão 21.4. para ajudá-lo a liberar a produtividade e a colaboração.[Comercialização de uma linha para a versão]
+title: Visão geral da versão 21.4
+description: Esta página fornece informações sobre a funcionalidade do Adobe Workfront Classic e da nova experiência do Adobe Workfront incluída na versão 21.4. para ajudá-lo a explorar a produtividade e a colaboração.[Marketing one-liner for the release]
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/vwgAQJSe18Esj-O1VLnjZf6jCuJSXk4O-WVjCoDRHuI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4718'
-ht-degree: 0%
+source-wordcount: 4862
+ht-degree: 2%
 
 ---
 
-# 21.4 Visão geral da versão
+# Visão geral da versão 21.4
 
 Esta página fornece informações sobre a funcionalidade do Adobe Workfront Classic e da nova experiência do Adobe Workfront incluída na versão 21.4.
 
@@ -56,7 +62,7 @@ unless otherwise specifiedthe week of May 10, 2021.
 </MadCap:conditionalText>
 
 
-For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/pt-br/products/5943) on [status.adobe.com](http://status.adobe.com/pt-br/). You must log in to see specific release times.
+For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/en/products/5943) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
 
 -->
 
@@ -71,9 +77,9 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 * [Aprimoramentos da revisão](#proofing-enhancements)
 * [Aprimoramentos de integração](#integration-enhancements)
 * [Aprimoramentos móveis](#mobile-enhancements)
-* [Outras melhorias](#other-enhancements)
+* [Outros aprimoramentos](#other-enhancements)
 
-### Melhorias do administrador {#administrator-enhancements}
+### Aprimoramentos do administrador {#administrator-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -146,7 +152,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  </tbody> 
 </table>
 
-### Aprimoramentos do projeto {#project-enhancements}
+### Aprimoramentos de projeto {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -268,7 +274,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  </tbody> 
 </table>
 
-### Melhorias nos relatórios {#reporting-enhancements}
+### Aprimoramentos nos relatórios {#reporting-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -289,7 +295,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  </tbody> 
 </table>
 
-### Melhorias nas solicitações {#requests-enhancements}
+### Aprimoramentos nas solicitações {#requests-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -390,7 +396,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  </tbody> 
 </table>
 
-### Outras melhorias {#other-enhancements}
+### Outros aprimoramentos {#other-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -413,7 +419,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 21.4. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 21.4. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Aprimoramentos no Planejador de cenários do Workfront
 
@@ -441,11 +447,11 @@ Não há atualizações do Workfront Goals neste momento na versão. Esta área 
 
 ## API versão 14
 
-Para a API versão 14, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+Para a API versão 14, modificamos alguns recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
 Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 14](../../../wf-api/api/new-api-version-14.md).
 
-Para obter informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](../../../wf-api/api/api-version-support-schedule.md).
+Para obter informações sobre as versões da API, consulte [controle de versão da API e cronograma de suporte](../../../wf-api/api/api-version-support-schedule.md).
 
 ## Webinário da versão 21.4
 
@@ -465,7 +471,7 @@ O webinário da versão 21.4 do Workfront foi apresentado em 23 de setembro de 2
 
 ## Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
+Explore as últimas atualizações feitas nos programas de aprendizagem, caminhos de aprendizagem, vídeos e guias para cada versão do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
 ## Funcionalidade não mais compatível
 

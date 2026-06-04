@@ -2,20 +2,24 @@
 content-type: release-notes
 keywords: notas,trimestral,atualizar,versão
 navigation-topic: 2021-2-release-activity
-title: 21.2 Solicitações de melhorias
+title: Aprimoramentos em solicitações na 21.2
 description: Esta página descreve todas as melhorias nas Solicitações feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte Visão geral da versão 21.2.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/75UJsTlD3ZTmZV3owwnoIuPTP89VkL-zN2YRm2Vjq1U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 0%
+source-wordcount: 1131
+ht-degree: 8%
 
 ---
 
-# 21.2 Solicitações de melhorias
+# Aprimoramentos em solicitações na 21.2
 
 Esta página descreve todas as melhorias nas Solicitações feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte a [Visão geral da versão 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
@@ -42,7 +46,7 @@ Para obter mais informações, consulte os seguintes artigos:
 >
 >Disponível somente na nova experiência do Adobe Workfront.
 
-À medida que continuamos a incorporar seu feedback sobre a criação de solicitações na nova experiência do Workfront, fizemos várias melhorias no fluxo de trabalho de novas solicitações. Isso inclui:
+À medida que continuamos a incorporar seu feedback sobre a criação de solicitações na nova experiência do Workfront, fizemos várias melhorias no fluxo de trabalho de novas solicitações. As melhorias incluem:
 
 * Indique claramente com um ícone Mostrar opções que os campos Tipos de solicitação, Grupos de tópicos e Tópicos da fila são listas suspensas nas quais você pode escolher uma opção que foi definida anteriormente.
 * Indique claramente com um ícone &quot;x&quot; que uma escolha de Tipo de solicitação, Grupo de tópicos ou Tópico da fila pode ser removida após ser selecionada.

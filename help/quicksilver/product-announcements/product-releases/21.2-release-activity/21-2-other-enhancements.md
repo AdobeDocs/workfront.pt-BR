@@ -2,20 +2,26 @@
 content-type: release-notes
 keywords: notas,trimestral,atualizar,versão
 navigation-topic: 2021-2-release-activity
-title: 21.2 Outras melhorias
+title: Outros aprimoramentos na 21.2
 description: Esta página descreve todas as outras melhorias feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte Visão geral da versão 21.2.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/u9WNEgL9QU9bPkE3iBu5myxuVGl58V-6qN-zIkwhSIo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c10f2e93-7a58-4212-aa24-684c265ebe76id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 0%
+source-wordcount: 626
+ht-degree: 1%
 
 ---
 
-# 21.2 Outras melhorias
+# Outros aprimoramentos na 21.2
 
 Esta página descreve todas as outras melhorias feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte a [Visão geral da versão 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
@@ -34,20 +40,20 @@ As áreas mais proeminentes no aplicativo Adobe Workfront e em nossos sites volt
 Áreas atualizadas em breve
 
 * Provas de aplicativos para desktop e dispositivos móveis
-* Exportações de PDF para listas e relatórios
+* Exportações do PDF para listas e relatórios
 * Ícone de favicon na guia do navegador
 
 **Áreas sendo atualizadas mais tarde**
 
 * Notificações de email
 
-## Validação de inclui na lista de permissões de email
+## Validação de incluo na lista de permissões de email
 
 >[!NOTE]
 >
 >Disponível somente na nova experiência do Adobe Workfront.
 
-Se você usar a inclui na lista de permissões por e-mail, os endereços de e-mail novos e atualizados do usuário serão validados em relação ao arquivo de inclui na lista de permissões. Ao adicionar um novo usuário ou editar um usuário existente e inserir um domínio de email que não esteja na inclui na lista de permissões, uma mensagem notificará que o usuário não receberá mensagens de email. Incluir na lista de permissões Ainda é possível salvar o perfil do usuário, mas você deve adicionar o domínio ao arquivo para que o usuário receba emails.
+Se você usar o incluo na lista de permissões de email, os endereços de email de usuário novos e atualizados serão validados em relação ao incluo na lista de permissões. Ao adicionar um novo usuário ou editar um usuário existente e inserir um domínio de email que não esteja no incluo na lista de permissões, uma mensagem notificará que o usuário não receberá mensagens de email. Você ainda pode salvar o perfil de usuário, mas deve adicionar o domínio ao incluo na lista de permissões para que o usuário receba emails.
 
 Para obter mais informações, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

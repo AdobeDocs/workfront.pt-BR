@@ -1,19 +1,24 @@
 ---
-title: 22.1 Aprimoramentos do projeto
-description: 22.1 Aprimoramentos do projeto
+title: Aprimoramentos no projeto na 22.1
+description: Aprimoramentos no projeto na 22.1
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/QLnfzVhpml4MQ4XC3sr4NRHrM-PT36-n2CJwDMgwE5Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 0%
+source-wordcount: 1223
+ht-degree: 1%
 
 ---
 
-# 22.1 Aprimoramentos do projeto
+# Aprimoramentos no projeto na 22.1
 
 Esta página descreve todas as melhorias feitas no Project com a versão 22.1 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção
 

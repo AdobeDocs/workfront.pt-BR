@@ -6,9 +6,15 @@ description: É possível exibir ou editar as informações financeiras de um pr
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+TQID: https://experienceleague.adobe.com/ax957eBrqej3uH8M4mZkSuY-heCNGWTiiwbBZTcH7VE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: 1282
 ht-degree: 6%
 
 ---
@@ -86,7 +92,7 @@ Considere o seguinte ao exibir ou editar informações na área Financeira:
      </tr> 
      <tr> 
       <td role="rowheader">CPI/SPI/CSI</td> 
-      <td> <p>Estas são as métricas de desempenho do projeto que mostram o desempenho do seu projeto em um determinado momento. Seus valores são calculados com base no Método de indexação de desempenho.<br>Para obter mais informações, consulte os seguintes artigos: </p> 
+      <td> <p>Estas são as métricas de desempenho do projeto que mostram o desempenho do seu projeto em um determinado momento. Seus valores são calculados com base no Método de Índice de Desempenho.<br>Para obter mais informações, consulte os seguintes artigos: </p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calcular Índice de Desempenho de Custo (CPI)</a> </p> </li> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Calcular SPI (Índice de Desempenho de Agendamento) </a> </p> </li> 
@@ -95,7 +101,7 @@ Considere o seguinte ao exibir ou editar informações na área Financeira:
      </tr> 
      <tr> 
       <td role="rowheader">Calcular ao concluir</td> 
-      <td> Custo total projetado do seu projeto, representado em horas se o Método de Índice de Desempenho (PIM) for baseado em horas, e é representado em um valor de moeda, se o Método de Índice de Desempenho (PIM) for baseado em custo.<br>Para obter mais informações sobre como calcular a Estimativa no Término, consulte o artigo <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calcular a Estimativa no Término (EAC)</a></td> 
+      <td> Custo total projetado do seu projeto, representado em horas se o PIM (Método de Índice de Desempenho) for baseado em horas, e é representado em um valor de moeda, se o PIM (Método de Índice de Desempenho) for baseado em custo.<br>Para obter mais informações sobre como calcular a Estimativa no Término, consulte o artigo <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calcular a EAC (Estimativa no Término)</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Orçamento</td> 

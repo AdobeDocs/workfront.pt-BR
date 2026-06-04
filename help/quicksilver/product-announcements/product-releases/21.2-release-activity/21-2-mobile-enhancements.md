@@ -2,20 +2,23 @@
 content-type: release-notes
 keywords: notas,trimestral,atualizar,versão
 navigation-topic: 2021-2-release-activity
-title: 21.2 Aprimoramentos em dispositivos móveis
+title: Aprimoramentos para dispositivos móveis na 21.2
 description: Esta página descreve todas as melhorias móveis feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte Visão geral da versão 21.2.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5ec5f0bd-6234-488b-bd3a-f14400b08cab
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/gPFBBjy116C89AgZNemM4ZOYe3U8LAJhwrnLJW4gKL0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 3%
+source-wordcount: 287
+ht-degree: 5%
 
 ---
 
-# 21.2 Aprimoramentos em dispositivos móveis
+# Aprimoramentos para dispositivos móveis na 21.2
 
 Esta página descreve todas as melhorias móveis feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte a [Visão geral da versão 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 

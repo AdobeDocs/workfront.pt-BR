@@ -6,14 +6,20 @@ description: Tanto a Conclusão planejada quanto as Datas de confirmação indic
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+TQID: https://experienceleague.adobe.com/iy-L6-ZnhDgVTJjhEBlqwdRH3TRA5OqT3Gj-LIoEgDA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: 422
+ht-degree: 9%
 
 ---
 
-# Interações entre a Data de Compromisso e a Data de Conclusão Planejada
+# Interações entre a data de confirmação e a data de conclusão planejada
 
 <!--
 this article has mostly information that is repeated from the articles linked from here. I left it in here for searchability's sake.
@@ -42,7 +48,7 @@ A tabela a seguir contém informações sobre a diferença entre as datas de Con
  </tbody> 
 </table>
 
-## Interações entre a Data de Compromisso e a Data de Conclusão Planejada
+## Interações entre a data de confirmação e a data de conclusão planejada
 
 Quando o proprietário do projeto cria e atribui uma tarefa ou um problema, a tarefa ou o problema terá o seguinte:
 
@@ -64,4 +70,4 @@ Se a Data de Compromisso oferecida pelo designado for aceitável para o propriet
 Para obter mais informações, consulte os seguintes artigos:
 
 * [Visão geral da Data de confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
-* [Atualizar datas de confirmação nas tarefas e problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
+* [Atualizar datas de confirmação em tarefas e problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

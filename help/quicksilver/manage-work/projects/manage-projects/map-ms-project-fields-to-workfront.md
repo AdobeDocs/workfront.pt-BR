@@ -6,14 +6,19 @@ description: Os projetos do Adobe Workfront e do Microsoft Project são em sua m
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/WdFf5O8kKyY43PsHLEINDaLzsEa0idHZPNz83O12bTI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 4%
+source-wordcount: 396
+ht-degree: 6%
 
 ---
 
-# Mapear campos de projeto do Microsoft para projetos do Adobe Workfront
+# Mapeie campos do Microsoft Project para projetos do Adobe Workfront
 
 Os projetos do Adobe Workfront e do Microsoft Project são em sua maioria compatíveis. Usando os dois aplicativos, você pode fazer o seguinte:
 
@@ -60,7 +65,7 @@ Esses campos incluem, mas não estão limitados ao seguinte:
 * Problemas
 * Atraso negativo nas tarefas com um relacionamento de predecessor de Início/ Término (as tarefas são importadas sem o atraso)
 * Atribuições
-* Restrições de Tarefa
+* Restrições de tarefa
 
   >[!NOTE]
   >

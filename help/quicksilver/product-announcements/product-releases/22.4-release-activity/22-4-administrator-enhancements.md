@@ -1,19 +1,24 @@
 ---
-title: 22.4 Aprimoramentos do administrador
-description: 22.4 Aprimoramentos do administrador
+title: Aprimoramentos de admin na 22.4
+description: Aprimoramentos de admin na 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+TQID: https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 0%
+source-wordcount: 881
+ht-degree: 6%
 
 ---
 
-# 22.4 Aprimoramentos do administrador
+# Aprimoramentos de admin na 22.4
 
 Esta página descreve todas as melhorias de Administrador feitas com a versão 22.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas na semana de 3 de outubro de 2022.
 
@@ -43,7 +48,7 @@ Os modelos de layout existentes incluem automaticamente o ícone de blueprints, 
 
 Para obter mais informações, consulte [Configurar acesso a blueprints](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412382/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## Personalização do cabeçalho do problema
 
@@ -65,7 +70,7 @@ Antes desta versão, somente os cabeçalhos de projetos e tarefas podiam ser per
 
 Para obter mais informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412383/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## Personalização do cabeçalho da tarefa
 
@@ -83,7 +88,7 @@ Antes desta versão, somente os cabeçalhos do projeto podiam ser personalizados
 
 Para obter mais informações, consulte [Personalizar cabeçalhos de objetos usando um Modelo de Layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## Aceitação antecipada de recursos para os recursos mais recentes nos quadros
 
@@ -93,7 +98,7 @@ Somente um administrador do Workfront pode aceitar os recursos anteriores. Quand
 
 Para obter mais informações, consulte [Aceitação antecipada de recursos para painéis do Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## O editor de cálculo de campo de formulário personalizado exibe informações de erro
 
@@ -103,22 +108,22 @@ Para obter mais informações, consulte [Aceitação antecipada de recursos para
 
 A edição de cálculos para campos personalizados agora é mais fácil com informações de erro úteis indicadas diretamente no cálculo. Ao criar um campo calculado em um formulário personalizado, os erros são destacados em rosa. Quando você passa o mouse sobre a parte destacada, uma dica de ferramenta é exibida para descrever qual é o problema.
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
-## Migração para a experiência unificada do Adobe
+## Migração para a experiência unificada da Adobe
 
 OBSERVAÇÃO: essa migração foi adiada para o primeiro e o segundo trimestres de 2023. Todos os clientes afetados serão notificados nesse momento.
 
-Se sua organização tiver sido integrada à Adobe Admin Console, sua instância do Workfront será migrada para a Experiência unificada do Adobe com a versão 22.4.
+Se sua organização tiver sido integrada à Adobe Admin Console, sua instância do Workfront será migrada para a Adobe Unified Experience com a versão 22.4.
 
-A Experiência unificada do Adobe inclui:
+A Experiência Unificada da Adobe inclui:
 
-* Um login único para todos os aplicativos Adobe por meio do Adobe Experience Cloud
+* Um único login para todos os aplicativos da Adobe por meio da Adobe Experience Cloud
 
-* Um &quot;alternador de organização&quot; para alternar entre organizações e ambientes do Workfront
+* Um “alternador de organizações” para alternar entre organizações e ambientes do Workfront
 
-* Navegação com opções para páginas do Workfront, preferências do Adobe Experience Cloud e seu perfil do Workfront
+* Navegação com opções para páginas do Workfront, preferências da Adobe Experience Cloud e seu perfil do Workfront
 
-Para obter mais informações, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Para obter mais informações, consulte [Experiência Unificada da Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412388/){target=_blank}

@@ -6,11 +6,17 @@ description: Recalcular as linhas do tempo permite que os gerentes vejam como di
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+TQID: https://experienceleague.adobe.com/eArfFrvui-VBRn6Z8N1DNvRko1L8X-dnEC-Rew90svY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: 1015
 ht-degree: 4%
 
 ---
@@ -97,7 +103,7 @@ Por padrão, as linhas do tempo do projeto são recalculadas automaticamente dia
 >* Se a linha do tempo de um projeto tiver mais de 15 anos, o recálculo automático será desativado para esse projeto e você só poderá selecionar um tipo de atualização Manual. Se você alterar as datas no projeto para menos de 15 anos, será necessário recalcular manualmente a linha do tempo uma vez antes de calculá-la automaticamente.
 >* Para os ambientes Pré-visualização e Atualização personalizada da Sandbox, o recálculo noturno é desativado e as linhas de tempo do projeto não são recalculadas automaticamente. Você deve recalcular manualmente a linha do tempo do projeto para os ambientes Pré-visualização e Atualização personalizada da sandbox.
 >* Se um projeto for complexo, o recálculo automático da linha do tempo talvez não ocorra.
-> Um exemplo de um projeto complexo pode ser um projeto com várias dependências, grande número de tarefas, vários predecessores entre projetos ou vários recuos de tarefas.
+> Um exemplo de um projeto complexo pode ser um projeto com várias dependências, um grande número de tarefas, vários predecessores entre projetos ou vários recuos de tarefas.
 > O Workfront coloca um aviso à direita do nome do projeto na página do projeto para avisar aos usuários que a linha do tempo do projeto deve ser recalculada manualmente. Somente os usuários com permissões para Gerenciar o projeto podem recalcular manualmente a linha do tempo.
 >
 >   ![Aviso do projeto para recalcular a linha de tempo](assets/project-warning-to-manually-recalculate-timeline.png)

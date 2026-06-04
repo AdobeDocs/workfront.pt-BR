@@ -7,10 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/MlMOUocVtOKfZ2QF2LS3MbdihhOHIs-TErVOoeP-jeg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2544'
-ht-degree: 0%
+source-wordcount: 2706
+ht-degree: 1%
 
 ---
 
@@ -85,7 +91,7 @@ A versão 2020.2 do contém as seguintes melhorias para todos os usuários:
 * [Aprimoramentos do projeto](#project-enhancements)
 * [Aprimoramentos da revisão](#proofing-enhancements)
 * [Aprimoramentos móveis](#mobile-enhancements)
-* [Outras melhorias](#other-enhancements)
+* [Outros aprimoramentos](#other-enhancements)
 
 ### Melhorias no gerenciamento de recursos: o Balanceador de carga de trabalho {#resource-management-enhancements-the-workload-balancer}
 
@@ -152,7 +158,7 @@ Apresentando uma experiência de agendamento reimaginada que permite visualizar 
  </tbody> 
 </table>
 
-### Aprimoramentos do projeto {#project-enhancements}
+### Aprimoramentos de projeto {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -215,7 +221,7 @@ Apresentando uma experiência de agendamento reimaginada que permite visualizar 
  </tbody> 
 </table>
 
-### Outras melhorias {#other-enhancements}
+### Outros aprimoramentos {#other-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -250,7 +256,7 @@ API versão 11 lançada com a versão 2020.1. Para obter informações sobre nov
 
 Para obter mais informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](../../../wf-api/api/api-version-support-schedule.md) [Versão de API e Agendamento de Suporte](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1).
 
-## Atualizações de manutenção do Workfront 
+## Atualizações de manutenção do Workfront
 
 Para obter informações sobre as atualizações de manutenção feitas durante a versão 2020.1, consulte [Atualizações de manutenção do Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -258,7 +264,7 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 
 * [Alteração na cadência da versão de Visualização](#change-in-preview-release-cadence) Nova!
 
-* incluir na lista de permissões [Adicionar mais domínios ao arquivo de necessário para acessar o Workfront](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
+* [Adicionar outros domínios ao incluo na lista de permissões necessário para acessar o Workfront](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 * Webinar da Versão [2020.1](#2020-1-release-webinar)
 * [Webinário do roteiro de produtos do primeiro trimestre](#q1-product-roadmap-webinar)
@@ -269,20 +275,20 @@ A partir de 20 de maio de 2020, o Workfront começará a disponibilizar a funcio
 
 Para obter mais informações, consulte [Perguntas frequentes sobre a alteração na cadência da versão de visualização do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home)
 
-### Adicionar outros domínios ao incluo na lista de permissões necessário para acessar o Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
+### Adicionar domínios adicionais ao incluo na lista de permissões necessário para acessar o Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
 Se sua organização usar um firewall, você deverá adicionar os seguintes domínios adicionais ao incluo na lista de permissões para garantir acesso ininterrupto ao Workfront:
 
 * event.split.io
 * sdk.split.io
 
-Incluir na lista de permissões incluir na lista de permissões Para obter mais informações, consulte a seção [Configurar o arquivo do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) em [Configurar o arquivo do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Para obter mais informações, consulte a seção [Configurar incluo na lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) em [Configurar incluo na lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ### Workfront One {#workfront-one}
 
 Com o Workfront One, você descobrirá o conteúdo, os recursos e as notícias mais importantes da Workfront — tudo em um único local, com um único logon. Unificamos os sites de Experiência, Comunidade e Treinamento, facilitando encontrar o que você está procurando.
 
-[Saiba mais sobre o Workfront One](https://business.adobe.com/br/products/workfront.html).
+[Saiba mais sobre o Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinário da versão 2020.1 {#2020-1-release-webinar}
 

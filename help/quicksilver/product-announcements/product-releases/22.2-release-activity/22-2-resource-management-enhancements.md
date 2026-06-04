@@ -1,19 +1,25 @@
 ---
-title: 22.2 Aprimoramentos no gerenciamento de recursos
-description: 22.2 Aprimoramentos no gerenciamento de recursos
+title: Aprimoramentos no gerenciamento de recursos na 22.2
+description: Aprimoramentos no gerenciamento de recursos na 22.2
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5f11c43c-3aa8-4135-b6bf-07b9993e63d9
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/X2dBmB8Qyiwg9hM60af6GRBDGT4KkH6Jjs2A-S-TWVg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 0%
+source-wordcount: 376
+ht-degree: 5%
 
 ---
 
-# 22.2 Aprimoramentos no gerenciamento de recursos
+# Aprimoramentos no gerenciamento de recursos na 22.2
 
 Esta página descreve todas as melhorias no Gerenciamento de recursos feitas com a versão 22.2 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção
 
@@ -55,5 +61,5 @@ Antes dessa atualização, o Workfront usava a seguinte fórmula para calcular a
 
 Horas Disponíveis do Usuário = (Horas Programadas Padrão - (Exceções de Programação + Horas de folga)) &#42; Valor FTE do Usuário
 
-Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

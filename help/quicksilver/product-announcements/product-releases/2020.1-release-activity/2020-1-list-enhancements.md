@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: Aprimoramentos na lista 2020.1
+title: Aprimoramentos na lista na 2020.1
 description: Esta página descreve todas as melhorias feitas nas Listas com a versão 2020.1. Esses aprimoramentos estão disponíveis atualmente no ambiente de Pré-visualização e serão disponibilizados no ambiente Produção no final de março ou início de abril de 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efe05da7-ec25-4fbd-a7f9-645364d3e2a8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/z0JBeUHKkpRiFG4QCOD9zpV0Y1WK7y5SBUcl6BLBRKo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: 882
 ht-degree: 0%
 
 ---
 
-# Aprimoramentos na lista 2020.1
+# Aprimoramentos na lista na 2020.1
 
 Esta página descreve todas as melhorias feitas nas Listas com a versão 2020.1. Esses aprimoramentos estão disponíveis atualmente no ambiente de Pré-visualização e serão disponibilizados no ambiente Produção no final de março ou início de abril de 2020.
 
