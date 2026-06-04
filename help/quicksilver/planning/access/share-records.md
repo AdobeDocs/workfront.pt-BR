@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 1720
+source-wordcount: 1690
 ht-degree: 2%
 
 ---
@@ -104,13 +104,6 @@ Ou
    <p><b>IMPORTANTE</b></p>
    <p>Somente usuários com permissões para Gerenciar um espaço de trabalho podem compartilhar um registro</p></td> 
   </tr>
-<tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
-   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
-</td>
-  </tr>
-
 </tbody> 
 </table>
 

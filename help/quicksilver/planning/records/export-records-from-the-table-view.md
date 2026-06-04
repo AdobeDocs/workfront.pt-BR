@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 463
+source-wordcount: 433
 ht-degree: 6%
 
 ---
@@ -69,13 +69,7 @@ Você pode exportar registros e suas informações da exibição de tabela para 
 
 </td> 
   </tr> 
-  <tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
-   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
-</td>
-  </tr>  
-</tbody> 
+  </tbody> 
 </table>
 
 Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

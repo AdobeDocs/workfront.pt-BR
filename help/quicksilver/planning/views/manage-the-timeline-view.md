@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 4209
+source-wordcount: 4179
 ht-degree: 3%
 
 ---
@@ -71,12 +71,6 @@ Para obter informações sobre exibições de registros, consulte [Gerenciar exi
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para uma exibição</p>  
    <p>Exibir permissões de um modo de exibição para alterar temporariamente as configurações de modo de exibição ou duplicá-lo</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
-   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>

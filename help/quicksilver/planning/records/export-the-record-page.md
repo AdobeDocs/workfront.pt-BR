@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 471
+source-wordcount: 441
 ht-degree: 4%
 
 ---
@@ -63,13 +63,8 @@ Para colaborar de forma mais eficiente com outras pessoas que talvez não tenham
    <td>   <p>Exiba ou aumente as permissões para um espaço de trabalho, tipo de registro e <span class="preview">registro</span> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
   </tr> 
-  </tr> 
-  <tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
-   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
-</td>
-  </tr>  
+  </tr>
+
 </tbody> 
 </table>
 

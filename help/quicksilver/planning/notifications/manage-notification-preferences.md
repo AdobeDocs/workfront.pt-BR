@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: 516
 ht-degree: 10%
 
 ---
@@ -81,12 +81,6 @@ Você pode receber e gerenciar os seguintes tipos de notificações das atividad
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Exibir ou aumentar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
-   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>

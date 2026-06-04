@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: 611
 ht-degree: 2%
 
 ---
@@ -76,12 +76,6 @@ Você pode receber notificações por email do Workfront Planning quando os segu
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Exibir ou aumentar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
-   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>
@@ -162,7 +156,7 @@ OLD:
 
 ## Gerenciar notificações por email quando alguém adicionar uma tag a você em um comentário
 
-1. (Condicional e opcional) Depois que alguém marcar você ou sua equipe em um comentário em um registro, acesse a notificação por email que informa você sobre a tag e o comentário. O remetente do email é o Adobe Experience Cloud.
+1. (Condicional e opcional) Depois que alguém marcar você ou sua equipe em um comentário em um registro, acesse a notificação por email que informa você sobre a tag e o comentário. O remetente do email é a Adobe Experience Cloud.
 
    ![Exemplo de notificações por email](assets/email-notification-example.png)
 

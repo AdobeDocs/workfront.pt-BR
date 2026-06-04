@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 721
 ht-degree: 2%
 
 ---
@@ -100,13 +100,7 @@ Este artigo descreve como você pode copiar um link para a página de um registr
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>  <p>Exiba ou aumente as permissões para um espaço de trabalho e tipo de registro para compartilhar um registro usando um link</p>
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
-   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
-</td>
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
