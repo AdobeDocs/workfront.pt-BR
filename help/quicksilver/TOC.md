@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: e94f01963995e80853fa1492cf2d23d811fc9373
+source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
 workflow-type: tm+mt
-source-wordcount: '14165'
+source-wordcount: '14170'
 ht-degree: 94%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 94%
          * [Aprimoramentos do administrador no terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md)
          * [Aprimoramentos nos documentos do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
          * [Melhorias no gerenciamento financeiro do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md)
+         * [Aprimoramentos na página inicial do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md)
          * [Melhorias na emissão de relatórios no terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
          * [Terceiro trimestre de 2026 Solicitando melhorias](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
          * [Terceiro trimestre de 2026 Outras melhorias](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md)
@@ -969,7 +970,7 @@ ht-degree: 94%
       * [Gerenciar formulários personalizados anexados a objetos](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Usar notificações {#use-notifications}
       * [Usar notificações: índice de artigos](workfront-basics/using-notifications/use-notifications.md)
-      * {hide-from-toc}[Visão Geral das Notificações do Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
+      * {hide-from-toc}[Visão geral das notificações da Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [Visão geral das notificações](workfront-basics/using-notifications/wf-notifications.md)
       * [Modificar as próprias notificações por email](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Assinar itens no Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)

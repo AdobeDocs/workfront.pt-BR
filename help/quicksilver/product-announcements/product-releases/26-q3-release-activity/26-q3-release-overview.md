@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1548'
 ht-degree: 19%
 
 ---
@@ -18,7 +18,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do terceiro trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -38,6 +38,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 * [Aprimoramentos do administrador](#administrator-enhancements)
 * [Aprimoramentos de documentos](#documents-enhancements)
 * [Aprimoramentos do Financial Management](#financial-management-enhancements)
+* [Aprimoramentos na página inicial](#home-enhancements)
 * [Aprimoramentos nos relatórios](#reporting-enhancements)
 * [Aprimoramentos nas solicitações](#requesting-enhancements)
 * [Outros aprimoramentos](#other-enhancements)
@@ -164,6 +165,30 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><p>21 de maio de 2026</p></td>
             <td><p>21 de maio de 2026</p></td>
             <td><p>21 de maio de 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Aprimoramentos na página inicial
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Recurso</strong>
+            </td>
+            <td><strong>Pré-visualização</strong></td>
+            <td><strong>Lançamento rápido</strong></td>
+            <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md" class="MCXref xref" xrefformat="{para}">Usar visualizações e dados personalizados em Prioridades</a><p></p>
+                <p>O recurso Prioridades agora permite o uso de dados personalizados nas colunas. Abra o gerenciador de colunas na lista de trabalho para adicionar campos personalizados que você deseja ver nos dados da coluna.</p>
+            </td>
+            <td><p>4 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>16 de julho de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -348,7 +373,7 @@ Para obter mais informações, consulte [Introdução à avaliação gratuita do
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
