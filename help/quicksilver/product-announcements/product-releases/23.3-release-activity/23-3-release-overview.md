@@ -5,12 +5,18 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/N2DV4OpcwawQInVKDxPgOgg-Rf6Vk9fSxLqmCyXhGuI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2799'
-ht-degree: 8%
+source-wordcount: 2948
+ht-degree: 5%
 
 ---
 
@@ -74,7 +80,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 22 de junho de 2023</p>
+                                <p>Versão de pré-visualização: 22 de junho de 2023</p>
                             </li>
                             <li>
                                 <p>Versão de produção: com a versão 23.3</p>
@@ -90,7 +96,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 4 de maio de 2023</p>
+                                <p>Versão de pré-visualização: 4 de maio de 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Versão de produção: 18 de maio de 2023</span></p>
@@ -106,7 +112,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sábado, 21 de julho de 2023</p>
+                                <p>Versão de pré-visualização: 21 de julho de 2023</p>
                             </li>
                             <li>
                                 <p>Versão de produção: 21 de julho de 2023</p>
@@ -141,7 +147,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 29 de junho de 2023</p>
+                                <p>Versão de pré-visualização: 29 de junho de 2023</p>
                             </li>
                             <li>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
@@ -157,7 +163,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 22 de junho de 2023</p>
+                                <p>Versão de pré-visualização: 22 de junho de 2023</p>
                             </li>
                             <li>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
@@ -205,7 +211,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 15 de junho de 2023</p>
+                                <p>Versão de pré-visualização: 15 de junho de 2023</p>
                             </li>
                             <li>
                                  <p>Versão de produção para aceitação antecipada: 22 de junho de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente por meio da aceitação antecipada de recursos para Workfront Boards.</span></p>
@@ -222,7 +228,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sábado, 19 de maio de 2023</p>
+                                <p>Versão de pré-visualização: 19 de maio de 2023</p>
                             </li>
                             <li>
                                  <p><span class="preview">Versão de produção: 19 de maio de 2023</span></p>
@@ -238,7 +244,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: quinta-feira, 10 de maio de 2023<br /></p>
+                                <p>Versão de pré-visualização: 10 de maio de 2023<br /></p>
                             </li>
                             <li>
                                  <p>Versão de produção para aceitação antecipada: 10 de maio de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente por meio da aceitação antecipada de recursos para Workfront Boards.</span></p>
@@ -255,7 +261,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 27 de abril de 2023<br /></p>
+                                <p>Versão de pré-visualização: 27 de abril de 2023<br /></p>
                             </li>
                             <li>
                                  <p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente por meio da aceitação antecipada de recursos para Workfront Boards.</span></p>
@@ -272,7 +278,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 20 de abril de 2023<br /></p>
+                                <p>Versão de pré-visualização: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
                                  <p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente por meio da aceitação antecipada de recursos para Workfront Boards.</span></p>
@@ -289,7 +295,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 20 de abril de 2023<br /></p>
+                                <p>Versão de pré-visualização: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
                                  <s><p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente por meio da aceitação antecipada de recursos para Workfront Boards.</span></p></s>
@@ -308,7 +314,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 20 de abril de 2023<br /></p>
+                                <p>Versão de pré-visualização: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Versão de produção para todos os clientes: 27 de abril de 2023</span></p>
@@ -324,7 +330,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 13 de abril de 2023<br /></p>
+                                <p>Versão de pré-visualização: 13 de abril de 2023<br /></p>
                             </li>
                             <li>
                                  <p>Versão de produção para aceitação antecipada: 13 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente através da aceitação antecipada de recursos para placas Workfront.</p>
@@ -360,7 +366,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 29 de junho de 2023</p>
+                                <p>Versão de pré-visualização: 29 de junho de 2023</p>
                             </li>
                             <li>
                                 <p>Versão de produção para clientes da versão rápida: a ser anunciada, após a versão de produção 23.3</p>
@@ -463,7 +469,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 11 de maio de 2023</p>
+                                <p>Versão de pré-visualização: 11 de maio de 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Versão de produção: 24 de maio de 2023</span></p>
@@ -479,7 +485,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: quinta-feira, 10 de maio de 2023</p>
+                                <p>Versão de pré-visualização: 10 de maio de 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Versão de produção: 10 de maio de 2023</span></p>
@@ -495,7 +501,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: quinta-feira, 10 de maio de 2023</p>
+                                <p>Versão de pré-visualização: 10 de maio de 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Versão de produção: 10 de maio de 2023</span></p>
@@ -511,7 +517,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 27 de abril de 2023</p>
+                                <p>Versão de pré-visualização: 27 de abril de 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Versão de produção: 27 de abril de 2023</span></p>
@@ -563,7 +569,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sexta-feira, 22 de junho de 2023<br /></p>
+                                <p>Versão de pré-visualização: 22 de junho de 2023<br /></p>
                             </li>
                             <li>
                                 <p>Versão de produção: com a versão 23.3</p>
@@ -633,7 +639,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: sábado, 23 de junho de 2023</p>
+                                <p>Versão de pré-visualização: 23 de junho de 2023</p>
                             </li>
                             <li>
                                 <p>Versão de produção: com a versão 23.3</p>
@@ -715,7 +721,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão preliminar: terça-feira, 5 de junho de 2023<br /></p>
+                                <p>Versão de pré-visualização: 5 de junho de 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Versão de produção: 5 de junho de 2023</span></p>
@@ -764,9 +770,9 @@ Novos recursos chegando à versão do Workfront Goals dentro do período da vers
 
 ### API versão 16
 
-Para a versão 16 da API, modificamos alguns recursos e pontos de acesso. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+Para a API versão 16, modificamos alguns recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
-Para obter informações sobre as novidades e atualizações, consulte [Novidades na versão 16 da API](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 Para obter informações sobre as versões da API, consulte [controle de versão da API e cronograma de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -776,7 +782,7 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 
 ### Atualizações de treinamento
 
-Explore as últimas atualizações feitas nos programas de aprendizagem, caminhos de aprendizagem, vídeos e guias para cada versão do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página de tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
+Explore as últimas atualizações feitas nos programas de aprendizagem, caminhos de aprendizagem, vídeos e guias para cada versão do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página de tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
 ### Funcionalidade que será removida em breve do Workfront
 

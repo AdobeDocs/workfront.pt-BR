@@ -1,18 +1,24 @@
 ---
-title: 23.3 Outras melhorias
-description: 23.3 Outras melhorias
+title: Outros aprimoramentos na 23.3
+description: Outros aprimoramentos na 23.3
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+TQID: https://experienceleague.adobe.com/s8ynESiXXqNKhf0pGTyVkcgm30-cNj-ileaUsQOXnAs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 0%
+source-wordcount: 441
+ht-degree: 2%
 
 ---
 
-# 23.3 Outras melhorias
+# Outros aprimoramentos na 23.3
 
 Esta página descreve todas as outras melhorias feitas com a versão 23.3 do. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
@@ -31,7 +37,7 @@ Nova casa é um novo recurso importante que estamos animados para continuar a de
 A Nova página inicial será a experiência padrão para todos os usuários após o lançamento. No entanto, você pode optar por reverter para a experiência da Página inicial existente, à medida que continuamos desenvolvendo seus recursos.
 
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3420969/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## Nova experiência de comentários para objetos adicionais
 

@@ -7,9 +7,12 @@ description: Esta página descreve todas as melhorias feitas na versão 23.1 do 
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/-ilB35Fvr1FF937vPOfsw0UHkAVu98-VU39sX5W47iQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -42,4 +45,4 @@ Compartilhar, editar, excluir ou copiar uma meta é semelhante à maneira como v
 
 Para obter mais informações sobre o Workfront Goals, consulte os artigos disponíveis na área [Adobe Workfront Goals: article index](/help/quicksilver/workfront-goals/workfront-goals.md) da Documentação do Workfront.
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3413327/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3413327/){target=_blank}

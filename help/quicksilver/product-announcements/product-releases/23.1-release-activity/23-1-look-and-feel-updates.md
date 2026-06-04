@@ -6,14 +6,20 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e16e54ee-b74d-495a-9e1b-f5c429458772
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/EM7pCXVVHnpT-IylS4arAJRvyE7xrIenWdjfEYzb80s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 3%
+source-wordcount: 751
+ht-degree: 4%
 
 ---
 
-# Atualizações de aparência durante o período de lançamento da versão 23.1
+# Atualizações de aparência e funcionalidade durante o período da versão 23.1
 
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período da versão 23.1. Essas melhorias serão disponibilizadas no ambiente de Produção no mínimo 2 semanas após o lançamento para Pré-visualização.
 

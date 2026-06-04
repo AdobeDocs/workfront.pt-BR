@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Final do Beta 2017.2
+title: 2017.2 Beta Final
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 28 de junho de 2017. Ele estará disponível no ambiente de Produção em 26 de julho de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 768e9aad-d7e7-4a3c-9f93-926cf588ddc7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/7tfTmpf1SXBHaK8rlrRGMLI-ikA-w6jqmQhMlVkKawQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2314'
-ht-degree: 0%
+source-wordcount: 2332
+ht-degree: 1%
 
 ---
 
-# Final do Beta 2017.2
+# 2017.2 Beta Final
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 28 de junho de 2017. Ele estará disponível no ambiente de Produção em 26 de julho de 2017.
 
@@ -35,12 +41,12 @@ A versão final do Beta 2017.2 contém melhorias para administradores do Workfro
 
 **Para Todos Os Usuários:**
 
-* [Planejador de recursos](#resource-planner)
+* [Planejamento de recursos](#resource-planner)
 * [Nova Área de Agendamento em um Projeto (Team Builder)](#new-scheduling-area-in-a-project-team-builder)
 * [Agendamento de Recursos: Mostrar Menos Itens por Padrão](#resource-scheduling-show-fewer-items-by-default)
 * [Agendamento de Recursos: Exibir Indicador de Descarte e Superalocação ao Arrastar Tarefas e Problemas](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
 * [Agendamento De Recursos: As Alocações De Usuários Não São Mais Arredondadas Para A Próxima Meia-Hora](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
-* [Exportar o Relatório de Utilização em Formatos TSV e PDF](#export-the-utilization-report-in-tsv-and-pdf-formats)
+* [Exportar o Relatório de Utilização nos Formatos TSV e PDF](#export-the-utilization-report-in-tsv-and-pdf-formats)
 * [Final do Beta 2017.2](#user-calendar-enhancements-in-the-my-work-area%22)
 * [Final do Beta 2017.2](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
 * [A decisão de prova é exibida em Minha área de trabalho (Workfront)](#proof-decision-displays-in-the-my-work-area-workfront)
@@ -117,7 +123,7 @@ Agora você pode acessar o sombreamento de alocação de usuários por meio da A
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../../../wf-api/api/access-proj-allocation-info-api.md" class="MCXref xref" xrefformat="{para}">Access Project Allocation Information via the API</a>.</p>
 -->
 
-## Exportar o relatório de utilização em formatos TSV e PDF {#export-the-utilization-report-in-tsv-and-pdf-formats}
+## Exportar o relatório de utilização nos formatos TSV e PDF {#export-the-utilization-report-in-tsv-and-pdf-formats}
 
 Agora é possível exportar o relatório de Utilização de um projeto nos formatos TSV e PDF, além do formato XLSX.
 
@@ -155,7 +161,7 @@ Para obter mais informações, consulte
 
 ## Determine a disponibilidade do visualizador da prova de vídeo do HTML5 (ProofHQ e Workfront) {#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront}
 
-Como administrador do Workfront no ProofHQ, você pode determinar se os usuários em sua organização têm acesso ao novo visualizador do ProofHQ HTML5 para provas em vídeo.
+Como administrador do Workfront no ProofHQ, você pode determinar se os usuários em sua organização têm acesso ao novo visualizador do HTML5 Proof para provas em vídeo.
 
 Para obter mais informações sobre como configurar essa opção no Workfront, consulte em .
 
@@ -171,13 +177,13 @@ Para obter mais informações, consulte [Criação de um Modo de Exibição Pers
 
 Por padrão, os dados exibidos na guia Relatórios incluem todas as informações do sistema ProofHQ. Agora você pode usar filtros para mostrar apenas as informações relevantes às suas necessidades. 
 
-Para obter mais informações, consulte [Filtrar relatórios](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) em  [Executar Relatórios no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Para obter mais informações, consulte [Filtrar Relatórios](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) em [Executar Relatórios no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Exibir valores mínimo e máximo em relatórios (ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 Agora é possível configurar se os valores mínimo e máximo serão exibidos no gráfico ao exibir relatórios.
 
-Para obter mais informações, consulte [Exibindo Relatórios](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) em  [Executar Relatórios no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Para obter mais informações, consulte [Exibir Relatórios](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) em [Executar Relatórios no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Suporte a certificados SHA-256 para SAML 2.0 {#support-sha-256-certificates-for-saml-2-0}
 
@@ -212,7 +218,7 @@ Você verá a seguinte funcionalidade adicionada nos aplicativos móveis, para a
 
 Haverá um programa beta público para alguns desses recursos para a plataforma Android.
 
-Para obter mais informações sobre o próximo programa beta para dispositivos móveis, consulte a  Página [&quot;Betas&quot;](https://support.workfront.com/hc/en-us/sections/115000743248).
+Para obter mais informações sobre o próximo programa beta para dispositivos móveis, consulte a página [&quot;Betas&quot;](https://support.workfront.com/hc/en-us/sections/115000743248).
 
 Para obter mais informações sobre como usar o aplicativo móvel do Workfront, consulte .  
 
@@ -221,7 +227,7 @@ Para obter mais informações sobre como usar o aplicativo móvel do Workfront, 
 Ao criar um filtro no modo de texto e filtrar valores de campo que contenham vírgulas, você deve adicionar uma barra (&quot;/&quot;) antes das vírgulas que separam os valores, para garantir que o valor seja lido como uma opção de filtro. Isso se aplica somente aos seguintes tipos de campo:
 
 * Menus suspensos
-* Botões de seleção
+* Botões de opção
 * Caixa de Seleção
 
 Antes dessa alteração, não era possível filtrar por campos que tinham opções que continham vírgulas.

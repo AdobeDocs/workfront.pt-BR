@@ -6,9 +6,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: 873
 ht-degree: 1%
 
 ---
@@ -53,12 +56,12 @@ O campo Horas efetivas visível na seção Detalhes do projeto, tarefas e proble
 >[!IMPORTANT]
 >
 >Dependendo de quando as horas foram registradas, pode haver uma discrepância entre as Horas Reais e as Horas Reais Herdadas para um projeto, tarefa ou problema.<br>
->Existem os seguintes cenários:
+>Os seguintes cenários existem:
 >
 >* As horas reais representam horas registradas para projetos, tarefas e problemas desde maio de 2021.
 >* As Horas Reais Herdadas representam horas registradas para projetos, tarefas e problemas durante a vida útil do projeto, tarefa ou problema. Isso inclui horas registradas antes de maio de 2021 até a hora atual.
-><br>Talvez seja necessário atualizar os relatórios para refletir o novo campo e seus valores.
-><br>O Workfront usa Horas Reais Herdadas para calcular Custos Reais do Trabalho.
+><br>Talvez seja necessário atualizar seus relatórios para refletir o novo campo e seus valores.
+><br>O Workfront usa as Horas Reais Herdadas para calcular os Custos Reais do Trabalho.
 
 Para obter informações, consulte [Exibir Horas Efetivas](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 

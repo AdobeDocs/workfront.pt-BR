@@ -7,11 +7,17 @@ description: Os relatórios fornecem visibilidade sobre o que está acontecendo 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/36hlWb4SKgHqZCt70lm6rt7l2V-qzpisXj6HJJUf9XQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3292'
+source-wordcount: 3259
 ht-degree: 1%
 
 ---
@@ -179,7 +185,7 @@ A guia Detalhes de um relatório exibe o objeto dos relatórios e os atributos e
 >[!IMPORTANT]
 >
 >As informações na guia Detalhes podem ser exibidas de forma diferente da guia Gráfico com base no fuso horário.\
->Por exemplo, um usuário na Califórnia concluiu uma tarefa às 21:00 PST em 12 de fevereiro. :30 Quando um usuário em Nova York visualiza um relatório que inclui a conclusão dessa tarefa, a Data de conclusão real é exibida como 13 de fevereiro na guia Detalhes e nos detalhes do Gráfico porque foi concluída às 12:30 am EST em 13 de fevereiro. No entanto, no gráfico, ele é incluído no agrupamento de 12 de fevereiro até que você expanda o elemento do gráfico.
+>Por exemplo, um usuário na Califórnia concluiu uma tarefa às 21:00 PST em 12 de fevereiro. :30Quando um usuário em Nova York visualiza um relatório que inclui a conclusão dessa tarefa, a Data de conclusão real é exibida como 13 de fevereiro na guia Detalhes e nos detalhes do Gráfico porque foi concluída às 12:30 am EST em 13 de fevereiro. No entanto, no gráfico, ele é incluído no agrupamento de 12 de fevereiro até que você expanda o elemento do gráfico.
 
 ### Guia Resumo {#summary-tab}
 
@@ -208,7 +214,7 @@ Considere incluir um gráfico em seus relatórios para obter painéis impactante
 >[!IMPORTANT]
 >
 >Ao clicar em um elemento de gráfico, as informações expandidas podem ser exibidas de forma diferente do gráfico com base no seu fuso horário.\
->Por exemplo, um usuário na Califórnia concluiu uma tarefa às 21:00 PST em 12 de fevereiro. :30 Quando um usuário em Nova York visualiza um relatório que inclui a conclusão dessa tarefa, a Data de conclusão real é exibida como 13 de fevereiro na guia Detalhes e nos detalhes do Gráfico porque foi concluída às 12:30 am EST em 13 de fevereiro. No entanto, no gráfico, ele é incluído no agrupamento de 12 de fevereiro até que você expanda o elemento do gráfico.
+>Por exemplo, um usuário na Califórnia concluiu uma tarefa às 21:00 PST em 12 de fevereiro. :30Quando um usuário em Nova York visualiza um relatório que inclui a conclusão dessa tarefa, a Data de conclusão real é exibida como 13 de fevereiro na guia Detalhes e nos detalhes do Gráfico porque foi concluída às 12:30 am EST em 13 de fevereiro. No entanto, no gráfico, ele é incluído no agrupamento de 12 de fevereiro até que você expanda o elemento do gráfico.
 
 Para obter informações sobre como criar um relatório com um gráfico, consulte o artigo [Adicionar um gráfico a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
@@ -311,7 +317,7 @@ Os termos a seguir são usados em referência aos relatórios do Workfront:
     <ul> 
      <li>Coluna</li> 
      <li>Barra</li> 
-     <li>Pizza </li> 
+     <li>Pizza</li> 
      <li>Linha</li> 
      <li>Medidor</li> 
      <li>Bolha</li> 

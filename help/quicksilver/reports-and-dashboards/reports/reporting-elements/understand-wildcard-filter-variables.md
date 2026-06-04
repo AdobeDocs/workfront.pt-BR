@@ -7,11 +7,16 @@ description: Ao usar curingas em filtros, você pode fazer referência a um usu�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Kk2XDKuc0l9hpI9YhlZGOimaYuBE76O2D8oAWAGqYRc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: 1469
 ht-degree: 100%
 
 ---
@@ -175,7 +180,7 @@ Você pode escolher entre as seguintes variáveis baseadas no usuário:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.name</strong> </p> </td> 
-   <td> <p>A variável $$USER.name se refere ao nome completo do usuário conectado.</p> <p>Observação:   <p>Essa variável de curinga funciona somente ao modificar um filtro no modo de texto. Não é possível usar esse curinga em filtros que não são compatíveis com o modo de texto. Por exemplo, não é possível usar esse curinga nos filtros nas seguintes áreas:</p> 
+   <td> <p>A variável $$USER.name se refere ao nome completo do usuário conectado.</p> <p>Observação:   <p>Essa variável de curinga funciona somente ao modificar um filtro no modo de texto. Não é possível usar esse curinga em filtros que não são compatíveis com o modo de texto. Por exemplo, não é possível usar esse curinga nos filtros nas seguintes áreas:</p> 
      <ul> 
       <li> <p>Planejador de recursos</p> </li> 
       <li> <p>Balanceador de carga de trabalho</p> </li> 

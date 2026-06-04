@@ -3,19 +3,23 @@ product-previous: enterprise-scenario-planner
 content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: scenario-planner-release-activity
-title: Planejador de cenário do Workfront com a versão 20.3 - 14 de agosto de 2020
+title: Planejador de cenário do Workfront na versão 20.3 - 14 de agosto de 2020
 description: O Planejador de cenários do Workfront está disponível com a versão 20.3 para produção somente com a nova experiência do Adobe Workfront.
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/EnH-8yrOK9Z3bsenHBWr7WPxUVCkSi3lvqoTbuFL9IM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 0%
+source-wordcount: 274
+ht-degree: 7%
 
 ---
 
-# Planejador de cenário do Workfront com a versão 20.3 - 14 de agosto de 2020
+# Planejador de cenário do Workfront na versão 20.3 - 14 de agosto de 2020
 
 O Planejador de cenários do Workfront está disponível com a versão 20.3 para produção somente com a nova experiência do Adobe Workfront.
 

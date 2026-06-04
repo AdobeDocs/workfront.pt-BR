@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Aprimoramentos de revisão 2019.2
+title: Aprimoramentos na revisão na 2019.2
 description: Esta página descreve todas as melhorias de Provas incluídas na versão 2019.2. A funcionalidade está planejada para estar disponível no ambiente de Produção na semana de 20 de maio de 2019.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: e8b67a10-1c9a-427e-96d5-0bcee47333f3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/FcN7LffeTY6SeNxt3laTGDubTW9fQhaU2FhHCc-lVTk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: 369
+ht-degree: 2%
 
 ---
 
-# Aprimoramentos de revisão 2019.2
+# Aprimoramentos na revisão na 2019.2
 
 Esta página descreve todas as melhorias de Provas incluídas na versão 2019.2. A funcionalidade está planejada para estar disponível no ambiente de Produção na semana de 20 de maio de 2019.
 

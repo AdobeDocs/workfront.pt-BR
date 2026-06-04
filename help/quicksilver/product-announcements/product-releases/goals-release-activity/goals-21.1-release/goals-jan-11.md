@@ -1,14 +1,17 @@
 ---
-title: Atividade de lançamento do Adobe Workfront Goals 21.1:&nbsp;Semana de 11 de janeiro de 2021
-description: Atividade de lançamento do Adobe Workfront Goals 21.1:&nbsp;Semana de 11 de janeiro de 2021
+title: 'Atividade de lançamento do Adobe Workfront Goals 21.1: &nbsp;Semana de 11 de janeiro de 2021'
+description: 'Atividade de lançamento do Adobe Workfront Goals 21.1: &nbsp;Semana de 11 de janeiro de 2021'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 9898531c-f520-46ed-8943-0878e5193a33
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+TQID: https://experienceleague.adobe.com/22mMyIr-ezmtfD6pkPhmn-0n04x2K6hwMtASaE--zRA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 0%
+source-wordcount: 607
+ht-degree: 1%
 
 ---
 
@@ -54,7 +57,7 @@ Para incorporar alguns dos comentários que recebemos de você, fizemos melhoria
 Para obter informações sobre como adicionar e editar resultados, consulte os seguintes artigos:
 
 * [Adicionar resultados às metas nas Metas do Adobe Workfront](../../../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Editar resultados e atividades no Adobe Workfront Goals](../../../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+* [Editar resultados e atividades nas Metas do Adobe Workfront](../../../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 ## Seção Alinhamento de meta reprojetada
 

@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Visualização 3 do R1
+title: Prévia 3 da R1
 description: Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão R1.3. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 1 de fevereiro de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/--RlYylhPcyb6lNrf8RuuC-87lrw88NlAms6EfmGRWo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: 1353
 ht-degree: 2%
 
 ---
 
-# Visualização 3 do R1
+# Prévia 3 da R1
 
 Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão R1.3. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 1 de fevereiro de 2017.
 
@@ -28,7 +34,7 @@ Além disso, a ação de autorizar um provedor de documentos antes de vincular a
 
 Antes dessas alterações, a opção para vincular arquivos de uma origem externa estava localizada na caixa de diálogo Adicionar documentos na área Documentos. Antes de vincular um documento de uma fonte externa pela primeira vez, o usuário que vincula o documento tinha que autorizar esse provedor de documentos na área Configuração.
 
-Para obter mais informações, consulte  [Vincular documentos de aplicativos externos](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Para obter mais informações, consulte [Vincular documentos de aplicativos externos](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Calendário de trabalho da equipe atualizado
 
@@ -116,7 +122,7 @@ As áreas a seguir não mostram o nome atualizado dos objetos:
 * Planejador de Capacidade
 * Grade de Recursos
 * Construtor de Equipe
-* Otimizador de Portfolio 
+* Portfolio Otimizer 
 * Aplicativos móveis
 * Suplemento do Outlook
 
@@ -129,7 +135,7 @@ Agora você pode incluir os seguintes campos ao criar ou modificar relatórios:
 * Data de início do caminho de aprovação
 * Data de conclusão do caminho de aprovação
 
-Esses campos permitem ter informações sobre quando o caminho de aprovação atual ou mais recente foi iniciado e quando foi marcado como Concluído.
+Esses campos permitem que você informe ao insight quando o caminho de aprovação atual ou mais recente foi iniciado e quando foi marcado como Concluído.
 
 Para obter mais informações sobre esses campos, consulte [Glossário da terminologia do Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

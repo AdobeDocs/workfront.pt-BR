@@ -5,16 +5,19 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1559312e-2e51-4075-b9a9-923211abd125
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+TQID: https://experienceleague.adobe.com/dt9gx3rKukfu7eskVEOoOh9QGXjFT-cIMtc3AZnqrjs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 0%
+source-wordcount: 133
+ht-degree: 9%
 
 ---
 
 # Aprimoramentos na integração do quarto trimestre de 2024
 
-Esta página descreve todas as melhorias de integração feitas com a versão do quarto trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todas as melhorias de integração feitas com a versão do quarto trimestre de 2024 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2024, consulte [Visão geral da versão do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 

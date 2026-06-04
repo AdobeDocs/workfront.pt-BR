@@ -1,20 +1,24 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão 2017.3 do Beta 2
+title: Atividade de lançamento da versão 2017.3 Beta 2
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.3 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 23 de agosto de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f3293166-ef91-4623-828b-9530d746296d
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/CtGQZMxSWimi-9K73442-rUmpyPcqNh0EQ6MNaBNtns
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 0%
+source-wordcount: 831
+ht-degree: 1%
 
 ---
 
-# Atividade da versão 2017.3 do Beta 2
+# Atividade de lançamento da versão 2017.3 Beta 2
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.3 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 23 de agosto de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
 
@@ -22,7 +26,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2017.3, consulte  Visão geral da atividade da versão [2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2017.3, consulte a [visão geral da atividade da versão 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 A versão 2017.3 do Beta 2 contém melhorias para administradores do Workfront e outros usuários:
 
@@ -61,7 +65,7 @@ Antes dessa alteração, não era possível ver se um relatório estava listado 
 
 Agora é possível filtrar o conteúdo exibido em um Relatório de utilização em um projeto.
 
-Para obter mais informações, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) em  [Visão geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obter mais informações, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) em [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Exibir Informações sobre Custo no Relatório de Utilização de um Projeto {#view-cost-information-in-the-utilization-report-on-a-project}
 
@@ -69,7 +73,7 @@ Agora é possível exibir informações sobre custos no relatório de utilizaç�
 
 Antes dessa alteração, somente as informações de hora estavam disponíveis no relatório de utilização.
 
-Para obter mais informações, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) em  [Visão geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obter mais informações, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) em [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Assinatura e Cancelamento de Assinatura de Usuários para Itens {#subscribing-and-unsubscribing-users-to-items}
 
@@ -79,7 +83,7 @@ Quando você assina ou cancela a assinatura de um usuário em um item, um regist
 
 Depois de assinado, o usuário recebe uma notificação no aplicativo sempre que um comentário é feito no fluxo de atualização do objeto assinado. Além disso, o assinante pode optar por receber notificações por email e por dispositivos móveis.
 
-Para saber mais sobre assinatura e cancelamento de assinatura de usuários em objetos, [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) em   [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
+Para saber mais sobre assinatura e cancelamento de assinatura de usuários em objetos, [Inscreva-se em itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) em [Inscreva-se em itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
 
 ## Exibindo a Lista de Assinantes em um Relatório ou View {#viewing-the-subscriber-list-in-a-report-or-view}
 
@@ -89,7 +93,7 @@ Para saber mais sobre assinatura e cancelamento de assinatura de usuários em ob
 
 A aparência dos emails de comunicação foi atualizada, fornecendo muito mais contexto às comunicações feitas em um objeto. Agora é possível seguir rapidamente uma thread de comentários e visualizar quem está incluído nas comunicações.
 
-Para obter mais informações, consulte [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md) em  [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Para obter mais informações, consulte [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md) em [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Restringir o acesso a fluxos de trabalho por ativação de preparo (Workfront Proof) {#restrict-access-to-workflows-by-stage-activation-workfront-proof}
 

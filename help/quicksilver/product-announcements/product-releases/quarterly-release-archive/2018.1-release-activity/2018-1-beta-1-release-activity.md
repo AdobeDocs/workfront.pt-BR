@@ -1,20 +1,23 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão 2018.1 do Beta 1
+title: Atividade de lançamento da versão 2018.1 Beta 1
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 1. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 1 de dezembro de 2017. Ele estará disponível no ambiente de Produção em março de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efcc2217-ab69-4ac4-8e9a-f811eba77d49
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/-BFykQtqXROGYgeh8eOtpfqQsMIAn0yfQIAy-1KflGw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 0%
+source-wordcount: 1055
+ht-degree: 1%
 
 ---
 
-# Atividade da versão 2018.1 do Beta 1
+# Atividade de lançamento da versão 2018.1 Beta 1
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 1. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 1 de dezembro de 2017. Ele estará disponível no ambiente de Produção em março de 2018.
 
@@ -22,7 +25,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.1, consulte  Visão geral da atividade da versão [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.1, consulte a [visão geral da atividade da versão 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 A versão 2018.1 do Beta 1 contém melhorias para administradores do Workfront e outros usuários:
 

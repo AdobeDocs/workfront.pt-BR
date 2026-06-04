@@ -5,10 +5,13 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c1484bec-e38a-44a2-aa0c-ec92ad10185d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/N-bcrKom3F2cHe1QqC-0LFTQsnAG7fRTEqMR8z4lRvg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 0%
+source-wordcount: 455
+ht-degree: 4%
 
 ---
 
@@ -30,7 +33,7 @@ Nesta versão, o processo de aprovação foi simplificado para a criação de ap
 
 Para obter mais informações sobre como usar as novas aprovações de documentos, consulte [Visão geral das Novas Aprovações de Documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3424867){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3424867){target=_blank}
 
 ## Design atualizado ao adicionar um novo problema a um projeto
 
@@ -50,7 +53,7 @@ Um pequeno número de campos de formulário não terá recálculo dinâmico, em 
 
 Para obter mais informações, consulte [Editar informações em campos de formulário personalizados](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3422678/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3422678/){target=_blank}
 
 ## Definir horas planejadas em tarefas filho recorrentes com tipo de duração Simples sem atribuições
 

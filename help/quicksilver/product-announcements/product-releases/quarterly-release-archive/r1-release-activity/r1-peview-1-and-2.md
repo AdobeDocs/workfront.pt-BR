@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Visualização 1 e 2 do R1
+title: Prévia 1 e 2 da R1
 description: Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com as versões R1.1 e R1.2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 19 de janeiro de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 2%
+source-wordcount: 1024
+ht-degree: 3%
 
 ---
 
-# Visualização 1 e 2 do R1
+# Prévia 1 e 2 da R1
 
 Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com as versões R1.1 e R1.2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 19 de janeiro de 2017.
 
@@ -38,7 +44,7 @@ Antes dessa alteração, as informações sobre as etapas de aprovação estavam
 
 Em projetos, as informações de aprovação são exibidas no cabeçalho ao lado do título do projeto. Em tarefas e problemas, as informações de aprovação são exibidas no painel direito.
 
-Para obter mais informações, consulte [Aprovando trabalho](../../../../review-and-approve-work/manage-approvals/approving-work.md) em  [Aprovando trabalho](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Para obter mais informações, consulte [Aprovando trabalho](../../../../review-and-approve-work/manage-approvals/approving-work.md) em [Aprovando trabalho](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Configurar Objetos a Serem Atualizados que Estão Pendentes de Aprovação
 
@@ -95,7 +101,7 @@ As áreas de notificações a seguir tiveram a opção &quot;Resumo diário&quot
 * Informações sobre Trabalho atribuído a mim
 * Comunicação
 
-Para obter mais informações, consulte [notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  Lembre-se de atualizar o endereço de email associado à sua conta para testar essa funcionalidade, pois a Sandbox de visualização apaga os endereços de email de todos os usuários. 
+Para obter mais informações, consulte [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md). Lembre-se de atualizar o endereço de email associado à sua conta para testar essa funcionalidade, pois a Sandbox de Visualização apaga os endereços de email de todos os usuários. 
 
 ## Tornar um grupo público
 

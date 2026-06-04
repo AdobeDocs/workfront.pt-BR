@@ -1,27 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Visão geral da atividade da versão 2018.2
-description: Visão geral da atividade da versão 2018.2
+title: Visão geral da atividade de lançamento da versão 2018.2
+description: Visão geral da atividade de lançamento da versão 2018.2
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/BpvPAawc1yatEYsfS9YYjjz-6lOzw5-3cgD68D2dQhs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 0%
+source-wordcount: 1158
+ht-degree: 1%
 
 ---
 
-# Visão geral da atividade da versão 2018.2
+# Visão geral da atividade de lançamento da versão 2018.2
 
 >[!NOTE]
 >
 > A versão 18.2 foi disponibilizada no ambiente de Produção nas seguintes datas:
 >
 >* Ambiente de produção do Workfront Proof - terça-feira, 17 de julho
->* Ambiente de produção Workfront para os clusters 2 e 4  - quinta-feira, 19 de julho 
+>* Ambiente de produção Workfront para clusters 2 e 4 - quinta-feira, 19 de julho 
 >* Ambiente de produção Workfront para clusters 1, 3 e 5 - sexta-feira, 20 de julho
 >
 
@@ -202,8 +208,8 @@ Essa funcionalidade inclui:
 
   Para obter mais informações, consulte os seguintes recursos:
 
-   * [Revisando Provas no Visualizador de Provas da Web](https://support.workfront.com/hc/en-us/sections/115000275214)
-   * [Revisando Provas no Visualizador de Provas da Área de Trabalho](https://support.workfront.com/hc/en-us/sections/360000686434)
+   * [Revisar provas no Visualizador de provas da Web](https://support.workfront.com/hc/en-us/sections/115000275214)
+   * [Revisar provas no Visualizador de provas da área de trabalho](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### O Suporte Ao Suplemento Microsoft Outlook Está Terminando {#microsoft-outlook-add-in-support-is-ending}
 
@@ -215,7 +221,7 @@ Ao instalar o novo Workfront para Outlook em qualquer um de seus ambientes, sua 
 
 Use os seguintes recursos para saber mais sobre o Workfront para Outlook e começar a usá-los:
 
-* [Site e vídeo](https://business.adobe.com/br/products/workfront/integrations.html) 
+* [Site e vídeo](https://business.adobe.com/products/workfront/integrations.html) 
 * [Usando o Workfront com o Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (artigo de ajuda)
 
 ### Remoção de versões antigas da API {#removing-old-api-versions}

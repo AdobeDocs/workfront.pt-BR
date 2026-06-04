@@ -1,19 +1,25 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Localizar o Planejador de recursos
+title: Localizar o planejador de recursos
 description: Você pode usar o Planejador de recursos para gerenciar a alocação de seus recursos para projetos. Você pode acessar o Planejador de recursos para vários projetos ao mesmo tempo ou para um projeto, a partir da área Business Case do projeto.
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/-p17GWsoDlmbZtZW3T47YGxOmgSOsMddnFfFXpW36C4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 0%
+source-wordcount: 461
+ht-degree: 9%
 
 ---
 
-# Localizar o Planejador de recursos
+# Localizar o planejador de recursos
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This came off this article: draft that content in the article when this comes live: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)</p>
@@ -23,7 +29,7 @@ Você pode usar o Planejador de recursos para gerenciar a alocação de seus rec
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +65,7 @@ Certifique-se de que todos os pré-requisitos para acessar e trabalhar com o Pla
 
 Para obter informações sobre os pré-requisitos do Planejador de Recursos, consulte [Introdução ao Planejamento de Recursos](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-## Localizar o Planejador de recursos
+## Localizar o planejador de recursos
 
 Você pode localizar o Planejador de recursos em duas áreas do Workfront, dependendo se deseja fazer o orçamento de seus recursos para vários projetos ou para apenas um projeto.
 

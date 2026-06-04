@@ -6,12 +6,18 @@ description: O Adobe Workfront tem uma extensa lista de relatórios integrados p
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qsWpXq8TLawoDqUFF8yl25rLtPeaCqK1YoI5bKuaviU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2978'
-ht-degree: 12%
+source-wordcount: 2996
+ht-degree: 42%
 
 ---
 
@@ -95,11 +101,11 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Receita atual por grupo</td> 
-   <td>Um relatório de Projeto que mostra a Receita Efetiva e o Grupo dos projetos. O relatório é agrupado por Nome do grupo e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra a Receita Efetiva e a Receita Planejada dos projetos. O relatório é agrupado por Nome do grupo e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Todas as planilhas de horas abertas</td> 
-   <td>Um relatório de Planilha de Horas que mostra Planilhas de Horas Abertas. O relatório exibe os seguintes campos: Intervalo de datas, Nome do proprietário, Horas totais, Horas extras, Nome do aprovador e Status das folhas de horas.</td> 
+   <td>Um relatório de planilha de horas que mostra as Planilhas de Horas abertas. O relatório exibe os seguintes campos: Intervalo de datas, Nome do proprietário, Horas totais, Horas extras, Nome do aprovador e Status das folhas de horas.</td> 
   </tr> 
   <tr> 
    <td>Aprovação de planilhas de horas (por seleção)</td> 
@@ -119,7 +125,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Receita faturada por mês</td> 
-   <td>Um relatório de Registro de faturamento que mostra o Nome do Projeto, Receita Faturada do Projeto e Data de Faturamento dos registros de faturamento. O relatório é agrupado pelo mês da Data de faturamento dos registros de faturamento e inclui um gráfico.</td> 
+   <td>Um relatório de Registro de Cobrança que mostra o Nome do Projeto, Receita Faturada do Projeto e Data de Cobrança dos registros de faturamento. O relatório é agrupado pelo mês da Data de faturamento dos registros de faturamento e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Problemas concluídas por semana</td> 
@@ -127,7 +133,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Problemas concluídas por semana e por usuário</td> 
-   <td>Um relatório de Problema que mostra a Data de Término Efetivo e as Atribuições dos problemas. O relatório é agrupado pelo destinatário principal e pela semana da Data de conclusão real das ocorrências, e inclui um gráfico.</td> 
+   <td>Um relatório de Problema que mostra a Data de Término Efetivo e Atribuições dos problemas. O relatório é agrupado pelo destinatário principal e pela semana da Data de conclusão real das ocorrências, e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Projetos Atuais</td> 
@@ -191,7 +197,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Meus Portfólios</td> 
-   <td>Um relatório do Portfolio que mostra Portfólios ativos dos quais o usuário logado é o Portfolio Manager.</td> 
+   <td>Um relatório de Portfólio que mostra Portfólios ativos dos quais o usuário logado é o Gerente de Portfólio.</td> 
   </tr> 
   <tr> 
    <td>Meus Programas</td> 
@@ -219,11 +225,11 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Minhas Problemas não Atribuídos</td> 
-   <td>Um relatório de Problema que mostra problemas abertos atribuídos a qualquer uma das funções de trabalho do usuário logado e que não estão atribuídos ao usuário. O relatório exibe os seguintes campos: Nome do Source, Tipo de Problema, Data de Entrada, Status e Prioridade das ocorrências.</td> 
+   <td>Um relatório de problema que mostra problemas abertos atribuídos a qualquer uma das funções do usuário logado e que não estão atribuídos ao usuário. O relatório exibe os seguintes campos: Nome do Source, Tipo de Problema, Data de Entrada, Status e Prioridade das ocorrências.</td> 
   </tr> 
   <tr> 
    <td>Minhas Tarefas não Atribuídas</td> 
-   <td>Um relatório de Tarefa que mostra tarefas incompletas atribuídas a qualquer uma das funções de trabalho do usuário logado e que não estão atribuídas ao usuário. O relatório exibe os seguintes campos: a Duração Planejada, o Nome do Projeto, o destinatário principal, a Data Inicial Planejada, a Data de Conclusão Planejada, o Percentual de Conclusão e a Prioridade das tarefas.</td> 
+   <td>Um relatório de Tarefa que mostra as tarefas incompletas atribuídas a qualquer uma das funções do usuário logado e que não estão atribuídas ao usuário. O relatório exibe os seguintes campos: a Duração Planejada, o Nome do Projeto, o destinatário principal, a Data Inicial Planejada, a Data de Conclusão Planejada, o Percentual de Conclusão e a Prioridade das tarefas.</td> 
   </tr> 
   <tr> 
    <td>Minhas Próximas Tarefas</td> 
@@ -231,7 +237,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Planilhas de horas abertas (por seleção)</td> 
-   <td>Um relatório de Planilha de Horas que mostra Planilhas de Horas Abertas. O relatório exibe os seguintes campos: Intervalo de datas, Proprietário, Horas totais, Horas extras, Nome do aprovador, Status das folhas de horas. O relatório é solicitado por: Data Inicial da Planilha de Horas, Data Final da Planilha de Horas, Nome do Aprovador da Planilha de Horas e Nome do Usuário.</td> 
+   <td>Um relatório de planilha de horas que mostra as Planilhas de Horas abertas. O relatório exibe os seguintes campos: Intervalo de datas, Proprietário, Horas totais, Horas extras, Nome do aprovador, Status das folhas de horas. O relatório é solicitado por: Data Inicial da Planilha de Horas, Data Final da Planilha de Horas, Nome do Aprovador da Planilha de Horas e Nome do Usuário.</td> 
   </tr> 
   <tr> 
    <td>Projetos acima do Orçamento por Portfólio</td> 
@@ -255,7 +261,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Custos planejados v. reais por Portfólio</td> 
-   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos por Portfolio. O relatório é agrupado por Portfolio Name e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos por Portfólio. O relatório é agrupado por Portfolio Name e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Custos planejados v. reais por programa</td> 
@@ -279,23 +285,23 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Projetos do portfólio agrupados por condição e portfólio</td> 
-   <td>Um relatório de Projeto que mostra o Nome da Portfolio e o Status dos projetos. O relatório é agrupado pelo Nome da Portfolio e o Status dos projetos e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Nome do Portfólio e o Status dos projetos. O relatório é agrupado pelo Nome da Portfolio e o Status dos projetos e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita do Portfólio por Programa</td> 
-   <td>Um relatório de Projeto que mostra o Nome da Portfolio, o Nome do Programa, a Receita Planejada e a Receita Efetiva dos projetos. O relatório é agrupado pelo Nome do Portfolio e pelo Nome do programa e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Nome do Portfólio, o Nome do Programa, a Receita Planejada e a Receita Efetiva dos projetos. O relatório é agrupado pelo Nome do Portfolio e pelo Nome do programa e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita agrupada do Portfolio por programa e por mês</td> 
-   <td>Um relatório de Projeto de matriz que mostra a Receita Planejada, a Receita Efetiva, o Nome da Portfolio e o Nome do Programa. O relatório é agrupado pelo Nome da Portfolio, Nome do programa e o mês da Data de início planejada dos projetos.</td> 
+   <td>Um relatórios de Projeto de matriz que mostra a Receita Planejada, a Receita Efetiva, o Nome do Portfólio e o Nome do Programa. O relatório é agrupado pelo Nome da Portfolio, Nome do programa e o mês da Data de início planejada dos projetos.</td> 
   </tr> 
   <tr> 
    <td>Custos e receitas do projeto por status de tarefa</td> 
-   <td>Um relatórios de Tarefa de matriz que mostra o Custo Planejado, o Custo Efetivo, a Receita Planejada, a Receita Efetiva e o Nome do Projeto das tarefas. O relatório é agrupado pelo Nome do projeto e Status das tarefas.</td> 
+   <td>Um relatórios de Projeto de matriz que mostra o Custo Planejado, o Custo Efetivo, a Receita Planejada, a Receita Efetiva e o Nome do Projeto das tarefas. O relatório é agrupado pelo Nome do projeto e Status das tarefas.</td> 
   </tr> 
   <tr> 
    <td>Custos de projetos v. receitas por Portfólio</td> 
-   <td>Um relatório de Projeto que mostra o Nome Portfolio, o Custo Efetivo e a Receita Efetiva dos projetos. O relatório é agrupado por Portfolio Name e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Nome do Portfólio, o Custo Efetivo e a Receita Efetiva dos projetos. O relatório é agrupado por Portfolio Name e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Despesas de projeto por mês e quartil</td> 
@@ -307,7 +313,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Custo do trabalho e despesas do projeto por mês e por quartil</td> 
-   <td>Um relatório de Projeto de matriz que mostra o Custo de Trabalho Planejado, o Custo de Trabalho Efetivo, o Custo de Despesas Planejado e o Custo Efetivo das Despesas dos projetos. O relatório é agrupado pelo Nome do projeto e pelo trimestre e mês da Data de início efetiva dos projetos.</td> 
+   <td>Um relatórios de Projeto de matriz que mostra o Custo de Trabalho Planejado, o Custo de Trabalho Efetivo, o Custo de Despesas Planejado e o Efetivo dos projetos. O relatório é agrupado pelo Nome do projeto e pelo trimestre e mês da Data de início efetiva dos projetos.</td> 
   </tr> 
   <tr> 
    <td>Desempenho do projeto</td> 
@@ -319,11 +325,11 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Projetos por condição</td> 
-   <td>Um relatório de Projeto que mostra a Condição dos projetos. O relatório é agrupado por Condição e inclui um gráfico.</td> 
+   <td>Um relatórios de Projeto que mostra a Condição dos projetos. O relatório é agrupado por Condição e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Projetos por condição por grupo</td> 
-   <td>Um relatórios de Projeto que mostra o Status do Progresso e o Grupo dos projetos. O relatório é agrupado por Nome do grupo e Status do progresso e inclui um gráfico.</td> 
+   <td>Um relatórios de Projeto que mostra o Status do Progresso: e o Grupo dos projetos. O relatório é agrupado por Nome do grupo e Status do progresso e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Projetos por Prioridade</td> 
@@ -335,7 +341,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Tarefas por status do progresso</td> 
-   <td>Um relatório de Tarefa que mostra o Status do Progresso de todas as Tarefas nos Projetos Atuais. O relatório é agrupado por Status do progresso e inclui um gráfico.</td> 
+   <td>Um relatórios de Tarefa que mostra o Status do Progresso de todas as Tarefas nos Projetos Atuais. O relatório é agrupado por Status do progresso e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Tarefas por status</td> 
@@ -343,11 +349,11 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Planilha de horas para Revisão</td> 
-   <td>Um relatório de Planilha de Horas que mostra planilhas de horas Enviadas e Rejeitadas cujo aprovador é o usuário logado. O relatório exibe os seguintes campos: Intervalo de datas, Proprietário, Horas totais, Horas extras, Nome do aprovador e Status das folhas de horas.</td> 
+   <td>Um rejeitar Planilha de Horas que mostra planilhas de horas Enviadas e Rejeitadas cujo aprovador é o usuário logado. O relatório exibe os seguintes campos: Intervalo de datas, Proprietário, Horas totais, Horas extras, Nome do aprovador e Status das folhas de horas.</td> 
   </tr> 
   <tr> 
    <td>Tarefas com Problemas</td> 
-   <td>Um relatório de Tarefa que mostra tarefas incompletas com um Status do Progresso de Atrasada ou Fora do Cronograma, uma Data de Transferência ates do dia seguinte e onde o usuário logado é parte da Equipe do Projeto do projeto do qual as tarefas fazem parte. O relatório exibe os seguintes campos: Duração planejada, Nome do projeto, destinatário principal, Início planejado, Conclusão planejada, Percentual concluído e Prioridade das tarefas.</td> 
+   <td>Um relatório de Tarefa que mostra tarefas incompletas com um Status do Progresso de Atrasada ou Fora do Cronograma, uma Data de Transferência ates do dia seguinte e na qual o usuário logado é parte da Equipe do Projeto do projeto do qual as tarefas fazem parte. O relatório exibe os seguintes campos: Duração planejada, Nome do projeto, destinatário principal, Início planejado, Conclusão planejada, Percentual concluído e Prioridade das tarefas.</td> 
   </tr> 
   <tr> 
    <td>Logins de Usuário</td> 

@@ -6,9 +6,12 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
+TQID: https://experienceleague.adobe.com/IDspEIEFUjP23bvjd8BWJRdSzBCOFe5TLEJG7sguU5M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: 792
 ht-degree: 1%
 
 ---
@@ -19,7 +22,7 @@ ht-degree: 1%
 
 São necessárias 3 etapas simples:
 
-**Etapa 1**: carregue o arquivo para o Workfront Proof enviando-o por meio de uma solicitação Post para  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Retornaremos o hash do arquivo - isso é muito importante! Observe que, neste momento, você não verá nada em sua conta. Tudo o que você fez até agora foi nos enviar o arquivo, mas não nos disse o que fazer com ele.
+**Etapa 1**: carregue o arquivo para o Workfront Proof enviando-o por meio de uma solicitação Post para [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Retornaremos o hash do arquivo - isso é muito importante! Observe que, neste momento, você não verá nada em sua conta. Tudo o que você fez até agora foi nos enviar o arquivo, mas não nos disse o que fazer com ele.
 
 **Etapa 2**: se você ainda não tiver uma ID de Sessão, obtenha-a usando os métodos doLogin() ou getSessionID(). Use o primeiro para &quot;fazer logon&quot; usando o endereço de email e a senha de um usuário ou o último método se você tiver o endereço de email e o token de autenticação do usuário.
 
@@ -59,7 +62,7 @@ Não é necessário obter uma nova ID de sessão antes de cada chamada para a AP
 
 **Equipe/Público**: cada versão de prova tem uma URL de Equipe (Pública) exclusiva. Se ativado, abrirá a prova no modo somente leitura. Você pode obter a URL da Equipe usando o método [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html).
 
-**Pessoal**: uma URL pessoal é exclusiva para cada revisor e versão de prova. Se um conjunto de prova tiver 3 versões e um revisor estiver em todas as versões, o revisor terá 3 URLs pessoais exclusivos. Um URL pessoal abre a versão de prova com o revisor já identificado e, portanto, deve ser mantido seguro e não compartilhado. É possível obter URLs pessoais chamando o método [getProofReviewed()](https://api.proofhq.com/home/proofs/getproofreviewers.html) e iterando em cada  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) e obtendo o parâmetro &quot;proof_url&quot;.
+**Pessoal**: uma URL pessoal é exclusiva para cada revisor e versão de prova. Se um conjunto de prova tiver 3 versões e um revisor estiver em todas as versões, o revisor terá 3 URLs pessoais exclusivos. Um URL pessoal abre a versão de prova com o revisor já identificado e, portanto, deve ser mantido seguro e não compartilhado. É possível obter URLs pessoais chamando o método [getProofReviewed()](https://api.proofhq.com/home/proofs/getproofreviewers.html) e iterando em cada [SOAPRecrecipientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) e obtendo o parâmetro &quot;proof_url&quot;.
 
 ## >Como incluir parâmetros personalizados ao abrir a miniprova?
 

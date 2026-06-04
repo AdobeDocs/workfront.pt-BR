@@ -5,12 +5,18 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
+TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 7%
+source-wordcount: 512
+ht-degree: 2%
 
 ---
 
@@ -24,9 +30,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 2 de abril de 2026
->Versão rápida de produção: quinta-feira, 15 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Visualização: 2 de abril de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
 
 Para facilitar o benefício da IA no seu trabalho diário, criamos o Colaborador da IA de revisão de conteúdo. O Collaborator é uma maneira de integrar agentes de IA em seus projetos e tarefas. Você pode configurar um Colaborador de IA com diretrizes de marca e, em seguida, atribuí-lo a uma tarefa como faria com um usuário.
 
@@ -38,9 +42,7 @@ Para obter mais informações, consulte [Configurar colaboradores de IA](/help/q
 
 >[!NOTE]
 >
->Visualização: 5 de março de 2026
->Versão rápida de produção: quinta-feira, 15 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Visualização: 5 de março de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
 
 Movemos a área Trimestre personalizado da seção Preferências do projeto. Agora é uma seção independente na Configuração do. 
 Essa atualização inclui o seguinte:
@@ -55,9 +57,7 @@ Para obter informações, consulte [Habilitar trimestres personalizados](/help/q
 
 >[!NOTE]
 >
->Visualização: 26 de fevereiro de 2026
->Versão rápida de produção: sexta-feira, 12 de março de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Visualização: 26 de fevereiro de 2026>Lançamento rápido de produção: 12 de março de 2026>Produção para todos: 16 de abril de 2026
 
 Por padrão, todas as seções em um formulário personalizado são expandidas quando o próprio formulário é expandido. Uma nova opção no designer de formulário personalizado permite marcar uma seção para ser recolhida por padrão quando um usuário abrir o formulário. Essa opção é aplicada no nível da seção, não em campos.
 
@@ -67,9 +67,7 @@ Para obter mais informações, consulte [Organizar e visualizar um formulário](
 
 >[!NOTE]
 >
->Visualização: 29 de janeiro de 2026
->Versão rápida de produção: sexta-feira, 12 de fevereiro de 2026
->Produção para todos: a ser definida
+>Visualização: 29 de janeiro de 2026>Versão rápida de produção: 12 de fevereiro de 2026>Produção para todos: a ser definida
 >
 >Esse recurso foi removido temporariamente do ambiente de Produção do em 13 de fevereiro de 2026.
 

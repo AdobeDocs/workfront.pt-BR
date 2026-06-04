@@ -7,9 +7,15 @@ description: Ao usar o Planejador de recursos da Adobe Workfront, você pode ent
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
+TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: 2411
 ht-degree: 2%
 
 ---
@@ -24,9 +30,9 @@ O Planejador de recursos da Adobe Workfront ajuda você a entender facilmente a 
 >
 >Você não pode gerenciar a alocação de equipes nas tarefas às quais elas estão atribuídas no Planejador de recursos.
 
-Você deve atender aos pré-requisitos necessários para usar totalmente o Planejador de recursos. Para obter mais informações sobre o Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Você deve atender aos pré-requisitos necessários para usar totalmente o Planejador de recursos. Para obter mais informações sobre o planejador de recursos, consulte [Visão geral do planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-![Planejador de recursos](assets/resource-planner-overview.png)
+![Planejamento de recursos](assets/resource-planner-overview.png)
 
 As seções a seguir descrevem todas as áreas do Planejador de Recursos.
 
@@ -60,7 +66,7 @@ Para navegar na linha do tempo, clique nas setas para frente e para trás para a
       <td>Exibe informações por semana.<br>O número da semana é exibido próximo às datas no cabeçalho da coluna. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Mês</td> 
+      <td role="rowheader">Month</td> 
       <td> Exibe informações por mês.</td> 
      </tr> 
      <tr> 
@@ -184,7 +190,7 @@ Considere o seguinte ao selecionar a Exibição de Usuário no Planejador de Rec
    * Quando você não tem permissões para ver os projetos, mas tem acesso para ver as tarefas ou problemas nos projetos, os projetos, tarefas e problemas são listados nos nomes dos usuários atribuídos a eles.
    * Quando você tem permissões para ver os projetos, mas não tem tarefas ou problemas nos projetos, o nome do projeto é exibido e as tarefas e problemas são listados na seção Itens inacessíveis.
 
-     Para obter mais informações, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+     Para obter mais informações, consulte [Visão geral das permissões de compartilhamento de objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 
 * Você pode exibir as seguintes informações de hora e FTE na exibição Usuário:

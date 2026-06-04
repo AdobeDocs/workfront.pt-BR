@@ -1,19 +1,25 @@
 ---
-title: 23.2 Aprimoramentos do administrador
-description: 23.2 Aprimoramentos do administrador
+title: Aprimoramentos de admin na 23.2
+description: Aprimoramentos de admin na 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+TQID: https://experienceleague.adobe.com/xL8MU-Yhd3nI9S-HcTWzCy4akZFe1PZruOlVnyZarTk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: 415
+ht-degree: 2%
 
 ---
 
-# 23.2 Aprimoramentos do administrador
+# Aprimoramentos de admin na 23.2
 
 Esta página descreve todas as melhorias de administrador feitas na versão 23.2 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.2.
 
@@ -25,7 +31,7 @@ Agora, você pode categorizar e encontrar rapidamente ativos com base em dados d
 
 Anteriormente, o mapeamento de dados do Workfront para tags da Experience Manager Assets não estava disponível.
 
-Para obter mais informações sobre esta funcionalidade no Experience Manager Assets as a Cloud Service, [Configure a [!UICONTROL integração as a Cloud Service] do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Para obter mais informações sobre esta funcionalidade no Experience Manager Assets as a Cloud Service, [Configure a [!UICONTROL integração do Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 Para obter mais informações sobre esta funcionalidade no Experience Manager Assets Essentials, [Configure a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -43,7 +49,7 @@ Com o novo designer de formulários, adicionamos a capacidade de
 
 Para obter mais informações, consulte [Visão geral dos formulários personalizados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3416586/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## Renomear pinos no modelo de layout
 
@@ -51,4 +57,4 @@ Agora é possível renomear fixações em um modelo de layout para ter mais sign
 
 Para obter mais informações, consulte [Personalizar páginas fixadas usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Para obter detalhes sobre como os usuários podem renomear suas páginas pessoais fixadas, consulte [Fixar páginas para personalizar seu espaço de trabalho](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3414364/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3414364/){target=_blank}

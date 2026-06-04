@@ -7,10 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97091ac4-f5de-4256-aa24-f96d083ced49
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/j-B0syjTynUyElEvzamXoagAzd8pl4FfutepHohOHPA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 2%
+source-wordcount: 426
+ht-degree: 3%
 
 ---
 
@@ -35,9 +40,9 @@ Para maior comodidade, o webinário é dividido nos seguintes tópicos:
 
 * [Introdução](#introduction)
 * [Gerenciamento de recursos](#resource-management)
-* [Prova](#proofing)
+* [Revisão](#proofing)
 * [Outros aprimoramentos](#other-enhancements)
-* [Celular](#mobile)
+* [Dispositivo móvel](#mobile)
 * [Funcionalidade Sendo Removida](#functionality-being-removed)
 * [Administradores e desenvolvedores](#administrators-and-developers)
 
@@ -73,7 +78,7 @@ Essa parte do webinário contém os seguintes tópicos:
 Essa parte do webinário contém os seguintes tópicos:
 
 * Notificação no aplicativo para aprovação pendente de prova
-* Assinar itens:Tarefas, Problemas, Projetos
+* Assinar Itens:Tasks, Problemas, Projetos
 * Exportar o relatório de utilização como TSV e PDF
 * Meu calendário de trabalho atualizado
 * Melhorias no Gráfico de Gantt

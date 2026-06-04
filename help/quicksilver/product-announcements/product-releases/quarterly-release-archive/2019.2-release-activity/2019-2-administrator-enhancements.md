@@ -1,20 +1,23 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Aprimoramentos do administrador 2019.2
+title: Aprimoramentos de admin na 2019.2
 description: Esta página descreve todas as melhorias de Administrador incluídas na versão 2019.2. A funcionalidade está planejada para estar disponível no ambiente de Produção na semana de 20 de maio de 2019.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 181e764b-a3de-487d-a8b2-008c0d5463e0
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/SCJekEGizY2-c36OhwlnIuQAdh9n1p9FexuebY4umzM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 0%
+source-wordcount: 143
+ht-degree: 4%
 
 ---
 
-# Aprimoramentos do administrador 2019.2
+# Aprimoramentos de admin na 2019.2
 
 Esta página descreve todas as melhorias de Administrador incluídas na versão 2019.2. A funcionalidade está planejada para estar disponível no ambiente de Produção na semana de 20 de maio de 2019.
 

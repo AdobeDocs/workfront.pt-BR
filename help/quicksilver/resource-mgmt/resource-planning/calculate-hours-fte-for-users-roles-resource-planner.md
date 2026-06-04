@@ -7,14 +7,20 @@ description: Visão geral do cálculo de horas e FTE para usuários e funções 
 author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+TQID: https://experienceleague.adobe.com/plzNKZEP3YSHuUZt2MrWb9Q--QemkwCEJD3JxWlB6x4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 0%
+source-wordcount: 1325
+ht-degree: 2%
 
 ---
 
-# Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de recursos
+# Visão geral do cálculo de horas e FTE para usuários e funções no planejador de recursos
 
 <!-- Audited: 5/2025 -->
 
@@ -121,7 +127,7 @@ Neste exemplo, estamos usando os seguintes números:
 | **O Calendário Padrão** | Ignorada | 40 | 0,8 | **32** (calculado) | **0.8** |
 | **Agenda do Usuário** | 20 | 40 | Ignorada | **20** | **0.5** (calculado) |
 
-Exceções de cronograma e folga podem afetar a quantidade de Horas planejadas ou FTE. Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Exceções de cronograma e folga podem afetar a quantidade de Horas planejadas ou FTE. Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 Exemplo de visualização do Planejador de recursos por usuário e horas:
 

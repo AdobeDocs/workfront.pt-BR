@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão 2018.1 do Beta 3
+title: Atividade de lançamento da versão 2018.1 Beta 3
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 7 de janeiro de 2018. Ele será disponibilizado no ambiente de Produção no início de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+TQID: https://experienceleague.adobe.com/O9xy5YXPnfSooL6rSHuODkP2Bn-1wyC1569ZbsTfiYA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: 1857
 ht-degree: 0%
 
 ---
 
-# Atividade da versão 2018.1 do Beta 3
+# Atividade de lançamento da versão 2018.1 Beta 3
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 7 de janeiro de 2018. Ele será disponibilizado no ambiente de Produção no início de 2018.
 
@@ -22,7 +28,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.1, consulte  Visão geral da atividade da versão [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.1, consulte a [visão geral da atividade da versão 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 A versão 2018.1 do Beta 3 contém melhorias para administradores do Workfront e outros usuários:
 
@@ -188,7 +194,7 @@ Agora os problemas são incluídos por padrão no backlog da equipe Agile ao usa
 
 Antes dessa alteração, somente tarefas podiam ser adicionadas ao backlog. Se você quiser adicionar um problema, primeiro é necessário converter o problema em uma tarefa antes que ele possa ser adicionado.
 
-Para obter informações sobre problemas no backlog, consulte  [Gerenciar o backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter informações sobre como usar problemas na lista de pendências, consulte [Gerenciar a lista de pendências Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Aplicar agrupamentos e filtros ao backlog de uma equipe Agile {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -196,7 +202,7 @@ As opções de Agrupamento e Filtro agora estão disponíveis no backlog Agile, 
 
 Antes dessa alteração, você poderia aplicar em exibições ao backlog do Agile.
 
-Para obter mais informações, consulte  [Gerenciar a lista de pendências Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) em  [Gerenciar o backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter mais informações, consulte [Gerenciar a lista de pendências Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) em [Gerenciar a lista de pendências Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Criar uma iteração em Branco e Atualizar Mais Tarde {#create-a-blank-iteration-and-update-it-later}
 

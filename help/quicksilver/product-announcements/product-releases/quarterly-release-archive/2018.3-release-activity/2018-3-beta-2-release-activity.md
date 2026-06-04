@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão 2018.3 do Beta 2
+title: Atividade de lançamento da versão 2018.3 Beta 2
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 do Beta 2. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de agosto de 2018. Os aprimoramentos de revisão lançados com o Beta 2 estarão disponíveis no ambiente de Pré-visualização na quarta-feira, 18 de julho. Ele estará disponível no ambiente de Produção em novembro de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97945661-e97d-43c8-b564-624c4388de2f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/2VzVuejEi80fNoxQ2KRGdLbDbiIX-7z4b5P33o-3N8s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 0%
+source-wordcount: 913
+ht-degree: 1%
 
 ---
 
-# Atividade da versão 2018.3 do Beta 2
+# Atividade de lançamento da versão 2018.3 Beta 2
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 do Beta 2. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de agosto de 2018. Os aprimoramentos de revisão lançados com o Beta 2 estarão disponíveis no ambiente de Pré-visualização na quarta-feira, 18 de julho. Ele estará disponível no ambiente de Produção em novembro de 2018.
 
@@ -22,7 +28,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.3, consulte  Visão geral da atividade da versão [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.3, consulte a [visão geral da atividade da versão 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 A versão 2018.3 do Beta 2 contém melhorias para administradores do Workfront e outros usuários:
 
@@ -39,7 +45,7 @@ A versão 2018.3 do Beta 2 contém melhorias para administradores do Workfront e
 * [Filtrar Comentários e Respostas por Usuário no visualizador de provas](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
 * [Comentar em um intervalo de imagens em uma prova de vídeo](#comment-on-a-range-of-footage-in-a-video-proof)
 * [Nova Ferramenta de Polilinha para Marcação de Comentários no visualizador de provas](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
-* [Remoção de Flashes para relatórios, calendários e compartilhamento de documentos](#flash-removal-for-report-calendar-and-document-sharing)
+* [Remoção rápida de relatórios, calendários e compartilhamento de documentos](#flash-removal-for-report-calendar-and-document-sharing)
 
 ## Atualize o endereço de email no Perfil de usuário como um administrador de grupo {#update-the-email-address-in-the-user-profile-as-a-group-administrator}
 
@@ -81,7 +87,7 @@ Ao minimizar tarefas e problemas na linha do tempo do agendamento, eles agora fi
 
 Anteriormente, ao minimizar tarefas e problemas, as tarefas e problemas permaneceriam na linha do tempo de agendamento para usuários e funções, mas seriam exibidos em uma exibição compactada.
 
-Para obter mais informações sobre como minimizar tarefas e problemas na linha do tempo do agendamento, consulte  &quot;Introdução ao Agendamento de recursos&quot;.
+Para obter mais informações sobre como minimizar tarefas e problemas na linha do tempo do agendamento, consulte &quot;Introdução ao agendamento de recursos&quot;.
 
 ## Filtrar comentários e respostas por usuário no visualizador de provas {#filter-comments-and-replies-by-user-in-the-proofing-viewer}
 
@@ -101,7 +107,7 @@ Agora é possível usar a marcação de polilinha para desenhar linhas e formas 
 
 Anteriormente, ao marcar uma prova para adicionar um comentário, você podia desenhar um retângulo, uma linha reta, uma linha ou forma à mão livre ou uma seta.
 
-## Remoção de Flashes para relatórios, calendários e compartilhamento de documentos {#flash-removal-for-report-calendar-and-document-sharing}
+## Remoção rápida de relatórios, calendários e compartilhamento de documentos {#flash-removal-for-report-calendar-and-document-sharing}
 
 Removemos o Flash das seguintes caixas de diálogo de Compartilhamento no Workfront:
 

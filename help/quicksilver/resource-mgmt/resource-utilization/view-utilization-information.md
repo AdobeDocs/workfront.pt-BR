@@ -6,11 +6,16 @@ description: Você pode exibir a utilização de seus recursos no relatório de 
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
+TQID: https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '7120'
+source-wordcount: 6542
 ht-degree: 1%
 
 ---
@@ -139,7 +144,7 @@ As seguintes informações estão disponíveis no relatório de Utilização ao 
    <td scope="col"><strong>Horas orçadas</strong> </td> 
    <td scope="col"> <p>O total de horas orçadas nos projetos incluídos. Você pode exibir o total de horas orçadas para a vida geral dos projetos incluídos, ou pode exibir o total de horas orçadas somente para o intervalo de datas especificado (você pode especificar uma semana ou mês individual). </p> <p>As horas orçadas são preenchidas com base nas informações disponíveis na área de orçamento de recursos do Business Case ou do Planejador de recursos<em>.</em></p> <p>As Horas Orçadas são exibidas no relatório de Utilização em qualquer uma das seguintes linhas:</p> 
     <ul> 
-     <li> As horas orçadas são resumidas por função de trabalho e por usuário individual no relatório de Utilização, da seguinte maneira:<br><strong>Usuário Individual:</strong> As horas orçadas são resumidas para cada usuário no relatório de utilização. Essas horas orçadas estão associadas às tarefas e problemas aos quais o usuário está atribuído nos projetos incluídos. (Você pode expandir a linha da função de trabalho correspondente para exibir uma lista de usuários com essa função de trabalho.)<br><strong>Função:</strong> As horas orçadas são resumidas por função de trabalho no relatório de utilização.<br>As horas orçadas aparecem em uma função de trabalho específica como resultado de qualquer um dos seguintes cenários:
+     <li> As horas orçadas são resumidas por função de trabalho e por usuário individual no relatório de Utilização, da seguinte maneira:<br><strong>Usuário Individual:</strong> As horas orçadas são resumidas para cada usuário no relatório de utilização. Essas horas orçadas estão associadas às tarefas e problemas aos quais o usuário está atribuído nos projetos incluídos. (Você pode expandir a linha da função de trabalho correspondente para exibir uma lista de usuários com essa função de trabalho.)<br><strong>Função:</strong> as horas orçadas são resumidas por função de trabalho no relatório de utilização.<br>As horas orçadas aparecem em uma função de trabalho específica como resultado de qualquer um dos seguintes cenários:
      <ul>
      <li>A função de trabalho é definida como a função de trabalho principal do usuário atribuído à tarefa ou problema ao qual as Horas orçadas estão associadas. </li> 
        <li>Quando você exibe informações de utilização para um único projeto, a função de trabalho do usuário atribuído às horas é usada independentemente de não haver atribuição na tarefa ou problema, outro usuário é atribuído sem atribuição de função de trabalho, outro usuário é atribuído com uma função de trabalho diferente ou outra equipe é atribuída.</li> 
@@ -218,7 +223,7 @@ As Horas Planejadas são exibidas no relatório de Utilização em qualquer uma 
    <td><strong>Horas efetivas</strong> </td> 
    <td> <p> O total de horas registradas nas tarefas, problemas, <span>e no projeto</span> para os projetos incluídos. Você pode exibir o total de horas reais para a vida geral dos projetos incluídos, ou pode exibir o total de horas reais somente para o intervalo de datas especificado (você pode especificar uma semana ou mês individual). </p> <p><strong>Aviso:</strong> o relatório de utilização inclui horas registradas no projeto, tarefas filhas, problemas e tarefas pai que tenham pelo menos uma atribuição. Não inclui horas registradas em tarefas pai sem atribuições. Recomendamos que você não use tarefas pai como tarefas de trabalho e atribua somente tarefas filho aos seus recursos. </p> <p>As Horas Reais são exibidas no relatório de utilização em qualquer uma das seguintes linhas:</p> 
     <ul> 
-     <li> As horas efetivas são resumidas por função de trabalho e por usuário individual no relatório de utilização de um projeto, da seguinte forma:<br><strong>Usuário individual:</strong> as horas efetivas são exibidas no relatório de utilização na linha do usuário que registrou as horas. (Você pode expandir a linha da função de trabalho correspondente para exibir uma lista de usuários com essa função de trabalho que registraram horas.)<br><strong>Função:</strong> As horas reais registradas pelos usuários associados a essas funções são resumidas no relatório de utilização na linha da função de trabalho correspondente.<br>As horas efetivas aparecem em uma função de trabalho específica como resultado de qualquer um dos seguintes cenários: 
+     <li> As horas efetivas são resumidas por função de trabalho e por usuário individual no relatório de utilização de um projeto, da seguinte forma:<br><strong>Usuário individual:</strong> as horas efetivas são exibidas no relatório de utilização na linha do usuário que registrou as horas. (Você pode expandir a linha da função de trabalho correspondente para exibir uma lista de usuários com essa função de trabalho que registraram horas.)<br><strong>Função:</strong> As horas reais registradas pelos usuários associados a essas funções são resumidas no relatório de utilização na linha da função de trabalho correspondente.<br>As horas reais aparecem em uma função de trabalho específica como resultado de qualquer um dos seguintes cenários: 
       <ul> 
        <li>A função de trabalho é definida como a função de trabalho principal do usuário que registrou as horas</li> 
        <li>Não há atribuição na tarefa ou problema</li> 

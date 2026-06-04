@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão 2018.1 do Beta 4
+title: Atividade de lançamento da versão 2018.1 Beta 4
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 4. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 24 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8e016f12-bc72-475c-a8cc-38ded4351f88
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/L7mlcRH-mf84Dt3lfuzI59lDkn7jCKMOZTBqVVnkAq8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2435'
-ht-degree: 0%
+source-wordcount: 2427
+ht-degree: 1%
 
 ---
 
-# Atividade da versão 2018.1 do Beta 4
+# Atividade de lançamento da versão 2018.1 Beta 4
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 4. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 24 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
 
@@ -22,7 +28,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.1, consulte  Visão geral da atividade da versão [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.1, consulte a [visão geral da atividade da versão 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 A versão 2018.1 do Beta 4 contém melhorias para administradores do Workfront e outros usuários:
 
@@ -139,7 +145,7 @@ Além de uma experiência do usuário aprimorada ao criar provas no Workfront Pr
 >
 >Essa nova página de criação de prova no Workfront Proof agora corresponde à página de criação de prova que foi disponibilizada recentemente ao criar provas no Workfront. 
 
-Para obter mais informações, consulte  [Gerar provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Para obter mais informações, consulte [Gerar provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## Melhorias na revisão no Workfront e no Workfront Proof {#proofing-improvements-within-workfront-and-workfront-proof}
 
@@ -271,9 +277,9 @@ Antes dessa alteração, você só podia remover os relacionamentos de predecess
 
 Para obter mais informações sobre o Gráfico de Gantt, consulte [Atualizar informações na lista de tarefas Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 
-## Novo otimizador de Portfolio {#new-portfolio-optimizer}
+## Novo Portfolio Otimizer {#new-portfolio-optimizer}
 
-A área do Portfolio Otimizer do Workfront foi atualizada com uma nova aparência. A funcionalidade não foi alterada.
+A área do Portfolio Otimizer do Workfront agora é atualizada com uma nova aparência. A funcionalidade não foi alterada.
 
 Para obter mais informações sobre o Portfolio Otimizer, consulte [visão geral do Portfolio Otimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 

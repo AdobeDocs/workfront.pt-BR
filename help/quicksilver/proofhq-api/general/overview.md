@@ -6,9 +6,12 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+TQID: https://experienceleague.adobe.com/WSTkOBXeb30iXwB9jNeaSeAo-6twy3cHfRlTnGf0GXo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: 270
 ht-degree: 1%
 
 ---
@@ -21,11 +24,11 @@ A API do Workfront Proof é um serviço HTTP simples que é protegido usando SSL
 
 ## Formatos compatíveis
 
-A interface pública é compatível com SOAP 1.1 e WSDL. Todas as solicitações são executadas usando XML sobre HTTPS.
+A interface pública é compatível com o SOAP 1.1 com o suporte WSDL. Todas as solicitações são executadas usando XML sobre HTTPS.
 
 ## Controle de versão da API
 
-Para preservar a compatibilidade com as integrações de clientes existentes, introduzimos o controle de versão da API a partir da versão 12.1. Consulte a  Página [Atualizações de API](https://api.proofhq.com/new-updates.html) para obter mais informações. Se um método ou parâmetro não tiver informações de versão, significa que você as encontrará como parte de nossa API padrão. Consulte a seção &quot;Introdução à API&quot; abaixo.
+Para preservar a compatibilidade com as integrações de clientes existentes, introduzimos o controle de versão da API a partir da versão 12.1. Consulte a página [Atualizações de API](https://api.proofhq.com/new-updates.html) para obter mais informações. Se um método ou parâmetro não tiver informações de versão, significa que você as encontrará como parte de nossa API padrão. Consulte a seção &quot;Introdução à API&quot; abaixo.
 
 ## Introdução à API
 

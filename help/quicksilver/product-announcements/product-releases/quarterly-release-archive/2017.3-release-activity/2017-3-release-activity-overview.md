@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Visão geral da atividade da versão 2017.3
+title: Visão geral da atividade de lançamento da versão 2017.3
 description: Esta página fornece informações sobre a funcionalidade incluída na versão 2017.3 do.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1b5d231b-c08a-4dea-bcbb-278527ccc4bd
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/abvfQY8TGHaoIB8jDSoCT6CDJPSQeQFOUacds9JuXJ8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: 842
 ht-degree: 0%
 
 ---
 
-# Visão geral da atividade da versão 2017.3
+# Visão geral da atividade de lançamento da versão 2017.3
 
 Esta página fornece informações sobre a funcionalidade incluída na versão 2017.3 do. 
 
@@ -136,7 +142,7 @@ As seções a seguir descrevem as melhorias disponíveis para os usuários finai
 
 **Aprimoramentos de revisões no Workfront Proof e no Workfront**
 
-* [Atualizações do visualizador de provas do HTML5](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#html-static-proofing-viewer)
+* [Atualizações do visualizador de revisões do HTML5](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#html-static-proofing-viewer)
 * [Reiniciar e ignorar no visualizador de prova de vídeo do HTML5 (atalhos de teclado)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#restart-and-skip-in-html5-proofing)
 
 ### Outras melhorias

@@ -5,12 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2c3133c3-aaa9-424c-81f5-9e4e1f4a486f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/iKGQLX2hetwLutUlZqgIH51-SE2loCMj8qm2tXgnEoM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: 280
+ht-degree: 95%
 
 ---
 
@@ -38,8 +42,7 @@ The AI reviewer is currently in beta.
 
 >[!NOTE]
 >
->Pré-visualização: 15 de dezembro de 2025
->Versão rápida de produção: 15 de dezembro de 2025\
+>Visualização: 15 de dezembro de 2025>Versão rápida de produção: 15 de dezembro de 2025\
 >Produção para todos: 15 de dezembro de 2025
 
 Você pode escolher um projeto do Workfront para o qual enviar uma prova. Isso ajuda a manter todos os ativos e provas relacionados organizados dentro do mesmo projeto.
@@ -52,8 +55,7 @@ Para obter mais informações, consulte [Integração do Adobe Express e do Work
 
 >[!NOTE]
 >
->Pré-visualização: 13 de novembro de 2025
->Versão rápida de produção: 13 de novembro de 2025\
+>Visualização: 13 de novembro de 2025>Versão rápida de produção: 13 de novembro de 2025\
 >Produção para todos: 13 de novembro de 2025
 
 Estamos introduzindo o suporte entre organizações para o Adobe Express com o Workfront Proof. Esse aprimoramento permite que clientes que operam em várias organizações IMS utilizem e gerenciem fluxos de trabalho de revisão de forma integrada.
@@ -65,8 +67,7 @@ Para obter mais informações, consulte [Introdução à integração do Adobe E
 
 >[!NOTE]
 >
->Pré-visualização: 30 de outubro de 2025
->Versão rápida de produção: 30 de outubro de 2025\
+>Visualização: 30 de outubro de 2025>Versão rápida de produção: 30 de outubro de 2025\
 >Produção para todos: 30 de outubro de 2025
 
 Agora você pode usar o Experience Manager Assets para gerenciar e armazenar seus ativos digitais que passaram pelo ciclo de revisão e aprovação. Essa integração permite que você aproveite os recursos do Adobe Experience Manager, Frame.io e Workfront para otimizar seus processos de gestão de conteúdo e colaboração.

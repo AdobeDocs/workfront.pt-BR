@@ -1,26 +1,32 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: Visão geral da atividade da versão 2019.1
+title: Visão geral da atividade de lançamento da versão 2019.1
 description: Esta página fornece informações sobre a funcionalidade incluída na versão 2019.1 do.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: da5e3490-da33-4f96-84cb-f539f07064a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/VL9oVmCuS86CGggGHYghKLQtDV7r5bi55J6CzIcrWD0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: 2042
 ht-degree: 0%
 
 ---
 
-# Visão geral da atividade da versão 2019.1
+# Visão geral da atividade de lançamento da versão 2019.1
 
 Esta página fornece informações sobre a funcionalidade incluída na versão 2019.1 do.
 
 >[!IMPORTANT]
 >
-> A funcionalidade no ambiente de Pré-visualização está sujeita a alterações antes do lançamento para o ambiente de Produção. Se você estiver visualizando uma versão PDF deste documento, acesse a versão online para obter as informações mais atualizadas (os links deste documento vão para a versão online).
+> A funcionalidade no ambiente de Pré-visualização está sujeita a alterações antes do lançamento para o ambiente de Produção. Se você estiver visualizando uma versão do PDF deste documento, acesse a versão online para obter as informações mais atualizadas (os links deste documento vão para a versão online).
 
 A versão 2019.1 contém melhorias para administradores e outros usuários.
 
@@ -62,9 +68,9 @@ A versão 2019.1 contém melhorias para administradores e outros usuários.
 
   Não será mais possível acessar a caixa de diálogo Atribuições Avançadas enquanto o gráfico de Gantt estiver no modo de edição. Você só pode fazer edições em linha enquanto o Gráfico de Gantt da lista de tarefas está no modo de edição.
 
-* [Exibir Informações de Tarefa no Gráfico de Gantt da Lista de Projetos em um Programa ou Portfolio](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#view)
+* [Exibir Informações da Tarefa no Gráfico de Gantt da Lista de Projetos em um Programa ou Portfolio](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#view)
 
-  Agora você pode ver as informações sobre as tarefas de um projeto na Lista de projetos Gráfico de Gantt dentro de um programa ou Portfolio.
+  Agora você pode exibir informações sobre as tarefas de um projeto no Gráfico de Gantt da Lista de Projetos em um Programa ou Portfolio.
 
 * [Acessar o Diagrama de Gantt da Lista de Tarefas nos Modelos](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#access)
 
@@ -90,7 +96,7 @@ A versão 2019.1 contém melhorias para administradores e outros usuários.
 
   Melhoramos o desempenho e a aparência das listas de projetos e tarefas em áreas adicionais.
 
-* [Enviar um Relatório Entregue no Formato XLSX](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
+* [Enviar um relatório entregue no formato XLSX](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
 
   Agora é possível agendar um relatório para ser entregue no formato MS Excel (.xlsx), além de todos os outros formatos atuais.
 
@@ -98,55 +104,55 @@ A versão 2019.1 contém melhorias para administradores e outros usuários.
 
   Agora você pode exportar entradas de log de auditoria para um arquivo CSV. Você pode exportar até 50.000 entradas de log de auditoria para um arquivo CSV de uma vez.
 
-* [A Exibição da WBS em uma Lista de Tarefas não está mais disponível ao clicar com o botão direito do mouse na Coluna de Número de Tarefa](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
+* [A visualização WBS em uma lista de tarefas não está mais disponível clicando com o botão direito do mouse na coluna Número da tarefa](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
 
   Não é mais possível clicar com o botão direito do mouse na coluna Número da tarefa em uma lista de tarefas para mostrar a Estrutura de divisão de trabalho (WBS) do projeto.
 
 ### Melhorias no gerenciamento de recursos
 
-* [Filtro Padrão Atualizado no Planejador de Recursos](https://support.workfront.com/hc/en-us/articles/360016247594#updated-default-filter)
+* [Filtro padrão atualizado no Planejador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#updated-default-filter)
 
   O filtro padrão no Planejador de recursos não filtra mais pelo Grupo do projeto.
 
-* [Usando Curingas para Filtros do Planejador de Recursos](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
+* [Uso de curingas para filtros do Planejador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
 
   Agora é possível usar curingas ao criar filtros no Planejador de recursos.
 
-* [Suporte para Variáveis de Filtro Curinga Baseado em Data no Planejador de Recursos](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
+* [Compatibilidade com variáveis de filtro curinga baseadas em data no Planejador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
 
   Agora você pode usar qualquer versão da variável de filtro curinga $$TODAY ao criar um filtro no Planejador de recursos.
 
-* [Opções de Exportação para a Exibição de Função no Planejador de Recursos](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
+* [Opções de exportação para a visualização Função no Planejador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
 
   Agora você pode selecionar quais níveis de informação serão exportados do Planejador de recursos na visualização Função.
 
-* [Opções de Formatação de Dados para Exportar o Planejador de Recursos](https://support.workfront.com/hc/en-us/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
+* [Opções de Formatação de Dados para Exportação do Planejador de Recursos](https://support.workfront.com/hc/en-us/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
 
   Agora você pode selecionar como deseja exibir as informações no arquivo do Excel quando exportado do Planejador de recursos.
 
-* [Linha do Tempo de Agendamento Persistente](https://support.workfront.com/hc/en-us/articles/360016247594#persistent-scheduling-timeline)
+* [Cronograma persistente](https://support.workfront.com/hc/en-us/articles/360016247594#persistent-scheduling-timeline)
 
   As linhas do tempo de agendamento agora mantêm o período e o filtro ao atualizar a linha do tempo ou navegar para fora da página.
 
-* [Novas Opções de Exportação no Planejador de Recursos](https://support.workfront.com/hc/en-us/articles/360016247594#new-export-options-in-the-resource-planner)
+* [Novas opções de exportação no Planejador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#new-export-options-in-the-resource-planner)
 
   Agora você pode selecionar quais níveis de informação serão exportados do Planejador de recursos.
 
-* [Atualizar para o Modo de Exibição de Usuário no Planejador de Recursos](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
+* [Atualizar para a visualização Usuário no Planejador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
 
   Quando você não aplica nenhum filtro baseado no usuário ao Planejador de recursos, todos os usuários no sistema agora são exibidos na visualização Usuário do Planejador de recursos.
 
 ### Aprimoramentos de provas
 
-* [Conteúdo Interativo de Prova no visualizador de provas na Web](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
+* [Prova de conteúdo interativo no visualizador de provas da Web](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
 
   Se as políticas de segurança de sua organização não permitirem o uso do aplicativo independente Visualizador de provas de desktop, o administrador do Workfront poderá habilitar o conteúdo interativo no Visualizador de provas de web.
 
-* [A Ordem de Classificação Padrão para Comentários no visualizador de provas agora é do Mais Antigo para o Mais Recente](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
+* [A ordem de classificação padrão para comentários no visualizador de provas agora é da mais antiga para a mais recente](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
 
   No visualizador de provas, a ordem de classificação padrão para comentários em uma prova agora é Do mais antigo para o mais recente, como em uma conversa verbal.
 
-* [Revisão aprimorada para comentários no visualizador de revisão associado a um intervalo de vídeo](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
+* [Revisão aprimorada para comentários no visualizador de provas associado a um intervalo de vídeos](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
 
   Ao revisar um comentário associado a um intervalo de sequências de vídeo no visualizador de provas, clique em Reproduzir para exibir todo o intervalo de sequências de imagens.
 
@@ -158,7 +164,7 @@ A versão 2019.1 contém melhorias para administradores e outros usuários.
 
   Agora, todos os revisores de prova podem especificar quais notificações de prova desejam receber para uma prova. Isso é particularmente importante ao colaborar com partes interessadas externas.
 
-* [Alterar a Cor do Plano de Fundo no Visualizador de Revisão de Texto da Área de Trabalho](https://support.workfront.com/hc/en-us/articles/360016372633#change-the-background-color-in-the-desktop-proofing-viewer)
+* [Alterar a cor de fundo no Visualizador de provas da área de trabalho](https://support.workfront.com/hc/en-us/articles/360016372633#change-the-background-color-in-the-desktop-proofing-viewer)
 
   Agora é possível alterar a cor de fundo do Visualizador de provas de desktop da cor padrão quase preta para branco.
 
@@ -172,11 +178,11 @@ A versão 2019.1 contém melhorias para administradores e outros usuários.
 
   A pesquisa de itens no aplicativo móvel do Workfront agora é mais intuitiva e fácil de usar.
 
-* [A Página Inicial é a Nova Página de Aterrissagem Padrão nos Aplicativos Workfront para Dispositivos Móveis](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
+* [Página inicial é a nova página de aterrissagem padrão nos aplicativos móveis do Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
 
   A área da página inicial agora é a nova página de aterrissagem padrão dos aplicativos móveis do Workfront. Isso é compatível com dispositivos iOS e Android.
 
-* [Novas Opções para Organizar Listas no Aplicativo Móvel do Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
+* [Novas opções para organizar listas no aplicativo móvel do Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
 
   Agora você pode filtrar, classificar e ordenar suas listas no aplicativo móvel do Workfront.
 
@@ -194,11 +200,11 @@ A versão 2019.1 contém melhorias para administradores e outros usuários.
 
 ### Aprimoramentos na integração de aplicativos de terceiros
 
-* [Workfront para melhorias de Slack](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
+* [Melhorias no Workfront for Slack](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
 
-  Várias atualizações estão disponíveis no Workfront para Slack, incluindo a capacidade de postar um comentário feito em Slack como um comentário em um objeto no Workfront, assinar para ser notificado em Slack quando alguém fizer um comentário em uma de suas solicitações e muito mais.
+  Várias atualizações estão disponíveis no Workfront para Slack, incluindo a capacidade de postar um comentário feito no Slack como um comentário em um objeto no Workfront, assinar para ser notificado no Slack quando alguém fizer um comentário em uma de suas solicitações e muito mais.
 
-* [Workfront para aprimoramentos do Jira](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
+* [Aprimoramentos do Workfront para Jira](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
 
   A integração do Workfront para Jira agora contém as várias melhorias, incluindo uma indicação de quando a integração cria automaticamente um usuário no Jira, uma opção para desativar a criação automática de usuários no Workfront e muito mais.
 
@@ -209,7 +215,7 @@ A versão 2019.1 contém melhorias para administradores e outros usuários.
 
 ### A API versão 4 não é mais compatível
 
-O suporte para a API versão 4 termina em conjunto com a versão 2019.1. Para obter mais informações sobre a programação de suporte para versões da API do Workfront, consulte  [Controle de versão da API e agendamento de suporte](../../../../wf-api/api/api-version-support-schedule.md).
+O suporte para a API versão 4 termina em conjunto com a versão 2019.1. Para obter mais informações sobre a programação de suporte para versões da API do Workfront, consulte [Controle de versão da API e programação de suporte](../../../../wf-api/api/api-version-support-schedule.md).
 
 ### Atualizações da ferramenta Agile
 

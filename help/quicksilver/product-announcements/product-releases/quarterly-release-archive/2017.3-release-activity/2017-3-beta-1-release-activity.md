@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão 2017.3 do Beta 1
+title: Atividade de lançamento da versão 2017.3 Beta 1
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.3. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 9 de agosto de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 33a91c25-98ec-4f08-b444-4e11e05e464b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/TyN11XhNKT09a5sXohEankm-lv7bH0nx6Faywigqiug
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 0%
+source-wordcount: 1451
+ht-degree: 1%
 
 ---
 
-# Atividade da versão 2017.3 do Beta 1
+# Atividade de lançamento da versão 2017.3 Beta 1
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.3. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 9 de agosto de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
 
@@ -22,7 +28,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2017.3, consulte  Visão geral da atividade da versão [2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2017.3, consulte a [visão geral da atividade da versão 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 A versão 2017.3 do Beta 1 contém melhorias para administradores do Workfront e outros usuários:
 
@@ -171,7 +177,7 @@ Para saber mais sobre como assinar itens, consulte [Assinar itens no Adobe Workf
 * Projeto
 * Tarefa
 * Problema
-* Planilha de horas
+* Folha de horas
 
 Você ainda pode marcar outras pessoas clicando no ícone **Incluir outras nesta Atualização**.
 

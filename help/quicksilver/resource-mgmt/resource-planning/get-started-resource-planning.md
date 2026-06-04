@@ -7,10 +7,15 @@ description: Você pode usar as ferramentas de planejamento de recursos para ger
 author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+TQID: https://experienceleague.adobe.com/a1BAY-ZUWgGlg96Cq7RKPbg3m-OfT-c106ttm2goj-k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 0%
+source-wordcount: 561
+ht-degree: 7%
 
 ---
 
@@ -51,7 +56,7 @@ Para prever o tempo dos recursos para os projetos aos quais você planeja atribu
   >
   >A área de orçamento de recursos de um projeto é o Planejador de recursos no nível do projeto. Quando você faz o orçamento de recursos no Business Case de um projeto, as informações também são refletidas no Planejador de Recursos no nível do sistema.
 
-* Para gerenciar recursos em alto nível, em várias iniciativas e alinhar seu trabalho com a estratégia de sua organização, use o Planejador de cenários do Adobe Workfront. O Planejador de cenários requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../scenario-planner/scenario-planner-overview.md).
+* Para gerenciar recursos em alto nível, em várias iniciativas e alinhar seu trabalho com a estratégia de sua organização, use o Planejador de cenários do Adobe Workfront. O planejador de cenários requer uma licença adicional. Para obter informações sobre o planejador de cenários do Workfront, consulte [Visão geral do planejador de cenários](../../scenario-planner/scenario-planner-overview.md).
 
   Você pode usar o Planejador de recursos no nível do sistema, em vários projetos, bem como para fazer o orçamento de recursos para um único projeto na área Orçamento de recursos do business case. Para obter mais informações sobre recursos de orçamento para um projeto no business case, consulte [Recursos de orçamento no Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
@@ -67,7 +72,7 @@ Para prever o tempo dos recursos para os projetos aos quais você planeja atribu
 
 * Usando o Planejador de cenários, você pode criar planos de nível empresarial em várias iniciativas que descrevem os resultados estratégicos gerais de sua empresa. Para obter mais informações, consulte [Introdução ao Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md).
 
-  O Planejador de cenários requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../scenario-planner/scenario-planner-overview.md).
+  O planejador de cenários requer uma licença adicional. Para obter informações sobre o planejador de cenários do Workfront, consulte [Visão geral do planejador de cenários](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

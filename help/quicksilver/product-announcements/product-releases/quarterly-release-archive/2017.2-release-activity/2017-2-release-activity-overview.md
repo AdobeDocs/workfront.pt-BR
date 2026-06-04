@@ -1,20 +1,24 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Visão geral da atividade da versão 2017.2
+title: Visão geral da atividade de lançamento da versão 2017.2
 description: Esta página fornece informações sobre a funcionalidade incluída na versão 2017.2 do, que agora está disponível no ambiente de produção para todos.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 66b499f1-12c0-4486-a5b8-ebabd0ccd59d
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/6GOzTOO4YYK45YdK1kekik6ZdIfKyeM9j44HbcB-TbQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 0%
+source-wordcount: 688
+ht-degree: 1%
 
 ---
 
-# Visão geral da atividade da versão 2017.2
+# Visão geral da atividade de lançamento da versão 2017.2
 
 Esta página fornece informações sobre a funcionalidade incluída na versão 2017.2 do, que agora está disponível no ambiente de produção para todos. 
 
@@ -52,7 +56,7 @@ As seções a seguir descrevem as melhorias disponíveis para os usuários finai
 
 ### Melhorias no planejamento de recursos
 
-* [Planejador de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#resource-planner)
+* [Planejamento de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#resource-planner)
 * [Novo Campo de Horas Orçadas de Recurso](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#new-resource-budgeted-hour-field)
 * [Novo Campo para Conjuntos de Recursos para Usuários e Projetos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#new-field-for-resource-pools-for-users-and-projects)
 * [Modelos de Conjuntos de Recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md#resource-pools-templates)
@@ -71,7 +75,7 @@ As seções a seguir descrevem as melhorias disponíveis para os usuários finai
 
 ### Aprimoramentos do projeto
 
-* [Exportar o Relatório de Utilização em Formatos TSV e PDF](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#export-the-utilization-report-in-tsv-and-pdf-formats)
+* [Exportar o Relatório de Utilização nos Formatos TSV e PDF](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#export-the-utilization-report-in-tsv-and-pdf-formats)
 * [Mostrar Função de Trabalho do Usuário na Área &#39;Atribuído a&#39; na Página de Detalhes para Tarefas e Problemas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#show-user-job-role)
 * [Várias taxas de cobrança](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#multiple-billing-rates)
 
@@ -105,7 +109,7 @@ As seções a seguir descrevem as melhorias disponíveis para os usuários finai
 * [Final do Beta 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#user-calendar-enhancements-in-the-my-work-area)
 * [Final do Beta 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
 * [Aparência e funcionalidade atualizadas na Lista de Painéis](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#updated-look-and-feel-in-the-dashboard-list)
-* [Incluir a Legenda do Gráfico de Gantt ao exportar para PDF](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#include-the-gantt-chart-legend-when-exporting-to-pdf)
+* [Incluir a Legenda do Gráfico de Gantt ao exportar para o PDF](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#include-the-gantt-chart-legend-when-exporting-to-pdf)
 * [Configure como os marcos são exibidos no Gráfico de Gantt](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md#configure-how-milestones-are-displayed-on-the-gantt-chart)
 * [Notificação no aplicativo para Aprovação de Prova](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#in-app-notification-for-proof-approval)
 * [Melhorias em dispositivos móveis](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#mobile-improvements)

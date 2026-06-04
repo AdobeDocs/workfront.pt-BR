@@ -6,14 +6,19 @@ description: Como gerenciador de recursos, você pode gerenciar seus recursos ad
 author: Lisa
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+TQID: https://experienceleague.adobe.com/ZQdzgCsLVITuWGbOaXfjbnk90MUGr3KFJ7xXJdrAK30
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 0%
+source-wordcount: 484
+ht-degree: 5%
 
 ---
 
-# Visão geral dos conjuntos de recursos
+# Visão geral dos pools de recursos
 
 <!--Audited: 10/2024-->
 
@@ -28,11 +33,11 @@ Para obter informações sobre como criar e gerenciar conjuntos de recursos, con
 * [Criar pools de recursos](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
 * [Associar conjuntos de recursos a projetos e modelos](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
 * [Associar pools de recursos a usuários](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
-* [Remover usuários do conjunto de recursos](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
+* [Remover usuários dos pools de recursos](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
 ## Visão geral do conjunto de recursos
 
-* Um Conjunto de Recursos é uma coleção de usuários necessários ao mesmo tempo para a conclusão de um projeto.
+* Um Conjunto de recursos é uma coleção de usuários necessários ao mesmo tempo para a conclusão de um projeto.
 * Um Conjunto de recursos pode ser compartilhado entre vários projetos, programas ou portfólios quando estiver associado a todos os projetos nos programas e portfólios.
 * Você pode criar um Conjunto de recursos e preenchê-lo com usuários existentes após sua criação ou pode criar o Conjunto de recursos e associá-lo a um usuário existente ou a um novo usuário durante a criação ou edição do usuário.
 * Depois de preencher os Conjuntos de recursos com usuários, você pode associá-los a projetos e modelos e gerenciar a alocação de usuários para os projetos com mais eficiência.

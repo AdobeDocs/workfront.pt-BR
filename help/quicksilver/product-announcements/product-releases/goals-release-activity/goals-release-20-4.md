@@ -1,18 +1,24 @@
 ---
-title: Workfront Goals com a versão 20.4
-description: Workfront Goals com a versão 20.4
+title: Metas do Workfront na versão 20.4
+description: Metas do Workfront na versão 20.4
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/SHHn-SR8Z3ThsS94S6bH9V-auX6jYxQHwmtNlI903oA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 0%
+source-wordcount: 473
+ht-degree: 12%
 
 ---
 
-# Workfront Goals com a versão 20.4
+# Metas do Workfront na versão 20.4
 
 Esta página fornece informações sobre a funcionalidade do Workfront Goals na nova experiência do Adobe Workfront que está sendo lançada no ambiente de produção com a versão 20.4.
 
@@ -47,7 +53,7 @@ Continuamos a melhorar a maneira como você usa as Metas do Workfront com base n
 >
 >**Disponibilidade de produção:** com a versão 20.4
 
-Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR) no Workfront One.
 
 ## Controles de acesso para metas do Workfront
 
@@ -61,7 +67,7 @@ Para obter informações sobre como conceder acesso ao Workfront Goals, consulte
 >
 >**Disponibilidade de produção:** com a versão 20.4
 
-Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR) no Workfront One.
 
 ## Melhorias na usabilidade dos objetivos do Workfront
 
@@ -82,4 +88,4 @@ Para obter informações, consulte os seguintes artigos:
 >
 >**Disponibilidade de produção:** com a versão 20.4
 
-Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR) no Workfront One.

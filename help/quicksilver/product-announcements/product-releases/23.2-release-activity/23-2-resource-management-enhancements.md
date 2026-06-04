@@ -1,19 +1,24 @@
 ---
-title: 23.2 Aprimoramentos no gerenciamento de recursos
-description: 23.2 Aprimoramentos no gerenciamento de recursos
+title: Aprimoramentos no gerenciamento de recursos na 23.2
+description: Aprimoramentos no gerenciamento de recursos na 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/QzjHfD9RX0nF8Bk84Rq3yFTJvQpKMJPq9YmIXjJ9QJw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 0%
+source-wordcount: 277
+ht-degree: 8%
 
 ---
 
-# 23.2 Aprimoramentos no gerenciamento de recursos
+# Aprimoramentos no gerenciamento de recursos na 23.2
 
 Esta página descreve todas as melhorias de gerenciamento de recursos feitas com a versão 23.2 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.2.
 
@@ -29,7 +34,7 @@ Para permitir que os gerentes de recursos calculem com precisão a disponibilida
 
 Você pode definir o valor do campo Horário de trabalho para cada usuário ao criar ou editar seu perfil. Para obter mais informações, consulte [Editar perfil de usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-O campo Tempo de Trabalho representa a porcentagem de tempo FTE (Equivalente a Tempo Integral) em que o usuário está disponível para o trabalho real, sem incluir as despesas indiretas. O horário de trabalho deve ser um número decimal com um valor entre 0 e 1. Por exemplo, uma disponibilidade de 20% para o trabalho real seria de 0,2.
+O campo Tempo de Trabalho representa a porcentagem de tempo FTE (Equivalente a Tempo Integral) em que o usuário está disponível para o trabalho real, sem incluir as despesas indiretas. O horário de trabalho deve ser um número decimal com um valor entre 0 e 1. Por exemplo, uma disponibilidade de 20% para o trabalho efetivo seria de 0,2.
 
 O campo padrão é 1, indicando que um usuário gasta todo o FTE em trabalho real relacionado ao projeto.
 
@@ -42,4 +47,4 @@ Como resultado dessa atualização, o Workfront calcula a disponibilidade do usu
 
 Para obter mais informações, consulte [Configurar preferências do [!UICONTROL Gerenciamento de Recursos]](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3415608/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3415608/){target=_blank}

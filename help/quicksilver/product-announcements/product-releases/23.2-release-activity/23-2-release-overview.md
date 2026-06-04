@@ -6,14 +6,20 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 0%
+source-wordcount: 2914
+ht-degree: 6%
 
 ---
 
-# 23.2 Visão geral da versão
+# Visão geral da versão 23.2
 
 Esta página fornece informações sobre a funcionalidade incluída na versão 23.1 do. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.2 do em 6 e 7 de abril de 2023.
 
@@ -31,15 +37,15 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
 
 ## Aprimoramentos do Adobe Workfront
 
-* [Melhorias do administrador](#administrator-enhancements)
+* [Aprimoramentos do administrador](#administrator-enhancements)
 * [Aprimoramentos do Agile](#agile-enhancements)
 * [Aprimoramentos no gerenciamento de projetos](#project-management-enhancements)
 * [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
 * [Melhorias nos relatórios e painéis](#reports-and-dashboards-enhancements)
 * [Melhorias na mobilidade](#mobile-enhancements)
-* [Outras melhorias](#other-enhancements)
+* [Outros aprimoramentos](#other-enhancements)
 
-### Melhorias do administrador
+### Aprimoramentos do administrador
 
 <table>
             <col style="width: 50%;" />
@@ -498,7 +504,7 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
             </tbody>
         </table>
 
-### Outras melhorias
+### Outros aprimoramentos
 
 <table>
             <col style="width: 50%;" />
@@ -554,11 +560,11 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Novos clientes da rede a serem integrados à Adobe Unified Experience</a></p>
-                        <p>A experiência unificada da Adobe inclui:
+                        <p>A Experiência Unificada da Adobe inclui:
                         <ul>
-                        <li>Um logon único para todos os aplicativos da Adobe por meio do Adobe Experience Cloud</li>
-                        <li>Um "alternador de organização" para alternar entre organizações e ambientes do Workfront</li>
-                        <li>Navegação com opções para páginas do Workfront, preferências do Adobe Experience Cloud e seu perfil do Workfront</li>
+                        <li>Um único login para todos os aplicativos da Adobe por meio da Adobe Experience Cloud</li>
+                        <li>Um “alternador de organizações” para alternar entre organizações e ambientes do Workfront</li>
+                        <li>Navegação com opções para páginas do Workfront, preferências da Adobe Experience Cloud e seu perfil do Workfront</li>
                         </ul>
                         </p>
                     </td>
@@ -629,7 +635,7 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento da versão 23.2. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento da versão 23.2. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Aprimoramentos no Planejador de cenários do Workfront
 
@@ -645,19 +651,19 @@ Novos recursos chegando à versão do Workfront Goals com a versão 23.2. Para o
 
 ### API versão 16
 
-A API versão 16 será lançada com a versão 22.3. Para a API versão 16, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+A API versão 16 será lançada com a versão 22.3. Para a API versão 16, modificamos alguns recursos e endpoints. Algumas das alterações oferecem suporte a novas funcionalidades, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
 Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
-Para obter informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Para obter informações sobre as versões da API, consulte [controle de versão da API e cronograma de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Atualizações de manutenção do Workfront 
+### Atualizações de manutenção do Workfront
 
 Para obter informações sobre as atualizações de manutenção feitas durante a versão 23.2, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/releases/current-updates).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
+Explore as últimas atualizações feitas nos programas de aprendizagem, caminhos de aprendizagem, vídeos e guias para cada versão do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página de tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
 ### Funcionalidade que será removida em breve do Workfront
 

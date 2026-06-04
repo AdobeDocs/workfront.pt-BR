@@ -5,9 +5,12 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/mv5U1jTFgfL7MpI6sOL6SLT5psOP2hQ-mIFnUb-dC4E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -30,7 +33,7 @@ No momento, as subtarefas não estão visíveis no quadro como cartões separado
 
 Para obter mais informações, consulte [Gerenciar subtarefas em quadros](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3424860/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3424860/){target=_blank}
 
 ## Adicionar documentos em cartões conectados
 
@@ -40,7 +43,7 @@ No momento, você não pode excluir documentos do cartão, mas pode excluir um d
 
 Para obter mais informações, consulte [Adicionar documentos em cartões](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3423070/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3423070/){target=_blank}
 
 ## Aprimoramentos nas atribuições de usuários em quadros e cartões
 
@@ -52,11 +55,11 @@ Os seguintes aprimoramentos estão disponíveis ao adicionar usuários a quadros
 
 Para obter mais informações, consulte [Adicionar ou remover membros de um quadro](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3423222/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3423222/){target=_blank}
 
 ## Documentos disponíveis em cartões conectados como somente visualização
 
-Para cartões conectados em placas Adobe Workfront, agora é possível visualizar documentos como imagens e PDF. Você pode visualizar um documento no navegador ou baixá-lo no computador.
+Para cartões conectados em Adobe Workfront Boards, agora é possível visualizar documentos como imagens e PDFs. Você pode visualizar um documento no navegador ou baixá-lo no computador.
 
 Nesse momento, um documento deve ser carregado na tarefa do Workfront para estar disponível no cartão conectado.
 

@@ -1,20 +1,25 @@
 ---
-title: Aprimoramentos de documentos e provas do quarto trimestre de 2025
-description: Aprimoramentos de documentos e provas do quarto trimestre de 2025
+title: Aprimoramentos de documentos e revisão do quarto trimestre de 2025
+description: Aprimoramentos de documentos e revisão do quarto trimestre de 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
+TQID: https://experienceleague.adobe.com/VN4tRX-3cRp4tw2AGMalQndJtum3FJStsuV6oT-CxGk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e4bd5f48-22a4-465d-a046-5ffb52e27856
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 0%
+source-wordcount: 401
+ht-degree: 12%
 
 ---
 
-# Aprimoramentos de documentos e provas do quarto trimestre de 2025
+# Aprimoramentos de documentos e revisão do quarto trimestre de 2025
 
-Esta página descreve as melhorias de documentos e provas feitas com a versão do quarto trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve as melhorias de documentos e provas feitas com a versão do quarto trimestre de 2025 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 

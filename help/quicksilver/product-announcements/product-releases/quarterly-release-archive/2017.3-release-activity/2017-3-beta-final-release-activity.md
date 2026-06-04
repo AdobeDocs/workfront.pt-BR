@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade de versão final do Beta 2017.3
+title: Atividade de lançamento da versão 2017.3 Beta Final
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2017.3. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 12 de setembro de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+TQID: https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3791'
+source-wordcount: 3709
 ht-degree: 0%
 
 ---
 
-# Atividade de versão final do Beta 2017.3
+# Atividade de lançamento da versão 2017.3 Beta Final
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2017.3. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 12 de setembro de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
 
@@ -22,7 +28,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2017.3, consulte  Visão geral da atividade da versão [2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2017.3, consulte a [visão geral da atividade da versão 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 A versão final do Beta 2017.3 contém melhorias para administradores do Workfront e outros usuários:
 
@@ -139,9 +145,9 @@ Antes dessa alteração, somente tarefas podiam ser adicionadas ao backlog. Se v
 
 Como agora você tem acesso a mais do que apenas tarefas no backlog, qualquer exibição de tarefa personalizada anteriormente disponível no backlog é copiada e adicionada ao backlog como exibições de Item de Trabalho do Backlog personalizadas.
 
-Para obter informações sobre problemas no backlog, consulte  [Gerenciar o backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter informações sobre como usar problemas na lista de pendências, consulte [Gerenciar a lista de pendências Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Para obter informações sobre como habilitar problemas a serem disponibilizados no backlog de uma equipe Agile Scrum, consulte  [Configure como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) em [Configurar Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Para obter informações sobre como habilitar problemas a serem disponibilizados na lista de pendências de uma equipe do Agile Scrum, consulte [Configurar como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) em [Configurar Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Incluir problemas no Storyboard Scrum Agile {#include-issues-on-the-scrum-agile-story-board}
 
@@ -163,7 +169,7 @@ As opções de Agrupamento e Filtro agora estão disponíveis no backlog Agile, 
 
 Antes dessa alteração, você poderia aplicar em exibições ao backlog do Agile.
 
-Para obter mais informações, consulte  [Gerenciar a lista de pendências Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) em  [Gerenciar o backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter mais informações, consulte [Gerenciar a lista de pendências Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) em [Gerenciar a lista de pendências Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## Formatação de Rich Text para atualizações e emails {#rich-text-formatting-for-updates-and-emails}
 
@@ -290,7 +296,7 @@ O visualizador do HTML inclui a seguinte nova funcionalidade ao revisar conteúd
 
 * Navegar pelas provas através das miniaturas de prova
 
-   * Identifique facilmente a parte da prova que está sendo revisada. Isso é importante, especialmente quando os usuários trabalham com provas de formato maior e páginas da Web longas ou sempre que o  é necessário um nível de zoom maior para ver os detalhes.
+   * Identifique facilmente a parte da prova que está sendo revisada. Isso é importante, especialmente quando os usuários trabalham com provas de formato maior e páginas da Web longas ou sempre que o nível de zoom maior é necessário para ver os detalhes.
    * Alterar o nível de zoom
    * Deslocar o conteúdo
 
@@ -448,7 +454,7 @@ Para obter mais informações sobre como acessar o Workfront pelo Slack, consult
 
 ## Melhorias no Outlook 365 {#outlook-365-improvements}
 
-Fizemos as seguintes melhorias no complemento Workfront para o  Outlook 365:
+Fizemos as seguintes melhorias no suplemento Workfront para Outlook 365:
 
 * Adicionar uma tarefa ou um problema a um projeto no Workfront: agora é possível converter um email em uma tarefa ou um problema no Workfront, usando o suplemento do Outlook 365. Nesse processo, você pode especificar um projeto ao qual deseja que a tarefa ou o problema seja adicionado, bem como um destinatário e uma data de vencimento. Antes desse aprimoramento, você só poderia enviar uma solicitação para uma fila de solicitações ou adicionar uma tarefa pessoal à sua lista de Trabalho no Outlook 365. 
 * Preservar um link para objetos do Workfront no email original convertido em tarefas, problemas ou solicitações: Quando você converte um email do Outlook 365 em uma tarefa, um problema ou uma solicitação, o Outlook 365 preserva um link para a tarefa ou problema que foi convertido desse email dentro do email original. Antes dessa alteração, não havia nenhuma indicação no Outlook se um email havia sido convertido em uma tarefa ou enviado como uma solicitação. 

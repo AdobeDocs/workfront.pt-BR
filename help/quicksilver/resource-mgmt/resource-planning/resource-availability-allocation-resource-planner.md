@@ -6,20 +6,26 @@ description: Você pode visualizar a disponibilidade de seus recursos e a quanti
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 4%
+source-wordcount: 1200
+ht-degree: 8%
 
 ---
 
-# Revisar a disponibilidade e a alocação de recursos usando o Planejador de Recursos da Adobe Workfront
+# Revisar a disponibilidade e alocação de recursos usando o planejador de recursos do Adobe Workfront
 
 Você pode visualizar a disponibilidade de seus recursos e a quantidade de trabalho planejado ou orçado para seus projetos no Planejador de recursos. Esses valores são exibidos em Horas, FTE (Equivalente a Tempo Integral) ou quantias de Custo e são organizados em colunas.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -132,7 +138,7 @@ Considere o seguinte ao alterar sua exibição para o Planejador de recursos:
       <td role="rowheader">Custo</td> 
       <td> <p>Exibe informações de disponibilidade e alocação por custo, se você estiver visualizando o Planejador de Recursos nas visualizações Projeto ou Função. As informações exibem valores na moeda do sistema. O administrador do Workfront define a moeda do sistema. Para obter mais informações sobre como configurar a moeda do sistema no Workfront, consulte <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>.</p> <p><b>Nota</b>
 
-   Você deve associar usuários e funções de trabalho às taxas de Custo por Hora para exibir informações de Custo no Planejador de Recursos.<br style="font-style: italic;">Para obter mais informações sobre como associar taxas de Custo por hora a funções de trabalho, consulte <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a>.<br style="font-style: italic;">Para obter mais informações sobre como associar taxas de Custo por hora a usuários, consulte <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar perfil de usuário</a>.<br style="font-style: italic;">Para obter mais informações sobre como o Custo é calculado no Planejador de Recursos, consulte <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calcular custos no Planejador de Recursos </a>.</p> </td>
+   Você deve associar usuários e funções de trabalho às taxas de Custo por Hora para exibir informações de Custo no Planejador de Recursos.<br style="font-style: italic;">Para obter mais informações sobre como associar taxas de Custo por Hora a funções de trabalho, consulte <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a>.<br style="font-style: italic;">Para obter mais informações sobre como associar taxas de Custo por hora a usuários, consulte <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar perfil de usuário</a>.<br style="font-style: italic;">Para obter mais informações sobre como o Custo é calculado no Planejador de Recursos, consulte <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calcular custos no Planejador de Recursos </a>.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Personalizar</td> 
@@ -231,7 +237,7 @@ Para exibir a alocação de usuários em um gráfico:
     </tbody> 
    </table>
 
-   ![RP_user_allocation_chart_Dec_7__2017.png](assets/rp--user-allocation-chart-dec.-7--2017-350x148.png)
+   ![RP_user_allocation_chart_Dec._7_2017.png](assets/rp--user-allocation-chart-dec.-7--2017-350x148.png)
 
 1. (Opcional) Clique na área **Superalocação % para todos os usuários** no gráfico.\
    Todos os usuários superalocados são destacados em vermelho.

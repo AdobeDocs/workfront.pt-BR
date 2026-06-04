@@ -3,18 +3,24 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Visão Geral das Informações de Horas, FTE e Custo nas Visualizações de Projeto e Função do Planejador de Recursos
-description: Visão geral de horas, FTE e informações de custo nas visualizações Projeto e Função do Planejador de recursos
+description: Visão geral de horas, FTE e informações de custo nas visualizações de Projeto e Função do planejador de recursos
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
+TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3086'
-ht-degree: 0%
+source-wordcount: 3089
+ht-degree: 2%
 
 ---
 
-# Visão geral de horas, FTE e informações de custo nas visualizações Projeto e Função do Planejador de recursos
+# Visão geral de horas, FTE e informações de custo nas visualizações de Projeto e Função do planejador de recursos
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this came from the budget-resources-project-role-views-resource-planner article)</p>
@@ -210,7 +216,7 @@ Considere o seguinte ao exibir as Horas planejadas:
   </tr> 
   <tr> 
    <td>Usuário</td> 
-   <td> <p>Uma entrada manual para estimar quantas horas você calcula para um usuário, para um intervalo de tempo selecionado. </p> <p> <p><b>OBSERVAÇÃO</b>   Você pode estimar as horas orçadas para usuários que não estão atribuídos a tarefas, mas que estão associados a um Conjunto de recursos em um projeto porque esses usuários também aparecem no Planejador de recursos. Suas horas planejadas devem ser zero, no entanto, se não estiverem atribuídas a tarefas. </p> </p> </td> 
+   <td> <p>Uma entrada manual para estimar quantas horas você calcula para um usuário, para um intervalo de tempo selecionado. </p> <p> <p><b>OBSERVAÇÃO</b> Você pode estimar as Horas Orçadas para usuários que não estão atribuídos a tarefas, mas que estão associados a um Conjunto de Recursos em um projeto porque esses usuários também aparecem no Planejador de Recursos. Suas horas planejadas devem ser zero, no entanto, se não estiverem atribuídas a tarefas. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

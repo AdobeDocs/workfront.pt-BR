@@ -1,20 +1,23 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Arquivamento de versão trimestral
-description: Arquivamento de versão trimestral
+title: Arquivo de lançamento trimestral
+description: Arquivo de lançamento trimestral
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 159a5bd0-e0f4-4670-8143-dfc24a7caf81
-source-git-commit: 5d35df1f6c968e166f3f380d84b2c5f1338fd145
+TQID: https://experienceleague.adobe.com/Nepk7SKYdkBw4H1YP4lsAETHHi6jIF-bGfiqjiF0u5E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 0%
+source-wordcount: 60
+ht-degree: 41%
 
 ---
 
-# Arquivamento de versão trimestral
+# Arquivo de lançamento trimestral
 
 * [Visão geral da versão 20.4](/help/quicksilver/product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
 * [Visão geral da versão 20.3](/help/quicksilver/product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)
@@ -29,4 +32,4 @@ ht-degree: 0%
 * Visão geral da atividade da versão [2018.1](../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
 * Visão geral da atividade da versão [2017.3](../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
 * Visão geral da atividade da versão [2017.2](../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
-* [Visão geral da atividade de versão R1](../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
+* [Visão geral da atividade de lançamento da versão R1](../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)

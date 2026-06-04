@@ -5,12 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 11%
+source-wordcount: 387
+ht-degree: 6%
 
 ---
 
@@ -24,9 +28,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->Pré-visualização: sexta-feira, 2 de outubro de 2025
->Versão rápida de produção: quinta-feira, 15 de outubro de 2025
->Produção para todos: sexta-feira, 16 de outubro de 2025
+>Visualização: 2 de outubro de 2025>Versão rápida de produção: 15 de outubro de 2025>Produção para todos: 16 de outubro de 2025
 
 Para facilitar a visualização das informações necessárias, adicionamos a capacidade de criar e salvar exibições na área Solicitações. Agora, você pode salvar uma visualização, incluindo filtros e configurações de coluna, e alternar entre visualizações. Um administrador do Workfront pode adicionar a nova visualização aos modelos de layout.
 
@@ -56,8 +58,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >* Visualização: 21 de agosto de 2025
->* Versão rápida de produção: sexta-feira, 11 de setembro de 2025
->* Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
+>* Versão rápida de produção: 11 de setembro de 2025
+>* Produção para todos os clientes: 16 de outubro de 2025
 
 Para criar uma melhor experiência do usuário ao fazer solicitações no Workfront e no Workfront Planning, atualizamos a experiência de solicitação.
 

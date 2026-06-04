@@ -5,16 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+TQID: https://experienceleague.adobe.com/PHzqu-jXLyFz2jQsPek4iK9b30pa-BvQOiKxG6dOtGA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: 338
+ht-degree: 5%
 
 ---
 
 # Aprimoramentos na página inicial do terceiro trimestre de 2025
 
-Esta página descreve todas as melhorias na página inicial feitas com a versão do terceiro trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todas as melhorias na página inicial feitas com a versão do terceiro trimestre de 2025 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2025, consulte [Visão geral da versão do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
@@ -30,7 +34,7 @@ Renomeamos o widget Todas as aprovações para Métricas de aprovação de docum
 
 Este widget não contém informações sobre aprovações de provas.
 
-Para obter mais informações, consulte [Introdução à Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Para obter mais informações, consulte [Introdução à página inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Experiência de comentário atualizada na seção Menções na área Minhas atualizações
 

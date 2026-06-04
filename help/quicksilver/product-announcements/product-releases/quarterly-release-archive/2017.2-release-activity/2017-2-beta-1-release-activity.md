@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão 2017.2 do Beta 1
+title: Atividade de lançamento da versão 2017.2 Beta 1
 description: Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 do Beta 1. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 10 de maio de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 99812ed3-a300-478e-973f-b957382d934b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/7-k8GZcbnM1UfLn-wl1bRWRvHrPjiljtvu8iUa3kLCw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: 1363
 ht-degree: 0%
 
 ---
 
-# Atividade da versão 2017.2 do Beta 1
+# Atividade de lançamento da versão 2017.2 Beta 1
 
 Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 do Beta 1. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 10 de maio de 2017.
 
@@ -88,7 +94,7 @@ Ao agendar recursos para uma equipe ou para qualquer projeto para o qual você s
 
 Se você decidir mostrar nomes de projeto em cada tarefa e problema na linha do tempo de agendamento, o espaço vertical de cada tarefa e problema será expandido, resultando em menos tarefas e problemas sendo exibidos em um único modo de exibição.
 
-Para obter mais informações sobre o agendamento de recursos, consulte  &quot;Introdução ao Agendamento de recursos&quot;.
+Para obter mais informações sobre a programação de recursos, consulte &quot;Introdução ao Agendamento de recursos&quot;.
 
 ### Configurar o nome do projeto para exibir em tarefas e problemas na linha de tempo do cronograma {#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline}
 
@@ -118,7 +124,7 @@ Agora, ao rolar para baixo na linha do tempo de agendamento para exibir informa�
 
 Antes dessa alteração, o nome da função e o nome do usuário saíam da exibição atual.
 
-Para obter mais informações sobre o agendamento de recursos, consulte  &quot;Introdução ao Agendamento de recursos&quot;.
+Para obter mais informações sobre a programação de recursos, consulte &quot;Introdução ao Agendamento de recursos&quot;.
 
 ## Comparar provas {#compare-proofs}
 

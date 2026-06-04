@@ -7,10 +7,16 @@ description: Você pode usar filtros no Adobe Workfront para reduzir a quantidad
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+TQID: https://experienceleague.adobe.com/TQ8-NjL4FZ-bn9x1nh21irMvSwjgJttA6J5i6AjLheI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 1%
+source-wordcount: 1794
+ht-degree: 3%
 
 ---
 
@@ -65,13 +71,13 @@ Para obter mais informações sobre filtros em listas e relatórios, consulte os
 
 * [Criar ou editar filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Remover filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-* [Compartilhar um filtro, uma exibição ou um agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Compartilhar um filtro, visualização ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 
 ## Filtros do Workfront para áreas especiais {#workfront-filters-for-special-areas}
 
 Você pode usar filtros integrados ou criar filtros personalizados nas seguintes áreas do Workfront:
 
-* Início
+* Página inicial
 
   Para obter informações, consulte [Exibir itens na Lista de Trabalho na área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
@@ -97,7 +103,7 @@ Você pode usar filtros integrados ou criar filtros personalizados nas seguintes
 
 * Planejador de cenários
 
-  O Planejador de cenários requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
+  O planejador de cenários requer uma licença adicional. Para obter informações sobre o planejador de cenários do Workfront, consulte [Visão geral do planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
 
   >[!TIP]
   >
@@ -223,7 +229,7 @@ Você pode usar modificadores de filtro para indicar que tipo de informação vo
 >[!INFO]
 >
 >**Exemplo:**
->&#x200B;>Você pode filtrar por projetos com uma porcentagem concluída de 100%. Nesse caso, você pode usar o modificador &quot;equal&quot; na seguinte instrução de filtro:
+>Você pode filtrar por projetos com uma porcentagem concluída de 100%. Nesse caso, você pode usar o modificador &quot;equal&quot; na seguinte instrução de filtro:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 

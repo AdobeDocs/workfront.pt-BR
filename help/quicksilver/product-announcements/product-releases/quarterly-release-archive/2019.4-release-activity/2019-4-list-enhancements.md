@@ -1,20 +1,24 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-4-release-activity
-title: Aprimoramentos na lista 2019.4
+title: Aprimoramentos na lista na 2019.4
 description: Esta página descreve todas as melhorias na Lista feitas com a versão 2019.4. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 11 de novembro de 2019.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 77de46a0-cf3c-4226-ad03-08f30420724b
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+TQID: https://experienceleague.adobe.com/Di5TIVt-f10GPYJ3NRTVEF5vhOOzpgw4YIYN08O1KXQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 4%
+source-wordcount: 541
+ht-degree: 5%
 
 ---
 
-# Aprimoramentos na lista 2019.4
+# Aprimoramentos na lista na 2019.4
 
 >[!IMPORTANT]
 >
@@ -37,7 +41,7 @@ Para obter uma lista de todas as alterações feitas em 2019.4, consulte a [vis�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Novo design aplicado a listas para Relatórios, Tarefas de modelo, Portfolio e muito mais</strong> <p>Importante: essas melhorias foram removidas do ambiente de Pré-visualização em 8 de novembro de 2019 e não serão incluídas na versão 2019.4 para Produção. Esses aprimoramentos serão adicionados novamente ao ambiente de Pré-visualização após a versão 2019.4 para produção e estarão disponíveis para Produção em uma versão futura.</p> <p>O novo design da lista agora está disponível nas seguintes listas:</p> 
+   <td><strong>Novo design aplicado a listas para Relatórios, Tarefas de modelo, Portfólios e muito mais</strong> <p>Importante: essas melhorias foram removidas do ambiente de Pré-visualização em 8 de novembro de 2019 e não serão incluídas na versão 2019.4 para Produção. Esses aprimoramentos serão adicionados novamente ao ambiente de Pré-visualização após a versão 2019.4 para produção e estarão disponíveis para Produção em uma versão futura.</p> <p>O novo design da lista agora está disponível nas seguintes listas:</p> 
     <ul> 
      <li>Relatórios </li> 
      <li>Problemas</li> 
@@ -45,7 +49,7 @@ Para obter uma lista de todas as alterações feitas em 2019.4, consulte a [vis�
      <li>Grupos de Tópicos </li> 
      <li>Regras de Encaminhamento </li> 
      <li>Predecessoras </li> 
-     <li>Registros de faturamento </li> 
+     <li>Registros de cobrança </li> 
      <li>Despesas </li> 
      <li>Riscos </li> 
      <li>Seção Pessoas em Projeto </li> 
@@ -56,11 +60,11 @@ Para obter uma lista de todas as alterações feitas em 2019.4, consulte a [vis�
      <li> <p>Itens de trabalho do backlog (em breve)</p> </li> 
      <li> <p>Itens de trabalho de iteração (em breve) </p> </li> 
      <li>Linhas de base </li> 
-     <li>Preços </li> 
+     <li>Taxas de cobrança </li> 
      <li> <p>Painéis </p> </li> 
      <li> <p>Iterações </p> </li> 
      <li> <p>Programas </p> </li> 
-     <li> <p>Conjuntos de Recursos </p> </li> 
+     <li> <p>Pools de recursos </p> </li> 
      <li> <p>Modelos </p> </li> 
      <li> <p>Planilhas de horas </p> </li> 
      <li> <p>Usuários </p> </li> 

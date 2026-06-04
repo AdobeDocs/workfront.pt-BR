@@ -4,16 +4,20 @@ description: Aprimoramentos do projeto do segundo trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
+exl-id: def76c9c-d808-489b-82c7-b1f44c241116
+TQID: https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 1%
+source-wordcount: 262
+ht-degree: 6%
 
 ---
 
 # Aprimoramentos do projeto do segundo trimestre de 2026
 
-Esta página descreve as melhorias feitas no Project com a versão do segundo trimestre de 2026 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve as melhorias feitas no Project com a versão do segundo trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2026, consulte [Visão geral da versão do Segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
@@ -21,8 +25,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 5 de fevereiro de 2026
->Produção: a partir de 5 de fevereiro de 2026\
+>Pré-visualização: 5 de fevereiro de 2026>Produção: a partir de 5 de fevereiro de 2026\
 >[!BADGE Fora do cronograma]{type=Neutral}
 
 Atualizamos a seção Atribuições na caixa Editar Tarefas de Modelo ao editar tarefas de modelo único ou editá-las em massa.  
@@ -42,8 +45,7 @@ Para obter informações, consulte [Editar tarefas de modelo](/help/quicksilver/
 
 >[!NOTE]
 >
->Visualização: 26 de janeiro de 2026
->Produção: a partir de 5 de fevereiro de 2026
+>Pré-visualização: 26 de janeiro de 2026>Produção: a partir de 5 de fevereiro de 2026
 
 Atualizamos a seção Atribuições na caixa Editar tarefas ao editar tarefas únicas ou editá-las em massa.
 
@@ -60,6 +62,3 @@ As seguintes alterações estão incluídas nesta atualização:
 * A opção &quot;Retornar à experiência antiga&quot; foi removida.
 
 Para obter informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
-
-
-

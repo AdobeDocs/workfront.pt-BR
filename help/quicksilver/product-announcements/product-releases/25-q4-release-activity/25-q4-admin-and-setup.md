@@ -1,20 +1,26 @@
 ---
-title: Aprimoramentos do administrador no quarto trimestre de 2025
-description: Aprimoramentos do administrador no quarto trimestre de 2025
+title: Aprimoramentos de admin do quarto trimestre de 2025
+description: Aprimoramentos de admin do quarto trimestre de 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/OSD2Pf0yH0Tc-NC7-D7JD4n8w07bAF8lLU1TiQEIT7s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 0%
+source-wordcount: 626
+ht-degree: 4%
 
 ---
 
-# Aprimoramentos do administrador no quarto trimestre de 2025
+# Aprimoramentos de admin do quarto trimestre de 2025
 
-Esta página descreve as melhorias de Administrador feitas com a versão do Quarto trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve as melhorias de Administrador feitas com a versão do Quarto trimestre de 2025 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 

@@ -5,12 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6e53dca8-285a-471b-a646-1773722554f3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/XN5rfSeje0azVxpC4uBSDn5mg2C9Oyik2awD5pQy3Jo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: 282
+ht-degree: 4%
 
 ---
 
@@ -39,7 +43,7 @@ Para obter mais informações, consulte [Agendar uma entrega automática de rela
 >[!NOTE]
 >
 >* Visualização: 30 de abril de 2025
->* Versão rápida de produção: sexta-feira, 15 de maio de 2025
+>* Versão rápida de produção: 15 de maio de 2025
 >* Produção para todos os clientes: 17 de julho de 2025
 
 Atualizamos o comportamento do curinga do usuário para excluir valor nulo ao filtrar um relatório. Essa alteração ajuda o filtro a produzir resultados mais precisos, em vez de retornar resultados que não têm um usuário configurado corretamente (um resultado nulo).
