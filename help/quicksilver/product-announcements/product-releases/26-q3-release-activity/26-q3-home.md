@@ -4,7 +4,7 @@ description: Melhorias na página inicial durante o período da versão do terce
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: ca4b2ee8375442afa19bf0d3af2915d3aab20779
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 7%
@@ -28,4 +28,5 @@ O recurso Prioridades agora permite o uso de dados personalizados nas colunas. A
 Você também pode criar e compartilhar exibições para a lista de trabalho de prioridades.
 
 Para obter informações sobre prioridades, consulte [Personalizar as colunas da lista de trabalho de prioridades](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md). Para obter informações sobre como criar exibições e usar o Gerenciador de colunas, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 
