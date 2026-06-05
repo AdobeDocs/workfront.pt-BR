@@ -38,9 +38,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 21553
+source-wordcount: 21587
 ht-degree: 96%
 
 ---
@@ -98,7 +98,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   </tr> 
   <tr> 
    <td>[!UICONTROL Horas efetivas]</td> 
-   <td> <p>Em um relatório de projeto, tarefa ou problema, as [!UICONTROL horas efetivas] são a soma de todas as horas registradas no projeto, tarefa ou problema após maio de 2021.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span> se, a partir da guia [!UICONTROL Atualizações] da Tarefa 1, você clicar em “Tempo de registro” e inserir 25 horas, as horas efetivas da Tarefa 1 totalizarão 25 horas. </p> <p>[!DNL Workfront] calcula [!UICONTROL horas efetivas] para tarefas pai ou projetos usando as seguintes fórmulas:</p> 
+   <td> <p>Em um relatório de projeto, tarefa ou problema, as [!UICONTROL horas efetivas] são a soma de todas as horas registradas no projeto, tarefa ou problema após maio de 2021. É altamente recomendável usar as Horas efetivas em todos os relatórios, e não usar as Horas efetivas herdadas.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span> se, a partir da guia [!UICONTROL Atualizações] da Tarefa 1, você clicar em “Tempo de registro” e inserir 25 horas, as horas efetivas da Tarefa 1 totalizarão 25 horas. </p> <p>[!DNL Workfront] calcula [!UICONTROL horas efetivas] para tarefas pai ou projetos usando as seguintes fórmulas:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
@@ -1293,7 +1293,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Legacy Actual Hours]</td> 
-   <td> <p>Em um relatório de projeto, tarefa ou problema, [!UICONTROL Legacy Actual Hours] é a soma de todas as horas registradas no projeto, tarefa ou problema a qualquer momento, inclusive antes de maio de 2021.</p>  
+   <td> <p>Em um relatório de projeto, tarefa ou problema, [!UICONTROL Legacy Actual Hours] é a soma de todas as horas registradas no projeto, tarefa ou problema a qualquer momento, inclusive antes de maio de 2021. É altamente recomendável usar as Horas efetivas em todos os relatórios, e não usar as Horas efetivas herdadas.</p>  
    <p>As Horas efetivas legadas são exibidas como Horas efetivas na área de Detalhes de um projeto, tarefa ou problema. </p>
    <p>Consulte também <strong>Horas efetivas</strong>.
     <p>Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Visualizar horas efetivas</a>.</p>
