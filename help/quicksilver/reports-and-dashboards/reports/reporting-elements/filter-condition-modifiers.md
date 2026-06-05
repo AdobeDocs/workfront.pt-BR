@@ -6,11 +6,15 @@ description: Os modificadores de filtro e condição permitem criar filtros e es
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/-zma9k-MyCFD5wrcn9ggAoPnKjwAmunEVgl33yhH-Mk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: 1600
 ht-degree: 0%
 
 ---
@@ -61,7 +65,7 @@ Você pode usar os seguintes modificadores de condição em filtros e instruçõ
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
-   <td> <p><strong>nulo</strong> </p> </td> 
+   <td> <p><strong>null</strong> </p> </td> 
    <td> <p>O campo está em branco ou não existe. Por exemplo, você deseja procurar itens sem uma ID de tarefa pai. Isso significa que você deseja ver apenas as tarefas independentes. O qualificador para a "ID da tarefa pai" seria <strong>nulo</strong>, já que uma tarefa sem uma ID (neste caso, o pai) não existe. </p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -87,7 +91,7 @@ Você pode usar os seguintes modificadores de condição em filtros e instruçõ
   <tr valign="top"> 
    <td> </td> 
    <td> <p><strong>contém</strong> </p> </td> 
-   <td> <p> Pesquisa o texto <i>que diferencia maiúsculas de minúsculas</i> especificado em uma cadeia de texto inteira.</p> <p>Por exemplo, usar <code>contains Inf</code> captura qualquer coisa com <code>Inf</code> nela, como a palavra <code>Infinity.</code></p> <p>Este modificador só pode ser usado em filtros do modo texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
+   <td> <p> Pesquisa o texto <i>que diferencia maiúsculas de minúsculas</i> especificado em uma cadeia de texto inteira.</p> <p>Por exemplo, usar <code>contains Inf</code> captura qualquer coisa com <code>Inf</code> nela, como a palavra <code>Infinity.</code></p> <p>Esse modificador só pode ser usado em filtros de modo de texto.Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>notcontains</strong> </p> </td> 

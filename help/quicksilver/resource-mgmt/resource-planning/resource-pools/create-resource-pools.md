@@ -6,10 +6,15 @@ description: Conjuntos de recursos são coleções de usuários que ajudam a ger
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
+TQID: https://experienceleague.adobe.com/jNdb4450a6iY7-mkcBOCBOVD-JH6tRUb-LrqwpD2mQE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 15%
+source-wordcount: 515
+ht-degree: 16%
 
 ---
 
@@ -79,7 +84,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      </tr>
      <tr>
       <td role="rowheader"><strong>Membros do conjunto</strong></td>
-      <td><p> Adicione usuários ao Conjunto de recursos individualmente.<br>Ou <br>Para adicionar uma grande quantidade de usuários ao Pool de Recursos de uma só vez. Você pode adicionar uma das seguintes entidades associadas a usuários ou a uma coleção de usuários:
+      <td><p> Adicionar usuários ao Conjunto de Recursos individualmente.<br>Ou <br>Para adicionar uma grande quantidade de usuários ao Conjunto de Recursos de uma só vez. Você pode adicionar uma das seguintes entidades associadas a usuários ou a uma coleção de usuários:
         <ul>
          <li><strong>Equipes</strong>: todos os membros da equipe são adicionados ao Conjunto de Recursos.</li>
          <li><strong>Grupos</strong>: todos os membros do grupo são adicionados ao Conjunto de Recursos.</li>

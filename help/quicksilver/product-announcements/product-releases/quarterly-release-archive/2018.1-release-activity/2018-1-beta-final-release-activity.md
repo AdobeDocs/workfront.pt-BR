@@ -1,20 +1,23 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade de versão final do Beta 2018.1
+title: Atividade de lançamento da versão 2018.1 Beta Final
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.1. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 31 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 35bd3604-5452-4b46-afb1-78bc2fbb48ec
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/d8MDB-E0EtqYt8meTvwOQPKwyJC1iCjgjklVdGdy5Rk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 0%
+source-wordcount: 895
+ht-degree: 1%
 
 ---
 
-# Atividade de versão final do Beta 2018.1
+# Atividade de lançamento da versão 2018.1 Beta Final
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.1. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 31 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
 
@@ -22,7 +25,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.1, consulte  Visão geral da atividade da versão [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.1, consulte a [visão geral da atividade da versão 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 A versão final do Beta 2018.1 contém melhorias para administradores do Workfront e outros usuários:
 
@@ -63,12 +66,12 @@ Para obter mais informações sobre o complemento Workfront para Jira, incluindo
 
 ## Atualização de nomes do visualizador de provas {#update-to-proofing-viewer-names}
 
-Os nomes do visualizador de provas baseado em HTML5 e dos visualizadores de provas baseados em Flash foram renomeados em todo o sistema Workfront. Os nomes anteriores e atualizados são os seguintes: 
+Os nomes do visualizador de provas baseado em HTML5 e dos visualizadores de provas baseado em Flash foram renomeados em todo o sistema Workfront. Os nomes anteriores e atualizados são os seguintes: 
 
 | **Nome Anterior** | **Nome Atualizado** |
 |---|---|
-| Visualizador de provas HTML5 | Novo visualizador de provas |
-| Visualizador da prova de Flashes | Visualizador de provas herdadas |
+| Visualizador de provas do HTML5 | Novo visualizador de provas |
+| Visualizador de provas do Flash | Visualizador de provas herdadas |
 
 {style="table-layout:auto"}
 

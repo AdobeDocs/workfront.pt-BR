@@ -5,16 +5,20 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
+TQID: https://experienceleague.adobe.com/0abYVe3tHVDckYTIqVMlT-5i3tM5mp5KF-UOUe5P8fM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 0%
+source-wordcount: 492
+ht-degree: 24%
 
 ---
 
 # Outras melhorias durante o período da versão do quarto trimestre de 2025
 
-Esta página descreve as melhorias feitas com a versão do quarto trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve as melhorias feitas com a versão do quarto trimestre de 2025 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
@@ -24,8 +28,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >
 >* Visualização: 13 de outubro de 2025
 >* Versão rápida de produção: 13 de outubro de 2025
->* Produção para todos os clientes: 13 de outubro de 2025
->[!BADGE Fora do cronograma]{type=Neutral}
+>* Produção para todos os clientes: 13 de outubro de 2025>[!BADGE Fora do cronograma]{type=Neutral}
 
 A guia Resumo de um relatório foi atualizada com os seguintes aprimoramentos:
 
@@ -46,7 +49,7 @@ A guia Resumo de um relatório foi atualizada com os seguintes aprimoramentos:
 >As primeiras quatro alterações também se aplicam às exportações da guia Resumo, quando aplicável. Recuos de nível e fonte em negrito não serão transferidos para um arquivo de texto exportado delimitado por tabulação.
 
 
-## A Experiência unificada da Adobe agora está disponível para mais organizações da Workfront
+## A Experiência Unificada da Adobe agora está disponível para mais organizações do Workfront
 
 >[!NOTE]
 >
@@ -54,22 +57,22 @@ A guia Resumo de um relatório foi atualizada com os seguintes aprimoramentos:
 >
 >| Versão de visualização | Versão de produção |
 >|---|---|
->| quinta-feira, 18 de setembro de 2024 | 16 de outubro de 2025 (com a versão 25.10) |
+>| 25 de setembro de 2025 | 16 de outubro de 2025 (com a versão 25.10) |
 >| sexta-feira, 11 de dezembro de 2025 | 15 de janeiro de 2026 (com a versão 26.1) |
 
-Para permitir que as organizações acessem os benefícios da Experiência unificada da Adobe, continuamos disponibilizando-a para os clientes existentes da Workfront.
+Para permitir que as organizações tenham acesso aos benefícios da Experiência Unificada da Adobe, estamos continuando a disponibilizá-la para clientes do Workfront.
 
-A experiência unificada da Adobe inclui:
+A Experiência Unificada da Adobe inclui:
 
-* Um logon único para todos os aplicativos da Adobe por meio do Adobe Experience Cloud
-* Um &quot;alternador de organização&quot; para alternar entre organizações e ambientes do Workfront
-* Navegação com opções para páginas do Workfront, preferências do Adobe Experience Cloud e seu perfil do Workfront
+* Um único login para todos os aplicativos da Adobe por meio da Adobe Experience Cloud
+* Um “alternador de organizações” para alternar entre organizações e ambientes do Workfront
+* Navegação com opções para páginas do Workfront, preferências da Adobe Experience Cloud e seu perfil do Workfront
 
-O administrador do Workfront receberá uma mensagem do Centro de notificações sobre a data em que sua organização migrará para a Experiência unificada da Adobe.
+O administrador do Workfront receberá uma mensagem do Centro de Anúncios sobre a data em que sua organização passará para a Experiência Unificada da Adobe.
 
-Para obter mais informações, consulte [Experiência unificada da Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Para obter mais informações, consulte [Experiência Unificada da Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## Atualizações das listas aprimoradas
 

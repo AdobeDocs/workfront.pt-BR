@@ -2,15 +2,18 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Atividade de lançamento do Adobe Workfront Goals 21.2: Semana de 19 de abril de 2021"
+title: 'Atividade de lançamento das Metas do Adobe Workfront 21.2: semana de 19 de abril de 2021'
 description: Esta página descreve todas as melhorias feitas com a versão 21.2 do Adobe Workfront Goals para o ambiente de Pré-visualização na semana de 19 de abril de 2021. Essas melhorias serão disponibilizadas no ambiente de Produção no primeiro trimestre de 21.2.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: afff3bfc-f888-46fd-8dc9-18b89289d8cd
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+TQID: https://experienceleague.adobe.com/FbFBrZr59FqzuRuk3DAAl01F3S-5Me-PBKquIK95ygc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 0%
+source-wordcount: 488
+ht-degree: 4%
 
 ---
 
@@ -51,7 +54,7 @@ A experiência de abrir o painel Detalhes da meta na lista está mais próxima d
 
 Para obter informações sobre como revisar metas na Lista de Metas, consulte [Gerenciar metas na Lista de Metas da Adobe Workfront](../../../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-## Compartilhar uma meta no Workfront Goals
+## Compartilhar uma meta no Workfront
 
 >[!NOTE]
 >

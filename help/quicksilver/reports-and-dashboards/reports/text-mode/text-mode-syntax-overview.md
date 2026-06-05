@@ -7,12 +7,16 @@ author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 8%
+source-wordcount: 1864
+ht-degree: 10%
 
 ---
 
@@ -229,7 +233,7 @@ Para obter valores `valueformat` adicionais, consulte também os seguintes artig
 
 #### Visão geral de `width` para exibições
 
-`width=` é a linha de código em que você pode especificar a largura de cada coluna em pixels. O Workfront fornece uma largura sugerida para cada campo, embora dependendo do tipo de campo e do formato, talvez você queira fazer ajustes.
+`width=` é a linha de código em que você pode especificar a largura de cada coluna em pixels. O Workfront fornece uma largura sugerida para cada campo; porém, dependendo do tipo de campo e do formato, talvez você queira fazer ajustes.
 
 Você deve usar a linha de código `usewidths=true` adicional para aplicar a largura especificada para a coluna.
 
@@ -241,7 +245,7 @@ Você deve usar a linha de código `usewidths=true` adicional para aplicar a lar
 
 #### Visão geral de `stretch` para exibições
 
-O `stretch` é usado para identificar quais colunas ocupam espaço extra não necessário para a visualização. A largura da interface do usuário do espaço de trabalho para um usuário típico é de cerca de 850 pixels. Isso significa que se você tiver uma exibição com quatro colunas (150 pixels cada), sua exibição ocupará 600 de 850 pixels. Há 250 pixels extras na interface que serão adicionados às colunas com uma porcentagem de ampliação fornecida.
+O `stretch` é usado para identificar quais colunas ocupam espaço extra não necessário para a visualização. A largura da interface do usuário do espaço de trabalho para um usuário típico é de cerca de 850 pixels. Isso significa que, se você tiver uma visualização com quatro colunas (150 pixels cada), a visualização ocupa 600 de 850 pixels. Há 250 pixels extras na interface que serão adicionados às colunas com uma porcentagem de ampliação fornecida.
 
 O alongamento de uma coluna é aplicado ao usar a linha de código adicional: `usewidths=true` para pelo menos uma das colunas na visualização.
 

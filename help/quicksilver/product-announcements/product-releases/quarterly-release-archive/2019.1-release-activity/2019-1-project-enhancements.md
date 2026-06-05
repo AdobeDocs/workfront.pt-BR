@@ -1,20 +1,23 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: Aprimoramentos do projeto 2019.1
+title: Aprimoramentos no projeto na 2019.1
 description: Esta página descreve todas as melhorias de projeto incluídas na versão 2019.1. A funcionalidade está disponível atualmente no ambiente de Pré-visualização. Ele será disponibilizado no ambiente de Produção do .
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7b39082a-ab96-4e54-8f28-96629760715a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/cHyxMUlRSlpjq9pLWw-jBmewYCc7REao-zYdMQq861Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: 1467
 ht-degree: 1%
 
 ---
 
-# Aprimoramentos do projeto 2019.1
+# Aprimoramentos no projeto na 2019.1
 
 Esta página descreve todas as melhorias de projeto incluídas na versão 2019.1. A funcionalidade está disponível atualmente no ambiente de Pré-visualização. Ele será disponibilizado no ambiente de Produção do .
 
@@ -158,7 +161,7 @@ Projetos dos quais sou proprietário
 
 Todos os Projetos
 
-Guia Projetos em um Portfolio
+Guia Projetos em uma Portfolio
 
 Guia Projetos em um programa
 
@@ -186,9 +189,9 @@ Guia Tarefas no nível do projeto
 
 Para obter informações sobre a exibição de objetos em listas, consulte &quot;Exibindo Itens em uma Lista&quot;.
 
-## Exibir Informações de Tarefa no Gráfico de Gantt da Lista de Projetos em um Programa ou Portfolio {#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio}
+## Exibir Informações da Tarefa no Gráfico de Gantt da Lista de Projetos em um Programa ou Portfolio {#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio}
 
-Agora você pode ver as informações sobre as tarefas de um projeto na Lista de projetos Gráfico de Gantt dentro de um programa ou Portfolio.
+Agora você pode exibir informações sobre as tarefas de um projeto no Gráfico de Gantt da Lista de Projetos em um Programa ou Portfolio.
 
 Anteriormente, só era possível exibir informações sobre tarefas no Gráfico de Gantt da Lista de projetos na guia Projetos.
 
@@ -230,7 +233,7 @@ Agora é possível imprimir o gráfico de Gantt nos tamanhos de papel A1 e A2.
 
 Anteriormente, só era possível exportar para Carta, Ofício, Razão, A3 (disponível somente para alguns idiomas) e A4.
 
-Para obter mais informações, consulte &quot;Exportar o Gráfico de Gantt para PDF&quot;.
+Para obter mais informações, consulte &quot;Exportar o Gráfico de Gantt para o PDF&quot;.
 
 ## Exibição de projeto renomeada no Gráfico de Gantt {#renamed-the-project-view-on-the-gantt-chart}
 

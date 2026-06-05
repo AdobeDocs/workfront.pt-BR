@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão 2018.2 do Beta 4
+title: Atividade de lançamento da versão 2018.2 Beta 4
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 4. A funcionalidade estará disponível no ambiente de Pré-visualização em 17 de maio de 2018. Ele estará disponível no ambiente de Produção em julho de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 0%
+source-wordcount: 1700
+ht-degree: 1%
 
 ---
 
-# Atividade da versão 2018.2 do Beta 4
+# Atividade de lançamento da versão 2018.2 Beta 4
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 4. A funcionalidade estará disponível no ambiente de Pré-visualização em 17 de maio de 2018. Ele estará disponível no ambiente de Produção em julho de 2018.
 
@@ -22,7 +28,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.2, consulte  Visão geral da atividade da versão [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.2, consulte a [visão geral da atividade da versão 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 A versão 2018.2 do Beta 4 contém as melhorias para administradores do Workfront e outros usuários:
 
@@ -51,7 +57,7 @@ Agora você pode configurar os limites de Trabalho em andamento (WIP) para cada 
 
 Antes dessa alteração, você poderia configurar apenas um limite WIP que se aplicasse a todas as colunas no quadro Kanban. 
 
-Para obter mais informações, consulte a seção  [Configurar o limite do trabalho em andamento (WIP)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) no artigo  [Configurar Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Para obter mais informações, consulte a seção [Configurar o limite do trabalho em andamento (WIP)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) no artigo [Configurar Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ### Atualizar o limite do Trabalho em andamento (WIP) diretamente do Quadro Kanban
 
@@ -59,7 +65,7 @@ Agora, os membros da equipe com direitos de Edição da equipe podem atualizar o
 
 Antes dessa alteração, você poderia atualizar o limite de WIP somente a partir da área Configurações da equipe.
 
-Para obter mais informações, consulte  no artigo .
+Para obter mais informações, consulte no artigo .
 
 ## Interface aprimorada para configurar status para uma Equipe Agile {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
@@ -145,7 +151,7 @@ Desativamos temporariamente a exportação de dados do Planejador de recursos ao
 
 Para obter mais informações sobre como exportar os dados do Planejador de recursos para o Excel, consulte a seção &quot;Opção de Exportação&quot; na [Visão geral da navegação do Planejador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Para participar do nosso programa beta atual para o Planejador de recursos, consulte [Beta de desempenho do Planejador de recursos.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=pt)
+Para participar do nosso programa beta atual para o Planejador de recursos, consulte [Beta de desempenho do Planejador de recursos.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## Configuração do Sistema: Informações da Sessão em Páginas Externas {#system-setting-session-information-in-external-pages}
 

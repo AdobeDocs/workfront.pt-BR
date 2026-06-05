@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Aprimoramentos do projeto 2019.2
+title: Aprimoramentos no projeto na 2019.2
 description: Esta página descreve todas as melhorias de projeto incluídas na versão 2019.2. A funcionalidade está planejada para estar disponível no ambiente de Produção na semana de 20 de maio de 2019.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 76292f90-af1a-4740-9b8e-b02a6303625c
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/-4bsOXpJd8x1IKN-bqcvRqHDDiD5JawSrXgyRYmVYqA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 1%
+source-wordcount: 741
+ht-degree: 2%
 
 ---
 
-# Aprimoramentos do projeto 2019.2
+# Aprimoramentos no projeto na 2019.2
 
 Esta página descreve todas as melhorias de projeto incluídas na versão 2019.2. A funcionalidade está planejada para estar disponível no ambiente de Produção na semana de 20 de maio de 2019.
 
@@ -78,7 +84,7 @@ Tudo o que você desativar for usado atualmente continuará a funcionar como sem
 
 >[!IMPORTANT]
 >
->Ao criar esses objetos por meio da API do Workfront, o valor padrão do parâmetro &quot;isActive&quot; é true. Este é um novo campo para todos os objetos e não está disponível para edição antes da versão 11 da API. Esse campo existia anteriormente para Portfolio, exceto que o valor padrão era false; ele será alterado para um valor padrão de true, começando com a versão 11 da API.
+>Ao criar esses objetos por meio da API do Workfront, o valor padrão do parâmetro &quot;isActive&quot; é true. Este é um novo campo para todos os objetos e não está disponível para edição antes da versão 11 da API. Esse campo existia anteriormente para o Portfolio, exceto que o valor padrão era falso; ele será alterado para um valor padrão verdadeiro, a partir da versão 11 da API.
 
 ## Exibir o BCWS (Custo Orçado do Trabalho Agendado) e o BCWP (Custo Orçado do Trabalho Realizado) nas Exibições
 

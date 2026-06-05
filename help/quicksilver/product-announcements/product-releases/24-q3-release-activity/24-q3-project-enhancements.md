@@ -5,16 +5,19 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+TQID: https://experienceleague.adobe.com/cE9falXH8dG-XSkNTfbJVxBtup8AUliJAJchYhwstDE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 0%
+source-wordcount: 497
+ht-degree: 2%
 
 ---
 
 # Aprimoramentos no projeto do terceiro trimestre de 2024
 
-Esta página descreve todas as melhorias de projeto feitas com a versão do terceiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todas as melhorias de projeto feitas com a versão do terceiro trimestre de 2024 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
@@ -32,7 +35,7 @@ Para obter informações sobre como atualizar a Data de confirmação e a Condi�
 * [Atualizar Condição para tarefas e problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 * [Atualizar a data de confirmação sobre tarefas e problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3429471/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Atribuições mais relevantes adicionadas ao fluxo de trabalho Nova tarefa
 

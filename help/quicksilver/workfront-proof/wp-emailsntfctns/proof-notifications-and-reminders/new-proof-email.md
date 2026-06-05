@@ -8,10 +8,15 @@ description: Faça com que este artigo funcione melhor para PiW.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d879b1c6-e862-4653-aa93-90ad92170951
-source-git-commit: 1030d4110fd5dabb3b5751387585cc66968c2326
+TQID: https://experienceleague.adobe.com/0HC5D2PBZQ7L7N5NI0Q2FbUg6qSjLK7M1OkRLrUj0kA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 0%
+source-wordcount: 806
+ht-degree: 1%
 
 ---
 
@@ -56,7 +61,7 @@ O email de nova prova contém:
 
 ## O registro de atividades
 
-O envio de um email de [!UICONTROL Nova Prova] para um revisor está registrado na seção [!UICONTROL Atividade] da página [!UICONTROL Detalhes da prova]. Consulte [Gerenciar[!UICONTROL &#x200B; detalhes da prova] em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obter mais informações. Você pode verificar se o email [!UICONTROL Nova prova] foi habilitado no momento da criação de uma prova.
+O envio de um email de [!UICONTROL Nova Prova] para um revisor está registrado na seção [!UICONTROL Atividade] da página [!UICONTROL Detalhes da prova]. Consulte [Gerenciar[!UICONTROL  detalhes da prova] em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obter mais informações. Você pode verificar se o email [!UICONTROL Nova prova] foi habilitado no momento da criação de uma prova.
 
 ![Novo_email_versão_-_log_atividade.png](assets/new-verison-email---acitivity-log-350x44.png)
 

@@ -7,10 +7,15 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
+TQID: https://experienceleague.adobe.com/uC23s3GzNOgYxXOFwnaqXxlSbj7aIYYIXyC1RgU0dRE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 0%
+source-wordcount: 1233
+ht-degree: 2%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->A Workfront oferece dois modelos para o lançamento de novos recursos e atualizações. Sua organização pode escolher se deseja receber novas funcionalidades trimestralmente ou em uma programação de lançamento mais rápida. O processo de preparação para uma versão é semelhante, independentemente do modelo usado por sua organização.
+>A Workfront oferece dois modelos para o lançamento de novos recursos e atualizações. Sua organização pode escolher se deseja receber novas funcionalidades trimestralmente ou em um cronograma de lançamentos mais rápido. O processo de preparação para uma versão é semelhante, independentemente do modelo usado por sua organização.
 >
 >Para obter uma explicação detalhada dos dois modelos de versão, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -85,7 +90,7 @@ Como administrador do [!DNL Workfront], você receberá uma mensagem do Centro d
 
 ### Explorar o ambiente [!UICONTROL Visualizar Sandbox]
 
-O ambiente [!UICONTROL Pré-visualização da Sandbox], também conhecido como [!UICONTROL Pré-visualização], serve como um ambiente em que os usuários em sua organização podem testar e trabalhar com segurança com uma cópia separada de seus dados do ambiente de Produção. O [!UICONTROL Workfront] geralmente lança novos recursos e funcionalidades no ambiente de Visualização pelo menos duas semanas     antes de serem liberados para o ambiente de Produção. Você tem a oportunidade de se familiarizar com esses recursos antes que eles sejam lançados nos fluxos de trabalho diários de seus usuários. Em seguida, se os usuários tiverem dificuldade em aproveitar os novos recursos, você poderá ajudá-los a se adaptar mais facilmente.
+O ambiente [!UICONTROL Pré-visualização da Sandbox], também conhecido como [!UICONTROL Pré-visualização], serve como um ambiente em que os usuários em sua organização podem testar e trabalhar com segurança com uma cópia separada de seus dados do ambiente de Produção. O [!UICONTROL Workfront] geralmente lança novos recursos e funcionalidades no ambiente de Pré-visualização pelo menos duas semanas antes de serem lançados para o ambiente de Produção. Você tem a oportunidade de se familiarizar com esses recursos antes que eles sejam lançados nos fluxos de trabalho diários de seus usuários. Em seguida, se os usuários tiverem dificuldade em aproveitar os novos recursos, você poderá ajudá-los a se adaptar mais facilmente.
 
 >[!TIP]
 >
@@ -107,7 +112,7 @@ Para obter links para as visões gerais de versão, consulte [Versões do produt
 
 Alguns novos recursos podem ter um botão &quot;Fornecer feedback&quot;. Levamos esse feedback em consideração ao nos prepararmos para liberar o recurso para produção.
 
-Além disso, se você encontrar um erro ou tiver um problema com novos recursos, entre em contato com o Suporte da Workfront. Para obter mais informações, consulte [Contate o Atendimento ao Cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Além disso, se você encontrar um erro ou tiver um problema com novos recursos, entre em contato com o Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 
 

@@ -5,16 +5,22 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
-source-git-commit: 01ea4c72e61cbc808ed76cb18e3f67d893bacf69
+TQID: https://experienceleague.adobe.com/SKiCAgc9DDftQxDXZc1vtqwZamb7lF0TfEuLQWEpJzo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 0%
+source-wordcount: 486
+ht-degree: 4%
 
 ---
 
 # Melhorias na página inicial do quarto trimestre de 2024
 
-Esta página descreve todas as melhorias na Página inicial feitas com a versão do Quarto trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todas as melhorias na Página inicial feitas com a versão do Quarto trimestre de 2024 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2024, consulte [Visão geral da versão do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
@@ -30,7 +36,7 @@ Fizemos as seguintes alterações no widget Aguardando minha aprovação:
 * **Adicionadas as aprovações que enviei como uma opção de filtro**: agora você pode visualizar as aprovações que enviou na nova Página inicial com este widget.
 * **Prazo**: agora você pode ver o prazo da prova, se ele já tiver sido definido. Se um prazo não estiver definido, o prazo assumirá como padrão a data de criação.
 
-Para obter mais informações, consulte [Introdução à Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Para obter mais informações, consulte [Introdução à página inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Simplifique a experiência do Workfront para proprietários de tarefas com prioridades
 
@@ -52,7 +58,7 @@ O Prioridades substitui a Página inicial herdada e a nova funcionalidade será 
 
 Para obter mais informações, consulte [Introdução às Prioridades](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3434848/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3434848/){target=_blank}
 
 ## Substituição da experiência inicial herdada com o 24.10
 

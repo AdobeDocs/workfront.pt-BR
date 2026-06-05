@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade de versão final do Beta 2018.2
+title: Atividade de lançamento da versão 2018.2 Beta Final
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 20 de junho de 2018. Ele estará disponível no ambiente de Produção em julho de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 36001571-bf8c-4fe8-a66b-09d3726f66d3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/s0vTUKOxP1bju3-LqI8JQZLg7uC7GfK0pe33a-1-G54
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: 809
+ht-degree: 1%
 
 ---
 
-# Atividade de versão final do Beta 2018.2
+# Atividade de lançamento da versão 2018.2 Beta Final
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 20 de junho de 2018. Ele estará disponível no ambiente de Produção em julho de 2018.
 
@@ -22,7 +28,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.2, consulte  Visão geral da atividade da versão [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.2, consulte a [visão geral da atividade da versão 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 Os novos recursos a seguir serão lançados na versão de produção 18.2:
 
@@ -31,7 +37,7 @@ Os novos recursos a seguir serão lançados na versão de produção 18.2:
 * [As Atualizações Rastreadas pelo Sistema Não Contêm Mais Ícone](#system-tracked-updates-no-longer-contain-an-icon)
 * [A opção de converter um comentário em uma tarefa foi removida](#option-to-convert-a-comment-to-a-task-was-removed)
 * [Workfront para Salesforce](#workfront-for-salesforce)
-* [Workfront para melhorias de Slack](#workfront-for-slack-improvements)
+* [Workfront para melhorias no Slack](#workfront-for-slack-improvements)
 * [Melhorias na mobilidade](#mobile-improvements)
 
 ## Especificar serviços de entrega de e-mail para responder às notificações por e-mail do Workfront {#specify-mail-delivery-services-for-replying-to-workfront-email-notifications}
@@ -72,18 +78,18 @@ Anteriormente, você podia converter um comentário em uma tarefa na área Atual
 
 ## Workfront para Salesforce {#workfront-for-salesforce}
 
-Estamos lançando uma nova integração pronta para uso entre o Salesforce e a Workfront. Você poderá fazer o seguinte:
+Estamos lançando uma nova integração pronta para uso entre o Salesforce e o Workfront. Você poderá fazer o seguinte:
 
 * Crie automaticamente novos projetos do Workfront quando uma Oportunidade do Salesforce atingir um determinado estágio, quando um novo Produto for adicionado a uma Oportunidade ou quando o Tipo de uma Conta for atualizado.
-* Crie solicitações do Workfront a partir de uma oportunidade ou conta do Salesforce.
+* Crie solicitações do Workfront a partir de uma oportunidade ou conta da Salesforce.
 
 Essa integração estará disponível para todos os clientes que tiverem uma Workfront Pro Edition ou superior, e será gratuita.
 
-Para obter mais informações sobre o Workfront para Salesforce, consulte  [Adobe Workfront para Salesforce](../../../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md).
+Para obter mais informações sobre o Workfront para Salesforce, consulte [Adobe Workfront para Salesforce](../../../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md).
 
-## Workfront para melhorias de Slack {#workfront-for-slack-improvements}
+## Melhorias no Workfront for Slack {#workfront-for-slack-improvements}
 
-Você pode configurar o para receber notificações do Workfront no canal Slack Workfront.
+Você pode configurar o para receber notificações do Workfront no canal do Slack Workfront.
 
 As seguintes notificações do Workfront também podem ser configuradas para serem entregues no Slack:
 
@@ -93,7 +99,7 @@ As seguintes notificações do Workfront também podem ser configuradas para ser
 
 Antes dessa melhoria, não era possível receber notificações do Workfront no Slack.
 
-Para obter mais informações sobre notificações Workfront no Slack, consulte [Receber notificações Adobe Workfront no Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Para obter mais informações sobre notificações do Workfront no Slack, consulte [Receber notificações do Adobe Workfront no Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Melhorias na mobilidade {#mobile-improvements}
 

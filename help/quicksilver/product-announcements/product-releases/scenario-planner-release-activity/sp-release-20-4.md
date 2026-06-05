@@ -3,25 +3,28 @@ product-previous: enterprise-scenario-planner
 content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: scenario-planner-release-activity
-title: Planejador de cenários do Workfront com a versão 20.4 - 14 de outubro de 2020
+title: Planejador de cenários do Workfront na versão 20.4 - 14 de outubro de 2020
 description: O Planejador de cenários do Workfront está disponível somente com a nova experiência do Adobe Workfront.
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 32e124fe-81ea-42b3-b4aa-069aed78263e
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/hZeSLglCZ8Y-IAbfRJ53ALc3lLLGOUV4sl0M7mt37uY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 0%
+source-wordcount: 347
+ht-degree: 5%
 
 ---
 
-# Planejador de cenários do Workfront com a versão 20.4 - 14 de outubro de 2020
+# Planejador de cenários do Workfront na versão 20.4 - 14 de outubro de 2020
 
 O Planejador de cenários do Workfront está disponível somente com a nova experiência do Adobe Workfront.
 
 Os seguintes recursos foram adicionados à versão 20.4:
 
-## Cenários do Publish para atualizar e criar projetos no Planejador de Cenários do Workfront
+## Publicar cenários para atualizar e criar projetos no Planejador de cenários do Workfront
 
 Um novo recurso no Planejador de cenários do Workfront agora permite publicar um cenário e mapear suas iniciativas para projetos regulares. Isso cria projetos de iniciativas existentes ou atualiza projetos já vinculados a iniciativas que foram importadas no plano. Transferências de informações de iniciativas para os projetos, economizando tempo na entrada de dados e garantindo a precisão.
 

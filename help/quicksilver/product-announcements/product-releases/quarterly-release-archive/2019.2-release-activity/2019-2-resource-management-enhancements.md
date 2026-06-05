@@ -1,26 +1,32 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Aprimoramentos no gerenciamento de recursos 2019.2
+title: Aprimoramentos no gerenciamento de recursos na 2019.2
 description: Esta página descreve todas as melhorias no Gerenciamento de recursos incluídas na versão 2019.2. A funcionalidade está planejada para estar disponível no ambiente de Produção na semana de 20 de maio de 2019.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b9c1a628-030b-437e-b609-5ab3e608fa31
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/GCxuDsSmsYlbavqYqQz-rSiADL2bKfwfA55BU1fCiD4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 0%
+source-wordcount: 518
+ht-degree: 3%
 
 ---
 
-# Aprimoramentos no gerenciamento de recursos 2019.2
+# Aprimoramentos no gerenciamento de recursos na 2019.2
 
 Esta página descreve todas as melhorias no Gerenciamento de recursos incluídas na versão 2019.2. A funcionalidade está planejada para estar disponível no ambiente de Produção na semana de 20 de maio de 2019.
 
 Para obter uma lista de todas as alterações feitas em 2019.2, consulte a [Visão Geral da Atividade da Versão 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
-## Exibir prioridade de Portfolio no Planejador de recursos
+## Exibir a prioridade do Portfolio no Planejador de recursos
 
 Agora você pode ativar uma configuração no Planejador de recursos que permite exibir a prioridade do projeto de acordo com o portfólio ao qual ele está atribuído. A prioridade do portfólio é exibida ao lado da prioridade do Planejador de recursos do projeto.
 
@@ -40,7 +46,7 @@ Para obter informações sobre a filtragem no Planejador de recursos, consulte [
 
 Estamos introduzindo um novo nível de acesso para o Gerenciamento de recursos. Os usuários com uma Licença de plano poderão receber acesso de Edição ao Gerenciamento de recursos, o que lhes permitirá fazer o seguinte:
 
-* Priorizar projetos no Planejador de recursos
+* Priorizar projetos no planejador de recursos
 * Recursos de orçamento nas ferramentas de Planejamento de recursos
 * Gerenciar Conjuntos de Recursos
 
@@ -54,7 +60,7 @@ Para obter informações sobre o novo acesso necessário para recursos de orçam
 
 Para obter informações sobre o novo nível de acesso Gerenciamento de Recursos, consulte [Noções Básicas sobre o Acesso ao Gerenciamento de Recursos](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
-## Ordenar projetos por prioridades de Portfolio no Planejador de recursos
+## Ordenar projetos por prioridades da Portfolio no Planejador de recursos
 
 Agora é possível ordenar projetos por prioridade de portfólio no Planejador de recursos.
 

@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: Aprimoramentos no gerenciamento de recursos 2019.1
+title: Aprimoramentos no gerenciamento de recursos na 2019.1
 description: Esta página descreve todas as melhorias no Gerenciamento de recursos incluídas na versão 2019.1. A funcionalidade agora está disponível no ambiente de Produção do.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6eed6023-96cc-45d7-8dae-a36d45e92068
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/5P0V7i-nS8PMlAPzS5oLEv3KvDOLGQ4vAGpRaF51ZCc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 0%
+source-wordcount: 959
+ht-degree: 1%
 
 ---
 
-# Aprimoramentos no gerenciamento de recursos 2019.1
+# Aprimoramentos no gerenciamento de recursos na 2019.1
 
 Esta página descreve todas as melhorias no Gerenciamento de recursos incluídas na versão 2019.1. A funcionalidade agora está disponível no ambiente de Produção do.
 

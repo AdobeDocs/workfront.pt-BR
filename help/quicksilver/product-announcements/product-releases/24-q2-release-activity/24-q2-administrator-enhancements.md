@@ -5,16 +5,22 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+TQID: https://experienceleague.adobe.com/xcYDVGJSTKtR0dRM3EhQf62WokddEzsudevZ6Ur6Wn0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 0%
+source-wordcount: 827
+ht-degree: 11%
 
 ---
 
 # Aprimoramentos do administrador no segundo trimestre de 2024
 
-Esta página descreve todas as melhorias de administrador feitas com a versão do segundo trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todas as melhorias de administrador feitas com a versão do segundo trimestre de 2024 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2024, consulte [Visão geral da versão do Segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
@@ -44,7 +50,7 @@ Para obter mais informações sobre campos de formulário personalizados, consul
 >
 >Versão de pré-visualização: 26 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: 24.4 (11 de abril de 2024)
 
-A integração do JumpSeat existente agora está disponível para contas que usam um dos novos tipos de pacote (ou seja, Select, Prime ou Ultimate). Você ainda deve ter uma assinatura ativa do JumpSeat para habilitar a integração.
+A integração JumpSeat existente agora está disponível para contas que usam um dos novos tipos de pacote (ou seja, Select, Prime ou Ultimate). Você ainda deve ter uma assinatura ativa do JumpSeat para habilitar a integração.
 
 Para obter mais informações sobre a integração do JumpSeat, consulte [Configurar a integração do JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
@@ -58,7 +64,7 @@ Os campos nativos do Workfront agora estão disponíveis para você adicionar ao
 
 Depois de selecionar Campo nativo na lista de campos de formulários personalizados para adicionar o campo ao designer do formulário, você pode selecionar qualquer campo nativo para os objetos do formulário. Por exemplo, se a lista Tipos de objeto na parte superior do designer do formulário mostrar Projeto, você poderá selecionar campos nativos para projetos, mas não campos específicos para tarefas.
 
-Quando o formulário personalizado é anexado a um objeto, o campo é preenchido a partir dos dados do objeto. Por exemplo, o campo Descrição em um formulário personalizado anexado a um projeto extrairá a descrição do projeto. (O campo pode mostrar &quot;N/D&quot; se nenhum dado estiver disponível.)
+Quando o formulário personalizado é anexado a um objeto, o campo é preenchido com base nos dados do objeto. Por exemplo, o campo Descrição de um formulário personalizado anexado a um projeto extrairá a descrição do projeto. (O campo pode mostrar “N/A” se não houver dados disponíveis.)
 
 Os campos nativos usados em formulários personalizados ficam disponíveis na biblioteca de campos no designer para reutilização. Eles também ficam visíveis na área Configurar > Forms personalizados > Campos para que você possa ver em quais formulários são usados.
 
@@ -66,7 +72,7 @@ Esse recurso está disponível somente no designer de formulário beta, não no 
 
 Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427702/){target=_blank}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## O mapeamento de atributos agora está disponível para organizações que migraram para o Adobe IMS
 
