@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1588'
 ht-degree: 19%
 
 ---
@@ -205,6 +205,15 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Pré-visualização</strong></td>
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Alterações nas Horas Efetivas em fórmulas personalizadas</a> <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Fórmulas personalizadas existentes usando <b>atualWorkRequired</b> (Horas Reais Herdadas) foram migradas para usar <b>atualWorkRequiredDouble</b> (Horas Reais). <b>atualWorkRequired</b> não pode mais ser usado em cálculos e fórmulas.</p>
+            </td>
+            <td><p>1 de junho de 2026</p></td>
+            <td><p>1 de junho de 2026</p></td>
+            <td><p>1 de junho de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Campos de dados de moeda personalizados nos relatórios do Painel da Tela</a>

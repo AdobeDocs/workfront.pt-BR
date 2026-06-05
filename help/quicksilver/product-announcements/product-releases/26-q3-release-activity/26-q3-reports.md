@@ -4,10 +4,10 @@ description: Melhorias na emissão de relatórios no terceiro trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,22 @@ ht-degree: 4%
 Esta página descreve as melhorias de relatórios feitas com a versão do terceiro trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2026, consulte [Visão geral da versão do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Alterações nas Horas Efetivas em fórmulas personalizadas
+
+>[!NOTE]
+>
+>Visualização: 1 de junho de 2026>Versão rápida de produção: 1 de junho de 2026>Produção para todos: 1 de junho de 2026
+
+Em 2025, um novo campo Horas efetivas foi adicionado ao banco de dados do Workfront como `actualWorkRequiredDouble`, e o campo Horas efetivas existente (`actualWorkRequired` no banco de dados) foi renomeado para Horas efetivas herdadas. Consulte a [nota de versão](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) para obter mais informações.
+
+Em junho de 2026, fórmulas personalizadas existentes usando `actualWorkRequired` (Horas efetivas herdadas) foram migradas para usar `actualWorkRequiredDouble` (Horas efetivas) em seu lugar. `actualWorkRequired` não pode mais ser usado em cálculos e fórmulas.
+
+Além disso, é altamente recomendável usar `actualWorkRequiredDouble` em todos os relatórios.
+
+Ao substituir o campo, observe que `actualWorkRequired` armazena valores em minutos, enquanto `actualWorkRequiredDouble` armazena valores em horas com precisão decimal.
+
+Para obter mais informações sobre Horas Reais, consulte [Exibir Horas Reais](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Campos de dados de moeda personalizados em relatórios do Painel de controle da tela
 
