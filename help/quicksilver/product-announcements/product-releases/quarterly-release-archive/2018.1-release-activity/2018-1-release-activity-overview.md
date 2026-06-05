@@ -1,20 +1,31 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Visão geral da atividade da versão 2018.1
+title: Visão geral da atividade de lançamento da versão 2018.1
 description: Esta página fornece informações sobre a funcionalidade disponível na versão 2018.1.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f972c717-305b-4660-a094-ccfcf563df0f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/JF597GODfzJ6rejUNiUM-17OQwqHbQyFMCawJnO3xf0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 0%
+source-wordcount: 644
+ht-degree: 2%
 
 ---
 
-# Visão geral da atividade da versão 2018.1
+# Visão geral da atividade de lançamento da versão 2018.1
 
 Esta página fornece informações sobre a funcionalidade disponível na versão 2018.1.  
 
@@ -90,7 +101,7 @@ As seções a seguir descrevem as melhorias disponíveis para os usuários finai
 * [Criar uma Iteração em Branco e Atualizá-la Mais Tarde](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#create-a-blank-iteration-and-update-it-later)
 * [Os campos &quot;Foco&quot; e &quot;Capacidade&quot; são preenchidos previamente ao criar uma iteração](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#focus-and-capacity-fields-are-prepopulated)
 
-### Melhorias do revisor de provas (HTML5)
+### melhorias no visualizador de provas (HTML5)
 
 * [Novas melhorias do visualizador de revisões](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md#html5-proofing-viewer-improvements) 
 * [Comparar Modo](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#compare-mode)

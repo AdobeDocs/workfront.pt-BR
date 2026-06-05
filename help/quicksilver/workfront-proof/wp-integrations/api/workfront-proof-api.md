@@ -3,14 +3,21 @@ content-type: api
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: api-workfront-proof
-title: A API  [!DNL Workfront Proof]
+title: 'A API  [!DNL Workfront Proof] '
 description: Se você for um desenvolvedor com clientes que podem se beneficiar da análise de documentos, colaboração e aprovação integrados, poderá incorporar facilmente o  [!DNL Workfront Proof]  ao seu aplicativo. A API  [!DNL Workfront Proof]  permite habilitar essa funcionalidade e economizar centenas de horas de trabalho.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 3b71baaf-8490-4479-bb95-da0b5d28ad15
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+TQID: https://experienceleague.adobe.com/ANi6YHrHGou9XRM2ClrghBlFw6JOm54XJM8Mv44Sno8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: 107
 ht-degree: 0%
 
 ---

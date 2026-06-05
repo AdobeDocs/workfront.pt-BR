@@ -7,14 +7,26 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+TQID: https://experienceleague.adobe.com/q4CqQk3-DtWDhTSkfMdu4Ut3wmX5s787Fib8BFslHDQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 0%
+source-wordcount: 2204
+ht-degree: 2%
 
 ---
 
-# Atividade da versão do primeiro trimestre de 2025 para o Adobe Workfront Planning
+# Atividade de lançamento do primeiro trimestre de 2025 do Planejamento do Adobe Workfront
 
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Primeiro Trimestre de 2025.
 
@@ -28,7 +40,7 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 >
 >Versão de pré-visualização: 20 de dezembro de 2024; Versão de produção para todos os clientes: 16 de janeiro de 2025
 
-Agora é possível adicionar campos de conexão com ativos AEM a um formulário de solicitação de tipo de registro no Workfront Planning.
+Agora é possível adicionar campos de conexão com ativos do AEM a um formulário de solicitação de tipo de registro no Workfront Planning.
 
 Antes desse aprimoramento, esses tipos de campos não podiam ser adicionados aos formulários de solicitação.
 
@@ -61,7 +73,7 @@ Agora você receberá uma notificação no aplicativo, bem como um email, para a
 
 >[!NOTE]
 >
->A instância da Workfront de sua organização deve ser integrada à Experiência unificada do Adobe para que os usuários possam receber notificações por email e no aplicativo.
+>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para que os usuários possam receber notificações por email e no aplicativo.
 
 Para obter informações sobre como enviar ou aprovar solicitações, consulte os seguintes artigos:
 
@@ -168,7 +180,7 @@ Para obter informações, consulte [Enviar solicitações do Adobe Workfront Pla
 
 Agora é possível adicionar os seguintes tipos de campo a um formulário de solicitação de tipo de registro no Workfront Planning:
 
-* Pessoas
+* People
 * Conexões do Workfront
 
 Antes desse aprimoramento, esses tipos de campos não podiam ser adicionados a formulários de solicitação no Workfront Planning.
@@ -186,7 +198,7 @@ Não é mais possível compartilhar um formulário de solicitação publicamente
 * Fórmula
 * Conexões do Workfront e do AEM Assets
 * Campos de pesquisa
-* Pessoas
+* People
 
 Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -215,13 +227,13 @@ Antes desse aprimoramento, não era possível restaurar os registros excluídos.
 
 Para obter mais informações, consulte [Restaurar registros excluídos](/help/quicksilver/planning/records/records-information.md).
 
-## Assistente de IA de Adobe disponível nas áreas de detalhes de registro
+## Assistente do Adobe AI disponível nas áreas de detalhes de registro
 
 >[!NOTE]
 >
 >Versão de pré-visualização: 21 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
-Para facilitar a realização do trabalho, adicionamos o Assistente de IA de Adobe à visualização dos detalhes de um registro ou à página do registro. Você pode usar o Assistente de IA dentro de uma página de registro para atualizar informações sobre o registro.
+Para facilitar a realização do trabalho, adicionamos o Assistente do Adobe AI à visualização dos detalhes de um registro ou à página do registro. Você pode usar o Assistente de IA dentro de uma página de registro para atualizar informações sobre o registro.
 
 Para obter informações, consulte [visão geral do Assistente de IA do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
@@ -235,7 +247,7 @@ Ao abrir uma visualização ou página de registro e o registro não tiver uma m
 
 Para obter mais informações, consulte os seguintes artigos:
 
-* [Adicionar uma imagem da capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Adicionar uma imagem de capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [Adicionar uma imagem em miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## Novos tipos de exibição para campos do tipo porcentagem na exibição de tabela
@@ -308,4 +320,4 @@ A edição de campos de conexão do Planning para objetos do Workfront em massa 
 
 Para obter informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3435633/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3435633/){target=_blank}

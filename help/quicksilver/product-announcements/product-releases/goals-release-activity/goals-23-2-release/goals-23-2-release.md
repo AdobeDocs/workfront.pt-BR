@@ -2,19 +2,24 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Adobe Workfront Goals com a versão 23.2
+title: Metas do Adobe Workfront na versão 23.2
 description: Esta página fornece informações sobre a funcionalidade do Adobe Workfront Goals na nova experiência do Adobe Workfront que está sendo lançada no ambiente de produção com a versão 23.2.
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 7f543c35-d4e3-4d17-be21-1f09eb7c4df3
-source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
+TQID: https://experienceleague.adobe.com/OKJUbYvwNtxOEGYPF5KW6hbCi1SdlX6m3OkJQcdgw-E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 0%
+source-wordcount: 165
+ht-degree: 9%
 
 ---
 
-# Adobe Workfront Goals com a versão 23.2
+# Metas do Adobe Workfront na versão 23.2
 
 Esta página fornece informações sobre a funcionalidade do Adobe Workfront Goals que está sendo lançada no ambiente de Produção com a versão 23.2, programada para a semana de 3 de abril de 2023.
 

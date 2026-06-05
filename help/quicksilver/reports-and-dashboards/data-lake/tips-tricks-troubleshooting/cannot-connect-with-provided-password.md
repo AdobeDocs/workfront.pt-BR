@@ -2,17 +2,25 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: A ferramenta Power BI não consegue se conectar com a senha fornecida
+title: A ferramenta Power BI não conseguiu se conectar com a senha fornecida
 description: Ao tentar fazer logon no Data Connect pela ferramenta do Power BI, você recebe um erro de logon.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 40050915153af6e1f70024461e193fb536d74e35
+exl-id: c3f2b4a9-0831-48f0-871b-486d09ae5ea4
+TQID: https://experienceleague.adobe.com/Z4RrMAPGd3CCti-cQFiJ7hlf-h8-suXeuoYfzk-9aKo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 0%
+source-wordcount: 229
+ht-degree: 5%
 
 ---
-
 
 # A ferramenta Power BI não consegue se conectar com a senha fornecida
 
@@ -50,4 +58,3 @@ Redefina a senha da conexão no Workfront e crie uma nova senha com o link forne
 1. Clique em **Fazer logon**.
 1. Digite uma nova senha e clique em **Enviar**.
 1. Acesse a ferramenta Power BI e faça logon com a nova senha.
-

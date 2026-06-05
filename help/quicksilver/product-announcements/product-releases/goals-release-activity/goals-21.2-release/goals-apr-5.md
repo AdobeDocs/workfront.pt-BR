@@ -2,15 +2,22 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Atividade de lançamento do Adobe Workfront Goals 21.2: Semana de 5 de abril de 2021"
+title: 'Atividade de lançamento das Metas do Adobe Workfront 21.2: semana de 5 de abril de 2021'
 description: Esta página descreve todas as melhorias feitas com a versão 21.2 do Adobe Workfront Goals para o ambiente de Pré-visualização na semana de 5 de abril de 2021. Essas melhorias serão disponibilizadas no ambiente de Produção no primeiro trimestre de 21.2.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 8439b983-7817-403e-b9be-dcbf209ad3ee
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+TQID: https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 1%
+source-wordcount: 385
+ht-degree: 4%
 
 ---
 

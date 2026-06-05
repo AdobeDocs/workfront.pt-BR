@@ -7,12 +7,21 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/80G4RZ-rbOgyvGFh-ehxD0SQEOI63PC39WYwadazA2o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2017'
-ht-degree: 13%
+source-wordcount: 1944
+ht-degree: 6%
 
 ---
 
@@ -29,10 +38,7 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 
 >[!NOTE]
 >
->Visualização: 15 de janeiro de 2026
->Versão rápida de produção: 15 de janeiro de 2026
->Produção para todos: 15 de janeiro de 2026
->[!BADGE Fora do cronograma]{type=Neutral}
+>Visualização: 15 de janeiro de 2026>Versão rápida de produção: 15 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026>[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora é possível compartilhar tipos de registros globais adicionados a um espaço de trabalho secundário a partir desse espaço de trabalho. Os usuários também receberão as mesmas permissões para todos os registros no espaço de trabalho secundário que você estiver compartilhando.
 
@@ -49,10 +55,7 @@ Para obter mais informações, consulte [Visão geral do tipo de registro entre 
 
 >[!NOTE]
 >
->Visualização: 15 de janeiro de 2026
->Versão rápida de produção: 15 de janeiro de 2026
->Produção para todos: 15 de janeiro de 2026
->[!BADGE Fora do cronograma]{type=Neutral}
+>Visualização: 15 de janeiro de 2026>Versão rápida de produção: 15 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026>[!BADGE Fora do cronograma]{type=Neutral}
 
 Os registros adicionados a um tipo de registro global em um espaço de trabalho secundário são visíveis somente nesse espaço de trabalho ou no espaço de trabalho primário original do tipo de registro. Antes dessa atualização, os registros adicionados a um espaço de trabalho secundário também estavam visíveis em outros espaços de trabalho secundários nos quais você pode ter permissões para exibir.
 
@@ -62,9 +65,7 @@ Para obter mais informações, consulte [Visão geral do tipo de registro entre 
 
 >[!NOTE]
 >
->Pré-visualização: quarta-feira, 23 de dezembro de 2025
->Versão rápida da produção: 14 de janeiro de 2026
->Produção para todos: 15 de janeiro de 2026
+>Visualização: 23 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
 
 Agora você pode definir hierarquias flexíveis mas estruturadas entre tipos de registro ou objeto.
 
@@ -86,9 +87,7 @@ Para obter mais informações, consulte [Visão geral sobre hierarquia e navega�
 
 >[!NOTE]
 >
->Pré-visualização: quarta-feira, 23 de dezembro de 2025
->Versão rápida da produção: 14 de janeiro de 2026
->Produção para todos: 15 de janeiro de 2026
+>Visualização: 23 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
 
 Quando você cria hierarquias entre tipos de registro, elas geram navegações estruturais para os registros que pertencem a esses tipos de registro.
 
@@ -103,9 +102,7 @@ Para obter informações, consulte [Visão geral sobre hierarquia e navegação 
 
 >[!NOTE]
 >
->Pré-visualização: sábado, 19 de dezembro de 2025
->Produção rápida: 14 de janeiro de 2026
->Produção para todos: 15 de janeiro de 2026
+>Visualização: 19 de dezembro de 2025>Rápida produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
 
 Para oferecer mais flexibilidade ao trabalhar com páginas de registros conectadas, aprimoramos a funcionalidade de exibições nesta área do Workfront Planning. Veja a seguir as melhorias nas páginas de registros conectados de um registro:
 
@@ -120,8 +117,7 @@ Para obter informações, consulte [Adicionar uma página de registros conectado
 
 >[!NOTE]
 >
->Pré-visualização: 18 de dezembro de 2025
->Versão rápida da produção: 14 de janeiro de 2026\
+>Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026\
 >Produção para todos: 15 de janeiro de 2026
 
 Para facilitar a visualização das informações necessárias, adicionamos a capacidade de compartilhar exibições na página de registros dos Projetos Conectados. Agora, você pode compartilhar visualizações com outros usuários, equipes ou grupos.
@@ -132,8 +128,7 @@ Para obter informações, consulte [Adicionar uma página de registros conectado
 
 >[!NOTE]
 >
->Pré-visualização: 18 de dezembro de 2025
->Versão rápida da produção: 14 de janeiro de 2026\
+>Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026\
 >Produção para todos: 15 de janeiro de 2026
 
 Para facilitar a filtragem de conexões de projeto que se aplicam a você, criamos um curinga do usuário atual. Agora, ao filtrar, você pode selecionar “Eu (usuário conectado)”. O filtro será então aplicado ao usuário que estiver visualizando a lista de solicitações.
@@ -153,9 +148,7 @@ Para obter mais informações sobre como configurar as exibições de conexão d
 
 >[!NOTE]
 >
->Pré-visualização: 18 de dezembro de 2025
->Produção rápida: 14 de janeiro de 2026
->Produção para todos: 15 de janeiro de 2026
+>Visualização: 18 de dezembro de 2025>Rápida produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
 
 Fizemos as seguintes melhorias na página principal do Workspaces no Workfront Planning:
 
@@ -172,10 +165,7 @@ Para obter informações, consulte [Editar espaços de trabalho](/help/quicksilv
 
 >[!NOTE]
 >
->Visualização: 11 de dezembro de 2025
->Versão rápida de produção: 11 de dezembro de 2025
->Produção para todos: 11 de dezembro de 2025
->[!BADGE Fora do cronograma]{type=Neutral}
+>Visualização: 11 de dezembro de 2025>Versão rápida de produção: 11 de dezembro de 2025>Produção para todos: 11 de dezembro de 2025>[!BADGE Fora do cronograma]{type=Neutral}
 
 O campo de conexão com a Marca GenStudio for Performance Marketing agora é adicionado por padrão aos tipos de registro Produtos e Personalidades no espaço de trabalho GenStudio do Workfront Planning.
 
@@ -189,10 +179,7 @@ Para obter informações, consulte [Introdução à integração do Adobe Workfr
 
 >[!NOTE]
 >
->Visualização: 11 de dezembro de 2025
->Versão rápida de produção: 11 de dezembro de 2025
->Produção para todos: 11 de dezembro de 2025
->[!BADGE Fora do cronograma]{type=Neutral}
+>Visualização: 11 de dezembro de 2025>Versão rápida de produção: 11 de dezembro de 2025>Produção para todos: 11 de dezembro de 2025>[!BADGE Fora do cronograma]{type=Neutral}
 
 Adicionamos uma proteção que impede a remoção das permissões dos usuários do GenStudio for Performance Marketing de objetos do Workfront Planning. Com essa melhoria, não é mais possível remover usuários do GenStudio do espaço de trabalho do GenStudio no Planning, nem desabilitar permissões herdadas para tipos de registros no espaço de trabalho do GenStudio, se essas permissões incluírem usuários do GenStudio. Antes dessa melhoria, ao remover esses usuários do espaço de trabalho do GenStudio no Planning, eles também perderiam permissões para registrar tipos no GenStudio.
 
@@ -206,9 +193,7 @@ Para obter informações, consulte [Introdução à integração do Adobe Workfr
 
 >[!NOTE]
 >
->Pré-visualização: quinta-feira, 3 de dezembro de 2025
->Versão rápida de produção: sexta-feira, 4 de dezembro de 2025
->Produção para todos: 15 de janeiro de 2026
+>Visualização: 3 de dezembro de 2025>Versão rápida de produção: 4 de dezembro de 2025>Produção para todos: 15 de janeiro de 2026
 
 
 Removemos a guia Compartilhamento público ao compartilhar uma exibição para um registro global em um espaço de trabalho secundário. Não é possível compartilhar uma exibição publicamente de um tipo de registro global adicionado a outro espaço de trabalho de um tipo de registro global existente. Você pode compartilhar uma visualização de tipo de registro global publicamente de seu espaço de trabalho original.
@@ -220,9 +205,7 @@ Para obter informações, consulte [Compartilhar modos de exibição](/help/quic
 
 >[!NOTE]
 >
->Pré-visualização: 13 de novembro de 2025
->Versão rápida de produção: 13 de novembro de 2025
->Produção para todos: 13 de novembro de 2025
+>Visualização: 13 de novembro de 2025>Versão rápida de produção: 13 de novembro de 2025>Produção para todos: 13 de novembro de 2025
 
 Agora é possível conectar tipos de registro do Workfront Planning com Marcas da Adobe GenStudio for Performance Marketing. Sua organização deve ter o Workfront Planning e o Adobe GenStudio for Performance Marketing.
 
@@ -233,9 +216,7 @@ Para obter mais informações, consulte [Tipos de registro de conexão](/help/qu
 
 >[!NOTE]
 >
->Pré-visualização: 6 de novembro de 2025
->Versão rápida de produção: 11 de dezembro de 2025
->Produção para todos: 15 de janeiro de 2026
+>Visualização: 6 de novembro de 2025>Versão rápida de produção: 11 de dezembro de 2025>Produção para todos: 15 de janeiro de 2026
 
 Agora é possível pesquisar por um campo específico ao criar um elemento de exibição em uma exibição do tipo de registro. Adicionamos caixas de pesquisa ao criar um filtro, classificar, agrupar ou ao configurar as cores dos campos ou linhas. Antes dessa melhoria, você pode simplesmente rolar pela lista de campos disponíveis.
 
@@ -248,9 +229,7 @@ Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quic
 
 >[!NOTE]
 >
->Pré-visualização: sexta-feira, 16 de outubro de 2025
->Versão rápida de produção: 13 de novembro de 2025
->Produção para todos: 15 de janeiro de 2026
+>Visualização: 16 de outubro de 2025>Versão rápida de produção: 13 de novembro de 2025>Produção para todos: 15 de janeiro de 2026
 
 Ao implementar o Workfront Planning para uma organização de várias equipes com workflows comuns, talvez seja necessário definir uma estrutura coesa e metadados para os principais tipos de registro (como Campanhas ou Materiais de entrega) que podem ser adicionados aos espaços de trabalho de cada equipe para capturar e gerenciar o trabalho.
 
@@ -272,9 +251,7 @@ Para obter mais informações, consulte os seguintes artigos:
 
 >[!NOTE]
 >
->Pré-visualização: sexta-feira, 16 de outubro de 2025
->Versão rápida de produção: 13 de novembro de 2025
->Produção para todos: 15 de janeiro de 2026
+>Visualização: 16 de outubro de 2025>Versão rápida de produção: 13 de novembro de 2025>Produção para todos: 15 de janeiro de 2026
 
 Introduzimos um limite de 30 campos de conexão para cada tipo de registro.
 
@@ -286,9 +263,7 @@ Para obter mais informações, consulte [Visão geral dos Tipos de Registros Con
 
 >[!NOTE]
 >
->Pré-visualização: sexta-feira, 16 de outubro de 2025
->Versão rápida de produção: 13 de novembro de 2025
->Produção para todos: 15 de janeiro de 2026
+>Visualização: 16 de outubro de 2025>Versão rápida de produção: 13 de novembro de 2025>Produção para todos: 15 de janeiro de 2026
 
 Ao adicionar opções de campo a um campo de seleção única ou múltipla, o Workfront atribuirá valores amigáveis exclusivos a cada escolha. Antes dessa melhoria, o Workfront gerou uma ID alfanumérica que era difícil de entender e usar em chamadas de API e outras integrações.
 

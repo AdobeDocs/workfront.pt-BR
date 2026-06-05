@@ -1,20 +1,29 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão 2018.2 do Beta 3
+title: Atividade de lançamento da versão 2018.2 Beta 3
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 19 de abril de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 239a4e7e-e9db-4cf0-a703-8888e00f0d83
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/496MnQ2HZg6qwvdMzXQ7vQBtD2msLKmcDvDizeljurY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 0%
+source-wordcount: 482
+ht-degree: 3%
 
 ---
 
-# Atividade da versão 2018.2 do Beta 3
+# Atividade de lançamento da versão 2018.2 Beta 3
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 19 de abril de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
 
@@ -22,7 +31,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.2, consulte  Visão geral da atividade da versão [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.2, consulte a [visão geral da atividade da versão 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 A versão 2018.2 do Beta 3 contém as seguintes melhorias:
 

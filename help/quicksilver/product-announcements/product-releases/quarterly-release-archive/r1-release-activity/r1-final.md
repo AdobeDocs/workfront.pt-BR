@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/FQZ7CAhTWmVPgaSkVIedTDIRaXtt2ekNZq5x7kjTvxc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: 1195
 ht-degree: 0%
 
 ---
@@ -50,7 +63,7 @@ Anteriormente, ao adicionar uma nova versão do documento, a prova não era gera
 
 Ao usar o menu Documentos mais para carregar uma nova versão, uma prova não é gerada automaticamente.
 
-Para obter mais informações, consulte  seção em
+Para obter mais informações, consulte a seção em
 
 ## Permitir que todos os usuários de provas acessem o ProofHQ diretamente da interface do Workfront (Workfront)
 
@@ -58,7 +71,7 @@ Agora é possível habilitar todos os usuários de comprovação no sistema para
 
 Essa opção não está ativada por padrão. Para habilitar esta opção, entre em contato com o Suporte Técnico da Workfront e solicite este acesso para todos os usuários de comprovação em seu sistema.
 
-Para obter mais informações, consulte [Acessar o Workfront Proof a partir do Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) em  [Acessar o Workfront Proof pelo Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Para obter mais informações, consulte [Acessar o Workfront Proof da Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) em [Acessar o Workfront Proof da Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 Antes dessa alteração, somente o administrador do Workfront poderia ter acesso direto ao site ProofHQ a partir da interface do Workfront.
 
@@ -96,7 +109,7 @@ Agora é possível pesquisar objetos no aplicativo móvel de forma semelhante à
 
 Para obter mais informações sobre o aplicativo móvel, consulte a seção &quot;Pesquisando em dispositivos móveis&quot; em  
 
-## Ajuda aprimorada no aplicativo móvel: Tutorials (Workfront)
+## Ajuda aprimorada no aplicativo móvel: tutoriais (Workfront)
 
 A partir da versão móvel de abril, você verá novas telas de tutoriais para orientá-lo pela sua experiência móvel. Ao fazer logon no aplicativo móvel pela primeira vez e usar um recurso pela primeira vez, você verá um breve tutorial que explica como o recurso funciona. O tutorial é exibido apenas uma vez, na primeira vez que você estiver usando um recurso específico do.
 
@@ -106,7 +119,7 @@ Para obter mais informações sobre o aplicativo móvel, consulte .
 
 Agora é possível realizar pesquisas em documentos do PDF, documentos do Office e páginas da Web estáticas.
 
-Para obter mais informações, consulte  [Pesquisar conteúdo em uma prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+Para obter mais informações, consulte [Pesquisar conteúdo em uma prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
 
 ## Barra de navegação global atualizada (ProofHQ)
 

@@ -2,14 +2,23 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Verifique seu armazenamento  [!DNL Workfront Proof]
+title: 'Verifique seu armazenamento  [!DNL Workfront Proof] '
 description: Seu plano de conta vem com uma quantidade fixa de armazenamento. O armazenamento do plano não é renovado com cada assinatura porque provas e arquivos de assinaturas anteriores ainda estão salvos em sua conta.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e387b209-3a76-423f-982b-6c1046ee6198
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+TQID: https://experienceleague.adobe.com/qEv4qQPPKV6FkF-2j43kbFxthWXEYPrLWHaFonfwKtw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: 161
 ht-degree: 0%
 
 ---

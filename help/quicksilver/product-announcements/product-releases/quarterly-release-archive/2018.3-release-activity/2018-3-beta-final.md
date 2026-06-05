@@ -1,20 +1,32 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Final do Beta 2018.3
+title: 2018.3 Beta Final
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.3. A funcionalidade estará disponível no ambiente de Pré-visualização em 10 de outubro de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 0%
+source-wordcount: 862
+ht-degree: 1%
 
 ---
 
-# Final do Beta 2018.3
+# 2018.3 Beta Final
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.3. A funcionalidade estará disponível no ambiente de Pré-visualização em 10 de outubro de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
 
@@ -22,7 +34,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.3, consulte  Visão geral da atividade da versão [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.3, consulte a [visão geral da atividade da versão 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 A versão final do Beta 2018.3 contém as seguintes melhorias:
 
@@ -30,7 +42,7 @@ A versão final do Beta 2018.3 contém as seguintes melhorias:
 * [Atualizações para Adicionar Novas Tarefas à Página Inicial](#updates-for-adding-new-tasks-in-home)
 * [Ferramentas de Marcação de Revisão agora expandidas por padrão](#proofing-markup-tools-now-expanded-by-default)
 * [Integração de documentos do Microsoft OneDrive](#microsoft-onedrive-document-integration)
-* [Workfront para integração do Microsoft Teams](#workfront-for-microsoft-teams-integration)
+* [Integração do Workfront para Microsoft Teams](#workfront-for-microsoft-teams-integration)
 * [Workfront atualizado para Integração com o Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Melhorias no aplicativo móvel do Workfront](#workfront-mobile-app-improvements)
 
@@ -45,7 +57,7 @@ Anteriormente, só era possível sincronizar itens do Calendário do Outlook com
 * Agora você pode atualizar a data de conclusão planejada em uma Tarefa pessoal.
 * Agora você pode atribuir Equipes e Funções às Solicitações e Tarefas de projeto criadas na Página inicial.
 
-Para obter mais informações sobre as atualizações acima, consulte  [Criar itens de trabalho a partir da Área inicial](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Para obter mais informações sobre as atualizações acima, consulte [Criar itens de trabalho da Área inicial](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Ferramentas de marcação de revisão de texto agora expandidas por padrão {#proofing-markup-tools-now-expanded-by-default}
 
@@ -53,7 +65,7 @@ Agora, ao abrir uma prova no visualizador de provas, as ferramentas de marcaçã
 
 Anteriormente, você tinha que clicar em para expandir essas ferramentas em um menu vertical.
 
-Para obter mais informações, consulte  [Definir configurações do revisor de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Para obter mais informações, consulte [Definir configurações do revisor de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 ## Integração de documentos do Microsoft OneDrive {#microsoft-onedrive-document-integration}
 

@@ -1,19 +1,26 @@
 ---
-title: 23.1 Melhorias na agilidade
-description: 23.1 Melhorias na agilidade
+title: Aprimoramentos ágeis na 23.1
+description: Aprimoramentos ágeis na 23.1
 author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/owoXC1kzVMTER0p-z1l3nKfa1d0z8JHMzZTsP26QLkc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 0%
+source-wordcount: 899
+ht-degree: 1%
 
 ---
 
-# 23.1 Melhorias na agilidade
+# Aprimoramentos ágeis na 23.1
 
 Esta página descreve todas as melhorias de Agile feitas com a versão 23.1 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 16 de janeiro de 2023.
 
@@ -43,7 +50,7 @@ A data de vencimento em cartões conectados e cartões ad hoc agora também incl
 
 Para obter mais informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3411952/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
 ## Os itens da lista de verificação do painel e as subtarefas do Workfront agora estão vinculados
 
@@ -57,7 +64,7 @@ Anteriormente, os itens da lista de verificação e as subtarefas não eram vinc
 
 Para obter mais informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Gerenciar itens da lista de verificação em cartões](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3411951/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
 ## Contador de cartões em colunas a bordo
 
@@ -121,7 +128,7 @@ A lista de filtros em um quadro agora inclui a opção de filtrar por conexão, 
 
 Para obter mais informações, consulte [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412381/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Arquivar cartões de um quadro em uma programação
 
@@ -135,4 +142,4 @@ Se quiser exibir os cartões novamente depois que eles caírem do quadro, você 
 
 Para obter mais informações, consulte [Configurar fallout do cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
-[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412323/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412323/){target=_blank}

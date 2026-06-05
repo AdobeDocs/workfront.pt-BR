@@ -1,20 +1,32 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão 2017.2 do Beta 3
+title: Atividade de lançamento da versão 2017.2 Beta 3
 description: Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 24 de maio de 2017. Ele será disponibilizado no ambiente de Produção entre o final de julho e o início de agosto de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9647f3c6-f287-426c-a5e7-eb33b8b22a34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/OKzzIQnrWd9qvpM-vrh-jVLI3s120i1FaBdQxGpbMcY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 0%
+source-wordcount: 1379
+ht-degree: 1%
 
 ---
 
-# Atividade da versão 2017.2 do Beta 3
+# Atividade de lançamento da versão 2017.2 Beta 3
 
 Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 24 de maio de 2017. Ele será disponibilizado no ambiente de Produção entre o final de julho e o início de agosto de 2017.
 
@@ -35,7 +47,7 @@ A versão 2017.2 do Beta 2 contém melhorias para administradores do Workfront e
 
 * [Exibir Usuários Inscritos](#view-subscribed-users)
 * [Configure como os marcos são exibidos no Gráfico de Gantt](#configure-how-milestones-are-displayed-on-the-gantt-chart)
-* [Incluir a Legenda do Gráfico de Gantt ao exportar para PDF](#include-the-gantt-chart-legend-when-exporting-to-pdf)
+* [Incluir a Legenda do Gráfico de Gantt ao exportar para o PDF](#include-the-gantt-chart-legend-when-exporting-to-pdf)
 * [Exibir aprovações de provas na área Meu trabalho (Workfront)](#view-proof-approvals-in-the-my-work-area-workfront)
 * [Exibir nomes de usuários ao tratar de solicitações de aprovação de revisão da área Meu Trabalho (Workfront)](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
 * [Visualizador de provas aprimorado para provas de vídeo (ProofHQ e Workfront)](#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront)
@@ -75,13 +87,13 @@ Antes dessa alteração, havia apenas uma opção para permitir que os Marcos fo
 
 Para obter mais informações sobre como configurar as informações exibidas no gráfico de Gantt, consulte [Configurar como as informações são exibidas no Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
-## Incluir a legenda do gráfico de Gantt ao exportar para PDF {#include-the-gantt-chart-legend-when-exporting-to-pdf}
+## Incluir a legenda do gráfico de Gantt ao exportar para o PDF {#include-the-gantt-chart-legend-when-exporting-to-pdf}
 
-Ao exportar o gráfico de Gantt para um PDF, agora é possível selecionar se também deseja exportar a legenda do gráfico junto com o próprio gráfico. Os itens incluídos na legenda são apenas as opções que você ativou para serem exibidas no Gráfico de Gantt na interface do usuário. Essas opções são incluídas na legenda se existirem nas tarefas do projeto. Por exemplo, se você permitir a exibição de Etapas no gráfico de Gantt, a legenda também os exibirá, mas somente se houver pelo menos uma tarefa associada a uma etapa.
+Ao exportar o gráfico de Gantt para uma PDF, agora é possível selecionar se também deseja exportar a legenda do gráfico junto com o próprio gráfico. Os itens incluídos na legenda são apenas as opções que você ativou para serem exibidas no Gráfico de Gantt na interface do usuário. Essas opções são incluídas na legenda se existirem nas tarefas do projeto. Por exemplo, se você permitir a exibição de Etapas no gráfico de Gantt, a legenda também os exibirá, mas somente se houver pelo menos uma tarefa associada a uma etapa.
 
 Antes dessa alteração, não era possível excluir a legenda do PDF exportado, e a legenda incluía todas as opções e marcadores possíveis do Gantt, independentemente de estarem ativados ou existentes na interface do usuário.
 
-Para obter mais informações sobre como exportar o Gráfico de Gantt, consulte [Exportar o Gráfico de Gantt para PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+Para obter mais informações sobre como exportar o Gráfico de Gantt, consulte [Exportar o Gráfico de Gantt para o PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
 ## As informações do usuário são sincronizadas do Workfront para o ProofHQ (ProofHQ e Workfront) {#user-information-is-synchronized-from-workfront-to-proofhq-proofhq-and-workfront}
 
@@ -127,7 +139,7 @@ Para obter mais informações, consulte [Aprovando trabalho](../../../../review-
 
 ## Visualizador de provas aprimorado para provas de vídeo (ProofHQ e Workfront) {#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront}
 
-O revisor de provas no Workfront e no ProofHQ está sendo atualizado com uma nova aparência, arquitetura HTML5 para melhor desempenho e suporte para novas funcionalidades.
+O visualizador de provas no Workfront e no ProofHQ está sendo atualizado com uma nova aparência, arquitetura HTML5 para melhor desempenho e suporte para novas funcionalidades.
 
 O novo visualizador de provas contém as seguintes melhorias:
 
@@ -149,7 +161,7 @@ O novo visualizador de provas está disponível para teste nos seguintes ambient
 
 * Ambiente de visualização do Workfront, quando sua conta está habilitada com comprovação
 
-  Para obter mais informações sobre o ambiente de Visualização do Workfront, consulte  [O Ambiente De Sandbox De Visualização Do Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+  Para obter mais informações sobre o ambiente de Visualização do Workfront, consulte [O ambiente de sandbox de visualização do Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 Nesta versão, o novo visualizador de provas suporta apenas provas em vídeo. Isso significa que todas as provas de vídeo usam o novo visualizador de provas, enquanto todas as provas de mídia estática e avançada continuam a usar o visualizador de provas existente.
 

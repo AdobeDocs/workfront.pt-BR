@@ -1,20 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão 2018.2 do Beta 5
+title: Atividade de lançamento da versão 2018.2 Beta 5
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 5. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de junho de 2018. Os aprimoramentos de revisão lançados com o Beta 5 estarão disponíveis no ambiente de Pré-visualização na segunda-feira, 4 de junho. Ele estará disponível no ambiente de Produção em julho de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: 3190
 ht-degree: 1%
 
 ---
 
-# Atividade da versão 2018.2 do Beta 5
+# Atividade de lançamento da versão 2018.2 Beta 5
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 5. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de junho de 2018. Os aprimoramentos de revisão lançados com o Beta 5 estarão disponíveis no ambiente de Pré-visualização na segunda-feira, 4 de junho. Ele estará disponível no ambiente de Produção em julho de 2018.
 
@@ -22,7 +35,7 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.2, consulte  Visão geral da atividade da versão [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.2, consulte a [visão geral da atividade da versão 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 A versão 2018.2 do Beta 5 contém as melhorias para administradores do Workfront e outros usuários:
 
@@ -155,7 +168,7 @@ Antes dessa melhoria, a coluna vizinha à direita da coluna redimensionada tamb�
 
 Para obter informações sobre como redimensionar as colunas de reordenação em listas, consulte [Modificar largura e ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Para participar do nosso programa de teste beta para as melhorias da lista atual, consulte [Estudo de novas listas.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=pt) (Login necessário)
+Para participar do nosso programa de teste beta para as melhorias da lista atual, consulte [Estudo de Novas Listas.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=pt) (Login necessário)
 
 ## Ícone Suporte para novas listas de projeto {#icon-support-for-the-new-project-lists}
 
@@ -216,7 +229,7 @@ Antes dessa melhoria, você podia referenciar apenas uma coleção de tarefas em
 
 Para obter informações sobre como fazer referência a uma coleção em um relatório, consulte [Coleções de referência em um relatório](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-Para obter informações sobre como usar o modo de texto, consulte  [Visão geral dos usos comuns do Modo de Texto](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obter informações sobre como usar o modo de texto, consulte [Visão geral dos usos comuns do Modo de Texto](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 >[!NOTE]
 >
@@ -295,7 +308,7 @@ Agora é possível adicionar usuários a uma prova diretamente no Web Proofing V
 
 Anteriormente, não era possível adicionar usuários individuais a uma prova. Em vez disso, você só poderia copiar o URL público ou o código incorporado.
 
-Para obter mais informações, consulte [Compartilhar uma prova adicionando usuários a ela](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) no artigo  [Compartilhar uma prova do visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Para obter mais informações, consulte [Compartilhar uma prova adicionando usuários a ela](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) no artigo [Compartilhar uma prova do visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ### Exibir todas as ferramentas de marcação no visualizador de provas {#display-all-markup-tools-in-the-proofing-viewer}
 
@@ -319,7 +332,7 @@ Agora você pode tomar uma decisão de aprovação de documento Workfront no Vis
 
 Anteriormente, somente o Visualizador de provas da Web permitia que você tomasse uma decisão de aprovação de documento do Workfront. 
 
-Para obter mais informações, consulte  [Tome uma decisão sobre uma prova no visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) no artigo  [Tome uma decisão sobre uma prova no visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Para obter mais informações, consulte [Tomar uma decisão sobre uma prova no visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) no artigo [Tomar uma decisão sobre uma prova no visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 ### Configurar links que abrem novas guias e janelas para abrir no Visualizador de provas da área de trabalho {#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer}
 
@@ -405,7 +418,7 @@ Em relatórios que contêm o objeto Versão do documento (como um relatório Ver
 
   Exibe o status do progresso da prova (Enviado, Aberto, Comentado, Decisão Tomada).
 
-Para obter mais informações sobre cada um desses campos, consulte  [Glossário da terminologia do Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Para obter mais informações sobre cada um desses campos, consulte o [Glossário da terminologia do Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ### Visualizar dados históricos para aprovações de provas no Workfront {#view-historical-data-for-proof-approvals-in-workfront}
 
@@ -413,7 +426,7 @@ No relatório Aprovação de prova, é possível adicionar um campo que permite 
 
 Antes dessa alteração, depois que uma decisão sobre uma prova era tomada, a decisão não podia mais ser exibida em um relatório do Workfront.
 
-Para obter mais informações, consulte  [Glossário da terminologia do Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Para obter mais informações, consulte [Glossário da terminologia do Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Aprimoramentos de provas no Workfront Proof {#proofing-enhancements-in-workfront-proof}
 
@@ -426,7 +439,7 @@ Agora é possível criar uma nova versão de uma prova diretamente no novo visua
 
 Anteriormente, essa opção estava disponível somente no Flash Viewer herdado.
 
-Para obter mais informações, consulte [Copiando provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) no artigo  [Copiando provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+Para obter mais informações, consulte [Copiando provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) no artigo [Copiando provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
 ### Novo link de detalhes da prova no revisor de provas e no Visualizador de provas da área de trabalho (Workfront Proof) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 

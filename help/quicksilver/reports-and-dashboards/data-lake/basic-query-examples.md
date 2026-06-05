@@ -7,11 +7,19 @@ description: Exemplos de consultas que você pode usar para se familiarizar com 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: 921
 ht-degree: 1%
 
 ---
@@ -163,7 +171,7 @@ A consulta acima retorna os seguintes dados:
 
 ### Explicação
 
-A consulta usa os recursos de rastreamento de eventos de alteração do Data Connect.  Ela determina a data em que um evento que tinha um novo valor de status diferente do evento anterior foi acionado. 
+A consulta usa os recursos de rastreamento de eventos de alteração do Data Connect. Ela determina a data em que um evento que teve um novo valor de status diferente do evento anterior foi acionado. 
 
 Examinando a consulta de dentro para fora: 
 
@@ -172,7 +180,7 @@ Examinando a consulta de dentro para fora: 
 
 2. Filtrar apenas os registros que foram alterados: 
 
-   * Selecione registros do cálculo na etapa 1, onde o status anterior!= status atual. 
+   * Selecione registros do cálculo na etapa 1, onde status anterior != status atual. 
 
 3. Calcule o carimbo de data e hora efetivo de início/término e a duração em dias: 
 
@@ -183,11 +191,9 @@ Examinando a consulta de dentro para fora: 
 
 >[!NOTE]
 >
->É recomendável usar essa consulta como sua própria &quot;Exibição&quot; no Power BI ou Tableau.  Se quiser trazer outros campos de `<object>_event view`, junte a saída desta consulta de volta ao `<object>_event view`.  Os campos de junção seriam os seguintes: <br>
+>É recomendável usar essa consulta como sua própria &quot;Exibição&quot; no Power BI ou Tableau. Se você quiser trazer outros campos do `<object>_event view`, junte a saída dessa consulta de volta ao `<object>_event view`. Os campos de junção seriam os seguintes: <br>
 >Para projects_event: 
->`From projects_event p`
->`Join <above query> c on c.projectid = p.projectid  `
->`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 
