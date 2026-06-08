@@ -5,9 +5,9 @@ title: Configurar o servidor MCP do Adobe Workfront
 description: Configure sua instância do Workfront e sua plataforma de IA para trabalhar com o Workfront por meio de uma conversa em idioma natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Antes de conectar o Workfront a uma plataforma de agente de IA, é necessário:
 * Ter uma conta [!DNL Adobe Workfront] ativa com permissão para acessar os dados com os quais deseja trabalhar
 * Ter acesso a uma plataforma de agente de IA como o [!DNL Claude]
 * Sua instância do Workfront deve estar ativada no Adobe Identity Management System (IMS).
+* Para usar o MCP com o Workfront Planning, sua organização deve estar em um pacote do Workfront que inclua o Adobe Workfront Planning.
+
 
 ### Pré-requisitos do administrador
 
@@ -210,7 +212,7 @@ What happens next
 +++ Expanda para exibir dicas de solução de problemas para configuração e autenticação do servidor MCP do Workfront.
 
 | Problema | Causa provável | Corrigir |
-|---|---|---|
+| --- | --- | --- |
 | Você não pode encontrar o conector [!DNL Adobe Workfront] em [!DNL Claude]. | O administrador do [!DNL Claude] não o habilitou. | Contate o administrador do [!DNL Claude] (não o administrador do Workfront) e peça que ele habilite o conector [!DNL Adobe Workfront]. |
 | Você se conectou, mas não pode ver seus dados. | Você autenticou na instância incorreta do Workfront. | Desconecte o conector, reconecte e autentique na instância correta. |
 | Falha na autenticação ou a conexão parou de funcionar. | Sua sessão de autenticação expirou ou há um erro de conexão. | Desconecte e reconecte o conector. |
@@ -239,4 +241,4 @@ O administrador do Workfront e o administrador da plataforma de agente de IA. O 
 
 Não. Sua instância do Workfront deve estar ativada no Adobe Identity Management System (IMS) para usar o servidor MCP do Workfront. Se não tiver certeza se sua instância está ativada no IMS, entre em contato com o administrador do Workfront.
 
-+++
++++ 
