@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
 workflow-type: tm+mt
-source-wordcount: 3019
+source-wordcount: 3129
 ht-degree: 1%
 
 ---
@@ -212,7 +212,7 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
    >
    >  Não é possível editar as informações dos seguintes campos, pois eles são somente leitura e o Workfront os atualiza automaticamente:
    >  
-   >  * Campos vinculados criados pela conexão de tipos de registro. Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Campos de pesquisa de conexão criados por tipos de registro de conexão e campos de pesquisa adicionados. Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação, Campos de fórmula.
 
 1. (Opcional e condicional) Ao editar um campo do tipo Parágrafo, use as seguintes opções de formatação de **Rich Text**:
@@ -229,22 +229,24 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 1. (Opcional) Clique duas vezes em um campo de registro conectado para adicionar registros ou objetos conectados a outro registro. Para obter mais informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 1. Pressione **Enter** no teclado ou clique fora de uma linha para salvar as alterações. As alterações são salvas automaticamente. Um indicador **Salvo** é exibido brevemente no canto superior direito da exibição de tabela para mostrar que as alterações foram salvas.
 
-
 1. (Opcional) Para copiar e colar informações de um campo para outro, siga um destes procedimentos:
 
    * Copie um ou vários valores existentes de um campo e cole-os em um campo do mesmo tipo em outro registro
    * Clique no cabeçalho de uma coluna para selecioná-la e copiá-la, em seguida, clique no cabeçalho da coluna de outra coluna e cole o conteúdo da coluna copiada. As colunas devem conter tipos de campo semelhantes.
-   * Com a tecla Shift pressionada, clique para selecionar várias linhas em uma tabela, copie as informações nas linhas selecionadas e, em seguida, clique em uma linha diferente e cole as informações selecionadas na nova linha e nas linhas seguintes depois disso.
+   * Com a tecla Shift pressionada, clique para selecionar várias linhas em uma tabela, copie as informações nas linhas selecionadas e, em seguida, clique em uma linha diferente e cole as informações selecionadas na nova linha e nas linhas seguintes depois disso. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
    * Copie as informações de uma célula, selecione várias células e cole as mesmas informações em várias células. Você pode selecionar várias células e colar as mesmas informações em várias células de linhas e colunas adjacentes.
    * Selecione o canto inferior direito de uma célula existente que contenha as informações que você deseja copiar e, em seguida, arraste e solte-a nas células adjacentes onde deseja colar as mesmas informações. Todas as células devem conter o mesmo tipo de informação.
 
      ![Canto inferior direito arrastável para copiar e colar na exibição de tabela](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-
    * Copie uma ou várias células de uma origem externa (por exemplo, um arquivo do Excel) e cole-as em um dos seguintes tipos de campos:
 
-      * Campos de conexão do Workfront Planning.
+      * Campos de conexão do Workfront Planning.\
+        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
       * Campos de pessoas. Somente campos com um valor são permitidos.
+      * Campos de texto.
+      * Selecionar campos.
+      * Campos de número, porcentagem e moeda.
 
      Não é possível copiar informações de uma fonte externa e colá-las em outros tipos de campo, incluindo campos do Workfront ou de conexões de outros aplicativos.
 
@@ -256,11 +258,12 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
    >   * Copiar: CTRL + C (⌘ + C para Mac)
    >   * Colar: CTRL + V (⌘ + V para Mac)
    >
-   >* Não é possível copiar e colar valores de campo na página de registro. Essa funcionalidade é compatível somente na exibição de tabela de um tipo de registro.
+   >* Não é possível copiar e colar valores de campo na página de detalhes do registro. Essa funcionalidade é compatível somente na exibição de tabela de um tipo de registro.
    >* Não é possível copiar e colar valores de campo para os seguintes tipos de campo:
    >
    >    * Campos de pesquisa criados ao conectar tipos de registro. Você pode copiar e colar campos de registro vinculados. Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação
+   >* Ao copiar e colar campos de conexão ou selecionar valores de campo, os valores copiados devem existir primeiro no Workfront Planning.
 
 1. (Opcional) Use os seguintes atalhos de teclado para desfazer ou refazer a edição ou a cópia e a colagem das informações do registro:
 
@@ -269,9 +272,17 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    >[!TIP]
    >
-   >    Você pode usar os atalhos do teclado várias vezes seguidas para desfazer várias alterações.
+   >Você pode usar os atalhos do teclado várias vezes seguidas para desfazer várias alterações.
 
-1. (Opcional) Adicione uma miniatura a um registro. Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do registro e escolha uma das seguintes opções:
+
+   * **Exibir** <!--or <span class="preview"Open in new tab</span>-->: abre a página de registro.
+   * **Copiar link**: para copiar um link para a página do registro.
+   * **Editar miniatura**: para adicionar uma miniatura a um registro.
+Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Duplicado**: cria uma duplicata idêntica do registro.
+   * **Inserir registro acima/ Inserir registro abaixo**: adiciona uma nova linha para que você possa adicionar um novo registro. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **Excluir**: para excluir o registro. Os registros excluídos são salvos na caixa Excluídos recentemente por até 30 dias.
 
 
 ### Editar um registro na exibição de linha do tempo de um tipo de registro

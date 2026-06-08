@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
 workflow-type: tm+mt
 source-wordcount: 1404
 ht-degree: 2%
@@ -174,7 +174,7 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
 
       * Um modelo de armazenamento herdado do Workfront
 
-        os modelos de armazenamento herdados do Workfront exibem um ícone de armazenamento herdado ![ícone de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado do nome.
+        Os modelos de armazenamento herdados do Workfront exibem um ícone de armazenamento herdado ![ícone de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado do nome.
 
         Os documentos no modelo e nos futuros projetos serão armazenados no armazenamento do Workfront.
       * Um modelo de armazenamento na nuvem do Adobe
