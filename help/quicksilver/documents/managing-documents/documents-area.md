@@ -10,17 +10,13 @@ exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IdrQfkprrzF-Jt-ZwlnVfvIO07B2ejvbOLhbAhPh8Lc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 850
 ht-degree: 1%
 
 ---
@@ -85,9 +81,13 @@ A página Detalhes do documento fornece uma versão mais em escala completa dos 
 
 A nova área Documentos só estará disponível para o se sua organização estiver no armazenamento na nuvem da Adobe. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
+![área de novos documentos](assets/new-doc-area.png)
+
 ### Usar o painel de resumo
 
 Ao selecionar um documento na área documentos, você pode usar o painel Resumo à direita para exibir detalhes sobre o documento, adicionar e editar formulários personalizados anexados, criar e gerenciar fluxos de trabalho de aprovação, exibir versões do documento e muito mais.
+
+![Painel de resumo com detalhes do documento aberto](assets/new-doc-details.png)
 
 #### Revisar e aprovar com Frame.io
 
@@ -95,11 +95,15 @@ Você pode revisar e aprovar documentos na nova área Documentos usando o visual
 
 Para obter mais informações, consulte [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
+![painel de resumo aberto para revisão e aprovações](assets/new-doc-approvals.png)
+
 #### Gerenciar versões
 
 Você pode fazer upload de novas versões de um documento na nova área Documentos. Ao fazer upload de uma nova versão, a versão anterior é retida e pode ser acessada no painel Resumo. As versões são nomeadas automaticamente com a data e a hora do upload, mas podem ser renomeadas conforme necessário.
 
 Você também pode iniciar um novo fluxo de trabalho de aprovação para uma versão específica de um documento.
+
+![painel de resumo aberto na guia versões](assets/new-doc-versions.png)
 
 #### Exibir histórico do documento
 
@@ -109,6 +113,8 @@ Você pode visualizar o histórico de um documento na nova área Documentos. O h
 * Quando novas versões são carregadas
 * Quando os fluxos de trabalho de aprovação foram iniciados para o documento
 * E muito mais
+
+![painel de resumo aberto na guia histórico](assets/new-doc-history.png)
 
 ### Pastas no nível do sistema para permissões de documento
 
