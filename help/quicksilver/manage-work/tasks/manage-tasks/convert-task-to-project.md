@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
 source-wordcount: 1257
 ht-degree: 5%
@@ -122,6 +122,10 @@ Old:
      >
      >Sua instância do Workfront pode não ter acesso a ambos os tipos de armazenamento de documentos.
 
+     <!--
+     For preview/ prod - rewrite the last bullet in the note: 
+     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
+     -->
 * O status e o percentual concluído de todas as subtarefas e problemas são preservados.
 * Os atribuídos à tarefa e o usuário que converte a tarefa no projeto se tornam usuários compartilhados no projeto.
 * A data de início do projeto é definida como a data de início da tarefa.

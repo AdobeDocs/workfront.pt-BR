@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: 2402
 ht-degree: 2%
 
 ---
@@ -408,7 +408,7 @@ Quando tipos de objetos do AEM (ativos e fragmentos de conteúdo) são conectado
 
 ### Formulários de solicitação e automações no tipo de registro do GenStudio
 
-* Você pode adicionar formulários de solicitação a um tipo de registro do GenStudio no Workfront Planning.
+* Você pode adicionar formulários de solicitação a um tipo de registro do GenStudio no Workfront Planning. Você pode adicionar campos de conexão do Planning em um formulário de solicitação associado a um tipo de registro do espaço de trabalho do GenStudio.
 
   Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * Você pode configurar automações para um tipo de registro do GenStudio no Workfront Planning.
@@ -419,12 +419,16 @@ Quando tipos de objetos do AEM (ativos e fragmentos de conteúdo) são conectado
 
 Quando sua organização tiver uma integração entre o Workfront Planning e o Adobe GenStudio, você poderá conectar tipos de registro do Planning a Marcas da GenStudio de qualquer tipo de registro em qualquer espaço de trabalho do Workfront Planning.
 
-As marcas são conectadas por padrão aos seguintes tipos de registro do espaço de trabalho do GenStudio:
+Considere o seguinte:
 
-* Produtos
-* Personas
+* As marcas são conectadas por padrão aos seguintes tipos de registro do espaço de trabalho do GenStudio:
 
-As marcas estão disponíveis para conexão manual com todos os outros tipos de registro do espaço de trabalho do GenStudio, ou tipos de registro de todos os outros espaços de trabalho que você tem permissões para gerenciar.
+   * Produtos
+   * Personas
+
+* As marcas estão disponíveis para conexão manual com todos os outros tipos de registro do espaço de trabalho do GenStudio, ou tipos de registro de todos os outros espaços de trabalho que você tem permissões para gerenciar.
+
+* Depois de conectar as Marcas a um tipo de registro do Planning ou GenStudio, é possível adicionar o campo de conexão Marcas a um formulário de solicitação associado ao tipo de registro.
 
 ## O ambiente de Pré-visualização
 

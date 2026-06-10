@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 7941
+source-wordcount: 7980
 ht-degree: 2%
 
 ---
@@ -303,7 +303,9 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
       <p><b>NOTAS</b></p>
       <ul>
       <li>Você deve ter permissões de gerenciamento no portfólio para poder adicioná-lo ou removê-lo do projeto.</li>
-      <li>Quando sua organização usa o armazenamento em nuvem herdado do Workfront e do Adobe, não é possível copiar tarefas entre projetos que usam tipos de armazenamento diferentes. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.</li></ul> 
+      <li>Quando sua organização usa o armazenamento em nuvem herdado do Workfront e do Adobe, não é possível copiar tarefas entre projetos que usam tipos de armazenamento diferentes. </li>
+      <li>Não é possível mover um projeto de armazenamento herdado para um portfólio ou programa de armazenamento em nuvem da Adobe, nem um projeto de armazenamento em nuvem da Adobe para um portfólio ou programa herdado.</li>
+      </ul> <p>Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.</p>
       Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Visão geral do gerenciamento de documentos para projetos e objetos relacionados</a>. 
       </td> 
       </tr> 
