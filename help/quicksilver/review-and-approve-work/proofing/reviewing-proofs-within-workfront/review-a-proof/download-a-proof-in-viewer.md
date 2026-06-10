@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 784f376722301da9d450a4021d1d24ffc21f3165
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 35%
+source-wordcount: 244
+ht-degree: 24%
 
 ---
 
@@ -70,3 +70,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    ![Visualizador_de_provas_botão_barra_de_ferramentas_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Navegue até o local no sistema de arquivos onde deseja baixar a prova e clique em **Salvar**.
+
+   >[!NOTE]
+   >
+   >Quando uma prova contém vários arquivos, o Workfront gera um arquivo .zip. Se dois ou mais arquivos na prova compartilharem o mesmo nome de arquivo, o .zip incluirá apenas uma cópia desse arquivo. Como resultado, o número de arquivos no .zip pode ser menor do que o número de arquivos mostrados no visualizador de provas. Por exemplo, uma prova com 5 arquivos, onde 2 são nomeados como `document.pdf`, produz um .zip que contém 4 arquivos.
