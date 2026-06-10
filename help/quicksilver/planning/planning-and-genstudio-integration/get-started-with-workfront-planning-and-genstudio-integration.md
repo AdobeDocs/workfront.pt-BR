@@ -9,19 +9,13 @@ exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Dzo6SD-mf-89koGS55sYT8gSk7z1U7aEyrg1MzSEHGY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: 2402
 ht-degree: 2%
 
 ---
@@ -127,7 +121,7 @@ A tabela a seguir descreve os requisitos de acesso e permissões para usar o Ado
    <td role="rowheader"><p>Funções de usuário do Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualquer função de usuário do GenStudio para acessar Campanhas, Produtos e Personalidades</li>
    <li>GenStudio System Manager para acessar Ativações <!--and Events--></li></ul>
-   Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
+   Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
    </p>
   </td> 
   </tr>   
@@ -183,7 +177,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -408,7 +402,7 @@ Quando tipos de objetos do AEM (ativos e fragmentos de conteúdo) são conectado
 
 ### Formulários de solicitação e automações no tipo de registro do GenStudio
 
-* Você pode adicionar formulários de solicitação a um tipo de registro do GenStudio no Workfront Planning.
+* Você pode adicionar formulários de solicitação a um tipo de registro do GenStudio no Workfront Planning. Você pode adicionar campos de conexão do Planning em um formulário de solicitação associado a um tipo de registro do espaço de trabalho do GenStudio.
 
   Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * Você pode configurar automações para um tipo de registro do GenStudio no Workfront Planning.
@@ -419,12 +413,16 @@ Quando tipos de objetos do AEM (ativos e fragmentos de conteúdo) são conectado
 
 Quando sua organização tiver uma integração entre o Workfront Planning e o Adobe GenStudio, você poderá conectar tipos de registro do Planning a Marcas da GenStudio de qualquer tipo de registro em qualquer espaço de trabalho do Workfront Planning.
 
-As marcas são conectadas por padrão aos seguintes tipos de registro do espaço de trabalho do GenStudio:
+Considere o seguinte:
 
-* Produtos
-* Personas
+* As marcas são conectadas por padrão aos seguintes tipos de registro do espaço de trabalho do GenStudio:
 
-As marcas estão disponíveis para conexão manual com todos os outros tipos de registro do espaço de trabalho do GenStudio, ou tipos de registro de todos os outros espaços de trabalho que você tem permissões para gerenciar.
+   * Produtos
+   * Personas
+
+* As marcas estão disponíveis para conexão manual com todos os outros tipos de registro do espaço de trabalho do GenStudio, ou tipos de registro de todos os outros espaços de trabalho que você tem permissões para gerenciar.
+
+* Depois de conectar as Marcas a um tipo de registro do Planning ou GenStudio, é possível adicionar o campo de conexão Marcas a um formulário de solicitação associado ao tipo de registro.
 
 ## O ambiente de Pré-visualização
 
