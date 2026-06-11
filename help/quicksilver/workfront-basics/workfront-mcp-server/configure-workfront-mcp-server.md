@@ -5,9 +5,9 @@ title: Configurar o servidor MCP do Adobe Workfront
 description: Configure sua instância do Workfront e sua plataforma de IA para trabalhar com o Workfront por meio de uma conversa em idioma natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: fd2f78e3dbeb29885f9c3045af9cb6f3278cd314
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,12 @@ Este artigo aborda as etapas de conexão para:
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-Se você usar uma plataforma de agente de IA compatível com MCP diferente (por exemplo, [!DNL Gemini] ou [!DNL Microsoft Copilot]), siga as etapas na documentação dessa plataforma para adicionar um servidor MCP personalizado. Quando for solicitado o URL do servidor MCP, insira: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+Se você usar uma plataforma de agente de IA compatível com MCP diferente (por exemplo, [!DNL Gemini] ou [!DNL Microsoft Copilot]), siga as etapas na documentação dessa plataforma para adicionar um servidor MCP personalizado. Quando for solicitado o URL do servidor MCP, informe o URL da sua região:
 
+| Região | URL |
+| --- | --- |
+| EUA | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+| UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
 
 ## Pré-requisitos
 
@@ -66,38 +70,36 @@ Você se conecta ao Workfront uma vez a cada conta [!DNL Claude]. A conexão é 
 
 ### Conectar-se ao Claude Desktop a partir do diretório connectors
 
-Em breve.
+>[!IMPORTANT]
+>
+>Atualmente, o Claude Connector só oferece suporte à conexão com o servidor MCP do Workfront na região dos EUA.  Para se conectar a uma instância do Workfront na região da UE, consulte [Conectar-se ao desktop Claude com uma URL](#connect-to-claude-desktop-with-a-url) neste artigo.
 
-<!--
++++ Expanda para exibir as instruções passo a passo para conectar o Workfront ao [!DNL Claude].
 
-+++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
+Para conectar o Workfront a [!DNL Claude]:
 
-To connect Workfront to [!DNL Claude]:
+1. Abrir [!DNL Claude].
 
-1. Open [!DNL Claude].
-
-1. Navigate to the connectors area.
-
-
-
-1. Find **[!DNL Adobe Workfront]** in the connector list.
-
-   If you don't see it, see [Admin prerequisites](#admin-prerequisites) in this article.
-
-1. Click **Connect**.
+1. Navegue até a área conectores.
 
 
 
-1. When prompted, log in to your Workfront instance.
+1. Localize **[!DNL Adobe Workfront]** na lista de conectores.
+
+   Caso não o veja, consulte [Pré-requisitos de administração](#admin-prerequisites) neste artigo.
+
+1. Clique em **Conectar**.
 
 
-1. After authentication completes, you're connected.
+
+1. Quando solicitado, faça logon na instância do Workfront.
+
+
+1. Depois que a autenticação for concluída, você estará conectado.
 
 
 
 +++
-
--->
 
 ### Conectar-se ao Claude Desktop com um URL
 
@@ -109,9 +111,22 @@ Para conectar o Workfront a [!DNL Claude] com uma URL:
 1. No menu esquerdo, selecione o ícone **Personalizar**.
 1. Selecione **Conectores** e o ícone **+** para adicionar um conector.
 1. Selecione o botão **Criar aplicativo**.
-1. Dê ao conector um nome desejado (como &quot;Workfront&quot;) e insira a URL do Servidor MCP desejada: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+1. Dê ao conector um nome desejado (como &quot;Workfront&quot;) e insira o URL do servidor MCP desejado:
+
+   | Região | URL |
+   | --- | --- |
+   | EUA | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
 
 1. Depois que o conector é criado, uma janela de logon é exibida. Autentique usando suas credenciais da Adobe ID. Selecione a instância do Workfront desejada se você pertencer a mais de uma.
+
+   >NOTA:
+   >
+   >Sua instância do Workfront deve se conectar com o servidor MCP da região dessa instância. Por exemplo, uma instância UE deve se conectar ao servidor MCP UE.
+   >
+   >Ao selecionar uma instância, as instâncias que não são compatíveis com a região do servidor MCP aparecerão esmaecidas e você não poderá se conectar a elas.
+   >
+   >Para conectar-se a uma instância incompatível com a região do servidor MCP, configure uma nova conexão MCP com o URL correto para essa região.
 
 +++
 
@@ -127,9 +142,24 @@ Para saber mais sobre [!DNL Claude] habilidades, consulte a [documentação do u
 1. Na parte inferior esquerda, selecione **seu nome** → **Configurações**.
 1. Selecione **Aplicativos** e habilite o **Modo de desenvolvedor**.
 1. Selecione o botão **Criar aplicativo**.
-1. Dê um nome desejado ao aplicativo (como &quot;Workfront&quot;) e insira a URL do Servidor MCP desejada: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+1. Dê um nome desejado ao aplicativo (como &quot;Workfront&quot;) e insira o URL do servidor MCP desejado:
+
+   | Região | URL |
+   | --- | --- |
+   | EUA | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+
 1. Verifique se a Autenticação está definida como **OAuth** (definido por padrão) e marque a caixa de seleção de aceitação para continuar.
 1. Depois que o aplicativo é criado, uma janela de logon é exibida. Autentique usando suas credenciais da Adobe ID. Selecione a instância do Workfront desejada se você pertencer a mais de uma.
+
+   >NOTA:
+   >
+   >Sua instância do Workfront deve se conectar com o servidor MCP da região dessa instância. Por exemplo, uma instância UE deve se conectar ao servidor MCP UE.
+   >
+   >Ao selecionar uma instância, as instâncias que não são compatíveis com a região do servidor MCP aparecerão esmaecidas e você não poderá se conectar a elas.
+   >
+   >Para conectar-se a uma instância incompatível com a região do servidor MCP, configure uma nova conexão MCP com o URL correto para essa região.
+
 
 ### Personalizar o comportamento do ChatGPT com GPTs personalizados
 
@@ -162,7 +192,14 @@ Para se conectar a uma instância diferente do Workfront:
 
 >[!NOTE]
 >
->Fazer logoff sozinho não alterna a instância do Workfront. Você deve desconectar e reconectar o conector.
+>* Fazer logoff sozinho não alterna a instância do Workfront. Você deve desconectar e reconectar o conector.
+>
+>* Sua instância do Workfront deve se conectar com o servidor MCP da região dessa instância. Por exemplo, uma instância UE deve se conectar ao servidor MCP UE.
+>
+>   Ao selecionar uma instância, as instâncias que não são compatíveis com a região do servidor MCP aparecerão esmaecidas e você não poderá se conectar a elas.
+>
+>   Para conectar-se a uma instância incompatível com a região do servidor MCP, configure uma nova conexão MCP com o URL correto para essa região.
+
 
 <!--
 
@@ -175,7 +212,13 @@ Para se conectar a uma instância diferente do Workfront:
 
 To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
 
-When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server:  
+
+   | Region | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   
 -->
 
 <!--
@@ -218,6 +261,7 @@ What happens next
 | Falha na autenticação ou a conexão parou de funcionar. | Sua sessão de autenticação expirou ou há um erro de conexão. | Desconecte e reconecte o conector. |
 | Você deseja alternar para uma instância diferente do Workfront. | Uma única conexão vincula você a uma instância. | Desconecte, reconecte e autentique na nova instância. |
 | Você não pode se conectar ao Workfront ou vê uma mensagem informando que o acesso ao servidor MCP está desativado. | O administrador do Workfront desativou o acesso ao servidor MCP para sua instância. | Entre em contato com o administrador do Workfront e solicite que ele ative o acesso ao servidor MCP nas Preferências do sistema. |
+| A instância do Workfront à qual você deseja se conectar está esmaecida e você verá uma mensagem informando que não está disponível para conexão em sua região | O servidor MCP está configurado para uma região (EU ou EUA) diferente da sua instância. | Configure o servidor MCP com o URL da região à qual sua instância do Workfront está atribuída. |
 | A plataforma do agente de IA pode encontrar seus itens do Workfront, mas não pode criá-los, atualizá-los ou excluí-los. | O administrador do Workfront desativou as ações de gravação do servidor MCP do Workfront. | Entre em contato com o administrador do Workfront e solicite que ele ative ações de gravação nas Preferências do sistema. |
 
 Para obter uma solução de problemas diária depois de se conectar (por exemplo, resultados obsoletos ou comportamento inesperado), consulte [Usar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
@@ -229,7 +273,7 @@ Para obter uma solução de problemas diária depois de se conectar (por exemplo
 
 +++ Expanda para exibir perguntas frequentes sobre a configuração do servidor MCP do Workfront.
 
-### Posso me conectar a várias instâncias do Workfront de uma só vez?
+### Posso me conectar a várias instâncias do Workfront ao mesmo tempo?
 
 Não. Cada conexão vincula uma plataforma de IA a uma única instância do Workfront. Para alternar, desconecte e reconecte, autenticando para a nova instância.
 
