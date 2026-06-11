@@ -83,7 +83,7 @@ Os usuários devem ter uma licença Standard Workfront para solicitar aprovaçã
 [É necessário um link para o artigo de ajuda do Express sobre a solicitação de aprovação]
 
 <!--
-Learn how to [get approval on designs](https://helpx.adobe.com/br/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
+Learn how to [get approval on designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
 -->
 
 ## Modelos Remix Express e enviar para revisão e aprovação
@@ -106,7 +106,7 @@ Se nenhum projeto for selecionado, o ativo assumirá como padrão um projeto esp
 [É necessário um link para o artigo de ajuda do Express sobre a solicitação de aprovação]
 
 <!--
-For more information, see [Send templates for review and approval](https://helpx.adobe.com/br/express/web/invite-collaborate/request-approval.html).
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 -->
 
 ## Revisar e aprovar arquivos Express remixados com Frame.io

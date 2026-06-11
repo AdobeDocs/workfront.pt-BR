@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: 58777d63eff116855191281d09c6c2d19f1aa2ee
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 19%
+source-wordcount: '1848'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do terceiro trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -39,6 +39,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 * [Aprimoramentos de documentos](#documents-enhancements)
 * [Aprimoramentos do Financial Management](#financial-management-enhancements)
 * [Aprimoramentos na página inicial](#home-enhancements)
+* [Aprimoramentos de projeto](#project-enhancements)
 * [Aprimoramentos nos relatórios](#reporting-enhancements)
 * [Aprimoramentos nas solicitações](#requesting-enhancements)
 * [Outros aprimoramentos](#other-enhancements)
@@ -55,6 +56,26 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Pré-visualização</strong></td>
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Exibir histórico de alterações para objetos do Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Para facilitar a visualização das alterações que ocorreram em uma lista central, criamos a Lista do histórico de alterações. Essa lista exibe informações como o objeto, a operação e a origem da alteração (como um usuário ou o sistema Workfront).</p>
+            </td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>16 de julho de 2026</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich Text substituindo o Texto pelo tipo de campo de Formatação</a>
@@ -193,6 +214,43 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     </tbody>
 </table>
 
+<!--
+
+### Project enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
+
 ### Aprimoramentos nos relatórios
 
 <table>
@@ -205,6 +263,24 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Pré-visualização</strong></td>
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Adicionar vários intervalos de endereço IP do Power BI ao incluo na lista de permissões de Conexão de Dados de uma só vez</a> <p>[!BADGE Off schedule]{type=Neutral}
+                <p>Os administradores do Workfront que conectam o Microsoft Power BI ao Workfront Data Connect agora podem adicionar um conjunto inteiro de intervalos de endereço IP do Azure de uma região ao incluo na lista de permissões em uma única etapa.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Classificar a lista de Painéis da Tela de Pintura</a> 
+                <p>Agora você pode classificar a lista Painéis de Controle do Canvas pelas colunas Nome, Descrição, Criado por ou Criar data. Clique em um cabeçalho de coluna para classificar a lista por essa coluna e, em seguida, clique no mesmo cabeçalho novamente para inverter a direção da classificação. Por padrão, a lista é classificada por Nome, de A a Z. A ordem de classificação é preservada ao alternar entre guias na lista Painéis da tela de desenho.</p>
+            </td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>15 de julho de 2026</p></td>
+            <td><p>16 de julho de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Alterações nas Horas Efetivas em fórmulas personalizadas</a> <p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -280,6 +356,15 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Pré-visualização</strong></td>
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Atualizações para o conector MCP do Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Atualizamos o Conector MCP do Workfront:<ul><li>Claude agora pode se conectar ao conector MCP.</li><li>Agora você pode usar o conector MCP de instâncias na UE ou de instâncias que não usam o AWS.</p>
+            </td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Aparência e comportamento atualizados para emails de notificação de comentários</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -382,7 +467,7 @@ Para obter mais informações, consulte [Introdução à avaliação gratuita do
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
