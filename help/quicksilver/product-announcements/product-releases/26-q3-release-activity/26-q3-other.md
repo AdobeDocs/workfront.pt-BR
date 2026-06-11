@@ -4,9 +4,9 @@ description: Outras melhorias durante o período do terceiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 ## Atualizações no conector MCP do Workfront
 
-Fizemos as seguintes atualizações no conector MCP do Workfront:
+Fizemos a seguinte atualização no conector MCP do Workfront:
 
-* Expandimos o servidor MCP para trabalhar com instâncias na UE e nos EUA que não estão no AWS. Cada servidor MCP só pode se conectar a uma instância, mas não está mais limitado a instâncias dos EUA no AWS.
+* Expandimos o servidor MCP para trabalhar com instâncias na UE<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->.
 * Para expandir a flexibilidade do conector MCP do Workfront, adicionamos a capacidade de conectar Claude. Agora, você pode encontrar o Workfront na lista de conectores no Claude ou conectar-se diretamente usando um URL.
 
 Para obter mais informações e instruções, consulte [Configurar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).

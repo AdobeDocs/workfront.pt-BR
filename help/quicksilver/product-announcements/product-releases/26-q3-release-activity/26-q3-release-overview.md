@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 58777d63eff116855191281d09c6c2d19f1aa2ee
+source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
 workflow-type: tm+mt
-source-wordcount: '1848'
-ht-degree: 17%
+source-wordcount: '1841'
+ht-degree: 18%
 
 ---
 
@@ -359,7 +359,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Atualizações para o conector MCP do Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>Atualizamos o Conector MCP do Workfront:<ul><li>Claude agora pode se conectar ao conector MCP.</li><li>Agora você pode usar o conector MCP de instâncias na UE ou de instâncias que não usam o AWS.</p>
+                <p>Atualizamos o Conector MCP do Workfront:<ul><li>Claude agora pode se conectar ao conector MCP.</li><li>Agora você pode usar o conector MCP de instâncias na UE ou <!-- from instances that do not use AWS-->.</p>
             </td>
             <td><p>11 de junho de 2026</p></td>
             <td><p>11 de junho de 2026</p></td>
