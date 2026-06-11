@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: 422
 ht-degree: 12%
 
 ---
@@ -101,7 +101,7 @@ Old:
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Sistema > Logs de auditoria**.
+1. No painel esquerdo, clique em **Controle de alterações > Logs de auditoria**.
 1. No menu suspenso **Tipo de ação**, selecione o tipo de auditoria que deseja exibir.
 
    >[!NOTE]
@@ -129,7 +129,7 @@ Old:
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Sistema** > **Logs de auditoria**.
+1. No painel esquerdo, clique em **Controle de alterações** > **Logs de auditoria**.
 
 1. No menu suspenso **Tipo de Log**, selecione um log de auditoria.
 
