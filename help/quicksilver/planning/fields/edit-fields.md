@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 1087
 ht-degree: 1%
@@ -244,8 +244,12 @@ Você pode ter um campo de seleção única chamado Status que tem as opções N
 Para adicionar uma nova opção a um campo de seleção existente ao editar um registro:
 
 1. Ir para uma página do tipo registro e abrir a exibição de tabela.
-1. Adicione o campo de seleção única ou múltipla ao qual você deseja adicionar uma opção na exibição de tabela como uma nova coluna. Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
+1. Adicione o campo de seleção única ou múltipla ao qual você deseja adicionar uma opção na exibição de tabela como uma nova coluna.
+
+   Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
+
 1. Comece a editar o campo em linha clicando duas vezes na célula do campo.
+
 1. Digite o nome da opção que deseja adicionar e clique em **Adicionar opção**.
 
    ![Adicionar opção em campo de seleção única na exibição de tabela](assets/add-choice-in-table-view-for-single-select-field.png)

@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 3129
+source-wordcount: 3158
 ht-degree: 1%
 
 ---
@@ -233,7 +233,7 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    * Copie um ou vários valores existentes de um campo e cole-os em um campo do mesmo tipo em outro registro
    * Clique no cabeçalho de uma coluna para selecioná-la e copiá-la, em seguida, clique no cabeçalho da coluna de outra coluna e cole o conteúdo da coluna copiada. As colunas devem conter tipos de campo semelhantes.
-   * Com a tecla Shift pressionada, clique para selecionar várias linhas em uma tabela, copie as informações nas linhas selecionadas e, em seguida, clique em uma linha diferente e cole as informações selecionadas na nova linha e nas linhas seguintes depois disso. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * Com a tecla Shift pressionada, clique para selecionar várias linhas em uma tabela, copie as informações nas linhas selecionadas e, em seguida, clique em uma linha diferente e cole as informações selecionadas na nova linha e nas linhas seguintes depois disso. <span class="preview">Isso não é possível no ambiente de Visualização.</span>
    * Copie as informações de uma célula, selecione várias células e cole as mesmas informações em várias células. Você pode selecionar várias células e colar as mesmas informações em várias células de linhas e colunas adjacentes.
    * Selecione o canto inferior direito de uma célula existente que contenha as informações que você deseja copiar e, em seguida, arraste e solte-a nas células adjacentes onde deseja colar as mesmas informações. Todas as células devem conter o mesmo tipo de informação.
 
@@ -241,8 +241,9 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    * Copie uma ou várias células de uma origem externa (por exemplo, um arquivo do Excel) e cole-as em um dos seguintes tipos de campos:
 
-      * Campos de conexão do Workfront Planning.\
-        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+      * Campos de conexão do Workfront Planning.
+
+        <span class="preview">Isso não é possível no ambiente de Visualização.</span>
       * Campos de pessoas. Somente campos com um valor são permitidos.
       * Campos de texto.
       * Selecionar campos.
@@ -276,12 +277,12 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
 1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do registro e escolha uma das seguintes opções:
 
-   * **Exibir** <!--or <span class="preview"Open in new tab</span>-->: abre a página de registro.
+   * **Exibir** ou <span class="preview">**Abrir em nova guia**</span>: isso abre a página de registro.
    * **Copiar link**: para copiar um link para a página do registro.
    * **Editar miniatura**: para adicionar uma miniatura a um registro.
 Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicado**: cria uma duplicata idêntica do registro.
-   * **Inserir registro acima/ Inserir registro abaixo**: adiciona uma nova linha para que você possa adicionar um novo registro. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **Inserir registro acima/ Inserir registro abaixo**: adiciona uma nova linha para que você possa adicionar um novo registro. <span class="preview">Isso não é possível no ambiente de Visualização.</span>
    * **Excluir**: para excluir o registro. Os registros excluídos são salvos na caixa Excluídos recentemente por até 30 dias.
 
 
@@ -475,4 +476,5 @@ Para adicionar uma nova opção a um campo de seleção existente ao editar um r
    A nova opção é adicionada imediatamente ao campo de seleção única.
 
    Um novo valor de opção também é adicionado a cada opção. Você pode usar os valores de opção em chamadas de API ou outras integrações. Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
+
 
