@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
+source-git-commit: 6aae88e6030fea5c3a9ea6dd05e666de6af9f59f
 workflow-type: tm+mt
-source-wordcount: '1841'
-ht-degree: 18%
+source-wordcount: '1903'
+ht-degree: 17%
 
 ---
 
@@ -65,17 +65,15 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><p>11 de junho de 2026</p></td>
             <td><p>16 de julho de 2026</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nova preferência do sistema para converter portfólios de armazenamento herdados em armazenamento na nuvem do Adobe</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Agora, os administradores do Workfront podem converter portfólios de armazenamento herdados para o Adobe Cloud Storage diretamente das Preferências do sistema. Para converter portfólios, selecione-os no novo campo Selecionar portfólios para conversão em armazenamento corporativo e salve a página.</p>
             </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich Text substituindo o Texto pelo tipo de campo de Formatação</a>
