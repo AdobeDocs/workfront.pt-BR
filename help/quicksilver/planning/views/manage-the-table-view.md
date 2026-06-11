@@ -9,17 +9,12 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 95a7c37830873c89189b8dae2dc3e8fd1b62f15f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 6148
 ht-degree: 2%
@@ -658,7 +653,7 @@ Para gerenciar uma exibição de tabela:
    * [Indicador de presença em tempo real](#enable-the-real-time-presence-indicator)
 
 
-### Adicionar colunas (ou campos) {#add-columns}
+### Adicionar colunas (ou campos) {#add-columns-1}
 
 Os cabeçalhos de coluna de uma exibição de tabela exibem campos associados aos registros na exibição. Os campos exibidos na visualização de tabela também são exibidos na seção Detalhes de um registro.
 
@@ -756,7 +751,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
     The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
 -->
 
-### Adicionar linhas (ou registros) {#add-rows}
+### Adicionar linhas (ou registros) {#add-rows-1}
 
 As linhas de uma exibição de tabela exibem registros individuais do tipo de registro selecionado.
 
@@ -790,7 +785,7 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 ******************** NOT POSSIBLE ABOVE **************
 -->
 
-### Adicionar filtros {#add-filters}
+### Adicionar filtros {#add-filters-1}
 
 Os filtros ajudam a reduzir a quantidade de informações exibidas na tela.
 
@@ -801,7 +796,7 @@ Para obter informações, consulte a seção [Adicionar filtros](#add-filters) n
 
 <!--***************** at production, paste here the information from the Production section above *******************-->
 
-### Adicionar uma classificação {#sort-information}
+### Adicionar uma classificação {#sort-information-1}
 
 Ao aplicar uma classificação, você pode organizar as informações em uma determinada ordem.
 
@@ -878,7 +873,7 @@ Para classificar registros, faça o seguinte:
 
    Os campos selecionados para a classificação exibem um ícone de classificação seguido de um número que indica a ordem em que a classificação é aplicada.
 
-### Adicionar agrupamentos {#add-groupings}
+### Adicionar agrupamentos {#add-groupings-1}
 
 <!--
 ***********************this section exists in the timeline view too, but the display is slightly different, so I kept both procedures; consider updating both sections if any updates to groupings are introduced***************
@@ -890,7 +885,7 @@ Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando esta por enquanto &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***—>
+&lt;!—*************** * É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando esta por enquanto *****************—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.

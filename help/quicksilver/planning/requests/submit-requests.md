@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 2592
+source-wordcount: 2603
 ht-degree: 1%
 
 ---
@@ -254,11 +247,12 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    >
    >  <div class="preview">
    >
-   >   * A edição de uma solicitação só é possível quando um registro ainda não foi criado e a solicitação está aguardando aprovação.
-   >   * Alguns campos são somente leitura e não podem ser editados.
-   >  * Não é mais possível editar uma solicitação depois que um registro foi criado a partir dela.
+   >* A edição de uma solicitação só é possível quando um registro ainda não foi criado e a solicitação está aguardando aprovação.
+   >* Alguns campos são somente leitura e não podem ser editados.
+   >* Não é mais possível editar uma solicitação depois que um registro foi criado a partir dela.
    >
    >  </div>
+1. <span class="preview">(Opcional) Após editar a solicitação, clique em **Enviar alterações**.</span>
 1. (Condicional) Se o formulário de solicitação não estiver associado a uma aprovação ou se a solicitação tiver sido aprovada, clique no nome da solicitação e, em seguida, clique no nome do registro no campo **Objeto criado**.
 
    A página do registro é aberta no Workfront Planning.
@@ -268,6 +262,7 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    >* Se o campo principal do registro não foi atualizado no formulário de solicitação, o nome do registro no campo Registro da solicitação será exibido como **Sem título**.
    >
    >* Se o formulário de solicitação estiver associado a uma aprovação, a aprovação deverá ser concedida antes que você possa acessar o registro da página de solicitação. O registro não é criado até que a aprovação seja concedida.
+   >  Para obter informações sobre aprovação de solicitações, consulte [Aprovar uma solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
 1. (Opcional) Clique no nome do **Tipo de registro**.
 
