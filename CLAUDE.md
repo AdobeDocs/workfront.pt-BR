@@ -22,9 +22,9 @@ Quando Courtney traz novos conteúdos para incorporar — um documento de entrad
 
 Mesmo que o conteúdo &quot;obviamente&quot; pertença a um artigo conhecido, ainda surjam 2-3 alternativas para que Courtney possa confirmar a colocação. Isso captura quase duplicados e locais em que o conteúdo já estava parcialmente coberto.
 
----
+&#x200B;---
 
-# Propor alterações antes de editar artigos de ajuda
+&#x200B;# Propor alterações antes de editar artigos de ajuda
 
 Quando você estiver prestes a editar qualquer artigo de ajuda do `.md` em `help/`, **não edite o arquivo ainda**. Primeiro, mostre o que você planeja alterar e aguarde a aprovação explícita.
 
@@ -43,9 +43,9 @@ Para alterações que abrangem vários artigos: agrupe as diferenças propostas 
 
 Isso faz **não** bloquear pesquisa somente leitura (grep, leitura) ou rascunho/exploração no chat (sem gravações de arquivo).
 
----
+&#x200B;---
 
-# Mensagens de Git commit
+&#x200B;# Mensagens de Git commit
 
 Ao redigir ou gerar uma mensagem de confirmação do Git, siga este formato.
 
@@ -71,9 +71,9 @@ Add refresh token rotation to auth flow
 - ✏️ Update session middleware to rotate secrets and revoke old tokens.
 ```
 
----
+&#x200B;---
 
-# Solicitações de pull (PRs)
+&#x200B;# Solicitações de pull (PRs)
 
 ## Derivação do problema da Jira
 
