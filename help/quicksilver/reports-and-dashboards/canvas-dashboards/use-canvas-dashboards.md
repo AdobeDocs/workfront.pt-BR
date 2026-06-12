@@ -16,14 +16,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 889f77efd9472cd2da5de1e5ec602aea63b2ce0b
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: 572
 ht-degree: 4%
 
 ---
 
 # Utilizar painéis da tela
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -48,6 +50,33 @@ Para acessar os Painéis do Canvas, navegue até a seção Painéis no Adobe Wor
 1. No painel esquerdo, clique em **Painéis do Canvas**.
 1. Clique no nome de um painel existente para abri-lo.
    ![Abrir um painel](assets/open-dashboard.png)
+
+<div class="preview">
+
+## Classificar a lista Painéis da tela de desenho em Visualização
+
+Você pode classificar a lista Painéis de Controle do Canvas por qualquer uma das seguintes colunas:
+
+* Nome
+* Descrição
+* Criado por
+* Data de criação
+
+Para classificar a lista:
+
+1. No painel esquerdo, clique em **Painéis do Canvas**.
+1. Clique em um cabeçalho de coluna para classificar a lista por essa coluna. Clique no mesmo cabeçalho novamente para inverter a direção da classificação.
+
+   Por padrão, a lista é classificada pela coluna **Name** de A a Z.
+
+   ![Classificar a lista de Painéis da Tela de Pintura](assets/sort-canvas-dashboards-list.png)
+
+>[!NOTE]
+>
+>* A ordem de classificação é preservada ao alternar entre guias na lista Painéis da tela de desenho.
+
+
+</div>
 
 <!--
 ## Navigating the Dashboard
