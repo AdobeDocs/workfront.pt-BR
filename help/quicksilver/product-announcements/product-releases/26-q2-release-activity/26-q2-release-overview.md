@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
 workflow-type: tm+mt
-source-wordcount: 2586
+source-wordcount: 2626
 ht-degree: 20%
 
 ---
@@ -80,6 +80,14 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         <td><p>2 de abril de 2026</p></td>
         <td><p>15 de abril de 2026</p></td>
         <td><p>16 de abril de 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nomes de fuso horário atualizados</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>Atualizamos os fusos horários disponíveis no Workfront para seguir os padrões IANA. Isso garante a compatibilidade com outros sistemas e a precisão ao longo do tempo.</p>
+        </td>
+        <td><p>27 de março de 2026</p></td>
+        <td><p>27 de março de 2026</p></td>
+        <td><p>27 de março de 2026</p></td>
     </tr>
     <tr>
         <td>

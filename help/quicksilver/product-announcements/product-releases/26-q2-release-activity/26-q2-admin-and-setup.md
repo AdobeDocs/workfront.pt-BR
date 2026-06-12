@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 573
 ht-degree: 2%
 
 ---
@@ -43,6 +43,18 @@ Para facilitar o benefício da IA no seu trabalho diário, criamos o Colaborador
 Atualmente, a Análise de conteúdo é o único Colaborador de IA disponível. Mais recursos do AI Collaborator estarão disponíveis no futuro.
 
 Para obter mais informações, consulte [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+
+## Nomes de fuso horário atualizados
+
+>[!NOTE]
+>
+>Visualização: 27 de março de 2026>Lançamento rápido de produção: 27 de março de 2026>Produção para todos: 27 de março de 2026
+
+Atualizamos os fusos horários disponíveis no Workfront para seguir os padrões IANA. Isso garante a compatibilidade com outros sistemas e a precisão ao longo do tempo.
+
+Como parte dessa alteração, alguns fusos horários disponíveis anteriormente no Workfront foram substituídos por fusos horários padrão do IANA.
+
+Para obter uma lista dessas alterações, consulte [Nomes de fuso horário atualizados](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md).
 
 ## Os trimestres personalizados agora estão disponíveis como uma página separada na Configuração
 
