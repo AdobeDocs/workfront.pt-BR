@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fa50195be08ea164ab88ca30bd20ba8b021e7ecb
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 5409
+source-wordcount: 5339
 ht-degree: 2%
 
 ---
@@ -440,20 +440,6 @@ Você pode usar um campo de data para capturar informações adicionais no forma
    * **Nome**: o nome do campo, como ele aparecerá em uma tabela ou página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida ao passar o mouse sobre a coluna do campo em uma tabela ou ao clicar no ícone de informações ao lado do nome do campo na página de detalhes do registro.
    * **Formato de data**: o tipo de formato de data que você deseja exibir neste campo. <!--update this casing - submitted bug for it-->
-
-     Selecione entre os seguintes formatos:
-      * **Localidade**: corresponde à localidade do seu navegador.
-      * **Padrão**: 16/05/2023
-      * **Longo**: 16 de maio de 2023
-      * **Europeu**: 05/16/2023
-      * **ISO**: 16/05/2023
-   * **Incluir horário**: selecione esta opção se desejar incluir um carimbo de data/hora. Essa opção não está selecionada por padrão. Não é possível incluir um tempo depois de salvar o campo.
-
-     Selecione entre as seguintes opções:
-
-      * **24hr**: Por exemplo: 18:00
-      * **12hr**: Por exemplo: 18:00:00
-
 
      Dependendo do ambiente no qual você acessa os campos, faça o seguinte:
 
