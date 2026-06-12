@@ -1,7 +1,7 @@
 ---
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2236'
 ht-degree: 3%
 
 ---
@@ -290,13 +290,6 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo do Adobe Workfront e em **[!UICONTROL Planejamento]**.
 
    A página de aterrissagem do Workfront Planning é aberta.
-
-1. (Opcional e condicional) Se você for um administrador do Workfront, clique em uma das seguintes guias:
-
-   * **Meus espaços de trabalho**: exibe os espaços de trabalho que você criou.
-   * **Outros espaços de trabalho**: exibe todos os espaços de trabalho no Workfront Planning, incluindo aqueles compartilhados com você.
-
-   Para todos os outros usuários, todos os espaços de trabalho que você criou ou que são compartilhados com você são exibidos na área **Espaços de Trabalho**.
 
 ## Introdução importante ao Workfront Planning - {#planning-important-intro}
 

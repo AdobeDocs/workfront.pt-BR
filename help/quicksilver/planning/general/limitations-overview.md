@@ -9,17 +9,13 @@ exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/WmG-52JaTKD-0-bH2qKniwUBrpGyOKz5jJ3s9nwd12A
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 5%
+source-wordcount: 537
+ht-degree: 4%
 
 ---
 
@@ -27,11 +23,11 @@ ht-degree: 5%
 
 # Visão geral das limitações de objetos do Planejamento do Adobe Workfront
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após os lançamentos mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que habilitaram lançamentos rápidos.</span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -63,6 +59,7 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Número de campos de conexão para um tipo de registro | 30 |
 | Número de caracteres em uma expressão de campo de fórmula | 50.000 |
 | Número de entidades (usuários, funções, equipes, empresas, grupos) com as quais você pode compartilhar um objeto do Planning | 100 |
+| <span class="preview">Número de registros que você pode compartilhar em massa de uma vez</span> | 100 |
 | Número de tipos de registro em uma hierarquia | 4 |
 | Número de hierarquias em um espaço de trabalho | 5 |
 | Número de registros de um tipo de registro pai conectados a um registro de um tipo de registro filho, dentro de uma hierarquia | 10 |
