@@ -5,9 +5,9 @@ title: Configurar o servidor MCP do Adobe Workfront
 description: Configure sua instância do Workfront e sua plataforma de IA para trabalhar com o Workfront por meio de uma conversa em idioma natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: 0445376ea187b589040c8fdc56ea0d11f44b0b37
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -99,9 +99,15 @@ Para conectar o Workfront a [!DNL Claude]:
 
 +++
 
-### Conectar-se ao Claude Desktop com um URL
+### Conectar-se a Claude com um URL
 
 +++ Expanda para exibir as instruções passo a passo para conectar o Workfront ao [!DNL Claude] com uma URL.
+
+>[!NOTE]
+>
+>Você deve ser um proprietário em um ambiente corporativo do Claude para executar esse procedimento.
+>
+>Para obter a declaração de Claude sobre o requisito de proprietário, consulte [Adicionar um conector personalizado](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) na documentação do Claude.
 
 Para conectar o Workfront a [!DNL Claude] com uma URL:
 
@@ -118,7 +124,7 @@ Para conectar o Workfront a [!DNL Claude] com uma URL:
 
 1. Depois que o conector é criado, uma janela de logon é exibida. Autentique usando suas credenciais da Adobe ID. Selecione a instância do Workfront desejada se você pertencer a mais de uma.
 
-   >NOTA:
+   >[!NOTE]
    >
    >Sua instância do Workfront deve se conectar com o servidor MCP da região dessa instância. Por exemplo, uma instância UE deve se conectar ao servidor MCP UE.
    >
@@ -150,7 +156,7 @@ Para saber mais sobre [!DNL Claude] habilidades, consulte a [documentação do u
 1. Verifique se a Autenticação está definida como **OAuth** (definido por padrão) e marque a caixa de seleção de aceitação para continuar.
 1. Depois que o aplicativo é criado, uma janela de logon é exibida. Autentique usando suas credenciais da Adobe ID. Selecione a instância do Workfront desejada se você pertencer a mais de uma.
 
-   >NOTA:
+   >[!NOTE]
    >
    >Sua instância do Workfront deve se conectar com o servidor MCP da região dessa instância. Por exemplo, uma instância UE deve se conectar ao servidor MCP UE.
    >
