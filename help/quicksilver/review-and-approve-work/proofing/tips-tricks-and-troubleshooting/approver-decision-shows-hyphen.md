@@ -5,8 +5,10 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: A decisão do aprovador mostra um hífen no relatório Aprovação de prova
 description: Um hífen no campo Decisão do aprovador do relatório Aprovação de prova indica que um recipient não está mais em uma função de tomada de decisão na prova.
 author: Courtney
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 25d403b9266c31a39c1dce6c1c45ad96ee90af28
 workflow-type: tm+mt
 source-wordcount: 287
