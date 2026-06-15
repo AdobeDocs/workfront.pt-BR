@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
+source-git-commit: 7f03904aef23f47b84d085877ffa9153c1d69786
 workflow-type: tm+mt
-source-wordcount: '14184'
+source-wordcount: '14194'
 ht-degree: 94%
 
 ---
@@ -2037,6 +2037,7 @@ ht-degree: 94%
          * [O nome do documento foi alterado após o upload e contém um caractere inválido](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Criar prova de um PowerPoint com um vídeo incorporado](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [As versões de prova não podem ser baixadas ou visualizadas quando uma prova interativa é adicionada como uma nova versão](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+      * [A decisão do aprovador mostra um hífen no relatório Aprovação de prova](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
    * Integrações nativas {#native-integrations}
       * [Revisar e aprovar integrações nativas: índice do artigo](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
       * {hide-from-toc}[Introdução à integração do GenStudio for Performance Marketing e do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
