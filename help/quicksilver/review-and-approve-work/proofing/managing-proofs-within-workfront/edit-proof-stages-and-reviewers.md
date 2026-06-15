@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 25d403b9266c31a39c1dce6c1c45ad96ee90af28
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 608
 ht-degree: 9%
 
 ---
@@ -105,6 +105,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >Se o revisor removido já tiver tomado uma decisão sobre a prova, o campo Decisão do aprovador para esse usuário exibirá um hífen (-) no relatório Aprovação de prova. Para obter mais informações, consulte [A decisão do aprovador mostra um hífen no relatório Aprovação de prova](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md).
 
 ## Editar detalhes do revisor
 

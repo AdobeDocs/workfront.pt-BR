@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
 workflow-type: tm+mt
-source-wordcount: 249
-ht-degree: 18%
+source-wordcount: 310
+ht-degree: 14%
 
 ---
 
@@ -85,5 +85,9 @@ Você pode adicionar os seguintes campos ao relatório de aprovação de prova:
    * A prova está aguardando aprovação
 
 * **Prazo da prova**: exibe o prazo da prova. Cada estágio deve ter um prazo atribuído para que esse campo seja preenchido. O campo exibe o prazo da etapa ativada mais recentemente.
+
+## Sobre o campo Decisão do aprovador
+
+O campo Decisão do aprovador mostra a decisão que um recipient tomou sobre a prova. Em alguns casos, esse campo exibe um hífen (-) em vez de um valor de decisão, que indica que o recipient não está mais com uma função de tomada de decisão na prova. Para obter mais informações, consulte [A decisão do aprovador mostra um hífen no relatório Aprovação de prova](../tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md).
 
  
