@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 377568941333b399585a70ee023f30a23618b624
+source-git-commit: 08e47dac1dcd856a2e74e2368e71d57eef8a8278
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Aplicar somente quando **todos** forem verdadeiros:
 1. O usuário invocou este fluxo de trabalho (por exemplo, diz **&quot;remover destaque de visualização&quot;** ou claramente a mesma intenção).
 2. O caminho do arquivo do Markdown **não** contém **`product-announcements`** (exclua toda a árvore de pastas, por exemplo, notas de versão, betas, anúncios em `help/quicksilver/product-announcements/`).
 3. O arquivo Markdown **não** está listado em **[Caminhos excluídos](#excluded-paths)** abaixo.
-4. O arquivo do Markdown aparece em `git log` conforme confirmado pela Courtney dentro do intervalo de datas especificado pelo usuário (consulte a etapa Inventário).
+4. O arquivo Markdown aparece em `git log` como tendo conteúdo de visualização **adicionado ou modificado** pelo usuário Git atual dentro do intervalo de datas especificado pelo usuário (consulte a etapa Inventário).
 5. O artigo tem **pelo menos um** de:
    - Ambiente de visualização **linguagem em prosa de corpo ou parágrafos de trecho reais** (padrões típicos: &quot;informações destacadas&quot;, &quot;Ambiente de visualização&quot;, &quot;ainda não disponível no geral&quot;, notas de versão rápidas)—**não** uma correspondência de **apenas texto do link** em uma página de índice/índice (veja abaixo); ou
    - Qualquer elemento HTML com **`class="preview"`** (ex.: `<span class="preview">`, `<div class="preview">`); ou
@@ -46,16 +46,25 @@ Fazer **não** edição em massa do repositório sem aprovação.
    - A **Data da Versão de Produção** da versão trimestral **target** → `--until`.
    - As versões trimestrais são identificadas pela coluna &quot;Nome da versão trimestral&quot; (por exemplo, 2026.01, 2026.04, 2026.07, 2026.10).
    - **Se a data atual estiver no 4º trimestre (outubro-dezembro):** depois de buscar o calendário do ano atual, peça ao usuário para fornecer a URL para o calendário de lançamento do próximo ano e, em seguida, busque também para que todas as datas de produção trimestrais necessárias estejam disponíveis.
-c. Execute o seguinte, usando as datas de versão de produção da etapa b:
+c. Determine o usuário Git atual e execute o seguinte usando as datas de lançamento de produção da etapa b:
 
-   ```
+   ```bash
+   GIT_USER=$(git config user.name)
    git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
-     --author="Courtney" --name-only --pretty=format: \
-     -- "help/quicksilver/**/*.md" | sort -u
+     --author="$GIT_USER" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u | grep -v '^$'
    ```
 
+   d) A partir desses resultados, **filtre para arquivos em que os compromissos do usuário atual no intervalo de datas realmente adicionou ou modificou o conteúdo de visualização**. Para cada arquivo candidato, verifique se as confirmações do usuário introduziram marcadores de visualização:
 
-   d) Desses resultados, **filtre para arquivos que contenham** pelo menos um dos seguintes: `class="preview"`, `{{highlighted-preview`, ou visualizar prosa padronizada — grep para `highlighted information\|Preview environment\|not yet generally available`.\
+   ```bash
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="$GIT_USER" -p -- "<file>" | \
+   grep -q '^\+.*class="preview"\|^\+.*{{highlighted-preview\|^\+.*highlighted information\|^\+.*not yet generally available'
+   ```
+
+   Inclua o arquivo somente se este grep for compatível (código de saída 0). Isso evita falsos positivos em que um usuário fez uma edição não relacionada a um arquivo cujo destaque de visualização foi adicionado por outra pessoa.
+
    e. **Omitir** qualquer caminho em **`product-announcements`**, qualquer **[caminho Excluído](#excluded-paths)** e qualquer página de **índice/índice** de acordo com a regra de índice acima.\
    f) Apresenta a lista classificada resultante. Se o usuário disser que um arquivo listado não tem realce de visualização, remova-o da execução e ajuste os critérios em vez de forçar as edições.
 
@@ -109,7 +118,7 @@ Se a estrutura for ambígua (sem paralelo claro), **pare** e mostre ambos os can
 - Não execute este fluxo de trabalho em caminhos em **`product-announcements`** (notas de versão e relacionadas); o inventário deve excluí-los.
 - Não faça o inventário ou edite os caminhos listados em **[Caminhos excluídos](#excluded-paths)**, a menos que o usuário solicite explicitamente a inclusão de um.
 - **Não** remove ou edita automaticamente **blocos comentados** (`<!-- … -->`); siga as **seções comentadas** acima.
-- Não remova &quot;Visualização&quot; quando for **não** sobre este padrão de disponibilidade de recursos (por exemplo, [Visualizar ambiente de Sandbox] (·) como um **nome do produto** em um contexto não relacionado). Use o julgamento e pergunte se não tem certeza.
+- Não remova &quot;Visualização&quot; quando for **não** sobre este padrão de disponibilidade de recursos (por exemplo, [Visualizar ambiente de Sandbox](·) como um **nome do produto** em um contexto não relacionado). Use o julgamento e pergunte se não tem certeza.
 - Não altere `author:` ou o assunto principal não relacionado, a menos que o usuário solicite.
 - Não ignore a etapa **mostrar → aprovar**.
 
@@ -121,4 +130,4 @@ Se a estrutura for ambígua (sem paralelo claro), **pare** e mostre ambos os can
 
 ## Referências
 
-- Corresponder ao **[estilo de documentação do Workfront](https://experienceleague.adobe.com/pt-br?lang=pt-BR)** e às convenções de repositório (regras de confirmação/PR se o usuário estiver confirmando).
+- Corresponder ao **[estilo de documentação do Workfront](https://experienceleague.adobe.com/?lang=pt-BR)** e às convenções de repositório (regras de confirmação/PR se o usuário estiver confirmando).
