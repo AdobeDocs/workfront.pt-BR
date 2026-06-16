@@ -10,18 +10,13 @@ exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YOO4BspMzbMr8iPoXRBKK65IbU5yfpiJndNuYvYF5SM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: 1004
 ht-degree: 0%
 
 ---
@@ -93,15 +88,23 @@ A tabela abaixo compara os recursos do armazenamento na nuvem do Adobe e do arma
 
 Os objetos do Workfront incluem portfólios, programas, projetos, modelos, tarefas e problemas.
 
-| Armazenamento na nuvem da Adobe | Armazenamento herdado do Workfront |
+| Armazenamento na nuvem da Adobe | Armazenamento legado do Workfront |
 |---|---|
 | <ul><li>Usa o armazenamento em nuvem do Adobe</li><li>Integrado ao Frame.io</li><li>Usa a nova experiência Documentos</li><li>Impõe convenções de nomenclatura estritas</li><li>O compartilhamento direto de documentos não está disponível</li><li>Os documentos estão disponíveis em outros produtos da Adobe, como Frame.io e Creative Cloud</li></ul> | <ul><li>Usa o armazenamento do Workfront</li><li>Usa o visualizador de provas</li><li>Oferece suporte ao compartilhamento de documentos individuais</li></ul> |
 
 ### Mover, copiar e converter objetos
 
-Você pode mover, copiar e converter objetos Workfront entre modelos de armazenamento semelhantes. Por exemplo, você pode mover uma tarefa de um projeto do Adobe Cloud Storage para outro projeto do Adobe Cloud Storage. Não é possível mover uma tarefa de um projeto do Adobe Cloud Storage para um projeto do Workfront Storage herdado.
+Na maioria dos cenários, é possível mover, copiar e converter objetos Workfront entre modelos de armazenamento semelhantes. Por exemplo, você pode mover uma tarefa de um projeto de armazenamento em nuvem do Adobe para outro projeto de armazenamento em nuvem do Adobe.
 
-Essas ações estão disponíveis no menu Mais em uma tarefa ou problema. Cada ação respeita a integridade do documento, a herança de permissões e as regras de armazenamento na nuvem do Adobe.
+Em três casos específicos, você pode converter um objeto de armazenamento herdado do Workfront no armazenamento em nuvem do Adobe:
+
+* Converta uma tarefa herdada de armazenamento do Workfront em um projeto de armazenamento na nuvem do Adobe.
+* Converta um portfólio de armazenamento herdado do Workfront em um portfólio de armazenamento em nuvem da Adobe.
+* Crie um projeto de armazenamento em nuvem do Adobe a partir de um modelo herdado de armazenamento do Workfront.
+
+Os documentos e as pastas de documentos não são transferidos do armazenamento herdado do Workfront para o armazenamento na nuvem da Adobe durante essas conversões.
+
+Para obter mais informações, consulte [Portabilidade de objetos](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability) em [Mover para o Workfront no Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Habilitar o armazenamento em nuvem do Adobe
 
