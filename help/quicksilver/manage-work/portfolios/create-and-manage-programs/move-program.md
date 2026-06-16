@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 9%
+source-wordcount: 289
+ht-degree: 12%
 
 ---
 
@@ -99,21 +99,10 @@ Old:
 
 >[!NOTE]
 >
->Quando sua organização usa o armazenamento em nuvem herdado do Workfront e do Adobe para documentos, os seguintes cenários existem:
->
->
->* Quando você adiciona um programa de armazenamento em nuvem do Adobe a um portfólio de armazenamento herdado do Workfront e o portfólio não tem documentos anexados a ele, o portfólio é convertido em armazenamento em nuvem do Adobe.
->* Quando você adiciona um programa de armazenamento em nuvem da Adobe a um portfólio de armazenamento Workfront herdado e o portfólio tem documentos anexados a ele, o armazenamento de documentos do portfólio permanece no armazenamento da Workfront. No entanto, o ícone de armazenamento herdado do Workfront ![ícone de armazenamento herdado do Workfront](assets/legacy-storage-project-icon.png) é removido do portfólio.
->* Não é possível adicionar um programa de armazenamento herdado do Workfront a um portfólio de armazenamento em nuvem da Adobe.
->
+>Quando sua organização usa o armazenamento em nuvem herdado do Workfront e do Adobe para documentos, não é possível adicionar um programa de armazenamento em nuvem do Adobe a um portfólio de armazenamento herdado ou um programa herdado a um portfólio de armazenamento em nuvem do Adobe.
+>Talvez sua instância do Workfront não tenha ambos os tipos de armazenamento de documentos.
 >Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 >
->Nem todas as instâncias do Workfront têm ambos os tipos de armazenamentos de documentos.
-
-<!--
-For preview/ Prod. release, rewrite the bullets above:
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
--->
 
 Para adicionar um programa existente a outro portfólio:
 

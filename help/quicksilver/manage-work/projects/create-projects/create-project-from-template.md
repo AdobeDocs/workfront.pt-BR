@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 1484
+source-wordcount: 1419
 ht-degree: 2%
 
 ---
@@ -187,18 +187,14 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
       >
       >* O uso de um modelo de armazenamento herdado do Workfront cria um projeto de armazenamento herdado do Workfront.
       >
-      >* Quando você usa um modelo de armazenamento em nuvem do Adobe de um portfólio ou programa de armazenamento herdado do Workfront, o projeto é um projeto de armazenamento em nuvem do Adobe e o portfólio ou programa também é convertido em objetos de armazenamento em nuvem do Adobe. Todos os outros projetos de armazenamento Workfront herdados no mesmo portfólio ou programa permanecem inalterados.
+      >* Ao criar projetos usando modelos de um portfólio ou programa, existem os seguintes cenários:
+      >     * Não é possível usar um modelo de armazenamento na nuvem do Adobe de um portfólio ou programa de armazenamento herdado do Workfront para criar um projeto.
+      >     * Você pode criar um projeto de armazenamento em nuvem do Adobe para um portfólio ou programa de armazenamento do Adobe usando um modelo de armazenamento herdado. Documentos e pastas de modelo não são anexados ao novo projeto.
       >
       > Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
       >
       >Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-
-      Para versão de pré-visualização/produção: o terceiro marcador na NOTA acima precisará ser reescrito:
-
-      >* Ao criar projetos usando modelos de um portfólio ou programa, existem os seguintes cenários:
-      >  * Não é possível usar um modelo de armazenamento na nuvem do Adobe de um portfólio ou programa de armazenamento herdado do Workfront para criar um projeto.
-      >  * Você pode criar um projeto de armazenamento em nuvem do Adobe para um portfólio ou programa de armazenamento do Adobe usando um modelo de armazenamento herdado. Documentos e pastas de modelo não são anexados ao novo projeto.
 
    1. Revise os seguintes detalhes do modelo à direita:
 

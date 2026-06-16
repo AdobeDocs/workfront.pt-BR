@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a454add7458fb8dc00de88ef685ede4e26383e35
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: 640
 ht-degree: 4%
 
 ---
@@ -174,22 +174,16 @@ old:
       >Quando sua organização usa o armazenamento em nuvem herdado do Workfront e do Adobe para documentos, os seguintes cenários existem:
       >
       >
-      >* Quando você adiciona um projeto do Adobe Cloud Storage a um programa herdado do Workfront Storage e o programa não tem documentos anexados a ele, o programa e seu portfólio são convertidos em um objeto do Adobe Cloud Storage.
-      >* Quando você adiciona um projeto de armazenamento em nuvem do Adobe a um programa de armazenamento Workfront herdado e o programa ou o portfólio tem documentos anexados a ele, o programa ou o portfólio de armazenamento de documentos permanece no armazenamento do Workfront. No entanto, o ícone de armazenamento herdado do Workfront ![ícone de armazenamento herdado do Workfront](assets/legacy-storage-project-icon.png) é removido do programa ou do portfólio (o que tiver documentos anexados antes de mover o projeto).
-      >* Não é possível adicionar um projeto herdado do Workfront Storage a um programa do Adobe Cloud Storage.
+      >* Não é possível adicionar um projeto de armazenamento herdado a um programa de armazenamento em nuvem do Adobe, nem um projeto de armazenamento em nuvem do Adobe a um programa de armazenamento herdado.
+      >* Não é possível criar um projeto a partir de um modelo de armazenamento na nuvem do Adobe em um programa de armazenamento herdado.
+      >* Você pode criar um projeto a partir de um modelo de armazenamento herdado em um programa de armazenamento na nuvem do Adobe, mas os documentos e as pastas no modelo não são adicionados ao novo projeto. O projeto recebe o armazenamento em nuvem do Adobe.
       >
       >Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
       >
       >Nem todas as instâncias do Workfront têm ambos os tipos de armazenamentos de documentos.
 
 
-      <!--
-        For preview/ prod release: replace all bullets (i think!!) in the Note with this:
-        * You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
-        * You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
-        * You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
-        * When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
-        -->
+
 
    1. (Opcional) Clique no ícone **Excluir** ![Excluir ícone](assets/delete-icon.png) ao lado do nome de um projeto se você decidir não adicioná-lo ao programa.
 
