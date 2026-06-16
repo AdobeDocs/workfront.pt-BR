@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
+source-git-commit: 2ad27645345f35de1f6e4e10a6b9836a9f8bf6ce
 workflow-type: tm+mt
-source-wordcount: '14196'
+source-wordcount: '14203'
 ht-degree: 94%
 
 ---
@@ -474,6 +474,7 @@ ht-degree: 94%
          * [Habilitar trimestres personalizados](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [Habilitar ou desabilitar lançamentos rápidos na organização](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [Habilitar o armazenamento em nuvem do Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+         * [Converter portfólios herdados em armazenamento em nuvem do Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
          * [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Configurar localização personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
          * [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)

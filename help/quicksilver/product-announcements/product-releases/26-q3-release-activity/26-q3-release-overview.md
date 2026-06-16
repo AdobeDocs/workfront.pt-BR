@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f348be922cc5d3e231621e09b67644492b0c80fb
+source-git-commit: 2ad27645345f35de1f6e4e10a6b9836a9f8bf6ce
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '2015'
 ht-degree: 17%
 
 ---
@@ -212,42 +212,41 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     </tbody>
 </table>
 
-<!--
 
-### Project enhancements
+
+### Aprimoramentos de projeto
 
 <table>
     <col style="width: 50%;" />
     <col style="width: 25%;" />
     <tbody>
         <tr>
-            <td><strong>Feature</strong>
+            <td><strong>Recurso</strong>
             </td>
-            <td><strong>Preview</strong></td>
-            <td><strong>Fast release</strong></td>
-            <td><strong>Quarterly</strong></td>
+            <td><strong>Pré-visualização</strong></td>
+            <td><strong>Lançamento rápido</strong></td>
+            <td><strong>Trimestralmente</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
-                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Converter uma tarefa de armazenamento herdada em um projeto do Adobe Cloud Storage</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>Se sua organização usa o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe, agora é possível converter uma tarefa de armazenamento herdada em um projeto de armazenamento em nuvem do Adobe.</p>
             </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 12, 2026</p></td>
-            <td><p>June 12, 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>12 de junho de 2026</p></td>
+            <td><p>12 de junho de 2026</p></td>
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
-                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Usar um modelo de armazenamento herdado para criar um projeto do Adobe Cloud Storage</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>Se sua organização usa o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe, agora é possível usar um modelo de armazenamento herdado para criar um projeto de armazenamento em nuvem do Adobe em alguns cenários.</p>
             </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
         </tr>
     </tbody>
 </table>
 
--->
 
 ### Aprimoramentos nos relatórios
 
