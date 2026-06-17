@@ -9,23 +9,14 @@ exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ue8QlqaB8O8dJ6mVw9t660r82Xl4K6jGgVPWW6L0YNc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
-source-wordcount: 1257
+source-wordcount: 1266
 ht-degree: 5%
 
 ---
@@ -114,7 +105,7 @@ Old:
    * Uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
    * Uma tarefa de armazenamento na nuvem do Adobe cria um projeto de armazenamento na nuvem do Adobe.
    * Usar um modelo de armazenamento herdado do Workfront para converter uma tarefa de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
-   * Usar um modelo de armazenamento em nuvem do Adobe para converter uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
+   * Usar um modelo de armazenamento em nuvem do Adobe para converter uma tarefa herdada de armazenamento do Workfront cria um projeto de armazenamento em nuvem do Adobe. Os documentos e suas aprovações permanecem no projeto atual.
 
      Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -122,10 +113,7 @@ Old:
      >
      >Sua instância do Workfront pode não ter acesso a ambos os tipos de armazenamento de documentos.
 
-     <!--
-     For preview/ prod - rewrite the last bullet in the note: 
-     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
-     -->
+
 * O status e o percentual concluído de todas as subtarefas e problemas são preservados.
 * Os atribuídos à tarefa e o usuário que converte a tarefa no projeto se tornam usuários compartilhados no projeto.
 * A data de início do projeto é definida como a data de início da tarefa.
