@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
 source-wordcount: 1087
 ht-degree: 1%
@@ -152,7 +152,8 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
 * Você pode editar a configuração dos seguintes elementos de campo, depois de salvar o campo:
 
    * O Nome ou a Descrição de qualquer campo
-   * As Opções de um campo de seleção única ou de seleção múltipla.
+   * As Opções de um campo de Seleção única ou de Seleção múltipla <!--<span class="preview">and their default choices</span>-->.
+     <!--* <span class="preview">The default choices of a People field.</span>-->
    * A expressão de um campo Formula.
 
   >[!WARNING]

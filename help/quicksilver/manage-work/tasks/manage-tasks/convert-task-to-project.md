@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
-source-wordcount: 1257
+source-wordcount: 1266
 ht-degree: 5%
 
 ---
@@ -114,7 +114,7 @@ Old:
    * Uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
    * Uma tarefa de armazenamento na nuvem do Adobe cria um projeto de armazenamento na nuvem do Adobe.
    * Usar um modelo de armazenamento herdado do Workfront para converter uma tarefa de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
-   * Usar um modelo de armazenamento em nuvem do Adobe para converter uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
+   * Usar um modelo de armazenamento em nuvem do Adobe para converter uma tarefa herdada de armazenamento do Workfront cria um projeto de armazenamento em nuvem do Adobe. Os documentos e suas aprovações permanecem no projeto atual.
 
      Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -122,10 +122,7 @@ Old:
      >
      >Sua instância do Workfront pode não ter acesso a ambos os tipos de armazenamento de documentos.
 
-     <!--
-     For preview/ prod - rewrite the last bullet in the note: 
-     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
-     -->
+
 * O status e o percentual concluído de todas as subtarefas e problemas são preservados.
 * Os atribuídos à tarefa e o usuário que converte a tarefa no projeto se tornam usuários compartilhados no projeto.
 * A data de início do projeto é definida como a data de início da tarefa.
