@@ -10,19 +10,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
 TQID: https://experienceleague.adobe.com/0orzAcBft4J52M4nMDMxk6Kupagmn81V3qHB-M5YkvY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1f811e3467e8efa7c048bdc148792c4b6f03416c
 workflow-type: tm+mt
-source-wordcount: 1792
+source-wordcount: 1828
 ht-degree: 2%
 
 ---
@@ -77,6 +71,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 ## Atualização da sandbox de atualização personalizada
 
 A Sandbox de atualização personalizada contém seus dados reais de produção e não é atualizada até que você a programe para fazê-lo. Você pode programar uma atualização a qualquer momento que lhe for conveniente, com a mesma frequência de uma vez por semana.
+
+>[!IMPORTANT]
+>
+>Os ambientes de sandbox de atualização personalizada são atualizados somente a partir do ambiente de Produção. Não há um processo para executar uma restauração point-in-time em ambientes de sandbox. Para atualizar os dados da sandbox, agende uma atualização padrão da Produção.
 
 >[!NOTE]
 >
