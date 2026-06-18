@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: 5339
+source-wordcount: 5497
 ht-degree: 2%
 
 ---
@@ -355,9 +355,9 @@ Você pode usar um campo de seleção múltipla para capturar informações adic
 
    Clique em **Personalizado** para selecionar uma cor personalizada usando um seletor de cores ou um código hexadecimal.
 1. Clique fora da caixa de cores para fechá-la.
-   <!--
-    1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
-    -->
+
+1. <span class="preview">No campo **Opções padrão**, selecione as opções que deseja exibir neste campo por padrão. Você pode escolher mais de uma opção. Os usuários podem remover as opções padrão à medida que atualizam este campo.</span>
+
 1. Clique em **Criar**.
 
    O novo campo de seleção múltipla é adicionado como uma coluna ao tipo de registro e seus valores podem ser associados a registros.
@@ -404,9 +404,9 @@ Os campos de seleção única capturam informações adicionais em qualquer form
    Ou
 
    Clique em **Personalizado** para selecionar uma cor personalizada usando um seletor de cores ou um código hexadecimal.
-<!--
-    1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. (********** and update all screen shots on this page ******) </span>
-    -->
+
+1. <span class="preview">No campo **Opção padrão**, selecione a opção que deseja exibir neste campo por padrão. Você pode escolher apenas uma opção. Os usuários podem remover a opção padrão à medida que atualizam esse campo. </span>
+
 1. Clique fora da caixa de cores para fechá-la.
 1. Clique em **Criar**.
 
@@ -696,14 +696,15 @@ Você pode usar o tipo de campo Pessoas para adicionar um usuário a um registro
    >
    >    Se você selecionar Permitir vários valores e vários usuários forem armazenados nos registros aos quais o campo está anexado, não será mais possível desmarcar a configuração no futuro, ao editar esse campo.
 
-   <!--
-    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default users as they update this field.(********** and update all screen shots on this page ******) </span>
+1. <span class="preview">No campo **Usuário padrão** ou **Usuários padrão**, selecione os usuários que deseja exibir neste campo por padrão. </span>
 
-    >[!TIP]
-    >
-    >Deactivating users chosen as default users in this setting preserves the users's names as the default. It does not remove the deactivated user from the field value and there is no indication to others that the user was deactivated.
-    -->
+   <span class="preview">Você pode escolher mais de um usuário se também tiver selecionado a configuração **Permitir vários valores**. </span>
 
+   <span class="preview">Os usuários podem remover os usuários padrão à medida que atualizam este campo.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">A desativação de usuários escolhidos como usuários padrão nesta configuração preserva os nomes dos usuários como padrão. Ele não remove o usuário desativado do valor do campo e não há nenhuma indicação para outras pessoas de que o usuário foi desativado.</span>
 
 1. Clique em **Criar**.
 
