@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 17d081a7a071444416e8c7b6e9df16f173b23edc
+source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
 workflow-type: tm+mt
 source-wordcount: '2095'
 ht-degree: 17%
@@ -481,3 +481,5 @@ For information about the maintenance updates made during the Third Quarter 2026
 ### Atualizações de treinamento
 
 Explore as últimas atualizações feitas nos programas de aprendizagem, caminhos de aprendizagem, vídeos e guias para cada versão do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página de tutoriais do Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=pt-BR).
+
+
