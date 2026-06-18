@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,17 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Adicionar opções padrão para campos de seleção e tipo de pessoas
+
+>[!NOTE]
+>
+>Visualização: 18 de junho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
+
+Ao criar um campo de seleção única ou múltipla ou um campo do tipo Pessoas, agora é possível indicar um valor padrão para esses campos. Os valores padrão sempre serão aplicados quando o campo estiver visível em um registro.
+
+Você poderá alterar as configurações padrão do campo depois que ele for salvo. É possível substituir os valores padrão dos campos ao trabalhar com registros.
+
+Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Melhorias na interface na exibição de tabela
 
