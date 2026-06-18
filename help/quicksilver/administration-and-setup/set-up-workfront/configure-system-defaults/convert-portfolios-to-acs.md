@@ -7,7 +7,7 @@ description: Converta portfólios herdados existentes de armazenamento do Workfr
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 # Converter portfólios herdados em armazenamento em nuvem do Adobe
 
-Como administrador do Workfront, você pode converter portfólios herdados do Workfront para o armazenamento em nuvem da Adobe na área Preferências de armazenamento, em Preferências do sistema. Depois que um portfólio é convertido, ele se comporta como qualquer outro portfólio de armazenamento em nuvem da Adobe.
+Como administrador do Workfront, você pode converter portfólios herdados do armazenamento Workfront em armazenamento em nuvem do Adobe na área Preferências de armazenamento, em Preferências do sistema. Depois que um portfólio é convertido, ele se comporta como qualquer outro portfólio de armazenamento em nuvem da Adobe.
 
 Para obter mais informações sobre como os portfólios convertidos se comportam e como seus objetos filho são afetados, consulte [Portabilidade de objetos](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability) em [Mover para o Workfront no Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
@@ -52,6 +52,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 Antes de converter um portfólio de armazenamento Workfront herdado, considere o seguinte:
 
 * A conversão afeta apenas o próprio portfólio. Os projetos e programas secundários que usam o armazenamento herdado do Workfront permanecem no armazenamento herdado.
+
   >[!NOTE]
   >
   >Um programa herdado secundário converte automaticamente para o Adobe Cloud Storage somente quando alguém adiciona manualmente um projeto do Adobe Cloud Storage a ele.

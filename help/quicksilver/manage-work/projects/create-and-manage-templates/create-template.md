@@ -9,23 +9,14 @@ exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JqR-bwIq1AVMOMz3aTWIKoiPep1VQ6IaONbbuDJ1AiA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 905
+source-wordcount: 790
 ht-degree: 9%
 
 ---
@@ -160,11 +151,11 @@ Old:
 
    Clique em **Nova Tarefa de Modelo** para começar a adicionar tarefas ao seu modelo na caixa **Nova Tarefa de Modelo**.
 
-   A caixa **Criar Tarefa de Modelo** é aberta na nova experiência ao clicar em **Nova Tarefa de Modelo**.
+   A caixa **Criar Tarefa de Modelo** é aberta ao clicar em **Nova Tarefa de Modelo**.
 
    ![Nova experiência para Nova Tarefa de Modelo](assets/new-template-task-box-unshimmed.png)
 
-1. (Condicional) Usando a nova experiência, atualize as informações nas seguintes áreas na caixa **Criar Tarefa de Modelo**:
+1. (Condicional) Atualize as informações nas seguintes áreas na caixa **Criar Tarefa de Modelo**:
 
    * Nome do Modelo de Tarefa
    * Visão geral
@@ -174,53 +165,29 @@ Old:
    * Documentos
    * Configurações
 
-1. Clique em **Criar tarefa de modelo**
+   Atualizar informações para uma tarefa de modelo é semelhante a editar tarefas de modelo.
 
-   Ou
-
-   Clique em **Retornar à experiência antiga** na parte inferior da caixa **Criar Tarefa de Modelo**.
-
-   A **Nova Tarefa de Modelo** é aberta na experiência antiga.
-
-   ![Caixa Nova Tarefa de Modelo](assets/new-template-task-box.png)
-
-   >[!TIP]
-   >
-   >Na Produção, a experiência antiga é aberta por padrão.
-
-1. Atualize as informações nas seguintes áreas na caixa **Nova Tarefa de Modelo**:
-
-   * Visão geral
-   * Finanças
-   * Configurações
-   * Atribuições
-   * Formulários personalizados
-   * Anexar documento
-
-     Atualizar informações para uma tarefa de modelo é semelhante a editar tarefas em um projeto. Para obter mais informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). <!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+   Para obter mais informações, consulte [Editar tarefas de modelo](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
    >[!NOTE]
    >
    >Não é possível adicionar tarefas recorrentes a um modelo.
 
-1. Clique em uma das opções a seguir:
+1. Clique em **Criar tarefa de modelo**.
 
-   * **Salvar Tarefa de Modelo** para salvar a tarefa de modelo atual e fecha a caixa Nova Tarefa de Modelo.
-   * **Salvar Tarefa de Modelo e Iniciar Outra** para salvar a tarefa de modelo atual e abrir outra caixa **Nova Tarefa de Modelo** para adicionar outra tarefa.
-   * **Cancelar** para fechar a caixa sem salvar a tarefa de modelo.
-1. (Opcional) Após adicionar as tarefas de modelo, na seção Tarefas de Modelo, clique no ícone **Gráfico de Gantt** no canto superior direito da Lista de Tarefas para ver uma representação visual da lista de tarefas do modelo.
+1. (Opcional) Após adicionar as tarefas de modelo, na seção **Tarefas de Modelo**, clique no **ícone do Gráfico de Gantt** ![ícone de Gantt](assets/gantt-icon.png) no canto superior direito da lista de tarefas para ver uma representação visual da lista de tarefas do modelo.
 
    >[!TIP]
    >
-   >Não é possível editar tarefas diretamente neste Gráfico de Gantt.
+   >Não é possível editar tarefas diretamente de um gráfico de Gantt da tarefa de modelo.
 
-1. Para adicionar informações ao novo modelo, clique no ícone ![Mais **do menu** Mais](assets/more-icon.png) à esquerda do nome do modelo no cabeçalho e clique em **Editar**.
+1. Para adicionar informações ao novo modelo, clique no ícone ![Mais **do menu** Mais](assets/more-icon.png) à direita do nome do modelo no cabeçalho e clique em **Editar**.
 
    Para obter informações sobre como editar um modelo, consulte [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
    >[!NOTE]
    >
-   >   A associação de um modelo de projeto a um grupo (ou a falta de um grupo) afeta como as preferências do projeto, da tarefa e do problema determinam determinadas configurações no modelo.
+   >A associação de um modelo de projeto a um grupo (ou a falta de um grupo) afeta como as preferências do projeto, da tarefa e do problema determinam determinadas configurações no modelo.
    >
    >Para obter mais informações, consulte a seção &quot;Como as preferências se aplicam a modelos e tarefas de modelo&quot; no artigo [Criar e modificar modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 

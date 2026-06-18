@@ -9,24 +9,16 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+autotag-review: '2026-06-18T17:43:58.800Z'
+TQID: 'https://experienceleague.adobe.com/qZvXwTMlCd5p08duYVqbyHpkML4oXtbijHuCzlukywg'
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 3340
+source-wordcount: 3361
 ht-degree: 1%
 
 ---
@@ -63,17 +55,6 @@ Você pode ajustar as seguintes informações de atribuição ao fazer atribuiç
 >
 >Ao atribuir usuários para trabalhar, sua disponibilidade de acordo com seus agendamentos afeta as Datas Planejadas e Projetadas de tarefas e problemas. Para obter informações sobre agendamentos, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-## Áreas do Adobe Workfront em que você pode fazer atribuições avançadas
-
-Este artigo descreve como acessar Atribuições avançadas no cabeçalho da tarefa ou do problema.
-
-Além disso, você pode fazer atribuições avançadas nas seguintes áreas do Workfront:
-
-* Em listas e relatórios quando o campo Atribuições é exibido na visualização.
-* Na seção Atribuições ao editar uma tarefa. Para obter mais informações, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
-* No cabeçalho da tarefa ou do problema, na área Atribuições.
-* No Balanceador de carga de trabalho. Para obter mais informações, consulte [Atribuir trabalho manualmente usando o Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
-
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
@@ -107,14 +88,27 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Criar atribuições avançadas - Pacote de fluxo de trabalho do Ultimate
+## Áreas do Adobe Workfront em que você pode fazer atribuições avançadas
 
-Este layout de Atribuições Avançadas se aplica somente a tarefas. Para problemas, consulte [Criar atribuições avançadas - todos os outros pacotes](#create-advanced-assignments--all-other-packages).
+Este artigo descreve como acessar Atribuições avançadas no cabeçalho da tarefa ou do problema.
+
+Além disso, você pode fazer atribuições avançadas nas seguintes áreas do Workfront:
+
+* Em listas e relatórios quando o campo Atribuições é exibido na visualização.
+* Na seção Atribuições ao editar uma tarefa. Para obter mais informações, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+* No cabeçalho da tarefa ou do problema, na área Atribuições.
+* No Balanceador de carga de trabalho. Para obter mais informações, consulte [Atribuir trabalho manualmente usando o Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+
+A criação de atribuições avançadas é diferente, dependendo do pacote do Workfront que sua organização adquiriu.
+
+## Criar atribuições avançadas para pacotes Ultimate de workflow
+
+Este layout de Atribuições Avançadas se aplica somente a tarefas. Para problemas, consulte a seção [Criar atribuições avançadas para todos os outros pacotes](#create-advanced-assignments-for-all-other-packages) neste artigo.
 
 >[!NOTE]
 >
 >A antiga experiência em Atribuições avançadas é o padrão. Você deve ativar manualmente a nova experiência com o botão na parte superior direita da janela Atribuições avançadas.
->Para obter informações sobre a experiência antiga, consulte [Criar atribuições avançadas - todos os outros pacotes](#create-advanced-assignments--all-other-packages), abaixo.
+>Para obter informações sobre a experiência antiga, consulte a seção [Criar atribuições avançadas para todos os outros pacotes](#create-advanced-assignments-for-all-other-packages) neste artigo.
 
 1. Vá para o projeto ao qual deseja atribuir uma tarefa.
 1. Clique em **Tarefas** ou **Problemas** no painel esquerdo e, em seguida, clique no nome de uma tarefa na lista.
@@ -134,7 +128,7 @@ Este layout de Atribuições Avançadas se aplica somente a tarefas. Para proble
 
    ![Clique em Avançado](assets/assignments-from-task-header-0825.png)
 
-   A janela Atribuições Avançadas é exibida.
+   A janela Atribuições Avançadas é aberta.
 
    ![Janela Atribuições Avançadas](assets/advanced-assignments-031826.png)
 
@@ -330,7 +324,7 @@ Você só pode exibir dados de atribuição por datas para um único usuário ou
 
    Quando terminar de revisar os dados, clique na seta na parte superior esquerda para retornar à janela Atribuições Avançadas.
 
-## Criar atribuições avançadas - todos os outros pacotes
+## Criar atribuições avançadas para todos os outros pacotes
 
 Esse layout de Atribuições avançadas se aplica a tarefas e problemas.
 
