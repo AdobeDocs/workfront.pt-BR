@@ -11,9 +11,9 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: d348f7a97f4e47fab9083d6bb7a7e6e8f6eb351b
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Qualquer usuário que tenha acesso para compartilhar objetos pode compartilhá-l
 
 >[!BEGINSHADEBOX]
 
-A Sam precisa de diferentes acessos aos projetos para a Agência A e para a Agência B. Ambas as agências são configuradas como grupos na Workfront. (Para obter informações sobre grupos, consulte Visão geral sobre grupos.)
+A Sam precisa de diferentes acessos aos projetos para a Agência A e para a Agência B. Ambas as agências são configuradas como grupos na Workfront. (Para obter informações sobre grupos, consulte [Visão geral sobre grupos](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md).)
 
 Para a Agência A, a Sam atua como controlador financeiro e precisa de acesso para ver todos os campos financeiros de seus projetos. Para a Agência B, o Sam atua como gerente de projeto e precisa gerenciar as tarefas e os problemas, mas não deve ser capaz de visualizar as informações financeiras.
 
@@ -111,6 +111,7 @@ Para obter informações sobre como os níveis de acesso e as permissões funcio
 
 ## Considerações sobre perfis empresariais
 
+* Os perfis empresariais estão disponíveis somente para organizações que têm um plano de Workflow Ultimate.
 * Um usuário não precisa ser membro de um grupo para receber um perfil de negócios para esse grupo.
 * O nível de acesso no perfil empresarial só pode atualizar o nível de acesso &quot;básico&quot; de um usuário. O perfil empresarial não pode remover as permissões básicas de nível de acesso.
 * Em listas de objetos e relatórios, o usuário tem todas as permissões que estão disponíveis a ele em todos os perfis de negócios atribuídos nos grupos mesclados com seu nível de acesso básico. Em outras páginas, o usuário tem as permissões de nível de acesso básico.
