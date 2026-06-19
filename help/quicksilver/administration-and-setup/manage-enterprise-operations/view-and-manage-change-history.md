@@ -7,21 +7,27 @@ description: O histórico de alterações permite exibir um log de alterações 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
+source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 10%
+source-wordcount: '403'
+ht-degree: 7%
 
 ---
 
 # Exibir e gerenciar o histórico de alterações
 
-O histórico de alterações permite exibir um log de alterações em objetos do Workfront, incluindo atributos como:
+Você pode exibir o histórico de alterações, incluindo logs de auditoria, na área Rastreamento de alterações da Configuração.
 
-* Objeto
-* Tipo de objeto
-* Tipo de alteração (operação)
-* Source da alteração, como usuários específicos, APIs, Workfront Fusion, AI LLMs ou o sistema Workfront
+* **Logs de Auditoria** são alterações acionadas por usuários.
+Para obter mais informações sobre Logs de auditoria e a área Logs de auditoria, consulte [Visão geral dos Logs de auditoria](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **A configuração** exibe quais campos estão sendo acompanhados para a Lista de Histórico de Alterações.
+No momento, a configuração está disponível somente como informação e não pode ser alterada. A capacidade de alterar quais campos são rastreados estará disponível em breve.
+* A Lista de histórico de alterações permite exibir um log de alterações para objetos do Workfront, incluindo atributos como:
+
+   * Objeto
+   * Tipo de objeto
+   * Tipo de alteração (operação)
+   * Source da alteração, como usuários específicos, APIs, Workfront Fusion, AI LLMs ou o sistema Workfront
 
 ## Requisitos de acesso
 
@@ -41,7 +47,7 @@ O histórico de alterações permite exibir um log de alterações em objetos do
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td>Editar acesso a [!UICONTROL Rate Cards]</td> 
+   <td>Você precisa ser um administrador do Workfront para visualizar o Histórico de alterações</td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,9 +56,28 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
+## Exibir e gerenciar logs de auditoria
 
+Para exibir e gerenciar logs de auditoria, consulte [Exibir e exportar logs de auditoria](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
-## Exibir histórico de alterações
+## Exibir a área Configuração para controle de alterações
+
+>[!NOTE]
+>
+>No momento, a configuração está disponível somente como informação e não pode ser alterada. A capacidade de alterar quais campos são rastreados estará disponível em breve.
+
+Para exibir os tipos de alterações que são rastreadas:
+
+{{step-1-to-setup}}
+
+1. No painel esquerdo, clique em **Controle de alterações** ![Ícone Alterar histórico](assets/change-history-icon.png).
+1. Clique em **Configuração**.
+
+   Os campos são exibidos agrupados por tipo de objeto.
+
+1. Para exibir campos sob um objeto específico, clique na seta suspensa ao lado do tipo de objeto.
+
+## Exibir a Lista de Histórico de Alterações
 
 Os administradores do Workfront podem exibir o histórico de alterações na área Configuração.
 
@@ -74,16 +99,6 @@ A Lista do histórico de alterações é uma lista aprimorada com filtros, colun
 1. Para adicionar ou remover colunas, consulte [Adicionar e remover colunas com o Gerenciador de colunas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) no artigo Usar listas aprimoradas.
 1. Para ajustar a altura da linha, consulte [Alterar a altura da linha em uma exibição](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) no artigo Usar listas aprimoradas.
 
-## Exibir tipos de alteração disponíveis
-
-Para exibir os tipos de alterações que são rastreadas:
-
-{{step-1-to-setup}}
-
-1. No painel esquerdo, clique em **Controle de alterações** ![Ícone Alterar histórico](assets/change-history-icon.png).
-1. Clique em **Configuração**.
-
-   Os campos são exibidos agrupados por objeto.
 
 
 
