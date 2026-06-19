@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -130,14 +130,21 @@ Para obter as especificações da API do Workfront Planning, consulte a document
 >
 >Visualização: 28 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
 
+
 Agora você pode ajustar permissões de registro individuais para controlar quem pode gerenciá-las em um tipo de registro.
 
-Por padrão, os usuários herdam permissões de registro do espaço de trabalho e do tipo de registro. Para conceder somente a usuários selecionados com permissões de tipo de registro Gerenciar permissões para apenas determinados registros, você pode desativar permissões herdadas em registros selecionados e conceder somente a esses usuários Gerenciar acesso a esses registros. É possível ajustar permissões para um registro ou para vários registros ao mesmo tempo, em massa.
+Por padrão, os usuários herdam permissões de registro do espaço de trabalho e do tipo de registro. Agora é possível substituir permissões herdadas em registros específicos para conceder acesso de Visualização ou Gerenciamento a um subconjunto de usuários. As substituições de permissão podem ser aplicadas a registros individuais ou atualizadas em massa em vários registros.
 
-Você pode conceder aos usuários os seguintes níveis de permissão:
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
-* Exibir
-* Gerenciar
+Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
+
+You can give users the following permissions levels: 
+
+* View 
+* Manage 
+-->
 
 >[!NOTE]
 >
