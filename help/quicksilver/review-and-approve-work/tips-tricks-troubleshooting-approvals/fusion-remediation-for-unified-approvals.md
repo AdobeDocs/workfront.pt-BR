@@ -23,7 +23,7 @@ Os cenários com escopo para projetos herdados do Workfront continuam funcionand
 >
 >O conector de Revisão unificada e aprovações do Adobe Workfront agora está disponível no Workfront Fusion. Recomendamos usar esse conector para cenários mais simples e confiáveis ao usar o Fusion com o armazenamento em nuvem do Adobe.
 >
->Para obter informações e instruções, consulte os [módulos de Revisão e Aprovações Unificadas do Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) na documentação do Workfront Fusion.
+>Para obter informações e instruções, consulte os [módulos de Revisão e Aprovações Unificadas do Adobe Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) na documentação do Workfront Fusion.
 
 Use este artigo para inventariar e classificar cenários e entender a melhor maneira de atualizar seus cenários do Fusion para levar em conta o armazenamento em nuvem da Adobe.
 
