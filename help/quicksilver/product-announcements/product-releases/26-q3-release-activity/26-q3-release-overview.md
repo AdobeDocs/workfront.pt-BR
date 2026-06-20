@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
+source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2104'
 ht-degree: 17%
 
 ---
@@ -35,6 +35,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 
 ## Aprimoramentos do Adobe Workfront
 
+* [Aprimoramentos de IA](#ai-enhancements)
 * [Aprimoramentos do administrador](#administrator-enhancements)
 * [Aprimoramentos de documentos](#documents-enhancements)
 * [Aprimoramentos do Financial Management](#financial-management-enhancements)
@@ -43,6 +44,40 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 * [Aprimoramentos nos relatórios](#reporting-enhancements)
 * [Aprimoramentos nas solicitações](#requesting-enhancements)
 * [Outros aprimoramentos](#other-enhancements)
+
+### Aprimoramentos de IA
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Recurso</strong>
+            </td>
+            <td><strong>Pré-visualização</strong></td>
+            <td><strong>Lançamento rápido</strong></td>
+            <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Atualizações para o conector MCP do Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Atualizamos o Conector MCP do Workfront:<ul><li>Claude agora pode se conectar ao conector MCP.</li><li>Agora você pode usar o conector MCP de instâncias na UE <!--or from instances that do not use AWS-->.</p>
+            </td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Conecte sua plataforma de agente de IA ao Workfront com o servidor MCP do Workfront</a>
+                <p>O novo servidor MCP do Workfront conecta o Workfront a uma plataforma de agente de IA compatível, como Claude ou ChatGPT, para que você possa encontrar, criar, atualizar e gerenciar itens do Workfront por meio de uma conversa em linguagem natural. Atualmente disponível somente para clientes na região dos EUA que usam o AWS.</p>
+            </td>
+            <td><p>28 de maio de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>16 de julho de 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Aprimoramentos do administrador
 
@@ -362,14 +397,6 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Pré-visualização</strong></td>
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Atualizações para o conector MCP do Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>Atualizamos o Conector MCP do Workfront:<ul><li>Claude agora pode se conectar ao conector MCP.</li><li>Agora você pode usar o conector MCP de instâncias na UE <!--or from instances that do not use AWS-->.</p>
-            </td>
-            <td><p>11 de junho de 2026</p></td>
-            <td><p>11 de junho de 2026</p></td>
-            <td><p>11 de junho de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -379,15 +406,6 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><p>N/D</p></td>
             <td><p>Implantação em fases, a partir de 16 de julho de 2026</p></td>
             <td><p>Implantação em fases, a partir de 16 de julho de 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Conecte sua plataforma de agente de IA ao Workfront com o servidor MCP do Workfront</a>
-                <p>O novo servidor MCP do Workfront conecta o Workfront a uma plataforma de agente de IA compatível, como Claude ou ChatGPT, para que você possa encontrar, criar, atualizar e gerenciar itens do Workfront por meio de uma conversa em linguagem natural. Atualmente disponível somente para clientes na região dos EUA que usam o AWS.</p>
-            </td>
-            <td><p>28 de maio de 2026</p></td>
-            <td><p>11 de junho de 2026</p></td>
-            <td><p>16 de julho de 2026</p></td>
         </tr>
         <tr>
             <td>
