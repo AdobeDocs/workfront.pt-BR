@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
 source-wordcount: 2626
 ht-degree: 20%
@@ -166,7 +166,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     </tr>
    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Provisionamento do GenStudio Foundations habilitado para dar suporte aos Colaboradores de IA </a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Provisionamento do GenStudio Foundation habilitado para dar suporte aos Colaboradores de IA </a><p></p>
             <p>Em 31 de março de 2026, todos os clientes do Workfront foram provisionados para o GenStudio Foundation, e os administradores de sistema do Admin Console receberão um email informando sobre essa adição. Esse produto é provisionado apenas para que os clientes da Workfront possam conceder às marcas acesso aos clientes da Workfront, conforme necessário, para o lançamento dos colaboradores de IA. O produto em si é apenas um mecanismo de acesso para Marcas e não há nenhuma funcionalidade adicional disponível no produto GenStudio Foundation.</p><p>Os clientes não serão cobrados por esse novo produto.</p>
         </td>
         <td><p>31 de março de 2026</p></td>

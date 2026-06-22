@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '798'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ Essa integração ajuda as equipes a reduzir a criação de conteúdo duplicado,
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
-## Provisionamento do GenStudio Foundations ativado para oferecer suporte a colaboradores de IA
+## Provisionamento do GenStudio Foundation ativado para oferecer suporte aos colaboradores de IA
 
 >[!NOTE]
 >
