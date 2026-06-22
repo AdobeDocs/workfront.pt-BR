@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Atualizamos a aparência da exibição de tabela para as seguintes áreas no Wor
 * Todas as páginas do tipo de registro conectadas, exceto Projetos
 
 Além de algumas alterações de navegação e melhorias de design, algumas melhorias nesta atualização incluem:
+
+* A adição de uma linha de agregação na parte inferior da tabela que resume o número, a moeda, a porcentagem e alguns campos de fórmula usando os seguintes agregadores: SUM, AVG, MAX, MIN.
 
 * Um formato de data mais simples com menos tipos de formato ao adicionar um campo de Data.
 
