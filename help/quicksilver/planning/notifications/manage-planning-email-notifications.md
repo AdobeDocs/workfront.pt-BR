@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 611
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 # Gerenciar notificações por email do Adobe Workfront Planning
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -165,18 +165,18 @@ OLD:
    A página de detalhes do registro é aberta no Workfront. Você pode fazer atualizações no registro ou responder ao comentário.
 
 1. (Condicional) Se disponível, clique em **Exibir todas as notificações**. <!--check with Lilit - do non-IMS users have this button??-->
-A página **Notificações** é aberta no Adobe Experience Cloud. Todas as notificações de todos os aplicativos Adobe Experience Cloud são exibidas.
+A página **Notificações** é aberta na Adobe Experience Cloud. Todas as notificações de todos os aplicativos da Adobe Experience Cloud são exibidas.
 
 ## Gerenciar notificações por email ao solicitar e conceder permissões
 
-1. (Condicional e opcional) Depois que alguém solicitar ou conceder permissões para acessar um objeto do Planning, vá para o email que informa sobre a solicitação de permissão. O remetente do email é o Adobe Experience Cloud.
+1. (Condicional e opcional) Depois que alguém solicitar ou conceder permissões para acessar um objeto do Planning, vá para o email que informa sobre a solicitação de permissão. O remetente do email é a Adobe Experience Cloud.
 
 1. (Opcional) Clique na mensagem na caixa **Workfront** dentro do email.
 
    O objeto que você solicitou permissões é aberto no Workfront.
 
 1. (Condicional) Se disponível, clique em **Exibir todas as notificações**.
-A página **Notificações** é aberta no Adobe Experience Cloud. Todas as notificações de todos os aplicativos Adobe Experience Cloud são exibidas.
+A página **Notificações** é aberta na Adobe Experience Cloud. Todas as notificações de todos os aplicativos da Adobe Experience Cloud são exibidas.
 
 
 Para obter informações sobre como solicitar, conceder ou negar permissões, consulte [Solicitar permissões para uma exibição ou um espaço de trabalho](/help/quicksilver/planning/access/request-permissions.md).

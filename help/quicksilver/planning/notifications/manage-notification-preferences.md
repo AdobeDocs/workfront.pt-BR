@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 10%
@@ -29,7 +29,7 @@ ht-degree: 10%
 # Gerenciar preferências de notificação do Adobe Workfront Planning
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -174,7 +174,7 @@ Para obter mais informações sobre notificações do Workfront Planning, consul
 >
 >Você gerencia as notificações do Workfront Planning usando a área Preferências da Adobe, e não a área Notificações da Workfront na página de perfil do usuário.
 
-1. Faça logon no Workfront com as credenciais da Adobe Experience Cloud.
+1. Faça logon no Workfront com suas credenciais da Adobe Experience Cloud.
 1. Clique no ícone **menu de conta** ícone ![menu de Conta no Experience Cloud](assets/account-menu-icon-on-experience-cloud.png) no canto superior direito da tela e clique em **Preferências**.
 1. Na seção **Notificações**, clique em **Workfront**.
 1. Selecione as notificações que deseja receber.

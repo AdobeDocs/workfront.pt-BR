@@ -19,17 +19,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: 6148
-ht-degree: 2%
+source-wordcount: 6307
+ht-degree: 1%
 
 ---
 
 # Gerenciar a exibição de tabela
 
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
 
 <span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -745,16 +745,20 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
 
    1. Clique no ícone **x** na caixa de pesquisa para limpar a palavra-chave de pesquisa.
-<!--    
-1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-    * **MIN**: Displays the lowest value from all the cells in the column. 
-    * **MAX**: Displays the highest value from all the cells in the column. 
-    * **AVG**: Displays the average value of all the cells in the column. 
+1. Para campos de número, moeda, porcentagem e fórmula formatados como qualquer um desses tipos de campo, expanda o menu suspenso do agregador na parte inferior das colunas e selecione uma das seguintes opções:
 
-    The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
--->
+   * **SOMA**: exibe o total de todas as células da coluna. Esta é a seleção padrão.
+   * **MIN**: exibe o valor mais baixo de todas as células da coluna.
+   * **MAX**: exibe o valor mais alto de todas as células da coluna.
+   * **AVG**: exibe o valor médio de todas as células na coluna.
+
+   Considere o seguinte ao trabalhar com agregadores:
+
+   * A linha do agregador na coluna está congelada e faz parte das configurações de exibição.
+   * Como um Gerenciador de exibições, você pode escolher o agregador e ele será compartilhado com a exibição quando você compartilhá-la com outras pessoas.
+   * Como visualizador, você pode modificar o agregador, mas ele não é salvo com a visualização.
+   * As exibições públicas compartilhadas são compartilhadas com os agregadores salvos que não podem ser modificados.
 
 ### Adicionar linhas (ou registros) {#add-rows-1}
 

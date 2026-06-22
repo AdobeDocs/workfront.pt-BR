@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 537
 ht-degree: 4%
@@ -28,7 +28,7 @@ ht-degree: 4%
 # Visão geral das limitações de objetos do Planejamento do Adobe Workfront
 
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após os lançamentos mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que habilitaram lançamentos rápidos.</span>
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que habilitaram lançamentos rápidos.</span>
 
 <span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
