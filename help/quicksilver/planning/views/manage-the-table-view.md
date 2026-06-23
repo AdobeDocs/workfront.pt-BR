@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: 6307
+source-wordcount: 6353
 ht-degree: 1%
 
 ---
@@ -622,7 +617,7 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
 
 <div class="preview">
 
-## Gerenciar a exibição de lista no ambiente de Pré-visualização
+## Gerenciar a exibição de tabela no ambiente de Visualização
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -894,7 +889,7 @@ Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando esta por enquanto &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***—>
+&lt;!—*************** * É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando esta por enquanto *****************—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
@@ -946,17 +941,15 @@ Para adicionar um agrupamento:
 
 ### Adicionar cores da linha
 
-1. (Opcional) Clique em **Cores da linha** para definir condições e escolher configurar cores diferentes para linhas da tabela.
+1. (Opcional) Clique em **Cores da linha** para definir condições e configurar cores diferentes para linhas da tabela.
 
-1. Clique em **Adicionar cor** e procure um campo e, em seguida, selecione-o quando ele for exibido na lista. Este é o campo cujo valor você deseja definir a cor de uma linha.
+1. Clique em **Adicionar cor** e procure um campo e, em seguida, selecione-o quando ele for exibido na lista. É o campo cujo valor você deseja definir a cor de uma linha ou o campo Primary.
 
    Por exemplo, para exibir campanhas com um status de Ativo em verde, selecione **Status** e escolha um modificador e um valor para o campo.
 
-   ![Caixa de cores de linha com status Ativo selecionado e opção de cor padrão](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. Clique no menu suspenso do seletor de cores no canto superior esquerdo da condição selecionada para escolher a cor da condição e clique fora da caixa do seletor de cores para fechá-lo.
 
-   ![Menu suspenso de seletor de cores na caixa Cores da linha realçado](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![Caixa de cores de linha com status Ativo selecionado e opção de cor padrão](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. (Opcional) Clique em **Adicionar condição** para adicionar mais campos e valores ao primeiro conjunto de condições
 
@@ -966,16 +959,27 @@ Para adicionar um agrupamento:
 
    Por exemplo, você pode exibir campanhas em um status Planning em amarelo definindo um novo conjunto de condições.
 
-   ![Caixa de cores de linha com cores personalizadas de status Ativo e do Planning](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   ![Caixa de cores de linha com cores personalizadas de status Ativo e do Planning](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+   >[!TIP]
+   >
+   >Quando você tem dois campos diferentes selecionados, a última regra se aplica primeiro às cores que serão aplicadas às linhas.
+
 
 1. (Opcional) Ative a configuração **Aplicar a toda a linha** no canto superior direito da caixa **Cores da linha**. A linha inteira em que a condição é atendida é exibida automaticamente na cor selecionada.
 
    >[!NOTE]
    >
-   >Se a configuração **Aplicar à linha inteira** estiver desativada, somente o plano de fundo da célula do campo primário será exibido na cor selecionada. A configuração é desativada por padrão.
+   >* Se a configuração **Aplicar à linha inteira** estiver desativada, somente o plano de fundo da célula do campo primário será exibido na cor selecionada. A configuração é desativada por padrão.
    >
+   >* A configuração Aplicar a toda a linha fica esmaecida quando você aplica agrupamentos à tabela.
 
 1. Clique fora da caixa **Cores da linha** para fechá-la. As cores são aplicadas automaticamente.
+
+   >[!TIP]
+   >
+   >Se você optar por aplicar cor apenas a uma célula, somente o campo Primário será realçado.
+
 
 ### Ativar o indicador de presença em tempo real
 

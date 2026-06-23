@@ -9,18 +9,13 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: 807
 ht-degree: 6%
 
 ---
@@ -36,6 +31,12 @@ ht-degree: 6%
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 É possível aplicar um filtro a um Painel da tela de desenho que contenha prompts. Um prompt funciona como um modificador de filtro que aplica critérios de filtragem adicionais para que você possa restringir ainda mais seus resultados. Esses prompts podem ser modificados toda vez que você aplicar o filtro, permitindo ajustar os resultados exibidos sem precisar editar os principais critérios de filtro do painel ou de cada relatório individual.
@@ -117,7 +118,7 @@ Com um filtro de painel, é possível aplicar um filtro comum em todos os relat�
 
 1. No canto superior esquerdo da página de detalhes do painel, clique em **Filtros**. O painel lateral Filtros se abre.
 
-1. Selecione **Editar filtros**. A caixa de diálogo **Filtros do painel** é aberta.
+1. Clique em <!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> **Editar filtros**. A caixa de diálogo **Filtros do painel** é aberta.
 
 1. (Opcional) Para adicionar uma regra, siga as etapas abaixo:
 
@@ -126,7 +127,7 @@ Com um filtro de painel, é possível aplicar um filtro comum em todos os relat�
       ![Ícone Editar](assets/edit-icon.png)
 
    1. Clique em **Adicionar condição** e adicione as seguintes informações:
-      * Selecione um campo pelo qual deseja filtrar.
+      * Clique em **Escolher campo** para selecionar um campo pelo qual deseja filtrar.
       * Selecione uma opção (ou modificador de filtro) para definir que tipo de condição o campo deve atender.
 
    1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
@@ -144,7 +145,7 @@ Um prompt do painel oferece aos usuários a opção de aplicar filtros personali
 
 1. Para adicionar um prompt, siga as etapas abaixo:
 
-   1. Selecione **Adicionar prompt**. Novos campos são exibidos no lado direito da tela.
+   1. Clique em **Adicionar prompt**. Novos campos são exibidos no lado direito da tela.
 
    1. Insira um rótulo no campo **Personalizar rótulo**.
 
@@ -170,6 +171,19 @@ Um prompt do painel oferece aos usuários a opção de aplicar filtros personali
    1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
 
 1. Clique em **Salvar** para aplicar o filtro ao painel.
+
+   <!--
+    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
+        <div class="preview">
+        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
+            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
+        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
+            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
+            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
+        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
+        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
+        </div> 
+    -->
 
 1. Prossiga para [Parte 3: Aplicar um prompt de painel](#step-3-apply-a-dashboard-prompt).
 
