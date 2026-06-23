@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1236
 ht-degree: 12%
 
 ---
@@ -238,8 +238,8 @@ Esse é um limite conhecido e pretendemos resolvê-lo o mais rápido possível.
 
 O menu suspenso **Seções** na seção **Tabela de compilação** foi criado para restringir as opções em um seletor de campos para facilitar a localização de um objeto ao criar um relatório de tabela. Para iniciar, você selecionaria um objeto de entidade base.
 
-* **Todas as Seções**: todos os tipos de objetos no Workfront Workflow e no Workfront Planning.
-* **Objetos Workfront**: objetos de Fluxo de Trabalho Workfront nativos.
+* **Todas as Seções**: todos os tipos de objetos no Workfront e no Workfront Planning.
+* **Objetos Workfront**: objetos Workfront nativos.
 * **Tipos de Registro do Planning**: tipos de registro personalizados definidos no Workfront Planning.
 
 ![Menu suspenso de seções](assets/sections-dropdown.png)

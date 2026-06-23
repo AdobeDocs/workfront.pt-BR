@@ -5,13 +5,13 @@ title: Usar campos de moeda nos Painéis do Canvas
 description: É possível usar os campos de moeda em um Painel da tela de desenho.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
+exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 4%
+source-wordcount: '551'
+ht-degree: 9%
 
 ---
-
 
 # Usar campos de moeda nos Painéis do Canvas
 
@@ -19,11 +19,17 @@ ht-degree: 4%
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
 >Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>Observe que este beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## Requisitos de acesso
 
@@ -64,7 +70,7 @@ ht-degree: 4%
 </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Pré-requisitos
@@ -146,7 +152,7 @@ A tabela a seguir descreve as limitações quando as moedas são definidas na á
 <li>Atribuir uma moeda padrão ao painel (na criação ou edição do painel)</li>
 <li>Ver e usar a alternância de moeda no nível do painel</li>
 <li>Bloquear uma moeda específica para exibição em um gráfico de tela, KPI ou relatório de tabela</li>
-<li>Usar campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela</li>
+<li>Usar campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td> 
 </tr>
@@ -164,12 +170,7 @@ A tabela a seguir descreve as limitações quando as moedas são definidas na á
 </td>
 <td><ul>
   <li>Usar campos de moeda de dados personalizados em relatórios de gráfico de tela, KPI e tabela</li>
-  <li>Usar campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela</li>
+  <li>Usar campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td>
 </tr></table>
-
-
-
-
-

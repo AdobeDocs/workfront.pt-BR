@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: 6307
+source-wordcount: 6353
 ht-degree: 1%
 
 ---
@@ -622,7 +622,7 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
 
 <div class="preview">
 
-## Gerenciar a exibição de lista no ambiente de Pré-visualização
+## Gerenciar a exibição de tabela no ambiente de Visualização
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -946,17 +946,15 @@ Para adicionar um agrupamento:
 
 ### Adicionar cores da linha
 
-1. (Opcional) Clique em **Cores da linha** para definir condições e escolher configurar cores diferentes para linhas da tabela.
+1. (Opcional) Clique em **Cores da linha** para definir condições e configurar cores diferentes para linhas da tabela.
 
-1. Clique em **Adicionar cor** e procure um campo e, em seguida, selecione-o quando ele for exibido na lista. Este é o campo cujo valor você deseja definir a cor de uma linha.
+1. Clique em **Adicionar cor** e procure um campo e, em seguida, selecione-o quando ele for exibido na lista. É o campo cujo valor você deseja definir a cor de uma linha ou o campo Primary.
 
    Por exemplo, para exibir campanhas com um status de Ativo em verde, selecione **Status** e escolha um modificador e um valor para o campo.
 
-   ![Caixa de cores de linha com status Ativo selecionado e opção de cor padrão](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. Clique no menu suspenso do seletor de cores no canto superior esquerdo da condição selecionada para escolher a cor da condição e clique fora da caixa do seletor de cores para fechá-lo.
 
-   ![Menu suspenso de seletor de cores na caixa Cores da linha realçado](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![Caixa de cores de linha com status Ativo selecionado e opção de cor padrão](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. (Opcional) Clique em **Adicionar condição** para adicionar mais campos e valores ao primeiro conjunto de condições
 
@@ -966,16 +964,27 @@ Para adicionar um agrupamento:
 
    Por exemplo, você pode exibir campanhas em um status Planning em amarelo definindo um novo conjunto de condições.
 
-   ![Caixa de cores de linha com cores personalizadas de status Ativo e do Planning](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   ![Caixa de cores de linha com cores personalizadas de status Ativo e do Planning](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+   >[!TIP]
+   >
+   >Quando você tem dois campos diferentes selecionados, a última regra se aplica primeiro às cores que serão aplicadas às linhas.
+
 
 1. (Opcional) Ative a configuração **Aplicar a toda a linha** no canto superior direito da caixa **Cores da linha**. A linha inteira em que a condição é atendida é exibida automaticamente na cor selecionada.
 
    >[!NOTE]
    >
-   >Se a configuração **Aplicar à linha inteira** estiver desativada, somente o plano de fundo da célula do campo primário será exibido na cor selecionada. A configuração é desativada por padrão.
+   >* Se a configuração **Aplicar à linha inteira** estiver desativada, somente o plano de fundo da célula do campo primário será exibido na cor selecionada. A configuração é desativada por padrão.
    >
+   >* A configuração Aplicar a toda a linha fica esmaecida quando você aplica agrupamentos à tabela.
 
 1. Clique fora da caixa **Cores da linha** para fechá-la. As cores são aplicadas automaticamente.
+
+   >[!TIP]
+   >
+   >Se você optar por aplicar cor apenas a uma célula, somente o campo Primário será realçado.
+
 
 ### Ativar o indicador de presença em tempo real
 

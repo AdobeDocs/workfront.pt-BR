@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 275848d3b27ae12b8abdcb491276f4460eb03e7a
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: '14208'
+source-wordcount: '14269'
 ht-degree: 94%
 
 ---
@@ -974,7 +974,7 @@ ht-degree: 94%
       * [Gerenciar formulários personalizados anexados a objetos](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Usar notificações {#use-notifications}
       * [Usar notificações: índice de artigos](workfront-basics/using-notifications/use-notifications.md)
-      * {hide-from-toc}[Visão Geral das Notificações do Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
+      * {hide-from-toc}[Visão geral das notificações da Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [Visão geral das notificações](workfront-basics/using-notifications/wf-notifications.md)
       * [Modificar as próprias notificações por email](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Assinar itens no Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -2161,6 +2161,7 @@ ht-degree: 94%
       * [Atividade de lançamento do Planejamento do Adobe Workfront para 2023](planning/general/release-activity-archives-2023.md)
       * [Visão geral das limitações de objetos do Planejamento do Adobe Workfront](planning/general/limitations-overview.md)
       * [Começar a avaliação gratuita do Planejamento do Adobe Workfront](planning/general/trial-workfront-planning.md)
+      * {hide-from-toc}[Exibir informações do Workfront Planning em relatórios](planning/general/planning-information-in-reports.md)
    * Práticas recomendadas do Planejamento do Adobe Workfront {#adobe-workfront-planning-best-practices}
       * [práticas recomendadas do Adobe Workfront: índice de artigos](planning/best-practices.md/best-practices-article-index.md)
       * [Implante sua casa estratégica: um lançamento de 30 dias](planning/best-practices.md/30-day-launchpad.md)
