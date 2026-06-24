@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
 workflow-type: tm+mt
-source-wordcount: 481
-ht-degree: 8%
+source-wordcount: 440
+ht-degree: 7%
 
 ---
 
@@ -75,6 +75,4 @@ Você pode usar funções de trabalho para as seguintes finalidades:
   >Se um modelo de layout for atribuído aos usuários ao seu perfil de usuário, esse modelo terá precedência sobre aquele atribuído à sua função de trabalho principal. Para obter mais informações, consulte [Atribuir usuários a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 * Você pode atribuir funções de trabalho a planos e iniciativas para gerenciar a disponibilidade dos seus recursos ao usar o [!DNL Adobe Workfront Scenario Planner]. Isso requer uma licença adicional para o [!DNL Scenario Planner]. Para obter mais informações, consulte [Introdução ao [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
-* Você pode alterar a moeda em taxas de funções de trabalho com data efetiva ao trabalhar com recursos de diferentes países. Isso permite obter valores de Custo e Receita mais precisos para itens de trabalho.
 
-  Para obter mais informações, consulte [Criar e gerenciar funções no trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
