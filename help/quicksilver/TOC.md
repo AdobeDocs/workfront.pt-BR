@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
 workflow-type: tm+mt
-source-wordcount: '14269'
+source-wordcount: '14214'
 ht-degree: 94%
 
 ---
@@ -2161,7 +2161,7 @@ ht-degree: 94%
       * [Atividade de lançamento do Planejamento do Adobe Workfront para 2023](planning/general/release-activity-archives-2023.md)
       * [Visão geral das limitações de objetos do Planejamento do Adobe Workfront](planning/general/limitations-overview.md)
       * [Começar a avaliação gratuita do Planejamento do Adobe Workfront](planning/general/trial-workfront-planning.md)
-      * {hide-from-toc}[Exibir informações do Workfront Planning em relatórios](planning/general/planning-information-in-reports.md)
+      * [Exibir informações do Workfront Planning nos relatórios](planning/general/planning-information-in-reports.md)
    * Práticas recomendadas do Planejamento do Adobe Workfront {#adobe-workfront-planning-best-practices}
       * [práticas recomendadas do Adobe Workfront: índice de artigos](planning/best-practices.md/best-practices-article-index.md)
       * [Implante sua casa estratégica: um lançamento de 30 dias](planning/best-practices.md/30-day-launchpad.md)
