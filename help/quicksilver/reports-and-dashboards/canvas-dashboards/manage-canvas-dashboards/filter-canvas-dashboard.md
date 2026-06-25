@@ -9,19 +9,14 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
 workflow-type: tm+mt
-source-wordcount: 807
-ht-degree: 6%
+source-wordcount: 1057
+ht-degree: 5%
 
 ---
 
@@ -38,11 +33,12 @@ ht-degree: 6%
 >* Google Cloud Platform
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+take Preview and production mentions out at release
 -->
 
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 É possível aplicar um filtro a um Painel da tela de desenho que contenha prompts. Um prompt funciona como um modificador de filtro que aplica critérios de filtragem adicionais para que você possa restringir ainda mais seus resultados. Esses prompts podem ser modificados toda vez que você aplicar o filtro, permitindo ajustar os resultados exibidos sem precisar editar os principais critérios de filtro do painel ou de cada relatório individual.
 
@@ -123,7 +119,7 @@ Com um filtro de painel, é possível aplicar um filtro comum em todos os relat�
 
 1. No canto superior esquerdo da página de detalhes do painel, clique em **Filtros**. O painel lateral Filtros se abre.
 
-1. Clique em <!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> **Editar filtros**. A caixa de diálogo **Filtros do painel** é aberta.
+1. (Condicional) No ambiente de Produção, clique em **Editar filtros** ou <span class="preview">no ambiente de Visualização, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em</span> **Editar filtros**. A caixa de diálogo **Filtros do painel** é aberta.
 
 1. (Opcional) Para adicionar uma regra, siga as etapas abaixo:
 
@@ -177,18 +173,24 @@ Um prompt do painel oferece aos usuários a opção de aplicar filtros personali
 
 1. Clique em **Salvar** para aplicar o filtro ao painel.
 
-   <!--
-    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
-        <div class="preview">
-        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
-            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
-        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
-            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
-            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
-        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
-        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
-        </div> 
-    -->
+
+1. <span class="preview">Para salvar os prompts como padrão, faça o seguinte, depois de salvar o prompt: </span>
+
+   <div class="preview">
+
+   1. (Opcional) Clique no menu **Mais** ![Mais menus](assets/more-icon.png) e clique em **Salvar como prompts padrão**.
+
+      O filtro do prompt é aplicado sempre que o painel é carregado para qualquer pessoa com permissões de Exibição ou superiores.
+   1. (Condicional) Se você acessar um painel com um prompt padrão aplicado, poderá modificar o filtro e suas modificações serão salvas como uma preferência pessoal. Existem os seguintes cenários:
+
+      * Se você tiver permissões de Gerenciamento no painel, clique em **Salvar como prompts padrão** para salvar suas modificações como filtro padrão. Isso substitui os padrões originais.
+      * Se você tiver permissões de Exibição no painel, suas modificações serão exibidas somente para você. Atualizar a página preserva suas configurações.
+
+   1. (Condicional) Se você modificou as configurações do prompt padrão, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em **Aplicar padrões do painel** para retornar aos resultados do filtro padrão.
+   1. (Opcional) Clique em **Redefinir padrões** para substituir as configurações padrão originais por suas modificações. Essa opção só está disponível para gerentes de painel.
+
+   </div>
+
 
 1. Prossiga para [Parte 3: Aplicar um prompt de painel](#step-3-apply-a-dashboard-prompt).
 
@@ -204,7 +206,7 @@ Todos os usuários com acesso a um painel podem aplicar um prompt de painel a um
 
 1. No canto superior esquerdo da página de detalhes do painel, clique em **Filtros**. O painel lateral Filtros se abre.
 
-1. Na seção **Mostrar registros onde...**, escolha uma condição para um ou todos os prompts exibidos. O prompt é aplicado e uma tag **Filtros do painel aplicados** é exibida no canto do widget de relatório.
+1. Na seção **Mostrar registros onde...**, escolha uma condição para um ou todos os prompts exibidos. O prompt é aplicado e uma tag **Dashboard prompts aplicados** é exibida no canto do widget de relatório.
    ![Selecionar condição](assets/prompts-list.png)
 
 1. Clique no ícone **Fechar** ![Ícone Fechar](assets/close-icon.png) no canto superior direito para ocultar o painel.
