@@ -4,9 +4,9 @@ description: Melhorias na emissão de relatórios no terceiro trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 1%
 Esta página descreve as melhorias de relatórios feitas com a versão do terceiro trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2026, consulte [Visão geral da versão do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Padrões do prompt do Painel de controle do Canvas e persistência de preferências do usuário
+
+>[!NOTE]
+>
+>Visualização: 25 de junho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
+
+Para melhorar a eficiência dos usuários que se movem entre painéis e registros, preservando o estado do filtro de trabalho, os gerentes de painel agora podem definir valores de prompt padrão para painéis do Canvas. Esses padrões são aplicados automaticamente para todos os visualizadores de painel.
+
+Quando um usuário atualiza prompts, suas seleções são salvas e restauradas na atualização, reabertura ou após navegar até um registro e retornar.
+
+Os gerentes podem redefinir o estado padrão do painel a qualquer momento. Os usuários também podem reverter rapidamente para os padrões por meio do menu de três pontos.
+
+Antes dessa melhoria, os prompts do painel não tinham um padrão configurável ou uma preferência de usuário salva para o status do prompt.
+
+Para obter informações, consulte [Filtrar um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md).
 
 ## Adicionar vários intervalos de endereço IP do Power BI ao incluo na lista de permissões de conexão de dados de uma só vez
 
