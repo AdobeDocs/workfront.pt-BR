@@ -6,7 +6,7 @@ title: Anexar um cartão de taxa a um modelo
 description: Quando você atribui um cartão de taxa a um modelo, o cartão de taxa é anexado a todos os projetos criados a partir do modelo.
 author: Lisa
 feature: Work Management
-source-git-commit: 28a1c1cf30c2b4addbcc1b40f5fd65f99685c75c
+source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 8%
@@ -117,7 +117,6 @@ Você pode começar a digitar o nome de um cartão de taxa para restringir a lis
 
    Na seção Opções da caixa Salvar como Modelo, você pode selecionar o item **Cartão de Taxa** para adicionar o cartão de taxa ao modelo. Desmarque a caixa de seleção para excluir a transferência do cartão de taxa para o modelo.
 
-   Para obter mais informações, consulte [Salvar um projeto como modelo](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)
-
+   Para obter mais informações, consulte [Salvar um projeto como modelo](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
 
 
