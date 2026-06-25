@@ -6,10 +6,10 @@ description: É possível usar os campos de moeda em um Painel da tela de desenh
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 9%
+source-wordcount: '677'
+ht-degree: 7%
 
 ---
 
@@ -25,11 +25,9 @@ ht-degree: 9%
 >* Azure
 >* Google Cloud Platform
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 ## Requisitos de acesso
 
@@ -152,13 +150,12 @@ A tabela a seguir descreve as limitações quando as moedas são definidas na á
 <li>Atribuir uma moeda padrão ao painel (na criação ou edição do painel)</li>
 <li>Ver e usar a alternância de moeda no nível do painel</li>
 <li>Bloquear uma moeda específica para exibição em um gráfico de tela, KPI ou relatório de tabela</li>
-<li>Usar campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
+<li>Use os campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela <span class="preview"> no ambiente de Produção. Isto está disponível no ambiente de Pré-visualização.</span></li>
 </ul>
 
-<!--
-<p><b>NOTE</b></p>
-<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
--->
+<p><b>Nota</b></p>
+<span class="preview">Se um campo de moeda do Planning usar uma moeda sem uma taxa de câmbio definida, o Painel do Canvas poderá exibir uma mensagem de erro quando.</span>
+
 </td> 
 </tr>
 </td> 
@@ -175,12 +172,12 @@ A tabela a seguir descreve as limitações quando as moedas são definidas na á
 </td>
 <td><ul>
   <li>Usar campos de moeda de dados personalizados em relatórios de gráfico de tela, KPI e tabela</li>
-  <li>Usar campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
+  <li>Use os campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela <span class="preview"> no ambiente de Produção. Isto está disponível no ambiente de Pré-visualização.</span></li>
 </ul>
 
-<!--
-<p><b>NOTE</b></p>
-<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
--->
+
+<p><b>Nota</b></p>
+<span class="preview">Se um campo de moeda do Planning usar uma moeda sem uma taxa de câmbio definida, o Painel do Canvas poderá exibir uma mensagem de erro quando.</span>
+
 </td>
 </tr></table>
