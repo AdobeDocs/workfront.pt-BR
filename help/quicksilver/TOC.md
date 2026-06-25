@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5f122486d3d448cfcee066b18fce73c914e47f56
 workflow-type: tm+mt
-source-wordcount: '14214'
+source-wordcount: '14221'
 ht-degree: 94%
 
 ---
@@ -974,7 +974,7 @@ ht-degree: 94%
       * [Gerenciar formulários personalizados anexados a objetos](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Usar notificações {#use-notifications}
       * [Usar notificações: índice de artigos](workfront-basics/using-notifications/use-notifications.md)
-      * {hide-from-toc}[Visão geral das notificações da Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
+      * {hide-from-toc}[Visão Geral das Notificações do Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [Visão geral das notificações](workfront-basics/using-notifications/wf-notifications.md)
       * [Modificar as próprias notificações por email](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Assinar itens no Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -1312,6 +1312,7 @@ ht-degree: 94%
          * [Compartilhar modelos de projeto](manage-work/projects/create-and-manage-templates/share-project-template.md)
          * [Excluir modelos de projeto](manage-work/projects/create-and-manage-templates/delete-templates.md)
          * [Remover informações do modelo de um projeto](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+         * [Anexar um cartão de taxa a um modelo](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
          * [Visão geral dos dias de início e conclusão em um modelo](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [Visão geral da anexação de um modelo a um projeto](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * Definir um business case {#define-business-case}
