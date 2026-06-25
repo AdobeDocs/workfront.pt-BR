@@ -6,7 +6,7 @@ description: É possível usar os campos de moeda em um Painel da tela de desenh
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 7%
@@ -177,7 +177,8 @@ A tabela a seguir descreve as limitações quando as moedas são definidas na á
 
 
 <p><b>Nota</b></p>
-<span class="preview">Se um campo de moeda do Planning usar uma moeda sem uma taxa de câmbio definida, o Painel do Canvas poderá exibir uma mensagem de erro quando.</span>
+
+<p><span class="preview">Se um campo de moeda do Planning usar uma moeda sem uma taxa de câmbio definida, o Painel de Controle do Canvas poderá exibir uma mensagem de erro quando.</span></p>
 
 </td>
 </tr></table>
