@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
 source-wordcount: 1057
 ht-degree: 5%
@@ -38,7 +38,7 @@ ht-degree: 5%
 >* Google Cloud Platform
 
 <!--
-take Preview and production mentions out at release
+Take Preview and production mentions out at release
 -->
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>

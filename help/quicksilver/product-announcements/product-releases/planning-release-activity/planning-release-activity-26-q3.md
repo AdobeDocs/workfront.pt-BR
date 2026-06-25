@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2087'
 ht-degree: 0%
 
 ---
@@ -29,22 +29,18 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--
-## Support for currency Planning fields in Canvas Dashboards
+
+## Suporte para campos de planejamento de moeda nos Painéis de Controle de Tela
 
 >[!NOTE]
 >
->Preview: June 25, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>Visualização: 25 de junho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
 
-You can now include currency Planning fields, in table, KPI, and chart reports in Canvas Dashboards.  
+Agora é possível incluir campos de Planejamento de moeda, em relatórios de tabela, KPI e gráfico nos Painéis do Canvas.
 
-Prior to this enhancement, currency fields were not supported in Canvas Dashboards.  
+Antes desse aprimoramento, os campos de moeda não eram compatíveis com os Painéis do Canvas.
 
-For information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md). 
-
--->
+Para obter informações, consulte [Usar campos de moeda em Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md).
 
 ## Aprimoramento da interface de controles de cor de linha
 
