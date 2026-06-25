@@ -5,9 +5,9 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 96159bd33d9b81cdd8ed50c0085400086494013e
+source-git-commit: c9177ff889583b086d94214df0320bcd4daff581
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1578'
 ht-degree: 6%
 
 ---
@@ -104,20 +104,24 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | Obter projetos por proprietário | `approvals_get_projects_by_owner` | Lista os projetos do Workfront dos quais o usuário que faz a chamada é o proprietário. | Ler |
 | Obter região do Adobe | `approvals_get_adobe_region` | Retorna o nome da Adobe de uma região do provedor de nuvem. | Ler |
 
-## Ferramentas do Insights
+<!--
 
-As ferramentas do Insights recuperam informações sobre objetos do Workfront.
+## Insights tools
 
-| Título | Nome da ferramenta | O que faz | Ação |
+Insights tools retrieve information about Workfront objects.
+
+| Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Ler documentos | `insights_read_docs` | Carregue o manual do Workfront ou a documentação de domínio, como condições, status, datas ou caminhos de campo. Esta é a primeira etapa obrigatória antes de consultar os dados. | Ler |
-| Obter usuário atual | `insights_get_current_user` | Recupere sua própria identidade da Workfront, incluindo nome, ID e URL. | Ler |
-| Pesquisar campos | `insights_search_fields` | Procure campos disponíveis (padrão e personalizado) em projetos, tarefas, problemas, usuários, portfólios, equipes e assim por diante. | Ler |
-| Obter caminhos de campo | `insights_get_field_paths` | Resolver caminhos de campo de notação de pontos para entidades, exigidos pela ferramenta de consulta de dados. | Ler |
-| Localizar ID por nome | `insights_find_id_by_name` | Procure a ID de qualquer objeto do Workfront por nome, como projetos, tarefas, usuários, portfólios e assim por diante. | Ler |
-| Localizar dados do Workfront | `insights_find_workfront_data` | Localize, filtre, conte, classifique e agregue dados do Workfront. Esta é a principal ferramenta de consulta e relatório. | Ler |
-| Resumir objeto | `insights_summarize_object` | Buscar e resumir um único objeto do Workfront por ID. | Ler |
-| Listar entidades | `insights_list_entities` | Lista todos os tipos de objetos do Workfront disponíveis para consulta. | Ler |
+| Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
+| Get current user | `insights_get_current_user` | Retrieve your own Workfront identity, including name, ID, and URL. | Read |
+| Search fields | `insights_search_fields` | Search for available fields (standard and custom) on projects, tasks, issues, users, portfolios, teams, and so on. | Read |
+| Get field paths | `insights_get_field_paths` | Resolve dot-notation field paths for entities, required by the data query tool. | Read |
+| Find ID by name | `insights_find_id_by_name` | Look up the ID of any Workfront object by name, such as projects, tasks, users, portfolios, and so on. | Read |
+| Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
+| Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
+| List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
+
+-->
 
 ## Ferramentas de planejamento
 
@@ -209,11 +213,11 @@ As ferramentas de fluxo de trabalho são ações de uso geral que a plataforma d
 
 | Título | Nome da ferramenta | O que faz | Ação |
 | --- | --- | --- | --- |
-| Pesquisar objetos | `workflow_search_any_object` | Obsoleto. Use `insights_find_id_by_name` ou `insights_find_workfront_data` | Ler |
+| Pesquisar objetos | `workflow_search_any_object` | Pesquisa por objetos do Workfront com parâmetros de filtro, ordenação e paginação flexíveis. | Ler |
 | Criar objeto | `workflow_create_any_object` | Cria um novo objeto do Workfront, como um projeto, tarefa, problema, hora, atribuição, programa ou portfólio. | Gravar |
 | Atualizar objeto | `workflow_update_any_object` | Atualiza campos em um objeto Workfront existente. | Gravar |
 | Excluir objeto | `workflow_delete_any_object` | Exclui um objeto do Workfront por ID. Requer confirmação explícita do usuário antes que a ação seja executada. | Gravar |
-| Resolver nomes de campo | `workflow_resolve_field_names_any_object` | Obsoleto. Em vez disso, use `insights_search_fields`. | Ler |
+| Resolver nomes de campo | `workflow_resolve_field_names_any_object` | Converte nomes de campo ou rótulos fornecidos pelo usuário em nomes de campo subjacentes da API do Workfront para que a plataforma do agente de IA possa criar solicitações precisas. | Ler |
 
 ## Como as ferramentas são atualizadas
 
