@@ -17,10 +17,10 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0ae6286f0c76f638358839603fba1301d5557d83
 workflow-type: tm+mt
-source-wordcount: 126
-ht-degree: 23%
+source-wordcount: 133
+ht-degree: 24%
 
 ---
 
@@ -43,4 +43,5 @@ Você pode usar modelos de projeto para capturar a maioria dos processos, inform
 * [Compartilhar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [Remover informações do modelo de um projeto](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
 * [Excluir modelos de projeto](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
+* [Anexar um cartão de taxa a um modelo](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
 * [Visão geral dos dias de início e conclusão em um modelo](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
