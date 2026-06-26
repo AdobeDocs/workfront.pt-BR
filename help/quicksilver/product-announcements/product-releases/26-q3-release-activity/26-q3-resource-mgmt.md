@@ -4,7 +4,7 @@ description: Aprimoramentos no gerenciamento de recursos do terceiro trimestre d
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b62fc2a213d9e7bc58a34d48166be61699908d0c
+source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 10%
@@ -21,7 +21,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 19 de junho de 2026Versão rápida de produção: 19 de junho de 2026Produção para todos: 19 de junho de 2026Fora do cronograma&rbrack;{type=Neutral}
+>Visualização: 19 de junho de 2026Versão rápida de produção: 19 de junho de 2026Produção para todos: 19 de junho de 2026Fora do cronograma]{type=Neutral}
 
 As atribuições em massa foram simplificadas no Balanceador de carga de trabalho, com as ações de atribuição e substituição de usuários combinadas na ação **Substituir recurso**.
 
@@ -33,4 +33,5 @@ Com o **Substituir recurso**, você pode substituir:
 * Função com usuário
 
 Para obter informações, consulte [Atribuir trabalho em massa usando o Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+
 
