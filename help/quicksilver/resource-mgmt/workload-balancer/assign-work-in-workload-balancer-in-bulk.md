@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85a374c5168c613625ce154a486aa655c367dfea
+source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 5%
@@ -248,5 +248,6 @@ Para desatribuir um usuário dos itens de trabalho nos projetos selecionados ou 
 
 1. Clique em **Cancelar atribuição**.\
    Você recebe uma confirmação sobre o número de itens de trabalho dos quais o usuário especificado foi removido.
+
 
 

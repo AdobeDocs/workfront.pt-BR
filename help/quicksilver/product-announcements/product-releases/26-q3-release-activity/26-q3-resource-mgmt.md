@@ -4,7 +4,7 @@ description: Aprimoramentos no gerenciamento de recursos do terceiro trimestre d
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b62fc2a213d9e7bc58a34d48166be61699908d0c
+source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 10%
@@ -33,4 +33,5 @@ Com o **Substituir recurso**, você pode substituir:
 * Função com usuário
 
 Para obter informações, consulte [Atribuir trabalho em massa usando o Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+
 
