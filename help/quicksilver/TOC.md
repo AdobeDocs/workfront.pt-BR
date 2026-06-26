@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: b62fc2a213d9e7bc58a34d48166be61699908d0c
+source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
 workflow-type: tm+mt
-source-wordcount: '14227'
+source-wordcount: '14233'
 ht-degree: 94%
 
 ---
@@ -975,7 +975,7 @@ ht-degree: 94%
       * [Gerenciar formulários personalizados anexados a objetos](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Usar notificações {#use-notifications}
       * [Usar notificações: índice de artigos](workfront-basics/using-notifications/use-notifications.md)
-      * {hide-from-toc}[Visão Geral das Notificações do Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
+      * {hide-from-toc}[Visão geral das notificações da Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [Visão geral das notificações](workfront-basics/using-notifications/wf-notifications.md)
       * [Modificar as próprias notificações por email](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Assinar itens no Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -2157,6 +2157,7 @@ ht-degree: 94%
       * [Introdução ao Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Recomendações de implementação do Adobe Workfront Planning](planning/general/planning-best-practices.md)
       * [Noções básicas da API do Planejamento do Adobe Workfront](planning/general/planning-api-basics.md)
+      * {hide-from-toc}[Workfront Data Connect para Workfront Planning](planning/general/planning-in-data-connect.md)
       * [Visão geral do Assistente de IA do Planejamento do Adobe Workfront](planning/general/planning-ai-assistant-overview.md)
       * [Introdução ao Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
       * [Atividade de lançamento do Planejamento do Adobe Workfront para 2024](planning/general/release-activity.md)
