@@ -5,7 +5,7 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c9177ff889583b086d94214df0320bcd4daff581
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 6%
@@ -231,4 +231,5 @@ Estamos trabalhando para adicionar as seguintes ferramentas ao servidor MCP do W
 
 * Comentários
 * Quadros
+
 

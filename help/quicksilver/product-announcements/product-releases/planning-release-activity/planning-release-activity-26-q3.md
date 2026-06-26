@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '2087'
 ht-degree: 0%
@@ -375,3 +375,4 @@ Para obter informações, consulte [Gerenciar a página de registro](/help/quick
 Agora é possível agrupar suas informações na página de registros conectados de projetos de um registro no Workfront Planning. Esse recurso não existia nessa área antes desse aprimoramento.
 
 Para obter informações, consulte [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
+
