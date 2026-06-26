@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6ac07e6f0d4a8faf7ef61755a4ec335e195a1b51
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 15%
+source-wordcount: '2369'
+ht-degree: 17%
 
 ---
 
@@ -44,6 +44,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 * [Aprimoramentos de projeto](#project-enhancements)
 * [Aprimoramentos nos relatórios](#reporting-enhancements)
 * [Aprimoramentos nas solicitações](#requesting-enhancements)
+* [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
 * [Outros aprimoramentos](#other-enhancements)
 
 ### Aprimoramentos de IA
@@ -352,9 +353,9 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Alterações nas Horas Efetivas em fórmulas personalizadas</a> <p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Fórmulas personalizadas existentes usando <b>atualWorkRequired</b> (Horas Reais Herdadas) foram migradas para usar <b>atualWorkRequiredDouble</b> (Horas Reais). <b>atualWorkRequired</b> não pode mais ser usado em cálculos e fórmulas.</p>
             </td>
-            <td><p>1 de junho de 2026</p></td>
-            <td><p>1 de junho de 2026</p></td>
-            <td><p>1 de junho de 2026</p></td>
+            <td><p>1º de junho de 2026</p></td>
+            <td><p>1º de junho de 2026</p></td>
+            <td><p>1º de junho de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -404,6 +405,28 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><p>23 de abril de 2026</p></td>
             <td><p>23 de abril de 2026</p></td>
             <td><p>23 de abril de 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Melhorias no gerenciamento de recursos
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Recurso</strong>
+            </td>
+            <td><strong>Pré-visualização</strong></td>
+            <td><strong>Lançamento rápido</strong></td>
+            <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Ações de atribuição em massa simplificadas no Balanceador de carga de trabalho</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>As atribuições em massa foram simplificadas no Balanceador de carga de trabalho, com as ações de atribuição e substituição de usuários combinadas na ação <strong>Substituir recurso</strong>.</p>
+            </td>
+            <td><p>19 de junho de 2026</p></td>
+            <td><p>19 de junho de 2026</p></td>
+            <td><p>19 de junho de 2026</p></td>
         </tr>
     </tbody>
 </table>
