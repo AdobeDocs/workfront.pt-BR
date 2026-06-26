@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
 workflow-type: tm+mt
-source-wordcount: 1057
-ht-degree: 5%
+source-wordcount: 1194
+ht-degree: 6%
 
 ---
 
@@ -29,9 +29,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que este beta não está disponível nos seguintes provedores de nuvem:
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -186,6 +184,11 @@ Um prompt do painel oferece aos usuários a opção de aplicar filtros personali
    1. (Opcional) Clique no menu **Mais** ![Mais menus](assets/more-icon.png) e clique em **Salvar como prompts padrão**.
 
       O filtro do prompt é aplicado sempre que o painel é carregado para qualquer pessoa com permissões de Exibição ou superiores.
+
+      >[!TIP]
+      >
+      >Se você não criou o prompt e não tem acesso aos campos, os nomes dos campos não serão exibidos. Modifique o prompt para preencher o relatório.
+
    1. (Condicional) Se você acessar um painel com um prompt padrão aplicado, poderá modificar o filtro e suas modificações serão salvas como uma preferência pessoal. Existem os seguintes cenários:
 
       * Se você tiver permissões de Gerenciamento no painel, clique em **Salvar como prompts padrão** para salvar suas modificações como filtro padrão. Isso substitui os padrões originais.
@@ -211,8 +214,7 @@ Todos os usuários com acesso a um painel podem aplicar um prompt de painel a um
 
 1. No canto superior esquerdo da página de detalhes do painel, clique em **Filtros**. O painel lateral Filtros se abre.
 
-1. Na seção **Mostrar registros onde...**, escolha uma condição para um ou todos os prompts exibidos. O prompt é aplicado e uma tag **Dashboard prompts aplicados** é exibida no canto do widget de relatório.
-   ![Selecionar condição](assets/prompts-list.png)
+1. Na seção **Mostrar registros onde...**, escolha uma condição para um ou todos os prompts exibidos. O prompt é aplicado e uma tag **Dashboard prompts aplicados** é exibida no canto do widget de relatório.   ![Selecionar condição](assets/prompts-list.png)
 
 1. Clique no ícone **Fechar** ![Ícone Fechar](assets/close-icon.png) no canto superior direito para ocultar o painel.
 
