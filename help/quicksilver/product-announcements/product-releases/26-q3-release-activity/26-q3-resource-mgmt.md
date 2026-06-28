@@ -21,7 +21,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 19 de junho de 2026Versão rápida de produção: 19 de junho de 2026Produção para todos: 19 de junho de 2026Fora do cronograma]{type=Neutral}
+>Visualização: 19 de junho de 2026Versão rápida de produção: 19 de junho de 2026Produção para todos: 19 de junho de 2026Fora do cronograma&rbrack;{type=Neutral}
 
 As atribuições em massa foram simplificadas no Balanceador de carga de trabalho, com as ações de atribuição e substituição de usuários combinadas na ação **Substituir recurso**.
 
