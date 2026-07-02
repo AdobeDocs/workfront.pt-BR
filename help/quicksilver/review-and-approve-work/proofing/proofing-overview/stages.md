@@ -9,8 +9,8 @@ feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ Quando você atribui diferentes prazos de prova aos revisores em uma prova, o si
 
 **Exemplo:** Por exemplo, se você criar uma prova com quatro revisores:
 
-* Para os revisores Olivia e Tony, você especifica um prazo para as 14:00 alguns dias a partir de agora.
+* Para os revisores Olivia e Tony, você especifica um prazo para 14:00 daqui a alguns dias.
 * Para Aaron e Amy, você especifica um prazo para 17:00 alguns dias depois.
 * Você não especifica um prazo final para si mesmo.
 

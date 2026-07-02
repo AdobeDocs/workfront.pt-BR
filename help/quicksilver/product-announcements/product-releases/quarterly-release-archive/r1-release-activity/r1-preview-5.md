@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Visualização 5 do R1
+title: Prévia 5 da R1
 description: Esta página descreve todas as alterações disponíveis no ambiente de Visualização com a versão R1 Preview 5. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 16 de março de 2017.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1301'
 ht-degree: 13%
 
 ---
 
-# Visualização 5 do R1
+# Prévia 5 da R1
 
 Esta página descreve todas as alterações disponíveis no ambiente de Visualização com a versão R1 Preview 5. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 16 de março de 2017.
 
@@ -68,7 +68,7 @@ Os seguintes aprimoramentos estão disponíveis ao visualizar uma lista de proje
 
 A aparência das seguintes páginas no menu Sistema da área Configuração foi atualizada (a funcionalidade permanece a mesma):
 
-* Diagnósticos
+* Diagnóstico
 * Single Sign-On (SSO) que inclui:
 
    * Active Directory
@@ -82,7 +82,7 @@ A aparência das seguintes páginas no menu Sistema da área Configuração foi 
 
 Os cabeçalhos organizacionais das Notificações de evento na área Configuração de email agora correspondem aos cabeçalhos da seção usados na área de configurações do perfil do usuário.
 
-Para obter mais informações sobre notificações de eventos, consulte  [Configurar notificações de eventos para todos no sistema](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Para obter mais informações sobre notificações de eventos, consulte [Configurar notificações de eventos para todos no sistema](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 ## Recusar notificações instantâneas: configuração de resumo no contexto
 
