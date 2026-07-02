@@ -23,5 +23,4 @@ ht-degree: 0%
 Como administrador do [!DNL Workfront Proof], você pode exibir as informações de uso de cada usuário que fez logon no [!DNL Workfront Proof].
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Atividade]**.
-1. No menu suspenso **[!UICONTROL Provas e logs de mídia]**, clique em **[!UICONTROL Logs de autenticação]**.
-O histórico de logon de cada usuário no sistema é exibido.
+1. No menu suspenso **[!UICONTROL Provas e logs de mídia]**, clique em **[!UICONTROL Logs de autenticação]**.O histórico de logon de cada usuário no sistema é exibido.
