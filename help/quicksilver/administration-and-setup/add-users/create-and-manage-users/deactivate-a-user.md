@@ -11,19 +11,14 @@ exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/zHLRYheTPbZUMzGm93gmS4iL-tbYlV9x3a0rWJq1ozo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c091cec41c202b4684d243014bd0a8ef08a92836
 workflow-type: tm+mt
-source-wordcount: 1135
+source-wordcount: 1090
 ht-degree: 6%
 
 ---
@@ -132,17 +127,15 @@ Para programar um usuário para desativação:
 1. No painel esquerdo da caixa **Editar Usuário**, clique em **Planejamento de Recursos**.
 1. Clique em **Definir data de desativação**.
 
-1. Selecione a data e a hora para a **Data de Desativação**.
+1. Selecione a data para a **Data de Desativação**.
 
    >[!NOTE]
    >
-   >* Na caixa de hora, você pode selecionar apenas incrementos de hora inteira, não minutos.
-   >* Se você selecionar uma hora para o dia atual que já passou, o Workfront agendará a desativação para o dia seguinte às 12:00 AM.
-   >* A hora selecionada corresponde ao fuso horário do computador do usuário que está agendando a desativação.
+   >* A data selecionada corresponde ao fuso horário do computador do usuário que está agendando a desativação.
 
 1. Clique em **Salvar**.
 
-O usuário é desativado no dia selecionado algum tempo depois do horário selecionado. Se você selecionou vários usuários para desativar em massa, todos os usuários selecionados serão desativados no dia selecionado algum tempo depois do horário selecionado.
+O usuário está desativado às 12:00 da manhã na data selecionada. Se você selecionou vários usuários para desativar em massa, todos os usuários selecionados serão desativados às 12:00 AM na data selecionada.
 
 Recomendamos criar um relatório para os usuários que você agendou para desativação para manter-se informado sobre quais usuários estão prestes a serem desativados. Não há confirmação de que a desativação ocorreu após a desativação dos usuários.
 
