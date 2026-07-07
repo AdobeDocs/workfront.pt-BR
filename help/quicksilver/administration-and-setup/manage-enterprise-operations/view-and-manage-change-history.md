@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: Histórico de alterações
-description: O histórico de alterações permite exibir um log de alterações em objetos do Workfront
-author: Becky
+description: O histórico de alterações permite exibir um log de alterações em objetos do Workfront.
+author: Lisa and Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 7%
+source-wordcount: '452'
+ht-degree: 6%
 
 ---
 
@@ -18,10 +18,8 @@ ht-degree: 7%
 
 Você pode exibir o histórico de alterações, incluindo logs de auditoria, na área Rastreamento de alterações da Configuração.
 
-* **Logs de Auditoria** são alterações acionadas por usuários.
-Para obter mais informações sobre Logs de auditoria e a área Logs de auditoria, consulte [Visão geral dos Logs de auditoria](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **A configuração** exibe quais campos estão sendo acompanhados para a Lista de Histórico de Alterações.
-No momento, a configuração está disponível somente como informação e não pode ser alterada. A capacidade de alterar quais campos são rastreados estará disponível em breve.
+* **Logs de Auditoria** são alterações acionadas por usuários.Para obter mais informações sobre Logs de Auditoria e a área Logs de Auditoria, consulte [Visão geral dos Logs de Auditoria](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **A configuração** exibe quais campos estão sendo acompanhados para a Lista de Histórico de Alterações.No momento, a configuração está disponível somente como informação e não pode ser alterada. A capacidade de alterar quais campos são rastreados estará disponível em breve.
 * A Lista de histórico de alterações permite exibir um log de alterações para objetos do Workfront, incluindo atributos como:
 
    * Objeto
@@ -39,7 +37,7 @@ No momento, a configuração está disponível somente como informação e não 
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] pacote</td> 
-   <td>Workflow Ultimate</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] licença</td> 

@@ -14,14 +14,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 9%
+source-wordcount: 531
+ht-degree: 7%
 
 ---
 
 # Fixar páginas para personalizar o espaço de trabalho
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -62,6 +64,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. No canto superior esquerdo da página, clique em **[!UICONTROL Fixar página atual]**. A página fixada agora pode ser acessada na parte superior de qualquer página em [!DNL Workfront].
 
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:
+   ![Fixar página atual](assets/pin-current-page-button-2026.png)
+
+   Imagem de amostra no ambiente de produção:
    ![Fixar página atual](assets/pin-current-page-button.png)
 
 ## Acessar uma página fixada
@@ -76,9 +82,32 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    Se você tiver muitas páginas fixadas, clique no ícone **[!UICONTROL Mais]** ![Clique no ícone Mais](assets/more-icon.png) para exibir as páginas fixadas adicionais.
 
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:
+   ![Fixar página atual](assets/display-pinned-pages-2026.png)
+
+   Imagem de amostra no ambiente de produção:
    ![Exibir páginas adicionais fixadas](assets/display-pinned-pages.png)
 
    A página fixada é exibida.
+
+<div class="preview">
+
+## Gerenciar fixações
+
+É possível renomear, reordenar e remover as páginas fixadas em um local.
+
+1. Clique no ícone **[!UICONTROL Mais]** ![Clique no ícone Mais](assets/more-icon.png) na linha de marcadores e selecione **Gerenciar marcadores**.
+1. Na caixa **Gerenciar Pins**, siga um ou mais destes procedimentos:
+
+   * Clique no ícone **Editar** para renomear uma página fixada. Digite o novo nome e clique no ícone de marca de seleção para confirmar.
+   * Arraste e solte as páginas fixadas na ordem em que deseja que elas apareçam.
+   * Clique no ícone **Excluir** para remover uma página fixada da lista.
+
+   ![Caixa Gerenciar Pins](assets/manage-pins.png)
+
+1. Clique em **Fechar** quando terminar de editar os marcadores.
+
+</div>
 
 ## Renomear uma página fixada
 
@@ -90,7 +119,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. Digite o novo nome do pin e clique em **Salvar**.
 
    ![Clique na marca de seleção para renomear o pino](assets/rename-pin-dialog-box.png)
-
 
 ## Reordenar páginas fixadas
 
