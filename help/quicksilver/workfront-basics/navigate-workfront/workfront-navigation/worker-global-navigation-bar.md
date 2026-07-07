@@ -8,29 +8,23 @@ author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
 TQID: https://experienceleague.adobe.com/3VM5YoTkx242vVP-xMPVF06pBnnlJ843fXLQv8zW13c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: c549503a-6440-4802-9525-ceb73a00feff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: c549503a-6440-4802-9525-ceb73a00feffid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: 481
 ht-degree: 1%
 
 ---
 
 # Compreender a navegação de um usuário de licença do [!UICONTROL Trabalho]
 
-O [!UICONTROL Menu Principal] é alterado com o nível de acesso atribuído a você pelo administrador do [!DNL Adobe Workfront]. Por padrão, você recebe acesso somente às áreas que incluem a funcionalidade permitida pelo seu nível de acesso. Para entender os componentes do layout padrão de cada nível de acesso, consulte [Sobre o layout padrão [!DNL Adobe Workfront] 2&rbrace;.](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
+{{highlighted-preview}}
+
+O [!UICONTROL Menu Principal] é alterado com o nível de acesso atribuído a você pelo administrador do [!DNL Adobe Workfront]. Por padrão, você recebe acesso somente às áreas que incluem a funcionalidade permitida pelo seu nível de acesso. Para entender os componentes do layout padrão de cada nível de acesso, consulte [Sobre o layout padrão [!DNL Adobe Workfront] 2}.](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
 
 ## Entender o [!UICONTROL Menu Principal] padrão de um Trabalhador
 
@@ -66,6 +60,10 @@ As seguintes áreas estão incluídas no layout padrão de um [!UICONTROL Trabal
 
 * **[!UICONTROL Quadros]**: trabalhe com flexibilidade e colaboração com os membros da equipe usando quadros compartilhados que contêm colunas e cartões que refletem o trabalho que você deseja realizar. Para obter informações, consulte [Introdução a quadros: índice do artigo](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
+<span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+![Menu principal do trabalhador](assets/worker-main-menu-070626.png)
+
+Imagem de amostra no ambiente de produção:
 ![Menu principal do trabalhador](assets/worker-main-menu-2026.png)
 
 ## Personalizar o [!UICONTROL Menu Principal] padrão

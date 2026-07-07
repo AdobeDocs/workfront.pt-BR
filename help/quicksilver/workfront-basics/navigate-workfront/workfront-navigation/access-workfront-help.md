@@ -5,11 +5,9 @@ description: O Workfront oferece uma grande variedade de conteúdo para ajudá-l
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
 TQID: https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
 source-wordcount: 183
 ht-degree: 19%
@@ -26,16 +24,16 @@ O [!DNL Workfront] oferece uma grande variedade de conteúdo para ajudá-lo a en
 
 Além de pesquisar a documentação de ajuda, você também pode acessar os seguintes recursos [!DNL Workfront] da Experience League:
 
-* Tutoriais do Workfront: para obter mais informações, consulte [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
+* Tutoriais do Workfront: para obter mais informações, consulte [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
-* [!UICONTROL Laboratório de Inovação]: Para obter mais informações, consulte [O [!UICONTROL Laboratório de Inovação]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=pt).
-* [!UICONTROL [!DNL Workfront] Comunidade]: Para obter mais informações, consulte [A [!UICONTROL [!DNL Adobe Workfront] Comunidade]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=pt).
+* [!UICONTROL Laboratório de Inovação]: Para obter mais informações, consulte [O [!UICONTROL Laboratório de Inovação]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
+* [!UICONTROL [!DNL Workfront] Comunidade]: Para obter mais informações, consulte [A [!UICONTROL [!DNL Adobe Workfront] Comunidade]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ## Acessar ajuda de dentro de [!DNL Workfront]
 
 {{step1-click-main-menu}}
 
-1. Clique no **[!UICONTROL ícone Ajuda]** ![Ícone Ajuda](assets/help-icon.png).
+1. Clique no **[!UICONTROL ícone Ajuda]** ![Ícone Ajuda](assets/help-icon-2026.png).
 
 >[!NOTE]
 >
