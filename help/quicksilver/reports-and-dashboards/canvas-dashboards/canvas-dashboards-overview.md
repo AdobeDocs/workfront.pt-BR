@@ -10,21 +10,14 @@ exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GijvNmSyIroodL3bz-AJRl0A-wuvKetxmrtSzscaje0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 536
-ht-degree: 25%
+source-wordcount: 566
+ht-degree: 23%
 
 ---
 
@@ -116,12 +109,16 @@ Abaixo está uma lista dos tipos de relatórios atualmente compatíveis com o be
 
 ### Recursos em desenvolvimento
 
+Atualmente, estamos disponibilizando os seguintes recursos no Painel de controle do Canvas em uma abordagem iterativa:
+
 * Tipos de objetos adicionais do Workfront
 * Aprimoramentos de usabilidade
 * Incluir exibições do Workfront Planning como bloco de relatório em um painel
 * Uso de um painel como uma exibição do Workfront Planning
 * Suporte estendido para clientes Azure e GCP
 * Otimização do desempenho
+
+Para obter informações sobre quais recursos são adicionados ao Painel de Controle do Canvas, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ### Recursos do futuro roteiro
 

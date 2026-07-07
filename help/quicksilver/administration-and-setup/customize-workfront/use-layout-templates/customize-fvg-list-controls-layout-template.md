@@ -9,19 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 822
 ht-degree: 4%
 
 ---
@@ -69,6 +63,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 +++
 
 ## Personalizar controles de filtro, exibição e lista de agrupamento
+
+
+>[!NOTE]
+>
+>Adicionar uma exibição, um filtro ou um agrupamento a um modelo de layout controla somente o layout; não concede acesso. Os usuários ainda precisam de acesso de visualização para cada item.
+>
+>Os usuários de Colaborador, Solicitante e Licença externa não podem ver itens compartilhados em todo o sistema, portanto, as exibições destinadas a eles devem ser compartilhadas explicitamente. Para obter informações, consulte [Compartilhar um filtro, exibição ou agrupamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Clique na seta para baixo ![Seta para baixo](assets/down-arrow-blue.png) em **Personalize o que os usuários veem** e clique em **Listas** no menu suspenso exibido.
