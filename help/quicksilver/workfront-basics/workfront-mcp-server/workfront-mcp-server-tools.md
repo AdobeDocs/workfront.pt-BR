@@ -5,7 +5,7 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 3a0b283d72b290ceab0801a569a8f38a7437ae5d
+source-git-commit: 67b774fd8f88c244fa6c1287d2dd8bb0c47f20a3
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 5%
@@ -95,6 +95,7 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | Lembrar as partes interessadas das aprovações em massa | `approvals_send_approval_reminder` | Envie emails de lembrete de aprovação para todos os aprovadores pendentes em uma janela inteira de projeto, pasta, campanha ou data de vencimento. | Gravar |
 | Atualizar modelos de aprovação em massa | `approvals_update_template` | Execute atualizações de modelo em vários modelos, como aplicar modelos a ativos, criar novos modelos do zero ou a partir de fluxos de aprovação existentes, editar modelos e executar operações em massa entre modelos e ativos. | Gravar |
 | Adicionar ou remover participantes de aprovação em massa. | `approvals_update_approval_participants` e `approvals__submit_update_approval_participants` | Adicionar, remover ou substituir participantes em um escopo de portfólio, programa ou projeto inteiro em uma operação. | Gravar |
+
 
 ### Pesquisas e usuários
 

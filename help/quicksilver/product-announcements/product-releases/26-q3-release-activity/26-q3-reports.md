@@ -4,9 +4,9 @@ description: Melhorias na emissão de relatórios no terceiro trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,38 @@ Esta página descreve as melhorias de relatórios feitas com a versão do tercei
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2026, consulte [Visão geral da versão do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Controle de acesso automatizado para o Workfront Planning no Snowflake
+
+>[!NOTE]
+>
+>Pré-visualização e produção para todos os clientes: 16 de julho de 2026Fora do cronograma]{type=Neutral}
+
+Esta versão apresenta o gerenciamento de acesso automatizado e orientado por direitos para dados do Workfront Planning no Snowflake como parte da Workfront Data Connect.
+Ele começa estendendo a geração de exibição segura para tabelas do Planning, estabelecendo a base necessária para o controle de acesso downstream e possibilitando concessões baseadas em direitos.Com base nisso, o provisionamento da conta de leitor agora verifica os direitos do TMS no momento da criação e aplica ou retém automaticamente concessões ao banco de dados do Planning, garantindo a correção.
+Antes desse aprimoramento, ele estava disponível somente para o Workfront.
+A atualização inclui os seguintes recursos: 
+
+* Um trabalho diário automatizado detecta alterações de direito para clientes existentes
+* A nova tarefa concede, revoga ou preserva o acesso com base em qualificações
+* Cobertura de ciclo de vida completo em todas as alterações de provisionamento, criação de conta e direitos contínuos.
+
+O artigo [Dicionário de dados da Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) será atualizado após a data de lançamento.
+
+## Adicionar suporte a dados personalizados para novos objetos
+
+>[!NOTE]
+>
+>Pré-visualização e produção para todos os clientes: 7 de julho de 2026Fora do cronograma]{type=Neutral}
+
+Durante o Segundo trimestre de 2026, adicionamos novos objetos para oferecer suporte aos aprimoramentos nas operações empresariais do Workfront.Com a versão atual, também adicionamos suporte a dados personalizados para vários objetos novos no Painel de controle da tela.
+
+Para obter informações, consulte [Visão Geral do Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
 ## Padrões do prompt do Painel de controle do Canvas e persistência de preferências do usuário
 
 >[!NOTE]
 >
->Visualização: 25 de junho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 25 de junho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
 
 Para melhorar a eficiência dos usuários que se movem entre painéis e registros, preservando o estado do filtro de trabalho, os gerentes de painel agora podem definir valores de prompt padrão para painéis do Canvas. Esses padrões são aplicados automaticamente para todos os visualizadores de painel.
 
@@ -37,7 +64,7 @@ Para obter informações, consulte [Filtrar um Painel da Tela](/help/quicksilver
 
 >[!NOTE]
 >
->Visualização: N/A>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: N/DVersão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Os administradores do Workfront que conectam o Microsoft Power BI ao Workfront Data Connect agora podem adicionar um conjunto inteiro de intervalos de endereço IP do Azure de uma região ao incluo na lista de permissões em uma única etapa. Na guia **Incluo na lista de permissões IP** em **Data Connect**, o botão **Novo endereço IP** agora inclui uma opção **Adicionar blocos de endereço IP do Power BI** que abre uma caixa de diálogo na qual você pode colar entradas de etiqueta de serviço do Power BI a partir do arquivo JSON de Intervalos IP e Tags de Serviço do Azure publicado pela Microsoft.
 
@@ -50,7 +77,7 @@ Para obter mais informações, consulte [Estabelecer uma conexão com o Workfron
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 11 de junho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
 >
 >Painéis do Canvas atualmente está na versão beta.
 
@@ -62,7 +89,7 @@ Para obter mais informações, consulte [Usar Painéis da Tela](/help/quicksilve
 
 >[!NOTE]
 >
->Visualização: 1 de junho de 2026>Versão rápida de produção: 1 de junho de 2026>Produção para todos: 1 de junho de 2026
+>Visualização: 1 de junho de 2026Versão rápida de produção: 1 de junho de 2026Produção para todos: 1 de junho de 2026
 
 Em 2025, um novo campo Horas efetivas foi adicionado ao banco de dados do Workfront como `actualWorkRequiredDouble`, e o campo Horas efetivas existente (`actualWorkRequired` no banco de dados) foi renomeado para Horas efetivas herdadas. Consulte a [nota de versão](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) para obter mais informações.
 
@@ -78,7 +105,7 @@ Para obter mais informações sobre Horas Reais, consulte [Exibir Horas Reais](/
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Os relatórios do Painel do Canvas agora oferecem suporte a campos de dados de moeda personalizados como colunas, filtros, agrupamentos e agregações, inclusive quando várias taxas de câmbio são configuradas na Configuração do sistema. Quando um campo de dados de moeda personalizado é exibido como uma coluna ou agregação, os valores são convertidos na moeda selecionada na opção de taxa de câmbio do painel, a menos que o campo esteja bloqueado no nível do relatório.
 
@@ -90,7 +117,7 @@ Para obter mais informações, consulte [Usar campos de moeda em Painéis da Tel
 
 >[!NOTE]
 >
->Visualização: 14 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 14 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 >
 >Painéis do Canvas atualmente está na versão beta.
 
