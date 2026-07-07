@@ -7,10 +7,14 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
 TQID: https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
 source-wordcount: 711
@@ -94,7 +98,7 @@ Depois de fazer logon no [!DNL Adobe CX Enterprise], você poderá exibir todas 
 Use o ícone [!UICONTROL Menu Principal] ![Ícone do Menu Principal](assets/main-menu-icon-left-nav.png) à esquerda da barra de navegação [!DNL Workfront] para navegar até as páginas às quais você tem acesso. As opções disponíveis no [!UICONTROL Menu Principal] dependem do seguinte:
 
 * **Configurações do modelo de layout**: para saber como um administrador [!DNL Workfront] pode modificar o [!UICONTROL Menu Principal] de um modelo de layout, consulte [Personalizar o [!UICONTROL Menu Principal] usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-* **Tipo de licença**: para saber mais sobre as configurações padrão para diferentes tipos de licença, consulte [Compreender a navegação para um [!UICONTROL usuário de licença {Light]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Compreender a navegação para um [!UICONTROL usuário de licença ]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Tipo de licença**: para saber mais sobre as configurações padrão para diferentes tipos de licença, consulte [Compreender a navegação para um [!UICONTROL usuário de licença &lbrace;Light]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Compreender a navegação para um [!UICONTROL usuário de licença &#x200B;]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
 ![Menu principal](assets/main-menu-options-2026.png)
