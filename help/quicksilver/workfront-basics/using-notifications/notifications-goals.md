@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 12%
+source-wordcount: 425
+ht-degree: 11%
 
 ---
 
@@ -81,7 +81,8 @@ As notificações listadas na tabela a seguir alertam você sobre eventos que oc
 
 >[!NOTE]
 >
->As notificações instantâneas para [!DNL Goals] estão desabilitadas por padrão. Não é possível ativar ou desativar as notificações diárias e você não recebe emails de resumo diários para os eventos desta categoria. Você pode ativar ou desativar notificações instantâneas individuais para a categoria [!DNL Goals].
+>* As notificações instantâneas para [!DNL Goals] estão desabilitadas por padrão. Não é possível ativar ou desativar as notificações diárias e você não recebe emails de resumo diários para os eventos desta categoria. Você pode ativar ou desativar notificações instantâneas individuais para a categoria [!DNL Goals].
+>* Você ainda pode receber emails sobre atualizações de metas, mesmo quando você não tem acesso às Metas em seu nível de acesso, mas alguém atribui uma meta, resultado ou atividade ou comentários a uma meta atribuída a você.
 
 Consulte também [Notificações de eventos](../../workfront-basics/using-notifications/event-notifications.md).
 

@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 25%
+source-wordcount: '256'
+ht-degree: 23%
 
 ---
 
@@ -19,12 +19,11 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa.
->O beta não está disponível nos seguintes provedores de nuvem:
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa.O beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
->* Google Cloud Platform> Para obter mais informações, consulte [Gerenciar painéis da tela: índice do artigo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
+>* Google Cloud PlatformPara obter mais informações, consulte [Gerenciar painéis da tela: índice do artigo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
 
 ## Requisitos de acesso
 
@@ -73,6 +72,7 @@ Se você estiver participando da versão beta do Painel de Controle da Tela, pod
 
 Para obter mais informações, consulte os seguintes artigos:
 
+* [Visão geral dos painéis da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
 * [Criar um relatório de tabela em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
 * [Criar um relatório de KPI em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
 * [Criar um relatório de KPI em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)

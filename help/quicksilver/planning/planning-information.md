@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 76%
+source-wordcount: 706
+ht-degree: 74%
 
 ---
 
@@ -116,7 +116,7 @@ As seções a seguir contêm artigos que descrevem detalhadamente os recursos at
 
 * [Integração do Adobe Workfront Planning e do Adobe GenStudio for Performance Marketing: índice do artigo](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): você pode gerenciar registros do GenStudio for Performance Marketing no espaço de trabalho do GenStudio no Workfront Planning.
 
-* **Recursos de relatórios do Workfront Planning**: você pode exibir informações do Workfront Planning em um relatório usando o Painel do Workfront Canvas. Para obter informações, consulte [Visão geral dos painéis da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **Recursos de relatórios do Workfront Planning**: você pode exibir informações do Workfront Planning em um relatório usando o Painel do Workfront Canvas ou no Workfront Data Connect que usa a tecnologia Snowflake. Para obter informações, consulte [Relatórios do Adobe Workfront Planning: índice do artigo](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md).
 
 * [Práticas recomendadas do Adobe Workfront Planning: índice do artigo](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md): Aprenda dicas sobre como implantar o Adobe Workfront Planning em sua organização usando uma estratégia que priorize a segurança, minimize as interrupções e forneça ganhos rápidos.
 
