@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: 4179
+source-wordcount: 4341
 ht-degree: 3%
 
 ---
@@ -268,7 +268,7 @@ Para gerenciar uma exibição de linha do tempo:
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)
    * [Agrupamento](#add-grouping)
-   * [Configurações](#edit-the-timeline-view-settings)
+   * &lbrack;Configurações
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Adicionar filtros
@@ -378,12 +378,11 @@ Para adicionar um filtro a uma exibição de linha do tempo:
 1. Clique nos seguintes operadores à esquerda para indicar como as condições de filtro são unidas e devem ser aplicadas:
 
    * **AND**: todas as condições especificadas devem ser atendidas.
-   * **OU**: qualquer uma das condições especificadas deve ser atendida.
-Esta é a opção padrão.
+   * **OU**: qualquer uma das condições especificadas deve ser atendida.Esta é a opção padrão.
 
 1. (Opcional) Adicione outros agrupamentos de filtros e junte-os com os operadores **AND** ou **OR**.
 
-   A lista de registros é filtrada automaticamente com base nos critérios de filtro.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   A lista de registros é filtrada automaticamente com base nos critérios de filtro.  
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Opcional) Clique no ícone **x** para remover uma condição de filtro.
@@ -406,8 +405,7 @@ Você pode agrupar registros por informações semelhantes ao aplicar um agrupam
 Considere o seguinte ao trabalhar com agrupamentos na exibição de linha do tempo:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
-* Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—* Você pode aplicar até quatro níveis de agrupamento ao usar a API. —verificando esta por enquanto—>
+* Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.&lt;!—!—* É possível aplicar até quatro níveis de agrupamento ao usar a API. —verificando este por enquanto—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
@@ -445,6 +443,17 @@ Para adicionar um agrupamento na exibição de linha do tempo:
 
 1. Na caixa **Agrupar registros por**, arraste e solte os agrupamentos na ordem correta.
 
+1. <span class="preview"> Na área **Layout** da caixa **Agrupar registros por**, selecione uma das seguintes opções:</span>
+
+   <div class="preview">
+
+   * **Empilhado**: os agrupamentos são exibidos sem uma coluna congelada à esquerda e se ajustam à largura das linhas do tempo de seus itens.
+
+     ![Agrupamento empilhado na exibição de linha do tempo](assets/stacked-grouping-in-timeline-view.png)
+   * **Raia**: os agrupamentos são exibidos com uma coluna de cabeçalho congelada à esquerda que lista os itens agrupados e os agrupamentos se ajustam à largura da exibição da linha do tempo.
+
+     ![Agrupamento Swimlane na exibição de linha do tempo](assets/swimlane-grouping-in-timeline-view.png)
+
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
    Ou
@@ -452,6 +461,11 @@ Para adicionar um agrupamento na exibição de linha do tempo:
    Clique em **Limpar tudo** para remover todos os campos.
 
 1. Clique fora da caixa **Agrupar registros por** para fechá-la.
+1. (Opcional) Arraste e solte itens na exibição de linha do tempo para ajustar as datas.
+
+   >[!TIP]
+   >
+   >Quando você arrasta e solta registros de um agrupamento para outro, os campos selecionados no agrupamento atualizam automaticamente os valores nos registros movidos.
 1. (Opcional) Clique em **Configurações** e depois em **Cor** para agrupar o código de cores. Para obter mais informações, consulte a seção [Editar as configurações de exibição da linha do tempo](#edit-the-timeline-view-settings) neste artigo.
 
 <!-- 
@@ -595,8 +609,7 @@ Considere o seguinte ao detalhar a linha do tempo dos registros por seus tipos d
   Por exemplo, tarefas, estão conectadas a projetos no Workfront. Usando o recurso Detalhamento, você pode exibir projetos que estão conectados a campanhas no Planning, mas não tarefas conectadas a projetos no Workfront.
 
   Se você quiser exibir portfólios e projetos na exibição de linha do tempo de um tipo de registro do Workfront Planning, os portfólios e os projetos deverão estar conectados ao registro do Planning ou a um registro conectado ao registro do Planning cuja exibição de linha do tempo você está gerenciando.
-* Não é possível exibir Marcas do Adobe GenStudio conectadas a tipos de registro do Planning.
-Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Não é possível exibir Marcas do Adobe GenStudio conectadas a tipos de registro do Planning.Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Você só pode exibir tipos de registro associados a pelo menos dois campos de data.
 * Os campos de data para os tipos de registro que você deseja exibir na exibição de linha do tempo devem estar visíveis na exibição de tabela do tipo de registro selecionado, como campos de pesquisa.
 * As datas de Início e Término dos tipos de registro que você deseja exibir na exibição de linha do tempo devem estar em ordem cronológica. Por exemplo, se um registro tiver uma data de início de 31 de janeiro e uma data de término de 1º de janeiro, ele não será exibido na exibição de linha do tempo. Para obter mais informações, consulte a seção [Gerenciar uma exibição de linha do tempo](#manage-a-timeline-view) neste artigo.

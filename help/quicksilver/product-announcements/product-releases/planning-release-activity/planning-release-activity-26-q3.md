@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: '2087'
-ht-degree: 0%
+source-wordcount: '2681'
+ht-degree: 4%
 
 ---
 
@@ -30,11 +30,44 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
+## Definir permissões padrão para registros
+
+>[!NOTE]
+>
+>Visualização: 7 de julho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
+
+Os gerentes do Workspace agora podem definir uma regra de permissão padrão — Aberta ou Restrita — para cada tipo de registro, de modo que os registros recém-criados são automaticamente protegidos sem etapas manuais.
+
+Quando você seleciona Restrito, somente o criador de registros e usuários, grupos, equipes, funções ou empresas selecionados especificamente podem editar o registro, enquanto todos os outros mantêm acesso somente para visualização.
+
+Essa regra se aplica automaticamente a novos registros, independentemente de como o registro é criado (botão Novo registro, formulários de solicitação, API, usando uma automação do Fusion ou o AI Assistant). As alterações na regra afetam apenas os registros criados a partir de agora, nunca os existentes.
+
+Depois que um registro é criado, suas permissões ainda podem ser atualizadas independentemente, sem afetar a regra padrão para registros futuros.
+
+Para obter informações, consulte [Definir permissões padrão para registros](/help/quicksilver/planning/access/set-default-record-permissions.md).
+
+## Layout de agrupamento de raia para a exibição de linha do tempo
+
+>[!NOTE]
+>
+>Visualização: 7 de julho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
+
+As exibições de linha do tempo agrupadas agora oferecem suporte ao layout de raia, com grupos renderizados como uma coluna de cabeçalho congelada à esquerda em vez de rolar faixas horizontais. Este tipo de agrupamento é adicional ao agrupamento empilhado atual.
+
+Os níveis de agrupamento aninhados são exibidos como subcolunas recuadas e os registros em cada faixa permanecem subempilhados e classificados.
+
+Você pode arrastar e soltar registros na exibição agrupada para atualizar sem problemas suas informações e datas.
+
+Todos os usuários que visualizam a visualização podem ver os agrupamentos aplicados.
+
+Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+
 ## Suporte para campos de planejamento de moeda nos Painéis de Controle de Tela
 
 >[!NOTE]
 >
->Visualização: 25 de junho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 25 de junho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
 
 Agora é possível incluir campos de Planejamento de moeda, em relatórios de tabela, KPI e gráfico nos Painéis do Canvas.
 
@@ -46,7 +79,7 @@ Para obter informações, consulte [Usar campos de moeda em Painéis da Tela](/h
 
 >[!NOTE]
 >
->Visualização: 22 de junho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 22 de junho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
 
 Atualizamos a aparência do controle de cores da Linha na exibição de tabela.
 
@@ -56,7 +89,7 @@ Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help
 
 >[!NOTE]
 >
->Visualização: 18 de junho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 18 de junho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
 
 Ao criar um campo de seleção única ou múltipla ou um campo do tipo Pessoas, agora é possível indicar um valor padrão para esses campos. Os valores padrão sempre serão aplicados quando o campo estiver visível em um registro.
 
@@ -68,7 +101,7 @@ Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fie
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 11 de junho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
 
 Atualizamos a aparência da exibição de tabela para as seguintes áreas no Workfront Planning:
 
@@ -99,8 +132,7 @@ Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help
 
 >[!NOTE]
 >
->Pré-visualização e produção para todos os clientes: 5 de junho de 2026>Disponível somente para clientes do Adobe Workfront Planning que também têm o Adobe GenStudio for Performance Marketing.
->[!BADGE Fora do cronograma]{type=Neutral}
+>Pré-visualização e produção para todos os clientes: 5 de junho de 2026Disponível somente para clientes do Adobe Workfront Planning que também têm o Adobe GenStudio for Performance Marketing.Fora do cronograma&rbrack;{type=Neutral}
 
 
 Para permitir que você adicione marcas às suas campanhas começando com o envio de uma solicitação, agora é possível adicionar o campo de registro Marcas conectadas a um formulário de solicitação do Planning.
@@ -114,7 +146,7 @@ Para obter informações, consulte [Introdução à integração do Adobe Workfr
 
 >[!NOTE]
 >
->Visualização: 1 de junho de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 1 de junho de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Adicionamos a guia Espaços de trabalho de amostra na área de aterrissagem do Planning, onde você pode exibir exemplos de espaços de trabalho de práticas recomendadas. Os espaços de trabalho não são editáveis. Os gerentes do Workspace podem modificar exibições em espaços de trabalho de amostra. A guia está visível para usuários Padrão e Administrador do sistema.
 
@@ -126,7 +158,7 @@ Para obter informações, consulte [Visão geral sobre espaços de trabalho](/he
 
 >[!NOTE]
 >
->Disponível para todos os clientes: 28 de maio de 2026>[!BADGE Fora do cronograma]{type=Neutral}
+>Disponível para todos os clientes: 28 de maio de 2026Fora do cronograma&rbrack;{type=Neutral}
 
 A versão 2 da API do Workfront Planning agora está disponível e expande significativamente os recursos da Versão 1.
 
@@ -153,7 +185,7 @@ Para obter as especificações da API do Workfront Planning, consulte a document
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 
 Agora você pode ajustar permissões de registro individuais para controlar quem pode gerenciá-las em um tipo de registro.
@@ -182,7 +214,7 @@ Para obter informações, consulte [Compartilhar registros](/help/quicksilver/pl
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Para reduzir cliques e ajudar você a encontrar rapidamente os tipos de registro necessários, aprimoramos a experiência de adição de registros para torná-la mais rápida e intuitiva ao adicionar tipos de registro globais a outro espaço de trabalho.
 
@@ -196,7 +228,7 @@ Para obter informações, consulte [Adicionar tipos de registro existentes de ou
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026>[!BADGE No Beta]{type=Neutral}
+>Visualização: 28 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026No Beta&rbrack;{type=Neutral}
 
 Agora você pode usar o Adobe Planning Designer viabilizado pela IA para configurar facilmente seus espaços de trabalho e estruturas de dados. O Planning Designer oferece suporte a tudo, desde a criação e configuração de espaços de trabalho até a definição de campos e fórmulas, gerenciamento de registros, revisão do histórico de alterações e criação de exibições personalizadas.
 
@@ -211,8 +243,7 @@ Para obter informações, consulte [Introdução ao Adobe Workfront Planning Des
 
 >[!NOTE]
 >
->Pré-visualização e produção para todos: 28 de maio de 2026>Disponível somente para clientes do Adobe Workfront Planning que também têm Adobe GenStudio for Performance Marketing e Adobe Experience Manager.
->[!BADGE Fora do cronograma]{type=Neutral}
+>Pré-visualização e produção para todos: 28 de maio de 2026Disponível somente para clientes do Adobe Workfront Planning que também têm Adobe GenStudio for Performance Marketing e Adobe Experience Manager.Fora do cronograma&rbrack;{type=Neutral}
 
 Para melhorar a integridade dos dados, lançamos a sincronização perfeita de metadados entre os tipos de registro do GenStudio for Performance Marketing e do AEM Assets quando o AEM Assets é vinculado aos tipos de registro do GenStudio no Workfront Planning.
 
@@ -228,8 +259,7 @@ Para obter informações, consulte [Gerenciar o espaço de trabalho do GenStudio
 
 >[!NOTE]
 >
->Pré-visualização e produção para todos: 28 de maio de 2026>Disponível somente para clientes do Adobe Workfront Planning que também têm Adobe GenStudio for Performance Marketing e Adobe Experience Manager.
->[!BADGE Fora do cronograma]{type=Neutral}
+>Pré-visualização e produção para todos: 28 de maio de 2026Disponível somente para clientes do Adobe Workfront Planning que também têm Adobe GenStudio for Performance Marketing e Adobe Experience Manager.Fora do cronograma&rbrack;{type=Neutral}
 
 Para melhorar a integridade dos dados, lançamos a sincronização perfeita de metadados entre os tipos de registro do Planning no espaço de trabalho do GenStudio e os Fragmentos de conteúdo do AEM quando os Fragmentos de conteúdo são vinculados às campanhas do GenStudio for Performance Marketing.
 
@@ -244,7 +274,7 @@ Para obter informações, consulte [Gerenciar o espaço de trabalho do GenStudio
 
 >[!NOTE]
 >
->Visualização: 27 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 27 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Vários tipos de campo na exibição de lista foram atualizados para incluir navegação pelo teclado e outras melhorias.
 
@@ -270,7 +300,7 @@ Para obter mais informações, consulte [Gerenciar a exibição de lista no Adob
 
 >[!NOTE]
 >
->Visualização: 27 de maio de 2026>Versão rápida de produção: 11 de junho de 2026\
+>Visualização: 27 de maio de 2026Versão rápida de produção: 11 de junho de 2026\
 >Produção para todos: 16 de julho de 2026
 
 Agora é possível adicionar campos de referência do Workfront como campos de pesquisa ao conectar um tipo de registro do Planning a um tipo de objeto do Workfront.
@@ -283,7 +313,7 @@ Para obter informações, consulte [Tipos de registro de conexão](/help/quicksi
 
 >[!NOTE]
 >
->Visualização: 27 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 27 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Agora é possível filtrar informações na exibição de linha do tempo com base nos critérios que correspondem aos objetos incluídos no detalhamento dos registros.
 
@@ -295,7 +325,7 @@ Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/h
 
 >[!NOTE]
 >
->Visualização: 27 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 27 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Adicionamos um lembrete de que os campos de registro editados ou excluídos podem afetar os formulários de solicitação que contêm esses campos. Agora, você terá a chance de revisar os formulários afetados e garantir que as alterações que deseja fazer nos campos não afetarão as informações existentes.
 
@@ -305,7 +335,7 @@ Para obter informações, consulte [Editar configurações de campo](/help/quick
 
 >[!NOTE]
 >
->Visualização: 27 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 27 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Agora é possível editar as solicitações do Planning depois de enviá-las, antes que um registro seja criado a partir da solicitação.
 
@@ -323,7 +353,7 @@ Para obter mais informações, consulte [Enviar solicitações do Adobe Workfron
 
 >[!NOTE]
 >
->Pré-visualização e produção para todos os clientes: 14 de maio de 2026>[!BADGE Fora do cronograma]{type=Neutral}
+>Pré-visualização e produção para todos os clientes: 14 de maio de 2026Fora do cronograma&rbrack;{type=Neutral}
 
 Para melhor visibilidade ao trabalhar com fragmentos de conteúdo do AEM conectados a registros do Workfront Planning, adicionamos uma janela de visualização que exibe informações sobre os fragmentos no Workfront Planning.
 
@@ -335,8 +365,7 @@ Para obter informações, consulte [Conectar registros](/help/quicksilver/planni
 
 >[!NOTE]
 >
->Pré-visualização e produção para todos os clientes: 14 de maio de 2026>Disponível somente para clientes do Adobe Workfront Planning que também têm o Adobe Experience Manager.
->[!BADGE Fora do cronograma]{type=Neutral}
+>Pré-visualização e produção para todos os clientes: 14 de maio de 2026Disponível somente para clientes do Adobe Workfront Planning que também têm o Adobe Experience Manager.Fora do cronograma&rbrack;{type=Neutral}
 
 Agora é possível adicionar os seguintes campos de pesquisa ao conectar um tipo de registro do Planning a um Fragmento de conteúdo do AEM:
 
@@ -355,7 +384,7 @@ Para obter informações, consulte [Tipos de registro de conexão](/help/quicksi
 
 >[!NOTE]
 >
->Visualização: 14 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 14 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Para permitir maior flexibilidade na visualização de suas informações na página de detalhes de um registro, introduzimos a capacidade de criar exibições personalizadas para esta página.
 
@@ -370,7 +399,7 @@ Para obter informações, consulte [Gerenciar a página de registro](/help/quick
 >[!NOTE]
 >
 >Visualização: 14 de maio de 2026\
->Produção rápida: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Produção rápida: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Agora é possível agrupar suas informações na página de registros conectados de projetos de um registro no Workfront Planning. Esse recurso não existia nessa área antes desse aprimoramento.
 
