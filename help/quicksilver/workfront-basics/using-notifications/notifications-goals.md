@@ -9,21 +9,15 @@ exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kIc-y3DRa7mDVX14gA5jDbIzZveHH1MNIghGpQP7hc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 12%
+source-wordcount: 425
+ht-degree: 11%
 
 ---
 
@@ -81,7 +75,8 @@ As notificações listadas na tabela a seguir alertam você sobre eventos que oc
 
 >[!NOTE]
 >
->As notificações instantâneas para [!DNL Goals] estão desabilitadas por padrão. Não é possível ativar ou desativar as notificações diárias e você não recebe emails de resumo diários para os eventos desta categoria. Você pode ativar ou desativar notificações instantâneas individuais para a categoria [!DNL Goals].
+>* As notificações instantâneas para [!DNL Goals] estão desabilitadas por padrão. Não é possível ativar ou desativar as notificações diárias e você não recebe emails de resumo diários para os eventos desta categoria. Você pode ativar ou desativar notificações instantâneas individuais para a categoria [!DNL Goals].
+>* Você ainda pode receber emails sobre atualizações de metas, mesmo quando você não tem acesso às Metas em seu nível de acesso, mas alguém atribui uma meta, resultado ou atividade ou comentários a uma meta atribuída a você.
 
 Consulte também [Notificações de eventos](../../workfront-basics/using-notifications/event-notifications.md).
 
