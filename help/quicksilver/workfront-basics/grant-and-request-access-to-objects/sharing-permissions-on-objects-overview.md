@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1355
+source-wordcount: 1382
 ht-degree: 4%
 
 ---
@@ -165,7 +165,7 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Torne isto visível para todo o sistema.</strong></td> 
-   <td> <p>O objeto pode ser encontrado em pesquisas e visualizado por usuários com uma conta do Workfront.</p><p><b>Observação</b>: usuários com licenças de Colaborador ou Solicitante não podem ver projetos, mesmo que esta configuração esteja habilitada. </td> 
+   <td> <p>O objeto pode ser encontrado em pesquisas e visualizado por usuários com uma conta do Workfront.</p><p><b>OBSERVAÇÃO</b>: os usuários com licenças de Colaborador ou Solicitante não podem ver projetos, filtros, modos de exibição, agrupamentos ou quaisquer objetos compartilhados em todo o sistema, mesmo que essa configuração esteja habilitada. Você pode compartilhar esses objetos com Contribuidores ou Solicitantes individualmente para permitir que eles os visualizem. </td> 
   </tr> 
  </tbody> 
 </table>

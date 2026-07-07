@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 8%
+source-wordcount: 1245
+ht-degree: 7%
 
 ---
 
@@ -123,7 +123,12 @@ Compartilhar um filtro usando a interface do construtor padrão:
    </tr>
    <tr>
    <td role="rowheader"><strong>Compartilhado(s) comigo</strong></td>
-   <td>Filtros que outras pessoas criaram e compartilharam com você ou que são compartilhados em todo o sistema.</td>
+   <td>Filtros que outras pessoas criaram e compartilharam com você ou que são compartilhados em todo o sistema.
+   <p><b>Nota</b></p>
+   <p>Os usuários com um Colaborador, Solicitante ou Licença externa não podem ver filtros, visualizações ou agrupamentos compartilhados em todo o sistema. Para disponibilizar um para esses usuários, compartilhe-o diretamente — por meio do usuário, função de trabalho, equipe, grupo ou empresa — em vez de depender da visibilidade de todo o sistema. Isso se aplica mesmo quando o filtro, a exibição ou o agrupamento é incluído no modelo de layout.</p>
+
+
+   </td>
    </tr>
    </tbody>
    </table>

@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2848'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,29 @@ There are no features released during the Third Quarter Release for 2026. When f
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do terceiro trimestre de 2026.
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Controle de acesso automatizado para o Workfront Planning no Snowflake
+
+>[!IMPORTANT]
+>
+>Pré-visualização e produção para todos os clientes: 16 de julho de 2026Fora do cronograma&rbrack;{type=Neutral}
+
+
+Esta versão apresenta o gerenciamento de acesso automatizado e orientado por direitos para dados do Workfront Planning no Snowflake como parte da Workfront Data Connect.
+
+Ele começa estendendo a geração de exibição segura para tabelas do Planning, estabelecendo a base necessária para o controle de acesso downstream e possibilitando concessões baseadas em direitos.
+
+Com base nisso, o provisionamento da conta de leitor agora verifica os direitos do TMS no momento da criação e aplica ou retém automaticamente concessões ao banco de dados do Planning, garantindo a correção.
+
+Antes desse aprimoramento, ele estava disponível somente para o Workfront.
+
+A atualização inclui os seguintes recursos:
+
+* Um trabalho diário automatizado detecta alterações de direito para clientes existentes
+* A nova tarefa concede, revoga ou preserva o acesso com base em qualificações
+* Cobertura de ciclo de vida completo em todas as alterações de provisionamento, criação de conta e direitos contínuos.
+
+O artigo [Dicionário de dados da Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) será atualizado após a data de lançamento.
 
 
 ## Definir permissões padrão para registros
