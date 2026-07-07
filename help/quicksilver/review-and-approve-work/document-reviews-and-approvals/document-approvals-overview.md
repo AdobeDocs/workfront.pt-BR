@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 4002
+source-wordcount: 4114
 ht-degree: 0%
 
 ---
@@ -29,8 +29,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-A análise e a aprovação unificadas reúnem o Adobe Workfront e o Adobe Frame.io em uma única experiência profundamente conectada, preenchendo as lacunas entre o gerenciamento de marketing, a análise criativa e a entrega de conteúdo.
-Os coordenadores de projeto gerenciam o trabalho no Workfront enquanto criativos, profissionais de marketing e participantes revisam e aprovam ativos no visualizador de Frame.io de nível profissional, tudo sem mover arquivos entre ferramentas desconectadas.
+A análise e a aprovação unificadas reúnem o Adobe Workfront e o Adobe Frame.io em uma única experiência profundamente conectada, preenchendo as lacunas entre o gerenciamento de marketing, a análise criativa e a entrega de conteúdo.Os coordenadores de projeto gerenciam o trabalho no Workfront enquanto criativos, profissionais de marketing e participantes revisam e aprovam ativos no visualizador de Frame.io de nível profissional, tudo sem mover arquivos entre ferramentas desconectadas.
 
 ![Diagrama mostrando o fluxo de trabalho unificado de revisão e aprovação, com coordenadores de projeto gerenciando o trabalho no Workfront e revisores e aprovadores fornecendo feedback e tomando decisões no visualizador Frame.io.](assets/Unified-Review-Approvals-Image.png)
 
@@ -286,6 +285,14 @@ Sim. Um usuário pode ser atribuído a vários estágios no mesmo fluxo de traba
 **É possível adicionar estágios para criar um fluxo de trabalho de aprovação de vários estágios?**
 
 Sim. Os workflows de aprovação em vários estágios são compatíveis, permitindo rotear ativos por meio de rodadas sequenciais de revisão e aprovação com diferentes participantes em cada estágio.
+
+<div class="preview">
+
+**Posso configurar caminhos de revisão paralela em um fluxo de trabalho de aprovação?**
+
+Sim. Na Pré-visualização, os fluxos de trabalho de aprovação oferecem suporte a caminhos paralelos, além de estágios sequenciais. Cada caminho é executado independentemente e contém um ou mais estágios sequenciais, de modo que revisões em caminhos diferentes podem ocorrer ao mesmo tempo. Você pode configurar até 30 caminhos e 100 estágios em uma única aprovação. As mesmas opções estão disponíveis nos templates de aprovação. Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) e [Criar um modelo de fluxo de trabalho de aprovação para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+</div>
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**

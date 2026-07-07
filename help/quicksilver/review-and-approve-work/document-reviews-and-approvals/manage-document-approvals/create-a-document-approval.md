@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 2fb0effe42a24898bb3389f72405a92f38ed5cc9
 workflow-type: tm+mt
-source-wordcount: 1473
-ht-degree: 3%
+source-wordcount: 2758
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Crie um fluxo de trabalho de aprovação por meio do painel Resumo na área de documentos herdados na Produção
+## Crie um fluxo de trabalho de aprovação na área de documentos herdados na Produção
 
 Se sua organização estiver no armazenamento da Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento Workfront, consulte [Diferenças entre o armazenamento na nuvem Adobe e o armazenamento Workfront herdado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -120,26 +120,28 @@ Para criar um workflow de aprovação:
 
 <div class="preview">
 
-## Crie um fluxo de trabalho de aprovação no painel Resumo na área Documentos herdados em Visualização
+## Criar um fluxo de trabalho de aprovação na área de documentos herdados na Pré-visualização
 
 Se sua organização estiver no armazenamento da Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento Workfront, consulte [Diferenças entre o armazenamento na nuvem Adobe e o armazenamento Workfront herdado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
-Para criar um workflow de aprovação:
+### Criar um fluxo de trabalho básico de aprovação
+
+Para criar um workflow de aprovação de estágio único:
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
 
 1. Clique no documento necessário e o painel Resumo do documento desse documento será aberto.
 
-1. Selecione a versão do documento para a qual você deseja criar uma aprovação no menu suspenso de versões. A versão mais recente é selecionada por padrão.
+1. Selecione a versão do documento para a qual deseja criar uma aprovação no menu suspenso versão. A versão mais recente é selecionada por padrão.
 
-1. Role para baixo até a seção **Aprovações** e clique em **Criar fluxo de trabalho**.
+1. Role para baixo até a seção **Aprovações** e clique em **Criar fluxo de trabalho**. A caixa de diálogo **Solicitar aprovação** é aberta no modo Básico.
 
 1. Preencha os seguintes detalhes:
 
    <table>
    <tr>
-   <td><strong>Nome do estágio</strong></td>
-   <td>Adicione um nome de estágio. Você pode alterar o nome para algo mais descritivo, como <em>Revisão inicial</em> ou <em>Aprovação final</em>.</td>
+   <td><strong>Usar um modelo de aprovação (opcional)</strong></td>
+   <td>Selecione um modelo no menu suspenso. Se o modelo tiver um caminho e um estágio, ele se aplica no modo Básico. Se o modelo tiver mais de um estágio ou mais de um caminho, a caixa de diálogo alternará automaticamente para o modo Avançado e qualquer entrada inserida no modo Básico será substituída pelo conteúdo do modelo.</td>
    </tr>
    <tr>
    <td><strong>Adicionar nomes ou emails</strong></td>
@@ -155,24 +157,78 @@ Para criar um workflow de aprovação:
    </tr>
    <tr>
    <td><strong>Adicionar mensagem personalizada (opcional)</strong></td>
-   <td>Digite uma mensagem na caixa de texto <strong>Adicionar mensagem personalizada</strong>. A mensagem aparece na notificação por email de aprovação e na guia Approvals no Workfront.
-   <p>Ao adicionar um segundo estágio, <strong>Mostrar esta mensagem em todos os estágios</strong> é selecionado por padrão. Deixe-a selecionada para usar a mesma mensagem em cada estágio. Para usar uma mensagem diferente para cada estágio, desmarque <strong>Mostrar esta mensagem em todos os estágios</strong> e digite a mensagem específica do estágio na caixa de texto <strong>Adicionar Mensagem Personalizada</strong> de cada estágio, conforme necessário.</p></td>
+   <td>Digite uma mensagem na caixa de texto <strong>Adicionar mensagem personalizada</strong>. A mensagem aparece na notificação por email de aprovação e na guia Approvals no Workfront.<p>Observação: se você editar uma mensagem personalizada após a criação do fluxo de trabalho de aprovação, uma notificação por email atualizada será enviada a todos os participantes existentes. Se você adicionar um participante posteriormente, a mensagem personalizada será incluída em sua notificação por email.</p>
+   </td>
    </tr>
    </table>
 
-1. (Opcional) Repita a etapa anterior para adicionar etapas adicionais, conforme necessário.
+1. Clique em **Solicitar aprovação**.
 
-   >[!NOTE]
+   ![Solicitar aprovação no modo Básico](assets/request-approval-basic.jpeg)
+
+### Criar um fluxo de trabalho de aprovação avançado
+
+O modo avançado suporta vários estágios, bem como caminhos paralelos. Cada caminho é executado independentemente e contém um ou mais estágios sequenciais. Quando todas as decisões necessárias em um estágio são tomadas, o próximo estágio nesse caminho começa, o estágio anterior é bloqueado e os revisores e aprovadores do novo estágio recebem uma notificação por email.
+
+Uma decisão &quot;Precisa de trabalho&quot; interrompe o caminho em seu, mas não afeta o fluxo de trabalho de aprovação em outros caminhos. É possível configurar até 30 caminhos e um total de 100 estágios.
+
+Para criar um workflow avançado de aprovação:
+
+1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
+
+1. Clique no documento necessário e o painel Resumo do documento desse documento será aberto.
+
+1. Selecione a versão do documento para a qual deseja criar uma aprovação no menu suspenso versão. A versão mais recente é selecionada por padrão.
+
+1. Role para baixo até a seção **Aprovações** e clique em **Criar fluxo de trabalho**.
+
+1. Na parte superior direita da caixa de diálogo **Solicitar aprovação**, clique em **Ir para avançado**. Qualquer entrada inserida no modo Básico é preservada e aplicada ao **Caminho 1**, **Estágio 1**.
+
+   >[!TIP]
    >
-   >* Se você adicionar vários estágios, o workflow de aprovação continuará na ordem em que os estágios são listados. Quando todas as decisões necessárias forem tomadas, o próximo estágio será iniciado e o estágio anterior será bloqueado.
-   >* Se você editar uma mensagem personalizada após a criação do fluxo de trabalho de aprovação, uma notificação por email atualizada será enviada a todos os participantes existentes. Se você adicionar um participante posteriormente, a mensagem personalizada será incluída em sua notificação por email.
+   >Ao criar a aprovação, você pode retornar ao modo Básico clicando em **Ir para básico** no canto superior direito. Depois de clicar em **Solicitar aprovação**, a opção **Ir para básico** não estará mais disponível.
 
-   ![Adicionar mensagem personalizada a um estágio](assets/add-custom-message.jpeg)
+1. Preencha os detalhes para o Estágio 1 do Caminho 1:
+
+   <table>
+   <tr>
+   <td><strong>Nome do estágio</strong></td>
+   <td>Os estágios são nomeados como <em>Estágio 1</em>, <em>Estágio 2</em> e assim por diante por padrão. Renomeie o estágio para algo mais descritivo, como <em>Revisão inicial</em> ou <em>Aprovação final</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Adicionar nomes ou emails</strong></td>
+   <td>Comece a digitar um nome de usuário ou de equipe para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.<p>Nota: Um revisor ou aprovador pode ser atribuído a apenas um estágio aberto por vez no mesmo ativo. Se vários estágios paralelos forem abertos simultaneamente, a mesma pessoa não poderá ser adicionada a mais de um.</p></td>
+   </tr>
+   <tr>
+   <td><strong>É necessária apenas uma decisão (opcional)</strong></td>
+   <td>A primeira pessoa que toma uma decisão completa a etapa.</td>
+   </tr>
+   <tr>
+   <td><strong>Vencimento em (opcional)</strong></td>
+   <td>O primeiro estágio de cada caminho suporta uma data de vencimento absoluta. Cada estágio subsequente no caminho oferece suporte a uma data de vencimento relativa — o número de dias a partir de quando esse estágio é aberto. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo.</td>
+   </tr>
+   <tr>
+   <td><strong>Adicionar mensagem personalizada (opcional)</strong></td>
+   <td>Digite uma mensagem na caixa de texto <strong>Adicionar mensagem personalizada</strong>. A mensagem aparece na notificação por email de aprovação e na guia Approvals no Workfront.<p>Ao adicionar um segundo estágio, <strong>Mostrar esta mensagem em todos os estágios</strong> é selecionado por padrão. Deixe-a selecionada para usar a mesma mensagem em cada estágio. Para usar uma mensagem diferente para cada estágio, desmarque <strong>Mostrar esta mensagem em todos os estágios</strong> e digite a mensagem específica do estágio na caixa de texto <strong>Adicionar Mensagem Personalizada</strong> de cada estágio.</p></td>
+   </tr>
+   </table>
+
+1. (Opcional) Clique em **Adicionar estágio** para adicionar outro estágio ao caminho. Os estágios em um caminho são executados sequencialmente na ordem em que estão listados. É possível reordenar os estágios em um caminho, mas não é possível mover um estágio de um caminho para outro. Cada caminho pode ter um número diferente de estágios.
+
+1. (Opcional) Em **Caminhos paralelos**, clique em **Adicionar caminho** para adicionar outro caminho. O novo caminho começa com uma etapa vazia e se torna o caminho selecionado. Para renomear um caminho, passe o mouse sobre o rótulo do caminho, clique no ícone de lápis e digite um novo nome.
+
+1. (Opcional) Para remover um caminho, passe o mouse sobre o rótulo do caminho e clique no ícone de lixeira. **O Caminho 1** não pode ser removido e os caminhos não podem ser reordenados. Outros caminhos podem ser removidos somente se nenhum estágio no caminho estiver bloqueado ou concluído.
+
+   ![Modo avançado com caminhos paralelos](assets/request-approval-parallel-paths.jpeg)
+
+1. (Opcional) Para limpar todos os caminhos e estágios e começar novamente, clique em **Redefinir** na parte superior direita.
+
+1. Clique em **Solicitar aprovação**.
 
 </div>
 
 
-## Crie um fluxo de trabalho de aprovação por meio do painel Resumo na nova área Documentos na Produção
+## Crie um fluxo de trabalho de aprovação na nova área Documentos na Produção
 
 Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -216,11 +272,15 @@ Para criar um workflow de aprovação:
 
 <div class="preview">
 
-## Crie um fluxo de trabalho de aprovação no painel Resumo na nova área Documentos em Visualização
+## Criar um fluxo de trabalho de aprovação na nova área Documentos na Pré-visualização
 
 Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Para criar um workflow de aprovação:
+A caixa de diálogo **Solicitar aprovação** é aberta no modo **Básico** por padrão. O modo básico é um estágio único com um conjunto de aprovadores ou revisores. Mudar para o modo **Avançado** para configurar aprovações de vários estágios ou caminhos paralelos.
+
+### Criar um fluxo de trabalho básico de aprovação
+
+Para criar um workflow de aprovação de estágio único:
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
 
@@ -228,12 +288,14 @@ Para criar um workflow de aprovação:
 
    ![Adicionar aprovadores no resumo do documento](assets/approvals-icon-new.png)
 
-1. Clique em **Criar fluxo de trabalho** e preencha os seguintes detalhes:
+1. Clique em **Criar workflow**. A caixa de diálogo **Solicitar aprovação** é aberta no modo Básico.
+
+1. Preencha os seguintes detalhes:
 
    <table>
    <tr>
-   <td><strong>Nome do estágio</strong></td>
-   <td>Adicione um nome de estágio. Você pode alterar o nome para algo mais descritivo, como <em>Revisão inicial</em> ou <em>Aprovação final</em>.</td>
+   <td><strong>Usar um modelo de aprovação (opcional)</strong></td>
+   <td>O campo templates é recolhido por padrão. Clique no campo para expandi-lo e selecione um template no menu suspenso. Se o modelo tiver um caminho e um estágio, ele se aplica no modo Básico. Se o modelo tiver mais de um estágio ou mais de um caminho, a caixa de diálogo alternará automaticamente para o modo Avançado e qualquer entrada inserida no modo Básico será substituída pelo conteúdo do modelo.</td>
    </tr>
    <tr>
    <td><strong>Adicionar nomes ou emails</strong></td>
@@ -249,19 +311,79 @@ Para criar um workflow de aprovação:
    </tr>
    <tr>
    <td><strong>Adicionar mensagem personalizada (opcional)</strong></td>
-   <td>Digite uma mensagem na caixa de texto <strong>Adicionar mensagem personalizada</strong>. A mensagem aparece na notificação por email de aprovação e na guia Approvals no Workfront.
-   <p>Ao adicionar um segundo estágio, <strong>Mostrar esta mensagem em todos os estágios</strong> é selecionado por padrão. Deixe-a selecionada para usar a mesma mensagem em cada estágio. Para usar uma mensagem diferente para cada estágio, desmarque <strong>Mostrar esta mensagem em todos os estágios</strong> e digite a mensagem específica do estágio na caixa de texto <strong>Adicionar Mensagem Personalizada</strong> de cada estágio.</p></td>
+   <td>Digite uma mensagem na caixa de texto <strong>Adicionar mensagem personalizada</strong>. A mensagem aparece na notificação por email de aprovação e na guia Approvals no Workfront.</td>
    </tr>
    </table>
 
-1. (Opcional) Repita a etapa anterior para adicionar etapas adicionais, conforme necessário.
+1. Clique em **Solicitar aprovação**.
 
-   >[!NOTE]
+   ![Solicitar aprovação no modo Básico](assets/request-approval-basic.jpeg)
+
+>[!NOTE]
+>
+>* A caixa de diálogo **Solicitar aprovação** é aberta no modo Básico sempre, independentemente da sessão anterior.
+>* Se você editar uma mensagem personalizada após a criação do fluxo de trabalho de aprovação, uma notificação por email atualizada será enviada a todos os participantes existentes. Se você adicionar um participante posteriormente, a mensagem personalizada será incluída em sua notificação por email.
+>* Depois que uma aprovação é salva, não é possível alterná-la de volta para o modo Básico. Você pode alternar uma aprovação em andamento de Básico para Avançado, desde que a aprovação não esteja bloqueada ou concluída.
+
+### Criar um fluxo de trabalho de aprovação avançado
+
+O modo avançado suporta caminhos paralelos. Cada caminho é executado independentemente e contém um ou mais estágios sequenciais. Quando todas as decisões necessárias em um estágio são tomadas, o próximo estágio nesse caminho começa, o estágio anterior é bloqueado e os revisores e aprovadores do novo estágio recebem uma notificação por email.
+
+Uma decisão &quot;Precisa de trabalho&quot; interrompe o caminho em seu, mas não afeta o fluxo de trabalho de aprovação em outros caminhos. É possível configurar até 30 caminhos e um total de 100 estágios.
+
+Para criar um workflow avançado de aprovação:
+
+1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
+
+1. Clique no documento e, em seguida, clique no ícone **Aprovações**, no lado direito da página.
+
+   ![Adicionar aprovadores no resumo do documento](assets/approvals-icon-new.png)
+
+1. Clique em **Criar workflow**.
+
+1. Na parte superior direita da caixa de diálogo **Solicitar aprovação**, clique em **Ir para avançado**. Qualquer entrada inserida no modo Básico é preservada e aplicada ao **Caminho 1**, **Estágio 1**.
+
+   >[!TIP]
    >
-   >* Se você adicionar vários estágios, o workflow de aprovação continuará na ordem em que os estágios são listados. Quando todas as decisões necessárias forem tomadas, o próximo estágio será iniciado e o estágio anterior será bloqueado.
-   >* Se você editar uma mensagem personalizada após a criação do fluxo de trabalho de aprovação, uma notificação por email atualizada será enviada a todos os participantes existentes. Se você adicionar um participante posteriormente, a mensagem personalizada será incluída em sua notificação por email.
+   >Ao criar a aprovação, você pode retornar ao modo Básico clicando em **Ir para básico** no canto superior direito. Depois de clicar em **Solicitar aprovação**, a opção **Ir para básico** não estará mais disponível.
 
-   ![Adicionar mensagem personalizada a um estágio](assets/add-custom-message.jpeg)
+1. Preencha os detalhes para o Estágio 1 do Caminho 1:
+
+   <table>
+   <tr>
+   <td><strong>Nome do estágio</strong></td>
+   <td>Os estágios são nomeados como <em>Estágio 1</em>, <em>Estágio 2</em> e assim por diante por padrão. Renomeie o estágio para algo mais descritivo, como <em>Revisão inicial</em> ou <em>Aprovação final</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Adicionar nomes ou emails</strong></td>
+   <td>Comece a digitar um nome de usuário ou de equipe para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.<p>Nota: Um revisor ou aprovador pode ser atribuído a apenas um estágio aberto por vez no mesmo ativo. Se vários estágios paralelos forem abertos simultaneamente, a mesma pessoa não poderá ser adicionada a mais de um.</p></td>
+   </tr>
+   <tr>
+   <td><strong>É necessária apenas uma decisão (opcional)</strong></td>
+   <td>A primeira pessoa que toma uma decisão completa a etapa.</td>
+   </tr>
+   <tr>
+   <td><strong>Vencimento em (opcional)</strong></td>
+   <td>O primeiro estágio de cada caminho suporta uma data de vencimento absoluta. Cada estágio subsequente no caminho oferece suporte a uma data de vencimento relativa — o número de dias a partir de quando esse estágio é aberto. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo.</td>
+   </tr>
+   <tr>
+   <td><strong>Adicionar mensagem personalizada (opcional)</strong></td>
+   <td>Digite uma mensagem na caixa de texto <strong>Adicionar mensagem personalizada</strong>. A mensagem aparece na notificação por email de aprovação e na guia Approvals no Workfront.<p>Ao adicionar um segundo estágio, <strong>Mostrar esta mensagem em todos os estágios</strong> é selecionado por padrão. Deixe-a selecionada para usar a mesma mensagem em cada estágio. Para usar uma mensagem diferente para cada estágio, desmarque <strong>Mostrar esta mensagem em todos os estágios</strong> e digite a mensagem específica do estágio na caixa de texto <strong>Adicionar Mensagem Personalizada</strong> de cada estágio.</p></td>
+   </tr>
+   </table>
+
+1. (Opcional) Clique em **Adicionar estágio** para adicionar outro estágio ao caminho. Os estágios em um caminho são executados sequencialmente na ordem em que estão listados. É possível reordenar os estágios em um caminho, mas não é possível mover um estágio de um caminho para outro. Cada caminho pode ter um número diferente de estágios.
+
+
+1. (Opcional) Em **Caminhos paralelos**, clique em **Adicionar caminho** para adicionar outro caminho. O novo caminho começa com uma etapa vazia e se torna o caminho selecionado. Para renomear um caminho, passe o mouse sobre o rótulo do caminho, clique no ícone de lápis e digite um novo nome.
+
+1. (Opcional) Para remover um caminho, passe o mouse sobre o rótulo do caminho e clique no ícone de lixeira. **O Caminho 1** não pode ser removido e os caminhos não podem ser reordenados. Outros caminhos podem ser removidos somente se nenhum estágio no caminho estiver bloqueado ou concluído.
+
+   ![Modo avançado com caminhos paralelos](assets/request-approval-advanced.jpeg)
+
+1. (Opcional) Para limpar todos os caminhos e estágios e começar novamente, clique em **Redefinir** na parte superior direita.
+
+1. Clique em **Solicitar aprovação**.
 
 </div>
 
