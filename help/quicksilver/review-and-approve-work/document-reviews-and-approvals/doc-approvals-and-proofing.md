@@ -9,20 +9,19 @@ exl-id: be484629-6e70-4809-ad4c-a489d5814da6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/UBrLQv-1DRwZ-TO3c1SAUn8OF0yOAYnKPGrf-lSS0xM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 955
-ht-degree: 2%
+source-wordcount: 1236
+ht-degree: 1%
 
 ---
 
 # Usar recursos de aprovação unificada e revisão juntos
+
+{{highlighted-preview}}
 
 Aprovações unificadas no Workfront apresenta um novo conjunto de recursos para ajudar você a revisar e aprovar documentos. Você pode usar um fluxo de trabalho de Aprovações unificadas com o visualizador de provas existente para adicionar comentários e marcação a documentos em revisão.
 
@@ -35,8 +34,7 @@ Existem algumas diferenças principais no fluxo de trabalho ao usar aprovações
 ## Carregar um documento e criar uma prova
 
 1. Vá para o projeto, tarefa ou problema em que deseja adicionar um novo documento.
-1. Clique na guia **Documentos** e no menu suspenso **Adicionar novo**.
-Ou
+1. Clique na guia **Documentos** e no menu suspenso **Adicionar novo**.Ou
 Arraste e solte o documento na lista de documentos.
 
    >[!NOTE]
@@ -47,7 +45,7 @@ Arraste e solte o documento na lista de documentos.
 
 Os usuários atribuídos como participantes podem usar o visualizador de provas para adicionar comentários e marcações no documento. Prossiga para a próxima seção para saber como adicionar participantes de revisão.
 
-## Abrir o Resumo do documento e atribuir os participantes
+## Abra o Resumo do documento e atribua os participantes na Produção
 
 Você tem a opção de atribuir revisores, aprovadores ou uma combinação de ambos:
 
@@ -93,8 +91,27 @@ Para atribuir participantes:
 
 1. Depois de adicionar todos os revisores e aprovadores, clique em **Solicitar aprovações**. Os participantes são notificados por email.
 
+<div class="preview">
 
-## Crie uma nova versão conforme necessário
+## Abrir o Resumo do documento e atribuir participantes na Visualização
+
+A caixa de diálogo Solicitar aprovação é aberta no modo Básico por padrão para uma aprovação de estágio único. Alterne para o modo Avançado para configurar aprovações de vários estágios ou caminhos paralelos.
+
+Para atribuir participantes:
+
+1. Selecione o documento que você carregou e abra o documento Resumo.
+
+   ![Abrir resumo do documento](assets/open-doc-summary.png)
+
+1. Role para baixo até a seção **Aprovações** e clique em **Criar fluxo de trabalho**. A caixa de diálogo **Solicitar aprovação** é aberta no modo Básico.
+
+1. Configure o fluxo de trabalho de aprovação. Para obter descrições dos campos, a opção Modo avançado e o fluxo de caminhos paralelos, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Clique em **Solicitar aprovação**. Os participantes são notificados por email.
+
+</div>
+
+## Crie uma nova versão conforme necessário na Produção
 
 Se precisar de outra rodada de revisão e aprovação, poderá criar uma nova versão de prova e adicionar os participantes anteriores, novos participantes ou uma combinação de ambos. Você pode exibir informações sobre versões anteriores e participantes no Resumo do documento.
 
@@ -141,7 +158,31 @@ Para adicionar uma nova versão:
 
 1. Depois de adicionar todos os revisores e aprovadores, clique em **Solicitar aprovações**. Os participantes são notificados por email.
 
+<div class="preview">
 
+## Crie uma nova versão conforme necessário na Pré-visualização
+
+Se precisar de outra rodada de revisão e aprovação, poderá criar uma nova versão de prova e adicionar os participantes anteriores, novos participantes ou uma combinação de ambos. Você pode exibir informações sobre versões anteriores e participantes no Resumo do documento.
+
+A caixa de diálogo Solicitar aprovação é aberta no modo Básico por padrão para uma aprovação de estágio único. Alterne para o modo Avançado para configurar aprovações de vários estágios ou caminhos paralelos.
+
+Para adicionar uma nova versão:
+
+1. Arraste e solte o novo arquivo sobre o documento anterior no Workfront. O Workfront cria automaticamente uma nova versão.
+
+1. Depois que o documento terminar de ser carregado, selecione-o e clique em **Criar prova** > **Prova simples**.
+
+1. Selecione o documento novamente e, em seguida, abra o documento Resumo.
+
+   ![Abrir resumo do documento](assets/open-doc-summary.png)
+
+1. Role para baixo até a seção **Aprovações** e clique em **Criar fluxo de trabalho**. A caixa de diálogo **Solicitar aprovação** é aberta no modo Básico.
+
+1. Configure o fluxo de trabalho de aprovação. Para obter descrições dos campos, a opção Modo avançado e o fluxo de caminhos paralelos, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Clique em **Solicitar aprovação**. Os participantes são notificados por email.
+
+</div>
 
 ## Revise a prova e tome uma decisão
 

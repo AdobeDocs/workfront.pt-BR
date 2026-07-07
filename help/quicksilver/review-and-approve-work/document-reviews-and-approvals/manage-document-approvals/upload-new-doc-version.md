@@ -9,25 +9,21 @@ exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grwYgMUQc-Ft08jC1Fb1n7y18cLi1HNcXvJ3wPX0URg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 664
-ht-degree: 9%
+source-wordcount: 1196
+ht-degree: 5%
 
 ---
 
 # Fazer upload de uma nova versão do documento e solicitar uma aprovação
+
+{{highlighted-preview}}
 
 Se um documento estiver marcado como &quot;Precisa de trabalho&quot; em uma revisão anterior, você poderá fazer upload de uma nova versão para o documento original e iniciar outra rodada de aprovações. Após carregar uma nova versão do documento, as versões anteriores serão bloqueadas.
 
@@ -76,7 +72,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 
 
-## Usar o recurso arrastar e soltar para adicionar uma nova versão na área de documentos herdados
+## Use o recurso de arrastar e soltar para adicionar uma nova versão na área de documentos herdados na Produção
 
 Se sua organização estiver no armazenamento da Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento Workfront, consulte [Diferenças entre o armazenamento na nuvem Adobe e o armazenamento Workfront herdado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -95,7 +91,6 @@ Para adicionar uma nova versão:
 1. Arraste e solte o novo arquivo sobre o documento anterior. Isso cria uma nova versão automaticamente.
 
 1. Quando o documento terminar de ser carregado, selecione-o para abrir o painel Resumo do documento. Aqui você verá o número da versão na parte superior do painel.
-   ![Abrir a página de detalhes do documento](assets/open-doc-details.png)
 
 
 1. Role até a seção **Aprovações**.
@@ -141,5 +136,69 @@ Para adicionar uma nova versão:
 
    O fluxo de trabalho de aprovação é iniciado e os aprovadores recebem uma notificação de que sua aprovação é necessária na nova versão do documento. A versão anterior do documento está bloqueada e todas as aprovações pendentes na versão anterior são retiradas.
 
-   ![solicitar aprovação](assets/request-approval.png)
+   ![solicitar aprovação
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+
+<div class="preview">
+
+## Use arrastar e soltar para adicionar uma nova versão na área de documentos herdados em Visualizar
+
+Se sua organização estiver no armazenamento da Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento Workfront, consulte [Diferenças entre o armazenamento na nuvem Adobe e o armazenamento Workfront herdado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+
+>[!NOTE]
+>
+>Arrastar e soltar não funciona com o Internet Explorer.
+
+Se você precisar de outra rodada de revisão e aprovação em um documento, poderá criar uma nova versão do documento no Workfront. Você pode adicionar os participantes anteriores, novos participantes ou uma combinação de ambos. Você pode exibir informações sobre versões anteriores e participantes na página Detalhes do documento.
+
+A caixa de diálogo Solicitar aprovação é aberta no modo Básico por padrão para uma aprovação de estágio único. Alterne para o modo Avançado para configurar aprovações de vários estágios ou caminhos paralelos.
+
+Para adicionar uma nova versão e solicitar aprovação:
+
+1. Navegue até o documento no Workfront.
+
+1. Arraste e solte o novo arquivo sobre o documento anterior. O Workfront cria automaticamente uma nova versão.
+
+1. Quando o documento terminar de ser carregado, selecione-o para abrir o painel Resumo do documento. O número da versão é exibido na parte superior do painel.
+
+1. Role para baixo até a seção **Aprovações** e clique em **Criar fluxo de trabalho**. A caixa de diálogo **Solicitar aprovação** é aberta no modo Básico.
+
+1. Configure o fluxo de trabalho de aprovação. Para obter descrições dos campos, a opção Modo avançado e o fluxo de caminhos paralelos, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Clique em **Solicitar aprovação**.
+
+   O fluxo de trabalho de aprovação é iniciado e os aprovadores recebem uma notificação de que sua aprovação é necessária na nova versão do documento. A versão anterior do documento está bloqueada e todas as aprovações pendentes na versão anterior são retiradas.
+
+## Use arrastar e soltar para adicionar uma nova versão na nova área Documentos em Visualização
+
+Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!NOTE]
+>
+>Arrastar e soltar não funciona com o Internet Explorer.
+
+Se você precisar de outra rodada de revisão e aprovação em um documento, poderá criar uma nova versão do documento no Workfront. É possível adicionar um fluxo de trabalho de aprovação à nova versão do documento.
+
+<!--
+the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page.
+-->
+
+A caixa de diálogo Solicitar aprovação é aberta no modo Básico por padrão para uma aprovação de estágio único. Alterne para o modo Avançado para configurar aprovações de vários estágios ou caminhos paralelos.
+
+Para adicionar uma nova versão e solicitar aprovação:
+
+1. Navegue até o documento no Workfront.
+
+1. Arraste e solte o novo arquivo sobre o documento anterior. O Workfront cria automaticamente uma nova versão.
+
+1. Quando o documento terminar de ser carregado, selecione-o para abrir o painel Resumo. A versão mais recente do documento é selecionada por padrão.
+
+1. Role para baixo até a seção **Aprovações** e clique em **Criar fluxo de trabalho**. A caixa de diálogo **Solicitar aprovação** é aberta no modo Básico.
+
+1. Configure o fluxo de trabalho de aprovação. Para obter descrições dos campos, a opção Modo avançado e o fluxo de caminhos paralelos, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Clique em **Solicitar aprovação**.
+
+   O fluxo de trabalho de aprovação é iniciado e os aprovadores recebem uma notificação de que sua aprovação é necessária na nova versão do documento. A versão anterior do documento está bloqueada e todas as aprovações pendentes na versão anterior são retiradas.
+
+</div>
