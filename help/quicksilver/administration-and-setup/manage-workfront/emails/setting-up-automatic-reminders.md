@@ -11,18 +11,14 @@ exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/sxv8RUKwTr-SABLfOrmTa0J9ToM62-1tF5rFEnu41UI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f283a5f64062e5878373527de46b0d993b545ba7
 workflow-type: tm+mt
-source-wordcount: 627
-ht-degree: 8%
+source-wordcount: 836
+ht-degree: 6%
 
 ---
 
@@ -30,9 +26,11 @@ ht-degree: 8%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Como administrador do Adobe Workfront, você pode configurar lembretes automáticos para acionar notificações por email quando todas as tarefas ou problemas estiverem vencidos, atrasados ou próximos à data planejada de conclusão. Após definir essas configurações, os usuários não poderão desativar lembretes automáticos.
+Como administrador do Adobe Workfront, você pode configurar lembretes automáticos para acionar notificações por email quando todas as tarefas, problemas ou outros itens de trabalho atribuídos estiverem vencidos, atrasados ou próximos à data de conclusão planejada.
 
-Para notificações de atraso, o email é enviado à noite até que a tarefa ou o problema seja concluído.
+Após definir essas configurações, os usuários não poderão desativar lembretes automáticos. Os lembretes automáticos serão enviados independentemente das configurações de notificação de um usuário na área Minhas configurações.
+
+Para notificações de atraso, o email é enviado à noite até que a tarefa ou o problema seja concluído. Isso significa que o usuário receberá uma notificação todos os dias enquanto a tarefa ou problema não for concluído.
 
 Um lembrete automático pode ser enviado para um ou mais dos seguintes itens:
 
@@ -72,6 +70,25 @@ Um lembrete automático pode ser enviado para um ou mais dos seguintes itens:
 Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Detalhes da funcionalidade de lembrete automática
+
+### Distinção de outros tipos de lembretes
+
+Os lembretes automáticos são o recurso de lembrete no nível da configuração para tarefas e problemas do Workfront e são separados do recurso de Notificações de lembrete no nível do objeto. Para obter informações sobre a diferença entre lembretes automáticos e notificações de lembrete, consulte [Lembretes automáticos vs. notificações de lembrete](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md).
+
+As decisões de prova e prova também não são tratadas por lembretes automáticos e seguem um processo de lembrete separado. Para obter detalhes sobre provas e lembretes de decisão de prova, consulte os artigos em [Notificações e lembretes de prova](/help/quicksilver/workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md).
+
+## Considerações ao usar lembretes automáticos
+
+Considere o seguinte ao usar lembretes automáticos:
+
+* Os emails vencidos são enviados como um email de resumo por destinatário por dia, não como emails separados por item.
+* Ativar lembretes automáticos pode fazer com que problemas ou tarefas que já estão vencidas apareçam no próximo email de resumo vencido, independentemente de quanto tempo o item está vencido.
+* Os lembretes se aplicam somente a projetos com status Atual/Ativo.
+* &quot;Dias&quot; na configuração automática de lembrete refere-se aos dias úteis com reconhecimento de agendamento, não aos dias decorridos ou à hora do calendário.
+
+
 
 ## Configurar lembretes automáticos
 
