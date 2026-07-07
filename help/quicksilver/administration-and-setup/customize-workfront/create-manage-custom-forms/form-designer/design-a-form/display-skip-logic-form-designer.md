@@ -9,25 +9,21 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
 workflow-type: tm+mt
-source-wordcount: 3556
+source-wordcount: 3610
 ht-degree: 2%
 
 ---
 
 # Adicionar regras de lógica a formulários e campos personalizados
+
+{{highlighted-preview}}
 
 As regras lógicas permitem personalizar ainda mais os campos no formulário.
 
@@ -95,8 +91,7 @@ Para lógica de exibição e de salto somente, selecione um campo para mostrar a
 
 ## Considerações sobre o uso da lógica de exibição e da lógica de salto
 
-* Para adicionar lógica de exibição em um campo personalizado, widget ou quebra de seção, pelo menos um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção) deve ser posicionado antes dele no formulário.
-Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Para adicionar lógica de exibição em um campo personalizado, widget ou quebra de seção, pelo menos um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção) deve ser posicionado antes dele no formulário.Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Não é possível adicionar lógica de salto a um widget ou quebra de seção. Você pode adicioná-lo somente a um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção).
 * Não é possível aplicar a exibição ou a lógica de salto para mostrar ou ocultar as opções de um campo de várias opções. Por exemplo, você não pode restringir as opções exibidas para um campo Suspenso, Grupo de caixas de seleção ou Botão de opção, com base na exibição ou na lógica de ignorar outro campo.
 * Você pode adicionar a lógica de exibição e a lógica de salto a um campo personalizado se todos os itens a seguir forem verdadeiros sobre o campo personalizado:
@@ -238,7 +233,7 @@ A lógica de salto define campos de formulário personalizados que são ignorado
 
 A lógica do valor padrão permite configurar valores padrão para campos de formulário personalizados, usando fórmulas. O valor padrão é exibido quando as condições definidas são atendidas. Um valor padrão pode ser um valor estático ou dinâmico que faz referência a outros campos no objeto. Embora o valor padrão possa fazer referência a outros campos, ele não será alterado à medida que outros campos no formulário forem alterados.
 
-Você pode aplicar lógica avançada de valor padrão aos seguintes tipos de campo: texto de linha única, parágrafo, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla. referência de campo nativo, digitação antecipada, grupo de caixas de seleção e botões de opção.
+Você pode aplicar lógica avançada de valor padrão aos seguintes tipos de campo: texto de linha única, parágrafo, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla, <span class="preview">referência de campo nativo</span>, digitação antecipada, grupo de caixas de seleção e botões de opção.
 
 >[!TIP]
 >
@@ -247,6 +242,8 @@ Você pode aplicar lógica avançada de valor padrão aos seguintes tipos de cam
 >[!NOTE]
 >
 >A lógica de valor padrão padrão no designer do formulário ainda existe. Se ambos os tipos forem aplicados no mesmo campo, a lógica avançada terá precedência. Para obter informações sobre a lógica do valor padrão, consulte [Adicionar botões de opção, grupos de caixas de seleção e menus suspensos](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+><span class="preview">Para campos de referência nativos, a lógica de valor padrão está disponível somente na interface do usuário e não na API do Workfront.</span>
 
 ### Exemplo
 
