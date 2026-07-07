@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6e0b4b17c927accc45846dc0affbf7a9425cca80
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 1%
+source-wordcount: '813'
+ht-degree: 3%
 
 ---
 
@@ -18,14 +18,30 @@ Esta página descreve as melhorias de documentos feitas com a versão do terceir
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2026, consulte [Visão geral da versão do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Caminhos de aprovação paralelos agora disponíveis para aprovações unificadas
+
+>[!NOTE]
+>
+>Visualização: 7 de julho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
+
+Os fluxos de trabalho de aprovação de documentos agora oferecem suporte a caminhos paralelos, ajudando as equipes a executar vários controles de revisão independentes ao mesmo tempo. Com caminhos paralelos, você pode:
+
+* Configurar até 30 caminhos paralelos e 100 estágios em uma única aprovação
+* Executar controles de revisão independentemente e em paralelo, com estágios sequenciais dentro de cada caminho
+* Alternar entre um modo Básico simplificado para aprovações de estágio único e um modo Avançado para workflows de vários estágios e vários caminhos
+* Aplicar a mesma configuração de caminho paralelo a modelos de aprovação reutilizáveis da configuração do Workfront
+
+Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) e [Criar um modelo de fluxo de trabalho de aprovação para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
 <!--
+
 ## Adobe Cloud Drive
 
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: June 26, 2026
->Production for everyone: June 26, 2026
+>Production fast release: July 7, 2026
+>Production for everyone: July 7, 2026
 >This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
 
 Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
@@ -33,13 +49,14 @@ Adobe Cloud Drive is now available to organizations that are on a version of Wor
 For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+
 -->
 
 ## Solicitar aprovação em modelos do Adobe Express com Workfront e Frame.io
 
 >[!NOTE]
 >
->Visualização: N/A>Versão rápida de produção: 15 de junho de 2026>Produção para todos: 15 de junho de 2026>[!BADGE Fora do cronograma]{type=Neutral}
+>Visualização: N/DVersão rápida de produção: 15 de junho de 2026Produção para todos: 15 de junho de 2026Fora do cronograma&rbrack;{type=Neutral}
 
 A integração do Adobe Express e do Workfront com o Frame.io traz revisão e aprovação estruturadas para o conteúdo criado no Adobe Express. Os designers podem mapear um modelo de fluxo de trabalho de aprovação do Workfront para um modelo Express para que, quando o modelo for remisturado, uma aprovação seja automaticamente necessária antes da publicação, roteando o ativo pelo fluxo de trabalho pré-configurado do Workfront e pelo visualizador Frame.io.
 
@@ -58,7 +75,7 @@ Para obter mais informações, consulte [Introdução à Adobe Express e ao Work
 
 >[!NOTE]
 >
->Visualização: 2 de junho de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 2 de junho de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Agora é possível abrir um resumo imprimível da aprovação de um documento diretamente da nova área Documentos. Esse recurso está disponível para organizações que usam o Adobe Cloud Storage.
 
@@ -71,7 +88,7 @@ Para obter mais informações, consulte [Visão geral de Detalhes do Documento](
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
 Agora é possível adicionar uma mensagem personalizada a cada estágio do fluxo de trabalho de aprovação de um documento. A mensagem aparece na notificação por email de aprovação e na guia Approvals no Workfront.
 
@@ -87,7 +104,7 @@ Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovaç�
 
 >[!NOTE]
 >
->Visualização: 14 de maio de 2026>Versão rápida de produção: 14 de maio de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 14 de maio de 2026Versão rápida de produção: 14 de maio de 2026Produção para todos: 16 de julho de 2026
 
 Os ativos vinculados na área Documentos agora exibem emblemas de status que dão às equipes visibilidade instantânea sobre onde cada ativo está sem sair da Workfront. O Assets pode mostrar:
 
@@ -102,7 +119,7 @@ Para obter mais informações sobre os status de aprovação, consulte [Introdu�
 
 >[!NOTE]
 >
->Visualização: 30 de abril de 2026>Versão rápida de produção: 14 de maio de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 30 de abril de 2026Versão rápida de produção: 14 de maio de 2026Produção para todos: 16 de julho de 2026
 
 A página Informações do cliente em Configuração agora inclui uma nova seção Visão geral do armazenamento com medidores de uso para o armazenamento na nuvem do Adobe.
 
