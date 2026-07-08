@@ -10,18 +10,13 @@ exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YOO4BspMzbMr8iPoXRBKK65IbU5yfpiJndNuYvYF5SM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
 workflow-type: tm+mt
-source-wordcount: 1004
+source-wordcount: 1061
 ht-degree: 0%
 
 ---
@@ -86,6 +81,10 @@ Para obter mais informações sobre o novo modelo de permissão de documento, co
 No nível do projeto, as pastas geradas pelo sistema exibem um objeto vinculado. A pasta é automaticamente nomeada da mesma forma que a tarefa ou problema ao qual pertence. As pastas vinculadas mostram como o sistema sabe em qual tarefa ou problema a pasta deve ser visualizada.
 
 Para obter mais informações, consulte [Como funcionam as permissões de documento](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+#### Adobe Cloud Drive
+
+O Adobe Cloud Drive é um aplicativo de desktop que monta seus projetos de armazenamento em nuvem da Adobe como um drive em seu computador Mac ou Windows. Você pode abrir, editar e salvar arquivos em qualquer aplicativo enquanto o Adobe Cloud Drive mantém seu trabalho sincronizado com o armazenamento na nuvem da Adobe. Para obter mais informações, consulte [visão geral do Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Objetos do Workfront
 
