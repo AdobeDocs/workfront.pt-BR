@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 3db125c4ff09e97519f9f6c756b4507a2447394a
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 3%
+source-wordcount: '941'
+ht-degree: 2%
 
 ---
 
@@ -33,24 +33,19 @@ Os fluxos de trabalho de aprovação de documentos agora oferecem suporte a cami
 
 Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) e [Criar um modelo de fluxo de trabalho de aprovação para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
-<!--
-
 ## Adobe Cloud Drive
 
 >[!NOTE]
 >
->Preview: N/A
->Production fast release: July 7, 2026
->Production for everyone: July 7, 2026
->This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
+>Visualização: N/DVersão rápida de produção: 8 de julho de 2026Produção para todos: 8 de julho de 2026Esse recurso só está disponível para organizações no pacote Workflow Ultimate, com o Adobe Cloud Storage habilitado.
 
-Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
+O Adobe Cloud Drive agora está disponível para organizações que estão em uma versão do Workfront compatível com o armazenamento em nuvem da Adobe. O Adobe Cloud Drive é um aplicativo de desktop que monta seus projetos de armazenamento em nuvem da Adobe como um drive em seu computador Mac ou Windows, para que você possa abrir, editar e salvar arquivos em qualquer aplicativo diretamente do Finder ou do Explorador de arquivos. Suas alterações são sincronizadas automaticamente com o armazenamento em nuvem do Adobe e estão disponíveis para sua equipe no Workfront e no Frame.io.
 
-For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+Para obter mais informações, consulte [visão geral do Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
-[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3492492){target="_blank"}
 
--->
+## Solicitar aprovação em modelos do Adobe Express com Workfront e Frame.io
 
 >[!NOTE]
 >
