@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: 4114
+source-wordcount: 4173
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ A tabela a seguir mostra como as permissões do Workfront são mapeadas para per
 ### Gerenciamento de documentos no Workfront
 
 Os documentos carregados no Workfront são armazenados no armazenamento em nuvem do Adobe e podem ser acessados no Workfront e no Frame.io. Ao fazer upload de um documento para uma tarefa ou problema no Workfront, uma pasta gerada pelo sistema é criada no Adobe Cloud Storage que herda permissões da tarefa ou problema. Todos os documentos carregados para essa tarefa ou problema são armazenados nessa pasta e herdam permissões dela. Para obter mais informações sobre documentos no Workfront, consulte [A visão geral da nova área Documentos](/help/quicksilver/documents/managing-documents/documents-area.md) e [Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento na nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+
+Você também pode acessar esses mesmos documentos da área de trabalho do Mac ou do Windows usando o Adobe Cloud Drive. O Adobe Cloud Drive monta seus projetos de armazenamento em nuvem do Adobe como um drive em seu computador, para que você possa abrir e editar arquivos em qualquer aplicativo enquanto mantém as alterações em sincronia com o Workfront e o Frame.io. Para obter mais informações, consulte [visão geral do Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ### Limitações da experiência de documento
 

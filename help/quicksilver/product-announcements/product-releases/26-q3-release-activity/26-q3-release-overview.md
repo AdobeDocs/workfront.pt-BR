@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
 source-wordcount: '2761'
 ht-degree: 15%
@@ -233,7 +233,6 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><p>July 7, 2026</p></td>
         </tr>
         -->
-        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Solicitar aprovação em modelos do Adobe Express com Workfront e Frame.io</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>A integração do Adobe Express e do Workfront com o Frame.io traz revisão e aprovação estruturadas para o conteúdo criado no Adobe Express. Os designers podem mapear um modelo de fluxo de trabalho de aprovação do Workfront para um modelo Express para que, quando o modelo for remisturado, uma aprovação seja automaticamente necessária antes da publicação, roteando o ativo pelo fluxo de trabalho pré-configurado do Workfront e pelo visualizador Frame.io.</p>

@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
+source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
 workflow-type: tm+mt
-source-wordcount: 850
+source-wordcount: 918
 ht-degree: 1%
 
 ---
@@ -123,6 +123,10 @@ Você pode visualizar o histórico de um documento na nova área Documentos. O h
 ### Pastas no nível do sistema para permissões de documento
 
 O Workfront cria automaticamente uma pasta no nível do sistema quando o primeiro documento é carregado para uma tarefa ou problema. Essas pastas herdam permissões da tarefa ou do problema e estão visíveis na área de documentos do nível do projeto. Todos os documentos carregados para essa tarefa ou problema são armazenados nessa pasta e herdam permissões dela. Essa é a forma principal como as permissões são gerenciadas para documentos na nova área Documentos. Para obter mais informações, consulte [Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento na nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+### Acessar documentos da área de trabalho
+
+Se sua organização usa o armazenamento em nuvem do Adobe, você também poderá acessar seus documentos da área de trabalho do Mac ou do Windows usando o Adobe Cloud Drive. O Adobe Cloud Drive monta seus projetos de armazenamento em nuvem do Adobe como um drive em seu computador, para que você possa abrir e editar arquivos em qualquer aplicativo enquanto mantém as alterações em sincronia com o Workfront. Para obter mais informações, consulte [visão geral do Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Considerações
 
