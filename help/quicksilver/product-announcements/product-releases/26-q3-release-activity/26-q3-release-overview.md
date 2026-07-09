@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '2824'
+source-wordcount: '2920'
 ht-degree: 15%
 
 ---
@@ -522,6 +522,15 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Pré-visualização</strong></td>
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Otimização do arquivamento de comentários</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>No momento, estamos otimizando o arquivamento de comentários para comentários com mais de 1 ano para todos os objetos do Workfront que exibem uma área Atualizações. Isso é um esforço interno e não deve afetar sua experiência com a área Atualizações. Não há alterações visuais na área Atualizações para nenhum tipo de objeto e não há alterações na funcionalidade com esta atualização. Todos os comentários permanecem visíveis para todos os tipos de objeto.</p>
+            </td>
+            <td><p>Implantação em fases, a partir de 7 de julho de 2026</p></td>
+            <td><p>Implantação em fases, a partir de 7 de julho de 2026</p></td>
+            <td><p>Implantação em fases, a partir de 7 de julho de 2026</p></td>
         </tr>
         <tr>
             <td>
