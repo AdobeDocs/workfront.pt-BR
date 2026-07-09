@@ -9,21 +9,15 @@ exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kIc-y3DRa7mDVX14gA5jDbIzZveHH1MNIghGpQP7hc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
 workflow-type: tm+mt
-source-wordcount: 425
-ht-degree: 11%
+source-wordcount: 403
+ht-degree: 12%
 
 ---
 
@@ -32,10 +26,6 @@ ht-degree: 11%
 Você pode habilitar as notificações por email para eventos que ocorrem no [!DNL Adobe Workfront Goals] em seu perfil. Um usuário com uma licença de [!UICONTROL Plano] também pode habilitá-lo para outros usuários. Para obter informações, consulte [[!DNL Adobe Workfront] notificações](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Requisitos de acesso
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
--->
 
 +++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
@@ -68,10 +58,14 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Pré-requisitos
+<!--
+Support asked for this to be removed: issue ref number 29111956
 
-* O usuário cujas [!DNL Goals] notificações você deseja atualizar deve ter um Modelo de Layout que inclua a área [!DNL Goals] no [!UICONTROL Menu Principal].
+## Prerequisites
 
+* The user whose [!DNL Goals] notifications you want to update must have a Layout Template that includes the [!DNL Goals] area in the [!UICONTROL Main Menu].
+
+-->
 
 ## [!DNL Goals] notificações na área [!UICONTROL perfil do usuário]
 
