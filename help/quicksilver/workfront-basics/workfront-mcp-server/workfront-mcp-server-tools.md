@@ -5,9 +5,9 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
+source-git-commit: 1b90f291995f636b1eecdf1af6a02fed7f01e9a4
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1768'
 ht-degree: 6%
 
 ---
@@ -214,6 +214,8 @@ Insights tools retrieve information about Workfront objects.
 ## Ferramentas de fluxo de trabalho
 
 As ferramentas de fluxo de trabalho são ações de uso geral que a plataforma de IA usa para trabalhar com qualquer objeto do Workfront — projetos, tarefas, problemas, horas, atribuições, programas, portfólios e assim por diante.
+
+### Objetos e campos
 
 | Título | Nome da ferramenta | O que faz | Ação |
 | --- | --- | --- | --- |
