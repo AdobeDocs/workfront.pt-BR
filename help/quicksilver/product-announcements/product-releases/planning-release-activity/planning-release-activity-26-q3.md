@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2865'
 ht-degree: 4%
 
 ---
@@ -171,11 +171,16 @@ Para obter informações, consulte [Introdução à integração do Adobe Workfr
 >
 >Visualização: 1 de junho de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
+
 Adicionamos a guia Espaços de trabalho de amostra na área de aterrissagem do Planning, onde você pode exibir exemplos de espaços de trabalho de práticas recomendadas. Os espaços de trabalho não são editáveis. Os gerentes do Workspace podem modificar exibições em espaços de trabalho de amostra. A guia está visível para usuários Padrão e Administrador do sistema.
 
 Recomendamos que você visualize os espaços de trabalho de amostra como exemplos e use o pacote de modelos de vários espaços de trabalho para criar, editar e compartilhar espaços de trabalho que resultam do uso desse modelo.  O conjunto de modelos contém os mesmos espaços de trabalho que a guia Espaços de trabalho de amostra.
 
 Para obter informações, consulte [Visão geral sobre espaços de trabalho](/help/quicksilver/planning/architecture/workspaces-overview.md).
+
+>[!NOTE]
+>
+>A criação de espaços de trabalho a partir de pacotes de modelos está disponível apenas para organizações nos pacotes de fluxo de trabalho Prime ou Ultimate.
 
 ## API do Workfront Planning versão 2
 
