@@ -23,7 +23,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 9 de julho de 2026Produção para lançamento rápido: 13 de agosto de 2026Produção para lançamento trimestral: 15 de outubro de 2026Fora do cronograma]{type=Neutral}
+>Visualização: 9 de julho de 2026Produção para lançamento rápido: 13 de agosto de 2026Produção para lançamento trimestral: 15 de outubro de 2026Fora do cronograma&rbrack;{type=Neutral}
 
 Se sua organização usa o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe, agora é possível converter uma tarefa de armazenamento herdada em um projeto de armazenamento em nuvem do Adobe.Ao fazer isso, os documentos e as aprovações de documentos permanecem no objeto principal em vez de serem transferidos para o projeto recém-criado.
 
