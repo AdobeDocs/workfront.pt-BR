@@ -5,7 +5,7 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 588b4dac3acc411f63868bd603beba3312299830
+source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 6%
@@ -107,21 +107,6 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | Localizar projeto por nome | `approvals_find_project_by_name` | Procura projetos do Workfront por correspondência de nome parcial no sistema. | Ler |
 | Obter projetos por proprietário | `approvals_get_projects_by_owner` | Lista os projetos do Workfront dos quais o usuário que faz a chamada é o proprietário. | Ler |
 | Obter região do Adobe | `approvals_get_adobe_region` | Retorna o nome da Adobe de uma região do provedor de nuvem. | Ler |
-
-### Comentários
-
-| Título | Nome da ferramenta | O que faz | Ação |
-| --- | --- | --- | --- |
-| Comentários da consulta | `comment-stream_query_comments` | Consultar comentários por ID de objeto, com paginação. | Ler |
-| Obter comentário | `comment-stream_get_comment` | Obtenha um único comentário por ID. | Ler |
-| Obter contagem de comentários | `comment-stream_get_comments_count` | Obtenha a contagem total de comentários de nível superior de um objeto. | Ler |
-| Criar comentário | `comment-stream_create_comment` | Crie um novo comentário em um objeto. | Gravar |
-| Criar resposta | `comment-stream_create_reply` | Criar uma resposta a um comentário existente. | Gravar |
-| Atualizar comentário | `comment-stream_update_comment` | Atualizar um comentário ou resposta existente. | Gravar |
-| Excluir comentário | `comment-stream_delete_comment` | Excluir um comentário pela ID. | Gravar |
-| Adicionar reação | `comment-stream_add_reaction` | Adicionar uma reação (curtir) a um comentário. | Gravar |
-| Remover reação | `comment-stream_remove_reaction` | Remover uma reação (como) de um comentário. | Gravar |
-
 
 <!--
 
@@ -237,6 +222,22 @@ As ferramentas de fluxo de trabalho são ações de uso geral que a plataforma d
 | Atualizar objeto | `workflow_update_any_object` | Atualiza campos em um objeto Workfront existente. | Gravar |
 | Excluir objeto | `workflow_delete_any_object` | Exclui um objeto do Workfront por ID. Requer confirmação explícita do usuário antes que a ação seja executada. | Gravar |
 | Resolver nomes de campo | `workflow_resolve_field_names_any_object` | Converte nomes de campo ou rótulos fornecidos pelo usuário em nomes de campo subjacentes da API do Workfront para que a plataforma do agente de IA possa criar solicitações precisas. | Ler |
+
+### Comentários
+
+| Título | Nome da ferramenta | O que faz | Ação |
+| --- | --- | --- | --- |
+| Comentários da consulta | `comment-stream_query_comments` | Consultar comentários por ID de objeto, com paginação. | Ler |
+| Obter comentário | `comment-stream_get_comment` | Obtenha um único comentário por ID. | Ler |
+| Obter contagem de comentários | `comment-stream_get_comments_count` | Obtenha a contagem total de comentários de nível superior de um objeto. | Ler |
+| Criar comentário | `comment-stream_create_comment` | Crie um novo comentário em um objeto. | Gravar |
+| Criar resposta | `comment-stream_create_reply` | Criar uma resposta a um comentário existente. | Gravar |
+| Atualizar comentário | `comment-stream_update_comment` | Atualizar um comentário ou resposta existente. | Gravar |
+| Excluir comentário | `comment-stream_delete_comment` | Excluir um comentário pela ID. | Gravar |
+| Adicionar reação | `comment-stream_add_reaction` | Adicionar uma reação (curtir) a um comentário. | Gravar |
+| Remover reação | `comment-stream_remove_reaction` | Remover uma reação (como) de um comentário. | Gravar |
+
+
 
 ## Como as ferramentas são atualizadas
 
