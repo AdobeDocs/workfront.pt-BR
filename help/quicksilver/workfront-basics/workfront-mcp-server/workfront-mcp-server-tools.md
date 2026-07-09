@@ -5,10 +5,10 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 67b774fd8f88c244fa6c1287d2dd8bb0c47f20a3
+source-git-commit: 588b4dac3acc411f63868bd603beba3312299830
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 5%
+source-wordcount: '1765'
+ht-degree: 6%
 
 ---
 
@@ -107,6 +107,21 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | Localizar projeto por nome | `approvals_find_project_by_name` | Procura projetos do Workfront por correspondência de nome parcial no sistema. | Ler |
 | Obter projetos por proprietário | `approvals_get_projects_by_owner` | Lista os projetos do Workfront dos quais o usuário que faz a chamada é o proprietário. | Ler |
 | Obter região do Adobe | `approvals_get_adobe_region` | Retorna o nome da Adobe de uma região do provedor de nuvem. | Ler |
+
+### Comentários
+
+| Título | Nome da ferramenta | O que faz | Ação |
+| --- | --- | --- | --- |
+| Comentários da consulta | `comment-stream_query_comments` | Consultar comentários por ID de objeto, com paginação. | Ler |
+| Obter comentário | `comment-stream_get_comment` | Obtenha um único comentário por ID. | Ler |
+| Obter contagem de comentários | `comment-stream_get_comments_count` | Obtenha a contagem total de comentários de nível superior de um objeto. | Ler |
+| Criar comentário | `comment-stream_create_comment` | Crie um novo comentário em um objeto. | Gravar |
+| Criar resposta | `comment-stream_create_reply` | Criar uma resposta a um comentário existente. | Gravar |
+| Atualizar comentário | `comment-stream_update_comment` | Atualizar um comentário ou resposta existente. | Gravar |
+| Excluir comentário | `comment-stream_delete_comment` | Excluir um comentário pela ID. | Gravar |
+| Adicionar reação | `comment-stream_add_reaction` | Adicionar uma reação (curtir) a um comentário. | Gravar |
+| Remover reação | `comment-stream_remove_reaction` | Remover uma reação (como) de um comentário. | Gravar |
+
 
 <!--
 
