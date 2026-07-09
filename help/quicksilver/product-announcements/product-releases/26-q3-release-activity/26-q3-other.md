@@ -22,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Pré-visualização e produção para todos os clientes: a partir de 7 de julho de 2026Fora do cronograma]{type=Neutral}
+>Pré-visualização e produção para todos os clientes: a partir de 7 de julho de 2026Fora do cronograma&rbrack;{type=Neutral}
 
 No momento, estamos otimizando o arquivamento de comentários para comentários com mais de 1 ano para todos os objetos do Workfront que exibem uma área Atualizações. Isso é um esforço interno e não deve afetar sua experiência com a área Atualizações. Não há alterações visuais na área Atualizações para nenhum tipo de objeto e não há alterações na funcionalidade com esta atualização. Todos os comentários permanecem visíveis para todos os tipos de objeto.
 
