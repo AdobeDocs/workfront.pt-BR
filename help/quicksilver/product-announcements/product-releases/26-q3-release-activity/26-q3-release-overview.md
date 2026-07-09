@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
+source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
 workflow-type: tm+mt
 source-wordcount: '2920'
 ht-degree: 15%
@@ -18,7 +18,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do terceiro trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -61,7 +61,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Novas ferramentas disponíveis no Conector MCP do Workfront</a>
-                <p>Para expandir os recursos do Conector MCP do Workfront, adicionamos oito novas ferramentas e substituímos as ferramentas Pesquisar objetos e Resolver nome do campo.</p>
+                <p>Para expandir os recursos do Conector MCP do Workfront, adicionamos algumas novas ferramentas e substituímos as ferramentas Pesquisar objetos e Resolver nome do campo.</p>
             </td>
             <td><p>7 de julho de 2026</p></td>
             <td><p>15 de julho de 2026</p></td>
@@ -634,7 +634,7 @@ Para obter mais informações, consulte [Introdução à avaliação gratuita do
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
