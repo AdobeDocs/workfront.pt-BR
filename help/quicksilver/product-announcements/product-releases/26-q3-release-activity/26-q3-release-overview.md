@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
+source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
 workflow-type: tm+mt
 source-wordcount: '2920'
 ht-degree: 15%
@@ -357,9 +357,9 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Converter uma tarefa de armazenamento herdada em um projeto do Adobe Cloud Storage</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
                 <p>Se sua organização usa o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe, agora é possível converter uma tarefa de armazenamento herdada em um projeto de armazenamento em nuvem do Adobe.</p>
             </td>
-            <td><p>11 de junho de 2026</p></td>
-            <td><p>12 de junho de 2026</p></td>
-            <td><p>12 de junho de 2026</p></td>
+            <td><p>9 de julho de 2026</p></td>
+            <td><p>13 de agosto de 2026</p></td>
+            <td><p>15 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>

@@ -4,10 +4,10 @@ description: Aprimoramentos do projeto do terceiro trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8abebc25e7b966f3202e902463246c8217860f4a
+source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '314'
+ht-degree: 5%
 
 ---
 
@@ -23,10 +23,9 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026>Produção para todos: 12 de junho de 2026
+>Visualização: 9 de julho de 2026Produção para lançamento rápido: 13 de agosto de 2026Produção para lançamento trimestral: 15 de outubro de 2026Fora do cronograma&rbrack;{type=Neutral}
 
-Se sua organização usa o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe, agora é possível converter uma tarefa de armazenamento herdada em um projeto de armazenamento em nuvem do Adobe.
-Ao fazer isso, os documentos e as aprovações de documentos permanecem no objeto principal em vez de serem transferidos para o projeto recém-criado.
+Se sua organização usa o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe, agora é possível converter uma tarefa de armazenamento herdada em um projeto de armazenamento em nuvem do Adobe.Ao fazer isso, os documentos e as aprovações de documentos permanecem no objeto principal em vez de serem transferidos para o projeto recém-criado.
 
 Anteriormente, as tarefas só podiam ser convertidas em projetos usando o mesmo tipo de armazenamento.
 
@@ -40,7 +39,7 @@ Para obter mais informações, consulte [Converter uma tarefa em um projeto](/he
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026>Produção para todos: 11 de junho de 2026
+>Visualização: 11 de junho de 2026Produção para todos: 11 de junho de 2026
 
 Se sua organização usa o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe, agora é possível usar um modelo de armazenamento herdado para criar um projeto de armazenamento em nuvem do Adobe nos seguintes cenários:
 
