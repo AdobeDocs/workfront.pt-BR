@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: a7a94a89b0d1f626658ef97f0f32a0e62e44da6b
+source-git-commit: 77a1b575b45f60e6fd61e6751ec1fec4537a5697
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 2%
@@ -49,7 +49,7 @@ Para obter mais informações, consulte [visão geral do Adobe Cloud Drive](/hel
 
 >[!NOTE]
 >
->Visualização: N/DVersão rápida de produção: 15 de junho de 2026Produção para todos: 15 de junho de 2026Fora do cronograma&rbrack;{type=Neutral}
+>Visualização: N/DVersão rápida de produção: 15 de junho de 2026Produção para todos: 15 de junho de 2026Fora do cronograma]{type=Neutral}
 
 A integração do Adobe Express e do Workfront com o Frame.io traz revisão e aprovação estruturadas para o conteúdo criado no Adobe Express. Os designers podem mapear um modelo de fluxo de trabalho de aprovação do Workfront para um modelo Express para que, quando o modelo for remisturado, uma aprovação seja automaticamente necessária antes da publicação, roteando o ativo pelo fluxo de trabalho pré-configurado do Workfront e pelo visualizador Frame.io.
 
@@ -119,3 +119,4 @@ A página Informações do cliente em Configuração agora inclui uma nova seç�
 Os administradores do Workfront recebem automaticamente notificações por email quando o uso do armazenamento atinge 75%, 85% e 100% da cota.
 
 Para obter mais informações, consulte [Verificar limites de armazenamento de documentos](/help/quicksilver/documents/managing-documents/check-document-storage.md).
+
