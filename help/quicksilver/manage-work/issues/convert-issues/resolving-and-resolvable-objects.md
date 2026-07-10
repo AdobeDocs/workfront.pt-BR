@@ -10,22 +10,14 @@ exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/hJjssjxhgj3-0qndsIKMN5ygISRlv2GlE1HRKW68kdQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 71bea9d8e8a1987c5a1ee23d25402f784d2e22c8
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: 1809
 ht-degree: 2%
 
 ---
@@ -189,11 +181,15 @@ Quando você altera o status da tarefa ou do projeto para um status personalizad
 
 * O status personalizado do projeto ou tarefa tem o mesmo código de três letras que o status personalizado do problema.
 
-Você pode criar status personalizados com a mesma chave para problemas e projetos ou tarefas. Quando o projeto ou a tarefa (como um Objeto de resolução) é alterado para o status personalizado, a alteração também reflete no status do problema. A chave de status deve ser a mesma para os status de problema e de projeto ou tarefa.
+Considere o seguinte:
 
-Por exemplo, imagine criar um status personalizado de projeto chamado Iniciado com o código de três letras LCD, que equivale a Atual. Em seguida, você cria um status personalizado de problema chamado Projeto iniciado, também com o código de letra LCD, que equivale a Em andamento. Quando você marca o projeto como Iniciado, o problema muda automaticamente o status para Projeto iniciado. Se o status de Atualização automática de problema resolvível quando o status da configuração de Resolução de alterações de objeto não estiver ativado, o status do problema será alterado para Em andamento.
+* Você pode criar status personalizados com a mesma chave para problemas e projetos ou tarefas. Quando o projeto ou a tarefa (como um Objeto de resolução) é alterado para o status personalizado, a alteração também reflete no status do problema. A chave de status deve ser a mesma para os status de problema e de projeto ou tarefa.
 
-Para obter mais informações sobre como criar um status personalizado, consulte [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+  Por exemplo, você pode criar um status personalizado de projeto chamado Iniciado com o código de três letras LCD, que equivale a Atual. Em seguida, você cria um status personalizado de problema chamado Projeto iniciado, também com o código de letra LCD, que equivale a Em andamento. Quando você marca o projeto como Iniciado, o problema muda automaticamente o status para Projeto iniciado. Se o status de Atualização automática de problema resolvível quando o status da configuração de Resolução de alterações de objeto não estiver ativado, o status do problema será alterado para Em andamento.
+
+* Quando um Objeto de resolução é definido como um status do sistema que mapeia para o status Concluído, o Problema resolvível é definido como o status padrão de seu próprio grupo para esse estado. A correspondência da chave de status de três letras se aplica somente ao caminho de status personalizado e não aos status do sistema configurados pelo Workfront.
+
+  Para obter mais informações sobre como criar um status personalizado, consulte [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Sincronizar o percentual concluído de um Objeto de Resolução com o do Objeto Resolvível
 
