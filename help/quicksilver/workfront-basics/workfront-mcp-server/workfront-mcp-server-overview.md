@@ -5,15 +5,17 @@ title: Visão geral do servidor Adobe Workfront MCP
 description: Saiba o que o servidor MCP do Adobe Workfront faz e como ele permite trabalhar com o Workfront por meio de conversas em linguagem natural em uma plataforma de agente de IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 267db684aa9b2b2a07c81394ba167017c89280f8
+source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
 
 
 # Visão geral do servidor Adobe Workfront MCP
+
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O servidor MCP [!DNL Adobe Workfront] conecta sua instância do Workfront a uma plataforma de agente de IA, como [!DNL Claude] ou [!DNL ChatGPT]. Na plataforma do agente de IA, é possível encontrar, criar, atualizar e gerenciar itens do Workfront fazendo solicitações em linguagem natural.
 

@@ -5,15 +5,17 @@ title: Usar o servidor MCP do Adobe Workfront
 description: Use o servidor MCP do Adobe Workfront para pesquisar, criar, atualizar e gerenciar itens do Workfront por meio de conversas em linguagem natural em uma plataforma de agente de IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 267db684aa9b2b2a07c81394ba167017c89280f8
+source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
 
 
 # Usar o servidor MCP do Adobe Workfront
+
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O servidor MCP [!DNL Adobe Workfront] permite localizar, criar, atualizar e gerenciar itens do Workfront solicitando uma plataforma de agente de IA em linguagem natural. A plataforma decide quais ações do Workfront chamar e lida com a conversa com o Workfront para você.
 
@@ -209,8 +211,7 @@ você está trabalhando com.
 ### A plataforma de agente de IA perguntará antes de alterar ou excluir os dados do Workfront?
 
 Isso depende da plataforma de agente de IA, não do Workfront. A maioria das plataformas
-solicitar que você confirme antes de executarem uma ação, especialmente para exclusões.
-Antes de aprovar uma solicitação, leia o que a plataforma diz que está prestes a fazer —
+solicitar que você confirme antes de executarem uma ação, especialmente para exclusões.Antes de aprovar uma solicitação, leia o que a plataforma diz que está prestes a fazer —
 as alterações acontecem no Workfront da mesma forma que aconteceriam se você as fizesse
 você mesmo na interface.
 
@@ -242,8 +243,7 @@ aprovações, registros do Planning e muito mais.
 
 ### Outras pessoas podem ver minhas conversas com a plataforma de agente de IA?
 
-A Workfront não armazena seus prompts nem as respostas da plataforma de agente de IA.
-Quem quer que forneça sua plataforma de agente de IA controla como suas conversas
+A Workfront não armazena seus prompts nem as respostas da plataforma de agente de IA.Quem quer que forneça sua plataforma de agente de IA controla como suas conversas
 são armazenados ou compartilhados. Consulte seu provedor de plataforma de IA para obter
 detalhes.
 

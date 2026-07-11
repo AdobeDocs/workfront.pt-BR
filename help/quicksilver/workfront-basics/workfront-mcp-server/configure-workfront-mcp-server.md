@@ -5,15 +5,17 @@ title: Configurar o servidor MCP do Adobe Workfront
 description: Configure sua instância do Workfront e sua plataforma de IA para trabalhar com o Workfront por meio de uma conversa em idioma natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
+source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
 
 
 # Configurar o servidor MCP do Adobe Workfront
+
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O servidor MCP do [!DNL Adobe Workfront] permite que você trabalhe com seus dados do Workfront por meio de conversas em linguagem natural em uma plataforma de agente de IA com suporte.
 
