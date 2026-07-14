@@ -5,7 +5,7 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 61c763939686179bd5299bdd386afb493e49ea49
+source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 6%
@@ -223,7 +223,7 @@ As ferramentas de fluxo de trabalho são ações de uso geral que a plataforma d
 | Adicionar reação | `comment-stream_add_reaction` | Adicionar uma reação (curtir) a um comentário. | Gravar |
 | Remover reação | `comment-stream_remove_reaction` | Remover uma reação (como) de um comentário. | Gravar |
 
-## Ferramentas do Insights
+### Ferramentas do Insights
 
 As ferramentas do Insights recuperam informações sobre objetos do Workfront.
 
