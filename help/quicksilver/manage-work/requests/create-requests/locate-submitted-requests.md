@@ -11,18 +11,13 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: 1561
+source-wordcount: 1591
 ht-degree: 4%
 
 ---
@@ -113,8 +108,7 @@ A exibição de solicitações enviadas é diferente dependendo se você está u
 
 >[!NOTE]
 >
->* Se você tiver o Workfront Planning, suas solicitações do Workfront e do Planning serão exibidas na mesma lista.
->     O **Tipo de objeto** de uma solicitação do Planning é nomeado com este padrão: `< Name of workspace > > < Name of record type >`. Por exemplo, o tipo de Objeto de uma solicitação do Planning pode se chamar `Marketing workspace > Campaigns`.\
+>* Se você tiver o Workfront Planning, suas solicitações do Workfront e do Planning serão exibidas na mesma lista.O **Tipo de objeto** de uma solicitação do Planning é nomeado seguindo este padrão: `< Name of workspace > > < Name of record type >`. Por exemplo, o tipo de Objeto de uma solicitação do Planning pode se chamar `Marketing workspace > Campaigns`.\
 >     O **Tipo de objeto** de uma solicitação Workfront é `Issue`.
 >* Até 50 solicitações são exibidas na lista na área Solicitações por padrão. Para visualizar mais solicitações, navegue até a parte inferior da lista.
 
@@ -166,9 +160,12 @@ Para exibir solicitações que você ou outros usuários enviaram na nova experi
    * **Em andamento**:
       * Solicitações do Workfront: a solicitação foi convertida e o trabalho está em andamento.
       * Solicitações do Workfront Planning: a conclusão da solicitação é mapeada para um campo do Planning específico e o valor do campo ainda não corresponde ao valor de conclusão.
-   * **Em espera**: disponível para solicitações do Workfront e definido manualmente pelos usuários.
-   * <span class="preview">**Cancelado**: Isso é para solicitações do Workfront.</span> <!--checking with Khach)-->
+   * **Em Espera**: está disponível para solicitações do Workfront. Ele pode ser definido manualmente pelos usuários.
    * <span class="preview">**Concluído**: o registro do Planning foi criado, o que conclui a solicitação. (Somente Planning)</span>
+   <!--
+   This is not live yet; might be live for the unified intake process: 
+   * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
+   -->
 
 ### Exibir solicitações enviadas na experiência herdada de solicitação
 

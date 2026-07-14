@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 9%
+source-wordcount: '322'
+ht-degree: 7%
 
 ---
 
@@ -18,19 +18,22 @@ Esta página descreve as melhorias nas Solicitações feitas com a versão do Te
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2026, consulte [Visão geral da versão do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-## Introdução de novos status de solicitação
+## Correspondência de status de solicitação entre a experiência de solicitação herdada e a nova
 
 >[!NOTE]
 >
->Visualização: 27 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
+>Visualização: 27 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
 
-Para obter mais contexto sobre o estado em que suas solicitações estão, estamos introduzindo novos status para solicitações. Os novos status de solicitação a seguir estão disponíveis:
+Para obter mais contexto sobre o estado correto em que suas solicitações estão, estamos atualizando os status para solicitações na nova experiência de solicitação.
+
+As solicitações exibirão o mesmo status na experiência de solicitação nova e herdada para os seguintes status:
 
 * Novo
 * Em Espera
-* Cancelado
 
-O status &quot;Concluído&quot; foi renomeado para &quot;Concluído&quot;.
+Antes dessa atualização, se uma solicitação estava nos status Nova ou Em espera na lista de experiência de solicitação herdada, ela era exibida como Em andamento na lista de nova experiência de solicitação. Agora, os status correspondem às duas listas.
+
+Como parte dessa atualização, o status &quot;Concluído&quot; também foi renomeado para &quot;Concluído&quot;.
 
 Para obter mais informações, consulte [Exibir solicitações enviadas](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
 
@@ -38,7 +41,7 @@ Para obter mais informações, consulte [Exibir solicitações enviadas](/help/q
 
 >[!NOTE]
 >
->Visualização: 23 de abril de 2026>Versão rápida de produção: 23 de abril de 2026>Produção para todos: 23 de abril de 2026>[!BADGE Fora do cronograma]{type=Neutral}
+>Visualização: 23 de abril de 2026Versão rápida de produção: 23 de abril de 2026Produção para todos: 23 de abril de 2026Fora do cronograma]{type=Neutral}
 
 Para ajudá-lo a organizar melhor sua lista de solicitações, adicionamos as seguintes exibições predefinidas à lista de solicitações na área Solicitações e ao widget Minhas solicitações na Página inicial:
 

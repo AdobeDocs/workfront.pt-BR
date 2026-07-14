@@ -9,20 +9,14 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
 workflow-type: tm+mt
-source-wordcount: 3158
+source-wordcount: 3175
 ht-degree: 1%
 
 ---
@@ -202,7 +196,19 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 1. (Condicional) Clique na guia de um modo de exibição de tabela ou clique em **+ Modo de Exibição** para criar um modo de exibição de tabela. A exibição em tabela deve ser a padrão, a menos que você tenha visualizado o tipo de registro em outro tipo de exibição ao acessá-lo pela última vez.
 
    Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
+
 1. (Opcional) Clique na caixa de pesquisa e adicione uma palavra-chave para localizar um registro que deseja editar.
+
+   <!--
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for records:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+    -->
 
 1. Clique dentro da linha de um registro para começar a editar informações sobre o registro em linha.
 
@@ -279,8 +285,7 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    * **Exibir** ou <span class="preview">**Abrir em nova guia**</span>: isso abre a página de registro.
    * **Copiar link**: para copiar um link para a página do registro.
-   * **Editar miniatura**: para adicionar uma miniatura a um registro.
-Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Editar miniatura**: para adicionar uma miniatura a um registro.Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicado**: cria uma duplicata idêntica do registro.
    * **Inserir registro acima/ Inserir registro abaixo**: adiciona uma nova linha para que você possa adicionar um novo registro. <span class="preview">Isso não é possível no ambiente de Visualização.</span>
    * **Excluir**: para excluir o registro. Os registros excluídos são salvos na caixa Excluídos recentemente por até 30 dias.
