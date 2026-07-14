@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2919'
 ht-degree: 15%
 
 ---
@@ -357,9 +357,9 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Converter uma tarefa de armazenamento herdada em um projeto do Adobe Cloud Storage</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
                 <p>Se sua organização usa o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe, agora é possível converter uma tarefa de armazenamento herdada em um projeto de armazenamento em nuvem do Adobe.</p>
             </td>
-            <td><p>9 de julho de 2026</p></td>
-            <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
+            <td><p>11 de junho de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -471,8 +471,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Trimestralmente</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Introdução a novos status de solicitação</a>
-                <p>Para obter mais contexto sobre o estado em que suas solicitações estão, estamos introduzindo novos status para solicitações: Novo, Em espera e Cancelado. O status "Concluído" foi renomeado para "Concluído".</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Correspondência de status de solicitação entre a experiência herdada e a nova experiência</a>
+                <p>Para obter mais contexto sobre o estado correto em que suas solicitações estão, estamos atualizando os status para solicitações na nova experiência de solicitação.</p>
             </td>
             <td><p>27 de maio de 2026</p></td>
             <td><p>11 de junho de 2026</p></td>

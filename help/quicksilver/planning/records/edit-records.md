@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
 workflow-type: tm+mt
-source-wordcount: 3158
+source-wordcount: 3175
 ht-degree: 1%
 
 ---
@@ -202,7 +202,19 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 1. (Condicional) Clique na guia de um modo de exibição de tabela ou clique em **+ Modo de Exibição** para criar um modo de exibição de tabela. A exibição em tabela deve ser a padrão, a menos que você tenha visualizado o tipo de registro em outro tipo de exibição ao acessá-lo pela última vez.
 
    Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
+
 1. (Opcional) Clique na caixa de pesquisa e adicione uma palavra-chave para localizar um registro que deseja editar.
+
+   <!--
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for records:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+    -->
 
 1. Clique dentro da linha de um registro para começar a editar informações sobre o registro em linha.
 
@@ -279,8 +291,7 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    * **Exibir** ou <span class="preview">**Abrir em nova guia**</span>: isso abre a página de registro.
    * **Copiar link**: para copiar um link para a página do registro.
-   * **Editar miniatura**: para adicionar uma miniatura a um registro.
-Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Editar miniatura**: para adicionar uma miniatura a um registro.Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicado**: cria uma duplicata idêntica do registro.
    * **Inserir registro acima/ Inserir registro abaixo**: adiciona uma nova linha para que você possa adicionar um novo registro. <span class="preview">Isso não é possível no ambiente de Visualização.</span>
    * **Excluir**: para excluir o registro. Os registros excluídos são salvos na caixa Excluídos recentemente por até 30 dias.

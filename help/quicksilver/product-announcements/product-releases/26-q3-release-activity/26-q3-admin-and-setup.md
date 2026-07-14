@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador no terceiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1334'
 ht-degree: 5%
 
 ---
@@ -121,7 +121,7 @@ Para obter mais informações, consulte [Exibir e gerenciar o histórico de alte
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026Produção para todos: 11 de junho de 2026
+>Visualização: 11 de junho de 2026Produção para todos: 11 de junho de 2026Fora do cronograma&rbrack;{type=Neutral}
 
 Agora, os administradores do Workfront podem converter portfólios de armazenamento herdados para o Adobe Cloud Storage diretamente das Preferências do sistema. Para converter portfólios, selecione-os no novo campo Selecionar portfólios para conversão em armazenamento corporativo e salve a página.
 
