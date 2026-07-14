@@ -121,7 +121,7 @@ Para obter mais informações, consulte [Exibir e gerenciar o histórico de alte
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026Produção para todos: 11 de junho de 2026Fora do cronograma]{type=Neutral}
+>Visualização: 11 de junho de 2026Produção para todos: 11 de junho de 2026Fora do cronograma&rbrack;{type=Neutral}
 
 Agora, os administradores do Workfront podem converter portfólios de armazenamento herdados para o Adobe Cloud Storage diretamente das Preferências do sistema. Para converter portfólios, selecione-os no novo campo Selecionar portfólios para conversão em armazenamento corporativo e salve a página.
 
