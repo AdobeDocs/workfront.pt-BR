@@ -41,7 +41,7 @@ Para obter mais informações, consulte [Exibir solicitações enviadas](/help/q
 
 >[!NOTE]
 >
->Visualização: 23 de abril de 2026Versão rápida de produção: 23 de abril de 2026Produção para todos: 23 de abril de 2026Fora do cronograma]{type=Neutral}
+>Visualização: 23 de abril de 2026Versão rápida de produção: 23 de abril de 2026Produção para todos: 23 de abril de 2026Fora do cronograma&rbrack;{type=Neutral}
 
 Para ajudá-lo a organizar melhor sua lista de solicitações, adicionamos as seguintes exibições predefinidas à lista de solicitações na área Solicitações e ao widget Minhas solicitações na Página inicial:
 
