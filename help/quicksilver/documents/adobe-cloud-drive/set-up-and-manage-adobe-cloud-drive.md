@@ -6,7 +6,7 @@ description: Como administrador, você pode configurar o Adobe Cloud Drive para 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps, System Setup and Administration
 role: Admin
-source-git-commit: 56dca343c919db3bb09a232ada2b4700c59f5147
+source-git-commit: f1dd9555df2adcf8a1afc48982bc2d52a14df54f
 workflow-type: tm+mt
 source-wordcount: '3139'
 ht-degree: 1%
@@ -86,10 +86,11 @@ A tabela a seguir mostra como esses controles interagem:
 | Alternância no nível da organização | Usuário na função de usuário da ACD | Licença do Workflow Ultimate | Acessar resultado |
 | --- | --- | --- | --- |
 | Ligado | Não obrigatório | Sim | Concedido |
-<!-- | On | Not required | No | Denied | -->
 | Desativado | Sim | Sim | Concedido |
 | Desativado | Não | Sim | Negado |
 | Ou | Ou | Não | Negado |
+
+<!-- Sarah said to delete the second line. Commenting it out within the table messed up the display for the rest of the table, so keeping the line here until I can delete it. | On | Not required | No | Denied | -->
 
 ## Pré-requisitos
 
