@@ -7,14 +7,11 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 608
 ht-degree: 3%
 
 ---
@@ -87,3 +84,24 @@ No longer the case - they match now:
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Há limites para a quantidade de objetos do espaço de trabalho que você pode criar na instância do Workfront Planning. Para obter informações, consulte [visão geral das limitações de objetos do Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+
+## Visão geral da pesquisa global
+
+Na página inicial do Planning, você pode usar a caixa de pesquisa global para procurar os seguintes objetos do Planning:
+
+* Espaços de trabalho
+* Tipos de registro
+* Exibições
+
+![Caixa de pesquisa global](assets/global-search-box.png)
+
+Considere o seguinte sobre o uso da pesquisa global:
+
+* Você pode acessar a pesquisa na página de aterrissagem do Planning ou em qualquer página do Planning pressionando a seguinte combinação de teclado:
+
+   * CTRL+K para Windows
+   * ⌘+K para Mac
+* Os últimos 7 resultados de cada objeto são exibidos na caixa de pesquisa.
+* Você pode executar uma pesquisa geral ou selecionar um objeto e pesquisar listas individuais.
+
+
