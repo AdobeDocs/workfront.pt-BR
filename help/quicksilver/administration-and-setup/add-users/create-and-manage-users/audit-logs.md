@@ -9,19 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 TQID: https://experienceleague.adobe.com/b8KE8bhRtjvjNMP7PITNODthh1ihA-RufLVZZFo427A
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: 1485
 ht-degree: 3%
 
 ---
@@ -177,7 +172,7 @@ O sistema gera uma entrada de log de auditoria Campo personalizado quando um usu
 * Cria um campo personalizado
 * Altera um campo personalizado:
 
-   * Altera o nome, rótulo, instruções ou formato
+   * Altera o nome, o rótulo, as instruções ou o formato da API
    * Altera o tipo de exibição
 
      Isso só estará disponível se o campo for de um dos seguintes tipos: linha única, parágrafo, lista suspensa, caixa de seleção, botão de opção
@@ -211,7 +206,7 @@ O sistema gera uma entrada de log de auditoria Forms personalizada quando um usu
    * Altera um cálculo em um campo personalizado
    * Oculta ou exibe a fórmula associada a um campo calculado no texto ao passar o mouse das Instruções
    * Habilita ou desabilita Atualizar cálculos anteriores
-   * Adiciona ou altera a lógica de salto ou de exibição
+   * Adiciona ou altera a lógica do campo
 
      <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   

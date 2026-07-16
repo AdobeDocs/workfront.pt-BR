@@ -11,23 +11,15 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
-source-wordcount: 7795
-ht-degree: 81%
+source-wordcount: 7956
+ht-degree: 78%
 
 ---
 
@@ -807,12 +799,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no formato a seguir, será possível usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o caminho JSON e garantir que você o escreva corretamente, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1054,66 +1046,65 @@ Você pode adicionar campos nativos do Workfront aos formulários personalizados
 
 +++ Expanda para ver a lista de campos nativos compatíveis.
 
-A tabela lista os campos nativos disponíveis para objetos específicos do Workfront em um formulário personalizado.
+Esta lista mostra os campos nativos disponíveis para formulários personalizados e em quais tipos de objeto você pode usar cada campo.
 
-| Nome do campo | Projeto | Tarefa | Problema | Modelo | Tarefa de modelo | Portfólio | Programa | Grupo |
-|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| Benefício efetivo | ✓ |   |   |   |   |   |   |   |
-| Data de Término Efetivo | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Duração efetiva | ✓ |   |   |   |   |   |   |   |
-| Horas efetivas | ✓ |   | ✓ |   |   |   |   |   |
-| Data de início efetiva | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Orçamento | ✓ |   |   | ✓ |   | ✓ |   |   |
-| Empresa | ✓ |   |   | ✓ |   |   |   |   |
-| Condição | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Tipo de condição | ✓ |   |   | ✓ |   |   |   |   |
-| Moeda | ✓ |   |   | ✓ |   |   |   |   |
-| Descrição | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Duração |   | ✓ |   |   | ✓ |   |   |   |
-| Tipo de duração |   | ✓ |   |   | ✓ |   |   |   |
-| Unidade de duração |   | ✓ |   |   | ✓ |   |   |   |
-| Inserido por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| Data de entrada | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| Data da taxa de câmbio | ✓ |   |   |   |   |   |   |   |
-| Custo Fixo | ✓ |   |   | ✓ |   |   |   |   |
-| Receita com Valor Fixo | ✓ |   |   | ✓ |   |   |   |   |
-| Grupo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Última atualização por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Data da última atualização | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Nome | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Proprietário | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Método Índice de desempenho | ✓ |   |   | ✓ |   |   |   |   |
-| Benefício planejado | ✓ |   |   | ✓ |   |   |   |   |
-| Data de conclusão planejada | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Duração planejada | ✓ |   |   | ✓ |   |   |   |   |
-| Horas planejadas | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
-| Data de início planejado | ✓ |   |   |   |   |   |   |   |
-| Portfólio | ✓ |   |   | ✓ |   |   | ✓ |   |
-| Prioridade | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Programa | ✓ |   |   | ✓ |   |   |   |   |
-| Data de término projetada | ✓ | ✓ |   |   |   |   |   |   |
-| Duração projetada em minutos |   | ✓ |   |   |   |   |   |   |
-| Data de início projetada | ✓ | ✓ |   |   |   |   |   |   |
-| Número de referência | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Modo de cronograma | ✓ |   |   | ✓ |   |   |   |   |
-| Severidade |   |   | ✓ |   |   |   |   |   |
-| Patrocinador | ✓ |   |   | ✓ |   |   |   |   |
-| Status | ✓ | ✓ |   |   |   |   |   |   |
-| Pontos da história |   | ✓ |   |   |   |   |   |   |
-| Modelo | ✓ |   |   |   |   |   |   |   |
-| Custo Total Estimado | ✓ |   |   | ✓ |   |   |   |   |
-| Total da receita estimada | ✓ |   |   | ✓ |   |   |   |   |
-| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
-
-{style="table-layout:auto"}
-
-Esses tipos adicionais de objetos de formulário personalizado também são compatíveis com referências de campo nativo.
-
-* Registro de cobrança: campo Receita fixa
-* Documento: campos Nome, Descrição
-* Empresa: campos Nome, Grupo
-* Cartão de taxa: campos Nome, Descrição, Empresa, Grupo
-* Função de trabalho: campos Nome, Descrição
+* **Benefício Efetivo**: Projeto
+* **Data de Término Efetivo**: Projeto, Tarefa, Problema
+* **Custo Efetivo**: Projeto, Tarefa, Problema
+* **Duração Real**: Projeto, Tarefa
+* **Horas efetivas**: Projeto, Tarefa, Problema
+* **Data de Início Efetivo**: Projeto, Tarefa, Problema
+* **Orçamento**: Projeto, Modelo, Portfolio
+* **Data de Confirmação**: Tarefa, Problema
+* **Empresa**: Projeto, Modelo, Cartão de Taxa
+* **Condição**: Projeto, Tarefa, Problema
+* **Tipo de Condição**: Projeto, Modelo
+* **Originador de Problema Convertido**: Projeto
+* **Moeda**: Projeto, Modelo
+* **Descrição**: Projeto, Tarefa, Problema, Modelo, Modelo de Tarefa, Portfolio, Programa, Grupo, Documento, Cartão de Taxa, Função de Trabalho
+* **Duração**: Tarefa, Modelo de Tarefa
+* **Tipo de Duração**: Tarefa, Modelo de Tarefa
+* **Unidade de Duração**: Tarefa, Modelo de Tarefa
+* **Cadastrado Por**: Projeto, Tarefa, Problema, Modelo, Modelo de Tarefa, Grupo
+* **Data de Entrada**: Projeto, Tarefa, Problema, Modelo, Tarefa de Modelo, Grupo
+* **Data da Taxa de Câmbio**: Projeto
+* **Custo Fixo**: Projeto, Modelo
+* **Receita Fixa**: Projeto, Modelo, Registro de Cobrança
+* **Grupo**: Projeto, Modelo, Portfolio, Programa, Empresa, Cartão de Taxa
+* **Tipo de problema**: problema
+* **Iteração**: tarefa
+* **Última Atualização realizada por**: Projeto, Tarefa, Problema, Modelo, Modelo de Tarefa
+* **Data da Última Atualização**: Projeto, Tarefa, Problema, Modelo, Tarefa de Modelo
+* **Nome**: Projeto, Tarefa, Problema, Modelo, Tarefa de Modelo, Portfolio, Programa, Grupo, Documento, Empresa, Cartão de Taxa, Função de Trabalho
+* **Proprietário**: Projeto, Modelo, Portfolio, Programa
+* **Método de Índice de Desempenho**: Projeto, Modelo
+* **Benefício Planejado**: Projeto, Modelo
+* **Data de Término Planejada**: Projeto, Tarefa, Problema
+* **Duração Planejada**: Projeto, Modelo
+* **Horas planejadas**: Projeto, Tarefa, Problema, Tarefa de modelo
+* **Data de Início Planejada**: Projeto, Tarefa, Problema
+* **Portfolio**: Projeto, Modelo, Programa
+* **Prioridade**: Projeto, Tarefa, Problema, Modelo, Modelo de Tarefa
+* **Programa**: Projeto, Modelo
+* **Data de conclusão projetada**: Projeto, Tarefa
+* **Minutos de Duração Projetados**: Tarefa
+* **Data de Início Projetada**: Projeto, Tarefa
+* **Tópico da Fila**: Problema
+* **Disponibilidade**: tarefa
+* **Número de Referência**: Projeto, Tarefa, Problema, Modelo, Tarefa de Modelo
+* **Gerentes de recursos**: projeto
+* **Modo de Agendamento**: Projeto, Modelo
+* **Severidade**: Problema
+* **Patrocinador**: projeto, modelo
+* **Status**: Projeto, Tarefa, Problema
+* **Pontos da História**: Tarefa
+* **Restrição de tarefa**: tarefa
+* **Modelo**: Projeto
+* **Isso Resolve**: Projeto, Tarefa
+* **Custo Total Estimado**: Projeto, Modelo
+* **Receita Estimada Total**: Projeto, Modelo
+* **URL**: Projeto, Tarefa, Problema, Modelo, Modelo de Tarefa
+* **Esforço de trabalho**: tarefa
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields

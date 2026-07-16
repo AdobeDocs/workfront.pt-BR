@@ -9,17 +9,12 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
 source-wordcount: 967
 ht-degree: 5%
@@ -169,14 +164,14 @@ Em vez de deixar um formulário personalizado no estado de compartilhamento padr
     </tbody> 
    </table>
 
-1. (Opcional) Repita as etapas 5 a 6 para adicionar outros nomes à lista e configurar suas opções.
+1. (Opcional) Repita as etapas 4 a 5 para adicionar outros nomes à lista e configurar suas opções.
 1. (Opcional) Se quiser limitar o acesso ao formulário personalizado (nos objetos ao qual ele está anexado) àqueles que você especificou nas etapas anteriores, clique na seta suspensa em **Quem tem acesso** e selecione **Somente pessoas convidadas podem acessar**.
 
    Se mudar de ideia, você pode selecionar **Todos no sistema podem visualizar**.
 
    >[!NOTE]
    >
-   >* Ao tornar um formulário personalizado visível em todo o sistema, você permite que os usuários o vejam e preencham apenas nos objetos aos quais estão atribuídos, e não anexem a outros objetos. Você pode conceder a capacidade de anexar o formulário personalizado a objetos usando a opção &quot;Anexar a dados personalizados&quot; explicada na etapa 6.
+   >* Ao tornar um formulário personalizado visível em todo o sistema, você permite que os usuários o vejam e preencham apenas nos objetos aos quais estão atribuídos, e não anexem a outros objetos. Você pode conceder a capacidade de anexar o formulário personalizado a objetos usando a opção &quot;Anexar a dados personalizados&quot; explicada na etapa 5.
    >* A maioria das organizações quer garantir que todos no sistema possam preencher um formulário personalizado quando ele estiver anexado a objetos nos quais trabalham e visualizar seus dados em relatórios. Se isso for verdadeiro para sua organização, recomendamos que você use o **Todos no sistema podem visualizar**.
    >* Se você selecionar **Todos no sistema podem exibir e anexar**, todos os usuários poderão anexar o formulário a outros objetos.
    >
