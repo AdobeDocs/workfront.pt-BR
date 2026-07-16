@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 2%
@@ -78,4 +78,3 @@ Para obter mais informações sobre o acesso necessário ao Workfront como um pa
    * Passe o mouse sobre o nome da equipe na lista, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) > **Excluir equipe**
    * Selecione a equipe na lista e clique em **Excluir equipe** na barra de ferramentas azul na parte inferior da página
 1. Clique em **Sim, exclua** para confirmar.
-

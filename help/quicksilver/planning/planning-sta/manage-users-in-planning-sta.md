@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 1%
@@ -132,6 +132,4 @@ Considere o seguinte ao trabalhar com níveis de acesso no Workfront Planning co
 1. Clique em **Desativar** para confirmar.
 
    Para manter registros históricos do seu trabalho, recomendamos desativar os usuários, em vez de excluí-los.
-
-
 
