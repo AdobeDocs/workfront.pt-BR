@@ -7,24 +7,18 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
 TQID: https://experienceleague.adobe.com/YIqeZbiTZH00yXJ6LnQrpEZuHvW4Y5QZVkYU3OquWqE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3c02b27f652567e117daf1d1334874144317be81
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 10%
+source-wordcount: 431
+ht-degree: 11%
 
 ---
 
 # Personalizar as colunas da lista de trabalho de prioridades
-
-{{preview-fast-release-general}}
 
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
@@ -89,11 +83,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 1. Clique em **Colunas** no lado esquerdo da tela.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Colunas](assets/columns-new-060226.png)
-
-   Imagem de amostra no ambiente de produção:
-   ![Colunas](assets/columns-new.png)
 
 1. Use os botões para exibir ou ocultar colunas na lista de trabalho.
 
@@ -109,8 +99,6 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 >
 >A coluna Name está fixa e não pode ser movida.
 
-<div class="preview">
-
 ### Adicionar e remover colunas com o Gerenciador de colunas
 
 {{step1-to-priorities}}
@@ -123,8 +111,6 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
    >Você pode adicionar somente campos existentes à exibição de lista. Campos nativos e personalizados para tarefas e problemas estão disponíveis para serem adicionados como colunas.
 
 Para obter mais informações sobre o Gerenciador de colunas, consulte a seção [Adicionar e remover colunas com o Gerenciador de colunas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) no artigo [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
-</div>
 
 ### Alterar a altura da linha na lista de prioridades
 
@@ -141,8 +127,6 @@ Para obter mais informações sobre o Gerenciador de colunas, consulte a seção
 
    A lista é atualizada imediatamente.
 
-<div class="preview">
-
 ## Gerenciar exibições para a lista de prioridades
 
 Uma exibição define as colunas, os filtros e os agrupamentos na lista com as configurações predefinidas.
@@ -157,5 +141,3 @@ Uma exibição padrão é atribuída à lista de prioridades. Você também pode
    As alterações nas exibições são salvas automaticamente. Na próxima vez que você aplicar essa visualização, as configurações de coluna e filtro permanecerão da maneira definida.
 
 Para obter mais informações sobre exibições, consulte a seção [Atualizar elementos da lista aprimorada](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements) no artigo [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
-</div>

@@ -8,26 +8,19 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
 workflow-type: tm+mt
-source-wordcount: 3124
+source-wordcount: 3142
 ht-degree: 2%
 
 ---
 
 # Usar listas aprimoradas
-
-{{preview-fast-release-general}}
 
 As listas aprimoradas estão disponíveis em algumas áreas do Adobe Workfront. Essas listas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão. O gerenciamento de visualizações também é aprimorado, incluindo filtragem, agrupamento, gerenciamento de colunas e pesquisa.
 
@@ -101,21 +94,17 @@ Dependendo da lista aprimorada que você estiver visualizando, execute um dos pr
    * Moeda: Você deve especificar informações em um formato de número precedido por um símbolo de moeda.
    * Data: use o calendário para selecionar uma data.
    * Data e hora: use o calendário para selecionar uma data e hora.
-   * Seleção única ou múltipla: selecione uma ou várias opções em um menu suspenso. <span class="preview">Se houver suporte em uma lista, você poderá criar novas opções diretamente na lista suspensa quando nenhum resultado for encontrado.</span>
+   * Seleção única ou múltipla: selecione uma ou várias opções em um menu suspenso. Se suportado em uma lista, você pode criar novas opções diretamente na lista suspensa quando nenhum resultado for encontrado.
    * Digitação antecipada: digite o nome de um objeto existente (por exemplo, o nome de um grupo ou um projeto) e escolha o nome na lista de sugestões.
    * Parágrafo: Você pode informar várias linhas de informações alfanuméricas.
    * Destinatário (um ou vários): selecione um ou mais usuários como o destinatário do item de lista.
    * Seletor de cores: escolha uma cor no seletor ou digite um código, como hexadecimal ou RGB.
-
-   <div class="preview">
 
    Os campos Destinatário, Lista suspensa de seleção única e Lista suspensa de seleção múltipla são compatíveis com os seguintes comandos de teclado:
 
    * Use as setas para cima e para baixo do teclado para percorrer a lista de itens.
    * Pressione a barra de espaço para selecionar um item.
    * Pressione a tecla Delete para remover um item selecionado.
-
-   </div>
 
    >[!NOTE]
    >
