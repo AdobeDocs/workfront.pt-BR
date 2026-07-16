@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 18a1dda4ed60986496d9850c5823b42ad2291e4f
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 2%
@@ -16,8 +16,6 @@ ht-degree: 2%
 ---
 
 # Gerenciar cartões de taxa
-
-{{highlighted-preview}}
 
 Um cartão de taxa representa o contrato com seu cliente no qual as taxas horárias são definidas para as funções de trabalho que concluirão o trabalho. Em um cartão de taxa, você pode definir várias taxas de faturamento por função de trabalho, com base em atributos como agência, local ou centro de custo. Seus atributos de taxa exclusivos são configurados na área Configuração. Para obter mais informações, consulte [Definir atributos de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
@@ -142,13 +140,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >
    >Como cada taxa está associada à combinação da função e dos atributos para criar uma taxa exclusiva, a função e os atributos não podem ser alterados quando você edita uma taxa.
 
-<div class="preview">
-
 1. Para adicionar uma taxa em um local específico na lista de taxas com datas efetivas, passe o mouse sobre a taxa e selecione o menu **Mais** à direita do nome da taxa. Em seguida, escolha **Inserir linha acima** ou **Inserir linha abaixo**.
 
    A caixa Editar taxa de cobrança é exibida, com a linha para a nova taxa de cobrança adicionada no local em que você a colocou. A taxa selecionada para adicionar uma linha acima ou abaixo é realçada com uma linha azul. Adicione a nova taxa de cobrança, ajuste as datas de efetivação nas taxas de cobrança existentes conforme necessário e clique em **Salvar**.
-
-</div>
 
 1. Para excluir uma taxa de cobrança do cartão de taxa, marque a caixa de seleção ao lado da taxa e clique em [!UICONTROL **Excluir**] na barra de ações.
 1. Para bloquear uma taxa, marque a caixa de seleção ao lado da taxa e clique em [!UICONTROL **Bloquear**] na barra de ações.

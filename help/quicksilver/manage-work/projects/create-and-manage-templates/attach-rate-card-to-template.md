@@ -6,16 +6,14 @@ title: Anexar um cartão de taxa a um modelo
 description: Quando você atribui um cartão de taxa a um modelo, o cartão de taxa é anexado a todos os projetos criados a partir do modelo.
 author: Lisa
 feature: Work Management
-source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '644'
 ht-degree: 8%
 
 ---
 
 # Anexar um cartão de taxa a um modelo
-
-{{highlighted-preview-article-level}}
 
 Quando você atribui um cartão de taxa a um modelo, o cartão de taxa é anexado a todos os projetos criados a partir do modelo. O cartão de taxa se torna o padrão no projeto, mas pode ser substituído, se necessário.
 
