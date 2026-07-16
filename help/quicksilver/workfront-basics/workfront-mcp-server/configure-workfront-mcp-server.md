@@ -5,17 +5,15 @@ title: Configurar o servidor MCP do Adobe Workfront
 description: Configure sua instância do Workfront e sua plataforma de IA para trabalhar com o Workfront por meio de uma conversa em idioma natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: 3e189faacf67a9a565b0fbd5a92786110a9785f9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
 
 
 # Configurar o servidor MCP do Adobe Workfront
-
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O servidor MCP do [!DNL Adobe Workfront] permite que você trabalhe com seus dados do Workfront por meio de conversas em linguagem natural em uma plataforma de agente de IA com suporte.
 
@@ -34,12 +32,11 @@ Este artigo aborda as etapas de conexão para:
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-Se você usar uma plataforma de agente de IA compatível com MCP diferente (por exemplo, [!DNL Gemini] ou [!DNL Microsoft Copilot]), siga as etapas na documentação dessa plataforma para adicionar um servidor MCP personalizado. Quando for solicitado o URL do servidor MCP, informe o URL da sua região:
+Se você usar uma plataforma de agente de IA compatível com MCP diferente (por exemplo, [!DNL Gemini] ou [!DNL Microsoft Copilot]), siga as etapas na documentação dessa plataforma para adicionar um servidor MCP personalizado. Quando for solicitado o URL do servidor MCP, insira:
 
-| Região | URL |
-| --- | --- |
-| EUA | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-| UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
 
 ## Pré-requisitos
 
@@ -117,12 +114,11 @@ Para conectar o Workfront a [!DNL Claude] com uma URL:
 1. No menu esquerdo, selecione o ícone **Personalizar**.
 1. Selecione **Conectores** e o ícone **+** para adicionar um conector.
 1. Selecione o botão **Criar aplicativo**.
-1. Dê ao conector um nome desejado (como &quot;Workfront&quot;) e insira o URL do servidor MCP desejado:
+1. Dê ao conector um nome desejado (como &quot;Workfront&quot;) e insira o URL do servidor MCP:
 
-   | Região | URL |
-   | --- | --- |
-   | EUA | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. Depois que o conector é criado, uma janela de logon é exibida. Autentique usando suas credenciais da Adobe ID. Selecione a instância do Workfront desejada se você pertencer a mais de uma.
 
@@ -148,12 +144,11 @@ Para saber mais sobre [!DNL Claude] habilidades, consulte a [documentação do u
 1. Na parte inferior esquerda, selecione **seu nome** → **Configurações**.
 1. Selecione **Aplicativos** e habilite o **Modo de desenvolvedor**.
 1. Selecione o botão **Criar aplicativo**.
-1. Dê um nome desejado ao aplicativo (como &quot;Workfront&quot;) e insira o URL do servidor MCP desejado:
+1. Dê um nome desejado ao aplicativo (como &quot;Workfront&quot;) e insira o URL do servidor MCP:
 
-   | Região | URL |
-   | --- | --- |
-   | EUA | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. Verifique se a Autenticação está definida como **OAuth** (definido por padrão) e marque a caixa de seleção de aceitação para continuar.
 1. Depois que o aplicativo é criado, uma janela de logon é exibida. Autentique usando suas credenciais da Adobe ID. Selecione a instância do Workfront desejada se você pertencer a mais de uma.
