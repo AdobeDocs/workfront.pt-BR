@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '733'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,9 @@ at GA, check that the Workfront plans article linked below has Planning info
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p>
+<p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p> 
+Ou
+<p>Qualquer pacote de produto do Workfront Planning como independente</p>
 
 </tr>
 

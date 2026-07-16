@@ -11,22 +11,15 @@ exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/C-en7a6FEP75vl3HwJC-uDI4tEKVCcEgMzhClAK5C8k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9256ea961c44ef3822da14868ac6909eb3809394
 workflow-type: tm+mt
-source-wordcount: 1424
-ht-degree: 11%
+source-wordcount: 1568
+ht-degree: 12%
 
 ---
 
@@ -97,13 +90,45 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
      <tr> 
       <td role="rowheader">Descrição </td> 
       <td>Digite uma descrição para o nível de acesso. É útil listar aqui o que um usuário com esse nível de acesso poderá acessar.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tipo de Licença</td> 
-      <td>Certifique-se de que a licença selecionada aqui seja a mais associada ao tipo de nível de acesso que você está criando ou editando. A licença selecionada determina quais configurações estão disponíveis para o nível de acesso. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Visão geral das novas licenças</a> ou <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Visão geral das licenças</a>.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Tipo de licença do Planning</td> 
+      <td><p>Este campo é visível somente para clientes que também compraram um pacote do Workfront Planning, além de um pacote do Workflow.</p>
+      <p>A licença selecionada determina quais configurações estão disponíveis para usuários com este nível de acesso. </p>
+      <p>Escolha entre as seguintes opções:</p>
+      <ul><li>Padrão</li>
+      <li>Colaborador</li>
+      <li>Nenhum</li>
+     </ul> 
+      Para obter mais informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso ao Adobe Workfront Planning</a> 
+      <p><b>IMPORTANTE</b></p>
+      <p>As licenças do Planning e do Fluxo de trabalho funcionam juntas para conceder aos usuários acesso ao Workfront. </p>
+      <p>Você pode conceder a um usuário diferentes níveis de tipos de licença entre os tipos de licença do Workflow e do Planning, mas a licença do Workflow não pode ser inferior à licença do Planning. </p>
+      <p>Por exemplo, você pode conceder uma licença do Workflow Standard a um usuário e uma licença do Planning Contributor, mas não pode conceder a ele uma licença do Workflow Contributor e uma licença do Planning Standard.</p>
+
+   </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Tipo de licença de fluxo de trabalho</td> 
+      <td>Certifique-se de que a licença selecionada aqui seja a mais associada ao tipo de nível de acesso que você está criando ou editando. A licença selecionada determina quais configurações estão disponíveis para o nível de acesso.
+
+   <p>Escolha entre as seguintes opções:</p>
+      <ul><li>Padrão</li>
+      <li>Colaborador</li>
+      <li>Leve</li>
+     </ul>
+
+   Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Visão geral das novas licenças</a> ou <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Visão geral das licenças</a>.
+
+
+
+   </td> 
      </tr> 
     </tbody> 
    </table>
+
 
 1. (Condicional) Se o **Standard** ou o **Plan** estiver selecionado na caixa **Tipo de Licença**, role até a seção **Permitir acesso administrativo para** e selecione permissões de acesso administrativo para aqueles que terão esse nível de acesso.
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
 workflow-type: tm+mt
-source-wordcount: '2258'
-ht-degree: 3%
+source-wordcount: '2292'
+ht-degree: 2%
 
 ---
 # Trechos
@@ -295,11 +295,13 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 
 >[!IMPORTANT]
 >
->As informações contidas neste artigo referem-se ao Adobe Workfront Planning, um recurso adicional do Adobe Workfront.
+>As informações neste artigo se referem ao Adobe Workfront Planning, que sua organização pode adquirir como um pacote do Adobe Workfront ou como um produto independente.
 >
->Para obter uma lista dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
-> 
+>Nem todos os recursos incluídos no pacote do Planning estarão disponíveis para o Workfront Planning quando ele for comprado como um produto independente.
+>
 >Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>Para obter informações sobre o Workfront Planning como um produto independente, consulte [Introdução ao Adobe Workfront Planning como um produto independente](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
 <!--
 Old - before Oct. 15, 2025:

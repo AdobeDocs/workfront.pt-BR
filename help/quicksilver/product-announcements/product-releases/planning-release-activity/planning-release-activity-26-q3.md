@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+source-git-commit: 847c38fe006ca5f1170e4b28c9b0a2c61c5c77fa
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '3111'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,38 @@ There are no features released during the Third Quarter Release for 2026. When f
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do terceiro trimestre de 2026.
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Campos do novo tipo de licença para Níveis de Acesso
+
+>[!NOTE]
+>
+>Pré-visualização e produção para todos os clientes: 16 de julho de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
+
+
+Fizemos as seguintes alterações de campo na caixa Nível de acesso:
+
+* Renomeamos o campo Tipo de licença na caixa Nível de acesso para Tipo de licença de fluxo de trabalho. Não há alterações de funcionalidade com esta renomeação.
+
+  Para obter informações, consulte [Criar e modificar níveis de acesso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* Para clientes que também compraram um pacote do Workfront Planning, adicionamos um novo campo Tipo de Licença do Planning para ilustrar a licença de um usuário no Workfront Planning.
+Os clientes que compraram um número igual de licenças do Workflow e do Planning têm os seguintes tipos de licença disponíveis:
+
+   * Planejamento padrão
+   * Colaborador de planejamento
+   * Nenhum
+
+>[!NOTE]
+>
+>Você pode atribuir aos usuários uma combinação mista de licenças entre o Workflow e o Planning, mas os usuários devem ter uma licença paga do Workflow para ter uma licença do Planning Standard.
+>
+>Por exemplo, uma licença do Planning Standard não pode ser atribuída a um usuário do Colaborador do Fluxo de Trabalho. Um usuário com uma licença do Workflow Light agora pode receber uma licença Standard para o Planning e, portanto, gerenciar espaços de trabalho e seu conteúdo. Anteriormente, só era possível ter acesso somente para visualização aos dados do Planning.
+>
+>Os novos clientes podem adquirir licenças de Planejamento e Fluxo de Trabalho em quantidades diferentes e usá-las com qualquer combinação. Nesse cenário, o tipo de licença Colaborador do Planning não está disponível.
+
+Para obter informações, consulte [Visão geral sobre acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Controle de acesso automatizado para o Workfront Planning no Snowflake
 
