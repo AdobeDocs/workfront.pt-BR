@@ -5,9 +5,9 @@ title: Configurar o servidor MCP do Adobe Workfront
 description: Configure sua instância do Workfront e sua plataforma de IA para trabalhar com o Workfront por meio de uma conversa em idioma natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 3e189faacf67a9a565b0fbd5a92786110a9785f9
+source-git-commit: e9ddfa2847c44b0a92af3239a52d704d4a866dc8
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 0%
 O servidor MCP do [!DNL Adobe Workfront] permite que você trabalhe com seus dados do Workfront por meio de conversas em linguagem natural em uma plataforma de agente de IA com suporte.
 
 Antes de conectar uma plataforma de agente de IA ao Workfront, um administrador do Workfront deve habilitar o acesso ao servidor MCP na instância do Workfront. As etapas exatas para conectar uma plataforma de agente de IA são diferentes para cada plataforma de agente de IA compatível.
-
->[!IMPORTANT]
->
->Atualmente, o servidor MCP do Workfront está disponível somente para clientes que usam o AWS. Os clientes que usam GCP ou Azure poderão usar a funcionalidade MCP do Workfront em breve.
 
 ## Plataformas de IA compatíveis
 
@@ -66,10 +62,6 @@ Você se conecta ao Workfront uma vez a cada conta [!DNL Claude]. A conexão é 
 
 
 ### Conectar-se ao Claude Desktop a partir do diretório connectors
-
->[!IMPORTANT]
->
->Atualmente, o Claude Connector só oferece suporte à conexão com o servidor MCP do Workfront na região dos EUA.  Para se conectar a uma instância do Workfront na região da UE, consulte [Conectar-se a Claude com uma URL](#connect-to-claude-with-a-url) neste artigo.
 
 +++ Expanda para exibir as instruções passo a passo para conectar o Workfront ao [!DNL Claude].
 
@@ -122,14 +114,6 @@ Para conectar o Workfront a [!DNL Claude] com uma URL:
 
 1. Depois que o conector é criado, uma janela de logon é exibida. Autentique usando suas credenciais da Adobe ID. Selecione a instância do Workfront desejada se você pertencer a mais de uma.
 
-   >[!NOTE]
-   >
-   >Sua instância do Workfront deve se conectar com o servidor MCP da região dessa instância. Por exemplo, uma instância UE deve se conectar ao servidor MCP UE.
-   >
-   >Ao selecionar uma instância, as instâncias que não são compatíveis com a região do servidor MCP aparecerão esmaecidas e você não poderá se conectar a elas.
-   >
-   >Para conectar-se a uma instância incompatível com a região do servidor MCP, configure uma nova conexão MCP com o URL correto para essa região.
-
 +++
 
 ### Personalizar o comportamento do Claude com habilidades
@@ -152,14 +136,6 @@ Para saber mais sobre [!DNL Claude] habilidades, consulte a [documentação do u
 
 1. Verifique se a Autenticação está definida como **OAuth** (definido por padrão) e marque a caixa de seleção de aceitação para continuar.
 1. Depois que o aplicativo é criado, uma janela de logon é exibida. Autentique usando suas credenciais da Adobe ID. Selecione a instância do Workfront desejada se você pertencer a mais de uma.
-
-   >[!NOTE]
-   >
-   >Sua instância do Workfront deve se conectar com o servidor MCP da região dessa instância. Por exemplo, uma instância UE deve se conectar ao servidor MCP UE.
-   >
-   >Ao selecionar uma instância, as instâncias que não são compatíveis com a região do servidor MCP aparecerão esmaecidas e você não poderá se conectar a elas.
-   >
-   >Para conectar-se a uma instância incompatível com a região do servidor MCP, configure uma nova conexão MCP com o URL correto para essa região.
 
 
 ### Personalizar o comportamento do ChatGPT com GPTs personalizados
