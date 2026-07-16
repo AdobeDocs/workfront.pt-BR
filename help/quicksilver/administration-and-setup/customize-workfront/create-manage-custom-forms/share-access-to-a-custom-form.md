@@ -9,26 +9,19 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
 workflow-type: tm+mt
-source-wordcount: 980
+source-wordcount: 967
 ht-degree: 5%
 
 ---
 
 # Compartilhar um formulário personalizado
-
-{{preview-fast-release-general}}
 
 É possível configurar o acesso para um formulário personalizado para controlar quem — pessoa, função, grupo, equipe, empresa, perfil de negócios — pode exibi-lo, compartilhá-lo e editá-lo.
 
@@ -64,9 +57,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Por padrão, quando você cria um novo formulário personalizado e alguém o anexa a um objeto, qualquer usuário atribuído ao objeto pode visualizar e preencher o formulário. Isso inclui usuários com licenças de Colaborador ou Solicitação e usuários externos.
 
-No entanto, em um objeto em que o formulário personalizado ainda não está anexado, um usuário (mesmo que tenha um nível de acesso de Planejador) não pode anexá-lo pelo menu suspenso Forms personalizado, a menos que uma das seguintes opções seja verdadeira:
+No entanto, em um objeto em que o formulário personalizado ainda não está anexado, um usuário (mesmo que tenha um nível de acesso Padrão ou Planejador) não pode anexá-lo do menu suspenso Forms personalizado, a menos que uma das seguintes opções seja verdadeira:
 
-* <span class="preview">Alguém compartilhou o formulário personalizado como &quot;Todos no sistema podem exibir e anexar&quot;</span>
+* Alguém compartilhou o formulário personalizado como &quot;Todos no sistema podem visualizar e anexar&quot;
 * Alguém compartilhou o formulário personalizado com o usuário ou com sua equipe, função de trabalho, grupo, empresa ou perfil de negócios que concede pelo menos a permissão Exibir com a opção Anexar aos dados personalizados selecionada
 * O usuário tem uma licença Padrão ou de Plano e seu nível de acesso permite acesso administrativo a formulários personalizados
 
@@ -180,13 +173,9 @@ Em vez de deixar um formulário personalizado no estado de compartilhamento padr
    >
    >* Ao tornar um formulário personalizado visível em todo o sistema, você permite que os usuários o vejam e preencham apenas nos objetos aos quais estão atribuídos, e não anexem a outros objetos. Você pode conceder a capacidade de anexar o formulário personalizado a objetos usando a opção &quot;Anexar a dados personalizados&quot; explicada na etapa 6.
    >* A maioria das organizações quer garantir que todos no sistema possam preencher um formulário personalizado quando ele estiver anexado a objetos nos quais trabalham e visualizar seus dados em relatórios. Se isso for verdadeiro para sua organização, recomendamos que você use o **Todos no sistema podem visualizar**.
-   >* <span class="preview">Se você selecionar **Todos no sistema podem exibir e anexar**, todos os usuários poderão anexar o formulário a outros objetos.</span>
+   >* Se você selecionar **Todos no sistema podem exibir e anexar**, todos os usuários poderão anexar o formulário a outros objetos.
    >
-   ><span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    >![Compartilhar formulário personalizado](assets/share-custom-forms-all-can-attach.png)
-   >   
-   >Imagem de amostra no ambiente de produção:
-   >![Compartilhar formulário personalizado](assets/share-custom-form-in-designer.png)
    >   
    >Se você estiver preocupado com um formulário personalizado em que os usuários podem inserir dados confidenciais quando ele é anexado a determinados objetos, limitar o compartilhamento para esses *objetos* pode ser mais eficaz, em vez de limitar o acesso ao próprio formulário.
 

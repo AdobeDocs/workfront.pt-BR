@@ -11,31 +11,21 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 61d733a9808850e780bfd74dbf3dcfb9d9d86282
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 8296
-ht-degree: 86%
+source-wordcount: 7795
+ht-degree: 81%
 
 ---
 
 # Criar um formulário personalizado
 
 <!-- Audited: 6/2025 -->
-
-{{preview-fast-release-general}}
 
 Você pode criar um formulário personalizado com o designer de formulário no Adobe Workfront. Você pode anexar formulários personalizados a diferentes objetos do Workfront para captar dados sobre esses objetos.
 
@@ -77,7 +67,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. Clique em **Novo formulário personalizado.**
 1. Selecione os tipos de objeto aos quais você deseja anexar o formulário personalizado e clique em **Continuar**.
 
-   ![Escolha os tipos de objeto](assets/new-custom-form-select-objects-032526.png)
+   ![Escolha os tipos de objeto](assets/new-custom-form-select-objects-new-spectrum-icons.png)
 
    +++ Expanda para exibir a lista de objetos que oferecem suporte a formulários personalizados.
 
@@ -119,7 +109,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * [Adicionar campos de texto](#add-text-fields)
    * [Adicionar campos calculados](#add-calculated-fields)
    * [Adicionar botões de opção, grupos de caixas de seleção e menus suspensos](#add-radio-buttons-checkbox-groups-and-drop-downs)
-   * [Adicionar campos de preenchimento automático e de data](#add-typeahead-and-date-fields)
+   * [Adicionar campos de data](#add-date-fields)
    * [Adicionar campos de pesquisa externa](#add-external-lookup-fields)
    * [Adicionar imagens, PDFs e vídeos](#add-images-pdfs-and-videos)
    * [Adicionar campos nativos do Workfront](#add-workfront-native-fields)
@@ -163,7 +153,7 @@ Os formulários personalizados são limitados a 500 campos. Um contador no canto
   >
   >Evite usar caracteres especiais nesse rótulo, pois eles não são exibidos corretamente nos relatórios.
 
-* Um nome de API é necessário para cada campo. Esse nome é a maneira como o sistema identifica o campo personalizado quando você o adiciona a várias áreas do Workfront, como relatórios, página inicial e interações com a API. Quando você está configurando o campo ou widget pela primeira vez e digita o rótulo, o campo Nome / <span class="preview">campo Nome da API</span> é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome / <span class="preview">Nome da API</span> não estão sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.
+* Um nome de API é necessário para cada campo. Esse nome é a maneira como o sistema identifica o campo personalizado quando você o adiciona a várias áreas do Workfront, como relatórios, página inicial e interações com a API. Ao configurar o campo ou widget pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome da API não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.
 
 * Cada nome de API de campo personalizado deve ser exclusivo na instância do Workfront da organização. Dessa forma, você pode reutilizar um nome que já foi criado para outro formulário personalizado.
 
@@ -171,7 +161,7 @@ Os formulários personalizados são limitados a 500 campos. Um contador no canto
 
   Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar o nome da API, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
 
-* <span class="preview">Os nomes de API são somente leitura por padrão. Para tornar o nome da API editável, clique no ícone **Editar** ao lado do **Nome da API**. Em seguida, digite **confirmar** na caixa de confirmação e clique em **Renomear campo**. </span>
+* Os nomes das APIs são somente leitura por padrão. Para tornar o nome da API editável, clique no ícone **Editar** ao lado do **Nome da API**. Em seguida, digite **confirmar** na caixa de confirmação e clique em **Renomear campo**.
 
 * Recomendamos que você não digite um nome de API que já esteja sendo usado para campos integrados do Workfront.
 
@@ -199,19 +189,21 @@ Os formulários personalizados são limitados a 500 campos. Um contador no canto
 
 * **Campo de texto de linha única**: permite que os usuários digitem uma única linha de texto no campo.
 * **Campo de parágrafo**: permite que os usuários digitem várias linhas de texto no campo.
-* <span class="preview">**Rich text**: permite que os usuários digitem várias linhas de texto no campo e formatem o texto com negrito, itálico, sublinhado, marcadores, numeração, subscrito e sobrescrito, hiperlinks, aspas de bloco, cabeçalhos e tabelas. Um limite de 15.000 caracteres fornece um grande espaço para texto e formatação.</span>
-
-  <span class="preview">O tipo de campo Rich text está substituindo o Texto pelo tipo de campo de formatação. Você pode converter rapidamente texto existente com campos de formatação em Rich text, clicando no botão **Converter em Rich Text** nas opções de campo à direita.</span>
-
-* **Campo de texto com formatação**: permite aos usuários digitar várias linhas de texto no campo e formatar o texto com negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco. Um limite de 15.000 caracteres permite bastante texto e formatação.
-
-  Esse tipo de campo personalizado não é aceito nos filtros em listas e relatórios.
-
-  Para obter informações sobre como acessar esse campo por meio da API, consulte [Armazenamento de campo rich text na API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+* **Rich text**: permite que os usuários digitem várias linhas de texto no campo e formatem o texto com negrito, itálico, sublinhado, marcadores, numeração, subscrito e sobrescrito, hiperlinks, aspas de bloco, cabeçalhos e tabelas. Um limite de 15.000 caracteres fornece um grande espaço para texto e formatação.
 
   >[!NOTE]
   >
-  >Os campos de texto com formatação não estão disponíveis para aplicativos móveis do Workfront (estarão nas próximas versões).
+  >O tipo de campo Rich text está substituindo o texto pelo tipo de campo de formatação. Você pode converter rapidamente texto existente com campos de formatação em Rich text, clicando no botão **Converter em Rich Text** nas opções de campo à direita.
+
+<!--
+
+* **Text field with formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
+
+    This custom field type is not supported in filters on lists and reports.
+
+    For information about accessing this field through the API, see [Rich text field storage in the API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+
+-->
 
 * **Texto descritivo**: permite incluir instruções e vincular a páginas fora do Workfront.
 
@@ -223,9 +215,9 @@ Para adicionar um campo de texto:
 
    * Texto de linha única
    * Parágrafo
-   * <span class="preview">Rich text</span>
-   * Texto com formatação
+   * Rich text
    * Texto descritivo
+     <!--Text with formatting-->
 
    ![Arraste o campo para a seção](assets/drag-field-to-section.png)
 
@@ -244,8 +236,7 @@ Para adicionar um campo de texto:
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
-    <li><span class="preview">Rich text</span></li>
-    <li>Texto com formatação</li>
+    <li>Rich text</li>
     <li>Texto descritivo</li>
     </ul></td>
     </tr>
@@ -256,31 +247,30 @@ Para adicionar um campo de texto:
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
-    <li><span class="preview">Rich text</span></li>
-    <li>Texto com formatação</li>
+    <li>Rich text</li>
     </ul></td>
     </tr>
     <tr>
-     <td>Nome</td>
-    <td><p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
+     <td>Nome da API</td>
+    <td><p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Ao configurar o widget pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome da API não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
     <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p>
     </td>
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
-    <li><span class="preview">Rich text</span></li>
-    <li>Texto com formatação</li>
+    <li>Rich text</li>
     <li>Texto descritivo</li>
     </ul></td>
     </tr>
     <tr>
     <td>Instruções</td>
-    <td>Digite quaisquer informações adicionais sobre o campo. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</td>
+    <td>Digite quaisquer informações adicionais sobre o campo. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.
+    <img src="assets/instructions-form-designer.png">
+    </td>
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
-    <li><span class="preview">Rich text</span></li>
-    <li>Texto com formatação</li>
+    <li>Rich text</li>
     </ul></td>
     </tr>
     <tr>
@@ -331,8 +321,7 @@ Para adicionar um campo de texto:
      <td><ul>
      <li>Texto de linha única</li>
      <li>Parágrafo</li>
-     <li><span class="preview">Rich text</span></li>
-     <li>Texto com formatação</li>
+     <li>Rich text</li>
      <li>Texto descritivo</li></ul></td>
     </tr>
     <tr> 
@@ -341,8 +330,7 @@ Para adicionar um campo de texto:
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
-    <li><span class="preview">Rich text</span></li>
-    <li>Texto com formatação</li>
+    <li>Rich text</li>
     </ul></td> 
     </tr> 
    </table>
@@ -415,8 +403,8 @@ Para adicionar botões de opção, grupos de caixas de seleção e listas suspen
     </ul></td>
      </tr> 
      <tr> 
-    <td role="rowheader">Nome</td> 
-     <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p> 
+    <td role="rowheader">Nome da API</td> 
+     <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Ao configurar o widget pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome da API não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p> 
     <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td>
      <td><ul>
     <li>Botões de opção</li>
@@ -538,127 +526,188 @@ Para adicionar botões de opção, grupos de caixas de seleção e listas suspen
 
    Ou
 
-   Clique em **Salvar e Fechar**.
+   Clique em **Salvar e fechar**.
 
-### Adicionar campos de preenchimento automático e de data
+<!--
 
-Você pode adicionar campos de preenchimento automático e de data a um formulário personalizado.
+### Add typeahead and date fields
 
-+++ Expanda para ver as descrições dos campos disponíveis.
+ You can add typeahead and date fields to a custom form.
 
-* **Preenchimento automático**: permite que os usuários digitem o nome de um objeto que existe no Workfront. Uma lista de sugestões é exibida quando o usuário começa a digitar. Esse tipo de campo oferece suporte aos seguintes objetos:
-   * Usuário
-   * Grupo
-   * Função no trabalho
-   * Portfólio
-   * Programa
-   * Projeto
-   * Equipe
-   * Modelo
-   * Empresa
-* **Data**: exibe um calendário em que os usuários podem selecionar uma data e hora.
++++ Expand to see descriptions of available fields.
+
+* **Typeahead**: Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. This field type supports the following objects:
+    * User
+    * Group
+    * Job Role
+    * Portfolio
+    * Program
+    * Project
+    * Team
+    * Template
+    * Company
+* **Date**: Displays a calendar where users can select a date and time.
 
 +++
 
-Para adicionar campos de preenchimento automático e de data:
+To add typeahead and date fields:
 
-1. Na guia **Novo campo** no lado esquerdo da tela, localize um dos campos a seguir e arraste-o para uma seção na tela.
+1. In the **New field** tab on the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
-   * Preenchimento automático
-   * Data
+    * Typeahead
+    * Date
 
-   ![Arraste o campo para a seção](assets/drag-field-to-section.png)
+    ![Drag field to section](assets/drag-field-to-section.png)
 
-1. No lado direito da tela, configure as opções disponíveis para o tipo de campo personalizado que você está adicionando:
+1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
-   <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
     <tbody> 
      <tr>
-    <td>Configuração de campo</td>
-    <td>Descrição</td>
-    <td>Disponível para </td>
+    <td>Field setting</td>
+    <td>Description</td>
+    <td>Available for </td>
     </tr>
      <tr> 
-      <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
        <td><ul>
-    <li>Preenchimento automático</li>
-    <li>Data</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Nome</td> 
-      <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p> 
-      <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td>
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> 
+      <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
     <td><ul>
-    <li>Preenchimento automático</li>
-    <li>Data</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Instruções</td> 
-      <td> <p>Digite quaisquer informações adicionais sobre o campo personalizado. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</p> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> 
       <p> <img src="assets/instructions-form-designer.png"> </p>
       </td> 
          <td><ul>
-    <li>Preenchimento automático</li>
-    <li>Data</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Exibir horário</td> 
-      <td>Selecione essa opção se quiser mostrar a hora do dia junto com a data no campo.</td> 
+      <td role="rowheader">Display Time of Day</td> 
+      <td>Select this option if you want to show the time of day along with the date in the field.</td> 
          <td><ul>
-    <li>Data</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo de objeto referenciado</td> 
-      <td> <p>Selecione o tipo de objeto que deseja associar ao campo.</p> <p>Depois de clicar em <b>Aplicar</b> ou <b>Salvar e fechar</b>, você não poderá alterar o tipo de objeto do campo.</p> <p><b>Observação</b>:   
+      <td role="rowheader">Referenced Object Type</td> 
+      <td> <p>Select the object type that you want to associate with the field.</p> <p>Once you have clicked <b>Apply</b> or <b>Save and Close</b>, you can't change the object type for the field.</p> <p><b>Note</b>:   
         <ul> 
-         <li>Se o administrador do Workfront personalizou o nome de Portfólios, Programas ou Projetos na interface do usuário do Workfront, o nome padrão do Workfront para o objeto aparecerá nesse menu suspenso, e não o nome personalizado. Consulte o administrador do Workfront se precisar de ajuda com isso.<br></li> 
-         <li>Os seguintes tipos de objeto são aceitos nos aplicativos móveis do Workfront para iOS e Android: Usuário, Empresa, Grupo, Função no trabalho, Portfólio, Programa, Projeto e Modelo.</li> 
+         <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
+         <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li> 
         </ul> </p> </td> 
          <td><ul>
-    <li>Preenchimento automático</li>
+    <li>Typeahead</li>
     </ul></td>
      </tr>
      <tr>
-      <td role="rowheader">Adicionar filtro</td>
-      <td><p>Adicione um filtro para um tipo de objeto para limitar os objetos que os usuários podem escolher quando estiverem usando o campo. </p> <p>Por exemplo, é possível limitar um campo para que os nomes de usuário possam ser selecionados somente se atenderem aos seguintes critérios:</p> 
+      <td role="rowheader">Add Filter</td>
+      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that usernames can be selected only if they meet the following criteria:</p> 
        <ul> 
-        <li>Eles pertencem a um ou mais grupos especificados.</li> 
-        <li>Eles estão associados a uma função ou cargo especificado por você.</li> 
-        <li>Eles pertencem ao mesmo grupo que a pessoa que está usando o campo.</li> 
+        <li>They belong to a group or groups that you specify.</li> 
+        <li>They are associated with a role or job title you specify.</li> 
+        <li>They belong to the same group as the person using the field.</li> 
        </ul>
-       <p>Use a sintaxe do modo texto para definir o filtro para o tipo de objeto selecionado. Para obter informações sobre como criar um filtro usando o modo texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar um filtro usando o modo texto</a>.</p>
-       <p><b>Dica:</b> você pode criar um relatório para testar o filtro antes de adicioná-lo diretamente ao campo de preenchimento automático. Isso ajudará a verificar se o filtro retorna os objetos corretos. Em seguida, você pode alternar para o modo de texto no relatório, copiar a instrução do modo de texto e adicioná-la ao filtro de preenchimento automático.</p>
-       <p><b>Observação</b>:
+       <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><b>Tip:</b> You can create a report to test your filter before adding the filter directly to the typeahead field. This will help you verify that the filter returns the correct objects. Then you can switch to text mode in the report, copy the text mode statement, and add it to the typeahead filter.</p>
+       <p><b>Note</b>:
        <ul> 
-        <li>Se você estiver editando um formulário personalizado, adicionar um filtro a um campo de preenchimento automático não remove nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
-        <li>Esse filtro não está disponível em dispositivos móveis. Se você usar o filtro para um campo de preenchimento automático, o campo aparecerá nos dispositivos móveis dos usuários sem ser afetado pelo filtro.</li> 
+        <li>If you are editing an existing custom form, adding a filter to a typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
+        <li>This filter is not available on mobile devices. If you use the filter for a typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p>
       </td>  
       <td>
        <ul>
-       <li>Preenchimento automático</li>
+       <li>Typeahead</li>
        </ul>
       </td>
      </tr>
      <tr>
-      <td>Ativo</td>
-      <td><p>Essa opção está desabilitada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído de relatórios, filtros e visualizações, e não está mais disponível na biblioteca de campos dos formulários personalizados.</p></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
       <td><ul>
-      <li>Preenchimento automático</li>
-      <li>Data</li></ul></td>
+      <li>Typeahead</li>
+      <li>Date</li></ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">Tornar um campo obrigatório</td> 
-      <td>Selecione esta opção se desejar que o campo seja obrigatório para a conclusão do preenchimento do formulário personalizado. </td> 
+      <td role="rowheader">Make a required field</td> 
+      <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
        <td><ul>
-    <li>Preenchimento automático</li>
-    <li>Data</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    Or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    Or
+
+    Click **Save and Close**.
+
+-->
+
+### Adicionar campos de data
+
+Um campo de data exibe um calendário no qual os usuários podem selecionar uma data e hora.
+
+Para adicionar campos de data:
+
+1. Na guia **Novo campo** no lado esquerdo da tela, localize **Data** e arraste-o para uma seção da tela.
+
+   ![Arraste o campo para a seção](assets/drag-field-to-section.png)
+
+1. No lado direito da tela, configure as opções do campo personalizado:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Rótulo</td> 
+      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nome da API</td> 
+      <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Ao configurar o widget pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome da API não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p> <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Instruções</td> 
+      <td> <p>Digite quaisquer informações adicionais sobre o campo personalizado. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Exibir horário</td>
+      <td><p>Selecione essa opção se quiser mostrar a hora do dia junto com a data no campo.</p></td>
+     </tr> 
+     <tr>
+      <td>Ativo</td>
+      <td><p>Essa opção está desabilitada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído de relatórios, filtros e visualizações, e não está mais disponível na biblioteca de campos dos formulários personalizados.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Tornar um campo obrigatório</td>
+      <td><p>Selecione esta opção se desejar que o campo seja obrigatório para a conclusão do preenchimento do formulário personalizado.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -698,11 +747,11 @@ Para adicionar uma pesquisa externa:
     <tbody> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nome</td> 
-      <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Porém, os campos Rótulo e Nome não são sincronizados — isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
+      <td role="rowheader">Nome da API</td> 
+      <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Mas os campos Rótulo e Nome da API não são sincronizados — isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
       <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instruções</td> 
@@ -748,14 +797,15 @@ Para adicionar uma pesquisa externa:
      </tr>
      <tr> 
       <td role="rowheader">Caminho JSON</td>
-      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no formato a seguir, será possível usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:
+      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no formato a seguir, será possível usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;</pre>
+       }
+      }
+      </pre>
       </p>
      <p>Para obter mais informações sobre o caminho JSON e garantir que você o escreva corretamente, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
@@ -794,7 +844,7 @@ Para adicionar uma pesquisa externa:
 >* Tempo de espera entre tentativas: 500 ms
 >* Status de resposta esperados: 2xx
 
-<div class="preview">
+
 
 ### Adicionar campos de pesquisa interna
 
@@ -825,11 +875,11 @@ Para adicionar uma pesquisa interna:
     <tbody> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nome</td> 
-      <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Porém, os campos Rótulo e Nome não são sincronizados — isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
+      <td role="rowheader">Nome da API</td> 
+      <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Mas os campos Rótulo e Nome da API não são sincronizados — isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
       <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instruções</td> 
@@ -881,8 +931,6 @@ Para adicionar uma pesquisa interna:
 
    Clique em **Salvar e fechar**.
 
-</div>
-
 ### Adicionar imagens, PDFs e vídeos
 
 Você pode adicionar imagens, PDFs e vídeos a um formulário personalizado. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem ver a imagem, o PDF ou o vídeo somente nas seguintes áreas:
@@ -929,11 +977,11 @@ Para adicionar imagens, PDFs ou vídeos:
      </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nome</td> 
-      <td> <p>(Exigido) Esse nome é a maneira como o sistema identifica o widget. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p> <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td role="rowheader">Nome da API</td> 
+      <td> <p>(Exigido) Esse nome é a maneira como o sistema identifica o widget. Ao configurar o widget pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome da API não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p> <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -1002,32 +1050,32 @@ A tabela lista os campos nativos disponíveis para objetos específicos do Workf
 
 | Nome do campo | Projeto | Tarefa | Problema | Modelo | Tarefa de modelo | Portfólio | Programa | Grupo |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| <span class="preview"> Benefício Efetivo </span> | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
+| Benefício efetivo | ✓ |   |   |   |   |   |   |   |
 | Data de Término Efetivo | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Duração efetiva | ✓ |   |   |   |   |   |   |   |
 | Horas efetivas | ✓ |   | ✓ |   |   |   |   |   |
 | Data de início efetiva | ✓ | ✓ | ✓ |   |   |   |   |   |
-| <span class="preview"> Orçamento </span> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
+| Orçamento | ✓ |   |   | ✓ |   | ✓ |   |   |
 | Empresa | ✓ |   |   | ✓ |   |   |   |   |
 | Condição | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Tipo de condição | ✓ |   |   | ✓ |   |   |   |   |
-| <span class="preview"> Moeda </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Moeda | ✓ |   |   | ✓ |   |   |   |   |
 | Descrição | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Duração |   | ✓ |   |   | ✓ |   |   |   |
 | Tipo de duração |   | ✓ |   |   | ✓ |   |   |   |
 | Unidade de duração |   | ✓ |   |   | ✓ |   |   |   |
 | Inserido por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | Data de entrada | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| <span class="preview"> Data da Taxa de Câmbio </span> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
-| <span class="preview"> Custo Fixo </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview"> Receita Fixa </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Data da taxa de câmbio | ✓ |   |   |   |   |   |   |   |
+| Custo Fixo | ✓ |   |   | ✓ |   |   |   |   |
+| Receita com Valor Fixo | ✓ |   |   | ✓ |   |   |   |   |
 | Grupo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Última atualização por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Data da última atualização | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Nome | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Proprietário | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| <span class="preview"> Método de Índice de Desempenho </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview"> Benefício Planejado </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Método Índice de desempenho | ✓ |   |   | ✓ |   |   |   |   |
+| Benefício planejado | ✓ |   |   | ✓ |   |   |   |   |
 | Data de conclusão planejada | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Duração planejada | ✓ |   |   | ✓ |   |   |   |   |
 | Horas planejadas | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
@@ -1045,13 +1093,11 @@ A tabela lista os campos nativos disponíveis para objetos específicos do Workf
 | Status | ✓ | ✓ |   |   |   |   |   |   |
 | Pontos da história |   | ✓ |   |   |   |   |   |   |
 | Modelo | ✓ |   |   |   |   |   |   |   |
-| <span class="preview"> Custo Total Estimado </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview"> Receita Total Estimada </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Custo Total Estimado | ✓ |   |   | ✓ |   |   |   |   |
+| Total da receita estimada | ✓ |   |   | ✓ |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
-
-<div class="preview">
 
 Esses tipos adicionais de objetos de formulário personalizado também são compatíveis com referências de campo nativo.
 
@@ -1060,8 +1106,6 @@ Esses tipos adicionais de objetos de formulário personalizado também são comp
 * Empresa: campos Nome, Grupo
 * Cartão de taxa: campos Nome, Descrição, Empresa, Grupo
 * Função de trabalho: campos Nome, Descrição
-
-</div>
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
@@ -1084,11 +1128,11 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nome</td>
-      <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
+      <td role="rowheader">Nome da API</td>
+      <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome da API não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
       <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p></td> 
      </tr> 
      <tr> 
@@ -1107,12 +1151,12 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>Eles estão associados a uma função ou cargo especificado por você.</li> 
         <li>Eles pertencem ao mesmo grupo que a pessoa que está usando o campo.</li> 
        </ul>
-       <p><span class="preview">Quando um filtro do sistema existe no campo, ele é aplicado por padrão se você não adicionar um filtro personalizado. Um filtro personalizado substitui o filtro do sistema.</span></p>
+       <p>Quando um filtro do sistema existe no campo, ele é aplicado por padrão se você não adicionar um filtro personalizado. Um filtro personalizado substitui o filtro do sistema.</p>
        <p>Use a sintaxe do Modo texto para definir o filtro para o campo de referência selecionado. Para obter informações, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar um filtro usando o modo texto</a>.</p>
-       <p><span class="preview">Use a sintaxe de filtro dinâmico para restringir a lista de itens neste campo com base no valor de outro campo. Por exemplo, quando você usa <code>?portfolioID={portfolio}.{ID}</code> em um filtro de campo de Projeto e um campo nativo do Portfolio está no formulário personalizado, o campo Projeto mostra somente os projetos que estão no portfólio selecionado. Se o campo Portfolio for deixado em branco, todos os projetos estarão disponíveis no campo Projeto.</span></p>
+       <p>Use a sintaxe de filtro dinâmico para restringir a lista de itens neste campo com base no valor de outro campo. Por exemplo, quando você usa <code>?portfolioID={portfolio}.{ID}</code> em um filtro de campo de Projeto e um campo nativo do Portfolio está no formulário personalizado, o campo Projeto mostra somente os projetos que estão no portfólio selecionado. Se o campo Portfolio for deixado em branco, todos os projetos estarão disponíveis no campo Projeto.</p>
        <p><b>Observação</b>:
        <ul> 
-        <li>A opção de filtro só está disponível quando você referencia um campo nativo de preenchimento automático, como Portfólio, Empresa ou Proprietário.</li>
+        <li>A opção de filtro só está disponível quando você faz referência a um campo de pesquisa interno ou de digitação antecipada nativa, como Portfolio, Empresa ou Proprietário.</li>
         <li>Se você estiver editando um formulário personalizado existente, adicionar um filtro a um campo nativo não removerá nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
         <li>Esse filtro não está disponível em dispositivos móveis. Se você usar o filtro para um campo nativo, o campo aparecerá nos dispositivos móveis dos usuários sem ser afetado pelo filtro.</li> 
         </ul></p></td> 
@@ -1157,17 +1201,18 @@ Para adicionar um arquivo do Adobe XD:
      </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nome</td> 
-      <td> <p>(Exigido) Esse nome é a maneira como o sistema identifica o widget. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
+      <td role="rowheader">Nome da API</td> 
+      <td> <p>(Exigido) Esse nome é a maneira como o sistema identifica o widget. Ao configurar o widget pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome da API não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
     <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obrigatório) Digite ou cole um link de protótipo válido do XD.</p> 
-      <p><b>Observação</b>: a configuração de Acesso ao link na guia Compartilhar do Adobe XD deve ser definida como Qualquer pessoa que tenha o link. Caso contrário, os usuários não poderão visualizar o protótipo. </td> 
+      <p><b>Observação</b>: a configuração de Acesso ao link na guia Compartilhar do Adobe XD deve ser definida como Qualquer pessoa que tenha o link. Caso contrário, os usuários não poderão visualizar o protótipo. 
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instruções</td> 
@@ -1234,8 +1279,8 @@ Para adicionar um campo de conexão do Planejamento:
       <p>Recomendamos que você escolha um rótulo que ajude a identificar facilmente de onde vem o registro do Planejamento. Adicione informações como o nome do espaço de trabalho ou o nome do tipo de registro. </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nome</td>
-      <td> <p>(Obrigatório) O nome é a forma como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p></td> 
+      <td role="rowheader">Nome da API</td>
+      <td> <p>(Obrigatório) O nome é a forma como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Os campos Rótulo e Nome da API não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instruções</td> 
