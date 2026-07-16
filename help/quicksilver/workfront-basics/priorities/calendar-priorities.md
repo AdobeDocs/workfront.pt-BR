@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 502
-ht-degree: 12%
+source-wordcount: 523
+ht-degree: 11%
 
 ---
 
@@ -82,7 +82,9 @@ Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ve
 {{step1-to-priorities}}
 
 1. Clique no ícone **Calendário** na parte superior da lista de trabalho.
+
    ![ícone do calendário](assets/calendar-tab.png)
+
 1. Selecione um ou mais filtros para restringir seus itens de trabalho.
 
    +++Expanda para ver informações detalhadas sobre filtros disponíveis
@@ -162,7 +164,9 @@ Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ve
 {{step1-to-priorities}}
 
 1. Clique no ícone **Calendário** na parte superior da lista de trabalho.
+
    ![ícone do calendário](assets/calendar-tab.png)
+
 1. Clique no ícone **Configurações** no canto direito do calendário.
 
 1. Na guia **Estilo da barra**, escolha até 5 campos para exibir na barra de itens de trabalho do calendário.

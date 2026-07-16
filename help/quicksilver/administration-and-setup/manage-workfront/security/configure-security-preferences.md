@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1218
 ht-degree: 10%
 
 ---
@@ -150,8 +150,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td>Permite optar por habilitar ou desabilitar a experiência da lista de trabalho de prioridades para seus usuários. Os usuários ainda verão os ícones de Prioridades no Workfront, mas não terão acesso à funcionalidade. Para obter mais informações sobre prioridades, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introdução às prioridades</a>.</td> 
      </tr>
      <tr>
-      <td><span class="preview">Sempre exigir campos obrigatórios na edição em massa</span></td>
-      <td><span class="preview"><p>Permite escolher se força os usuários a inserir informações em campos obrigatórios ao editar objetos em massa.</p> <p>Quando essa opção é selecionada, os campos obrigatórios devem ter valores antes de salvar no modo de edição em massa. Se o campo obrigatório não tiver um valor para pelo menos um objeto selecionado em massa, não será permitido salvar.</p> <p>Quando essa opção não está selecionada, os campos obrigatórios só são aplicados quando um usuário modifica o campo. Se um campo não for modificado, será tratado como opcional e não validado.</p></span></td>
+      <td>Sempre exigir campos obrigatórios na edição em massa</td>
+      <td><p>Permite escolher se força os usuários a inserir informações em campos obrigatórios ao editar objetos em massa.</p> <p>Quando essa opção é selecionada, os campos obrigatórios devem ter valores antes de salvar no modo de edição em massa. Se o campo obrigatório não tiver um valor para pelo menos um objeto selecionado em massa, não será permitido salvar.</p> <p>Quando essa opção não está selecionada, os campos obrigatórios só são aplicados quando um usuário modifica o campo. Se um campo não for modificado, será tratado como opcional e não validado.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Preferências de armazenamento </td> 
@@ -163,7 +163,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <li><b>Selecionar portfólios para converter em armazenamento na nuvem do Adobe</b>: selecione portfólios que você deseja converter automaticamente do armazenamento herdado do Workfront para o armazenamento na nuvem do Adobe. Os portfólios são convertidos quando você salva as Preferências do sistema.</li></ul>     
     Para obter mais informações sobre o Adobe Cloud Storage, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Habilitar o Adobe Cloud Storage para sua organização</a>.</td></tr>
     <tr> 
-      <td role="rowheader">Selecione portfólios para converter em armazenamento na nuvem do Adobe </td> 
+      <td role="rowheader">Selecionar portfólios para converter no armazenamento em nuvem da Adobe </td> 
       <td>Permite converter portfólios de armazenamento herdados do Workfront existentes em armazenamento na nuvem da Adobe. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Converter portfólios herdados para o armazenamento na nuvem da Adobe</a>.</td> 
      </tr>
      <tr> 

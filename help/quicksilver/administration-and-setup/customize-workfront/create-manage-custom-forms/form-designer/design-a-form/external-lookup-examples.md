@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 1359
+source-wordcount: 1477
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Este exemplo demonstra como chamar a API do Workfront e preencher uma lista de p
 
 1. Abra o formulário personalizado.
 1. No lado esquerdo da tela, encontre **Pesquisa externa** e arraste-a para uma seção da tela.
-1. Insira o **Rótulo** e o **Nome** do campo.
+1. Insira o **Rótulo** e o **Nome da API** do campo.
 1. Selecione o **Formato** para o campo.
 1. Insira a chamada de API no campo **URL da API base**.
 
@@ -120,7 +120,7 @@ Este exemplo mostra como chamar a API do Workfront e trazer dados de um campo pe
 
 1. Abra o formulário personalizado.
 1. No lado esquerdo da tela, encontre **Pesquisa externa** e arraste-a para uma seção da tela.
-1. Insira o **Rótulo** e o **Nome** do campo.
+1. Insira o **Rótulo** e o **Nome da API** do campo.
 1. Selecione o **Formato** para o campo.
 1. Insira a chamada da URL da API no campo **URL da API de base**.
 
@@ -171,7 +171,7 @@ Este exemplo mostra como chamar uma API de países (como <https://api.first.org/
 
 1. Abra o formulário personalizado.
 1. No lado esquerdo da tela, encontre **Pesquisa externa** e arraste-a para uma seção da tela.
-1. Insira o **Rótulo** e o **Nome** do campo.
+1. Insira o **Rótulo** e o **Nome da API** do campo.
 1. Selecione o **Formato** para o campo.
 1. Insira a chamada da URL da API no campo **URL da API de base**.
 

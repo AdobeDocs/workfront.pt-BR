@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: 395
 ht-degree: 22%
 
 ---
@@ -54,12 +54,12 @@ Você pode adicionar os seguintes tipos de campos personalizados a um formulári
 
 * Texto de linha única
 * Parágrafo
-* Texto com formatação
-* Lista suspensa de seleção única
+* Rich text
+* Menu suspenso de seleção única
 * Lista suspensa com seleção múltipla
 * Pesquisa externa
+* Pesquisa interna
 * Referência de campo nativo
-* Typeahead
 * Conexão de campo do Planning
 * Calculado
 * Data
@@ -97,6 +97,7 @@ Os usuários podem anexar formulários personalizados aos seguintes tipos de obj
 * Iteração
 * Registro de cobrança
 * Cartão de tarifa
+* Atribuição
 
 Para obter mais informações sobre como anexar formulários personalizados a objetos, consulte [Adicionar um formulário personalizado a um objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

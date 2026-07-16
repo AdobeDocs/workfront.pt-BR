@@ -17,16 +17,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 09dff59503604894e61f2a62af7ae1c2e8a39068
 workflow-type: tm+mt
 source-wordcount: 491
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # Verificar limites de armazenamento de documentos
-
-{{highlighted-preview}}
 
 Embora não haja restrições quanto aos tipos e tamanhos de arquivos individuais que os usuários podem fazer upload para sua instância do Workfront, seu plano da Workfront inclui uma cota de armazenamento total. Como administrador do Workfront, você monitora o uso e a cota na área Configuração da página Informações do cliente.
 
@@ -62,7 +60,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Armazenamento herdado do Workfront
+## Armazenamento legado do Workfront
 
 Se sua organização usa o armazenamento Workfront herdado, a página Informações do cliente mostra uma única cota de armazenamento para documentos carregados diretamente na Workfront.
 
@@ -78,8 +76,6 @@ A cota de armazenamento é atualizada diariamente para mostrar a contagem mais a
 >[!NOTE]
 >
 >Esse limite não se aplica a documentos vinculados ao Workfront por qualquer outro provedor de serviços de terceiros (SharePoint, Google Drive, Webdam, Box, Dropbox ou qualquer outro provedor de gerenciamento de ativos de documentos).
-
-<div class="preview">
 
 ## Armazenamento na nuvem da Adobe
 
@@ -107,5 +103,3 @@ Os números de uso são atualizados regularmente para que você veja uma contage
 ### Notificações por email para administradores
 
 Quando o uso ultrapassa 75%, 90% ou 100% da cota de armazenamento, a Workfront envia uma notificação por e-mail para os administradores do sistema.
-
-</div>

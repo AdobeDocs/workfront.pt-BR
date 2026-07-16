@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: 745
 ht-degree: 6%
 
 ---
@@ -68,7 +68,7 @@ A lógica de validação é criada usando fórmulas e você pode tornar a lógic
 
 Se o campo com a lógica aplicada atender às condições de validação definidas quando um usuário preencher o formulário personalizado, o campo será realçado e a mensagem de erro será exibida.
 
-Você pode aplicar lógica de validação aos seguintes tipos de campo: texto de linha única, parágrafo, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, digitação antecipada, data, grupo de caixas de seleção e botões de opção.
+Você pode aplicar a lógica de validação aos seguintes tipos de campo: texto de linha única, parágrafo, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa interna, data, grupo de caixas de seleção e botões de opção.
 
 ### Permitir somente que o proprietário do projeto selecione &quot;Rush&quot; SLA
 
@@ -134,9 +134,9 @@ Se um usuário que não é o proprietário do projeto tentar digitar no campo, e
 
 ![Somente Claire Stevens pode editar este campo](assets/only-project-owner-can-edit.png)
 
-### A digitação antecipada permite ou rejeita valores com base em outros valores de campo
+### A pesquisa interna permite ou rejeita valores com base em outros valores de campo
 
-Neste exemplo, um campo de digitação antecipada permite ou rejeita dinamicamente valores com base no valor inserido em outro campo no formulário.
+Neste exemplo, um campo de pesquisa interno permite ou rejeita dinamicamente valores com base no valor inserido em outro campo no formulário.
 
 Expressão de validação:
 
@@ -146,7 +146,7 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-Se o valor no campo de orçamento for maior que US$ 10.000, apenas os usuários com função de Diretor poderão ser selecionados na digitação antecipada, mesmo se não houver um filtro de função ativado na configuração de digitação antecipada.
+Se o valor no campo de orçamento for maior que US$ 10.000, apenas os usuários com função de Diretor poderão ser selecionados na pesquisa interna, mesmo que não haja um filtro de função ativado na configuração de pesquisa interna.
 
 ![O valor de orçamento requer aprovação do diretor](assets/budget-director.png)
 

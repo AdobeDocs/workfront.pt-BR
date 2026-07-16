@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 2647
+source-wordcount: 2721
 ht-degree: 9%
 
 ---
@@ -162,7 +162,7 @@ Para reutilizar um campo personalizado calculado existente:
     <tbody> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td>Digite um rótulo para o campo. É o que os usuários verão ao usar o formulário personalizado. O campo <b>Nome</b>, que é preenchido automaticamente, é referenciado pela Workfront nos relatórios.</td> 
+      <td>Digite um rótulo para o campo. É o que os usuários verão ao usar o formulário personalizado. O campo <b>Nome da API</b>, que é preenchido automaticamente, é referenciado pela Workfront nos relatórios.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">Instruções</td> 

@@ -20,16 +20,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 3610
+source-wordcount: 3613
 ht-degree: 2%
 
 ---
 
 # Adicionar regras de lógica a formulários e campos personalizados
-
-{{highlighted-preview}}
 
 As regras lógicas permitem personalizar ainda mais os campos no formulário.
 
@@ -97,7 +95,8 @@ Para lógica de exibição e de salto somente, selecione um campo para mostrar a
 
 ## Considerações sobre o uso da lógica de exibição e da lógica de salto
 
-* Para adicionar lógica de exibição em um campo personalizado, widget ou quebra de seção, pelo menos um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção) deve ser posicionado antes dele no formulário.Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Para adicionar lógica de exibição em um campo personalizado, widget ou quebra de seção, pelo menos um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção) deve ser posicionado antes dele no formulário.
+Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Não é possível adicionar lógica de salto a um widget ou quebra de seção. Você pode adicioná-lo somente a um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção).
 * Não é possível aplicar a exibição ou a lógica de salto para mostrar ou ocultar as opções de um campo de várias opções. Por exemplo, você não pode restringir as opções exibidas para um campo Suspenso, Grupo de caixas de seleção ou Botão de opção, com base na exibição ou na lógica de ignorar outro campo.
 * Você pode adicionar a lógica de exibição e a lógica de salto a um campo personalizado se todos os itens a seguir forem verdadeiros sobre o campo personalizado:
@@ -150,7 +149,7 @@ A lógica de exibição define quais campos personalizados aparecem no formulár
 
 ## Adicionar lógica de exibição avançada a um formulário personalizado
 
-A lógica de exibição avançada para campos de formulário personalizados permite criar lógica complexa usando fórmulas. É possível aplicar essa lógica aos seguintes tipos de campo: texto de linha única, parágrafo, texto com formatação, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla, referência de campo nativo, digitação antecipada, calculada, data, grupo de caixas de seleção e botões de opção.
+A lógica de exibição avançada para campos de formulário personalizados permite criar lógica complexa usando fórmulas. É possível aplicar essa lógica aos seguintes tipos de campo: texto de linha única, parágrafo, rich text, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla, referência de campo nativo, pesquisa interna, calculado, data, grupo de caixas de seleção e botões de opção.
 
 >[!NOTE]
 >
@@ -239,7 +238,7 @@ A lógica de salto define campos de formulário personalizados que são ignorado
 
 A lógica do valor padrão permite configurar valores padrão para campos de formulário personalizados, usando fórmulas. O valor padrão é exibido quando as condições definidas são atendidas. Um valor padrão pode ser um valor estático ou dinâmico que faz referência a outros campos no objeto. Embora o valor padrão possa fazer referência a outros campos, ele não será alterado à medida que outros campos no formulário forem alterados.
 
-Você pode aplicar lógica avançada de valor padrão aos seguintes tipos de campo: texto de linha única, parágrafo, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla, <span class="preview">referência de campo nativo</span>, digitação antecipada, grupo de caixas de seleção e botões de opção.
+Você pode aplicar a lógica avançada de valor padrão aos seguintes tipos de campo: texto de linha única, parágrafo, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla, referência de campo nativo, pesquisa interna, grupo de caixas de seleção e botões de opção.
 
 >[!TIP]
 >
@@ -249,7 +248,7 @@ Você pode aplicar lógica avançada de valor padrão aos seguintes tipos de cam
 >
 >A lógica de valor padrão padrão no designer do formulário ainda existe. Se ambos os tipos forem aplicados no mesmo campo, a lógica avançada terá precedência. Para obter informações sobre a lógica do valor padrão, consulte [Adicionar botões de opção, grupos de caixas de seleção e menus suspensos](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
-><span class="preview">Para campos de referência nativos, a lógica de valor padrão está disponível somente na interface do usuário e não na API do Workfront.</span>
+>Para campos de referência nativos, a lógica do valor padrão está disponível somente na interface do usuário e não na API do Workfront.
 
 ### Exemplo
 
@@ -289,7 +288,7 @@ A lógica de validação é criada usando fórmulas e você pode tornar a lógic
 
 Se o campo com a lógica aplicada atender às condições de validação definidas quando um usuário preencher o formulário personalizado, o campo será realçado e a mensagem de erro será exibida.
 
-Você pode aplicar a lógica de validação aos seguintes tipos de campo: texto de linha única, parágrafo, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla, digitação antecipada, data, grupo de caixas de seleção e botões de opção.
+Você pode aplicar a lógica de validação aos seguintes tipos de campo: texto de linha única, parágrafo, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla, pesquisa interna, data, grupo de caixas de seleção e botões de opção.
 
 ### Exemplos
 
@@ -336,7 +335,7 @@ Para obter mais exemplos de lógica de validação, consulte [Exemplos de lógic
 
 A lógica de formatação destaca um valor de campo quando atende às condições definidas. A formatação aplicada funcionará em vários campos de uma só vez.
 
-Você pode aplicar lógica de formatação aos seguintes tipos de campo: texto de linha única, parágrafo, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla, digitação antecipada, calculada, data, grupo de caixas de seleção e botões de opção.
+Você pode aplicar lógica de formatação aos seguintes tipos de campo: texto de linha única, parágrafo, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla, pesquisa interna, calculado, data, grupo de caixas de seleção e botões de opção.
 
 A formatação aplicada aos formulários personalizados é separada da formatação aplicada a listas e relatórios. Para obter informações sobre a formatação do relatório, consulte [Usar formatação condicional nas exibições](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -399,7 +398,7 @@ IF(
 
 A lógica da capacidade de edição determina se um campo de formulário personalizado pode ser editado ou se é somente leitura. Essa lógica é criada usando fórmulas e, quando o campo atende às condições definidas, pode ser definido como editável ou somente leitura.
 
-Você pode aplicar lógica de editabilidade aos seguintes tipos de campo: texto de linha única, parágrafo, texto com formatação, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla, digitação antecipada, data, grupo de caixas de seleção e botões de opção.
+Você pode aplicar lógica de editabilidade aos seguintes tipos de campo: texto de linha única, parágrafo, rich text, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, pesquisa externa de seleção múltipla, pesquisa interna, data, grupo de caixas de seleção e botões de opção.
 
 ### Exemplo
 

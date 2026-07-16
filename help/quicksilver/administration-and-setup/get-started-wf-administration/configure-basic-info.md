@@ -23,7 +23,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 766
 ht-degree: 6%
@@ -31,8 +31,6 @@ ht-degree: 6%
 ---
 
 # Configurar informações básicas do sistema
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -84,7 +82,7 @@ Para acessar a página Informações do cliente:
    | Seção | Mais informações |
    |---------|-----------------|
    | **Informações Básicas** | Para obter informações sobre como configurar informações básicas no Workfront, consulte [Configurar Informações Básicas](#configure-basic-info). |
-   | <span class="preview">**Visão geral do armazenamento**</span> | <span class="preview">Para obter informações sobre como verificar o uso e a cota do armazenamento de documentos, consulte [Verificar limites de armazenamento de documentos](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **Visão geral do armazenamento** | Para obter informações sobre como verificar o uso e a cota do armazenamento de documentos, consulte [Verificar limites de armazenamento de documentos](../../documents/managing-documents/check-document-storage.md). |
    | **Configurações da Chave de API** | Para obter informações sobre as configurações da chave de API, consulte [Gerenciar chaves de API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
    | **Incluo na lista de permissões IP** | Para obter informações sobre como adicionar os endereços IP ao seu incluo na lista de permissões para o qual seus usuários podem acessar o Workfront, consulte [Configurar o incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
    | **Incluo na lista de permissões de email** | Para obter informações sobre como adicionar emails ao incluo na lista de permissões, consulte [Configurar incluo na lista de permissões de email](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |

@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 249
 ht-degree: 14%
@@ -76,7 +76,7 @@ Para criar uma tarefa ou um problema em um projeto:
 {{step1-to-priorities}}
 
 1. Clique em **Criar novo** no canto superior direito.
-   ![Criar novo (produção)](assets/create-new--.png)
+   ![Criar novo (produção)](assets/create-new.png)
 1. Especifique as seguintes informações:
 
    | Campo | Instruções |
@@ -89,3 +89,4 @@ Para criar uma tarefa ou um problema em um projeto:
    | Data de vencimento (opcional) | Escolha uma data de vencimento. |
 
 1. Clique em **Criar**.
+

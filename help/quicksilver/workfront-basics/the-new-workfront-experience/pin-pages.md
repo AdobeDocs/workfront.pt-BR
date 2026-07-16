@@ -14,16 +14,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 7%
+source-wordcount: 348
+ht-degree: 11%
 
 ---
 
 # Fixar páginas para personalizar o espaço de trabalho
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -64,11 +62,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. No canto superior esquerdo da página, clique em **[!UICONTROL Fixar página atual]**. A página fixada agora pode ser acessada na parte superior de qualquer página em [!DNL Workfront].
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:
    ![Fixar página atual](assets/pin-current-page-button-2026.png)
-
-   Imagem de amostra no ambiente de produção:
-   ![Fixar página atual](assets/pin-current-page-button.png)
 
 ## Acessar uma página fixada
 
@@ -82,15 +76,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    Se você tiver muitas páginas fixadas, clique no ícone **[!UICONTROL Mais]** ![Clique no ícone Mais](assets/more-icon.png) para exibir as páginas fixadas adicionais.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:
    ![Fixar página atual](assets/display-pinned-pages-2026.png)
 
-   Imagem de amostra no ambiente de produção:
-   ![Exibir páginas adicionais fixadas](assets/display-pinned-pages.png)
-
    A página fixada é exibida.
-
-<div class="preview">
 
 ## Gerenciar fixações
 
@@ -107,36 +95,35 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Clique em **Fechar** quando terminar de editar os marcadores.
 
-</div>
+<!--
+## Rename a pinned page
 
-## Renomear uma página fixada
+1. Hover over the pinned page in the top navigation.
+1. Click the **More** icon ![More icon](assets/more-icon.png) that appears next to the pin name and select **[!UICONTROL Rename pin]**.
 
-1. Passe o mouse sobre a página fixa na navegação superior.
-1. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) que aparece ao lado do nome do pin e selecione **[!UICONTROL Renomear pin]**.
+   ![Rename pin](assets/pin-menu.png)
 
-   ![Renomear pino](assets/pin-menu.png)
+1. Type the new pin name, then click **Save**.
 
-1. Digite o novo nome do pin e clique em **Salvar**.
+   ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
 
-   ![Clique na marca de seleção para renomear o pino](assets/rename-pin-dialog-box.png)
+## Reorder pinned pages
 
-## Reordenar páginas fixadas
+You can rearrange the order that pinned pages appear.
 
-Você pode reorganizar a ordem em que as páginas fixadas são exibidas.
+1. Hover over the pinned page you want to move, then click the **More** icon ![More icon](assets/more-icon.png).
+1. Choose **Move left** or **Move right** to move your pin. 
+1. (Optional) Choose **Move to front** to move your pin to the far-left position of the pin bar. 
 
-1. Passe o mouse sobre a página fixa que você deseja mover, em seguida, clique no ícone **Mais** ícone ![Mais ícone](assets/more-icon.png).
-1. Escolha **Mover para a esquerda** ou **Mover para a direita** para mover o pino.
-1. (Opcional) Escolha **Mover para a frente** para mover o pino para a posição mais à esquerda da barra de pinos.
+   ![move pins](assets/pin-menu.png)
 
-   ![mover marcadores](assets/pin-menu.png)
+   Your changes automatically save and are remembered the next time you access Workfront.
 
-   Suas alterações são salvas automaticamente e lembradas na próxima vez que você acessar o Workfront.
+## Remove a pinned page
 
-## Remover uma página fixada
+1. Click the **More** icon ![](assets/more-icon.png) next to the pin you want to remove.
+1. Click **Remove pin**. The page is no longer accessible from the top of any page in [!DNL Workfront].
 
-1. Clique no ícone **Mais** ![](assets/more-icon.png) ao lado do pino que você deseja remover.
-1. Clique em **Remover pino**. A página não está mais acessível da parte superior de qualquer página em [!DNL Workfront].
-
-   ![Remover pino](assets/pin-menu.png)
-
+   ![Remove pin](assets/pin-menu.png)
+-->
 

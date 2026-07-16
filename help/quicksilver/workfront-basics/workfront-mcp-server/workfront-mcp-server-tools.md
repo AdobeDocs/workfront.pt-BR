@@ -5,17 +5,15 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
+source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1964'
 ht-degree: 6%
 
 ---
 
 
 # Ferramentas de servidor Adobe Workfront MCP
-
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Este artigo lista as ferramentas que o servidor MCP [!DNL Adobe Workfront] expõe a uma plataforma de agente de IA conectada. A plataforma chama essas ferramentas em seu nome quando você solicita que elas encontrem, criem, atualizem ou excluam itens do Workfront.
 
@@ -50,6 +48,8 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | Obter documento por ID de versão | `approvals_get_document_by_version_id` | Busca detalhes do documento (nome, tamanho, data de upload, carregador) para uma ID de versão de documento conhecida. | Ler |
 | Obter documentos por projeto | `approvals_get_documents_by_project` | Lista documentos dentro de um projeto Workfront, com cada ID de versão atual do documento. | Ler |
 | Resolver escopo do documento | `approvals_resolve_document_scope` | Expande um projeto ou pasta para a lista de IDs de versão de documento que ela contém. Suporta escopos de projeto, pasta e pasta por nome. | Ler |
+| Localizar um documento | `approvals_find_document` | Pesquisar um documento por nome de arquivo ou ID de versão do documento | Ler |
+| Obter documentos por escopo | approvals_get_documents_by_scope | Listar documento dentro de um projeto ou pasta. | Ler |
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -108,7 +108,7 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | Localizar equipe por nome | `approvals_find_team_by_name` | Pesquisa a ID de uma equipe do Workfront por nome (correspondência difusa ou parcial). | Ler |
 | Localizar projeto por nome | `approvals_find_project_by_name` | Procura projetos do Workfront por correspondência de nome parcial no sistema. | Ler |
 | Obter projetos por proprietário | `approvals_get_projects_by_owner` | Lista os projetos do Workfront dos quais o usuário que faz a chamada é o proprietário. | Ler |
-| Obter região do Adobe | `approvals_get_adobe_region` | Retorna o nome da Adobe de uma região do provedor de nuvem. | Ler |
+| Encontrar projetos | approvals_find_projects | Procurar projetos do Workfront, opcionalmente filtrados por nome e/ou restritos a projetos que o usuário chamador possui. | Ler |
 
 
 ## Ferramentas de planejamento
@@ -142,7 +142,7 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | Listar tipos de registros globais | `planning_list_global_record_types` | Lista todos os tipos de registro (global) definidos centralmente visíveis para o usuário atual. | Ler |
 | Listar tipos de registros globais que podem ser adicionados | `planning_list_addable_global_record_types` | Lista os tipos de registro global que podem ser adicionados a um espaço de trabalho específico. | Ler |
 | Adicionar tipo de registro global ao espaço de trabalho | `planning_add_global_record_type_to_workspace` | Vincula um tipo de registro global a um espaço de trabalho especificado. | Gravar |
-| Remover tipo de registro global do espaço de trabalho | `planning_remove_global_record_type_from_workspace` | Desvincula um tipo de registro global de um espaço de trabalho; exclui todos os seus registros nesse espaço de trabalho. | Gravar |
+| Remover tipo de registro global do espaço de trabalho | `planning_remove_global_record_type_from_ws` | Desvincula um tipo de registro global de um espaço de trabalho; exclui todos os seus registros nesse espaço de trabalho. | Gravar |
 | Obter espaços de trabalho de registro externo | `planning_get_external_record_workspaces` | Localiza quais espaços de trabalho e tipos de registro estão conectados a um registro externo específico. | Ler |
 | Obter compartilhamento de tipo de registro | `planning_get_record_type_sharing` | Retorna o compartilhamento e as permissões de um tipo de registro específico. | Ler |
 | Modificar compartilhamento de tipo de registro | `planning_modify_record_type_sharing` | Atualiza quem pode acessar um tipo de registro e em qual nível de permissão. | Gravar |

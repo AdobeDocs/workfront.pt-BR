@@ -8,16 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: ca0583d7e375e7f17d058d7ca287785d17de35dd
+source-git-commit: abe9313aaa544a2deec69f40dd135782cc0d2c88
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 4%
+source-wordcount: '538'
+ht-degree: 5%
 
 ---
 
 # Configurar colaboradores de IA
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -69,16 +73,16 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 * Você deve configurar uma marca no Workfront antes de usá-la para um Colaborador de IA do tipo Revisor.
 
   Para obter instruções, consulte [Criar e gerenciar marcas para o Revisor de Conteúdo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
-* <span class="preview">Para usar o Adobe Brand Intelligence para o Reviewer AI Collaborator, sua organização deve usar a experiência unificada de revisão e aprovação no Workfront. </span>
+* Para usar o Adobe Brand Intelligence para o Reviewer AI Collaborator, sua organização deve usar a experiência unificada de revisão e aprovação no Workfront. </span>
 
-  <span class="preview">Para obter mais informações, consulte [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
+  Para obter mais informações, consulte [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
 
 ## Criar um novo Colaborador de IA do tipo Revisor
 
 Os Colaboradores de IA do revisor podem ser configurados para usar marcas da Workfront ou o Adobe Brand Intelligence.
 
 * **Marcas**: as marcas são criadas no Workfront. Você pode criar marcas no Workfront fazendo upload de arquivos PDF que contêm as diretrizes da marca ou inserindo manualmente os elementos da marca.
-* <span class="preview">**Adobe Brand Intelligence**: quando um Colaborador de IA revisa um ativo usando o Adobe Brand Intelligence, você pode exibir os comentários feitos pelo Revisor no Frame.io.  </span>
+* **Adobe Brand Intelligence**: quando um Colaborador de IA revisa um ativo usando o Adobe Brand Intelligence, você pode exibir os comentários feitos pelo Revisor no Frame.io.  </span>
 
 
 {{step-1-to-setup}}

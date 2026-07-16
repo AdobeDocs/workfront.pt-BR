@@ -18,9 +18,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 1493
+source-wordcount: 1495
 ht-degree: 7%
 
 ---
@@ -289,7 +289,7 @@ Os tipos de campo do Workfront afetam se um determinado campo pode ser preenchid
 <li>Botões de opção</li>
 <li>menus suspensos Seleção única e múltipla</li>
 <li>Pesquisa externa</li>
-<!--<li>Internal lookup THIS FIELD TYPE IS NOT GA YET SO COMMENTING OUT - from Lisa</li>-->
+<li>Pesquisa interna</li>
 <li>Referência</li>
 <li>Campos incorporados do Workfront Planning</li>
 </ul>

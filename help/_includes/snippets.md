@@ -1,8 +1,8 @@
 ---
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
 workflow-type: tm+mt
-source-wordcount: '2236'
-ht-degree: 3%
+source-wordcount: '2292'
+ht-degree: 2%
 
 ---
 # Trechos
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Etapa 1 - Introdução à configuração {#step-1-to-setup}
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo do Adobe Workfront e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo do Adobe Workfront e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup-2026.png).
 
 ## Designer de formulário para GA {#form-designer-default}
 
@@ -124,7 +124,7 @@ Você pode verificar se está associando o grupo certo com a equipe, passando o 
 
 ## Etapa 1 - Chegar aos usuários {#step-1-to-users}
 
-1. Clique no ícone **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo do Adobe Workfront e clique no ícone **[!UICONTROL Usuários]** ![Usuários](/help/_includes/assets/users-icon-in-main-menu.png).
+1. Clique no ícone **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo do Adobe Workfront e clique no ícone **[!UICONTROL Usuários]** ![Usuários](/help/_includes/assets/users-icon-in-main-menu-2026.png).
 
 
 <!-- Agile -->
@@ -295,11 +295,13 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 
 >[!IMPORTANT]
 >
->As informações contidas neste artigo referem-se ao Adobe Workfront Planning, um recurso adicional do Adobe Workfront.
+>As informações neste artigo se referem ao Adobe Workfront Planning, que sua organização pode adquirir como um pacote do Adobe Workfront ou como um produto independente.
 >
->Para obter uma lista dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
-> 
+>Nem todos os recursos incluídos no pacote do Planning estarão disponíveis para o Workfront Planning quando ele for comprado como um produto independente.
+>
 >Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>Para obter informações sobre o Workfront Planning como um produto independente, consulte [Introdução ao Adobe Workfront Planning como um produto independente](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
 <!--
 Old - before Oct. 15, 2025:

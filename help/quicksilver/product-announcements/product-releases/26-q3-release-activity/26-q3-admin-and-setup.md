@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador no terceiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+source-git-commit: 46db578d2412d622818a599cfb27ec4ae73a5298
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1553'
 ht-degree: 5%
 
 ---
@@ -43,11 +43,43 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 -->
 
+## Campos do novo tipo de licença para Níveis de Acesso
+
+>[!NOTE]
+>
+>Pré-visualização e produção para todos os clientes: 16 de julho de 2026
+>
+>[!BADGE Fora do cronograma]{type=Neutral}
+
+Fizemos as seguintes alterações de campo na caixa Nível de acesso:
+
+* Renomeamos o campo Tipo de licença na caixa Nível de acesso para Tipo de licença de fluxo de trabalho. Não há alterações de funcionalidade com esta renomeação.\
+  Para obter informações,[consulte Criar e modificar níveis de acesso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* Para clientes que também compraram um pacote do Workfront Planning, adicionamos um novo campo Tipo de Licença do Planning para ilustrar a licença de um usuário no Workfront Planning.
+Os clientes que compraram um número igual de licenças do Workflow e do Planning têm os seguintes tipos de licença disponíveis:
+
+   * Planejamento padrão
+   * Colaborador de planejamento
+   * Nenhum
+
+  >[!NOTE]
+  >
+  >Você pode atribuir aos usuários uma combinação mista de licenças entre o Workflow e o Planning, mas o tipo de licença do Planning não pode ser superior ao tipo de licença do Workflow.
+  >
+  >Por exemplo, uma licença do Planning Standard não pode ser atribuída a um usuário do Colaborador do Fluxo de Trabalho. Um usuário com uma licença do Workflow Light agora pode receber uma licença Standard para o Planning e, portanto, gerenciar espaços de trabalho e seu conteúdo. Anteriormente, só era possível ter acesso somente para visualização aos dados do Planning.
+  >
+  >Os novos clientes podem adquirir licenças de Planejamento e Fluxo de Trabalho em quantidades diferentes e usá-las com qualquer combinação. Nesse cenário, o tipo de licença Colaborador do Planning não está disponível.
+  >
+  >Para obter informações, consulte [Visão geral sobre acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+
 ## Campo de pesquisa interna que substitui o tipo de campo Digitação antecipada
 
 >[!NOTE]
 >
->Visualização: 7 de julho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 7 de julho de 2026
+>Versão rápida de produção: 15 de julho de 2026
+>Produção para todos: 16 de julho de 2026
 
 O novo tipo de campo **Pesquisa interna** em formulários personalizados fornece filtragem dinâmica. É semelhante ao tipo de campo Digitação antecipada e permite que os usuários pesquisem e selecionem objetos existentes do Workfront digitando parte do nome. O filtro na pesquisa interna pode fazer referência ao valor em outro campo do formulário, o que não é possível com Typeaheads.
 
@@ -65,7 +97,9 @@ Para obter mais informações, consulte [Criar um formulário personalizado](/he
 
 >[!NOTE]
 >
->Visualização: 7 de julho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 7 de julho de 2026
+>Versão rápida de produção: 15 de julho de 2026
+>Produção para todos: 16 de julho de 2026
 >
 >Esse recurso só está disponível para organizações nos pacotes Prime ou Ultimate do fluxo de trabalho.
 
@@ -79,7 +113,9 @@ Para obter informações, consulte [Adicionar lógica de valor padrão a um form
 
 >[!NOTE]
 >
->Visualização: 7 de julho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 7 de julho de 2026
+>Versão rápida de produção: 15 de julho de 2026
+>Produção para todos: 16 de julho de 2026
 
 Os filtros de sistema que existem em campos nativos agora são aplicados aos campos em formulários personalizados e estão visíveis para administradores.
 
@@ -97,7 +133,9 @@ Para obter informações, consulte [Criar um formulário personalizado](/help/qu
 
 >[!NOTE]
 >
->Visualização: 7 de julho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 7 de julho de 2026
+>Versão rápida de produção: 15 de julho de 2026
+>Produção para todos: 16 de julho de 2026
 
 Para proteger as integrações e a integridade dos dados, atualizamos como os nomes de campo podem ser editados no painel de configurações de campo de um formulário personalizado.
 
@@ -109,7 +147,9 @@ Para obter informações, consulte [Criar um formulário personalizado](/help/qu
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 11 de junho de 2026
+>Versão rápida de produção: 11 de junho de 2026
+>Produção para todos: 16 de julho de 2026
 
 Para facilitar a visualização das alterações que ocorreram em uma lista central, criamos a Lista do histórico de alterações. Essa lista exibe informações como o objeto, a operação e a origem da alteração (como um usuário ou o sistema Workfront).
 
@@ -121,7 +161,9 @@ Para obter mais informações, consulte [Exibir e gerenciar o histórico de alte
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026Produção para todos: 11 de junho de 2026Fora do cronograma&rbrack;{type=Neutral}
+>Visualização: 11 de junho de 2026
+>Produção para todos: 11 de junho de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora, os administradores do Workfront podem converter portfólios de armazenamento herdados para o Adobe Cloud Storage diretamente das Preferências do sistema. Para converter portfólios, selecione-os no novo campo Selecionar portfólios para conversão em armazenamento corporativo e salve a página.
 
@@ -140,7 +182,9 @@ Para obter mais informações, consulte [Configurar preferências do sistema](/h
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026
+>Versão rápida de produção: 11 de junho de 2026
+>Produção para todos: 16 de julho de 2026
 
 O novo tipo de campo **Rich text** em formulários personalizados é um editor de texto robusto, com opções de formatação como sobrescrito e subscrito, cabeçalhos e tabelas, além das opções tradicionais de negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas duplas. O limite de caracteres permanece de 15.000.
 
@@ -156,7 +200,9 @@ Para obter mais informações, consulte [Criar um formulário personalizado](/he
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026
+>Versão rápida de produção: 11 de junho de 2026
+>Produção para todos: 16 de julho de 2026
 
 Agora é possível incluir campos financeiros nativos do Workfront em formulários personalizados. Anteriormente, os campos financeiros não eram compatíveis.
 
@@ -168,7 +214,9 @@ Para obter mais informações, consulte [Criar um formulário personalizado](/he
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026
+>Versão rápida de produção: 11 de junho de 2026
+>Produção para todos: 16 de julho de 2026
 
 Uma nova opção de compartilhamento, &quot;Todos no sistema podem visualizar e anexar&quot;, foi adicionada aos formulários personalizados. Ao selecionar essa opção, todos os usuários em todo o sistema podem anexar o formulário a outros objetos.
 
@@ -180,7 +228,9 @@ Para obter mais informações, consulte [Compartilhar um formulário personaliza
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026
+>Versão rápida de produção: 11 de junho de 2026
+>Produção para todos: 16 de julho de 2026
 
 Atualmente, ao editar objetos em massa, os campos obrigatórios só são aplicados quando um usuário modifica o campo. Se um campo não for modificado, será tratado como opcional e não validado.
 

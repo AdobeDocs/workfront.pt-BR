@@ -21,16 +21,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 466
 ht-degree: 1%
 
 ---
 
 # Compreender a navegação de um usuário de licença do [!UICONTROL Trabalho]
-
-{{highlighted-preview}}
 
 O [!UICONTROL Menu Principal] é alterado com o nível de acesso atribuído a você pelo administrador do [!DNL Adobe Workfront]. Por padrão, você recebe acesso somente às áreas que incluem a funcionalidade permitida pelo seu nível de acesso. Para entender os componentes do layout padrão de cada nível de acesso, consulte [Sobre o layout padrão [!DNL Adobe Workfront] 2&rbrace;.](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
 
@@ -68,11 +66,7 @@ As seguintes áreas estão incluídas no layout padrão de um [!UICONTROL Trabal
 
 * **[!UICONTROL Quadros]**: trabalhe com flexibilidade e colaboração com os membros da equipe usando quadros compartilhados que contêm colunas e cartões que refletem o trabalho que você deseja realizar. Para obter informações, consulte [Introdução a quadros: índice do artigo](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-<span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
 ![Menu principal do trabalhador](assets/worker-main-menu-070626.png)
-
-Imagem de amostra no ambiente de produção:
-![Menu principal do trabalhador](assets/worker-main-menu-2026.png)
 
 ## Personalizar o [!UICONTROL Menu Principal] padrão
 

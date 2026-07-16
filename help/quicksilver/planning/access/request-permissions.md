@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: 574
 ht-degree: 6%
 
 ---
@@ -68,9 +68,9 @@ Para obter informações sobre a concessão de permissões para exibições e es
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer pacote do Workfront e do Planning</p> 
+<p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p> 
 Ou
-<p>Qualquer pacote de Fluxo de Trabalho e Planejamento</p> 
+<p>Qualquer pacote de produto do Workfront Planning como independente</p> 
  </tr>
 
 <tr> 

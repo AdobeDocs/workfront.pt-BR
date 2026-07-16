@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Adicionar ou editar um campo personalizado, quebra de seção ou widget
-description: Você pode editar as propriedades de um campo personalizado, quebra de seção ou widget usado no formulário personalizado em sua instância do Adobe Workfront. Isso inclui o rótulo do item, nome, instruções e assim por diante.
+description: Você pode editar as propriedades de um campo personalizado, quebra de seção ou widget usado no formulário personalizado em sua instância do Adobe Workfront.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 22%
+source-wordcount: 400
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 22%
 
 Você pode adicionar um novo campo ou widget personalizado diretamente na área Campos no Workfront, sem abrir um formulário personalizado para criar o campo.
 
-Também é possível editar as propriedades de um campo personalizado, quebra de seção ou widget usado em formulários personalizados. Isso inclui o rótulo do item, nome, instruções e assim por diante.
+Também é possível editar as propriedades de um campo personalizado, quebra de seção ou widget usado em formulários personalizados. Isso inclui o rótulo do item, o nome da API, instruções e assim por diante.
 
 Configurar um campo personalizado como Inativo o exclui dos relatórios, filtros e exibições e o campo não está mais disponível na biblioteca de campos de formulários personalizados. Todos os novos campos são definidos como Ativo por padrão.
 

@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 663
 ht-degree: 11%
@@ -76,67 +76,68 @@ Você pode filtrar tarefas e problemas atribuídos a você.
 
 1. Clique em **Filtros** na parte superior esquerda da lista de trabalho.
 1. Na seção **Filtros padrão**, selecione um ou mais filtros para restringir seus itens de trabalho.
-   ![Filtro](assets/filter-new.png)
+   ![Filtro](assets/filter-060226.png)
 
-+++Expanda para ver informações detalhadas sobre filtros disponíveis
-<table>
-  <tbody>
-   <tr>
-   <th>Filtro</th>
-   <th>Descrição</th>
-   </tr>
-    <tr>
-      <td>Em desenvolvimento</td>
-      <td>Exibe itens nos quais você está trabalhando no momento</td>
-    </tr>
-    <tr>
-      <td>Pronto para iniciar</td>
-      <td>Exibe itens com 
-      <ul>
-      <li>Sem predecessores incompletos ou restrições de tarefa</li>
-      <p>e</p>
-      <li>A Data de Início Planejada está no passado ou em até duas semanas no futuro</li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Não está pronto</td>
-      <td>Exibe itens que possuem
-       <ul>
-      <li>Predecessoras incompletas ou restrições de tarefa que impedem o trabalho no item</li></ul>
-      <p>ou</p>
-      <ul>
-      <li>A Data de Início Planejada mais de duas semanas no futuro</li>
-      </ul>
-       </td>
-    </tr>
-    <tr>
-      <td>Solicitado</td>
-      <td>Exibe problemas nos quais você não começou a trabalhar</td>
-    </tr>
-      <td>Concluído</td>
-      <td>Exibe o trabalho concluído nas últimas duas semanas. Essa opção de filtro não inclui aprovações.</td>
-    </tr>
-    <tr>
-    <td>Projeto</td>
-    <td>Exibe projetos que contêm tarefas ou problemas aos quais você foi atribuído</td>
-    </tr>
-    <tr>
-    <td>Data final</td>
-    <td>Exibe o trabalho pela Data de Término Planejada</td>
-    </tr>
-    <tr>
-    <td>Meu foco</td>
-    <td>Exibe tarefas ou problemas que têm níveis de foco atribuídos. Os níveis de foco são atribuídos e gerenciados pelo usuário individual.</td>
-    </tr>
-    <tr>
-    <td>Status</td>
-    <td>Exibe tarefas ou problemas nos status novo, em andamento e concluído.</td>
-    </tr>
-  </tbody>
-</table>
+   +++Expanda para ver informações detalhadas sobre filtros disponíveis
+   <table>
+     <tbody>
+      <tr>
+      <th>Filtro</th>
+      <th>Descrição</th>
+      </tr>
+       <tr>
+         <td>Em desenvolvimento</td>
+         <td>Exibe itens nos quais você está trabalhando no momento</td>
+       </tr>
+       <tr>
+         <td>Pronto para iniciar</td>
+         <td>Exibe itens com 
+         <ul>
+         <li>Sem predecessores incompletos ou restrições de tarefa</li>
+         <p>e</p>
+         <li>A Data de Início Planejada está no passado ou em até duas semanas no futuro</li>
+         </ul>
+         </td>
+       </tr>
+       <tr>
+         <td>Não está pronto</td>
+         <td>Exibe itens que possuem
+          <ul>
+         <li>Predecessoras incompletas ou restrições de tarefa que impedem o trabalho no item</li></ul>
+         <p>ou</p>
+         <ul>
+         <li>A Data de Início Planejada mais de duas semanas no futuro</li>
+         </ul>
+          </td>
+       </tr>
+       <tr>
+         <td>Solicitado</td>
+         <td>Exibe problemas nos quais você não começou a trabalhar</td>
+       </tr>
+       <tr>
+         <td>Concluído</td>
+         <td>Exibe o trabalho concluído nas últimas duas semanas. Essa opção de filtro não inclui aprovações.</td>
+       </tr>
+       <tr>
+          <td>Projeto</td>
+          <td>Exibe projetos que contêm tarefas ou problemas aos quais você foi atribuído</td>
+       </tr>
+       <tr>
+          <td>Data final</td>
+          <td>Exibe o trabalho pela Data de Término Planejada</td>
+       </tr>
+       <tr>
+          <td>Meu foco</td>
+          <td>Exibe tarefas ou problemas que têm níveis de foco atribuídos. Os níveis de foco são atribuídos e gerenciados pelo usuário individual.</td>
+       </tr>
+       <tr>
+          <td>Status</td>
+          <td>Exibe tarefas ou problemas nos status novo, em andamento e concluído.</td>
+       </tr>
+     </tbody>
+   </table>
 
-+++
+   +++
 
 1. (Opcional) Clique em **Voltar ao padrão** para redefinir sua seleção.
 
@@ -167,9 +168,9 @@ Use a linguagem natural para filtrar rapidamente o trabalho.
 1. Clique em **Agrupamento** na parte superior esquerda da lista de trabalho.
 1. Selecione um agrupamento para organizar sua lista de trabalho.
 
-![Grupos](assets/groups-new.png)
+![Grupos](assets/groupings-060226.png)
 
-+++Expanda para ver informações detalhadas sobre grupos disponíveis
++++ Expanda para ver informações detalhadas sobre grupos disponíveis
 
 | Grupo | Descrição |
 |-----------|-------------|

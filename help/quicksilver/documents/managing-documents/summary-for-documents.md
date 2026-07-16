@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 725
 ht-degree: 12%
@@ -29,8 +29,6 @@ ht-degree: 12%
 ---
 
 # Resumo para visão geral de documentos
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -147,7 +145,7 @@ Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova 
 
 ### Detalhes
 
-Use a seção Detalhes para exibir informações gerais de alto nível, interagir com formulários personalizados e <span class="preview">abrir o Resumo de Impressão</span>.
+Use a seção Detalhes para exibir informações de visão geral de alto nível, interagir com formulários personalizados e abrir o Resumo de Impressão.
 
 ![Detalhes do resumo do documento na nova experiência de documentos](assets/summary-details.png)
 

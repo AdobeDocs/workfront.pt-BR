@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 404
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Para obter mais informações sobre como os usuários definem as configurações
    <td> <p>Se você adicionar o campo a um formulário personalizado:</p> 
     <ul> 
      <li>É possível editar configurações relacionadas ao formulário para o campo, como sua lógica de exibição, sua ordem entre outros campos no formulário, se é um campo obrigatório no formulário e a capacidade de removê-lo do formulário.</li> 
-     <li>Não é possível editar configurações relacionadas ao campo, como rótulo, nome e tipo.</li> 
+     <li>Não é possível editar configurações relacionadas ao campo, como rótulo, nome da API e tipo.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Para obter mais informações sobre como os usuários definem as configurações
      <li>Gerenciar</li> 
      <li>Editável em todo o sistema</li> 
     </ul> </td> 
-   <td>É possível adicionar o campo a formulários personalizados e editar qualquer configuração relacionada a campo para ele, como rótulo, nome e tipo.</td> 
+   <td>É possível adicionar o campo a formulários personalizados e editar qualquer configuração relacionada a campo, como rótulo, nome da API e tipo.</td> 
   </tr> 
   <tr> 
    <td> 

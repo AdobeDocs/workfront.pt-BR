@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
-source-wordcount: 1488
+source-wordcount: 1485
 ht-degree: 3%
 
 ---
@@ -177,14 +177,14 @@ O sistema gera uma entrada de log de auditoria Campo personalizado quando um usu
 * Cria um campo personalizado
 * Altera um campo personalizado:
 
-   * Altera o nome, rótulo, instruções ou formato
+   * Altera o nome, o rótulo, as instruções ou o formato da API
    * Altera o tipo de exibição
 
      Isso só estará disponível se o campo for de um dos seguintes tipos: linha única, parágrafo, lista suspensa, caixa de seleção, botão de opção
 
    * Altera o tamanho do campo
 
-     Isso só estará disponível se o campo for de um dos seguintes tipos: linha única, parágrafo, texto com formatação
+     Isso estará disponível somente se o campo for de um dos seguintes tipos: linha única, parágrafo, rich text
 
    * Adiciona, remove ou oculta uma escolha de campo
    * Edita um rótulo ou valor de escolha de campo
@@ -211,7 +211,7 @@ O sistema gera uma entrada de log de auditoria Forms personalizada quando um usu
    * Altera um cálculo em um campo personalizado
    * Oculta ou exibe a fórmula associada a um campo calculado no texto ao passar o mouse das Instruções
    * Habilita ou desabilita Atualizar cálculos anteriores
-   * Adiciona ou altera a lógica de salto ou de exibição
+   * Adiciona ou altera a lógica do campo
 
      <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
