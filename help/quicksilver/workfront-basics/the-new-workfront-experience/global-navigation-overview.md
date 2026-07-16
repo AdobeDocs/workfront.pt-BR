@@ -5,26 +5,20 @@ description: A barra de navegação superior, exibida na parte superior da tela 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '672'
 ht-degree: 1%
 
 ---
 
 # Visão geral da barra de navegação superior
 
-{{highlighted-preview}}
-
 <!--Audited: 01/2024-->
 
 A barra de navegação superior, que aparece na parte superior da tela no [!DNL Adobe Workfront], permite que você localize e navegue facilmente para outras áreas da plataforma.
 
-<span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
 ![Barra de navegação superior](assets/wf-top-navigation-070626.png)
-
-Imagem de amostra no ambiente de produção:
-![Barra de navegação superior](assets/wf-top-navigation-2026.png)
 
 ## Ícone da [!UICONTROL Página inicial]
 
@@ -132,13 +126,13 @@ Para saber mais sobre notificações e anúncios, consulte [Exibir e gerenciar n
 
 ## Menu [!UICONTROL Favoritos]
 
-O ícone **[!UICONTROL Favoritos]** ![Favoritos](assets/favorites-icon-62x55.png) abre uma lista de páginas no sistema que você marcou como favoritos. Você pode adicionar a página em que está no momento neste menu.
+O ícone **[!UICONTROL Favoritos]** ![Favoritos](assets/favorites-icon.png) abre uma lista de páginas no sistema que você marcou como favoritos. Você pode adicionar a página em que está no momento neste menu.
 
 Para saber mais sobre favoritos, consulte [Exibir e gerenciar favoritos](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
 ## Menu [!UICONTROL Recentes]
 
-O ícone **[!UICONTROL Recentes]** ![[!UICONTROL Recentes]](assets/recents-icon-40x43.png) abre uma lista de páginas visitadas recentemente.
+O ícone **[!UICONTROL Recentes]** ![[!UICONTROL Recentes]](assets/recents-icon.png) abre uma lista de páginas visitadas recentemente.
 
 Para saber mais sobre os recentes, consulte [Exibir itens recentes](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
 

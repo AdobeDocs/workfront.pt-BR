@@ -7,28 +7,20 @@ exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: 334
 ht-degree: 1%
 
 ---
 
 # Visão geral da navegação estrutural
 
-{{highlighted-preview}}
-
 As navegações estruturais exibem a hierarquia de navegação completa para todos os tipos de objeto. Cada objeto no caminho de navegação estrutural tem um rótulo que exibe o tipo de objeto. A página que você está atualmente exibe no cabeçalho da página e no final do caminho de navegação estrutural em itálico. No exemplo abaixo, esta é a tarefa &quot;[!UICONTROL Compartilhar com a Equipe da Marca]&quot;.
 
-<span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
 ![Navegação estrutural](assets/collapsed-breadcrumb-2026.png) recolhida
-
-Imagem de amostra no ambiente de produção:
-![Navegação estrutural](assets/NWE-collapsed-breadcrumb.png) recolhida
 
 Quando há muitos objetos no caminho de navegação estrutural ou a largura da tela proíbe que a hierarquia de navegação completa seja exibida, o caminho recolhe algumas navegações estruturais e agrupa esses objetos no início do caminho de navegação estrutural. O projeto e a página do objeto atual estão sempre visíveis no caminho da navegação estrutural.
 
@@ -36,11 +28,7 @@ Por exemplo, &quot;mais 3&quot; na imagem acima indica que 3 objetos não são e
 
 Clicar em &quot;[!UICONTROL mais]&quot; permite expandir a hierarquia completa. Você pode clicar em &quot;[!UICONTROL Menos]&quot; para recolher o caminho de navegação estrutural novamente.
 
-<span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
 ![Navegação estrutural](assets/expanded-breadcrumb-2026.png) recolhida
-
-Imagem de amostra no ambiente de produção:
-![Navegação estrutural expandida](assets/NWE-expanded-breadcrumb.png)
 
 Você também pode usar as seguintes teclas para navegar pela navegação estrutural:
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2258'
 ht-degree: 3%
 
 ---
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Etapa 1 - Introdução à configuração {#step-1-to-setup}
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo do Adobe Workfront e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo do Adobe Workfront e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup-2026.png).
 
 ## Designer de formulário para GA {#form-designer-default}
 
@@ -124,7 +124,7 @@ Você pode verificar se está associando o grupo certo com a equipe, passando o 
 
 ## Etapa 1 - Chegar aos usuários {#step-1-to-users}
 
-1. Clique no ícone **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo do Adobe Workfront e clique no ícone **[!UICONTROL Usuários]** ![Usuários](/help/_includes/assets/users-icon-in-main-menu.png).
+1. Clique no ícone **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo do Adobe Workfront e clique no ícone **[!UICONTROL Usuários]** ![Usuários](/help/_includes/assets/users-icon-in-main-menu-2026.png).
 
 
 <!-- Agile -->

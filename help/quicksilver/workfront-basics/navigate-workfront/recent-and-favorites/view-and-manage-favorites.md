@@ -7,15 +7,11 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
 TQID: https://experienceleague.adobe.com/S0cPTosyBInMh-Pji9TY1JEtsHB7lyTNlMlM6-M-yNQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 13%
@@ -72,7 +68,7 @@ Você pode adicionar itens recentes ou a página atual ao menu [!UICONTROL Favor
 
 ### Adicionar itens recentes como favoritos
 
-1. Clique no ícone **[!UICONTROL Recentes]** ![Ícone Recentes](assets/recents-icon-40x43.png) no canto superior direito de qualquer página na nova experiência [!DNL Adobe Workfront].
+1. Clique no ícone **[!UICONTROL Recentes]** ![Ícone Recentes](assets/recents-icon.png) no canto superior direito de qualquer página na nova experiência [!DNL Adobe Workfront].
 1. Clique na estrela em linha com o item que você deseja salvar como favorito. O item recente é exibido no menu **Favoritos**.
 
    ![Marcar um item recente como favorito](assets/recents-section.png)
@@ -86,7 +82,7 @@ Você pode adicionar itens recentes ou a página atual ao menu [!UICONTROL Favor
 
    >[!NOTE]
    >
-   >Se você clicar no ícone **[!UICONTROL Favoritos]** em um objeto que você já adicionou como favorito, o objeto será removido do menu [!UICONTROL Favoritos].\
+   >Se você clicar no ícone **[!UICONTROL Favoritos]** em um objeto que você já adicionou como favorito, o objeto será removido do menu [!UICONTROL Favoritos].
    >![Remover dos favoritos](assets/nwe-remove-from-favorites-350x52.png)
 
 ## Remover um item do menu [!UICONTROL Favoritos]
