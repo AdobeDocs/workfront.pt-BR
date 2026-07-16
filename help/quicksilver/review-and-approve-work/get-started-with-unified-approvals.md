@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1058'
 ht-degree: 3%
 
 ---
 
 # Introdução à revisão e aprovação unificadas
-
-{{highlighted-preview}}
 
 A análise e a aprovação unificadas reúnem o Adobe Workfront e o Adobe Frame.io em uma única experiência profundamente conectada, preenchendo as lacunas entre o gerenciamento de marketing, a análise criativa e a entrega de conteúdo. Os coordenadores de projeto gerenciam o trabalho no Workfront enquanto criativos, profissionais de marketing e participantes revisam e aprovam ativos no visualizador de Frame.io de nível profissional, tudo sem mover arquivos entre ferramentas desconectadas.
 
@@ -64,11 +62,11 @@ Os coordenadores de projetos podem criar revisões e aprovações únicas ou mod
 
 Revisores e aprovadores podem ser adicionados a um fluxo de trabalho de aprovação de uso único ou a um modelo de aprovação reutilizável:
 
-* **Aprovações de uso único**: no projeto ou tarefa em que o ativo reside, o coordenador do projeto pode atribuir revisores e aprovadores e definir um prazo de conclusão. Revisores e aprovadores são lembrados por email 72 horas antes do prazo final, 24 horas antes do prazo final e, em seguida, sobre o próprio prazo final. <span class="preview">Na Visualização, você também pode configurar aprovações de vários estágios e caminhos paralelos para que vários controles de revisão sejam executados ao mesmo tempo.</span>
+* **Aprovações de uso único**: no projeto ou tarefa em que o ativo reside, o coordenador do projeto pode atribuir revisores e aprovadores e definir um prazo de conclusão. Revisores e aprovadores são lembrados por email 72 horas antes do prazo final, 24 horas antes do prazo final e, em seguida, sobre o próprio prazo final. Você também pode configurar aprovações em vários estágios e caminhos paralelos para que várias faixas de revisão sejam executadas ao mesmo tempo.
 
   Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
-* **Modelos de aprovação**: na área Configuração do Workfront, os coordenadores de projeto podem criar Modelos de aprovação reutilizáveis. Em um modelo, os usuários podem adicionar revisores e aprovadores e especificar um período de conclusão. Quando o modelo de aprovação é aplicado a um ativo, o prazo é calculado a partir do período especificado. <span class="preview">Em Visualização, os modelos de aprovação oferecem suporte a aprovações em vários estágios e caminhos paralelos, correspondendo às opções de configuração disponíveis em aprovações de uso único.</span>
+* **Modelos de aprovação**: na área Configuração do Workfront, os coordenadores de projeto podem criar Modelos de aprovação reutilizáveis. Em um modelo, os usuários podem adicionar revisores e aprovadores e especificar um período de conclusão. Quando o modelo de aprovação é aplicado a um ativo, o prazo é calculado a partir do período especificado. Os modelos de aprovação são compatíveis com aprovações em vários estágios e caminhos paralelos, correspondendo às opções de configuração disponíveis em aprovações de uso único.
 
   Depois que um modelo é criado, ele pode ser aplicado a um ativo para iniciar o processo formal de revisão e aprovação no Workfront.
 
