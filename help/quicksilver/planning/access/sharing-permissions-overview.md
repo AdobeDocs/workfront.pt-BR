@@ -9,14 +9,11 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1372
+source-wordcount: 1287
 ht-degree: 5%
 
 ---
@@ -27,9 +24,11 @@ ht-degree: 5%
 
 # Visão geral das permissões de compartilhamento no Adobe Workfront Planning
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -61,8 +60,6 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
 
   Para obter mais informações, consulte [Compartilhar tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
 
-<div class="preview">
-
 * Registros
 
    * Você pode compartilhar registros com pessoas dentro da organização.
@@ -71,7 +68,7 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
 
   Para obter mais informações, consulte [Compartilhar registros](/help/quicksilver/planning/access/share-records.md).
 
-</div>
+
 
 * Exibições
 
@@ -190,19 +187,19 @@ Existem os seguintes cenários:
 
 Por padrão, as permissões de registro são herdadas do tipo de registro ao conceder permissões ao espaço de trabalho e ao tipo de registro.
 
-No ambiente de Produção, os níveis de permissões para registros são os seguintes:
+<!--
+In the Production environment, the following are the levels of permissions for records: 
 
 
-|        | Gerenciar | Contribuir | Exibir |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Criar | ✓ | ✓ |       |
-| Excluir | ✓ | ✓ |       |
-| Editar | ✓ | ✓ |       |
-| Exibir | ✓ | ✓ | ✓ |
+| Create | ✓      |     ✓       |       |
+| Delete | ✓      |     ✓       |       |
+| Edit   | ✓      |    ✓        |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
-<div class="preview">
-
-No ambiente de Pré-visualização, os níveis de permissões para registros são os seguintes:
+A seguir estão os níveis de permissões para registros:
 
 |        | Gerenciar | Exibir |
 |--------|--------|-------|
@@ -228,8 +225,6 @@ Existem os seguintes cenários:
 >[!NOTE]
 >
 >*Quando você remove permissões de um registro, os usuários ainda retêm permissões de Exibição para o espaço de trabalho e o tipo de registro, a menos que você remova as permissões deles do espaço de trabalho.
-
-</div>
 
 ### Permissões para registrar campos
 

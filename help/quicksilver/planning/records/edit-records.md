@@ -9,30 +9,25 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3175
+source-wordcount: 3103
 ht-degree: 1%
 
 ---
 
 # Editar registros
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -72,7 +67,7 @@ Para obter informações sobre como criar registros, consulte [Criar registros](
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Permissões do Contribute ou superior para um espaço de trabalho, tipo de registro e <span class="preview">gerenciar permissões para um registro</span> </p>  
+   <td>   <p>Contribuir com ou mais permissões para um espaço de trabalho, tipo de registro e gerenciar permissões para um registro</p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
   </tr>   
 </tbody> 
@@ -245,7 +240,7 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    * Copie um ou vários valores existentes de um campo e cole-os em um campo do mesmo tipo em outro registro
    * Clique no cabeçalho de uma coluna para selecioná-la e copiá-la, em seguida, clique no cabeçalho da coluna de outra coluna e cole o conteúdo da coluna copiada. As colunas devem conter tipos de campo semelhantes.
-   * Com a tecla Shift pressionada, clique para selecionar várias linhas em uma tabela, copie as informações nas linhas selecionadas e, em seguida, clique em uma linha diferente e cole as informações selecionadas na nova linha e nas linhas seguintes depois disso. <span class="preview">Isso não é possível no ambiente de Visualização.</span>
+   * Com a tecla Shift pressionada, clique para selecionar várias linhas em uma tabela, copie as informações nas linhas selecionadas e, em seguida, clique em uma linha diferente e cole as informações selecionadas na nova linha e nas linhas seguintes depois disso. Isso não é possível no ambiente de Pré-visualização.
    * Copie as informações de uma célula, selecione várias células e cole as mesmas informações em várias células. Você pode selecionar várias células e colar as mesmas informações em várias células de linhas e colunas adjacentes.
    * Selecione o canto inferior direito de uma célula existente que contenha as informações que você deseja copiar e, em seguida, arraste e solte-a nas células adjacentes onde deseja colar as mesmas informações. Todas as células devem conter o mesmo tipo de informação.
 
@@ -253,15 +248,18 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    * Copie uma ou várias células de uma origem externa (por exemplo, um arquivo do Excel) e cole-as em um dos seguintes tipos de campos:
 
-      * Campos de conexão do Workfront Planning.
-
-        <span class="preview">Isso não é possível no ambiente de Visualização.</span>
       * Campos de pessoas. Somente campos com um valor são permitidos.
       * Campos de texto.
       * Selecionar campos.
       * Campos de número, porcentagem e moeda.
 
-     Não é possível copiar informações de uma fonte externa e colá-las em outros tipos de campo, incluindo campos do Workfront ou de conexões de outros aplicativos.
+   Não é possível copiar informações de uma fonte externa e colá-las em outros tipos de campo, incluindo campos do Workfront ou de conexões de outros aplicativos.
+
+   <!--
+    * Workfront Planning connection fields.  
+        This is not possible in the Preview environment.
+    -->
+
 
    >[!NOTE]
    >
@@ -289,11 +287,12 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
 1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do registro e escolha uma das seguintes opções:
 
-   * **Exibir** ou <span class="preview">**Abrir em nova guia**</span>: isso abre a página de registro.
+   * **Exibir** ou **Abrir em nova guia**: isso abre a página de registro.
    * **Copiar link**: para copiar um link para a página do registro.
-   * **Editar miniatura**: para adicionar uma miniatura a um registro.Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Editar miniatura**: para adicionar uma miniatura a um registro.
+Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicado**: cria uma duplicata idêntica do registro.
-   * **Inserir registro acima/ Inserir registro abaixo**: adiciona uma nova linha para que você possa adicionar um novo registro. <span class="preview">Isso não é possível no ambiente de Visualização.</span>
+   * **Inserir registro acima/ Inserir registro abaixo**: adiciona uma nova linha para que você possa adicionar um novo registro. Isso não é possível no ambiente de Pré-visualização.
    * **Excluir**: para excluir o registro. Os registros excluídos são salvos na caixa Excluídos recentemente por até 30 dias.
 
 
@@ -352,8 +351,6 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    Na exibição de tabela, clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) na primeira coluna. A visualização do registro é aberta na exibição.
 
-   <!--update screenshot for new details views preview-->
-
    ![Caixa Detalhes](assets/details-box.png)
 
 1. (Opcional) Clique no menu **Mais** à direita do título do registro e clique em **Renomear**. Isso atualiza o campo que é exibido como o título do registro.
@@ -408,8 +405,6 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
      ![Menu contextual da linha de registro](assets/contextual-menu-for-record-row.png)
 
      A página de registro é aberta.
-
-     <!--update screenshot for new details views preview-->
 
      ![Página de detalhes](assets/details-page.png)
 

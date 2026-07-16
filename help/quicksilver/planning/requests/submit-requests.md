@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5f288a20a0b8f2afd433e5b1c4a6c43ea24b7259
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 2603
+source-wordcount: 2551
 ht-degree: 1%
 
 ---
@@ -32,10 +25,11 @@ ht-degree: 1%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -113,9 +107,7 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
 ## Considerações sobre o envio de solicitações ao Workfront Planning
 
-* No ambiente de Produção, não é possível editar uma solicitação no Workfront depois de enviá-la.
-
-  <span class="preview">No ambiente de Visualização, só é possível editar uma solicitação enviada antes que um registro seja criado a partir dele. Depois que o registro for criado, não será mais possível editar a solicitação enviada. </span>
+* você pode editar uma solicitação enviada somente antes que um registro seja criado a partir dela. Depois que o registro for criado, não será mais possível editar a solicitação enviada.
 * Cada solicitação enviada cria um registro para o tipo de registro associado ao form usado, se o form não estiver associado a uma aprovação ou se a aprovação tiver sido concedida por todos os aprovadores.
 * Os registros criados ao enviar formulários de solicitação são idênticos aos registros adicionados por qualquer outro método no Workfront Planning.
 
@@ -226,18 +218,16 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    ![Solicitar página com comentário](assets/new-request-page-with-comment.png)
 
 1. (Opcional) Insira um comentário na área **Comentários**.
-1. <span class="preview">(Opcional e condicional) Se a solicitação estiver aguardando aprovação e você tiver aberto a solicitação, clique no ícone **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da solicitação e clique em **Editar** ou clique duas vezes nos campos na solicitação para editá-los. </span>
+1. (Opcional e condicional) Se a solicitação estiver aguardando aprovação e você tiver aberto a solicitação, clique no ícone **Mais** ícone ![Mais menu](assets/more-menu.png) à direita do nome da solicitação e clique em **Editar** ou clique duas vezes nos campos na solicitação para editá-los.
 
    >[!NOTE]
    >
-   >  <div class="preview">
    >
    >* A edição de uma solicitação só é possível quando um registro ainda não foi criado e a solicitação está aguardando aprovação.
    >* Alguns campos são somente leitura e não podem ser editados.
    >* Não é mais possível editar uma solicitação depois que um registro foi criado a partir dela.
-   >
-   >  </div>
-1. <span class="preview">(Opcional) Após editar a solicitação, clique em **Enviar alterações**.</span>
+
+1. (Opcional) Após editar a solicitação, clique em **Enviar alterações**.
 1. (Condicional) Se o formulário de solicitação não estiver associado a uma aprovação ou se a solicitação tiver sido aprovada, clique no nome da solicitação e, em seguida, clique no nome do registro no campo **Objeto criado**.
 
    A página do registro é aberta no Workfront Planning.

@@ -9,30 +9,25 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 4341
+source-wordcount: 4300
 ht-degree: 3%
 
 ---
 
 # Gerenciar a exibição de linha do tempo
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -268,7 +263,7 @@ Para gerenciar uma exibição de linha do tempo:
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)
    * [Agrupamento](#add-grouping)
-   * &lbrack;Configurações
+   * [Configurações](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Adicionar filtros
@@ -378,21 +373,22 @@ Para adicionar um filtro a uma exibição de linha do tempo:
 1. Clique nos seguintes operadores à esquerda para indicar como as condições de filtro são unidas e devem ser aplicadas:
 
    * **AND**: todas as condições especificadas devem ser atendidas.
-   * **OU**: qualquer uma das condições especificadas deve ser atendida.Esta é a opção padrão.
+   * **OU**: qualquer uma das condições especificadas deve ser atendida.
+Esta é a opção padrão.
 
 1. (Opcional) Adicione outros agrupamentos de filtros e junte-os com os operadores **AND** ou **OR**.
 
-   A lista de registros é filtrada automaticamente com base nos critérios de filtro.  
+   A lista de registros é filtrada automaticamente com base nos critérios de filtro.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Opcional) Clique no ícone **x** para remover uma condição de filtro.
-1. <span class="preview">(Opcional e condicional) Se você adicionou uma estrutura de detalhamento à sua exibição de linha do tempo, expanda o tipo de registro na lista suspensa a seguir e repita as mesmas etapas descritas acima para adicionar um filtro para um tipo de registro incluído no detalhamento. </span>
+1. (Opcional e condicional) Se você adicionou uma estrutura de detalhamento à exibição de linha do tempo, expanda o tipo de registro na lista suspensa a seguir e repita as mesmas etapas descritas acima para adicionar um filtro para um tipo de registro incluído no detalhamento.
 
-   <span class="preview"> Repita para cada tipo de registro no detalhamento.</span>
+   Repita para cada tipo de registro no detalhamento.
 
    ![Filtro de várias camadas com detalhamento para exibição de linha do tempo](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">Você pode filtrar por tipos de registros de detalhamento somente a partir da exibição da linha do tempo.</span>
+   Você pode filtrar por tipos de registro de detalhamento somente na exibição de linha do tempo.
 1. (Opcional) Clique em **Filtros** ou em qualquer outro lugar da página para fechar a caixa de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -405,7 +401,8 @@ Você pode agrupar registros por informações semelhantes ao aplicar um agrupam
 Considere o seguinte ao trabalhar com agrupamentos na exibição de linha do tempo:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
-* Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.&lt;!—!—* É possível aplicar até quatro níveis de agrupamento ao usar a API. —verificando este por enquanto—>
+* Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
+&lt;!—!—* É possível aplicar até quatro níveis de agrupamento ao usar a API. —verificando este por enquanto—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
@@ -443,9 +440,7 @@ Para adicionar um agrupamento na exibição de linha do tempo:
 
 1. Na caixa **Agrupar registros por**, arraste e solte os agrupamentos na ordem correta.
 
-1. <span class="preview"> Na área **Layout** da caixa **Agrupar registros por**, selecione uma das seguintes opções:</span>
-
-   <div class="preview">
+1. Na área **Layout** da caixa **Agrupar registros por**, selecione uma das seguintes opções:
 
    * **Empilhado**: os agrupamentos são exibidos sem uma coluna congelada à esquerda e se ajustam à largura das linhas do tempo de seus itens.
 
@@ -609,7 +604,8 @@ Considere o seguinte ao detalhar a linha do tempo dos registros por seus tipos d
   Por exemplo, tarefas, estão conectadas a projetos no Workfront. Usando o recurso Detalhamento, você pode exibir projetos que estão conectados a campanhas no Planning, mas não tarefas conectadas a projetos no Workfront.
 
   Se você quiser exibir portfólios e projetos na exibição de linha do tempo de um tipo de registro do Workfront Planning, os portfólios e os projetos deverão estar conectados ao registro do Planning ou a um registro conectado ao registro do Planning cuja exibição de linha do tempo você está gerenciando.
-* Não é possível exibir Marcas do Adobe GenStudio conectadas a tipos de registro do Planning.Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Não é possível exibir Marcas do Adobe GenStudio conectadas a tipos de registro do Planning.
+Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Você só pode exibir tipos de registro associados a pelo menos dois campos de data.
 * Os campos de data para os tipos de registro que você deseja exibir na exibição de linha do tempo devem estar visíveis na exibição de tabela do tipo de registro selecionado, como campos de pesquisa.
 * As datas de Início e Término dos tipos de registro que você deseja exibir na exibição de linha do tempo devem estar em ordem cronológica. Por exemplo, se um registro tiver uma data de início de 31 de janeiro e uma data de término de 1º de janeiro, ele não será exibido na exibição de linha do tempo. Para obter mais informações, consulte a seção [Gerenciar uma exibição de linha do tempo](#manage-a-timeline-view) neste artigo.

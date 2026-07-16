@@ -11,18 +11,13 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1528
 ht-degree: 4%
 
 ---
@@ -33,11 +28,13 @@ ht-degree: 4%
 Remove production and preview references at release
 -->
 
+<!--
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 Você pode exibir as solicitações que você ou outra pessoa submeteu, ou as solicitações que você iniciou, mas que você nunca terminou de submeter. As solicitações não concluídas são salvas como rascunhos.
 
@@ -113,7 +110,8 @@ A exibição de solicitações enviadas é diferente dependendo se você está u
 
 >[!NOTE]
 >
->* Se você tiver o Workfront Planning, suas solicitações do Workfront e do Planning serão exibidas na mesma lista.O **Tipo de objeto** de uma solicitação do Planning é nomeado seguindo este padrão: `< Name of workspace > > < Name of record type >`. Por exemplo, o tipo de Objeto de uma solicitação do Planning pode se chamar `Marketing workspace > Campaigns`.\
+>* Se você tiver o Workfront Planning, suas solicitações do Workfront e do Planning serão exibidas na mesma lista.
+>     O **Tipo de objeto** de uma solicitação do Planning é nomeado seguindo este padrão: `< Name of workspace > > < Name of record type >`. Por exemplo, o tipo de Objeto de uma solicitação do Planning pode se chamar `Marketing workspace > Campaigns`.\
 >     O **Tipo de objeto** de uma solicitação Workfront é `Issue`.
 >* Até 50 solicitações são exibidas na lista na área Solicitações por padrão. Para visualizar mais solicitações, navegue até a parte inferior da lista.
 
@@ -157,7 +155,7 @@ Para exibir solicitações que você ou outros usuários enviaram na nova experi
 
    Os seguintes status estão disponíveis na nova experiência de solicitação:
 
-   * <span class="preview">**Nova**: a solicitação é nova e ninguém começou a trabalhar nela. </span>
+   * **Nova**: a solicitação é nova e ninguém começou a trabalhar nela.
    * **Rascunho**: Esta solicitação ainda não foi enviada. Este status é embutido em código.
    * **Revisão Pendente**: (somente Planning) esta solicitação tem aprovadores e nenhum dos aprovadores abriu a solicitação. Este status é embutido em código.
    * **Em Revisão**: (somente Planning) essa solicitação tem aprovadores e pelo menos um aprovador abriu a solicitação, mas nenhuma decisão foi tomada. Este status é embutido em código.
@@ -166,7 +164,7 @@ Para exibir solicitações que você ou outros usuários enviaram na nova experi
       * Solicitações do Workfront: a solicitação foi convertida e o trabalho está em andamento.
       * Solicitações do Workfront Planning: a conclusão da solicitação é mapeada para um campo do Planning específico e o valor do campo ainda não corresponde ao valor de conclusão.
    * **Em Espera**: está disponível para solicitações do Workfront. Ele pode ser definido manualmente pelos usuários.
-   * <span class="preview">**Concluído**: o registro do Planning foi criado, o que conclui a solicitação. (Somente Planning)</span>
+   * **Concluído**: o registro do Planning foi criado, o que conclui a solicitação. (Somente Planning)
    <!--
    This is not live yet; might be live for the unified intake process: 
    * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
