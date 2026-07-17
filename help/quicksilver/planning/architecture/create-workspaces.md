@@ -21,18 +21,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1311
-ht-degree: 2%
+source-wordcount: 1252
+ht-degree: 3%
 
 ---
 
 # Criar espaços de trabalho
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -277,7 +279,6 @@ Os modelos incluídos no pacote contêm espaços de trabalho, tipos de registro,
 
       1. Depois de abrir a caixa **Visualizar** para cada modelo de espaço de trabalho, clique em **Voltar** para voltar à caixa **Criar espaço de trabalho** ou clique em **Usar modelos** para usar os modelos, incluindo no pacote, e criar espaços de trabalho.
 
-   <div class="preview">
 
    * Clique na guia **Espaços de trabalho de amostra** e siga estas etapas:
 
@@ -289,8 +290,6 @@ Os modelos incluídos no pacote contêm espaços de trabalho, tipos de registro,
          >
          >Clicar em um cartão de tipo de registro em um modelo exibe os campos do tipo de registro no painel direito.
       1. Clique em **Usar modelos**.
-
-   </div>
 
    Os 6 espaços de trabalho são criados e exibidos nas guias **Espaços de trabalho em que estou** e **Todos os espaços de trabalho** para administradores do sistema. Todos os usuários com licenças Padrão verão os espaços de trabalho em sua área Espaços de trabalho depois que um Administrador do sistema criá-los e compartilhá-los com eles.
 

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 793
+source-wordcount: 765
 ht-degree: 2%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Como um gerenciador de espaço de trabalho, você pode adicionar um tipo de registro que existe em outro espaço de trabalho a um espaço de trabalho gerenciado no Adobe Workfront Planning.
 
@@ -149,25 +149,25 @@ And
 1. Clique em **Continuar**.
 1. (Condicional) Na caixa **Escolher o tipo de registro**, clique no cartão do tipo de registro que deseja adicionar de um espaço de trabalho existente e clique em **Adicionar**.
 
-   <span class="preview">Se estiver usando o ambiente de Visualização, você pode clicar em para selecionar vários tipos de registro e em **Adicionar**. Todos os tipos de registros globais de todos os espaços de trabalho em que estão disponíveis são exibidos na lista.</span>
+Se você estiver usando o ambiente de Visualização, clique para selecionar vários tipos de registro e em **Adicionar**. Todos os tipos de registros globais de todos os espaços de trabalho em que estão disponíveis são exibidos na lista.
 
-   O tipo de registro é adicionado ao espaço de trabalho secundário selecionado e o ícone **Tipo de registro global** ![Ícone de registro global no espaço de trabalho secundário](assets/global-icon-secondary-workspace.png) é exibido no cartão do tipo de registro.
+O tipo de registro é adicionado ao espaço de trabalho secundário selecionado e o ícone **Tipo de registro global** ![Ícone de registro global no espaço de trabalho secundário](assets/global-icon-secondary-workspace.png) é exibido no cartão do tipo de registro.
 O ícone de tipo de registro global inclui uma seta quando exibida em um tipo de registro no espaço de trabalho secundário, para indicar que o tipo de registro foi adicionado a partir de um tipo de registro existente.
 
-   As seguintes situações ocorrem:
+As seguintes situações ocorrem:
 
-   * As seguintes informações também são adicionadas do tipo de registro global existente:
+* As seguintes informações também são adicionadas do tipo de registro global existente:
 
-      * Todos os campos originais
-      * Todas as conexões de registro
-   * Não é possível exibir registros adicionados do espaço de trabalho original do tipo de registro do espaço de trabalho secundário.
-   * Você pode exibir registros adicionados do espaço de trabalho original do tipo de registro nesse espaço de trabalho, somente no espaço de trabalho original, se tiver pelo menos permissões de Exibição para esse espaço de trabalho.
-   * O campo somente leitura **Workspace** é adicionado à nova exibição de tabela do tipo de registro. O campo exibe o espaço de trabalho onde cada registro foi criado.
+   * Todos os campos originais
+   * Todas as conexões de registro
+* Não é possível exibir registros adicionados do espaço de trabalho original do tipo de registro do espaço de trabalho secundário.
+* Você pode exibir registros adicionados do espaço de trabalho original do tipo de registro nesse espaço de trabalho, somente no espaço de trabalho original, se tiver pelo menos permissões de Exibição para esse espaço de trabalho.
+* O campo somente leitura **Workspace** é adicionado à nova exibição de tabela do tipo de registro. O campo exibe o espaço de trabalho onde cada registro foi criado.
 
-     >[!NOTE]
-     >
-     >Não é possível editar a aparência do novo tipo de registro, as configurações adicionais ou os campos originais. É possível editar o tipo de registro e todos os campos e configurações originais somente no espaço de trabalho original.
-     >
+  >[!NOTE]
+  >
+  >Não é possível editar a aparência do novo tipo de registro, as configurações adicionais ou os campos originais. É possível editar o tipo de registro e todos os campos e configurações originais somente no espaço de trabalho original.
+  >
 
 1. (Opcional) Passe o mouse sobre o ícone do tipo de registro global ![Ícone de registro global no espaço de trabalho secundário](assets/global-icon-secondary-workspace.png) para exibir o nome do espaço de trabalho original do qual o tipo de registro foi adicionado.
 1. (Opcional) Clique em, em seguida arraste e solte o tipo de registro recém-adicionado em qualquer seção no espaço de trabalho.

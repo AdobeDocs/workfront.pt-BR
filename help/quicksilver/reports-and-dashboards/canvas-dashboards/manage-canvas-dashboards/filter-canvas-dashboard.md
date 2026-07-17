@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1194
-ht-degree: 6%
+source-wordcount: 1107
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,9 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -39,9 +41,11 @@ ht-degree: 6%
 Take Preview and production mentions out at release
 -->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 É possível aplicar um filtro a um Painel da tela de desenho que contenha prompts. Um prompt funciona como um modificador de filtro que aplica critérios de filtragem adicionais para que você possa restringir ainda mais seus resultados. Esses prompts podem ser modificados toda vez que você aplicar o filtro, permitindo ajustar os resultados exibidos sem precisar editar os principais critérios de filtro do painel ou de cada relatório individual.
 
@@ -122,7 +126,7 @@ Com um filtro de painel, é possível aplicar um filtro comum em todos os relat�
 
 1. No canto superior esquerdo da página de detalhes do painel, clique em **Filtros**. O painel lateral Filtros se abre.
 
-1. (Condicional) No ambiente de Produção, clique em **Editar filtros** ou <span class="preview">no ambiente de Visualização, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em</span> **Editar filtros**. A caixa de diálogo **Filtros do painel** é aberta.
+1. Clique no menu **Mais** ![Mais menus](assets/more-icon.png) e clique em **Editar filtros**. A caixa de diálogo **Filtros do painel** é aberta.
 
 1. (Opcional) Para adicionar uma regra, siga as etapas abaixo:
 
@@ -177,9 +181,7 @@ Um prompt do painel oferece aos usuários a opção de aplicar filtros personali
 1. Clique em **Salvar** para aplicar o filtro ao painel.
 
 
-1. <span class="preview">Para salvar os prompts como padrão, faça o seguinte, depois de salvar o prompt: </span>
-
-   <div class="preview">
+1. Para salvar prompts como padrão, faça o seguinte, depois de salvar o prompt:
 
    1. (Opcional) Clique no menu **Mais** ![Mais menus](assets/more-icon.png) e clique em **Salvar como prompts padrão**.
 
@@ -197,8 +199,6 @@ Um prompt do painel oferece aos usuários a opção de aplicar filtros personali
    1. (Condicional) Se você modificou as configurações do prompt padrão, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em **Aplicar padrões do painel** para retornar aos resultados do filtro padrão.
    1. (Opcional) Clique em **Redefinir padrões** para substituir as configurações padrão originais por suas modificações. Essa opção só está disponível para gerentes de painel.
 
-   </div>
-
 
 1. Prossiga para [Parte 3: Aplicar um prompt de painel](#step-3-apply-a-dashboard-prompt).
 
@@ -214,7 +214,8 @@ Todos os usuários com acesso a um painel podem aplicar um prompt de painel a um
 
 1. No canto superior esquerdo da página de detalhes do painel, clique em **Filtros**. O painel lateral Filtros se abre.
 
-1. Na seção **Mostrar registros onde...**, escolha uma condição para um ou todos os prompts exibidos. O prompt é aplicado e uma tag **Dashboard prompts aplicados** é exibida no canto do widget de relatório.   ![Selecionar condição](assets/prompts-list.png)
+1. Na seção **Mostrar registros onde...**, escolha uma condição para um ou todos os prompts exibidos. O prompt é aplicado e uma tag **Dashboard prompts aplicados** é exibida no canto do widget de relatório.
+   ![Selecionar condição](assets/prompts-list.png)
 
 1. Clique no ícone **Fechar** ![Ícone Fechar](assets/close-icon.png) no canto superior direito para ocultar o painel.
 

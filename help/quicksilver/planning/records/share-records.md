@@ -19,22 +19,22 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: 677
 ht-degree: 2%
 
 ---
 
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
-<!--take out preview and production references at release-->
-
 # Compartilhar registros usando um link
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -46,31 +46,22 @@ Você pode compartilhar um registro do Adobe Workfront Planning das seguintes ma
 
 * Copie um link para a página do registro ao exibir registros na exibição de tabela do tipo de registro.
 
-* No ambiente de produção:
+Este artigo descreve como compartilhar registros compartilhando um link.
 
-   * Você pode compartilhar todos os registros de um espaço de trabalho com outros usuários compartilhando o espaço de trabalho e o tipo de registro.
+Além disso, você pode compartilhar registros das seguintes maneiras:
 
-     Para obter mais informações, consulte os seguintes artigos:
+* Compartilhe todos os registros em um espaço de trabalho com outros usuários compartilhando o espaço de trabalho e o tipo de registro. Por padrão, todos os registros também são compartilhados com os mesmos usuários.
 
-      * [Compartilhar um espaço de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
+  Para obter mais informações, consulte os seguintes artigos:
 
-      * [Compartilhar um tipo de registro](/help/quicksilver/planning/access/share-record-types.md)
+   * [Compartilhar um espaço de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
 
-<div class="preview">
+   * [Compartilhar um tipo de registro](/help/quicksilver/planning/access/share-record-types.md)
 
-* No ambiente de Pré-visualização:
+* Você pode compartilhar registros individuais com pessoas, equipes, funções, grupos ou empresas, desativando as Permissões herdadas quando os registros são compartilhados com espaços de trabalho ou tipos de registro.
 
-   * Você pode compartilhar registros individuais com pessoas, equipes, funções, grupos ou empresas.
+  Para obter informações, consulte [Compartilhar registros](/help/quicksilver/planning/access/share-records.md).
 
-     Para obter informações, consulte [Compartilhar registros](/help/quicksilver/planning/access/share-records.md).
-
-</div>
-
-
-
-<!--take out the sentence below when we release record-level sharing-->
-
-Este artigo descreve como você pode copiar um link para a página de um registro da exibição de tabela de um tipo de registro.
 
 ## Requisitos de acesso
 
@@ -234,8 +225,6 @@ Somente usuários com permissões para Gerenciar um espaço de trabalho podem co
 
 Para obter mais informações, consulte [Compartilhar tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
 
-<div class="preview">
-
 ## Compartilhar registros individuais
 
 Por padrão, os usuários herdam permissões de registro do espaço de trabalho e do tipo de registro.
@@ -246,5 +235,5 @@ Para conceder somente a usuários selecionados com permissões de tipo de regist
 
 Para obter mais informações, consulte [Compartilhar registros](/help/quicksilver/planning/access/share-records.md).
 
-</div>
+
 

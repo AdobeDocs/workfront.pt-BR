@@ -6,10 +6,10 @@ description: É possível usar os campos de moeda em um Painel da tela de desenh
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 7%
+source-wordcount: '673'
+ht-degree: 9%
 
 ---
 
@@ -18,16 +18,18 @@ ht-degree: 7%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que este beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
 >* Google Cloud Platform
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## Requisitos de acesso
 
@@ -143,19 +145,18 @@ A tabela a seguir descreve as limitações quando as moedas são definidas na á
 <ul>
 <li>Usar campos de moeda nativa em gráficos de tela, KPI e relatórios de tabela</li>
 <li>Usar campos de moeda personalizados em relatórios de gráfico de tela, KPI e gráfico</li>
+<li>Usar campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela </li>
 </ul>
+<p><b>Nota</b></p>
+Se um campo de moeda do Planning usar uma moeda sem uma taxa de câmbio definida, o Painel de Controle do Canvas poderá exibir uma mensagem de erro quando.
 </td>
 <td>
 <ul>
 <li>Atribuir uma moeda padrão ao painel (na criação ou edição do painel)</li>
 <li>Ver e usar a alternância de moeda no nível do painel</li>
 <li>Bloquear uma moeda específica para exibição em um gráfico de tela, KPI ou relatório de tabela</li>
-<li>Use os campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela <span class="preview"> no ambiente de Produção. Isto está disponível no ambiente de Pré-visualização.</span></li>
+
 </ul>
-
-<p><b>Nota</b></p>
-<span class="preview">Se um campo de moeda do Planning usar uma moeda sem uma taxa de câmbio definida, o Painel do Canvas poderá exibir uma mensagem de erro quando.</span>
-
 </td> 
 </tr>
 </td> 
@@ -168,17 +169,19 @@ A tabela a seguir descreve as limitações quando as moedas são definidas na á
   <li>Definir uma moeda padrão para o painel (na criação ou edição do painel)</li>
   <li>Ver e usar a alternância de moeda no nível do painel</li>
   <li>Bloqueie uma moeda específica para exibição em um gráfico de tela, KPI ou relatório de tabela para ignorar a preferência de alternância de moeda do painel</li>
+  <li>Usar campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela </li>
 </ul>
+<p><b>Nota</b></p>
+
+<p>Se um campo de moeda do Planning usar uma moeda sem uma taxa de câmbio definida, o Painel de Controle do Canvas poderá exibir uma mensagem de erro quando.</p>
 </td>
 <td><ul>
   <li>Usar campos de moeda de dados personalizados em relatórios de gráfico de tela, KPI e tabela</li>
-  <li>Use os campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela <span class="preview"> no ambiente de Produção. Isto está disponível no ambiente de Pré-visualização.</span></li>
+
 </ul>
 
 
-<p><b>Nota</b></p>
 
-<p><span class="preview">Se um campo de moeda do Planning usar uma moeda sem uma taxa de câmbio definida, o Painel de Controle do Canvas poderá exibir uma mensagem de erro quando.</span></p>
 
 </td>
 </tr></table>

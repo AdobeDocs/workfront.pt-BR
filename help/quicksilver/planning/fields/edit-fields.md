@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 1%
+source-wordcount: 1038
+ht-degree: 2%
 
 ---
 
@@ -32,10 +32,11 @@ ht-degree: 1%
 
 <!--leave the choice value information in yellow till January 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -152,8 +153,8 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
 * Você pode editar a configuração dos seguintes elementos de campo, depois de salvar o campo:
 
    * O Nome ou a Descrição de qualquer campo
-   * As Opções de um campo de Seleção única ou de Seleção múltipla <span class="preview">e suas opções padrão</span>.
-   * <span class="preview">As opções padrão de um campo Pessoas.</span>
+   * As Opções de um campo Seleção única ou Seleção múltipla e suas opções padrão.
+   * As opções padrão de um campo Pessoas.
    * A expressão de um campo Formula.
 
   >[!WARNING]
@@ -209,14 +210,10 @@ this is not yet true, but it might come later:
    >
    >* Ao modificar as configurações de campo (opções de campo ou expressões de fórmula), os registros que já contêm informações nos campos modificados atualizarão seus valores em tempo real. Não há aviso e nenhum log de auditoria para as alterações de valor acionadas pelas alterações de configuração do campo. Todos os usuários que visualizam os campos verão imediatamente os novos valores com as modificações.
 
-1. <span class="preview">(Condicional) Se o campo que você está atualizando fizer parte de um formulário de solicitação, a caixa **Revisar alterações do campo** será exibida para indicar os formulários que serão afetados pelas suas alterações. Siga um destes procedimentos:</span>
-
-   <div class="preview">
+1. (Condicional) Se o campo que você está atualizando fizer parte de um formulário de solicitação, a caixa **Revisar alterações do campo** será exibida para indicar os formulários que serão afetados pelas suas alterações. Siga um destes procedimentos:
 
    * Clique na seta à direita para exibir os formulários afetados pela alteração e clique no nome do formulário para abri-lo em uma nova guia e decidir se deseja manter o campo no formulário ou fazer alterações adicionais nele.
    * Clique em **Manter alterações** que atualizará o campo em todas as áreas em que ele for exibido.
-
-   </div>
 
    As informações do campo são atualizadas para todos com acesso para exibir o espaço de trabalho.
 

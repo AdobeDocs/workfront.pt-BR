@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 1%
@@ -20,6 +20,7 @@ ht-degree: 1%
 >As informações neste artigo se referem ao Adobe Workfront Planning, quando adquirido como um produto independente. Consulte este artigo quando sua empresa comprou um pacote somente do Adobe Workfront Planning e não comprou um pacote do Workfront Workflow.
 >
 >Para obter informações sobre o Adobe Workfront Planning quando adquirido junto com um pacote do Workfront, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>
 
 É possível gerenciar usuários no Adobe Workfront Planning como um produto independente de uma maneira semelhante à que você gerencia no Adobe Workfront.
 
@@ -131,6 +132,4 @@ Considere o seguinte ao trabalhar com níveis de acesso no Workfront Planning co
 1. Clique em **Desativar** para confirmar.
 
    Para manter registros históricos do seu trabalho, recomendamos desativar os usuários, em vez de excluí-los.
-
-
 

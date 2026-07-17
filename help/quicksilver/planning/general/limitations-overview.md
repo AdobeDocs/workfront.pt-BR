@@ -16,10 +16,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 4%
+source-wordcount: 478
+ht-degree: 5%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 4%
 
 # Visão geral das limitações de objetos do Planejamento do Adobe Workfront
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que habilitaram lançamentos rápidos.</span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -63,7 +63,7 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Número de campos de conexão para um tipo de registro | 30 |
 | Número de caracteres em uma expressão de campo de fórmula | 50.000 |
 | Número de entidades (usuários, funções, equipes, empresas, grupos) com as quais você pode compartilhar um objeto do Planning | 100 |
-| <span class="preview">Número de registros que você pode compartilhar em massa de uma vez</span> | 100 |
+| Número de registros que você pode compartilhar em massa de uma vez | 100 |
 | Número de tipos de registro em uma hierarquia | 4 |
 | Número de hierarquias em um espaço de trabalho | 5 |
 | Número de registros de um tipo de registro pai conectados a um registro de um tipo de registro filho, dentro de uma hierarquia | 10 |
