@@ -5,9 +5,9 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
+source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1992'
 ht-degree: 6%
 
 ---
@@ -208,6 +208,7 @@ As ferramentas de fluxo de trabalho são ações de uso geral que a plataforma d
 | Atualizar objeto | `workflow_update_any_object` | Atualiza campos em um objeto Workfront existente. | Gravar |
 | Excluir objeto | `workflow_delete_any_object` | Exclui um objeto do Workfront por ID. Requer confirmação explícita do usuário antes que a ação seja executada. | Gravar |
 | Resolver nomes de campo | `workflow_resolve_field_names_any_object` | Converte nomes de campo ou rótulos fornecidos pelo usuário em nomes de campo subjacentes da API do Workfront para que a plataforma do agente de IA possa criar solicitações precisas. | Ler |
+| Ler documentos do fluxo de trabalho | `workflow_read_workflow_docs` | Carrega a documentação do Fluxo de trabalho do Workfront, incluindo guias de uso da ferramenta e manuais de operações específicos do objeto. Esta é a primeira etapa necessária antes de executar as ações do Fluxo de trabalho. | Ler |
 
 ### Comentários
 
