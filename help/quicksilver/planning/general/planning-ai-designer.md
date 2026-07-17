@@ -9,20 +9,14 @@ exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YZRzcl8ymUo85jplCgKOx-qI83Gqa4CUI6saxfijtec
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: 1386
 ht-degree: 6%
 
 ---
@@ -73,7 +67,7 @@ Para obter informações sobre o Workfront Planning, consulte os seguintes artig
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p>Padrão</p> 
-   <p><span class="preview">Administrador do Sistema para habilitar o Planning Designer para sua organização</span></p>
+   <p>O Administrador do Sistema deve habilitar o Planning Designer para sua organização</p>
   </td> 
   </tr> 
   <tr> 
@@ -96,9 +90,10 @@ Como Administrador do Sistema, você pode ativar o Planning Beta para sua organi
 1. Faça logon como administrador do Workfront no Workfront.
 1. Clique no **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-shell.png) e em **Instalação**.
 1. Vá para **Sistema** > **Preferências** > **Preferências de IA**.
-1. Ative o **Habilitar IA** e verifique se você tem um Contrato Gen AI assinado com a Adobe.
+1. Ative **Habilitar IA**<!--and ensure you have a signed Gen AI Agreement with Adobe-->.
+   <!--1. Turn on the **Opt in to AI Beta** setting.-->
 1. Ative a configuração **Planning Designer**.
-
+   <!-- add new screenshot-->
    ![Configuração do Planning Designer nas Preferências do Sistema](assets/planning-designer-toggle-in-system-preferences.png)
 
 1. Clique em **Salvar**.
@@ -155,25 +150,35 @@ Seu feedback é enviado às equipes de engenharia e de produtos.
 
 ## Considerações sobre o Planning Designer
 
-* Para usar o Planning Designer, primeiro é necessário habilitar a IA para sua organização. Os recursos de IA devem estar disponíveis para todos em sua organização:
+* Não é necessário habilitar o contrato de IA antes de acessar o Planning Designer.
 
-   * A Workfront deve disponibilizar os recursos de IA para sua organização.
+<!--* You must sign the Beta agreement to access the Planning Designer.-->
 
-     Para obter detalhes, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
-   * Depois que a Workfront disponibilizar os recursos de IA para sua organização, o principal administrador do Workfront poderá acessá-la.
+<!--
+Sargis and Ashot  said these are not required: 
 
-     Para obter informações, consulte [Configurar informações básicas do sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
-   * O administrador do Workfront deve aceitar o contrato de IA de Geração e, em seguida, ativar a IA e o Planning Designer para sua organização.
+* To use the Planning Designer, you first need to enable AI for your organization. The following must be in place for the AI features to be available to everyone in your organization:
 
-     Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
-* Depois que o Administrador do Sistema ativa a IA e o Planning Designer para a sua organização, o Planning Designer fica disponível para todos os usuários, por padrão.
-* As ações executadas pelo Planning Designer também podem ser executadas pelo Assistente do AI, quando você o usa na área do Planning.
+    * Workfront must make the AI features available for your organization.
+
+        For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+    * After Workfront makes the AI features available for your organization, the main Workfront administrator can access it. 
+
+        For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md). 
+    * The Workfront administrator must accept the Gen AI agreement, and then turn on AI and the Planning Designer for your organization. 
+
+        For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md). 
+
+-->
+
+* O administrador do Workfront deve ativar o Planning Designer para sua organização. Depois disso, o Planning Designer estará disponível para todos os usuários, por padrão.
+* As ações executadas pelo Planning Designer também podem ser executadas pelo Assistente de IA, quando você o usa na área do Planning, caso sua organização tenha assinado o Contrato de IA.
 * As ações executadas pelo Assistente de IA na área de Planejamento ou aquelas executadas pelo Planning Designer estão no contexto das suas permissões do Workfront Planning e do seu nível de acesso ao Workfront.
 
   Para obter informações, consulte os seguintes artigos:
 
-   * [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-   * [Visão geral dos tipos de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
+  * [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
+  * [Visão geral dos tipos de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
 * As alterações feitas pelo Assistente de IA ou pelo Planning Designer em nome do usuário são rastreadas no painel histórico do registro.
 
