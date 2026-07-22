@@ -9,17 +9,12 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 6%
@@ -157,9 +152,9 @@ Considere o seguinte:
   Você pode selecionar entre campos de data de registro ou campos de data de pesquisa a partir de tipos de objeto ou registro conectados.
 * Existem os seguintes cenários:
 
-   * Quando as datas de Início e Término não têm valores, os registros não são exibidos no calendário
-   * Quando as datas Start ou End não têm valor, o registro é exibido como um evento de um dia
-   * Quando a data de início é posterior à data de término, o registro não é exibido no calendário.
+  * Quando as datas de Início e Término não têm valores, os registros não são exibidos no calendário
+  * Quando as datas Start ou End não têm valor, o registro é exibido como um evento de um dia
+  * Quando a data de início é posterior à data de término, o registro não é exibido no calendário.
 
 Para gerenciar uma exibição de calendário:
 
@@ -176,12 +171,12 @@ Para gerenciar uma exibição de calendário:
    * Clique em **Hoje** no canto superior direito para centralizar o calendário na data de hoje.
    * Selecione uma das seguintes opções no menu suspenso de intervalo de tempo para atualizar os incrementos de tempo:
 
-      * **Mês**: os registros são exibidos em um calendário mensal.
+     * **Mês**: os registros são exibidos em um calendário mensal.
 
-      * **Semana**: os registros são exibidos nas seguintes áreas:
+     * **Semana**: os registros são exibidos nas seguintes áreas:
 
-         * Os registros que se estendem por vários dias são exibidos na parte superior do calendário.
-         * Os registros que duram um dia ou menos são exibidos na metade inferior da exibição do calendário. Se você optou por exibir a hora das datas inicial e final, o registro será exibido no horário apropriado no dia em que ocorre.
+       * Os registros que se estendem por vários dias são exibidos na parte superior do calendário.
+       * Os registros que duram um dia ou menos são exibidos na metade inferior da exibição do calendário. Se você optou por exibir a hora das datas inicial e final, o registro será exibido no horário apropriado no dia em que ocorre.
 
 1. (Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.
 
@@ -449,6 +444,15 @@ Atualize as configurações de exibição do calendário para indicar quais info
    Por exemplo, campos de seleção múltipla ou seleção única podem ter opções codificadas por cores.
 
    Se você não tiver um campo com opções codificadas por cores para o tipo de registro selecionado, essa opção ficará esmaecida.
+
+   <!--
+        For July 23: add this note after the last sentence here
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
 
 1. Clique em **Salvar**.
