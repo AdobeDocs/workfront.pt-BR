@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d0b0499c10d0e7b032eeceb0d200b4594414e475
 workflow-type: tm+mt
-source-wordcount: 1808
+source-wordcount: 1857
 ht-degree: 4%
 
 ---
@@ -159,6 +159,10 @@ A mensagem é exibida no idioma localizado.
 >[!ENDSHADEBOX]
 
 Para obter informações sobre localização personalizada, consulte [Configurar localização personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+>[!NOTE]
+>
+>As regras de negócios são executadas após a conclusão do processo principal. Em outras palavras, as regras de negócios têm como objetivo impedir ações que ainda não foram tratadas pelo processo principal. Eles não substituem ou substituem as exceções lançadas durante a execução principal; são executados no final do processo.
 
 ## Cenários para automação de regras de negócios
 
@@ -307,3 +311,4 @@ Para ativar uma regra de negócios:
 1. Selecione a regra de negócios na lista de regras e clique no ícone Editar.
 1. Selecione **Sim** para **Está ativo** na caixa de diálogo de regra de negócios.
 1. Clique em **Salvar**.
+
