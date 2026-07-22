@@ -1708,15 +1708,15 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
 >
 >O tipo de registro é identificado por meio da propriedade `enumClass`. Estes são os tipos esperados:<br>
 ><ul><li>CONDITION_OPTASK</li>
-&gt;<li>CONDITION_PROJ</li>
-&gt;<li>CONDITION_TASK</li>
-&gt;<li>PRIORITY_OPTASK</li>
-&gt;<li>PRIORITY_PROJ</li>
-&gt;<li>PRIORITY_TASK</li>
-&gt;<li>SEVERITY_OPTASK</li>
-&gt;<li>STATUS_OPTASK</li>
-&gt;<li>STATUS_PROJ</li>
-&gt;<li>STATUS_TASK</li></ul>
+>&gt;<li>CONDITION_PROJ</li>
+>&gt;<li>CONDITION_TASK</li>
+>&gt;<li>PRIORITY_OPTASK</li>
+>&gt;<li>PRIORITY_PROJ</li>
+>&gt;<li>PRIORITY_TASK</li>
+>&gt;<li>SEVERITY_OPTASK</li>
+>&gt;<li>STATUS_OPTASK</li>
+>&gt;<li>STATUS_PROJ</li>
+>&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Documento
