@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
-source-wordcount: 4300
+source-wordcount: 4223
 ht-degree: 3%
 
 ---
@@ -154,14 +154,14 @@ Considere o seguinte:
 
   Você pode selecionar entre os seguintes campos de data ao criar uma exibição de linha do tempo:
 
-   * Registrar datas
-   * Registrar campos gerados pelo sistema: Data de criação, Data da última modificação
-   * Pesquisar datas de tipos de registro ou objeto conectados (somente quando você adicionou um agregador para eles quando conectou o registro ou tipos de objeto)
+  * Registrar datas
+  * Registrar campos gerados pelo sistema: Data de criação, Data da última modificação
+  * Pesquisar datas de tipos de registro ou objeto conectados (somente quando você adicionou um agregador para eles quando conectou o registro ou tipos de objeto)
 * Dependendo das datas associadas aos registros, alguns registros podem não ser exibidos na exibição de linha do tempo nos seguintes cenários:
 
-   * Quando as datas de início e término não têm valores
-   * Quando as datas de Início ou Término não têm valor
-   * Quando a data inicial for posterior à data final
+  * Quando as datas de início e término não têm valores
+  * Quando as datas de Início ou Término não têm valor
+  * Quando a data inicial for posterior à data final
 
 Para gerenciar uma exibição de linha do tempo:
 
@@ -214,9 +214,9 @@ Para gerenciar uma exibição de linha do tempo:
    * Clique em **Hoje** no canto superior direito para centralizar a linha do tempo para a data de hoje.
    * Selecione uma das seguintes opções no menu drop-down intervalo de tempo para atualizar os incrementos de tempo e atualizar a view:
 
-      * **Ano**: exibe trimestres e meses com indicação de ano.
-      * **Trimestre**: exibe meses e semanas com indicação de trimestre.
-      * **Mês**: exibe semanas e dias.
+     * **Ano**: exibe trimestres e meses com indicação de ano.
+     * **Trimestre**: exibe meses e semanas com indicação de trimestre.
+     * **Mês**: exibe semanas e dias.
 
      >[!TIP]
      >
@@ -379,7 +379,7 @@ Para adicionar um filtro a uma exibição de linha do tempo:
 
    * **AND**: todas as condições especificadas devem ser atendidas.
    * **OU**: qualquer uma das condições especificadas deve ser atendida.
-Esta é a opção padrão.
+     Esta é a opção padrão.
 
 1. (Opcional) Adicione outros agrupamentos de filtros e junte-os com os operadores **AND** ou **OR**.
 
@@ -407,7 +407,7 @@ Considere o seguinte ao trabalhar com agrupamentos na exibição de linha do tem
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—!—* É possível aplicar até quatro níveis de agrupamento ao usar a API. —verificando este por enquanto—>
+&lt;!—* Você pode aplicar até quatro níveis de agrupamento ao usar a API. —verificando esta por enquanto—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
@@ -553,8 +553,16 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
      >
      >    * É possível corresponder a cor somente a campos com opções codificadas por cores. Por exemplo, é possível corresponder a cor aos campos Status ou aos campos com opções associadas a cores.
      >    
-     >    * Não é possível corresponder a cor a campos de pesquisa de tipos de objeto ou registro vinculado.
+     >    * Não é possível corresponder a cor aos registros conectados e seus campos de pesquisa.
 
+     <!--
+        For July 23: replace the note above with this note for the July 23 release:
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
    Por exemplo, campos de seleção múltipla ou seleção única podem ter opções codificadas por cores.
 
@@ -570,6 +578,10 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
    * **Valores de campo**: a cor dos registros corresponde à cor de um campo especificado. Continue na etapa 10. <!--ensure this stays accurate-->
    * **Agrupamento**: a cor dos registros corresponde à cor indicada para os agrupamentos. Essa opção fica esmaecida quando não há agrupamentos aplicados à exibição de linha do tempo.
    * **Nenhum**: os registros são exibidos em uma barra branca.
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. (Condicional) Se você selecionou **Valores de campo** para as cores do registro, selecione um campo no menu suspenso **Corresponder a cor do registro a**.
 
@@ -598,11 +610,11 @@ Considere o seguinte ao detalhar a linha do tempo dos registros por seus tipos d
 * Você pode exibir registros ou objetos conectados nos registros do tipo de registro selecionado na exibição de linha do tempo.
 * Você pode exibir registros conectados na exibição de linha do tempo somente ao exibir os registros no modo Padrão. Não é possível usar a opção Detalhamento no modo Compacto da exibição de linha do tempo.
 * Você pode exibir o seguinte na exibição de linha do tempo, usando o recurso Detalhamento:
-   * Registros do Workfront Planning conectados ao tipo de registro selecionado.
-   * Tipos de objeto do Workfront ou do Experience Manager conectados ao tipo de registro selecionado.
-   * Registros ou objetos do Workfront Planning de outros aplicativos que estão conectados a registros conectados ao tipo de registro selecionado.
+  * Registros do Workfront Planning conectados ao tipo de registro selecionado.
+  * Tipos de objeto do Workfront ou do Experience Manager conectados ao tipo de registro selecionado.
+  * Registros ou objetos do Workfront Planning de outros aplicativos que estão conectados a registros conectados ao tipo de registro selecionado.
 
-     Por exemplo, você pode conectar campanhas a portfólios. Além disso, você pode conectar outro tipo de registro, produtos, a projetos, e a campanhas. Ao criar a visualização da linha do tempo da campanha, você pode detalhar as campanhas por portfólios, produtos e projetos.
+    Por exemplo, você pode conectar campanhas a portfólios. Além disso, você pode conectar outro tipo de registro, produtos, a projetos, e a campanhas. Ao criar a visualização da linha do tempo da campanha, você pode detalhar as campanhas por portfólios, produtos e projetos.
 
 * Não é possível exibir tipos de objetos que estão conectados somente a objetos do Workfront no Workfront, mas que não estão conectados a um tipo de registro do Workfront Planning. Você só pode exibir tipos de objeto ou de registro que estejam conectados no Workfront Planning.
 
