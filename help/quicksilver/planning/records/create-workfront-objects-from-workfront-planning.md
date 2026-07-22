@@ -9,19 +9,12 @@ exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GHx5HHn781v3Ut86bfjj6xJ5gwomendbp-N6a8Q1tJY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 4%
@@ -69,20 +62,20 @@ Considere o seguinte ao conectar e criar objetos do Workfront aos registros do W
 
 * Você pode conectar projetos, portfólios, programas, grupos e empresas do Workfront a partir de um campo de conexão das seguintes áreas do Workfront Planning:
 
-   * A exibição de tabela de um tipo de registro
-   * A página Detalhes ou a caixa de visualização de um registro
-   * A guia Conexões de um registro
+  * A exibição de tabela de um tipo de registro
+  * A página Detalhes ou a caixa de visualização de um registro
+  * A guia Conexões de um registro
 
 * Você pode criar projetos nas seguintes áreas do Workfront Planning:
 
-   * A exibição de tabela de um tipo de registro
-   * A área Detalhes de um registro no campo de conexão
-   * A página de registro Conectado de um registro
+  * A exibição de tabela de um tipo de registro
+  * A área Detalhes de um registro no campo de conexão
+  * A página de registro Conectado de um registro
 
 * Você pode criar portfólios e programas das seguintes áreas do Workfront Planning:
 
-   * A exibição de tabela de um tipo de registro
-   * A área Detalhes de um registro no campo de conexão
+  * A exibição de tabela de um tipo de registro
+  * A área Detalhes de um registro no campo de conexão
 
 Para obter informações sobre como conectar registros do Planning a objetos do Workfront, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
@@ -121,7 +114,7 @@ Para obter informações sobre como conectar registros do Planning a objetos do 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td> <p>Permissões do Contribute ou superior para o espaço de trabalho e tipo de registro ao qual você deseja adicionar registros. </p>  
-   <p><span class="preview">Gerencie permissões para o registro a partir do qual você está criando o objeto do Workfront.</span></p>
+   <p>Gerencie permissões para o registro a partir do qual você está criando o objeto do Workfront.</p>
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
    <p>Gerencie permissões para objetos do Workfront (portfólios) para adicionar objetos secundários (projetos).</p>
    </td> 
