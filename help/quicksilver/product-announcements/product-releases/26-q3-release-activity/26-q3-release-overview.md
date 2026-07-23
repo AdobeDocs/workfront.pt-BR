@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 14%
+source-wordcount: '3317'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do terceiro trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -610,6 +610,16 @@ Esta atualização é para Mac e Windows.
 
 ## Avisos
 
+### A autenticação somente senha para usuários de leitores de Data Connect termina em 8 de agosto de 2026
+
+A partir de 8 de agosto de 2026, os usuários do Workfront Data Connect / Snowflake Reader que se autenticarem com um logon somente de senha deixarão de funcionar, a menos que a autenticação multifator (MFA) tenha sido habilitada. O MFA não pode ser adicionado retroativamente após essa data. Se um usuário leitor tiver permissão para expirar sem ele, o acesso só poderá ser restaurado criando um novo perfil de usuário.
+
+Se você for um administrador da Workfront com usuários de leitores de Data Connect que ainda não habilitaram o MFA, notifique seus usuários imediatamente sobre essa alteração.
+
+Essa alteração foi anunciada pela primeira vez nas notas de versão de abril de 2026 do Workfront e este é o lembrete final antes do prazo. Certifique-se de que todos os usuários de leitores afetados ativem o MFA antes de 8 de agosto de 2026 para evitar a interrupção de seu acesso.
+
+Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+
 ### Adobe Workfront Planning como um produto independente
 
 >[!NOTE]
@@ -671,7 +681,7 @@ Para obter mais informações, consulte [Introdução à avaliação gratuita do
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
