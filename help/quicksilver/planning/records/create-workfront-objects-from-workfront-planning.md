@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 4%
@@ -69,20 +69,20 @@ Considere o seguinte ao conectar e criar objetos do Workfront aos registros do W
 
 * Você pode conectar projetos, portfólios, programas, grupos e empresas do Workfront a partir de um campo de conexão das seguintes áreas do Workfront Planning:
 
-   * A exibição de tabela de um tipo de registro
-   * A página Detalhes ou a caixa de visualização de um registro
-   * A guia Conexões de um registro
+  * A exibição de tabela de um tipo de registro
+  * A página Detalhes ou a caixa de visualização de um registro
+  * A guia Conexões de um registro
 
 * Você pode criar projetos nas seguintes áreas do Workfront Planning:
 
-   * A exibição de tabela de um tipo de registro
-   * A área Detalhes de um registro no campo de conexão
-   * A página de registro Conectado de um registro
+  * A exibição de tabela de um tipo de registro
+  * A área Detalhes de um registro no campo de conexão
+  * A página de registro Conectado de um registro
 
 * Você pode criar portfólios e programas das seguintes áreas do Workfront Planning:
 
-   * A exibição de tabela de um tipo de registro
-   * A área Detalhes de um registro no campo de conexão
+  * A exibição de tabela de um tipo de registro
+  * A área Detalhes de um registro no campo de conexão
 
 Para obter informações sobre como conectar registros do Planning a objetos do Workfront, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
@@ -121,7 +121,7 @@ Para obter informações sobre como conectar registros do Planning a objetos do 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td> <p>Permissões do Contribute ou superior para o espaço de trabalho e tipo de registro ao qual você deseja adicionar registros. </p>  
-   <p><span class="preview">Gerencie permissões para o registro a partir do qual você está criando o objeto do Workfront.</span></p>
+   <p>Gerencie permissões para o registro a partir do qual você está criando o objeto do Workfront.</p>
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
    <p>Gerencie permissões para objetos do Workfront (portfólios) para adicionar objetos secundários (projetos).</p>
    </td> 

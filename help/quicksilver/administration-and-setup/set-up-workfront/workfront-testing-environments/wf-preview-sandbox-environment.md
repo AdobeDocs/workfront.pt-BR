@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5c9b42ffc6dd0cd93020ce476828fb61db3dc1dd
 workflow-type: tm+mt
-source-wordcount: 1372
+source-wordcount: 1365
 ht-degree: 0%
 
 ---
@@ -203,7 +203,5 @@ Para o ambiente de Pré-visualização, o recálculo noturno é desativado e as 
 * Qualquer interrupção em um ambiente de Visualização do [!DNL Workfront] durante o horário comercial regular será uma prioridade imediatamente após a resolução de quaisquer problemas de Produção, se houver.
 
 * Qualquer interrupção em um ambiente de Visualização do [!DNL Workfront] nos finais de semana (sábados e domingos) será resolvida para que o ambiente funcione durante o horário comercial na segunda-feira.
-
-* A prova não está disponível no ambiente de Pré-visualização.
 
 * O visualizador Frame.io não está disponível no ambiente de Pré-visualização. O armazenamento na nuvem do Adobe está disponível para que você possa testá-lo na sandbox, mas a experiência completa de revisão e aprovação unificada deve ser validada na produção. Para obter mais informações, consulte [visão geral do armazenamento na nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).

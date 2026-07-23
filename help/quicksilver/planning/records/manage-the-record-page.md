@@ -20,18 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 2013
+source-wordcount: 1741
 ht-degree: 2%
 
 ---
 
 # Gerenciar o layout da página do registro
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -79,7 +81,7 @@ Para obter informações, consulte os seguintes artigos:
   <tr>
    <td role="rowheader"><p>Permissões de objeto</p></td>
    <td>
-   <p>Contribuir com ou mais permissões para um espaço de trabalho e tipo de registro e <span class="preview">Gerenciar permissões para um registro</span> </p>  
+   <p>Contribuir com ou mais permissões para um espaço de trabalho e tipo de registro e Gerenciar permissões para um registro </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> 
   </td>
   </tr>   
@@ -166,9 +168,9 @@ Old:
 
 * As alterações a seguir afetam todos os registros do mesmo tipo e são visíveis para todos os usuários que acessam esses registros:
 
-   * Reorganização de campos
-   * Adição ou remoção de seções
-   * Adicionar ou remover páginas de registros conectados
+  * Reorganização de campos
+  * Adição ou remoção de seções
+  * Adicionar ou remover páginas de registros conectados
 
 * As alterações de exibição feitas na visualização do registro ficam imediatamente visíveis na página de detalhes do registro. As alterações feitas na página de registro também estão visíveis na caixa de visualização do registro.
 
@@ -176,9 +178,9 @@ Old:
 
 * Você pode adicionar outras páginas dos seguintes tipos à página de um registro:
 
-   * Página de registros conectados
+  * Página de registros conectados
 
-     Para obter informações, consulte a seção [Adicionar uma página de registros conectados a um registro](#add-a-connected-records-page-to-a-record).
+    Para obter informações, consulte a seção [Adicionar uma página de registros conectados a um registro](#add-a-connected-records-page-to-a-record).
 
 ## Adicionar seções a uma visualização ou página de registro
 
@@ -208,13 +210,13 @@ Para adicionar uma seção a uma visualização de registro ou página:
 
    Na exibição de tabela, clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
 
-   <span class="preview">A visualização do registro é aberta no modo de exibição.</span>
+   A visualização do registro é aberta na exibição.
 
    ![Caixa Detalhes](assets/details-box.png)
 
 1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
-   <span class="preview"> A página de registro é aberta. A guia Detalhes é aberta por padrão.</span>
+   A página de registro é aberta. A guia Detalhes é aberta por padrão.
 
    ![Página de detalhes](assets/details-page.png)
 
@@ -238,7 +240,7 @@ Para adicionar uma seção a uma visualização de registro ou página:
      Ou
 
      Clique em **Mover para baixo** para mover a seção uma posição para baixo.
-Todos os campos na seção se movem com a seção.
+     Todos os campos na seção se movem com a seção.
 
    * Clique em **Excluir** para excluir a seção. A seção é excluída e não pode ser recuperada. Todos os usuários que acessarem os registros desse tipo não visualizarão mais a seção excluída.
 
@@ -287,54 +289,46 @@ As seguintes situações ocorrem:
 
    Na exibição de tabela, clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
 
-   <span class="preview">A visualização do registro é aberta no modo de exibição.</span>
+   A visualização do registro é aberta na exibição.
 
    ![Caixa Detalhes](assets/details-box.png)
 
-1. (Opcional e condicional) Se estiver usando o ambiente de Produção, dependendo de quais campos deseja exibir na página Detalhes, execute um dos seguintes procedimentos:
-
-
-   * Selecione a configuração **Mostrar todos os campos** para incluir todos os campos do registro na página **Detalhes**. Esta é a configuração padrão.
-   * Desmarque a configuração **Mostrar todos os campos** para excluir da página **Detalhes** os campos de registro ocultos na exibição de tabela do registro.
-
-     >[!TIP]
-     >
-     >* A configuração **Mostrar todos os campos** está disponível somente na caixa de visualização Detalhes do registro. Não está disponível quando a página Detalhes do registro é aberta em uma janela do navegador.
-     >* Não é possível adicionar seções à página de um registro ao excluir campos ocultos na caixa de visualização Detalhes.
-
-
-1. <span class="preview">(Opcional e condicional) Se você estiver usando o ambiente de Visualização, a área de detalhes será aberta por padrão no modo de exibição **Campos de exibição de tabela selecionados**. Isso exibe apenas os campos que estão visíveis na exibição de tabela. </span>
-
-   >[!TIP]
-   >
-   > <span class="preview">A exibição **Campos de exibição de tabela selecionados** só estará disponível quando você exibir registros na exibição de tabela na página de visualização de detalhes do registro.
-   >Os **campos de exibição de tabela selecionados** não estão disponíveis para nenhuma outra exibição de tipo de registro ou para a página de detalhes do registro que é aberta em uma janela do navegador. </span>
-
-1. <span class="preview">(Condicional) No ambiente de Visualização, continue com o seguinte:</span>
-
-   <div class="preview">
-
-   1. Para exibir todos os campos, expanda o menu suspenso de exibição de página e selecione **Todos os campos**.
-   1. (Opcional) Clique em **Novos detalhes** para adicionar uma nova página e personalizá-la, depois faça o seguinte:
-
-      1. Na caixa **Criar exibição**, adicione um nome para a exibição de página de novos detalhes e clique em **Criar**.
-      1. Passe o mouse sobre os campos no modo de exibição e clique no ícone **Ocultar campo** ![Ícone Ocultar campo](assets/hide-field-in-details-page-icon.png) à esquerda dos campos, para ocultar o campo.
-
+   <!--
+   1. (Optional and conditional) If you are using the Production environment, depending on which fields you want to display in the Details page, do one of the following:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
          >[!TIP]
          >
-         >* As páginas personalizadas estão visíveis para todos que acessam o registro.
-         >* A última exibição de página escolhida será aquela que será aberta por padrão quando você abrir outro registro do mesmo tipo.
+         >* The **Show all fields** setting is available only in the record's Details preview box. It is not available when the record's Details page opens in a browser window.
+         >* You cannot add sections to a record's page when you exclude hidden fields in the Details preview box. 
+   1. (Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. 
+      >[!TIP]
+      >
+      >The **Selected table view fields** view is only available when you view records in the table view in the record's details preview page. 
+      >The **Selected table view fields** is not available for any other record type view or for the record's details page that opens in a browser window. 
+   -->
 
-      1. (Opcional) Clique no **ícone Campos** ![ícone Campos](assets/fields-icon.png) na parte superior da página de detalhes e, em seguida, oculte ou mostre campos na página Detalhes.
 
-         >[!TIP]
-         >
-         >O ícone **Campos** não está disponível ao exibir a página de detalhes na **exibição de tabela selecionada** ou na exibição de **Todos os campos**.
 
-      1. (Opcional) Para editar o nome de uma exibição de página de detalhes personalizada, passe o mouse sobre o nome da exibição e clique no ícone **Mais** ícone ![Mais ícone](assets/more-menu.png) e, em seguida, clique em **Editar**.
-      1. (Opcional) Para excluir uma exibição de página de detalhes personalizada, passe o mouse sobre o nome da exibição e clique no ícone **Mais** ícone ![Mais ícone](assets/more-menu.png), depois clique em **Excluir** e depois em **Excluir** para confirmar. As exibições de página de detalhes excluídas não podem ser recuperadas.
+1. Para exibir todos os campos, expanda o menu suspenso de exibição de página e selecione **Todos os campos**.
+1. (Opcional) Clique em **Novos detalhes** para adicionar uma nova página e personalizá-la, depois faça o seguinte:
 
-   </div>
+   1. Na caixa **Criar exibição**, adicione um nome para a exibição de página de novos detalhes e clique em **Criar**.
+   1. Passe o mouse sobre os campos no modo de exibição e clique no ícone **Ocultar campo** ![Ícone Ocultar campo](assets/hide-field-in-details-page-icon.png) à esquerda dos campos, para ocultar o campo.
+
+      >[!TIP]
+      >
+      >* As páginas personalizadas estão visíveis para todos que acessam o registro.
+      >* A última exibição de página escolhida será aquela que será aberta por padrão quando você abrir outro registro do mesmo tipo.
+
+   1. (Opcional) Clique no **ícone Campos** ![ícone Campos](assets/fields-icon.png) na parte superior da página de detalhes e, em seguida, oculte ou mostre campos na página Detalhes.
+
+      >[!TIP]
+      >
+      >O ícone **Campos** não está disponível ao exibir a página de detalhes na **exibição de tabela selecionada** ou na exibição de **Todos os campos**.
+
+   1. (Opcional) Para editar o nome de uma exibição de página de detalhes personalizada, passe o mouse sobre o nome da exibição e clique no ícone **Mais** ícone ![Mais ícone](assets/more-menu.png) e, em seguida, clique em **Editar**.
+   1. (Opcional) Para excluir uma exibição de página de detalhes personalizada, passe o mouse sobre o nome da exibição e clique no ícone **Mais** ícone ![Mais ícone](assets/more-menu.png), depois clique em **Excluir** e depois em **Excluir** para confirmar. As exibições de página de detalhes excluídas não podem ser recuperadas.
 
 1. (Opcional) Se desejar navegar para um registro conectado, clique no nome desse registro na navegação estrutural na parte superior da página de detalhes.
 
@@ -346,7 +340,7 @@ As seguintes situações ocorrem:
 
 1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir caixa de detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
-   <span class="preview">A página de **Detalhes** do registro é aberta em uma nova guia.</span>
+   A página **Detalhes** do registro é aberta em uma nova guia.
 
    ![Página de detalhes](assets/details-page.png)
 

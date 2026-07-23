@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 398
 ht-degree: 4%
 
 ---
@@ -36,8 +36,8 @@ Você pode receber notificações no aplicativo do Workfront Planning quando os 
 * Alguém marcar você ou suas equipes em um comentário de registro
 
   Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
-* Alguém solicitou sua permissão para acessar uma exibição ou um espaço de trabalho <!--<span class="preview">or record</span>-->
-* Alguém confirma que seu acesso foi concedido a uma exibição ou a um espaço de trabalho <!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test-->
+* Alguém solicitar sua permissão para acessar uma exibição, um espaço de trabalho ou um registro
+* Alguém confirma que seu acesso foi concedido para uma visualização, um espaço de trabalho ou um registro
 
 ## Requisitos de acesso
 

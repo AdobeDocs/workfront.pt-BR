@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 614
 ht-degree: 2%
 
 ---
@@ -42,8 +42,8 @@ Você pode receber notificações por email do Workfront Planning quando os segu
 * Alguém marcar você ou suas equipes em um comentário de registro
 
   Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
-* Alguém solicitou sua permissão para acessar um modo de exibição, um espaço de trabalho ou um tipo de registro <!--or <span class="preview">or a record</span>-->
-* Alguém confirma que seu acesso foi concedido para um tipo de exibição, espaço de trabalho ou registro <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->
+* Alguém solicitar sua permissão para acessar uma exibição, um espaço de trabalho, um tipo de registro ou um registro
+* Alguém confirma que seu acesso foi concedido para uma exibição, espaço de trabalho, tipo de registro ou registro
 * Você submete uma solicitação do Workfront Planning. Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Alguém aprovar ou rejeitar uma solicitação do Workfront Planning que você enviou. Para obter informações, consulte [Aprovar uma solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * O status é alterado para uma solicitação do Workfront Planning enviada.

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab0d036ea3bbcdad2daaed6b09864272fd1beb11
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 1010
+source-wordcount: 1002
 ht-degree: 3%
 
 ---
@@ -108,7 +108,7 @@ Você deve ter o seguinte acesso para usar o Workfront Planning:
    <ul>
    <li><p>Visualize ou aumente as permissões para espaços de trabalho, tipos de registro e visualizações que você não criou para acessá-los e seus objetos.</p></li>
    <li><p>Contribute ou tenha permissões mais altas para espaços de trabalho e tipos de registro que você não criou para editá-los e criar, editar ou excluir tipos de registro.</p></li>
-   <li><p><span class="preview">Gerencie permissões para registros para editá-las, compartilhá-las ou excluí-las.</p>
+   <li><p>Gerencie permissões para registros para editá-las, compartilhá-las ou excluí-las.</p>
    <li><p>Permissões do Contribute ou superior para exibições que você não criou, para editá-las, excluí-las e compartilhá-las</p>
    </li>
     <li><p>Os administradores do Planning podem gerenciar espaços de trabalho que não criaram. </p></li>

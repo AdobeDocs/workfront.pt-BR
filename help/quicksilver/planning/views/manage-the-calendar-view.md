@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 6%
@@ -439,6 +439,10 @@ Atualize as configurações de exibição do calendário para indicar quais info
    * **Tipo de registro**: a cor das barras de registro no calendário corresponde à cor do tipo de registro selecionado. Esta é a opção padrão.
    * **Valores de campo**: a cor dos registros corresponde à cor de um campo especificado.
    * **Nenhum**: os registros são exibidos em uma barra branca.
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. (Condicional) Se você selecionou **Valores de campo** para as cores do registro, selecione um campo no menu suspenso **Corresponder a cor do registro a**.
 

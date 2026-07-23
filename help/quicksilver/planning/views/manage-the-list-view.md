@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1813'
 ht-degree: 1%
 
 ---
@@ -24,16 +24,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Você pode exibir objetos na exibição de lista nas seguintes áreas do Workfront Planning:
 
-* Uma página de registros conectada para projetos na área de detalhes de um registro <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
+* Uma página de registros conectada para projetos na área de detalhes de um registro
 
   ![Projetos na página de registros conectados na exibição de lista](assets/projects-on-connected-records-page-list-view.png)
 
@@ -86,17 +87,17 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 * Considere o seguinte para a exibição da lista de páginas de registros conectados:
 
-   * Você só pode exibir projetos na exibição de lista na página de registros conectados de um registro. A exibição de lista não está disponível para nenhum outro objeto ou tipo de registro em uma página de registros conectada.
+  * Você só pode exibir projetos na exibição de lista na página de registros conectados de um registro. A exibição de lista não está disponível para nenhum outro objeto ou tipo de registro em uma página de registros conectada.
 
   Para obter informações sobre como criar uma página de registros conectados, consulte [Adicionar uma página de registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-   * Antes de exibir uma exibição de lista em uma página de registros conectados de um registro, você deve conectar os projetos Workfront com os tipos de registro do Planning. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
-   * É possível criar várias exibições de lista para projetos na página de registros conectados de um registro.
+  * Antes de exibir uma exibição de lista em uma página de registros conectados de um registro, você deve conectar os projetos Workfront com os tipos de registro do Planning. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+  * É possível criar várias exibições de lista para projetos na página de registros conectados de um registro.
 
 * Considere o seguinte para a exibição de lista dos formulários de solicitação:
 
-   * Não é possível criar ou editar exibições de lista adicionais para formulários de solicitação do Planning. O Workfront cria uma exibição de lista para formulários de solicitação. <!--this will change-->
+  * Não é possível criar ou editar exibições de lista adicionais para formulários de solicitação do Planning. O Workfront cria uma exibição de lista para formulários de solicitação. <!--this will change-->
 
-     Para obter informações sobre formulários de solicitação, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+    Para obter informações sobre formulários de solicitação, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * Dependendo de onde for exibida, nem todas as exibições de lista têm todos os elementos descritos neste artigo.
 
 ## Gerenciar uma exibição de lista {#manage-a-list-view}
@@ -186,10 +187,10 @@ Removed - more direct steps below:
       O **Gerenciador de colunas** se abre.
 
       Você pode adicionar somente campos existentes à exibição de lista.
-Não é possível remover o campo principal na exibição de lista exibida na primeira coluna.
+      Não é possível remover o campo principal na exibição de lista exibida na primeira coluna.
 
    1. Clique no ícone **Formatar células** ![Ícone Formatar células](assets/format-cells-icon.png). A caixa **Formatar** é aberta. <!--change the name of the box when they update it-->
-Faça o seguinte:
+      Faça o seguinte:
 
       1. Clique em **Adicionar condição**.
       1. Na linha **If**, selecione um campo, escolha um valor de campo e adicione um modificador. Os modificadores mudam, dependendo do tipo de campo escolhido.
@@ -223,8 +224,8 @@ Faça o seguinte:
       1. Clique fora da caixa **Formatar** para fechá-la.
 
          Isso retornará à exibição em lista.
-A formatação é aplicada imediatamente à exibição de lista.
-Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exibição tem formatação especial aplicada.
+         A formatação é aplicada imediatamente à exibição de lista.
+         Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exibição tem formatação especial aplicada.
 
    1. (Opcional) Clique no ícone **Agrupamento** ![Ícone Agrupamento](assets/grouping-icon.png) para agrupar itens na lista por um campo comum. Selecione uma das opções ou use a barra de pesquisa para localizar um campo.
 
@@ -254,9 +255,9 @@ Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exi
 
 1. (Condicional) Para selecionar campos do tipo, use as setas do teclado para navegar na lista de opções e pressione a barra de espaço para selecionar a opção correta.
 
-   <span class="preview">Use a linha **Pesquisa** em tipos de campos selecionados para localizar a opção correta.</span>
+   Use a linha **Pesquisa** em tipos de campos selecionados para encontrar a opção correta.
 
-   <span class="preview">Você pode adicionar novas opções diretamente da célula do campo quando nenhum resultado for encontrado. Este recurso pode não estar disponível em todas as listas.</span>
+   Você pode adicionar novas opções diretamente da célula do campo quando nenhum resultado for encontrado. Este recurso pode não estar disponível em todas as listas.
 
 1. Passe o mouse sobre o nome de um item na lista e clique no menu **Mais** [Mais menu](assets/more-menu.png) e clique em **Exibir** para abrir o item em outra guia
 
