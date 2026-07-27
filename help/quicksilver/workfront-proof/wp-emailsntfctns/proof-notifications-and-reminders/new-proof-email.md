@@ -9,15 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d879b1c6-e862-4653-aa93-90ad92170951
 TQID: https://experienceleague.adobe.com/0HC5D2PBZQ7L7N5NI0Q2FbUg6qSjLK7M1OkRLrUj0kA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 806
 ht-degree: 1%
@@ -50,22 +46,22 @@ O email de nova prova contém:
 * Miniatura da imagem de prova
 * Os seguintes detalhes da prova:
 
-   * Nome da prova
-   * Número da versão
-   * Lista dos revisores e seu progresso na prova
-   * Um link para compartilhar a prova com outra pessoa
+  * Nome da prova
+  * Número da versão
+  * Lista dos revisores e seu progresso na prova
+  * Um link para compartilhar a prova com outra pessoa
 
-     Isso permite compartilhar o URL da prova e/ou o link de download do arquivo original. Isso não permite adicionar revisores explicitamente à prova, você só compartilhará o URL de prova pública e o recipient receberá acesso somente leitura à prova.
+    Isso permite compartilhar o URL da prova e/ou o link de download do arquivo original. Isso não permite adicionar revisores explicitamente à prova, você só compartilhará o URL de prova pública e o recipient receberá acesso somente leitura à prova.
 
-     Consulte [Compartilhar uma prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) para obter mais informações.
+    Consulte [Compartilhar uma prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) para obter mais informações.
 
-     Se não quiser que este link apareça no email do destinatário, desabilite as configurações de [!UICONTROL Compartilhamento Público] na prova
+    Se não quiser que este link apareça no email do destinatário, desabilite as configurações de [!UICONTROL Compartilhamento Público] na prova
 
-     (Baixar arquivo original e URL público). Consulte [Gerenciar detalhes da prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obter mais informações.
+    (Baixar arquivo original e URL público). Consulte [Gerenciar detalhes da prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obter mais informações.
 
 ## O registro de atividades
 
-O envio de um email de [!UICONTROL Nova Prova] para um revisor está registrado na seção [!UICONTROL Atividade] da página [!UICONTROL Detalhes da prova]. Consulte [Gerenciar[!UICONTROL &#x200B; detalhes da prova] em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obter mais informações. Você pode verificar se o email [!UICONTROL Nova prova] foi habilitado no momento da criação de uma prova.
+O envio de um email de [!UICONTROL Nova Prova] para um revisor está registrado na seção [!UICONTROL Atividade] da página [!UICONTROL Detalhes da prova]. Consulte [Gerenciar[!UICONTROL  detalhes da prova] em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obter mais informações. Você pode verificar se o email [!UICONTROL Nova prova] foi habilitado no momento da criação de uma prova.
 
 ![Novo_email_versão_-_log_atividade.png](assets/new-verison-email---acitivity-log-350x44.png)
 
@@ -116,3 +112,4 @@ Ao criar uma nova prova na página [!UICONTROL Nova prova], na seção **[!UICON
 * Se optar por adicionar uma mensagem personalizada, a caixa é expandida e você poderá inserir uma linha de assunto personalizada (4) e um texto personalizado no corpo do email (5). Também é possível descartar a mensagem personalizada clicando no link (6).
 
 ![Detalhes_da_Prova_página_3.png](assets/proof-details-page-3-350x258.png)
+

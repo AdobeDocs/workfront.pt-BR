@@ -9,13 +9,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
 TQID: https://experienceleague.adobe.com/U4G0Tt1KZZXbwLk1SNyRTIBEzEerq6izTDOznYVwMzk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 931
 ht-degree: 0%
@@ -85,3 +82,4 @@ Essa opção é útil se você não quiser que clientes e freelancers se vejam e
 * Você também pode gerenciar a função que eles recebem na prova, como [!UICONTROL Somente Leitura], bem como comunicações por email com eles em relação à prova. Para obter mais informações, consulte [Gerenciar funções de prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 * Se você não quiser que seu freelancer participe do processo de revisão, mas quiser que ele seja notificado sobre a decisão final, poderá definir a função de prova padrão nas configurações de [!UICONTROL Dropzone] e um alerta por email para todos os remetentes de [!UICONTROL Dropzone] como [Gerenciar Funções de Prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) e [Definir configurações de notificação por email no [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md), respectivamente. Para obter mais informações, consulte [Alertas por email](https://support.workfront.com/hc/en-us/sections/115000911867-Email-alerts) [Gerenciar funções de prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) e [Definir configurações de notificação por email em [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 * Se você quiser que o freelancer participe ativamente do processo de revisão, será possível ajustar a função de prova e a configuração de alerta por email conforme necessário, editando esses detalhes em linha na página Detalhes da prova. Para obter mais informações sobre essa página, consulte [Gerenciar detalhes da prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
+

@@ -9,15 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d8bcddf8-0586-4263-8445-26615fdf07f7
 TQID: https://experienceleague.adobe.com/ugmfko-cMBK-g6po1pPQ4RQKAZ3pEbe4PkRf2EUb2C0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 0%
@@ -90,3 +86,4 @@ Se estiver enviando uma prova para um grupo de revisores, mas precisar apenas de
 ## Posso gerar uma lista de todos os comentários que foram feitos em uma prova?
 
 Sim, você pode gerar um *[!UICONTROL Resumo de impressão]* dos comentários deixados na prova. Este documento pode ser gerado para uma única versão ou em todas as versões que foram compartilhadas com este revisor. Ela mostra uma lista de todos os comentários, marcações e decisões que foram feitos na prova. Para obter mais informações sobre este recurso, visite [Imprimir e Exportar Comentários [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+

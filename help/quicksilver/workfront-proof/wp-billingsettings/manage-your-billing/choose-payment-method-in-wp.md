@@ -8,15 +8,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
 TQID: https://experienceleague.adobe.com/c5PekqBFApp6g08M-vg9eTw8pIVWvAByA7Y1vXvEXY8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 348
 ht-degree: 2%
@@ -80,3 +76,4 @@ Se você tiver contas satélite, precisará atualizar os detalhes de seu cartão
 1. Escolha a conta satélite (2) associada ao cartão de crédito que você deseja atualizar.
 1. Continue com [Alterando o método de pagamento e os detalhes do cartão de crédito](#changing-your-payment-method-and-credit-card-details).\
    ![Satellite_Account_Billing_Page.png](assets/satellite-account-billing-page-350x167.png)
+
