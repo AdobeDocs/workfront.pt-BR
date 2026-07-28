@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 550
 ht-degree: 4%
@@ -87,3 +87,4 @@ Você pode adicionar vários endereços de email à sua conta do [!DNL Workfront
 1. No email de validação recebido, clique no link de confirmação.\
    A alteração de email é salva no seu perfil. Talvez seja necessário atualizar o navegador no qual você está exibindo a página [!DNL Workfront Proof] [!UICONTROL Configurações pessoais] para ver se ele está confirmado como um email de alias.
 1. (Opcional) Para tornar o novo endereço de email seu endereço de email principal no [!DNL Workfront Proof], clique no botão [!UICONTROL Mais] (três pontos) na extremidade direita do endereço e clique em **[!UICONTROL Criar email principal]** no menu exibido.
+

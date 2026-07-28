@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 1%
@@ -66,3 +66,4 @@ Se não quiser que este link apareça no email do destinatário, desabilite as c
 
 1. Consulte [Definir configurações de notificação por email no Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) para obter instruções mais detalhadas.
 1. Se as notificações por email estiverem desabilitadas como padrão nas [!UICONTROL Configurações da conta], o Criador ou Proprietário da prova não receberá emails do [!UICONTROL Comprovação feita] ou do [!UICONTROL Nova Prova], mesmo que isso esteja habilitado nas configurações Pessoais e a caixa [!UICONTROL Notificar pessoas por email] esteja marcada na página [!UICONTROL Nova prova].
+

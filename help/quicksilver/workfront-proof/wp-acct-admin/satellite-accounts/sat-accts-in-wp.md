@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 444
 ht-degree: 0%
@@ -69,3 +69,4 @@ Criando contas satélite para seus clientes.
 | Fluxo de trabalho aprimorado para seu cliente | Você pode adaptar o processo de prova para atender às necessidades do cliente específico |
 | Seu cliente pode fazer upload de provas da conta satélite e compartilhá-las com você | Seu cliente pode iniciar suas próprias provas |
 | Quaisquer provas que tenham sido compartilhadas anteriormente com seu cliente serão exibidas automaticamente em sua conta | Não é necessário compartilhar novamente as provas anteriores |
+

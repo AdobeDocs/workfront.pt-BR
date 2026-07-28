@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 0%
@@ -45,5 +45,6 @@ O email replicará o email de notificação sobre o qual foi enviado originalmen
 1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Mensagem.]**
 
 1. Na caixa **[!UICONTROL Enviar mensagem]** exibida, digite um **[!UICONTROL Título]** e uma **[!UICONTROL Mensagem],** e clique em **[!UICONTROL Enviar].**&#x200B;O contato recebe um email contendo informações e links pessoais para todas as provas em um único email.
+
 
 

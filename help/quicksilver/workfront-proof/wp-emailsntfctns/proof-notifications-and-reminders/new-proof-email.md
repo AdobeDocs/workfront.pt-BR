@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 806
 ht-degree: 1%
@@ -50,18 +50,18 @@ O email de nova prova contém:
 * Miniatura da imagem de prova
 * Os seguintes detalhes da prova:
 
-   * Nome da prova
-   * Número da versão
-   * Lista dos revisores e seu progresso na prova
-   * Um link para compartilhar a prova com outra pessoa
+  * Nome da prova
+  * Número da versão
+  * Lista dos revisores e seu progresso na prova
+  * Um link para compartilhar a prova com outra pessoa
 
-     Isso permite compartilhar o URL da prova e/ou o link de download do arquivo original. Isso não permite adicionar revisores explicitamente à prova, você só compartilhará o URL de prova pública e o recipient receberá acesso somente leitura à prova.
+    Isso permite compartilhar o URL da prova e/ou o link de download do arquivo original. Isso não permite adicionar revisores explicitamente à prova, você só compartilhará o URL de prova pública e o recipient receberá acesso somente leitura à prova.
 
-     Consulte [Compartilhar uma prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) para obter mais informações.
+    Consulte [Compartilhar uma prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) para obter mais informações.
 
-     Se não quiser que este link apareça no email do destinatário, desabilite as configurações de [!UICONTROL Compartilhamento Público] na prova
+    Se não quiser que este link apareça no email do destinatário, desabilite as configurações de [!UICONTROL Compartilhamento Público] na prova
 
-     (Baixar arquivo original e URL público). Consulte [Gerenciar detalhes da prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obter mais informações.
+    (Baixar arquivo original e URL público). Consulte [Gerenciar detalhes da prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obter mais informações.
 
 ## O registro de atividades
 
@@ -116,3 +116,4 @@ Ao criar uma nova prova na página [!UICONTROL Nova prova], na seção **[!UICON
 * Se optar por adicionar uma mensagem personalizada, a caixa é expandida e você poderá inserir uma linha de assunto personalizada (4) e um texto personalizado no corpo do email (5). Também é possível descartar a mensagem personalizada clicando no link (6).
 
 ![Detalhes_da_Prova_página_3.png](assets/proof-details-page-3-350x258.png)
+

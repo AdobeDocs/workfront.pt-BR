@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 302
 ht-degree: 0%
@@ -52,3 +52,4 @@ Se você for um Administrador de conta, poderá definir um fuso horário padrão
 1. Clique em **[!UICONTROL Configurações]** > **[!UICONTROL Configurações pessoais]** e abra a guia **[!UICONTROL Configurações]**.
 
 1. Em **[!UICONTROL Detalhes da conta]**, clique em [!UICONTROL Editar] à direita de **[!UICONTROL Padrão de fuso horário]** e faça a alteração.
+

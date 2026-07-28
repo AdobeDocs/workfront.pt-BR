@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 437
 ht-degree: 7%
@@ -41,10 +41,10 @@ O email de lembrete padrão inclui as seguintes informações:
 * Miniatura da imagem de prova
 * Os seguintes detalhes da prova:
 
-   * Nome da prova
-   * Número da versão
-   * Nome da pasta (se aplicável)
-   * Lista dos revisores e seu progresso na prova
+  * Nome da prova
+  * Número da versão
+  * Nome da pasta (se aplicável)
+  * Lista dos revisores e seu progresso na prova
 
 Você também pode lembrar alguém sobre múltiplas provas que foram compartilhadas com ele. Para obter mais informações, consulte [Lembrar um revisor sobre atribuições no Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
 
@@ -75,3 +75,4 @@ Você também pode lembrar alguém sobre múltiplas provas que foram compartilha
      A mensagem padrão lembra os revisores que eles foram adicionados à prova e inclui o prazo da prova.
 
    * Se você quiser criar sua própria mensagem personalizada, digite um **[!UICONTROL Assunto]** e a **[!UICONTROL Mensagem],** e clique em **[!UICONTROL Enviar].**&#x200B;Um email de lembrete personalizado contém as mesmas informações que o email de lembrete padrão, mas também inclui sua linha de assunto personalizada e a mensagem personalizada no corpo do email.
+

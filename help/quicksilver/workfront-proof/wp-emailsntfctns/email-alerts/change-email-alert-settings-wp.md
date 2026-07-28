@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 180
 ht-degree: 0%
@@ -45,3 +45,4 @@ Você também pode alterar os [!DNL Workfront Proof] alertas de email que recebe
 1. Clique no ícone da [!UICONTROL Página de detalhes] no canto inferior esquerdo do visualizador de revisões. ![Detalhes_página_btn.png](assets/details-page-btn.png)
 
 1. Na seção [!UICONTROL Fluxo de trabalho] da página [!UICONTROL Detalhes da prova] exibida, em **[!UICONTROL Alertas de email]**, clique na opção desejada no menu suspenso.
+

@@ -14,7 +14,7 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 667
 ht-degree: 1%
@@ -92,3 +92,4 @@ Depois de adicionar a prova ao projeto [!DNL Basecamp Classic], você verá opç
 > Se você não tiver uma sessão do [!DNL Basecamp Classic] aberta em outra janela do navegador, entre na sua conta do [!DNL Basecamp Classic] antes de ver a mensagem no [!DNL Basecamp].
 
 Consulte também [Revisar uma prova em [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).
+
