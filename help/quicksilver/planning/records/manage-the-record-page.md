@@ -9,18 +9,12 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/sFguOXM4KmnumOPmMdueqTMyH-UNFq01TsJG6L53fAM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
 source-wordcount: 1741
 ht-degree: 2%
@@ -311,7 +305,7 @@ As seguintes situações ocorrem:
 
 
 1. Para exibir todos os campos, expanda o menu suspenso de exibição de página e selecione **Todos os campos**.
-1. (Opcional) Clique em **Novos detalhes** para adicionar uma nova página e personalizá-la, depois faça o seguinte:
+1. (Opcional) Clique em **Novos Detalhes** para adicionar uma nova página e personalizá-la. Em seguida, faça o seguinte:
 
    1. Na caixa **Criar exibição**, adicione um nome para a exibição de página de novos detalhes e clique em **Criar**.
    1. Passe o mouse sobre os campos no modo de exibição e clique no ícone **Ocultar campo** ![Ícone Ocultar campo](assets/hide-field-in-details-page-icon.png) à esquerda dos campos, para ocultar o campo.
