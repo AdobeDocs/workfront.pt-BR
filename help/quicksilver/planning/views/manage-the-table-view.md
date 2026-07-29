@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3910
+source-wordcount: 3912
 ht-degree: 2%
 
 ---
@@ -306,7 +301,15 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 
    Os registros adicionados na exibição de tabela são salvos imediatamente e ficam visíveis para todos os usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
 
-   Uma imagem em miniatura padrão também é adicionada ao novo registro.
+   Uma imagem de miniatura padrão <span class="preview">e cor</span> também são adicionadas ao novo registro.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
+    >
+    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+    -->
 
 1. (Opcional) Selecione um ou vários registros ou linhas, em seguida, arraste e solte o **ícone Identificador** ![ícone Identificador](assets/handle-icon.png) à esquerda do registro para reordenar as linhas.
 
@@ -546,7 +549,7 @@ Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando esta por enquanto &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***—>
+&lt;!—*************** * É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando esta por enquanto *****************—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.

@@ -9,22 +9,14 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 4%
 
 ---
@@ -90,14 +82,19 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
    <td> 
 <p>Para conectar tipos de registro do mesmo espaço de trabalho: </p>
 <ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</li></ul>
+<li><p>Qualquer pacote do Workfront ou Workflow com qualquer pacote do Planning</p></li>
+<p>Ou</p>
+<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li>
+</ul>
 
 <p>Para conectar tipos de registro de espaços de trabalho diferentes:</p>
 
-<ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
+<ul>
+
+<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li>
+<p>Ou</p>
+<li><p>Qualquer pacote do Planning Prime ou Ultimate quando adquirido como um produto independente</p></li>
+</ul>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
 <tr> 
@@ -108,7 +105,7 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
    <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -208,7 +205,7 @@ Old:
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
 1. Clique no ícone **+** no canto superior direito do modo de exibição de tabela e clique na guia **Nova conexão**.
 
-   ![Nova guia Conexão com as marcas Workfront, AEM e GenStudio](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+   ![Nova guia Conexão com as Marcas Workfront, AEM e GenStudio](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
 
    <!--
     Old shot:
@@ -299,7 +296,15 @@ Old:
    * **Multisseleção**: selecione esta opção para permitir que um registro do tipo de registro atual se conecte a vários registros do tipo de registro de conexão.
    * **Seleção única**: selecione esta opção para permitir que um registro do tipo de registro atual se conecte a um registro do tipo de registro de conexão.
 
-1. Selecione o **Criar campo correspondente no tipo de registro vinculado**. Quando selecionado, um campo de conexão é criado no tipo de registro ao qual você está se conectando, além do campo de conexão adicionado ao tipo de registro atual. Essa opção está desativada por padrão.
+1. Selecione o **Criar campo correspondente no tipo de registro vinculado** na seção <!--<span class="preview">, when connecting all object types but not Planning record types</span>--> do **Tipo de conexão**.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   Quando selecionado, um campo de conexão é criado no tipo de registro ao qual você está se conectando, além do campo de conexão adicionado ao tipo de registro atual. Essa opção está desativada por padrão.
 
    >[!TIP]
    >
@@ -311,7 +316,7 @@ Old:
    >   * Não há um campo criado para objetos do Workfront conectados aos registros do Planning.
    >   * Não há nenhum campo criado para um tipo de registro do Planning quando ele estiver conectado a um tipo de registro do espaço de trabalho do GenStudio.
 
-1. (Condicional) Se você habilitou **Criar campo correspondente no tipo de registro vinculado**, escolha entre as seguintes opções para indicar a quantidade de registros aos quais os usuários podem se conectar e de:
+1. (Condicional) Se você habilitou **Criar campo correspondente no tipo de registro vinculado** na seção **Tipo de conexão**, escolha entre as seguintes opções para indicar a quantidade de registros aos quais os usuários podem se conectar e de onde:
 
    * Muitos para muitos
    * Um para muitos
@@ -334,7 +339,7 @@ Old:
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Opcional) Escolha uma das seguintes opções na área **Aparência do registro**:
