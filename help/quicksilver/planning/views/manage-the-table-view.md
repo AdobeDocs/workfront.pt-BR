@@ -19,20 +19,19 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ce4f0de26be9a0b239c2464c97a3b47038be9108
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3684
+source-wordcount: 3910
 ht-degree: 2%
 
 ---
 
 # Gerenciar a exibição de tabela
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -309,19 +308,31 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 
    Uma imagem em miniatura padrão também é adicionada ao novo registro.
 
+1. (Opcional) Selecione um ou vários registros ou linhas, em seguida, arraste e solte o **ícone Identificador** ![ícone Identificador](assets/handle-icon.png) à esquerda do registro para reordenar as linhas.
+
+   >[!NOTE]
+   >
+   >Não é possível reordenar linhas se você aplicar pelo menos uma classificação ou agrupamento à exibição de tabela.
+   >
+   >As alterações feitas na ordem das linhas ficam visíveis para todos os usuários que acessam o tipo de registro na mesma visualização.
+
 1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do registro e clique em **Editar miniatura** para editar a miniatura.
 1. Clique em **Campos** na parte superior da tabela e selecione o alternador do campo **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
 
    Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-<!--
-For July 23: you might need to add some spacing below:
-1. <span class="preview">(Optional) Click **Fields** at the top of the table, then click **Color** to display the color of a record to the left of its primary field. Colors are assigned randomly by default for each new record. The **Color** setting is deselected by default.</span>
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
-    <span class="preview">
-    ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
-    </span>
--->
+1. <span class="preview">(Opcional) Clique em **Campos** na parte superior da tabela e em **Cor** para exibir a cor de um registro à esquerda de seu campo principal. As cores são atribuídas aleatoriamente por padrão para cada novo registro. A configuração **Cor** é desmarcada por padrão.</span>
+
+1. <span class="preview"> (Opcional e condicional) Se você ativou a configuração **Cor**, clique na barra de cores à esquerda do campo principal do registro e selecione uma cor nas guias **Amostras** ou **Personalizado** e clique fora da caixa para fechá-la. A cor é aplicada imediatamente.</span>
+
+   <div class="preview">
+
+   ![Caixa do seletor de cores para codificação de cores de registro](assets/color-picker-for-record-color-coding.png)
+
+   Para obter mais informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+
+   </div>
+
 
 ### Adicionar filtros {#add-filters-1}
 

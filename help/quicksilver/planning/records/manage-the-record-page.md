@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
 source-wordcount: 1741
 ht-degree: 2%
@@ -311,7 +311,7 @@ As seguintes situações ocorrem:
 
 
 1. Para exibir todos os campos, expanda o menu suspenso de exibição de página e selecione **Todos os campos**.
-1. (Opcional) Clique em **Novos detalhes** para adicionar uma nova página e personalizá-la, depois faça o seguinte:
+1. (Opcional) Clique em **Novos Detalhes** para adicionar uma nova página e personalizá-la. Em seguida, faça o seguinte:
 
    1. Na caixa **Criar exibição**, adicione um nome para a exibição de página de novos detalhes e clique em **Criar**.
    1. Passe o mouse sobre os campos no modo de exibição e clique no ícone **Ocultar campo** ![Ícone Ocultar campo](assets/hide-field-in-details-page-icon.png) à esquerda dos campos, para ocultar o campo.

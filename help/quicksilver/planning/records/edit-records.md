@@ -20,20 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3103
+source-wordcount: 3223
 ht-degree: 1%
 
 ---
 
 # Editar registros
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -145,17 +145,17 @@ Old:
 * É possível editar registros criados ou registros criados por outras pessoas, se você tiver recebido permissões para o espaço de trabalho.
 * É possível editar campos de registro nas seguintes áreas:
 
-   * A visualização do registro em uma exibição de registro
-   * A página de detalhes do registro
-   * Em linha, em uma exibição de tabela.
-   * A exibição de calendário e linha do tempo ao redimensionar ou arrastar e soltar os registros. Isso atualiza as datas dos registros.
+  * A visualização do registro em uma exibição de registro
+  * A página de detalhes do registro
+  * Em linha, em uma exibição de tabela.
+  * A exibição de calendário e linha do tempo ao redimensionar ou arrastar e soltar os registros. Isso atualiza as datas dos registros.
 
 * Quando um usuário edita um registro em uma exibição, as alterações são visíveis imediatamente em todas as exibições e nas páginas de registro para todos os outros usuários.
 
 * Os seguintes tipos de campos são atualizados automaticamente e não é possível editar seus valores manualmente:
-   * Campos vinculados de outros registros
-   * Campos do tipo fórmula
-   * Campos do sistema (Criado por, Data de criação, Última modificação por, Última data de modificação, Data de aprovação, Aprovado por, ID do registro)
+  * Campos vinculados de outros registros
+  * Campos do tipo fórmula
+  * Campos do sistema (Criado por, Data de criação, Última modificação por, Última data de modificação, Data de aprovação, Aprovado por, ID do registro)
 * Se os registros exibidos estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados em todos os espaços de trabalho onde esse registro estiver vinculado.
 * Não é possível editar registros em massa. <!--this will probably change-->
 * Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .
@@ -167,8 +167,8 @@ Old:
 
   Para editar as datas dos registros, consulte uma das seguintes seções neste artigo:
 
-   * [Editar um registro na exibição de calendário de um tipo de registro](#edit-a-record-in-the-calendar-view-of-a-record-type)
-   * [Editar um registro na exibição de linha do tempo de um tipo de registro](#edit-a-record-in-the-timeline-view-of-a-record-type)
+  * [Editar um registro na exibição de calendário de um tipo de registro](#edit-a-record-in-the-calendar-view-of-a-record-type)
+  * [Editar um registro na exibição de linha do tempo de um tipo de registro](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
 ## Editar registros
@@ -254,10 +254,10 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    * Copie uma ou várias células de uma origem externa (por exemplo, um arquivo do Excel) e cole-as em um dos seguintes tipos de campos:
 
-      * Campos de pessoas. Somente campos com um valor são permitidos.
-      * Campos de texto.
-      * Selecionar campos.
-      * Campos de número, porcentagem e moeda.
+     * Campos de pessoas. Somente campos com um valor são permitidos.
+     * Campos de texto.
+     * Selecionar campos.
+     * Campos de número, porcentagem e moeda.
 
    Não é possível copiar informações de uma fonte externa e colá-las em outros tipos de campo, incluindo campos do Workfront ou de conexões de outros aplicativos.
 
@@ -296,7 +296,7 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
    * **Exibir** ou **Abrir em nova guia**: isso abre a página de registro.
    * **Copiar link**: para copiar um link para a página do registro.
    * **Editar miniatura**: para adicionar uma miniatura a um registro.
-Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+     Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicado**: cria uma duplicata idêntica do registro.
    * **Inserir registro acima/ Inserir registro abaixo**: adiciona uma nova linha para que você possa adicionar um novo registro. Isso não é possível no ambiente de Pré-visualização.
    * **Excluir**: para excluir o registro. Os registros excluídos são salvos na caixa Excluídos recentemente por até 30 dias.
@@ -372,6 +372,9 @@ Para obter informações, consulte [Adicionar uma miniatura a um registro](/help
    >  * Campos de pesquisa de outros registros criados pela conexão de tipos de registro. Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação, Campos de fórmula.
 
+1. <span class="preview">(Opcional) Clique no círculo de cores à esquerda do nome do registro para alterar a cor do registro. </span>
+   <span class="preview">Os registros recebem cores automaticamente quando são criados. Clique em **Amostras** ou **Personalizado** para selecionar uma nova cor.</span>
+
 1. (Opcional) Clique em **Adicionar capa** para adicionar uma imagem de capa ao registro. Para obter mais informações, consulte [Adicionar uma imagem de capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
 1. (Opcional) Passe o mouse sobre o ícone de miniatura, em seguida, clique em **Mais** ![Mais menu](assets/more-menu.png) > **Editar miniatura** para adicionar uma imagem em miniatura. Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
@@ -428,6 +431,11 @@ Para obter informações, consulte [Adicionar uma miniatura a um registro](/help
    >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação, Campos de fórmula.
 
 1. (Opcional) Clique no ícone de informações à direita de qualquer campo que o exiba para exibir a descrição de um campo.
+1. <span class="preview">(Opcional) Clique no círculo de cores à esquerda do nome do registro para alterar a cor do registro. </span>
+   <span class="preview">Os registros recebem cores automaticamente quando são criados. Clique em **Amostras** ou **Personalizado** para selecionar uma nova cor.</span>
+
+   ![Caixa do seletor de cores para caixa de detalhes do registro](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. (Opcional) Clique em **Adicionar capa** para adicionar uma imagem de capa ao registro
 
    Ou

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3058
+source-wordcount: 3068
 ht-degree: 4%
 
 ---
@@ -279,7 +279,7 @@ Old:
 
      Uma guia Nova conexão é aberta para o registro ou tipo de objeto selecionado.
 
-   * **Marcas** da Adobe GenStudio for Performance Marketing da seção **Adobe GenStudio**
+   * **Marcas** da Adobe GenStudio for Performance Marketing da seção **Aplicativos Adobe**
 
      ![Seleção de conexão de Marca da GenStudio](assets/brand-genstudio-connection-selection.png)
 
@@ -337,13 +337,18 @@ Old:
    >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
-1. (Condicional) Ao se conectar ao Experience Manager, a um tipo de registro do Workfront Planning ou a uma Marca GenStudio, escolha uma das seguintes opções na área **Aparência do registro**:
+1. (Opcional) Escolha uma das seguintes opções na área **Aparência do registro**:
 
    * **Nome e imagem**: o nome e a miniatura ou o ícone dos registros conectados serão exibidos no campo de registro conectado. Esta é a opção padrão.
    * **Nome**: somente o nome dos registros conectados será exibido no campo de registro conectado.
    * **Imagem**: somente a miniatura ou o ícone dos registros conectados será exibido no campo de registro conectado.
+   <div class="preview">
 
-   Os registros sem uma imagem em miniatura exibem o ícone de tipo de registro. Um exemplo de como os registros conectados serão exibidos é exibido na área **Aparência do registro**.
+   * **Cor e nome**: quando você conecta registros do Planning, a cor de cada registro conectado é exibida como em um círculo à esquerda do nome do registro. Isso não está disponível quando você conecta tipos de registro com tipos de objeto de outros aplicativos.
+
+   </div>
+
+   Os registros sem uma imagem em miniatura exibem o ícone de tipo de registro.
 
    >[!NOTE]
    >
@@ -351,9 +356,9 @@ Old:
    >
    >* O nome de um registro é o campo principal do registro. Para obter mais informações, consulte [Visão geral do campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
-   >* A seleção da aparência de um registro não está disponível ao selecionar tipos de objeto do Workfront.
+   >* A seleção da aparência de um registro não está disponível ao selecionar tipos de objeto no Workfront.
    >
-   >* O que você seleciona na área Aparência do registro determina como os registros são exibidos em conexões em todos os locais do sistema, incluindo todas as exibições e páginas de detalhes.
+   >* O que você seleciona na área **Aparência do registro** determina como os registros são exibidos em conexões em todos os locais do sistema, incluindo todas as exibições e páginas de detalhes.
 
 1. Selecione os **Selecionar campos de pesquisa** para adicionar campos do tipo de registro ao qual você está se conectando. Os campos de pesquisa são campos associados ao registro ou tipo de objeto ao qual você está vinculando. Vinculá-los exibe informações do registro ou objeto ao qual você está vinculando no registro a partir do qual você está vinculando. É selecionado por padrão.
 
@@ -368,7 +373,7 @@ Old:
    >
    >* As informações do campo de data dos objetos do Workfront são exibidas no formato de 24 horas no Workfront Planning, independentemente de como são exibidas no Workfront.
    >
-   >   Por exemplo, se a Data de Início Planejada de um projeto for exibida como 3:00 PM no Workfront, ela será exibida como 15:00 no Workfront Planning em um campo de pesquisa importado.
+   >   Por exemplo, se a Data de início planejada de um projeto for exibida às 15h no Workfront, ela será exibida como 15h no Workfront Planning em um campo de pesquisa importado.
 
 1. Clique em **Criar**.
 
@@ -429,9 +434,9 @@ Old:
    * **SOMA**: exibe o total de todos os valores que vêm de vários registros selecionados no campo de registro vinculado.
    * **AVG**: exibe a média de todos os valores que vêm de vários registros selecionados no campo de registro vinculado.
    * **EXCLUSIVO**: remove as duplicatas dos valores do campo de pesquisa e mostra apenas os valores exclusivos. Isso não está disponível para os seguintes tipos de campo:
-      * Parágrafo
-      * Caixa de seleção
-      * People
+     * Parágrafo
+     * Caixa de seleção
+     * People
 
    >[!NOTE]
    >

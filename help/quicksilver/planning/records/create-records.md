@@ -20,21 +20,19 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3239
+source-wordcount: 3647
 ht-degree: 1%
 
 ---
 
 # Criar registros
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
 
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -178,17 +176,14 @@ Old:
   >
   >Um gerenciador de espaço de trabalho deve criar um formulário de solicitação para o tipo de registro para que os usuários com permissões de Exibição adicionem registros usando um formulário de solicitação. Caso contrário, os usuários com permissão de exibição não poderão criar registros.
 
-<!--
-add this bullet for July 23 release:
-
 <div class="preview">
 
-* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+* Todos os registros são automaticamente codificados por cores ao serem criados, independentemente do método usado para criá-los.
 
-    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+  Para obter mais informações, consulte a seção [Registros de codificação de cores](#color-coding-records) neste artigo.
 
 </div>
--->
+
 
 ## Criar registros usando o botão Novo registro ou Solicitar registro de qualquer exibição de tipo de registro
 
@@ -293,8 +288,8 @@ Para obter informações sobre como editar informações de registro, consulte [
      >
      >Quando você adiciona um novo registro após o último em um agrupamento ou subagrupamento, o Workfront preenche automaticamente os campos incluídos nos agrupamentos. Você pode editar esses campos manualmente, se necessário, e os registros podem ser removidos do agrupamento.
 
-   * Clique em **Shift + Enter** no teclado a partir de qualquer coluna ou linha da tabela. Isso adiciona uma linha vazia sob o registro do qual você começa. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
-   * Passe o mouse sobre o campo principal de um registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do campo e clique em **Inserir registro acima** ou **Inserir registro abaixo**. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * Clique em **Shift + Enter** no teclado a partir de qualquer coluna ou linha da tabela. Isso adiciona uma linha vazia sob o registro do qual você começa.
+   * Passe o mouse sobre o campo principal de um registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do campo e clique em **Inserir registro acima** ou **Inserir registro abaixo**.
 
    ![Adicionando uma nova campanha na linha da tabela](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -596,52 +591,50 @@ Você pode configurar e ativar a automação na página do registro no Workfront
 Para obter informações, consulte [Criar objetos usando as automações de registro do Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 <!--
-For July 23
-Move to its own article after preview release in 07/2026:
+Move to its own article after production release in 10/2026:
+-->
 
 <div class="preview">
 
-## Color coding records
+## Registros de codificação de cores
 
-All records are automatically associated with a color when they are created. 
+Todos os registros são associados automaticamente a uma cor quando são criados.
 
-1. Create a record using one of the methods described in this article. 
+1. Crie um registro usando um dos métodos descritos neste artigo.
 
-    The color is immediately applied to the new record in the following areas:
+   A cor é aplicada imediatamente ao novo registro nas seguintes áreas:
 
-    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
-    * As a circle, to the left of the record name in the record's **Details** page. 
+   * Como uma barra, à esquerda do nome do registro ou do campo principal nas exibições de tabela, linha do tempo e calendário.
+   * Como um círculo, à esquerda do nome do registro na página **Detalhes** do registro.
 
-        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
-1. (Conditional) To view the color of a record, do one of the following: 
-    
-    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+     Para obter informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Condicional) Para exibir a cor de um registro, siga um destes procedimentos:
 
-        ![Table view record color bar](assets/table-record-color-bar.png)
+   * Na exibição de tabela, clique no ícone **Campos** na barra de ferramentas na parte superior de uma lista de registros e ative a configuração **Cor**. Uma barra é adicionada à esquerda do campo principal do registro.
 
-        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
-    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+     ![Barra de cores do registro do modo de exibição de tabela](assets/table-record-color-bar.png)
 
-        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+     Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
+   * Na exibição da linha do tempo, clique em **Configurações** > **Estilo de barra** e ative a configuração **Cor**. Uma barra é adicionada à margem esquerda da barra de registro quando você opta por codificar a barra por **Registro**.
 
-        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
-    
-        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+     ![Barra de cores do registro de exibição da linha do tempo](assets/timeline-record-color-bar.png)
 
-        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+     Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+   * Na exibição do calendário, clique em **Configurações** > **Estilo de barra** e ative a configuração **Cor**. A cor da barra de registros corresponde à cor do registro, e uma sombra mais escura da mesma cor é adicionada à margem esquerda da barra de registros quando você seleciona o código de cores da barra por **Registro**.
 
-    The Color setting is turned off by default.
+     ![Barra de cores do registro de modo de exibição de calendário](assets/calendar-record-color-bar.png)
 
-1. To change the color associated with a record, do the following: 
+     Para obter informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-    1. From the table view, click the record color bar
-        Or 
-        From the record details preview or page, click the record color circle. 
-    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+   A configuração Cor é desativada por padrão.
 
-        Once selected, the new color is applied immediately. 
+1. Para alterar a cor associada a um registro, faça o seguinte:
+
+   1. Na exibição de tabela, clique na barra de cores do registro
+      Ou
+      Na visualização ou página dos detalhes do registro, clique no círculo de cores do registro.
+   1. Clique na guia **Amostras** ou **Personalizado** para selecionar uma nova cor.
+
+      Depois de selecionada, a nova cor é aplicada imediatamente.
 
 </div>
-
--->
