@@ -9,22 +9,12 @@ exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tBznGe2cQ4VnNILQHjlgwILlD-CinYpv01ARGY9XiAw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 2861
 ht-degree: 4%
@@ -116,36 +106,36 @@ Leve em consideração o seguinte ao editar tarefas em uma lista:
 
 * Ao contrário da necessidade de gerenciar permissões para a tarefa ao editá-la na caixa Editar, você pode editar uma tarefa em uma lista somente com permissões do Contribute para a tarefa. Isso permite editar as seguintes informações limitadas para a tarefa:
 
-   * Descrição
-   * Status
-   * Percentual concluído
-   * Informações do formulário personalizado
+  * Descrição
+  * Status
+  * Percentual concluído
+  * Informações do formulário personalizado
 
-     >[!NOTE]
-     >
-     >Você pode editar um campo personalizado de tarefa em uma lista somente se tiver permissões para atualizar o campo.
+    >[!NOTE]
+    >
+    >Você pode editar um campo personalizado de tarefa em uma lista somente se tiver permissões para atualizar o campo.
 
-   * Registrar horas
-   * Modificar Atribuições
-   * Exibir informações financeiras
-   * Adicionar despesas, tarefas ou problemas
+  * Registrar horas
+  * Modificar Atribuições
+  * Exibir informações financeiras
+  * Adicionar despesas, tarefas ou problemas
 
 * É possível editar uma tarefa nas seguintes listas:
 
-   * A seção Tarefas do projeto
-   * A seção Subtarefas do projeto
-   * Um relatório de tarefa
+  * A seção Tarefas do projeto
+  * A seção Subtarefas do projeto
+  * Um relatório de tarefa
 
-     >[!NOTE]
-     >
-     >Por padrão, o Workfront salva automaticamente suas alterações em tarefas na seção Subtarefas ou em um relatório de tarefas.
+    >[!NOTE]
+    >
+    >Por padrão, o Workfront salva automaticamente suas alterações em tarefas na seção Subtarefas ou em um relatório de tarefas.
 
 * Você pode controlar quando o Workfront salva as alterações feitas nas tarefas em uma lista definindo o Modo de Plano antes de começar a editar as tarefas.
 
   Você pode decidir entre salvar as alterações no Workfront da seguinte maneira:
 
-   * Automaticamente, após cada alteração
-   * Manualmente, somente depois de clicar em Salvar.
+  * Automaticamente, após cada alteração
+  * Manualmente, somente depois de clicar em Salvar.
 
   Para obter informações sobre como configurar quando o Workfront salva as alterações feitas nas tarefas de uma lista, consulte a seção [Modificar Modo de Plano antes de editar tarefas em uma lista](#modify-plan-mode-before-editing-tasks-in-a-list) neste artigo.
 
@@ -269,9 +259,9 @@ Leve em consideração o seguinte ao salvar manualmente as alterações em uma l
 * Não é possível editar o projeto. A opção para editar o projeto está desativada.
 * Não é possível atualizar as informações no cabeçalho do projeto. Você só pode fazer o seguinte ao salvar manualmente as alterações na lista de tarefas:
 
-   * Inscreva-se no projeto.
-   * Adicione o projeto à lista de favoritos.
-   * Abra uma tarefa clicando no seu nome na lista.
+  * Inscreva-se no projeto.
+  * Adicione o projeto à lista de favoritos.
+  * Abra uma tarefa clicando no seu nome na lista.
 
 * Editar as tarefas em massa. O ícone Editar é desativado ao selecionar várias tarefas.
 * O Workfront aciona notificações sobre as alterações feitas nas tarefas somente após você salvar as alterações.
@@ -308,7 +298,7 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
 
 1. Clique em **Aplicar**. Uma configuração da barra de ferramentas é exibida com opções para desfazer, refazer e salvar as alterações.
 
-   ![Barra de ferramentas de salvamento manual](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+   ![Barra de ferramentas de salvamento manual](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Clique dentro de qualquer campo que você tenha permissões para atualizar manualmente. O campo se torna editável e você pode fazer suas alterações.
 
@@ -408,21 +398,21 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 
    * Os menus suspensos Exibir, Agrupamento e Filtro são removidos e a exibição é substituída pelos seguintes campos:
 
-      * Número da Tarefa
-      * Nome da tarefa
-      * Tipo de Restrição
-      * Duração
-      * Data de início planejado
-      * Data de conclusão planejada
-      * Predecessoras
-      * Atribuições
-      * Status
-      * Percentual concluído
+     * Número da Tarefa
+     * Nome da tarefa
+     * Tipo de Restrição
+     * Duração
+     * Data de início planejado
+     * Data de conclusão planejada
+     * Predecessoras
+     * Atribuições
+     * Status
+     * Percentual concluído
 
    * O ícone de visualização Agile é removido.
    * Uma configuração da barra de ferramentas é exibida com opções para desfazer, refazer e salvar as alterações.
 
-     ![Barra de ferramentas de salvamento manual](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![Barra de ferramentas de salvamento manual](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Edite qualquer campo que você tenha permissões para atualizar manualmente.
 
