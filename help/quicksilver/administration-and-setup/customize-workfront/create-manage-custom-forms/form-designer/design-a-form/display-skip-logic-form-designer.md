@@ -9,25 +9,21 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 3613
+source-wordcount: 3659
 ht-degree: 2%
 
 ---
 
 # Adicionar regras de lógica a formulários e campos personalizados
+
+{{preview-fast-release-general}}
 
 As regras lógicas permitem personalizar ainda mais os campos no formulário.
 
@@ -101,17 +97,17 @@ Para obter informações sobre campos e widgets personalizados em formulários p
 * Não é possível aplicar a exibição ou a lógica de salto para mostrar ou ocultar as opções de um campo de várias opções. Por exemplo, você não pode restringir as opções exibidas para um campo Suspenso, Grupo de caixas de seleção ou Botão de opção, com base na exibição ou na lógica de ignorar outro campo.
 * Você pode adicionar a lógica de exibição e a lógica de salto a um campo personalizado se todos os itens a seguir forem verdadeiros sobre o campo personalizado:
 
-   * É um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção)
-   * É precedido por um campo de múltipla escolha
-   * Ele é seguido por outro campo personalizado
+  * É um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção)
+  * É precedido por um campo de múltipla escolha
+  * Ele é seguido por outro campo personalizado
 
 * Ao copiar formulários com lógica de exibição ou lógica de salto, a lógica é copiada para o novo formulário personalizado.
 * Ao editar objetos em massa, todos os campos personalizados são exibidos na caixa Editar objetos, incluindo os campos que são ignorados ou ocultos.
 * Lembre-se do seguinte ao criar uma regra de lógica de exibição para um formulário personalizado:
 
-   * Campos personalizados não incluídos em uma instrução lógica de exibição são exibidos em um formulário personalizado por padrão.
-   * Você pode criar instruções lógicas de exibição de vários campos.
-   * Se todos os campos em uma quebra de seção tiverem lógica de exibição aplicada a eles e todos estiverem ocultos como resultado da lógica, a seção inteira será ocultada no formulário personalizado.
+  * Campos personalizados não incluídos em uma instrução lógica de exibição são exibidos em um formulário personalizado por padrão.
+  * Você pode criar instruções lógicas de exibição de vários campos.
+  * Se todos os campos em uma quebra de seção tiverem lógica de exibição aplicada a eles e todos estiverem ocultos como resultado da lógica, a seção inteira será ocultada no formulário personalizado.
 
 ## Adicionar lógica de exibição a um formulário personalizado
 
@@ -202,7 +198,9 @@ Usando a condição a seguir, o campo KPI Vendido só ficará visível quando o 
 
    >[!NOTE]
    >
-   >A lógica de exibição avançada não é compatível com o modo de visualização do designer de formulário.
+   >No ambiente de Produção, a lógica de exibição avançada não é compatível com o modo de visualização do designer de formulário.
+   >
+   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
 
 ## Adicionar lógica de salto a um formulário personalizado
 
@@ -280,7 +278,9 @@ Quando o formulário personalizado é anexado a um projeto e o status do projeto
 
    >[!NOTE]
    >
-   >A lógica de valor padrão não tem suporte no modo de visualização do designer de formulário.
+   >No ambiente de Produção, a lógica do valor padrão não é compatível com o modo de visualização do designer de formulário.
+   >
+   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
 
 ## Adicionar lógica de validação a um formulário personalizado
 
@@ -329,7 +329,9 @@ Para obter mais exemplos de lógica de validação, consulte [Exemplos de lógic
 
    >[!NOTE]
    >
-   >Não há suporte para a lógica de validação no modo de visualização do designer de formulário.
+   >No ambiente de Produção, a lógica de validação não é compatível com o modo de visualização do designer de formulário.
+   >
+   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
 
 ## Adicionar lógica de formatação a um formulário personalizado
 
@@ -392,7 +394,9 @@ IF(
 
    >[!NOTE]
    >
-   >A lógica de formatação não tem suporte no modo de visualização do designer de formulário.
+   >No ambiente de Produção, a lógica de formatação não é suportada no modo de visualização do designer de formulário.
+   >
+   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
 
 ## Adicionar lógica de editabilidade a um formulário personalizado
 
@@ -442,4 +446,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
    >[!NOTE]
    >
-   >A lógica de capacidade de edição não é compatível com o modo de visualização do designer de formulário.
+   >No ambiente de Produção, a lógica de capacidade de edição não é compatível com o modo de visualização do designer de formulário.
+   >
+   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
+
