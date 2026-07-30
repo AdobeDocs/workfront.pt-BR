@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4230
 ht-degree: 0%
 
 ---
@@ -212,7 +208,7 @@ Para acessar a revisão e aprovação unificadas, você deve ter uma versão do 
 
 * Quando você estiver em uma versão do Workfront compatível com o Adobe Cloud Storage, a Adobe Professional Services configurará a integração para sua organização.
 
-   * Se não tiver certeza de quem é o representante de conta da Adobe, entre em contato com o portal de suporte da Adobe ou visite o Experience League para obter opções de contato.
+  * Se não tiver certeza de quem é o representante de conta da Adobe, entre em contato com o portal de suporte da Adobe ou visite o Experience League para obter opções de contato.
 
 +++
 
@@ -360,6 +356,14 @@ Para obter uma lista completa dos tipos de arquivos compatíveis, consulte a doc
 **É possível compartilhar ativos externamente com participantes que não têm acesso ao Workfront?**
 
 Sim. O Assets pode ser compartilhado externamente. Os usuários externos são notificados por e-mail e serão solicitados a criar um login no Frame.io para acessar o visualizador e participar da revisão.
+
+**É possível anexar imagens a comentários em um documento no Workfront?**
+
+Se sua organização usar o armazenamento em nuvem da Adobe como parte da revisão e aprovação unificadas, você poderá anexar arquivos de imagem diretamente a comentários em um documento. As imagens anexadas são armazenadas no armazenamento em nuvem do Adobe e todos os formatos de arquivo de imagem do tipo de mídia são compatíveis.
+
+Esses comentários são nativos do Workfront e são separados dos comentários no visualizador Frame.io. As imagens anexadas a um comentário não estão acessíveis no Frame.io e anexar uma imagem não adiciona marcação ao ativo ou o encaminha para aprovação. Tipos de arquivo que não são de imagem não podem ser anexados a um comentário.
+
+Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**
