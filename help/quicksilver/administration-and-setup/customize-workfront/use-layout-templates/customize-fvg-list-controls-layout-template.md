@@ -19,14 +19,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 851
 ht-degree: 4%
 
 ---
 
 # Personalizar filtros, visualizações e agrupamentos usando um modelo de layout
+
+{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para especificar quais controles de lista aparecem nos menus suspensos Filtro, Exibir e Agrupamento. Esses menus são exibidos acima em listas em todo o Workfront, como a lista de tarefas de um projeto:
 
@@ -97,6 +99,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >* No cabeçalho do cabeçalho da área Projetos:
    >   
    >  ![Botão Desabilitar filtros](assets/disable-filter-pills.png)
+
+   <span class="preview">Algumas listas aprimoradas estão disponíveis para seleção. Essas listas têm um rótulo &quot;Nova experiência&quot; ao lado dos controles da lista. Para obter informações sobre listas aprimoradas, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>
 
 1. (Opcional) Se quiser alterar o filtro, o modo de exibição ou o agrupamento padrão do modelo de layout, passe o mouse sobre o filtro, o modo de exibição ou o agrupamento e clique em **Definir como padrão**.
 

@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 3912
+source-wordcount: 3939
 ht-degree: 2%
 
 ---
@@ -308,13 +308,11 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 
    Uma imagem de miniatura padrão <span class="preview">e cor</span> também são adicionadas ao novo registro.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Quando um registro tem comentários não lidos, um indicador **Novo comentário** é exibido no canto superior direito do campo principal do registro.</span>
+   >
+   >![Novo ícone de comentário na exibição de tabela](assets/new-comment-icon-in-table-view-highlighted.png)
 
 1. (Opcional) Selecione um ou vários registros ou linhas, em seguida, arraste e solte o **ícone Identificador** ![ícone Identificador](assets/handle-icon.png) à esquerda do registro para reordenar as linhas.
 

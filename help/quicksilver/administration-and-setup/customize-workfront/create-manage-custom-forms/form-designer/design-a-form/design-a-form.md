@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 7956
-ht-degree: 78%
+source-wordcount: 7922
+ht-degree: 77%
 
 ---
 
@@ -177,17 +177,17 @@ Os formulários personalizados são limitados a 500 campos. Um contador no canto
 
 * Os seguintes caracteres especiais não são aceitos em rótulos de campo personalizados e nomes de API.
 
-   * \t
-   * \n
-   * \r
-   * \f
-   * `[`
-   * `]`
-   * (
-   * )
-   * :
-   * `{`
-   * `}`
+  * \t
+  * \n
+  * \r
+  * \f
+  * `[`
+  * `]`
+  * (
+  * )
+  * :
+  * `{`
+  * `}`
 
 ### Adicionar campos de texto
 
@@ -805,12 +805,12 @@ Para adicionar uma pesquisa externa:
      </tr>
      <tr> 
       <td role="rowheader">Caminho JSON</td>
-      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no formato a seguir, será possível usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
+      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar “$.data[*].name” para selecionar EUA e Canadá como opções de lista suspensa:</br>
       <pre>
       &lbrace;
-       dados: &lbrace;
-         { name: "USA"},
-         { name: "Canada"}
+       data: &lbrace;
+         { name: "EUA"},
+         { name: "Canadá"}
        &rbrace;
       &rbrace;
       </pre>
@@ -1050,7 +1050,7 @@ Para adicionar imagens, PDFs ou vídeos:
 
 ### Adicionar campos nativos do Workfront
 
-Você pode adicionar campos nativos do Workfront aos formulários personalizados. Quando o formulário personalizado é anexado a um objeto, o campo é preenchido com base nos dados do objeto. Por exemplo, o campo Descrição de um formulário personalizado anexado a um projeto extrairá a descrição do projeto. (O campo pode mostrar “N/A” se não houver dados disponíveis.)
+Você pode adicionar campos nativos do Workfront aos formulários personalizados. Quando o formulário personalizado é anexado a um objeto, o campo é preenchido com base nos dados do objeto. Por exemplo, se o campo personalizado fizer referência ao campo Descrição e estiver em um formulário personalizado anexado a um projeto, ele extrairá a descrição do projeto. (O campo pode mostrar “N/A” se não houver dados disponíveis.)
 
 +++ Expanda para ver a lista de campos nativos compatíveis.
 
@@ -1218,7 +1218,7 @@ Para adicionar um arquivo do Adobe XD:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obrigatório) Digite ou cole um link de protótipo válido do XD.</p> 
-      <p><b>Observação</b>: a configuração de Acesso ao link na guia Compartilhar do Adobe XD deve ser definida como Qualquer pessoa que tenha o link. Caso contrário, os usuários não poderão visualizar o protótipo. 
+      <p><b>Observação</b>: a configuração de Acesso ao Link na guia Compartilhar do Adobe XD deve ser definida como Qualquer pessoa com o link. Caso contrário, os usuários não poderão visualizar o protótipo. 
    </td> 
      </tr> 
      <tr> 

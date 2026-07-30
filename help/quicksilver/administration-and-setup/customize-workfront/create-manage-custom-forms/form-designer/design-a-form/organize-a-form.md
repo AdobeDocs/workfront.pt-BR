@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 1356
+source-wordcount: 1372
 ht-degree: 4%
 
 ---
 
 # Organizar e pré-visualizar um formulário
+
+{{preview-fast-release-general}}
 
 Você pode organizar um formulário personalizado com o designer do formulário e visualizá-lo para verificar se ele está configurado corretamente.
 
@@ -191,6 +193,8 @@ Em um formulário personalizado com uma quebra de seção configurada com a perm
 
    >[!NOTE]
    >
-   >A lógica avançada não é compatível com o modo de visualização do designer de formulário.
+   >No ambiente de Produção, a lógica avançada não é compatível com o modo de visualização do designer de formulário.
+   >
+   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
 
 

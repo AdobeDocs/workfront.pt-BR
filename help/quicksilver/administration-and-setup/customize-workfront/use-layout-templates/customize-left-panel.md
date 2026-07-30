@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b3170f61af451136f8a2b0d7f196bfd379ed952a
 workflow-type: tm+mt
-source-wordcount: 1230
+source-wordcount: 1247
 ht-degree: 5%
 
 ---
 
 # Personalizar o painel esquerdo usando um modelo de layout
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -38,6 +40,10 @@ Em um modelo de layout, você pode personalizar o que os usuários veem na área
 
 Por exemplo, você pode determinar quais dos seguintes itens os usuários veem no painel esquerdo ao visualizar um projeto:
 
+<span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+![Painel esquerdo de um projeto](assets/left-panel-in-project-072326.png)
+
+Imagem de amostra no ambiente de produção:
 ![Painel esquerdo de um projeto](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
@@ -149,7 +155,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projetos <img src="assets/projects-in-main-menu.png"> no [!UICONTROL Menu Principal] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Projetos no [!UICONTROL Menu Principal] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 

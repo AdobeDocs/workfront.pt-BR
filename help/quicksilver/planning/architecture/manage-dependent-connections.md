@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1332'
 ht-degree: 1%
 
 ---
@@ -110,6 +110,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * Se o valor do campo de origem for alterado, o campo dependente será automaticamente limpo, em vez de ser deixado em um estado inválido, evitando que combinações incompatíveis persistam.
 
   Você recebe uma mensagem em linha ou em caixa de informações explicando por que o campo dependente foi limpo.
+
+* Cada campo dependente pode ter até 3 campos de controle direto.
+
+* Os níveis de dependência são limitados a 6 conexões. Isso significa que até 7 tipos de registro podem ser conectados.
+
+* Para que a cadeia de dependências funcione, todos os campos dependentes devem existir no mesmo tipo de registro ao mesmo tempo.
 
 ## Criar uma conexão dependente
 
