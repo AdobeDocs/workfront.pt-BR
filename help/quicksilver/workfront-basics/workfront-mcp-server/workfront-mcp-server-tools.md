@@ -5,15 +5,17 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
+source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 6%
+source-wordcount: '2140'
+ht-degree: 5%
 
 ---
 
 
 # Ferramentas de servidor Adobe Workfront MCP
+
+{{preview-fast-release-general}}
 
 Este artigo lista as ferramentas que o servidor MCP [!DNL Adobe Workfront] expõe a uma plataforma de agente de IA conectada. A plataforma chama essas ferramentas em seu nome quando você solicita que elas encontrem, criem, atualizem ou excluam itens do Workfront.
 
@@ -66,10 +68,15 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 
 | Título | Nome da ferramenta | O que faz | Ação |
 | --- | --- | --- | --- |
-| Obter informações de fluxo de trabalho de aprovação | `approvals_get_approval_info` | Retorna o fluxo de trabalho de aprovação atual (estágios, participantes, status) para uma versão do documento. | Ler |
-| Criar ou atualizar fluxo de trabalho de aprovação | `approvals_create_or_update_approval_workflow` | Cria ou atualiza os estágios do fluxo de trabalho de aprovação para uma versão do documento. Suporta dependências de estágio linear e paralelo (gráfico). | Gravar |
-| Criar aprovação a partir do modelo | `approvals_create_approval_from_template` | Cria um fluxo de trabalho de aprovação em um documento usando um modelo existente. | Gravar |
+| Obter informações de fluxo de trabalho de aprovação | `approvals_get_approval_info` | Retorna o fluxo de trabalho de aprovação atual (estágios, participantes, status) para uma versão do documento. <span class="preview">Para aprovações com vários caminhos, ele mostra cada caminho e seus estágios.</span> | Ler |
+| Criar ou atualizar fluxo de trabalho de aprovação | `approvals_create_or_update_approval_workflow` | Cria ou atualiza os estágios do fluxo de trabalho de aprovação para uma versão do documento. <span class="preview">Oferece suporte a uma única trilha de estágios ou vários caminhos de revisão paralela.</span> | Gravar |
+| Criar aprovação a partir do modelo | `approvals_create_approval_from_template` | Cria um fluxo de trabalho de aprovação em um documento usando um modelo existente, <span class="preview">incluindo modelos que definem vários caminhos paralelos.</span> | Gravar |
 | Excluir estágio de aprovação | `approvals_delete_approval_stage` | Exclui um único estágio de um fluxo de trabalho de aprovação por nome ou posição. Somente estágios não iniciados podem ser excluídos. | Gravar |
+| <span class="preview">Adicionar caminho à aprovação</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Adiciona um novo caminho de revisão paralela a um fluxo de trabalho de aprovação existente, para que várias faixas de revisão sejam executadas ao mesmo tempo em uma versão de documento.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remover caminho da aprovação</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Remove um caminho paralelo de um fluxo de trabalho de aprovação. O primeiro caminho não pode ser removido, e os caminhos que contêm estágios concluídos ou bloqueados são protegidos.</span> | <span class="preview">Write</span> |
+| <span class="preview">Adicionar estágio ao caminho</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Adiciona um estágio de revisão ao final de um caminho específico em um fluxo de trabalho de aprovação paralelo.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remover estágio do caminho</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Remove um estágio não iniciado de um caminho específico em um fluxo de trabalho de aprovação paralelo. Cada caminho deve manter pelo menos um estágio.</span> | <span class="preview">Write</span> |
+| <span class="preview">Reordenar estágios no caminho</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Altera a ordem dos estágios em um único caminho de um fluxo de trabalho de aprovação paralelo.</span> | <span class="preview">Write</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
