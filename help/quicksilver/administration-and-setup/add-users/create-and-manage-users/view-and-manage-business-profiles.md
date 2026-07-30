@@ -11,18 +11,20 @@ role: Admin
 exl-id: 2227cdb7-909c-429d-a078-4f508157a679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: 5c8c8bfdf9b02d8bcd19a291b65825d4b0883807
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 22%
+source-wordcount: '364'
+ht-degree: 12%
 
 ---
 
 # Exibir e gerenciar perfis empresariais
 
+{{highlighted-preview}}
+
 Para atribuir um perfil de negócios a um usuário, você deve atribuir um grupo e um nível de acesso associado.
 
-Como administrador do Workfront, você pode definir o perfil de negócios de um usuário atribuindo combinações de níveis de acesso e grupos. Isso é gerenciado na página Usuário no Workfront.
+Como administrador do Workfront, você pode definir o perfil de negócios de um usuário atribuindo combinações de níveis de acesso e grupos. Isso é gerenciado na página Usuário no Workfront. <span class="preview">Os administradores de grupo também podem criar, editar e excluir perfis comerciais, mas somente para grupos que administram.</span>
 
 Para obter mais informações sobre Perfis Comerciais, consulte [Visão geral sobre perfis comerciais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
@@ -47,7 +49,7 @@ Para obter mais informações sobre Perfis Comerciais, consulte [Visão geral so
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td><p>Administrador de Sistema</p></td>
+   <td><p>Administrador de sistema</p><p><span class="preview">Administrador de grupo (para grupos que eles administram)</span></p></td>
   </tr> 
  </tbody> 
 </table>
@@ -67,3 +69,40 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 1. Selecione o grupo ao qual este perfil comercial se aplica.
 1. (Opcional) Para definir datas de início ou término para esse acesso, selecione essas datas no seletor de datas.
 1. Clique em **Salvar**.
+
+## Editar um perfil de empresa
+
+<div class="preview">
+
+A edição de um perfil de empresa abre a mesma janela usada para criar um.
+
+{{step-1-to-users}}
+
+1. Selecione o usuário cujo perfil de negócios você deseja editar.
+1. Na navegação à esquerda da página desse usuário, clique em **Perfis comerciais**.
+1. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) na linha do perfil comercial que você deseja editar e clique em **Editar**.
+1. Atualize o nível de acesso, o grupo ou as datas inicial e final, conforme necessário.
+1. Clique em **Salvar**.
+
+>[!NOTE]
+>
+>Os administradores de grupo só podem editar perfis comerciais para grupos que administram.
+
+</div>
+
+## Excluir um perfil de empresa
+
+<div class="preview">
+
+{{step-1-to-users}}
+
+1. Selecione o usuário cujo perfil de negócios você deseja excluir.
+1. Na navegação à esquerda da página desse usuário, clique em **Perfis comerciais**.
+1. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) na linha do perfil comercial que deseja excluir e clique em **Excluir**.
+1. Clique em **Excluir** para confirmar.
+
+>[!NOTE]
+>
+>Os administradores de grupo só podem excluir perfis comerciais para grupos que administram.
+
+</div>
