@@ -14,7 +14,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 4%
@@ -84,8 +84,9 @@ O ícone numerado no canto superior direito de [!DNL Workfront] exibe o número 
 
    * Todas as outras notificações são indicadas por ícones que sugerem o tipo de item de trabalho ao qual estão associados.
 
-     ![Ícones de notificação](assets/ntfcntype&icon-350x330.png)
-O ícone à direita do ponto azul exibe um dos seguintes:
+     ![Ícones de notificação](assets/ntfcntypeicon-350x330.png)
+
+   O ícone à direita do ponto azul exibe um dos seguintes:
 
    * A foto do perfil da pessoa que digitou as informações, geralmente uma atualização sobre um objeto [!DNL Workfront] no qual você está trabalhando.
    * O logotipo [!DNL Workfront], se a notificação for um anúncio do sistema.

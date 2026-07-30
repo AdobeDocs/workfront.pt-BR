@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 4%
 
 ---
@@ -90,14 +90,19 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
    <td> 
 <p>Para conectar tipos de registro do mesmo espaço de trabalho: </p>
 <ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</li></ul>
+<li><p>Qualquer pacote do Workfront ou Workflow com qualquer pacote do Planning</p></li>
+<p>Ou</p>
+<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li>
+</ul>
 
 <p>Para conectar tipos de registro de espaços de trabalho diferentes:</p>
 
-<ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
+<ul>
+
+<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li>
+<p>Ou</p>
+<li><p>Qualquer pacote do Planning Prime ou Ultimate quando adquirido como um produto independente</p></li>
+</ul>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
 <tr> 
@@ -208,7 +213,7 @@ Old:
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
 1. Clique no ícone **+** no canto superior direito do modo de exibição de tabela e clique na guia **Nova conexão**.
 
-   ![Nova guia Conexão com as marcas Workfront, AEM e GenStudio](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+   ![Nova guia Conexão com as Marcas Workfront, AEM e GenStudio](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
 
    <!--
     Old shot:
@@ -299,7 +304,15 @@ Old:
    * **Multisseleção**: selecione esta opção para permitir que um registro do tipo de registro atual se conecte a vários registros do tipo de registro de conexão.
    * **Seleção única**: selecione esta opção para permitir que um registro do tipo de registro atual se conecte a um registro do tipo de registro de conexão.
 
-1. Selecione o **Criar campo correspondente no tipo de registro vinculado**. Quando selecionado, um campo de conexão é criado no tipo de registro ao qual você está se conectando, além do campo de conexão adicionado ao tipo de registro atual. Essa opção está desativada por padrão.
+1. Selecione o **Criar campo correspondente no tipo de registro vinculado** na seção <!--<span class="preview">, when connecting all object types but not Planning record types</span>--> do **Tipo de conexão**.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   Quando selecionado, um campo de conexão é criado no tipo de registro ao qual você está se conectando, além do campo de conexão adicionado ao tipo de registro atual. Essa opção está desativada por padrão.
 
    >[!TIP]
    >
@@ -311,7 +324,7 @@ Old:
    >   * Não há um campo criado para objetos do Workfront conectados aos registros do Planning.
    >   * Não há nenhum campo criado para um tipo de registro do Planning quando ele estiver conectado a um tipo de registro do espaço de trabalho do GenStudio.
 
-1. (Condicional) Se você habilitou **Criar campo correspondente no tipo de registro vinculado**, escolha entre as seguintes opções para indicar a quantidade de registros aos quais os usuários podem se conectar e de:
+1. (Condicional) Se você habilitou **Criar campo correspondente no tipo de registro vinculado** na seção **Tipo de conexão**, escolha entre as seguintes opções para indicar a quantidade de registros aos quais os usuários podem se conectar e de onde:
 
    * Muitos para muitos
    * Um para muitos

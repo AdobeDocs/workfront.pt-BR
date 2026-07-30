@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: 807
 ht-degree: 2%
 
 ---
@@ -166,8 +166,8 @@ Old:
 
 * Você pode adicionar uma atualização aos registros e revisar o histórico de alterações das seguintes áreas do Workfront Planning:
 
-   * Na página de detalhes do registro.
-   * Em uma exibição, na caixa de detalhes do registro.
+  * Na página de detalhes do registro.
+  * Em uma exibição, na caixa de detalhes do registro.
 
 ### Gerenciar comentários nos registros
 
@@ -206,11 +206,23 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
    >
    >Não é possível adicionar imagens a um comentário de registro.
 
-
 1. Continue adicionando comentários ao registro.
 
    Para obter mais informações sobre a atualização de objetos, incluindo registros do Workfront Planning, consulte [Trabalho de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+1. Clique em **Enviar** para gravar o comentário.
+
+   Os usuários marcados na mensagem recebem notificações de que há uma nova mensagem.
+
+   <!--
+   <div class="preview">
+
+   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+
+      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
+   -->
 1. (Opcional) Clique no ícone **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do comentário e em **Excluir** para excluir o comentário.
 1. (Opcional) Clique no ícone **Ocultar Comentários** ![Ocultar comentários](assets/hide-comments-icon.png) para fechar o painel direito.
 
