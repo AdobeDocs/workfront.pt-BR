@@ -1,9 +1,9 @@
 ---
 name: release-notes-formatter
 description: Formatar e validar as notas de versão do Workfront para fins de consistência, estrutura correta e vinculação adequada. Use somente para arquivos de notas de versão em diretórios de versões de produtos, ou quando o usuário mencionar notas de versão, versões de produtos ou versões trimestrais. Não se aplique a artigos explicativos ou documentação geral.
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: fa39320af72acf6d2ceaf201480baf78a07ae76e
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ Identifique o tipo de página a partir do caminho e do conteúdo do arquivo:
 | **Área do produto** | `{YY}-q{N}-{area}.md` | Consulte .claude/commands/_release-notes-formatter-reference.md#product-area-page-template |
 | **Planejamento** | `planning-release-activity-{YY}-q{N}.md` | Semelhante à área do produto |
 | **Aparência** | `look-and-feel-updates-{YY}-q{N}.md` | Consulte .claude/commands/_release-notes-formatter-reference.md#look-and-feel-page-template |
+
+## Etapa 0: Determinar o Trimestre (faça isso antes de qualquer outra coisa)
+
+>[!IMPORTANT]
+>
+>Nunca atribua um recurso a um trimestre-documento usando a matemática do trimestre-calendário em sua data de Pré-visualização ou Produção. O trimestre-documento é baseado no qual a **versão mensal** do recurso é entregue, de acordo com o agrupamento do calendário de lançamento interno da Workfront, que é deslocado do trimestre-calendário — consulte a tabela [Calendário de lançamento de 2026](#2026-release-calendar) próximo ao final deste arquivo. Por exemplo, um recurso com uma Data de produção de 13 de agosto de 2026 pertence ao doc-quarter `26-q4`, não `26-q3`, pois a versão mensal de agosto mapeia para `26-q4`.
+>
+>A tabela &quot;Quarter Mapping&quot; mais abaixo (Formulário Escrito/Meses) é para escrever nomes de trimestre em títulos (por exemplo, &quot;Terceiro Trimestre&quot; para Q3) — é **não** suficiente por si só para decidir a quais arquivos de trimestre um recurso pertence. Sempre compare com a tabela do Calendário de lançamento antes de criar ou editar qualquer arquivo.
+>
+>Se a data de Produção de um recurso não aparecer na tabela do Calendário de lançamento (por exemplo, estiver além do intervalo de datas da tabela), peça ao usuário um calendário atualizado, em vez de adivinhar.
 
 ## Fluxo de trabalho de formatação
 
@@ -73,7 +83,7 @@ Regras:
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Corpo**: descrição do recurso e, em seguida, link para a documentação de ajuda
+5. **Corpo**: descrição do recurso e, em seguida, link para a documentação de ajuda
 
 #### Páginas de visão geral
 
@@ -90,16 +100,16 @@ Regras:
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 por área de produto** com a tabela de recursos do HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
+5. **H3 por área de produto** com a tabela de recursos do HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
    - Em cada tabela, **os recursos mais recentes primeiro** — a linha mais recente aparece na parte superior da tabela (após a linha de cabeçalho)
 
-&#x200B;6. **Seções finais** (H2): Notas de versão para outras áreas, atualizações do visualizador de provas de desktop, Avisos, versão da API, Atualizações de manutenção, Atualizações de treinamento
+6. **Seções finais** (H2): Notas de versão para outras áreas, atualizações do visualizador de provas de desktop, Avisos, versão da API, Atualizações de manutenção, Atualizações de treinamento
 
 ### Etapa 3: Validar links
 
 - **Link de visão geral nas páginas de área de produto**: deve apontar para o mesmo trimestre
-   - Correto: `26-q2-release-activity/26-q2-release-overview.md`
-   - Errado: `26-q1-release-activity/26-q1-release-overview.md`
+  - Correto: `26-q2-release-activity/26-q2-release-overview.md`
+  - Errado: `26-q1-release-activity/26-q1-release-overview.md`
 - **Ancorar links na visão geral**: deve corresponder às IDs H3 (minúsculas, hifens)
 - **Links de recursos em tabelas de visão geral**: deve usar `class="MCXref xref" xrefformat="{para}"`
 - **Links de documentos de ajuda**: deve começar com `/help/quicksilver/`
@@ -133,9 +143,9 @@ Onde adicioná-lo:
 
 - O índice tem uma seção por trimestre sob um cabeçalho como `* 2026 Q3 Release {#release-26-q3}`. Se o cabeçalho do trimestre ainda não existir (primeira página de um novo trimestre), adicione-o acima do trimestre anterior para que o trimestre mais recente fique na parte superior.
 - Sob esse cabeçalho de trimestre, liste as páginas nesta ordem:
-   1. **Visão geral** primeiro (`Third Quarter 2026 release overview`).
-   2. **Páginas de área de produto** em ordem alfabética por nome de área (Administrador, Documentos, Operações Empresariais, Projetos, Relatórios, Solicitações).
-   3. **Outras melhorias** por último (sempre após as áreas de produto alfabéticas).
+  1. **Visão geral** primeiro (`Third Quarter 2026 release overview`).
+  2. **Páginas de área de produto** em ordem alfabética por nome de área (Administrador, Documentos, Operações Empresariais, Projetos, Relatórios, Solicitações).
+  3. **Outras melhorias** por último (sempre após as áreas de produto alfabéticas).
 
 Cada entrada do índice é um link de marcação que usa o título da página e o caminho absoluto do repositório:
 
@@ -151,6 +161,21 @@ Erros comuns a evitar:
 - Vinculação a uma visão geral de trimestre diferente da nova página da área de produto (Etapa 3).
 - Inserir as páginas de um novo trimestre sob o cabeçalho do trimestre anterior.
 
+### Etapa 7: atualizar a home page
+
+Sempre que você criar uma **nova página de visão geral do trimestre** (isto é, esta é a primeira página de um novo trimestre, não apenas uma nova página da área de produto adicionada a um trimestre existente), atualize `help/quicksilver/home.md` com a mesma alteração:
+
+- Na seção `>[!TAB Latest release]`, substitua o link de visão geral da versão pelo link de visão geral do novo trimestre.
+- Além disso, nessa seção, atualize o link da atividade de lançamento do Adobe Workfront Planning para apontar para o arquivo de planejamento do novo trimestre (`planning-release-activity-{YY}-q{N}.md`), se existir.
+- Na guia `>[!TAB {YYYY} releases]` do ano atual, adicione o link de visão geral do novo trimestre na parte superior da lista, acima da entrada do trimestre anterior.
+
+Não toque em `home.md` ao adicionar apenas uma página da área do produto a um trimestre que já tenha uma página de visão geral listada lá.
+
+Erros comuns a evitar:
+
+- Criar uma nova página de visão geral do trimestre sem atualizar a guia &quot;Versão mais recente&quot; de `home.md` (continuará apontando para o trimestre antigo).
+- Esquecendo-se de adicionar também o novo trimestre à lista de guias do ano atual.
+
 ## Convenções de nomenclatura de arquivos
 
 | Tipo | Padrão | Exemplo |
@@ -163,12 +188,47 @@ Lesões de área padrão: `admin-and-setup`, `documents`, `projects`, `reports`,
 
 ## Mapeamento do trimestre
 
+>[!NOTE]
+>
+>Essa tabela serve para anotar nomes de trimestre (por exemplo, em um H1 ou título). ELE NÃO determina a quais arquivos do trimestre um recurso pertence — use a tabela [Calendário de versão de 2026](#2026-release-calendar) abaixo para isso, pois o trimestre-doc é deslocado do trimestre-calendário.
+
 | Trimestre | Formulário Escrito | Months |
 |---------|-------------|--------|
 | T1 | Primeiro trimestre | Jan-Mar |
 | T2 | Segundo trimestre | Abr-jun |
 | T3 | Terceiro trimestre | Jul-Set |
 | T4 | Quarto trimestre | Out-Dez |
+
+**Importante — o trimestre do documento usado nos nomes de arquivo (`26-q3`, `26-q4`, etc.) é deslocado por um mês deste mapeamento de calendário.** Em vez disso, ele segue o agrupamento interno do calendário de lançamento da Workfront, em que cada trimestre do documento = as duas versões mensais anteriores + o mês de lançamento trimestral. Por exemplo, o trimestre `26-q3` abrange as versões mensais de maio/junho/julho de 2026 (versão trimestral `2026.07`), e o trimestre `26-q4` abrange as versões mensais de agosto/setembro/outubro de 2026 (versão trimestral `2026.10`). Sempre verifique o calendário de lançamento abaixo (ou solicite um atualizado) antes de presumir o trimestre de um arquivo com base na tabela de trimestre-calendário acima.
+
+## Calendário de lançamento de 2026
+
+Source: &quot;Calendário de lançamento mensal de 2026&quot; (wiki do Adobe corp, espaço AWF — `wiki.corp.adobe.com`, chave de espaço AWF, título &quot;Calendário de lançamento mensal de 2026&quot;). O WebFetch não pode acessar esta página (requer Adobe SSO); peça ao usuário para colar uma PDF/tabela atualizada quando as datas forem necessárias além do que é capturado aqui.
+
+| Mês de lançamento | Visualização final | Produção | Lançamento mensal | Versão trimestral | Trimestre do documento |
+|---|---|---|---|---|---|
+| Nov de 2025 | 30-out-2025 | 13-nov-2025 | 2025.11 | 2026.01 | 26-t1 |
+| Dez de 2025 | 27-nov-2025 | 11-dez-2025 | 2025.12 | 2026.01 | 26-t1 |
+| Janeiro de 2026 | 23-dez-2025 | 15-jan-2026 | 2026.01 | 2026.01 | 26-t1 |
+| Fev de 2026 | 29-jan-2026 | 12-fev-2026 | 2026.02 | 2026.04 | 26-t2 |
+| Março de 2026 | 26-fev-2026 | 12-mar-2026 | 2026.03 | 2026.04 | 26-t2 |
+| Abril de 2026 | 02-abr-2026 | 16-abr-2026 | 2026.04 | 2026.04 | 26-t2 |
+| Maio de 2026 | 30-abr-2026 | 14-maio-2026 | 2026.05 | 2026.07 | 26-3t |
+| Junho de 2026 | 28-maio-2026 | 11-jun-2026 | 2026.06 | 2026.07 | 26-3t |
+| Jul de 2026 | 07-jul-2026 | 16-jul-2026 | 2026.07 | 2026.07 | 26-3t |
+| Agosto de 2026 | 30-jul-2026 | 13-ago-2026 | 2026.08 | 2026.10 | 26-4º trimestre |
+| Set de 2026 | 03-set-2026 | 17-set-2026 | 2026.09 | 2026.10 | 26-4º trimestre |
+| Out de 2026 | 01-out-2026 | 15-out-2026 | 2026.10 | 2026.10 | 26-4º trimestre |
+| Nov de 2026 | 29-out-2026 | 12-nov-2026 | 2026.11 | 2027.01 | 27-1º trimestre |
+| Dez de 2026 | 26-nov-2026 | 10-dez-2026 | 2026.12 | 2027.01 | 27-1º trimestre |
+| Janeiro de 2027 | 05-jan-2027 | 14-jan-2027 | 2027.01 | 2027.01 | 27-1º trimestre |
+
+Observações sobre o uso desta tabela:
+
+- **Visualização Final** é a última data em que os recursos podem aparecer na Visualização daquela versão mensal — use-a para o marcador &quot;última data em que os recursos podem aparecer no ambiente de Visualização&quot; da página de visão geral (somente mês de término do trimestre).
+- **Produção** é a data oficial de produção para todos para essa versão mensal.
+- Para o mês de término do trimestre (aquele que corresponde à coluna Lançamento trimestral), a tabela de agendamento da página de visão geral lista a versão desse mês **duas vezes**: uma vez na coluna &quot;Lançamento mensal&quot; com a data **um dia antes** da data de Produção (a data de lançamento rápido), e uma vez na coluna &quot;Lançamento trimestral&quot; com a data de Produção real. Os meses não finais em um trimestre usam a mesma data de produção tanto na lista mensal quanto em qualquer referência de &quot;lançamento rápido&quot; — não é necessário nenhum ajuste.
+- Esta tabela só vai até janeiro de 2027. Quando forem necessárias datas posteriores, peça ao usuário uma atualização do calendário, em vez de adivinhar.
 
 A liberação trimestral da produção normalmente chega à quinta-feira da segunda semana completa do último mês do trimestre.
 
@@ -186,6 +246,7 @@ Ao revisar um arquivo de notas de versão, verifique:
 - [ ] Links de âncora na visão geral correspondem às IDs de seção H3
 - [ Os recursos do ] são ordenados mais recentemente (tanto páginas de área de produtos quanto tabelas de visão geral)
 - [ ] As novas páginas de notas de versão estão listadas em `help/quicksilver/TOC.md` no trimestre correto, com a primeira visão geral e as áreas de produtos em ordem alfabética (Outras por último)
+- [ ] Se uma nova página de visão geral de um trimestre for criada, `help/quicksilver/home.md` a guia &quot;Versão mais recente&quot; e a guia do ano atual apontam para ela
 
 ## Recursos adicionais
 
