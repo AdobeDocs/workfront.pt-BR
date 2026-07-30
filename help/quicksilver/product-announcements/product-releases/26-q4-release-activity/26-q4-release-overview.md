@@ -4,10 +4,10 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b04780c710368bf1154661b14b7bf27364a19a5
+source-git-commit: c7370c767ac521cea7e262ba9cca9270139fd056
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 18%
+source-wordcount: '1143'
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Quarto trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -154,17 +154,15 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><p>30 de julho de 2026</p></td>
             <td><p>30 de julho de 2026</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Link content and folders from Experience Manager Assets with Adobe cloud storage</a>
-                <p>If your organization uses Adobe cloud storage, you can link individual assets or entire folders from Experience Manager Assets to any Workfront object that supports documents.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Vincular conteúdo e pastas do Experience Manager Assets com o Adobe Cloud Storage</a>
+                <p>Se sua organização usar o armazenamento em nuvem da Adobe, você poderá vincular ativos individuais ou pastas inteiras do Experience Manager Assets a qualquer objeto do Workfront que ofereça suporte a documentos.</p>
             </td>
-            <td><p>July 30, 2026</p></td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>30 de julho de 2026</p></td>
+            <td><p>13 de agosto de 2026</p></td>
+            <td><p>15 de outubro de 2026</p></td>
         </tr>
-        -->
     </tbody>
 </table>
 
@@ -301,7 +299,7 @@ Se você for um administrador da Workfront com usuários de leitores de Data Con
 
 Essa alteração foi anunciada pela primeira vez nas notas de versão de abril de 2026 do Workfront e este é o lembrete final antes do prazo. Certifique-se de que todos os usuários de leitores afetados ativem o MFA antes de 8 de agosto de 2026 para evitar a interrupção de seu acesso.
 
-Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/pt-br/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Atualizações de treinamento
 
