@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: 4230
+source-wordcount: 4323
 ht-degree: 0%
 
 ---
@@ -96,6 +92,12 @@ O visualizador Frame.io é o visualizador padrão para todos os fluxos de trabal
 Se sua organização quiser aproveitar a funcionalidade adicional do Frame.io disponível com essa integração, como carregar ativos diretamente para projetos no Frame.io, você pode comprar uma licença do Frame.io Enterprise. Entre em contato com seu representante de conta da Adobe para agendar uma demonstração e explorar os benefícios da solução Frame.io completa.
 
 A funcionalidade Workfront Proofing não está disponível com essa integração.
+
+## Concluir trilha de auditoria
+
+<span class="preview">A revisão e aprovação unificadas incluem um registro de auditoria abrangente que cria uma trilha de governança completa no Workfront e no Frame.io. Os logs de rastreamento de alterações capturam as decisões de aprovação tomadas no visualizador do Frame.io e no ciclo de vida do documento. Cada entrada de log inclui atribuição do sistema de origem (Workfront ou Frame.io) juntamente com os campos de auditoria padrão do Workfront: data e hora, tipo de log, nome de usuário, ação e nome do objeto. Os comentários do visualizador Frame.io não estão incluídos nos logs de auditoria.</span>
+
+<span class="preview">Os logs de controle de alterações aparecem na área Configuração do Workfront e estão disponíveis para exportação. Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
 
 ## Gerenciamento eficiente de projetos no Workfront
 
