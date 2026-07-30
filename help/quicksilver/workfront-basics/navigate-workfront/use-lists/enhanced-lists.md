@@ -8,24 +8,21 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
 workflow-type: tm+mt
-source-wordcount: 3142
+source-wordcount: 3184
 ht-degree: 2%
 
 ---
 
 # Usar listas aprimoradas
+
+{{preview-fast-release-general}}
 
 As listas aprimoradas estão disponíveis em algumas áreas do Adobe Workfront. Essas listas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão. O gerenciamento de visualizações também é aprimorado, incluindo filtragem, agrupamento, gerenciamento de colunas e pesquisa.
 
@@ -203,17 +200,20 @@ Para adicionar e remover colunas:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">(Opcional) Para reordenar as colunas, passe o mouse sobre um nome de coluna na seção **Selecionado** e clique no ícone **Arrastar** ![Ícone Arrastar](assets/drag-icon.png). Mova as colunas verticalmente para colocá-las em ordem.</span>
 1. Clique em **Salvar**.
 
    ![Gerenciador de colunas](assets/glist-column-manager.png)
 
    A lista atualiza as colunas de acordo com as escolhas feitas.
 
-### Alterar a altura da linha em uma exibição
+## Personalizar linhas
 
 >[!NOTE]
 >
 >Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+Para alterar a altura da linha em uma view:
 
 1. Clique no ícone **Altura da linha** ![Ícone de altura da linha](assets/row-height-icon.png) em uma lista aprimorada.
 
@@ -222,6 +222,14 @@ Para adicionar e remover colunas:
    * Padrão. Esta é a opção padrão.
    * Médio
    * Alta
+
+Para alterar a ordem das linhas:
+
+1. Arraste e solte linhas na ordem preferida.
+
+   >[!NOTE]
+   >
+   >Se você tiver uma classificação aplicada, não poderá alterar a ordem das linhas manualmente.
 
 ## Atualizar elementos de lista aprimorados
 
@@ -366,8 +374,8 @@ A formatação condicional ajuda a realçar informações importantes na exibiç
 1. Clique fora da caixa **Formatar** para fechá-la.
 
    Isso retornará à exibição em lista.
-A formatação é aplicada imediatamente à exibição de lista.
-Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exibição tem formatação especial aplicada.
+   A formatação é aplicada imediatamente à exibição de lista.
+   Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exibição tem formatação especial aplicada.
 
 ### Filtrar itens em uma lista aprimorada
 
