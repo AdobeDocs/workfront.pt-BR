@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1332'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Uma vez configurado, qualquer tipo de registro que referencie ambos os campos (c
    <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registro a objetos e marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -110,6 +110,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * Se o valor do campo de origem for alterado, o campo dependente será automaticamente limpo, em vez de ser deixado em um estado inválido, evitando que combinações incompatíveis persistam.
 
   Você recebe uma mensagem em linha ou em caixa de informações explicando por que o campo dependente foi limpo.
+
+* Cada campo dependente pode ter até 3 campos de controle direto.
+
+* Os níveis de dependência são limitados a 6 conexões. Isso significa que até 7 tipos de registro podem ser conectados.
+
+* Para que a cadeia de dependências funcione, todos os campos dependentes devem existir no mesmo tipo de registro ao mesmo tempo.
 
 ## Criar uma conexão dependente
 
