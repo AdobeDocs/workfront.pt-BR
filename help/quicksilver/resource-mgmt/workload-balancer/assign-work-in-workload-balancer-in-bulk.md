@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1226
 ht-degree: 5%
 
 ---
@@ -79,13 +72,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 * Não é possível atribuir recursos a itens de trabalho que estão concluídos ou a itens que estão em um projeto concluído.
 * Você pode fazer o seguinte ao atribuir funções de trabalho e usuários em massa:
 
-   * Substitua as atribuições entre usuários e funções em todas as combinações válidas.
-   * Cancele a atribuição de um usuário de todos os seus itens de trabalho.
+  * Faça atribuições entre usuários e funções em todas as combinações válidas.
+  * Cancele a atribuição de um usuário de todos os seus itens de trabalho.
 
 **EXEMPLOS**
 
-* Você é responsável por fazer atribuições de usuários em vários projetos novos. Os projetos foram originalmente criados a partir de modelos e as funções de trabalho já estão atribuídas a várias tarefas nos projetos. Você deseja atribuir um usuário específico, Jackie Simms, a todas as tarefas atualmente atribuídas a uma função de trabalho. Você pode usar a função Substituir para atribuir essas tarefas a Jackie Simms.
-* 45 tarefas em 3 projetos diferentes são atribuídas a Jackie Simms. Jackie deixa a organização, e agora você precisa reatribuir suas tarefas para outro usuário. Você pode usar a função Substituir para atribuir essas tarefas à nova pessoa.
+* Você é responsável por fazer atribuições de usuários em vários projetos novos. Os projetos foram originalmente criados a partir de modelos e as funções de trabalho já estão atribuídas a várias tarefas nos projetos. Você deseja atribuir um usuário específico, Jackie Simms, a todas as tarefas atualmente atribuídas a uma função de trabalho. Você pode usar a função Atribuir para atribuir essas tarefas a Jackie Simms.
+* 45 tarefas em 3 projetos diferentes são atribuídas a Jackie Simms. Jackie deixa a organização, e agora você precisa reatribuir suas tarefas para outro usuário. Você pode usar a função Atribuir para atribuir essas tarefas à nova pessoa.
 * Dez tarefas em dois projetos diferentes são atribuídas a outro usuário, Rick Kuvec. Você percebe que Rick foi designado para essas tarefas por engano, mas você não tem certeza de a quem eles precisam ser atribuídos neste momento. Você precisa desatribuir Rick para todas as tarefas ao mesmo tempo. Você pode usar a função Cancelar atribuição para remover Rick dessas tarefas.
 
 ## Atribuir trabalho em massa no Balanceador de carga de trabalho
@@ -131,7 +124,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Selecione uma das seguintes opções e continue com as etapas descritas abaixo:
 
-   * [Substituir recurso](#replace-user)
+   * [Atribuir recurso](#replace-user)
    * [Cancelar atribuição de recurso](#unassign-user)
 
    >[!TIP]
@@ -189,26 +182,26 @@ To assign a user to work items previously assigned to job roles:
 
 -->
 
-### Substituir recurso {#replace-user}
+### Atribuir recurso {#replace-user}
 
-Você pode substituir um recurso que já está atribuído a itens de trabalho por outro recurso nos projetos selecionados.
+É possível atribuir ou substituir recursos nos projetos selecionados.
 
-A substituição do recurso pode ser:
+A atribuição de recursos pode ser:
 
-* Função com função
-* Usuário com usuário
-* Usuário com função
-* Função com usuário
+* Função para a função
+* Usuário para usuário
+* Usuário para função
+* Função para usuário
 
-Quando você substitui um recurso por outro usando Atribuições em massa no Balanceador de carga de trabalho, as seguintes situações ocorrem:
+Quando você atribui ou substitui um recurso usando Atribuições em massa no Balanceador de carga de trabalho, as seguintes situações ocorrem:
 
-* O recurso de substituição é atribuído a todos os itens de trabalho atualmente atribuídos ao recurso original dentro dos projetos selecionados.
+* O novo recurso é atribuído a todos os itens de trabalho atualmente atribuídos ao recurso original dentro dos projetos selecionados.
 * O novo recurso não está atribuído a nenhum item de trabalho já marcado como Concluído.
 * Para substituição de usuário por usuário, se a função associada ao primeiro usuário não corresponder a nenhuma função do segundo usuário, o segundo usuário será atribuído em sua Função principal.
 
-Para substituir um recurso por outro recurso:
+Para atribuir um recurso em massa:
 
-1. Selecione os itens de trabalho na área de atribuições em massa do Balanceador de carga de trabalho conforme descrito acima e selecione **Substituir recurso**.
+1. Selecione os itens de trabalho na área de atribuições em massa do Balanceador de carga de trabalho conforme descrito acima e selecione **Atribuir recurso**.
 1. No campo **Recurso atribuído no momento**, clique na seta suspensa para escolher em uma lista de recursos. Somente os recursos atualmente atribuídos a itens de trabalho incompletos dentro dos projetos especificados são exibidos. Este campo é obrigatório.
 
    ![Substituir recurso](assets/bulk-assignments-workload-balancer-replace-selected.png)
@@ -217,11 +210,11 @@ Para substituir um recurso por outro recurso:
 
    O Workfront exibe uma observação sobre o número de itens em que o recurso atribuído atualmente substituirá o segundo recurso.
 
-1. Clique em **Substituir**.
+1. Clique em **Atribuir**.
 
    O primeiro recurso é substituído pelo segundo em todos os itens de trabalho do projeto ou tarefa selecionada.
 
-   Você receberá uma confirmação sobre quantos itens de trabalho tiveram a atribuição original substituída pelo segundo recurso selecionado.
+   Uma confirmação exibe quantos itens de trabalho tiveram a atribuição original substituída pelo segundo recurso selecionado.
 
 ### Cancelar atribuição de recurso {#unassign-user}
 
@@ -247,7 +240,7 @@ Para desatribuir um usuário dos itens de trabalho nos projetos selecionados ou 
    O Workfront exibe uma observação sobre o número de itens para os quais o usuário atribuído no momento terá a atribuição cancelada.
 
 1. Clique em **Cancelar atribuição**.\
-   Você recebe uma confirmação sobre o número de itens de trabalho dos quais o usuário especificado foi removido.
+   Uma confirmação exibe o número de itens de trabalho dos quais o usuário especificado foi removido.
 
 
 
