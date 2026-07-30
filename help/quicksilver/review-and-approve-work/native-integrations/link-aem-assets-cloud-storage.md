@@ -1,28 +1,19 @@
 ---
 product-area: documents;workfront-integrations
-navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Vincular conteúdo e pastas com o Supervisor de conteúdo viabilizado pelo Experience Manager Assets
-description: Você pode usar o Supervisor de Conteúdo para vincular conteúdo ou pastas do Experience Manager Assets a qualquer objeto do Adobe Workfront que suporte documentos. O Content Advisor traz detecção inteligente e sensível ao contexto diretamente para o Workfront, ajudando você a encontrar rapidamente conteúdo relevante e aprovado.
+navigation-topic: native-integrations
+title: Vincular conteúdo e pastas do Experience Manager Assets com o Adobe Cloud Storage
+description: Se sua organização usar o armazenamento em nuvem da Adobe, você poderá vincular conteúdo e pastas do Experience Manager Assets a qualquer objeto do Adobe Workfront que ofereça suporte a documentos.
 author: Courtney
-feature: Digital Content and Documents, Workfront Integrations and Apps
-exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
 workflow-type: tm+mt
-source-wordcount: 1435
-ht-degree: 4%
+source-wordcount: '913'
+ht-degree: 7%
 
 ---
 
-# Vincular conteúdo e pastas ao Supervisor de conteúdo do Experience Manager Assets
+# Vincular conteúdo e pastas do Experience Manager Assets com o Adobe Cloud Storage
 
-O Content Advisor traz detecção inteligente e sensível ao contexto diretamente para o Workfront, ajudando você a encontrar rapidamente conteúdo relevante e aprovado com base no contexto. Com recursos como sugestões inteligentes, representações do Dynamic Media e metadados de ativos detalhados, ele permite avaliar e reutilizar o conteúdo com eficiência sem sair do Workfront, acelerando a criação de conteúdo e mantendo a consistência da marca.
-
-Você pode usar o Supervisor de Conteúdo para vincular conteúdo e pastas do Experience Manager Assets ao Workfront. Depois de vinculado, é possível visualizar e gerenciar o conteúdo no Workfront, e quaisquer alterações feitas no conteúdo no Experience Manager Assets serão refletidas no Workfront.
+Se sua organização usar o Adobe Cloud Storage, você poderá vincular conteúdo e pastas do Experience Manager Assets ao Workfront. Depois de vinculado, é possível visualizar e gerenciar o conteúdo no Workfront, e quaisquer alterações feitas no conteúdo no Experience Manager Assets serão refletidas no Workfront.
 
 >[!IMPORTANT]
 >
@@ -48,7 +39,7 @@ Você pode usar o Supervisor de Conteúdo para vincular conteúdo e pastas do Ex
   </tr> 
   <tr> 
    <td role="rowheader">Produtos adicionais</td> 
-   <td>Você deve ter o Experience Manager as a Cloud Service ou o Assets Essentials e deve ser adicionado ao produto como usuário na Admin Console.</td> 
+   <td>Você deve ter o Experience Manager as a Cloud Service e ser adicionado ao produto como um usuário no Admin Console.</td> 
   </tr> 
    <tr> 
     <td role="rowheader">Permissões do Experience Manager</td> 
@@ -73,27 +64,20 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 Antes de começar:
 
-* O administrador do Workfront deve configurar uma integração do Experience Manager. Para obter mais informações, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+* O administrador do Workfront deve configurar uma integração do Experience Manager. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 * Para usar as sugestões inteligentes ou a funcionalidade dos Resumos de campanha, você deve assinar uma GenAI Rider. Para obter mais informações, consulte [Usar o Supervisor de Conteúdo para acessar conteúdo do AEM em aplicativos do Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
 
-
-
-## Vincular conteúdo do Experience Manager Assets com o Supervisor de conteúdo
-
-Agora você pode usar o Supervisor de Conteúdo para vincular conteúdo do Experience Manager Assets diretamente no Workfront. O Supervisor de conteúdo não está disponível para o Assets Essentials.
+## Vincular conteúdo do Experience Manager Assets
 
 Para vincular conteúdo:
 
-1. Vá para a área **Documentos** no Workfront onde deseja adicionar o documento.
-1. Selecione **Adicionar novo** e depois selecione a integração do Experience Manager que o administrador configurou.
-
-   >[!NOTE]
-   >
-   >O administrador do Workfront pode escolher qualquer nome para essa integração, portanto, talvez ele não mencione especificamente o Experience Manager Assets.
+1. Vá para o objeto do Workfront ao qual deseja vincular conteúdo.
+1. Clique na seção **Documentos** no painel esquerdo.
+1. Clique em **Novo** no lado direito da página e em **Arquivos do AEM** para vincular um ativo individual.
+   ![Adicionar arquivos AEM à área de documentos](assets/aem-files.png)
 
 1. Com o Supervisor de conteúdo, você pode:
-
 
    <table style="table-layout:auto">
    <tbody>
@@ -117,10 +101,12 @@ Para vincular conteúdo:
          <td><strong>Aplicar modificadores do Dynamic Media a representações.</strong> Adicione modificadores para transformar representações de ativos em tempo real e visualizar os resultados antes de selecionar uma representação para seu aplicativo de host.</td>
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Representações de ativos do Dynamic Media disponíveis para uso</a>.</td>
       </tr>
+      <!--
       <tr>
-         <td><strong>Descobrir e procurar fragmentos de conteúdo.</strong> Pesquise por fragmentos de conteúdo, visualize visualizações em miniatura em tempo real, verifique o status (Rascunho, Modificado ou Publicado) e inspecione propriedades, referências e variações detalhadas.</td>
-         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Descoberta de fragmentos de conteúdo</a>.</td>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
       </tr>
+      -->
       <tr>
          <td><strong>Acessar metadados de ativos.</strong> Revise as propriedades do ativo, como título, descrição, formato, tamanho e outras guias de metadados (Produto, Campanha, Tags) consistentes com a exibição do Assets.</td>
          <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Acessar metadados de ativos consistentes com a exibição do Assets</a>.</td>
@@ -140,56 +126,42 @@ Para vincular conteúdo:
    </tbody>
    </table>
 
+<!--
+### Link a new version from Experience Manager Assets
 
-### Vincular uma nova versão do Experience Manager Assets com o Supervisor de conteúdo
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
 
-Você pode obter novo conteúdo do Experience Manager Assets ou do Assets Essentials e adicioná-lo a um ativo existente como uma nova versão. Se o documento já estiver vinculado e uma nova versão for adicionada ao Experience Manager Assets ou ao Assets Essentials, a nova versão será exibida automaticamente no Workfront.
+To link a new version:
 
-Para vincular uma nova versão:
-
-1. Vá para a área **Documentos** no Workfront onde deseja adicionar o documento.
-1. Selecione o ativo que deseja substituir por uma nova versão. Não é possível criar uma nova versão de um ativo em uma pasta vinculada.
-1. Selecione **Adicionar novo** > **Versão** e selecione a integração do Experience Manager que seu administrador configurou.
-
-   >[!NOTE]
-   >
-   >O administrador do Workfront pode escolher qualquer nome para essa integração, portanto, talvez ele não mencione especificamente o Experience Manager Assets.
-
-1. Selecione o conteúdo que deseja vincular:
-
-   * Selecione a guia Assets para procurar ativos, pastas ou coleções no Experience Manager Assets ou no Assets Essentials.
-
-     ![Consultor de conteúdo](assets/content-advisor-full.png)
-
-   * Os fragmentos de conteúdo não são compatíveis com versões. Se você selecionar um fragmento de conteúdo, a nova versão substituirá o fragmento de conteúdo existente em vez de criar uma nova versão.
-
-1. Clique em **Selecionar**.
-
-## Vincular uma pasta do Experience Manager Assets com o Supervisor de conteúdo
-
-As permissões para visualizar ativos individuais dentro de uma pasta dependem das permissões do Experience Manager Assets.
-
-Para vincular uma pasta:
-
-1. Vá para a área **Documentos** no Workfront onde deseja colocar a pasta.
-1. Selecione **Adicionar novo** e depois selecione a integração do Experience Manager que o administrador configurou.
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode escolher qualquer nome para essa integração, portanto, talvez ele não mencione especificamente o Experience Manager Assets.
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
 
-1. Clique em **Assets** > **Arquivos e pastas**.
+1. Select the content you want to link.
+1. Click **Select**.
+-->
 
-1. Clique no ícone **Filtro** e, na seção **Tipo de ativo**, escolha **Pastas**.
+<!--
+## Link a folder from Experience Manager Assets
 
-1. Selecione a pasta que deseja vincular.
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
 
-1. Clique em **Selecionar**.
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
 
 ## Considerações
 
-* A funcionalidade Supervisor de Conteúdo não está disponível para objetos que usam o armazenamento em nuvem do Adobe. Se sua organização usar o armazenamento em nuvem da Adobe, ainda será possível vincular ativos e pastas do Experience Manager Assets ou do Assets Essentials, mas você não terá acesso aos recursos do Supervisor de conteúdo, como Pesquisas com IA, sugestões inteligentes ou representações do Dynamic Media. Para obter mais informações, consulte [Vincular conteúdo e pastas do Experience Manager Assets com o Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
-
-* A funcionalidade Supervisor de conteúdo não está disponível para o Assets Essentials. Para vincular ativos e pastas do Assets Essentials, consulte [Vincular ativos e pastas do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
-
+* Os fluxos de trabalho de revisão e aprovação não são compatíveis com ativos vinculados do AEM.
 * Os campos de metadados são mapeados pela primeira vez quando você envia um ativo do Workfront para o Experience Manager Assets. Se o administrador do Workfront tiver ativado a sincronização de metadados de objeto, os campos permanecerão atualizados se forem alterados em qualquer um dos aplicativos.
