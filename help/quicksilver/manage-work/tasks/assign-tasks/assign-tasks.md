@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Tarefas Atribuídas
-description: É possível atribuir tarefas a usuários, funções ou equipes para indicar quem é responsável por concluir as tarefas. É possível atribuir uma tarefa a mais de um recurso por vez.
+description: Você pode atribuir tarefas a usuários, funções, equipes ou Colaboradores de tarefas para indicar quem é responsável por concluir as tarefas. É possível atribuir uma tarefa a mais de um recurso por vez.
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -10,21 +10,14 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r3jT-ief9Sfqh7RgQRWJ77fgHR9tkgTBBuo-iEok9lE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: eebfa7db6b4aa256a47aa881ff151e3b84a21742
 workflow-type: tm+mt
-source-wordcount: 1623
+source-wordcount: 1616
 ht-degree: 4%
 
 ---
@@ -45,7 +38,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-É possível atribuir tarefas a usuários, funções de trabalho ou equipes para indicar quem é responsável por concluir as tarefas. É possível atribuir uma tarefa a mais de um recurso por vez.
+Você pode atribuir tarefas a usuários, funções de job, equipes ou Colaboradores de Tarefas para indicar quem é responsável pela conclusão das tarefas. É possível atribuir uma tarefa a mais de um recurso por vez.
 
 >[!TIP]
 >
@@ -65,6 +58,7 @@ Além deste artigo, recomendamos que você leia os seguintes artigos para obter 
 * [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Fazer atribuições inteligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Usar colaboradores da tarefa](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [Modificar várias atribuições de usuário em uma lista de tarefas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Planejar uma visão geral do projeto](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -173,7 +167,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. Siga um destes procedimentos:
 
-   * Comece a digitar o nome de um usuário, função de trabalho ou equipe que deseja atribuir e clique nele quando ele aparecer na lista.
+   * Comece digitando o nome de um usuário, função de trabalho, equipe ou Colaborador de Tarefas que deseja atribuir e, em seguida, clique nele quando ele aparecer na lista.
 
      >[!TIP]
      >
@@ -202,7 +196,7 @@ Dependendo de qual campo estiver visível na exibição, você poderá atribuir 
 |---|---|
 | **Atribuir a** | Atribuir um usuário |
 | **Atribuído** | Atribuir um usuário |
-| **Atribuições** | Atribuir usuários, funções de trabalho ou equipes |
+| **Atribuições** | Atribuir usuários, funções de trabalho, equipes ou colaboradores de tarefas |
 
 Para atribuir tarefas em uma lista:
 
@@ -220,7 +214,7 @@ Para atribuir tarefas em uma lista:
 1. Para atribuir tarefas, siga um destes procedimentos:
 
    * Clique dentro dos campos **Atribuído a** ou **Atribuído** e comece a digitar o nome de um usuário ativo que deseja atribuir à tarefa, em seguida, clique nele quando ele for exibido na lista.
-   * Clique dentro do campo **Atribuições** e comece a digitar o nome de um usuário, função de trabalho ou equipe ativos que deseja atribuir à tarefa, em seguida, clique nele quando ele for exibido na lista.
+   * Clique dentro do campo **Atribuições** e comece a digitar o nome de um usuário ativo, função de trabalho, equipe ou Colaborador de Tarefas que você deseja atribuir à tarefa, em seguida, clique nele quando ele for exibido na lista.
 
      >[!TIP]
      >
@@ -255,7 +249,7 @@ Para atribuir tarefas em uma lista:
 
    A caixa **Editar Tarefas** é aberta.
 
-1. Na área **Atribuições**, comece digitando o nome de usuários, equipes ou funções no campo **Pesquisar pessoas, funções ou equipes** fornecido, em seguida, clique nelas quando forem exibidas na lista
+1. Na área **Atribuições**, comece digitando o nome de usuários, equipes, funções ou Colaboradores de Tarefas no campo **Pesquisar pessoas, funções ou equipes** fornecido, em seguida, clique neles ao exibi-los na lista
 
    >[!IMPORTANT]
    >

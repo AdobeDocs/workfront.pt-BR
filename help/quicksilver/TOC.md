@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
+source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
 workflow-type: tm+mt
-source-wordcount: '14396'
+source-wordcount: '14399'
 ht-degree: 93%
 
 ---
@@ -1420,6 +1420,7 @@ ht-degree: 93%
       * [Atribuir tarefas](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [Atribuir tarefas](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [Criar atribuições avançadas](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+      * [Usar colaboradores de tarefas](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [Visão geral de atribuições inteligentes](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [Visão geral da modificação de atribuições de tarefas](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [Modificar várias atribuições de usuário em uma lista de tarefas](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
