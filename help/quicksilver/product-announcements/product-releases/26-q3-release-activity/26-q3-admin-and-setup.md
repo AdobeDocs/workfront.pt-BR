@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador no terceiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 46db578d2412d622818a599cfb27ec4ae73a5298
+source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1543'
 ht-degree: 5%
 
 ---
@@ -17,29 +17,26 @@ Esta página descreve as melhorias de Administrador feitas com a versão do terc
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2026, consulte [Visão geral da versão do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
 
-## Change tracking for unified review and approval
+## Controle de alterações para revisão e aprovação unificadas
 
 >[!NOTE]
 >
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>Visualização: 10 de julho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
 
-The Change History page in Workfront now captures activity across unified review and approval workflows, giving administrators a complete governance trail for review and document lifecycle events.
+A página Histórico de alterações no Workfront agora captura a atividade em fluxos de trabalho unificados de revisão e aprovação, fornecendo aos administradores uma trilha de governança completa para eventos de ciclo de vida de revisão e documento.
 
-Approval, stage, and participant actions are now tracked. These actions may include:
+Agora, as ações de aprovação, preparo e participante são rastreadas. Essas ações podem incluir:
 
-* Making an approval decision in the Frame.io viewer
-* Creating or deleting an approval
-* Updating a document such as renaming, moving, or deleting it
+* Tomada de decisão de aprovação no visualizador Frame.io
+* Criação ou exclusão de uma aprovação
+* Atualizar um documento, como renomear, mover ou excluí-lo
 
-Each entry includes the standard tracked fields: date and time, operation, user name (or "system generated"), and object name. Frame.io viewer comments are not included.
+Cada entrada inclui os campos rastreados padrão: data e hora, operação, nome de usuário (ou &quot;gerado pelo sistema&quot;) e nome do objeto. Os comentários do visualizador Frame.io não estão incluídos.
 
-This phase of change tracking does not include MCP events. Those will be part of a future release.
+Essa fase do controle de alterações não inclui eventos MCP. Eles farão parte de uma versão futura.
 
-For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
 
 -->
 
@@ -59,9 +56,9 @@ Fizemos as seguintes alterações de campo na caixa Nível de acesso:
 * Para clientes que também compraram um pacote do Workfront Planning, adicionamos um novo campo Tipo de Licença do Planning para ilustrar a licença de um usuário no Workfront Planning.
 Os clientes que compraram um número igual de licenças do Workflow e do Planning têm os seguintes tipos de licença disponíveis:
 
-   * Planejamento padrão
-   * Colaborador de planejamento
-   * Nenhum
+  * Planejamento padrão
+  * Colaborador de planejamento
+  * Nenhum
 
   >[!NOTE]
   >
@@ -77,9 +74,7 @@ Os clientes que compraram um número igual de licenças do Workflow e do Plannin
 
 >[!NOTE]
 >
->Visualização: 7 de julho de 2026
->Versão rápida de produção: 15 de julho de 2026
->Produção para todos: 16 de julho de 2026
+>Visualização: 7 de julho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
 
 O novo tipo de campo **Pesquisa interna** em formulários personalizados fornece filtragem dinâmica. É semelhante ao tipo de campo Digitação antecipada e permite que os usuários pesquisem e selecionem objetos existentes do Workfront digitando parte do nome. O filtro na pesquisa interna pode fazer referência ao valor em outro campo do formulário, o que não é possível com Typeaheads.
 
@@ -97,9 +92,7 @@ Para obter mais informações, consulte [Criar um formulário personalizado](/he
 
 >[!NOTE]
 >
->Visualização: 7 de julho de 2026
->Versão rápida de produção: 15 de julho de 2026
->Produção para todos: 16 de julho de 2026
+>Visualização: 7 de julho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
 >
 >Esse recurso só está disponível para organizações nos pacotes Prime ou Ultimate do fluxo de trabalho.
 
@@ -113,9 +106,7 @@ Para obter informações, consulte [Adicionar lógica de valor padrão a um form
 
 >[!NOTE]
 >
->Visualização: 7 de julho de 2026
->Versão rápida de produção: 15 de julho de 2026
->Produção para todos: 16 de julho de 2026
+>Visualização: 7 de julho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
 
 Os filtros de sistema que existem em campos nativos agora são aplicados aos campos em formulários personalizados e estão visíveis para administradores.
 
@@ -133,9 +124,7 @@ Para obter informações, consulte [Criar um formulário personalizado](/help/qu
 
 >[!NOTE]
 >
->Visualização: 7 de julho de 2026
->Versão rápida de produção: 15 de julho de 2026
->Produção para todos: 16 de julho de 2026
+>Visualização: 7 de julho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026
 
 Para proteger as integrações e a integridade dos dados, atualizamos como os nomes de campo podem ser editados no painel de configurações de campo de um formulário personalizado.
 
@@ -147,9 +136,7 @@ Para obter informações, consulte [Criar um formulário personalizado](/help/qu
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026
->Versão rápida de produção: 11 de junho de 2026
->Produção para todos: 16 de julho de 2026
+>Visualização: 11 de junho de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
 
 Para facilitar a visualização das alterações que ocorreram em uma lista central, criamos a Lista do histórico de alterações. Essa lista exibe informações como o objeto, a operação e a origem da alteração (como um usuário ou o sistema Workfront).
 
@@ -161,9 +148,7 @@ Para obter mais informações, consulte [Exibir e gerenciar o histórico de alte
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026
->Produção para todos: 11 de junho de 2026
->[!BADGE Fora do cronograma]{type=Neutral}
+>Visualização: 11 de junho de 2026>Produção para todos: 11 de junho de 2026>[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora, os administradores do Workfront podem converter portfólios de armazenamento herdados para o Adobe Cloud Storage diretamente das Preferências do sistema. Para converter portfólios, selecione-os no novo campo Selecionar portfólios para conversão em armazenamento corporativo e salve a página.
 
@@ -182,9 +167,7 @@ Para obter mais informações, consulte [Configurar preferências do sistema](/h
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026
->Versão rápida de produção: 11 de junho de 2026
->Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
 
 O novo tipo de campo **Rich text** em formulários personalizados é um editor de texto robusto, com opções de formatação como sobrescrito e subscrito, cabeçalhos e tabelas, além das opções tradicionais de negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas duplas. O limite de caracteres permanece de 15.000.
 
@@ -200,9 +183,7 @@ Para obter mais informações, consulte [Criar um formulário personalizado](/he
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026
->Versão rápida de produção: 11 de junho de 2026
->Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
 
 Agora é possível incluir campos financeiros nativos do Workfront em formulários personalizados. Anteriormente, os campos financeiros não eram compatíveis.
 
@@ -214,9 +195,7 @@ Para obter mais informações, consulte [Criar um formulário personalizado](/he
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026
->Versão rápida de produção: 11 de junho de 2026
->Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
 
 Uma nova opção de compartilhamento, &quot;Todos no sistema podem visualizar e anexar&quot;, foi adicionada aos formulários personalizados. Ao selecionar essa opção, todos os usuários em todo o sistema podem anexar o formulário a outros objetos.
 
@@ -228,9 +207,7 @@ Para obter mais informações, consulte [Compartilhar um formulário personaliza
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026
->Versão rápida de produção: 11 de junho de 2026
->Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026>Versão rápida de produção: 11 de junho de 2026>Produção para todos: 16 de julho de 2026
 
 Atualmente, ao editar objetos em massa, os campos obrigatórios só são aplicados quando um usuário modifica o campo. Se um campo não for modificado, será tratado como opcional e não validado.
 

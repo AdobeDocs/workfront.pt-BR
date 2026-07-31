@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20d4bc743c0d7f09e1a8c5b1ce48b88cd0c21287
+source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,48 @@ ht-degree: 0%
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Quarto trimestre de 2026.
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Arrastar e soltar linhas na exibição de tabela
+
+>[!NOTE]
+>
+>Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+
+A experiência de arrastar e soltar linhas na exibição de tabela foi aprimorada visualmente.
+
+Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+
+## Campos de registro conectados dependentes
+
+>[!NOTE]
+>
+>Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+
+Agora, os gerentes do Workspace podem definir dependências entre tipos de registro conectados. Por exemplo, garantir que um campo Região mostre apenas valores vinculados à Geografia selecionada. Isso é configurado diretamente na configuração do campo de conexão: ao adicionar uma conexão de um tipo de registro Geográfico a um tipo de registro dependente (como Região), uma nova configuração permite que os gerentes de espaço de trabalho marquem-na como dependente do tipo de registro Geográfico, usando os relacionamentos já estabelecidos entre esses tipos de registro.
+
+Uma vez configurado, qualquer tipo de registro que referencie ambos os campos (como uma Campanha) verá o efeito imediatamente: selecionar um valor Geográfico restringe o seletor de Região somente às Regiões realmente vinculadas a essa Geografia. Isso reforça a estrutura de registros automaticamente, eliminando combinações incompatíveis e reduzindo a limpeza manual.
+
+Os seguintes recursos estão incluídos nesta atualização:
+
+* Adicionamos a nova seção Configurações de conexão na guia Nova conexão, ao conectar tipos de registro
+* Adicionamos uma configuração Tornar essa conexão dependente na nova seção
+
+
+Para obter informações, consulte [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+
+
+
+## Mostrar novo indicador de comentário para um registro na exibição de tabela
+
+>[!NOTE]
+>
+>Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+
+Adicionamos um novo indicador que mostra quando há comentários não lidos em um registro. O indicador é exibido no canto superior direito do campo principal do registro na exibição de tabela.
+
+Para obter mais informações, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Cor de registro personalizável e codificação de cores baseada em conexão
 

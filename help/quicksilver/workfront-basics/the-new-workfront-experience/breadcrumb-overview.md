@@ -11,10 +11,10 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
 workflow-type: tm+mt
-source-wordcount: 334
-ht-degree: 1%
+source-wordcount: 412
+ht-degree: 0%
 
 ---
 
@@ -84,3 +84,20 @@ Para obter informações sobre objetos pai em [!DNL Workfront], consulte [Entend
    A página do objeto é aberta.
 
    Se você estiver olhando para um projeto que está conectado a um objeto no Workfront Planning (por exemplo, uma campanha), você pode alternar entre os tipos de objeto do Planning e do Workfront a partir da navegação estrutural. Para obter mais informações, consulte [Visão geral sobre hierarquia e navegação estrutural](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+<div class="preview">
+
+## Copiar o nome e o link de uma navegação estrutural
+
+{{highlighted-preview}}
+
+Você pode copiar o nome de um objeto e vinculá-lo em uma ação do caminho de navegação estrutural.
+
+1. Passe o mouse sobre qualquer objeto no caminho da navegação estrutural.
+1. Clique no ícone **[!UICONTROL Copiar link]** que aparece ao lado do nome do objeto.
+
+   ![Copiar ícone de link em uma navegação estrutural](assets/copy-breadcrumbs.png)
+
+   O nome do objeto e o link são copiados juntos. Ao colar as informações copiadas, elas aparecem como um link clicável com o nome do objeto como o texto do link.
+
+</div>

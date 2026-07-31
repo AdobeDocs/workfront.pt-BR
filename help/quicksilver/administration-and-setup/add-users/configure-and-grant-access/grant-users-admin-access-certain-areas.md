@@ -18,14 +18,16 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 714
 ht-degree: 11%
 
 ---
 
 # Conceder aos usuários acesso administrativo a determinadas áreas
+
+{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -84,6 +86,11 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
      <tr> 
       <td role="rowheader">Processos de Aprovação</td> 
       <td><p>Crie e gerencie processos de aprovação para uso em todo o sistema e para grupos específicos.</p><p>Sem esse acesso, os usuários podem criar apenas processos de aprovação ad hoc em itens que eles tenham acesso para gerenciar.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">Histórico de alterações</span></td> 
+      <td><p><span class="preview">Exiba os logs do histórico de alterações do Workfront em Configurar &gt; Controle de alterações &gt; Lista do histórico de alterações.</span></p>
+      <p><span class="preview">Sem esse acesso, os usuários não terão essa opção na área Configuração.</span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Empresas</td> 

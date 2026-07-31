@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8468e4e9daa5000e721ee8fb78f45064ab105e28
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 12%
+source-wordcount: 291
+ht-degree: 11%
 
 ---
 
@@ -96,15 +96,16 @@ Por padrão, os usuários não podem adicionar imagens em atualizações. Quando
 >
 >* As imagens salvas em atualizações são contadas de acordo com o limite de armazenamento de documentos. Para obter informações, consulte [Verificar limites de armazenamento de documentos](../../../documents/managing-documents/check-document-storage.md).
 >* As imagens podem ser acessadas por meio da guia [!UICONTROL Atualizações] em um objeto e também estão disponíveis na área [!UICONTROL Documentos] no [!UICONTROL Menu Principal].
->
+>* Essa preferência também determina se os usuários podem anexar imagens a comentários em objetos usando o Adobe Cloud Storage. As imagens anexadas são armazenadas no Adobe Cloud Storage.
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront] e clique no ícone **[!UICONTROL Configuração]** ![Configurações de engrenagem](assets/gear-icon-settings.png).
 1. No painel esquerdo, selecione **[!UICONTROL Interface]** > **[!UICONTROL Feeds de Atualização]**.
 1. Selecione a guia **[!UICONTROL Preferências]**.
 
-   ![Preferências do usuário para feeds de atualização](assets/updatefeeds-preferences-350x137.png)
-
 1. Marque a caixa de seleção **[!UICONTROL Permitir que usuários adicionem imagens em atualizações]**.
 1. Selecione **[!UICONTROL Salvar]**.
 
    Quando esta preferência estiver ativada, você poderá desativá-la a qualquer momento. As imagens já postadas nas atualizações permanecerão na área [!UICONTROL Atualizações] do objeto.
+
+
+<!--Note from Lisa: This image is old so I hid it. Was after step 3 (select the Prefs tab) but it broke the numbering when I commented it out. ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->

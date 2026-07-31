@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4323
 ht-degree: 0%
 
 ---
@@ -96,6 +96,12 @@ O visualizador Frame.io é o visualizador padrão para todos os fluxos de trabal
 Se sua organização quiser aproveitar a funcionalidade adicional do Frame.io disponível com essa integração, como carregar ativos diretamente para projetos no Frame.io, você pode comprar uma licença do Frame.io Enterprise. Entre em contato com seu representante de conta da Adobe para agendar uma demonstração e explorar os benefícios da solução Frame.io completa.
 
 A funcionalidade Workfront Proofing não está disponível com essa integração.
+
+## Concluir trilha de auditoria
+
+<span class="preview">A revisão e aprovação unificadas incluem um registro de auditoria abrangente que cria uma trilha de governança completa no Workfront e no Frame.io. Os logs de rastreamento de alterações capturam as decisões de aprovação tomadas no visualizador do Frame.io e no ciclo de vida do documento. Cada entrada de log inclui atribuição do sistema de origem (Workfront ou Frame.io) juntamente com os campos de auditoria padrão do Workfront: data e hora, tipo de log, nome de usuário, ação e nome do objeto. Os comentários do visualizador Frame.io não estão incluídos nos logs de auditoria.</span>
+
+<span class="preview">Os logs de controle de alterações aparecem na área Configuração do Workfront e estão disponíveis para exportação. Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
 
 ## Gerenciamento eficiente de projetos no Workfront
 
@@ -212,7 +218,7 @@ Para acessar a revisão e aprovação unificadas, você deve ter uma versão do 
 
 * Quando você estiver em uma versão do Workfront compatível com o Adobe Cloud Storage, a Adobe Professional Services configurará a integração para sua organização.
 
-   * Se não tiver certeza de quem é o representante de conta da Adobe, entre em contato com o portal de suporte da Adobe ou visite o Experience League para obter opções de contato.
+  * Se não tiver certeza de quem é o representante de conta da Adobe, entre em contato com o portal de suporte da Adobe ou visite o Experience League para obter opções de contato.
 
 +++
 
@@ -360,6 +366,14 @@ Para obter uma lista completa dos tipos de arquivos compatíveis, consulte a doc
 **É possível compartilhar ativos externamente com participantes que não têm acesso ao Workfront?**
 
 Sim. O Assets pode ser compartilhado externamente. Os usuários externos são notificados por e-mail e serão solicitados a criar um login no Frame.io para acessar o visualizador e participar da revisão.
+
+**É possível anexar imagens a comentários em um documento no Workfront?**
+
+Se sua organização usar o armazenamento em nuvem da Adobe como parte da revisão e aprovação unificadas, você poderá anexar arquivos de imagem diretamente a comentários em um documento. As imagens anexadas são armazenadas no armazenamento em nuvem do Adobe e todos os formatos de arquivo de imagem do tipo de mídia são compatíveis.
+
+Esses comentários são nativos do Workfront e são separados dos comentários no visualizador Frame.io. As imagens anexadas a um comentário não estão acessíveis no Frame.io e anexar uma imagem não adiciona marcação ao ativo ou o encaminha para aprovação. Tipos de arquivo que não são de imagem não podem ser anexados a um comentário.
+
+Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**

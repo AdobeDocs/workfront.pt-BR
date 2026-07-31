@@ -22,14 +22,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 395
-ht-degree: 17%
+source-wordcount: 446
+ht-degree: 15%
 
 ---
 
 # Personalizar a página de aterrissagem usando um modelo de layout
+
+{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para especificar a área que os usuários devem ver sempre que fizerem logon no Workfront.
 
@@ -104,6 +106,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * Usuários
    * Blueprints
    * Em Planejamento
+   * <span class="preview">Aplicativo personalizado</span>
+
+     >[!NOTE]
+     >
+     ><span class="preview">Os aplicativos personalizados que já foram adicionados ao Menu Principal estão disponíveis para uso como página de aterrissagem. Eles devem ser criados separadamente antes de serem disponibilizados como Menu principal ou Opções de página de aterrissagem. Para obter mais informações, consulte [Criar um aplicativo personalizado para o Workfront com o Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
 
    >[!IMPORTANT]
    >
