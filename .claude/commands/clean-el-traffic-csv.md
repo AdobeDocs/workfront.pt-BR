@@ -48,7 +48,7 @@ Para cada linha de dados, verifique se a URL contém a subsequência literal `/w
 
 Para cada linha sobrevivente, localize `/using` na URL e mantenha somente a parte de (e incluindo) a `/` que a segue, descartando tudo antes e incluindo `/using`.
 
-Exemplo: `https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
+Exemplo: `https://experienceleague.adobe.com/pt-br/docs/workfront/using/home` → `/home`
 
 Se `/using` não for encontrado na URL de uma linha do Workfront, deixe essa URL inalterada e marque-a para o usuário, em vez de adivinhar.
 
