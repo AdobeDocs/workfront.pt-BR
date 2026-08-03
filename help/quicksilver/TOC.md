@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '14399'
+source-wordcount: '14406'
 ht-degree: 93%
 
 ---
@@ -543,6 +543,8 @@ ht-degree: 93%
       * [Excluir usuários](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
       * [Visão geral dos logs de auditoria](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
       * [Visualizar e exportar logs de auditoria](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+      * [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
+      * [Configurar campos para rastrear no histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
       * [Visualizar informações de logon do usuário](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Gerenciar usuários no Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [Visão geral dos perfis empresariais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
@@ -820,8 +822,7 @@ ht-degree: 93%
     * [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
     * [Importar cartões de taxa de um modelo](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
     * [Alterações na taxa de push em projetos](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
-    * [Compartilhar um cartão de tarifas](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
-    * [Exibir e gerenciar o Histórico de Alterações](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
+    * [Compartilhar um cartão de tarifa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
   * Configurar integrações {#configure-integrations}
     * [Configurar integrações](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Integrações do Adobe Workfront](administration-and-setup/configure-integrations/workfront-integrations-1.md)

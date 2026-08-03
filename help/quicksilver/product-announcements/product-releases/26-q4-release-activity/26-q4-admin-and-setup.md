@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador do quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Agora, as ações de aprovação, preparo e participante são rastreadas. Essas 
 
 Cada entrada inclui os campos rastreados padrão: data e hora, operação, nome de usuário (ou &quot;gerado pelo sistema&quot;) e nome do objeto. As atividades do MCP são capturadas, incluindo qual LLM (como Claude) fez a atualização. Os comentários do visualizador Frame.io não estão incluídos.
 
-Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Definir um aplicativo personalizado como página de aterrissagem no modelo de layout
 
@@ -107,7 +107,7 @@ Você pode adicionar campos que deseja rastrear para um tipo específico de obje
 
 Anteriormente, a tela Configuração para definir os campos rastreados era somente visualização.
 
-Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Para obter mais informações, consulte [Configurar campos para acompanhar no histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 
 ## Acesso administrativo ao histórico de alterações adicionado aos níveis de acesso
 
@@ -117,6 +117,6 @@ Para obter mais informações, consulte [Exibir e gerenciar o histórico de alte
 
 No nível de acesso Padrão, agora é possível definir se os usuários com esse nível devem ter acesso à Lista do histórico de alterações. A opção **Alterar histórico** está disponível na seção **Permitir acesso administrativo para** no nível de acesso.
 
-Para obter mais informações, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) e [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Para obter mais informações, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) e [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 
