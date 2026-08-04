@@ -7,17 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 2563
+source-wordcount: 2584
 ht-degree: 1%
 
 ---
@@ -41,8 +37,9 @@ Você pode criar um painel de relatório na área Painéis da tela para exibir i
 1. Clique em **Novo Painel**.
 1. Dê um nome ao painel.
 1. (Opcional) Adicione uma descrição.
+1. (Opcional) Se você tiver várias moedas definidas na instância do Workfront, também poderá selecionar uma moeda padrão para o painel.
 1. Clique em **Criar**.
-   ![adicionar nome e descrição do painel](assets/create-a-dashboard.png)
+   ![Adicionar nome e descrição do painel](assets/create-a-dashboard.png)
 
 Depois de criar um painel, você pode começar a adicionar KPIs, Gráficos e Tabelas. Consulte as seguintes seções para obter mais informações:
 

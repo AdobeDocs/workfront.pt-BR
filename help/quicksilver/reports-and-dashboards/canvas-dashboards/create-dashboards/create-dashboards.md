@@ -9,19 +9,14 @@ exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-s26q39f6l5lix-8JuSaHvvdpqeqpw3ve5Gn2ZNnHfM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 384
-ht-degree: 17%
+source-wordcount: 542
+ht-degree: 14%
 
 ---
 
@@ -30,8 +25,8 @@ ht-degree: 17%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que este beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -88,9 +83,7 @@ Os Painéis do Canvas oferecem uma grande variedade de opções e configuraçõe
 
 1. Clique em **Novo Painel** no canto superior direito.
 
-1. Na caixa **Criar painel**,
-
-1. Especifique o seguinte:
+1. Na caixa **Criar painel**, especifique o seguinte:
 
    <table style="table-layout:auto">
     <col>
@@ -106,8 +99,9 @@ Os Painéis do Canvas oferecem uma grande variedade de opções e configuraçõe
      </tr>
       <tr>
       <td role="rowheader"><strong>Moeda</strong></td>
-      <td>Escolha o tipo de moeda padrão para o painel. <br>
-      <br>Os usuários podem alternar entre diferentes tipos de moeda ao filtrar o painel. Para obter mais informações, consulte <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrar um painel por tipo de moeda</a>.</td>
+      <td><p>Escolha o tipo de moeda padrão para o painel.</p>
+      <p>Você pode alternar entre diferentes tipos de moeda ao filtrar o painel. Para obter mais informações, consulte <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrar um painel por tipo de moeda</a>.</p>
+      <p><strong>Observação:</strong> se você tiver apenas uma moeda definida na instância do Workfront, não verá o campo Moeda ao criar um painel.</p></td>
      </tr>
     </tbody>
    </table>
