@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1002
+source-wordcount: 1001
 ht-degree: 3%
 
 ---
@@ -69,8 +69,8 @@ Você deve ter o seguinte acesso para usar o Workfront Planning:
    <tr>
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td>
    <td>
-   <p>Qualquer pacote do Workfront ou do Workflow Planning
-   e qualquer pacote do Workfront Planning</p>
+   <p>Qualquer pacote do Workfront ou Workflow
+   com qualquer pacote do Workfront Planning</p>
    <p><b>Nota</b></p>
    <p>Para acesso a tipos de registro conectáveis:</p>
    <ul><li><p>Qualquer pacote do Workfront e um pacote do Planning</p></li>

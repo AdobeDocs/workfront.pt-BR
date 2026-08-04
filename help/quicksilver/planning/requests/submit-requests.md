@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2551
+source-wordcount: 2547
 ht-degree: 1%
 
 ---
@@ -65,17 +65,26 @@ Para obter informações sobre como um gerenciador de espaço de trabalho pode c
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Pacotes Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer pacote do Workfront ou Workflow</p>
-<p>Qualquer pacote do Workfront Planning</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront.</p>
-   </td> </tr>
-  </tr> 
+<p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p> 
+Ou
+<p>Qualquer Workfront Planning quando adquirido como um produto independente</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p>Qualquer</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Qualquer</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
@@ -94,21 +103,21 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
 * Deve existir o seguinte no Workfront Planning:
 
-   * Um espaço de trabalho
-   * Um tipo de registro
-   * Um formulário de solicitação associado a um tipo de registro.
+  * Um espaço de trabalho
+  * Um tipo de registro
+  * Um formulário de solicitação associado a um tipo de registro.
 
-     Para obter informações, consulte [Criar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+    Para obter informações, consulte [Criar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 * O formulário de solicitação deve ser compartilhado de uma maneira que você possa acessá-lo. Existem os seguintes cenários:
 
-   * Internamente, o formulário deve ser compartilhado com usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
+  * Internamente, o formulário deve ser compartilhado com usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
 
-     Os usuários do Workfront podem acessar o formulário por meio de um link ou localizá-lo na área Solicitações do Workfront.
+    Os usuários do Workfront podem acessar o formulário por meio de um link ou localizá-lo na área Solicitações do Workfront.
 
-   * Externamente, compartilhando um link para o formulário de registro com pessoas externas que não têm uma conta do Workfront.
+  * Externamente, compartilhando um link para o formulário de registro com pessoas externas que não têm uma conta do Workfront.
 
-     Os usuários do Workfront também podem acessar o link compartilhado com pessoas externas.
+    Os usuários do Workfront também podem acessar o link compartilhado com pessoas externas.
 
 * Se compartilhado com um link, o link para o formulário não deve expirar.
 
@@ -121,9 +130,9 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
   Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 * Os registros criados enviando formulários de solicitação são conectados à solicitação original. Esta conexão não pode ser removida.
 * Você pode exibir os registros criados e as solicitações usadas para criá-los nas seguintes áreas:
-   * Área de solicitações no Workfront.
-   * Em um campo conectado de uma página do tipo de registro no Workfront Planning quando você adiciona a solicitação como um registro conectado.
-   * Em um campo conectado da área Detalhes de um registro no Workfront Planning quando você adiciona a solicitação como um registro conectado.
+  * Área de solicitações no Workfront.
+  * Em um campo conectado de uma página do tipo de registro no Workfront Planning quando você adiciona a solicitação como um registro conectado.
+  * Em um campo conectado da área Detalhes de um registro no Workfront Planning quando você adiciona a solicitação como um registro conectado.
 
   >[!TIP]
   >
@@ -188,12 +197,12 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
 
      Os campos a seguir exibem informações de solicitação e registro na área Solicitações e o widget Minhas solicitações na Página inicial:
 
-      * **Assunto**: o nome da solicitação original como adicionado na área Solicitações. Você não pode ocultar ou remover o campo **Assunto** da lista de solicitações. O nome tem um link que abre a página de solicitação no Planning.
-      * **Objeto criado**: o nome do registro que foi criado a partir da solicitação como ele é exibido no Planning. O nome do objeto criado tem um link que abre o registro criado a partir da solicitação.
-      * **Tipo de objeto**: o nome do espaço de trabalho e o tipo de registro em que foram criados registros a partir da solicitação no Planning.
-      * **Status**: o status do objeto de solicitação. Para obter mais informações sobre status de solicitação, consulte [Exibir solicitações enviadas](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-      * **Formulário de solicitação**: o nome do formulário de solicitação associado ao tipo de registro no Planning.
-      * **Status do objeto criado**: o status do registro criado.
+     * **Assunto**: o nome da solicitação original como adicionado na área Solicitações. Você não pode ocultar ou remover o campo **Assunto** da lista de solicitações. O nome tem um link que abre a página de solicitação no Planning.
+     * **Objeto criado**: o nome do registro que foi criado a partir da solicitação como ele é exibido no Planning. O nome do objeto criado tem um link que abre o registro criado a partir da solicitação.
+     * **Tipo de objeto**: o nome do espaço de trabalho e o tipo de registro em que foram criados registros a partir da solicitação no Planning.
+     * **Status**: o status do objeto de solicitação. Para obter mais informações sobre status de solicitação, consulte [Exibir solicitações enviadas](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
+     * **Formulário de solicitação**: o nome do formulário de solicitação associado ao tipo de registro no Planning.
+     * **Status do objeto criado**: o status do registro criado.
 
    * Se o formulário de solicitação foi associado a uma aprovação, a solicitação é adicionada à lista Solicitações na área Solicitações do Workfront e ao widget Minhas solicitações com o status **Revisão pendente**. Um novo registro é adicionado à página de tipo de registro somente após ser aprovado pelos aprovadores.
 

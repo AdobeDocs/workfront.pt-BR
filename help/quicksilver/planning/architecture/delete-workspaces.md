@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 459
 ht-degree: 6%
 
 ---
@@ -59,18 +59,27 @@ Recomendamos recriar alguns ou todos os tipos de registros, registros, campos e 
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
+<p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p> 
 Ou
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
-   </td> 
+<p>Qualquer Workfront Planning quando adquirido como um produto independente</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
-   </td> 
+   <td><p>Qualquer</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Qualquer</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões em um espaço de trabalho</p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
@@ -130,7 +139,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -165,7 +174,7 @@ Old:
 1. Para deletar um espaço de trabalho, siga um destes procedimentos:
 
    * Passe o mouse sobre o cartão de espaço de trabalho e clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do cartão
-Ou
+     Ou
    * Clique no ícone **pesquisar** ![ícone Pesquisar](assets/search-icon.png) no canto superior direito da página Espaços de Trabalho para procurar um espaço de trabalho por nome e clique em um cartão de espaço de trabalho para abrir o espaço de trabalho e, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do espaço de trabalho.
 
    >[!TIP]

@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 3939
+source-wordcount: 3973
 ht-degree: 2%
 
 ---
@@ -63,21 +63,36 @@ Para obter informações sobre como exportar a exibição de tabela para um arqu
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront e qualquer pacote do Planning</p>
-<p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
+Ou
+<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p> Padrão para criar e excluir visualizações</p>
-   <p>Colaborador ou superior para atualizar elementos de visualização</p>
+   <td><p>Fluxo de trabalho leve ou superior</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p> Planning Standard para criar e excluir visualizações</p>
+   <p>Colaborador do Planning ou superior para atualizar elementos de exibição</p>
+   <p><b>NOTA</b><p>
+   <p>Nem todos os clientes têm licenças do Planning Contributor</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para uma exibição</p>  
    <p>Exibir permissões de um modo de exibição para alterar temporariamente as configurações de modo de exibição ou duplicá-lo</p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -132,7 +147,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

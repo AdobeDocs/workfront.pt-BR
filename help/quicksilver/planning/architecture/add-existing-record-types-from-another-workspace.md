@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: 749
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ Antes de adicionar registros a um espaço de trabalho a partir de um tipo de reg
 <col> 
 </col> 
 <col> 
-</col> 
+</col>  
 <tbody> 
     <tr> 
 <tr> 
@@ -64,17 +64,27 @@ Antes de adicionar registros a um espaço de trabalho a partir de um tipo de reg
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
+<p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p> 
 Ou
-<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></p></li></ul>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
-   </td> 
+<p>Qualquer pacote de produto do Workfront Planning como independente</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
-   </td> 
+   <td><p>Workflow Standard</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões em um espaço de trabalho</p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
@@ -158,8 +168,8 @@ As seguintes situações ocorrem:
 
 * As seguintes informações também são adicionadas do tipo de registro global existente:
 
-   * Todos os campos originais
-   * Todas as conexões de registro
+  * Todos os campos originais
+  * Todas as conexões de registro
 * Não é possível exibir registros adicionados do espaço de trabalho original do tipo de registro do espaço de trabalho secundário.
 * Você pode exibir registros adicionados do espaço de trabalho original do tipo de registro nesse espaço de trabalho, somente no espaço de trabalho original, se tiver pelo menos permissões de Exibição para esse espaço de trabalho.
 * O campo somente leitura **Workspace** é adicionado à nova exibição de tabela do tipo de registro. O campo exibe o espaço de trabalho onde cada registro foi criado.

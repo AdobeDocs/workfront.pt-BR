@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: 114
-ht-degree: 32%
+source-wordcount: 126
+ht-degree: 33%
 
 ---
 
@@ -47,7 +47,9 @@ Esta seção contém os seguintes artigos:
 * [Desativar ou reativar um usuário](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
 * [Visão geral dos logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* [Exibir e exportar logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+* [Visualizar e exportar logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+* [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
+* [Configurar campos para rastrear no histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
 * [Exibir informações de logon do usuário](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Gerenciar usuários no Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
 * [Visão geral dos perfis empresariais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)

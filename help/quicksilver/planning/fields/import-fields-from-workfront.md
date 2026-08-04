@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: 622
 ht-degree: 10%
 
 ---
@@ -60,14 +60,26 @@ ht-degree: 10%
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront e qualquer pacote do Planning</p> <p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+<ul> 
+<li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
+Ou
+<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões em um espaço de trabalho</p>  
@@ -128,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -147,24 +159,24 @@ Old:
 * A importação de campos do Workfront cria cópias dos mesmos campos e preserva o nome do campo no Workfront Planning. Depois de copiados para o Workfront Planning, os campos são independentes dos campos originais do Workfront e não compartilham informações.
 <!--check this: * You do not need permissions or access to Workfront objects to be able to add their fields to Workfront Planning. -->
 * Você pode adicionar campos nativos ou personalizados a partir dos seguintes objetos do Workfront:
-   * Portfólio
-   * Programa
-   * Projeto
-   * Tarefa
-   * Problema
-   * Documento
-   * Empresa
-   * Grupo
-   * Usuário
-   * Função no trabalho
-   * Atribuição
-   * Hora
-   * Registro de cobrança
-     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
-   * Despesa
-   * Iteração
-     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
-     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
+  * Portfólio
+  * Programa
+  * Projeto
+  * Tarefa
+  * Problema
+  * Documento
+  * Empresa
+  * Grupo
+  * Usuário
+  * Função no trabalho
+  * Atribuição
+  * Hora
+  * Registro de cobrança
+    <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
+  * Despesa
+  * Iteração
+    <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+    <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Os campos do Workfront podem não preservar seu tipo de campo, após serem importados no Workfront Planning.
 
   A tabela abaixo mostra os tipos de campo do Workfront e seus tipos de campo correspondentes do Workfront Planning.
@@ -185,7 +197,7 @@ Old:
   | Botão de opção | Seleção múltipla |
 
   *Os campos calculados estarão disponíveis em uma data posterior.
-Todos os outros tipos de campo do Workfront não são suportados no Workfront Planning.
+  Todos os outros tipos de campo do Workfront não são suportados no Workfront Planning.
 
 
 ## Importar campos do Workfront

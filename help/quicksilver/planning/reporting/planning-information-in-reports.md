@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 23%
+source-wordcount: '255'
+ht-degree: 22%
 
 ---
 
@@ -19,11 +19,12 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa.O beta não está disponível nos seguintes provedores de nuvem:
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa.
+>O beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
->* Google Cloud PlatformPara obter mais informações, consulte [Gerenciar painéis da tela: índice do artigo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
+>* Google Cloud Platform> Para obter mais informações, consulte [Gerenciar painéis da tela: índice do artigo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
 
 ## Requisitos de acesso
 
@@ -38,24 +39,33 @@ ht-degree: 23%
 <tr> 
    <td role="rowheader"><p>Pacotes Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer pacote do Workfront ou Workflow</p>
-<p>Qualquer pacote do Planning</p>
+<p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p>
+<p><b>NOTA</b></p>
+<p>Os relatórios não estão disponíveis para clientes que compraram o Workfront Planning como um produto independente</p>
    </td> </tr>
 
 </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p> 
+   <td><p>Workflow Standard</p> 
   </td> 
   </tr>
-   <tr> 
+ <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p> 
+  </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Configurações de nível de acesso</p></td> 
    <td><p>Editar acesso a relatórios, painéis e calendários</p>
   </td> 
   </tr>  
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td><p>Exibir permissões para um espaço de trabalho</a> </p>  
+   <td>
+   <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+   <p>Exibir permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  
    </td> 
   </tr>  

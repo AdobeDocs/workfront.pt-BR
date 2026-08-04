@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 555
-ht-degree: 7%
+source-wordcount: 588
+ht-degree: 6%
 
 ---
 
@@ -59,13 +59,26 @@ O painel direito de um registro exibe as seguintes seções:
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront e qualquer pacote do Planning</p> <p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+<p>Qualquer Workfront ou Fluxo de trabalho e um pacote do Planning</p> 
+Ou
+<p>Qualquer pacote do Planning quando adquirido como um produto independente</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Colaborador ou posterior</p>
+   <td><p>Fluxo de trabalho leve ou superior</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Colaborador do Planning ou superior</p>
+   <p><b>NOTA</b></p>
+   <p>Nem todos os clientes têm uma licença de Colaborador do Planning</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
@@ -128,7 +141,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -172,29 +185,29 @@ Você pode revisar as alterações feitas nos campos de registro na seção Hist
 
 * O Workfront Planning registra as seguintes informações na seção Histórico:
 
-   * Quaisquer alterações de campo
+  * Quaisquer alterações de campo
 
-   * Os valores antigos e novos dos campos, quando os valores são alterados. Os valores antigos são exibidos em formato tachado.
+  * Os valores antigos e novos dos campos, quando os valores são alterados. Os valores antigos são exibidos em formato tachado.
 
-   * O nome completo do usuário que fez a alteração
+  * O nome completo do usuário que fez a alteração
 
-   * Uma data e carimbo de data e hora de quando a alteração ocorreu.
+  * Uma data e carimbo de data e hora de quando a alteração ocorreu.
 
 * Os campos dos seguintes tipos sempre exibem o valor antigo (em formato tachado) e o novo valor:
 
-   * Texto
-   * Parágrafo
-   * Moeda
-   * Data
-   * Número
-   * Porcentagem
-   * Seleção única
+  * Texto
+  * Parágrafo
+  * Moeda
+  * Data
+  * Número
+  * Porcentagem
+  * Seleção única
 
 * Os campos dos seguintes tipos mostram o valor antigo no formato tachado somente se pelo menos um dos valores múltiplos tiver sido removido:
 
-   * Seleção múltipla
-   * Campos de registro vinculados
-   * People
+  * Seleção múltipla
+  * Campos de registro vinculados
+  * People
 
   Se a alteração adicionar apenas valores ao campo, o valor antigo não será exibido e somente o novo valor do campo será exibido.
 
@@ -204,11 +217,11 @@ Você pode revisar as alterações feitas nos campos de registro na seção Hist
 
 * As alterações nos campos dos seguintes tipos não são exibidas na seção History:
 
-   * Campos vinculados (pesquisa)
-   * Fórmula
-   * Criado por
-   * Criado na data
-   * Última modificação por
-   * Data da última modificação
+  * Campos vinculados (pesquisa)
+  * Fórmula
+  * Criado por
+  * Criado na data
+  * Última modificação por
+  * Data da última modificação
 
 * Se um campo for removido do sistema, as atualizações feitas nesse campo permanecerão na seção Histórico. Não há nenhuma indicação de que o campo foi removido na seção Histórico de um registro.

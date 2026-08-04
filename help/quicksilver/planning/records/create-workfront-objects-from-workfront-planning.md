@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1330
+source-wordcount: 1340
 ht-degree: 4%
 
 ---
@@ -102,19 +102,24 @@ Para obter informações sobre como conectar registros do Planning a objetos do 
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront e qualquer pacote do Planning</p> <p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
-   </td>
-
-<tr> 
+<ul> 
+<li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
+Ou
+<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
+   </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p> 
    <p>Edite o acesso com acesso para Criar objetos no Workfront para os tipos de objeto que você deseja criar (projetos, portfólios, programas). </p>  
 </td> 
   </tr> 
@@ -181,7 +186,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access with access to Create objects in Workfront for the object types that you want to create (projects, portfolios, programs). </p>  
 </td> 
   </tr> 

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2948
+source-wordcount: 2968
 ht-degree: 2%
 
 ---
@@ -60,20 +60,28 @@ Para obter informações sobre como enviar uma solicitação a um tipo de regist
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Pacotes Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer pacote do Workfront e qualquer pacote do Planning</p>
+<ul> 
+<li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
 Ou
-<p>Qualquer pacote de fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront.</p>
+<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p> 
-  </td> 
+   <td><p>Workflow Standard</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para um espaço de trabalho ou tipo de registro</a> </p>  
@@ -94,27 +102,27 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
 * Veja a seguir as limitações de como determinados campos são exibidos em formulários de solicitação, registros criados por um formulário de solicitação ou na página de detalhes da solicitação:
 
-   * Não é possível adicionar campos dos seguintes tipos a um formulário de solicitação:
+  * Não é possível adicionar campos dos seguintes tipos a um formulário de solicitação:
 
-      * Criado por, Última modificação por, Aprovado por
-      * Data de criação, Data da última modificação, Data de aprovação
-      * ID do registro
-      * Campos de pesquisa de objetos do Workfront
-      * Campos de pesquisa de registros conectados do Workfront Planning
+    * Criado por, Última modificação por, Aprovado por
+    * Data de criação, Data da última modificação, Data de aprovação
+    * ID do registro
+    * Campos de pesquisa de objetos do Workfront
+    * Campos de pesquisa de registros conectados do Workfront Planning
 
 * Veja a seguir as diferenças entre como os formatos de campo são exibidos no construtor de formulários de solicitação e como os valores dos campos são formatados no registro ou na página de detalhes da solicitação:
 
-   * Os campos Moeda, Número e Porcentagem são exibidos como um tipo de campo de texto de linha única no construtor de formulários.
+  * Os campos Moeda, Número e Porcentagem são exibidos como um tipo de campo de texto de linha única no construtor de formulários.
 
-     No entanto, o formato do campo é preservado e os valores do campo serão exibidos como moeda, números e percentuais após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
+    No entanto, o formato do campo é preservado e os valores do campo serão exibidos como moeda, números e percentuais após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
 
 * A seguir, descrevemos como alguns valores de campo são exibidos nos formulários de solicitação e nas páginas de detalhes da solicitação:
 
-   * A formatação especial dos campos Moeda, Número e Porcentagem não é preservada. Por exemplo, a precisão decimal não é preservada para os valores desses campos nessas áreas.
-   * Os valores do campo Pessoas são exibidos como IDs.
-   * Os campos de fórmula que não se referem a outros campos ou cálculos não exibem valores. Por exemplo, um campo com uma fórmula `STRING` exibe um valor &quot;N/A&quot;.
-   * Os campos de fórmula que se referem aos campos Moeda exibem os valores sem contabilizar taxas de câmbio.
-   * Os valores dos campos de parágrafo exibem um valor &quot;N/A&quot; no formulário de solicitação e exibem tags html em vez do texto formatado na página de detalhes da solicitação.
+  * A formatação especial dos campos Moeda, Número e Porcentagem não é preservada. Por exemplo, a precisão decimal não é preservada para os valores desses campos nessas áreas.
+  * Os valores do campo Pessoas são exibidos como IDs.
+  * Os campos de fórmula que não se referem a outros campos ou cálculos não exibem valores. Por exemplo, um campo com uma fórmula `STRING` exibe um valor &quot;N/A&quot;.
+  * Os campos de fórmula que se referem aos campos Moeda exibem os valores sem contabilizar taxas de câmbio.
+  * Os valores dos campos de parágrafo exibem um valor &quot;N/A&quot; no formulário de solicitação e exibem tags html em vez do texto formatado na página de detalhes da solicitação.
 
 ## Criar um formulário de solicitação
 

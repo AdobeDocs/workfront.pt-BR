@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1758
+source-wordcount: 1780
 ht-degree: 4%
 
 ---
@@ -67,15 +67,27 @@ Para obter informações sobre como criar registros ou objetos usando uma automa
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront e qualquer pacote do Planning</p> <p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
-   </td> 
+<p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p> 
+Ou
+<p>Qualquer pacote do Planning quando adquirido como um pacote independente</p>
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
-   <p>O administrador do sistema terá acesso para configurar automações com base na alteração do valor do campo</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
+   <p>O administrador do sistema terá acesso para configurar automações com base na alteração do valor do campo</p>
+   </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td> <p>Gerencie permissões para o espaço de trabalho e para o tipo de registro em que deseja criar automações. </p>
@@ -136,7 +148,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access with access to Create objects in Workfront for the object types that you want to create (projects, portfolios, programs). </p>  
 </td> 
   </tr> 
@@ -175,8 +187,8 @@ A página de detalhes da automação é aberta.
 
    * **Acionador**: selecione uma ação que acionará a automação:
 
-      * Clique no botão
-      * Alteração do valor do campo
+     * Clique no botão
+     * Alteração do valor do campo
 
 1. (Condicional) Se você selecionou **Botão clicar**, vá para a etapa 9 abaixo que descreve a área **Ações**. <!--ensure this number stays accurate-->
 
@@ -206,15 +218,15 @@ A página de detalhes da automação é aberta.
 
 1. Atualizar os seguintes campos na seção **Ações**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Ações**: selecione a ação que você deseja que o Workfront execute ao acionar a automação. Este campo é obrigatório.
-Selecione uma das seguintes ações:
+     Selecione uma das seguintes ações:
 
-      * Criar vários projetos
-      * Criar um projeto único
-      * Criar projeto
-      * Criar registro
-      * Criar programa
-      * Criar portfólio
-      * Criar grupo
+     * Criar vários projetos
+     * Criar um projeto único
+     * Criar projeto
+     * Criar registro
+     * Criar programa
+     * Criar portfólio
+     * Criar grupo
 
      >[!TIP]
      >
@@ -223,52 +235,52 @@ Selecione uma das seguintes ações:
 1. (Condicional) Dependendo da ação selecionada, atualize os seguintes campos:
 
    * **Criar um único projeto**: <!--replace to the left: Create a single project-->
-      * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
-      * **Modelo de projeto**: selecione um modelo de projeto que a Workfront usará para criar o projeto.
+     * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
+     * **Modelo de projeto**: selecione um modelo de projeto que a Workfront usará para criar o projeto.
 
    * **Criar vários projetos**:
-      * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
-      * **Campo cujas opções criarão os registros**: escolha um campo de seleção única ou múltipla do tipo de registro selecionado. O Workfront cria um projeto para cada opção de campo atualmente selecionada no registro de onde você aciona a automação.
+     * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
+     * **Campo cujas opções criarão os registros**: escolha um campo de seleção única ou múltipla do tipo de registro selecionado. O Workfront cria um projeto para cada opção de campo atualmente selecionada no registro de onde você aciona a automação.
 
      >[!TIP]
      >
      >Um projeto é criado apenas para as opções atualmente selecionadas no campo de seleção múltipla ou única do registro a partir do qual você está executando a automação, e não para todas as opções possíveis para esse campo.
      >
 
-      * **Usar o mesmo modelo**: selecione esta opção para usar o mesmo modelo para cada novo projeto. Se a opção estiver desmarcada, selecione um **Modelo de projeto** para cada escolha de campo.
-      * **Modelo de projeto**: se você selecionou a opção **Usar o mesmo modelo**, selecione um modelo de projeto que a Workfront usará para criar os projetos.
+     * **Usar o mesmo modelo**: selecione esta opção para usar o mesmo modelo para cada novo projeto. Se a opção estiver desmarcada, selecione um **Modelo de projeto** para cada escolha de campo.
+     * **Modelo de projeto**: se você selecionou a opção **Usar o mesmo modelo**, selecione um modelo de projeto que a Workfront usará para criar os projetos.
 
    * **Criar portfólio**:
-      * **Campo conectado onde o portfólio é criado**: este é o campo conectado onde o novo portfólio será exibido. Este campo é obrigatório.
-      * **Formulário personalizado para anexar ao novo portfólio**: selecione um formulário personalizado para anexar ao novo portfólio. Você deve criar um formulário personalizado do portfólio antes de selecioná-lo.
+     * **Campo conectado onde o portfólio é criado**: este é o campo conectado onde o novo portfólio será exibido. Este campo é obrigatório.
+     * **Formulário personalizado para anexar ao novo portfólio**: selecione um formulário personalizado para anexar ao novo portfólio. Você deve criar um formulário personalizado do portfólio antes de selecioná-lo.
    * **Criar programa**:
-      * **Campo conectado onde o programa é criado**: este é o campo conectado onde o novo programa será exibido. Este campo é obrigatório.
-      * **Portfólio de programas**: selecione um portfólio onde o novo programa será adicionado. Este campo é obrigatório.
-      * **Formulário personalizado para anexar ao novo programa**: selecione um formulário personalizado para anexar ao novo programa. Você deve criar um formulário personalizado de programa antes de selecioná-lo.
+     * **Campo conectado onde o programa é criado**: este é o campo conectado onde o novo programa será exibido. Este campo é obrigatório.
+     * **Portfólio de programas**: selecione um portfólio onde o novo programa será adicionado. Este campo é obrigatório.
+     * **Formulário personalizado para anexar ao novo programa**: selecione um formulário personalizado para anexar ao novo programa. Você deve criar um formulário personalizado de programa antes de selecioná-lo.
    * **Criar grupo**:
-      * **Campo conectado onde o grupo é criado**: este é o campo conectado onde o novo grupo será exibido. Este campo é obrigatório.
-      * **Formulário personalizado para anexar ao novo grupo**: selecione um formulário personalizado para anexar ao novo programa. Você deve criar um formulário personalizado de programa antes de selecioná-lo.
+     * **Campo conectado onde o grupo é criado**: este é o campo conectado onde o novo grupo será exibido. Este campo é obrigatório.
+     * **Formulário personalizado para anexar ao novo grupo**: selecione um formulário personalizado para anexar ao novo programa. Você deve criar um formulário personalizado de programa antes de selecioná-lo.
    * **Criar registro**:
-      * **Tipo de registro**: selecione o tipo de registro que deseja criar.
+     * **Tipo de registro**: selecione o tipo de registro que deseja criar.
 
-        A subseção **Settings** é exibida. Atualize os seguintes campos na subseção **Configurações**:
+       A subseção **Settings** é exibida. Atualize os seguintes campos na subseção **Configurações**:
 
-         * **Campo no tipo de registro conectado onde o registro atual será exibido**: este é o campo conectado no tipo de registro selecionado para a ação onde o registro atual será exibido.
+       * **Campo no tipo de registro conectado onde o registro atual será exibido**: este é o campo conectado no tipo de registro selecionado para a ação onde o registro atual será exibido.
 
-        Por exemplo, se estiver criando uma automação para que as campanhas conectem registros de Produto do, esse será o campo conectado no tipo de registro de Produto em que as campanhas serão exibidas, depois que os produtos forem criados usando a automação.
+       Por exemplo, se estiver criando uma automação para que as campanhas conectem registros de Produto do, esse será o campo conectado no tipo de registro de Produto em que as campanhas serão exibidas, depois que os produtos forem criados usando a automação.
 
-        Este campo é obrigatório.
+       Este campo é obrigatório.
 
-        <!--submitted a change in functionality and UI text for this - revise??-->
-Na área **Mapear campos**, atualize as seguintes informações:
+       <!--submitted a change in functionality and UI text for this - revise??-->
+                                                                                 Na área **Mapear campos**, atualize as seguintes informações:
 
-         * **Transferir de**: selecione campos do tipo de registro para o qual a automação é criada para mapeá-los para os campos do tipo de registro conectado.
-         * **Transferir para**: selecione campos do registro recém-criado que serão preenchidos com informações do registro a partir do qual você está executando a automação.
+       * **Transferir de**: selecione campos do tipo de registro para o qual a automação é criada para mapeá-los para os campos do tipo de registro conectado.
+       * **Transferir para**: selecione campos do registro recém-criado que serão preenchidos com informações do registro a partir do qual você está executando a automação.
 
-        >[!TIP]
-        >
-        >* Os tipos de campo do tipo de registro original devem corresponder aos tipos de campo do tipo de registro recém-criado.
-        >* Se você não escolher nenhum campo, os nomes dos novos registros serão **Registro sem título**.
+       >[!TIP]
+       >
+       >* Os tipos de campo do tipo de registro original devem corresponder aos tipos de campo do tipo de registro recém-criado.
+       >* Se você não escolher nenhum campo, os nomes dos novos registros serão **Registro sem título**.
 
 1. (Opcional e condicional) Se você optou por criar um registro, clique em **Adicionar campos** para mapear campos de pesquisa adicionais de um registro para outro.
 1. (Condicional) Se não houver campos de conexão entre o tipo de registro original e o tipo de registro selecionado no campo **Tipo de registro**, clique em **Adicionar campo conectado**.
@@ -282,8 +294,8 @@ Na área **Mapear campos**, atualize as seguintes informações:
 
      Por exemplo, se você estiver configurando uma automação para que o Campaigns crie automaticamente outro tipo de registro chamado Marcas e clicar em **Adicionar campo conectado**, os seguintes campos serão criados:
 
-      * O campo de conexão **Registro conectado** foi criado para o tipo de registro **Marcas**.
-      * O campo de conexão **Marcas** é criado para o tipo de registro **Campanhas**.
+     * O campo de conexão **Registro conectado** foi criado para o tipo de registro **Marcas**.
+     * O campo de conexão **Marcas** é criado para o tipo de registro **Campanhas**.
 
 1. (Opcional) Se não houver campos de conexão entre o tipo de registro original e o objeto do Workfront selecionado na área Ações, clique em **Adicionar campo conectado**.
 
@@ -319,8 +331,8 @@ Na área **Mapear campos**, atualize as seguintes informações:
 
    * Em uma automação clicada com o botão, clique em **Editar** para atualizar as seguintes informações:
 
-      * O nome da automação, clicando no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da automação e em **Editar**.
-      * Qualquer campo na automação, exceto o campo **Ações**.
+     * O nome da automação, clicando no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da automação e em **Editar**.
+     * Qualquer campo na automação, exceto o campo **Ações**.
 
      >[!TIP]
      >

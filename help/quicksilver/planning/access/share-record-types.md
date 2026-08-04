@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1485'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Você pode compartilhar um tipo de registro com outras pessoas para garantir a c
 >[!IMPORTANT]
 >
 >Os usuários com acesso a um espaço de trabalho obtêm automaticamente pelo menos permissões de Exibição para todos os tipos de registros no espaço de trabalho.
->O compartilhamento de visualizações não fornece aos usuários permissões para tipos de registro. Somente espaços de trabalho de compartilhamento podem conceder aos usuários permissões para tipos de registro.
+>O compartilhamento de exibições não dá aos usuários permissões para tipos de registro. Somente espaços de trabalho de compartilhamento podem conceder aos usuários permissões para tipos de registro.
 >
 >* Para obter informações gerais sobre o compartilhamento de objetos no Workfront Planning, consulte também [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Para obter mais informações, consulte a seção [Considerações ao compartilhar tipos de registro](#considerations-when-sharing-record-types) neste artigo.
@@ -59,13 +59,22 @@ Você pode compartilhar um tipo de registro com outras pessoas para garantir a c
 <p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p> 
 Ou
 <p>Qualquer pacote de produto do Workfront Planning como independente</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p>Qualquer</p> 
   </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Qualquer</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>  <p>Gerenciar permissões para um espaço de trabalho e um tipo de registro</p>  
@@ -129,7 +138,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -154,17 +163,17 @@ Old:
 
 * Atualmente, é possível fazer o seguinte ao compartilhar tipos de registro:
 
-   * Conceda permissões de Exibição a pessoas para um espaço de trabalho, quando você compartilhar um tipo de registro com elas pela primeira vez e elas não tiverem permissões para o espaço de trabalho.
+  * Conceda permissões de Exibição a pessoas para um espaço de trabalho, quando você compartilhar um tipo de registro com elas pela primeira vez e elas não tiverem permissões para o espaço de trabalho.
 
-     Isso também dá a eles permissões de Exibição para todos os tipos de registros no espaço de trabalho.
+    Isso também dá a eles permissões de Exibição para todos os tipos de registros no espaço de trabalho.
 
-     À medida que você dá a eles permissões para o tipo de registro, há uma indicação na caixa de compartilhamento de que eles também são adicionados ao espaço de trabalho.
-   * Tornar o tipo de registro somente para visualização para todos no espaço de trabalho (exceto para gerenciadores de espaço de trabalho), ao desativar as Permissões herdadas.
+    À medida que você dá a eles permissões para o tipo de registro, há uma indicação na caixa de compartilhamento de que eles também são adicionados ao espaço de trabalho.
+  * Tornar o tipo de registro somente para visualização para todos no espaço de trabalho (exceto para gerenciadores de espaço de trabalho), ao desativar as Permissões herdadas.
 
-     As pessoas com permissões Gerenciar no espaço de trabalho sempre têm permissões Gerenciar nos tipos de registro, mesmo quando você desativa Permissões herdadas no tipo de registro.
-   * Diminua a permissão das pessoas para um tipo de registro. Não é possível aumentar a permissão de alguém para um tipo de registro a partir do que ele tem no espaço de trabalho.
+    As pessoas com permissões Gerenciar no espaço de trabalho sempre têm permissões Gerenciar nos tipos de registro, mesmo quando você desativa Permissões herdadas no tipo de registro.
+  * Diminua a permissão das pessoas para um tipo de registro. Não é possível aumentar a permissão de alguém para um tipo de registro a partir do que ele tem no espaço de trabalho.
 
-     Por exemplo, se alguém tiver permissão do Contribute para o espaço de trabalho, você poderá alterar a permissão para um tipo de registro específico para Exibir. No entanto, se eles tiverem a permissão Exibir para o espaço de trabalho, você não poderá conceder a eles a permissão Contribute para qualquer tipo de registro.
+    Por exemplo, se alguém tiver permissão do Contribute para o espaço de trabalho, você poderá alterar a permissão para um tipo de registro específico para Exibir. No entanto, se eles tiverem a permissão Exibir para o espaço de trabalho, você não poderá conceder a eles a permissão Contribute para qualquer tipo de registro.
 
 * Não é possível remover o acesso a um tipo de registro para pessoas no espaço de trabalho. Todos os usuários sempre têm pelo menos a permissão Exibir para todos os tipos de registro se tiverem pelo menos as permissões Exibir para o espaço de trabalho.
 
@@ -238,7 +247,7 @@ Old:
 1. Clique em **Salvar**.
 
    O tipo de registro agora é compartilhado com outros usuários.
-Os usuários com os quais você compartilhou o tipo de registro recebem uma notificação no aplicativo e por email sobre a concessão de permissões para as seguintes entidades:
+   Os usuários com os quais você compartilhou o tipo de registro recebem uma notificação no aplicativo e por email sobre a concessão de permissões para as seguintes entidades:
 
    * O tipo de registro
    * O espaço de trabalho, se eles não tiverem tido permissões para o espaço de trabalho antes que o tipo de registro fosse compartilhado com eles.

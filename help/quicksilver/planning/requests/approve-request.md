@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 999
-ht-degree: 5%
+source-wordcount: 1016
+ht-degree: 6%
 
 ---
 
@@ -52,18 +52,6 @@ Recomendamos que você também veja os seguintes artigos:
 * [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md)
 * [Adicionar uma aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## Considerações sobre a aprovação de solicitações
-
-* As solicitações enviadas são exibidas na área Solicitações do Workfront com um dos seguintes status de solicitação:
-
-   * **Revisão pendente**: este status é mostrado quando nenhum dos aprovadores abriu o objeto de solicitação.
-   * **Em revisão**: o status de **Revisão pendente** muda para **Em revisão** quando pelo menos um aprovador abre o objeto de solicitação. O status da solicitação permanece **Em revisão** até que todos os aprovadores aprovem a solicitação.
-   * **Aprovado**: quando um aprovador aprova o objeto de solicitação, seu status individual torna-se **Aprovado**, mas o status geral do objeto de solicitação permanece **Em revisão** até que todos os aprovadores tenham tomado suas decisões. Quando todos os aprovadores aprovam uma solicitação, o status da solicitação se torna **Aprovado**.
-   * **Concluído**: se todos os aprovadores aprovarem o objeto de solicitação, seu status será alterado para **Concluído** ou se a solicitação não precisar de aprovação.
-   * **Rejeitada**: se qualquer aprovador rejeitar o objeto de solicitação, o status será **Rejeitada**. Nenhum registro é criado e uma nova solicitação deve ser enviada para criar o registro.
-
-* Você pode exibir informações de aprovação em um registro criado submetendo um formulário de solicitação nos campos Aprovado por e Data de aprovação. Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
-
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
@@ -75,19 +63,26 @@ Recomendamos que você também veja os seguintes artigos:
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Pacotes Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer pacote do Workfront e qualquer pacote do Planning</p>
+<p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p> 
 Ou
-<p>Qualquer pacote de fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront.</p>
-   </td> </tr>
-
-</tr> 
+<p>Qualquer Workfront Planning quando adquirido como um produto independente</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p>Qualquer</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Qualquer</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
@@ -100,6 +95,18 @@ Ou
 Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Considerações sobre a aprovação de solicitações
+
+* As solicitações enviadas são exibidas na área Solicitações do Workfront com um dos seguintes status de solicitação:
+
+  * **Revisão pendente**: este status é mostrado quando nenhum dos aprovadores abriu o objeto de solicitação.
+  * **Em revisão**: o status de **Revisão pendente** muda para **Em revisão** quando pelo menos um aprovador abre o objeto de solicitação. O status da solicitação permanece **Em revisão** até que todos os aprovadores aprovem a solicitação.
+  * **Aprovado**: quando um aprovador aprova o objeto de solicitação, seu status individual torna-se **Aprovado**, mas o status geral do objeto de solicitação permanece **Em revisão** até que todos os aprovadores tenham tomado suas decisões. Quando todos os aprovadores aprovam uma solicitação, o status da solicitação se torna **Aprovado**.
+  * **Concluído**: se todos os aprovadores aprovarem o objeto de solicitação, seu status será alterado para **Concluído** ou se a solicitação não precisar de aprovação.
+  * **Rejeitada**: se qualquer aprovador rejeitar o objeto de solicitação, o status será **Rejeitada**. Nenhum registro é criado e uma nova solicitação deve ser enviada para criar o registro.
+
+* Você pode exibir informações de aprovação em um registro criado submetendo um formulário de solicitação nos campos Aprovado por e Data de aprovação. Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Aprovar uma solicitação do Planning para criar um registro
 

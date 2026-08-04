@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: 1279
 ht-degree: 3%
 
 ---
@@ -60,16 +60,28 @@ Para obter informações gerais sobre espaços de trabalho, consulte [Visão ger
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer pacote do Workfront ou Workflow</p> 
-<p>Qualquer pacote do Workfront Planning</p>
+<p>Qualquer pacote do Workfront ou Workflow com um pacote do Planning</p> 
+<p>Qualquer pacote do Planning quando adquirido como produto independente</p>
+
+<p><b>NOTA</b></p>
 <p>Um pacote do Workfront Planning Prime ou superior para criar vários espaços de trabalho de uma vez</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
-   </td> 
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
    <p>Administrador do sistema para criar vários espaços de trabalho de uma só vez usando o conjunto de modelos de práticas recomendadas</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
@@ -131,7 +143,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -261,35 +273,35 @@ Os modelos incluídos no pacote contêm espaços de trabalho, tipos de registro,
 
    * Clique em **Criar espaço de trabalho** e siga estas etapas:
 
-      1. A caixa Criar espaço de trabalho é exibida. Você pode criar um espaço de trabalho do zero ou criá-lo usando um dos modelos disponíveis.
+     1. A caixa Criar espaço de trabalho é exibida. Você pode criar um espaço de trabalho do zero ou criá-lo usando um dos modelos disponíveis.
 
-      1. Clique em **Revisar configuração do espaço de trabalho** na área **Iniciar aqui (Recomendado)**.
-      1. (Opcional) Clique em **Visualizar** dentro de qualquer um dos seguintes modelos de espaço de trabalho predefinidos para abrir a caixa Visualizar para cada modelo:
+     1. Clique em **Revisar configuração do espaço de trabalho** na área **Iniciar aqui (Recomendado)**.
+     1. (Opcional) Clique em **Visualizar** dentro de qualquer um dos seguintes modelos de espaço de trabalho predefinidos para abrir a caixa Visualizar para cada modelo:
 
-         * 1.Classificações e taxonomias globais
+        * 1.Classificações e taxonomias globais
 
-           O modelo de Classificações e Taxonomias Globais inclui todos os tipos de registro e campos recomendados que você crie em seu ambiente para uma implementação bem-sucedida do Workfront Planning.
+          O modelo de Classificações e Taxonomias Globais inclui todos os tipos de registro e campos recomendados que você crie em seu ambiente para uma implementação bem-sucedida do Workfront Planning.
 
-           Posteriormente, você poderá vincular ou importar os tipos de registro nesse modelo em outros espaços de trabalho criados.
-         * 2.Fréscopa Marketing Global
-         * 3.Fréscopa Marketing Social
-         * 4.Fréscopa Mídia e RP
-         * 5.Eventos globais da Fréscopa
-         * 6.Fréscopa Liderança da Empresa Executiva
+          Posteriormente, você poderá vincular ou importar os tipos de registro nesse modelo em outros espaços de trabalho criados.
+        * 2.Fréscopa Marketing Global
+        * 3.Fréscopa Marketing Social
+        * 4.Fréscopa Mídia e RP
+        * 5.Eventos globais da Fréscopa
+        * 6.Fréscopa Liderança da Empresa Executiva
 
-      1. Depois de abrir a caixa **Visualizar** para cada modelo de espaço de trabalho, clique em **Voltar** para voltar à caixa **Criar espaço de trabalho** ou clique em **Usar modelos** para usar os modelos, incluindo no pacote, e criar espaços de trabalho.
+     1. Depois de abrir a caixa **Visualizar** para cada modelo de espaço de trabalho, clique em **Voltar** para voltar à caixa **Criar espaço de trabalho** ou clique em **Usar modelos** para usar os modelos, incluindo no pacote, e criar espaços de trabalho.
 
 
    * Clique na guia **Espaços de trabalho de amostra** e siga estas etapas:
 
-      1. Clique em um dos modelos de espaço de trabalho na guia para revisar os tipos de registro e os campos em cada modelo. Os modelos na guia **Espaços de trabalho de amostra** são somente leitura.
-      1. Clique em **Criar a partir de modelos** no canto superior direito de um modelo.
-      1. (Opcional) Clique em **Visualizar** em qualquer modelo para exibir os tipos de registro e seus campos.
+     1. Clique em um dos modelos de espaço de trabalho na guia para revisar os tipos de registro e os campos em cada modelo. Os modelos na guia **Espaços de trabalho de amostra** são somente leitura.
+     1. Clique em **Criar a partir de modelos** no canto superior direito de um modelo.
+     1. (Opcional) Clique em **Visualizar** em qualquer modelo para exibir os tipos de registro e seus campos.
 
-         >[!TIP]
-         >
-         >Clicar em um cartão de tipo de registro em um modelo exibe os campos do tipo de registro no painel direito.
-      1. Clique em **Usar modelos**.
+        >[!TIP]
+        >
+        >Clicar em um cartão de tipo de registro em um modelo exibe os campos do tipo de registro no painel direito.
+     1. Clique em **Usar modelos**.
 
    Os 6 espaços de trabalho são criados e exibidos nas guias **Espaços de trabalho em que estou** e **Todos os espaços de trabalho** para administradores do sistema. Todos os usuários com licenças Padrão verão os espaços de trabalho em sua área Espaços de trabalho depois que um Administrador do sistema criá-los e compartilhá-los com eles.
 

@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: 1616
 ht-degree: 3%
 
 ---
@@ -53,18 +53,18 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
 
 * Dependendo do tipo de objeto ou de registro exibido na página de registros conectados, você poderá exibi-los usando as seguintes views:
 
-   * Você pode exibir registros conectados do Planning nos seguintes tipos de exibições:
-      * Tabela
-      * Linha do tempo
-      * Calendário
-   * Você pode exibir projetos conectados do Workfront em uma visualização de lista.
+  * Você pode exibir registros conectados do Planning nos seguintes tipos de exibições:
+    * Tabela
+    * Linha do tempo
+    * Calendário
+  * Você pode exibir projetos conectados do Workfront em uma visualização de lista.
 
 * Você pode adicionar páginas Registros conectados para os seguintes tipos de registro ou objeto conectados:
 
-   * Tipos de registro do Workfront Planning
-   * Projetos Workfront
+  * Tipos de registro do Workfront Planning
+  * Projetos Workfront
 
-     Você pode visualizar os projetos conectados do Workfront mesmo quando não tem permissões para acessá-los no Workfront.
+    Você pode visualizar os projetos conectados do Workfront mesmo quando não tem permissões para acessá-los no Workfront.
 
 ## Requisitos de acesso
 
@@ -82,10 +82,10 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront e qualquer pacote do Planning</p>
-<p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
-   </td> 
+<p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p>
+Ou
+<p>Qualquer pacote do Planning quando adquirido como um produto independente</p>
+</td> 
 <tr>
 <td> 
    <p> Produtos adicionais</p> </td> 
@@ -95,13 +95,25 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
    <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
-   </td> 
-  </tr>
 
-<tr> 
-   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
+<p><b>NOTA</b></p>
+   Se você comprou um pacote do Planning como um produto independente, também deverá comprar um pacote do Workflow para conectar tipos de registro do Planning a tipos de objeto do Workfront</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
   </tr> 
   <tr>
    <td role="rowheader"><p>Permissões de objeto</p></td>
@@ -161,9 +173,9 @@ Você deve primeiro conectar tipos de registro a outros tipos de registro ou pro
 1. (Condicional) Dependendo do tipo de registro exibido na página de registro conectado, siga um destes procedimentos:
 
    * Gerenciar registros do Planning
-Para obter informações, consulte a seção [Gerenciar a página de registros conectados dos registros do Planning](#manage-the-connected-records-page-for-planning-records) neste artigo.
+     Para obter informações, consulte a seção [Gerenciar a página de registros conectados dos registros do Planning](#manage-the-connected-records-page-for-planning-records) neste artigo.
    * Gerenciar projetos do Workfront
-Para obter informações, consulte a seção [Gerenciar a página de registros conectados de projetos do Workfront](#manage-the-connected-records-page-for-workfront-projects) neste artigo.
+     Para obter informações, consulte a seção [Gerenciar a página de registros conectados de projetos do Workfront](#manage-the-connected-records-page-for-workfront-projects) neste artigo.
 
 1. (Opcional) Clique duas vezes no nome da guia **Página de registros conectados**
 
@@ -283,16 +295,16 @@ Os registros conectados ao registro selecionado são exibidos na exibição de t
    1. Na área **Tipo de exibição**, selecione um dos seguintes tipos de exibições:
 
       * Tabela
-Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md)
+        Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md)
       * Linha do tempo
-Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+        Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
       * Calendário
-Para obter informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+        Para obter informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
         Para obter mais informações, consulte a seção [Gerenciar várias exibições da página de registros conectados](#manage-multiple-views-from-the-connected-records-page) neste artigo.
 
    1. Clique em **Criar**.
-Uma nova exibição é adicionada ao menu suspenso de exibições.
+      Uma nova exibição é adicionada ao menu suspenso de exibições.
 
    1. (Opcional) Passe o mouse sobre o nome de um modo de exibição criado, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e, em seguida, clique em uma das seguintes opções:
 
@@ -303,7 +315,7 @@ Uma nova exibição é adicionada ao menu suspenso de exibições.
       * **Exportar**
 
       * **Excluir**
-Para obter informações, consulte [Excluir exibições de registros](/help/quicksilver/planning/views/delete-record-views.md).
+        Para obter informações, consulte [Excluir exibições de registros](/help/quicksilver/planning/views/delete-record-views.md).
 
         ![Exibir mais menu na página de registros de Projetos Conectados](assets/view-more-menu-projects-connected-records-page.png)
 

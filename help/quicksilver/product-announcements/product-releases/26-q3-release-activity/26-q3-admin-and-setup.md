@@ -4,7 +4,7 @@ description: Aprimoramentos do administrador no terceiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 5%
@@ -36,7 +36,7 @@ Cada entrada inclui os campos rastreados padrão: data e hora, operação, nome 
 
 Essa fase do controle de alterações não inclui eventos MCP. Eles farão parte de uma versão futura.
 
-Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 -->
 
@@ -142,7 +142,7 @@ Para facilitar a visualização das alterações que ocorreram em uma lista cent
 
 Anteriormente, os logs de auditoria estavam disponíveis, mas não cobriam objetos.
 
-Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Nova preferência do sistema para converter portfólios de armazenamento herdados em armazenamento em nuvem Adobe
 

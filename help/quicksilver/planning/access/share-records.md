@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1693
 ht-degree: 2%
 
 ---
@@ -50,9 +50,9 @@ Você pode compartilhar um registro do Adobe Workfront Planning das seguintes ma
 
   Para obter mais informações, consulte os seguintes artigos:
 
-   * [Compartilhar um espaço de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
+  * [Compartilhar um espaço de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [Compartilhar um tipo de registro](/help/quicksilver/planning/access/share-record-types.md)
+  * [Compartilhar um tipo de registro](/help/quicksilver/planning/access/share-record-types.md)
 
 * Compartilhe um registro individual ou compartilhe vários registros em massa usando a opção **Compartilhar**.
 
@@ -79,21 +79,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
 <p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p> 
 Ou
 <p>Qualquer pacote de produto do Workfront Planning como independente</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p>Qualquer</p> 
-   <p><b>Nota</b></p>
-   <p>Somente pessoas com uma licença Standard podem receber permissões de Gerenciamento para registros. Todas as outras licenças só podem ter permissões de Exibição e a opção Gerenciar está esmaecida para elas.</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Qualquer</p> 
+<p><b>Nota</b></p>
+   <p>Somente pessoas com uma licença do Planning Standard podem receber permissões de Gerenciamento para registros. Todas as outras licenças só podem ter permissões de Exibição e a opção Gerenciar está esmaecida para elas.</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
@@ -119,14 +129,14 @@ maybe use the Share record types as example here and touch on the same points: h
 * Você pode compartilhar registros com as seguintes entidades: pessoas, grupos, equipes, empresas ou funções de trabalho.
 * Existem as seguintes limitações:
 
-   * Não é possível compartilhar mais de 100 registros de cada vez.
-   * Não é possível compartilhar registros com mais de 100 entidades.
+  * Não é possível compartilhar mais de 100 registros de cada vez.
+  * Não é possível compartilhar registros com mais de 100 entidades.
 * Se você restringir permissões a um registro, os usuários não visualizarão mais esse registro e os valores de seus campos de pesquisa em nenhum lugar no sistema em que esse registro for exibido.
 * O Workfront verifica as permissões de registro em conexões de até 5 registros de profundidade, garantindo que os usuários vejam apenas os registros compartilhados com eles.
 * Você pode conceder os seguintes níveis de permissões a um registro:
 
-   * Exibir
-   * Gerenciar
+  * Exibir
+  * Gerenciar
 * Quando você compartilha um espaço de trabalho e um tipo de registro com usuários, eles também recebem as mesmas permissões para os registros no espaço de trabalho, por padrão.
 Quando os usuários têm permissões do Contribute para um espaço de trabalho ou tipo de registro, eles recebem permissões de gerenciamento para os registros desse tipo de registro.
 * Quando você remove uma entidade de um espaço de trabalho, todas as permissões de compartilhamento são removidas dos tipos de registro e de todos os registros nele.
@@ -135,13 +145,13 @@ Quando os usuários têm permissões do Contribute para um espaço de trabalho o
   Se você compartilhar um registro com alguém que não esteja no espaço de trabalho, ele será adicionado automaticamente ao espaço de trabalho.
 * O acesso de um usuário ao registro é determinado por meio da combinação das três configurações a seguir:
 
-   * Suas permissões herdadas do tipo de registro e do espaço de trabalho
-   * Permissões adicionadas individualmente na caixa de compartilhamento de registros
-   * A configuração **Todos no espaço de trabalho podem exibir**.
+  * Suas permissões herdadas do tipo de registro e do espaço de trabalho
+  * Permissões adicionadas individualmente na caixa de compartilhamento de registros
+  * A configuração **Todos no espaço de trabalho podem exibir**.
 
-     Isso torna o registro visível para todos no espaço de trabalho
+    Isso torna o registro visível para todos no espaço de trabalho
 
-     <!--
+    <!--
       Cannot do this on a record: 
       * **Only invited people can access**: This is selected by default and allows restricting access to the record to specific people. 
       -->
@@ -150,8 +160,8 @@ Quando os usuários têm permissões do Contribute para um espaço de trabalho o
 
   Por exemplo:
 
-   * Se tiverem permissões de Exibição para o tipo de registro, eles obterão permissões de Exibição para o registro
-   * Se tiverem permissões do Contribute ou do Manage para o tipo de registro, eles obterão permissões do Manage para o registro
+  * Se tiverem permissões de Exibição para o tipo de registro, eles obterão permissões de Exibição para o registro
+  * Se tiverem permissões do Contribute ou do Manage para o tipo de registro, eles obterão permissões do Manage para o registro
 
 * Quando um usuário tem permissões de Gerenciar ou Contribuir para o espaço de trabalho e o tipo de registro e você os adiciona às permissões de registro, as permissões de Exibição ficam esmaecidas. Eles retêm as mesmas permissões para o registro que têm para o tipo de registro e não é possível conceder a eles permissões mais baixas para o registro.
 

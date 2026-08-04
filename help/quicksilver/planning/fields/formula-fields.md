@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
 source-wordcount: 784
 ht-degree: 5%
@@ -129,7 +129,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -153,21 +153,21 @@ Old:
 * Você pode fazer referência somente a campos exibidos na exibição de tabela de um tipo de registro ou na página de detalhes do registro.
 * Você pode definir o formato para o valor de um cálculo de fórmula escolhendo entre as seguintes opções de formato:
 
-   * Texto
-   * Número
-   * Porcentagem
-   * Moeda
-   * Tags
-   * Data
+  * Texto
+  * Número
+  * Porcentagem
+  * Moeda
+  * Tags
+  * Data
 
   Para obter mais informações, consulte a seção &quot;Fórmula&quot; no artigo [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 * Você pode fazer referência a campos de fórmula em novas fórmulas. Depois que o valor for atualizado em um campo referenciado em um campo de fórmula, todos os campos subsequentes que referenciam esse campo ou campos de fórmula que contêm esse campo serão atualizados automaticamente.
 
 * Quando você atualiza um campo de fórmula ou um campo que poderia impactá-lo, um alerta o notifica do impacto da alteração. O alerta é exibido nos seguintes casos:
 
-   * Quando você atualiza um campo de fórmula (excluindo alterações de nome e descrição) quando esse campo tem campos de fórmula ou de pesquisa dependentes. O alerta lista esses campos dependentes e pergunta se você deseja continuar.
+  * Quando você atualiza um campo de fórmula (excluindo alterações de nome e descrição) quando esse campo tem campos de fórmula ou de pesquisa dependentes. O alerta lista esses campos dependentes e pergunta se você deseja continuar.
 
-   * Ao excluir um campo usado em uma expressão de fórmula ou como um campo de pesquisa. O alerta lista a fórmula dependente e os campos de pesquisa e pergunta se você deseja continuar com a exclusão.
+  * Ao excluir um campo usado em uma expressão de fórmula ou como um campo de pesquisa. O alerta lista a fórmula dependente e os campos de pesquisa e pergunta se você deseja continuar com a exclusão.
 
 ## Limitações de campos de fórmula
 
@@ -178,13 +178,13 @@ Old:
 * A expressão da fórmula não pode exceder 50.000 caracteres.
 
 * Campos de fórmula podem ser exibidos como `#ERROR!` nos seguintes casos:
-   * Quando um campo usado em uma fórmula é excluído.
-   * Quando um campo usado em um campo de pesquisa agregado é exibido como `#ERROR!`.
+  * Quando um campo usado em uma fórmula é excluído.
+  * Quando um campo usado em um campo de pesquisa agregado é exibido como `#ERROR!`.
 
-     Por exemplo, se você exibir um campo de pesquisa que contenha campos de fórmula de pesquisa agregada e um dos campos de fórmula referenciados for exibido como `#ERROR!`.
-   * Quando um valor de fórmula não pode ser exibido no formato selecionado.
+    Por exemplo, se você exibir um campo de pesquisa que contenha campos de fórmula de pesquisa agregada e um dos campos de fórmula referenciados for exibido como `#ERROR!`.
+  * Quando um valor de fórmula não pode ser exibido no formato selecionado.
 
-     Por exemplo, se eu selecionar Número para o Formato de um campo de fórmula e os campos usados na fórmula forem campos de texto que exibem apenas valores de texto não numéricos, o resultado da fórmula será exibido como `#ERROR!`, porque não é possível analisar o texto em um número.
+    Por exemplo, se eu selecionar Número para o Formato de um campo de fórmula e os campos usados na fórmula forem campos de texto que exibem apenas valores de texto não numéricos, o resultado da fórmula será exibido como `#ERROR!`, porque não é possível analisar o texto em um número.
 
 
 ## Fórmulas compatíveis

@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: aadfd91d-19e5-4124-bbc4-70f5fbfa9ce6
-source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 17%
+source-wordcount: '94'
+ht-degree: 18%
 
 ---
 
@@ -30,4 +30,3 @@ Esta seção contém os seguintes artigos:
 * [Importar cartões de taxa de um modelo](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
 * [Alterações na taxa de push em projetos](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
 * [Compartilhar um cartão de tarifa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
-* [Exibir e gerenciar o Histórico de Alterações](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)

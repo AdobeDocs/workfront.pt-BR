@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1997
+source-wordcount: 2015
 ht-degree: 1%
 
 ---
@@ -75,16 +75,20 @@ This article describes how you can share a view with others. For information abo
 <p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p> 
 Ou
 <p>Qualquer pacote de produto do Workfront Planning como independente</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p>Qualquer</p> 
   </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Qualquer</p> 
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>   
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
 </td> 
   </tr> 
 <tr> 
@@ -150,7 +154,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -167,10 +171,10 @@ Old:
 
 * Você pode compartilhar uma exibição das seguintes maneiras:
 
-   * Internamente, com usuários, grupos, equipes, empresas e funções do Workfront
-   * Publicamente, com usuários fora do Workfront
-   * Copiando e compartilhando um link com uma exibição
-   * Exportando-o para um arquivo Excel ou CSV. Só é possível exportar a exibição de tabela para um arquivo. Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
+  * Internamente, com usuários, grupos, equipes, empresas e funções do Workfront
+  * Publicamente, com usuários fora do Workfront
+  * Copiando e compartilhando um link com uma exibição
+  * Exportando-o para um arquivo Excel ou CSV. Só é possível exportar a exibição de tabela para um arquivo. Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * Para obter informações gerais sobre o compartilhamento de objetos no Workfront Planning, consulte também [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * É possível conceder permissões de Visualização ou Gerenciamento a uma visualização para usuários internos da Workfront.

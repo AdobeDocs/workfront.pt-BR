@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 3723
+source-wordcount: 3643
 ht-degree: 2%
 
 ---
@@ -59,27 +59,27 @@ Você pode conectar o seguinte:
 
   Você pode conectar registros a objetos dos tipos listados abaixo a partir dos seguintes aplicativos:
 
-   * Adobe Workfront
+  * Adobe Workfront
 
-      * Projetos
-      * Portfólios
-      * Programas
-      * Empresas
-      * Grupos
+    * Projetos
+    * Portfólios
+    * Programas
+    * Empresas
+    * Grupos
 
-   * Adobe Experience Manager
+  * Adobe Experience Manager
 
-      * Ativos
+    * Ativos
 
-        Você pode conectar os seguintes tipos de ativos do Workfront Planning:
+      Você pode conectar os seguintes tipos de ativos do Workfront Planning:
 
-         * Arquivos de imagem
-         * Pastas
-      * Fragmentos de conteúdo
+      * Arquivos de imagem
+      * Pastas
+    * Fragmentos de conteúdo
 
 * Adobe GenStudio for Performance Marketing
 
-   * Marcas
+  * Marcas
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -112,17 +112,26 @@ Você pode conectar o seguinte:
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas GenStudio ou para ter acesso ao espaço de trabalho da GenStudio</p>
    <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
-   </td> 
+<p><b>NOTA</b></p>
+<p>Você deve comprar um pacote de Fluxo de Trabalho do Workfront para conectar registros do Planning a objetos do Workfront. </p>
+
+</td> 
   </tr>   
 <tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
-   <tr> 
+<tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p> 
    <p>Acesso de visualização ou superior para os tipos de objeto cujos objetos você deseja conectar no Workfront e no AEM Assets. </p>  
 </td> 
   </tr>
@@ -214,15 +223,15 @@ Old:
 
 * Para conectar registros a outros registros ou objetos, você deve ter o seguinte:
 
-   * Pelo menos um espaço de trabalho, tipo de registro e registro.
+  * Pelo menos um espaço de trabalho, tipo de registro e registro.
 
-     Para obter mais informações, consulte os seguintes artigos:
+    Para obter mais informações, consulte os seguintes artigos:
 
-      * [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [Criar registros](/help/quicksilver/planning/records/create-records.md)
+    * [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md)
+    * [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
+    * [Criar registros](/help/quicksilver/planning/records/create-records.md)
 
-   * Conexões entre tipos de registro ou entre tipos de registro e objetos de outros aplicativos. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+  * Conexões entre tipos de registro ou entre tipos de registro e objetos de outros aplicativos. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 * É possível conectar um ou vários registros ou objetos entre si. Isso depende do tipo de conexão selecionado ao conectar os tipos de registro ou objeto. Para obter informações, consulte [Visão geral sobre tipos de registros do Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -305,7 +314,7 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas de um r
    >
    >* As informações do campo de data dos objetos do Workfront são exibidas no formato de 24 horas no Workfront Planning, independentemente de como são exibidas no Workfront.
    >
-   >   Por exemplo, se a Data de Início Planejada de um projeto for exibida como 3:00 PM no Workfront, ela será exibida como 15:00 no Workfront Planning em um campo de pesquisa importado.
+   >   Por exemplo, se a Data de início planejada de um projeto for exibida às 15h no Workfront, ela será exibida como 15h no Workfront Planning em um campo de pesquisa importado.
 
 1. (Opcional) Feche a página de tipo de registro e vá para o espaço de trabalho selecionado.
 1. Clique no cartão do tipo de registro ao qual você está vinculado.
@@ -602,14 +611,14 @@ Você deve ter as seguintes opções para conectar os registros do Workfront Pla
 * Conexões entre tipos de registro e tipos de objeto do Workfront estabelecidas no Workfront Planning.
 * O administrador do Workfront ou do grupo deve adicionar qualquer um dos seguintes itens a um tipo de objeto do Workfront:
 
-   * A seção Planejamento para os projetos, portfólios e programas do Workfront no Modelo de layout.
+  * A seção Planejamento para os projetos, portfólios e programas do Workfront no Modelo de layout.
 
-   * O campo personalizado Conexões do Planning a um formulário personalizado para um dos seguintes objetos:
+  * O campo personalizado Conexões do Planning a um formulário personalizado para um dos seguintes objetos:
 
-      * Projeto
-      * Portfólio
-      * Programa
-      * Grupo
-      * Empresa
+    * Projeto
+    * Portfólio
+    * Programa
+    * Grupo
+    * Empresa
 
   Para obter mais informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

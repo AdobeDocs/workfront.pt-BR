@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1496
-ht-degree: 5%
+source-wordcount: 1528
+ht-degree: 6%
 
 ---
 
@@ -52,7 +52,7 @@ Para obter informações sobre o Workfront Planning, consulte os seguintes artig
 * [Visão geral de acesso do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
-## Requisitos de acesso <!--edit theses??-->
+## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
@@ -66,20 +66,25 @@ Para obter informações sobre o Workfront Planning, consulte os seguintes artig
    <td role="rowheader"><p>Pacotes Adobe Workfront</p></td> 
    <td> 
 <p>Qualquer pacote do Workfront ou Workflow com um pacote do Planning</p>
-<p>Qualquer pacote de produto do Planning como independente</p>
+<p>Qualquer planejamento quando adquirido como um produto independente</p>
    </td> </tr>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licença do Workfront</p></td> 
-   <td><p>Padrão</p> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td><p>Workflow Standard</p> 
    <p>Os administradores do Workfront devem habilitar o Planning Designer para sua organização</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Planning</p></td> 
-   <td><p>Padrão</p> 
+   <td><p>Planejamento padrão</p> 
    <p>Os administradores do Workfront devem habilitar o Planning Designer para sua organização</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 

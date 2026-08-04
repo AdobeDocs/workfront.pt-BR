@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: 4323
 ht-degree: 0%
@@ -101,7 +101,7 @@ A funcionalidade Workfront Proofing não está disponível com essa integração
 
 <span class="preview">A revisão e aprovação unificadas incluem um registro de auditoria abrangente que cria uma trilha de governança completa no Workfront e no Frame.io. Os logs de rastreamento de alterações capturam as decisões de aprovação tomadas no visualizador do Frame.io e no ciclo de vida do documento. Cada entrada de log inclui atribuição do sistema de origem (Workfront ou Frame.io) juntamente com os campos de auditoria padrão do Workfront: data e hora, tipo de log, nome de usuário, ação e nome do objeto. Os comentários do visualizador Frame.io não estão incluídos nos logs de auditoria.</span>
 
-<span class="preview">Os logs de controle de alterações aparecem na área Configuração do Workfront e estão disponíveis para exportação. Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
+<span class="preview">Os logs de controle de alterações aparecem na área Configuração do Workfront e estão disponíveis para exportação. Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).</span>
 
 ## Gerenciamento eficiente de projetos no Workfront
 

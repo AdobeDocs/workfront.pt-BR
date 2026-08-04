@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: 711
 ht-degree: 2%
 
 ---
@@ -54,9 +54,9 @@ Além disso, você pode compartilhar registros das seguintes maneiras:
 
   Para obter mais informações, consulte os seguintes artigos:
 
-   * [Compartilhar um espaço de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
+  * [Compartilhar um espaço de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [Compartilhar um tipo de registro](/help/quicksilver/planning/access/share-record-types.md)
+  * [Compartilhar um tipo de registro](/help/quicksilver/planning/access/share-record-types.md)
 
 * Você pode compartilhar registros individuais com pessoas, equipes, funções, grupos ou empresas, desativando as Permissões herdadas quando os registros são compartilhados com espaços de trabalho ou tipos de registro.
 
@@ -79,13 +79,28 @@ Além disso, você pode compartilhar registros das seguintes maneiras:
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront e qualquer pacote do Planning</p> <p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+<ul> 
+<li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
+Ou
+<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
    </td> 
   <tr> 
+  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Colaborador ou posterior</p>
+   <td><p>Colaborador de Fluxo de Trabalho ou superior</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Colaborador do Planning ou superior</p>
+   <p><b>NOTA</b></p>
+   <p>Nem todos os clientes têm uma licença de Colaborador do Planning</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
@@ -147,7 +162,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
