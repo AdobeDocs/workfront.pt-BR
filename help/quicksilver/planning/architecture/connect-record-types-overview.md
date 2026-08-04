@@ -7,21 +7,13 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 2304
+source-wordcount: 2329
 ht-degree: 2%
 
 ---
@@ -36,11 +28,18 @@ ht-degree: 2%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 -->
 
+{{planning-important-intro}}
+
 Você pode indicar que os tipos de registro individuais se relacionam entre si ou com objetos de outros aplicativos, conectando-os.
 
 Este artigo é uma visão geral das conexões de tipo de registro e descreve os tipos de conexões que você pode estabelecer entre tipos de registro e de objeto.
 
 Para obter informações sobre como conectar tipos de registro, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+>[!IMPORTANT]
+>
+>Ao conectar tipos de registro do Planning a tipos de objeto de outros aplicativos, você também deve ter uma licença e uma conta para esses aplicativos.
+
 
 ## Considerações sobre a conexão de tipos de registro
 
@@ -48,8 +47,8 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
 
   É possível conectar tipos de registro e tipos de objeto entre si das seguintes maneiras:
 
-   * Manual
-   * Automaticamente
+  * Manual
+  * Automaticamente
 
   >[!NOTE]
   >
@@ -57,133 +56,134 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
 
 * Você pode adicionar manualmente um campo Nova Conexão de um tipo de registro para conectar as seguintes entidades no Workfront Planning:
 
-   * Dois tipos de registro
+  * Dois tipos de registro
 
-     Por padrão, você pode conectar dois tipos de registro do mesmo espaço de trabalho. Você também pode configurar tipos de registro para se conectar a tipos de registro de outros espaços de trabalho, se sua organização tiver adquirido um pacote superior do Workfront ou do Planning. Para obter mais informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * Um tipo de registro e os seguintes tipos de objeto desses aplicativos:
+    Por padrão, você pode conectar dois tipos de registro do mesmo espaço de trabalho. Você também pode configurar tipos de registro para se conectar a tipos de registro de outros espaços de trabalho, se sua organização tiver adquirido um pacote superior do Workfront ou do Planning. Para obter mais informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
+  * Um tipo de registro e os seguintes tipos de objeto desses aplicativos:
 
-      * Adobe Workfront:
+    * Adobe Workfront:
 
-         * Projetos
-         * Portfólios
-         * Programas
-         * Empresas
-         * Grupo
-         * Solicitação original
+      * Projetos
+      * Portfólios
+      * Programas
+      * Empresas
+      * Grupo
+      * Solicitação original
 
-           O campo Conexão da solicitação original exibe o nome da solicitação original que cria um registro depois que um formulário de solicitação é enviado para o Workfront Planning. O nome da solicitação é visível no campo Assunto da solicitação no Workfront.
-
-      * Adobe Experience Manager:
-
-         * Ativos
-
-           Você pode conectar os seguintes objetos do Adobe Experience Manager Assets:
-
-            * Imagens
-            * Pastas
-
-         * Fragmentos de conteúdo
-
-      * Adobe GenStudio for Performance Marketing
-
-         * Marcas
-
-        >[!IMPORTANT]
-        >
-        >Você deve ter o seguinte para se conectar a objetos do Adobe Experience Manager e Marcas da GenStudio:
-        >* Uma licença do Adobe Experience Manager
-        >* Uma licença do Adobe GenStudio for Performance Marketing.
-
-   * Um tipo de registro do GenStudio for Performance Marketing no espaço de trabalho do GenStudio e as seguintes entidades:
-
-      * Um tipo de registro do Workfront Planning
-      * Um objeto do Workfront
-      * Um objeto do AEM (ativo ou fragmento de conteúdo)
-      * Uma marca GenStudio for Performance Marketing
-
-        >[!NOTE]
-        >
-        >* Não é possível conectar um tipo de registro do espaço de trabalho do Adobe GenStudio a outro tipo de registro do GenStudio no Planning.
-        >* Não é possível conectar um tipo de registro do Planning a um tipo de registro do espaço de trabalho do GenStudio.
+        O campo Conexão da solicitação original exibe o nome da solicitação original que cria um registro depois que um formulário de solicitação é enviado para o Workfront Planning. O nome da solicitação é visível no campo Assunto da solicitação no Workfront.
 
 
-     Depois de conectar manualmente os tipos de registro a outros tipos de registro ou objeto, você pode conectar registros e objetos individuais.
+    * Adobe Experience Manager:
 
-     Para obter informações sobre como conectar tipos de registro e objeto, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+      * Ativos
 
-     Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+        Você pode conectar os seguintes objetos do Adobe Experience Manager Assets:
+
+        * Imagens
+        * Pastas
+
+      * Fragmentos de conteúdo
+
+    * Adobe GenStudio for Performance Marketing
+
+      * Marcas
+
+      >[!IMPORTANT]
+      >
+      >Você deve ter o seguinte para se conectar a objetos do Adobe Experience Manager e Marcas da GenStudio:
+      >* Uma licença do Adobe Experience Manager
+      >* Uma licença do Adobe GenStudio for Performance Marketing.
+
+  * Um tipo de registro do GenStudio for Performance Marketing no espaço de trabalho do GenStudio e as seguintes entidades:
+
+    * Um tipo de registro do Workfront Planning
+    * Um objeto do Workfront
+    * Um objeto do AEM (ativo ou fragmento de conteúdo)
+    * Uma marca GenStudio for Performance Marketing
+
+      >[!NOTE]
+      >
+      >* Não é possível conectar um tipo de registro do espaço de trabalho do Adobe GenStudio a outro tipo de registro do GenStudio no Planning.
+      >* Não é possível conectar um tipo de registro do Planning a um tipo de registro do espaço de trabalho do GenStudio.
+
+
+    Depois de conectar manualmente os tipos de registro a outros tipos de registro ou objeto, você pode conectar registros e objetos individuais.
+
+    Para obter informações sobre como conectar tipos de registro e objeto, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+    Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
 * Uma conexão entre entidades é estabelecida automaticamente nos seguintes cenários:
 
-   * Quando você usa uma automação para criar registros a partir da página de um tipo de registro.
+  * Quando você usa uma automação para criar registros a partir da página de um tipo de registro.
 
-     A conexão entre os tipos de registro ou o tipo de registro e o tipo de objeto de outro aplicativo é criada automaticamente quando a automação cria o registro ou objeto conectado.
+    A conexão entre os tipos de registro ou o tipo de registro e o tipo de objeto de outro aplicativo é criada automaticamente quando a automação cria o registro ou objeto conectado.
 
-     Para obter informações, consulte [Configurar automações do Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+    Para obter informações, consulte [Configurar automações do Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-   * Ao configurar formulários de solicitação para um tipo de registro para criar um registro ou um objeto.
+  * Ao configurar formulários de solicitação para um tipo de registro para criar um registro ou um objeto.
 
-     A conexão entre o tipo de registro e o tipo de objeto de solicitação é criada automaticamente quando você submete e aprova uma solicitação do Planning que cria um registro.
+    A conexão entre o tipo de registro e o tipo de objeto de solicitação é criada automaticamente quando você submete e aprova uma solicitação do Planning que cria um registro.
 
-     Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
+    Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
-     Você pode exibir a solicitação original no campo **Assunto** da área Solicitações do Workfront, ou no campo Conexão da solicitação original do Workfront Planning.
+    Você pode exibir a solicitação original no campo **Assunto** da área Solicitações do Workfront, ou no campo Conexão da solicitação original do Workfront Planning.
 
 
 * Quando dois tipos de registro ou um tipo de registro e um tipo de objeto de outro aplicativo são conectados, os seguintes cenários existem:
 
-   * **Quando você conecta dois tipos de registro do Planning**: um campo de registro vinculado é criado no tipo de registro do qual você está se conectando. Um campo de registro vinculado semelhante é criado no tipo de registro ao qual você está se conectando somente quando você ativa a configuração Criar campo correspondente no tipo de registro vinculado na guia Nova conexão.
+  * **Quando você conecta dois tipos de registro do Planning**: um campo de registro vinculado é criado no tipo de registro do qual você está se conectando. Um campo de registro vinculado semelhante é criado no tipo de registro ao qual você está se conectando somente quando você ativa a configuração Criar campo correspondente no tipo de registro vinculado na guia Nova conexão.
 
-     Por exemplo, se você conectar o tipo de registro &quot;Campanha&quot; ao tipo de registro &quot;Produto&quot;, um campo de registro vinculado (campo de conexão) chamado &quot;Produto vinculado&quot; será criado no tipo de registro Campanha. Um tipo de registro vinculado chamado automaticamente de &quot;Campanha&quot; é criado no tipo de registro Produto.
+    Por exemplo, se você conectar o tipo de registro &quot;Campanha&quot; ao tipo de registro &quot;Produto&quot;, um campo de registro vinculado (campo de conexão) chamado &quot;Produto vinculado&quot; será criado no tipo de registro Campanha. Um tipo de registro vinculado chamado automaticamente de &quot;Campanha&quot; é criado no tipo de registro Produto.
 
-     Por exemplo, os seguintes cenários existem:
+    Por exemplo, os seguintes cenários existem:
 
-      * Ao habilitar a configuração Criar campo correspondente no tipo de registro vinculado e conectar o tipo de registro &quot;Campanha&quot; ao tipo de registro &quot;Produto&quot;, um campo de registro vinculado (campo de conexão) chamado &quot;Produto vinculado&quot; é criado no tipo de registro Campanha. Um tipo de registro vinculado chamado automaticamente de &quot;Campanha&quot; é criado no tipo de registro Produto.
-      * Ao desativar a configuração Criar campo correspondente no tipo de registro vinculado e conectar o tipo de registro &quot;Campanha&quot; ao tipo de registro &quot;Produto&quot;, um campo de registro vinculado (campo de conexão) chamado &quot;Produto vinculado&quot; será criado no tipo de registro Campanha. Um tipo de registro vinculado chamado automaticamente de &quot;Campanha&quot; não é criado no tipo de registro Produto.
+    * Ao habilitar a configuração Criar campo correspondente no tipo de registro vinculado e conectar o tipo de registro &quot;Campanha&quot; ao tipo de registro &quot;Produto&quot;, um campo de registro vinculado (campo de conexão) chamado &quot;Produto vinculado&quot; é criado no tipo de registro Campanha. Um tipo de registro vinculado chamado automaticamente de &quot;Campanha&quot; é criado no tipo de registro Produto.
+    * Ao desativar a configuração Criar campo correspondente no tipo de registro vinculado e conectar o tipo de registro &quot;Campanha&quot; ao tipo de registro &quot;Produto&quot;, um campo de registro vinculado (campo de conexão) chamado &quot;Produto vinculado&quot; será criado no tipo de registro Campanha. Um tipo de registro vinculado chamado automaticamente de &quot;Campanha&quot; não é criado no tipo de registro Produto.
 
-     Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+    Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-   * **Ao conectar um tipo de registro com um tipo de objeto de outro aplicativo**:
+  * **Ao conectar um tipo de registro com um tipo de objeto de outro aplicativo**:
 
-      * Um campo de registro vinculado é criado no tipo de registro ao qual você está se conectando. Nenhum campo de registro vinculado é criado automaticamente no tipo de objeto do outro aplicativo.
-      * Os campos de registros de planejamento não podem ser acessados de objetos do Workfront.
-      * Os registros do Planning ficam visíveis na seção Planejamento do objeto Workfront. Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-      * Você pode criar um campo personalizado de conexão do Planning e anexá-lo ao formulário personalizado de um objeto do Workfront. Para obter informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Os campos de registro do Planning podem ser acessados a partir de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
-      * Os campos de registro de planejamento não podem ser acessados nas Marcas no GenStudio for Performance Marketing.
+    * Um campo de registro vinculado é criado no tipo de registro ao qual você está se conectando. Nenhum campo de registro vinculado é criado automaticamente no tipo de objeto do outro aplicativo.
+    * Os campos de registros de planejamento não podem ser acessados de objetos do Workfront.
+    * Os registros do Planning ficam visíveis na seção Planejamento do objeto Workfront. Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+    * Você pode criar um campo personalizado de conexão do Planning e anexá-lo ao formulário personalizado de um objeto do Workfront. Para obter informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+    * Os campos de registro do Planning podem ser acessados a partir de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
+    * Os campos de registro de planejamento não podem ser acessados nas Marcas no GenStudio for Performance Marketing.
 
-   * **Ao adicionar campos de pesquisa a partir do registro ou objeto ao qual você se conecta**: além de criar um campo de registro vinculado, você também pode se conectar a campos do registro ou tipo de objeto conectado que são chamados de campos de pesquisa. Um campo vinculado (ou de pesquisa) com informações do registro ao qual você está se conectando é exibido no registro do qual você está se conectando.
+  * **Ao adicionar campos de pesquisa a partir do registro ou objeto ao qual você se conecta**: além de criar um campo de registro vinculado, você também pode se conectar a campos do registro ou tipo de objeto conectado que são chamados de campos de pesquisa. Um campo vinculado (ou de pesquisa) com informações do registro ao qual você está se conectando é exibido no registro do qual você está se conectando.
 
-     Considere o seguinte ao adicionar campos de pesquisa:
+    Considere o seguinte ao adicionar campos de pesquisa:
 
-      * Você pode conectar campos de outros tipos de registro ou objetos de outro aplicativo ao tipo de registro do Workfront Planning.
+    * Você pode conectar campos de outros tipos de registro ou objetos de outro aplicativo ao tipo de registro do Workfront Planning.
 
-      * Os campos de pesquisa são somente leitura e exibem automaticamente informações de registros conectados.
+    * Os campos de pesquisa são somente leitura e exibem automaticamente informações de registros conectados.
 
-      * Nem todos os campos podem ser vinculados a partir do Workfront Planning. Por exemplo, apenas os seguintes campos são suportados para Fragmentos de conteúdo do AEM: <!--this information is also in "Connect record types"-->
+    * Nem todos os campos podem ser vinculados a partir do Workfront Planning. Por exemplo, apenas os seguintes campos são suportados para Fragmentos de conteúdo do AEM: <!--this information is also in "Connect record types"-->
 
-         * Criado por e Criado em
-         * Modificado por e Modificado em
+      * Criado por e Criado em
+      * Modificado por e Modificado em
 
-      * Você pode fazer referência a campos de pesquisa de outros tipos de registro ou objeto em fórmulas, filtros ou agrupamentos.
+    * Você pode fazer referência a campos de pesquisa de outros tipos de registro ou objeto em fórmulas, filtros ou agrupamentos.
 
-        Por exemplo, se você conectar o tipo de registro &quot;Campanha&quot; com um projeto do Workfront e optar por trazer o campo Data de conclusão planejada do projeto para o registro do Workfront Planning, um campo vinculado chamado Data de conclusão planejada (do projeto) será criado automaticamente para a campanha. Não é possível editar manualmente esse campo vinculado. O campo Data de conclusão planejada (do projeto) exibe a Data de conclusão planejada dos projetos vinculados, conforme estabelecido no Workfront.
+      Por exemplo, se você conectar o tipo de registro &quot;Campanha&quot; com um projeto do Workfront e optar por trazer o campo Data de conclusão planejada do projeto para o registro do Workfront Planning, um campo vinculado chamado Data de conclusão planejada (do projeto) será criado automaticamente para a campanha. Não é possível editar manualmente esse campo vinculado. O campo Data de conclusão planejada (do projeto) exibe a Data de conclusão planejada dos projetos vinculados, conforme estabelecido no Workfront.
 
-     >[!IMPORTANT]
-     >
-     >Todos os usuários com permissões de Exibição ou superiores para o espaço de trabalho podem exibir as informações nos campos de pesquisa, independentemente de suas permissões ou nível de acesso na aplicação dos tipos de objeto vinculados ou suas permissões em outros espaços de trabalho.
+    >[!IMPORTANT]
+    >
+    >Todos os usuários com permissões de Exibição ou superiores para o espaço de trabalho podem exibir as informações nos campos de pesquisa, independentemente de suas permissões ou nível de acesso na aplicação dos tipos de objeto vinculados ou suas permissões em outros espaços de trabalho.
 
-      * Os campos de registro conectados são precedidos por um ícone de relação ![Ícone de campo de relação](assets/relationship-field-icon.png).
+    * Os campos de registro conectados são precedidos por um ícone de relação ![Ícone de campo de relação](assets/relationship-field-icon.png).
 
-      * Os campos de pesquisa conectados são precedidos por um ícone que identifica o tipo de campo. Os campos de pesquisa são precedidos de ícones que indicam que um campo é um número, um parágrafo ou uma data.
+    * Os campos de pesquisa conectados são precedidos por um ícone que identifica o tipo de campo. Os campos de pesquisa são precedidos de ícones que indicam que um campo é um número, um parágrafo ou uma data.
 
-        >[!TIP]
-        >
-        >As informações do campo de data dos objetos do Workfront são exibidas no formato de 24 horas no Workfront Planning, independentemente de como são exibidas no Workfront.
-        >
-        >Por exemplo, se a Data de Início Planejada de um projeto for exibida como 3:00 PM no Workfront, ela será exibida como 15:00 no Workfront Planning em um campo de pesquisa importado.
+      >[!TIP]
+      >
+      >As informações do campo de data dos objetos do Workfront são exibidas no formato de 24 horas no Workfront Planning, independentemente de como são exibidas no Workfront.
+      >
+      >Por exemplo, se a Data de início planejada de um projeto for exibida às 15h no Workfront, ela será exibida como 15h no Workfront Planning em um campo de pesquisa importado.
 
-   * Você deve conectar tipos de registro para poder criar hierarquias no Workfront Planning. Quando não existem, as conexões do tipo de registro são criadas automaticamente quando você cria uma hierarquia. Para obter informações, consulte [Criar hierarquias do espaço de trabalho](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+  * Você deve conectar tipos de registro para poder criar hierarquias no Workfront Planning. Quando não existem, as conexões do tipo de registro são criadas automaticamente quando você cria uma hierarquia. Para obter informações, consulte [Criar hierarquias do espaço de trabalho](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
 
 ## Tipos de conexão
@@ -206,15 +206,15 @@ A seguir estão os tipos de conexão que você pode escolher ao conectar tipos d
 
 * Quando a configuração **Criar campo correspondente no tipo de registro vinculado** está desabilitada, você pode escolher entre:
 
-   * [Seleção múltipla](#multi-select-connection-type)
-   * [Seleção única](#single-select-connection-type)
+  * [Seleção múltipla](#multi-select-connection-type)
+  * [Seleção única](#single-select-connection-type)
 
 * Quando a configuração **Criar campo correspondente no tipo de registro vinculado** estiver habilitada, você poderá escolher entre:
 
-   * [Muitos para muitos](#many-to-many-connection-type)
-   * [Um para muitos](#one-to-many-connection-type)
-   * [Muitos para um](#many-to-one-connection-type)
-   * [Um para um](#many-to-one-connection-type)
+  * [Muitos para muitos](#many-to-many-connection-type)
+  * [Um para muitos](#one-to-many-connection-type)
+  * [Muitos para um](#many-to-one-connection-type)
+  * [Um para um](#many-to-one-connection-type)
 
 ### Tipo de conexão de seleção múltipla
 
