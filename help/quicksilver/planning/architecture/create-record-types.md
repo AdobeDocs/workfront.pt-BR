@@ -9,20 +9,14 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/y0YxGD8b6EflLQ2HyUM2I5Te-vwicjZmO3bsbXJx0LM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1179
+source-wordcount: 1193
 ht-degree: 4%
 
 ---
@@ -61,29 +55,37 @@ Para obter mais informações sobre tipos de registros, consulte [Visão geral s
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer pacote do Workfront e do Planning</p>
-<p>Qualquer pacote de Fluxo de Trabalho e Planejamento</p>
+<p>Qualquer Workfront ou Fluxo de trabalho e um pacote do Planning</p>
+Ou
+<p>Qualquer pacote do Planning quando adquirido como um produto independente</p>
 <p><b>Nota</b></p>
 <p>Para configurar tipos de registro conectáveis: </p>
 <ul> 
-<li><p>Qualquer pacote do Workfront e qualquer pacote do Planning</p></li>
+<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li>
 Ou
-<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
+<li>Um pacote do Planning Prime ou Ultimate quando adquirido como um produto independente</li>
+</ul>
 
 <p>Para configurar tipos de registro global:</p>
 
 <ul> 
 <li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
 Ou
-<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p>
-
-</td> </tr>
+<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li>
+Ou 
+<li>Um pacote do Planning Prime ou Ultimate quando adquirido como um produto independente</li>
+</ul>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p>Padrão</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
+   </td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões em um espaço de trabalho</p>  
@@ -143,7 +145,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,27 +161,27 @@ Old:
 
 * Você pode criar tipos de registro em um espaço de trabalho das seguintes maneiras:
 
-   * Automaticamente:
-      * Ao criar um espaço de trabalho usando um modelo.
+  * Automaticamente:
+    * Ao criar um espaço de trabalho usando um modelo.
 
-        Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
+      Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Ao importá-los usando um arquivo CSV ou do Excel.
+    * Ao importá-los usando um arquivo CSV ou do Excel.
 
-        Para obter mais informações, consulte a seção [Criar Tipos de Registro importando informações de um arquivo CSV ou do Excel](#create-record-types-by-importing-information-from-a-csv-or-excel-file) neste artigo.
+      Para obter mais informações, consulte a seção [Criar Tipos de Registro importando informações de um arquivo CSV ou do Excel](#create-record-types-by-importing-information-from-a-csv-or-excel-file) neste artigo.
 
-     >[!TIP]
-     >
-     >Ao importar um tipo de registro de um arquivo CSV ou do Excel, você também pode importar registros e campos.
+    >[!TIP]
+    >
+    >Ao importar um tipo de registro de um arquivo CSV ou do Excel, você também pode importar registros e campos.
 
-   * Manualmente:
+  * Manualmente:
 
-      * Do zero.
+    * Do zero.
 
-        Este artigo descreve como criar tipos de registro do zero.
+      Este artigo descreve como criar tipos de registro do zero.
 
-      * Adicionando-os de outro espaço de trabalho
-Para obter informações, consulte a seção [Criar tipos de registro adicionando os existentes de outro espaço de trabalho](#create-record-types-by-adding-existing-ones-from-another-workspace) neste artigo.
+    * Adicionando-os de outro espaço de trabalho
+      Para obter informações, consulte a seção [Criar tipos de registro adicionando os existentes de outro espaço de trabalho](#create-record-types-by-adding-existing-ones-from-another-workspace) neste artigo.
 
 
 * Você pode mover tipos de registro em uma seção e de uma seção de um espaço de trabalho para outra. Não é possível mover tipos de registro de um espaço de trabalho para outro.
@@ -230,8 +232,8 @@ Você pode adicionar tipos de registro manualmente nas seções Tipos de Registr
    * Substitua &quot;Tipo de registro sem título&quot; pelo nome do seu tipo de registro futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Descrição**: adicione mais informações sobre o tipo de registro.
    * Selecione uma cor e uma forma para o ícone associado ao tipo de registro. Faça o seguinte:
-      * Selecione uma cor para identificar o novo tipo de registro. Esta é a cor do ícone do tipo de registro. O cinza é selecionado por padrão.
-      * Selecione um ícone na lista ou comece a digitar o nome de um ícone no campo de pesquisa para descrever o que ele representa e, em seguida, selecione-o quando ele for exibido. Este é o ícone do tipo de registro. Um ícone de arquivo é selecionado por padrão.
+     * Selecione uma cor para identificar o novo tipo de registro. Esta é a cor do ícone do tipo de registro. O cinza é selecionado por padrão.
+     * Selecione um ícone na lista ou comece a digitar o nome de um ícone no campo de pesquisa para descrever o que ele representa e, em seguida, selecione-o quando ele for exibido. Este é o ícone do tipo de registro. Um ícone de arquivo é selecionado por padrão.
 
 1. (Opcional e condicional) Se você for um administrador do sistema, clique na guia **Configurações entre espaços de trabalho** e atualize as informações sobre os recursos entre espaços de trabalho do tipo de registro.
 
@@ -242,7 +244,7 @@ Você pode adicionar tipos de registro manualmente nas seções Tipos de Registr
 1. Clique em **Salvar**.
 
    O cartão de tipo de registro é adicionado à seção e ao espaço de trabalho selecionados.
-A Descrição do tipo de registro é exibida no cartão.
+   A Descrição do tipo de registro é exibida no cartão.
 
    ![Cartão de tipo de registro com descrição](assets/record-type-card-with-description.png)
 

@@ -9,27 +9,20 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 5395
+source-wordcount: 5377
 ht-degree: 2%
 
 ---
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=pt-BR ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -84,16 +77,25 @@ Para obter mais informações sobre campos do Workfront Planning, consulte [Vis�
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
+<li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
 Ou
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões em um espaço de trabalho</p>  
@@ -154,7 +156,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -442,16 +444,16 @@ Você pode usar um campo de data para capturar informações adicionais no forma
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida ao passar o mouse sobre a coluna do campo em uma tabela ou ao clicar no ícone de informações ao lado do nome do campo na página de detalhes do registro.
    * **Formato de data**: o tipo de formato de data que você deseja exibir neste campo. <!--update this casing - submitted bug for it-->
    * Selecione entre os seguintes formatos:
-      * **Curto**: 9/6/26
-      * **Medium**: 9 de junho de 2026
-      * **Longo** 9 de junho de 2026
-      * **Incluir horário**: selecione esta opção se desejar incluir um carimbo de data/hora. Essa opção não está selecionada por padrão. Não é possível incluir um tempo depois de salvar o campo.
+     * **Curto**: 9/6/26
+     * **Medium**: 9 de junho de 2026
+     * **Longo** 9 de junho de 2026
+     * **Incluir horário**: selecione esta opção se desejar incluir um carimbo de data/hora. Essa opção não está selecionada por padrão. Não é possível incluir um tempo depois de salvar o campo.
 
    * Selecione entre as seguintes opções:
 
-      * **24hr**: Por exemplo: 18:00
-      * **12hr**: Por exemplo: 18:00:00
-      * **Mostrar o mesmo fuso horário a todos os usuários** e selecionar um **Fuso horário**: selecione esta opção se desejar mostrar o mesmo carimbo de data/hora para todas as pessoas que visualizam o campo, independentemente do fuso horário de seus usuários. O fuso horário selecionado é adicionado ao cabeçalho da coluna para esse campo.
+     * **24hr**: Por exemplo: 18:00
+     * **12hr**: Por exemplo: 18:00
+     * **Mostrar o mesmo fuso horário a todos os usuários** e selecionar um **Fuso horário**: selecione esta opção se desejar mostrar o mesmo carimbo de data/hora para todas as pessoas que visualizam o campo, independentemente do fuso horário de seus usuários. O fuso horário selecionado é adicionado ao cabeçalho da coluna para esse campo.
 
 1. Clique em **Criar**.
 
@@ -514,9 +516,9 @@ Os tipos de campo Porcentagem capturam informações em um formato de número se
      >Se você selecionar Permitir números negativos e valores negativos forem armazenados nos registros aos quais o campo está anexado, não será mais possível desmarcar a configuração no futuro.
 
    * **Mostrar como**: no menu suspenso, escolha como deseja que os valores percentuais sejam exibidos na exibição de tabela. Selecione entre as seguintes opções:
-      * **Número**: o valor percentual é exibido como um número seguido pelo sinal de porcentagem.
-      * **Barra**: o valor percentual é exibido como uma barra ao lado do número percentual. A cor de preenchimento da barra indica o valor percentual. Esta é a seleção padrão.
-      * **Círculo**: o valor percentual é exibido como o contorno de um círculo ao lado do número percentual. A cor de preenchimento do contorno do círculo indica o valor percentual.
+     * **Número**: o valor percentual é exibido como um número seguido pelo sinal de porcentagem.
+     * **Barra**: o valor percentual é exibido como uma barra ao lado do número percentual. A cor de preenchimento da barra indica o valor percentual. Esta é a seleção padrão.
+     * **Círculo**: o valor percentual é exibido como o contorno de um círculo ao lado do número percentual. A cor de preenchimento do contorno do círculo indica o valor percentual.
 
    >[!NOTE]
    >
@@ -611,7 +613,7 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
    >
    >* Você pode fazer referência a um campo que esteja a até 4 campos (e objetos) de distância do tipo de registro atual. Por exemplo, se você estiver criando um campo de fórmula para um tipo de registro Atividade (1) e a Atividade estiver conectada ao tipo de registro Campanha (2) que está conectado a um Projeto Workfront (3), poderá fazer referência ao campo Orçamento do projeto (4) na fórmula que está sendo criada para o tipo de registro Atividade.
    >
-   >![Exemplo de fórmula do orçamento do projeto com quatro campos removidos &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemplo de fórmula do orçamento do projeto com quatro campos removidos ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Opcional) Clique em **Maximizar** para abrir a caixa Fórmula em uma área maior.
@@ -720,17 +722,17 @@ Você pode usar o tipo de campo Data de criação para adicionar a data em que o
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida ao passar o mouse sobre a coluna do campo em uma tabela ou ao clicar no ícone de informações ao lado do nome do campo na página de detalhes do registro.
    * **Formato de Data**: selecione um dos seguintes formatos:
 
-      * **Localidade**: corresponde à localidade do seu navegador.
-      * **Padrão**: 16/05/2023
-      * **Longo**: 16 de maio de 2023
-      * **Europeu**: 05/16/2023
-      * **ISO**: 16/05/2023
+     * **Localidade**: corresponde à localidade do seu navegador.
+     * **Padrão**: 16/05/2023
+     * **Longo**: 16 de maio de 2023
+     * **Europeu**: 05/16/2023
+     * **ISO**: 16/05/2023
    * **Incluir horário**: selecione esta opção se desejar incluir um carimbo de data/hora. Essa opção não está selecionada por padrão. Não é possível incluir um tempo depois de salvar o campo.
 
      Selecione entre as seguintes opções:
 
-      * **24hr**: Por exemplo: 18:00
-      * **12hr**: Por exemplo: 18:00:00
+     * **24hr**: Por exemplo: 18:00
+     * **12hr**: Por exemplo: 18:00
 
 1. Clique em **Criar**.
 
@@ -769,17 +771,17 @@ Você pode usar o tipo de campo Data da última modificação para adicionar a d
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida ao passar o mouse sobre a coluna do campo em uma tabela ou ao clicar no ícone de informações ao lado do nome do campo na página de detalhes do registro.
    * **Formato de Data**: selecione um dos seguintes formatos:
 
-      * **Localidade**: corresponde à localidade do seu navegador.
-      * **Padrão**: 16/05/2023
-      * **Longo**: 16 de maio de 2023
-      * **Europeu**: 05/16/2023
-      * **ISO**: 16/05/2023
+     * **Localidade**: corresponde à localidade do seu navegador.
+     * **Padrão**: 16/05/2023
+     * **Longo**: 16 de maio de 2023
+     * **Europeu**: 05/16/2023
+     * **ISO**: 16/05/2023
    * **Incluir horário**: selecione esta opção se desejar incluir um carimbo de data/hora. Essa opção não está selecionada por padrão. Não é possível incluir um tempo depois de salvar o campo.
 
      Selecione entre as seguintes opções:
 
-      * **24hr**: Por exemplo: 18:00
-      * **12hr**: Por exemplo: 18:00:00
+     * **24hr**: Por exemplo: 18:00
+     * **12hr**: Por exemplo: 18:00
 
 1. Clique em **Criar**.
 

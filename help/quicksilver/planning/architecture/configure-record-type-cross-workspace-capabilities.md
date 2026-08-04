@@ -9,20 +9,14 @@ exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Erl28TyQUAOJR3XcK9J1FnL4Sdr-kMCHUjz5pAN-zzs
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1465
 ht-degree: 2%
 
 ---
@@ -79,22 +73,23 @@ Para obter informações, consulte um dos seguintes artigos:
    <td> 
 <p>Para configurar tipos de registro conectáveis: </p>
 <ul> 
-<li><p>Qualquer pacote do Workfront e qualquer pacote do Planning</p></li>
+<li>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li>
 Ou
-<li>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
-
+<li>Um pacote do Workfront Planning Prime ou Ultimate como um produto independente</li>
+</ul>
 
 <p>Para configurar tipos de registro global:</p>
 
 <ul> 
-<li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
+<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li>
+
 Ou
-<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p>
+<li>Um pacote do Planning Prime ou Ultimate quando adquirido como um produto independente </li>
+</ul>
 
 </td> 
   <tr> 
-   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licença do Adobe Workfront e do Planning</p></td> 
    <td>
    <!--
    <p>In the Production environment: </p>
@@ -105,15 +100,17 @@ Ou
    -->
 
 <p>Para tornar um registro global:</p>
-   <ul><li>Padrão ou superior</li></ul>
+   <ul><li>Workfront e Planning Standard ou superior</li></ul>
    <p>Para tornar um registro conectável:</p>
 
-<ul><li>Padrão para tornar um registro conectável a partir de espaços de trabalho específicos</li>
+<ul><li>Workfront e Planning Standard para tornar um registro conectável de espaços de trabalho específicos</li>
    <li>Administrador do sistema para tornar um registro conectável de todos os espaços de trabalho</li></ul>
-
 
 </td> 
   </tr> 
+  <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões em um espaço de trabalho</p>  

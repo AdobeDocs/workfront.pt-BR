@@ -9,20 +9,14 @@ exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/EusoK7-jmYJHg9nqyvvQamsfVeUy802p36EyDmLGwik
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 673
+source-wordcount: 708
 ht-degree: 2%
 
 ---
@@ -60,23 +54,33 @@ Para obter informações sobre como criar campos personalizados no Workfront Pla
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
+<li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
 Ou
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<li><p>Qualquer pacote do Planning quando adquirido como um pacote independente</p></li></ul>
 
 <p>Para deletar campos de tipos de registro global:</p>
 <ul><li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
 Ou
-<li><p>Qualquer fluxo de trabalho e pacotes do Planning Prime e Ultimate</p></li></ul>
-
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+<li><p>Qualquer fluxo de trabalho e pacotes do Planning Prime e Ultimate</p></li>
+Ou
+<li>Qualquer pacote do Planning Prime e Ultimate quando adquirido como um produto independente</li>
+</ul>
    </td> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
+  </tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões em um espaço de trabalho</p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
@@ -136,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -157,9 +161,9 @@ Old:
 
   Por exemplo, ao conectar Campanhas a outro tipo de registro chamado Produto e excluir o campo conectado Produto e o campo de pesquisa Status do Produto da campanha, as seguintes opções são excluídas:
 
-   * O campo Produto conectado da campanha
-   * O campo de pesquisa Status do produto da campanha
-   * O campo conectado do Campaign do produto
+  * O campo Produto conectado da campanha
+  * O campo de pesquisa Status do produto da campanha
+  * O campo conectado do Campaign do produto
 
   Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 

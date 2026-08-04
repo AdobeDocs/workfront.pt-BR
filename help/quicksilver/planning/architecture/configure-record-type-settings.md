@@ -9,20 +9,14 @@ exl-id: 4674d539-7a16-4d51-a564-e79dc9b4afca
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/d4nAXZ-yoVbPEpInRnGOsLGVILCLa4qT3P8HFcVO-LM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: 445
 ht-degree: 6%
 
 ---
@@ -67,30 +61,39 @@ Dependendo dos recursos que deseja definir para um tipo de registro, é possíve
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer pacote do Workfront e do Planning</p>
-<p>Qualquer pacote de Fluxo de Trabalho e Planejamento</p>
+<p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p>
+Ou 
+<p>Qualquer pacote do Planning quando adquirido como um produto independente</p>
 
 <p><b>Nota</b></p>
 
 <p>Para configurar tipos de registro conectáveis:</p>
 
 <ul> 
-<li><p>Qualquer pacote do Workfront e do Planning</p></li>
+<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li>
 Ou
-<li><p>Qualquer pacote de Workflow e um pacote do Planning Prime ou Ultimate</p></li></ul>
+<li>Um pacote do Planning Prime ou Ultimate quando adquirido como um produto independente</li>
+</ul>
 
 <p>Para configurar tipos de registro global:</p>
 
 <ul> 
 <li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
 Ou
-<li><p>Qualquer pacote de Workflow e um pacote do Planning Prime ou Ultimate</p></li></ul>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p>
+<li><p>Qualquer pacote de Workflow e um pacote do Planning Prime ou Ultimate</p></li>
+Ou
+<li>Um pacote do Planning Prime ou Independente quando adquirido como um produto independente </li>
 
-</td> </tr>
+</ul>
+  </td> </tr>
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
    </td> 
   </tr> 
   <tr> 
@@ -153,7 +156,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

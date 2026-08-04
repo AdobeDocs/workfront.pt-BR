@@ -9,20 +9,14 @@ exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/QGZ50tUPyUahPPrfvO94JQNVxuj7HQTjxwZ0hQyuKUM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 839
+source-wordcount: 861
 ht-degree: 3%
 
 ---
@@ -57,16 +51,26 @@ Para obter mais informações sobre como criar registros, consulte [Criar regist
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront e qualquer pacote do Planning</p> <p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+<p>Qualquer Workfront ou Fluxo de trabalho e um pacote do Planning</p> 
+Ou
+<p>Qualquer pacote do Planning quando adquirido como um produto independente</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr>
-
-<tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
+   </td> 
+  </tr>
+ <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td> <p>Contribute ou tenha permissões mais altas para o espaço de trabalho e tipo de registro em que você importa registros. </p>
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
@@ -127,7 +131,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect them from new records  </p>  
 </td> 
   </tr> 
@@ -149,21 +153,21 @@ Old:
 * Cada linha em cada planilha se torna um registro exclusivo associado.
 * Se o arquivo do Excel contiver mais de uma planilha, somente as informações de uma planilha selecionadas durante o processo de importação serão importadas.
 * O arquivo não deve exceder o seguinte:
-   * 25.000 linhas
-   * 500 colunas
+  * 25.000 linhas
+  * 500 colunas
 * O arquivo não deve ter mais de 5 MB.
 * Planilhas vazias não são suportadas.
 * Os campos dos seguintes tipos não são suportados e não podem ser mapeados para campos na planilha de importação:
 
-   * Campos de conexão para tipos de objeto Workfront e Adobe Experience Manager. Você pode mapear apenas campos de conexão para tipos de registro do Planning.
-   * Campos de pesquisa de registros conectados do Planning ou objetos do Workfront e Adobe Experience Manager
-   * Campos de fórmula
-   * Data de criação, Criado por
-   * Última data de modificação, Última modificação por
-   * Data de Aprovação, Aprovado por
-   * People
-   * ID do registro
-   * Se um campo de seleção única ou múltipla for importado e tiver mais opções do que um campo semelhante no Planning, as opções adicionais serão criadas durante a importação. Somente usuários com permissões para Gerenciar o espaço de trabalho podem importar novas opções.
+  * Campos de conexão para tipos de objeto Workfront e Adobe Experience Manager. Você pode mapear apenas campos de conexão para tipos de registro do Planning.
+  * Campos de pesquisa de registros conectados do Planning ou objetos do Workfront e Adobe Experience Manager
+  * Campos de fórmula
+  * Data de criação, Criado por
+  * Última data de modificação, Última modificação por
+  * Data de Aprovação, Aprovado por
+  * People
+  * ID do registro
+  * Se um campo de seleção única ou múltipla for importado e tiver mais opções do que um campo semelhante no Planning, as opções adicionais serão criadas durante a importação. Somente usuários com permissões para Gerenciar o espaço de trabalho podem importar novas opções.
 
 ## Criar registros importando um arquivo CSV ou do Excel
 

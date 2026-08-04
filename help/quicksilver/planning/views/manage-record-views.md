@@ -9,20 +9,14 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Uq0-7VfCb4nKr2xCXKmtJgwh0q-0iwTfu8mP2DgVBSU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1360
+source-wordcount: 1394
 ht-degree: 5%
 
 ---
@@ -67,8 +61,8 @@ Você pode visualizar registros em visualizações de vários formatos que ofere
 
   Para obter mais informações, consulte os seguintes artigos:
 
-   * [Adicionar uma página de registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
-   * [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md)
+  * [Adicionar uma página de registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+  * [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 Este artigo descreve as seguintes informações sobre visualizações de registro:
 
@@ -99,15 +93,29 @@ Para obter mais informações sobre o gerenciamento de exibições de registros 
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront e qualquer pacote do Planning</p>
-<p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
+Ou
+<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p> Padrão para criar e excluir visualizações</p>
-   <p>Colaborador ou superior para atualizar elementos de visualização</p>
+   <td><p>Fluxo de trabalho leve ou superior</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p> Planning Standard para criar e excluir visualizações</p>
+   <p>Colaborador do Planning ou superior para atualizar elementos de exibição</p>
+   <p><b>NOTA</b><p>
+   <p>Nem todos os clientes têm licenças do Planning Contributor</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
@@ -171,7 +179,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -197,14 +205,14 @@ Old:
 * Cada usuário pode criar no máximo 100 visualizações. Você pode exibir mais de 100 visualizações para um tipo de registro, mas um usuário pode criar apenas 100 visualizações.
 * Embora alguns elementos de exibição possam ser aplicados a várias exibições para o mesmo registro, eles são exclusivos para cada exibição de registro:
 
-   * Filtro
-   * Classificar (para a exibição de tabela)
-   * Cores da linha (para a exibição de tabela)
-   * Campos (para a exibição de tabela)
-   * Detalhamento (para a exibição de linha do tempo)
-   * Agrupamento (para as exibições de tabela e linha do tempo)
-   * Aparência da barra (para as visualizações de linha do tempo e calendário)
-   * Altura da linha (para a tabela e a exibição mensal do calendário)
+  * Filtro
+  * Classificar (para a exibição de tabela)
+  * Cores da linha (para a exibição de tabela)
+  * Campos (para a exibição de tabela)
+  * Detalhamento (para a exibição de linha do tempo)
+  * Agrupamento (para as exibições de tabela e linha do tempo)
+  * Aparência da barra (para as visualizações de linha do tempo e calendário)
+  * Altura da linha (para a tabela e a exibição mensal do calendário)
 
   Por exemplo, ao criar um filtro em uma exibição de tabela, os resultados do filtro ficam visíveis somente na exibição selecionada (a exibição de tabela) e não em todas as exibições associadas ao tipo de registro.
 

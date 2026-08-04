@@ -9,21 +9,15 @@ exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/zW-UgmPeIG-6sjZZelIiYE3JDNvpqQxb-a81Ggau2nQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 626
-ht-degree: 3%
+source-wordcount: 621
+ht-degree: 4%
 
 ---
 
@@ -55,12 +49,19 @@ Você pode excluir registros que não são mais relevantes no Adobe Workfront Pl
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront e qualquer pacote do Planning</p> <p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+<ul> 
+<li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
+Ou
+<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Padrão</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>licença do Adobe Planning</p></td> 
+   <td><p>Planejamento padrão</p>
    </td> 
   </tr> 
   <tr> 
@@ -123,7 +124,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -173,7 +174,7 @@ Old:
 1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do registro e clique em **Excluir** e depois em **Excluir** novamente para confirmar.
 
    ![Mais opções de menu da página de detalhes do registro](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-O registro é excluído.
+   O registro é excluído.
 1. (Opcional) Vá para a exibição de tabela da página de registro e clique no **ícone Desfazer** ![ícone Desfazer](assets/undo-icon.png) no canto superior direito da exibição e, em seguida, clique em **Excluído recentemente** para recuperar os registros excluídos.
 
 Para obter informações sobre como recuperar registros excluídos, consulte [Recuperar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md).
@@ -208,8 +209,8 @@ Para obter informações sobre como recuperar registros excluídos, consulte [Re
    * Clique no ícone **Desfazer** ![Ícone Desfazer](assets/undo-icon.png) e **Excluído recentemente** para recuperar os registros excluídos. Para obter informações sobre como recuperar registros excluídos, consulte [Recuperar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Use os atalhos de teclado a seguir para desfazer ou refazer a exclusão de um registro:
 
-      * CTRL + Z (⌘ + Z para Mac) para desfazer a exclusão de um registro
-      * CTRL + Shift + Z (⌘ + Shift + Z para Mac) para refazer a exclusão do registro
+     * CTRL + Z (⌘ + Z para Mac) para desfazer a exclusão de um registro
+     * CTRL + Shift + Z (⌘ + Shift + Z para Mac) para refazer a exclusão do registro
 
 
 
