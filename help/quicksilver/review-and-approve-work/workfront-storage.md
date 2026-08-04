@@ -6,9 +6,9 @@ description: Planeje a implantação do Workfront no Adobe Cloud Storage. Saiba 
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 6bfa9fd95de0301fea5f15885cc1aafbb2d14dbb
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2967'
+source-wordcount: '2936'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,20 @@ A nova área Documentos, o visualizador Frame.io e outros comportamentos de arma
 
 Este artigo é para administradores do Workfront que estão se preparando para implantar o Workfront no Adobe Cloud Storage. Ele aborda as principais diferenças nos objetos de armazenamento na nuvem do Adobe, como escolher o tipo de implantação e o que pensar antes de habilitar o armazenamento na nuvem do Adobe para seus usuários.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >* Você deve ter uma versão do Workfront compatível com o armazenamento em nuvem da Adobe. Se sua organização ainda não tiver uma versão compatível, entre em contato com o representante de conta da Adobe.
->* A migração para uma versão do Workfront compatível com o armazenamento em nuvem do Adobe move *todos* os fluxos de trabalho de aprovação existentes de Aprovações de documentos herdadas para Aprovações unificadas. Consulte [Unified Approvals se aplica independentemente do modelo de armazenamento](#unified-approvals-applies-regardless-of-storage-model) para obter mais informações.
 
 ## As aprovações unificadas se aplicam independentemente do modelo de armazenamento
 
-A migração para uma versão do Workfront compatível com o armazenamento em nuvem do Adobe move *todos* os fluxos de trabalho de aprovação existentes de Aprovações de documentos herdadas para Aprovações unificadas — para cada objeto, independentemente de ele permanecer no armazenamento herdado do Workfront ou ser movido para o armazenamento em nuvem do Adobe. Isso é diferente das opções de implantação de armazenamento descritas em [Escolha como o armazenamento na nuvem do Adobe é implantado](#choose-how-adobe-cloud-storage-rolls-out): essas opções controlam qual modelo de armazenamento os novos objetos usam, não se os fluxos de trabalho de aprovação são movidos para Aprovações Unificadas. Não há grupo piloto ou opção gradual para essa alteração, ela se aplica a toda a organização assim que você estiver em uma versão compatível.
+A migração para uma versão do Workfront compatível com o armazenamento em nuvem do Adobe move *todos* os fluxos de trabalho de aprovação existentes de Aprovações de documentos herdadas para Aprovações unificadas — para cada objeto, independentemente de ele permanecer no armazenamento herdado do Workfront ou ser movido para o armazenamento em nuvem do Adobe.
+
+
+>[!IMPORTANT]
+>
+>Isso é diferente das opções de implantação de armazenamento descritas em [Escolha como o armazenamento na nuvem do Adobe é implantado](#choose-how-adobe-cloud-storage-rolls-out): essas opções controlam qual modelo de armazenamento os novos objetos usam, não se os fluxos de trabalho de aprovação são movidos para Aprovações Unificadas.<br>
+>Não há grupo piloto ou opção gradual para essa alteração, ela se aplica a toda a organização assim que você estiver em uma versão compatível.
+
 
 Antes de implantar o Adobe Cloud Storage, verifique se as pessoas que gerenciam aprovações sabem o que esperar:
 
@@ -242,11 +248,13 @@ Você decide como o Adobe Cloud Storage é exibido para os usuários. Há duas c
 
 Para obter instruções passo a passo, consulte [Habilitar o Adobe Cloud Storage para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
+
+### Opções de configuração
+
 * **Somente armazenamento em nuvem do Adobe**: novos projetos usam o armazenamento em nuvem do Adobe por padrão. Os usuários não podem criar projetos herdados.
 * **Armazenamento em nuvem do Adobe e armazenamento herdado do Workfront**: quando os usuários criam um projeto, eles escolhem entre o armazenamento em nuvem do Adobe (rotulado como &quot;Novo projeto&quot;) e o armazenamento herdado do Workfront (rotulado &quot;Armazenamento herdado&quot;).
 
   ![escolher um tipo de projeto](assets/choose-project-type.png)
-
 
 
 >[!TIP]
