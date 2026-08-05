@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
+source-git-commit: d875b7e182b5b1782b4fae9d9b609e357bf876a3
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1438'
 ht-degree: 2%
 
 ---
@@ -107,9 +107,11 @@ Os Colaboradores de IA do revisor podem ser configurados para usar marcas da Wor
 
 ## Configurar um Colaborador de Tarefas
 
-Colaboradores de tarefas são agentes MCP que podem ser atribuídos a tarefas no Workfront. Você configura o Colaborador de Tarefas com um nome, nível de acesso e outros detalhes e o atribui como atribuiria a um usuário.
+Colaboradores de tarefas são agentes MCP que podem ser atribuídos a tarefas no Workfront. Você configura o Colaborador de Tarefas com um nome, nível de acesso e outros detalhes e o atribui a uma tarefa da mesma forma que atribuiria a um usuário.
 
 Como os Colaboradores de tarefas são agentes MCP, suas ações e habilidades são configuradas onde você configura seus agentes. Atualmente, os agentes usados como Colaboradores de tarefas podem ser criados no Copilot Studio, Claude ou Writer.
+
+Colaboradores de Tarefas podem ser atribuídos somente a tarefas e não podem ser atribuídos a problemas.
 
 Para obter uma lista de práticas recomendadas ao criar um agente para trabalhar como Colaborador de Tarefas, consulte [Práticas recomendadas para criar um agente para um Colaborador de Tarefas](#best-practices-for-creating-an-agent-for-a-task-collaborator).
 
@@ -129,7 +131,7 @@ Para obter uma lista de práticas recomendadas ao criar um agente para trabalhar
    | Plataforma | Autenticação necessária |
    |---|---|
    | Copilot Studio | Segredo do canal da web |
-   | Claude Managed Agents | Chave da API antropica<br>ID do agente<br>ID do ambiente |
+   | Agentes gerenciados do Claude | Chave da API antropica<br>ID do agente<br>ID do ambiente |
    | Gravador | Chave de API<br>ID do Aplicativo |
 
 1. Clique em **Testar conexão**. Isso permite saber se a conexão foi configurada corretamente.
@@ -178,6 +180,10 @@ As práticas recomendadas a seguir podem ser úteis ao criar um agente para usar
 +++
 -->
 +++ Gravador
+
+>[!NOTE]
+>
+> Você pode usar um agente Escritor como um Colaborador de Tarefas, mas os manuais do Escritor não podem ser usados como Colaboradores de Tarefas.
 
 Ao criar um agente para uso como um Colaborador de tarefas no Writer, recomendamos o seguinte fluxo de trabalho.
 
