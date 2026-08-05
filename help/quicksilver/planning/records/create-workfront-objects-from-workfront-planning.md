@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1340
+source-wordcount: 1364
 ht-degree: 4%
 
 ---
@@ -106,8 +106,16 @@ Para obter informações sobre como conectar registros do Planning a objetos do 
 <li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
 Ou
 <li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
+   </td>
+
+<tr> 
+   <td role="rowheader"><p>Produto</p></td> 
+   <td><p>Se sua organização adquiriu o Workfront Planning como um produto independente, você também deve comprar um pacote de Workflow para criar objetos do Workfront no Planning.</p>
    </td> 
-  <tr> 
+  </tr>
+
+
+<tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p>Workflow Standard</p>
    </td> 

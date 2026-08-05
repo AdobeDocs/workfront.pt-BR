@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '462'
 ht-degree: 7%
 
 ---
@@ -74,11 +74,15 @@ Para habilitar o Adobe Cloud Storage para sua organização:
    - **Organização inteira**: essa opção aplica o provedor de armazenamento padrão a todo o ambiente do Workfront. Sempre que um usuário criar um novo projeto, o provedor de armazenamento padrão será usado.
    - **Grupos específicos**: essa opção aplica o provedor de armazenamento padrão somente a grupos específicos dentro da organização. Sempre que um usuário nos grupos especificados criar um novo projeto, o provedor de armazenamento padrão será usado
 
+   ![grupos de preferência de armazenamento](assets/configure-storage-preference.png)
+
 1. Clique em **Salvar**.
 
    >[!NOTE]
    >
    >Os projetos existentes mantêm o modelo de armazenamento com o qual foram criados. Por exemplo, os projetos que usam o Adobe Cloud Storage continuam a usar o Adobe Cloud Storage após alterar a preferência de armazenamento padrão.
+
+
 
 ## Armazenamento em nuvem do Adobe em ambientes de sandbox
 

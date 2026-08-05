@@ -20,10 +20,10 @@ subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 4%
+source-wordcount: 960
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ Qualquer usuário pode adicionar o Revisor de conteúdo a uma solicitação de r
 
 * Sua instância do Workfront deve ter as Aprovações unificadas habilitadas.
 * Sua organização deve ter o GenStudio Foundation.
-   * O Revisor de conteúdo no Workfront fornece a funcionalidade disponível no GenStudio Foundation para revisão de ativos e fluxos de trabalho de aprovação. Não é necessário acessar o GenStudio Foundation diretamente para concluir o trabalho. Seu acesso à funcionalidade do GenStudio Foundation por meio do Revisor de conteúdo se enquadra nos termos de seu contrato com a Workfront.
+  * O Revisor de conteúdo no Workfront fornece a funcionalidade disponível no GenStudio Foundation para revisão de ativos e fluxos de trabalho de aprovação. Não é necessário acessar o GenStudio Foundation diretamente para concluir o trabalho. Seu acesso à funcionalidade do GenStudio Foundation por meio do Revisor de conteúdo se enquadra nos termos de seu contrato com a Workfront.
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
 Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato da Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 * O Revisor de conteúdo não está disponível em ambientes de sandbox.
@@ -83,12 +83,46 @@ Para configurar as diretrizes da marca, os administradores do sistema devem:
 Depois que pelo menos uma marca for configurada, os administradores do Workfront poderão começar a criar Revisores de conteúdo na área Configuração. Você pode criar vários Revisores de conteúdo com foco em diferentes diretrizes:
 
 * **Imagem**: este Revisor de Conteúdo revisará o ativo em relação às diretrizes de marca de imagem que você configurou no Workfront. [!BADGE Beta]{type=Positive tooltip="No momento, esse recurso está na versão beta."}
-   * Os administradores do sistema devem assinar o contrato beta para habilitar esse recurso.
+  * Os administradores do sistema devem assinar o contrato beta para habilitar esse recurso.
 * **Voz da marca**: o revisor de conteúdo revisará o ativo em relação às diretrizes de voz da marca que você configurou no Workfront.
 
 Os Revisores de conteúdo podem ser atribuídos a modelos de aprovação e a solicitações individuais de revisão e aprovação.
 
 Para obter mais informações, consulte [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+
+## O que o revisor de conteúdo avalia {#what-content-reviewer-evaluates}
+
+O Revisor de conteúdo avalia o conteúdo de forma diferente, dependendo do tipo de diretriz: Imagem ou Voz da marca.
+
+### Imagem
+
+O Revisor de conteúdo avalia:
+
+* **Composição**: ponto focal, plano de fundo, recorte, enquadramento criativo
+* **Luminosidade e humor**: uso de luz, vibração, otimismo
+* **Diversidade e inclusão**: representação de pessoas (raça, gênero, idade, habilidade)
+
+O Revisor de conteúdo não avalia:
+
+* **Uso do logotipo**: posicionamento, espaço livre, dimensionamento, versão correta do logotipo
+* **Paleta de cores**: conformidade de cores da marca, evitação de cores não aprovadas
+* **Tipografia**: família da fonte, pesos, espaçamento, alinhamento
+* **Estilo de ilustração**: consistência com a abordagem de ilustração da marca
+* **Acessibilidade**: conformidade com contraste, legibilidade
+
+### Voz da marca
+
+O Revisor de conteúdo avalia:
+
+* **Tone of voice**: conversacional, claro, humano, alinhado com a personalidade da marca
+* **Jargão/formalidade**: evitar chavões, elitismo ou formalidade excessiva
+* **Mensagens**: incentivo, honestidade, posicionamento responsável (por exemplo, para tópicos de IA)
+
+O Revisor de conteúdo não avalia:
+
+* **Avisos legais/conformidade**: uso de marca comercial, avisos de isenção de responsabilidade, regras de localização
+
+Para obter orientação sobre como escrever diretrizes de marca que se alinhem ao que o Revisor de Conteúdo avalia, consulte [Criar e gerenciar marcas para o Revisor de Conteúdo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Adicionar revisores de conteúdo para revisar e aprovar solicitações
 

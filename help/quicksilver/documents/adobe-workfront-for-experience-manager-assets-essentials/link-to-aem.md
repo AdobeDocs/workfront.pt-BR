@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: 1435
-ht-degree: 4%
+source-wordcount: 1467
+ht-degree: 3%
 
 ---
 
@@ -145,6 +145,14 @@ Para vincular conteúdo:
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >O Conteúdo recomendado no Supervisor de Conteúdo usa dados dos itens a seguir para determinar o conteúdo sugerido no Workfront:
+   >
+   >* Campos de nome e descrição do objeto do Workfront
+   >* Campos de formulário personalizados marcados como obrigatórios
+   >* Dados de documentos anexados
 
 
 ### Vincular uma nova versão do Experience Manager Assets com o Supervisor de conteúdo

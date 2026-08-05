@@ -23,9 +23,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: 1184
 ht-degree: 4%
 
 ---
@@ -58,14 +58,25 @@ Se uma linha estiver ausente da tabela Requisitos de acesso em um determinado ar
   <p>Sua organização pode ter comprado um pacote do Workfront em uma ou mais dessas áreas.</p>
   <p>Anteriormente, a Workfront oferecia os pacotes Workfront Select, Workfront Prime e Workfront Ultimate, sem distinguir entre Fluxo de trabalho, Planejamento e Automação e Integração. Sua organização pode estar em um desses pacotes herdados. 
    <ul><li>Para saber qual pacote do Adobe Workfront sua organização usa, incluindo se a organização está no modelo de pacote atual ou herdado, entre em contato com o administrador do Workfront.</li>
-   <li>Para obter instruções sobre como um administrador do Workfront pode localizar o pacote Workfront da sua organização, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Exibir o cluster da sua organização e o pacote Workfront</a>.</li><li>Para obter mais informações sobre os pacotes do Workfront, consulte <a href="https://business.adobe.com/br/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>.</li></ul> </td> 
+   <li>Para obter instruções sobre como um administrador do Workfront pode localizar o pacote Workfront da sua organização, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Exibir o cluster da sua organização e o pacote Workfront</a>.</li><li>Para obter mais informações sobre os pacotes do Workfront, consulte <a href="https://business.adobe.com/br/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>.</li></ul>
+
+Sua organização pode adquirir um pacote do Workfront Planning em uma das seguintes ofertas:
+
+<ul>
+    <li> Junto com um pacote de Fluxo de trabalho, com número idêntico de licenças de Fluxo de trabalho e Planejamento. </li>
+    <li>Junto com um pacote de Workflow, com um número incompatível de licenças entre o Workflow e o Planning. </li>
+    <li>Como um produto independente.</li></ul>
+
+A funcionalidade pode diferir entre as três ofertas do Workfront Planning. Para obter informações, consulte <a href="/help/quicksilver/planning/general/planning-overview.md" class="MCXref xref">Introdução ao Adobe Workfront Planning</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> As licenças do Adobe Workfront se referem ao conjunto de recursos do Workfront incluídos na licença atribuída a você. Por exemplo, um usuário pode ter uma licença que inclui a marcação da conclusão dos itens de trabalho e o registro do tempo, enquanto outro usuário tem uma licença que permite apenas aprovar ativos ou enviar solicitações. <p> 
    <p>As licenças da Adobe Workfront podem se referir aos seguintes tipos de licenças:</p>
-   <ul><li>Licenças do Workfront Workflow</li>
-  <li>Licenças do Workfront Planning</li></ul>
+   <ul><li><b>Licenças do fluxo de trabalho do Workfront</b>: disponível para todos os clientes que compram o Workfront. As licenças do Workflow são: Workflow Standard, Light, Contributor.</li>
+  <li><b>Licenças do Workfront Planning</b>: disponível para todos os clientes que compram qualquer uma das ofertas do Workfront Planning. As licenças do Planning são: Padrão, Colaborador, Sem Acesso. Os clientes que compram o Workfront Planning como um produto independente não têm uma licença de Colaborador.  </li></ul>
 
 <p>Para descobrir qual licença você está atribuído, entre em contato com o administrador do Workfront.</p>
    <p>Para obter informações sobre licenças, consulte:</p>

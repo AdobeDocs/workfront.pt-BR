@@ -6,9 +6,9 @@ description: Planeje a implantação do Workfront no Adobe Cloud Storage. Saiba 
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4821a7db4014b2a73c0466726ba3d239c318d5f0
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2702'
+source-wordcount: '2936'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,33 @@ ht-degree: 0%
 
 O Workfront no Adobe Cloud Storage permite a experiência completa de revisão e aprovação unificada: revisões no visualizador Frame.io, fluxos de trabalho de aprovação avançados, visibilidade entre produtos de ativos e muito mais.
 
-Os objetos existentes continuam a funcionar da maneira que funcionam hoje. A nova área Documentos, o visualizador Frame.io e outros comportamentos de armazenamento em nuvem do Adobe se aplicam apenas a objetos que usam o armazenamento em nuvem do Adobe.
+A nova área Documentos, o visualizador Frame.io e outros comportamentos de armazenamento em nuvem do Adobe descritos neste artigo se aplicam apenas a objetos que usam o armazenamento em nuvem do Adobe.
 
 Este artigo é para administradores do Workfront que estão se preparando para implantar o Workfront no Adobe Cloud Storage. Ele aborda as principais diferenças nos objetos de armazenamento na nuvem do Adobe, como escolher o tipo de implantação e o que pensar antes de habilitar o armazenamento na nuvem do Adobe para seus usuários.
 
+>[!NOTE]
+>
+>* Você deve ter uma versão do Workfront compatível com o armazenamento em nuvem da Adobe. Se sua organização ainda não tiver uma versão compatível, entre em contato com o representante de conta da Adobe.
+
+## As aprovações unificadas se aplicam independentemente do modelo de armazenamento
+
+A migração para uma versão do Workfront compatível com o armazenamento em nuvem do Adobe move *todos* os fluxos de trabalho de aprovação existentes de Aprovações de documentos herdadas para Aprovações unificadas — para cada objeto, independentemente de ele permanecer no armazenamento herdado do Workfront ou ser movido para o armazenamento em nuvem do Adobe.
+
+
 >[!IMPORTANT]
 >
->Você deve ter uma versão do Workfront compatível com o armazenamento em nuvem da Adobe. Se sua organização ainda não tiver uma versão compatível, entre em contato com o representante de conta da Adobe.
+>Isso é diferente das opções de implantação de armazenamento descritas em [Escolha como o armazenamento na nuvem do Adobe é implantado](#choose-how-adobe-cloud-storage-rolls-out): essas opções controlam qual modelo de armazenamento os novos objetos usam, não se os fluxos de trabalho de aprovação são movidos para Aprovações Unificadas.<br>
+>Não há grupo piloto ou opção gradual para essa alteração, ela se aplica a toda a organização assim que você estiver em uma versão compatível.
 
 
+Antes de implantar o Adobe Cloud Storage, verifique se as pessoas que gerenciam aprovações sabem o que esperar:
+
+* **Uma nova experiência de aprovações** Revisores e aprovadores migram da experiência de aprovação de documentos herdada para Aprovações unificadas, o que adiciona aprovações em vários estágios, caminhos de revisão paralela e muito mais. Para obter mais informações, consulte os seguintes artigos:
+
+  * [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+  * [Funcionalidade disponível para aprovações de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+* **Um novo local de relatórios** Os dados e relatórios do fluxo de trabalho de aprovação unificado são movidos para Painéis do Canvas. Os relatórios de aprovação herdados existentes não são transferidos automaticamente. Para obter mais informações, consulte [Criar um painel de relatório para revisão e aprovações](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+* **Possíveis atualizações de cenário do Fusion** Os cenários do Fusion existentes criados em aprovações de documentos herdados podem precisar ser editados, recriados ou removidos para funcionarem com Aprovações Unificadas. Para obter mais informações, consulte [Atualizar cenários do Workfront Fusion para revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
 
 ## Entenda o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe
 
@@ -230,11 +248,13 @@ Você decide como o Adobe Cloud Storage é exibido para os usuários. Há duas c
 
 Para obter instruções passo a passo, consulte [Habilitar o Adobe Cloud Storage para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
+
+### Opções de configuração
+
 * **Somente armazenamento em nuvem do Adobe**: novos projetos usam o armazenamento em nuvem do Adobe por padrão. Os usuários não podem criar projetos herdados.
 * **Armazenamento em nuvem do Adobe e armazenamento herdado do Workfront**: quando os usuários criam um projeto, eles escolhem entre o armazenamento em nuvem do Adobe (rotulado como &quot;Novo projeto&quot;) e o armazenamento herdado do Workfront (rotulado &quot;Armazenamento herdado&quot;).
 
   ![escolher um tipo de projeto](assets/choose-project-type.png)
-
 
 
 >[!TIP]

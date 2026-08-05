@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 5377
+source-wordcount: 5442
 ht-degree: 2%
 
 ---
@@ -206,6 +206,10 @@ Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilve
 Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Criar campos importando-os do Workfront
+
+>[!IMPORTANT]
+>
+>A criação de campos importando-os do Workfront não está disponível para clientes que compraram o Planning como um produto independente.
 
 É possível importar cópias de campos existentes do Workfront.
 
