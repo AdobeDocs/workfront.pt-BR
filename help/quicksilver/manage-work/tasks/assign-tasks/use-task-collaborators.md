@@ -4,7 +4,7 @@ content-type: reference
 description: Saiba como usar Colaboradores de tarefas, Colaboradores de IA que podem ser atribuídos a tarefas do Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: f1bdb685cb7974c5c445377e0baa4f4b4e7dfa13
+source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 6%
@@ -31,7 +31,7 @@ Para obter informações e instruções sobre como criar um Colaborador de Taref
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] pacote</td> 
-   <td><p>Standard, Prime ou Ultimate</p></td> 
+   <td><p>Select, Prime ou Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] licença</td> 
