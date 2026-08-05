@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: b4cc76f51dfd2a08ce8beb31ef6d2d91f55abbef
+source-git-commit: d875b7e182b5b1782b4fae9d9b609e357bf876a3
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1438'
 ht-degree: 2%
 
 ---
@@ -107,9 +107,11 @@ Os Colaboradores de IA do revisor podem ser configurados para usar marcas da Wor
 
 ## Configurar um Colaborador de Tarefas
 
-Colaboradores de tarefas são agentes MCP que podem ser atribuídos a tarefas no Workfront. Você configura o Colaborador de Tarefas com um nome, nível de acesso e outros detalhes e o atribui como atribuiria a um usuário.
+Colaboradores de tarefas são agentes MCP que podem ser atribuídos a tarefas no Workfront. Você configura o Colaborador de Tarefas com um nome, nível de acesso e outros detalhes e o atribui a uma tarefa da mesma forma que atribuiria a um usuário.
 
 Como os Colaboradores de tarefas são agentes MCP, suas ações e habilidades são configuradas onde você configura seus agentes. Atualmente, os agentes usados como Colaboradores de tarefas podem ser criados no Copilot Studio, Claude ou Writer.
+
+Colaboradores de Tarefas podem ser atribuídos somente a tarefas e não podem ser atribuídos a problemas.
 
 Para obter uma lista de práticas recomendadas ao criar um agente para trabalhar como Colaborador de Tarefas, consulte [Práticas recomendadas para criar um agente para um Colaborador de Tarefas](#best-practices-for-creating-an-agent-for-a-task-collaborator).
 
