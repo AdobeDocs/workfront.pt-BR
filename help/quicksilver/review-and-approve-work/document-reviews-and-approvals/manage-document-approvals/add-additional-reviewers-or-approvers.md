@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: 745
 ht-degree: 5%
 
 ---
@@ -166,7 +166,7 @@ Para adicionar aprovadores ou revisores adicionais a partir do Resumo do Documen
 
 1. Clique em **Editar workflow**. A caixa de diálogo Solicitar aprovação é aberta no modo em que a aprovação foi salva pela última vez: Básico para aprovações de estágio único ou Avançado para aprovações de vários estágios e aprovações com caminhos paralelos.
 
-1. Adicionar usuário, equipe ou email:
+1. Adicionar o usuário ou email:
 
    * No modo Básico, digite o nome ou email no campo **Adicionar nomes ou emails**.
    * No modo Avançado, selecione o caminho que contém o estágio que você deseja atualizar e digite o nome ou email no campo **Adicionar nomes ou emails** do estágio.
