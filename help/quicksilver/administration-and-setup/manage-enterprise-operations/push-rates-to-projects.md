@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
+source-git-commit: 22e8acb748ddc4768dc1724aaa2f515b863ab0cf
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 9%
+source-wordcount: '346'
+ht-degree: 8%
 
 ---
 
 # Alterações na taxa de push em projetos
 
-Quando um cartão de taxas é anexado a um projeto <!--or a staffing plan-->, as taxas no cartão de taxas ainda podem ser ajustadas. Em seguida, você pode enviar essas taxas para os projetos aos quais o cartão de taxa está anexado. Se você não aumentar as novas taxas, as taxas originais permanecerão no projeto.
+Quando um cartão de taxas é anexado a um projeto<!--or a staffing plan-->, as taxas no cartão de taxas ainda podem ser ajustadas. Em seguida, você pode enviar essas taxas para os projetos aos quais o cartão de taxa está anexado. Se você não aumentar as novas taxas, as taxas originais permanecerão no projeto.
 <!-- and staffing plans -->
 <!-- or staffing plan -->
+
+>[!NOTE]
+>
+>Se uma função de trabalho ou taxa de cobrança do usuário for manualmente substituída no nível do projeto, essa taxa permanecerá no projeto quando as alterações no cartão de taxa forem enviadas para o projeto. Somente as taxas vinculadas ao cartão de taxa são atualizadas.
 
 Para obter informações sobre como anexar um cartão de taxa a um projeto, consulte [Anexar um cartão de taxa a um projeto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
