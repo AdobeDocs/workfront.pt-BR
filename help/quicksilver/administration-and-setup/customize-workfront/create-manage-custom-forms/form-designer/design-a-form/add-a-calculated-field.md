@@ -9,21 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 2721
+source-wordcount: 2734
 ht-degree: 9%
 
 ---
@@ -203,7 +196,7 @@ Para reutilizar um campo personalizado calculado existente:
 
 1. Na caixa **Cálculo**, comece a criar seu cálculo:
    1. Clique em **Maximizar** para abrir o Editor de Cálculo e criar seu cálculo.
-Um cálculo geralmente começa com uma expressão, seguida por parênteses contendo os campos que você deseja referenciar quando o formulário personalizado é anexado a um objeto.
+      Um cálculo geralmente começa com uma expressão, seguida por parênteses contendo os campos que você deseja referenciar quando o formulário personalizado é anexado a um objeto.
 
       Cada campo deve estar entre chaves. Quando você começa a digitar o nome de um campo, o sistema faz sugestões e você pode selecionar uma para inseri-la no cálculo.
 
@@ -231,7 +224,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
 
         O sistema lista todos os campos personalizados que você pode escolher ao digitar `DE:`.
 
-         * Para que o cálculo faça referência a um campo que extrairá dados do objeto *pai* quando o formulário personalizado for anexado a um objeto, você deve preceder o nome do campo com o tipo de objeto do objeto pai, também entre chaves.
+        * Para que o cálculo faça referência a um campo que extrairá dados do objeto *pai* quando o formulário personalizado for anexado a um objeto, você deve preceder o nome do campo com o tipo de objeto do objeto pai, também entre chaves.
 
         Por exemplo, se o formulário personalizado estiver configurado para funcionar com tarefas e você quiser que o campo calcule a receita real do objeto pai quando o formulário for anexado a uma tarefa, será necessário indicar `Project` como o tipo de objeto do campo:
 
@@ -261,9 +254,13 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
 
         >[!NOTE]
         >
-        >A sintaxe de um campo de digitação antecipada é um pouco diferente de outros tipos de campos, pois você precisa adicionar `:name` no final.
+        >A sintaxe de um campo de pesquisa interna é um pouco diferente de outros tipos de campos, pois é necessário adicionar `:name` no final.
         >
-        >Por exemplo, para fazer referência à opção selecionada em um campo de digitação antecipada personalizado chamado &quot;Patrocinador executivo&quot;, você digitaria:
+        >Por exemplo, para fazer referência à opção selecionada em um campo de pesquisa interno personalizado chamado &quot;Patrocinador executivo&quot;, você digitaria:
+        >
+        >`{DE:Executive sponsor}.{name}`
+        >
+        >No mesmo exemplo, usando um campo de digitação antecipada, você digitaria:
         >
         >`{DE:Executive sponsor:name}`
 
@@ -299,13 +296,13 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
 
         Os campos personalizados calculados em um objeto são recalculados automaticamente quando as seguintes situações ocorrem:
 
-         * Algo no objeto muda, como um cálculo diário da linha do tempo.
-         * Alguém edita outro campo que é referenciado por um campo personalizado calculado no objeto.
-         * A expressão calculada está vazia e o campo contém um valor, isso define o valor como nulo.
+        * Algo no objeto muda, como um cálculo diário da linha do tempo.
+        * Alguém edita outro campo que é referenciado por um campo personalizado calculado no objeto.
+        * A expressão calculada está vazia e o campo contém um valor, isso define o valor como nulo.
 
-           >[!NOTE]
-           >
-           ><div>Em um formulário personalizado anexado a um objeto, os demonstrativos de data e hora em campos personalizados calculados são calculados e salvos pelo Tempo universal coordenado (UTC), não pelas configurações de fuso horário definidas para a instância da organização e o perfil do usuário. Os cálculos em um formulário personalizado são gerados com base nos fusos horários individuais de cada usuário.</div>
+          >[!NOTE]
+          >
+          ><div>Em um formulário personalizado anexado a um objeto, os demonstrativos de data e hora em campos personalizados calculados são calculados e salvos pelo Tempo universal coordenado (UTC), não pelas configurações de fuso horário definidas para a instância da organização e o perfil do usuário. Os cálculos em um formulário personalizado são gerados com base nos fusos horários individuais de cada usuário.</div>
 
         +++
 

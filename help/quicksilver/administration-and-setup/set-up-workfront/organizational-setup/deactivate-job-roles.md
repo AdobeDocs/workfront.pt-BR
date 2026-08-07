@@ -9,22 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
 TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 644
 ht-degree: 6%
 
 ---
@@ -34,8 +26,6 @@ ht-degree: 6%
 Como administrador do [!DNL Adobe Workfront] ou usuário com acesso administrativo às Funções de Trabalho, você pode desativar funções de trabalho que se tornam obsoletas no sistema. Ao desativar uma função de trabalho em vez de excluí-la, você pode manter todas as informações históricas associadas a ela.
 
 Você também pode reativar funções de trabalho que foram desativadas anteriormente.
-
-## Requisitos de acesso
 
 ## Requisitos de acesso
 
@@ -78,7 +68,7 @@ Se você desativar uma função de trabalho, ela não será mais exibida nas seg
   >Quando você adiciona uma nova função a um usuário, uma função de trabalho desativada não é exibida. Mas ele continua a ser exibido nos campos [!UICONTROL Função principal] e [!UICONTROL Outras funções] se o usuário tiver sido associado à função de trabalho antes de ser desativado.
 
 * A caixa de diálogo [!UICONTROL Compartilhamento] para objetos, incluindo atribuição de modelo de layout
-* Campos de digitação antecipada em formulários personalizados
+* Campos Pesquisa interna e Digitação antecipada em formulários personalizados
 * O campo [!UICONTROL Membros do Pool] em [!UICONTROL Pools de Recursos]
 * O campo [!UICONTROL Função de trabalho] de uma tela de edição [!UICONTROL Taxa de Cobrança] quando um usuário substitui taxas de cobrança para projetos
 * A caixa de diálogo [!UICONTROL Adicionar atribuição ao Quadro Kanban] em um projeto
@@ -114,8 +104,8 @@ Recomendamos que você faça o seguinte antes de desativar uma função de traba
 
   Para obter informações sobre como criar processos de aprovação e regras de roteamento, consulte os seguintes artigos:
 
-   * [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [Criar regras de roteamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+  * [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+  * [Criar regras de roteamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## Desativar uma função de trabalho
 

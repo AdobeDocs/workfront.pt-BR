@@ -8,9 +8,9 @@ feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '450'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,7 @@ Você pode desativar as equipes que não usam mais enquanto retém os dados hist
   <tr> 
    <td> 
     <ul> 
-     <li> <p>Campos de digitação antecipada em formulários personalizados</p> </li> 
+     <li> <p>Campos de pesquisa interna ou digitação antecipada em formulários personalizados</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Caixa de diálogo de compartilhamento para objetos</p> </li> 

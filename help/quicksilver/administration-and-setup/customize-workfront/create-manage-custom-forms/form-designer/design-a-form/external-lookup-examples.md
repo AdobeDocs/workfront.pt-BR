@@ -9,21 +9,15 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
 TQID: https://experienceleague.adobe.com/y3cDoyu3OELK9IQjRPrN4-n8kVdOLQlIHhI7yS6p6OU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1477
-ht-degree: 5%
+source-wordcount: 1467
+ht-degree: 4%
 
 ---
 
@@ -178,7 +172,7 @@ Este exemplo mostra como chamar uma API de países (como <https://api.first.org/
    * Você pode adicionar $$QUERY para implementar a filtragem de consultas para seus usuários finais.
 
    **Exemplos**
-Lista todos os países: <https://api.first.org/data/v1/countries>
+   Lista todos os países: <https://api.first.org/data/v1/countries>
 
    Permite que o usuário pesquise por qualquer país no campo suspenso: <https://api.first.org/data/v1/countries?q=$$QUERY>
 
@@ -232,7 +226,7 @@ Há muitos outros casos de uso para criar uma pesquisa externa.
 Exemplo de URL da API base para modelos, para substituir um campo de digitação antecipada:
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**Caso de uso:** crie campos suspensos com mais recursos (por exemplo, há quebra automática de linha no campo Pesquisa externa).
+**Caso de uso:** crie campos suspensos com mais recursos (por exemplo, há uma quebra de linha no campo de pesquisa Externa).
 **Solução:** use uma chamada de API para objetos existentes no sistema ou crie um novo objeto e use uma chamada de API para esse objeto.
 
 **Caso de uso:** defina uma maneira para os usuários manterem seus próprios campos fora da área de formulários personalizados. Configure o campo Pesquisa externa e forneça aos usuários os objetos que compõem o campo. Essa opção é boa para campos e equipes de alta manutenção.
