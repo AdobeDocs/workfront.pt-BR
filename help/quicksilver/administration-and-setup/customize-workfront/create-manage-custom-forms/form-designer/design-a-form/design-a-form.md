@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 7922
+source-wordcount: 7962
 ht-degree: 77%
 
 ---
@@ -251,7 +251,7 @@ Para adicionar um campo de texto:
     <tr>
     <td>Rótulo</td>
     <td><p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.<p>
-    <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p></td>
+    <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p></td>
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
@@ -349,9 +349,9 @@ Para adicionar um campo de texto:
 
    Para copiar um campo, passe o mouse sobre ele e clique no ícone Copiar.
 
-   ![ícone de copiar](assets/copy-field.png)
+   ![Ícone Copiar](assets/copy-field.png)
 
-1. Para salvar as alterações, clique em **Aplicar** e acesse outra seção para continuar criando o formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    Ou
 
@@ -402,7 +402,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e listas suspen
     </tr>
     <tr> 
      <td role="rowheader">Rótulo</td> 
-     <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+     <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      <td><ul>
     <li>Botões de opção</li>
     <li>Grupo de caixas de seleção</li>
@@ -695,7 +695,7 @@ Para adicionar campos de data:
     <tbody> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome da API</td> 
@@ -726,9 +726,9 @@ Para adicionar campos de data:
 
    Para copiar um campo, passe o mouse sobre ele e clique no ícone Copiar.
 
-   ![ícone de copiar](assets/copy-field.png)
+   ![Ícone Copiar](assets/copy-field.png)
 
-1. Para salvar as alterações, clique em **Aplicar** e acesse outra seção para continuar criando o formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    Ou
 
@@ -755,12 +755,12 @@ Para adicionar uma pesquisa externa:
     <tbody> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome da API</td> 
       <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Mas os campos Rótulo e Nome da API não são sincronizados — isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
-      <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td>
+      <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instruções</td> 
       <td> <p>Digite quaisquer informações adicionais sobre o campo personalizado. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</p> </td> 
@@ -805,12 +805,12 @@ Para adicionar uma pesquisa externa:
      </tr>
      <tr> 
       <td role="rowheader">Caminho JSON</td>
-      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar “$.data[*].name” para selecionar EUA e Canadá como opções de lista suspensa:</br>
+      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no formato a seguir, será possível usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
       &lbrace;
-       data: &lbrace;
-         { name: "EUA"},
-         { name: "Canadá"}
+       dados: &lbrace;
+         { name: "USA"},
+         { name: "Canada"}
        &rbrace;
       &rbrace;
       </pre>
@@ -883,12 +883,12 @@ Para adicionar uma pesquisa interna:
     <tbody> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome da API</td> 
       <td> <p>(Obrigatório) Esse nome é a maneira como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome da API é preenchido automaticamente para corresponder a ele. Mas os campos Rótulo e Nome da API não são sincronizados — isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
-      <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td>
+      <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Observações sobre nomes e rótulos de campos</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instruções</td> 
       <td> <p>Digite quaisquer informações adicionais sobre o campo personalizado. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</p> </td> 
@@ -985,7 +985,7 @@ Para adicionar imagens, PDFs ou vídeos:
      </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome da API</td> 
@@ -1024,9 +1024,9 @@ Para adicionar imagens, PDFs ou vídeos:
 
    Para copiar um campo, passe o mouse sobre ele e clique no ícone Copiar.
 
-   ![ícone de copiar](assets/copy-field.png)
+   ![Ícone Copiar](assets/copy-field.png)
 
-1. Para salvar as alterações, clique em **Aplicar** e acesse outra seção para continuar criando o formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    Ou
 
@@ -1135,7 +1135,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome da API</td>
@@ -1163,7 +1163,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>Use a sintaxe de filtro dinâmico para restringir a lista de itens neste campo com base no valor de outro campo. Por exemplo, quando você usa <code>?portfolioID={portfolio}.{ID}</code> em um filtro de campo de Projeto e um campo nativo do Portfolio está no formulário personalizado, o campo Projeto mostra somente os projetos que estão no portfólio selecionado. Se o campo Portfolio for deixado em branco, todos os projetos estarão disponíveis no campo Projeto.</p>
        <p><b>Observação</b>:
        <ul> 
-        <li>A opção de filtro só está disponível quando você faz referência a um campo de pesquisa interno ou de digitação antecipada nativa, como Portfolio, Empresa ou Proprietário.</li>
+        <li>A opção de filtro só está disponível quando você faz referência a uma pesquisa interna nativa ou campo de digitação antecipada, como Portfolio, Empresa ou Proprietário.</li>
         <li>Se você estiver editando um formulário personalizado existente, adicionar um filtro a um campo nativo não removerá nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
         <li>Esse filtro não está disponível em dispositivos móveis. Se você usar o filtro para um campo nativo, o campo aparecerá nos dispositivos móveis dos usuários sem ser afetado pelo filtro.</li> 
         </ul></p></td> 
@@ -1208,7 +1208,7 @@ Para adicionar um arquivo do Adobe XD:
      </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Exigido) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais nesse rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome da API</td> 
@@ -1218,7 +1218,7 @@ Para adicionar um arquivo do Adobe XD:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obrigatório) Digite ou cole um link de protótipo válido do XD.</p> 
-      <p><b>Observação</b>: a configuração de Acesso ao Link na guia Compartilhar do Adobe XD deve ser definida como Qualquer pessoa com o link. Caso contrário, os usuários não poderão visualizar o protótipo. 
+      <p><b>Observação</b>: a configuração de Acesso ao link na guia Compartilhar do Adobe XD deve ser definida como Qualquer pessoa que tenha o link. Caso contrário, os usuários não poderão visualizar o protótipo. 
    </td> 
      </tr> 
      <tr> 
@@ -1239,9 +1239,9 @@ Para adicionar um arquivo do Adobe XD:
 
    Para copiar um campo, passe o mouse sobre ele e clique no ícone Copiar.
 
-   ![ícone de copiar](assets/copy-field.png)
+   ![Ícone Copiar](assets/copy-field.png)
 
-1. Para salvar as alterações, clique em **Aplicar** e acesse outra seção para continuar criando o formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    Ou
 
@@ -1335,9 +1335,9 @@ Para adicionar um campo de conexão do Planejamento:
 
    Para copiar um campo, passe o mouse sobre ele e clique no ícone Copiar.
 
-   ![ícone de copiar](assets/copy-field.png)
+   ![Ícone Copiar](assets/copy-field.png)
 
-1. Para salvar as alterações, clique em **Aplicar** e acesse outra seção para continuar criando o formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    Ou
 

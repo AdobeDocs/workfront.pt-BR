@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1823
 ht-degree: 4%
 
 ---
@@ -142,7 +142,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
    Para obter mais informações sobre os campos exibidos nas colunas, consulte [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![Adicionar digitação antecipada de coluna](assets/nwe-add-column-typeahead-350x459.png)
+   ![Adicionar coluna](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (Opcional) Na área **Configurações de Coluna**, selecione **Classificar por esta coluna** para classificar os valores da coluna em ordem alfabética crescente ou decrescente e indique se a lista deve usar esta coluna como sua primeira classificação.
 
