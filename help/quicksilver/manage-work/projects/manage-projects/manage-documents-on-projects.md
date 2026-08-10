@@ -152,7 +152,7 @@ This is not possible anymore:
 * Não é possível adicionar um projeto de armazenamento em nuvem do Adobe a um portfólio de armazenamento herdado ou um projeto de armazenamento herdado a um portfólio de armazenamento do Adobe.
 * Seu administrador pode converter um portfólio de armazenamento herdado em um armazenamento em nuvem do Adobe na área Preferências do sistema da Configuração. Todos os objetos secundários (programas, projetos e documentos) permanecem no armazenamento herdado. Os novos projetos usarão o armazenamento em nuvem do Adobe. Os novos documentos adicionados ao portfólio continuarão a ser armazenados no armazenamento herdado.
 Para obter informações, consulte [Configurar preferências do sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-* <!-- this point also repeats for programs below-->Se um portfólio for convertido do armazenamento de dados herdado para o armazenamento de dados em nuvem do Adobe e o programa tiver armazenamento de dados herdado, um projeto no programa também usará o armazenamento de dados herdado.
+* &#x200B;<!-- this point also repeats for programs below-->Se um portfólio for convertido do armazenamento de dados herdado para o armazenamento de dados em nuvem do Adobe e o programa tiver armazenamento de dados herdado, um projeto no programa também usará o armazenamento de dados herdado.
 
   Não é mais possível adicionar projetos de armazenamento herdados existentes a este portfólio.
 
@@ -171,7 +171,7 @@ Leve em consideração o seguinte ao trabalhar com programas:
 * Não é possível adicionar um programa de armazenamento em nuvem do Adobe a um portfólio de armazenamento herdado, nem um programa herdado a um portfólio de armazenamento em nuvem do Adobe.
 * Não é possível criar um projeto a partir de um modelo de armazenamento na nuvem do Adobe em um programa de armazenamento herdado.
 * Você pode criar um projeto a partir de um modelo de armazenamento herdado em um programa de armazenamento na nuvem do Adobe, mas os documentos e as pastas no modelo não são adicionados ao novo projeto. O projeto recebe o armazenamento em nuvem do Adobe.
-* <!-- this point also repeats for portfolios above-->Se um portfólio for convertido do armazenamento de dados herdado para o armazenamento de dados em nuvem do Adobe e o programa tiver armazenamento de dados herdado, um projeto no programa também usará o armazenamento de dados herdado.
+* &#x200B;<!-- this point also repeats for portfolios above-->Se um portfólio for convertido do armazenamento de dados herdado para o armazenamento de dados em nuvem do Adobe e o programa tiver armazenamento de dados herdado, um projeto no programa também usará o armazenamento de dados herdado.
 
   Não é mais possível adicionar projetos de armazenamento herdados existentes a este portfólio.
 
