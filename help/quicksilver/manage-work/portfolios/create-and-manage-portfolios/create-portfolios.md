@@ -9,21 +9,14 @@ exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/p47W1Seb-Ew-p-ogdb-ebjLAuxvY-0rdRHLMQtWCH30
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: 902
 ht-degree: 3%
 
 ---
@@ -112,10 +105,10 @@ Você pode criar portfólios no Workfront usando um dos seguintes métodos:
 
 * Adicione portfólios do Workfront Planning das seguintes maneiras:
 
-   * Ao conectá-los a partir de um tipo de registro no Workfront Planning.
+  * Ao conectá-los a partir de um tipo de registro no Workfront Planning.
 
   Para obter informações sobre como criar portfólios adicionando-os a registros, consulte a seção &quot;Criar registros conforme você os conecta&quot; no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
-   * Uso das automações do Workfront Planning.
+  * Uso das automações do Workfront Planning.
 
   Para obter informações, consulte [Criar objetos usando as automações de registro do Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
@@ -145,17 +138,19 @@ Você pode criar portfólios no Workfront usando um dos seguintes métodos:
 
      Um portfólio é criado e seu nome padrão segue os seguintes padrões, dependendo de qual armazenamento o Workfront usa para documentos:
 
-      * `Untitled Portfolio` para um portfólio de armazenamento herdado do Workfront.
+     * `Untitled Portfolio` para um portfólio de armazenamento herdado do Workfront.
 
-        Um portfólio de armazenamento herdado do Workfront exibe um **ícone de armazenamento herdado do Workfront** ![ícone de portfólio de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado de seu nome.
+       Um portfólio de armazenamento herdado do Workfront exibe um **ícone de armazenamento herdado do Workfront** ![ícone de portfólio de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado de seu nome.
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` para um portfólio de armazenamento em nuvem da Adobe
+     * `Untitled Portfolio - < Month day, year hour.minute.second >` para um portfólio de armazenamento em nuvem da Adobe
 
-        >[!IMPORTANT]
-        >
-        >Os portfólios que usam o armazenamento em nuvem do Adobe devem ter nomes exclusivos.
+       >[!IMPORTANT]
+       >
+       >Os portfólios que usam o armazenamento em nuvem do Adobe devem ter nomes exclusivos.
 
      Para portfólios de armazenamento em nuvem do Adobe, uma nova pasta de documentos com o mesmo nome do portfólio é criada automaticamente na área Documentos.
+
+     Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. Substitua o nome do portfólio por um novo nome no cabeçalho do portfólio.
 
