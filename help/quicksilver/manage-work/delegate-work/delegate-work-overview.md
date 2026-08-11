@@ -4,7 +4,8 @@ content-type: overview
 navigation-topic: delegate-work
 title: Delegar visão geral do trabalho
 description: Quando você planeja ficar fora do escritório por um curto período de tempo, pode delegar temporariamente seu trabalho a outros usuários para garantir que sua ausência não se torne um obstáculo para a conclusão do trabalho.
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
@@ -25,7 +26,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 2%
@@ -70,9 +71,9 @@ Considere o seguinte ao delegar tarefas e problemas:
 * Você pode delegar tarefas e problemas somente da área [!UICONTROL Página inicial].
 * Ao delegar trabalho, há exceções para os seguintes tipos de licença:
 
-   * Você pode delegar trabalho a Revisores ou Solicitantes, embora [!DNL Workfront] não o recomende.
-   * Os revisores podem delegar trabalho a outros. Eles não podem exibir itens de trabalho em sua área [!UICONTROL Residência]. Eles podem exibir somente aprovações.
-   * Os solicitantes não podem delegar trabalho a outras pessoas. Eles não podem exibir itens de trabalho em sua área [!UICONTROL Residência]
+  * Você pode delegar trabalho a Revisores ou Solicitantes, embora [!DNL Workfront] não o recomende.
+  * Os revisores podem delegar trabalho a outros. Eles não podem exibir itens de trabalho em sua área [!UICONTROL Residência]. Eles podem exibir somente aprovações.
+  * Os solicitantes não podem delegar trabalho a outras pessoas. Eles não podem exibir itens de trabalho em sua área [!UICONTROL Residência]
 * Você só pode delegar tarefas e problemas atribuídos a você. Não é possível delegar tarefas e problemas atribuídos a outros usuários, equipes ou funções de trabalho.
 * Você só pode delegar tarefas e problemas que não tenham sido concluídos antes da data de início da delegação.
 * Se um item de trabalho for concluído durante o período de delegação, ele permanecerá na área Página inicial do delegado e do destinatário por 2 semanas antes de [!DNL Workfront] o remover automaticamente.

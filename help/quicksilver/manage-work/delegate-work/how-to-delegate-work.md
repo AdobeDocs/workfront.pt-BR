@@ -3,7 +3,8 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Delegar tarefas e problemas
 description: Você pode delegar temporariamente o trabalho ao qual está atribuído enquanto estiver fora do escritório. Este artigo descreve como delegar atribuições de tarefas e problemas.
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50.000Z
@@ -24,7 +25,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 1556
 ht-degree: 3%

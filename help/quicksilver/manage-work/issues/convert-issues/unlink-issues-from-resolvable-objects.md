@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Desvincular problemas de seus objetos de resolução
 description: Ao criar um projeto ou uma tarefa convertendo um problema em um projeto ou tarefa, você tem a opção de manter o problema original. O administrador do Adobe Workfront deve habilitar essa preferência para que você tenha essa opção durante a conversão do problema. Para obter mais informações sobre a conversão de problemas em projetos e tarefas, consulte Visão geral da conversão de problemas no Adobe Workfront.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 429
 ht-degree: 11%

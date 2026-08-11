@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Visão geral da conversão de problemas no Adobe Workfront
 description: Se for necessário trabalhar mais para concluir um problema depois que ele for enviado, você pode converter o problema em um projeto ou em uma tarefa.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 topic: Collaboration
 role: User
@@ -25,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 1531
+source-wordcount: 1547
 ht-degree: 4%
 
 ---
@@ -50,8 +51,8 @@ Para obter informações sobre como converter problemas em projetos, consulte [C
 * O Workfront substitui o Objeto de resolução do problema ao convertê-lo em uma tarefa ou em um projeto. A nova tarefa ou problema se torna o novo Objeto de resolução do problema após a conversão.
 * Considere o seguinte:
 
-   * Durante a conversão, você pode ser perguntado se deseja manter o problema e sua resolução vinculados ao projeto ou tarefa que está sendo criada.
-   * Se você manter o problema, o status e o percentual concluído do projeto ou da tarefa atualizarão automaticamente o status e o percentual concluído do problema quando ocorrerem alterações no projeto, na tarefa ou no problema, ou quando a Workfront recalcular a linha do tempo.
+  * Durante a conversão, você pode ser perguntado se deseja manter o problema e sua resolução vinculados ao projeto ou tarefa que está sendo criada.
+  * Se você manter o problema, o status e o percentual concluído do projeto ou da tarefa atualizarão automaticamente o status e o percentual concluído do problema quando ocorrerem alterações no projeto, na tarefa ou no problema, ou quando a Workfront recalcular a linha do tempo.
 
   >[!NOTE]
   >
@@ -65,11 +66,11 @@ Para obter informações sobre como converter problemas em projetos, consulte [C
 * Ao converter um problema em um projeto usando um modelo, a maioria das informações do modelo é transferida para o novo projeto. No entanto, algumas informações do problema também podem ser transferidas para o novo projeto. Para obter mais informações, consulte a seção [Visão geral dos campos do projeto ao converter um problema em um projeto usando um modelo](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) neste artigo.
 * Ao converter um problema, nem todos os documentos ou suas informações são movidos para o novo objeto para o qual o problema é convertido. Os seguintes itens são incluídos quando você converte um problema que tem documentos ou links de documento anexados:
 
-   * Documento
-   * Links de documento para serviços de terceiros, como Google Drive ou SharePoint.
-   * Versões
-   * Provas são incluídas somente quando a opção **Manter o problema original e vincular sua resolução a esta tarefa** não está selecionada.
-   * As aprovações de documentos não são incluídas ao converter um problema que tenha documentos e links de documentos anexados.
+  * Documento
+  * Links de documento para serviços de terceiros, como Google Drive ou SharePoint.
+  * Versões
+  * Provas são incluídas somente quando a opção **Manter o problema original e vincular sua resolução a esta tarefa** não está selecionada.
+  * As aprovações de documentos não são incluídas ao converter um problema que tenha documentos e links de documentos anexados.
 * Há um limite de processamento de 5 minutos ao converter um problema. Se o problema tiver um grande número de documentos anexados a ele e não for convertido, talvez seja necessário remover alguns dos documentos e tentar novamente.
 * Se você decidir manter o problema na conversão e ele tiver documentos anexados, o documento e suas versões serão copiados para o projeto ou para a tarefa. As provas e as aprovações de documentos não são copiadas para o projeto ou para a tarefa.
 * Se você decidir não manter o problema na conversão e ele tiver documentos anexados, o documento, suas versões e as provas serão transferidos para o projeto ou a tarefa. As aprovações de documentos não serão transferidas para o projeto ou a tarefa.

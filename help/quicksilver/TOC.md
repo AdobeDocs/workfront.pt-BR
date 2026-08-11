@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
 workflow-type: tm+mt
-source-wordcount: '14410'
+source-wordcount: '14415'
 ht-degree: 93%
 
 ---
@@ -966,6 +966,7 @@ ht-degree: 93%
     * [Configurar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
     * [Usar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Ferramentas de servidor Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
+    * [Habilidades disponíveis para instalação direta](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
   * Atualizar itens de trabalho e visualizar atualizações {#update-work-items-view-updates}
     * [Atualizar itens de trabalho e visualizar atualizações: índice de artigos](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Visão geral da seção de atualizações](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)

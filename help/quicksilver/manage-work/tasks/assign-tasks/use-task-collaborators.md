@@ -4,10 +4,10 @@ content-type: reference
 description: Saiba como usar Colaboradores de tarefas, Colaboradores de IA que podem ser atribuídos a tarefas do Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
+source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 6%
+source-wordcount: '653'
+ht-degree: 3%
 
 ---
 
@@ -69,8 +69,28 @@ Alguns exemplos de workflows podem incluir:
 >* Ao configurar um agente no Copilot Studio, defina a segurança como **Sem autenticação**.
 >* Para obter informações e instruções sobre como criar um Colaborador de Tarefas no Workfront, consulte [Configurar um Colaborador de Tarefas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) no artigo Configurar Colaboradores de IA.
 
+## Acionadores de início do Colaborador de Tarefas
+
+Quando um Colaborador de Tarefas é atribuído a uma tarefa, ele começa a trabalhar quando qualquer uma das seguintes situações é atendida:
+
+* O Colaborador de Tarefas é atribuído a uma tarefa que está pronta para ser iniciada. (Por exemplo, se a tarefa tiver predecessoras, elas serão concluídas.)
+* O Colaborador de Tarefas e um usuário são atribuídos a uma tarefa, e o Colaborador de Tarefas é atribuído primeiro.
+* Uma tarefa para a qual um Colaborador de Tarefas já está atribuído fica pronta para ser iniciada. (Por exemplo, se a tarefa tiver predecessoras, elas serão concluídas.)
+* Uma tarefa para a qual um Colaborador de Tarefas e um usuário já estão atribuídos fica pronta para ser iniciada. (Por exemplo, se a tarefa tiver predecessoras, elas serão concluídas.)
+* Um usuário e um Colaborador de Tarefas são atribuídos a uma tarefa e o usuário é removido.
+* Um usuário e um Colaborador de Tarefas são atribuídos a uma tarefa, e o Colaborador de Tarefas é definido como o Principal Designado para a tarefa.
+
+As seguintes situações não fazem com que o Colaborador de Tarefas comece a trabalhar na tarefa:
+
+* Um Colaborador de Tarefas é atribuído a uma tarefa que já tem um usuário atribuído.
+* Um Colaborador de Tarefas é @mentioned em uma tarefa.
+* Um Colaborador de Tarefas é atribuído a uma tarefa que já tem um Colaborador de Tarefas atribuído. Nesse caso, somente o primeiro Colaborador de Tarefas atribuído começa a trabalhar na tarefa.
+* Um Colaborador de Tarefas é atribuído a uma tarefa que não está pronta para ser iniciada. (Por exemplo, se a tarefa tiver predecessoras, elas ainda não estarão concluídas.)
+
 ## Atribuir um Colaborador de Tarefas a uma tarefa
 
 Os Colaboradores de Tarefas são atribuídos às tarefas da mesma forma que os usuários são atribuídos.
+
+Quando você está procurando por um Colaborador de Tarefas na lista de designados disponíveis, o nome do Colaborador de Tarefas é apenas o nome.
 
 Para obter instruções, consulte [Atribuir tarefas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).

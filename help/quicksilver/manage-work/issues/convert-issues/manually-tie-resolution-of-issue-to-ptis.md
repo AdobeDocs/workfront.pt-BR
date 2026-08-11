@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Vincular manualmente a resolução de um problema a outros problemas, tarefas ou projetos
 description: Você pode vincular manualmente a resolução de um problema à resolução de um projeto, tarefa ou problema sem converter o problema. O problema se torna um dos Objetos Resolvíveis do projeto, tarefa ou problema selecionado. Quando você faz isso, uma alteração no status do projeto, tarefa ou problema aciona uma alteração no status do problema original.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 518
 ht-degree: 12%

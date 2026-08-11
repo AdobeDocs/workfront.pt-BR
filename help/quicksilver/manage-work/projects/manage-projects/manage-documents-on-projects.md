@@ -6,9 +6,9 @@ description: Dependendo de o administrador do Workfront escolher o padrão de su
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: '2037'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ O administrador do Workfront pode executar um dos seguintes procedimentos:
 * Escolha uma das duas opções de armazenamento como padrão para sua organização
 * Permite escolher qual armazenamento você prefere usar ao criar um dos seguintes objetos:
 
-   * Projetos
-   * Portfólios
-   * Modelos
+  * Projetos
+  * Portfólios
+  * Modelos
 
 Para obter informações sobre como definir preferências de armazenamento para o Workfront, consulte [Habilitar o Adobe Cloud Storage para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
@@ -106,12 +106,12 @@ Os clientes podem ter acesso a um dos seguintes recursos de armazenamento de doc
 * Somente armazenamento em nuvem Adobe. A área Preferências de Armazenamento em Preferências do Sistema não existe.
 * O Workfront Storage e o Adobe Cloud Storage. O administrador do Workfront pode escolher entre o seguinte:
 
-   * Seleciona um ambiente de armazenamento padrão para o modo como os documentos serão tratados no futuro.
-   * Permite que os usuários escolham qual armazenamento escolher quando criam os seguintes objetos:
+  * Seleciona um ambiente de armazenamento padrão para o modo como os documentos serão tratados no futuro.
+  * Permite que os usuários escolham qual armazenamento escolher quando criam os seguintes objetos:
 
-      * Projetos
-      * Portfólios
-      * Modelos
+    * Projetos
+    * Portfólios
+    * Modelos
 
   >[!NOTE]
   >
@@ -144,12 +144,19 @@ Considere o seguinte ao trabalhar com portfólios:
 
 * Ao criar um portfólio de armazenamento em nuvem do Adobe, o Workfront cria uma pasta na seção Documentos do portfólio em que os documentos são salvos. O nome da pasta é igual ao do portfólio. Não é possível excluir ou renomear manualmente a pasta. A pasta será renomeada se você alterar o nome do portfólio para corresponder ao novo nome dele.
 
-* Quando você adiciona um projeto de armazenamento em nuvem do Adobe a um portfólio de armazenamento Workfront herdado e o portfólio não tem documentos anexados a ele, o portfólio é convertido em um portfólio de armazenamento em nuvem do Adobe.
-* Quando você adiciona um projeto de armazenamento em nuvem do Adobe a um portfólio de armazenamento Workfront herdado e o portfólio tem documentos anexados a ele, o armazenamento de documentos do portfólio permanece no armazenamento do Workfront. No entanto, o ícone de armazenamento herdado do Workfront para o portfólio ![ícone de armazenamento herdado do portfólio](assets/legacy-storage-project-icon.png) é removido do portfólio.
+<!--
+This is not possible anymore: 
+* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to an Adobe cloud storage portfolio. 
+* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon for the portfolio ![Legacy portfolio storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio. 
+-->
 * Não é possível adicionar um projeto de armazenamento em nuvem do Adobe a um portfólio de armazenamento herdado ou um projeto de armazenamento herdado a um portfólio de armazenamento do Adobe.
 * Seu administrador pode converter um portfólio de armazenamento herdado em um armazenamento em nuvem do Adobe na área Preferências do sistema da Configuração. Todos os objetos secundários (programas, projetos e documentos) permanecem no armazenamento herdado. Os novos projetos usarão o armazenamento em nuvem do Adobe. Os novos documentos adicionados ao portfólio continuarão a ser armazenados no armazenamento herdado.
 Para obter informações, consulte [Configurar preferências do sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+* &#x200B;<!-- this point also repeats for programs below-->Se um portfólio for convertido do armazenamento de dados herdado para o armazenamento de dados em nuvem do Adobe e o programa tiver armazenamento de dados herdado, um projeto no programa também usará o armazenamento de dados herdado.
 
+  Não é mais possível adicionar projetos de armazenamento herdados existentes a este portfólio.
+
+  Todos os novos projetos devem usar o armazenamento em nuvem da Adobe (porque o portfólio agora usa o armazenamento em nuvem da Adobe). Quando um desses projetos do Adobe Cloud Storage é criado para o programa, ele também é convertido automaticamente do antigo para o Adobe Cloud Storage e não pode mais ter mais projetos de armazenamento herdados adicionados a ele a partir desse ponto.
 * Ao criar portfólios usando uma automação do Workfront Planning, a Workfront usa a preferência de armazenamento padrão do sistema para o portfólio. Você deve adquirir o pacote do Planning para ter acesso ao Workfront Planning.
 
 
@@ -164,6 +171,11 @@ Leve em consideração o seguinte ao trabalhar com programas:
 * Não é possível adicionar um programa de armazenamento em nuvem do Adobe a um portfólio de armazenamento herdado, nem um programa herdado a um portfólio de armazenamento em nuvem do Adobe.
 * Não é possível criar um projeto a partir de um modelo de armazenamento na nuvem do Adobe em um programa de armazenamento herdado.
 * Você pode criar um projeto a partir de um modelo de armazenamento herdado em um programa de armazenamento na nuvem do Adobe, mas os documentos e as pastas no modelo não são adicionados ao novo projeto. O projeto recebe o armazenamento em nuvem do Adobe.
+* &#x200B;<!-- this point also repeats for portfolios above-->Se um portfólio for convertido do armazenamento de dados herdado para o armazenamento de dados em nuvem do Adobe e o programa tiver armazenamento de dados herdado, um projeto no programa também usará o armazenamento de dados herdado.
+
+  Não é mais possível adicionar projetos de armazenamento herdados existentes a este portfólio.
+
+  Todos os novos projetos devem usar o armazenamento em nuvem da Adobe (porque o portfólio agora usa o armazenamento em nuvem da Adobe). Quando um desses projetos do Adobe Cloud Storage é criado para o programa, ele também é convertido automaticamente do antigo para o Adobe Cloud Storage e não pode mais ter mais projetos de armazenamento herdados adicionados a ele a partir desse ponto.
 * Quando você cria programas usando uma automação do Workfront Planning, a Workfront usa a preferência de armazenamento padrão do sistema para o programa. Você deve adquirir o pacote do Planning para ter acesso ao Workfront Planning.
 
 ### Gerenciamento de documentos para tarefas
@@ -176,10 +188,10 @@ Considere o seguinte ao trabalhar com tarefas:
 * Para projetos do Adobe Cloud Storage, a pasta de documentos em uma tarefa é exibida como uma subpasta na pasta de documentos criada automaticamente para o projeto.
 * Não é possível copiar ou mover uma tarefa de um projeto herdado do Workfront Storage para um projeto do Adobe Cloud Storage. O inverso também não é possível.
 * Os seguintes cenários existem ao converter uma tarefa em um projeto: <!--this info also duplicated in Convert tasks to projects-->
-   * Uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
-   * Uma tarefa de armazenamento na nuvem do Adobe cria um projeto de armazenamento na nuvem do Adobe.
-   * Usar um modelo de armazenamento herdado do Workfront para converter uma tarefa de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
-   * Usar um modelo de armazenamento em nuvem do Adobe para converter uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
+  * Uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
+  * Uma tarefa de armazenamento na nuvem do Adobe cria um projeto de armazenamento na nuvem do Adobe.
+  * Usar um modelo de armazenamento herdado do Workfront para converter uma tarefa de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
+  * Usar um modelo de armazenamento em nuvem do Adobe para converter uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
 * Não é possível adicionar documentos a tarefas de armazenamento na nuvem do Adobe no painel Resumo.
 
 ### Gerenciamento de documentos para problemas
@@ -192,10 +204,10 @@ Leve em consideração o seguinte ao trabalhar com problemas:
 * Para projetos do Adobe Cloud Storage, a pasta de documentos sobre um problema é exibida como uma subpasta na pasta de documentos criada automaticamente para o projeto.
 * Não é possível copiar ou mover um problema de um projeto herdado do Workfront Storage para um projeto do Adobe Cloud Storage. O inverso também não é possível.
 * Os seguintes cenários existem ao converter um problema em um projeto: <!--this info also duplicated in Convert an issue to a project-->
-   * Um problema de armazenamento herdado do Workfront cria um projeto de armazenamento herdado do Workfront.
-   * Um problema de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
-   * Usar um modelo de armazenamento herdado do Workfront para converter um problema do Adobe Cloud Storage cria um projeto do Adobe Cloud Storage.
-   * Usar um modelo de armazenamento em nuvem do Adobe para converter um problema de armazenamento herdado do Workfront cria um projeto de armazenamento herdado do Workfront.
+  * Um problema de armazenamento herdado do Workfront cria um projeto de armazenamento herdado do Workfront.
+  * Um problema de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
+  * Usar um modelo de armazenamento herdado do Workfront para converter um problema do Adobe Cloud Storage cria um projeto do Adobe Cloud Storage.
+  * Usar um modelo de armazenamento em nuvem do Adobe para converter um problema de armazenamento herdado do Workfront cria um projeto de armazenamento herdado do Workfront.
 * Não é possível adicionar documentos a problemas de armazenamento na nuvem do Adobe no painel Resumo.
 
 ### Gerenciamento de documentos para solicitações
@@ -211,8 +223,8 @@ Considere o seguinte ao trabalhar com modelos:
 * Você pode usar um modelo herdado do Workfront Storage para criar projetos herdados do Workfront Storage; pode usar um modelo do Adobe Cloud Storage para criar um projeto do Adobe Cloud Storage.
 
 * Ao criar projetos usando modelos de um portfólio ou programa, existem os seguintes cenários:
-   * Não é possível usar um modelo de armazenamento na nuvem do Adobe de um portfólio ou programa de armazenamento herdado do Workfront para criar um projeto.
-   * Você pode criar um projeto de armazenamento em nuvem do Adobe para um portfólio ou programa de armazenamento do Adobe usando um modelo de armazenamento herdado. Documentos e pastas de modelo não são anexados ao novo projeto.
+  * Não é possível usar um modelo de armazenamento na nuvem do Adobe de um portfólio ou programa de armazenamento herdado do Workfront para criar um projeto.
+  * Você pode criar um projeto de armazenamento em nuvem do Adobe para um portfólio ou programa de armazenamento do Adobe usando um modelo de armazenamento herdado. Documentos e pastas de modelo não são anexados ao novo projeto.
 
 * Você pode anexar um modelo de armazenamento herdado do Workfront a um projeto do Adobe Cloud Storage e isso não altera o local de armazenamento dos documentos no projeto.
 * Você pode anexar um modelo de armazenamento na nuvem do Adobe a um projeto de armazenamento Workfront herdado e isso não altera o local de armazenamento dos documentos no projeto. Os documentos na pasta de armazenamento na nuvem do Adobe para o modelo são adicionados ao projeto diretamente, sem a pasta, enquanto os documentos nas pastas de tarefa do modelo são adicionados às pastas anexadas às tarefas do projeto na seção Documentos das tarefas.

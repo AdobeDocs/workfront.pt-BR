@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Converter um problema em um projeto
 description: Se for necessário fazer mais para concluir um problema depois de enviá-lo, converta-o em um projeto no Adobe Workfront.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 4%
@@ -108,12 +109,12 @@ Old:
 
 * Há um limite de processamento de 5 minutos ao converter um problema em um projeto. Se o problema tiver um grande número de documentos anexados a ele e não for convertido, talvez seja necessário remover alguns dos documentos e tentar novamente.
 * Quando sua organização usa o armazenamento na nuvem herdado do Workfront e do Adobe para documentos, os seguintes cenários existem ao converter um problema em um projeto: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * Um problema de armazenamento herdado do Workfront cria um projeto de armazenamento herdado do Workfront.
-   * Um problema de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
-   * Usar um modelo de armazenamento herdado do Workfront para converter um problema do Adobe Cloud Storage cria um projeto do Adobe Cloud Storage.
-   * Usar um modelo de armazenamento em nuvem do Adobe para converter um problema de armazenamento herdado do Workfront cria um projeto de armazenamento herdado do Workfront.
+  * Um problema de armazenamento herdado do Workfront cria um projeto de armazenamento herdado do Workfront.
+  * Um problema de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
+  * Usar um modelo de armazenamento herdado do Workfront para converter um problema do Adobe Cloud Storage cria um projeto do Adobe Cloud Storage.
+  * Usar um modelo de armazenamento em nuvem do Adobe para converter um problema de armazenamento herdado do Workfront cria um projeto de armazenamento herdado do Workfront.
 
-     Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+    Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Converter um problema em um projeto
 

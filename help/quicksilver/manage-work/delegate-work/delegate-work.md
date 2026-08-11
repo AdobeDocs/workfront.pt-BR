@@ -4,7 +4,7 @@ content-type: reference
 navigation-topic: projects-navigation-topic
 title: Delegar trabalho
 description: Quando você planeja ficar fora do escritório por um curto período de tempo, pode delegar temporariamente seu trabalho a outros usuários para garantir que sua ausência não se torne um obstáculo para a conclusão do trabalho. Os artigos nesta seção contêm informações sobre como você pode delegar trabalho enquanto estiver temporariamente fora do escritório.
-author: Becky
+author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: e449366e-3bfa-4710-a597-91de404112d4
@@ -19,7 +19,7 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 4%
