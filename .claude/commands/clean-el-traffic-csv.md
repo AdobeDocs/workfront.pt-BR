@@ -1,9 +1,9 @@
 ---
 name: clean-el-traffic-csv
 description: Limpa uma exportação bruta de CSV de tráfego do Experience League/Adobe Analytics para páginas somente do Workfront, classificada por Exibições de página. Use quando o usuário fornecer um CSV de tráfego de página do Experience League (colunas como "URL da página genérico", "Visitantes únicos", "Visitas", "Exibições de página") e solicitar que ele limpe, filtre ou processe ou mencionar planilhas de "rastreamento de documentação" / "artigos mais visualizados".
-source-git-commit: 3c5f28f5656fec574cb1ca9d3853703b6b900fdb
+source-git-commit: e22d43e9962b2b00793577fd14ac00587e8a2a6d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Limpar CSV de tráfego do Experience League
 
-Transforma uma exportação bruta de tabela de forma livre do Adobe Analytics do tráfego de página do Experience League em um CSV limpo, somente Workfront, desduplicado classificado por Exibições de página, substituindo o arquivo original.
+Transforma uma exportação bruta de tabela de forma livre do Adobe Analytics do tráfego de página do Experience League em um CSV limpo, somente Workfront, desduplicado classificado por Exibições de página, substituindo o arquivo original e também salvando uma cópia datada na Área de trabalho.
 
 ## Formas de entrada
 
@@ -48,7 +48,7 @@ Para cada linha de dados, verifique se a URL contém a subsequência literal `/w
 
 Para cada linha sobrevivente, localize `/using` na URL e mantenha somente a parte de (e incluindo) a `/` que a segue, descartando tudo antes e incluindo `/using`.
 
-Exemplo: `https://experienceleague.adobe.com/pt-br/docs/workfront/using/home` → `/home`
+Exemplo: `https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
 
 Se `/using` não for encontrado na URL de uma linha do Workfront, deixe essa URL inalterada e marque-a para o usuário, em vez de adivinhar.
 
@@ -79,6 +79,18 @@ Ordem final da linha: intervalo de datas linha → linha do cabeçalho → linha
 ### Etapa 8: salvar
 
 Substitua o arquivo de entrada original no local com o resultado limpo.
+
+### Etapa 9: salvar uma cópia datada na Área de Trabalho (somente exportação bruta, se um intervalo de datas tiver sido capturado na Etapa 0)
+
+Crie uma versão segura para nome de arquivo do intervalo de datas: remova vírgulas e substitua qualquer um dos `\ / : * ? " < > |` por `-` (esses caracteres são inválidos nos nomes de arquivos do Windows e poderiam aparecer em um intervalo de datas dependendo da localidade/formato de exportação).
+
+Salve uma cópia adicional do CSV limpo (mesmo conteúdo da Etapa 8) na área de trabalho do usuário atual, chamada:
+
+`Documentation tracking report <filename-safe date range>.csv`
+
+Exemplo: um intervalo capturado de `Apr 1, 2026 - Apr 30, 2026` torna-se `Documentation tracking report Apr 1 2026 - Apr 30 2026.csv`.
+
+Ignore esta etapa para um CSV já limpo (forma 2), a menos que o usuário forneça um intervalo de datas separadamente.
 
 ## Fora do escopo
 
@@ -157,6 +169,11 @@ $outLines += $newHeader
 $outLines += $sorted | ForEach-Object { "$($_.URL),$($_.UV),$($_.Visits),$($_.PV)" }
 
 Set-Content -Path $path -Value $outLines -Encoding UTF8
+
+# Step 9: also save a dated copy to the Desktop
+$safeDateRange = ($dateRange -replace ',', '') -replace '[\\/:*?"<>|]', '-'
+$desktopPath = Join-Path ([Environment]::GetFolderPath('Desktop')) "Documentation tracking report $safeDateRange.csv"
+Set-Content -Path $desktopPath -Value $outLines -Encoding UTF8
 ```
 
-Para um CSV já limpo (forma de entrada 2), ignore a lógica de realocação e intervalo de datas do cabeçalho — basta executar as Etapas 2 a 6 e 8 no cabeçalho/linhas existentes como estão.
+Para um CSV já limpo (forma de entrada 2), ignore a realocação de cabeçalho, a lógica de intervalo de datas e a Etapa 9 — basta executar as Etapas 2 a 6 e 8 no cabeçalho/linhas existentes como estão.
