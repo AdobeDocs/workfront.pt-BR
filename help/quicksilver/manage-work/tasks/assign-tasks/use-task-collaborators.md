@@ -4,9 +4,9 @@ content-type: reference
 description: Saiba como usar Colaboradores de tarefas, Colaboradores de IA que podem ser atribuídos a tarefas do Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
+source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '684'
 ht-degree: 3%
 
 ---
@@ -75,8 +75,8 @@ Quando um Colaborador de Tarefas é atribuído a uma tarefa, ele começa a traba
 
 * O Colaborador de Tarefas é atribuído a uma tarefa que está pronta para ser iniciada. (Por exemplo, se a tarefa tiver predecessoras, elas serão concluídas.)
 * O Colaborador de Tarefas e um usuário são atribuídos a uma tarefa, e o Colaborador de Tarefas é atribuído primeiro.
-* Uma tarefa para a qual um Colaborador de Tarefas já está atribuído fica pronta para ser iniciada. (Por exemplo, se a tarefa tiver predecessoras, elas serão concluídas.)
-* Uma tarefa para a qual um Colaborador de Tarefas e um usuário já estão atribuídos fica pronta para ser iniciada. (Por exemplo, se a tarefa tiver predecessoras, elas serão concluídas.)
+* Uma tarefa para a qual um Colaborador de Tarefas já foi atribuído como pronta para ser iniciada, e o Colaborador de Tarefas é o único designado ou o principal designado. (Por exemplo, se a tarefa tiver predecessoras, elas serão concluídas.)
+* Uma tarefa para a qual um Colaborador de Tarefas e um usuário já estão atribuídos fica pronta para ser iniciada, e o Colaborador de Tarefas foi atribuído primeiro ou é o designado principal. (Por exemplo, se a tarefa tiver predecessoras, elas serão concluídas.)
 * Um usuário e um Colaborador de Tarefas são atribuídos a uma tarefa e o usuário é removido.
 * Um usuário e um Colaborador de Tarefas são atribuídos a uma tarefa, e o Colaborador de Tarefas é definido como o Principal Designado para a tarefa.
 
@@ -84,7 +84,7 @@ As seguintes situações não fazem com que o Colaborador de Tarefas comece a tr
 
 * Um Colaborador de Tarefas é atribuído a uma tarefa que já tem um usuário atribuído.
 * Um Colaborador de Tarefas é @mentioned em uma tarefa.
-* Um Colaborador de Tarefas é atribuído a uma tarefa que já tem um Colaborador de Tarefas atribuído. Nesse caso, somente o primeiro Colaborador de Tarefas atribuído começa a trabalhar na tarefa.
+* Um Colaborador de Tarefas é atribuído a uma tarefa que já tem um Colaborador de Tarefas atribuído. Nesse caso, o primeiro Colaborador de Tarefas atribuído já terá iniciado o trabalho, e o segundo Colaborador de Tarefas não fará nada.
 * Um Colaborador de Tarefas é atribuído a uma tarefa que não está pronta para ser iniciada. (Por exemplo, se a tarefa tiver predecessoras, elas ainda não estarão concluídas.)
 
 ## Atribuir um Colaborador de Tarefas a uma tarefa

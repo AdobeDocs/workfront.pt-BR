@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
+source-git-commit: 524a24c1a143a82cdc017ea6266aa2ee5c7a7c0b
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -79,27 +79,29 @@ Para cada artigo na lista confirmada pelo usuário:
 4. **Armazenar novos detalhes em &quot;sempre incluir&quot; vs. &quot;pronto para revisão&quot;.** Este é o passo mais importante.
 
    - **Sempre incluir** (aplicar automaticamente, sem prompt): comportamentos invisíveis que o usuário não pode observar ao interagir com a interface. Exemplos:
-      - Efeitos colaterais (por exemplo, &quot;editar novamente o email para todos os participantes&quot;)
-      - Comportamento em outros objetos ou eventos posteriores
-      - Pré-requisitos e permissões
-      - Limites não mostrados na interface
-      - Tudo o que o usuário pode aprender somente com o PRD, os documentos ou a equipe de produtos
+     - Efeitos colaterais (por exemplo, &quot;editar novamente o email para todos os participantes&quot;)
+     - Comportamento em outros objetos ou eventos posteriores
+     - Pré-requisitos e permissões
+     - Limites não mostrados na interface
+     - Tudo o que o usuário pode aprender somente com o PRD, os documentos ou a equipe de produtos
    - **Acima para revisão** (presente ao usuário com `AskQuestion` como uma seleção múltipla): fatos que o usuário pode ver na tela ao usar o recurso. Exemplos:
-      - Um contador de caracteres que a interface do usuário já mostra (ex.: `0 / 500`)
-      - O estado expandido/recolhido padrão de um campo
-      - Estado padrão selecionado de uma caixa de seleção visível
-      - Rótulos de botão ao lado do campo
-      - Mensagens de validação que aparecem em linha
+     - Um contador de caracteres que a interface do usuário já mostra (ex.: `0 / 500`)
+     - O estado expandido/recolhido padrão de um campo
+     - Estado padrão selecionado de uma caixa de seleção visível
+     - Rótulos de botão ao lado do campo
+     - Mensagens de validação que aparecem em linha
 
    Para cada item &quot;up for review&quot;, forneça uma lógica de uma frase (&quot;Ajuda os novatos a planejar uma mensagem mais longa&quot;, &quot;Ajuda os usuários que não a veem em estágios posteriores a saberem expandi-la&quot;). Inclua apenas os itens que o usuário escolher. O princípio padrão é &quot;se o usuário puder vê-lo na tela enquanto está fazendo a tarefa, não reitere&quot; — mas o usuário recebe a chamada final.
 
-5. **Propor edições.** Mostrar trechos antes/depois (ou uma descrição focalizada no estilo diff) do artigo, abrangendo: inserção de trechos, renomeações de cabeçalhos, novo conteúdo na Pré-visualização e onde ele se encontra, referência de captura de tela e quaisquer `class="preview"` wraps incorporados.
+   **Ao redigir as sentenças reais** para qualquer um dos compartimentos, aplique `~/.cursor/skills/writing-quality/SKILL.md` regras de voz e tom enquanto escreve — uma descrição de campo/comportamento simples, não uma entrada de log de alterações (&quot;foi removido&quot;, &quot;foi adicionado&quot;) e não reafirme uma instrução inalterada apenas para anexar uma nota de visualização a ela. Faça o rascunho certo na primeira vez em vez de corrigir o tom em uma passagem posterior.
 
-6. **Aguarde a aprovação explícita** (&quot;ok&quot;, &quot;apply&quot;, &quot;yes&quot;) antes de gravar o arquivo.
+5. **Faça uma aprovação final na qualidade de gravação** no texto em rascunho antes de mostrá-lo. Essa é uma rede de segurança, não a primeira vez que essas regras se aplicam — capture qualquer etapa 4 perdida (redundância, tom, incompatibilidade de voz com linhas ao redor).
 
-7. **Validar.** Depois de gravar, execute `ReadLints` no arquivo e relate quaisquer problemas. Leia novamente a seção alterada para confirmar a estrutura.
+6. **Propor edições.** Mostrar trechos antes/depois (ou uma descrição focalizada no estilo diff) do artigo, abrangendo: inserção de trechos, renomeações de cabeçalhos, novo conteúdo na Pré-visualização e onde ele se encontra, referência de captura de tela e quaisquer `class="preview"` wraps incorporados.
 
-8. **Adiar edições em nível de prosa** para a habilidade **writing-quality**. Não refaça as regras de voz, capitalização, negrito ou padrões de link aqui. Leia `~/.cursor/skills/writing-quality/SKILL.md` se uma passagem de prosa for solicitada.
+7. **Aguarde a aprovação explícita** (&quot;ok&quot;, &quot;apply&quot;, &quot;yes&quot;) antes de gravar o arquivo.
+
+8. **Validar.** Depois de gravar, execute `ReadLints` no arquivo e relate quaisquer problemas. Leia novamente a seção alterada para confirmar a estrutura.
 
 ### &#x200B;5. Após cada artigo
 
@@ -177,10 +179,13 @@ Regras:
 
 ## Verificações de qualidade antes de apresentar edições
 
+Executar esta lista de verificação completa para **a cada** artigo na sessão — incluindo artigos secundários nos quais você está &quot;apenas adicionando um marcador&quot;, não apenas o primeiro/principal.
+
 - O trecho aparece uma vez, em sua própria linha, depois do H1, com linhas em branco acima e abaixo.
 - Os cabeçalhos de seção existentes terminam com `in Production`.
 - Os novos cabeçalhos de seção terminam com `in Preview` e a seção está dentro de `<div class="preview">`.
 - Adições embutidas estão dentro de `<span class="preview">`.
+- A nova prosa marcada como pré-visualização é lida como uma descrição de campo/comportamento simples, não uma entrada de log de alterações, e não reafirma redundantemente uma instrução inalterada.
 - `ReadLints` está limpo no arquivo editado.
 - O artigo é lido corretamente em ambos os estados (com o conteúdo da pré-visualização exibido e oculto).
 

@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9b272b27e030332325bdd7f75b9f1b947bd6118d
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: 2259
 ht-degree: 2%
 
 ---
@@ -105,6 +105,7 @@ As informações podem ser exportadas nos seguintes formatos:
 * PDF (paisagem ou retrato)
 * Excel
 * Excel (.xlsx)
+* CSV
 * Delimitado por tabulação
 
 >[!NOTE]
@@ -122,9 +123,9 @@ Há várias limitações no modo como os relatórios são exibidos no Workfront,
 * **50.000 células:** o número máximo de células permitidas em uma exportação de relatório para arquivos do Excel.
 * **50.000 linhas:** o número de linhas de dados permitidas em uma exportação de relatório para arquivos PDF e Delimitados por tabulação.
 
-   * Para arquivos do Excel, esse limite é de **65.000 linhas**.
-   * Para arquivos do Excel(.xlsx), esse limite é de **100.000 linhas**.
-   * Esses limites excluem os cabeçalhos da coluna, bem como linhas para agrupamentos no relatório. Por exemplo, se você tiver seis agrupamentos em um relatório e 50.000 linhas de dados, o arquivo exportado terá 50.000 linhas.
+  * Para arquivos do Excel, esse limite é de **65.000 linhas**.
+  * Para arquivos do Excel(.xlsx), esse limite é de **100.000 linhas**.
+  * Esses limites excluem os cabeçalhos da coluna, bem como linhas para agrupamentos no relatório. Por exemplo, se você tiver seis agrupamentos em um relatório e 50.000 linhas de dados, o arquivo exportado terá 50.000 linhas.
 
   >[!IMPORTANT]
   >
@@ -142,20 +143,20 @@ Há várias limitações no modo como os relatórios são exibidos no Workfront,
 
 * Estes limites aplicam-se a:
 
-   * Uma exportação manual de um relatório.
-   * Um relatório agendado.
-   * Uma exportação por meio de uma integração de API.
-   * Dados exportados por meio de um início.
+  * Uma exportação manual de um relatório.
+  * Um relatório agendado.
+  * Uma exportação por meio de uma integração de API.
+  * Dados exportados por meio de um início.
 
-     Para obter mais informações sobre como exportar dados por meio de inícios, consulte [Exportar dados do Adobe Workfront por meio de Inícios](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+    Para obter mais informações sobre como exportar dados por meio de inícios, consulte [Exportar dados do Adobe Workfront por meio de Inícios](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-     >[!NOTE]
-     >
-     >É possível exportar 50.000 linhas em um arquivo de início rápido, embora seja possível exportar os dados somente para um arquivo em formato Excel.
+    >[!NOTE]
+    >
+    >É possível exportar 50.000 linhas em um arquivo de início rápido, embora seja possível exportar os dados somente para um arquivo em formato Excel.
 
-   * Exportando informações de utilização de um projeto.
+  * Exportando informações de utilização de um projeto.
 
-     Para obter mais informações sobre como exportar informações de utilização de um projeto, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
+    Para obter mais informações sobre como exportar informações de utilização de um projeto, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **Tamanho do arquivo de 10 MB:** Limite do tamanho do arquivo para qualquer relatório exportado agendado para entrega. Se um arquivo exportado anexado a um email tiver mais de 5 MB, um link no qual o arquivo pode ser baixado será enviado por email, em vez do relatório exportado anexado.
 * **65.530 hiperlinks:** esse é um limite imposto pelo Excel a documentos que contêm mais de 65.530 hiperlinks. Esses documentos não podem ser abertos quando são exportados manualmente ou enviados em um relatório entregue. Observe que um documento do Excel pode ter apenas 200 linhas de dados, mas se houver mais de 65.530 links dentro do documento, ele não abrirá. Esse limite existe apenas em arquivos do Excel e não em outros formatos compatíveis.
@@ -240,13 +241,13 @@ Quando você exporta uma lista de tarefas ou problemas, o **Nome do Arquivo** po
 
 * Ao exportar listas de tarefas e problemas em um projeto:
 
-   * *The_project_name_Exported_Tasks*(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
-   * *The_project_name_Exported_Issues*(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
+  * *The_project_name_Exported_Tasks*(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
+  * *The_project_name_Exported_Issues*(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
 
 * Ao exportar listas de tarefas e problemas em uma tarefa (subtarefas):
 
-   * **The_project_name_the_task_name_Exported_Tasks**(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
-   * **The_project_name_the_task_name_Exported_Issues**(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
+  * **The_project_name_the_task_name_Exported_Tasks**(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
+  * **The_project_name_the_task_name_Exported_Issues**(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
 
 Quando você exporta uma lista de quaisquer outros objetos de um projeto para um arquivo PDF, o nome do arquivo do documento exportado indica o tipo de objetos que você exportou.\
 Por exemplo, o nome do arquivo pode ser:
@@ -338,9 +339,9 @@ Quando você exporta para um formato do Excel, somente os links para objetos no 
 
 >[!IMPORTANT]
 >
->A marca se aplica somente a organizações que ainda não estão integradas ao Adobe Experience Cloud.
+>A marca se aplica somente a organizações que ainda não estão integradas à Adobe Experience Cloud.
 >
->Se sua organização foi integrada ao Adobe Experience Cloud, a marca não está disponível.
+>Se sua organização foi integrada à Adobe Experience Cloud, a marca não está disponível.
 
 Se o administrador do Workfront tiver adicionado uma marca personalizada à sua instância do Workfront para a Barra de navegação global, os arquivos exportados do PDF também incluirão seu logotipo personalizado.
 
