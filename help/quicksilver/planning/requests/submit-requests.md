@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: 2778
 ht-degree: 1%
 
 ---
@@ -144,6 +137,28 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 * Há limitações na forma como determinados tipos de campo são exibidos em um formulário de solicitação ou na página de detalhes da solicitação após o envio de um formulário.
 
   Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+<!--
+
+* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+
+   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
+  
+   * In the Production environment:
+   
+      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+
+   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
+   
+      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
+      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
+      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
+ 
+   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
+-->
+
+
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
@@ -282,6 +297,40 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
    * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
 -->
 
+## Submeter uma solicitação de Planejamento a partir de uma página do tipo de registro
+
+É possível enviar uma solicitação ao adicionar novos registros de uma página do tipo de registro.
+
+{{step1-to-planning}}
+
+1. Clique no cartão de um espaço de trabalho e, em seguida, no cartão de um tipo de registro ao qual você tem acesso para criar registros.
+1. Em qualquer exibição da página de tipo de registro, clique em Novo registro e em **Enviar uma solicitação**.
+
+   >[!TIP]
+   >
+   >Os formulários de solicitação devem ser criados e publicados antes que a opção **Enviar uma solicitação** seja adicionada ao recurso **Novo registro**.
+
+1. Clique em **Continuar**.
+
+1. (Condicional) Se o tipo de registro tiver mais de um formulário de solicitação, clique no formulário de solicitação que você deseja usar na caixa **Nova solicitação**.
+
+   O formulário de solicitação é aberto.
+1. Comece a inserir todas as informações em todos os campos disponíveis
+
+   Ou clique em **Preencher formulário** para que a IA preencha o formulário para você.
+1. Clique em **Enviar solicitação**.
+
+   A solicitação foi enviada.
+
+1. (Opcional) Clique em uma das opções a seguir:
+
+   * **Enviar outra solicitação** para abrir um novo formulário.
+   * **Exibir sua solicitação** para abrir sua nova solicitação.
+   * O ícone **X** no canto superior direito da caixa para retornar à página de tipo de registro.
+
+   Se não houver aprovação associada à sua solicitação, um registro foi adicionado ao tipo de registro selecionado na Etapa 2. <!--accurate??-->
+
+
 ## Enviar uma solicitação ao Workfront Planning a partir de um link compartilhado para um formulário de solicitação
 
 As informações nesta seção se aplicam apenas às pessoas que enviam uma solicitação de um link compartilhado e que podem não ter uma conta do Workfront.
@@ -323,13 +372,13 @@ Pessoas externas não podem acessar áreas internas da Workfront, como **Solicit
 
 1. (Opcional) Clique em **Exibir sua solicitação** para abrir a solicitação no Workfront.
 
-Ou
+   Ou
 
-Clique em [Enviar outra solicitação](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) para abrir o formulário e adicionar uma nova solicitação.
+   Clique em [Enviar outra solicitação](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) para abrir o formulário e adicionar uma nova solicitação.
 
-A página de detalhes da solicitação é aberta.
+   A página de detalhes da solicitação é aberta.
 
-![Solicitar página com comentário](assets/new-request-page-with-comment.png)
+   ![Solicitar página com comentário](assets/new-request-page-with-comment.png)
 
 1. (Opcional) Insira um comentário na área **Comentários**.
 1. (Condicional) Se o formulário de solicitação não estiver associado a uma aprovação ou se a solicitação tiver sido aprovada, clique no nome da solicitação e, em seguida, clique no nome do registro no campo **Objeto criado**.
@@ -382,7 +431,7 @@ Para deletar uma solicitação do Planning após a abertura da solicitação:
 
 1. Abra uma solicitação do Planning clicando em seu nome na lista Solicitações.
 1. Clique no ícone **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da solicitação e clique em **Excluir**.
-1. Clique em D **e** excluir na caixa **Excluir permanentemente** para confirmar.
+1. Clique em **Excluir** na caixa **Excluir permanentemente** para confirmar.
 
    A solicitação foi excluída e não pode ser recuperada.
 
