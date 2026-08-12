@@ -4,10 +4,10 @@ content-type: reference
 description: Saiba como usar Colaboradores de tarefas, Colaboradores de IA que podem ser atribuídos a tarefas do Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
+source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 3%
+source-wordcount: '867'
+ht-degree: 2%
 
 ---
 
@@ -94,3 +94,19 @@ Os Colaboradores de Tarefas são atribuídos às tarefas da mesma forma que os u
 Quando você está procurando por um Colaborador de Tarefas na lista de designados disponíveis, o nome do Colaborador de Tarefas é apenas o nome.
 
 Para obter instruções, consulte [Atribuir tarefas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+
+## Colaboradores de tarefas de solução de problemas
+
+Se o Colaborador de Tarefas não retornar uma resposta ou saída, verifique o seguinte:
+
+* Certifique-se de que seu agente esteja publicado no lado do provedor da plataforma de IA.
+* Verifique se você tem créditos de IA suficientes na plataforma do seu agente.
+* Certifique-se de que a ação executada na tarefa não exija um nível de acesso específico.
+* Se você estiver usando o Copilot como provedor do agente, verifique se está usando a configuração &quot;sem autenticação&quot;.
+* Se você estiver usando o Copilot, certifique-se de que seu agente esteja configurado em um ambiente global. Atualmente, a funcionalidade do Colaborador de Tarefas não oferece suporte a versões regionais do Copilot Studio.
+* Certifique-se de que o Colaborador seja o principal responsável na tarefa.
+* Verifique se a tarefa à qual o Colaborador de Tarefas está atribuído Pode Iniciar. Por exemplo, verifique se todas as tarefas predecessoras estão concluídas.
+
+>[!TIP]
+>
+>Você também pode acessar a plataforma do provedor do agente e solicitar que o agente execute a tarefa na plataforma. Se o agente não puder executar a tarefa na plataforma, o Colaborador de tarefas também terá problemas no Workfront.
