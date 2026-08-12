@@ -4,9 +4,9 @@ content-type: reference
 description: Saiba como usar Colaboradores de tarefas, Colaboradores de IA que podem ser atribuídos a tarefas do Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
+source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '878'
 ht-degree: 2%
 
 ---
@@ -94,6 +94,10 @@ Os Colaboradores de Tarefas são atribuídos às tarefas da mesma forma que os u
 Quando você está procurando por um Colaborador de Tarefas na lista de designados disponíveis, o nome do Colaborador de Tarefas é apenas o nome.
 
 Para obter instruções, consulte [Atribuir tarefas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+
+>[!NOTE]
+>
+>Colaboradores de Tarefas não podem ser atribuídos para revisar ou aprovar um documento.
 
 ## Colaboradores de tarefas de solução de problemas
 
