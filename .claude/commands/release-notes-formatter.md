@@ -83,7 +83,7 @@ Regras:
 >Production for everyone: {Month Day, Year}
 ```
 
-5. **Corpo**: descrição do recurso e, em seguida, link para a documentação de ajuda
+&#x200B;5. **Corpo**: descrição do recurso e, em seguida, link para a documentação de ajuda
 
 #### Páginas de visão geral
 
@@ -100,10 +100,10 @@ Regras:
 * [Document enhancements](#document-enhancements)
 ```
 
-5. **H3 por área de produto** com a tabela de recursos do HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
+&#x200B;5. **H3 por área de produto** com a tabela de recursos do HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
    - Em cada tabela, **os recursos mais recentes primeiro** — a linha mais recente aparece na parte superior da tabela (após a linha de cabeçalho)
 
-6. **Seções finais** (H2): Notas de versão para outras áreas, atualizações do visualizador de provas de desktop, Avisos, versão da API, Atualizações de manutenção, Atualizações de treinamento
+&#x200B;6. **Seções finais** (H2): Notas de versão para outras áreas, atualizações do visualizador de provas de desktop, Avisos, versão da API, Atualizações de manutenção, Atualizações de treinamento
 
 ### Etapa 3: Validar links
 
@@ -194,12 +194,14 @@ Erros comuns a evitar:
 - Esquecendo-se de adicionar também o novo trimestre à lista de guias do ano atual.
 
 &lt;&lt;&lt;&lt;&lt;&lt;&lt; Atualizado upstream
+
 ### Etapa 8: atualizar a página de índice de versões de produto
 =======
+
 ### Etapa 9: atualizar a página de índice de versões de produtos
->>>>>>>>>>Alterações no stash
+&#x200B;>>>>>>>>>>Alterações no stash
 > 
-Ao criar uma **nova página de visão geral do trimestre**, atualize também `help/quicksilver/product-announcements/product-releases/product-releases.md` na mesma alteração:
+>Ao criar uma **nova página de visão geral do trimestre**, atualize também `help/quicksilver/product-announcements/product-releases/product-releases.md` na mesma alteração:
 
 - Localize o bloco `<p>Releases in {year}</p>` do ano atual na coluna &quot;Versões do Workfront&quot;.
 - Adicione um novo `<li>` no **top** da lista desse ano, vinculando à página de visão geral do novo trimestre, no mesmo formato das entradas existentes:
