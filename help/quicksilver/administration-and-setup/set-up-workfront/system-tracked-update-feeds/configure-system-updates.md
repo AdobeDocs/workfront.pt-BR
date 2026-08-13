@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 902
-ht-degree: 11%
+source-wordcount: 956
+ht-degree: 10%
 
 ---
 
@@ -163,7 +163,7 @@ Você pode adicionar campos que você deseja que [!DNL Workfront] rastreie para 
    >Se [!DNL Workfront] já estiver rastreando o campo, você não poderá adicioná-lo uma segunda vez na lista.
 
 1. Depois de adicionar todos os campos que você deseja que [!DNL Workfront] rastreie, clique em **[!UICONTROL Adicionar]**.
-Os campos internos adicionados aparecem na subguia **[!UICONTROL Campos internos]** e os campos personalizados aparecem na subguia **[!UICONTROL Campos personalizados]**.
+Os campos internos adicionados aparecem na subguia **[!UICONTROL Campos internos]**, e os campos personalizados aparecem na subguia **[!UICONTROL Campos personalizados]**.
 A subguia **[!UICONTROL Todos os campos]** mostra os campos internos e personalizados que [!DNL Workfront] rastreia.
 
 ### Remova os campos que você não quer rastrear {#remove-fields-you-don-t-want-tracked}
@@ -190,6 +190,8 @@ Por exemplo, você pode fazer com que [!DNL Workfront] registre uma atualizaçã
 
 A alteração aparece como uma atualização do sistema na área [!UICONTROL Atualizações] para a tarefa ou problema.
 
+Quando você desabilita uma ação, qualquer atualização gravada anteriormente sobre essa ação é preservada na área [!UICONTROL Atualizações] onde ela foi gravada. [!DNL Workfront] para de gravar as novas atualizações para a ação desabilitada.
+
 A tabela a seguir descreve as ações que você pode rastrear em objetos em [!DNL Workfront]:
 
 <table style="table-layout:auto"> 
@@ -199,7 +201,7 @@ A tabela a seguir descreve as ações que você pode rastrear em objetos em [!DN
  <thead> 
   <tr> 
    <th><strong>Ação</strong> </th> 
-   <th><strong>Objetos</strong> </th> 
+   <th><strong>Objetos aos quais a ação se aplica</strong> </th> 
    <th><strong>Status padrão</strong> </th> 
   </tr> 
  </thead> 
@@ -268,4 +270,6 @@ Para configurar quais ações você deseja que [!DNL Workfront] rastreie:
 1. Marque a caixa de seleção de uma ação para ativá-la ou desmarque-a para desativá-la.
 1. Clique em **[!UICONTROL Salvar]**.
 
-   Quando você desabilita uma ação, qualquer atualização gravada anteriormente sobre essa ação é preservada na área [!UICONTROL Atualizações] onde ela foi gravada. [!DNL Workfront] para de gravar as novas atualizações para a ação desabilitada.
+   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+
+
