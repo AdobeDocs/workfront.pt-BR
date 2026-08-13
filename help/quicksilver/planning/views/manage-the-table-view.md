@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 4011
+source-wordcount: 4030
 ht-degree: 2%
 
 ---
@@ -337,7 +337,7 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
    >
    >As alterações feitas na ordem das linhas ficam visíveis para todos os usuários que acessam o tipo de registro na mesma visualização.
    >
-   ><!--<span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>-->
+   ><span class="preview">Na linha de arrastar e soltar, um indicador de número exibe o número de registros selecionados, se houver mais de um. </span>
 
 1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do registro e clique em **Editar miniatura** para editar a miniatura.
 1. Clique em **Campos** na parte superior da tabela e selecione o alternador do campo **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
