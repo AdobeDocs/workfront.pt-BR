@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,66 @@ ht-degree: 0%
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Quarto trimestre de 2026.
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Aprimoramentos da exibição de tabela ao arrastar e soltar várias linhas
+
+>[!NOTE]
+>
+>Visualização: 13 de agosto de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Há novos indicadores visuais quando você arrasta e solta várias linhas na exibição de tabela. Um sinal de adição mais proeminente e um indicador de número agora mostram quantas linhas estão selecionadas para a ação arrastar e soltar.
+
+Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+<!--
+
+## Collapse and expand all groupings in the timeline view
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
+
+For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+-->
+
+## Rotear o objeto de solicitação enviado para o espaço de trabalho correto ao usar tipos de registro global
+
+>[!NOTE]
+>
+>Visualização: 13 de agosto de 2026
+>Versão rápida de produção: 17 de setembro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Os registros criados para tipos de registros globais enviando um formulário de solicitação agora são encaminhados automaticamente para o espaço de trabalho do qual foram enviados.
+
+Os registros criados enviando uma solicitação de um espaço de trabalho secundário de um tipo de registro global são adicionados a esse espaço de trabalho secundário. Os registros criados submetendo uma solicitação do espaço de trabalho original ou da área Solicitações principal são adicionados ao espaço de trabalho original.
+
+Se o formulário de entrada incluir um campo do Workspace e um usuário selecionar um espaço de trabalho antes de enviar, a solicitação será roteada para o espaço de trabalho selecionado, independentemente de onde o formulário foi iniciado. Isso garante que os registros sejam organizados no espaço de trabalho desejado a partir do momento em que são criados.
+
+Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
 
 ## Introdução à Habilidade do Workfront Planning Solution Architect
 

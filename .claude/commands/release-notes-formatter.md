@@ -1,9 +1,9 @@
 ---
 name: release-notes-formatter
 description: Formatar e validar as notas de versão do Workfront para fins de consistência, estrutura correta e vinculação adequada. Use somente para arquivos de notas de versão em diretórios de versões de produtos, ou quando o usuário mencionar notas de versão, versões de produtos ou versões trimestrais. Não se aplique a artigos explicativos ou documentação geral.
-source-git-commit: fa39320af72acf6d2ceaf201480baf78a07ae76e
+source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2183'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ Regras:
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Corpo**: descrição do recurso e, em seguida, link para a documentação de ajuda
+5. **Corpo**: descrição do recurso e, em seguida, link para a documentação de ajuda
 
 #### Páginas de visão geral
 
@@ -100,10 +100,10 @@ Regras:
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 por área de produto** com a tabela de recursos do HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
+5. **H3 por área de produto** com a tabela de recursos do HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
    - Em cada tabela, **os recursos mais recentes primeiro** — a linha mais recente aparece na parte superior da tabela (após a linha de cabeçalho)
 
-&#x200B;6. **Seções finais** (H2): Notas de versão para outras áreas, atualizações do visualizador de provas de desktop, Avisos, versão da API, Atualizações de manutenção, Atualizações de treinamento
+6. **Seções finais** (H2): Notas de versão para outras áreas, atualizações do visualizador de provas de desktop, Avisos, versão da API, Atualizações de manutenção, Atualizações de treinamento
 
 ### Etapa 3: Validar links
 
@@ -135,7 +135,24 @@ Aplicar essas correções ao formatar:
 | HTML nas páginas de área de produto | Manter como marcação (o HTML é somente para tabelas de visão geral) |
 | `exl-id` ausente | Deixe-o fora — não gere um |
 
-### Etapa 6: atualizar o sumário
+### Etapa 6: sincronizar a página de visão geral
+
+Sempre que você adicionar um **novo recurso** a uma página da área de produtos, adicione ou atualize uma linha correspondente no `{YY}-q{N}-release-overview.md` desse trimestre na mesma alteração. Um recurso que existe somente na página da área do produto e não na tabela de visão geral ficará invisível no índice de visão geral da versão.
+
+- Localize a seção H3 dessa área do produto (por exemplo, `### Reporting enhancements`) e adicione uma nova linha `<tr>` no **início** da tabela (após a linha de cabeçalho), que corresponda ao formato de linha existente (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table).
+- As datas nesta linha devem corresponder ao bloco `>[!NOTE]` na página da área do produto desse recurso (Etapa 4).
+- Se um recurso for recategorizado para uma área de produto diferente (por exemplo, movido de Relatório para Administrador), mova sua linha para a seção H3 da nova área — não deixe uma cópia obsoleta na antiga.
+- Recursos exclusivos do Planning não são adicionados às tabelas de visão geral — o Planning tem sua própria página de atividade de versão, vinculada uma vez em &quot;Notas de versão para outras áreas&quot; (nenhuma linha por recurso é necessária lá).
+
+Não toque na página de visão geral quando um recurso já tiver uma linha e seu conteúdo/datas não tiverem sido alterados.
+
+Erros comuns a evitar:
+
+- Adicionar o H2 de um recurso a uma página da área do produto sem adicionar a linha correspondente à tabela de visão geral.
+- Deixar uma linha de visão geral obsoleta na seção antiga área do produto após mover o conteúdo para a página de uma área diferente.
+- Visão geral das datas de linha que não correspondem ao bloco `>[!NOTE]` da página da área de produto.
+
+### Etapa 7: atualizar o sumário
 
 Sempre que você criar uma página de notas de versão **nova** (visão geral ou área de produto), adicione-a a `help/quicksilver/TOC.md` na mesma alteração. Uma página que não esteja no índice não será exibida na navegação publicada, mesmo se os links na tabela de visão geral apontarem para ela.
 
@@ -161,7 +178,7 @@ Erros comuns a evitar:
 - Vinculação a uma visão geral de trimestre diferente da nova página da área de produto (Etapa 3).
 - Inserir as páginas de um novo trimestre sob o cabeçalho do trimestre anterior.
 
-### Etapa 7: atualizar a home page
+### Etapa 8: atualizar a home page
 
 Sempre que você criar uma **nova página de visão geral do trimestre** (isto é, esta é a primeira página de um novo trimestre, não apenas uma nova página da área de produto adicionada a um trimestre existente), atualize `help/quicksilver/home.md` com a mesma alteração:
 
@@ -175,6 +192,31 @@ Erros comuns a evitar:
 
 - Criar uma nova página de visão geral do trimestre sem atualizar a guia &quot;Versão mais recente&quot; de `home.md` (continuará apontando para o trimestre antigo).
 - Esquecendo-se de adicionar também o novo trimestre à lista de guias do ano atual.
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; Atualizado upstream
+### Etapa 8: atualizar a página de índice de versões de produto
+=======
+### Etapa 9: atualizar a página de índice de versões de produtos
+>>>>>>>>>>Alterações no stash
+> 
+Ao criar uma **nova página de visão geral do trimestre**, atualize também `help/quicksilver/product-announcements/product-releases/product-releases.md` na mesma alteração:
+
+- Localize o bloco `<p>Releases in {year}</p>` do ano atual na coluna &quot;Versões do Workfront&quot;.
+- Adicione um novo `<li>` no **top** da lista desse ano, vinculando à página de visão geral do novo trimestre, no mesmo formato das entradas existentes:
+
+  ```html
+  <li><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Fourth Quarter 2026 release overview</a></li>
+  ```
+
+- Se existir uma nova página de atividade de versão do Planning do trimestre (`planning-release-activity-{YY}-q{N}.md`), adicione também um `<li>` correspondente na parte superior da coluna &quot;Outras versões de produtos&quot; da mesma linha.
+- Se o ano atual ainda não tiver uma linha (primeiro trimestre de um novo ano), adicione um novo `<tr data-mc-conditions="">` acima da linha do ano anterior, seguindo a estrutura de linha existente.
+
+Não toque em `product-releases.md` ao adicionar apenas uma página da área do produto a um trimestre que já tenha uma página de visão geral listada lá.
+
+Erros comuns a evitar:
+
+- Criar uma nova página de visão geral de um trimestre sem adicioná-la a `product-releases.md` (a página continuará mostrando apenas os trimestres anteriores).
+- Adição do link de visão geral, mas esquecimento do link correspondente da atividade de versão do Planning.
 
 ## Convenções de nomenclatura de arquivos
 
@@ -247,6 +289,7 @@ Ao revisar um arquivo de notas de versão, verifique:
 - [ Os recursos do ] são ordenados mais recentemente (tanto páginas de área de produtos quanto tabelas de visão geral)
 - [ ] As novas páginas de notas de versão estão listadas em `help/quicksilver/TOC.md` no trimestre correto, com a primeira visão geral e as áreas de produtos em ordem alfabética (Outras por último)
 - [ ] Se uma nova página de visão geral de um trimestre for criada, `help/quicksilver/home.md` a guia &quot;Versão mais recente&quot; e a guia do ano atual apontam para ela
+- [ ] Se uma nova página de visão geral de um trimestre foi criada, `help/quicksilver/product-announcements/product-releases/product-releases.md` a lista na parte superior da lista de &quot;versões do Workfront&quot; do ano atual (mais o link Planejamento, se existir)
 
 ## Recursos adicionais
 
