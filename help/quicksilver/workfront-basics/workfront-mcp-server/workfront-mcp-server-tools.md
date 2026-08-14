@@ -5,10 +5,10 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
+source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
 workflow-type: tm+mt
-source-wordcount: '2140'
-ht-degree: 5%
+source-wordcount: '2581'
+ht-degree: 4%
 
 ---
 
@@ -48,20 +48,20 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | --- | --- | --- | --- |
 | Localizar versão do documento por nome | `approvals_find_document_version_by_name` | Pesquisa a ID de versão atual de um documento por nome de arquivo. Suporta correspondências parciais. | Ler |
 | Obter documento por ID de versão | `approvals_get_document_by_version_id` | Busca detalhes do documento (nome, tamanho, data de upload, carregador) para uma ID de versão de documento conhecida. | Ler |
-| Obter documentos por projeto | `approvals_get_documents_by_project` | Lista documentos dentro de um projeto Workfront, com cada ID de versão atual do documento. | Ler |
 | Resolver escopo do documento | `approvals_resolve_document_scope` | Expande um projeto ou pasta para a lista de IDs de versão de documento que ela contém. Suporta escopos de projeto, pasta e pasta por nome. | Ler |
+| Obter documentos por escopo | `approvals_get_documents_by_scope` | Listar documento dentro de um projeto ou pasta. | Ler |
+| Listar pastas vinculadas à AEM* | `approvals_list_aem_linked_folders` | Lista as pastas de documentos do Workfront vinculadas ao Adobe Experience Manager. | Ler |
 | Localizar um documento | `approvals_find_document` | Pesquisar um documento por nome de arquivo ou ID de versão do documento | Ler |
-| Obter documentos por escopo | approvals_get_documents_by_scope | Listar documento dentro de um projeto ou pasta. | Ler |
+| Enviar documentos para a pasta do AEM* | `approvals_send_documents_to_aem_folder` | Move um ou mais documentos do Workfront para uma pasta vinculada ao AEM. | Gravar |
+
+*Você deve ter uma integração nativa [!DNL Adobe Experience Manager] configurada na instância do Workfront para usar essas ferramentas. Para obter mais informações, consulte [Visão geral das integrações do Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+
+
+*O envio de documentos para uma pasta do AEM ainda não é compatível com projetos no Adobe Cloud Storage. O suporte é esperado em uma versão futura.
+
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
-| Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
-
-*You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
-
-
-*Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
-
 -->
 
 ### Fluxos de trabalho de aprovação
@@ -110,13 +110,8 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 
 | Título | Nome da ferramenta | O que faz | Ação |
 | --- | --- | --- | --- |
-| Obter usuário atual | `approvals_get_current_user` | Retorna a identidade do Workfront do usuário que faz a chamada, incluindo nome, ID de usuário, nome da equipe inicial e ID da equipe inicial. | Ler |
-| Localizar usuário por nome | `approvals_find_user_by_name` | Pesquisa a ID de um usuário do Workfront por nome (correspondência difusa ou parcial). Retorna nome, ID, email, título e URL do avatar. | Ler |
-| Localizar equipe por nome | `approvals_find_team_by_name` | Pesquisa a ID de uma equipe do Workfront por nome (correspondência difusa ou parcial). | Ler |
 | Localizar projeto por nome | `approvals_find_project_by_name` | Procura projetos do Workfront por correspondência de nome parcial no sistema. | Ler |
 | Obter projetos por proprietário | `approvals_get_projects_by_owner` | Lista os projetos do Workfront dos quais o usuário que faz a chamada é o proprietário. | Ler |
-| Encontrar projetos | approvals_find_projects | Procurar projetos do Workfront, opcionalmente filtrados por nome e/ou restritos a projetos que o usuário chamador possui. | Ler |
-
 
 ## Ferramentas de planejamento
 
@@ -212,10 +207,64 @@ As ferramentas de fluxo de trabalho são ações de uso geral que a plataforma d
 | --- | --- | --- | --- |
 | Pesquisar objetos | `workflow_search_any_object` | Pesquisa por objetos do Workfront com parâmetros de filtro, ordenação e paginação flexíveis. | Ler |
 | Criar objeto | `workflow_create_any_object` | Cria um novo objeto do Workfront, como um projeto, tarefa, problema, hora, atribuição, programa ou portfólio. | Gravar |
-| Atualizar objeto | `workflow_update_any_object` | Atualiza campos em um objeto Workfront existente. | Gravar |
+| Atualizar objeto | `workflow_update_any_object` | Atualiza os campos de um objeto existente. Também permite mover uma tarefa ou problema para outro projeto, converter uma tarefa ou problema em um novo projeto (ou um problema em uma tarefa) e definir predecessores da tarefa (dependências). | Gravar |
 | Excluir objeto | `workflow_delete_any_object` | Exclui um objeto do Workfront por ID. Requer confirmação explícita do usuário antes que a ação seja executada. | Gravar |
 | Resolver nomes de campo | `workflow_resolve_field_names_any_object` | Converte nomes de campo ou rótulos fornecidos pelo usuário em nomes de campo subjacentes da API do Workfront para que a plataforma do agente de IA possa criar solicitações precisas. | Ler |
 | Ler documentos do fluxo de trabalho | `workflow_read_workflow_docs` | Carrega a documentação do Fluxo de trabalho do Workfront, incluindo guias de uso da ferramenta e manuais de operações específicos do objeto. Esta é a primeira etapa necessária antes de executar as ações do Fluxo de trabalho. | Ler |
+
+### Atualizar habilidades da ferramenta de objeto
+
+A ferramenta Atualizar objeto faz mais do que alterar valores de campo. Ele também pode realocar trabalho entre projetos, promover itens de trabalho em novos objetos e ativar dependências de tarefas.
+
+#### Mover uma tarefa ou problema para outro projeto
+
+A movimentação repete um item de trabalho no local. O objeto mantém sua identidade e links, ele apenas reside em um projeto ou tarefa pai diferente.
+
+>[!NOTE]
+>
+>Configurar um campo Projeto em uma atualização de campo simples não move uma tarefa ou problema. Em vez disso, use o recurso de mover.
+
+* **Mover uma tarefa**: move a tarefa para um projeto de destino e, opcionalmente, sob uma tarefa pai de destino.
+* **Mover um problema**: move o problema (solicitação) para um projeto de destino.
+
+Exemplo de prompts:
+
+* &quot;Mova a tarefa *Wireframes* para o projeto *Redesign de Aplicativo Móvel*.&quot;
+* &quot;Mover esta solicitação para o projeto *Lançamento do 4º trimestre*.&quot;
+
+#### Converter um problema ou tarefa em um projeto
+
+>[!NOTE]
+>
+>A conversão produz um novo objeto. O item de origem é consumido no processo.
+
+* **Converter uma tarefa em um projeto**: cria um novo projeto a partir da tarefa. Opcionalmente, é possível copiar os dados personalizados da tarefa e basear o novo projeto em um modelo de projeto.
+* **Converter um problema (solicitação) em um projeto**: cria um novo projeto a partir do problema. Opcionalmente, é possível copiar os dados personalizados do problema, copiar seus valores de campo nativos e aplicar um modelo de projeto.
+* **Converter um problema (solicitação) em uma tarefa**: cria uma tarefa em um projeto existente a partir do problema.
+
+Cada conversão retorna o objeto recém-criado, juntamente com um link, para que você possa abri-lo diretamente no Workfront.
+
+Exemplo de prompts:
+
+* &quot;Converta a tarefa *Atualização do Site* em um projeto chamado *Atualização do Site 2026* usando nosso modelo padrão.&quot;
+* &quot;Transformar esta solicitação em um projeto e copiar seus campos personalizados.&quot;
+
+#### Definir predecessores da tarefa (dependências)
+
+Você pode definir predecessores de uma tarefa. Os predecessores são compatíveis com os seguintes tipos de dependências, além de tempo de atraso opcional:
+
+* **Finish-Start (FS)**: a tarefa começa quando sua predecessora termina. (Padrão)
+* **Início-Início (SS)**: a tarefa inicia quando sua antecessora é iniciada.
+* **Término-Término (FF)**: a tarefa é concluída quando sua antecessora é concluída.
+* **Início-Término (SF)**: a tarefa é concluída quando sua antecessora é iniciada.
+
+Você pode adicionar atraso (um atraso) ou cliente em potencial (um atraso negativo) em dias úteis, encadear vários predecessores em uma única tarefa e fazer referência a uma tarefa em um projeto diferente.
+
+Exemplo de prompts:
+
+* &quot;Faça com que o *Desenvolvimento* inicie após a conclusão do *Design*.&quot;
+* &quot;Defina o *QA* para iniciar quando o *Desenvolvimento* for iniciado, com um atraso de dois dias.&quot;
+* &quot;Adicione a tarefa #3 e a tarefa #5 como predecessoras do *Launch*.&quot;
 
 ### Comentários
 
@@ -245,6 +294,7 @@ As ferramentas do Insights recuperam informações sobre objetos do Workfront.
 | Localizar dados do Workfront | `insights_find_workfront_data` | Localize, filtre, conte, classifique e agregue dados do Workfront. Esta é a principal ferramenta de consulta e relatório. | Ler |
 | Resumir objeto | `insights_summarize_object` | Buscar e resumir um único objeto do Workfront por ID. | Ler |
 | Listar entidades | `insights_list_entities` | Lista todos os tipos de objetos do Workfront disponíveis para consulta. | Ler |
+| Procurar usuários | `insights_search_users` | Encontre pessoas na sua instância do Workfront por nome. Digite um nome completo ou parcial e obtenha de volta os principais usuários correspondentes. Também pode incluir, opcionalmente, &quot;bots&quot; de colaborador de IA ao lado de usuários regulares. | Ler |
 
 
 

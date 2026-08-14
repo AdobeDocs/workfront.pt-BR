@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador do quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '928'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,35 @@ Esta página descreve as melhorias de Administrador feitas com a versão do Quar
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+<!--
+
+## Interface improvements to the Actions list
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
+
+The following enhancements are included:
+
+* We removed the Save and Cancel buttons.
+* The Track column now appears in the last position.
+* We removed the confirmation message that previously displayed when you saved changes in this area.
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+-->
+
 ## Os administradores de grupo podem gerenciar perfis empresariais
 
 >[!NOTE]
 >
->Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+>Visualização: 30 de julho de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
 
 Os administradores de grupo agora podem criar, editar e excluir perfis de negócios para os grupos que administram, sem exigir acesso de Administrador do sistema. Isso dá às organizações mais flexibilidade para delegar o gerenciamento de perfis empresariais no nível do grupo.
 
@@ -31,7 +55,9 @@ Para obter mais informações, consulte [Exibir e gerenciar perfis comerciais](/
 
 >[!NOTE]
 >
->Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+>Visualização: 30 de julho de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
 
 As exibições para listas aprimoradas agora são compatíveis no nível do sistema por meio de um modelo de layout. Você pode ocultar exibições do sistema existentes, atribuir uma exibição específica como padrão e adicionar uma exibição personalizada à lista de exibições do sistema.
 
@@ -43,7 +69,9 @@ Para obter informações, consulte [Personalizar Filtros, Exibições e Agrupame
 
 >[!NOTE]
 >
->Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+>Visualização: 30 de julho de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
 
 As caixas de diálogo de edição em massa agora permitem a edição de campos de pesquisa externos. Isso não era possível anteriormente.
 
@@ -57,7 +85,9 @@ Para obter informações sobre campos de pesquisa externos, consulte [Criar um f
 
 >[!NOTE]
 >
->Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+>Visualização: 30 de julho de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
 
 O modo de visualização do designer de formulário personalizado agora é compatível com opções lógicas avançadas, incluindo lógica de exibição avançada, lógica de valor padrão, lógica de validação, lógica de formatação e lógica de editabilidade. Você pode testar as fórmulas lógicas na pré-visualização de formulário e ajustá-las conforme necessário no construtor de lógicas. Você também pode selecionar um objeto de teste (projeto, tarefa, problema, etc.) para visualizar o formulário com dados contextuais reais.
 
@@ -71,7 +101,9 @@ Para obter mais informações, consulte [Adicionar regras de lógica a formulár
 
 >[!NOTE]
 >
->Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+>Visualização: 30 de julho de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
 
 A página Histórico de alterações no Workfront agora captura a atividade em fluxos de trabalho unificados de revisão e aprovação, fornecendo aos administradores uma trilha de governança completa para eventos de ciclo de vida de revisão e documento.
 
@@ -89,7 +121,9 @@ Para obter mais informações, consulte [Exibir e gerenciar o histórico de alte
 
 >[!NOTE]
 >
->Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+>Visualização: 30 de julho de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
 
 Agora é possível definir um aplicativo personalizado como página de aterrissagem em um modelo de layout. Os aplicativos personalizados que já foram adicionados ao menu principal estão disponíveis para uso como uma página de aterrissagem.
 
@@ -101,7 +135,9 @@ Para obter mais informações, consulte [Personalizar a página de aterrissagem 
 
 >[!NOTE]
 >
->Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+>Visualização: 30 de julho de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
 
 Você pode adicionar campos que deseja rastrear para um tipo específico de objeto em todo o Workfront. Quando os usuários alteram informações nesse campo, o sistema registra informações sobre a alteração como uma entrada no histórico de alterações.
 
@@ -113,7 +149,9 @@ Para obter mais informações, consulte [Configurar campos para acompanhar no hi
 
 >[!NOTE]
 >
->Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+>Visualização: 30 de julho de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
 
 No nível de acesso Padrão, agora é possível definir se os usuários com esse nível devem ter acesso à Lista do histórico de alterações. A opção **Alterar histórico** está disponível na seção **Permitir acesso administrativo para** no nível de acesso.
 
