@@ -9,19 +9,14 @@ exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IICvipFI1uZkMpwcdiFM9K9pweav2TL8zu-GdDB73bU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 53f6405b765424450cf929afc991278625bb33cb
 workflow-type: tm+mt
-source-wordcount: 987
-ht-degree: 48%
+source-wordcount: 1229
+ht-degree: 40%
 
 ---
 
@@ -30,8 +25,8 @@ ht-degree: 48%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que este beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -190,6 +185,18 @@ Os relacionamentos disponíveis para colunas adicionais, opções de filtro e at
 * Estágios de aprovação de documento > Participantes do estágio de aprovação de documento
 
 Ao utilizar qualquer uma das relações pai-filho listadas acima, você verá uma linha na tabela para cada registro filho conectado ao objeto pai.
+
+### Excluir projetos pessoais, tarefas e usuários de bot dos relatórios de Painéis de Controle do Canvas
+
+>[!NOTE]
+>
+>Se um relatório de Painéis do Canvas retornar mais resultados do que você espera em comparação a um relatório clássico semelhante, projetos pessoais, tarefas pessoais ou usuários de bot podem ser incluídos por padrão. Adicione uma condição de filtro para excluí-los.
+
+Nos relatórios de Projeto e Tarefa de Painéis de Tela, o filtro `isPersonal` não é aplicado automaticamente, portanto, projetos pessoais e tarefas pessoais são incluídos nos resultados por padrão. Para excluí-los, adicione uma condição de filtro como `isPersonal=false`.
+
+Da mesma forma, os relatórios de usuário dos painéis do Canvas incluem todos os usuários por padrão, incluindo os colaboradores de IA (usuários de bot). Para excluir usuários de bot, adicione uma condição de filtro como `isBot=false`.
+
+Os relatórios de Projeto e Tarefa clássicos excluem automaticamente projetos pessoais e tarefas pessoais, enquanto os relatórios de Usuário clássicos excluem automaticamente os usuários de bot. Para incluí-los em um relatório clássico, adicione uma condição de filtro como `isPersonal=true` (somente itens pessoais) ou `isPersonal_Mod=notnull` (itens pessoais e não pessoais).
 
 ### Operadores de campo por tipo de campo
 
