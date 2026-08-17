@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 4087
+source-wordcount: 4246
 ht-degree: 1%
 
 ---
@@ -125,8 +125,7 @@ Para registrar horas em uma folha de horas:
 {{step1-click-main-menu}}
 
 1. Clique em [!UICONTROL **Folhas de horas**]. Sua Planilha de Horas atual é exibida por padrão.
-   ![Planilha de horas](assets/timesheet-redesigned-nwe.png)
-
+   ![Planilha de horas](assets/timesheet-layout-leftnav-updated.png)
 
 1. (Opcional) Clique no ícone ![](assets/full-screen.png) de **tela cheia** para exibir a folha de horas no modo de tela cheia, em seguida, clique no ícone **sair-tela cheia** ![](assets/exit-full-screen.png) para retornar à folha de horas.
 
@@ -154,8 +153,8 @@ Para registrar horas em uma folha de horas:
 1. (Condicional) Se você adicionar 50 ou mais itens de uma vez, uma mensagem de confirmação exibindo o número de itens adicionados à sua folha de horas será exibida.
 
    Clique em **Adicionar tudo** para adicionar todos os itens
-Ou
-Clique em **Cancelar** para interromper a adição dos itens selecionados e em **Cancelar** para fechar a lista de itens.
+   Ou
+   Clique em **Cancelar** para interromper a adição dos itens selecionados e em **Cancelar** para fechar a lista de itens.
 
    Tarefas e problemas são listados sob o nome do projeto.
 
@@ -288,7 +287,7 @@ Clique em **Cancelar** para interromper a adição dos itens selecionados e em *
 
 1. (Opcional) Clique em [!UICONTROL **Atualizações**] no painel esquerdo e adicione uma atualização à folha de horas. Para obter mais informações sobre atualizações do Workfront, consulte [Trabalho de atualização](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![inserir-uma-atualização-em-redesenhado-folha-de-horas-painel-esquerdo](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![inserir-uma-atualização-em-redesenhado-folha-de-horas-painel-esquerdo](assets/timesheet-updates-with-all-tab.png)
 
 1. (Opcional) Retorne à área **Planilha de horas** para fechar ou enviar sua planilha de horas.
 
@@ -526,19 +525,19 @@ Dependendo do tipo de entradas de hora editadas, os seguintes campos estão disp
 
 * Ao editar horas específicas do projeto:
 
-   * O número de horas
-   * O Tipo de Hora. Você pode alterar o Tipo de Hora somente para tipos específicos do projeto.
-   * Atribuição de funções de trabalho. Você pode alterar a atribuição da Função de trabalho somente se ela tiver sido habilitada na Configuração. Para obter informações, consulte [Configurar preferências de horas e folha de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-   * A Descrição da entrada de hora.
+  * O número de horas
+  * O Tipo de Hora. Você pode alterar o Tipo de Hora somente para tipos específicos do projeto.
+  * Atribuição de funções de trabalho. Você pode alterar a atribuição da Função de trabalho somente se ela tiver sido habilitada na Configuração. Para obter informações, consulte [Configurar preferências de horas e folha de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+  * A Descrição da entrada de hora.
 
 
   ![](assets/edit-hour-box-project-hour-type.png)
 
 * Ao editar o horário geral:
 
-   * O número de horas.
-   * O Tipo de Hora. Você pode alterar o Tipo de Hora somente para tipos gerais.
-   * A Descrição da entrada de hora.
+  * O número de horas.
+  * O Tipo de Hora. Você pode alterar o Tipo de Hora somente para tipos gerais.
+  * A Descrição da entrada de hora.
 
 >[!TIP]
 >
@@ -551,8 +550,8 @@ Dependendo do tipo de entradas de hora editadas, os seguintes campos estão disp
 
 * Ao editar uma combinação de horas gerais e específicas do projeto, em massa:
 
-   * O número de horas.
-   * A Descrição da entrada de hora.
+  * O número de horas.
+  * A Descrição da entrada de hora.
 
 >[!TIP]
 >
@@ -585,6 +584,6 @@ Para editar tipos de horas em um relatório ou lista de horas:
 1. Clique em **Salvar alterações**.
 
    As informações de entrada de hora são atualizadas.
-Se você selecionou mais de uma entrada de hora e modificou o campo Horas, a mesma quantidade de horas é alocada para todas as entradas de hora selecionadas. As horas originais são substituídas pelo novo valor para todas as entradas de horas selecionadas.
+   Se você selecionou mais de uma entrada de hora e modificou o campo Horas, a mesma quantidade de horas é alocada para todas as entradas de hora selecionadas. As horas originais são substituídas pelo novo valor para todas as entradas de horas selecionadas.
 
 

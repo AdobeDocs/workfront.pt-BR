@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: 847
 ht-degree: 4%
 
 ---
@@ -81,9 +81,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Clique na seta para baixo ![Seta para baixo](assets/down-arrow-blue.png) em **Personalize o que os usuários veem** e clique em **Listas** no menu suspenso exibido.
-
-   ![Personalize o que os usuários veem](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
-
 1. Clique na seta para baixo ![Seta para baixo](assets/down-arrow-blue.png) em **Selecione uma lista para personalizar** e selecione o tipo de objeto do Workfront para o qual deseja personalizar os controles de Filtro, Exibição e Lista de Agrupamento.
 
    ![Selecione uma lista para personalizar](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)

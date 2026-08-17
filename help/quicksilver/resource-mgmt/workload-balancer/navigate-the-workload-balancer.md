@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 4433
+source-wordcount: 4457
 ht-degree: 2%
 
 ---
@@ -83,8 +83,8 @@ Considere o seguinte ao visualizar o Balanceador de carga de trabalho:
 
 * O Balanceador de carga de trabalho exibe itens de trabalho em duas áreas separadas, dependendo de suas atribuições. Os itens de trabalho e usuários são exibidos nas seguintes áreas:
 
-   * **Trabalho não atribuído**: itens que não têm atribuições ou são atribuídos apenas a funções de trabalho ou equipes.
-   * **Trabalho atribuído**: itens atribuídos a pelo menos um usuário. Os itens atribuídos são exibidos sob o nome do usuário atribuído.
+  * **Trabalho não atribuído**: itens que não têm atribuições ou são atribuídos apenas a funções de trabalho ou equipes.
+  * **Trabalho atribuído**: itens atribuídos a pelo menos um usuário. Os itens atribuídos são exibidos sob o nome do usuário atribuído.
 
   >[!NOTE]
   >
@@ -139,40 +139,40 @@ Para navegar pelo Balanceador de carga de trabalho para vários projetos:
 
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
-   ![Balanceador de carga de trabalho](assets/nwe-balancer-global.png)
+   ![Balanceador de carga de trabalho](assets/wb-in-res-mgmt.png)
 
    O Balanceador de carga de trabalho exibe informações de atribuição de trabalho começando com a semana atual nas duas áreas a seguir:
 
    * A área **Trabalho não atribuído** exibe os seguintes itens de trabalho:
 
-      * Itens de trabalho (tarefas e problemas) atribuídos a funções, equipes ou que não foram atribuídos são exibidos após a aplicação dos filtros.
-A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recomendamos o uso de filtros para exibir informações relevantes nesta área.
+     * Itens de trabalho (tarefas e problemas) atribuídos a funções, equipes ou que não foram atribuídos são exibidos após a aplicação dos filtros.
+       A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recomendamos o uso de filtros para exibir informações relevantes nesta área.
 
-        Para obter informações sobre como usar filtros, consulte [Informações de filtro no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
+       Para obter informações sobre como usar filtros, consulte [Informações de filtro no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
 
-      * As atribuições de função nos itens de trabalho são exibidas somente quando você ativa a configuração Mostrar atribuições de função. Para obter informações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo.
+     * As atribuições de função nos itens de trabalho são exibidas somente quando você ativa a configuração Mostrar atribuições de função. Para obter informações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo.
 
-      * Os projetos são exibidos somente quando você ativa a configuração Agrupar por projeto. Para obter informações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo.
+     * Os projetos são exibidos somente quando você ativa a configuração Agrupar por projeto. Para obter informações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo.
 
    * A área **Trabalho atribuído** exibe os seguintes itens de trabalho:
 
-      * Todos os usuários ativos no sistema são exibidos nessa área por padrão. Recomendamos o uso de filtros para limitar a quantidade de informações nessa área. Se os usuários forem atribuídos a itens, os itens de trabalho também serão exibidos com seu nome.
+     * Todos os usuários ativos no sistema são exibidos nessa área por padrão. Recomendamos o uso de filtros para limitar a quantidade de informações nessa área. Se os usuários forem atribuídos a itens, os itens de trabalho também serão exibidos com seu nome.
 
-      * Tarefas e problemas atribuídos a pelo menos um usuário são exibidos sob o nome do usuário.
+     * Tarefas e problemas atribuídos a pelo menos um usuário são exibidos sob o nome do usuário.
 
-        Os itens de trabalho em nomes de usuários na área Trabalho atribuído são classificados pelos seguintes critérios, nesta ordem:
+       Os itens de trabalho em nomes de usuários na área Trabalho atribuído são classificados pelos seguintes critérios, nesta ordem:
 
-         1. Data de Início Planejada (a mais antiga primeiro)
-         1. Data de Término Planejada (a mais antiga primeiro)
-         1. Ordem alfabética por projeto (somente quando os dois primeiros critérios são idênticos para vários itens de trabalho)
+       1. Data de Início Planejada (a mais antiga primeiro)
+       1. Data de Término Planejada (a mais antiga primeiro)
+       1. Ordem alfabética por projeto (somente quando os dois primeiros critérios são idênticos para vários itens de trabalho)
 
-            >[!TIP]
-            >
-            >* Você pode personalizar a classificação de projetos selecionando uma opção na configuração &quot;Classificar projetos por&quot;.
-            >
-            >* Os projetos são exibidos somente quando você ativa a configuração &quot;Agrupar por projeto&quot;.
-            > 
-            >Para obter informações sobre como personalizar configurações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo.
+          >[!TIP]
+          >
+          >* Você pode personalizar a classificação de projetos selecionando uma opção na configuração &quot;Classificar projetos por&quot;.
+          >
+          >* Os projetos são exibidos somente quando você ativa a configuração &quot;Agrupar por projeto&quot;.
+          > 
+          >Para obter informações sobre como personalizar configurações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo.
 
 1. (Opcional) Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-icon.png) na área **Trabalho atribuído** e selecione o **Filtro padrão** na área **Sugerido** da caixa de filtro.
 
@@ -260,10 +260,10 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 
    * **Incluir horas de problemas**: quando selecionado, os problemas atribuídos aos usuários são exibidos sob o nome do usuário na área Trabalho atribuído, e os problemas não atribuídos aos usuários são exibidos na área Trabalho não atribuído. As Horas planejadas dos problemas contam para as Horas planejadas do projeto e do usuário na área Trabalho atribuído.
    * **Mostrar Datas Projetadas**: quando selecionado, a linha do tempo projetada dos itens de trabalho é exibida além da linha do tempo planejada. Observe o seguinte:
-      * A linha do tempo projetada do projeto, tarefas e problemas é exibida como uma linha azul escura acima das barras de tarefa, problema e projeto.
-      * A linha do tempo projetada fora da linha do tempo planejada é exibida em azul claro, mesmo quando você atualiza o tema de cor, conforme descrito abaixo.
-      * A linha do tempo projetada para os itens que você não tem acesso para visualizar é exibida em cinza claro com uma linha abaixo.
-      * Quando uma tarefa ou problema é concluído antes da Data de conclusão planejada vencida, os números de alocação dos dias restantes são atingidos e não contam para a alocação do usuário. Isso é exibido somente quando a configuração Mostrar datas projetadas e o ícone Mostrar alocação estão ativados.
+     * A linha do tempo projetada do projeto, tarefas e problemas é exibida como uma linha azul escura acima das barras de tarefa, problema e projeto.
+     * A linha do tempo projetada fora da linha do tempo planejada é exibida em azul claro, mesmo quando você atualiza o tema de cor, conforme descrito abaixo.
+     * A linha do tempo projetada para os itens que você não tem acesso para visualizar é exibida em cinza claro com uma linha abaixo.
+     * Quando uma tarefa ou problema é concluído antes da Data de conclusão planejada vencida, os números de alocação dos dias restantes são atingidos e não contam para a alocação do usuário. Isso é exibido somente quando a configuração Mostrar datas projetadas e o ícone Mostrar alocação estão ativados.
 
      >[!TIP]
      >
@@ -287,19 +287,19 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
      >A configuração para selecionar o tema de cor não afeta a cor das barras de edição. Os problemas sempre são exibidos em uma barra cor marrom.
 
      Selecione entre as seguintes opções:
-      * **Padrão**: as barras de todos os projetos e seus itens de trabalho são exibidas em azul.
-      * **Projeto**: as barras associadas a cada projeto e suas tarefas mudam de acordo com o nome do projeto. Todas as tarefas que pertencem ao projeto são exibidas em barras que correspondem à cor do projeto. As barras de projeto são exibidas em uma sombra mais clara para diferenciá-las das tarefas. As barras de projeto também incluem um ícone de projeto ao optar por não exibir alocações.
-      * **Status do Projeto**: as barras associadas a cada projeto e a seus itens de trabalho mudam para a cor do status do projeto.
+     * **Padrão**: as barras de todos os projetos e seus itens de trabalho são exibidas em azul.
+     * **Projeto**: as barras associadas a cada projeto e suas tarefas mudam de acordo com o nome do projeto. Todas as tarefas que pertencem ao projeto são exibidas em barras que correspondem à cor do projeto. As barras de projeto são exibidas em uma sombra mais clara para diferenciá-las das tarefas. As barras de projeto também incluem um ícone de projeto ao optar por não exibir alocações.
+     * **Status do Projeto**: as barras associadas a cada projeto e a seus itens de trabalho mudam para a cor do status do projeto.
 
-        O status do projeto é aquele associado ao Grupo do projeto. Se o Grupo não tiver status específicos de grupo, a cor das barras do item de trabalho será a do status do projeto no nível do sistema. Tanto os status do sistema quanto os personalizados são exibidos. Para obter informações sobre status de grupo, consulte [Criar ou editar um status de grupo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+       O status do projeto é aquele associado ao Grupo do projeto. Se o Grupo não tiver status específicos de grupo, a cor das barras do item de trabalho será a do status do projeto no nível do sistema. Tanto os status do sistema quanto os personalizados são exibidos. Para obter informações sobre status de grupo, consulte [Criar ou editar um status de grupo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
    * Na seção **Exibir alocação de usuário em**, selecione uma das seguintes opções:
-      * **Horas**: exibe o tempo alocado como horas. Este é o padrão.
-      * **Porcentagem**: exibe o tempo alocado como uma porcentagem do tempo total disponível
+     * **Horas**: exibe o tempo alocado como horas. Este é o padrão.
+     * **Porcentagem**: exibe o tempo alocado como uma porcentagem do tempo total disponível
    * Na seção **Preferências de classificação**, selecione como deseja que os itens sejam classificados no Balanceador de carga de trabalho. Selecione entre as seguintes opções:
-      * **Classificar usuários por função principal**: os usuários são exibidos na ordem alfabética de suas funções principais na área Trabalho atribuído.
-      * **Classificar usuários em ordem alfabética**: os usuários são exibidos em ordem alfabética de seus nomes na área Trabalho atribuído.
-      * **Classificar projetos por**: selecione um campo de projeto no menu suspenso para classificar projetos em ordem alfabética de acordo com o campo nas áreas Trabalho não atribuído ou atribuído.
+     * **Classificar usuários por função principal**: os usuários são exibidos na ordem alfabética de suas funções principais na área Trabalho atribuído.
+     * **Classificar usuários em ordem alfabética**: os usuários são exibidos em ordem alfabética de seus nomes na área Trabalho atribuído.
+     * **Classificar projetos por**: selecione um campo de projeto no menu suspenso para classificar projetos em ordem alfabética de acordo com o campo nas áreas Trabalho não atribuído ou atribuído.
 
    >[!TIP]
    >
@@ -339,8 +339,8 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 
      Você também pode usar os seguintes atalhos para atribuir tarefas ou problemas:
 
-      * No Windows: CTRL+clique na barra de tarefas ou problemas.
-      * No Mac: CMD+clique na barra de tarefas ou problemas.
+     * No Windows: CTRL+clique na barra de tarefas ou problemas.
+     * No Mac: CMD+clique na barra de tarefas ou problemas.
 
      Para obter mais informações sobre como atribuir itens de trabalho a usuários no Balanceador de carga de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../workload-balancer/assign-work-in-workload-balancer.md).
 
@@ -432,7 +432,7 @@ A página da Equipe inicial é exibida por padrão.
 
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
-   ![Balanceador de carga de trabalho de uma equipe](assets/nwe-balancer-team-350x172.png)
+   ![Balanceador de carga de trabalho de uma equipe](assets/wb-on-team.png)
 
    O Balanceador de carga de trabalho de uma equipe exibe as seguintes informações, por padrão:
 
@@ -448,7 +448,7 @@ A página da Equipe inicial é exibida por padrão.
 1. Clique no nome de um projeto para abrir a página.
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
-   ![Balanceador de carga de trabalho de um projeto](assets/nwe-balancer-project-350x152.png)
+   ![Balanceador de carga de trabalho de um projeto](assets/wb-on-project.png)
 
    O Balanceador de carga de trabalho do projeto exibe as seguintes informações, por padrão:
 
@@ -503,7 +503,7 @@ Você pode acessar o Balanceador de carga de trabalho em seu próprio perfil de 
 
    O Balanceador de carga de trabalho do usuário é exibido.
 
-   ![Balanceador de carga de trabalho para um usuário](assets/workload-balancer-user.png)
+   ![Balanceador de carga de trabalho de um usuário](assets/workload-balancer-user.png)
 
    O Balanceador de carga de trabalho de um usuário exibe as seguintes informações por padrão:
 

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 851
 ht-degree: 5%
 
 ---
@@ -99,7 +99,7 @@ As seções a seguir ilustram onde você pode acessar o Balanceador de carga de 
 
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
-   ![Balanceador de carga de trabalho](assets/nwe-balancer-global.png)
+   ![Balanceador de carga de trabalho](assets/wb-in-res-mgmt.png)
 
    O Balanceador de carga de trabalho exibe as seguintes informações na área Recursos, por padrão:
 
@@ -118,7 +118,7 @@ A página da sua equipe inicial é exibida.
 
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
-   ![Balanceador de carga de trabalho para a equipe](assets/nwe-balancer-team-350x172.png)
+   ![Balanceador de carga de trabalho de uma equipe](assets/wb-on-team.png)
 
    O Balanceador de carga de trabalho de uma equipe exibe as seguintes informações, por padrão:
 
@@ -138,7 +138,7 @@ A página da sua equipe inicial é exibida.
 
    O Balanceador de carga de trabalho do projeto é exibido.
 
-   ![Balanceador de carga de trabalho para o projeto](assets/nwe-balancer-project-350x152.png)
+   ![Balanceador de carga de trabalho de um projeto](assets/wb-on-project.png)
 
    O Balanceador de carga de trabalho de um projeto exibe as seguintes informações por padrão:
 
@@ -161,7 +161,7 @@ Todas as configurações de exibição estão disponíveis para o Balanceador de
 
    O Balanceador de carga de trabalho do usuário é exibido.
 
-   ![Balanceador de carga de trabalho para um usuário](assets/workload-balancer-user.png)
+   ![Balanceador de carga de trabalho de um usuário](assets/workload-balancer-user.png)
 
    O Balanceador de carga de trabalho de um usuário exibe as seguintes informações por padrão:
 

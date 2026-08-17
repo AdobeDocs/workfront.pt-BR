@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 1056
 ht-degree: 3%
@@ -45,7 +45,7 @@ As preferências de horas e folha de horas controlam o que aparece em uma folha 
 
 Para obter informações sobre como registrar horas em uma planilha de horas, consulte [Registrar horas](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![Layout da planilha de horas](assets/timesheet-layout-unshimmed.png)
+![Layout da planilha de horas](assets/timesheet-layout-leftnav-updated.png)
 
 Estas são as áreas de uma planilha de horas:
 
@@ -71,8 +71,8 @@ O cabeçalho da folha de horas inclui as seguintes informações:
 
 * O período da folha de horas.
 * A área Ações que inclui o seguinte:
-   * Um ícone de estrela para adicionar as folhas de horas à lista de Favoritos.
-   * O ícone Mais com uma opção Excluir que permite excluir a folha de horas.
+  * Um ícone de estrela para adicionar as folhas de horas à lista de Favoritos.
+  * O ícone Mais com uma opção Excluir que permite excluir a folha de horas.
 * O nome do proprietário da folha de horas.
 * O número Total de Horas para horas registradas para itens exibidos na folha de horas.
 * O número de horas extras. Esta é uma entrada manual e é visível somente quando a configuração **Hora extra** está habilitada em uma folha de horas. Para obter mais informações, consulte [Editar informações da folha de horas](../create-and-manage-timesheets/edit-timesheets.md).
