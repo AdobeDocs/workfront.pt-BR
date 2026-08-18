@@ -8,18 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1416'
 ht-degree: 2%
 
 ---
 
 # Configurar colaboradores de IA
-
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
-
 
 Os Colaboradores de IA são uma maneira de integrar agentes de IA em seus projetos e tarefas. Você pode configurar um Colaborador de IA e atribuí-lo como faria com um usuário.
 
@@ -73,24 +69,20 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 * Você deve configurar uma marca no Workfront antes de usá-la para um Colaborador de IA do tipo Revisor.
 
   Para obter instruções, consulte [Criar e gerenciar marcas para o Revisor de Conteúdo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
-* Para usar o Adobe Brand Intelligence para o Reviewer AI Collaborator, sua organização deve usar a experiência unificada de revisão e aprovação no Workfront. </span>
+* Para usar o Adobe Brand Intelligence para o Reviewer AI Collaborator, sua organização deve usar a experiência unificada de revisão e aprovação no Workfront.
 
-  Para obter mais informações, consulte [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
-
-<div class="preview">
+  Para obter mais informações, consulte [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 ### Para Colaboradores de Tarefas
 
 Você deve configurar um agente no Claude, no Copilot Studio ou no Writer antes de usá-lo como um Task Collaborator.
-
-</div>
 
 ## Criar um novo Colaborador de IA do tipo Revisor
 
 Os Colaboradores de IA do revisor podem ser configurados para usar marcas da Workfront ou o Adobe Brand Intelligence.
 
 * **Marcas**: as marcas são criadas no Workfront. Você pode criar marcas no Workfront fazendo upload de arquivos PDF que contêm as diretrizes da marca ou inserindo manualmente os elementos da marca.
-* **Adobe Brand Intelligence**: quando um Colaborador de IA revisa um ativo usando o Adobe Brand Intelligence, você pode exibir os comentários feitos pelo Revisor no Frame.io.  </span>
+* **Adobe Brand Intelligence**: quando um Colaborador de IA revisa um ativo usando o Adobe Brand Intelligence, você pode exibir os comentários feitos pelo Revisor no Frame.io.
 
 
 {{step-1-to-setup}}
@@ -102,8 +94,6 @@ Os Colaboradores de IA do revisor podem ser configurados para usar marcas da Wor
 1. Escolha se o colaborador usará uma marca ou o Adobe Brand Intelligence para suas análises.
 1. (Condicional) Se o Colaborador de IA usar uma Marca, selecione a marca e a diretriz da marca que ele usará.
 1. Clique em **Salvar**.
-
-<div class="preview">
 
 ## Configurar um Colaborador de Tarefas
 
@@ -202,8 +192,6 @@ Informações mais detalhadas sobre a criação de agentes podem ser encontradas
 1. Atribua o Colaborador de Tarefas a uma tarefa do Workfront. O Collaborator começa a trabalhar quando todas as tarefas predecessoras da tarefa são concluídas.
 
 +++
-
-</div>
 
 ## Gerenciar colaboradores de IA
 
