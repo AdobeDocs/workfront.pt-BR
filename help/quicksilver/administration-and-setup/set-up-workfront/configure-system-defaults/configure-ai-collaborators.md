@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 0b1e8b85625d7fd34f64b7c82eb40e1134adfcd6
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1377'
 ht-degree: 2%
 
 ---
@@ -201,5 +201,4 @@ Você pode editar, copiar e excluir os colaboradores de IA existentes.
 
 1. Na navegação à esquerda, clique em **Colaboradores de IA**.
 1. (Condicional) Para editar um Collaborator, clique no nome do Collaborator que deseja editar, faça qualquer edição na janela Editar Collaborator e clique em **Salvar**.
-1. (Condicional) Para copiar um Collaborator, clique no ícone Copiar ![ícone Copiar](assets/copy-ai-collaborator.png) na linha do AI Collaborator que você deseja copiar, clique no nome da cópia, faça qualquer edição na janela Editar Collaborator e clique em **Salvar**.
 1. (Condicional) Para excluir um Colaborador, clique no ícone Excluir ![ícone Excluir](assets/delete-collaborator-icon.png) na linha do Colaborador de IA que você deseja excluir e clique em **Excluir**.
