@@ -4,7 +4,7 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: abcd2a6063f9768c160f179a7240cf10a7cc62df
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 13%
@@ -176,7 +176,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>31 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>13 de agosto de 2026</p></td>
         </tr>
         <tr>
             <td>
