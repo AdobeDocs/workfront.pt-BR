@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
 workflow-type: tm+mt
-source-wordcount: 7962
-ht-degree: 77%
+source-wordcount: 8071
+ht-degree: 76%
 
 ---
 
@@ -852,8 +852,6 @@ Para adicionar uma pesquisa externa:
 >* Tempo de espera entre tentativas: 500 ms
 >* Status de resposta esperados: 2xx
 
-
-
 ### Adicionar campos de pesquisa interna
 
 Um campo de pesquisa interna permite que os usuários digitem o nome de um objeto que existe no Workfront. Uma lista de sugestões é exibida quando o usuário começa a digitar. Por exemplo, se o usuário estiver digitando um nome de usuário, será exibida uma lista de nomes correspondentes. O tipo de campo de pesquisa interna é compatível com os seguintes objetos:
@@ -871,6 +869,12 @@ Um campo de pesquisa interna permite que os usuários digitem o nome de um objet
 * Problema
 * Documento
 * Localização
+
+>[!NOTE]
+>
+>Os campos de digitação antecipada não estão mais disponíveis para serem adicionados a formulários personalizados. Você pode converter um tipo existente antecipado em uma pesquisa interna clicando no botão nas opções de campo à direita. Quando você converte, os dados históricos permanecem no campo e são usados da mesma maneira nos relatórios.
+> 
+>Observe também que, se um campo de digitação antecipada for incluído em um pacote de promoção de ambiente, o campo será convertido automaticamente em uma pesquisa interna quando a promoção ocorrer. Para obter mais informações sobre a promoção do ambiente, consulte [Visão geral da movimentação de objetos entre ambientes do Workfront (Promoção do ambiente)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 Para adicionar uma pesquisa interna:
 
