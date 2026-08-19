@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
-source-wordcount: 4030
+source-wordcount: 4047
 ht-degree: 2%
 
 ---
@@ -181,7 +176,21 @@ Para obter mais informações sobre como editar registros na exibição de tabel
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
 -->
 
-Ao criar uma exibição de tabela, todos os registros do tipo selecionado são exibidos em uma tabela. Cada linha é um registro exclusivo e cada coluna é um campo de registro. Todos os campos e registros são exibidos por padrão.
+Em uma exibição de tabela, todos os registros do tipo de registro selecionado são exibidos em um formato de tabela. Cada linha é um registro exclusivo e cada coluna é um campo de registro.
+
+Os itens a seguir são exibidos em uma exibição de tabela por padrão:
+
+* Todos os campos e todos os registros do tipo de registro selecionado.
+
+<!--
+<div class="preview">
+
+* 500 records upload automaticall. Additional records display as you scroll the view. 
+
+</div>
+-->
+
+500 registros são exibidos por padrão
 
 Para gerenciar uma exibição de tabela:
 
@@ -288,6 +297,12 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
       Você pode usar qualquer palavra ou caractere especial visível na tela.
 
       Não é possível usar palavras-chave associadas a campos ocultos na exibição de tabela.
+
+      <!--
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
 
    1. Pressione **Enter** no teclado para ir para o próximo campo encontrado.
 
@@ -569,7 +584,7 @@ Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***—>
+&lt;!—!—******************* É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto *******************—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
@@ -578,7 +593,12 @@ Considere o seguinte:
 * Quando você agrupa por campos de pesquisa com vários valores (que não foram resumidos por um agregador), os registros são agrupados por cada combinação exclusiva de valores de campo.
 * Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando um agrupamento para um tipo de registro de Atividade e a Atividade estiver conectada ao tipo de registro de Produto que está conectado ao tipo de registro de Campanha que está conectado a um Projeto do Workfront, você poderá fazer referência ao Status do projeto no agrupamento que está criando para o tipo de registro de Atividade.
 * Os agrupamentos são listados na ordem alfabética de seus valores.
-  <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
+
+<!--
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+-->
+
+<!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
 Para adicionar um agrupamento:
 

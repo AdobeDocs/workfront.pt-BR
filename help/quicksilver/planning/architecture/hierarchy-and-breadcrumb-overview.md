@@ -9,14 +9,11 @@ exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5fAVg3RVgnHdJraHxLwM-u4rrUwzou9wDzR6KUKW1xY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
-source-wordcount: 1042
+source-wordcount: 1051
 ht-degree: 0%
 
 ---
@@ -47,12 +44,12 @@ Estes são os benefícios de usar hierarquias em seus espaços de trabalho:
 * Você pode criar até 5 hierarquias para um espaço de trabalho.
 * É possível ter até quatro tipos de registro e objeto conectados em uma hierarquia.
 * Você pode conectar apenas os seguintes tipos de objetos em uma hierarquia de espaço de trabalho:
-   * Tipos de registro que pertencem ao espaço de trabalho no qual você está criando as hierarquias.
-   * Projetos Workfront. Projetos Workfront não podem ser adicionados como pais de outros tipos de registro. Eles são sempre o último tipo de objeto em uma hierarquia.
+  * Tipos de registro que pertencem ao espaço de trabalho no qual você está criando as hierarquias.
+  * Projetos Workfront. Projetos Workfront não podem ser adicionados como pais de outros tipos de registro. Eles são sempre o último tipo de objeto em uma hierarquia.
 * Não é possível adicionar os seguintes tipos de objeto em uma hierarquia:
-   * Tipos de registro de outros espaços de trabalho, mesmo quando definidos como conectáveis ou tipos de registro globais. Você pode adicionar tipos de registros globais a hierarquias somente quando eles tiverem sido adicionados ao espaço de trabalho a partir do qual você está construindo a hierarquia.
-   * Todos os outros objetos do Workfront.
-   * Adobe Experience Manager Assets ou fragmentos de conteúdo.
+  * Tipos de registro de outros espaços de trabalho, mesmo quando definidos como conectáveis ou tipos de registro globais. Você pode adicionar tipos de registros globais a hierarquias somente quando eles tiverem sido adicionados ao espaço de trabalho a partir do qual você está construindo a hierarquia.
+  * Todos os outros objetos do Workfront.
+  * Adobe Experience Manager Assets ou fragmentos de conteúdo.
 * As hierarquias podem incluir tipos de registro do Planning e projetos do Workfront ao mesmo tempo.
 
   Por exemplo, você pode ter um tipo de registro de Campanha com Táticas de Planejamento e Projetos Workfront como filhos na mesma hierarquia de espaço de trabalho.
@@ -64,25 +61,25 @@ Estes são os benefícios de usar hierarquias em seus espaços de trabalho:
 * Não é possível excluir um campo de conexão se o tipo de registro referenciado no campo fizer parte de uma hierarquia. Você deve primeiro remover o tipo de registro da hierarquia ou excluir a hierarquia antes de poder excluir o tipo de registro.
 * Você pode excluir um campo de pesquisa de um tipo de registro conectado. As informações no campo não podem ser recuperadas.
 * A seguir estão as regras para configuração de hierarquia:
-   * Um tipo de registro só pode ter um tipo de registro pai em um determinado espaço de trabalho.
+  * Um tipo de registro só pode ter um tipo de registro pai em um determinado espaço de trabalho.
 
-     Por exemplo, um tipo de registro Tático não pode ter um tipo de registro Campanha e Meta como pai no mesmo espaço de trabalho.
-   * Um tipo de registro pode ser o pai em várias hierarquias.
+    Por exemplo, um tipo de registro Tático não pode ter um tipo de registro Campanha e Meta como pai no mesmo espaço de trabalho.
+  * Um tipo de registro pode ser o pai em várias hierarquias.
 
-     Por exemplo, você pode ter três hierarquias diferentes em um espaço de trabalho e cada uma delas pode ter Campanhas como seu tipo de registro principal.
-   * Um registro pode ser conectado a vários registros pai do mesmo tipo quando você conecta um a muitos ou muitos a muitos tipos de registro.
+    Por exemplo, você pode ter três hierarquias diferentes em um espaço de trabalho e cada uma delas pode ter Campanhas como seu tipo de registro principal.
+  * Um registro pode ser conectado a vários registros pai do mesmo tipo quando você conecta um a muitos ou muitos a muitos tipos de registro.
 
-     Por exemplo, a Tática A pode pertencer à Campanha X e à Campanha Y.
-   * Um tipo de registro pode se conectar somente a um tipo de registro filho por vez. Um tipo de registro filho também pode ser pai de outro tipo de registro.
+    Por exemplo, a Tática A pode pertencer à Campanha X e à Campanha Y.
+  * Um tipo de registro pode se conectar somente a um tipo de registro filho por vez. Um tipo de registro filho também pode ser pai de outro tipo de registro.
 
-     Por exemplo, um tipo de registro de Campanha pode ser o pai de apenas um outro tipo de registro na mesma hierarquia (Tático), e Tático pode, por sua vez, ser o pai de Programas, que pode ser um pai de Projetos.
-   * Um tipo de registro não pode ser pai em uma hierarquia e filho em outra hierarquia no mesmo espaço de trabalho.
-   * Os tipos de registro global podem aparecer em vários espaços de trabalho dentro de várias hierarquias, após serem adicionados a esses espaços de trabalho.
+    Por exemplo, um tipo de registro de Campanha pode ser o pai de apenas um outro tipo de registro na mesma hierarquia (Tático), e Tático pode, por sua vez, ser o pai de Programas, que pode ser um pai de Projetos.
+  * Um tipo de registro não pode ser pai em uma hierarquia e filho em outra hierarquia no mesmo espaço de trabalho.
+  * Os tipos de registro global podem aparecer em vários espaços de trabalho dentro de várias hierarquias, após serem adicionados a esses espaços de trabalho.
 
-     Por exemplo, se uma Campanha for um tipo de registro global e parte de uma hierarquia no Workspace 1, ela poderá ser adicionada como um tipo de registro existente ao Workspace 2 e poderá fazer parte de uma hierarquia lá. Mas ela não pode fazer parte de uma hierarquia no Workspace 2 somente quando designada como um tipo de registro global no Workspace 1, mas não adicionada ao Workspace 2.
-   * Quando os tipos de registro conectados fazem parte de hierarquias, você pode conectar um registro de um tipo de registro-filho a até 10 registros de um tipo de registro-pai.
+    Por exemplo, se uma Campanha for um tipo de registro global e parte de uma hierarquia no Workspace 1, ela poderá ser adicionada como um tipo de registro existente ao Workspace 2 e poderá fazer parte de uma hierarquia lá. Mas ela não pode fazer parte de uma hierarquia no Workspace 2 somente quando designada como um tipo de registro global no Workspace 1, mas não adicionada ao Workspace 2.
+  * Quando os tipos de registro conectados fazem parte de hierarquias, você pode conectar um registro de um tipo de registro-filho a até 10 registros de um tipo de registro-pai.
 
-     Por exemplo, se você criar uma hierarquia entre Campanhas como principal e Persona como registro secundário, poderá conectar a mesma persona a até 10 campanhas.
+    Por exemplo, se você criar uma hierarquia entre Campanhas como principal e Persona como registro secundário, poderá conectar a mesma persona a até 10 campanhas.
 
 ## Considerações ao visualizar navegações estruturais
 
@@ -97,7 +94,7 @@ Considere o seguinte:
 * As navegações estruturais são exibidas na área de visualização de um registro, bem como na página de detalhes dos registros.
 * Se um tipo de registro fizer parte de várias hierarquias, você poderá alternar entre hierarquias a partir da navegação estrutural do registro na página do registro.
 * Se o tipo de registro em uma hierarquia tiver vários registros, você poderá selecionar registros na navegação estrutural.
-* As navegações estruturais funcionam no Workfront e no Planning.
+* As navegações estruturais funcionam no Workfront e no Planning, caso sua empresa tenha adquirido pacotes do Workfront e do Planning.
 
   Por exemplo, ao observar um projeto que está conectado a campanhas e táticas do Planning, e também a portfólios e programas do Workfront, é possível alternar entre os tipos de objeto do Planning e do Workfront na navegação estrutural.
 
