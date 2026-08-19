@@ -5,9 +5,9 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
+source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2705'
 ht-degree: 4%
 
 ---
@@ -49,9 +49,9 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | Localizar versão do documento por nome | `approvals_find_document_version_by_name` | Pesquisa a ID de versão atual de um documento por nome de arquivo. Suporta correspondências parciais. | Ler |
 | Obter documento por ID de versão | `approvals_get_document_by_version_id` | Busca detalhes do documento (nome, tamanho, data de upload, carregador) para uma ID de versão de documento conhecida. | Ler |
 | Resolver escopo do documento | `approvals_resolve_document_scope` | Expande um projeto ou pasta para a lista de IDs de versão de documento que ela contém. Suporta escopos de projeto, pasta e pasta por nome. | Ler |
-| Obter documentos por escopo | `approvals_get_documents_by_scope` | Listar documento dentro de um projeto ou pasta. | Ler |
+| Obter documentos por escopo | `approvals_get_documents_by_scope` | Obsoleto. Em vez disso, use `insights_find_workfront_data`. Essa ferramenta listava documentos dentro de um projeto ou pasta. | Ler |
 | Listar pastas vinculadas à AEM* | `approvals_list_aem_linked_folders` | Lista as pastas de documentos do Workfront vinculadas ao Adobe Experience Manager. | Ler |
-| Localizar um documento | `approvals_find_document` | Pesquisar um documento por nome de arquivo ou ID de versão do documento | Ler |
+| Localizar um documento | `approvals_find_document` | Obsoleto. Em vez disso, use `insights_find_workfront_data`. Esta ferramenta pesquisou um documento por nome de arquivo ou ID de versão do documento. | Ler |
 | Enviar documentos para a pasta do AEM* | `approvals_send_documents_to_aem_folder` | Move um ou mais documentos do Workfront para uma pasta vinculada ao AEM. | Gravar |
 
 *Você deve ter uma integração nativa [!DNL Adobe Experience Manager] configurada na instância do Workfront para usar essas ferramentas. Para obter mais informações, consulte [Visão geral das integrações do Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -112,6 +112,10 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | --- | --- | --- | --- |
 | Localizar projeto por nome | `approvals_find_project_by_name` | Procura projetos do Workfront por correspondência de nome parcial no sistema. | Ler |
 | Obter projetos por proprietário | `approvals_get_projects_by_owner` | Lista os projetos do Workfront dos quais o usuário que faz a chamada é o proprietário. | Ler |
+| Obter usuário atual | `approvals_get_current_user` | Removido em 13 de agosto de 2026. Esta ferramenta retornou a identidade do Workfront do usuário chamador, incluindo nome, ID de usuário, nome da equipe inicial e ID da equipe inicial. Para obter funcionalidade semelhante, consulte [Obter usuário atual](#insights-tools) em Ferramentas do Insights. | Ler |
+| Localizar usuário por nome | `approvals_find_user_by_name` | Obsoleto. Em vez disso, use `insights_search_users`. Essa ferramenta pesquisava a ID de um usuário do Workfront por nome (correspondência difusa ou parcial), nome de retorno, ID, email, título e URL de avatar. | Ler |
+| Localizar equipe por nome | `approvals_find_team_by_name` | Obsoleto. Em vez disso, use `insights_find_id_by_name`. Essa ferramenta pesquisava a ID de uma equipe do Workfront por nome (correspondência difusa ou parcial). | Ler |
+| Encontrar projetos | `approvals_find_projects` | Obsoleto. Em vez disso, use `insights_find_workfront_data`. Essa ferramenta pesquisava projetos do Workfront, opcionalmente filtrados por nome e/ou restritos a projetos pertencentes ao usuário que faz a chamada. | Ler |
 
 ## Ferramentas de planejamento
 
