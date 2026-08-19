@@ -4,9 +4,9 @@ content-type: reference
 description: Saiba como usar Colaboradores de tarefas, Colaboradores de IA que podem ser atribuídos a tarefas do Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 73ca5de2dbc9ef698d3c8fa3098b783168c1c6b2
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -66,6 +66,24 @@ Alguns exemplos de workflows podem incluir:
 >* Atualmente, os Colaboradores de tarefas oferecem suporte a agentes criados no Copilot Studio, Claude e Writer.ai.
 >* Ao configurar um agente no Copilot Studio, defina a segurança como **Sem autenticação**.
 >* Para obter informações e instruções sobre como criar um Colaborador de Tarefas no Workfront, consulte [Configurar um Colaborador de Tarefas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) no artigo Configurar Colaboradores de IA.
+
+## Informações que um Colaborador de Tarefas lê
+
+Quando um Colaborador de Tarefas começa a trabalhar em uma tarefa, ele lê automaticamente as seguintes informações da tarefa como contexto:
+
+* Título da tarefa
+* Descrição da tarefa
+* Comentários no fluxo de atualização da tarefa
+* Informações em qualquer formulário personalizado anexado à tarefa
+
+Essas informações são sempre lidas e não podem ser definidas como uma configuração do Workfront.
+
+>[!TIP]
+>
+>Para obter melhores resultados, recomendamos:
+>
+>* Incluindo qualquer informação de fundo que você queira que o agente use diretamente na descrição da tarefa ou em um campo de formulário personalizado relevante.
+>* Verificando se a tarefa corresponde ao que o agente está instruído a fazer. Por exemplo, se o agente for instruído a traduzir o texto do inglês para o francês, inclua o texto que deseja traduzir na descrição da tarefa.
 
 ## Acionadores de início do Colaborador de Tarefas
 
