@@ -6,16 +6,14 @@ description: O painel de navegação esquerdo do  [!DNL Workfront]  facilita a n
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 3d0cbbd0fe1cb1ec707df4cd50a3862fcf8767f3
+source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1419'
 ht-degree: 3%
 
 ---
 
 # Navegação à esquerda em [!DNL Adobe Workfront]
-
-{{preview-fast-release-general}}
 
 A maioria das áreas e objetos no WF usam um painel de navegação simples no lado esquerdo da tela. Estes são os benefícios da navegação no painel esquerdo:
 
@@ -264,11 +262,7 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
 
    Você deve ter permissões para editar o objeto antes de poder editar as informações.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Seções do painel esquerdo](assets/left-navigation-panel-072326.png)
-
-   Imagem de amostra no ambiente de produção:
-   ![Seções do painel esquerdo](assets/left-navigation-panel.png)
 
 1. (Opcional) Para adicionar um link rápido do painel, clique em **[!UICONTROL Adicionar um painel]** na parte inferior do painel esquerdo e, em seguida, faça o seguinte:
 
@@ -283,17 +277,9 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
 
 1. (Opcional) Para remover um link rápido do painel, passe o mouse sobre o painel na navegação à esquerda e clique no ícone **Remover** ![Ícone Remover](assets/remove-dashboard-from-left.png) quando ele aparecer.
 
-1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo no ambiente de Produção, clique no **[!UICONTROL ícone Arrastar]** ![ícone Arrastar](assets/drag-icon.png) ao lado de uma seção e arraste-a para cima ou para baixo.
-
-   ![Arraste uma seção](assets/drag-section.png)
-
-   <div class="preview">
-
-   Para alterar a ordem de uma seção no painel esquerdo no ambiente de Visualização, clique e arraste a seção para cima ou para baixo até a posição correta.
+1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique e arraste a seção para cima ou para baixo até a posição correta.
 
    ![Arraste uma seção](assets/click-drag-left-nav-section.png)
-
-   </div>
 
 1. (Opcional) Para fechar o painel esquerdo, clique no ícone ![](assets/left-panel-collapse-icon.png) de **[!UICONTROL Recolher]**.
 

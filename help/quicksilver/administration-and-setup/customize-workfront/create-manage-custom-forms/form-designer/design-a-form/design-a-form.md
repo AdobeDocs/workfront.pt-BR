@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
+source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
 workflow-type: tm+mt
-source-wordcount: 8071
+source-wordcount: 8056
 ht-degree: 76%
 
 ---
@@ -165,11 +165,11 @@ Os formulários personalizados são limitados a 500 campos. Um contador no canto
 
 * Cada nome de API de campo personalizado deve ser exclusivo na instância do Workfront da organização. Dessa forma, você pode reutilizar um nome que já foi criado para outro formulário personalizado.
 
-* Embora seja possível fazer isso, recomendamos que você não altere esse nome de API depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele possa ser referenciado em outras áreas do Workfront.
+* Os nomes das APIs são somente leitura por padrão. Embora seja possível fazer isso, recomendamos que você não altere esse nome de API depois que o formulário personalizado for usado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele possa ser referenciado em outras áreas do Workfront.
 
   Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar o nome da API, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
 
-* Os nomes das APIs são somente leitura por padrão. Para tornar o nome da API editável, clique no ícone **Editar** ao lado do **Nome da API**. Em seguida, digite **confirmar** na caixa de confirmação e clique em **Renomear campo**.
+  Você também pode interromper integrações e cálculos existentes que dependem do nome da API do campo.
 
 * Recomendamos que você não digite um nome de API que já esteja sendo usado para campos integrados do Workfront.
 
