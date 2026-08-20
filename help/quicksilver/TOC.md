@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
+source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
 workflow-type: tm+mt
-source-wordcount: '14427'
+source-wordcount: '14435'
 ht-degree: 93%
 
 ---
@@ -1931,6 +1931,7 @@ ht-degree: 93%
     * [Introdução ao Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Visão geral do armazenamento em nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento em nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+    * [Transferência de aprovações de documentos herdados para Aprovações unificadas](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * Configurar e gerenciar aprovações de ativos e documentos {#manage-asset-review-and-approval}
       * [Configurar e gerenciar aprovações unificadas: índice de artigos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [Criar e gerenciar marcas para o Revisor de conteúdo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
