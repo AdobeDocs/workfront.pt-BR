@@ -5,9 +5,9 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
+source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
 workflow-type: tm+mt
-source-wordcount: '2705'
+source-wordcount: '2721'
 ht-degree: 4%
 
 ---
@@ -110,8 +110,8 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 
 | Título | Nome da ferramenta | O que faz | Ação |
 | --- | --- | --- | --- |
-| Localizar projeto por nome | `approvals_find_project_by_name` | Procura projetos do Workfront por correspondência de nome parcial no sistema. | Ler |
-| Obter projetos por proprietário | `approvals_get_projects_by_owner` | Lista os projetos do Workfront dos quais o usuário que faz a chamada é o proprietário. | Ler |
+| Localizar projeto por nome | `approvals_find_project_by_name` | Removido em 13 de agosto de 2026. Em vez disso, use `insights_find_id_by_name`. Esta ferramenta pesquisou projetos do Workfront por correspondência de nome parcial no sistema. | Ler |
+| Obter projetos por proprietário | `approvals_get_projects_by_owner` | Removido em 13 de agosto de 2026. Em vez disso, use `insights_find_workfront_data`. Essa ferramenta listou projetos do Workfront em que o usuário que fez a chamada era o proprietário. | Ler |
 | Obter usuário atual | `approvals_get_current_user` | Removido em 13 de agosto de 2026. Esta ferramenta retornou a identidade do Workfront do usuário chamador, incluindo nome, ID de usuário, nome da equipe inicial e ID da equipe inicial. Para obter funcionalidade semelhante, consulte [Obter usuário atual](#insights-tools) em Ferramentas do Insights. | Ler |
 | Localizar usuário por nome | `approvals_find_user_by_name` | Obsoleto. Em vez disso, use `insights_search_users`. Essa ferramenta pesquisava a ID de um usuário do Workfront por nome (correspondência difusa ou parcial), nome de retorno, ID, email, título e URL de avatar. | Ler |
 | Localizar equipe por nome | `approvals_find_team_by_name` | Obsoleto. Em vez disso, use `insights_find_id_by_name`. Essa ferramenta pesquisava a ID de uma equipe do Workfront por nome (correspondência difusa ou parcial). | Ler |
