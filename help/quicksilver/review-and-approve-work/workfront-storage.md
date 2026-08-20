@@ -6,9 +6,9 @@ description: Planeje a implantação do Workfront no Adobe Cloud Storage. Saiba 
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
+source-git-commit: 719cce365a8279b46c849b92f0cd31c6bc4021a8
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2966'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ A migração para uma versão do Workfront compatível com o armazenamento em nu
 
 Antes de implantar o Adobe Cloud Storage, verifique se as pessoas que gerenciam aprovações sabem o que esperar:
 
+* **O que acontece com as aprovações existentes** Os fluxos de trabalho de aprovação herdados existentes são afetados por essa alteração, esteja ela em andamento ou concluída. Para obter mais informações, consulte [Mover de aprovações de documentos herdados para Aprovações unificadas](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md).
 * **Uma nova experiência de aprovações** Revisores e aprovadores migram da experiência de aprovação de documentos herdada para Aprovações unificadas, o que adiciona aprovações em vários estágios, caminhos de revisão paralela e muito mais. Para obter mais informações, consulte os seguintes artigos:
 
   * [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)

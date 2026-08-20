@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 1485
 ht-degree: 3%
@@ -102,14 +102,14 @@ O sistema gera uma entrada de log de Nível de acesso quando um usuário executa
 * Exclui um nível de acesso
 * Altera um nível de acesso:
 
-   * Modifica o tipo de licença
-   * Altera permissões de projetos, tarefas, problemas, portfólios, programas, relatórios, documentos, usuários ou modelos
+  * Modifica o tipo de licença
+  * Altera permissões de projetos, tarefas, problemas, portfólios, programas, relatórios, documentos, usuários ou modelos
 
-     >[!NOTE]
-     >
-     >O sistema não registra nenhuma alteração de permissão nos Dados financeiros ou nos seguintes tipos de acesso: Exibir e Editar.
-     >
-     >Por exemplo, se um usuário alterar o tipo de acesso Planejador de Exibir para Editar, o sistema não exibirá as informações contidas no menu suspenso Ajustar as configurações.
+    >[!NOTE]
+    >
+    >O sistema não registra nenhuma alteração de permissão nos Dados financeiros ou nos seguintes tipos de acesso: Exibir e Editar.
+    >
+    >Por exemplo, se um usuário alterar o tipo de acesso Planejador de Exibir para Editar, o sistema não exibirá as informações contidas no menu suspenso Ajustar as configurações.
 
 ### Perfis comerciais
 
@@ -121,16 +121,16 @@ O sistema gera uma entrada de log de auditoria do Perfil de negócios quando um 
 
 ### Regras de negócios
 
-O Business Rules só está disponível para clientes que compraram um Plano do Ultimate Workfront. Para obter mais informações, consulte [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+O Business Rules só está disponível para clientes que compraram um pacote do Ultimate Workfront. Para obter mais informações, consulte [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 O sistema gera uma entrada de log de auditoria da Regra de Negócios quando um usuário realiza uma das seguintes ações:
 
 * Cria uma regra de negócios
 * Edita uma regra de negócios:
 
-   * Renomeia
-   * Adiciona ou remove expressões
-   * Altera um acionador
+  * Renomeia
+  * Adiciona ou remove expressões
+  * Altera um acionador
 
 * Exclui uma regra de negócios
 
@@ -141,13 +141,13 @@ O sistema gera uma entrada de log de auditoria da empresa quando um usuário exe
 * Cria uma empresa
 * Muda uma empresa:
 
-   * Renomeia
-   * Adiciona ou remove membros
-   * Adiciona, edita ou exclui o valor no campo Grupo
-   * Adiciona ou edita uma taxa de cobrança da empresa para uma função de trabalho
-   * Remove uma taxa de cobrança da empresa para uma função de trabalho
-   * Define a empresa como a empresa principal da organização
-   * Anexa ou remove um formulário personalizado
+  * Renomeia
+  * Adiciona ou remove membros
+  * Adiciona, edita ou exclui o valor no campo Grupo
+  * Adiciona ou edita uma taxa de cobrança da empresa para uma função de trabalho
+  * Remove uma taxa de cobrança da empresa para uma função de trabalho
+  * Define a empresa como a empresa principal da organização
+  * Anexa ou remove um formulário personalizado
 
 * Exclui uma empresa
 
@@ -160,11 +160,11 @@ O sistema gera uma entrada de log de auditoria de Condição quando um usuário 
 * Cria uma condição
 * Altera uma condição:
 
-   * Altera o nome
-   * Altera a cor
-   * Define como padrão
-   * Altera ou remove a descrição da condição
-   * Oculta ou mostra a condição
+  * Altera o nome
+  * Altera a cor
+  * Define como padrão
+  * Altera ou remove a descrição da condição
+  * Oculta ou mostra a condição
 
 * Exclui uma condição
 
@@ -177,21 +177,21 @@ O sistema gera uma entrada de log de auditoria Campo personalizado quando um usu
 * Cria um campo personalizado
 * Altera um campo personalizado:
 
-   * Altera o nome, o rótulo, as instruções ou o formato da API
-   * Altera o tipo de exibição
+  * Altera o nome, o rótulo, as instruções ou o formato da API
+  * Altera o tipo de exibição
 
-     Isso só estará disponível se o campo for de um dos seguintes tipos: linha única, parágrafo, lista suspensa, caixa de seleção, botão de opção
+    Isso só estará disponível se o campo for de um dos seguintes tipos: linha única, parágrafo, lista suspensa, caixa de seleção, botão de opção
 
-   * Altera o tamanho do campo
+  * Altera o tamanho do campo
 
-     Isso estará disponível somente se o campo for de um dos seguintes tipos: linha única, parágrafo, rich text
+    Isso estará disponível somente se o campo for de um dos seguintes tipos: linha única, parágrafo, rich text
 
-   * Adiciona, remove ou oculta uma escolha de campo
-   * Edita um rótulo ou valor de escolha de campo
-   * Configura a opção de campo a ser selecionada ou não por padrão
-   * Configura um campo suspenso para permitir várias seleções ou uma única seleção
-   * Configura um campo de data para exibir ou não a hora do dia
-   * Edita o hiperlink ou altera o valor em um campo de texto descritivo
+  * Adiciona, remove ou oculta uma escolha de campo
+  * Edita um rótulo ou valor de escolha de campo
+  * Configura a opção de campo a ser selecionada ou não por padrão
+  * Configura um campo suspenso para permitir várias seleções ou uma única seleção
+  * Configura um campo de data para exibir ou não a hora do dia
+  * Edita o hiperlink ou altera o valor em um campo de texto descritivo
 
 * Exclui um campo personalizado
 * Compartilha um campo personalizado
@@ -203,17 +203,17 @@ O sistema gera uma entrada de log de auditoria Forms personalizada quando um usu
 * Cria um formulário personalizado
 * Altera um formulário personalizado:
 
-   * Altera o nome ou a descrição
-   * Ativa ou desativa está ativo
-   * Adiciona ou remove um campo ou seção
-   * Para uma seção personalizada, altera uma configuração em Configurações adicionais
-   * Altera um campo para obrigatório ou não obrigatório
-   * Altera um cálculo em um campo personalizado
-   * Oculta ou exibe a fórmula associada a um campo calculado no texto ao passar o mouse das Instruções
-   * Habilita ou desabilita Atualizar cálculos anteriores
-   * Adiciona ou altera a lógica do campo
+  * Altera o nome ou a descrição
+  * Ativa ou desativa está ativo
+  * Adiciona ou remove um campo ou seção
+  * Para uma seção personalizada, altera uma configuração em Configurações adicionais
+  * Altera um campo para obrigatório ou não obrigatório
+  * Altera um cálculo em um campo personalizado
+  * Oculta ou exibe a fórmula associada a um campo calculado no texto ao passar o mouse das Instruções
+  * Habilita ou desabilita Atualizar cálculos anteriores
+  * Adiciona ou altera a lógica do campo
 
-     <!--   
+    <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -237,9 +237,9 @@ O sistema gera uma entrada de log de auditoria de Taxa de Câmbio quando um usu�
 * Cria uma taxa de câmbio
 * Altera uma taxa de câmbio:
 
-   * Adiciona uma moeda
-   * Altera a taxa da moeda
-   * Define a moeda como a moeda base (padrão) para todos os projetos e relatórios no sistema
+  * Adiciona uma moeda
+  * Altera a taxa da moeda
+  * Define a moeda como a moeda base (padrão) para todos os projetos e relatórios no sistema
 
 * Exclui uma taxa de câmbio
 
@@ -253,8 +253,8 @@ O sistema gera uma entrada de log de auditoria de Grupo quando um usuário execu
 * Exclui um grupo
 * Altera um grupo:
 
-   * Adiciona ou remove usuários
-   * Adiciona ou remove subgrupos
+  * Adiciona ou remove usuários
+  * Adiciona ou remove subgrupos
 
 ### Função no trabalho {#job-role}
 
@@ -263,10 +263,10 @@ O sistema gera uma entrada de log de auditoria Funções de trabalho quando um u
 * Cria uma função de trabalho
 * Altera uma função de trabalho:
 
-   * Altera o nome
-   * Adiciona, altera ou remove a descrição
-   * Adiciona, altera ou remove o custo por hora (Custo/Hr.)
-   * Adiciona, altera ou remove a taxa de cobrança (Fatura/Hr.)
+  * Altera o nome
+  * Adiciona, altera ou remove a descrição
+  * Adiciona, altera ou remove o custo por hora (Custo/Hr.)
+  * Adiciona, altera ou remove a taxa de cobrança (Fatura/Hr.)
 
 * Exclui uma função de trabalho
 
@@ -299,11 +299,11 @@ O sistema gera uma entrada de log de auditoria de prioridade quando um usuário 
 * Cria uma prioridade
 * Altera uma prioridade:
 
-   * Altera o nome
-   * Altera a cor
-   * Define como padrão
-   * Adiciona, altera ou remove a descrição da prioridade
-   * Oculta ou mostra a prioridade
+  * Altera o nome
+  * Altera a cor
+  * Define como padrão
+  * Adiciona, altera ou remove a descrição da prioridade
+  * Oculta ou mostra a prioridade
 
 * Exclui uma prioridade
 
@@ -316,10 +316,10 @@ O sistema gera uma entrada de log de auditoria de Preferências do projeto quand
 * Cria um trimestre personalizado
 * Altera uma preferência de projeto:
 
-   * Bloqueia ou desbloqueia
-   * Altera uma de suas configurações
-   * Ativa, desativa ou edita o script
-   * Edita um cálculo de linha do tempo
+  * Bloqueia ou desbloqueia
+  * Altera uma de suas configurações
+  * Ativa, desativa ou edita o script
+  * Edita um cálculo de linha do tempo
 
 * Exclui um trimestre personalizado
 
@@ -332,11 +332,11 @@ O sistema gera uma entrada de log de auditoria de severidade quando um usuário 
 * Cria uma severidade de problema
 * Altera a gravidade de um problema:
 
-   * Altera o nome
-   * Altera a cor
-   * Define como padrão
-   * Altera ou remove a descrição da severidade
-   * Oculta ou mostra a severidade
+  * Altera o nome
+  * Altera a cor
+  * Define como padrão
+  * Altera ou remove a descrição da severidade
+  * Oculta ou mostra a severidade
 
 * Exclui a gravidade de um problema
 
@@ -349,11 +349,11 @@ O sistema gera uma entrada de log de auditoria de status quando um usuário exec
 * Cria um status no nível do sistema ou do grupo
 * Altera um status no nível do sistema ou do grupo:
 
-   * Renomeia
-   * Transforma em um status padrão
-   * Bloqueia ou desbloqueia
-   * Oculta ou reexibe
-   * Altera a cor ou a descrição
+  * Renomeia
+  * Transforma em um status padrão
+  * Bloqueia ou desbloqueia
+  * Oculta ou reexibe
+  * Altera a cor ou a descrição
 
 * Exclui um status no nível do sistema ou do grupo
 

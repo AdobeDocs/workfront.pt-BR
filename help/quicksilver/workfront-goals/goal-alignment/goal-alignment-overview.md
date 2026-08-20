@@ -14,7 +14,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 755
 ht-degree: 9%
@@ -40,11 +40,11 @@ Old:
 >
 >* For the new plan and license structure:
 >
->   * The Ultimate Workfront plan 
+>   * The Ultimate Workfront package 
 >    
 >* For the current plan and license structure: 
 >
->   * A Pro or higher Workfront plan
+>   * A Pro or higher Workfront package
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
@@ -69,8 +69,8 @@ Para obter mais informações sobre as práticas recomendadas ao alinhar metas, 
 
 * Você deve atualizar diferentes tipos de metas, dependendo da sua função. Por exemplo:
 
-   * Como colaborador individual, recomendamos que você contribua com suas próprias metas, que devem ser alinhadas às metas de nível de equipe, grupo e empresa. Atualizar suas próprias metas deve atualizar o progresso em todas as outras metas principais.
-   * Como CEO ou gerente de negócios, recomendamos que você contribua com suas metas e atualize as atribuídas a equipes, grupos e à empresa.
+  * Como colaborador individual, recomendamos que você contribua com suas próprias metas, que devem ser alinhadas às metas de nível de equipe, grupo e empresa. Atualizar suas próprias metas deve atualizar o progresso em todas as outras metas principais.
+  * Como CEO ou gerente de negócios, recomendamos que você contribua com suas metas e atualize as atribuídas a equipes, grupos e à empresa.
 
 ## Tipos de alinhamento de meta
 
