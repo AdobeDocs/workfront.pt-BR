@@ -7,27 +7,21 @@ author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 TQID: https://experienceleague.adobe.com/eO2UAKzj1TjLfpJKNZ5jewp-S3aNVgxucSUJdu7jaC0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 423
 ht-degree: 12%
 
 ---
 
 # Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo
 
-Você pode usar o painel Resumo de uma tarefa ou um problema para atualizar informações importantes desse item. no Balanceador de carga de trabalho.
+Você pode usar o painel Resumo de uma tarefa ou um problema para atualizar informações importantes para esse item no Balanceador de carga de trabalho.
 
 O painel Resumo está disponível para tarefas e problemas nas áreas Trabalho atribuído e não atribuído do Balanceador de carga de trabalho.
 
@@ -96,7 +90,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    ![Painel de resumo](assets/summary-panel-task-wb-new-comments.png)
 
-1. Modifique um número de campos para o item de trabalho, informe uma atualização ou navegue daqui para outras áreas do Workfront para adicionar documentos ou outras informações ao item de trabalho.
+1. Modifique vários campos para o item de trabalho, insira uma atualização ou navegue daqui para outras áreas do Workfront para adicionar documentos ou outras informações ao item de trabalho.
 
    >[!CAUTION]
    >

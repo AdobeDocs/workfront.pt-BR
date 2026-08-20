@@ -8,24 +8,15 @@ author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 TQID: https://experienceleague.adobe.com/fMt1jY5l7jMYTHUeKNyCE-HJdDEH89xmLqG2UacvU7c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 100%
+source-wordcount: 1256
+ht-degree: 92%
 
 ---
 
@@ -44,13 +35,13 @@ Depois que gerentes de projeto planejam o trabalho nos projetos criando tarefas 
 
 >[!IMPORTANT]
 >
->Você pode usar o Balanceador de carga de trabalho para atribuir tarefas reais (tarefas e problemas) aos usuários.
+>Você pode usar o Balanceador de carga de trabalho para atribuir trabalho real (tarefas e problemas) a usuários e Colaboradores de tarefas.
 >
 >Você deve usar o planejador de recursos e não o Balanceador de carga de trabalho para estimar as alocações de funções de trabalho para seus projetos em nível geral. Para obter mais informações sobre o planejador de recursos, consulte [Visão geral do planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Este artigo descreve a finalidade geral do Balanceador de carga de trabalho e algumas das práticas recomendadas para configurar seus projetos e recursos, a fim de usá-lo de forma eficiente.
 
-Para examinar os tutoriais em vídeo do Balanceador de carga de trabalho, acesse a página [Tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR). No menu esquerdo, selecione **Gerenciar recursos** > **Balanceador de carga de trabalho** e escolha um tutorial.
+Para examinar os tutoriais em vídeo do Balanceador de carga de trabalho, acesse a página [Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR). No menu esquerdo, selecione **Gerenciar recursos** > **Balanceador de carga de trabalho** e escolha um tutorial.
 
 ## Localize o Balanceador de carga de trabalho
 
@@ -114,49 +105,45 @@ Para obter informações sobre como criar e usar filtros no Balanceador de carga
 
 * Os usuários cuja carga de trabalho você deseja gerenciar devem atender aos seguintes critérios para que as informações sobre sua disponibilidade e habilidades sejam precisas:
 
-   * Ter horários e funções de trabalho associados ao seu perfil.
+  * Ter horários e funções de trabalho associados ao seu perfil.
 
-     Para obter mais informações sobre como associar programações e funções de trabalho a usuários, consulte [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
-   * Se um usuário não estiver associado a um cronograma, o cronograma padrão do seu sistema do Workfront será associado ao usuário por padrão, para fins de gerenciamento de recursos.
-   * Ter exceções de cronograma atualizadas em seus cronogramas.
+    Para obter mais informações sobre como associar programações e funções de trabalho a usuários, consulte [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+  * Se um usuário não estiver associado a um cronograma, o cronograma padrão do seu sistema do Workfront será associado ao usuário por padrão, para fins de gerenciamento de recursos.
+  * Ter exceções de cronograma atualizadas em seus cronogramas.
 
-     Para obter mais informações sobre como criar cronogramas, consulte [Criar um cronograma](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+    Para obter mais informações sobre como criar cronogramas, consulte [Criar um cronograma](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * Ter seu calendário de folgas atualizado no perfil.
+  * Ter seu calendário de folgas atualizado no perfil.
 
-     Para obter informações sobre como atualizar o calendário de folgas de um usuário, consulte [Configurar folga pessoal](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-     <!--   
-     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
-     <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
-     </div>   
-     -->
+    Para obter informações sobre como atualizar o calendário de folgas de um usuário, consulte [Configurar folga pessoal](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * O(a) admin do Workfront deve determinar como o Workfront calcula a disponibilidade do usuário. É possível definir se o Workfront usa o cronograma padrão do sistema ou o cronograma do usuário para calcular o tempo disponível para trabalhar ajustando as preferências de gerenciamento de recursos na área de configuração do Workfront.
 
   Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+* Você pode atribuir trabalho a um Colaborador de Tarefas da mesma forma que atribui trabalho a um usuário. O Colaborador de Tarefas deve existir no Workfront antes de ser atribuído a tarefas.
+
+  Para obter informações sobre como criar Colaboradores de tarefas, consulte [Configurar um Colaborador de tarefas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) no artigo [Configurar Colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ### Práticas recomendadas para configurar tarefas e problemas {#best-practices-for-setting-up-tasks-and-issues}
 
 Certifique-se de que a seguinte configuração de tarefas e problemas exista antes de começar a atribuir trabalhos aos usuários no Balanceador de carga de trabalho:
 
 * As tarefas principais não são atribuídas a usuários ou funções. As tarefas principais não são exibidas no Balanceador de carga de trabalho.
-* Tarefas e problemas têm um valor de Horas planejadas maior que zero.
-
-* Tarefas e problemas têm um valor de Duração é maior que zero.
+* Tarefas e problemas têm um valor para Horas planejadas maior que zero.
+* Tarefas e problemas têm um valor para a Duração maior que zero.
 * As Datas planejadas dos problemas estão dentro da linha do tempo do projeto.
 
 ## Antes de começar a usar o Balanceador de carga de trabalho
 
 * Revise os seguintes artigos antes de começar a usar o Balanceador de carga de trabalho:
 
-   * Este artigo mostra como navegar no Balanceador de carga de trabalho para executar estas ações: [Navegar pelo Balanceador de carga de trabalho](../workload-balancer/navigate-the-workload-balancer.md).
+  * Este artigo mostra como navegar no Balanceador de carga de trabalho para executar estas ações: [Navegar pelo Balanceador de carga de trabalho](../workload-balancer/navigate-the-workload-balancer.md).
 
-   * Os artigos a seguir fornecem instruções sobre como atribuir trabalhos e gerenciar alocações de usuário:
+  * Os artigos a seguir fornecem instruções sobre como atribuir trabalhos e gerenciar alocações de usuário:
 
-      * [Visão geral da atribuição de trabalhos no Balanceador de carga de trabalho](../workload-balancer/assign-work-in-workload-balancer.md).
-      * [Gerenciar alocações de usuários no Balanceador de carga de trabalho](../workload-balancer/manage-user-allocations-workload-balancer.md).
+    * [Visão geral da atribuição de trabalhos no Balanceador de carga de trabalho](../workload-balancer/assign-work-in-workload-balancer.md).
+    * [Gerenciar alocações de usuários no Balanceador de carga de trabalho](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
 * O Balanceador de carga de trabalho pode ser encontrado em várias áreas diferentes do Workfront. Para obter informações sobre onde encontrar o Balanceador de carga de trabalho, consulte [Localizar o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

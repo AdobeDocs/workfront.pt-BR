@@ -7,18 +7,13 @@ author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
 TQID: https://experienceleague.adobe.com/OQBqFxBx-VGQsWF-2yGgcZk1EO-ZQ0MAlMsSH3fiMZo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: 440
 ht-degree: 10%
 
 ---
@@ -77,11 +72,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 {{step-1-to-users}}
 
-1. Marque a caixa ao lado do nome de um usuário da lista e clique em **Editar**.
+1. Marque a caixa de seleção ao lado do nome de um usuário na lista e clique em **Editar**.
 1. Clique em **Planejamento de recursos**.
 1. Comece digitando o nome de um pool de recursos que você deseja associar ao usuário no campo **Pools de Recursos** e selecione-o na lista quando ele for exibido.\
    Você pode associar vários conjuntos de recursos a um usuário.\
-   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)
+   ![Adicionar pool de recursos ao usuário](assets/add-resource-pool-to-user.png)
 
 1. Clique em **Salvar alterações**.
 

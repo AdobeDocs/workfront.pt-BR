@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 TQID: https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1104
 ht-degree: 3%
 
 ---
@@ -30,7 +23,7 @@ ht-degree: 3%
 
 <!-- Audited: 5/2025 -->
 
-Como gerenciador de recursos, você pode usar o Balanceador de carga de trabalho do Adobe Workfront para exibir itens de trabalho que ainda não foram atribuídos aos usuários, bem como atribuir esses itens a eles.
+Como gerente de recursos, você pode usar o Balanceador de carga de trabalho do Adobe Workfront para exibir itens de trabalho que ainda não foram atribuídos a usuários e Colaboradores de tarefas, bem como atribuir esses itens a eles.
 
 Para obter informações gerais sobre o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
@@ -51,10 +44,10 @@ O Workfront usa as seguintes informações para calcular a capacidade do usuári
 
 * As Preferências De Gerenciamento De Recursos. O administrador do Workfront determina como o tempo disponível é calculado para o sistema, selecionando para usar um dos seguintes itens na área Gerenciamento de recursos em Configuração:
 
-   * O cronograma padrão do sistema Workfront e o FTE do usuário.
-   * A programação do usuário, conforme indicado na área Perfil do usuário.
+  * O cronograma padrão do sistema Workfront e o FTE do usuário.
+  * A programação do usuário, conforme indicado na área Perfil do usuário.
 
-     Isso calcula a disponibilidade diária e semanal do usuário. Quaisquer exceções de agendamento no agendamento selecionado são refletidas na capacidade do usuário no Balanceador de carga de trabalho.
+    Isso calcula a disponibilidade diária e semanal do usuário. Quaisquer exceções de agendamento no agendamento selecionado são refletidas na capacidade do usuário no Balanceador de carga de trabalho.
 
   Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
@@ -172,9 +165,9 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 * Geralmente, tarefas ou problemas são atribuídos primeiro a uma ou várias funções de trabalho ou a uma equipe. Quando os projetos estiverem prontos para serem iniciados, talvez também seja necessário atribuí-los aos usuários.\
   Se uma tarefa ou um problema for atribuído a uma ou várias funções e você também atribuir um usuário, o Adobe Workfront decide qual função de trabalho deve ser associada ao usuário adicional (se houver) de acordo com as seguintes regras:
 
-   * Se houver apenas uma função de trabalho atribuída e ela corresponder à função principal do usuário, a tarefa ou o problema será atribuído apenas ao usuário que desempenha sua função principal.
-   * Se houver várias funções atribuídas e pelo menos uma das funções corresponder às funções secundárias do usuário, a tarefa ou o problema será atribuído ao usuário que desempenha uma de suas Outras funções — que o Workfront seleciona aleatoriamente se houver várias correspondências — bem como quaisquer funções adicionais atribuídas.
-   * Se houver uma ou mais funções de trabalho atribuídas e não houver correspondência entre as funções do usuário, a tarefa ou o problema será atribuído à função ou às funções, bem como ao usuário.
+  * Se houver apenas uma função de trabalho atribuída e ela corresponder à função principal do usuário, a tarefa ou o problema será atribuído apenas ao usuário que desempenha sua função principal.
+  * Se houver várias funções atribuídas e pelo menos uma das funções corresponder às funções secundárias do usuário, a tarefa ou o problema será atribuído ao usuário que desempenha uma de suas Outras funções — que o Workfront seleciona aleatoriamente se houver várias correspondências — bem como quaisquer funções adicionais atribuídas.
+  * Se houver uma ou mais funções de trabalho atribuídas e não houver correspondência entre as funções do usuário, a tarefa ou o problema será atribuído à função ou às funções, bem como ao usuário.
 
 * Se uma tarefa ou um problema for atribuído a uma equipe e você também atribuir um usuário, a tarefa ou o problema permanecerá atribuído à equipe e ao usuário.
 

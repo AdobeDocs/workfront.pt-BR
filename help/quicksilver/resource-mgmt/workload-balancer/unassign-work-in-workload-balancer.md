@@ -7,27 +7,21 @@ author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
 TQID: https://experienceleague.adobe.com/AREKzNODjF60azs3tXIndVE9QuXXw-14Qlv2nUl9Po4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 13%
+source-wordcount: 387
+ht-degree: 12%
 
 ---
 
 # Desfazer atribuição de trabalho no Balanceador de carga de trabalho
 
-Você pode desatribuir usuários de itens de trabalho na área Trabalho atribuído do Balanceador de carga de trabalho do Adobe Workfront ou reatribuí-los a outros usuários, funções ou equipes.
+Você pode desatribuir usuários de itens de trabalho na área Trabalho atribuído do Balanceador de carga de trabalho do Adobe Workfront ou reatribuí-los a outros usuários, Colaboradores de tarefas, funções ou equipes.
 
 Você pode cancelar a atribuição de itens de trabalho manualmente, arrastando e soltando ou em massa. Este artigo descreve como cancelar a atribuição de usuários manualmente.
 
@@ -75,7 +69,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Cancelar atribuição de itens de trabalho no Balanceador de carga de trabalho
 
-Você pode cancelar a atribuição de itens de usuários e movê-los para a área Trabalho não atribuído ou reatribuí-los a outros usuários.
+Você pode cancelar a atribuição de itens de usuários e movê-los para a área Trabalho Não Atribuído ou reatribuí-los a outros usuários ou Colaboradores de Tarefas.
 
 Para desatribuir itens de trabalho dos usuários:
 
