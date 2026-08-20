@@ -8,19 +8,12 @@ author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
 TQID: https://experienceleague.adobe.com/plzNKZEP3YSHuUZt2MrWb9Q--QemkwCEJD3JxWlB6x4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
 source-wordcount: 1325
 ht-degree: 2%
@@ -60,7 +53,7 @@ O administrador do Workfront determina como o tempo disponível para um usuário
 * O Cronograma Padrão do sistema e o FTE do usuário.
 * A programação do usuário.
 
-![Configuração do sistema para agendas de usuário](assets/setup-resource-mgmt.png)
+![Configuração do sistema para agendas de usuário](assets/resource-management-preferences-section-in-setup.png)
 
 >[!NOTE]
 >
@@ -70,31 +63,31 @@ Com base em como essa configuração é definida, a disponibilidade dos usuário
 
 * **O Calendário Padrão**: o Calendário Padrão do sistema e o FTE do usuário são usados para determinar as Horas Disponíveis e o valor de FTE do usuário no Planejador de Recursos. O cronograma do usuário é ignorado. Neste caso:
 
-   * As Horas Disponíveis no Planejador de Recursos são calculadas usando a seguinte fórmula:
+  * As Horas Disponíveis no Planejador de Recursos são calculadas usando a seguinte fórmula:
 
-     `User Available Hours = Default Schedule Hours * User FTE value`
+    `User Available Hours = Default Schedule Hours * User FTE value`
 
-     Por exemplo, se o Calendário padrão tiver 40 horas por semana disponíveis para trabalho e o FTE do usuário for 0,5, o usuário estará disponível para trabalhar 20 horas por semana no Planejador de recursos.
+    Por exemplo, se o Calendário padrão tiver 40 horas por semana disponíveis para trabalho e o FTE do usuário for 0,5, o usuário estará disponível para trabalhar 20 horas por semana no Planejador de recursos.
 
-     Para obter mais informações sobre agendas, incluindo a Agenda Padrão, consulte [Criar uma agenda](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+    Para obter mais informações sobre agendas, incluindo a Agenda Padrão, consulte [Criar uma agenda](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   * O FTE disponível para o usuário no Planejador de recursos é o mesmo FTE do usuário especificado nas configurações do usuário.
+  * O FTE disponível para o usuário no Planejador de recursos é o mesmo FTE do usuário especificado nas configurações do usuário.
 
-     Por exemplo, se o FTE do usuário for 0,5 nas configurações do usuário, o FTE disponível do usuário será 0,5 no Planejador de recursos. Para obter mais informações sobre o valor do FTE do usuário conforme exibido nas configurações do usuário, consulte [Editar perfil de usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+    Por exemplo, se o FTE do usuário for 0,5 nas configurações do usuário, o FTE disponível do usuário será 0,5 no Planejador de recursos. Para obter mais informações sobre o valor do FTE do usuário conforme exibido nas configurações do usuário, consulte [Editar perfil de usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **O Cronograma do Usuário**: o cronograma do usuário é usado para determinar a disponibilidade do usuário no Planejador de Recursos. O valor do FTE do usuário é ignorado. Neste caso:
 
-   * As horas disponíveis no Planejador de recursos são as mesmas horas da programação do usuário.
+  * As horas disponíveis no Planejador de recursos são as mesmas horas da programação do usuário.
 
-     Por exemplo, se a programação do usuário tiver 40 horas por semana disponíveis para trabalho, o usuário estará disponível para trabalhar 40 horas por semana no Planejador de recursos.
+    Por exemplo, se a programação do usuário tiver 40 horas por semana disponíveis para trabalho, o usuário estará disponível para trabalhar 40 horas por semana no Planejador de recursos.
 
-   * O FTE Disponível no Planejador de Recursos é calculado pela seguinte fórmula:
+  * O FTE Disponível no Planejador de Recursos é calculado pela seguinte fórmula:
 
-     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+    `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-     Por exemplo, se o cronograma do usuário tiver 20 horas disponíveis para trabalhar e o Cronograma padrão no Workfront tiver 40 horas disponíveis para trabalhar, o FTE do usuário será 0,5.
+    Por exemplo, se o cronograma do usuário tiver 20 horas disponíveis para trabalhar e o Cronograma padrão no Workfront tiver 40 horas disponíveis para trabalhar, o FTE do usuário será 0,5.
 
-     Para obter mais informações sobre agendas, incluindo a Agenda Padrão, consulte [Criar uma agenda](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+    Para obter mais informações sobre agendas, incluindo a Agenda Padrão, consulte [Criar uma agenda](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
@@ -104,8 +97,9 @@ Com base em como essa configuração é definida, a disponibilidade dos usuário
 
 Primeiro, é necessário calcular a disponibilidade do usuário e, em seguida, calcular a disponibilidade de cada uma de suas funções de trabalho.
 
-A disponibilidade de funções de trabalho no Planejador de Recursos leva em consideração a disponibilidade total do usuário e a Porcentagem de Disponibilidade de FTE associada a cada função do usuário.\
-![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
+A disponibilidade de funções de trabalho no Planejador de Recursos leva em consideração a disponibilidade total do usuário e a Porcentagem de Disponibilidade de FTE associada a cada função do usuário.
+
+![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level.png)
 
 Para obter mais informações sobre como associar um valor de Porcentagem de Disponibilidade de FTE a uma função de trabalho para um usuário, consulte [Editar perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

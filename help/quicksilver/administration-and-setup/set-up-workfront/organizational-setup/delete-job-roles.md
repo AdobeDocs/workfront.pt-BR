@@ -9,17 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: b0e81d76-5227-4fda-9a58-68fbce3f5b94
 TQID: https://experienceleague.adobe.com/jJA7M34HwNyM-906Poo9-uTVmB4kQnXMv8iBWminjjg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 354
+source-wordcount: 352
 ht-degree: 9%
 
 ---
@@ -29,8 +25,6 @@ ht-degree: 9%
 É possível excluir funções de trabalho que sua organização não usa mais. Recomendamos que você não exclua funções de trabalho se elas tiverem sido associadas a itens de trabalho no passado.
 
 Para manter todas as suas informações históricas sobre atribuições de trabalho, recomendamos desativar funções, em vez de excluí-las quando elas se tornarem obsoletas. Para obter informações sobre como desativar funções, consulte [Desativar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
-
-## Requisitos de acesso
 
 ## Requisitos de acesso
 

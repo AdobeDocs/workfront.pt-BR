@@ -9,22 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
 TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 647
 ht-degree: 6%
 
 ---
@@ -120,12 +112,12 @@ Recomendamos que você faça o seguinte antes de desativar uma função de traba
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em&#x200B; **[!UICONTROL Funções de trabalho].**
-1. (Opcional) No menu suspenso **[!UICONTROL Filtro]**, selecione **[!UICONTROL Ativo]** para exibir somente as funções de trabalho ativas.
-1. Clique no nome da função de trabalho que deseja desativar.
-1. No menu suspenso **[!UICONTROL Está ativo]**, selecione **[!UICONTROL Não]**.
+1. (Opcional) Na lista **[!UICONTROL Filtros]**, selecione **[!UICONTROL Ativo]** para exibir somente as funções de trabalho ativas.
+1. Marque a caixa de seleção ao lado da função de trabalho que você deseja desativar e clique no [!UICONTROL **ícone Editar**] [ícone Editar](assets/edit-icon.png).
+1. Para o campo **[!UICONTROL Está Ativo]**, selecione **[!UICONTROL Não]**.
 
-   ![Desativar função de trabalho](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Desativar função de trabalho](assets/edit-job-role.png)
 
-1. Clique em **[!UICONTROL Salvar alterações]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
    A função de trabalho está desativada e não pode mais ser atribuída para trabalho, associada a modelos de layout e assim por diante. Para obter informações sobre todos os usos de funções de trabalho em [!DNL Workfront], consulte [Visão geral da função de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
