@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 423
 ht-degree: 12%
 
 ---
 
 # Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo
 
-Você pode usar o painel Resumo de uma tarefa ou um problema para atualizar informações importantes desse item. no Balanceador de carga de trabalho.
+Você pode usar o painel Resumo de uma tarefa ou um problema para atualizar informações importantes para esse item no Balanceador de carga de trabalho.
 
 O painel Resumo está disponível para tarefas e problemas nas áreas Trabalho atribuído e não atribuído do Balanceador de carga de trabalho.
 
@@ -96,7 +96,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    ![Painel de resumo](assets/summary-panel-task-wb-new-comments.png)
 
-1. Modifique um número de campos para o item de trabalho, informe uma atualização ou navegue daqui para outras áreas do Workfront para adicionar documentos ou outras informações ao item de trabalho.
+1. Modifique vários campos para o item de trabalho, insira uma atualização ou navegue daqui para outras áreas do Workfront para adicionar documentos ou outras informações ao item de trabalho.
 
    >[!CAUTION]
    >

@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: 440
 ht-degree: 10%
 
 ---
@@ -77,11 +77,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 {{step-1-to-users}}
 
-1. Marque a caixa ao lado do nome de um usuário da lista e clique em **Editar**.
+1. Marque a caixa de seleção ao lado do nome de um usuário na lista e clique em **Editar**.
 1. Clique em **Planejamento de recursos**.
 1. Comece digitando o nome de um pool de recursos que você deseja associar ao usuário no campo **Pools de Recursos** e selecione-o na lista quando ele for exibido.\
    Você pode associar vários conjuntos de recursos a um usuário.\
-   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)
+   ![Adicionar pool de recursos ao usuário](assets/add-resource-pool-to-user.png)
 
 1. Clique em **Salvar alterações**.
 

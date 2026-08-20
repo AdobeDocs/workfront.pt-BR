@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: 1229
 ht-degree: 5%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 Você pode atribuir recursos a várias tarefas e problemas em massa usando o Balanceador de carga de trabalho do Adobe Workfront.
 
-Para obter informações gerais sobre como atribuir trabalho a usuários usando o Balanceador de carga de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Para obter informações gerais sobre a atribuição de trabalho a usuários e Colaboradores de Tarefas usando o Balanceador de Carga de Trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Requisitos de acesso
 
@@ -231,7 +231,6 @@ Quando você cancela a atribuição de um usuário de todas as atribuições usa
 
 * O usuário especificado é removido de todos os itens de trabalho aos quais está atribuído.
 * Se o usuário não atribuído estiver associado a funções de trabalho, as funções de trabalho permanecerão atribuídas aos itens de trabalho quando o usuário for removido.
-
 * Se o usuário especificado for atribuído a itens de trabalho concluídos, o usuário permanecerá atribuído a esses itens de trabalho.
 
 Para obter mais informações sobre atribuições de usuários e funções de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).

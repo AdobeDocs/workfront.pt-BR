@@ -17,9 +17,9 @@ subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 559
 ht-degree: 7%
 
 ---
@@ -55,7 +55,7 @@ Para prever o tempo dos recursos para os projetos aos quais você planeja atribu
 
 * Para alocações de orçamento para um único projeto: use o Planejador de Recursos no nível do projeto na área Orçamento de Recursos do Business Case de um projeto. Para obter informações sobre recursos de orçamento para um projeto, consulte o artigo [Recursos de orçamento no Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Para gerenciar usuários e organizá-los em grupos com base em habilidades comuns ou estrutura departamental e, em seguida, gerenciar suas alocações para os projetos aos quais estão atribuídos, você deve criar conjuntos de recursos. Para obter mais informações sobre a criação de pools de recursos, consulte [Criar pools de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Para gerenciar usuários, organize-os em grupos com base em habilidades comuns ou estrutura departamental e gerencie suas alocações para os projetos aos quais estão atribuídos, você deve criar grupos de recursos. Para obter mais informações sobre a criação de pools de recursos, consulte [Criar pools de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
   >[!TIP]
   >
@@ -69,9 +69,9 @@ Para prever o tempo dos recursos para os projetos aos quais você planeja atribu
 
 * Usando o Planejador de recursos, você pode fazer o seguinte:
 
-   * Priorize seus projetos para decidir quais projetos devem receber recursos primeiro. (Somente no Planejador de recursos)
-   * Entenda a disponibilidade de seus recursos com base no agendamento de seus usuários.
-   * Hora do orçamento, FTE ou alocações de custo para os recursos (usuários e funções de trabalho) dos projetos aos quais estão atribuídos.
+  * Priorize seus projetos para decidir quais projetos devem receber recursos primeiro. (Somente no Planejador de recursos)
+  * Entenda a disponibilidade de seus recursos com base no agendamento de seus usuários.
+  * Hora do orçamento, FTE ou alocações de custo para os recursos (usuários e funções de trabalho) dos projetos aos quais estão atribuídos.
 
   Para obter informações sobre como trabalhar no Planejador de recursos, consulte o artigo [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 

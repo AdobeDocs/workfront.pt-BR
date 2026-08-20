@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: Vincular conteúdo e pastas do Experience Manager Assets com o Adobe Cloud Storage
-description: Se sua organização usar o armazenamento em nuvem da Adobe, você poderá vincular conteúdo e pastas do Experience Manager Assets a qualquer objeto do Adobe Workfront que ofereça suporte a documentos.
+title: Vincular ativos do Experience Manager Assets com o Adobe Cloud Storage
+description: Se sua organização usar o armazenamento em nuvem da Adobe, você poderá vincular ativos do Experience Manager Assets a qualquer objeto do Adobe Workfront que ofereça suporte a documentos.
 author: Courtney
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '935'
 ht-degree: 7%
 
 ---
 
-# Vincular conteúdo e pastas do Experience Manager Assets com o Adobe Cloud Storage
+# Vincular ativos do Experience Manager Assets com o Adobe Cloud Storage
 
-Se sua organização usar o Adobe Cloud Storage, você poderá vincular conteúdo e pastas do Experience Manager Assets ao Workfront. Depois de vinculado, é possível visualizar e gerenciar o conteúdo no Workfront, e quaisquer alterações feitas no conteúdo no Experience Manager Assets serão refletidas no Workfront.
+Se sua organização usar o Adobe Cloud Storage, você poderá vincular ativos do Experience Manager Assets ao Workfront. Depois de vinculado, é possível visualizar e gerenciar os ativos no Workfront. Todas as alterações feitas nos ativos no Experience Manager Assets serão refletidas no Workfront.
 
 >[!IMPORTANT]
 >
->Se sua organização recusar assinar o contrato GenAI Rider, você ainda poderá usar o Supervisor de conteúdo para escolher ativos e pastas no Experience Manager Assets, mas não terá acesso a recursos alimentados por IA, como Pesquisas com IA, sugestões inteligentes ou a análise de resumos de campanha.
+>Se sua organização recusar assinar o contrato GenAI Rider, você ainda poderá usar o Supervisor de conteúdo para escolher ativos no Experience Manager Assets, mas não terá acesso a recursos alimentados por IA, como Pesquisas com IA, sugestões inteligentes ou a análise de resumos de campanhas.
 
 ## Requisitos de acesso
 

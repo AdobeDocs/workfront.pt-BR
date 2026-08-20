@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 16%
+source-wordcount: 544
+ht-degree: 15%
 
 ---
 
@@ -89,7 +89,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      </tr>
      <tr>
       <td role="rowheader"><strong>Membros do conjunto</strong></td>
-      <td><p> Adicionar usuários ao Conjunto de Recursos individualmente.<br>Ou <br>Para adicionar uma grande quantidade de usuários ao Conjunto de Recursos de uma só vez. Você pode adicionar uma das seguintes entidades associadas a usuários ou a uma coleção de usuários:
+      <td><p> Adicione usuários ao Conjunto de recursos individualmente.<br>Ou <br>Adicione uma grande quantidade de usuários ao Pool de Recursos de uma só vez. Você pode adicionar uma das seguintes entidades associadas a usuários ou a uma coleção de usuários:
         <ul>
          <li><strong>Equipes</strong>: todos os membros da equipe são adicionados ao Conjunto de Recursos.</li>
          <li><strong>Grupos</strong>: todos os membros do grupo são adicionados ao Conjunto de Recursos.</li>

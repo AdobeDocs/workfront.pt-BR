@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1430'
 ht-degree: 13%
 
 ---
@@ -221,8 +221,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Vincular conteúdo e pastas do Experience Manager Assets com o Adobe Cloud Storage</a>
-                <p>Se sua organização usar o armazenamento em nuvem da Adobe, você poderá vincular ativos individuais ou pastas inteiras do Experience Manager Assets a qualquer objeto do Workfront que ofereça suporte a documentos.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Vincular ativos do Experience Manager Assets com o Adobe Cloud Storage</a>
+                <p>Se sua organização usar o armazenamento em nuvem da Adobe, você poderá vincular ativos individuais do Experience Manager Assets a qualquer objeto do Workfront que ofereça suporte a documentos.</p>
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
 workflow-type: tm+mt
-source-wordcount: 3643
+source-wordcount: 3743
 ht-degree: 2%
 
 ---
@@ -596,13 +596,17 @@ Os registros e objetos são adicionados imediatamente.
    >
    >Você deve adicionar registros conectados ao registro atual para exibi-los na página de registros conectados.
 
-1. Clique em **Conectar** em uma lista de registros ou em **Conectar registros** em uma lista de projetos para adicionar ou remover registros ou projetos existentes.
+1. Clique em **Conectar registros** no canto superior direito da página de registros conectada para adicionar ou remover registros ou projetos existentes.
 
-   ![Botão Conectar realçado na guia de detalhes do registro conectado](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+   <!--
+    this is gone:
+    ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+    -->
 
    Para obter informações, consulte [Adicionar uma página de registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-1. Clique em **Nova linha** em uma lista de projetos para criar um projeto sem um modelo. Os novos projetos são automaticamente conectados ao registro atual.
 1. (Opcional) Se não conseguir encontrar um registro conectado, clique em **+ Adicionar** para criá-lo e conectá-lo.
+1. Clique em **Nova linha** para criar um registro. Os novos registros são conectados automaticamente ao registro atual.
+
 
 ## Conectar registros de objetos do Workfront
 

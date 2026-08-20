@@ -19,16 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: 751
 ht-degree: 7%
 
 ---
 
 # Atribuir trabalho manualmente usando o Balanceador de carga de trabalho
 
-Você pode atribuir itens de trabalho manualmente aos usuários usando o Balanceador de carga de trabalho do Adobe Workfront.
+Você pode atribuir itens de trabalho manualmente a usuários e Colaboradores de tarefas usando o Balanceador de carga de trabalho do Adobe Workfront.
 
 Para obter informações gerais sobre como atribuir trabalho a usuários usando o Balanceador de carga de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 

@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0d4726c4aacc316063bb9a47b590165202ca3ac0
 workflow-type: tm+mt
-source-wordcount: 1204
+source-wordcount: 1227
 ht-degree: 3%
 
 ---
@@ -50,23 +50,23 @@ O Workfront tem vários conjuntos de ferramentas usados para gerenciar recursos.
 
 * Para planejar como os recursos são alocados em um nível superior, antes do início do trabalho real nos projetos, use as seguintes ferramentas:
 
-   * **O Planejador de recursos**: você pode usar o Planejador de recursos na primeira etapa do gerenciamento de recursos para estimar o tempo do projeto para seus recursos de acordo com a disponibilidade agendada. Durante a fase de planejamento de recursos, é possível organizar usuários em conjuntos de recursos e atribuir vários conjuntos de recursos a um projeto.
+  * **O Planejador de recursos**: você pode usar o Planejador de recursos na primeira etapa do gerenciamento de recursos para estimar o tempo do projeto para seus recursos de acordo com a disponibilidade agendada. Durante a fase de planejamento de recursos, é possível organizar usuários em conjuntos de recursos e atribuir vários conjuntos de recursos a um projeto.
 
-     Para obter mais informações sobre o Planejamento de Recursos, consulte [Planejamento de Recursos: índice do artigo](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+    Para obter mais informações sobre o Planejamento de Recursos, consulte [Planejamento de Recursos: índice do artigo](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
-   * **Planejador de cenários**: é um planejamento de recursos de nível superior que permite gerenciá-los em várias iniciativas que podem se estender por um plano de um, três ou cinco anos e incluir vários projetos. Você pode usar o melhor cenário para aproveitar ao máximo a disponibilidade e o orçamento.
+  * **Planejador de cenários**: é um planejamento de recursos de nível superior que permite gerenciá-los em várias iniciativas que podem se estender por um plano de um, três ou cinco anos e incluir vários projetos. Você pode usar o melhor cenário para aproveitar ao máximo a disponibilidade e o orçamento.
 
-     O Planejador de cenários requer uma licença separada, além da licença do Workfront. Para obter informações sobre o planejador de cenários do Workfront, consulte [Visão geral do planejador de cenários](../../scenario-planner/scenario-planner-overview.md).
+    O Planejador de cenários requer uma licença separada, além da licença do Workfront. Para obter informações sobre o planejador de cenários do Workfront, consulte [Visão geral do planejador de cenários](../../scenario-planner/scenario-planner-overview.md).
 
-     <!--   
+    <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
      -->
 
 * Para agendar ou atribuir recursos ao trabalho real (tarefas e problemas), use a seguinte ferramenta:
 
-   * **O Balanceador de Carga de Trabalho**: pertence a um estágio de nível inferior do gerenciamento de recursos, em que você pode atribuir seus recursos ao trabalho real (tarefas e problemas) que eles devem concluir, com base na quantidade de horas necessárias para concluí-los e sua disponibilidade. Usando o Balanceador de carga de trabalho, você pode atribuir usuários ao trabalho real que não está atribuído ou atribuído a funções de trabalho no momento.
+  * **O Balanceador de Carga de Trabalho**: pertence a um estágio de nível inferior do gerenciamento de recursos, em que você pode atribuir seus recursos ao trabalho real (tarefas e problemas) que eles devem concluir, com base na quantidade de horas necessárias para concluí-los e sua disponibilidade. Usando o Balanceador de Carga de Trabalho, você pode atribuir usuários ou Colaboradores de Tarefas ao trabalho real que está atualmente desatribuído ou atribuído a funções de trabalho.
 
-     Para obter informações sobre o Workfront Balancer, consulte [O Balanceador de carga de trabalho: índice de artigo](../../resource-mgmt/workload-balancer/workload-balancer.md).
+    Para obter informações sobre o Workfront Balancer, consulte [O Balanceador de carga de trabalho: índice de artigo](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -88,9 +88,9 @@ O Workfront tem vários conjuntos de ferramentas usados para gerenciar recursos.
 -->
 * Para analisar alocações previstas em orçamento, planejadas e reais entre vários projetos, use a seguinte ferramenta:
 
-   * **Relatório de Utilização**: use este relatório para exibir a utilização de recursos para projetos. É possível comparar alocações previstas em orçamento, planejadas e reais para seus projetos e seu impacto no custo e na receita dos projetos.
+  * **Relatório de Utilização**: use este relatório para exibir a utilização de recursos para projetos. É possível comparar alocações previstas em orçamento, planejadas e reais para seus projetos e seu impacto no custo e na receita dos projetos.
 
-     Para obter informações sobre o Relatório de Utilização, consulte [Exibir informações sobre a utilização de recursos](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+    Para obter informações sobre o Relatório de Utilização, consulte [Exibir informações sobre a utilização de recursos](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## Os componentes do processo de gerenciamento de recursos
 
@@ -103,40 +103,43 @@ O processo de gerenciamento de recursos no Workfront inclui as seguintes etapas:
 * **Configuração**: como administrador do sistema, gerente de recursos ou Proprietário do projeto, você deve configurar determinados campos e objetos na sua instância do Workfront antes de gerenciar seus recursos. Para obter mais informações sobre os pré-requisitos necessários para iniciar o gerenciamento de recursos no Workfront, consulte a seção [Pré-requisitos para o gerenciamento preciso de recursos](#prerequisites-for-accurate-resource-management) neste artigo.\
   Além de ter projetos com itens de trabalho, você deve configurar os seguintes itens no Workfront:
 
-   * Usuários\
-     Para obter mais informações sobre como criar usuários, consulte o artigo [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  * Usuários\
+    Para obter mais informações sobre como criar usuários, consulte o artigo [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-   * Função no trabalho\
-     Para obter mais informações sobre como criar funções de trabalho, consulte o artigo [Criar e gerenciar funções de trabalho](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  * Função no trabalho\
+    Para obter mais informações sobre como criar funções de trabalho, consulte o artigo [Criar e gerenciar funções de trabalho](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-   * Cronogramas\
-     Para obter mais informações sobre como criar agendas, consulte o artigo [Criar uma agenda](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  * Colaboradores de Tarefas
+    Para obter mais informações sobre como criar Colaboradores de tarefas, consulte [Configurar um Colaborador de tarefas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) no artigo [Configurar Colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
-   * Preferências do projeto
+  * Cronogramas\
+    Para obter mais informações sobre como criar agendas, consulte o artigo [Criar uma agenda](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-     >[!TIP]
-     >
-     >Somente um administrador de sistema ou de grupo pode modificar as Preferências de Projeto do seu sistema ou do seu grupo.
+  * Preferências do projeto
 
-     Para obter mais informações sobre como definir Preferências de Projeto, consulte o artigo [Configurar preferências de projeto do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+    >[!TIP]
+    >
+    >Somente um administrador de sistema ou de grupo pode modificar as Preferências de Projeto do seu sistema ou do seu grupo.
 
-   * Conjuntos de Recursos
+    Para obter mais informações sobre como definir Preferências de Projeto, consulte o artigo [Configurar preferências de projeto do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-     Para obter mais informações sobre a criação de pools de recursos, consulte [Criar pools de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  * Conjuntos de Recursos
 
-   * Preferências de gerenciamento de recursos
+    Para obter mais informações sobre a criação de pools de recursos, consulte [Criar pools de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
-     Como um sistema, você deve decidir como o Workfront calcula a disponibilidade do usuário no nível do sistema, seja usando a programação do usuário ou a Programação Padrão do seu sistema.
+  * Preferências de gerenciamento de recursos
 
-     Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+    Como um sistema, você deve decidir como o Workfront calcula a disponibilidade do usuário no nível do sistema, seja usando a programação do usuário ou a Programação Padrão do seu sistema.
+
+    Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * **Alocação de recursos**: como gerente de recursos ou proprietário de projeto, você pode definir a alocação de recursos para seus projetos, bem como atribuir trabalho. Para esta etapa, é possível gerenciar a estimativa da alocação de recursos usando o Planejador de Recursos ou o Planejador de Cenários e atribuir o trabalho real aos usuários no Balanceador de carga de trabalho.
 
   Para obter mais informações sobre o planejamento de recursos e a atribuição de trabalho, consulte as seguintes seções:
 
-   * [Planejamento de recursos: índice de artigos](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [[!DNL Adobe Workfront Scenario Planner]: índice do artigo](../../scenario-planner/scenario-planning.md)
-   * [O Balanceador de carga de trabalho: índice de artigos](../../resource-mgmt/workload-balancer/workload-balancer.md)
+  * [Planejamento de recursos: índice de artigos](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  * [[!DNL Adobe Workfront Scenario Planner]: índice de artigos](../../scenario-planner/scenario-planning.md)
+  * [O Balanceador de carga de trabalho: índice de artigos](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
@@ -159,9 +162,9 @@ Você deve ser um dos usuários a seguir e ter o seguinte acesso e permissões p
 
   Além de ter uma licença Work ou superior (ou uma licença Standard), você deve ter o seguinte para usar ferramentas de gerenciamento de recursos específicas:
 
-   * Editar o acesso ao Gerenciamento de recursos (não necessário para fazer atribuições no Balanceador de carga de trabalho)
-   * Edite o acesso aos Dados Financeiros que incluem o acesso a Exibir ou Editar Taxas de Custo e Exibir ou Editar Finanças Gerais, para exibir as informações de Custo no Planejador de Recursos
-   * Visualize o acesso aos Dados Financeiros que incluem acesso a Exibir ou Editar Taxas de Custo e Exibir Finanças Gerais, para exibir informações de Custo e Receita no Relatório de Utilização (somente usuários com uma licença do Plano ou Padrão)
+  * Editar o acesso ao Gerenciamento de recursos (não necessário para fazer atribuições no Balanceador de carga de trabalho)
+  * Edite o acesso aos Dados Financeiros que incluem o acesso a Exibir ou Editar Taxas de Custo e Exibir ou Editar Finanças Gerais, para exibir as informações de Custo no Planejador de Recursos
+  * Visualize o acesso aos Dados Financeiros que incluem acesso a Exibir ou Editar Taxas de Custo e Exibir Finanças Gerais, para exibir informações de Custo e Receita no Relatório de Utilização (somente usuários com uma licença do Plano ou Padrão)
 
 * Permissões do Contribute ou superior que incluem Fazer atribuições nos projetos para os quais você deseja gerenciar recursos.
 

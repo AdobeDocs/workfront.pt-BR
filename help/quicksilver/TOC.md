@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '14417'
+source-wordcount: '14427'
 ht-degree: 93%
 
 ---
@@ -2069,6 +2069,7 @@ ht-degree: 93%
     * [Introdução ao uso de provas com o Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Introdução ao uso da integração entre as provas e o GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [Use o Adobe Experience Manager com a integração com Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+    * [Vincular ativos do Experience Manager Assets com o Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
     * [Introdução ao Adobe Express e Workfront com integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * Dicas, truques e solução de problemas para aprovações {#ttt-approvals}
     * [Dicas, truques e solução de problemas para aprovações: índice do artigo](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
