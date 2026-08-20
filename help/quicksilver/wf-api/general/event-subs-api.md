@@ -10,18 +10,13 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
 workflow-type: tm+mt
-source-wordcount: 3146
-ht-degree: 95%
+source-wordcount: 3308
+ht-degree: 94%
 
 ---
 
@@ -118,13 +113,13 @@ O recurso de assinatura contém os seguintes campos.
 
 * objId (opcional)
 
-   * **String** — A identificação do objeto do objCode especificado para o qual os eventos são disparados. Se esse campo não for especificado, o usuário receberá eventos para todos os objetos do tipo especificado.
+  * **String** — A identificação do objeto do objCode especificado para o qual os eventos são disparados. Se esse campo não for especificado, o usuário receberá eventos para todos os objetos do tipo especificado.
 
 * objCode (exigido)
 
-   * **String** — O objCode do objeto que está sendo assinado para alterações. Os valores possíveis para objCode estão listados na tabela abaixo.
+  * **String** — O objCode do objeto que está sendo assinado para alterações. Os valores possíveis para objCode estão listados na tabela abaixo.
 
-     <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -263,19 +258,23 @@ O recurso de assinatura contém os seguintes campos.
 
 * eventType (exigido)
 
-   * **String** — Um valor que representa o tipo de evento ao qual o objeto está assinado. Os tipos de evento disponíveis incluem:
+  * **String** — Um valor que representa o tipo de evento ao qual o objeto está assinado. Os tipos de evento disponíveis incluem:
 
-      * CREATE
-      * EXCLUIR
-      * UPDATE
+    * CREATE
+    * EXCLUIR
+    * UPDATE
 
 * url (exigido)
 
-   * **String** — A URL do ponto de acesso para a qual os conteúdos do evento de assinatura são enviados via HTTP.
+  * **String** — A URL do ponto de acesso para a qual os conteúdos do evento de assinatura são enviados via HTTP.
 
-* authToken (exigido)
+* authToken (obrigatório na criação)
 
-   * **String** — O token do portador OAuth2 usado para a autenticação com a URL especificada no campo &quot;URL&quot;.
+  * **String** — O token do portador OAuth2 usado para a autenticação com a URL especificada no campo &quot;URL&quot;. A resposta de criação da subscrição não inclui esse campo e todas as respostas posteriores que o incluírem mostrarão ele mascarado (somente os últimos 4 caracteres). O valor completo nunca é retornado depois de enviado. Portanto, recomendamos manter uma cópia do que você envia.
+
+>[!NOTE]
+>
+>`authToken` é sempre mascarado em respostas, mostrando no máximo os últimos 4 caracteres (Por exemplo: `****1234`). Se o token tiver 8 caracteres ou menos, ele será totalmente mascarado; portanto, o mascaramento nunca revela metade ou mais de um token curto. Isso se aplica a todos os endpoints que retornam detalhes da assinatura, incluindo o endpoint da lista de descontinuados.
 
 ## Criação de solicitações de API de assinatura de evento
 
@@ -430,7 +429,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -504,7 +503,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -631,10 +630,10 @@ Por exemplo, uma assinatura de evento **UPDATE - TASK** pode ser definida para d
 * Quando várias assinaturas de evento forem atribuídas a um único objeto, todas as assinaturas de evento associadas a esse objeto poderão ser retornadas a um único ponto de acesso. Essa prática pode ser usada como um substituto equivalente para o operador lógico **OR**, que não pode ser definido usando parâmetros de filtro.
 * Os seguintes campos não são filtráveis:
 
-   * DOCU.groups
-   * RECORD.data
-   * RECORD_TYPE.data
-   * RECORD_TYPE.fields
+  * DOCU.groups
+  * RECORD.data
+  * RECORD_TYPE.data
+  * RECORD_TYPE.fields
 
 ### Uso de operadores de comparação
 
@@ -860,13 +859,13 @@ Esse filtro permite a entrada das mensagens somente se o campo especificado (`fi
 
 #### estado
 
-Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo do objeto que foi criado ou atualizado. Isso é útil quando você quer saber onde uma alteração foi feita de algo para outro.
+Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo do objeto que foi criado ou atualizado. Isso é útil quando você quer saber de onde uma alteração foi feita.
 `oldState` não é possível em CREATE `eventTypes`.
 
 >[!NOTE]
 >
->A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, qual era antes de uma atualização ser feita na tarefa.
->Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
+>A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, como era antes de uma atualização ser feita na tarefa.
+>Um caso de uso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar algum nome de equipe&quot;
 
 ```
 {
@@ -1031,8 +1030,8 @@ O exemplo acima contém os seguintes componentes:
    * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * Esse grupo avalia dois filtros internos:
 
-      * O primeiro verifica se o status da tarefa é igual a &quot;CUR&quot; (atual).
-      * O segundo verifica se a prioridade é igual a &quot;1&quot; (alta prioridade).
+     * O primeiro verifica se o status da tarefa é igual a &quot;CUR&quot; (atual).
+     * O segundo verifica se a prioridade é igual a &quot;1&quot; (alta prioridade).
    * Como o conector é &quot;OR&quot;, esse grupo será aprovado se qualquer uma das condições for verdadeira.
 
 1. Conector de nível superior (filterConnector: AND):
@@ -1370,7 +1369,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "TASK",
                 "url": "http://test.test.net/test/1234",
                 "event_type": "UPDATE",
-                "auth_token": "auth_token"
+                "auth_token": "****oken"
                 },
                 {
                 "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
@@ -1379,7 +1378,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "PROJ",
                 "url": "http://requestb.in/ua5hi2ua",
                 "event_type": "UPDATE",
-                "auth_token": "authTokenWorkfrontRocks1234_"
+                "auth_token": "****234_"
                 }                
                 ]
 ```
