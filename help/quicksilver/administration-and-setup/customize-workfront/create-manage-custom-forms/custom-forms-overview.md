@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 396
 ht-degree: 22%
 
 ---
@@ -34,7 +34,7 @@ Você pode criar um formulário personalizado que os usuários podem anexar a um
 
 Por exemplo, você pode anexar um formulário personalizado chamado &quot;Pesquisa de conteúdo de marketing&quot; para anexar a um projeto para que os usuários do projeto possam solicitar conteúdo de marketing para o projeto:
 
-![Página de detalhes](assets/see-image-details-page.png)
+![Página de detalhes do projeto](assets/see-image-details-page.png)
 
 ## Como criar um formulário personalizado
 

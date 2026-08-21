@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: 1277
 ht-degree: 6%
 
 ---
@@ -81,7 +81,7 @@ Considere o seguinte ao exibir ou editar informações na área Financeira:
 1. Clique em **Detalhes do projeto** no painel esquerdo.
 1. Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Finanças**.
 
-   ![Área financeira na exibição de detalhes](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Área financeira na exibição de detalhes](assets/finance-area-in-details-view.png)
 
    >[!NOTE]
    >
@@ -147,15 +147,15 @@ Considere o seguinte ao exibir ou editar informações na área Financeira:
 
 ## Editar informações financeiras de um projeto
 
-Como um Proprietário do projeto, você pode editar as informações na subguia Finanças de um projeto.
+Como um Proprietário do projeto, você pode editar as informações na área Finanças de um projeto.
 
-Para editar informações na subguia Project Finance:
+Para editar informações na área Finanças do Projeto:
 
-1. Vá para um projeto do qual você é o proprietário.
+1. Vá para um projeto que você possui.
 
    >[!NOTE]
    >
-   >Você precisa de Permissões de gerenciamento para o projeto para executar as etapas a seguir. Também recomendamos que somente o Proprietário do projeto faça alterações na subguia Finanças do projeto.
+   >Você precisa de Permissões de gerenciamento para o projeto para executar as etapas a seguir. Também recomendamos que somente o Proprietário do projeto faça alterações na área Finanças do projeto.
 
 1. Clique em **Detalhes do projeto** no painel esquerdo.
 1. Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Finanças**. Isso abre a área Finanças para edição.
@@ -165,13 +165,11 @@ Para editar informações na subguia Project Finance:
    >
    >Os campos não estarão disponíveis para edição se forem calculados automaticamente pelo Workfront ou se você não tiver permissões de edição.
 
-   ![Editar área financeira](assets/edit-finance-area-in-project-details-nwe-350x275.png)
-
-1. Atualize qualquer um dos campos abaixo.
+1. Atualize qualquer um dos campos listados abaixo.
 
    >[!NOTE]
    >
-   >Dependendo de como o administrador do Workfront configura nosso Modelo de layout, os campos na seção Detalhes do projeto podem ser diferentes em seu ambiente. Para obter informações, consulte [Personalizar o modo de exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Dependendo de como o administrador do Workfront configurar o modelo de layout, os campos na seção Detalhes do projeto podem ser diferentes no seu ambiente. Para obter informações, consulte [Personalizar o modo de exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 
