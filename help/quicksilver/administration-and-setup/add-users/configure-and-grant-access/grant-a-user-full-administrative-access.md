@@ -6,23 +6,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 TQID: https://experienceleague.adobe.com/tvmgfR5y2QbHo-ikCGHuJR-AbNzxikQtNqpHRNv7za0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0f2e9311d94714a3561dfdd9807e4267513e0426
 workflow-type: tm+mt
-source-wordcount: 1558
+source-wordcount: 1576
 ht-degree: 7%
 
 ---
@@ -358,6 +349,14 @@ Os usuários com uma licença Padrão ou de Plano que podem editar a funcionalid
    <td>Sistema: Preferências</td> 
    <td>Acesso total</td> 
    <td>Sem acesso</td> 
+  <tr> 
+   <td>Controle de alterações: configuração</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
+  <tr> 
+   <td>Controle de Alterações: Lista de Histórico de Alterações</td> 
+   <td>Acesso total</td> 
+   <td>Acesso total</td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,7 +371,7 @@ Os usuários com uma licença Padrão ou de Plano que podem editar a funcionalid
   <tr> 
    <th>Área/objeto</th> 
    <th>administrador do Workfront </th> 
-   <th>Usuário com uma licença de Plano e alguns direitos administrativos</th> 
+   <th>Usuário com uma licença Padrão ou de Plano e alguns direitos administrativos</th> 
   </tr> 
  </thead> 
  <tbody> 
