@@ -20,9 +20,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f2e9311d94714a3561dfdd9807e4267513e0426
 workflow-type: tm+mt
-source-wordcount: 1558
+source-wordcount: 1576
 ht-degree: 7%
 
 ---
@@ -358,6 +358,14 @@ Os usuários com uma licença Padrão ou de Plano que podem editar a funcionalid
    <td>Sistema: Preferências</td> 
    <td>Acesso total</td> 
    <td>Sem acesso</td> 
+  <tr> 
+   <td>Controle de alterações: configuração</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
+  <tr> 
+   <td>Controle de Alterações: Lista de Histórico de Alterações</td> 
+   <td>Acesso total</td> 
+   <td>Acesso total</td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,7 +380,7 @@ Os usuários com uma licença Padrão ou de Plano que podem editar a funcionalid
   <tr> 
    <th>Área/objeto</th> 
    <th>administrador do Workfront </th> 
-   <th>Usuário com uma licença de Plano e alguns direitos administrativos</th> 
+   <th>Usuário com uma licença Padrão ou de Plano e alguns direitos administrativos</th> 
   </tr> 
  </thead> 
  <tbody> 
