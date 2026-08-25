@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 757
 ht-degree: 7%
 
 ---
@@ -68,13 +68,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Editar planilhas de horas
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Folhas de horas**.
+{{step1-to-timesheets}}
 
-   O filtro **Todos** é selecionado por padrão, o que exibe todas as planilhas de horas que você tem acesso para visualizar.
+O filtro **Todos** é selecionado por padrão, o que exibe todas as planilhas de horas que você tem acesso para visualizar.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista de planilhas de horas com uma planilha de horas selecionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Opcional) Clique no ícone ![](assets/search-icon.png) de **pesquisa**, digite uma palavra-chave e procure uma planilha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de planilha de horas ou nome de proprietário.
+1. (Opcional) Clique no ícone **pesquisar** ![ícone Pesquisar](assets/search-icon.png) e digite uma palavra-chave e procure uma folha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de planilha de horas ou nome de proprietário.
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
@@ -86,21 +86,15 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
      Isso aplica os filtros Minhas planilhas de horas ou Minha planilha de horas à lista de planilhas de horas.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Botões de filtro de Minhas Planilhas de Horas na página de lista Planilhas de Horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Clique no ícone Filtro ![](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Clique no ícone Filtro ![ícone Filtro](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >As opções Minhas aprovações de folha de horas e Minhas folhas de horas não são exibidas na parte superior da lista de folha de horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu os filtros Minhas aprovações de folha de horas e Minhas folhas de horas dos Controles de lista na área Configuração ou do Modelo de layout. Para obter mais informações, consulte os seguintes artigos:
-   >
-   >   
-   >   
-   >   * [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >As opções Minhas aprovações de folha de horas e Minhas folhas de horas não são exibidas na parte superior da lista de folha de horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu esses filtros dos Controles de lista na área Configuração ou do Modelo de layout. Para obter mais informações, consulte [Personalizar Filtros, Exibições e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Opcional) Clique nos ícones **Exibir** ![](assets/view-icon.png) ou **Agrupamento** ![](assets/grouping.png) para aplicar uma exibição ou agrupamento diferente ou para criar um novo.
+1. (Opcional) Clique nos ícones **Exibir** ![Exibir](assets/view-icon.png) ou **Agrupamento** ![Agrupamento](assets/grouping.png) para aplicar um modo de exibição ou agrupamento diferente ou para criar um novo.
 
    Para obter informações sobre como criar filtros, visualizações ou agrupamentos, consulte os seguintes artigos:
 
@@ -108,7 +102,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * [Criar ou editar exibições no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Criar agrupamentos no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Selecione uma ou várias planilhas de horas e clique no ícone ![](assets/edit-icon.png) de **Editar** na parte superior da lista de planilhas de horas.
+1. Selecione uma ou várias planilhas de horas e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) na parte superior da lista de planilhas de horas.
 1. Exiba ou especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
@@ -146,7 +140,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td> <p>Selecione esta opção se quiser permitir que os aprovadores editem horas na folha de horas.</p> <p>Essa opção não está disponível quando você seleciona várias folhas de horas. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Hora extra</span> </td> 
+      <td role="rowheader"><strong>Hora extra</strong> </td> 
       <td> <p>Você pode optar por ocultar a caixa Horas extras na folha de horas.</p> <p>Essa opção está desabilitada por padrão.</p> </td> 
      </tr> 
     </tbody> 

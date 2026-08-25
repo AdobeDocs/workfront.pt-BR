@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: 476
 ht-degree: 10%
 
 ---
@@ -70,7 +70,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Você pode ver o total de horas de uma planilha de horas no cabeçalho da planilha de horas.
 
-![](assets/timesheet-total-hours-in-header-highlighted-redesigned.png)
+![Campo de Horas Totais](assets/timesheet-total-hours-in-header-highlighted-redesigned.png)
 
 ## Exibir o total de horas na sua folha de horas em uma lista de folhas de horas
 
@@ -78,7 +78,7 @@ Você pode ver o total de horas de uma planilha de horas no cabeçalho da planil
 
 A área **Folhas de horas** é aberta.
 
-![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista de planilhas de horas com uma planilha de horas selecionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
@@ -90,21 +90,15 @@ A área **Folhas de horas** é aberta.
 
      Isso aplica os filtros Minhas planilhas de horas ou Minha planilha de horas à lista de planilhas de horas.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Botões de filtro de Minhas Planilhas de Horas na página de lista Planilhas de Horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Clique no ícone Filtro ![](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Clique no ícone Filtro ![ícone Filtro](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >As opções Minhas aprovações de folha de horas e Minhas folhas de horas não são exibidas na parte superior da lista de folha de horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu os filtros Minhas aprovações de folha de horas e Minhas folhas de horas dos Controles de lista na área Configuração ou do Modelo de layout. Para obter mais informações, consulte os seguintes artigos:
-   >
-   >   
-   >   
-   >   * [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >As opções Minhas aprovações de folha de horas e Minhas folhas de horas não são exibidas na parte superior da lista de folha de horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu esses filtros dos Controles de lista na área Configuração ou do Modelo de layout. Para obter mais informações, consulte [Personalizar Filtros, Exibições e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Opcional) Clique nos ícones **Visualização** ![](assets/view-icon.png) ou **Agrupamento** ![](assets/grouping.png) para aplicar uma visualização ou agrupamento diferente ou para criar um novo.
+1. (Opcional) Clique nos ícones **Exibir** ![Exibir](assets/view-icon.png) ou **Agrupamento** ![Agrupamento](assets/grouping.png) para aplicar um modo de exibição ou agrupamento diferente ou para criar um novo.
 
    Para obter informações sobre como criar filtros, visualizações ou agrupamentos, consulte os seguintes artigos:
 
@@ -114,7 +108,7 @@ A área **Folhas de horas** é aberta.
 
 1. O número total de horas para cada planilha de horas é exibido na coluna **Total de Horas**.
 
-   ![](assets/total-hours-column-highlighted-all-timesheets-list-nwe-350x120.png)
+   ![Total de Horas coluna](assets/total-hours-column-highlighted-all-timesheets-list-nwe-350x120.png)
 
    >[!TIP]
    >

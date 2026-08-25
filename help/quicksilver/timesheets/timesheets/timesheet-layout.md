@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 1056
+source-wordcount: 1059
 ht-degree: 3%
 
 ---
@@ -179,7 +179,7 @@ Você pode adicionar um comentário para cada entrada de hora adicionada à folh
 
 Os comentários inseridos na caixa de comentário de entrada de horas são exibidos na folha de horas, em cada item de trabalho em que você registrou a hora quando a configuração **Mostrar comentários** está habilitada na barra de ferramentas.
 
-![](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
+![Comentário de entrada da hora](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
 
 ## Horas
 

@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 4%
+source-wordcount: 831
+ht-degree: 5%
 
 ---
 
@@ -97,9 +97,8 @@ Os comentários são exibidos sob o item onde a entrada de hora e o comentário 
 
 Você pode fazer comentários gerais sobre a planilha de horas. Comentar na folha de horas geral é semelhante a comentar em outros objetos.
 
-1. Clique no ícone **Menu Principal** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito ou no ícone **Menu Principal** ![Menu principal Linhas](assets/lines-main-menu.png) no canto superior esquerdo ou Workfront, se disponível.
+{{step1-to-timesheets}}
 
-1. Clique em **Folhas de horas**.
 1. Vá para a planilha de horas na qual deseja fazer um comentário.
 1. Clique em **Atualizações** no painel esquerdo e na guia **Comentários**.
 1. Comece a adicionar novos comentários ou responder aos existentes, conforme descrito em [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -129,9 +128,8 @@ Você pode fazer comentários gerais sobre a planilha de horas. Comentar na folh
 
 ### Comentar em uma entrada de hora individual em uma folha de horas {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Clique em **Folhas de horas**.
 1. Vá para a folha de horas em que você deseja fazer um comentário e clique em **Folha de horas** no painel esquerdo.
 1. Clique no campo de entrada de hora em que deseja fazer um comentário e clique em **Comentário** para adicionar um comentário para a entrada de hora.
 
@@ -168,8 +166,8 @@ Você pode fazer comentários gerais sobre a planilha de horas. Comentar na folh
 
 Você pode comentar somente em tarefas e problemas em uma folha de horas. Você não pode comentar em projetos nem em tempo geral.
 
-1. Clique no ícone [!UICONTROL **Menu principal**] ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
-1. Clique em [!UICONTROL **Folhas de horas**].
+{{step1-to-timesheets}}
+
 1. Vá para a planilha de horas na qual deseja fazer um comentário e clique em [!UICONTROL **Planilha de horas**] no painel esquerdo.
 1. Clique na linha de uma tarefa ou em um problema e em [!UICONTROL **Abrir resumo**].
 1. Comece a digitar uma atualização na área [!UICONTROL **Atualizações**] do Painel de resumo e clique em [!UICONTROL **Enviar**].

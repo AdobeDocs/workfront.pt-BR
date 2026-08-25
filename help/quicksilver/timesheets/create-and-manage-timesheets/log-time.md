@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 4246
+source-wordcount: 4292
 ht-degree: 1%
 
 ---
@@ -122,12 +122,12 @@ Você pode registrar horas nos seguintes itens da folha de horas:
 
 Para registrar horas em uma folha de horas:
 
-{{step1-click-main-menu}}
+{{step1-to-timesheets}}
 
-1. Clique em [!UICONTROL **Folhas de horas**]. Sua Planilha de Horas atual é exibida por padrão.
-   ![Planilha de horas](assets/timesheet-layout-leftnav-updated.png)
+Sua Planilha de Horas atual é exibida por padrão.
+![Planilha de horas](assets/timesheet-layout-leftnav-updated.png)
 
-1. (Opcional) Clique no ícone ![](assets/full-screen.png) de **tela cheia** para exibir a folha de horas no modo de tela cheia, em seguida, clique no ícone **sair-tela cheia** ![](assets/exit-full-screen.png) para retornar à folha de horas.
+1. (Opcional) Clique no ícone **tela cheia** ![ícone de tela cheia](assets/full-screen.png) para exibir a folha de horas no modo de tela cheia, em seguida, clique no ícone **sair da tela cheia** ![Sair da tela cheia](assets/exit-full-screen.png) para retornar à folha de horas.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -164,7 +164,7 @@ Para registrar horas em uma folha de horas:
 
    <!--(ensure this stays accurate)-->
 
-1. (Opcional) Clique nos ícones **Recolher** ![](assets/collapse-icon.png) ou **Expandir** ![](assets/expand-icon.png) ao lado do nome do projeto para exibir ou ocultar a lista de tarefas e problemas do projeto.
+1. (Opcional) Clique nos ícones **Recolher** ![Recolher](assets/collapse-icon.png) ou **Expandir** ![Expandir ícone](assets/expand-icon.png) ao lado do nome do projeto para exibir ou ocultar a lista de tarefas e problemas do projeto.
 
 
    >[!TIP]
@@ -178,7 +178,7 @@ Para registrar horas em uma folha de horas:
    >     * Shift + Option + seta para baixo para computadores Mac.
 
 
-1. (Opcional) Para fixar manualmente um item que é exibido automaticamente na folha de horas, passe o mouse sobre o nome do item e clique no ícone **fixar** ![](assets/empty-pin-icon.png).
+1. (Opcional) Para fixar manualmente um item que é exibido automaticamente na folha de horas, passe o mouse sobre o nome do item e clique no ícone **fixar** ícone ![Fixar](assets/empty-pin-icon.png).
 
    >[!TIP]
    >
@@ -186,7 +186,7 @@ Para registrar horas em uma folha de horas:
    >   * Option + P para computadores com Windows e Mac.
 
 
-1. (Opcional) Clique no ícone de pesquisa ![](assets/search-icon.png) e comece a digitar uma palavra-chave para localizar um projeto, tarefa ou um problema na folha de horas.
+1. (Opcional) Clique no ícone de pesquisa ![Ícone de pesquisa](assets/search-icon.png) e comece a digitar uma palavra-chave para localizar um projeto, tarefa ou um problema na folha de horas.
 
 1. (Condicional) Se o administrador do Workfront ou do grupo tiver habilitado a configuração **Atribuir funções de trabalho a entradas de hora manualmente**, selecione uma função de trabalho no menu suspenso. A função especificada quando você está atribuído ao item de trabalho é exibida por padrão. Se uma função não for atribuída a você no objeto, sua função principal será exibida como padrão. Para obter mais informações sobre essa configuração, consulte o artigo [Configurar preferências de horas e folha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -214,7 +214,7 @@ Para registrar horas em uma folha de horas:
    >
    >Considere adicionar uma nova linha para o item de trabalho para o qual você deseja registrar mais tempo e selecione um novo tipo de hora se desejar manter o tipo de hora desativado associado ao tempo registrado passado.
 
-1. Clique no ícone **excluir** ![](assets/delete.png) ao lado da função de trabalho para removê-lo. As horas registradas para a função também são removidas.
+1. Clique no ícone **excluir** ![Ícone Excluir](assets/delete.png) ao lado da função de trabalho para removê-lo. As horas registradas para a função também são removidas.
 
    >[!TIP]
    >
@@ -249,7 +249,7 @@ Para registrar horas em uma folha de horas:
 
 1. (Opcional) Clique em **Comentário** para adicionar um comentário à sua entrada de hora.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![Botão Comentar na folha de horas reprojetada do log de horas](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -352,7 +352,7 @@ Além disso, para registrar o tempo para um item no widget Meu trabalho:
 1. Vá para a área **Início**.
 1. Adicione o widget **Meu Trabalho** à sua Página Inicial.
 1. (Opcional) Selecione uma tarefa, problema ou solicitação em uma lista e clique em **Trabalhar nela**.
-1. Passe o mouse sobre a tarefa ou problema para o qual deseja registrar o tempo, em seguida, clique no ícone **Registrar Tempo** ![](assets/log-time-icon-in-new-home.png) à direita das informações da tarefa.
+1. Passe o mouse sobre a tarefa ou problema para o qual deseja registrar o tempo e clique no **ícone Registrar Tempo** ![ícone Registrar Tempo](assets/log-time-icon-in-new-home.png) à direita das informações da tarefa.
 
    A caixa **Log time** é exibida.
 
@@ -487,7 +487,7 @@ Para registrar horas na seção Horas de um projeto, tarefa ou problema:
 Você pode registrar o tempo para tarefas e problemas no painel Resumo.
 Para obter mais informações, consulte [Resumo geral](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-![](assets/summary-hour-log.png)
+![Painel de resumo](assets/summary-hour-log.png)
 
 ### Quadros {#boards}
 
@@ -531,7 +531,7 @@ Dependendo do tipo de entradas de hora editadas, os seguintes campos estão disp
   * A Descrição da entrada de hora.
 
 
-  ![](assets/edit-hour-box-project-hour-type.png)
+  ![Caixa de edição de hora do projeto](assets/edit-hour-box-project-hour-type.png)
 
 * Ao editar o horário geral:
 
@@ -545,7 +545,7 @@ Dependendo do tipo de entradas de hora editadas, os seguintes campos estão disp
 
 <!--update the screen shot at production - we should not see the job role field for general hours-->
 
-![](assets/edit-hour-box-general-overhead-hour-type.png)
+![Caixa de edição de hora geral](assets/edit-hour-box-general-overhead-hour-type.png)
 
 
 * Ao editar uma combinação de horas gerais e específicas do projeto, em massa:
@@ -561,13 +561,13 @@ Dependendo do tipo de entradas de hora editadas, os seguintes campos estão disp
 
 <!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
 
-![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+![Caixa de edição de hora mista](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
 
 Para editar tipos de horas em um relatório ou lista de horas:
 
 1. Ir para uma lista de horas ou relatório.
 1. Clique na caixa à esquerda de uma ou várias entradas de hora para selecioná-las.
-1. Clique no **ícone Editar** ![](assets/edit-icon.png) na parte superior da lista.
+1. Clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) na parte superior da lista.
 
    A caixa **Editar Hora** ou **Editar Horas** é aberta.
 1. Atualize qualquer um dos seguintes campos disponíveis:
