@@ -6,10 +6,10 @@ description: O histórico de alterações permite exibir um log de alterações 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 100b900bd7419d78a3135358026ec5e27755fdeb
+source-git-commit: 1e06115eb5688271e2a6f4c8a41647eb644d8292
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 6%
+source-wordcount: '523'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 {{preview-fast-release-general}}
 
-O histórico de alterações permite configurar e rastrear alterações em objetos e campos específicos no Adobe Workfront. A configuração flexível permite definir quais objetos e campos exatamente você deseja rastrear.
+O histórico de alterações permite que o administrador do sistema configure e rastreie alterações em objetos e campos específicos no Adobe Workfront. A configuração flexível permite que o administrador defina quais objetos e campos são rastreados exatamente.
 
 O histórico de alterações pode rastrear os seguintes tipos de dados definidos:
 
@@ -35,6 +35,11 @@ Na Lista de Histórico de Alterações, você pode exibir o log de alterações 
 * Tipo de alteração (operação)
 * Data e hora da alteração
 * Source da alteração, como usuários específicos, APIs, Workfront Fusion, AI LLMs ou o sistema Workfront
+
+>[!NOTE]
+>
+>Ao acessar o Histórico de alterações, você verá as alterações rastreadas somente nos campos que tem permissão para exibir.
+>Por exemplo, se os dados financeiros forem rastreados em projetos e você não tiver acesso aos dados financeiros, os campos financeiros não serão exibidos na Lista de Histórico de alterações.
 
 ## Requisitos de acesso
 
@@ -62,25 +67,6 @@ Na Lista de Histórico de Alterações, você pode exibir o log de alterações 
 Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--
-## View the Configuration area for change tracking
-
->[!NOTE]
->
->In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking > Configuration**.
-   
-   Fields are displayed grouped by object type.
-
-1. To display fields under a specific object, click the dropdown arrow next to the object type.
--->
-
 
 ## Exibir a Lista de Histórico de Alterações
 
