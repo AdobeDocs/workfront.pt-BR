@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
+source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Para obter informações, consulte [Gerenciar conexões dependentes](/help/quick
 >Visualização: 13 de agosto de 2026
 >Versão rápida de produção: 13 de agosto de 2026
 >Produção para todos: 15 de outubro de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Há novos indicadores visuais quando você arrasta e solta várias linhas na exibição de tabela. Um sinal de adição mais proeminente e um indicador de número agora mostram quantas linhas estão selecionadas para a ação arrastar e soltar.
 
