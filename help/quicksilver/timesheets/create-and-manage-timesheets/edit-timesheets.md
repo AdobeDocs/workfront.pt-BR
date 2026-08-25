@@ -7,22 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 767
 ht-degree: 7%
 
 ---
@@ -68,13 +60,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Editar planilhas de horas
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Folhas de horas**.
+{{step1-to-timesheets}}
 
-   O filtro **Todos** é selecionado por padrão, o que exibe todas as planilhas de horas que você tem acesso para visualizar.
+O filtro **Todos** é selecionado por padrão, o que exibe todas as planilhas de horas que você tem acesso para visualizar.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista de planilhas de horas com uma planilha de horas selecionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Opcional) Clique no ícone ![](assets/search-icon.png) de **pesquisa**, digite uma palavra-chave e procure uma planilha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de planilha de horas ou nome de proprietário.
+1. (Opcional) Clique no ícone **pesquisar** ![ícone Pesquisar](assets/search-icon.png) e digite uma palavra-chave e procure uma folha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de planilha de horas ou nome de proprietário.
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
@@ -86,9 +78,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
      Isso aplica os filtros Minhas planilhas de horas ou Minha planilha de horas à lista de planilhas de horas.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Botões de filtro de Minhas Planilhas de Horas na página de lista Planilhas de Horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Clique no ícone Filtro ![](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Clique no ícone Filtro ![ícone Filtro](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -100,7 +92,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >   
    >
 
-1. (Opcional) Clique nos ícones **Exibir** ![](assets/view-icon.png) ou **Agrupamento** ![](assets/grouping.png) para aplicar uma exibição ou agrupamento diferente ou para criar um novo.
+1. (Opcional) Clique nos ícones **Exibir** ![Exibir](assets/view-icon.png) ou **Agrupamento** ![Agrupamento](assets/grouping.png) para aplicar um modo de exibição ou agrupamento diferente ou para criar um novo.
 
    Para obter informações sobre como criar filtros, visualizações ou agrupamentos, consulte os seguintes artigos:
 
@@ -108,7 +100,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * [Criar ou editar exibições no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Criar agrupamentos no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Selecione uma ou várias planilhas de horas e clique no ícone ![](assets/edit-icon.png) de **Editar** na parte superior da lista de planilhas de horas.
+1. Selecione uma ou várias planilhas de horas e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) na parte superior da lista de planilhas de horas.
 1. Exiba ou especifique as seguintes informações:
 
    <table style="table-layout:auto"> 

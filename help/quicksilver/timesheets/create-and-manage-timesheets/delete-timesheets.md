@@ -7,22 +7,15 @@ author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
 TQID: https://experienceleague.adobe.com/kgFaOSFwNQIjArobJBWf5kT19pS8k0an1O05IIYxg9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 755
-ht-degree: 7%
+source-wordcount: 742
+ht-degree: 8%
 
 ---
 
@@ -77,11 +70,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Excluir planilhas de horas em uma lista
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Clique em **Folhas de horas**. O filtro **Todos** é selecionado por padrão e exibe todas as planilhas de horas que você tem acesso para visualizar.
+O filtro **Todos** é selecionado por padrão e exibe todas as planilhas de horas que você tem acesso para visualizar.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista de planilhas de horas com uma planilha de horas selecionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
@@ -93,21 +86,15 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
      Isso aplica os filtros Minhas planilhas de horas ou Minha planilha de horas à lista de planilhas de horas.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Botões de filtro de Minhas Planilhas de Horas na página de lista Planilhas de Horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Clique no ícone Filtro ![](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Clique no ícone Filtro ![ícone Filtro](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >As opções Minhas aprovações de folha de horas e Minhas folhas de horas não são exibidas na parte superior da lista de folha de horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu os filtros Minhas aprovações de folha de horas e Minhas folhas de horas dos Controles de lista na área Configuração ou do Modelo de layout. Para obter mais informações, consulte os seguintes artigos:
-   >
-   >   
-   >   
-   >   * [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >As opções Minhas aprovações de folha de horas e Minhas folhas de horas não são exibidas na parte superior da lista de folha de horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu esses filtros dos Controles de lista na área Configuração ou do Modelo de layout. Para obter mais informações, consulte [Personalizar Filtros, Exibições e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Opcional) Clique nos ícones **Visualização** ![](assets/view-icon.png) ou **Agrupamento** ![](assets/grouping.png) para aplicar uma visualização ou agrupamento diferente ou para criar um novo.
+1. (Opcional) Clique nos ícones **Exibir** ![Exibir](assets/view-icon.png) ou **Agrupamento** ![Agrupamento](assets/grouping.png) para aplicar um modo de exibição ou agrupamento diferente ou para criar um novo.
 
    Para obter informações sobre como criar filtros, visualizações ou agrupamentos, consulte os seguintes artigos:
 
@@ -115,7 +102,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * [Criar ou editar exibições no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Criar agrupamentos no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Selecione uma ou várias planilhas de horas que você deseja excluir e clique no ícone **Excluir** ![](assets/delete.png) na parte superior da lista de planilhas de horas.
+1. Selecione uma ou várias planilhas de horas que você deseja excluir e clique no ícone **Excluir** ![Excluir](assets/delete.png) na parte superior da lista de planilhas de horas.
 
 1. Clique em **Excluir**.
 
@@ -131,9 +118,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Excluir uma planilha de horas da página Planilha de horas
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do [!UICONTROL **Menu principal**], no canto superior direito do Adobe Workfront.
+{{step1-to-timesheets}}
+
 1. Clique na folha de horas que deseja excluir para abri-la.
-1. Clique no ícone [!UICONTROL **Mais**] ![](assets/more-icon.png) à direita do nome da folha de horas e clique em **Excluir**.
+1. Clique no ícone [!UICONTROL **Mais**] ![Mais ícone](assets/more-icon.png) à direita do nome da folha de horas e clique em **Excluir**.
 
    ![Excluir planilha de horas da página de planilha de horas](assets/delete-timesheet-from-timesheet-page.png)
 1. Clique em [!UICONTROL **Excluir**] para confirmar.

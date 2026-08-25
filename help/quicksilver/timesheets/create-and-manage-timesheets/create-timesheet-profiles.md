@@ -9,18 +9,12 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yxgLrUYYpVo-DhroRvE3zUP4zLYdDDg-1Ni3yXj06Ms
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
 source-wordcount: 1593
 ht-degree: 4%
@@ -69,14 +63,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 +++
 
 ## Criar ou editar um perfil de planilha de horas
-
-<!--
-Old info: 
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
-<p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
-</div>
--->
 
 >[!IMPORTANT]
 >
@@ -131,9 +117,9 @@ Old info:
 
      Use o menu suspenso para selecionar o aprovador para a folha de horas (se um aprovador for necessário). Você pode selecionar entre as opções a seguir:
 
-      * **Nenhuma**: a folha de horas não precisa ser aprovada.
-      * **Gerente**: este é o aprovador padrão, definido pelo sistema. Nesse caso, o usuário designado como gerente aprova a folha de horas quando ela é enviada para aprovação.
-      * **Pessoas Específicas**: você pode designar usuários específicos, por nome, como aprovadores de planilhas de horas. Você pode ter múltiplos aprovadores em uma planilha de horas. Nesse caso, depois que um dos aprovadores aprovar a folha de horas, ela será marcada como **Fechada** e desaparecerá da lista de aprovações da folha de horas de todos os aprovadores restantes.
+     * **Nenhuma**: a folha de horas não precisa ser aprovada.
+     * **Gerente**: este é o aprovador padrão, definido pelo sistema. Nesse caso, o usuário designado como gerente aprova a folha de horas quando ela é enviada para aprovação.
+     * **Pessoas Específicas**: você pode designar usuários específicos, por nome, como aprovadores de planilhas de horas. Você pode ter múltiplos aprovadores em uma planilha de horas. Nesse caso, depois que um dos aprovadores aprovar a folha de horas, ela será marcada como **Fechada** e desaparecerá da lista de aprovações da folha de horas de todos os aprovadores restantes.
 
    * **Pode editar as horas**: selecione esta opção para permitir que os aprovadores editem as horas na folha de horas.
 
@@ -143,14 +129,14 @@ Old info:
 
      Quando a opção **Restringir edição da folha de horas a proprietários e administradores** está habilitada:
 
-      * Os aprovadores só podem aprovar e rejeitar a folha de horas, independentemente de o horário Pode editar estar ativado ou não.
-      * Os gerentes dos proprietários da folha de horas só podem exibir as folhas de horas de seus subordinados diretos.
+     * Os aprovadores só podem aprovar e rejeitar a folha de horas, independentemente de o horário Pode editar estar ativado ou não.
+     * Os gerentes dos proprietários da folha de horas só podem exibir as folhas de horas de seus subordinados diretos.
 
      Quando a opção **Restringir edição da folha de horas a proprietários e administradores** está desabilitada:
 
-      * Quando **Pode editar as horas** estiver habilitado, os aprovadores poderão enviar, reabrir ou fechar a folha de horas e editar as horas.
-      * Quando a opção **Pode editar as horas** está desabilitada, os aprovadores não podem enviar, reabrir ou fechar a folha de horas e não podem editar as horas. Os aprovadores só podem aprovar ou rejeitar a folha de horas.
-      * Os gerentes dos proprietários da folha de horas podem enviar, retroceder, reabrir e editar as folhas de horas de seus subordinados diretos.
+     * Quando **Pode editar as horas** estiver habilitado, os aprovadores poderão enviar, reabrir ou fechar a folha de horas e editar as horas.
+     * Quando a opção **Pode editar as horas** está desabilitada, os aprovadores não podem enviar, reabrir ou fechar a folha de horas e não podem editar as horas. Os aprovadores só podem aprovar ou rejeitar a folha de horas.
+     * Os gerentes dos proprietários da folha de horas podem enviar, retroceder, reabrir e editar as folhas de horas de seus subordinados diretos.
 
      >[!NOTE]
      >
