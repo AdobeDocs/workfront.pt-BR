@@ -3,10 +3,10 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
+source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
 workflow-type: tm+mt
-source-wordcount: '14435'
-ht-degree: 93%
+source-wordcount: '14452'
+ht-degree: 92%
 
 ---
 
@@ -2210,6 +2210,7 @@ ht-degree: 93%
     * [Criar tipos de registro importando informações de um arquivo CSV ou Excel](planning/architecture/import-file-to-create-record-types.md)
     * [Visão geral dos tipos de registro entre espaços de trabalho](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configurar recursos entre espaços de trabalho para tipos de registro](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc}[Configurar regras de negócios do tipo registro](planning/architecture/configure-business-rules.md)
     * [Definir a área Configurações de um tipo de registro](planning/architecture/configure-record-type-settings.md)
     * [Adicionar tipos de registro existentes de outro espaço de trabalho](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Visão geral da conexão de tipos de registro](planning/architecture/connect-record-types-overview.md)
@@ -2239,6 +2240,7 @@ ht-degree: 93%
     * [Compartilhar tipos de registro](planning/access/share-record-types.md)
     * [Compartilhar exibições](planning/access/share-views.md)
     * [Compartilhar registros](planning/access/share-records.md)
+    * {hide-from-toc}[Compartilhar campos do Workfront Planning](planning/access/share-fields.md)
     * [Definir permissões padrão para registros](planning/access/set-default-record-permissions.md)
     * [Solicitar permissões para uma exibição ou um espaço de trabalho](planning/access/request-permissions.md)
   * Registros do Adobe Workfront Planning {#adobe-workfront-planning-records}
@@ -2723,6 +2725,7 @@ ht-degree: 93%
   * [App Builder: índice de artigos](/help/quicksilver/app-builder/app-builder-toc.md)
   * [Adquirir e instalar aplicativos do Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Criar aplicativos personalizados para o Workfront com o Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+  * {hide-from-toc}[Crie aplicativos App Builder com habilidades no Claude Code](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
 * {hide-from-toc}[Documento de teste oculto](hidden-test.md)
 * {hide-from-toc}[Ocultar 2](hidden-test-2.md)
 
