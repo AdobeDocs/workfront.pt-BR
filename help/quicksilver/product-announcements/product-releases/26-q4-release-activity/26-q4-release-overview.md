@@ -4,10 +4,10 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 26c7853f4ce663deda6ed98484acc69b02ec5bad
+source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 13%
+source-wordcount: '1464'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Quarto trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -328,6 +328,15 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
         </tr>
+           <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Os metadados C2PA são preservados nos seus arquivos</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>O Adobe Workfront preserva metadados C2PA em documentos que você faz upload, armazena e baixa, sem modificá-los.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>N/D</p></td>
+            <td><p>26 de agosto de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Atualização de interface para ícones do painel de navegação esquerdo</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -373,7 +382,7 @@ Se você for um administrador da Workfront com usuários de leitores de Data Con
 
 Essa alteração foi anunciada pela primeira vez nas notas de versão de abril de 2026 do Workfront e este é o lembrete final antes do prazo. Certifique-se de que todos os usuários de leitores afetados ativem o MFA antes de 8 de agosto de 2026 para evitar a interrupção de seu acesso.
 
-Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/pt-br/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Atualizações de treinamento
 
