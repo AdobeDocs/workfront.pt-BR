@@ -5,7 +5,7 @@ title: Criar um relatório de tabela dinâmica em um painel da tela de desenho
 description: É possível adicionar um relatório de tabela dinâmica a um Painel da tela para ver os totais agregados dos dados em um formato de tabela.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 8%
@@ -239,3 +239,4 @@ Depois que o objeto de entidade base for selecionado, o menu suspenso **Seções
 Limitamos o acesso para escolher objetos secundários como segmentos de uma tabela dinâmica. As opções de segmento podem ser atributos do próprio registro ou outros registros relacionados que não representam uma relação de 1:many ou muitos:many.
 
 Também limitamos o acesso à referência a qualquer atributo pai ou filho como uma métrica para reduzir o potencial de contagem dupla ou resumir valores, resultando em uma representação incorreta dos dados reais.
+

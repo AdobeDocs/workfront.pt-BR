@@ -10,13 +10,10 @@ exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ece6404b8c1413667fdfea76c883ee2077dee8c7
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
 source-wordcount: 674
 ht-degree: 4%
@@ -175,3 +172,4 @@ Por padrão, os agrupamentos em si são classificados em ordem alfabética ou cr
 Você pode clicar em um cabeçalho de coluna para classificar os dados dentro de cada grupo. Quando você classifica por um campo diferente do campo de agrupamento, a ordem dos grupos não é alterada.
 
 No entanto, quando você classifica pelo mesmo campo pelo qual o relatório é agrupado, a ordem do grupo pode mudar. Por exemplo, um agrupamento baseado em texto que normalmente executa de A a Z pode alternar para Z a.
+
