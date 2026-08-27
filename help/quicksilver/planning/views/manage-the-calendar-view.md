@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 1917
+source-wordcount: 2002
 ht-degree: 5%
 
 ---
@@ -192,6 +192,10 @@ Para gerenciar uma exibição de calendário:
 
        * Os registros que se estendem por vários dias são exibidos na parte superior do calendário.
        * Os registros que duram um dia ou menos são exibidos na metade inferior da exibição do calendário. Se você optou por exibir a hora das datas inicial e final, o registro será exibido no horário apropriado no dia em que ocorre.
+
+         <span class="preview">O calendário exibe até 1.000 registros nas semanas anterior, atual e seguinte para ambas as áreas na exibição semanal.</span>
+
+1. <span class="preview">(Opcional e condicional) Clique em **Carregar mais** na parte inferior do calendário, se houver mais de 1.000 registros e alguns deles não forem exibidos por padrão, ao exibir o calendário por semana.</span>
 
 1. (Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.
 
@@ -448,7 +452,7 @@ Atualize as configurações de exibição do calendário para indicar quais info
 
    * **Tipo de registro**: a cor das barras de registro no calendário corresponde à cor do tipo de registro selecionado. Esta é a opção padrão.
    * **Valores de campo**: a cor dos registros corresponde à cor de um campo especificado.
-   * **Nenhum**: os registros são exibidos em uma barra branca. <span class="preview">A opção Nenhum foi removida do ambiente de Visualização.</span>
+   * **Nenhum**: os registros são exibidos em uma barra branca. <span class="preview">A opção **Nenhuma** foi removida do ambiente de Visualização.</span>
 
 
 

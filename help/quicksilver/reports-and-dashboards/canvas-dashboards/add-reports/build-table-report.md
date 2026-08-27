@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: 1343
 ht-degree: 12%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 12%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que este beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -80,7 +80,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Pré-requisitos
 
-Você deve criar um painel antes de criar um relatório de tabela.
+Você deve criar um painel antes de criar um relatório de tabela. Para obter mais informações, consulte [Criar um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 
 ## Criar um relatório de tabela em um painel da tela
@@ -89,13 +89,9 @@ Há muitas opções de configuração disponíveis para criar um relatório de t
 
 {{step1-to-dashboards}}
 
-1. No painel esquerdo, clique em **Painéis do Canvas**.
+1. No painel esquerdo, clique em **Painéis da Tela de Pintura** e, em seguida, clique no nome do painel ao qual deseja adicionar o relatório.
 
-1. Clique em **Novo Painel** no canto superior direito.
-
-1. Na caixa **Criar painel**, digite o **Nome** e a **Descrição** do painel.
-
-1. Clique em **Criar**.
+1. Clique em **Adicionar relatório** no canto superior direito da página.
 
 1. Na caixa **Adicionar relatório**, selecione **Criar relatório**.
 
@@ -151,13 +147,9 @@ Para obter mais informações sobre exemplos de relatório de tabela, consulte [
 
 {{step1-to-dashboards}}
 
-1. No painel esquerdo, clique em **Painéis do Canvas**.
+1. No painel esquerdo, clique em **Painéis da Tela de Pintura** e, em seguida, clique no nome do painel ao qual deseja adicionar o relatório.
 
-1. Clique em **Novo Painel** no canto superior direito.
-
-1. Na caixa **Criar painel**, digite o **Nome** e a **Descrição** do painel.
-
-1. Clique em **Criar**.
+1. Clique em **Adicionar relatório** no canto superior direito da página.
 
 1. Na caixa **Adicionar relatório**, selecione **Criar relatório**.
 
@@ -232,7 +224,7 @@ Os usuários com acesso de Visualização ou Edição a Dados financeiros em seu
 * Os usuários que veem dados financeiros estão limitados a registros para os quais já têm permissão de visualização (projetos, tarefas, problemas, etc.). Eles não verão valores financeiros correspondentes a registros que não podem acessar.
 * Os criadores de relatórios devem ter cuidado ao incluir dados financeiros nos painéis e estar cientes de com quem compartilham painéis para evitar acessos não intencionais.
 
-Esse é um limite conhecido e pretendemos resolvê-lo o mais rápido possível.
+Este é um limite conhecido, e planejamos solucioná-lo no futuro.
 
 ### Utilização do seletor de campos
 
@@ -263,3 +255,4 @@ Os relacionamentos disponíveis para colunas adicionais, opções de filtro e at
 * Estágios de aprovação de documento > Participantes do estágio de aprovação de documento
 
 Ao utilizar qualquer uma das relações pai-filho listadas acima, você verá uma linha na tabela para cada registro filho conectado ao objeto pai.
+

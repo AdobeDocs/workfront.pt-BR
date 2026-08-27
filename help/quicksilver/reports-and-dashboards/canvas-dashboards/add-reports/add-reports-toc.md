@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 52
-ht-degree: 88%
+source-wordcount: 61
+ht-degree: 75%
 
 ---
 
@@ -30,3 +30,5 @@ Esta seção contém os seguintes artigos:
 * [Criar um relatório de KPI em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
 * [Criar um relatório de gráfico em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
 * [Criar um relatório de tabela em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+* [Criar um relatório de tabela dinâmica em um painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)
+

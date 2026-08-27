@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 4418
-ht-degree: 3%
+source-wordcount: 4518
+ht-degree: 2%
 
 ---
 
@@ -465,12 +465,16 @@ Para adicionar um agrupamento na exibição de linha do tempo:
    * **Empilhado**: os agrupamentos são exibidos sem uma coluna congelada à esquerda e se ajustam à largura das linhas do tempo de seus itens.
 
      ![Agrupamento empilhado na exibição de linha do tempo](assets/stacked-grouping-in-timeline-view.png)
-   * **Raia**: os agrupamentos são exibidos com uma coluna de cabeçalho congelada à esquerda que lista os itens agrupados e os agrupamentos se ajustam à largura da exibição da linha do tempo.
+   * **Raia**: os agrupamentos são exibidos com um painel esquerdo congelado que lista os itens agrupados e os agrupamentos se ajustam à largura da exibição da linha do tempo.
 
      ![Agrupamento Swimlane na exibição de linha do tempo](assets/swimlane-grouping-in-timeline-view.png)
-   <!--
-    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
-    -->
+
+   Os agrupamentos são aplicados imediatamente.
+
+1. <span class="preview">(Opcional) Clique no ícone **Agrupamento** ![Ícone Agrupamento](assets/grouping-icon.png) na barra de ferramentas para abrir a caixa **Agrupar registros por** e clique em **Expandir tudo** para expandir todos os agrupamentos ou **Recolher tudo** para recolher todos os agrupamentos e recolher manualmente apenas os agrupamentos necessários. </span>
+1. <span class="preview">(Opcional e condicional) Na exibição da raia, arraste e solte o separador do painel esquerdo para ajustar sua largura. A largura do painel de cada usuário é salva entre sessões, com uma largura padrão para novos usuários.</span>
+1. <span class="preview">(Opcional) Para nomes longos de agrupamento, passe o mouse sobre a linha de um agrupamento para ver o nome completo do agrupamento em uma dica de ferramenta.</span>
+
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
    Ou

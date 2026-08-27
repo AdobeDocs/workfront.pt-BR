@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: 674
 ht-degree: 4%
 
 ---
@@ -106,6 +106,24 @@ Você pode personalizar temporariamente relatórios de tabela em painéis. Essas
    >
    >Essas alterações se aplicam somente à sessão atual e não afetam a configuração original do relatório. Para tornar permanentes essas alterações, é necessário editar o relatório.
 
+<div class="preview">
+
+### Detalhar dados de tabela dinâmica em Visualização
+
+Você pode clicar em um valor em um relatório de tabela dinâmica para detalhar e ver os registros individuais que compõem esse valor agregado.
+
+{{step1-to-dashboards}}
+
+1. No painel esquerdo, clique em **Painéis do Canvas**.
+1. Clique no nome de um painel existente para abri-lo.
+   ![Abrir um painel](assets/open-dashboard.png)
+1. Localize o relatório de tabela dinâmica que deseja examinar.
+1. Clique em um valor na tabela dinâmica para abrir a tabela de drill-down.
+
+   A tabela de drill-down exibe as colunas que o criador do relatório configurou nas Configurações de Coluna de Drilldown. Para obter mais informações, consulte [Criar um relatório de tabela dinâmica em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
+
+</div>
+
 
 <!--
 
@@ -157,3 +175,4 @@ Por padrão, os agrupamentos em si são classificados em ordem alfabética ou cr
 Você pode clicar em um cabeçalho de coluna para classificar os dados dentro de cada grupo. Quando você classifica por um campo diferente do campo de agrupamento, a ordem dos grupos não é alterada.
 
 No entanto, quando você classifica pelo mesmo campo pelo qual o relatório é agrupado, a ordem do grupo pode mudar. Por exemplo, um agrupamento baseado em texto que normalmente executa de A a Z pode alternar para Z a.
+
