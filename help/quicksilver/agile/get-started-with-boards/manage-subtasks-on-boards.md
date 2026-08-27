@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 49f8e36099d38093210fe1caab88a478e3b5609b
 workflow-type: tm+mt
 source-wordcount: 368
 ht-degree: 10%
@@ -28,7 +28,6 @@ ht-degree: 10%
 
 Usar subtarefas em cartões permite estabelecer uma relação pai-filho entre tarefas e criar uma hierarquia de trabalho. Uma subtarefa adicionada a um cartão em um quadro do Workfront também é adicionada à tarefa no projeto do Workfront. Para obter mais informações sobre subtarefas e tarefas no nível do projeto, consulte [Criar subtarefas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
-As subtarefas só estão disponíveis em cartões conectados e não estão disponíveis em problemas. Para obter informações sobre cartões conectados, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Requisitos de acesso
 
@@ -57,6 +56,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 +++
 
 ## Adicionar uma subtarefa a um cartão
+
+>[!IMPORTANT]
+>
+>As subtarefas só estão disponíveis em cartões conectados e não estão disponíveis em problemas. Para obter informações sobre cartões conectados, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
 
 {{step1-to-boards}}
 

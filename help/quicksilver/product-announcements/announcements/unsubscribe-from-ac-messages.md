@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3a1bfdf05bd64586fb4274995075031065a0b5da
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: 240
 ht-degree: 0%
 
 ---
@@ -34,16 +34,19 @@ As mensagens do Centro de notificações são mensagens enviadas do Adobe Workfr
 
 Para cancelar a inscrição do recebimento de mensagens do Centro de notificações:
 
-1. Clique no ícone numerado ![Ícone Notificações](assets/notifications-icon-jewel.jpg) no canto superior direito do Workfront para abrir a lista de notificações.
-1. Clique em **Todos os comunicados** na parte inferior da lista.
+1. Clique no ícone numerado no canto superior direito do Workfront para abrir a lista de notificações e clique em **Todos os avisos** na parte inferior da lista.
 
-   A página **Avisos** é exibida, listando todos os seus avisos.
+   ![Ícone Notificações](assets/notifications-icon-jewel.png)
 
-   ![Página de avisos](assets/announcements-page-qs-350x210.png)
 
-1. Clique em **Configurações** no canto superior direito da página Anúncios e selecione **Novas versões** ou **Treinamento**, dependendo do tipo de anúncios que você não deseja mais receber.
+1. Clique em **Configurações** no canto superior direito da página Anúncios,
 
-   ![Configurações do centro de notificações](assets/announcementcenter-settings-350x187.png)
+   ![Página de avisos](assets/ac-page.png)
+
+
+1. Na caixa de diálogo **Configurações do Centro de Notificações**, desmarque a caixa de seleção do tipo de mensagens do Centro de Notificações das quais você deseja cancelar a inscrição.
+
+   ![Configurações do centro de notificações](assets/ac-settings.png)
 
 1. Clique em **Salvar configurações**.
 

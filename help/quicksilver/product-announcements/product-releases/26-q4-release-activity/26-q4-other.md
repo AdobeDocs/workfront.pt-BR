@@ -4,9 +4,9 @@ description: Outras melhorias durante o período do quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 723c5ce69f0e457dfd8e3d230e451a41b655603e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '368'
 ht-degree: 6%
 
 ---
@@ -17,11 +17,23 @@ Esta página descreve as melhorias feitas com a versão do quarto trimestre de 2
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Os metadados do C2PA são preservados em seus arquivos
+
+>[!NOTE]
+>
+>Produção para todos: 26 de agosto de 2026
+
+O Adobe Workfront preserva metadados C2PA em documentos que você faz upload, armazena e baixa, sem modificá-los.
+
+Para obter mais informações, consulte [Metadados C2PA no Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md).
+
 ## Atualização da interface para ícones do painel de navegação esquerdo
 
 >[!NOTE]
 >
->Visualização: 30 de julho de 2026>Produção para todos: 13 de agosto de 2026>[!BADGE Fora do cronograma]{type=Neutral}
+>Visualização: 30 de julho de 2026
+>Produção para todos: 13 de agosto de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Atualizamos a aparência dos ícones do painel de navegação esquerdo no Workfront, para fornecer um design moderno e uma experiência consistente com outros aplicativos da Adobe. Nenhuma funcionalidade foi alterada.
 
@@ -33,7 +45,9 @@ Para obter mais informações, consulte [Navegação à esquerda no Adobe Workfr
 
 >[!NOTE]
 >
->Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+>Visualização: 30 de julho de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
 
 Várias atualizações foram feitas nas listas aprimoradas:
 
@@ -46,7 +60,9 @@ Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksil
 
 >[!NOTE]
 >
->Visualização: 30 de julho de 2026>Versão rápida de produção: 13 de agosto de 2026>Produção para todos: 15 de outubro de 2026
+>Visualização: 30 de julho de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
 
 Ao passar o mouse sobre a navegação estrutural de um objeto, agora é possível copiar seu nome e vincular em uma ação. Isso agiliza o compartilhamento de objetos no Slack, email ou outras ferramentas, sem copiar o nome e o URL separadamente.
 
