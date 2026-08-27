@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 159b845c7b755117197d18f8474c01d4b19d53b8
+source-git-commit: 914f1f8a25aa5b9e1045d2f940ed15061301c21b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 6%
+source-wordcount: '298'
+ht-degree: 5%
 
 ---
 
@@ -75,7 +75,10 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 ## Considerações ao configurar regras de negócios
 
-* É possível configurar regras para quando os registros podem ser editados ou excluídos.
+* É possível configurar regras para quando os registros podem ser editados ou excluídos, dependendo das condições definidas por você.
+
+  Por exemplo, você pode criar condições para exigir que determinados campos tenham um valor. Se o valor estiver ausente nesses campos, os usuários não poderão editar ou excluir esse registro.
+* Não é possível adicionar regras de negócios a tipos de registros globais nos espaços de trabalho principal ou secundário.
 * Não é possível configurar regras para quando os registros são criados. Qualquer pessoa com permissões de Gerenciar para o tipo de registro pode criar registros.
 * É possível criar uma condição para a regra de negócios que faça referência a todos os tipos de campo, exceto para o seguinte:
   * Campos de fórmula

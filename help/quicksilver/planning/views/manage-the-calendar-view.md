@@ -9,19 +9,14 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 1917
+source-wordcount: 2002
 ht-degree: 5%
 
 ---
@@ -192,6 +187,10 @@ Para gerenciar uma exibição de calendário:
 
        * Os registros que se estendem por vários dias são exibidos na parte superior do calendário.
        * Os registros que duram um dia ou menos são exibidos na metade inferior da exibição do calendário. Se você optou por exibir a hora das datas inicial e final, o registro será exibido no horário apropriado no dia em que ocorre.
+
+         <span class="preview">O calendário exibe até 1.000 registros nas semanas anterior, atual e seguinte para ambas as áreas na exibição semanal.</span>
+
+1. <span class="preview">(Opcional e condicional) Clique em **Carregar mais** na parte inferior do calendário, se houver mais de 1.000 registros e alguns deles não forem exibidos por padrão, ao exibir o calendário por semana.</span>
 
 1. (Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.
 
@@ -448,7 +447,7 @@ Atualize as configurações de exibição do calendário para indicar quais info
 
    * **Tipo de registro**: a cor das barras de registro no calendário corresponde à cor do tipo de registro selecionado. Esta é a opção padrão.
    * **Valores de campo**: a cor dos registros corresponde à cor de um campo especificado.
-   * **Nenhum**: os registros são exibidos em uma barra branca. <span class="preview">A opção Nenhum foi removida do ambiente de Visualização.</span>
+   * **Nenhum**: os registros são exibidos em uma barra branca. <span class="preview">A opção **Nenhuma** foi removida do ambiente de Visualização.</span>
 
 
 
