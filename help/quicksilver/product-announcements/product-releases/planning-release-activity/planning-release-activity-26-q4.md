@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
+source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 0%
+source-wordcount: '1347'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,44 @@ ht-degree: 0%
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Quarto trimestre de 2026.
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Recolher e expandir todos os agrupamentos na exibição de linha do tempo
+
+>[!NOTE]
+>
+>Visualização: 27 de agosto de 2026
+>Versão rápida de produção: 17 de setembro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+As exibições de linha do tempo agora incluem Recolher tudo e Expandir todas as opções de linhas do tempo agrupadas. Isso facilita a navegação em exibições de roteiro grandes: você pode reduzir rapidamente a exibição para cabeçalhos de agrupamento e expandir apenas as seções que deseja revisar.
+
+Para obter mais informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+## Ver nomes completos dos grupos e redimensionar o painel de agrupamento na visualização de linha do tempo
+
+>[!NOTE]
+>
+>Visualização: 27 de agosto de 2026
+>Versão rápida de produção: 17 de setembro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Na exibição de linha do tempo, passar o mouse sobre um rótulo de grupo truncado agora mostra o texto completo em uma dica de ferramenta, na exibição de grupo Raia e Empilhado. Rótulos não truncados não mostram nenhuma dica de ferramenta.
+
+O painel esquerdo de agrupamento na exibição Swimlane agora pode ser redimensionado arrastando seu divisor. A exibição é atualizada em tempo real, o que é consistente com a exibição de tabela. A largura do painel de cada usuário é salva entre as sessões, com uma largura padrão para usuários pela primeira vez.
+
+Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+## Desempenho de calendário aprimorado para grandes conjuntos de registros na exibição semanal
+
+>[!NOTE]
+>
+>Visualização: 27 de agosto de 2026
+>Versão rápida de produção: 17 de setembro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+A exibição da semana do calendário agora exibe apenas os primeiros 1.000 registros no período semanal visível. Se houver mais registros, a seguinte mensagem será exibida na parte inferior do calendário, indicando que registros adicionais estão disponíveis: &quot;Há mais registros. Carregue mais.&quot;
+
+Para obter informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Cabeçalhos de coluna atualizados para campos de registro conectados dependentes
 
@@ -43,22 +81,6 @@ Para obter informações, consulte [Gerenciar conexões dependentes](/help/quick
 Há novos indicadores visuais quando você arrasta e solta várias linhas na exibição de tabela. Um sinal de adição mais proeminente e um indicador de número agora mostram quantas linhas estão selecionadas para a ação arrastar e soltar.
 
 Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
-
-<!--
-
-## Collapse and expand all groupings in the timeline view
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
-
-For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-
--->
 
 ## Rotear o objeto de solicitação enviado para o espaço de trabalho correto ao usar tipos de registro global
 
