@@ -4,10 +4,10 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 14%
+source-wordcount: '1501'
+ht-degree: 13%
 
 ---
 
@@ -264,6 +264,15 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Pré-visualização</strong></td>
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Relatórios de tabela dinâmica em Painéis da Tela</a>
+                <p>O novo tipo de relatório de tabela dinâmica nos Painéis da tela agrega dados com roll-ups precisos e completos, com detalhamento nos registros subjacentes.</p>
+            </td>
+            <td><p>27 de agosto de 2026</p></td>
+            <td><p>17 de setembro de 2026</p></td>
+            <td><p>15 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>

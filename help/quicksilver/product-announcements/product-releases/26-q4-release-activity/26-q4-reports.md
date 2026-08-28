@@ -4,10 +4,10 @@ description: Melhorias na emissão de relatórios no quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a86f0169f804520be2828983a737c8c8d151792d
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 5%
+source-wordcount: '487'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 5%
 Esta página descreve as melhorias de relatórios feitas com a versão do quarto trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Relatórios de tabela dinâmica em Painéis da tela de desenho
+
+>[!NOTE]
+>
+>Visualização: 27 de agosto de 2026
+>Versão rápida de produção: 17 de setembro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+O novo tipo de relatório de tabela dinâmica nos Painéis da tela agrega dados com roll-ups precisos e completos. Você pode criar métricas como contagens, somas e médias diretamente no painel e, em seguida, detalhar os registros subjacentes atrás de qualquer total.
+
+Para obter mais informações, consulte [Criar um relatório de tabela dinâmica em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
 ## Imposição de datas de término para relatórios agendados
 
