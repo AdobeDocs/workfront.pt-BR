@@ -8,19 +8,14 @@ author: Alina
 feature: Work Management
 exl-id: 084f54a6-e757-405c-b388-5d5f61608e71
 TQID: https://experienceleague.adobe.com/rVMjo1IgPBQpLatO8jufxGPYTn2W0qghce2v5O-zPRo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 1%
+source-wordcount: 517
+ht-degree: 0%
 
 ---
 
@@ -35,19 +30,23 @@ Considere o seguinte ao usar a restrição Datas fixas:
 * Quando você seleciona a restrição de tarefa Datas Fixas (FIXT), deve especificar a Data Inicial Planejada e a Data de Conclusão Planejada da tarefa. Nesse caso, o relacionamento predecessor da tarefa é ignorado.
 * O campo Duração da tarefa não é editável ao usar a restrição FIXT. A duração é calculada como a diferença entre as datas de início e de conclusão planejadas da tarefa.
 * Se o Tipo de duração da tarefa for Orientado pelo Esforço, o número de atribuídos na tarefa também afetará a Duração da tarefa.
+* A restrição de Datas fixas não tem efeito em uma tarefa com subtarefas. Uma tarefa com subtarefas sempre tem seu próprio Início Planejado, Conclusão Planejada e Duração totalizados a partir do Início mais antigo da subtarefa e das Datas de Conclusão mais recentes da subtarefa, independentemente da restrição aplicada a ela. Você deve associar a restrição Datas fixas diretamente à subtarefa que precisa da data fixa. O pai continuará a acumular automaticamente.
+
+Para obter mais informações, consulte também [Duração e tipo de duração da tarefa](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md).
+
 * Quando você move ou copia uma tarefa com uma restrição FIXT para outro projeto, a restrição da tarefa ou as datas do projeto podem mudar, dependendo de quais são as datas de restrição e quais são as datas de início e de conclusão do projeto. Existem os seguintes cenários:
 
-   * Quando o projeto de destino está agendado do início:
+  * Quando o projeto de destino está agendado do início:
 
-      * Quando qualquer data de restrição da tarefa for anterior à Data inicial do projeto, a restrição da tarefa será alterada para O Mais Breve Possível.
-      * Quando alguma ou ambas as datas de restrição da tarefa forem posteriores à Data de conclusão planejada do projeto, a Data de conclusão planejada do projeto será alterada para corresponder à data de restrição de conclusão da tarefa.
+    * Quando qualquer data de restrição da tarefa for anterior à Data inicial do projeto, a restrição da tarefa será alterada para O Mais Breve Possível.
+    * Quando alguma ou ambas as datas de restrição da tarefa forem posteriores à Data de conclusão planejada do projeto, a Data de conclusão planejada do projeto será alterada para corresponder à data de restrição de conclusão da tarefa.
 
-   * Quando o projeto de destino estiver agendado A partir da conclusão:
+  * Quando o projeto de destino estiver agendado A partir da conclusão:
 
-      * Quando qualquer data de restrição da tarefa for posterior à Data de conclusão do projeto, a restrição da tarefa será alterada para O mais tarde possível.
-      * Quando alguma ou ambas as datas de restrição da tarefa forem anteriores à Data Inicial Planejada do projeto, a Data Inicial Planejada do projeto será alterada para corresponder à data inicial de restrição da tarefa.
+    * Quando qualquer data de restrição da tarefa for posterior à Data de conclusão do projeto, a restrição da tarefa será alterada para O mais tarde possível.
+    * Quando alguma ou ambas as datas de restrição da tarefa forem anteriores à Data Inicial Planejada do projeto, a Data Inicial Planejada do projeto será alterada para corresponder à data inicial de restrição da tarefa.
 
-   * Independentemente do cronograma do projeto, quando as datas de restrição da tarefa estiverem dentro das Datas de Início e Término do projeto, não há alterações na Restrição da tarefa ou nas datas do projeto.
+  * Independentemente do cronograma do projeto, quando as datas de restrição da tarefa estiverem dentro das Datas de Início e Término do projeto, não há alterações na Restrição da tarefa ou nas datas do projeto.
 
   Para obter informações sobre como mover tarefas, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obter informações sobre como copiar tarefas, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 

@@ -8,23 +8,15 @@ author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
 TQID: https://experienceleague.adobe.com/R38RC6-vr-nRp4R7W4WDdJk2KkAuegb6yOfmNLdn7Dc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 7%
+source-wordcount: 704
+ht-degree: 6%
 
 ---
 
@@ -38,6 +30,8 @@ As restrições de tarefa determinam quando uma tarefa deve iniciar e terminar e
 
 À medida que você constrói seu plano de projeto, toma decisões sobre a sequência e o período das tarefas no projeto. As tarefas podem funcionar independentemente de qualquer sequência de tarefas, mas podem afetar a linha do tempo do projeto. Restrições de Tarefa permitem que um gerente de projeto planeje quando determinadas tarefas podem ser iniciadas ou concluídas em um projeto.
 
+As restrições de tarefa se aplicam de forma idêntica às tarefas do projeto e às tarefas do modelo.
+
 Dependendo da restrição usada, talvez seja necessário especificar uma Data Inicial Planejada, uma Data de Conclusão Planejada ou ambas para a tarefa.
 
 Os tipos de restrição que exigem datas definidas afetam os relacionamentos de predecessores.
@@ -46,7 +40,9 @@ Os tipos de restrição que exigem datas definidas afetam os relacionamentos de 
 >
 >Considere usar um tipo de restrição que não exija datas específicas se estiver usando relações de predecessoras entre tarefas.
 
-A tabela a seguir exibe cada restrição e sua abreviação. As abreviações são usadas em listas de tarefas e ao criar arquivos de importação do Kickstart. Clique no título vinculado de cada restrição de tarefa para obter mais informações sobre esse tipo de restrição.
+A tabela a seguir exibe cada restrição e sua abreviação.
+
+As abreviações são usadas em listas de tarefas e ao criar arquivos de importação do Kickstart. Clique no título vinculado de cada restrição de tarefa para obter mais informações sobre esse tipo de restrição.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
