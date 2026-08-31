@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 7%
+source-wordcount: 704
+ht-degree: 6%
 
 ---
 
@@ -38,6 +38,8 @@ As restrições de tarefa determinam quando uma tarefa deve iniciar e terminar e
 
 À medida que você constrói seu plano de projeto, toma decisões sobre a sequência e o período das tarefas no projeto. As tarefas podem funcionar independentemente de qualquer sequência de tarefas, mas podem afetar a linha do tempo do projeto. Restrições de Tarefa permitem que um gerente de projeto planeje quando determinadas tarefas podem ser iniciadas ou concluídas em um projeto.
 
+As restrições de tarefa se aplicam de forma idêntica às tarefas do projeto e às tarefas do modelo.
+
 Dependendo da restrição usada, talvez seja necessário especificar uma Data Inicial Planejada, uma Data de Conclusão Planejada ou ambas para a tarefa.
 
 Os tipos de restrição que exigem datas definidas afetam os relacionamentos de predecessores.
@@ -46,7 +48,9 @@ Os tipos de restrição que exigem datas definidas afetam os relacionamentos de 
 >
 >Considere usar um tipo de restrição que não exija datas específicas se estiver usando relações de predecessoras entre tarefas.
 
-A tabela a seguir exibe cada restrição e sua abreviação. As abreviações são usadas em listas de tarefas e ao criar arquivos de importação do Kickstart. Clique no título vinculado de cada restrição de tarefa para obter mais informações sobre esse tipo de restrição.
+A tabela a seguir exibe cada restrição e sua abreviação.
+
+As abreviações são usadas em listas de tarefas e ao criar arquivos de importação do Kickstart. Clique no título vinculado de cada restrição de tarefa para obter mais informações sobre esse tipo de restrição.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
