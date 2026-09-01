@@ -11,20 +11,13 @@ exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2018
 ht-degree: 6%
 
 ---
@@ -35,9 +28,16 @@ Como administrador [!DNL Adobe Workfront], você pode criar aplicativos OAuth2 p
 
 Ao criar um aplicativo [!UICONTROL OAuth2], você gera uma ID do cliente e um Segredo do cliente. Seus usuários podem usar a ID do cliente em chamadas de API para integrar com o aplicativo criado.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->No contexto de OAuth2, &quot;criação de um aplicativo&quot; refere-se ao processo de criação desse tipo de link de acesso entre um aplicativo e um servidor, como [!DNL Workfront].
+>* Os aplicativos OAuth2 personalizados estão em processo de desativação. Observe as seguintes datas:
+>
+>   * 1 de novembro de 2026: você não poderá mais criar novos aplicativos OAuth2 personalizados.
+>   * 1 de fevereiro de 2027: os aplicativos OAuth2 personalizados existentes não funcionarão mais.
+>
+>   Para obter mais informações, consulte [Migrar do Workfront OAuth2 para o Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+>
+>* No contexto de OAuth2, &quot;criação de um aplicativo&quot; refere-se ao processo de criação desse tipo de link de acesso entre um aplicativo e um servidor, como [!DNL Workfront].
 
 * Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com credenciais de usuário (fluxo de código de autorização), consulte [Configurar e usar os aplicativos OAuth 2 personalizados da sua organização usando o fluxo de código de autorização](../../wf-api/api/oauth-app-code-token-flow.md).
 * Para obter instruções sobre como configurar e usar o aplicativo OAuth2 usando a autenticação de servidor (fluxo JWT), consulte [Configurar e usar os aplicativos OAuth 2 personalizados da sua organização usando o fluxo JWT](../../wf-api/api/oauth-app-jwt-flow.md).

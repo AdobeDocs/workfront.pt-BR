@@ -9,19 +9,14 @@ role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
 TQID: https://experienceleague.adobe.com/nN-7cw-IwnuQ-7wjyjyp3wUifEvk2eNmo9zqyHDjfV0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 644
-ht-degree: 6%
+source-wordcount: 697
+ht-degree: 5%
 
 ---
 
@@ -29,9 +24,17 @@ ht-degree: 6%
 
 Como administrador do [!DNL Adobe Workfront], você pode exibir e gerenciar os aplicativos OAuth2 para sua instância do [!DNL Workfront], que permitem que outros aplicativos acessem o [!UICONTROL Workfront].
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>* Os aplicativos OAuth2 personalizados estão em processo de desativação. Observe as seguintes datas:
+>
+>   * 1 de novembro de 2026: você não poderá mais criar novos aplicativos OAuth2 personalizados.
+>   * 1 de fevereiro de 2027: os aplicativos OAuth2 personalizados existentes não funcionarão mais.
+>
+>   Para obter mais informações, consulte [Migrar do Workfront OAuth2 para o Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 >
 >* No contexto de OAuth2, &quot;aplicativo OAuth2&quot; se refere a esse tipo de link de acesso entre um aplicativo e um servidor, como [!DNL Workfront]. Para obter mais informações, consulte [Criar aplicativos OAuth2 para [!DNL Workfront] integrações](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>
 >* Você pode ter até dez aplicativos OAuth2 ao mesmo tempo.
 
 * Para obter informações, instruções e detalhes sobre como criar aplicativos OAuth2 personalizados, consulte [Criar aplicativos OAuth2 para [!DNL Workfront] integrações](../../administration-and-setup/configure-integrations/create-oauth-application.md)

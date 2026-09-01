@@ -8,23 +8,27 @@ feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
 TQID: https://experienceleague.adobe.com/uxF82lsimZlGpWRe8BEt80-9wb0rnwz7uhBHCI8nAig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 462
-ht-degree: 3%
+source-wordcount: 554
+ht-degree: 2%
 
 ---
 
 # Configurar e usar os aplicativos OAuth 2 personalizados da sua organização com o fluxo JWT
+
+>[!IMPORTANT]
+>
+>Os aplicativos OAuth2 personalizados estão em processo de desativação. Observe as seguintes datas:
+>
+>* 1 de novembro de 2026: você não poderá mais criar novos aplicativos OAuth2 personalizados.
+>* 1 de fevereiro de 2027: os aplicativos OAuth2 personalizados existentes não funcionarão mais.
+>
+>Para obter mais informações, consulte [Migrar do Workfront OAuth2 para o Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 Para integrar ao Workfront e permitir que seu aplicativo cliente se comunique com o Workfront em nome do usuário, é necessário:
 
