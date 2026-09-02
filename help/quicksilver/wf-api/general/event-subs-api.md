@@ -10,18 +10,13 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0c334e47aaf59a02ec235776505076e5aa808a89
 workflow-type: tm+mt
-source-wordcount: 3308
-ht-degree: 94%
+source-wordcount: 3545
+ht-degree: 88%
 
 ---
 
@@ -67,7 +62,10 @@ Os seguintes objetos do Workfront são compatíveis com assinaturas de evento.
 * Estágio de aprovação
 * Participante do estágio de aprovação
 * Atribuição
+* Reserva
 * Empresa
+* Campo personalizado
+* Formulário personalizado
 * Painel
 * Documento
 * Versão do documento
@@ -75,6 +73,8 @@ Os seguintes objetos do Workfront são compatíveis com assinaturas de evento.
 * Campo
 * Hora
 * Problema
+* Categoria Não Mão de Obra
+* Recurso não trabalhista
 * Nota
 * Portfólio
 * Programa
@@ -90,6 +90,8 @@ Os seguintes objetos do Workfront são compatíveis com assinaturas de evento.
 * Conjunto de valores de atributo de recurso do plano de recrutamento
 * Valor do parâmetro de recurso do plano de recrutamento
 * Tarefa
+* Equipe
+* Integrante da Equipe
 * Modelo
 * Folha de horas
 * Usuário
@@ -151,8 +153,20 @@ O recurso de assinatura contém os seguintes campos.
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
+        <td scope="col">Reserva</td> 
+        <td scope="col"><p>RESERVA</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col">Empresa </td> 
         <td scope="col"><p>CMPY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Campo personalizado</td> 
+        <td scope="col"><p>PARAM</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Formulário personalizado</td> 
+        <td scope="col"><p>CTGY</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Painel</td> 
@@ -181,6 +195,14 @@ O recurso de assinatura contém os seguintes campos.
        <tr> 
         <td scope="col">Problema</td> 
         <td scope="col"><p>OPTASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Categoria Não Mão de Obra</td> 
+        <td scope="col"><p>NLBRCY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Recurso não trabalhista</td> 
+        <td scope="col"><p>NLBR</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Nota</td> 
@@ -241,6 +263,14 @@ O recurso de assinatura contém os seguintes campos.
        <tr> 
         <td scope="col"><p>Tarefa</p></td> 
         <td scope="col"><p>TAREFA</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Equipe</td> 
+        <td scope="col"><p>TEAMOB</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Integrante da Equipe</td> 
+        <td scope="col"><p>EQUIPE</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Modelo</p></td> 
@@ -768,6 +798,8 @@ Esse filtro permite a entrada de mensagens se a atualização no `fieldName` esp
 
 Esse filtro permite a entrada das mensagens se a alteração que ocorreu contiver o `fieldValue` no filtro. O valor `fieldValue` diferencia entre maiúsculas e minúsculas
 
+Se `fieldName` se refere a uma matriz de objetos (por exemplo, `tags`), `fieldValue` pode ser um objeto; o filtro corresponderá se qualquer elemento na matriz tiver valores correspondentes para a(s) chave(s) especificada(s). Outros campos nesse elemento não são considerados — esta é uma correspondência parcial, não uma correspondência completa no objeto inteiro.
+
 ```
 {
     "objCode": "TASK",
@@ -783,6 +815,33 @@ Esse filtro permite a entrada das mensagens se a alteração que ocorreu contive
     ]
 }
 ```
+
+**Exemplo: filtrando um campo de matriz de objetos**
+
+```
+{
+    "objCode": "NOTE",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedNotes",
+    "filters": [
+        {
+            "fieldName": "tags",
+            "fieldValue": {
+                "objID": "6229be410016986cfc6eb4b37c618a17"
+            },
+            "state": "newState",
+            "comparison": "contains"
+        }
+    ]
+}
+```
+
+Este filtro corresponde a eventos OBSERVAÇÃO nos quais a matriz `tags` contém pelo menos uma marca com `objID` igual a `6229be410016986cfc6eb4b37c618a17` — independentemente de `objCode` dessa marca ou de qualquer outro campo.
+
+>[!NOTE]
+>
+>Ao filtrar um campo de matriz de objetos (como `tags`) com `contains` ou `notContains`, `fieldValue` só precisa incluir as chaves com as quais você se preocupa — por exemplo, `{"objID": "abc123"}` corresponde a qualquer marca com essa ID, independentemente de seus outros campos (como `objCode`). Esta não é uma verificação de igualdade de objeto completo. No momento, `containsOnly` não oferece suporte a campos de matriz de objeto.
 
 #### containsOnly
 
@@ -817,6 +876,8 @@ Esse filtro permite a entrada das mensagens somente quando o conjunto completo d
 
 Esse filtro permite a entrada das mensagens somente quando o campo especificado (`fieldName`) não contiver o valor especificado (`fieldValue`).
 
+Quando usado com uma matriz de objetos, retorna true somente se nenhum elemento corresponder à(s) chave(s) especificada(s).
+
 >[!NOTE]
 >
 >Usado para campos do tipo matriz (seleção múltipla) ou string. Se o campo for uma string, verificaremos se o valor especificado não está contido na string (por exemplo, &quot;Novo&quot; não está na string &quot;Projeto - Atualizado&quot;). Se o campo for uma matriz e o valor do campo especificado for uma string ou um número inteiro, verificaremos se a matriz não contém o valor especificado (por exemplo, &quot;Opção 1&quot; não está na [&quot;Opção 2&quot;, &quot;Opção 3&quot;]). O exemplo de assinatura abaixo permite o envio de mensagens somente quando os campos `groups` não contêm a string &quot;Grupo 2&quot;.
@@ -837,6 +898,10 @@ Esse filtro permite a entrada das mensagens somente quando o campo especificado 
     ]
 }
 ```
+
+>[!NOTE]
+>
+>Ao filtrar um campo de matriz de objetos (como `tags`) com `contains` ou `notContains`, `fieldValue` só precisa incluir as chaves com as quais você se preocupa — por exemplo, `{"objID": "abc123"}` corresponde a qualquer marca com essa ID, independentemente de seus outros campos (como `objCode`). Esta não é uma verificação de igualdade de objeto completo. No momento, `containsOnly` não oferece suporte a campos de matriz de objeto.
 
 #### alteração
 
