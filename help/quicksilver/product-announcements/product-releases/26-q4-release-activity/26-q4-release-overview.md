@@ -4,10 +4,10 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 13%
+source-wordcount: '1579'
+ht-degree: 14%
 
 ---
 
@@ -264,6 +264,24 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Pré-visualização</strong></td>
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Campo de Tipo de Aprovação nos Painéis da Tela</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>A Entidade de aprovação agora inclui um campo Tipo de aprovação, que permite aos usuários distinguir entre aprovações de prova, aprovações de versão de documento, aprovações de entrada e outros tipos de aprovação.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>N/D</p></td>
+            <td><p>28 de agosto de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Atualização de terminologia de aprovação em Painéis do Canvas</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Vários nomes de campo usados nos Painéis da tela de desenho para aprovações de documentos e trabalhos foram renomeados para maior clareza.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>N/D</p></td>
+            <td><p>28 de agosto de 2026</p></td>
         </tr>
         <tr>
             <td>

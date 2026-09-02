@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: 1193
+source-wordcount: 1203
 ht-degree: 4%
 
 ---
@@ -293,12 +293,18 @@ Você pode adicionar tipos de registro manualmente nas seções Tipos de Registr
 
    As alterações são salvas automaticamente.
 
-   Para obter informações adicionais sobre como adicionar registros, excluir ou editar tipos de registro ou atualizar a exibição na página tipo de registro, consulte os seguintes artigos:
+   Para obter informações adicionais sobre como adicionar registros, excluir ou editar tipos de registro, <!--<span class="preview">creating business rules</span>--> ou atualizar o modo de exibição na página de tipo de registro, consulte os seguintes artigos:
 
    * [Criar registros](/help/quicksilver/planning/records/create-records.md)
    * [Excluir tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md)
+
+   <!--  
+    <div class="preview">
+    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+    </div>
+    -->
 
 ## Criar tipos de registro importando informações de um arquivo CSV ou do Excel
 

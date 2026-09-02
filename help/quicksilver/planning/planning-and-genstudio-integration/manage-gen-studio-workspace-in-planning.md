@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: 1794
+source-wordcount: 1855
 ht-degree: 4%
 
 ---
@@ -376,6 +376,17 @@ A página principal do Workfront Planning é aberta.
      Você pode criar vários formulários de solicitação. Os formulários de solicitação estarão disponíveis na área Solicitações do Workfront e você também pode compartilhá-los publicamente ou com um link.
 
      Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+   <!--
+   <div class="preview">
+
+   * Business rules
+
+      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+
+      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+   </div>
+   -->
 
 1. Para compartilhar uma exibição ou o tipo de registro, faça o seguinte:
 
