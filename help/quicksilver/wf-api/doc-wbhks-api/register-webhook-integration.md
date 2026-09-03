@@ -9,22 +9,20 @@ feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 13%
+source-wordcount: 409
+ht-degree: 8%
 
 ---
 
 # Registrar uma integração de webhook
+
+{{highlighted-preview}}
 
 Os administradores do Adobe Workfront podem adicionar uma integração de webhook personalizada para a empresa navegando até Configuração > Documentos > Integrações personalizadas no Workfront. Na página Integração personalizada da Configuração, os administradores podem exibir uma lista de integrações existentes do Webhook. Nessa página, as integrações podem ser adicionadas, editadas, ativadas e desativadas.
 
@@ -56,7 +54,7 @@ Ao adicionar uma integração, o administrador inserirá valores nos seguintes c
   </tr> 
   <tr> 
    <td>Parâmetros de solicitação</td> 
-   <td> <p>Valores opcionais a serem acrescentados à querystring de todas as chamadas de API. Por exemplo, access_type </p> </td> 
+   <td> <p>Valores opcionais a serem anexados à querystring de cada chamada de API. Por exemplo, access_type=offline. </p> </td> 
   </tr> 
   <tr> 
    <td>Tipo de autenticação</td> 
@@ -85,6 +83,14 @@ Ao adicionar uma integração, o administrador inserirá valores nos seguintes c
   <tr> 
    <td>ApiKey</td> 
    <td> <p>(Somente ApiKey) Usado para fazer chamadas de API autorizadas para o provedor de webhook. A chave da API emitida pelo provedor do webhook.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Habilitar upload fragmentado para arquivos grandes</td> 
+   <td> <p>Marque esta caixa de seleção para habilitar uploads de várias partes (fragmentados) para arquivos com mais de 25 MB. Quando não selecionada, os arquivos são carregados em uma única solicitação independentemente do tamanho.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Limite de Carregamento Bloqueado (MB)</td> 
+   <td> <p>O tamanho máximo, em MB, de cada bloco quando um arquivo grande é dividido para upload. Aceita valores de até 100 MB.</p> </td> 
   </tr> 
  </tbody> 
 </table>
