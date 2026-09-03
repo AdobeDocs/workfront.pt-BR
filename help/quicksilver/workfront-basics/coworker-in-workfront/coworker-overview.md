@@ -29,7 +29,7 @@ O colega de trabalho faz parte do ecossistema do Adobe e não se limita apenas a
 
 Para obter informações sobre como usar o CX Coworker no Workfront, consulte [Usar o CX Coworker no Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
-Para obter mais informações sobre o Colaborador e seus recursos, consulte a [visão geral do Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview).
+Para obter mais informações sobre o Colaborador e seus recursos, consulte a [visão geral do Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/chat/overview).
 
 Para obter as habilidades disponíveis no Co-worker na Workfront, consulte [CX Habilidades do Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 

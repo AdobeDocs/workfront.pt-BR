@@ -28,7 +28,7 @@ Ao usar o Colaborador no Workfront, ele pode trabalhar com informações e objet
 
 Como o Coworker faz parte de um ecossistema corporativo maior do Adobe CX, você pode usar o Coworker para trabalhar com informações e objetos em outros produtos da Adobe, no painel direito do Workfront, ou pode pular do Workfront para a interface do Adobe CX Coworker.
 
-Para obter mais informações sobre o Colaborador e seus recursos fora do Workfront, consulte a [Visão geral do Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview).
+Para obter mais informações sobre o Colaborador e seus recursos fora do Workfront, consulte a [Visão geral do Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/chat/overview).
 
 
 ## Requisitos de acesso
@@ -78,14 +78,14 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * **Microfone**: dite sua mensagem com entrada de voz. Selecione novamente para interromper a gravação.
    * **Enviar**: envia a mensagem. Enquanto o Chat do Colaborador está respondendo, isso se torna um controle Stop que pode ser usado para interromper.
 
-   Para obter detalhes sobre essas ações, consulte [A caixa de entrada do chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box) na documentação do Adobe CX Co-worker.
+   Para obter detalhes sobre essas ações, consulte [A caixa de entrada do chat](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box) na documentação do Adobe CX Co-worker.
 
 1. Para exibir e gerenciar os chats anteriores, clique no ícone ![Ícone de chats](assets/ai-icon.png) no painel CX Co-worker.
 
-   Para obter detalhes sobre Bate-papos, consulte [Gerenciar seus bate-papos](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) na documentação do Adobe CX Co-worker.
+   Para obter detalhes sobre Bate-papos, consulte [Gerenciar seus bate-papos](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) na documentação do Adobe CX Co-worker.
 1. Para exibir e gerenciar artefatos de chat, como listas de saída, clique no ícone Artefatos ![ícone Artefatos](assets/artifacts-icon.png).
 
-   Para obter mais informações sobre artefatos no CX Co-worker, consulte [Artefatos](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) na documentação do Adobe CX Co-worker.
+   Para obter mais informações sobre artefatos no CX Co-worker, consulte [Artefatos](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) na documentação do Adobe CX Co-worker.
 1. Para gerenciar as configurações do Colaborador, clique no ícone Configurações ![Configurações](assets/coworker-settings-icon.png).
 1. Para expandir o painel do Colaborador, clique no ícone Expandir ![ícone Expandir](assets/coworker-expand-icon.png).
 1. Para acessar a interface do Adobe CX Coworker, clique no ícone Aplicativos ![ícone Aplicativos](assets/apps-icon.png) no canto superior direito da página e selecione Colaborador na lista de aplicativos disponíveis.
