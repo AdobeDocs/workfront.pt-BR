@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 606ed09cef82c5cef853fea990b0d3a235534b84
+source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 2%
 # Definir atributos de taxa
 
 Os atributos de taxa ampliam a funcionalidade do cartão de taxa e das taxas do Adobe Workfront, permitindo a adição de dimensões adicionais às taxas, além da função de trabalho. Isso é essencial para agências e empresas em que as taxas variam não apenas por função de trabalho, mas também por fatores como agência, local, marca, centro de custo ou outros.
+
 Ao combinar esses atributos, o Workfront pode selecionar automaticamente a taxa correta para as atribuições, garantindo a precisão financeira e a consistência entre os projetos.
 
 Os atributos de taxa devem ser uma configuração básica única.
@@ -34,9 +35,9 @@ Os atributos de taxa são considerados uma configuração única porque:
 * Taxas, atribuições, valores planejados e valores reais dependem dos valores de atributo escolhidos.
 * Alterar os atributos posteriormente (renomear, remover ou reordenar) pode causar:
 
-   * Perda de vínculo entre taxas e atributos
-   * Taxas inválidas ou &quot;órfãs&quot;
-   * Alinhamento incorreto no faturamento e nos relatórios
+  * Perda de vínculo entre taxas e atributos
+  * Taxas inválidas ou &quot;órfãs&quot;
+  * Alinhamento incorreto no faturamento e nos relatórios
 
 Por esses motivos, os atributos devem ser projetados com cuidado durante a implementação inicial do Workfront e deixados inalterados posteriormente.
 
@@ -63,8 +64,8 @@ Isso permite que a configuração espelhe sua estrutura comercial, mantendo a in
 
 * O Workfront oferece suporte a até 5 níveis de atributos. O sistema sempre segue a hierarquia de atributo, selecionando a correspondência mais específica disponível.
 
-   * 0 = taxa de base genérica
-   * 1 - 5 = taxas progressivamente mais específicas
+  * 0 = taxa de base genérica
+  * 1 - 5 = taxas progressivamente mais específicas
 
 * É possível renomear atributos para refletir sua empresa (Agência, Marca, Mercado, Centro de custos etc.).
 * A configuração é feita apenas uma vez: alterar os atributos posteriormente corre o risco de quebrar a integridade dos dados financeiros.
@@ -187,13 +188,13 @@ Os filtros devem ser sempre configurados em ambas as direções. Se o Atributo A
 
    * **Tipo de filtro**:
 
-      * Um filtro **Standard** aplica uma condição universal ao objeto de atributo. Por exemplo, Local > Está ativo = Verdadeiro (somente os Locais ativos serão exibidos).
+     * Um filtro **Standard** aplica uma condição universal ao objeto de atributo. Por exemplo, Local > Está ativo = Verdadeiro (somente os Locais ativos serão exibidos).
 
-        O filtro Padrão é sempre aplicado, independentemente de outros atributos serem selecionados.
+       O filtro Padrão é sempre aplicado, independentemente de outros atributos serem selecionados.
 
-      * Um filtro **Atributo** vincula um atributo a outro na cadeia. Por exemplo, Local > Referência = Agência (somente os Locais vinculados à Agência selecionada serão mostrados).
+     * Um filtro **Atributo** vincula um atributo a outro na cadeia. Por exemplo, Local > Referência = Agência (somente os Locais vinculados à Agência selecionada serão mostrados).
 
-        O filtro Atributo só é aplicado se o atributo referenciado tiver um valor. Por exemplo, se a opção Agência for selecionada, somente os Locais válidos serão sugeridos. Se Agência estiver em branco, todas as Localizações serão exibidas (mas ainda podem ser limitadas pelos filtros Padrão aplicados à Localização).
+       O filtro Atributo só é aplicado se o atributo referenciado tiver um valor. Por exemplo, se a opção Agência for selecionada, somente os Locais válidos serão sugeridos. Se Agência estiver em branco, todas as Localizações serão exibidas (mas ainda podem ser limitadas pelos filtros Padrão aplicados à Localização).
 
    * **Campo**: o campo direto do objeto de atributo, como ID de Local ou Sinalizador Ativo.
    * **Operador**: essas opções dependem do tipo de Campo selecionado. Os exemplos incluem Igual a, Diferente de, Está em branco, Verdadeiro/Falso.

@@ -8,20 +8,15 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
 workflow-type: tm+mt
-source-wordcount: 3202
-ht-degree: 2%
+source-wordcount: 3318
+ht-degree: 1%
 
 ---
 
@@ -74,18 +69,31 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 | --- | --- |
 | Prioridades | <ul><li>Início > selecione o ícone Prioridades no menu esquerdo</li><li>Menu principal > Prioridades</li></ul> |
 | Lista de solicitações | <ul><li>Solicitações (somente nova experiência)</li><li>Widget Minhas solicitações na página inicial</li></ul> |
-| Listas de status, prioridades, severidades e taxas de câmbio em Configuração | <ul><li>Configuração > Preferências do Projeto > Status</li><li>Configuração > Preferências do Projeto > Prioridades</li><li>Configuração > Preferências do Projeto > Severidades</li><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
-| Lista de relatórios | Relatórios (**Usar pastas compartilháveis** deve estar ativado) |
+| Listas de status, prioridades, severidades, <span class="preview">condições</span> e taxas de câmbio na Instalação | <ul><li>Configuração > Preferências do Projeto > Status</li><li>Configuração > Preferências do Projeto > Prioridades</li><li>Configuração > Preferências do Projeto > Severidades</li><li><span class="preview">Configuração > Preferências do Projeto > Condições</span></li><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
+| <span class="preview">Listas de ações e campos rastreados nos Feeds de Atualização</span> | <ul><li><span class="preview">Configuração > Interface > Atualizar feeds > guia Campos rastreados</span></li> <li><span class="preview">Configuração > Interface > Feeds de Atualização > guia Ações</span></li></ul> |
+| <span class="preview">Lista de scorecards</span> | <span class="preview">Configuração > Scorecards</span> |
+| <span class="preview">Lista de tipos de riscos</span> | <span class="preview">Configuração > Tipos de Riscos</span> |
 | Lista de funções e taxas de trabalho em um cartão de taxa | Configuração > Cartões de Taxa > selecione um cartão de taxa > Funções e Taxas de Ordem de Produção |
+| <span class="preview">Lista de locais</span> | <span class="preview">Configuração > Locais</span> |
 | Lista de traduções | Configuração > Localização |
+| <span class="preview">Listas de integrações </span> | <ul><li><span class="preview">Configuração > Documentos > Integração do SharePoint</span></li><li><span class="preview">Configuração > Documentos > Integração personalizada</span></li></ul> |
+| Lista de relatórios | Relatórios (**Usar pastas compartilháveis** deve estar ativado) |
 | Lista de instantâneos | Projeto > Instantâneos |
 | Lista de recursos para faturamento | Projeto > Recurso para Faturamento |
 | Novas atribuições avançadas em uma tarefa | Tarefa > Atribuições > Avançado |
+| <span class="preview">Modo de exibição de todas as versões de um documento</span> | <span class="preview">Projeto > Documentos > Detalhes do documento > Todas as versões</span> |
 | Exibição do administrador dos painéis | Quadros > Exibição do administrador |
 | Documentos no armazenamento em nuvem do Adobe | Projeto, tarefa, problema, portfólio, programa, modelo, tarefa de modelo > Documentos |
+| <span class="preview">Listas de planos de cenário e iniciativas</span> | <span class="preview">Menu Principal > Cenários</span> |
+| <span class="preview">Listas de metas e indicadores de progresso</span> | <ul><li><span class="preview">Menu Principal > Metas</span></li><li><span class="preview">Menu Principal > Metas > Indicadores de Progresso</span></li></ul> |
+
 <!--
-Add this BEFORE a list of reports in the table above:
-| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
 -->
 
 ## Adicionar itens a uma lista aprimorada
@@ -164,9 +172,16 @@ Dependendo dos objetos que você está visualizando em uma lista aprimorada, é 
 
 1. Clique em **Colunas** acima da lista.
 
+   Imagem de amostra no ambiente de produção:
    ![Exibir exemplo de colunas](assets/glist-display-move-columns.png)
 
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   ![Exibir exemplo de colunas](assets/display-columns-090126.png)
+
 1. Use os botões para exibir ou ocultar colunas na lista.
+
+<span class="preview">Você pode procurar uma coluna na caixa de pesquisa.</span>
+
 1. Para reordenar as colunas, clique no ícone **Arrastar** ![Ícone Arrastar](assets/drag-icon.png) e mova uma coluna para o local desejado. Mover colunas altera a lista automaticamente.
 
    >[!NOTE]
