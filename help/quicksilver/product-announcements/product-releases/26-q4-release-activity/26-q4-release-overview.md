@@ -450,7 +450,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     &lt;tr>
     &lt;td>
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Relatórios de tabela dinâmica em Painéis de tela&lt;/a>
-    &lt;p>O novo tipo de relatório de tabela dinâmica em Painéis de tela agrega dados com roll-ups precisos e completos, com detalhamento nos registros subjacentes&lt;2>{td}&lt;2>{p>{p> 27, 2026&lt;/p>&lt;/td>
+    &lt;p>O novo tipo de relatório de tabela dinâmica em Painéis de tela agrega dados com roll-ups precisos e completos, com detalhamento nos registros subjacentes&lt;2>{td}&lt;2>&lbrace;p>&lbrace;p> 27, 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>17 de setembro de 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>15 de outubro de 2026&lt;/p>&lt;/td>
     &lt;/tr>
@@ -461,7 +461,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     &lt;/td>
     &lt;td>&lt;p>13 de agosto de 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>17 de setembro de 2026&lt;/p>&lt;/td>
-    &lt;1} 2026&lt;/p>&lt;/td>
+    &lt;1&rbrace; 2026&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
     &lt;td>
@@ -478,7 +478,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     &lt;p>As opções selecionadas para campos personalizados de seleção múltipla agora são exibidas em uma ordem consistente e previsível em listas e relatórios herdados.&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>30 de julho de 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>13 de agosto de 2026&lt;/p>&lt;/td>&lt;p>52} 15, 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>13 de agosto de 2026&lt;/p>&lt;/td>&lt;p>52&rbrace; 15, 2026&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;/tbody>
 
