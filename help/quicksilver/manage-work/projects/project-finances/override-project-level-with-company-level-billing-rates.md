@@ -7,21 +7,15 @@ author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
 TQID: https://experienceleague.adobe.com/GQSQGGHBZsBLtI8IEUltVXzxmEtOxue0iE6fpHmYWP4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 15%
+source-wordcount: 480
+ht-degree: 13%
 
 ---
 
@@ -66,21 +60,21 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Habilitar a opção de substituição de Taxas de Cobrança no Nível da Empresa
+## Ativar a opção de substituição de Taxas de Cobrança no Nível da Empresa
 
-Quando uma empresa está associada a um projeto e essa opção está habilitada, as alterações feitas nas taxas de cobrança no nível da empresa substituem a taxa de cobrança definida no projeto.
+Quando uma empresa está associada a um projeto e essa opção está ativada, as alterações feitas nas taxas de cobrança no nível da empresa substituem a taxa de cobrança definida no projeto.
 
 Quando um usuário recalcula manualmente as finanças do projeto, qualquer alteração nas taxas de cobrança no nível da empresa é aplicada. Os cálculos de receita histórica também são substituídos, a menos que estejam marcados como faturados.
 
 1. Ir para um projeto.
 1. Clique no menu **Mais** ![Mais menu](assets/qs-more-icon-on-an-object.png) ao lado do nome do projeto no cabeçalho e clique em **Editar**.
-1. Na seção **Finanças**, habilite **Permitir que taxas de cobrança no nível da empresa substituam taxas de cobrança no nível do projeto**.
+1. Na seção **Finanças**, selecione **Permitir que taxas de cobrança no nível da empresa substituam taxas de cobrança no nível do projeto**.
 
    >[!CAUTION]
    >
-   >Ativar essa opção substitui os cálculos de receita históricos, a menos que estejam marcados como faturados. Você pode preservar os cálculos de receita históricos criando um registro de faturamento. Para obter mais informações, consulte o artigo [Criar registros de cobrança](../../../manage-work/projects/project-finances/create-billing-records.md)
+   >Ativar essa opção substitui os cálculos de receita históricos, a menos que estejam marcados como faturados. Você pode preservar os cálculos de receita históricos criando um registro de faturamento. Para obter mais informações, consulte o artigo [Criar registros de cobrança](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-1. Clique em **Salvar alterações**.
+1. Clique em **Salvar**.
 
 ## Atualizar taxas de cobrança no nível da empresa e aplicá-las a um projeto
 
@@ -95,21 +89,22 @@ Depois que você ativou a opção de substituição de taxas de cobrança no ní
 1. Clique em **Empresas**.
 1. Clique no nome da empresa associada ao projeto para o qual você ativou a substituição de taxas de cobrança no nível da empresa.
 1. Clique em **Taxas de cobrança** no painel esquerdo.
-1. Atualize a **Taxa de Cobrança da Empresa** e as datas de início/término de uma função de trabalho existente, em seguida, pressione Enter.
+1. Selecione a taxa de funções de trabalho a ser atualizada e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
 
-   Para adicionar uma nova taxa de cobrança da empresa de data efetiva, selecione uma taxa de cobrança para a função de trabalho e clique em **Editar**. Para obter mais informações sobre taxas de cobrança da empresa de data efetiva, consulte [Substituir taxas de cobrança de função de trabalho no nível da empresa](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+   Atualize a taxa de cobrança e as datas de efetivação conforme necessário, e clique em **Salvar**. Para obter mais informações sobre taxas de cobrança da empresa de data efetiva, consulte [Substituir taxas de cobrança de função de trabalho no nível da empresa](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Para atualizar as taxas da empresa para um ou mais projetos, siga um destes procedimentos:
 
    * Vários projetos:
 
-      1. Ir para uma lista de projetos.
-      1. Marque a caixa de seleção de acordo com os projetos que deseja atualizar.
-      1. Clique em **Edit**.
-      1. Na seção Configurações, habilite a opção **Recalcular Custos e Receitas**.
-      1. Clique em **Salvar alterações**.
+     1. Ir para uma lista de projetos.
+     1. Marque as caixas de seleção dos projetos que deseja atualizar.
+     1. Clique no menu **Mais** ![Mais menu](assets/qs-more-icon-on-an-object.png) na parte superior da lista e em **Recalcular Finanças**.
 
    * Um único projeto:
 
-      1. Vá para o projeto para o qual você ativou a substituição de taxas de cobrança no nível da empresa.
-      1. Clique no menu **Mais** ![Mais menu](assets/qs-more-icon-on-an-object.png) ao lado do nome do projeto no cabeçalho e clique em **Recalcular Finanças**.
+     1. Vá para o projeto para o qual você ativou a substituição de taxas de cobrança no nível da empresa.
+     1. Clique no menu **Mais** ![Mais menu](assets/qs-more-icon-on-an-object.png) ao lado do nome do projeto no cabeçalho e clique em **Recalcular Finanças**.
+
+     Para obter mais informações sobre como recalcular finanças para um ou mais projetos, consulte [Recalcular finanças do projeto](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
+

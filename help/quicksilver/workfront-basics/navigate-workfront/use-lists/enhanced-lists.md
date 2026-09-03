@@ -8,19 +8,14 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 3318
+source-wordcount: 3304
 ht-degree: 1%
 
 ---
@@ -90,7 +85,6 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 | Exibição do administrador dos painéis | Quadros > Exibição do administrador |
 | Documentos no armazenamento em nuvem do Adobe | Projeto, tarefa, problema, portfólio, programa, modelo, tarefa de modelo > Documentos |
 | <span class="preview">Listas de planos de cenário e iniciativas</span> | <span class="preview">Menu Principal > Cenários</span> |
-| <span class="preview">Listas de metas e indicadores de progresso</span> | <ul><li><span class="preview">Menu Principal > Metas</span></li><li><span class="preview">Menu Principal > Metas > Indicadores de Progresso</span></li></ul> |
 
 <!--
 
@@ -98,6 +92,9 @@ Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documen
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 -->
 
@@ -185,7 +182,7 @@ Dependendo dos objetos que você está visualizando em uma lista aprimorada, é 
 
 1. Use os botões para exibir ou ocultar colunas na lista.
 
-<span class="preview">Você pode procurar uma coluna na caixa de pesquisa.</span>
+   <span class="preview">Você pode procurar uma coluna na caixa de pesquisa.</span>
 
 1. Para reordenar as colunas, clique no ícone **Arrastar** ![Ícone Arrastar](assets/drag-icon.png) e mova uma coluna para o local desejado. Mover colunas altera a lista automaticamente.
 
