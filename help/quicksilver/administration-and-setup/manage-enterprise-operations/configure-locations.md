@@ -8,18 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: d0464b7f055b9351ba5c3353c7e806c51008e30b
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 9%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
 # Configurar locais
 
+{{preview-fast-release-general}}
+
 Você pode configurar as localizações padrão disponíveis para designar como atributos a funções de trabalho em cartões de taxa. Isso garante que os cartões de taxa reflitam com precisão as taxas de mercado em cada local.
 
-Os cartões de taxa permitem que sua organização gerencie facilmente as taxas de cobrança dos projetos. Para obter mais informações, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Os cartões de taxa permitem que sua organização gerencie facilmente as taxas de cobrança dos projetos. Para obter mais informações, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) e [Definir atributos de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 ## Requisitos de acesso
 
@@ -53,10 +55,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em [!UICONTROL **Locais**].
-1. Clique em [!UICONTROL **Adicionar mais Locais**] na parte inferior da lista.
+1. No ambiente de Produção, clique em [!UICONTROL **Adicionar mais locais**] na parte inferior da lista.
+   <span class="preview">No ambiente de Visualização, clique em [!UICONTROL **Nova linha**] na parte inferior da lista.</span>
+
 1. Insira o nome e a descrição do local.
-1. Clique fora da área de entrada para salvar o local.
-1. Para excluir um local, selecione-o na lista e clique no ícone **Excluir** ![Ícone Excluir](assets/delete.png).
+1. Clique fora da linha para salvar o local.
+1. Para excluir um local no ambiente de Produção, selecione-o na lista e clique no ícone **Excluir** ![Ícone Excluir](assets/delete.png).
+   <span class="preview">Para excluir um local no ambiente de Visualização, selecione-o na lista e clique em [!UICONTROL **Excluir**] na barra de ações na parte inferior da tela.</span>
 
 >[!NOTE]
 >
@@ -73,12 +78,18 @@ Cada sublocal pode ser adicionado como um atributo em um cartão de taxa da mesm
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em [!UICONTROL **Locais**].
-1. Selecione um local existente na lista e clique em **Adicionar sublocal**.
+1. No ambiente de Produção, selecione um local existente na lista e clique em [!UICONTROL **Adicionar sublocal**].
+   <span class="preview">No ambiente de Visualização, selecione um local existente na lista e clique em [!UICONTROL **Adicionar sublocal**] na barra de ações na parte inferior da tela.</span>
+
 1. Insira o nome e a descrição do local.
 1. Clique fora da área de entrada para salvar o local.
 
    O sublocal é recuado abaixo do local de nível superior.
 
+   Imagem de amostra no ambiente de produção:
    ![Locais e sublocais](assets/locations-sublocations.png)
+
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   ![Locais e sublocais](assets/locations-sublocations-082526.png)
 
 

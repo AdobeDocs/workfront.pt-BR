@@ -21,14 +21,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
 workflow-type: tm+mt
-source-wordcount: 627
-ht-degree: 7%
+source-wordcount: 676
+ht-degree: 6%
 
 ---
 
 # Criar ou editar uma condição personalizada
+
+{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront, você pode criar ou editar uma condição personalizada para projetos, tarefas e problemas para atender às necessidades da sua organização.
 
@@ -72,9 +74,16 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    Ou
 
-   Para editar uma condição existente, clique em **Editar** ao lado do nome da condição.
+   Para editar uma condição existente:
 
+   * No ambiente de Produção, clique em **Editar** ao lado do nome da condição.
+   * <span class="preview">No ambiente de Visualização, marque a caixa de seleção ao lado do nome da condição que você deseja excluir e clique em **Editar** na barra de ações na parte inferior da tela.</span>
+
+   Imagem de amostra no ambiente de produção:
    ![Editar condição personalizada](assets/custom-conditions-0825.png)
+
+   Imagem de exemplo no ambiente de Pré-visualização:
+   ![Editar condição personalizada](assets/edit-conditions-082526.png)
 
 1. Configure sua condição personalizada usando as seguintes opções:
 

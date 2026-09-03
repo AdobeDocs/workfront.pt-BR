@@ -16,14 +16,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
-source-wordcount: 1559
+source-wordcount: 1647
 ht-degree: 88%
 
 ---
 
 # Gerenciar usuários no Adobe Admin Console
+
+{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -36,8 +38,8 @@ Como admin da Adobe, você pode criar admins do sistema Adobe Workfront usando o
 >[!NOTE]
 >
 >* **Administradores do Workfront devem ser configurados no Adobe Admin Console.** Para obter informações e instruções, consulte [Criar administradores do sistema no Workfront com a Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) neste artigo.
->* **Se sua organização usa Logon Único (SSO)**, recomendamos criar usuários e atribuí-los ao Workfront na Adobe Admin Console. A criação desses usuários no Workfront é possível, mas pode haver problemas ao transferir essas informações para a Adobe Admin Console, com base em como o Admin Console da sua organização é configurado.
->   Depois de criar o usuário na Adobe Admin Console, você pode configurar as informações do usuário no Workfront, como atribuir funções, grupos, equipes e níveis de acesso.
+>* **Se sua organização usa logon único (SSO)**, recomendamos criar usuários e atribuí-los ao Workfront no Adobe Admin Console. Criar esses usuários no Workfront é possível, mas pode haver problemas ao transferir essas informações para o Adobe Admin Console, dependendo de como o Admin Console da sua organização está configurado.
+>   Após criar o usuário no Adobe Admin Console, você pode configurar as informações do usuário no Workfront, como atribuir funções, grupos, equipes e níveis de acesso.
 >* **Se a sua organização não usa logon único (SSO)**, você pode adicionar usuários não admins do sistema diretamente no Workfront. É possível adicionar usuários no Adobe Admin Console, mas adicioná-los no Workfront permite definir o nível de acesso durante a criação, o que pode economizar tempo.
 
 Ao fazer alterações nos perfis dos usuários a partir do Admin Console, a atualização é adicionada à aba Atividade do sistema do usuário no Workfront. A atualização aparece como feita pelo “Sistema”. Isso se refere a um(a) admin do Adobe Admin Console, e não ao(à) admin principal do Workfront.
@@ -185,6 +187,8 @@ Você deve adicionar um usuário à instância de Produção do Workfront antes 
 1. Na caixa **Adicionar usuários a este perfil de produto**, insira o endereço de email ou o nome do usuário que deseja adicionar e, em seguida, selecione **Salvar**.
 
    O usuário é criado no Workfront com o nível de acesso de Solicitante ou Colaborador, dependendo do pacote do Workfront da sua organização.
+
+   <span class="preview">Se o administrador do Workfront tiver definido um nível de acesso padrão para usuários criados no Admin Console, o usuário será criado com esse nível de acesso. Para obter mais informações, consulte [Configurar preferências do sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).</span>
 
    >[!IMPORTANT]
    >

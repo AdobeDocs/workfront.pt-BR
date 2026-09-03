@@ -26,14 +26,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
+source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1318
 ht-degree: 10%
 
 ---
 
 # Configurar preferências do sistema
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -150,6 +152,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      <tr>
       <td>Sempre exigir campos obrigatórios na edição em massa</td>
       <td><p>Permite escolher se força os usuários a inserir informações em campos obrigatórios ao editar objetos em massa.</p> <p>Quando essa opção é selecionada, os campos obrigatórios devem ter valores antes de salvar no modo de edição em massa. Se o campo obrigatório não tiver um valor para pelo menos um objeto selecionado em massa, não será permitido salvar.</p> <p>Quando essa opção não está selecionada, os campos obrigatórios só são aplicados quando um usuário modifica o campo. Se um campo não for modificado, será tratado como opcional e não validado.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Nível de acesso para usuários criados no Admin Console</span></td>
+      <td><span class="preview">Permite escolher um nível de acesso padrão a ser atribuído automaticamente aos usuários criados no Workfront por meio da Adobe Admin Console. Se você não definir um padrão, esses usuários continuarão a receber um nível de acesso de Colaborador ou Solicitante. Os níveis de acesso de Administrador do Sistema e Usuário Externo não estão disponíveis como padrão e essa configuração não está disponível para organizações que têm o Workfront Planning como um produto independente.<p><b>OBSERVAÇÃO</b>: não é possível excluir um nível de acesso enquanto ele estiver definido como padrão. Para excluir o nível de acesso padrão, selecione primeiro um nível de acesso padrão diferente.</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">Preferências de armazenamento </td> 

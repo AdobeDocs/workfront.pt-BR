@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: bf52de7515f8bcb29649b22c1fe40d5a7e306018
 workflow-type: tm+mt
-source-wordcount: 1593
+source-wordcount: 1599
 ht-degree: 4%
 
 ---
@@ -76,13 +76,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 {{step-1-to-setup}}
 
-1. Se você criar ou editar um perfil de planilha de horas para uso em todo o sistema, clique em **Planilha de horas e horas**.
+1. Para criar ou editar um perfil de planilha de horas para uso no sistema inteiro, clique em **Planilha de horas e horas > Perfis de planilha de horas**.
 
    Ou
 
-   Se você criar ou editar um perfil de planilha de horas para um grupo, clique em **Grupos** e, em seguida, clique no nome do grupo.
+   Para criar ou editar um perfil de folha de horas para um grupo, clique em **Grupos**, clique no nome do grupo e em **Perfis de Folha de Horas** no painel esquerdo.
 
-1. Clique em **Perfis de Planilha de Horas**.
 1. Para criar um perfil de planilha de horas, clique em **Novo Perfil**.
 
    Ou
