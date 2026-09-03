@@ -11,29 +11,21 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1318
 ht-degree: 10%
 
 ---
 
 # Configurar preferências do sistema
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -150,6 +142,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      <tr>
       <td>Sempre exigir campos obrigatórios na edição em massa</td>
       <td><p>Permite escolher se força os usuários a inserir informações em campos obrigatórios ao editar objetos em massa.</p> <p>Quando essa opção é selecionada, os campos obrigatórios devem ter valores antes de salvar no modo de edição em massa. Se o campo obrigatório não tiver um valor para pelo menos um objeto selecionado em massa, não será permitido salvar.</p> <p>Quando essa opção não está selecionada, os campos obrigatórios só são aplicados quando um usuário modifica o campo. Se um campo não for modificado, será tratado como opcional e não validado.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Nível de acesso para usuários criados no Admin Console</span></td>
+      <td><span class="preview">Permite escolher um nível de acesso padrão a ser atribuído automaticamente aos usuários criados no Workfront por meio da Adobe Admin Console. Se você não definir um padrão, esses usuários continuarão a receber um nível de acesso de Colaborador ou Solicitante. Os níveis de acesso de Administrador do Sistema e Usuário Externo não estão disponíveis como padrão e essa configuração não está disponível para organizações que têm o Workfront Planning como um produto independente.<p><b>OBSERVAÇÃO</b>: não é possível excluir um nível de acesso enquanto ele estiver definido como padrão. Para excluir o nível de acesso padrão, selecione primeiro um nível de acesso padrão diferente.</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">Preferências de armazenamento </td> 
