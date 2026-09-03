@@ -9,19 +9,12 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/Jav41X12-b9nrSTfeEvI03EuYMiinnHuf2CPIUmKwlc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1373
 ht-degree: 4%
@@ -35,13 +28,9 @@ ht-degree: 4%
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Você pode aplicar a visualização Marco a uma lista de projeto ou relatório. Você pode usar o modo de exibição Marco para exibir todos os marcos associados às tarefas nos projetos que você está visualizando.
@@ -123,9 +112,9 @@ Ao aplicar a visualização Marco a uma lista de projetos, os projetos são exib
 
   O Workfront classifica os projetos na primeira seção pelos seguintes critérios, nesta ordem:
 
-   1. ID do Caminho de Etapas Você pode exibir a ID do Caminho de Etapas em um relatório de Caminho de Etapas.
+  1. ID do Caminho de Etapas Você pode exibir a ID do Caminho de Etapas em um relatório de Caminho de Etapas.
 
-   2. O campo selecionado como o primeiro campo de classificação da lista de projetos na exibição aplicada anteriormente à lista de projetos, antes da seleção da exibição Marco.
+  2. O campo selecionado como o primeiro campo de classificação da lista de projetos na exibição aplicada anteriormente à lista de projetos, antes da seleção da exibição Marco.
 
 * Os projetos não associados a um Caminho do marco são exibidos em seguida, na seção Não atribuído. O Workfront classifica os projetos na seção Não atribuídos pelo campo selecionado como o primeiro campo de classificação da lista de projetos na exibição aplicada anteriormente à lista de projetos, antes de você selecionar a exibição Marco.
 
@@ -140,9 +129,9 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
 
   Se você estiver visualizando Datas planejadas e também tiver acesso de Gerenciamento ao projeto, poderá editar as seguintes datas diretamente da visualização de Marco:
 
-   * **Datas de Início do Projeto:** Se um projeto estiver agendado a partir da Data de Início, você poderá alterar manualmente a Data de Início Planejada do projeto, e a Data de Conclusão Planejada será então calculada.
-   * **Datas de conclusão do projeto:** se um projeto estiver agendado a partir da Data de conclusão planejada, você poderá alterar manualmente a Data de conclusão planejada do projeto, e a Data de início planejada será calculada.
-   * **Datas de conclusão da tarefa:** você pode atualizar manualmente a Data de conclusão planejada para tarefas diretamente do modo de exibição Marco.
+  * **Datas de Início do Projeto:** Se um projeto estiver agendado a partir da Data de Início, você poderá alterar manualmente a Data de Início Planejada do projeto, e a Data de Conclusão Planejada será então calculada.
+  * **Datas de conclusão do projeto:** se um projeto estiver agendado a partir da Data de conclusão planejada, você poderá alterar manualmente a Data de conclusão planejada do projeto, e a Data de início planejada será calculada.
+  * **Datas de conclusão da tarefa:** você pode atualizar manualmente a Data de conclusão planejada para tarefas diretamente do modo de exibição Marco.
 
 * **Percentual concluído:** Exibe o percentual de conclusão de cada tarefa e projeto.
 
@@ -152,10 +141,10 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
 
 * **Ícones de status de progresso da tarefa:** Estes são ícones que indicam o status de progresso das tarefas:
 
-   * No Prazo - verde
-   * Atrás - amarelo
-   * Em Risco - azul
-   * Atrasado - vermelho
+  * No Prazo - verde
+  * Atrás - amarelo
+  * Em Risco - azul
+  * Atrasado - vermelho
 
   <!--
    * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
@@ -177,33 +166,33 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
 
 * **Sombreamento de status de tarefa para tarefas concluídas**: depois que uma tarefa é marcada como Concluída, o plano de fundo da tarefa é sombreado no modo de exibição Marco para indicar se a tarefa foi concluída no prazo ou atrasada:
 
-   * **Sombreamento vermelho para a coluna de tarefa**: o plano de fundo de uma tarefa é vermelho quando o Status do Progresso é **Atrasado**.
+  * **Sombreamento vermelho para a coluna de tarefa**: o plano de fundo de uma tarefa é vermelho quando o Status do Progresso é **Atrasado**.
 
-   * **Sombreamento verde para coluna de tarefa**: o plano de fundo de uma tarefa fica verde quando o Status do Progresso é **No Prazo**.
+  * **Sombreamento verde para coluna de tarefa**: o plano de fundo de uma tarefa fica verde quando o Status do Progresso é **No Prazo**.
 
 * **Sombreamento de status do projeto para as colunas Início e Conclusão do Projeto**:
 
-   * **Coluna de Início do Projeto**: o plano de fundo da coluna de Início do Projeto é vermelho ou verde somente quando a Data de Início Efetivo é preenchida:
+  * **Coluna de Início do Projeto**: o plano de fundo da coluna de Início do Projeto é vermelho ou verde somente quando a Data de Início Efetivo é preenchida:
 
-      * **Sombreamento vermelho para a coluna Início do Projeto**: o plano de fundo da coluna Início do Projeto é vermelho quando o Status de Progresso do projeto é **Atrasado**.
+    * **Sombreamento vermelho para a coluna Início do Projeto**: o plano de fundo da coluna Início do Projeto é vermelho quando o Status de Progresso do projeto é **Atrasado**.
 
-      * **Sombreamento verde para a coluna Início do Projeto**: o plano de fundo da coluna Início do Projeto estará verde quando o Status de Progresso do projeto for **No Prazo**.
+    * **Sombreamento verde para a coluna Início do Projeto**: o plano de fundo da coluna Início do Projeto estará verde quando o Status de Progresso do projeto for **No Prazo**.
 
-     >[!TIP]
-     >
-     >Você deve ir até a página Detalhes do Projeto para visualizar a Data do Início Efetivo do projeto.
+    >[!TIP]
+    >
+    >Você deve ir até a página Detalhes do Projeto para visualizar a Data do Início Efetivo do projeto.
 
-   * **Coluna de Término do Projeto**: o plano de fundo da coluna de Término do Projeto é vermelho ou verde somente quando a Data de Término Efetivo é preenchida:
+  * **Coluna de Término do Projeto**: o plano de fundo da coluna de Término do Projeto é vermelho ou verde somente quando a Data de Término Efetivo é preenchida:
 
-      * **Sombreamento Vermelho para a coluna Conclusão do projeto**: o plano de fundo da coluna Conclusão do projeto fica vermelho quando o Status de Progresso do projeto é **Atrasado**.
+    * **Sombreamento Vermelho para a coluna Conclusão do projeto**: o plano de fundo da coluna Conclusão do projeto fica vermelho quando o Status de Progresso do projeto é **Atrasado**.
 
-      * **Sombreamento verde para a coluna Conclusão do projeto**: o plano de fundo da coluna Conclusão do projeto estará verde quando o Status de Progresso do projeto for **No Prazo**.
+    * **Sombreamento verde para a coluna Conclusão do projeto**: o plano de fundo da coluna Conclusão do projeto estará verde quando o Status de Progresso do projeto for **No Prazo**.
 
-     >[!TIP]
-     >
-     >Você deve ir até a página Detalhes do Projeto para visualizar a Data de Término Efetivo do projeto.
+    >[!TIP]
+    >
+    >Você deve ir até a página Detalhes do Projeto para visualizar a Data de Término Efetivo do projeto.
 
-   * Nenhuma sombra de cor é atribuída às colunas Início e Conclusão quando as tarefas têm um Status de Progresso de Em Risco ou Atrasado.
+  * Nenhuma sombra de cor é atribuída às colunas Início e Conclusão quando as tarefas têm um Status de Progresso de Em Risco ou Atrasado.
 
   <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
@@ -212,9 +201,9 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
 * **Nome do projeto**: o nome do projeto é exibido com um link para o projeto.
 * **Ícone Condição do projeto**: os seguintes indicadores mostram a Condição do projeto:
 
-   * No Target - verde
-   * Em Risco - amarelo
-   * Com Problemas - vermelho
+  * No Target - verde
+  * Em Risco - amarelo
+  * Com Problemas - vermelho
 
   <!--
    * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:

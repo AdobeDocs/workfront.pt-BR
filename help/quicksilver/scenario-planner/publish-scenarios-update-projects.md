@@ -10,25 +10,23 @@ exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mo2xl9ElZiaehjY1KH6ykvqO-PaO126rw0GAOFLJ0sg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1705
+source-wordcount: 1817
 ht-degree: 1%
 
 ---
 
 # Atualizar ou criar projetos publicando iniciativas no [!DNL Scenario Planner]
+
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 A publicação de um cenário a partir do [!DNL Adobe Workfront Scenario Planner] realiza o seguinte:
 
@@ -195,24 +193,24 @@ Antes de começar:
    Para obter informações sobre como criar iniciativas, consulte [Criar e editar iniciativas no [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 1. Clique em **[!UICONTROL Salvar plano]**.
-1. Selecione o cenário que deseja publicar no menu suspenso **[!UICONTROL Cenário inicial]** e clique em **[!UICONTROL Ir para publicação]** ![Ir para publicação](assets/go-to-publish-button-icon.png) no canto superior direito.
+1. Selecione o cenário que deseja publicar no menu suspenso **[!UICONTROL Cenário inicial]** e clique em **[!UICONTROL Ir para Publicação]** no canto superior direito.
 
    Ou
 
-   Clique em **[!UICONTROL Comparar cenários]**, passe o mouse sobre o cartão de cenário do qual deseja publicar e clique em **[!UICONTROL Ir para Publicação]** ![Ir para publicação](assets/go-to-publish-button-icon.png).
+   Clique em **[!UICONTROL Comparar cenários]**, passe o mouse sobre o cartão de cenário do qual deseja publicar e clique em **[!UICONTROL Ir para Publicar]**.
 
-   A página [!UICONTROL Publicar iniciativas] é exibida, mostrando uma lista de todas as iniciativas no cenário. Se alguma das iniciativas foi publicada anteriormente, o ícone do projeto ![Ícone do projeto](assets/project-icon-sp.png) será exibido depois que seu nome e a data **[!UICONTROL Última publicação]** forem preenchidos na lista.
+   A página [!UICONTROL **Publicar iniciativas**] é exibida, mostrando uma lista de todas as iniciativas no cenário. <span class="preview">Se alguma das iniciativas foi publicada anteriormente, o ícone do projeto ![Ícone do projeto](assets/project-icon-sp.png) será exibido depois do nome e da data **[!UICONTROL Última publicação]** será preenchida na lista.</span>
 
    >[!TIP]
    >
-   >As iniciativas criadas com a importação de projetos também exibem o ícone do projeto ![Ícone do projeto](assets/project-icon-sp.png) à direita do nome
+   >No ambiente de Produção, as iniciativas criadas com a importação de projetos também exibem o ícone do projeto ![Ícone do projeto](assets/project-icon-sp.png) à direita do nome
 
    ![Ícone do projeto e última data de publicação](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-   <!--
-    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
-    -->
-1. (Opcional e condicional) Se quiser publicar de um plano existente, clique no ícone **[!UICONTROL Filtro]** ![Ícone Filtro](assets/filter-nwepng.png) no canto superior direito do plano e selecione uma das seguintes opções:
+
+1. <span class="preview">(Opcional) Na página **Publicar iniciativas**, passe o mouse sobre o nome do projeto e clique no menu **Mais** ![Mais menu](assets/more-menu.png) > **Abrir projeto**. O projeto abre em uma nova guia do navegador.</span>
+
+1. (Opcional e condicional) Se quiser publicar de um plano existente, clique no ícone **[!UICONTROL Filtro]** no canto superior direito do plano <span class="preview">ou no ícone de tabela no canto superior esquerdo</span> e selecione uma das seguintes opções:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -244,16 +242,20 @@ Antes de começar:
    >
    >Novos projetos têm o mesmo nome das iniciativas publicadas.
 
-1. (Condicional) Siga um destes procedimentos:
+1. (Condicional) Clique em uma das seguintes opções na mensagem de confirmação depois que as iniciativas forem publicadas:
 
    * Se você publicou uma iniciativa, clique em **[!UICONTROL Ver projeto associado]** para abrir o projeto criado ou atualizado da iniciativa.
-   * Se você publicou mais de uma iniciativa, clique em **[!UICONTROL Ver projetos associados]** para abrir uma lista de projetos publicados de iniciativas. [!DNL Workfront] aplica o filtro de Projetos [!DNL Scenario Planner] à lista de projetos por padrão. Os projetos publicados mais recentemente são exibidos no topo da lista.
+   * Se você publicou mais de uma iniciativa, clique em **[!UICONTROL Ver projetos associados]** para abrir uma lista de projetos publicados de iniciativas.
 
-     ![Planejador de cenários após a publicação das iniciativas](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+   Isso abre a área Projetos e o filtro Projetos [!DNL Scenario Planner] é aplicado à lista de projetos por padrão.
+
+   Os projetos publicados mais recentemente são exibidos no topo da lista.
+
+   ![Planejador de cenários após a publicação das iniciativas](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. Acesse as seguintes áreas para exibir informações de iniciativa do projeto:
 
-   * **A [!UICONTROL Seção Atualizações]**: uma atualização é publicada para indicar que o projeto foi criado ou atualizado a partir da iniciativa. A atualização contém o nome da iniciativa que criou ou atualizou o projeto e o nome vinculado do plano que contém a iniciativa. Você pode clicar no nome do plano na atualização para abrir o plano no [!DNL Scenario Planner].
+   * **A seção [!UICONTROL Atualizações]**: uma atualização é publicada na guia **Atividade do sistema** para indicar que o projeto foi criado ou atualizado a partir da iniciativa. A atualização contém o nome da iniciativa que criou ou atualizou o projeto e o nome vinculado do plano que contém a iniciativa. Você pode clicar no nome do plano na atualização para abrir o plano no [!DNL Scenario Planner].
 
      ![Atualizar confirmação de fluxo de publicação](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
@@ -297,6 +299,8 @@ Antes de começar:
      </tr> 
       </tbody> 
      </table>
+
+     <!-- for the above table - I am not seeing the job role information on the Overview of the project anymore- bug??-->
 
      >[!NOTE]
      >
