@@ -9,25 +9,21 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 2227
+source-wordcount: 2406
 ht-degree: 2%
 
 ---
 
 # Criar um fluxo de trabalho de aprovação de documento
+
+{{highlighted-preview}}
 
 Você pode solicitar aprovação de outros usuários ou equipes para um documento no Adobe Workfront ou solicitar que eles revisem um documento sem precisar aprová-lo.
 
@@ -291,6 +287,30 @@ Para criar um workflow avançado de aprovação:
 1. (Opcional) Para limpar todos os caminhos e estágios e começar novamente, clique em **Redefinir** na parte superior direita.
 
 1. Clique em **Solicitar aprovação**.
+
+<div class="preview">
+
+## Exibir workflows de aprovação para versões anteriores na nova área Documentos em Visualizar
+
+Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+O painel Aprovações lista somente as versões do documento que têm um fluxo de trabalho de aprovação.
+
+Para exibir workflows de aprovação de versões anteriores:
+
+1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
+1. Clique no documento e, em seguida, clique no ícone **Aprovações**, no lado direito da página.
+
+   ![Adicionar aprovadores no resumo do documento](assets/approvals-icon-new.png)
+
+1. Clique em uma versão para expandi-la. Você pode visualizar os estágios, a decisão de cada aprovador, a regra de decisão do estágio (como se apenas uma decisão é necessária para concluir o estágio) e as datas de vencimento.
+1. Clique em outra versão para expandir o fluxo de trabalho de aprovação sem sair do painel.
+
+   >[!NOTE]
+   >
+   >Se o fluxo de trabalho de aprovação de uma versão tiver sido retirado porque uma aprovação de versão mais recente foi solicitada, ele permanecerá na lista, recolhido para que você ainda possa revisar suas decisões anteriores.
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version
