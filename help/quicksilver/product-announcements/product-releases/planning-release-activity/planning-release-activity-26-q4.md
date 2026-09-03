@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d94576b5841f3ce7b76714b835c592e095b003a
+source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1770'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 >Produção para todos: 15 de outubro de 2026
 
 Agora é possível gerenciar a visibilidade das miniaturas e cores dos registros ao editar a coluna de campo principal na exibição de tabela.
+
+Com esta atualização, as configurações de Miniatura e Cor serão removidas do ícone Campos na barra de ferramentas da exibição de tabela.
 
 Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
 
