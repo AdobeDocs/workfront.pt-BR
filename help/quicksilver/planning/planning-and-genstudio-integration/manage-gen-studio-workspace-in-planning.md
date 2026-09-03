@@ -9,16 +9,12 @@ exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/K9tDDGCuZRkOa3FjqgdojUv6njW4-AzVRsh4a0mG6ww
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 1855
+source-wordcount: 1955
 ht-degree: 4%
 
 ---
@@ -41,11 +37,11 @@ recommendations: noDisplay, noCatalog
 
 # Gerenciar o espaço de trabalho do GenStudio no Planejamento do Adobe Workfront
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 O espaço de trabalho do Adobe GenStudio for Performance Marketing está disponível no Adobe Workfront Planning quando sua empresa comprou ambos os produtos e sua instância do Workfront está integrada à instância do GenStudio da empresa.
 
@@ -109,7 +105,7 @@ Ou
    <td role="rowheader"><p>Funções de usuário do Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualquer função de usuário do GenStudio para acessar Campanhas, Produtos e Personalidades</li>
    <li>GenStudio System Manager para acessar Ativações <!--and Events--></li></ul>
-   Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
+   Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
    </p>
   </td> 
   </tr>   
@@ -171,7 +167,7 @@ Old, before Planning STA:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations </li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -227,7 +223,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -368,25 +364,23 @@ A página principal do Workfront Planning é aberta.
    * **Editar**
 
      Para obter informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * **Gerenciar automações**
+   * **Gerenciar automações** ou <span preview="preview">**Automações**</span>
 
      Para obter informações, consulte [Configurar automações do Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
-   * **Gerenciar formulários de solicitação**
+   * **Gerenciar formulários de solicitação** ou <span class="preview">**Formulários de solicitação**</span>
 
      Você pode criar vários formulários de solicitação. Os formulários de solicitação estarão disponíveis na área Solicitações do Workfront e você também pode compartilhá-los publicamente ou com um link.
 
      Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-   <!--
    <div class="preview">
 
-   * Business rules
+   * **Regras de negócios**
 
-      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+     Você pode configurar regras de negócios do tipo de registro para definir quais condições deverão ser atendidas antes que os usuários possam editar ou deletar registros desse tipo.
 
-      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+     Para obter informações, consulte [Configurar regras de negócios do tipo registro](/help/quicksilver/planning/architecture/configure-business-rules.md).
    </div>
-   -->
 
 1. Para compartilhar uma exibição ou o tipo de registro, faça o seguinte:
 

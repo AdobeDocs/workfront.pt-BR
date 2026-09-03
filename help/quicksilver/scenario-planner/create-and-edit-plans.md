@@ -9,25 +9,24 @@ exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/i0-G-8KxjFmKp0R4oFPsELMmD6cS06HFKRROeosApYM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2407
+source-wordcount: 2467
 ht-degree: 1%
 
 ---
 
 # Criar e editar planos no [!DNL Scenario Planner]
+
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Você pode criar planos como parte do uso do [!DNL Workfront Scenario Planner], ao priorizar a estratégia de nível superior da sua empresa. Para obter mais informações sobre planos, consulte [Visão geral dos planos no [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
@@ -136,7 +135,7 @@ Para criar ou editar um plano:
 
 Uma lista de planos existentes que você criou é exibida no [!DNL Workfront Scenario Planner].
 
-1. (Opcional) Clique no ícone **[!UICONTROL Filtro]** ![Ícone Filtro](assets/filter-icon-34x37.png)no canto superior direito da lista de planos e selecione uma das seguintes opções:
+1. (Opcional) Clique no ícone **[!UICONTROL Filtro]** ![Ícone Filtro](assets/filter-icon-34x37.png), <span class="preview">ou no ícone **Tabela** ![Ícone Tabela](assets/table-icon.png)</span> na parte superior da lista e selecione um dos seguintes:
 
    | Filtro | Descrição |
    |---|---|
@@ -148,23 +147,13 @@ Uma lista de planos existentes que você criou é exibida no [!DNL Workfront Sce
 
 1. (Opcional) Clique no ícone **[!UICONTROL Pesquisar]** ![Ícone Pesquisar](assets/search-icon.png) para digitar uma palavra-chave e localizar rapidamente um plano na lista.
 
-1. Clique no nome de um plano existente para editá-lo e continue com a etapa 7.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
-   -->
+1. Clique no nome de um plano existente para editá-lo e continue com a etapa 7.<!--is the step still accurate)-->
 
    Ou
 
-   Clique em **[!UICONTROL Novo Plano]** no canto superior esquerdo para criar um plano e continue com a etapa 5.
+   Clique em **[!UICONTROL Novo plano]** no canto superior esquerdo para criar um plano e continue com a etapa 5. <!--is the step still accurate-->
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
-   -->
-
-   ![Botão Novo plano](assets/new-plan-button.png)
-
-   A caixa [!UICONTROL Novo Plano] é exibida.
+   A caixa [!UICONTROL **Novo plano**] é exibida.
 
    ![Nova caixa de plano](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -209,7 +198,7 @@ Uma lista de planos existentes que você criou é exibida no [!DNL Workfront Sce
     </tbody> 
    </table>
 
-<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
+   <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Condicional) Clique em **[!UICONTROL Avançar]**.
 

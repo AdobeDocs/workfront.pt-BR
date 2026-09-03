@@ -9,25 +9,21 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4047
+source-wordcount: 4041
 ht-degree: 2%
 
 ---
 
 # Gerenciar a exibição de tabela
 
+<!-- remove Production and Preview references at release-->
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
 
@@ -190,7 +186,7 @@ Os itens a seguir são exibidos em uma exibição de tabela por padrão:
 <!--
 <div class="preview">
 
-* 500 records upload automaticall. Additional records display as you scroll the view. 
+* 500 records upload automatically. Additional records display as you scroll the view. 
 
 </div>
 -->
@@ -244,6 +240,8 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    * Segure o cabeçalho da coluna e arraste e solte-o na posição desejada. A coluna movida brevemente será exibida com um plano de fundo azul até que você faça outros ajustes na tabela.
 
    * Clique em **Campos** na barra de ferramentas da tabela, arraste e solte os campos na ordem desejada e clique fora da caixa **Visibilidade e ordem dos campos** para fechá-la.
+
+     <!--update the screen shot without Thumbnail at Production release-->
 
      ![Barra de ferramentas de exibição de tabela de configuração de campos expandida](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -360,26 +358,31 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
    ><span class="preview">Na linha de arrastar e soltar, um indicador de número exibe o número de registros selecionados, se houver mais de um. </span>
 
 1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do registro e clique em **Editar miniatura** para editar a miniatura.
-1. Clique em **Campos** na parte superior da tabela e selecione o alternador do campo **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
+1. Clique em **Campos** na parte superior da tabela no ambiente Produção
+
+   Ou
+
+   <span class="preview">Passe o mouse sobre o cabeçalho do campo principal</span>, em seguida, selecione o alternador do campo **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
 
    Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">(Opcional) Clique em **Campos** na parte superior da tabela e em **Cor** para exibir a cor de um registro à esquerda de seu campo principal. As cores são atribuídas aleatoriamente por padrão para cada novo registro. A configuração **Cor** é desmarcada por padrão.</span>
+1. <span class="preview">Clique em **Campos** na parte superior da tabela</span>
+
+   Ou
+   <span class="preview">Passe o mouse sobre o cabeçalho do campo principal e selecione o alternador do campo **Cor** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão. </span>
 
 1. <span class="preview"> (Opcional e condicional) Se você ativou a configuração **Cor**, clique na barra de cores à esquerda do campo principal do registro e selecione uma cor nas guias **Amostras** ou **Personalizado** e clique fora da caixa para fechá-la. A cor é aplicada imediatamente.</span>
 
-   <div class="preview">
+<div class="preview">
 
-   ![Caixa do seletor de cores para codificação de cores de registro](assets/color-picker-for-record-color-coding.png)
+![Caixa do seletor de cores para codificação de cores de registro](assets/color-picker-for-record-color-coding.png)
 
-   Para obter mais informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+Para obter mais informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 
-   </div>
+</div>
 
 
 ### Adicionar filtros {#add-filters-1}
-
-Os filtros ajudam a reduzir a quantidade de informações exibidas na tela.
 
 Os filtros ajudam a reduzir a quantidade de informações exibidas na tela.
 
@@ -589,7 +592,7 @@ Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***—>
+&lt;!—!—******************* É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto *******************—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.

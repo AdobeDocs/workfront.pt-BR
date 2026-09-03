@@ -7,15 +7,12 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
 TQID: https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 238
-ht-degree: 42%
+source-wordcount: 243
+ht-degree: 41%
 
 ---
 
@@ -47,16 +44,6 @@ Os artigos nas seções a seguir descrevem como configurar os espaços de trabal
 * [Visão geral dos tipos de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
-<!--
-
-<div class="preview">
-
-* [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
-
-</div>
-
--->
-
 * [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Definir a área Configurações de um tipo de registro](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [Visão geral da hierarquia e da navegação estrutural](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
@@ -65,5 +52,6 @@ Os artigos nas seções a seguir descrevem como configurar os espaços de trabal
 <div class="preview">
 
 * [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md)
+* [Configurar regras de negócios do tipo de registro](/help/quicksilver/planning/architecture/configure-business-rules.md)
 
 </div>
