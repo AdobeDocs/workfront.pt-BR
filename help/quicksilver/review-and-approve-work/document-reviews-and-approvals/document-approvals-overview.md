@@ -10,22 +10,20 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 4323
+source-wordcount: 4442
 ht-degree: 0%
 
 ---
 
 # Visão geral unificada de revisão e aprovação
+
+{{highlighted-preview}}
 
 A análise e a aprovação unificadas reúnem o Adobe Workfront e o Adobe Frame.io em uma única experiência profundamente conectada, preenchendo as lacunas entre o gerenciamento de marketing, a análise criativa e a entrega de conteúdo.
 Os coordenadores de projeto gerenciam o trabalho no Workfront enquanto criativos, profissionais de marketing e participantes revisam e aprovam ativos no visualizador de Frame.io de nível profissional, tudo sem mover arquivos entre ferramentas desconectadas.
@@ -348,6 +346,18 @@ O visualizador Frame.io inclui um conjunto completo de ferramentas de marcação
 **Os comentários feitos no visualizador Frame.io aparecerão no projeto Workfront?**
 
 Comentários e anotações permanecem no visualizador Frame.io para que mantenham seu contexto completo, incluindo carimbos de data e hora e marcações visuais. Isso pode evoluir em versões futuras.
+
+<span class="preview">
+
+Na visualização, o painel Comentários no Workfront exibe uma mensagem informando quando novos comentários estão disponíveis no Frame.io.</span>
+
+<div class="preview">
+
+**Quem pode ver o indicador de comentário Frame.io no Workfront?**
+
+Somente os usuários que já conseguiam ver esses comentários no Frame.io podem ver o indicador. Se você tiver uma licença Frame.io Enterprise, poderá vê-la para qualquer comentário no documento. Se você não tiver uma licença Frame.io Enterprise, ela será exibida somente depois que existir uma aprovação para o documento. As aprovações tornam todos os comentários anteriores no documento visíveis para você também.
+
+</div>
 
 **É possível adicionar comentários a uma versão baixada de um ativo (por exemplo, uma PDF)?**
 
