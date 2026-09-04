@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: 524a24c1a143a82cdc017ea6266aa2ee5c7a7c0b
+source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -70,9 +70,10 @@ Para cada artigo na lista confirmada pelo usuário:
 
 2. **Determinar o padrão de realce.** Pergunte ao usuário que se encaixa neste artigo (a resposta pode diferir de acordo com o artigo):
 
-   - **Duplicação por seção**: anexar `in Production` ao cabeçalho de seção existente. Adicione uma nova seção com `in Preview` anexada, encapsulada em `<div class="preview"> ... </div>`. Use quando o novo comportamento alterar significativamente o procedimento: etapas extras, uma nova imagem, novas linhas de tabela ou texto diferente. Típica para procedimentos de instrução.
-   - **Encapsulamento por linha**: adicione a(s) nova(s) frase(s) embutida(s) dentro da seção existente, encapsulada em `<span class="preview"> ... </span>`. Use quando a adição for uma ou duas frases que se encaixem naturalmente em um parágrafo, célula de tabela ou resposta de perguntas frequentes existente.
-   - **Misto**: algumas seções no mesmo artigo usam duplicação por seção, outras usam quebra automática por linha. Mostre esta opção quando o artigo tiver seções de procedimentos e seções de estilo de Perguntas frequentes.
+   - **Duplicação por seção**: anexar `in Production` ao cabeçalho de seção existente. Adicione uma nova seção com `in Preview` anexada, encapsulada em `<div class="preview"> ... </div>`. Use quando o novo comportamento altera o procedimento de forma significativa — etapas extras ou reordenadas, uma nova imagem ou texto de etapa diferente. Típica para procedimentos de instrução.
+   - **Duplicação por linha**: para uma descrição de campo baseada em tabela em que apenas uma linha é alterada e o restante da tabela/procedimento permanece inalterado, deixe a linha byte por byte existente inalterada e adicione um novo `<tr class="preview">` diretamente após ela. Não teça novas frases na linha original. Consulte &quot;Duplicação por linha&quot; em Regras de conteúdo para obter as convenções exatas.
+   - **Encapsulamento por linha**: adicione a(s) nova(s) frase(s) embutida(s) dentro da seção existente, encapsulada em `<span class="preview"> ... </span>`. Use quando a adição for uma frase ou duas que se encaixem naturalmente em um parágrafo existente ou em uma resposta de perguntas frequentes (não uma linha da tabela — use a duplicação por linha para essas perguntas).
+   - **Misto**: algumas seções no mesmo artigo usam padrões diferentes para conteúdo diferente. Use essa opção quando o artigo misturar tabelas de procedimentos, seções de estilo de perguntas frequentes e parágrafos simples.
 
 3. **Coloque o trecho** em sua própria linha imediatamente após o cabeçalho H1, com uma linha em branco acima e abaixo. O trecho fica **antes** do parágrafo de introdução.
 
@@ -153,6 +154,25 @@ Regras:
 - **Inline (nível de frase)**: quebra automática em `<span class="preview"> ... </span>` dentro do parágrafo, célula de tabela ou resposta da Pergunta frequente existente.
 - Nunca aninhe um `<span class="preview">` dentro de um `<div class="preview">`.
 
+### Duplicação por linha
+
+Para uma descrição de campo baseada em tabela em que apenas o *comportamento* do campo é alterado (não o procedimento ao redor):
+
+- Deixe o `<tr>` existente completamente inalterado — ele agora representa o comportamento atual/de produção. Nunca cole novas frases ou extensões nela.
+- Adicione uma nova linha diretamente após ela:
+
+  ```html
+  <tr class="preview">
+  <td><span class="preview"><strong>{new label} in preview</strong></span></td>
+  <td><span class="preview">{self-contained description}</span></td>
+  </tr>
+  ```
+
+- **Rótulo**: não use apenas o rótulo de campo original e anexe `(in Preview)`. Escreva um rótulo curto e natural para o novo recurso em si (por exemplo, rótulo original &quot;Adicionar nomes ou emails&quot; → novo rótulo &quot;Adicionar pessoas ou equipes&quot;), em seguida, anexe `in preview` em minúsculas sem parênteses: &quot;Adicionar pessoas ou equipes na pré-visualização&quot;.
+- **Descrição**: escreva uma descrição de frase 1-3 nova somente sobre o novo comportamento, na voz existente do artigo. Não reutilize as frases da linha original como base e insira adições nelas — a nova linha deve ler como uma descrição completa e independente por conta própria.
+- **Observações complementares**: anexe com uma quebra de linha `<br>` seguida de `Note:` na próxima linha, dentro do mesmo `<span class="preview">` — não aninhe um `<p>Note: ...</p>`. Como a nova linha é independente, reafirme qualquer fato ainda relevante da nota da linha original brevemente aqui, em vez de assumir que o leitor também o viu (por exemplo, uma restrição &quot;um estágio aberto por vez&quot; no modo Avançado que se aplica igualmente à nova linha).
+- **Várias variantes**: se o mesmo campo estiver sendo atualizado em mais de um procedimento no mesmo artigo (Básico versus Avançado, herdado versus ESM e assim por diante) e o comportamento subjacente realmente diferir entre elas (por exemplo, o herdado mantém um padrão de aceitação enquanto o ESM sempre se expande), escreva cada linha para corresponder ao comportamento real dessa variante. Não copie as palavras de uma variante na linha de outra.
+
 ### Posicionamento do trecho
 
 - A linha de trecho vai imediatamente após o H1, com uma linha em branco acima e abaixo.
@@ -164,6 +184,15 @@ Regras:
 - Salve novas capturas de tela na pasta `assets/` do artigo com um nome de arquivo de caso kebab descritivo.
 - Faça referência à nova captura de tela na nova seção Visualização. Se a captura de tela de uma seção em produção não refletir mais o recurso com precisão, deixe-a no lugar — ela ainda representa o comportamento de produção até a data de disponibilidade geral.
 - Não fabrique nomes de arquivo de captura de tela; se nenhuma captura de tela tiver sido fornecida ainda, pergunte ao usuário.
+- **Espaço reservado para uma captura de tela que ainda não existe**: se o usuário quiser continuar sem aguardar o ativo, adicione um comentário do HTML diretamente após a referência de captura de tela existente (produção), reutilizando esse nome de arquivo com um sufixo `-v2`:
+
+  ```html
+  <!--
+  preview screen![{same alt text}](assets/{existing-filename}-v2.png)
+  -->
+  ```
+
+  Troque a referência real (e remova o comentário) assim que a captura de tela for fornecida.
 
 ### Notas e dicas
 
@@ -185,6 +214,8 @@ Executar esta lista de verificação completa para **a cada** artigo na sessão 
 - Os cabeçalhos de seção existentes terminam com `in Production`.
 - Os novos cabeçalhos de seção terminam com `in Preview` e a seção está dentro de `<div class="preview">`.
 - Adições embutidas estão dentro de `<span class="preview">`.
+- Duplicações por linha: o original `<tr>` é byte por byte inalterado; o novo `<tr class="preview">` tem ambas as células encapsuladas em `<span class="preview">`; o rótulo é um rótulo novo curto + minúsculas &quot;na pré-visualização&quot; (não o rótulo original + &quot;(na Pré-visualização)&quot;); qualquer nota suplementar usa `<br>` + `Note:` embutido, não um `<p>` aninhado.
+- Se o mesmo campo aparecer em mais de uma variante de procedimento (Básico/Avançado, herdado/ESM), cada nova linha da redação corresponderá ao comportamento real dessa variante em vez de ser copiada e colada de outra variante.
 - A nova prosa marcada como pré-visualização é lida como uma descrição de campo/comportamento simples, não uma entrada de log de alterações, e não reafirma redundantemente uma instrução inalterada.
 - `ReadLints` está limpo no arquivo editado.
 - O artigo é lido corretamente em ambos os estados (com o conteúdo da pré-visualização exibido e oculto).

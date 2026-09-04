@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 473
+source-wordcount: 491
 ht-degree: 12%
 
 ---
@@ -37,13 +37,9 @@ ht-degree: 12%
 -->
 
 <!--
-<div class="preview">
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Se você decidir que um projeto ocorrerá novamente em algum momento no futuro, poderá criar um modelo a partir desse projeto existente. Em seguida, é possível usar o modelo novamente para criar projetos futuros que podem conter informações semelhantes ou compartilhar a mesma linha do tempo ou atribuições com o projeto existente.
@@ -209,7 +205,7 @@ Saving a project as a template differs in the Production and the Preview environ
 1. Clique em **Forms Personalizado** no painel esquerdo para remover ou reordenar os formulários.
 
    Para reordenar os formulários, arraste e solte-os na ordem correta.
-Para remover um formulário, selecione-o e clique em **Remover**. Clique em **Cancelar** para remover os formulários selecionados.
+   Para remover um formulário, selecione-o e clique em **Remover**. Clique em **Cancelar** para remover os formulários selecionados.
 
    ![Área de formulários personalizados na caixa Salvar como modelo](assets/custom-forms-ara-in-save-as-template-box.png)
 

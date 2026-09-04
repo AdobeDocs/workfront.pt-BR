@@ -20,20 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 648
-ht-degree: 4%
+source-wordcount: 771
+ht-degree: 3%
 
 ---
 
 # Editar tipos de registro
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -214,10 +214,8 @@ Old:
    >
    >![Caixa de pesquisa global](assets/global-search-box.png)
 
-<!--
-1. <span class="preview">(Optional) To add, edit, deactivate or delete record type business rules, go to the record type page and click the More menu to the right of the record type name, then click **Business rules**. </span>
+1. <span class="preview">(Opcional) Para adicionar, editar, desativar ou excluir regras de negócios do tipo de registro, vá para a página de tipo de registro e clique no menu **Mais** à direita do nome do tipo de registro e clique em **Regras de negócios**. </span>
 
-   <span class="preview">Business rules are conditions set on the record type that define when records of that type can be edited or deleted. </span>
+   <span class="preview">Regras de negócio são condições definidas no tipo de registro que definem quando os registros desse tipo podem ser editados ou excluídos. </span>
 
-   <span class="preview"> For information, see [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).</span> 
--->
+   <span class="preview"> Para obter informações, consulte [Criar regras de negócios para tipos de registros](/help/quicksilver/planning/architecture/configure-business-rules.md).</span>

@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: e01b63c81bf085651195a5649bf3799e5168b550
 workflow-type: tm+mt
-source-wordcount: 212
-ht-degree: 98%
+source-wordcount: 215
+ht-degree: 97%
 
 ---
 
@@ -52,4 +52,5 @@ Esta seção contém as seguintes subseções:
 * [Aplicativos móveis](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Assistente de IA no Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Servidor MCP do Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+* [Colaborador no Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
 * [Dicas, truques e solução de problemas para o Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

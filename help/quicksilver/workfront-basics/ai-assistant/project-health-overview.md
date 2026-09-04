@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 2065
+source-wordcount: 2100
 ht-degree: 4%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Integridade do projeto está disponível apenas para usuários que participam da fase beta.
+>* A partir de setembro de 2026, o AI Assistant estará fazendo a transição para o CX Coworker, uma interface conversacional para realizar o trabalho. Para obter informações sobre o CX Co-worker, consulte a [Visão geral do CX Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* No momento, o recurso Integridade do projeto está disponível apenas para usuários que participam da fase beta.
 
 O recurso Saúde do projeto do Adobe Workfront utiliza o poder do Assistente de IA para fornecer instantaneamente uma avaliação do desempenho de seus projetos, quais áreas precisam de sua atenção e como evitar problemas que podem custar tempo e dinheiro.
 

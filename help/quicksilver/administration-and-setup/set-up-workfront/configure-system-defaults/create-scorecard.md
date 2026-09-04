@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Criar um Scorecard
 description: Um scorecard mede o alinhamento de um projeto com os critérios estabelecidos anteriormente de um portfólio. Um cartão de pontuação geralmente reflete a missão, os valores e os objetivos estratégicos de uma organização.Os gerentes do Portfolio geralmente definem as perguntas e respostas do cartão de pontuação para garantir que sejam significativas e valiosas durante a priorização e a seleção do projeto. Um administrador do  [!DNL Adobe Workfront]  cria os scorecards com base nas recomendações dos gerentes de portfólio.
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 5%
+source-wordcount: 846
+ht-degree: 4%
 
 ---
 
@@ -32,11 +32,12 @@ ht-degree: 5%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
 
 Um scorecard mede o alinhamento de um projeto com os critérios estabelecidos anteriormente de um portfólio. Um cartão de pontuação geralmente reflete a missão, os valores e os objetivos estratégicos de uma organização.
 
@@ -84,7 +85,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Clique em **[!UICONTROL Scorecards]** e em **[!UICONTROL Novo Scorecard]**.
 
-   A caixa **Novo cartão de pontuação** é aberta.
+   A caixa **Novo Scorecard** é aberta.
 
    ![Nova caixa de scorecard](assets/new-scorecard-350x173.png)
 
@@ -128,6 +129,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    Isso cria o cartão de pontuação e os gerentes de projeto agora podem anexá-lo ao business case do projeto.
 
+
+1. <span class="preview">(Opcional) Para editar um cartão de pontuação, selecione-o na lista de cartões de pontuação e clique em **Editar** ![Editar cartão de pontuação](assets/edit-scorecard-icon.png) na parte inferior da lista. </span>
+
+1. <span class="preview">(Opcional) Para excluir um cartão de pontuação, selecione-o na lista de cartões de pontuação e clique em **Excluir** ![Excluir cartão de pontuação](assets/delete-scorecard-icon.png) na parte inferior da lista. </span>
+
 ## Copiar um scorecard existente
 
 Você pode criar um cartão de pontuação copiando e editando um existente.
@@ -135,11 +141,15 @@ Você pode criar um cartão de pontuação copiando e editando um existente.
 {{step-1-to-setup}}
 
 1. Clique em **[!UICONTROL Scorecards]** no painel esquerdo.
-1. Selecione um scorecard na lista e clique no ícone **Copiar** ![Ícone Copiar scorecard](assets/copy-scorecard-icon.png) na parte superior da lista de scorecards.
+1. Selecione um scorecard na lista e clique em **Copiar** na parte superior da lista do scorecard <span class="preview"> ou **Copiar** ![Ícone Copiar scorecard](assets/copy-scorecard-icon.png) na parte inferior da lista</span>.
 
-   A caixa **Copiar Scorecard** é aberta.
+   A caixa de scorecard **Copiar** é aberta.
 
    ![Copiar caixa de scorecard](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >O nome do cartão de pontuação é exibido no título da caixa.
 
 1. Especifique as seguintes informações:
 

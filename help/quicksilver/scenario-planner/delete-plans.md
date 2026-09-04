@@ -8,14 +8,18 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 5%
+source-wordcount: '563'
+ht-degree: 4%
 
 ---
 
 # Excluir planos no [!DNL Scenario Planner]
+
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Você pode excluir os planos que criou. Não é possível excluir planos compartilhados com você.
 
@@ -126,6 +130,10 @@ Uma lista de planos é exibida.
 
 1. Clique no nome de um plano para abri-lo.
 1. Clique no **[!UICONTROL Mais menu]** ![Mais menu](assets/more-menu.png) à direita do nome do plano e clique em **[!UICONTROL Excluir]** > **[!UICONTROL Sim, excluir]**.
+
+   >[!TIP]
+   >
+   ><span class="preview">Você também pode excluir um plano de uma lista selecionando-o e clicando em **Excluir** na parte inferior da lista para excluí-lo.</span> <!--move the tip as the main step when we release this??-->
 
    O plano é excluído e você retorna à lista de planos.
 

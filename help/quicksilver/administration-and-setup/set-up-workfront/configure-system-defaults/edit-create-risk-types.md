@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: 646
 ht-degree: 7%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 7%
 <!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+<!--remove preview and production references-->
+
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 O Adobe Workfront tem vários tipos de risco padrão que você pode associar a projetos na fase de planejamento para identificar possíveis obstáculos antes da aprovação de qualquer trabalho.
 
@@ -94,7 +100,7 @@ Você pode fazer o seguinte para aprimorar o número de tipos de risco na instâ
 
 1. Clique em **[!UICONTROL Tipos de Riscos]**.
 1. Selecione o tipo de risco que deseja editar.
-1. Clique no ícone **[!UICONTROL Editar]** ![Ícone Editar](assets/edit-icon.png).
+1. Clique no ícone **[!UICONTROL Edit]**.
 
    A caixa [!UICONTROL **Editar Tipo de Risco**] é aberta.
 
@@ -110,18 +116,29 @@ Você pode fazer o seguinte para aprimorar o número de tipos de risco na instâ
 
 1. Clique em **[!UICONTROL Salvar alterações].**
 
-1. (Opcional) Para excluir um tipo de risco, selecione-o na lista e clique no ícone [!UICONTROL **Excluir**] ![Ícone Excluir](assets/delete.png) e, em seguida, clique em [!UICONTROL **Sim, Excluir**]. O tipo de risco é excluído e não pode ser recuperado.
+1. (Opcional) Para excluir um tipo de risco, selecione-o na lista e clique no ícone [!UICONTROL **Excluir**] e em [!UICONTROL **Sim, Excluir**]. O tipo de risco é excluído e não pode ser recuperado.
 
-1. (Opcional) Para exportar uma lista de tipos de risco, clique no ícone [!UICONTROL **Exportar**] ![Ícone Exportar](assets/export-icon.png). Você pode exportar para os seguintes tipos de arquivos:
+1. (Opcional) Para exportar uma lista de tipos de riscos, clique no ícone [!UICONTROL **Exportar**]. Você pode exportar para os seguintes tipos de arquivos:
 
-   * PDF
-   * Excel
-   * Excel (xlsx)
-   * Delimitado por tabulação
+   * No ambiente de produção:
+
+     * PDF
+     * Excel
+     * Excel (xlsx)
+     * Delimitado por tabulação
+     * CSV
+
+   <div class="preview">
+
+   * No ambiente de Pré-visualização:
+
+     * CSV
+     * XLSX
+   </div>
 
    >[!TIP]
    >
-   >   Primeiro, você pode selecionar um número limitado de tipos de risco e exportá-los para uma lista menor.
+   >   No ambiente de Produção, primeiro é possível selecionar um número limitado de tipos de risco e, em seguida, exportá-los para uma lista menor. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### Criar tipos de risco {#create-risk-types}
 

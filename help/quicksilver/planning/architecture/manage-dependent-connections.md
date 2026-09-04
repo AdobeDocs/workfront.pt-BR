@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1404'
 ht-degree: 1%
 
 ---
@@ -158,7 +158,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    * Há uma indicação no cabeçalho da coluna dos campos de registro conectados que explica que o campo está em um relacionamento de conexão dependente.
 
      ![Dica de ferramenta do ícone dependente no cabeçalho da coluna](assets/dependent-icon-tooltip-in-column-header.png)
+1. (Opcional) Clique em **Regras de filtragem de registro** e selecione campos do tipo de registro ao qual você está se conectando para limitar as opções para os valores desse campo, depois clique em **Concluído**.
 
+   Quando os dois campos estão presentes em um terceiro tipo de registro, as opções do tipo de registro de campo conectado serão limitadas pelo filtro selecionado aqui.
 1. (Opcional e recomendado) Vá para um terceiro tipo de registro e adicione o primeiro e o segundo tipo de registro como campos de registro conectados.
 
    ![Indicador de campo conectado dependente em um terceiro tipo de registro](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

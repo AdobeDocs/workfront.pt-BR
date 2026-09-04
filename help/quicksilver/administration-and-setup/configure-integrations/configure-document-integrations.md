@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
+source-git-commit: bf611a79078eac9cf8f78a20ddc83079b36a7de5
 workflow-type: tm+mt
 source-wordcount: 1184
 ht-degree: 6%
@@ -208,7 +208,7 @@ Depois que a integração de documentos personalizada for criada, você poderá 
 
    [!DNL Workfront] usa essa chave de API para fazer chamadas de API autorizadas para o provedor de documentos.
 
-1. <span class="preview">(Opcional) Para habilitar o suporte a arquivos grandes, selecione **[!UICONTROL Habilitar carregamento fragmentado para arquivos grandes]** na seção **[!UICONTROL Suporte a Arquivos Grandes]**. Em seguida, insira o tamanho máximo da parte, em MB, no campo **[!UICONTROL Limite de Carregamento Bloqueado (MB)]**. Este campo aceita valores de até 100 MB. Quando habilitado, os arquivos com mais de 25 MB são carregados em blocos deste tamanho em vez de em uma única solicitação.</span>
+1. (Opcional) <span class="preview">Para habilitar o suporte a arquivos grandes, selecione **[!UICONTROL Habilitar carregamento fragmentado para arquivos grandes]** na seção **[!UICONTROL Suporte a Arquivos Grandes]**. Em seguida, insira o tamanho máximo da parte, em MB, no campo **[!UICONTROL Limite de Carregamento Bloqueado (MB)]**. Este campo aceita valores de até 100 MB. Quando habilitado, os arquivos com mais de 25 MB são carregados em blocos deste tamanho em vez de em uma única solicitação.</span>
 
 1. Clique em **[!UICONTROL Salvar]** para criar a integração.
 

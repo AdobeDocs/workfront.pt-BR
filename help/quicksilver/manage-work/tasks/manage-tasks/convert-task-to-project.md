@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1266
+source-wordcount: 1278
 ht-degree: 5%
 
 ---
@@ -33,13 +33,9 @@ ht-degree: 5%
 # Converter uma tarefa em um projeto
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Quando uma tarefa em um projeto requer uma quantidade maior de esforço para ser concluída do que o planejado originalmente, é possível convertê-la em um projeto.
@@ -111,16 +107,16 @@ Old:
 * Documentos, versões de documentos e provas são movidos para o novo projeto.
 * Há um limite de processamento de 5 minutos ao converter uma tarefa em um projeto. Se a tarefa tiver um grande número de documentos anexados a ela e não for convertida, talvez seja necessário remover alguns dos documentos e tentar novamente.
 * Quando sua organização usa o armazenamento na nuvem herdado do Workfront e do Adobe para documentos, os seguintes cenários existem ao converter uma tarefa em um projeto: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
-   * Uma tarefa de armazenamento na nuvem do Adobe cria um projeto de armazenamento na nuvem do Adobe.
-   * Usar um modelo de armazenamento herdado do Workfront para converter uma tarefa de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
-   * Usar um modelo de armazenamento em nuvem do Adobe para converter uma tarefa herdada de armazenamento do Workfront cria um projeto de armazenamento em nuvem do Adobe. Os documentos e suas aprovações permanecem no projeto atual.
+  * Uma tarefa herdada de armazenamento do Workfront cria um projeto herdado de armazenamento do Workfront.
+  * Uma tarefa de armazenamento na nuvem do Adobe cria um projeto de armazenamento na nuvem do Adobe.
+  * Usar um modelo de armazenamento herdado do Workfront para converter uma tarefa de armazenamento em nuvem do Adobe cria um projeto de armazenamento em nuvem do Adobe.
+  * Usar um modelo de armazenamento em nuvem do Adobe para converter uma tarefa herdada de armazenamento do Workfront cria um projeto de armazenamento em nuvem do Adobe. Os documentos e suas aprovações permanecem no projeto atual.
 
-     Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+    Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-     >[!TIP]
-     >
-     >Sua instância do Workfront pode não ter acesso a ambos os tipos de armazenamento de documentos.
+    >[!TIP]
+    >
+    >Sua instância do Workfront pode não ter acesso a ambos os tipos de armazenamento de documentos.
 
 
 * O status e o percentual concluído de todas as subtarefas e problemas são preservados.

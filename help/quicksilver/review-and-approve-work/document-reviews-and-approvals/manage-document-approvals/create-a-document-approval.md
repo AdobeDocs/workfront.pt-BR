@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2227
-ht-degree: 2%
+source-wordcount: 2662
+ht-degree: 1%
 
 ---
 
 # Criar um fluxo de trabalho de aprovação de documento
+
+{{highlighted-preview}}
 
 Você pode solicitar aprovação de outros usuários ou equipes para um documento no Adobe Workfront ou solicitar que eles revisem um documento sem precisar aprová-lo.
 
@@ -99,6 +101,11 @@ Para criar um workflow de aprovação de estágio único:
    <td><strong>Adicionar nomes ou emails</strong></td>
    <td>Comece a digitar um nome de usuário ou de equipe para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Adicionar pessoas ou equipes na visualização</strong></span></td>
+   <td><span class="preview">Comece a digitar um nome de usuário, equipe ou endereço de email. A equipe é adicionada como um único aprovador ou revisador por padrão, mas você pode optar por adicionar cada membro da equipe como um participante individual. <br>
+   Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez.</span></td>
+   </tr>
    <tr>
    <td><strong>É necessária apenas uma decisão (opcional)</strong></td>
    <td>A primeira pessoa que toma uma decisão completa a etapa.</td>
@@ -118,6 +125,10 @@ Para criar um workflow de aprovação de estágio único:
 1. Clique em **Solicitar aprovação**.
 
    ![Solicitar aprovação no modo Básico](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### Criar um fluxo de trabalho de aprovação avançado
 
@@ -152,6 +163,11 @@ Para criar um workflow avançado de aprovação:
    <td><strong>Adicionar nomes ou emails</strong></td>
    <td>Comece a digitar um nome de usuário ou de equipe para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.<p>Nota: Um revisor ou aprovador pode ser atribuído a apenas um estágio aberto por vez no mesmo ativo. Se vários estágios paralelos forem abertos simultaneamente, a mesma pessoa não poderá ser adicionada a mais de um.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Adicionar pessoas ou equipes na visualização</strong></span></td>
+   <td><span class="preview">Comece a digitar um nome de usuário, equipe ou endereço de email. A equipe é adicionada como um único aprovador ou revisador por padrão, mas você pode optar por adicionar cada membro da equipe como um participante individual. <br>
+   Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez. Além disso, os participantes podem ser atribuídos somente a um estágio aberto por vez no mesmo ativo.</span></td>
+   </tr>
    <tr>
    <td><strong>É necessária apenas uma decisão (opcional)</strong></td>
    <td>A primeira pessoa que toma uma decisão completa a etapa.</td>
@@ -173,6 +189,10 @@ Para criar um workflow avançado de aprovação:
 1. (Opcional) Para remover um caminho, passe o mouse sobre o rótulo do caminho e clique no ícone de lixeira. **O Caminho 1** não pode ser removido e os caminhos não podem ser reordenados. Outros caminhos podem ser removidos somente se nenhum estágio no caminho estiver bloqueado ou concluído.
 
    ![Modo avançado com caminhos paralelos](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. (Opcional) Para limpar todos os caminhos e estágios e começar novamente, clique em **Redefinir** na parte superior direita.
 
@@ -208,6 +228,11 @@ Para criar um workflow de aprovação de estágio único:
    <td><strong>Adicionar nomes ou emails</strong></td>
    <td>Comece a digitar um nome de usuário ou email para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Adicionar pessoas ou equipes na visualização</strong></span></td>
+   <td><span class="preview">Comece digitando um nome de usuário, equipe ou endereço de email e escolha se eles são um <strong>Aprovador</strong> ou <strong>Revisor</strong>. O Workfront adiciona cada membro ativo de uma equipe individualmente. <br>
+   Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez.</span></td>
+   </tr>
    <tr>
    <td><strong>É necessária apenas uma decisão (opcional)</strong></td>
    <td>A primeira pessoa que toma uma decisão completa a etapa.</td>
@@ -225,6 +250,12 @@ Para criar um workflow de aprovação de estágio único:
 1. Clique em **Solicitar aprovação**.
 
    ![Solicitar aprovação no modo Básico](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
 
 >[!NOTE]
 >
@@ -265,6 +296,11 @@ Para criar um workflow avançado de aprovação:
    <td><strong>Adicionar nomes ou emails</strong></td>
    <td>Comece a digitar um nome de usuário ou email para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.<p>Nota: Um revisor ou aprovador pode ser atribuído a apenas um estágio aberto por vez no mesmo ativo. Se vários estágios paralelos forem abertos simultaneamente, a mesma pessoa não poderá ser adicionada a mais de um.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Adicionar pessoas ou equipes na visualização</strong></span></td>
+   <td><span class="preview">Comece digitando um nome de usuário, equipe ou endereço de email e escolha se eles são um <strong>Aprovador</strong> ou <strong>Revisor</strong>. O Workfront adiciona cada membro ativo de uma equipe individualmente. <br>
+   Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez. Além disso, os participantes podem ser atribuídos somente a um estágio aberto por vez no mesmo ativo.</span></td>
+   </tr>
    <tr>
    <td><strong>É necessária apenas uma decisão (opcional)</strong></td>
    <td>A primeira pessoa que toma uma decisão completa a etapa.</td>
@@ -288,9 +324,37 @@ Para criar um workflow avançado de aprovação:
 
    ![Modo avançado com caminhos paralelos](assets/request-approval-advanced.jpeg)
 
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
+
 1. (Opcional) Para limpar todos os caminhos e estágios e começar novamente, clique em **Redefinir** na parte superior direita.
 
 1. Clique em **Solicitar aprovação**.
+
+<div class="preview">
+
+## Exibir workflows de aprovação para versões anteriores na nova área Documentos em Visualizar
+
+Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+O painel Aprovações lista somente as versões do documento que têm um fluxo de trabalho de aprovação.
+
+Para exibir workflows de aprovação de versões anteriores:
+
+1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
+1. Clique no documento e, em seguida, clique no ícone **Aprovações**, no lado direito da página.
+
+   ![Adicionar aprovadores no resumo do documento](assets/approvals-icon-new.png)
+
+1. Clique em uma versão para expandi-la. Você pode visualizar os estágios, a decisão de cada aprovador, a regra de decisão do estágio (como se apenas uma decisão é necessária para concluir o estágio) e as datas de vencimento.
+1. Clique em outra versão para expandir o fluxo de trabalho de aprovação sem sair do painel.
+
+   >[!NOTE]
+   >
+   >Se o fluxo de trabalho de aprovação de uma versão tiver sido retirado porque uma aprovação de versão mais recente foi solicitada, ele permanecerá na lista, recolhido para que você ainda possa revisar suas decisões anteriores.
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version

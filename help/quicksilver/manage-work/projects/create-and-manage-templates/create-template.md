@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 790
 ht-degree: 9%
@@ -37,13 +37,9 @@ ht-degree: 9%
 <!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 É possível criar e excluir modelos na área Modelos. Ao criar um novo modelo, você pode inserir as informações de todas as tarefas e das configurações futuras do projeto. Essas informações serão transferidas para qualquer projeto criado a partir do modelo.
@@ -140,15 +136,15 @@ Old:
 
      Um modelo é criado e seu nome padrão segue os seguintes padrões, dependendo de qual armazenamento o Workfront usa para documentos:
 
-      * **Modelo sem título** para um modelo de armazenamento do Workfront.
+     * **Modelo sem título** para um modelo de armazenamento do Workfront.
 
-        Um modelo de armazenamento herdado do Workfront exibe um **ícone de armazenamento herdado do Workfront** ![ícone de projeto de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado de seu nome.
+       Um modelo de armazenamento herdado do Workfront exibe um **ícone de armazenamento herdado do Workfront** ![ícone de projeto de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado de seu nome.
 
-      * **Modelo sem título - &lt; dia do mês, ano hora.minuto.segundo >** para um modelo de armazenamento na nuvem do Adobe
+     * **Modelo sem título - &lt; dia do mês, ano hora.minuto.segundo >** para um modelo de armazenamento na nuvem do Adobe
 
-        >[!IMPORTANT]
-        >
-        >Os modelos que usam o armazenamento do Adobe devem ter nomes exclusivos.
+       >[!IMPORTANT]
+       >
+       >Os modelos que usam o armazenamento do Adobe devem ter nomes exclusivos.
 
    ![Novo modelo](assets/create-template-nwe-2022-350x102.png)
 

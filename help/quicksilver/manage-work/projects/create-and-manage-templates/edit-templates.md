@@ -25,27 +25,25 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: 96cf04616582ac0208a9365d0f10f2403ebd317c
 workflow-type: tm+mt
-source-wordcount: 5111
+source-wordcount: 5223
 ht-degree: 3%
 
 ---
 
 # Editar modelos de projeto
 
+{{highlighted-preview}}
+
 <!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
 
@@ -253,6 +251,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>Empresa</strong></td> 
       <td><p>Especifique a Empresa que deseja associar ao modelo. Somente empresas ativas são exibidas na lista.</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Espaço de trabalho Frame.io (Condicional)</strong></span></td>
+      <td><span class="preview">
+      <p>Em um projeto de armazenamento em nuvem do Adobe, selecione o espaço de trabalho Frame.io que deseja que os projetos criados a partir desse modelo usem. Se sua organização tiver vários espaços de trabalho Frame.io, isso determinará em qual espaço de trabalho o projeto Frame.io vinculado será criado.</p>
+      <p>A lista inclui apenas os espaços de trabalho Frame.io aos quais você tem permissão para atribuir projetos. O espaço de trabalho padrão usado quando nenhum espaço de trabalho é selecionado ou está disponível.</p>
+      <p>É possível alterar esse campo no template a qualquer momento. As alterações se aplicam somente a projetos criados após a alteração; os projetos já criados a partir do modelo mantêm o espaço de trabalho existente do Frame.io.</p>
+      <p>Observação: você deve ter o Frame.io enterprise para usar o campo Frame.io do espaço de trabalho.</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Proprietário do modelo</strong></td> 
@@ -772,8 +779,8 @@ Adicionar os seguintes itens a um modelo é idêntico a adicioná-los a um proje
 
   Para obter informações sobre como adicionar Grupos de tópicos e Tópicos da fila a um projeto ou modelo, consulte os seguintes artigos:
 
-   * [Criar grupos de tópicos](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Criar tópicos de fila](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+  * [Criar grupos de tópicos](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+  * [Criar tópicos de fila](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 É possível adicionar os seguintes itens às tarefas no modelo:
 
