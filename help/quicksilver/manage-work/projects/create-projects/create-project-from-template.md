@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bde3551443641024b87397e35064ebf4577179eb
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 2%
@@ -195,7 +195,7 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
       >
       >Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-   1. (Condicional e opcional) Se você selecionou um modelo de armazenamento herdado, selecione a configuração Criar este projeto no armazenamento na nuvem do Adobe no canto inferior direito da caixa Novo projeto. Isso criará um projeto de armazenamento em nuvem do Adobe. Documentos e pastas de documentos do modelo não serão adicionados ao projeto.
+   1. (Condicional e opcional) Se você selecionou um modelo de armazenamento herdado, selecione a configuração **Criar este projeto no Adobe Cloud Storage** no canto inferior direito da caixa Novo projeto. Isso criará um projeto de armazenamento em nuvem do Adobe. Documentos e pastas de documentos do modelo não serão adicionados ao projeto.
 
    1. Revise os seguintes detalhes do modelo à direita:
 

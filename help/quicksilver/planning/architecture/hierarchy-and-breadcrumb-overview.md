@@ -14,9 +14,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1108
 ht-degree: 0%
 
 ---
@@ -83,6 +83,12 @@ Estes são os benefícios de usar hierarquias em seus espaços de trabalho:
   * Quando os tipos de registro conectados fazem parte de hierarquias, você pode conectar um registro de um tipo de registro-filho a até 10 registros de um tipo de registro-pai.
 
     Por exemplo, se você criar uma hierarquia entre Campanhas como principal e Persona como registro secundário, poderá conectar a mesma persona a até 10 campanhas.
+  * Se sua organização adquiriu um pacote do Adobe GenStudio for Performance Marketing, os seguintes cenários existem:
+
+    * Não é possível conectar-se a tipos de registro do GenStudio a partir de tipos de registro do Planning.
+    * Você pode conectar tipos de registro do GenStudio no espaço de trabalho do GenStudio.
+    * Você pode conectar Marcas do GenStudio a tipos de registros do GenStudio e do Planning.
+    * Não é possível incluir Marcas do GenStudio em uma hierarquia.
 
 ## Considerações ao visualizar navegações estruturais
 
