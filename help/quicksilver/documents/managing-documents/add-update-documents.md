@@ -17,14 +17,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: fd9480e119e9ea8e638221d569e57b27ecd5a34d
 workflow-type: tm+mt
-source-wordcount: 513
-ht-degree: 10%
+source-wordcount: 631
+ht-degree: 8%
 
 ---
 
 # Adicionar uma atualização a um documento
+
+{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -77,7 +79,7 @@ Se sua organização estiver no armazenamento herdado do Workfront, você verá 
 
    * Clique no documento na lista, clique no ícone **Abrir resumo** ![Ícone Abrir resumo](assets/qs-summary-in-new-toolbar-small.png) no canto superior direito e adicione um novo comentário ou clique em **Responder** para adicionar uma resposta a um comentário existente. Para obter informações sobre o Resumo, consulte [Resumo de documentos](../../documents/managing-documents/summary-for-documents.md).
    * Passe o mouse sobre o documento, clique em **Detalhes do documento** e em **Atualizações** no painel esquerdo.
-Para obter mais informações sobre como adicionar atualizações a objetos, consulte [Trabalho de atualização](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Para obter mais informações sobre como adicionar atualizações a objetos, consulte [Trabalho de atualização](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    As atualizações e respostas são adicionadas ao documento e também aos objetos com classificação mais alta. Para obter mais informações, consulte [Visão geral da seção de atualização](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -101,3 +103,20 @@ Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova 
 1. Localize o documento necessário e clique no ícone de comentário ![Ícone de comentário](assets/new-doc-comment-icon.png) para abrir o painel Comentários.
 1. Digite seu comentário na caixa de texto e clique em **Enviar**.
    ![Painel de comentários de novo documento](assets/comments-new-doc.png)
+
+
+<div class="preview">
+
+### Indicador de comentário do Frame.io na Visualização
+
+Quando um workflow de aprovação é criado para um documento, os usuários podem deixar comentários e fazer anotações no visualizador Frame.io. Esses comentários não são exibidos no painel Comentários do Workfront, mas você pode visualizá-los no visualizador Frame.io.
+
+O painel Comentários no Workfront exibe uma mensagem que informa quando novos comentários estão disponíveis no Frame.io.
+
+1. Clique em **Revisar comentários** para abrir o documento no visualizador Frame.io e exibir os comentários nele.
+
+>[!NOTE]
+>
+>* Se você tiver uma licença Frame.io Enterprise, poderá exibir comentários no visualizador Frame.io sem um fluxo de trabalho de aprovação.
+
+</div>

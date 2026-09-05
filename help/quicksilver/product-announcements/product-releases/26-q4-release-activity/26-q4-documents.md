@@ -4,9 +4,9 @@ description: Aprimoramentos nos documentos do quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
+source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1101'
 ht-degree: 2%
 
 ---
@@ -19,21 +19,34 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 <!--
 
-## Frame comment visibility in Workfront
+## System Administrators full access to approval templates
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Preview: September 4, 2026
+>Production fast release: September 4, 2026
+>Production for everyone: September 4, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
-When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
+System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
 
-Now, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
-
-For more information, see [Add an update to a document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
+For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 -->
+
+## Visibilidade de comentário de quadro no Workfront
+
+>[!NOTE]
+>
+>Visualização: 3 de setembro de 2026
+>Versão rápida de produção: 17 de setembro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Quando um workflow de aprovação é criado para um documento, os usuários podem deixar comentários e fazer anotações no visualizador Frame.io. Esses comentários não são exibidos no painel Comentários do Workfront, mas você pode visualizá-los no visualizador Frame.io.
+
+Agora, o painel Comentários no Workfront exibe uma mensagem informando quando novos comentários estão disponíveis no Frame.io.
+
+Para obter mais informações, consulte [Adicionar uma atualização a um documento](/help/quicksilver/documents/managing-documents/add-update-documents.md).
 
 ## Acesso à prova direta por meio de links de email de aprovação
 
@@ -184,3 +197,23 @@ Se sua organização usar o armazenamento em nuvem da Adobe, você poderá vincu
 A vinculação é disponibilizada pelo Supervisor de conteúdo, para que você também receba Pesquisas com IA, sugestões inteligentes, análise resumida da campanha e muito mais, enquanto seleciona o conteúdo.
 
 Para obter mais informações, consulte [Vincular conteúdo do Experience Manager Assets com o Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+
+<!--
+
+## Approval workflow templates are private by default
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
+
+For more information, see:
+
+* [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates
+* [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+-->
+

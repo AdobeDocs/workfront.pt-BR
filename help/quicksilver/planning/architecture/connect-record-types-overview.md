@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 2440
+source-wordcount: 2498
 ht-degree: 1%
 
 ---
@@ -191,6 +191,13 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
       >Por exemplo, se a Data de início planejada de um projeto for exibida às 15h no Workfront, ela será exibida como 15h no Workfront Planning em um campo de pesquisa importado.
 
   * Você deve conectar tipos de registro para poder criar hierarquias no Workfront Planning. Quando não existem, as conexões do tipo de registro são criadas automaticamente quando você cria uma hierarquia. Para obter informações, consulte [Criar hierarquias do espaço de trabalho](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+
+  * Se sua organização adquiriu um pacote do Adobe GenStudio for Performance Marketing, os seguintes cenários existem:
+
+    * Não é possível conectar-se a tipos de registro do GenStudio a partir de tipos de registro do Planning.
+    * Você pode conectar tipos de registro do GenStudio no espaço de trabalho do GenStudio.
+    * Você pode conectar Marcas do GenStudio a partir de tipos de registro do GenStudio e de tipos de registro do Planning.
+    * Não é possível incluir Marcas do GenStudio em uma hierarquia.
 
   <div class="preview">
 

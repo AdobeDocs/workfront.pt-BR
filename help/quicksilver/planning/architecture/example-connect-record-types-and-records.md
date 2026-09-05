@@ -12,14 +12,18 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 2061
+source-wordcount: 2188
 ht-degree: 1%
 
 ---
 
 # Exemplo de conexão entre tipos de registro e registros
+
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -51,25 +55,42 @@ Para fazer isso:
    * **Tipo de registro**: produto <!--did they change the casing here?-->
    * **Nome**: dê um nome ao novo campo. Por exemplo, &quot;Informações do produto&quot;. Este é o nome do campo de registro vinculado.
    * **Descrição**: adicione uma descrição para o novo campo. Por exemplo, &quot;Estes são os produtos aos quais desejo associar minhas campanhas&quot;. A descrição do campo é exibida ao passar o mouse sobre o campo no cabeçalho da coluna.
-   * **Tipo de conexão**: selecione entre as seguintes opções:
-      * **De muitos para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a várias campanhas.
-      * **De um para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a uma campanha.
-      * **De muitos a um**: os usuários podem conectar uma campanha a um produto e um produto a várias campanhas.
-      * **Um para um**: os usuários podem conectar uma campanha a um produto e um produto a uma campanha.
 
-     >[!NOTE]
-     >
-     >A opção **Tipo de conexão** não está disponível ao conectar registros de espaços de trabalho diferentes ou ao conectar ativos da Experience Manager ou Marcas da GenStudio. Para obter mais informações, consulte [Visão geral dos tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+   <div class="preview">
+
+   * **Tornar esta conexão dependente**: quando habilitada e os dois registros conectados são exibidos em um terceiro registro ao mesmo tempo, as opções de um tipo de registro dependem das opções do outro.
+
+     Para obter informações, consulte [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+   * **Criar campo correspondente no tipo de registro vinculado**: quando habilitado, um campo de conexão também é criado no tipo de registro ao qual você está conectado (Produto).
+
+   </div>
+
+   * **Tipo de conexão**: selecione entre as seguintes opções:
+     * **De muitos para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a várias campanhas.
+     * **De um para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a uma campanha.
+     * **De muitos a um**: os usuários podem conectar uma campanha a um produto e um produto a várias campanhas.
+     * **Um para um**: os usuários podem conectar uma campanha a um produto e um produto a uma campanha.
+
+   >[!NOTE]
+   >
+   >A opção **Tipo de conexão** não está disponível ao conectar registros de espaços de trabalho diferentes ou ao conectar ativos da Experience Manager ou Marcas da GenStudio. Para obter mais informações, consulte [Visão geral dos tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
    * **Aparência do registro**: escolha entre as seguintes opções:
-      * **Nome e imagem**: exibe o nome e a miniatura ou o ícone dos registros conectados. É selecionado por padrão.
-      * **Nome**: exibe somente o nome dos registros conectados.
-      * **Imagem**: exibe somente a miniatura ou o ícone dos registros conectados.
-   * **Selecionar campos de pesquisa**: se você deixar essa opção selecionada, a caixa **Adicionar campos de pesquisa** será aberta em seguida, para permitir vincular campos de Produto ao tipo de registro de Campanha. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos de Produto posteriormente.
+     * **Nome e imagem**: exibe o nome e a miniatura ou o ícone dos registros conectados. É selecionado por padrão.
+     * **Nome**: exibe somente o nome dos registros conectados.
+     * **Imagem**: exibe somente a miniatura ou o ícone dos registros conectados.
+
+     <div class="preview">
+
+     * **Cor e nome**: exibe somente a cor e o nome dos registros conectados
+
+     </div>
+
+   * <span class="preview">**Campos de pesquisa**: expanda essa opção para também conectar campos de pesquisa dos registros conectados. </span>A caixa **Adicionar campos de pesquisa** será aberta em seguida, para permitir vincular campos de Produto ao tipo de registro de Campanha. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos de Produto posteriormente.
 
      ![Nova conexão com o tipo de registro de produto](assets/new-connection-with-product-record-type.png)
 
-1. (Condicional) Se você selecionou a opção **Selecionar campos de pesquisa** na etapa anterior, na lista de campos associados ao tipo de registro **Produto**, clique no ícone **+** do campo **Orçamento** e clique em **Adicionar campos**. Isso cria um campo chamado **Orçamento (das informações do produto)**, que é o nome do campo vinculado. Todas as informações para o Orçamento do produto são exibidas nesse campo para os registros da Campanha.
+1. (Condicional) Se você abriu a caixa **Adicionar campos de pesquisa**, clique no ícone **+** do campo **Orçamento** e clique em **Adicionar campos**. Isso cria um campo chamado **Orçamento (das informações do produto)**, que é o nome do campo vinculado. Todas as informações para o Orçamento do produto são exibidas nesse campo para os registros da Campanha.
 
    ![Adicionar campos para campo de orçamento para conexão com tipo de registro](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
@@ -83,12 +104,12 @@ Para fazer isso:
 
    * Na exibição da tabela de registro da Campanha e na página Registro de campanha de uma campanha:
 
-      * **Informações do produto** (o campo de registro vinculado): exibe o nome ou os nomes dos produtos quando você os adiciona.
-      * **Budget (das informações do produto)** (o campo vinculado): exibirá os orçamentos dos produtos selecionados no campo de informações do produto.
+     * **Informações do produto** (o campo de registro vinculado): exibe o nome ou os nomes dos produtos quando você os adiciona.
+     * **Budget (das informações do produto)** (o campo vinculado): exibirá os orçamentos dos produtos selecionados no campo de informações do produto.
 
    * Na exibição da tabela Registro do produto e na página Registro do produto de um produto:
 
-      * **Campanha**: isso indica que o tipo de registro do Produto está vinculado ao tipo de registro da Campanha.
+     * **Campanha**: isso indica que o tipo de registro do Produto está vinculado ao tipo de registro da Campanha.
 
      ![Exemplo de campos de relacionamento de informações de campanha da tabela de registro de produto](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
@@ -158,10 +179,10 @@ Para fazer isso:
    * **Nome**: dê um nome ao novo campo, por exemplo &quot;Informações do projeto&quot;.
    * **Descrição**: adicione uma descrição para o novo campo. Por exemplo, &quot;Estes são os projetos aos quais quero associar minhas campanhas&quot;. A descrição é exibida na exibição de tabela, à medida que você passa o mouse sobre o nome do campo no cabeçalho da coluna.
    * **Tipo de conexão**: selecione entre as seguintes opções:
-      * **De muitos para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a várias campanhas.
-      * **De um para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a uma campanha.
-      * **De muitos a um**: os usuários podem conectar uma campanha a um produto e um produto a várias campanhas.
-      * **Um para um**: os usuários podem conectar uma campanha a um produto e um produto a uma campanha.
+     * **De muitos para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a várias campanhas.
+     * **De um para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a uma campanha.
+     * **De muitos a um**: os usuários podem conectar uma campanha a um produto e um produto a várias campanhas.
+     * **Um para um**: os usuários podem conectar uma campanha a um produto e um produto a uma campanha.
    * **Vincular somente objetos que correspondam a este critério**: selecione um formulário personalizado no menu suspenso **Formulário personalizado**. Somente os projetos associados aos formulários especificados estão disponíveis para serem conectados às campanhas. É possível selecionar vários formulários.
    * **Selecionar campos de pesquisa**: se você deixar essa opção selecionada, a caixa **Adicionar campos de pesquisa** será aberta em seguida, para permitir que você vincule campos do Project ao tipo de registro do Campaign. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos do Project mais tarde.
 
@@ -181,8 +202,8 @@ Para fazer isso:
 
    * Na exibição da tabela de registro da campanha e na página Registro da campanha:
 
-      * **Informações do projeto** (o campo de objeto vinculado): exibe o nome ou os nomes dos Projetos.
-      * **Receita planejada (das informações do projeto)** (o campo vinculado): isso exibirá as Receitas planejadas dos projetos selecionados no campo de informações do projeto.
+     * **Informações do projeto** (o campo de objeto vinculado): exibe o nome ou os nomes dos Projetos.
+     * **Receita planejada (das informações do projeto)** (o campo vinculado): isso exibirá as Receitas planejadas dos projetos selecionados no campo de informações do projeto.
 
    >[!TIP]
    >
@@ -217,8 +238,8 @@ Para fazer isso:
    Isso adiciona o seguinte ao espaço de trabalho selecionado:
 
    * Na tabela Campaign record type:
-      * O campo **Informações do projeto** é preenchido para o registro de Campanha com os projetos selecionados.
-      * O campo **Receita planejada (das informações do produto)** é preenchido com o valor de Orçamento de cada produto selecionado. Este campo é somente leitura.
+     * O campo **Informações do projeto** é preenchido para o registro de Campanha com os projetos selecionados.
+     * O campo **Receita planejada (das informações do produto)** é preenchido com o valor de Orçamento de cada produto selecionado. Este campo é somente leitura.
 
    ![Campo vinculado ao projeto e Receita planejada na tabela de campanha destacados](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
