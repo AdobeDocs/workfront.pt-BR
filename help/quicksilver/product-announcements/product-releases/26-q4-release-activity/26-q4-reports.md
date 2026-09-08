@@ -4,10 +4,10 @@ description: Melhorias na emissão de relatórios no quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 7%
+source-wordcount: '783'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Esta página descreve as melhorias de relatórios feitas com a versão do quarto
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-## Duplicar painéis em Painéis do Canvas
+## Copiar painéis nos painéis da tela
 
 >[!NOTE]
 >
@@ -25,15 +25,13 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >Versão rápida de produção: 17 de setembro de 2026
 >Produção para todos: 15 de outubro de 2026
 
-Agora você pode duplicar um Painel da Tela de Pintura usando a nova ação **Duplicar painel**. Essa ação está disponível para qualquer usuário cujo nível de acesso conceda direitos de edição ou criação aos Painéis, mesmo que ele só tenha acesso de visualização ao painel específico que está sendo copiado. Os usuários sem direitos de edição ou criação para Painéis não veem essa ação.
+Agora você pode Copiar um Painel da Tela usando a nova ação **Copiar painel**. Essa ação está disponível para qualquer usuário cujo nível de acesso conceda direitos de edição ou criação aos Painéis, mesmo que ele só tenha acesso de visualização ao painel específico que está sendo copiado. Os usuários sem direitos de edição ou criação para Painéis não veem essa ação.
 
-Ao duplicar um painel, você pode renomeá-lo, atualizar sua descrição e moeda e escolher quais widgets, filtros de painel e prompts de painel devem ser transferidos para a cópia.
+Ao copiar um painel, você pode renomeá-lo, atualizar sua descrição e moeda e escolher quais widgets, filtros de painel e prompts de painel devem ser transferidos para a cópia.
 
 As configurações de Executar como usuário em widgets só serão preservadas se você for o usuário designado ou um administrador do sistema. As preferências de compartilhamento não são copiadas para o novo painel, e uma mensagem de confirmação com um link para o novo painel é exibida assim que a cópia é concluída.
 
-Anteriormente, não havia como duplicar um painel; os usuários precisavam reconstruir painéis do zero para criar variações específicas de público-alvo.
-
-Para obter mais informações, consulte
+Anteriormente, não havia como copiar um painel; os usuários precisavam reconstruir painéis do zero para criar variações específicas de público-alvo.
 
 ## Campo Tipo de aprovação nos Painéis de Controle da Tela
 
