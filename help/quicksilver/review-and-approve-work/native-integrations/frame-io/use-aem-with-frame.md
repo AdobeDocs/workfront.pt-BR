@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Use o Adobe Experience Manager com a integração com Frame.io
-description: Use o Adobe Experience Manager com a integração com Frame.io
+title: Usar o Adobe Experience Manager com armazenamento em nuvem do Workfront e do Adobe
+description: Usar o Adobe Experience Manager com armazenamento em nuvem do Workfront e do Adobe
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -10,28 +10,19 @@ exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Riv4jrZbD1vLx6eLq9utk2TIMRJh6ekBxE5ZBVc7D9c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 1450
-ht-degree: 7%
+source-wordcount: 2112
+ht-degree: 4%
 
 ---
 
-# Use o Adobe Experience Manager com a integração com Frame.io
+# Usar o Adobe Experience Manager com armazenamento em nuvem do Workfront e do Adobe
 
 Você pode usar o [!DNL Experience Manager Assets]&#x200B; para gerenciar e armazenar seus ativos digitais que passaram pelo ciclo de revisão e aprovação. Essa integração permite que você aproveite os recursos do Adobe Experience Manager, Frame.io e Workfront para otimizar seus processos de gestão de conteúdo e colaboração.
 
@@ -138,7 +129,7 @@ Antes de começar a mapear campos de metadados, você deve configurar campos de 
 
 Para configurar campos de metadados:
 
-1. Configure um esquema de metadados em [!DNL Experience Manager Assets] conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configure um esquema de metadados em [!DNL Experience Manager Assets] conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configure campos de formulário personalizados no Workfront. [!DNL Workfront] tem muitos campos personalizados internos que você pode usar. No entanto, você também pode criar seus próprios campos personalizados, conforme explicado em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -168,7 +159,7 @@ Você pode mapear qualquer campo compatível com o Workfront para uma tag no Exp
 
 Depois de criar as tags na Experience Manager Assets, elas aparecerão no menu suspenso Tags na seção Metadados. Para vincular um campo a uma marca, selecione `xcm:keywords` na lista suspensa de campos do Experience Manager Assets na área de mapeamento de metadados.
 
-Para obter mais informações sobre tags na Experience Manager Assets, incluindo como criar e gerenciar tags, consulte [Administração de Tags](https://experienceleague.adobe.com/pt-br/docs/experience-manager-64/administering/contentmanagement/tags).
+Para obter mais informações sobre tags na Experience Manager Assets, incluindo como criar e gerenciar tags, consulte [Administração de Tags](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Campos de esquema de metadados personalizados do Experience Manager Assets**
 
@@ -268,6 +259,111 @@ Para enviar um documento:
 
 1. Escolha para onde deseja que o ativo vá e clique em **Selecionar pasta**.
 
+## Vincular conteúdo do Experience Manager Assets
+
+Para vincular conteúdo:
+
+1. Vá para o objeto do Workfront ao qual deseja vincular conteúdo.
+1. Clique na seção **Documentos** no painel esquerdo.
+1. Clique em **Novo** no lado direito da página e em **Arquivos do AEM** para vincular um ativo individual.
+   ![Adicionar arquivos AEM à área de documentos](assets/aem-files.png)
+
+1. Com o Supervisor de conteúdo, você pode:
+
+   <table style="table-layout:auto">
+   <tbody>
+      <tr>
+         <td><strong>Pesquisar ativos usando Pesquisas com IA.</strong> Use a pesquisa baseada em IA que entende o significado e a intenção por trás das consultas, oferecendo suporte a vários idiomas, erros de digitação e sinônimos.</td>
+         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">Pesquisa com IA para descoberta de ativos mais inteligente</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Exibir sugestões inteligentes com base no contexto e na intenção.</strong> Descubra ativos que se alinham às suas necessidades de conteúdo usando as recomendações com reconhecimento de contexto do aplicativo host do Adobe.</td>
+         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Sugestões inteligentes com base no contexto e na intenção</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Carregue um resumo da campanha para descobrir ativos relevantes.</strong> Faça upload de um documento de resumo da campanha PDF, DOCX ou TXT para que o Supervisor de conteúdo possa analisá-lo e recomendar ativos relevantes.</td>
+         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Resumos da campanha para descobrir ativos relevantes</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Exiba e selecione representações de ativos do Dynamic Media.</strong> Navegue por representações otimizadas por canal, incluindo predefinições de imagens, Recortes inteligentes e tipos de formato, e aplique modificadores do Dynamic Media para visualizar os ajustes em tempo real.</td>
+         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Representações de ativos do Dynamic Media disponíveis para uso</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Aplicar modificadores do Dynamic Media a representações.</strong> Adicione modificadores para transformar representações de ativos em tempo real e visualizar os resultados antes de selecionar uma representação para seu aplicativo de host.</td>
+         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Representações de ativos do Dynamic Media disponíveis para uso</a>.</td>
+      </tr>
+      <!--
+      <tr>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+      </tr>
+      -->
+      <tr>
+         <td><strong>Acessar metadados de ativos.</strong> Revise as propriedades do ativo, como título, descrição, formato, tamanho e outras guias de metadados (Produto, Campanha, Tags) consistentes com a exibição do Assets.</td>
+         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Acessar metadados de ativos consistentes com a exibição do Assets</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Filtrar ativos usando filtros predefinidos.</strong> Refine os resultados do ativo usando filtros como Tipo de arquivo, Formato de arquivo, Status do ativo, Tamanho do arquivo, Largura da imagem, Altura da imagem, Data de modificação e Data de criação.</td>
+         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Acessar filtros consistentes com a exibição do Assets</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Salvar e reutilizar pesquisas.</strong> Crie pesquisas salvas especificando um termo de pesquisa e opções de filtro, depois reutilize-as no Experience Manager Assets e em outros aplicativos da Adobe.</td>
+         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Acessar e reutilizar pesquisas recentes e salvas</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Pesquisar ativos entre e dentro de coleções.</strong> Pesquise ativos ou coleções em todas as coleções ou limite a pesquisa a uma coleção específica.</td>
+         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Pesquisar ativos em e dentro de coleções</a>.</td>
+      </tr>
+   </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >O Conteúdo recomendado no Supervisor de Conteúdo usa dados dos itens a seguir para determinar o conteúdo sugerido no Workfront:
+   >
+   >* Campos de nome e descrição do objeto do Workfront
+   >* Campos de formulário personalizados marcados como obrigatórios
+   >* Dados de documentos anexados
+
+<!--
+### Link a new version from Experience Manager Assets
+
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
+
+To link a new version:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
+
+1. Select the content you want to link.
+1. Click **Select**.
+-->
+
+<!--
+## Link a folder from Experience Manager Assets
+
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
+
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
+
+## Considerações
+
+* Os fluxos de trabalho de revisão e aprovação não são compatíveis com ativos vinculados do AEM.
+* Os campos de metadados são mapeados pela primeira vez quando você envia um ativo do Workfront para o Experience Manager Assets. Se o administrador do Workfront tiver ativado a sincronização de metadados de objeto, os campos permanecerão atualizados se forem alterados em qualquer um dos aplicativos.
 
 <!--
  not sure if this is in yet

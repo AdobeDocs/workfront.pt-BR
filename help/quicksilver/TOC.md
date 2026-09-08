@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '14508'
+source-wordcount: '14499'
 ht-degree: 92%
 
 ---
@@ -2080,8 +2080,7 @@ ht-degree: 92%
     * {hide-from-toc}[Introdução à integração do GenStudio for Performance Marketing e do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
     * [Introdução ao uso de provas com o Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Introdução ao uso da integração entre as provas e o GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-    * [Use o Adobe Experience Manager com a integração com Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
-    * [Vincular ativos do Experience Manager Assets com o Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
+    * [Usar o Adobe Experience Manager com armazenamento em nuvem do Workfront e do Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
     * [Introdução ao Adobe Express e Workfront com integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * Dicas, truques e solução de problemas para aprovações {#ttt-approvals}
     * [Dicas, truques e solução de problemas para aprovações: índice do artigo](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
