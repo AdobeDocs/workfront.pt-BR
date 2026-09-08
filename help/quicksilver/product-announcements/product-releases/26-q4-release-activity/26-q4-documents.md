@@ -4,9 +4,9 @@ description: Aprimoramentos nos documentos do quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+source-git-commit: 0e7a5b94d189cdebb7ded6c0fab1a98eb8029cf7
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1334'
 ht-degree: 2%
 
 ---
@@ -36,22 +36,18 @@ Para obter mais informações, consulte:
 * [Compartilhar um modelo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template) em Criar um modelo de fluxo de trabalho de aprovação para documentos
 * [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
-<!--
-
-## System Administrators full access to approval templates
+## Administradores do sistema com acesso total aos modelos de aprovação
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
->[!BADGE Off schedule]{type=Neutral}
+>Visualização: 8 de setembro de 2026
+>Versão rápida de produção: 8 de setembro de 2026
+>Produção para todos: 8 de setembro de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
 
-System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+Agora, os administradores do sistema podem exibir, editar, excluir e excluir em massa cada modelo de aprovação na conta, independentemente de quem o criou ou compartilhou. Anteriormente, os administradores do sistema estavam sujeitos às mesmas regras de compartilhamento que outros usuários e só podiam ver ou gerenciar modelos que eles criavam ou que eram compartilhados com eles.
 
-For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
-
--->
+Para obter mais informações, consulte [Gerenciar modelos de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 ## Visibilidade de comentário de quadro no Workfront
 
