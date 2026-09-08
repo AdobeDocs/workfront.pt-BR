@@ -4,9 +4,9 @@ description: Aprimoramentos nos documentos do quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1249'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,25 @@ ht-degree: 2%
 Esta página descreve as melhorias de documentos feitas com a versão do quarto trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Controlar quem pode ver e usar modelos de aprovação
+
+>[!NOTE]
+>
+>Visualização: 30 de julho de 2026
+>Versão rápida de produção: 13 de agosto de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Os modelos de aprovação agora são privados por padrão. Anteriormente, cada solicitante de aprovação podia ver cada modelo no sistema, o que tornava as listas de modelos longas e difíceis de navegar. Agora, um modelo fica visível somente para o usuário que o criou, a menos que o criador o compartilhe.
+
+Os criadores de modelos podem compartilhar um modelo com usuários específicos ou com todos em sua organização na lista Modelos de aprovação na Configuração do Workfront. Ao solicitar uma aprovação, os usuários só veem os modelos que criaram ou que foram compartilhados com eles.
+
+Essa alteração se aplica a modelos novos e existentes, e o acesso é aplicado consistentemente, independentemente de como um modelo é solicitado.
+
+Para obter mais informações, consulte:
+
+* [Compartilhar um modelo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template) em Criar um modelo de fluxo de trabalho de aprovação para documentos
+* [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
 <!--
 
