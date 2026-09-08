@@ -4,10 +4,10 @@ description: Melhorias na emissão de relatórios no quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 8%
+source-wordcount: '787'
+ht-degree: 7%
 
 ---
 
@@ -17,27 +17,23 @@ Esta página descreve as melhorias de relatórios feitas com a versão do quarto
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## Duplicate dashboards in Canvas Dashboards
+## Duplicar painéis em Painéis do Canvas
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Visualização: 3 de setembro de 2026
+>Versão rápida de produção: 17 de setembro de 2026
+>Produção para todos: 15 de outubro de 2026
 
-You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+Agora você pode duplicar um Painel da Tela de Pintura usando a nova ação **Duplicar painel**. Essa ação está disponível para qualquer usuário cujo nível de acesso conceda direitos de edição ou criação aos Painéis, mesmo que ele só tenha acesso de visualização ao painel específico que está sendo copiado. Os usuários sem direitos de edição ou criação para Painéis não veem essa ação.
 
-When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+Ao duplicar um painel, você pode renomeá-lo, atualizar sua descrição e moeda e escolher quais widgets, filtros de painel e prompts de painel devem ser transferidos para a cópia.
 
-Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+As configurações de Executar como usuário em widgets só serão preservadas se você for o usuário designado ou um administrador do sistema. As preferências de compartilhamento não são copiadas para o novo painel, e uma mensagem de confirmação com um link para o novo painel é exibida assim que a cópia é concluída.
 
-Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
+Anteriormente, não havia como duplicar um painel; os usuários precisavam reconstruir painéis do zero para criar variações específicas de público-alvo.
 
-For more information, see 
-
--->
+Para obter mais informações, consulte
 
 ## Campo Tipo de aprovação nos Painéis de Controle da Tela
 
