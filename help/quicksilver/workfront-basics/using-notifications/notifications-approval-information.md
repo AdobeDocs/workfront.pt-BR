@@ -9,13 +9,11 @@ exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 706
 ht-degree: 1%
 
 ---
@@ -69,7 +67,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
    <td><strong>Instantâneo</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Minha planilha de horas foi aprovada</strong> </p> <p>Quando sua planilha de horas é aprovada, você recebe uma notificação por email.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Planilha de Horas Aprovada]: &lt;Data de Início da Planilha de Horas&gt; - &lt;Data de Término da Planilha de Horas&gt;</em></p> <p> <p>Observação: não é possível configurar essa notificação para um email de resumo diário.</p> </p> </td> 
+   <td> <p><strong>Minha planilha de horas foi aprovada</strong> </p> <p>Quando sua planilha de horas é aprovada, você recebe uma notificação por email.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Planilha de Horas Aprovada]: &lt;Data de Início da Planilha de Horas&gt; - &lt;Data de Término da Planilha de Horas&gt;</em></p> <p> <p>Observação: não é possível configurar essa notificação para um email de resumo diário.</p> </p> <p> <p>Observação: você deve ter uma licença Standard para receber esta notificação. Os usuários com uma licença Light ou inferior não recebem a notificação por email de aprovação da folha de horas, mesmo quando ela está habilitada.</p> </p> </td> 
    <td> Nome do usuário que aprovou sua Planilha de Horas<br>Data e Hora em que a Planilha de Horas foi aprovada<br>Status da Planilha de Horas ([!UICONTROL Aprovado])<br>Data de Início e Data de Término da Planilha de Horas<br>Total de horas registradas na Planilha de Horas<br>Horas extras registradas na Planilha de Horas </td> 
    <td><strong>Instantâneo</strong> </td> 
   </tr> 
