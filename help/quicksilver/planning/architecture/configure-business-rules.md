@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Você pode configurar regras de negócios para tipos de registro do Adobe Workfront Planning para indicar que determinados campos são obrigatórios antes que uma ação em um registro desse tipo seja permitida ou impedida.
 
-Dependendo de como a regra é formulada, você poderá permitir as seguintes ações nos registros se as regras de negócios definidas forem atendidas:
+Dependendo de como a regra é formulada, você poderá permitir ou proibir as seguintes ações nos registros se as regras de negócios definidas forem atendidas:
 
 * Editar ou não editar um registro
 * Excluir ou não excluir um registro
