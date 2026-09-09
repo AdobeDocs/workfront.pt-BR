@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 689
-ht-degree: 6%
+source-wordcount: 728
+ht-degree: 5%
 
 ---
 
@@ -80,6 +80,7 @@ Se as configurações de notificação a seguir estiverem em vigor, o usuário q
 
 * O administrador do Workfront ativou a Aprovação de folha de horas para o usuário e a Rejeição de folha de horas para os manipuladores de eventos do usuário. Para obter informações sobre como habilitar notificações de eventos, consulte [Tipos de notificação de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 * A notificação pessoal Minha folha de horas é aprovada e está habilitada na página de perfil do usuário. Para obter mais informações, consulte [Modificar suas próprias notificações por email](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* O usuário que enviou a folha de horas tem uma licença Standard. Os usuários com uma licença Light ou inferior não recebem a notificação por email de aprovação da folha de horas, mesmo quando a notificação pessoal Minha folha de horas é aprovada e está habilitada em seu perfil.
 
 ### Aprovar uma folha de horas na área Folhas de horas
 
