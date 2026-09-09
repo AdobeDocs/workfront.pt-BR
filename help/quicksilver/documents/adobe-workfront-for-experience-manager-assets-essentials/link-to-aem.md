@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
 source-wordcount: 1467
 ht-degree: 3%
@@ -202,7 +202,7 @@ Para vincular uma pasta:
 
 ## Considerações
 
-* A funcionalidade Supervisor de Conteúdo não está disponível para objetos que usam o armazenamento em nuvem do Adobe. Se sua organização usar o armazenamento em nuvem da Adobe, ainda será possível vincular ativos e pastas do Experience Manager Assets ou do Assets Essentials, mas você não terá acesso aos recursos do Supervisor de conteúdo, como Pesquisas com IA, sugestões inteligentes ou representações do Dynamic Media. Para obter mais informações, consulte [Vincular conteúdo e pastas do Experience Manager Assets com o Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+* A funcionalidade Supervisor de Conteúdo não está disponível para objetos que usam o armazenamento em nuvem do Adobe. Se sua organização usar o armazenamento em nuvem da Adobe, ainda será possível vincular ativos e pastas do Experience Manager Assets ou do Assets Essentials, mas você não terá acesso aos recursos do Supervisor de conteúdo, como Pesquisas com IA, sugestões inteligentes ou representações do Dynamic Media. Para obter mais informações, consulte [Vincular conteúdo e pastas do Experience Manager Assets com o Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets).
 
 * A funcionalidade Supervisor de conteúdo não está disponível para o Assets Essentials. Para vincular ativos e pastas do Assets Essentials, consulte [Vincular ativos e pastas do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
 

@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 452
-ht-degree: 13%
+source-wordcount: 491
+ht-degree: 12%
 
 ---
 
@@ -30,8 +30,8 @@ Depois de vincular um ativo do Experience Manager Assets Essentials, você pode 
 
 >[!NOTE]
 >
->Esta funcionalidade não está disponível na nova área Documentos.<br>
->Se sua organização usar o Adobe Cloud Storage, você verá a nova área Documentos ao acessar documentos no Workfront. A partir daí, você pode adicionar ativos do Experience Manager Assets, revisá-los e aprová-los com o visualizador Frame.io. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+>Essa funcionalidade não está disponível na nova área Documentos.<br>
+>Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. A partir daí, você pode adicionar ativos do Experience Manager Assets, revisá-los e aprová-los com o visualizador Frame.io. Para obter mais informações, consulte [Usar o Adobe Experience Manager com Workfront e o armazenamento na nuvem da Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Requisitos de acesso
 

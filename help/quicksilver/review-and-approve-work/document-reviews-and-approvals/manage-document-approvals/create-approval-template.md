@@ -20,18 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ec38b386a008c689946cb359d4714380dd8e5460
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 5%
+source-wordcount: 800
+ht-degree: 4%
 
 ---
 
 # Criar um modelo de fluxo de trabalho de aprovação para documentos
 
-{{highlighted-preview}}
-
-Na área Configuração do Workfront, os usuários com uma licença Standard podem criar Modelos de aprovação reutilizáveis. Depois de criados, os Modelos de aprovação podem ser aplicados aos ativos na área Documentos de um objeto.
+Na área Configuração do Workfront, os usuários com uma licença Standard podem criar Modelos de aprovação reutilizáveis. Um modelo é visível somente para o usuário que o criou, a menos que o criador o compartilhe com usuários específicos ou com todos na organização. Depois de criados, os Modelos de aprovação podem ser aplicados aos ativos na área Documentos de um objeto.
 
 >[!IMPORTANT]
 >
@@ -131,6 +129,10 @@ Para criar um modelo de aprovação:
 1. Clique em **Salvar**.
 
 Depois que o modelo é criado, ele pode ser aplicado a documentos na área Documentos de um objeto para iniciar o processo formal de revisão e aprovação no Workfront.
+
+>[!NOTE]
+>
+>Novos modelos são visíveis somente para você. Para compartilhar, editar ou excluir um modelo, consulte [Gerenciar modelos de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.

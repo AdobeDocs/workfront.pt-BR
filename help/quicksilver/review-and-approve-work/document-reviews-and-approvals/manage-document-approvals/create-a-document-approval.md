@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 2662
+source-wordcount: 2878
 ht-degree: 1%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 1%
 {{highlighted-preview}}
 
 Você pode solicitar aprovação de outros usuários ou equipes para um documento no Adobe Workfront ou solicitar que eles revisem um documento sem precisar aprová-lo.
+
+Por padrão, um modelo de aprovação é visível somente para seu criador. Neste artigo, você só pode selecionar modelos criados ou que foram compartilhados com você. Para obter mais informações, consulte [Compartilhar um modelo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) em Gerenciar modelos de aprovação.
 
 >[!IMPORTANT]
 >
@@ -95,7 +97,7 @@ Para criar um workflow de aprovação de estágio único:
    <table>
    <tr>
    <td><strong>Usar um modelo de aprovação (opcional)</strong></td>
-   <td>Selecione um modelo no menu suspenso. Se o modelo tiver um caminho e um estágio, ele se aplica no modo Básico. Se o modelo tiver mais de um estágio ou mais de um caminho, a caixa de diálogo alternará automaticamente para o modo Avançado e qualquer entrada inserida no modo Básico será substituída pelo conteúdo do modelo.</td>
+   <td>Selecione um modelo no menu suspenso. O menu lista apenas os modelos que você criou ou que foram compartilhados com você — especificamente com você ou com todos em sua organização. Os administradores do sistema veem todos os modelos na conta aqui, independentemente de quem os criou ou compartilhou. Se o modelo tiver um caminho e um estágio, ele se aplica no modo Básico. Se o modelo tiver mais de um estágio ou mais de um caminho, a caixa de diálogo alternará automaticamente para o modo Avançado e qualquer entrada inserida no modo Básico será substituída pelo conteúdo do modelo.</td>
    </tr>
    <tr>
    <td><strong>Adicionar nomes ou emails</strong></td>
@@ -151,6 +153,14 @@ Para criar um workflow avançado de aprovação:
    >[!TIP]
    >
    >Ao criar a aprovação, você pode retornar ao modo Básico clicando em **Ir para básico** no canto superior direito. Depois de clicar em **Solicitar aprovação**, a opção **Ir para básico** não estará mais disponível.
+
+1. (Opcional) Para aplicar um modelo:
+
+   1. Ativar **Modelos**.
+   1. Clique no ícone de filtro e selecione **Todos**, **Meus modelos** ou **Compartilhados comigo** para restringir a lista.
+   1. Clique em um template para aplicá-lo à aprovação.
+
+   Os administradores do sistema veem todos os modelos na conta aqui, independentemente de quem os criou ou compartilhou.
 
 1. Preencha os detalhes para o Estágio 1 do Caminho 1:
 
@@ -222,7 +232,7 @@ Para criar um workflow de aprovação de estágio único:
    <table>
    <tr>
    <td><strong>Usar um modelo de aprovação (opcional)</strong></td>
-   <td>O campo templates é recolhido por padrão. Clique no campo para expandi-lo e selecione um template no menu suspenso. Se o modelo tiver um caminho e um estágio, ele se aplica no modo Básico. Se o modelo tiver mais de um estágio ou mais de um caminho, a caixa de diálogo alternará automaticamente para o modo Avançado e qualquer entrada inserida no modo Básico será substituída pelo conteúdo do modelo.</td>
+   <td>O campo templates é recolhido por padrão. Clique no campo para expandi-lo e selecione um template no menu suspenso. O menu lista apenas os modelos que você criou ou que foram compartilhados com você — especificamente com você ou com todos em sua organização. Os administradores do sistema veem todos os modelos na conta aqui, independentemente de quem os criou ou compartilhou. Se o modelo tiver um caminho e um estágio, ele se aplica no modo Básico. Se o modelo tiver mais de um estágio ou mais de um caminho, a caixa de diálogo alternará automaticamente para o modo Avançado e qualquer entrada inserida no modo Básico será substituída pelo conteúdo do modelo.</td>
    </tr>
    <tr>
    <td><strong>Adicionar nomes ou emails</strong></td>
@@ -284,6 +294,14 @@ Para criar um workflow avançado de aprovação:
    >[!TIP]
    >
    >Ao criar a aprovação, você pode retornar ao modo Básico clicando em **Ir para básico** no canto superior direito. Depois de clicar em **Solicitar aprovação**, a opção **Ir para básico** não estará mais disponível.
+
+1. (Opcional) Para aplicar um modelo:
+
+   1. Ativar **Modelos**.
+   1. Clique no ícone de filtro e selecione **Todos**, **Meus modelos** ou **Compartilhados comigo** para restringir a lista.
+   1. Clique em um template para aplicá-lo à aprovação.
+
+   Os administradores do sistema veem todos os modelos na conta aqui, independentemente de quem os criou ou compartilhou.
 
 1. Preencha os detalhes para o Estágio 1 do Caminho 1:
 

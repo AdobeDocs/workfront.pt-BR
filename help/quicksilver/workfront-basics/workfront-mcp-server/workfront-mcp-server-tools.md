@@ -5,9 +5,9 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
+source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2785'
 ht-degree: 4%
 
 ---
@@ -300,6 +300,13 @@ As ferramentas do Insights recuperam informações sobre objetos do Workfront.
 | Listar entidades | `insights_list_entities` | Lista todos os tipos de objetos do Workfront disponíveis para consulta. | Ler |
 | Procurar usuários | `insights_search_users` | Encontre pessoas na sua instância do Workfront por nome. Digite um nome completo ou parcial e obtenha de volta os principais usuários correspondentes. Também pode incluir, opcionalmente, &quot;bots&quot; de colaborador de IA ao lado de usuários regulares. | Ler |
 
+## Ferramentas de feedback
+
+<span class="preview">As ferramentas de feedback permitem relatar sua experiência com o servidor MCP do Workfront diretamente da sua plataforma de agente de IA.</span>
+
+| Título | Nome da ferramenta | O que faz | Ação |
+| --- | --- | --- | --- |
+| <span class="preview">Compartilhar feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Registra o sentimento relatado e o que aconteceu durante a conversa, para que as ferramentas MCP do Workfront possam ser aprimoradas. Usado apenas quando você pede explicitamente para compartilhar feedback (por exemplo, &quot;compartilhar feedback&quot; ou &quot;relatar um erro&quot;).</span> | <span class="preview">Write</span> |
 
 
 
