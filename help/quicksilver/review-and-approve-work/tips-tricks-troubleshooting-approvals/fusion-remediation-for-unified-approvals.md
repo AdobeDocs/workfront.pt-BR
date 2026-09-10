@@ -54,7 +54,7 @@ Analise cada cenário em relação à sua lógica de negócios específica para 
 >
 >O conector de Revisão unificada e aprovações do Adobe Workfront agora está disponível no Workfront Fusion. Recomendamos usar esse conector para cenários mais simples e confiáveis ao usar o Fusion com o armazenamento em nuvem do Adobe.
 >
->Para obter informações e instruções, consulte os [módulos de Revisão e Aprovações Unificadas do Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) na documentação do Workfront Fusion.
+>Para obter informações e instruções, consulte os [módulos de Revisão e Aprovações Unificadas do Adobe Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) na documentação do Workfront Fusion.
 
 Use a seguinte abordagem para planejar e executar a correção do Fusion:
 
