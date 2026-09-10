@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: 646
+source-wordcount: 645
 ht-degree: 7%
 
 ---
@@ -120,25 +120,30 @@ Você pode fazer o seguinte para aprimorar o número de tipos de risco na instâ
 
 1. (Opcional) Para exportar uma lista de tipos de riscos, clique no ícone [!UICONTROL **Exportar**]. Você pode exportar para os seguintes tipos de arquivos:
 
-   * No ambiente de produção:
+   <!--* In the Production environment:-->
 
-     * PDF
-     * Excel
-     * Excel (xlsx)
-     * Delimitado por tabulação
-     * CSV
+   * PDF
+   * Excel
+   * Excel (xlsx)
+   * Delimitado por tabulação
+   * CSV
 
-   <div class="preview">
+   <!--
+    PM confirmed that these lists should be the same: https://workfront.slack.com/archives/C05DPT67BD3/p1788465805975249?thread_ts=1788436678.273019&cid=C05DPT67BD3 
+    <div class="preview">
 
-   * No ambiente de Pré-visualização:
+    * In the Preview environment: 
 
-     * CSV
-     * XLSX
-   </div>
+      * CSV
+      * XLSX 
+    </div>
+    -->
 
    >[!TIP]
    >
-   >   No ambiente de Produção, primeiro é possível selecionar um número limitado de tipos de risco e, em seguida, exportá-los para uma lista menor. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
+   >   No ambiente de Produção, primeiro é possível selecionar um número limitado de tipos de risco e, em seguida, exportá-los para uma lista menor.
+   >
+   > <span class="preview">Este recurso foi removido do ambiente de Visualização.</span> <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### Criar tipos de risco {#create-risk-types}
 
