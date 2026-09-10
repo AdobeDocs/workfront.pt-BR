@@ -6,7 +6,7 @@ description: Inventarie, classifique e corrija cenários do Workfront Fusion cri
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: a3ef3b4ea00298e23ebc8b6196c951417e75eebe
+source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
@@ -18,12 +18,6 @@ ht-degree: 1%
 Os cenários do Workfront Fusion criados na revisão herdada do Workfront não funcionam automaticamente em projetos de armazenamento na nuvem da Adobe. Módulos específicos de prova, webhooks e endpoints de API têm equivalentes diretos em alguns casos e alterações significativas em outros. Este artigo ajuda você a inventariar cenários afetados, classificá-los e decidir um caminho de correção antes de trazer equipes que dependem desses cenários para a implantação do Adobe Cloud Storage.
 
 Os cenários com escopo para projetos herdados do Workfront continuam funcionando como atualmente. O trabalho de correção descrito neste artigo se aplica aos cenários que você pretende executar em projetos de armazenamento em nuvem da Adobe.
-
->[!IMPORTANT]
->
->O conector de Revisão unificada e aprovações do Adobe Workfront agora está disponível no Workfront Fusion. Recomendamos usar esse conector para cenários mais simples e confiáveis ao usar o Fusion com o armazenamento em nuvem do Adobe.
->
->Para obter informações e instruções, consulte os [módulos de Revisão e Aprovações Unificadas do Adobe Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) na documentação do Workfront Fusion.
 
 Use este artigo para inventariar e classificar cenários e entender a melhor maneira de atualizar seus cenários do Fusion para levar em conta o armazenamento em nuvem da Adobe.
 
@@ -55,6 +49,12 @@ O trabalho que cada cenário requer depende do que ele faz e do que está dispon
 Analise cada cenário em relação à sua lógica de negócios específica para decidir sua classificação.
 
 ## Abordagem de remediação
+
+>[!IMPORTANT]
+>
+>O conector de Revisão unificada e aprovações do Adobe Workfront agora está disponível no Workfront Fusion. Recomendamos usar esse conector para cenários mais simples e confiáveis ao usar o Fusion com o armazenamento em nuvem do Adobe.
+>
+>Para obter informações e instruções, consulte os [módulos de Revisão e Aprovações Unificadas do Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) na documentação do Workfront Fusion.
 
 Use a seguinte abordagem para planejar e executar a correção do Fusion:
 
