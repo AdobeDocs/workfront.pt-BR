@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 434
 ht-degree: 12%
@@ -87,6 +87,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    Leve em consideração o seguinte ao definir essa configuração:
 
    * Esta opção não está disponível ao configurar o para registrar tempo em horas.
-   * Essa opção é usada somente para fins de registro de tempo. Esta opção não está relacionada à opção **Agendar**, que também está disponível ao editar um usuário. A opção **Agendar** é usada ao calcular linhas do tempo e em outras áreas do Workfront. (Para obter mais informações sobre como usar a opção **Agendar**, consulte [Criar um agendamento](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).) 
+   * Essa opção é usada somente para fins de registro de tempo. Esta opção não está relacionada à opção **Agendar**, que também está disponível ao editar um usuário. A opção **Agendar** é usada ao calcular linhas do tempo e em outras áreas do Workfront. Para obter mais informações sobre como usar a opção **Agendar**, consulte [Criar um agendamento](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 1. Clique em **Salvar alterações**.
