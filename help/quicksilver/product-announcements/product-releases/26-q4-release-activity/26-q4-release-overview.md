@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 807bafbd65f6f73593b0bb11345eb70cc763935c
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '2906'
+source-wordcount: '2905'
 ht-degree: 7%
 
 ---
@@ -190,8 +190,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Co-worker disponível agora no Workfront</a>
-                <p>O CX Co-worker é uma nova interface conversacional para realizar o trabalho nos sistemas Workfront e Adobe conectados, substituindo o Assistente de IA atual.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker agora disponível no Workfront</a>
+                <p>O CX Coworker é uma nova interface conversacional para realizar trabalhos em sistemas Workfront e Adobe conectados, substituindo o Assistente de IA atual.</p>
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
@@ -277,10 +277,10 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Visibilidade de comentário de quadro no Workfront</a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Visibilidade de comentário do Frame.io no Workfront</a>
                 <p>O painel Comentários no Workfront agora permite saber quando novos comentários estão disponíveis no visualizador Frame.io.</p>
             </td>
-            <td><p>3 de setembro de 2026</p></td>
+            <td><p>N/D</p></td>
             <td><p>17 de setembro de 2026</p></td>
             <td><p>15 de outubro de 2026</p></td>
         </tr>

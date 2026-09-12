@@ -4,9 +4,9 @@ description: Aprimoramentos nos documentos do quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1333'
 ht-degree: 2%
 
 ---
@@ -49,11 +49,11 @@ Agora, os administradores do sistema podem exibir, editar, excluir e excluir em 
 
 Para obter mais informações, consulte [Gerenciar modelos de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
-## Visibilidade de comentário de quadro no Workfront
+## Visibilidade de comentário do Frame.io no Workfront
 
 >[!NOTE]
 >
->Visualização: 3 de setembro de 2026
+>Visualização: N/D
 >Versão rápida de produção: 17 de setembro de 2026
 >Produção para todos: 15 de outubro de 2026
 
