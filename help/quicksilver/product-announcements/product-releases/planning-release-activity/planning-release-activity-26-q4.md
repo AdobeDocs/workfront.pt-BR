@@ -6,13 +6,11 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1773'
 ht-degree: 1%
-
 ---
-
 # Atividade da versão do quarto trimestre de 2026 para o Adobe Workfront Planning
 
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Quarto trimestre de 2026.
@@ -76,7 +74,7 @@ As semanas personalizadas não estão visíveis no Workfront. Elas só são vis�
 
 Para obter informações, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-## Filtros para campos de registro conectados dependentes
+## Filtros para campos de registro conectados
 
 >[!NOTE]
 >
@@ -84,9 +82,9 @@ Para obter informações, consulte [Habilitar trimestres personalizados](/help/q
 >Versão rápida de produção: 17 de setembro de 2026
 >Produção para todos: 15 de outubro de 2026
 
-Agora é possível filtrar por determinados tipos de registro que atendem a um critério de filtro quando você adiciona conexões dependentes no Planning.
+Agora é possível filtrar por determinados tipos de registro que atendem a um critério de filtro quando você adiciona conexões no Planning.
 
-Em vez de todos os tipos de registro estarem disponíveis em campos conectados dependentes, somente aqueles que atenderem aos seus critérios de filtragem serão exibidos.
+Somente os registros que atenderem aos seus critérios de filtragem serão exibidos como opções em campos conectados.
 
 Para esse recurso, adicionamos uma nova opção Record filtering rules na guia New connection ao conectar tipos de registro.
 

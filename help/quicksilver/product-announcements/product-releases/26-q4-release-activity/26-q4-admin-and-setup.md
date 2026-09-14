@@ -4,13 +4,11 @@ description: Aprimoramentos do administrador do quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1280'
 ht-degree: 1%
-
 ---
-
 # Aprimoramentos do administrador do quarto trimestre de 2026
 
 Esta página descreve as melhorias de Administrador feitas com a versão do Quarto trimestre de 2026 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -74,6 +72,8 @@ Para obter informações, consulte [Habilitar trimestres personalizados](/help/q
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
 >Produção para todos: 15 de outubro de 2026
+>
+>Esse recurso foi removido temporariamente do ambiente de Pré-visualização em 14 de setembro de 2026.
 
 Ao trabalhar em um modelo de layout, agora é possível reposicionar aplicativos personalizados em qualquer ordem com as opções de menu padrão do Workfront. Isso permite posicionar cada aplicativo no local mais relevante.
 

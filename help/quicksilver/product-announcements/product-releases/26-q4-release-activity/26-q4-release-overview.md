@@ -4,13 +4,11 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2919'
 ht-degree: 7%
-
 ---
-
 # Visão geral da versão do quarto trimestre de 2026
 
 Esta página fornece informações sobre a funcionalidade incluída na versão do quarto trimestre de 2026 programada para outubro de 2026.
@@ -76,6 +74,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Reordenar aplicativos personalizados no Menu Principal</a>
+                <p><strong>OBSERVAÇÃO:</strong> esse recurso foi removido temporariamente do ambiente de Pré-visualização em 14 de setembro de 2026.</p>
                 <p>Agora é possível reposicionar aplicativos personalizados no Menu principal de um modelo de layout em vez de fazer com que eles sempre apareçam por último.</p>
             </td>
             <td><p>3 de setembro de 2026</p></td>
@@ -190,8 +189,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker agora disponível no Workfront</a>
-                <p>O CX Coworker é uma nova interface conversacional para realizar trabalhos em sistemas Workfront e Adobe conectados, substituindo o Assistente de IA atual.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Co-worker disponível agora no Workfront</a>
+                <p>O CX Co-worker é uma nova interface conversacional para realizar o trabalho nos sistemas Workfront e Adobe conectados, substituindo o Assistente de IA atual.</p>
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
