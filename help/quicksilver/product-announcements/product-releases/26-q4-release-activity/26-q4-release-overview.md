@@ -4,20 +4,18 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2919'
 ht-degree: 7%
-
 ---
-
 # Visão geral da versão do quarto trimestre de 2026
 
 Esta página fornece informações sobre a funcionalidade incluída na versão do quarto trimestre de 2026 programada para outubro de 2026.
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Quarto trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -76,6 +74,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Reordenar aplicativos personalizados no Menu Principal</a>
+                <p><strong>OBSERVAÇÃO:</strong> esse recurso foi removido temporariamente do ambiente de Pré-visualização em 14 de setembro de 2026.</p>
                 <p>Agora é possível reposicionar aplicativos personalizados no Menu principal de um modelo de layout em vez de fazer com que eles sempre apareçam por último.</p>
             </td>
             <td><p>3 de setembro de 2026</p></td>
@@ -190,8 +189,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker agora disponível no Workfront</a>
-                <p>O CX Coworker é uma nova interface conversacional para realizar trabalhos em sistemas Workfront e Adobe conectados, substituindo o Assistente de IA atual.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Co-worker disponível agora no Workfront</a>
+                <p>O CX Co-worker é uma nova interface conversacional para realizar o trabalho nos sistemas Workfront e Adobe conectados, substituindo o Assistente de IA atual.</p>
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
@@ -488,7 +487,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     &lt;tr>
     &lt;td>
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Relatórios de tabela dinâmica em Painéis de tela&lt;/a>
-    &lt;p>O novo tipo de relatório de tabela dinâmica em Painéis de tela agrega dados com roll-ups precisos e completos, com detalhamento nos registros subjacentes&lt;2>{td}&lt;2>&lbrace;p>&lbrace;p> 27, 2026&lt;/p>&lt;/td>
+    &lt;p>O novo tipo de relatório de tabela dinâmica em Painéis de tela agrega dados com roll-ups precisos e completos, com detalhamento nos registros subjacentes&lt;2>{td}&lt;2>{p>{p> 27, 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>17 de setembro de 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>15 de outubro de 2026&lt;/p>&lt;/td>
     &lt;/tr>
@@ -499,7 +498,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     &lt;/td>
     &lt;td>&lt;p>13 de agosto de 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>17 de setembro de 2026&lt;/p>&lt;/td>
-    &lt;1&rbrace; 2026&lt;/p>&lt;/td>
+    &lt;1} 2026&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
     &lt;td>
@@ -516,7 +515,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     &lt;p>As opções selecionadas para campos personalizados de seleção múltipla agora são exibidas em uma ordem consistente e previsível em listas e relatórios herdados.&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>30 de julho de 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>13 de agosto de 2026&lt;/p>&lt;/td>&lt;p>52&rbrace; 15, 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>13 de agosto de 2026&lt;/p>&lt;/td>&lt;p>52} 15, 2026&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;/tbody>
 
@@ -642,7 +641,7 @@ Se você for um administrador da Workfront com usuários de leitores de Data Con
 
 Essa alteração foi anunciada pela primeira vez nas notas de versão de abril de 2026 do Workfront e este é o lembrete final antes do prazo. Certifique-se de que todos os usuários de leitores afetados ativem o MFA antes de 8 de agosto de 2026 para evitar a interrupção de seu acesso.
 
-Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/pt-br/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Atualizações de treinamento
 
