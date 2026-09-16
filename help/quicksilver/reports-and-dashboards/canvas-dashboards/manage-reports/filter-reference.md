@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dc9caae8cc85543986eaefb1d3debdebfdf6ce96
+source-git-commit: 85ae49708acf2c472816ac848ce15429577b934e
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 34%
+source-wordcount: '1022'
+ht-degree: 40%
 ---
 # Referência de filtro de relatório para Painéis do Canvas
 
@@ -212,26 +212,29 @@ Os relacionamentos disponíveis para colunas adicionais, opções de filtro e at
 
 Ao utilizar qualquer uma das relações pai-filho listadas acima, você verá uma linha na tabela para cada registro filho conectado ao objeto pai.
 
+<!--
 <div class="preview">
 
-## Filtrar os relacionamentos da coleção na visualização
+## Filter on collection relationships in Preview
 
-Uma coleção é um campo vinculado a um grupo de registros relacionados, em vez de a um único registro. Por exemplo, os participantes dos estágios de aprovação de um projeto são uma coleção. Ao criar um filtro, você pode filtrar coleções diretamente, sem alternar para o modo de texto.
+A collection is a field that links to a group of related records rather than to a single record. For example, the participants on a project's approval stages are a collection. When you build a filter, you can filter on collections directly, without switching to text mode.
 
-Para filtrar em uma coleção, abra o painel Selecionar um campo e selecione Coleções. Esta seção lista somente relações de coleção. Os relacionamentos com registro único ficam em Relacionamentos.
+To filter on a collection, open the Select a field panel, then select Collections. This section lists only collection relationships. Single-record relationships stay under Relationships.
 
-![relações de coleção](assets/collections.png)
+![collection relationships](assets/collections.png)
 
-Depois de selecionar uma coleção, você pode fazer duas coisas:
+After you select a collection, you can do two things:
 
-* Filtre nos próprios campos da coleção. Por exemplo, a partir dos projetos de um portfólio, você pode filtrar o status de um projeto.
-* Siga um relacionamento de registro único fora da coleção. Por exemplo, nos projetos de um portfólio, é possível entrar em contato com o proprietário do projeto.
+* Filter on the collection's own fields. For example, from a portfolio's projects, you can filter on a project's status.
+* Follow one single-record relationship out of the collection. For example, from a portfolio's projects, you can reach the project owner.
 
-As coleções não são compatíveis com navegação mais profunda. Não é possível abrir uma coleção aninhada dentro de outra coleção, seguir mais de uma relação ou selecionar a relação que leva de volta ao local em que você começou.
+Collections don't support deeper navigation. You can't open a collection nested inside another collection, follow more than one relationship, or select the relationship that leads back to where you started.
 
-A seção Coleções é exibida somente quando você cria um filtro. Ele não é exibido em outros seletores de campo, como aqueles para colunas de tabela, agrupamentos ou campos de gráfico.
+The Collections section appears only when you build a filter. It doesn't appear in other field choosers, such as those for table columns, groupings, or chart fields.
 
 </div>
+
+-->
 
 ## Excluir projetos pessoais, tarefas e usuários de bot
 
