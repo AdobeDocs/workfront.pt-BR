@@ -11,24 +11,30 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 TQID: https://experienceleague.adobe.com/g6y6RsDNuEDBGZBrZXxhyFZ2-z1EUr5yflGDQQ7AhdQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: a3966028ce3c73c141f6f79bc25505cd707cae62
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 11%
-
+source-wordcount: '682'
+ht-degree: 12%
 ---
-
 # Personalizar o menu principal usando um modelo de layout
 
 <!--Audited: 01/2024-->
@@ -136,26 +142,19 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      >
      > Os aplicativos personalizados devem ser criados separadamente antes de serem disponibilizados como opções do Menu principal. Para obter mais informações, consulte [Criar um aplicativo personalizado para o Workfront com o Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-No ambiente de Pré-visualização:
-
-1. Siga qualquer um destes procedimentos para os itens **Nativos**:
+1. Siga um destes procedimentos<!-- for the **Native** items-->:
 
    * Ocultar ![Ícone Ocultar](assets/remove-icon---x-in-circle.png) itens que você não deseja exibir no Menu Principal.
    * Mostrar ![ícone Mostrar](assets/add-icon-plus-in-circle.png) itens que você deseja exibir no Menu Principal.
    * Arraste ![ícone Arrastar](assets/move-icon---dots.png) itens para alterar sua ordem de exibição no Menu Principal.
 
-1. Siga um destes procedimentos para os itens do **Sistema**:
-
-   * Ocultar ![Ícone Ocultar](assets/remove-icon---x-in-circle.png) itens que você não deseja exibir no Menu Principal.
-   * Mostrar ![ícone Mostrar](assets/add-icon-plus-in-circle.png) itens que você deseja exibir no Menu Principal.
-
-   >[!NOTE]
-   >
-   >Você não pode alterar a ordem dos itens do sistema. Esses itens sempre são exibidos na parte inferior do menu principal quando estão ativos.
+     >[!NOTE]
+     >
+     >Você não pode alterar a ordem dos itens do sistema. Esses itens sempre são exibidos na parte inferior do menu principal quando estão ativos.
 
 1. Clique em **Concluído**.
 
-   Você também pode clicar em **Cancelar** a qualquer momento se desejar descartar as alterações.
+   Você também pode clicar em **Cancelar** a qualquer momento para descartar suas alterações.
 
 1. Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.
 
@@ -164,3 +163,18 @@ No ambiente de Pré-visualização:
    Se tiver terminado de personalizar, clique em **Salvar e Fechar**.
 
 Para obter mais informações sobre modelos de layout, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+<!--
+
+MOVE TO LINE 151 or thereabouts:
+
+<div class="preview">
+
+1. Do any of the following for the **System** items:
+
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
+
+</div>
+
+-->

@@ -11,25 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/F8JANtG9rzY6b-hLFTPQ28p8CVrsb3-lF-b97G4OnII
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: e793fdc87c17e777ce811b53b5f7bdb19b5cedf3
 workflow-type: tm+mt
-source-wordcount: 962
+source-wordcount: '992'
 ht-degree: 4%
-
 ---
-
 # Exibir problemas
 
 <!--Audited: 10/2025-->
@@ -105,11 +112,18 @@ Para exibir problemas em um projeto, tarefa ou iteração:
 
 1. Abra um projeto, tarefa ou iteração que contenha problemas, em seguida, clique em **Problemas** no painel esquerdo.
 
-1. Para exibir todos os problemas, abertos ou fechados, clique em qualquer um dos filtros listados abaixo no menu suspenso **Filtro**.
+   >[!NOTE]
+   >
+   >O número ao lado do link de seção Problemas representa o número de problemas abertos (não resolvidos) listados na seção.
 
->[!TIP]
->
->A lista de filtros varia dependendo do que o administrador de sistema ou de grupo selecionou para exibição nela.
+
+1. Para exibir problemas abertos ou fechados, clique em qualquer um dos filtros listados abaixo no menu suspenso **Filtro**.
+
+   >[!TIP]
+   >
+   >A lista de filtros varia dependendo do que o administrador de sistema ou de grupo selecionou para exibição nela.
+   >
+   >Não aplicar nenhum filtro à lista de problemas exibe todos os problemas, independentemente do status.
 
 * **Abrir:** Exibe os problemas que estão abertos.
 
@@ -118,7 +132,7 @@ Para exibir problemas em um projeto, tarefa ou iteração:
   Para obter informações sobre Objetos de Resolução, consulte [Visão Geral de Objetos de Resolução e Resolução](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 * **Concluído:** Exibe todos os problemas que têm uma Data de Término Efetivo.
-* **Todos** Exibe todos os problemas.
+
 
 ## Compreender informações sobre problemas
 
@@ -143,11 +157,11 @@ Para acessar uma ocorrência e exibir informações sobre ela:
 
 * **Atualizações**: você pode executar as seguintes ações:
 
-   * Comente sobre o problema ou responda a um comentário existente.
-   * Registrar tempo.
-   * Alterar o status da ocorrência.
+  * Comente sobre o problema ou responda a um comentário existente.
+  * Registrar tempo.
+  * Alterar o status da ocorrência.
 
-     Para obter mais informações sobre como atualizar o trabalho no Workfront, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+    Para obter mais informações sobre como atualizar o trabalho no Workfront, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * **Documentos**: anexe documentos ao problema. Para obter mais informações sobre como adicionar documentos ao Workfront, consulte [Adicionar documentos ao Adobe Workfront a partir do seu sistema de arquivos](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -157,32 +171,32 @@ Para acessar uma ocorrência e exibir informações sobre ela:
 
   Exiba ou edite os seguintes campos na área **Visão geral**:
 
-   * **Nome**
-   * **Caminho**: o caminho pelo qual o problema foi registrado no projeto.
+  * **Nome**
+  * **Caminho**: o caminho pelo qual o problema foi registrado no projeto.
 
-     Se um problema foi enviado como uma solicitação em uma fila de solicitações, os nomes do projeto, do Grupo de tópicos e do Tópico da fila são listados aqui. Este campo não pode ser editado.
+    Se um problema foi enviado como uma solicitação em uma fila de solicitações, os nomes do projeto, do Grupo de tópicos e do Tópico da fila são listados aqui. Este campo não pode ser editado.
 
-     Para obter mais informações sobre o envio de solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+    Para obter mais informações sobre o envio de solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   * **Descrição**
-   * **URL**: qualquer endereço Web relacionado ao problema.
-   * **Prioridade**: um sinalizador visual que permite priorizar problemas.
-   * **Gravidade**: um sinalizador visual que indica a gravidade do problema descrito no problema.
-   * **Contato Primário**: o contato Primário padrão é o usuário que criou o problema. Este campo pode ser editado.
-   * **Horas planejadas**: exibe o tempo que leva para alguém concluir o problema. O padrão é 8 horas. Este campo pode ser editado.
-   * **Horas efetivas**: exibe o tempo que levou para concluir a ocorrência. Esta é a hora real em que alguém registra o problema.
-   * **Data de Início Planejada**: a data em que o problema está planejado para começar. O padrão é a data e a hora em que a ocorrência foi criada.
-   * **Data de Início Real**: a data e a hora em que o status do problema foi alterado para Em Andamento.
-   * **Data de conclusão planejada**: a data em que o problema está planejado para ser concluído.
-   * **Data de conclusão real**: a data quando o problema é realmente concluído. Este campo é preenchido automaticamente quando o status do problema é alterado para Closed ou Resolved, ou pode ser editado manualmente.
-   * **Custo Real**: o custo baseado nas Horas Reais registradas na questão. Este campo não é editável. O Custo Efetivo de uma ocorrência é calculado com base na seguinte fórmula, em que a Taxa de Custo do Usuário é a taxa de custo associada ao usuário que registra o tempo da ocorrência:
+  * **Descrição**
+  * **URL**: qualquer endereço Web relacionado ao problema.
+  * **Prioridade**: um sinalizador visual que permite priorizar problemas.
+  * **Gravidade**: um sinalizador visual que indica a gravidade do problema descrito no problema.
+  * **Contato Primário**: o contato Primário padrão é o usuário que criou o problema. Este campo pode ser editado.
+  * **Horas planejadas**: exibe o tempo que leva para alguém concluir o problema. O padrão é 8 horas. Este campo pode ser editado.
+  * **Horas efetivas**: exibe o tempo que levou para concluir a ocorrência. Esta é a hora real em que alguém registra o problema.
+  * **Data de Início Planejada**: a data em que o problema está planejado para começar. O padrão é a data e a hora em que a ocorrência foi criada.
+  * **Data de Início Real**: a data e a hora em que o status do problema foi alterado para Em Andamento.
+  * **Data de conclusão planejada**: a data em que o problema está planejado para ser concluído.
+  * **Data de conclusão real**: a data quando o problema é realmente concluído. Este campo é preenchido automaticamente quando o status do problema é alterado para Closed ou Resolved, ou pode ser editado manualmente.
+  * **Custo Real**: o custo baseado nas Horas Reais registradas na questão. Este campo não é editável. O Custo Efetivo de uma ocorrência é calculado com base na seguinte fórmula, em que a Taxa de Custo do Usuário é a taxa de custo associada ao usuário que registra o tempo da ocorrência:
 
-     Custo Real do Problema = Horas Registradas * Taxa de Custo do Usuário
+    Custo Real do Problema = Horas Registradas * Taxa de Custo do Usuário
 
-   * **Informado por**: este é o usuário que criou o problema. Este campo não é editável.
-   * **Última Atualização por**: este é o usuário que atualizou qualquer campo sobre o problema por último. Este campo não é editável.
+  * **Informado por**: este é o usuário que criou o problema. Este campo não é editável.
+  * **Última Atualização por**: este é o usuário que atualizou qualquer campo sobre o problema por último. Este campo não é editável.
 
-     Na área **Forms personalizado**, exiba um ou vários formulários personalizados para associar ao problema.
+    Na área **Forms personalizado**, exiba um ou vários formulários personalizados para associar ao problema.
 
 * **Horas**: mostra uma lista de entradas de horas na ocorrência.
 * **Aprovações:** mostra os caminhos de aprovação associados à questão.

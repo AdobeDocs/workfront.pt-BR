@@ -3,13 +3,11 @@ title: Criar registros de planejamento a partir de resumos do espaço de ideaç�
 description: Usando o Espaço de ideação, um novo recurso do Adobe Workfront Planning, você pode transformar resumos em registros do Planning. Os resumos exportados criam novos registros ou atualizam os existentes. Este artigo descreve como criar ou editar registros existentes do Planning usando o espaço Ideação.
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1166'
 ht-degree: 0%
-
 ---
-
 
 # Criar registros do Planning a partir de resumos de espaço de ideação
 
@@ -60,18 +58,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
 Ou
 <li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>Produtos adicionais</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workflow</p></td> 
    <td><p>Padrão</p>
@@ -98,24 +95,26 @@ Ou
       <p>Permissões do editor no espaço de ideação para criar resumos</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Funções de usuário do Adobe GenStudio for Performance Marketing</p></td> 
-   <td><p><ul><li>Qualquer função de usuário do GenStudio para acessar Campanhas, Produtos e Personalidades</li>
-   <li>GenStudio System Manager para acessar as Ativações <!--and Events--></li></ul>
-   Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
 Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++  
++++   
 
 ## Considerações sobre o uso do espaço de ideação para criar registros
 
-* Você só pode iniciar o espaço Ideação no Workfront Planning, à medida que cria ou edita registros. O espaço de ideação não existe fora do Workfront Planning.
+* Você só pode iniciar o espaço de ideação no Workfront Planning ou no Menu principal do Workfront, à medida que cria ou edita registros. O espaço de ideação não existe fora do Workfront.
 * Para acessar o espaço Ideação, você deve ter um espaço de trabalho e um tipo de registro no Workfront Planning.
 * Os novos registros sempre começam com conteúdo de espaço reservado, independentemente de como você os cria.
 * Quando você exclui um registro de Planejamento vinculado a um resumo de ideação, o resumo permanece no espaço de ideação e sua tela associada no espaço de ideação não é excluída.
@@ -151,7 +150,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    O registro é criado imediatamente com texto de espaço reservado.
 
-1. (Opcional) Clique em **Usar resumo existente** na caixa de prompt para procurar e adicionar um documento existente que o espaço de ideação usará para criar o resumo e o registro futuro.
+1. (Opcional) Clique em **Usar resumo existente** na caixa de prompt para procurar e adicionar um documento existente que o espaço de ideação usará para criar o resumo e o registro futuro. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
 
    ![Breve prompt de ideação vazio](assets/empty-ideation-prompt.png)
 
@@ -225,7 +224,8 @@ Não é possível editar registros em massa no espaço de ideação.
 
 
 
-<!-- this is from Claude, but rephrased and included most of this above: 
+<!-- 
+this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
 
