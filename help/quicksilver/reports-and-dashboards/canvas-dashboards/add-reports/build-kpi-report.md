@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1406
+source-wordcount: '1347'
 ht-degree: 11%
-
 ---
-
 # Criar um relatório de KPI em um painel da tela
 
 >[!IMPORTANT]
@@ -121,17 +125,9 @@ Há muitas opções de configuração disponíveis para criar um relatório de K
 
    1. No menu suspenso **Tipo de agregação**, selecione como os dados são acumulados para produzir a saída de KPI. As opções nesse campo variam de acordo com o tipo de campo selecionado na etapa anterior.
 
-1. Siga as etapas abaixo para configurar a seção **Filtro**:
+1. No painel esquerdo, clique no ícone **Filtro** ![Filtro](assets/filter-icon.png) e configure as condições que determinam quais dados são exibidos.
 
-   1. No painel esquerdo, clique no ícone **Filtro** ![Filtro](assets/filter-icon.png).
-
-   1. Selecione **Editar filtro**.
-
-   1. Clique em **Adicionar condição** e especifique o campo pelo qual deseja filtrar e o modificador que define o tipo de condição que o campo deve atender.
-
-   1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
-
-      Para obter mais informações sobre filtros, consulte [Editar filtros de relatório em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+   Para obter mais informações, consulte [Filtrar um relatório em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Siga as etapas abaixo para configurar a seção **Configurações de Coluna de Detalhamento**:
 
@@ -141,11 +137,9 @@ Há muitas opções de configuração disponíveis para criar um relatório de K
 
    1. Clique em **Adicionar coluna** e selecione o campo que deseja exibir como uma coluna na tabela. Repita esse processo para cada coluna que deseja adicionar.
 
-1. Siga as etapas abaixo para configurar a seção **Configurações do Grupo de Detalhamento**:
+1. No painel esquerdo, clique no ícone do **Configurações do Grupo de Drilldown** ![Ícone do grupo de Drilldown](assets/drilldown-group-icon.png) e, em seguida, adicione agrupamentos para a tabela de drill-down.
 
-   1. No painel esquerdo, clique no ícone do **Grupo de configurações** ![Grupo de detalhamento](assets/drilldown-group-icon.png).
-
-   1. Clique no botão **Adicionar agrupamento** e selecione o campo que deseja criar como agrupamento.
+   Para obter mais informações, consulte [Configurar agrupamentos de detalhamento no gráfico e relatórios de KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports) em [Agrupar dados de relatório em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Clique em **Salvar** para criar o relatório e adicioná-lo ao painel.
 

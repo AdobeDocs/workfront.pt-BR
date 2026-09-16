@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Xcq8aeqqH-JPYtfmbcf1gld93O6N93O9j0wqohss7oQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1343
-ht-degree: 12%
-
+source-wordcount: '1208'
+ht-degree: 13%
 ---
-
 # Criar um relatório de tabela em um painel da tela
 
 >[!IMPORTANT]
@@ -121,21 +125,13 @@ Há muitas opções de configuração disponíveis para criar um relatório de t
 
    1. Repita a etapa acima para cada coluna que deseja adicionar.
 
-1. Siga as etapas abaixo para configurar a seção **Filtro**:
+1. No painel esquerdo, clique no ícone **Filtro** ![Filtro](assets/filter-icon.png) e configure as condições que determinam quais dados são exibidos.
 
-   1. No painel esquerdo, clique no ícone **Filtro** ![Filtro](assets/filter-icon.png).
+   Para obter mais informações, consulte [Filtrar um relatório em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
-   1. Selecione **Editar filtro**.
+1. No painel esquerdo, clique no ícone **Configurações de grupo** ![Configurações de grupo](assets/drilldown-group-icon.png) e adicione agrupamentos para organizar as linhas do relatório.
 
-   1. Clique em **Adicionar condição** e especifique o campo pelo qual deseja filtrar e o modificador que define o tipo de condição que o campo deve atender. A coluna é exibida na seção de visualização à direita.
-
-1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
-
-1. Siga as etapas abaixo para configurar a seção **Configurações do Grupo de Detalhamento**:
-
-   1. No painel esquerdo, clique no ícone **Configurações de grupo** ![Configurações de grupo](assets/drilldown-group-icon.png).
-
-   1. Clique no botão **Adicionar agrupamento** e selecione o campo que deseja criar como agrupamento. A coluna de agrupamento aparece na seção de visualização à direita.
+   Para obter mais informações, consulte [Agrupar dados de relatório em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Clique em **Salvar** para criar o relatório e adicioná-lo ao painel.
 
@@ -248,11 +244,5 @@ Depois que o objeto de entidade base for selecionado, o menu suspenso **Seções
 
 ### Fazendo referência a objetos filho
 
-Os relacionamentos disponíveis para colunas adicionais, opções de filtro e atributos de agrupamento geralmente são limitados a objetos superiores na hierarquia de objetos do Workfront ou têm uma única seleção no objeto de entidade base do relatório. Há algumas exceções a isso, que incluem:
-
-* Projeto > Tarefas
-* Aprovação de documento > Estágios de aprovação de documento
-* Estágios de aprovação de documento > Participantes do estágio de aprovação de documento
-
-Ao utilizar qualquer uma das relações pai-filho listadas acima, você verá uma linha na tabela para cada registro filho conectado ao objeto pai.
+Algumas relações pai-filho estão disponíveis para colunas, filtros e agrupamentos. Para obter mais informações, consulte [Referenciando objetos filho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects) em [Referência do filtro de relatório para Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 

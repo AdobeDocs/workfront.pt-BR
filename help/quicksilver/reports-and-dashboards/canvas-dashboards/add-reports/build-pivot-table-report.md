@@ -5,13 +5,11 @@ title: Criar um relatório de tabela dinâmica em um painel da tela de desenho
 description: É possível adicionar um relatório de tabela dinâmica a um Painel da tela para ver os totais agregados dos dados em um formato de tabela.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1510'
 ht-degree: 8%
-
 ---
-
 # Criar um relatório de tabela dinâmica em um painel da tela de desenho
 
 >[!IMPORTANT]
@@ -132,15 +130,9 @@ Há muitas opções de configuração disponíveis para criar um relatório de t
 
    1. Repita as duas etapas acima para adicionar até 2 segmentos.
 
-1. Siga as etapas abaixo para configurar a seção **Filtro**:
+1. No painel esquerdo, clique no ícone **Filtro** ![Filtro](assets/filter-icon.png) e configure as condições que determinam quais dados são exibidos.
 
-   1. No painel esquerdo, clique no ícone **Filtro** ![Filtro](assets/filter-icon.png).
-
-   1. Selecione **Editar filtro**.
-
-   1. Clique em **Adicionar condição** e especifique o campo pelo qual deseja filtrar e o modificador que define o tipo de condição que o campo deve atender.
-
-   1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
+   Para obter mais informações, consulte [Filtrar um relatório em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Siga as etapas abaixo para configurar a seção **Configurações de Coluna de Detalhamento**:
 
