@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: bc90d9bf6c793baafc600e87d8e36570ee8fb58f
 workflow-type: tm+mt
-source-wordcount: '2919'
+source-wordcount: '2962'
 ht-degree: 7%
 ---
 # Visão geral da versão do quarto trimestre de 2026
@@ -620,14 +620,18 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 
 ## Atualizações do visualizador de prova para desktop
 
-### Versão 2.1.59
+### Versão 2.2.1
 
-Versão de produção para todos os clientes: 9 de setembro de 2026
+Versão de produção para todos os clientes: 16 de setembro de 2026
 
-O Desktop Proofing Viewer foi atualizado para a versão 2.1.59. Esta atualização inclui as seguintes alterações:
+O Visualizador de provas de desktop foi atualizado para a versão 2.2.1. Esta atualização inclui as seguintes alterações:
 
-* O Visualizador de provas de desktop agora está disponível como uma build nativa para Macs com silício Apple.
-* Atualização da estrutura subjacente do aplicativo (Eletron) para uma versão mais recente, que traz melhorias de desempenho e segurança.
+* Agora é possível abrir provas de qualquer ambiente (Produção, Pré-visualização, Sandbox e outros) no mesmo visualizador, sem reinstalar ao alternar.
+* Solução de um problema com a abertura de provas de um URL em regiões fora dos EUA.
+* O visualizador agora mantém as 10 provas mais recentes.
+* Atualização do logotipo do Workfront para a marca atual.
+* Foram adicionados mais detalhes à tela Sobre o Workfront Proof para acelerar a solução de problemas.
+* Atualização da estrutura subjacente (Eletron) para melhorias de desempenho e segurança.
 
 Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 

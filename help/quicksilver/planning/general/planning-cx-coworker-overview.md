@@ -1,53 +1,31 @@
 ---
-title: Visão Geral do Assistente do Adobe Workfront Planning AI
-description: Você pode usar o assistente de IA para gerar, atualizar ou remover registros com base no contexto da página atual e na estrutura de registro. Os comandos do usuário e a execução desses comandos pela IA trabalham juntos para garantir que as alterações feitas pela IA sejam refletidas com precisão no ambiente.
+title: Visão Geral do Adobe Workfront Planning CX Coworker
+description: Você pode usar o CX Coworker no Workfront Planning para executar ações semelhantes a registros e outros objetos no Planning que normalmente seriam executados na interface. Os comandos do usuário e a execução desses comandos pela IA trabalham juntos para garantir que as alterações feitas pela IA sejam refletidas com precisão no ambiente.
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3I5y7eTZml-nkAiAYnBFuaw72DyXgNG12D-EVYVourA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-    internal-label: Administration
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-    internal-label: Get started
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
 source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 6%
+source-wordcount: '1007'
+ht-degree: 5%
 ---
-# Visão geral do Assistente de IA do Planejamento do Adobe Workfront
+
+# Visão geral do Adobe Workfront Planning CX Coworker
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
 
-Você pode usar o Assistente de IA para fazer alterações ou atualizações em registros e outros objetos no Adobe Workfront Planning com base no contexto da página atual.
+O CX Coworker é uma interface conversacional em que você descreve uma meta em linguagem simples e, em seguida, planeja, executa e valida o trabalho em todos os sistemas Adobe e conectados antes de trazê-lo de volta para sua aprovação.
 
-Os comandos do usuário e a execução desses comandos pela IA trabalham juntos para garantir que as alterações feitas pela IA sejam refletidas com precisão no ambiente.
+O CX Coworker preserva tudo o que o AI Assistant faz hoje e, ao mesmo tempo, adiciona recursos completos mais avançados em uma nova experiência de tela cheia e no painel direito do Workfront.
+
+Ela opera nos controles de acesso de nível de produto existentes em sua organização, de modo que os usuários só podem realizar ações para as quais já têm permissão no Workfront, com acesso somente leitura por padrão e acesso de gravação controlado por administradores do Workfront.
 
 ## Requisitos de acesso
 
@@ -79,11 +57,10 @@ Ou
 <tr> 
    <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
    <td>  
-     <p>O administrador deve fazer o seguinte para permitir o acesso ao Assistente de IA:</p>
+   <p>O administrador deve fazer o seguinte para permitir o acesso ao CX Coworker no Planning:</p>
    <ul>
    <li><p>Adicione um Workflow e um tipo de licença do Planning ao seu nível de acesso quando você tiver um Workflow e um pacote do Planning</p></li>
-   <li><p>Desmarque a configuração Desativar o assistente do Workfront AI no seu nível de acesso</p></li></ul>
-
+   <li><p>Desmarque Desativar o painel CX Coworker na configuração do Workfront no seu nível de acesso. Ela é selecionada por padrão.</p></li></ul>
 </td> 
   </tr> 
   <tr> 
@@ -94,7 +71,7 @@ Ou
 
 <tr> 
    <td role="rowheader"><p>Configurações do sistema</p></td> 
-   <td>   <p>O administrador do Workfront deve selecionar a configuração Habilitar IA na área Preferências do sistema da Configuração e assinar a IA para ter acesso ao Assistente de IA</p>  
+   <td>   <p>O administrador do Workfront deve selecionar as ferramentas MCP somente leitura e somente gravação na área Preferências do sistema da Configuração. As ferramentas de MCP somente leitura são selecionadas por padrão.</p> 
     </td> 
   </tr> 
 </tbody> 
@@ -105,11 +82,11 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 +++
 
 
-## Considerações sobre o Assistente de IA
+## Considerações para a CX Coworker
 
-* O Assistente de IA deve estar ativado para sua organização antes de estar disponível para usuários em sua empresa.
+* A CX Coworker deve estar ativada para sua organização antes de estar disponível para os usuários em sua empresa.
 
-  Para obter informações, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+  Para obter informações, consulte [visão geral do CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 * Depois que a Workfront ativar o agente para sua organização, ele estará disponível para o administrador principal do Workfront. Para obter informações, consulte [Configurar informações básicas do sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
