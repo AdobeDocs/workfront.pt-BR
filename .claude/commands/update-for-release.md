@@ -1,13 +1,6 @@
 ---
 name: update-for-release
-description: ""
-source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
-workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 0%
-
----
-
+description: 'Documente um novo recurso do Workfront para uma versão futura: identifique artigos de ajuda afetados, escolha o trecho de visualização correto, marque o novo conteúdo com o destaque de visualização (por seção ou por linha, conforme apropriado, por artigo) e supere detalhes no nível da interface do usuário borderline como prompts explícitos de aprovação/rejeição antes de aplicar edições. Use quando o usuário estiver atualizando artigos de ajuda do Workfront para um recurso que está sendo enviado (normalmente, Visualizar primeiro), menciona um PRD ou uma versão futura, pergunta sobre o destaque da visualização ou deseja ajuda para adicionar seções "na visualização" / "em produção" aos artigos de instruções ou de visão geral.'---
 
 # Atualização para lançamento (Workfront)
 
@@ -94,9 +87,9 @@ Para cada artigo na lista confirmada pelo usuário:
 
    Para cada item &quot;up for review&quot;, forneça uma lógica de uma frase (&quot;Ajuda os novatos a planejar uma mensagem mais longa&quot;, &quot;Ajuda os usuários que não a veem em estágios posteriores a saberem expandi-la&quot;). Inclua apenas os itens que o usuário escolher. O princípio padrão é &quot;se o usuário puder vê-lo na tela enquanto está fazendo a tarefa, não reitere&quot; — mas o usuário recebe a chamada final.
 
-   **Ao redigir as sentenças reais** para qualquer um dos compartimentos, aplique `~/.cursor/skills/writing-quality/SKILL.md` regras de voz e tom enquanto escreve — uma descrição de campo/comportamento simples, não uma entrada de log de alterações (&quot;foi removido&quot;, &quot;foi adicionado&quot;) e não reafirme uma instrução inalterada apenas para anexar uma nota de visualização a ela. Faça o rascunho certo na primeira vez em vez de corrigir o tom em uma passagem posterior.
+   **Antes de redigir as sentenças reais** para qualquer grupo, **chame a habilidade `writing-quality` (ferramenta de habilidade)** e aplique suas regras de voz e tom enquanto escreve — uma descrição de campo/comportamento simples, não uma entrada de log de alterações (&quot;foi removido&quot;, &quot;foi adicionado&quot;), e não reafirme uma instrução inalterada apenas para anexar uma nota de visualização a ela. Faça o rascunho certo na primeira vez em vez de corrigir o tom em uma passagem posterior.
 
-5. **Faça uma aprovação final na qualidade de gravação** no texto em rascunho antes de mostrá-lo. Essa é uma rede de segurança, não a primeira vez que essas regras se aplicam — capture qualquer etapa 4 perdida (redundância, tom, incompatibilidade de voz com linhas ao redor).
+5. **Execute a habilidade `writing-quality` (ferramenta Habilidade) como uma aprovação final** no texto em rascunho antes de mostrá-la — obrigatória para cada artigo, não opcional. Ele captura novamente qualquer etapa 4 perdida (redundância, tom, incompatibilidade de voz com linhas ao redor).
 
 6. **Propor edições.** Mostrar trechos antes/depois (ou uma descrição focalizada no estilo diff) do artigo, abrangendo: inserção de trechos, renomeações de cabeçalhos, novo conteúdo na Pré-visualização e onde ele se encontra, referência de captura de tela e quaisquer `class="preview"` wraps incorporados.
 
@@ -217,12 +210,18 @@ Executar esta lista de verificação completa para **a cada** artigo na sessão 
 - Duplicações por linha: o original `<tr>` é byte por byte inalterado; o novo `<tr class="preview">` tem ambas as células encapsuladas em `<span class="preview">`; o rótulo é um rótulo novo curto + minúsculas &quot;na pré-visualização&quot; (não o rótulo original + &quot;(na Pré-visualização)&quot;); qualquer nota suplementar usa `<br>` + `Note:` embutido, não um `<p>` aninhado.
 - Se o mesmo campo aparecer em mais de uma variante de procedimento (Básico/Avançado, herdado/ESM), cada nova linha da redação corresponderá ao comportamento real dessa variante em vez de ser copiada e colada de outra variante.
 - A nova prosa marcada como pré-visualização é lida como uma descrição de campo/comportamento simples, não uma entrada de log de alterações, e não reafirma redundantemente uma instrução inalterada.
+- A habilidade `writing-quality` foi invocada na prosa rascunhada deste artigo (ambos os grupos).
 - `ReadLints` está limpo no arquivo editado.
 - O artigo é lido corretamente em ambos os estados (com o conteúdo da pré-visualização exibido e oculto).
 
 ## Referências
 
-- Estilo da documentação do Workfront: consulte a habilidade **qualidade de escrita** em `~/.cursor/skills/writing-quality/SKILL.md`.
+- Estilo de documentação do Workfront: **invoque a `writing-quality` habilidade** através da ferramenta Habilidade (fonte: `.cursor/skills/writing-quality/`).
 - Catálogo de trechos: `help/_includes/snippets.md` no repositório de documentos.
 - Limpeza de GA (fluxo de trabalho inverso): consulte a habilidade **remove-preview-highlighting** em `.cursor/skills/remove-preview-highlighting/SKILL.md`.
 - Adobe Wiki MCP para PRDs: servidor `user-Adobe Wiki Confluence`, ferramenta `get_wiki_content`.
+source-git-commit: 60f7b8b7fc731d649d4d10910b38acda1b1d6891
+workflow-type: tm+mt
+source-wordcount: 2118
+ht-degree: 0%
+---
