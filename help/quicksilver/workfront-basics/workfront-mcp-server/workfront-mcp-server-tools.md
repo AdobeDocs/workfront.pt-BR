@@ -5,13 +5,12 @@ title: Ferramentas de servidor Adobe Workfront MCP
 description: Lista de referência das ferramentas disponíveis no servidor MCP do Adobe Workfront, agrupadas por área do Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2811'
 ht-degree: 4%
 
 ---
-
 
 # Ferramentas de servidor Adobe Workfront MCP
 
@@ -287,6 +286,10 @@ Exemplo de prompts:
 ### Ferramentas do Insights
 
 As ferramentas do Insights recuperam informações sobre objetos do Workfront.
+
+>[!NOTE]
+>
+>Os dados de insights são quase em tempo real, com uma SLA de até aproximadamente 15 minutos. As alterações feitas no Workfront podem não aparecer imediatamente nos resultados do Insights.
 
 | Título | Nome da ferramenta | O que faz | Ação |
 | --- | --- | --- | --- |

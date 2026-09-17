@@ -5,13 +5,12 @@ title: Usar o servidor MCP do Adobe Workfront
 description: Use o servidor MCP do Adobe Workfront para pesquisar, criar, atualizar e gerenciar itens do Workfront por meio de conversas em linguagem natural em uma plataforma de agente de IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
-
 
 # Usar o servidor MCP do Adobe Workfront
 
@@ -138,6 +137,12 @@ Para forçar a plataforma de agente de IA a buscar dados novos, solicite-os expl
 
 * *Obtenha os dados mais recentes do Workfront. Não usar resultados em cache.*
 
+### Os dados de insights são quase em tempo real, não instantâneos
+
+As ferramentas do Insights usadas para localizar, filtrar e relatar dados do Workfront refletem alterações em tempo quase real, com uma service level agreement (SLA) de até aproximadamente 15 minutos. Se você fizer uma alteração no Workfront e perguntar imediatamente sobre ela, a resposta pode não refletir essa alteração.
+
+Se precisar confirmar uma alteração muito recente, aguarde alguns minutos e pergunte novamente, ou verifique diretamente no Workfront.
+
 ### Verificar se há atualizações para o servidor MCP do Workfront
 
 Você pode querer atualizar periodicamente sua conexão com o servidor MCP do Workfront para garantir que você tenha as ferramentas e os recursos mais recentes.
@@ -167,6 +172,7 @@ A Workfront não tem controle sobre como o provedor da plataforma de agente de I
 | Problema | Causa provável | Corrigir |
 | --- | --- | --- |
 | A plataforma de agente de IA está fornecendo informações desatualizadas. | A plataforma de agente de IA está reutilizando dados do início da conversa. | Solicite dados novos do Workfront. |
+| Os dados que você acabou de alterar no Workfront ainda não aparecem. | Os dados de insights são quase em tempo real, com uma SLA de até 15 minutos. | Aguarde alguns minutos e pergunte novamente, ou verifique diretamente no Workfront. |
 | A plataforma de agente de IA retornou dados dos itens incorretos do Workfront. | A plataforma de agente de IA escolheu os itens errados com base em termos ambíguos. | Pergunte novamente com nomes, IDs ou filtros mais específicos. |
 | Uma atualização ou exclusão não entrou em vigor no Workfront. | O administrador do Workfront desativou as ações de gravação do servidor MCP do Workfront ou você não tem permissão para executar a ação no item específico. | Confirme com a plataforma do agente de IA se a ação foi executada. Em seguida, verifique se as ações de gravação estão ativadas para o servidor MCP do Workfront e se você tem permissão para alterar o item. |
 
