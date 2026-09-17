@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: bc90d9bf6c793baafc600e87d8e36570ee8fb58f
 workflow-type: tm+mt
-source-wordcount: '2919'
+source-wordcount: '2962'
 ht-degree: 7%
 ---
 # Visão geral da versão do quarto trimestre de 2026
@@ -15,7 +15,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Quarto trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -487,7 +487,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     &lt;tr>
     &lt;td>
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Relatórios de tabela dinâmica em Painéis de tela&lt;/a>
-    &lt;p>O novo tipo de relatório de tabela dinâmica em Painéis de tela agrega dados com roll-ups precisos e completos, com detalhamento nos registros subjacentes&lt;2>{td}&lt;2>&lbrace;p>&lbrace;p> 27, 2026&lt;/p>&lt;/td>
+    &lt;p>O novo tipo de relatório de tabela dinâmica em Painéis de tela agrega dados com roll-ups precisos e completos, com detalhamento nos registros subjacentes&lt;2>{td}&lt;2>{p>{p> 27, 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>17 de setembro de 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>15 de outubro de 2026&lt;/p>&lt;/td>
     &lt;/tr>
@@ -498,7 +498,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     &lt;/td>
     &lt;td>&lt;p>13 de agosto de 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>17 de setembro de 2026&lt;/p>&lt;/td>
-    &lt;1&rbrace; 2026&lt;/p>&lt;/td>
+    &lt;1} 2026&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
     &lt;td>
@@ -515,7 +515,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
     &lt;p>As opções selecionadas para campos personalizados de seleção múltipla agora são exibidas em uma ordem consistente e previsível em listas e relatórios herdados.&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>30 de julho de 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>13 de agosto de 2026&lt;/p>&lt;/td>&lt;p>52&rbrace; 15, 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>13 de agosto de 2026&lt;/p>&lt;/td>&lt;p>52} 15, 2026&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;/tbody>
 
@@ -620,14 +620,18 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 
 ## Atualizações do visualizador de prova para desktop
 
-### Versão 2.1.59
+### Versão 2.2.1
 
-Versão de produção para todos os clientes: 9 de setembro de 2026
+Versão de produção para todos os clientes: 16 de setembro de 2026
 
-O Desktop Proofing Viewer foi atualizado para a versão 2.1.59. Esta atualização inclui as seguintes alterações:
+O Visualizador de provas de desktop foi atualizado para a versão 2.2.1. Esta atualização inclui as seguintes alterações:
 
-* O Visualizador de provas de desktop agora está disponível como uma build nativa para Macs com silício Apple.
-* Atualização da estrutura subjacente do aplicativo (Eletron) para uma versão mais recente, que traz melhorias de desempenho e segurança.
+* Agora é possível abrir provas de qualquer ambiente (Produção, Pré-visualização, Sandbox e outros) no mesmo visualizador, sem reinstalar ao alternar.
+* Solução de um problema com a abertura de provas de um URL em regiões fora dos EUA.
+* O visualizador agora mantém as 10 provas mais recentes.
+* Atualização do logotipo do Workfront para a marca atual.
+* Foram adicionados mais detalhes à tela Sobre o Workfront Proof para acelerar a solução de problemas.
+* Atualização da estrutura subjacente (Eletron) para melhorias de desempenho e segurança.
 
 Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 
@@ -641,7 +645,7 @@ Se você for um administrador da Workfront com usuários de leitores de Data Con
 
 Essa alteração foi anunciada pela primeira vez nas notas de versão de abril de 2026 do Workfront e este é o lembrete final antes do prazo. Certifique-se de que todos os usuários de leitores afetados ativem o MFA antes de 8 de agosto de 2026 para evitar a interrupção de seu acesso.
 
-Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/pt-br/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Atualizações de treinamento
 

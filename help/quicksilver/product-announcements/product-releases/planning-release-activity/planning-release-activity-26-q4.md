@@ -6,16 +6,71 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
+source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 1%
+source-wordcount: '2057'
+ht-degree: 0%
 ---
 # Atividade da versão do quarto trimestre de 2026 para o Adobe Workfront Planning
 
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Quarto trimestre de 2026.
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## CX Coworker agora disponível no Workfront Planning
+
+>[!NOTE]
+>
+>Visualização: 3 de setembro de 2026
+>Versão rápida de produção: 17 de setembro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+O CX Coworker agora está disponível no Workfront Planning. Agora, você pode acessar o CX Coworker em um painel que está disponível em todo o Workfront Planning.
+
+O CX Coworker Chat é uma interface conversacional para realizar o trabalho. Descreva uma meta em linguagem simples e o Colaborador planeja o trabalho, executa-o no Workfront Planning e em seus sistemas Adobe conectados, valida os resultados e retorna o trabalho concluído a você para aprovação.
+
+O parceiro respeita os controles de acesso existentes de sua organização, com acesso somente leitura por padrão e os administradores de sistema controlam quando os usuários obtêm acesso de gravação.
+
+O parceiro de trabalho está substituindo o Assistente de IA atual como uma maneira mais eficiente de realizar o trabalho. O colaborador faz parte do ecossistema do Adobe e não está limitado ao Workfront Planning.
+
+>[!IMPORTANT]
+>
+>Atualmente, o CX Coworker não está disponível para organizações de assistência médica, finanças ou alguns outros setores com dados confidenciais. O Assistente de IA está disponível para essas organizações.
+
+Para obter mais informações, consulte [visão geral do CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+
+<!--
+
+## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+
+>[!NOTE]
+>
+>Preview: September 16, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+This change is available for customers who have the CX Coworker in Workfront.
+
+In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+
+For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+-->
+
+## Experiência aprimorada ao duplicar registros que têm campos conectados com um tipo de conexão Um para um ou Um para muitos
+
+>[!NOTE]
+>
+>Visualização: 17 de setembro de 2026
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Agora os registros podem ser duplicados mesmo quando existem registros conectados um para um ou um para muitos. Após a duplicação, os usuários podem optar por manter o registro conectado no registro original ou conectá-lo ao novo registro. Manter no original é a opção padrão.
+
+A caixa de diálogo Resolução de conflitos de conexão foi atualizada para refletir esse novo comportamento e fornecer maior flexibilidade ao gerenciar registros conectados.
+
+Para obter informações, consulte [Registros duplicados](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 ## Gerenciar a visibilidade das miniaturas e cores dos registros a partir da coluna de campo principal na exibição de tabela
 
