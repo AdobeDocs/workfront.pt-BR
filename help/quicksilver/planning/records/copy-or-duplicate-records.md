@@ -11,28 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yk-q-wKrbIgyxw3WAz9un5HTNpwtdwFqaPFUQ6PzhT0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 3%
-
+source-wordcount: '714'
+ht-degree: 2%
 ---
-
 # Duplicar registros
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<!--Remove Prod and Preview references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -178,6 +182,11 @@ Você pode criar registros na exibição de tabela de uma página de tipo de reg
      ![Duplicar ícone na barra de ferramentas na exibição de tabela](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Um registro idêntico com um nome idêntico é criado abaixo do registro original. Todos os campos do novo registro são preenchidos com as mesmas informações do registro original.
+
+1. (Condicional) Se o registro que você está duplicando estiver conectado a um registro em um tipo de conexão Um para um ou Um para muitos, clique em uma das opções a seguir, dependendo do ambiente que você está usando:
+
+   * No ambiente de Produção, clique em **Conectar** para remover o registro conectado do original e adicioná-lo ao registro duplicado, ou clique em **Cancelar** se não quiser continuar duplicando o registro.
+   * <span class="preview">No ambiente de Visualização, clique em **Conectar-se ao novo registro** se desejar que o registro conectado seja movido para o novo registro, ou clique em **Manter no original** se desejar que o registro conectado permaneça no original. O registro duplicado não terá um registro conectado nesse campo.</span>
 
 1. (Opcional) Comece a atualizar as informações sobre o novo registro nos campos disponíveis na exibição de tabela ou clique no registro e atualize as informações na visualização ou página do registro.
 
