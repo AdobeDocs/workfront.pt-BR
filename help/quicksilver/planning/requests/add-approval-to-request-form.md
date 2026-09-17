@@ -11,25 +11,31 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/E9LEGJ8T822JuvIO3s8nn6UkLbX-j4ffwaKSviKxl0o
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+    internal-label: Administration
+source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 3%
-
 ---
-
-# Adicionar uma aprovação a um formulário de solicitação no Adobe Workfront Planning
+# Adicionar uma aprovação a um formulário de solicitação no Planejamento do Adobe Workfront
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -42,6 +48,8 @@ ht-degree: 3%
 {{planning-important-intro}}
 
 Você pode adicionar um processo de aprovação a um formulário de solicitação do Adobe Workfront Planning para iniciar uma aprovação para cada solicitação submetida, antes que ele crie um registro.
+
+<!--<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
 
 Este artigo descreve como um gerente de espaço de trabalho pode adicionar uma aprovação a um formulário de solicitação associado a um tipo de registro.
 
@@ -171,7 +179,7 @@ Para definir regras de aprovação para um formulário de solicitação:
 
 1. (Opcional) Comece a adicionar regras de aprovação. Para cada regra de aprovação personalizada, faça o seguinte:
 
-   1. Clique em **Adicionar regra de aprovação**
+   1. Clique em **Adicionar regra de aprovação**.
    1. Clique no título do espaço reservado **Regra de aprovação sem título** e insira um nome para a regra de aprovação.
    1. Clique em **Selecionar um campo** e selecione o campo que ativa a regra.
    1. Selecione o operador para a regra. Os operadores variam de acordo com o tipo de campo.
@@ -179,6 +187,8 @@ Para definir regras de aprovação para um formulário de solicitação:
    1. (Opcional) Clique em **Adicionar condição** para adicionar mais condições e conectá-las por instruções **And** ou **Or** configurando as condições adicionais como nas etapas C-E.
    1. Na área **Ações** da regra de aprovação, no campo **Aprovadores**, adicione pelo menos um usuário ou equipe a ser definido como aprovador quando a condição for atendida.
    1. (Condicional e opcional) Se quiser que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**. Caso contrário, todos os aprovadores devem decidir sobre a aprovação antes que a solicitação seja aceita ou rejeitada.
+
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
 
    >[!NOTE]
    >
@@ -190,3 +200,35 @@ Para definir regras de aprovação para um formulário de solicitação:
 
 1. Clique em **Salvar** para salvar as regras de aprovação.
 1. (Opcional) Clique em **Publicar** se você nunca compartilhou o formulário de solicitação antes.
+
+
+
+
+<!--
+
+MOVE THIS SECTION UNDER LINE 172 FOR PREVIEW RELEASE
+
+<div class="preview">
+
+1. (Optional) To add more stages to the approval, do the following:
+
+   1. Click **Add stage**.
+   
+      The **Multi-stage approval** box appears. If you already created a default approval action, those approvers are automatically added to Stage 1.
+
+   1. In the **Add people or teams** field, add at least one user or team to be set as the approver for the stage.
+   1. (Conditional and optional) If you want the record to advance to the next stage after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request moves to the next stage.
+   1. Click **Add stage** and repeat from step B to add more stages to the approval.
+
+      When two or more stages exist, you can click the **Drag** icon ![Drag icon](assets/drag-icon.png) to drag and drop them in order.
+
+      Click **Delete this stage** to delete a stage from the approval, or click the **Delete** icon ![Delete icon](assets/delete.png) next to an approver to delete the user or team from the list of approvers in a stage.
+
+      ![Multi-stage approval box](assets/planning-request-multi-stage-approval-box.png)
+
+   1. When you are finished building the approval workflow, click **Save**.
+
+      You can edit or delete the multi-stage approval from the Approvals page.
+
+</div>
+-->
