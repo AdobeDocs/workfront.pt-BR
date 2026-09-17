@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
+source-git-commit: d53ae5afd949644baf18d6a4f0ba8f30b80fa1e5
 workflow-type: tm+mt
 source-wordcount: '3066'
 ht-degree: 2%
@@ -205,12 +205,12 @@ Para criar um formulário de solicitação, você deve preencher o seguinte:
    * **Rótulo**: este é o nome do campo como ele aparecerá no formulário de solicitação. Isso não altera o nome do campo de registro.
    * **Instruções**: adicione mais informações sobre o campo.
    * **Criar um campo obrigatório**: quando selecionado, o campo deve ter um valor. Caso contrário, o formulário não poderá ser enviado.
-   * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto.
+   * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
 
    >[!TIP]
    >
-   >   O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.
-   >     
+   >O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.
+
 1. (Opcional) Clique com o botão direito do mouse em um campo, arraste-o e solte-o em outra posição do formulário.
 1. (Opcional) Clique na guia **Elementos de conteúdo** no lado esquerdo do formulário e adicione qualquer um dos seguintes elementos:
 
