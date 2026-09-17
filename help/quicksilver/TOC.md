@@ -3,13 +3,11 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: 4f6ce5b53e3c85225ad82cb88c699aa4871526cc
 workflow-type: tm+mt
-source-wordcount: '14542'
+source-wordcount: '14563'
 ht-degree: 92%
-
 ---
-
 # Guia do Workfront {#using}
 
 * [Documentação do Workfront](home.md)
@@ -1645,7 +1643,9 @@ ht-degree: 92%
     * Gerenciar relatórios {#manage-reports}
       * [Gerenciar relatórios: índice do artigo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [Editar um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-      * [Editar filtros de relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      * [Filtrar um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+      * [Referência de filtro de relatório para Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+      * [Agrupar dados de relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
       * [Duplicar um relatório em um painel de tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [Excluir um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * Relatórios {#reports}
@@ -1849,6 +1849,7 @@ ht-degree: 92%
     * [Criar uma conta ou conexão de leitor para o Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Estabelecer uma conexão com a conexão de dados do Workfront](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Dicionário de dados da conexão de dados do Workfront](reports-and-dashboards/data-lake/data-dictionary.md)
+    * {hide-from-toc}[Registrar uma lista privada para o Workfront Data Connect](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc}[teste do dicionário de dados](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Exemplos de consulta da conexão de dados do Workfront](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Visualizar métricas de uso da conexão de dados do Workfront](reports-and-dashboards/data-lake/view-usage-metrics.md)

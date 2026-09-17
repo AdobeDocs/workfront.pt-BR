@@ -11,20 +11,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1971
+source-wordcount: '1860'
 ht-degree: 8%
-
 ---
-
 # Criar um relatório de gráfico em um painel da tela
 
 >[!IMPORTANT]
@@ -175,12 +178,9 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 
 ### Filtros
 
-Siga as etapas abaixo para configurar a seção **Filtro**:
+No painel esquerdo, clique no ícone **Filtro** ![Filtro](assets/filter-icon.png) e configure as condições que determinam quais dados são exibidos.
 
-1. No painel esquerdo, clique no ícone **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
-1. Selecione **Editar filtro**.
-1. Clique em **Adicionar condição** e especifique o campo pelo qual deseja filtrar e o modificador que define o tipo de condição que o campo deve atender.
-1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
+Para obter mais informações, consulte [Filtrar um relatório em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 ### Configurações de detalhamento
 
@@ -194,13 +194,11 @@ Siga as etapas abaixo para configurar a seção **Configurações de Coluna de D
 
 ### Configurações do grupo de detalhamento
 
-Siga as etapas abaixo para configurar a seção **Configurações do Grupo de Detalhamento**:
+No painel esquerdo, clique no ícone **Configurações do Grupo de Detalhamento** ![Configurações do Grupo](assets/drilldown-group-icon.png) e adicione agrupamentos para a tabela de detalhamento.
 
-1. No painel esquerdo, clique no ícone **Configurações de grupo** ![Configurações de grupo](assets/drilldown-group-icon.png).
+Para obter mais informações, consulte [Configurar agrupamentos de detalhamento no gráfico e relatórios de KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports) em [Agrupar dados de relatório em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
-1. Clique no botão **Adicionar agrupamento** e selecione o campo que deseja criar como agrupamento.
-
-1. Clique em **Salvar** para criar o relatório e adicioná-lo ao painel.
+Clique em **Salvar** para criar o relatório e adicioná-lo ao painel.
 
 ## Criar um exemplo de relatório de gráfico
 
@@ -266,7 +264,7 @@ Nesta seção, veremos as etapas para criar um gráfico de colunas que mostra as
 
    1. Insira *$$TODAY* no campo avaliador.
 
-      Para obter mais informações sobre curingas, consulte a seção Variáveis de filtro de curingas com base em data no artigo [Editar filtros de relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+      Para obter mais informações, consulte [Variáveis de filtro curinga baseadas em data](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#date-based-wildcard-filter-variables) em [Referência de filtro de relatório para Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 
       ![Campo avaliador](assets/add-condition.png)
 
@@ -326,10 +324,4 @@ Depois que o objeto de entidade base for selecionado, o menu suspenso **Seções
 
 ### Fazendo referência a objetos filho
 
-Os relacionamentos disponíveis para colunas adicionais, opções de filtro e atributos de agrupamento geralmente são limitados a objetos superiores na hierarquia de objetos do Workfront ou têm uma única seleção no objeto de entidade base do relatório. Há algumas exceções a isso, que incluem:
-
-* Projeto > Tarefas
-* Aprovação de documento > Estágios de aprovação de documento
-* Estágios de aprovação de documento > Participantes do estágio de aprovação de documento
-
-Ao utilizar qualquer uma das relações pai-filho listadas acima, você verá uma linha na tabela para cada registro filho conectado ao objeto pai.
+Algumas relações pai-filho estão disponíveis para colunas, filtros e agrupamentos. Para obter mais informações, consulte [Referenciando objetos filho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects) em [Referência do filtro de relatório para Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).

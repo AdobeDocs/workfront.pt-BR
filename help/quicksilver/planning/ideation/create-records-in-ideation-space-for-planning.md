@@ -3,7 +3,7 @@ title: Criar registros de planejamento a partir de resumos do espaço de ideaç�
 description: Usando o Espaço de ideação, um novo recurso do Adobe Workfront Planning, você pode transformar resumos em registros do Planning. Os resumos exportados criam novos registros ou atualizam os existentes. Este artigo descreve como criar ou editar registros existentes do Planning usando o espaço Ideação.
 role: User, Admin
 author: Alina
-source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
+source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -224,7 +224,7 @@ Não é possível editar registros em massa no espaço de ideação.
 
 
 
-<!-- 
+<!--
 this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
