@@ -5,21 +5,20 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: ac94936cc4dc9dc4f2d56b3f1221f71a405c5c65
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 3%
+source-wordcount: '1335'
+ht-degree: 2%
 ---
 
 # Compartilhar campos do Workfront Planning
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Você pode compartilhar o campo de um registro do Workfront Planning com outras pessoas para garantir a colaboração ao usar o Adobe Workfront Planning.
 
@@ -87,9 +86,15 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 * O acesso a um campo vem da combinação das seguintes configurações:
 
   * **Permissões herdadas**: por padrão, um campo herda o mesmo acesso que alguém tem no tipo de registro. Você pode desativar as Permissões herdadas e conceder aos usuários um acesso ao campo menor do que eles têm para o tipo de registro.
-  * O **Todos no espaço de trabalho podem exibir** ou **Somente pessoas convidadas podem acessar** a seleção. Você pode permitir que qualquer pessoa com permissões para o espaço de trabalho exiba o campo ou conceder permissões somente a entidades individuais.
+  * O **Todos com acesso ao tipo de registro podem exibir** ou **Somente pessoas convidadas podem acessar a seleção**. Você pode permitir que qualquer pessoa com permissões para o espaço de trabalho exiba o campo ou conceder permissões somente a entidades individuais.
 
   Se várias regras se aplicarem à mesma pessoa, ela receberá a permissão mais alta disponível de uma das regras.
+
+* Para tornar um campo somente para visualização para todos em um espaço de trabalho, verifique se a seguinte configuração existe:
+
+  * Desativar permissões herdadas
+  * Manter a configuração **Todos com acesso ao tipo de registro podem exibir**
+  * Não adicione entidades individuais.
 
 * Dependendo das permissões de tipo de registro, os usuários podem receber as seguintes permissões de campo:
 
@@ -158,7 +163,7 @@ Como um gerenciador de espaço de trabalho, você pode ajustar permissões para 
 
    A caixa **Compartilhar** é aberta.
 
-1. (Opcional) Na área **Conceder acesso**, a opção **Todos os usuários do espaço de trabalho podem visualizar** é selecionada por padrão. Todos os usuários com permissões de **Exibição** ou superior para o espaço de trabalho e o tipo de registro têm as mesmas permissões para o campo.
+1. (Opcional) Na área **Conceder acesso**, a opção **Todos com acesso ao tipo de registro pode visualizar** é selecionada por padrão. Todos os usuários com permissões de **Exibição** ou superior para o espaço de trabalho e o tipo de registro têm as mesmas permissões para o campo.
 
 1. (Opcional) Clique nos avatares dos usuários na opção **Permissões herdadas de** para exibir usuários, equipes, grupos, empresas ou funções de trabalho que herdam permissões do espaço de trabalho.
 
@@ -177,6 +182,13 @@ Como um gerenciador de espaço de trabalho, você pode ajustar permissões para 
       >[!TIP]
       >
       >Os gerentes do Workspace continuam a ter permissões de gerenciamento para o tipo de registro e o campo.
+
+   1. (Opcional) Clique no menu suspenso **Todos com acesso ao tipo de registro podem exibir** e selecione **Somente pessoas convidadas podem acessar**.
+
+      >[!IMPORTANT]
+      >
+      >Essa alteração, juntamente com a desativação de **Permissões herdadas**, remove o acesso de todas as pessoas que podem exibir o tipo de registro e conceder acesso somente a pessoas designadas. Os gerentes e administradores do Workspace sempre terão acesso a todos os campos.
+
 
    1. Na caixa **Conceder acesso**, adicione os usuários, equipes, grupos, empresas ou funções de trabalho aos quais você deseja conceder um nível de permissão diferente daquele que eles têm para o espaço de trabalho ou tipo de registro.
 
