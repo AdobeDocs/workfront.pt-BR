@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bc90d9bf6c793baafc600e87d8e36570ee8fb58f
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '2962'
+source-wordcount: '2853'
 ht-degree: 7%
 ---
 # Visão geral da versão do quarto trimestre de 2026
@@ -189,12 +189,12 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Co-worker disponível agora no Workfront</a>
-                <p>O CX Co-worker é uma nova interface conversacional para realizar o trabalho nos sistemas Workfront e Adobe conectados, substituindo o Assistente de IA atual.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker agora disponível no Workfront</a>
+                <p>O CX Coworker é uma nova interface conversacional para realizar trabalhos em sistemas Workfront e Adobe conectados, substituindo o Assistente de IA atual.</p>
             </td>
-            <td><p>3 de setembro de 2026</p></td>
-            <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>Implantação em fases, a partir de 3 de setembro de 2026</p></td>
+            <td><p>Implantação em fases, a partir de 17 de setembro de 2026</p></td>
+            <td><p>Implantação em fases, a partir de 15 de outubro de 2026</p></td>
         </tr>
 
     &lt;tr>
@@ -618,22 +618,24 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 * [Atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Atividade da versão do Adobe Workfront Planning do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
-## Atualizações do visualizador de prova para desktop
+<!--
+## Desktop proofing viewer updates
 
-### Versão 2.2.1
+### Version 2.2.1
 
-Versão de produção para todos os clientes: 16 de setembro de 2026
+Production release for all customers: September 16, 2026
 
-O Visualizador de provas de desktop foi atualizado para a versão 2.2.1. Esta atualização inclui as seguintes alterações:
+The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
 
-* Agora é possível abrir provas de qualquer ambiente (Produção, Pré-visualização, Sandbox e outros) no mesmo visualizador, sem reinstalar ao alternar.
-* Solução de um problema com a abertura de provas de um URL em regiões fora dos EUA.
-* O visualizador agora mantém as 10 provas mais recentes.
-* Atualização do logotipo do Workfront para a marca atual.
-* Foram adicionados mais detalhes à tela Sobre o Workfront Proof para acelerar a solução de problemas.
-* Atualização da estrutura subjacente (Eletron) para melhorias de desempenho e segurança.
+* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
+* Resolved an issue with opening proofs from a URL on non-US regions.
+* The viewer now keeps your 10 most recent proofs.
+* Updated the Workfront logo to the current branding.
+* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
+* Updated the underlying framework (Electron) for performance and security improvements.
 
-Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+-->
 
 ## Avisos
 

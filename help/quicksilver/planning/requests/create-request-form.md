@@ -11,25 +11,31 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+    internal-label: Administration
+source-git-commit: d53ae5afd949644baf18d6a4f0ba8f30b80fa1e5
 workflow-type: tm+mt
-source-wordcount: 3066
+source-wordcount: '3066'
 ht-degree: 2%
-
 ---
-
-# Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning
+# Criar e gerenciar um formulário de solicitação no Planejamento do Adobe Workfront
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -199,12 +205,12 @@ Para criar um formulário de solicitação, você deve preencher o seguinte:
    * **Rótulo**: este é o nome do campo como ele aparecerá no formulário de solicitação. Isso não altera o nome do campo de registro.
    * **Instruções**: adicione mais informações sobre o campo.
    * **Criar um campo obrigatório**: quando selecionado, o campo deve ter um valor. Caso contrário, o formulário não poderá ser enviado.
-   * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto.
+   * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
 
    >[!TIP]
    >
-   >   O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.
-   >     
+   >O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.
+
 1. (Opcional) Clique com o botão direito do mouse em um campo, arraste-o e solte-o em outra posição do formulário.
 1. (Opcional) Clique na guia **Elementos de conteúdo** no lado esquerdo do formulário e adicione qualquer um dos seguintes elementos:
 
@@ -237,6 +243,7 @@ Considere o seguinte ao adicionar regras de aprovação:
 * Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na área Solicitações do Workfront.
 * Se você adicionar mais de um aprovador e a opção Somente uma decisão é obrigatória não estiver ativada, todos os aprovadores deverão tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
 * Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
+  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
 
 Para obter mais informações sobre como adicionar aprovações, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
@@ -255,11 +262,13 @@ Para definir configurações de formulário:
 
    ![Área de regra de aprovação padrão](assets/default-approvers.png)
 
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
+
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (Opcional) Para cada regra de aprovação adicional, faça o seguinte:
 
-   1. Clique em **Adicionar regra de aprovação**
+   1. Clique em **Adicionar regra de aprovação**.
    1. Clique no título do espaço reservado &quot;Regra de aprovação sem título&quot; e insira um nome para a regra de aprovação.
    1. Clique em **Selecionar um campo** e selecione o campo que ativa a regra.
    1. Selecione o operador para a regra. Os operadores variam de acordo com o tipo de campo.
@@ -267,6 +276,8 @@ Para definir configurações de formulário:
    1. (Opcional) Adicione mais condições usando AND ou OR ao clicar em Add condition e configurar a condição adicional.
    1. Na área Ações da regra de aprovação, no campo **Aprovadores**, adicione pelo menos um usuário ou equipe a ser definido como o aprovador quando a condição for atendida.
    1. (Condicional) Se desejar que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.
+
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
 
 1. (Opcional) Para reordenar as regras de roteamento, clique na alça de arrastar no lado esquerdo da regra e arraste a regra para o local desejado.
 
