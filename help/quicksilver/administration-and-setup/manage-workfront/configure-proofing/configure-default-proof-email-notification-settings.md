@@ -11,20 +11,23 @@ exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
 TQID: https://experienceleague.adobe.com/QxKE6DZTT7NHafvJRPKXYQs05EWCqEOa8UUMJIopn7s
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 5de70fe4958126ab0491f173505113adc9edc36c
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 10%
-
+source-wordcount: '303'
+ht-degree: 9%
 ---
-
 # Definir configurações padrão de notificação por email de prova
 
 Os usuários de revisão no Adobe Workfront podem receber notificações por email do Workfront e do Workfront Proof quando comentários ou decisões são tomadas em uma prova. Se os usuários já estiverem recebendo notificações por email do Workfront Proof, recomendamos desativar as notificações enviadas pelo Workfront para evitar emails de notificação duplicados.
@@ -68,9 +71,9 @@ Para definir as configurações de notificação por email de prova enviadas pel
 
 1. Expanda **Email** e clique em **Revisar e aprovar**.
 
-1. Na seção **Notificações de prova no Workfront**, decida se deseja habilitar ou desabilitar a opção Enviar emails do Workfront quando um comentário for feito em uma prova.
+1. Na seção **Notificações de Prova no Workfront**, decida se deseja habilitar ou desabilitar a opção, **Enviar notificações do Workfront quando um comentário for feito em uma prova**.
 
-   * Quando essa configuração estiver ativada, os usuários recebem um email do Workfront quando um comentário é feito em uma prova.
-   * Quando essa configuração está desativada, os usuários não recebem um email do Workfront quando um comentário é feito em uma prova.
+   * Quando essa configuração estiver ativada, os usuários recebem um email do Workfront quando um comentário é feito em uma prova. Uma notificação no aplicativo do Workfront também é exibida.
+   * Quando essa configuração está desativada, os usuários não recebem uma notificação por email ou no aplicativo da Workfront quando um comentário é feito em uma prova.
 
 1. Clique em **Salvar**.
