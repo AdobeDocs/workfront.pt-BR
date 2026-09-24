@@ -13,20 +13,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1550'
 ht-degree: 4%
-
 ---
-
 # Visualizar solicitações enviadas
 
 <!--
@@ -56,8 +59,9 @@ A área Solicitações exibe as seguintes solicitações, dependendo de como voc
   >[!NOTE]
   >
   >* Você só pode exibir seus próprios rascunhos de solicitações.
-  >* Na nova experiência de solicitação, as solicitações e os rascunhos enviados estão na mesma lista.
+  >* Na nova experiência de solicitação, as solicitações e os rascunhos enviados são encontrados na mesma lista.
   >* Os rascunhos criados na experiência herdada não são exibidos na nova experiência de solicitação.
+  >* Na nova experiência de solicitação, você pode ver solicitações antigas do Workfront somente de julho de 2025 até o presente. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
 
 ## Requisitos de acesso
 
@@ -166,8 +170,8 @@ Para exibir solicitações que você ou outros usuários enviaram na nova experi
    * **Em Revisão**: (somente Planning) essa solicitação tem aprovadores e pelo menos um aprovador abriu a solicitação, mas nenhuma decisão foi tomada. Este status é embutido em código.
    * **Rejeitada**: (somente Planning) esta solicitação tem aprovadores e foi rejeitada. Esta solicitação não criará um registro. Este status é embutido em código.
    * **Em andamento**:
-      * Solicitações do Workfront: a solicitação foi convertida e o trabalho está em andamento.
-      * Solicitações do Workfront Planning: a conclusão da solicitação é mapeada para um campo do Planning específico e o valor do campo ainda não corresponde ao valor de conclusão.
+     * Solicitações do Workfront: a solicitação foi convertida e o trabalho está em andamento.
+     * Solicitações do Workfront Planning: a conclusão da solicitação é mapeada para um campo do Planning específico e o valor do campo ainda não corresponde ao valor de conclusão.
    * **Em Espera**: está disponível para solicitações do Workfront. Ele pode ser definido manualmente pelos usuários.
    * **Concluído**: o registro do Planning foi criado, o que conclui a solicitação. (Somente Planning)
    <!--

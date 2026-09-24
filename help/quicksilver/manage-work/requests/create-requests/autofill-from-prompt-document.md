@@ -10,28 +10,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1495
-ht-degree: 7%
-
+source-wordcount: '1764'
+ht-degree: 6%
 ---
-
 # Usar o Preenchimento de formulários com tecnologia de IA para preencher uma solicitação usando prompts ou documentos
 
 >[!NOTE]
 >
 >Para usar essa funcionalidade, sua organização deve atender aos requisitos para usar o Assistente de IA da Workfront. Para obter detalhes, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-O Preenchimento de formulário de IA pode ajudar a preencher automaticamente os campos de solicitação com base em um prompt inserido. Ele também pode preencher campos com base em texto, como emails ou documentos carregados. Você pode aprovar ou rejeitar essas sugestões antes de enviar a solicitação.
+O Preenchimento de formulário de IA pode ajudar a preencher automaticamente os campos de solicitação com base em um prompt inserido. Ele também pode preencher campos com base nas seguintes informações adicionadas ao prompt:
+
+* Um email
+* Documentos carregados
+* Um link para um projeto, tarefa ou problema.
+
+Você pode aprovar ou rejeitar essas sugestões antes de enviar a solicitação.
 
 Essa funcionalidade está disponível ao criar uma solicitação na área Solicitações do Workfront, para solicitações do Workfront e do Workfront Planning.
 
@@ -155,6 +165,7 @@ Para usar sugestões com base em um prompt de texto colado:
    >[!NOTE]
    >
    >Quaisquer sugestões não revisadas serão automaticamente aceitas quando você enviar a solicitação.
+1. Clique em **Enviar** para enviar a solicitação.
 
 ### Exemplos de prompt de texto
 
@@ -342,6 +353,43 @@ Você pode carregar um documento para ser aplicado a todo o formulário ou a uma
    >[!NOTE]
    >
    >Quaisquer sugestões não revisadas serão automaticamente aceitas quando você enviar a solicitação.
+1. Clique em **Enviar** para enviar a solicitação.
+
+### Adicionar um link para outro objeto para preencher uma solicitação automaticamente
+
+Você pode adicionar um link para um projeto, tarefa ou problema existente ao seu prompt para ser aplicado a todo o formulário ou a uma única seção do formulário.
+
+1. Vá para um projeto, tarefa ou problema cujas informações você deseja incluir em uma nova solicitação e copie o link do objeto da linha de endereço do navegador para a área de transferência.
+
+   O projeto, tarefa ou problema deve estar na mesma instância do Workfront que a solicitação.
+
+1. Comece a criar uma solicitação.
+
+   Para obter instruções, consulte [Criar e enviar solicitações](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+1. Para aplicar informações de um objeto vinculado a todo o formulário, clique no **ícone de IA** ![ícone de IA](assets/request-prompt-icon.png) sob o nome do formulário.
+
+   Ou
+
+   Para aplicar as informações do objeto vinculado para uma única seção, clique no **ícone de IA** ![ícone de IA](assets/request-prompt-icon.png) ao lado do nome da seção.
+
+1. Comece a adicionar o prompt e cole o link copiado do projeto, tarefa ou problema na janela de prompt.
+1. (Condicional) Clique em **Aplicar ao formulário** ou **Aplicar à seção**.
+1. Clique em **Preencher o formulário** ou **Preencher a seção**.
+
+   O Workfront gera sugestões para o formulário.
+1. Para cada sugestão de campo, clique nos ícones **Aceitar sugestão** ou **Rejeitar sugestão** para esse campo.
+
+   ![Aceitar ou rejeitar sugestão](assets/accept-reject-suggestion.png)
+
+   Ou
+
+   Selecione **Aceitar tudo** ou **Rejeitar tudo** na parte superior da página para aceitar ou rejeitar todas as sugestões.
+
+   >[!NOTE]
+   >
+   >Quaisquer sugestões não revisadas serão automaticamente aceitas quando você enviar a solicitação.
+1. Clique em **Enviar** para enviar a solicitação.
 
 ## Solução de problemas
 
