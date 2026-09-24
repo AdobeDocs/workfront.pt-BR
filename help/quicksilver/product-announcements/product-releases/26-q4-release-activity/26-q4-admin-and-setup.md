@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador do quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: 64a18dc29c447ca4703fb25102663952942790ca
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1382'
 ht-degree: 1%
 ---
 # Aprimoramentos do administrador do quarto trimestre de 2026
@@ -14,6 +14,18 @@ ht-degree: 1%
 Esta página descreve as melhorias de Administrador feitas com a versão do Quarto trimestre de 2026 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Adicionar URLs de redirecionamento autorizados para integrações MCP
+
+>[!NOTE]
+>
+>Visualização: 22 de setembro de 2026
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Para tornar os servidores MCP da Workfront mais flexíveis e personalizáveis para sua organização, adicionamos a capacidade de adicionar URLs de retorno de chamada OAuth personalizados. Agora, os administradores do Workfront podem manter o incluo na lista de permissões de URLs de retorno de chamada OAuth confiáveis de sua própria organização para integrações de MCP. Isso permite conectar plataformas de agentes de IA personalizadas cujo URL de retorno de chamada do OAuth é exclusivo à sua organização, além das plataformas compatíveis nativamente com o Workfront.
+
+Para obter mais informações, consulte [Adicionar ou remover uma URL de redirecionamento autorizada](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url) em [Configurar preferências do sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 <!--
 

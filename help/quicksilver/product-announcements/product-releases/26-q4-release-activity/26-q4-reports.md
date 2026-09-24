@@ -4,18 +4,34 @@ description: Melhorias na emissão de relatórios no quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
+source-git-commit: c94c1f3d662cee00a12c786063a4e4db2015361d
 workflow-type: tm+mt
 source-wordcount: '783'
-ht-degree: 6%
-
+ht-degree: 8%
 ---
-
 # Melhorias na emissão de relatórios no quarto trimestre de 2026
 
 Esta página descreve as melhorias de relatórios feitas com a versão do quarto trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+<!--
+
+## Filter on collection relationships in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+
+Previously, filtering on collection relationships required text mode.
+
+For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+
+-->
 
 ## Copiar painéis nos painéis da tela
 
@@ -56,10 +72,10 @@ Os seguintes nomes de campo usados em Painéis de tela para aprovações de docu
 | Aprovação de documento | Aprovação |
 | Estágio de aprovação do documento | Estágio de aprovação |
 | Participante do estágio de aprovação do documento | Participante do estágio de aprovação |
-| Processo de aprovação | Processo de aprovação de trabalho |
-| Estágio de aprovação | Estágio de aprovação de trabalho |
+| Processo de aprovação | Processo de aprovação do trabalho |
+| Estágio de aprovação | Etapa de aprovação do trabalho |
 | Status do aprovador | Status do aprovador do trabalho |
-| Aguardando Aprovação | Aguardando aprovação do trabalho |
+| Aguardando aprovação | Aguardando aprovação do trabalho |
 
 Essa alteração não afeta a forma como os relatórios atuais funcionam.
 

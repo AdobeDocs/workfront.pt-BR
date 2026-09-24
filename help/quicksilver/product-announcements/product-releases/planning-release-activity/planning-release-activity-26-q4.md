@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
+source-git-commit: 41d3ddbe55b225c4a3a969d773378d6156de05f1
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2398'
 ht-degree: 1%
 ---
 # Atividade da versão do quarto trimestre de 2026 para o Adobe Workfront Planning
@@ -16,6 +16,91 @@ ht-degree: 1%
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Quarto trimestre de 2026.
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Compartilhamento de campos no Workfront Planning
+
+>[!NOTE]
+>
+>Visualização: 24 de setembro de 2026
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Agora, os gerentes da Workspace podem controlar o acesso a campos individuais, permitindo que usuários e equipes específicos visualizem, editem ou sejam completamente restritos a dados confidenciais no mesmo tipo de registro.
+
+As permissões em nível de campo são aplicadas de forma consistente em exibições, detalhes de registros, formulários de solicitação, conexões, APIs e painéis, ajudando as organizações a gerenciar informações confidenciais com segurança.
+
+Os usuários sem acesso não veem campos restritos, enquanto os administradores podem configurar permissões sem reestruturar registros ou criar espaços de trabalho separados.
+
+Para obter informações, consulte [Compartilhar campos do Workfront Planning](/help/quicksilver/planning/access/share-fields.md).
+
+<!--
+
+## Share a Planning request
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now share a Planning request with others from the Requests area in the new request experience.
+
+You can give others one of the following permissions to the request: View, Contribute, or Manage.
+
+For information, see [Share Planning records](/help/quicksilver/planning/requests/share-requests.md).
+
+## Set up multi-stage approvals for Planning requests
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workspace administrators can now build single- or multi-stage approval processes for each Planning request form, assigning one or more approvers or teams to every stage and reusing existing approval templates to speed up setup. Requests advance automatically once all required approvers in a stage sign off, and each approver is notified when a request reaches their stage. Requesters and approvers can track which stage a request is in and see which approvals are still pending.
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Enhancements to display logic and field editing in Planning requests forms
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now create advanced display logic in Planning request forms based on connection field values, so forms adapt to what requesters select. All Planning fields, including connection fields, are supported when building this logic.
+
+In addition, you can now edit a field's options directly from the request form. For example, for select-field types, you can update the field choices, their order, and their default value from the request form. Previously, this capability was not available.
+
+For information, see [Create request form](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Configure capabilities for each access tier per request form
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workfront and workspace administrators can now indicate the level of permissions a requester receives on their requests when they configure the request form.
+
+Requesters can get the following permissions to a request they submitted: View, Contribute, or Manage. Users can comment, edit, share, or view a request, and the capabilities that are not shared with them are dimmed when viewing the sharing box from a request.
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+-->
+
+## O Preenchimento de formulário de IA agora extrai dados de registros referenciados com um link
+
+>[!NOTE]
+>
+>Pré-visualização e produção: 22 de setembro de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
+
+O Preenchimento de formulário de IA agora pode recuperar dados de campo diretamente de um registro de Planejamento referenciado por seu link e usá-lo como contexto ao preencher um formulário. Basta colar a URL direta do registro no prompt e seus detalhes serão puxados automaticamente para sugerir valores de formulário.
+
+Para obter informações, consulte [Usar preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 ## CX Coworker agora disponível no Workfront Planning
 
@@ -37,7 +122,7 @@ O parceiro de trabalho está substituindo o Assistente de IA atual como uma mane
 >
 >Atualmente, o CX Coworker não está disponível para organizações de assistência médica, finanças ou alguns outros setores com dados confidenciais. O Assistente de IA ainda está disponível para essas organizações.
 
-Para obter mais informações, consulte [Visão geral do CX Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Para obter mais informações, consulte [visão geral do CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 ## Remoção do ícone do Assistente de IA na caixa de visualização Detalhes, como preparo para a inicialização do CX Coworker
 
