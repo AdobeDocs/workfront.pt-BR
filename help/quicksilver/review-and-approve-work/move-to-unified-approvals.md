@@ -6,13 +6,27 @@ description: Entenda o que acontece com seus fluxos de trabalho de aprovação d
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 3%
-
 ---
-
 # Transferência de aprovações de documentos herdados para Aprovações unificadas
 
 A migração para uma versão do Workfront compatível com o Adobe Cloud Storage também move sua organização de aprovações de documentos herdados para aprovações unificadas. Este artigo fornece informações sobre qual funcionalidade estará disponível em Aprovações unificadas, bem como recomendações para administradores do Workfront que afastam os usuários das aprovações de documentos herdados.
@@ -32,7 +46,7 @@ A migração para uma versão do Workfront compatível com o Adobe Cloud Storage
 | Estágios e caminhos de aprovação | Uma fase de aprovação, sem caminhos paralelos | [Vários estágios de aprovação e caminhos de revisão paralela](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
 | Modelos de aprovação | Cada aprovação configurada do zero | [Modelos reutilizáveis](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) disponíveis na Instalação do Workfront |
 | Revisão e marcação | Visualizador de provas | [Visualizador de provas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) em objetos de armazenamento herdados do Workfront ou o [visualizador do Frame.io](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) em objetos de armazenamento na nuvem do Adobe |
-| Revisão assistida por IA | Não disponível | Verificações automáticas de conformidade da marca com o [Revisor de Conteúdo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
+| Revisão assistida por IA | Não disponível | Verificações automáticas de conformidade da marca com o [Revisor da IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Relatórios | Relatórios herdados | Widgets de KPI da página inicial e [Painéis do Canvas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
 
 ### O que acontece com as aprovações já em andamento
@@ -55,4 +69,4 @@ As aprovações em andamento que foram criadas em aprovações de documentos her
 * [Revisar e aprovar com o visualizador Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
 * [Usar recursos de aprovação unificada e revisão juntos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [Visão geral do status de decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-* [Introdução ao Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+* [Introdução ao Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
