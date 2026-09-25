@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3cd7a6fe3c719c8eba3c907512f66b2e285484b0
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3066'
+source-wordcount: '3098'
 ht-degree: 2%
 ---
 # Criar e gerenciar um formulário de solicitação no Planejamento do Adobe Workfront
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<!--this article needs to be re-built - the structure is odd; some of the information needs to move to other articles - like the approval information - there is a standalone approval article - move there-->
 
 <!--take Preview and Production references at Production time-->
 
@@ -70,7 +72,7 @@ Para obter informações sobre como enviar uma solicitação a um tipo de regist
    <td> 
 <ul> 
 <li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
-Ou
+   Ou
 <li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
    </td> </tr>
   <tr> 
@@ -90,7 +92,7 @@ Ou
   </tr>  
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Gerenciar permissões para um espaço de trabalho ou tipo de registro</a> </p>  
+   <td>   <p>Gerenciar permissões para um espaço de trabalho ou tipo de registro</p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
   </tr>  
 </tbody> 
@@ -202,14 +204,53 @@ Para criar um formulário de solicitação, você deve preencher o seguinte:
    1. Clique no ícone **x** para remover a **Seção padrão**.
 1. Clique em qualquer campo e use os controles no painel direito no formulário para definir seu tamanho ou qualquer uma das seguintes informações:
 
+   * **Size**: controla o espaço que o campo ocupa no formulário. Não disponível para todos os tipos de campo.
    * **Rótulo**: este é o nome do campo como ele aparecerá no formulário de solicitação. Isso não altera o nome do campo de registro.
    * **Instruções**: adicione mais informações sobre o campo.
-   * **Criar um campo obrigatório**: quando selecionado, o campo deve ter um valor. Caso contrário, o formulário não poderá ser enviado.
-   * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
+
+   <div class="preview">
+
+   * **Opções**: está disponível somente para campos selecionados. Siga um destes procedimentos:
+
+     * Clique em **Classificar opções de A a Z** para ordená-las automaticamente.
+     * Arraste e solte as opções ou ordene-as manualmente.
+     * Clique no ícone **Configurações** ![Ícone Configurações](assets/settings-icon.png) e **Selecione por Padrão** para indicar qual opção é a padrão ou **Ocultar opção** para ocultá-la.
+
+   </div>
 
    >[!TIP]
    >
-   >O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.
+   ><span class="preview">Não é possível renomear ou remover opções em um formulário de solicitação do Planning. Você deve editar as opções de campo na exibição de tabela do tipo de registro.</span>
+
+
+1. Na área **Configurações avançadas**, selecione uma das opções listadas abaixo. Nem todas as opções estão disponíveis para todos os tipos de campo.
+
+   * **Criar um campo obrigatório**: quando selecionado, o campo deve ter um valor. Caso contrário, o formulário não poderá ser enviado.
+   * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto. A lógica de adição está disponível somente quando os campos são, ou são precedidos por, campos de seleção única e múltipla. <span class="preview">As regras de validação e valor padrão não estão disponíveis para todos os tipos de campo.</span>
+
+     No ambiente de Produção, selecione uma das seguintes opções:
+
+     * **Lógica de Exibição**: o campo selecionado deve ser precedido por um campo de seleção múltipla ou única.
+     * **Lógica de salto**: adicionar regras de salto para quando os usuários devem ignorar o campo e deixá-lo em branco.
+
+     <div class="preview">
+
+     No ambiente de Pré-visualização, selecione uma das seguintes opções:
+
+     * **Exibir**
+     * **Ignorar**
+     * **Valor padrão**
+     * **Validação**
+     * **Formatação**
+     * **Capacidade de edição**
+
+     </div>
+
+     Para obter mais informações, consulte [Adicionar regras de lógica a formulários e campos personalizados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+
+     >[!TIP]
+     >
+     ><span class="preview">O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.</span>
 
 1. (Opcional) Clique com o botão direito do mouse em um campo, arraste-o e solte-o em outra posição do formulário.
 1. (Opcional) Clique na guia **Elementos de conteúdo** no lado esquerdo do formulário e adicione qualquer um dos seguintes elementos:
@@ -229,25 +270,19 @@ Para criar um formulário de solicitação, você deve preencher o seguinte:
 
 ### Definir configurações de formulário
 
-Na guia Configurações, é possível definir regras de aprovação e definir quando uma solicitação criada a partir desse formulário será marcada como Concluída.
+Na guia Configurações, você pode definir regras de aprovação, configurar quando uma solicitação criada a partir deste formulário será marcada como Concluída e <span class="preview">atribuir permissões padrão aos usuários que interagem com solicitações futuras enviadas usando o formulário.</span>
 
 As regras de aprovação definem o processo de aprovação com base nos valores dos campos nas solicitações enviadas.
 
 Por exemplo, se um formulário de solicitação tiver o campo &quot;Tipo de campanha&quot;, poderá ser criada uma regra que envia a solicitação para uma pessoa quando o campo tem o valor &quot;Digital&quot; e outra pessoa quando ele tem o valor &quot;Imprimir&quot;.
 
-Considere o seguinte ao adicionar regras de aprovação:
-
-* As regras são priorizadas por ordem. Se as primeiras condições de regra forem atendidas, essa regra será aplicada, mesmo se as condições para regras mais abaixo na lista também forem atendidas.
-* Se nenhuma condição for atendida, a regra padrão será aplicada.
-* Você pode adicionar um ou vários aprovadores a uma regra de aprovação.
-* Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na área Solicitações do Workfront.
-* Se você adicionar mais de um aprovador e a opção Somente uma decisão é obrigatória não estiver ativada, todos os aprovadores deverão tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
-* Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
-  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+<span class="preview">Há suporte para vários estágios no processo de aprovação. Quando todas as decisões necessárias em um estágio são tomadas, o próximo estágio começa e os aprovadores do novo estágio recebem uma notificação por email.</span>
 
 Para obter mais informações sobre como adicionar aprovações, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 As opções de conclusão permitem definir se uma solicitação é marcada como concluída quando o objeto solicitado é criado ou quando o objeto criado é concluído. Você define quando o objeto é concluído com base em uma condição especificada.
+
+<span class="preview">Use a seção Permissões na área Configurações de um formulário de solicitação para definir as permissões padrão dos solicitantes <!--and non-requestors--> para as solicitações criadas usando o formulário.</span>
 
 Para definir configurações de formulário:
 
@@ -256,35 +291,12 @@ Para definir configurações de formulário:
    O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
 1. (Opcional) Configure os detalhes do formulário, conforme descrito em [Configurar detalhes do formulário](#set-up-form-details).
 
-1. Para começar a configurar as regras de aprovação, clique no ícone Aprovações ![Aprovações](assets/approvals-icon-on-form.png) no painel de navegação esquerdo.
+1. Para começar a configurar as regras de aprovação, clique em **Aprovações** ![ícone Aprovações](assets/approvals-icon-on-form.png) no painel de navegação esquerdo.
 
-1. (Opcional) Se quiser definir um processo de aprovação padrão, adicione pelo menos um usuário ou equipe ao campo **Aprovadores** da área Regra de aprovação padrão e clique na caixa de seleção **Somente uma decisão é necessária** se quiser que o registro seja criado depois que qualquer um dos aprovadores padrão o aprovar.
+   Você pode criar <span class="preview"> regras de aprovação em uma única etapa ou em várias etapas </span> e atribuir usuários ou equipes a uma aprovação.
 
-   ![Área de regra de aprovação padrão](assets/default-approvers.png)
+   Para obter mais informações sobre como adicionar aprovações, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
-
-1. (Opcional) Para cada regra de aprovação adicional, faça o seguinte:
-
-   1. Clique em **Adicionar regra de aprovação**.
-   1. Clique no título do espaço reservado &quot;Regra de aprovação sem título&quot; e insira um nome para a regra de aprovação.
-   1. Clique em **Selecionar um campo** e selecione o campo que ativa a regra.
-   1. Selecione o operador para a regra. Os operadores variam de acordo com o tipo de campo.
-   1. Se o operador selecionado exigir um valor, clique no ícone de adição e adicione um ou mais valores.
-   1. (Opcional) Adicione mais condições usando AND ou OR ao clicar em Add condition e configurar a condição adicional.
-   1. Na área Ações da regra de aprovação, no campo **Aprovadores**, adicione pelo menos um usuário ou equipe a ser definido como o aprovador quando a condição for atendida.
-   1. (Condicional) Se desejar que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-1. (Opcional) Para reordenar as regras de roteamento, clique na alça de arrastar no lado esquerdo da regra e arraste a regra para o local desejado.
-
-   A regra padrão não pode ser reordenada.
-
-1. (Opcional) Para excluir uma regra de roteamento, clique em **X** à direita da regra.
-1. Clique em **Salvar** para salvar as regras de aprovação.
 1. Clique em **Solicitar opções de conclusão** no painel esquerdo.
 1. Selecione entre as seguintes opções:
 
@@ -293,27 +305,34 @@ Para definir configurações de formulário:
 
 1. (Condicional) Se você selecionou que a solicitação seja marcada como concluída quando o objeto solicitado for concluído, selecione o campo e o valor que indica quando o objeto será concluído. Por exemplo, você pode selecionar o campo Status e o valor Concluído para concluir a solicitação quando o status do objeto criado for definido como Concluído.
 
+1. <span class="preview">Clique em **Permissões** no painel esquerdo.</span>
+1. <span class="preview">Selecione o nível de permissão para os usuários que enviam solicitações por meio deste formulário:</span>
 
-   <!--
-   1. <span class="preview">Click **Permissions** on the left panel.</span>
-   1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
-      <div class="preview">
-      * **View**: All requesters can comment on and share the form.
-      * **Contribute**: All requesters can comment on, share, and edit the form.
-      * **Manage**: All requesters can comment on, share, edit, and delete the form.
-      </div>
-   1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
-      <div class="preview">
-      * Comment
-      * Share
-      * Edit. Not available for View. 
-      * Delete. Not available for Contribute and View. 
-      </div>
-      >[!TIP]
-      >
-      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
-   1. <span class="preview">Click **Save**.</span>
-   -->
+   <div class="preview">
+
+   * **Exibir**: todos os solicitantes podem comentar e compartilhar o formulário.
+   * **Contribute**: todos os solicitantes podem comentar, compartilhar e editar o formulário.
+   * **Gerenciar**: todos os solicitantes podem comentar, compartilhar, editar e excluir o formulário.
+
+   </div>
+
+1. <span class="preview"> (Opcional) Desmarque qualquer uma das permissões granulares para cada nível de permissão para impedir que os solicitantes executem as seguintes ações:</span>
+
+   <div class="preview">
+
+   * Comentário
+   * Compartilhar
+   * Editar. Não disponível para Exibição.
+   * Excluir. Não disponível para o Contribute e a Exibição.
+
+   </div>
+
+   >[!TIP]
+   >
+   ><span class="preview">A permissão granular que você desmarcar aqui ficará esmaecida ao compartilhar a solicitação com esses usuários na página de solicitação. </span>
+
+1. <span class="preview">Clique em **Salvar**.</span>
+
 
 1. Continue em [Publicar formulário](#publish-form).
 
@@ -361,7 +380,7 @@ Para definir configurações de formulário:
 
    ![Compartilhar caixa para o formulário de solicitação](assets/share-box-for-request-form.png)
 
-1. (Opcional) Clique em **Copiar link** para compartilhar o link para o formulário com pessoas que têm acesso para acessar o formulário e enviar solicitações. O link é copiado para a área de transferência e pode ser compartilhado com outras pessoas.
+1. (Opcional) Clique em **Copiar link** para compartilhar o link para o formulário com pessoas que têm acesso ao formulário e enviar solicitações. O link é copiado para a área de transferência e pode ser compartilhado com outras pessoas.
 1. Para compartilhar o formulário publicamente, selecione a guia **Compartilhamento público** e ative a configuração **Criar link público**. Está desativada por padrão.
 
    ![Compartilhamento público para o formulário de solicitação](assets/share-request-form-publicly-tab.png)
@@ -414,7 +433,7 @@ Para definir configurações de formulário:
 
    Para obter mais informações, consulte [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
 
-1. (Opcional) Passe o mouse sobre o nome de um formulário de solicitação na exibição de lista, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário e clique em um dos seguintes:
+1. (Opcional) Passe o mouse sobre o nome de um formulário de solicitação na exibição de lista, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário e clique em uma das seguintes opções:
 
    * **Editar formulário**: clique para editar mais informações sobre o formulário.
    * **Cancelar publicação**: clique para desfazer a publicação do formulário que o remove da área Solicitações no Workfront.
@@ -438,6 +457,8 @@ Para definir configurações de formulário:
 1. (Opcional) Vá para a área **Solicitações** no Workfront e localize o formulário compartilhado para enviar uma solicitação. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
 <!--
+
+This information is for unified intake process: 
 
 <div class="preview">
 

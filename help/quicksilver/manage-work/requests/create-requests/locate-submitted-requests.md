@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1646'
 ht-degree: 4%
 ---
 # Visualizar solicitações enviadas
@@ -36,13 +36,11 @@ ht-degree: 4%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 Você pode exibir as solicitações que você ou outra pessoa submeteu, ou as solicitações que você iniciou, mas que você nunca terminou de submeter. As solicitações não concluídas são salvas como rascunhos.
 
@@ -61,7 +59,7 @@ A área Solicitações exibe as seguintes solicitações, dependendo de como voc
   >* Você só pode exibir seus próprios rascunhos de solicitações.
   >* Na nova experiência de solicitação, as solicitações e os rascunhos enviados são encontrados na mesma lista.
   >* Os rascunhos criados na experiência herdada não são exibidos na nova experiência de solicitação.
-  >* Na nova experiência de solicitação, você pode ver solicitações antigas do Workfront somente de julho de 2025 até o presente. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
+  >* No ambiente de Produção, na nova experiência de solicitação, você pode encontrar solicitações do Workfront enviadas somente de julho de 2025 até o dia atual. <span class="preview">No ambiente de Pré-visualização, na nova experiência de solicitação, você pode encontrar solicitações do Workfront enviadas somente de 2023 até os dias atuais. Você pode ver todas as solicitações do Workfront na experiência herdada.</span>
 
 ## Requisitos de acesso
 
