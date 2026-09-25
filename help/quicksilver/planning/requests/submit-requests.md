@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3087'
 ht-degree: 1%
 ---
 # Enviar solicitações do Planejamento do Adobe Workfront para criar registros
@@ -160,21 +160,24 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
   * <span class="preview"> No ambiente de Visualização, existem os seguintes cenários: </span>
 
-    * <span class="preview">Quando você envia um formulário de solicitação da página de um tipo de registro global secundário, o registro é exibido na página do tipo de registro secundário. Os usuários também verão o novo registro na página do tipo de registro principal, se tiverem acesso para exibir o espaço de trabalho secundário. </span>
-    * <span class="preview">Quando você envia um formulário de solicitação da página do tipo de registro principal ou usa qualquer outro método descrito neste artigo, os registros são exibidos na página do tipo de registro principal.</span>
-    * <span class="preview">Se o campo **Workspace** estiver disponível no formulário de solicitação e o usuário escolher manualmente um espaço de trabalho específico ao qual adicionar o registro, o registro será salvo nesse espaço, independentemente de o formulário ter sido selecionado nas páginas do tipo de registro primário ou secundário.</span>
+    <div class="preview">
+
+    * Quando você envia um formulário de solicitação da página de um tipo de registro global secundário, o registro é exibido na página do tipo de registro secundário. Os usuários também verão o novo registro na página do tipo de registro principal, se tiverem acesso para exibir o espaço de trabalho secundário.
+    * Quando você envia um formulário de solicitação da página do tipo de registro principal ou usa qualquer outro método descrito neste artigo, os registros são exibidos na página do tipo de registro principal.
+    * Se o campo **Workspace** estiver disponível no formulário de solicitação e o usuário escolher manualmente um espaço de trabalho específico ao qual adicionar o registro, o registro será salvo nesse espaço, independentemente de o formulário ter sido selecionado nas páginas do tipo de registro primário ou secundário.
+
+    </div>
 
   Para obter mais informações, consulte [Visão geral do tipo de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-<!--
 <div class="preview">
 
-* You can share a request with others after it's been submitted. 
+* Você pode compartilhar uma solicitação com outras pessoas depois que ela for enviada.
 
-   For information, see [Share Planning requests](/help/quicksilver/planning/requests/share-requests.md).
+  Para obter informações, consulte [Compartilhar solicitações do Planning](/help/quicksilver/planning/requests/share-requests.md).
 
 </div>
--->
+
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.

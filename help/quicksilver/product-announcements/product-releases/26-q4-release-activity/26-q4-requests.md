@@ -4,10 +4,10 @@ description: Melhorias nas solicitações do quarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0feaa93676bdd96343454e419792f13a9eedaa0
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 9%
+source-wordcount: '227'
+ht-degree: 7%
 ---
 # Melhorias nas solicitações do quarto trimestre de 2026
 
@@ -15,21 +15,17 @@ Esta página descreve as melhorias nas Solicitações feitas com a versão do Qu
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## View historical requests from up to 3 years in the new request experience
+## Exibir solicitações históricas de até 3 anos na nova experiência de solicitação
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Visualização: 24 de setembro de 2026
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
 
-You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience. Previously, you only had access to requests submitted after July 2025.
+Agora você pode acessar solicitações de problemas do Workfront enviadas até 3 anos antes de julho de 2025 a partir da nova experiência de solicitação. Anteriormente, você só tinha acesso a solicitações enviadas após julho de 2025.
 
-For information, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-
--->
+Para obter informações, consulte [Exibir solicitações enviadas](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## O Preenchimento de formulário de IA agora extrai dados de registros referenciados com um link
 

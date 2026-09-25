@@ -3,10 +3,10 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
+source-git-commit: 593889d180b39e3c0cd6409947f0ec29a83bfe74
 workflow-type: tm+mt
-source-wordcount: '14574'
-ht-degree: 92%
+source-wordcount: '14588'
+ht-degree: 91%
 ---
 # Guia do Workfront {#using}
 
@@ -268,6 +268,7 @@ ht-degree: 92%
       * {hide-from-toc}[atividade de lançamento de recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc}[Atividade de lançamento do primeiro trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
       * {hide-from-toc}[Atividade do segundo trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Atividade da versão do quarto trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
     * Atividade da versão Adobe Workfront Scenario Planner {#scenario-planner-release}
       * [Atividade da versão Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Planejador de cenários do Adobe Workfront na versão 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2283,6 +2284,7 @@ ht-degree: 92%
     * [Solicitações do Planejamento do Adobe Workfront: índice do artigo](planning/requests/requests-article-index.md)
     * [Criar e gerenciar um formulário de solicitação no Planejamento do Adobe Workfront](planning/requests/create-request-form.md)
     * [Enviar solicitações do Planejamento do Adobe Workfront para criar registros](planning/requests/submit-requests.md)
+    * [Compartilhar solicitações do Planning](planning/requests/share-requests.md)
     * [Desfazer a publicação de um formulário de solicitação no Planejamento do Adobe Workfront](planning/requests/unpublish-request-form.md)
     * [Adicionar uma aprovação a um formulário de solicitação no Planejamento do Adobe Workfront](planning/requests/add-approval-to-request-form.md)
     * [Aprovar uma solicitação no Planejamento do Adobe Workfront](planning/requests/approve-request.md)
