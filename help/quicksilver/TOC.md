@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
+source-git-commit: 593889d180b39e3c0cd6409947f0ec29a83bfe74
 workflow-type: tm+mt
-source-wordcount: '14577'
+source-wordcount: '14588'
 ht-degree: 91%
 ---
 # Guia do Workfront {#using}
@@ -268,6 +268,7 @@ ht-degree: 91%
       * {hide-from-toc}[atividade de lançamento de recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc}[Atividade de lançamento do primeiro trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
       * {hide-from-toc}[Atividade do segundo trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Atividade da versão do quarto trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
     * Atividade da versão Adobe Workfront Scenario Planner {#scenario-planner-release}
       * [Atividade da versão Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Planejador de cenários do Adobe Workfront na versão 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
