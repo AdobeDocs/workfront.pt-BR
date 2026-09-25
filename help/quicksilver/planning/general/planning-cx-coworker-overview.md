@@ -5,9 +5,23 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1128'
 ht-degree: 3%
 ---
 
@@ -138,20 +152,19 @@ Você pode localizar o CX Coworker nas seguintes áreas do Workfront Planning:
 
 ## Acesse o CX Coworker na área Planejamento
 
-
 1. Faça logon no Workfront, clique no ícone **Menu Principal** ![Menu principal Linhas](assets/lines-main-menu.png) no canto superior esquerdo e clique em **Planning**.
 
    A área Planejamento é aberta.
 
-   Localize o **Ícone de IA** ![Ícone de IA](assets/ai-icon.png) no canto superior direito da página ou continue com as etapas abaixo.
+   Localize o ícone **Colaborador** ![Colaborador](assets/coworker-icon.png) no canto superior direito da página ou continue com as etapas abaixo.
 
 1. Clique em um **cartão de espaço de trabalho**.
 
 1. Clique em um **cartão de tipo de registro**.
 
-1. Clique em um **registro** para abrir a página **Detalhes** do registro, em seguida, clique em abrir em .
+1. Clique em um **registro** para abrir a página **Detalhes** do registro e clique no ícone **Abrir em nova guia** ![Abrir em nova guia](assets/open-workspace-on-new-tab-icon.png).
 
-1. Clique no **ícone do CX Coworker** no canto superior direito da tela.
+1. Clique no **ícone do CX Coworker** ![ícone do Coworker](assets/coworker-icon.png) no canto superior direito da tela.
 
 1. No espaço fornecido, comece a digitar comandos para o CX Coworker e, em seguida, clique em Inserir quando terminar.
 

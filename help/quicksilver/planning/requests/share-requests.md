@@ -5,9 +5,23 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '592'
 ht-degree: 5%
 ---
 # Compartilhar solicitações do Planning
@@ -86,6 +100,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 * Pessoas e equipes diferentes podem ter diferentes níveis de acesso na mesma solicitação.
 * As permissões podem ser atribuídas por meio de várias entidades. Se um usuário tiver permissões do Contribute para uma solicitação, mas seu grupo ou função de trabalho tiver permissões de exibição, ele manterá o nível mais alto de permissões, que é o Contribute.
+* As solicitações herdam permissões do espaço de trabalho e do tipo de registro. Não é possível remover ou editar permissões herdadas para solicitações do Planning.
 
 ## Compartilhar uma solicitação
 
@@ -110,7 +125,14 @@ Certifique-se de que você esteja usando a nova experiência de solicitação.
 1. (Opcional) Para cada nível de permissão, clique no ícone de permissão granular e selecione ou desmarque quaisquer permissões granulares, como **Editar**, **Comentário**, **Compartilhar** ou **Excluir**.
 
    ![Permissões granulares em solicitações](assets/granular-permissions-on-requests.png)
+1. (Opcional) Expanda a linha Permissões herdadas para exibir quem obtém permissões do espaço de trabalho e do tipo de registro.
+
+   >[!TIP]
+   >
+   >Não é possível remover ou editar permissões herdadas para solicitações do Planning.
+
 1. Clique em **Salvar**.
+
 
    A solicitação é compartilhada com as entidades selecionadas.
 
