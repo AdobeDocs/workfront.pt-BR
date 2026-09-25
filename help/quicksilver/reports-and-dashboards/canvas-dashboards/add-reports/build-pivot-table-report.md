@@ -5,12 +5,14 @@ title: Criar um relatório de tabela dinâmica em um painel da tela de desenho
 description: É possível adicionar um relatório de tabela dinâmica a um Painel da tela para ver os totais agregados dos dados em um formato de tabela.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
+source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 8%
 ---
 # Criar um relatório de tabela dinâmica em um painel da tela de desenho
+
+{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >

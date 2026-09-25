@@ -11,27 +11,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: d45d85aecbcdabf2c02c347b80c7ee56b97efff0
 workflow-type: tm+mt
-source-wordcount: 1287
+source-wordcount: '1502'
 ht-degree: 5%
-
 ---
-
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!--remove the Prod and Preview references when we release to Prod-->
 
-# Visão geral das permissões de compartilhamento no Adobe Workfront Planning
+# Visão geral das permissões de compartilhamento no Planejamento do Adobe Workfront
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -49,36 +50,57 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
 
 * Espaços de trabalho
 
-   * Você pode compartilhar espaços de trabalho com pessoas dentro da organização.
-   * Quando você compartilha um espaço de trabalho, todos os tipos de registro, registros e campos associados aos espaços de trabalho também são compartilhados.
-   * Quando você compartilha um espaço de trabalho, as exibições não são compartilhadas. As exibições são compartilhadas separadamente.
+  * Você pode compartilhar espaços de trabalho dentro de sua organização com usuários, grupos, equipes, empresas e funções de trabalho.
+  * Quando você compartilha um espaço de trabalho, todos os tipos de registro, registros e campos associados aos espaços de trabalho também são compartilhados.
+  * Quando você compartilha um espaço de trabalho, as exibições não são compartilhadas. As exibições são compartilhadas separadamente.
 
   Para obter mais informações, consulte [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
 
 * Tipos de registro
 
-   * Você pode compartilhar tipos de registro com pessoas dentro da organização.
-   * O nível de permissões concedidas para o espaço de trabalho é exibido como Permissões herdadas para o tipo de registro.
-   * Não é possível compartilhar um tipo de registro com um nível de permissão superior ao do usuário no espaço de trabalho.
+  * Você pode compartilhar tipos de registros dentro da organização com usuários, grupos, equipes, empresas e funções de trabalho.
+  * O nível de permissões concedidas para o espaço de trabalho é exibido como Permissões herdadas para o tipo de registro.
+  * Não é possível compartilhar um tipo de registro com um nível de permissão superior ao do usuário no espaço de trabalho.
 
   Para obter mais informações, consulte [Compartilhar tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
 
 * Registros
 
-   * Você pode compartilhar registros com pessoas dentro da organização.
-   * Por padrão, os usuários herdam permissões do espaço de trabalho e do tipo de registro.
-   * Não é possível compartilhar um registro com um nível de permissão superior ou inferior ao que o usuário tem no tipo de registro.
+  * Você pode compartilhar registros com pessoas dentro da organização, com usuários, grupos, equipes, empresas e funções de trabalho.
+  * Por padrão, os usuários herdam permissões do espaço de trabalho e do tipo de registro.
+  * Não é possível compartilhar um registro com um nível de permissão superior ou inferior ao que o usuário tem no tipo de registro.
 
   Para obter mais informações, consulte [Compartilhar registros](/help/quicksilver/planning/access/share-records.md).
 
+<!--
+* Fields
 
+    * In the Production environment, field permissions are inherited from record types. 
+
+    * Field permissions grant access to field values, and not to field settings. 
+    * You must have both permissions to a record and to a field to see the values of that field for a record. 
+
+    <div class="preview">
+
+    * In the Preview environment, consider the following: 
+
+        * You can share fields inside your organization, with users, groups, teams, companies, and job roles. 
+        * Access to a field comes from combining the following settings:
+
+            * **Inherited permissions**: By default, a field inherits the same access someone has on the record type. You can turn off Inherited permissions and give users a lower access to the field than they have for the record type. 
+            * The **Everyone with access to the record type can view** or **Only invited people can access** selection. You can either allow everyone with permissions to the workspace to view the field or give permissions only to individual entities. 
+    
+    For more information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). 
+
+    </div>
+-->
 
 * Exibições
 
-   * Você deve fornecer aos usuários, incluindo Administradores do sistema, permissões para acessar exibições separadamente de suas permissões para acessar espaços de trabalho.
-   * Quando você compartilha uma exibição, todos os elementos da exibição são compartilhados, incluindo filtros, agrupamento, classificação ou Configurações.
-   * Quando você compartilha uma exibição, os registros visíveis na exibição não são compartilhados. Os registros devem ser compartilhados por espaços de trabalho de compartilhamento.
-   * Você pode compartilhar uma visualização publicamente, com pessoas de fora da organização, ao gerar um link público para uma visualização.As pessoas que acessam a página de registro de um link público podem exibir todos os registros e seus campos, incluindo registros e campos conectados.
+  * Você deve fornecer aos usuários, incluindo Administradores do sistema, permissões para acessar exibições separadamente de suas permissões para acessar espaços de trabalho.
+  * Quando você compartilha uma exibição, todos os elementos da exibição são compartilhados, incluindo filtros, agrupamento, classificação ou Configurações.
+  * Quando você compartilha uma exibição, os registros visíveis na exibição não são compartilhados. Os registros devem ser compartilhados por espaços de trabalho de compartilhamento.
+  * Você pode compartilhar uma visualização publicamente, com pessoas de fora da organização, ao gerar um link público para uma visualização. As pessoas que acessam a página de registro de um link público podem exibir todos os registros e seus campos, incluindo registros e campos conectados.
 
   Para obter mais informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
 
@@ -95,21 +117,21 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
 
 * Você pode compartilhar objetos do Planning das seguintes maneiras:
 
-   * Internamente, você pode compartilhar objetos do Workfront Planning com as seguintes entidades do Workfront:
+  * Internamente, você pode compartilhar objetos do Workfront Planning com as seguintes entidades do Workfront:
 
-      * Usuários
-      * Grupos
-      * Equipes
-      * Empresas
-      * Funções de trabalho
+    * Usuários
+    * Grupos
+    * Equipes
+    * Empresas
+    * Funções de trabalho
 
-     É possível compartilhar um objeto do Planning com até 100 entidades por objeto.
+    É possível compartilhar um objeto do Planning com até 100 entidades por objeto.
 
-   * Internamente, compartilhando um link para um espaço de trabalho ou para uma exibição com outros usuários do Planning. Existem os seguintes cenários:
+  * Internamente, compartilhando um link para um espaço de trabalho ou para uma exibição com outros usuários do Planning. Existem os seguintes cenários:
 
-      * Os usuários que recebem o link para um espaço de trabalho devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho.
-      * Os usuários que recebem um link Compartilhamento interno para uma exibição devem ser usuários ativos e fazer logon no Workfront para acessar a exibição.
-   * Externamente, compartilhando um link de compartilhamento Público com uma visualização com usuários externos que não têm uma conta do Workfront.
+    * Os usuários que recebem o link para um espaço de trabalho devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho.
+    * Os usuários que recebem um link Compartilhamento interno para uma exibição devem ser usuários ativos e fazer logon no Workfront para acessar a exibição.
+  * Externamente, compartilhando um link de compartilhamento Público com uma visualização com usuários externos que não têm uma conta do Workfront.
 
 ## Permissões de compartilhamento para objetos do Adobe Workfront Planning
 
@@ -143,6 +165,10 @@ A seguir estão os níveis de permissões para espaços de trabalho:
 | Compartilhar | ✓ |            |       |
 | Excluir | ✓ |            |       |
 | Exibir | ✓ | ✓ | ✓ |
+
+<!--
+<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
+-->
 
 ### Permissões para tipos de registro
 
@@ -231,9 +257,13 @@ Existem os seguintes cenários:
 
 ### Permissões para registrar campos
 
-As permissões de campo são herdadas do tipo de registro, ao conceder permissões ao espaço de trabalho e ao tipo de registro.
 
-As permissões a seguir se referem aos próprios campos e não aos valores associados a cada campo. Para editar valores de campo, você deve ter permissões para editar registros.
+#### Permissões para registrar campos no ambiente de produção
+
+
+As permissões para editar configurações de campo são herdadas do tipo de registro, ao conceder permissões ao espaço de trabalho e ao tipo de registro.
+
+As permissões a seguir se referem às configurações de campos e não aos valores associados a cada campo. Para editar valores de campo, você deve ter permissões para editar registros.
 
 |        | Gerenciar | Contribuir | Exibir |
 |--------|--------|------------|-------|
@@ -242,6 +272,38 @@ As permissões a seguir se referem aos próprios campos e não aos valores assoc
 | Editar | ✓ |            |       |
 | Exibir | ✓ | ✓ | ✓ |
 
+
+<div class="preview">
+
+#### Permissões para registrar campos no ambiente de Pré-visualização
+
+As permissões para configurações de campo são herdadas do tipo de registro, quando você concede permissões ao espaço de trabalho e ao tipo de registro.
+
+As permissões a seguir se referem às configurações de campos e não aos valores associados a cada campo.
+
+|        | Gerenciar | Contribuir | Exibir |
+|--------|--------|------------|-------|
+| Criar | ✓ |            |       |
+| Excluir | ✓ |            |       |
+| Editar | ✓ |            |       |
+| Exibir | ✓ | ✓ | ✓ |
+
+
+As permissões para valores de campo são herdadas do tipo de registro e funcionam em conjunto com permissões para os registros.
+
+É possível gerenciar permissões para os valores de campos individuais e restringir campos que podem conter informações confidenciais.
+
+Você pode conceder as seguintes permissões aos valores de campo compartilhando um campo:
+
+|        | Gerenciar | Exibir |
+|--------|--------|------|
+| Excluir | ✓ |      |
+| Editar | ✓ |      |
+| Exibir | ✓ | ✓ |
+
+Os usuários devem ter pelo menos permissões de Exibição para o tipo de registro para acessar os campos.
+
+</div>
 
 ### Permissões para visualizações
 

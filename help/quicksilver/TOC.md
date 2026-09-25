@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
 workflow-type: tm+mt
-source-wordcount: '14569'
+source-wordcount: '14574'
 ht-degree: 92%
 ---
 # Guia do Workfront {#using}
@@ -19,12 +19,13 @@ ht-degree: 92%
     * [Prepare-se para a versão trimestral do Adobe Workfront](product-announcements/product-releases/release-readiness.md)
     * Versão do quarto trimestre de 2026 {#release-26-q4}
       * [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
-      * [Aprimoramentos da IA do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Aprimoramentos do administrador do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [Aprimoramentos da IA do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Aprimoramentos nos documentos do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
       * [Melhorias no gerenciamento financeiro do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [Aprimoramentos do projeto do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [Melhorias na emissão de relatórios no quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [Quarto trimestre de 2026 Solicitando melhorias](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md)
       * [Melhorias no gerenciamento de recursos do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
       * [Quarto trimestre de 2026 Outras melhorias](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * Versão do terceiro trimestre de 2026 {#release-26-q3}
@@ -2252,7 +2253,7 @@ ht-degree: 92%
     * [Compartilhar tipos de registro](planning/access/share-record-types.md)
     * [Compartilhar exibições](planning/access/share-views.md)
     * [Compartilhar registros](planning/access/share-records.md)
-    * {hide-from-toc}[Compartilhar campos do Workfront Planning](planning/access/share-fields.md)
+    * [Compartilhar campos do Workfront Planning](planning/access/share-fields.md)
     * [Definir permissões padrão para registros](planning/access/set-default-record-permissions.md)
     * [Solicitar permissões para uma exibição ou um espaço de trabalho](planning/access/request-permissions.md)
   * Registros do Planejamento do Adobe Workfront {#adobe-workfront-planning-records}
