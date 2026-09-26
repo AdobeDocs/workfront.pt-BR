@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9GQMj-ij7gBqYKy4o0E619ago4c-G-Vu6KLmTWKrBPE
+TQID: 'https://experienceleague.adobe.com/9GQMj-ij7gBqYKy4o0E619ago4c-G-Vu6KLmTWKrBPE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '804'
 ht-degree: 9%
-
 ---
-
 # Começar a usar resultados e atividades nas Metas do Adobe Workfront
 
 <!--Audited for P& P only: 10/2025-->
@@ -89,9 +95,9 @@ Considere o seguinte ao trabalhar com resultados:
 * Eles respondem à pergunta: &quot;Como saberei quando meu objetivo estiver concluído?&quot;
 * Eles são indicadores de métrica. Você pode selecionar entre as seguintes opções para indicar o progresso do resultado:
 
-   * Moeda
-   * Número
-   * Porcentagem
+  * Moeda
+  * Número
+  * Porcentagem
 
 Para obter mais informações sobre resultados, consulte a lista de semelhanças entre resultados e atividades na seção [Similaridades entre resultados, atividades e projetos](#similarities-between-results-activities-and-projects) neste artigo.
 
@@ -210,7 +216,7 @@ A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>Eles oferecem um intervalo de valores entre os valores inicial e final que ilustra o quão perto você está de atingi-los. A proximidade com o valor final calcula um valor de Progresso para a meta. </td> 
    <td>✔</td> 
    <td>✔</td> 

@@ -8,26 +8,35 @@ feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/nphXqF7qKiAk-doHaeUmnYXzID3Blen2yafPsulc6ts
+TQID: 'https://experienceleague.adobe.com/nphXqF7qKiAk-doHaeUmnYXzID3Blen2yafPsulc6ts'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1204
+source-wordcount: '1204'
 ht-degree: 2%
-
 ---
-
 # Aprovar um documento no Workfront
 
 Se você estiver atribuído como aprovador de um documento, há várias maneiras de tomar sua decisão de aprovação.
@@ -100,9 +109,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    * A lista suspensa **Aprovar** contém duas opções:
 
-      * **Aprovar** indica que nenhuma alteração é necessária para esta versão do documento e que a aprovação é fornecida.
+     * **Aprovar** indica que nenhuma alteração é necessária para esta versão do documento e que a aprovação é fornecida.
 
-      * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada com a condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela contendo uma caixa de texto denominada **Próximas etapas**, na qual você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
+     * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada com a condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela contendo uma caixa de texto denominada **Próximas etapas**, na qual você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
 
    * **Precisa do trabalho** indica que a versão do documento não foi aprovada e requer alterações significativas.
 
@@ -128,9 +137,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    * A lista suspensa **Aprovar** contém duas opções:
 
-      * **Aprovar** indica que nenhuma alteração é necessária para esta versão do documento e que a aprovação é fornecida.
+     * **Aprovar** indica que nenhuma alteração é necessária para esta versão do documento e que a aprovação é fornecida.
 
-      * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada com a condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela contendo uma caixa de texto denominada **Próximas etapas**, na qual você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
+     * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada com a condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela contendo uma caixa de texto denominada **Próximas etapas**, na qual você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
 
    * **Precisa do trabalho** indica que a versão do documento não foi aprovada e requer alterações significativas.
 
@@ -150,9 +159,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    * A lista suspensa **Aprovar** contém duas opções:
 
-      * **Aprovar** indica que nenhuma alteração é necessária para esta versão do documento e que a aprovação é fornecida.
+     * **Aprovar** indica que nenhuma alteração é necessária para esta versão do documento e que a aprovação é fornecida.
 
-      * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada com a condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela contendo uma caixa de texto denominada **Próximas etapas**, na qual você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
+     * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada com a condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela contendo uma caixa de texto denominada **Próximas etapas**, na qual você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
 
    * **Precisa do trabalho** indica que a versão do documento não foi aprovada e requer alterações significativas.
 

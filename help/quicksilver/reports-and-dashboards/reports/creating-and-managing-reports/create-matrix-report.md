@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hCw4yyqTl-aXG5Z71TpFsfWX1s463Z8cUTIdJ1ifbfo
+TQID: 'https://experienceleague.adobe.com/hCw4yyqTl-aXG5Z71TpFsfWX1s463Z8cUTIdJ1ifbfo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1091
+source-wordcount: '1091'
 ht-degree: 4%
-
 ---
-
 # Criar um relatório matriz
 
 Relatórios de matriz apresentam informações resumidas em um formato de tabela agregada, tornando mais fácil a visualização do que se fossem exibidas em uma lista como em um relatório tradicional.
@@ -138,8 +143,9 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
      >   * Os campos de dados personalizados para valores de número e moeda agregam todas as tarefas: pais, filhos, pais dos pais e tarefas independentes. Se você criou o relatório de matriz para exibir Horas Planejadas ou Horas Efetivas na coluna **Valor**, saiba que as informações de horas ou custos de qualquer objeto pai (como tarefas pai) não são exibidas no relatório de matriz. Para exibir horas em objetos pai, você deve exibir a guia **Detalhes**.
      >   
      >   
-     >**Regras Condicionais:** configure regras de formatação para valores agregados.\
+     >
 
+   **Regras Condicionais:** configure regras de formatação para valores agregados.\
    Após adicionar uma regra, é possível definir estilos de campo e texto para a forma como os campos que correspondem a essa regra são exibidos. Clique em **Adicionar regra** depois de concluir a definição da regra e em **Concluído** para salvar a regra.
 
 1. Clique na guia **Filtros** para definir quais informações serão exibidas no relatório.

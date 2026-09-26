@@ -8,20 +8,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-TQID: https://experienceleague.adobe.com/H04UQeyhGw-FdXDwaRZs5PSXnN-YErVptHWn-78INYo
+TQID: 'https://experienceleague.adobe.com/H04UQeyhGw-FdXDwaRZs5PSXnN-YErVptHWn-78INYo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 16%
-
+source-wordcount: '282'
+ht-degree: 15%
 ---
-
 # Obter metadados de um arquivo ou pasta
 
 Retorna os metadados do arquivo ou pasta especificada.
@@ -115,7 +119,7 @@ GET /metadata?id=[ID de documento ou pasta]
 </table>
 
 **Exemplo:** https://www.acme.com/api/metadata?id=12345
-<pre>&lbrace;<br>title:"Meu Documento",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>size: "32554694"<br></pre>
+<pre>{<br>title:"Meu Documento",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>size: "32554694"<br></pre>
 
 >[!NOTE]
 >

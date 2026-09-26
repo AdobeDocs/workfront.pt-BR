@@ -8,23 +8,33 @@ description: Se o conteúdo de prova não estiver carregando e você só puder v
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-TQID: https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA
+TQID: 'https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '980'
 ht-degree: 0%
-
 ---
-
 # Solução de problemas - [!DNL Workfront Proof] revisor de provas
 
 <!-- Audited: 01/2024 -->
@@ -82,10 +92,10 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 Se a prova não estiver sendo aberta em nenhum navegador do computador, tente abri-la em outro computador no local e/ou fora do local. Isso permitirá determinar se há um problema em seu computador específico ou se o problema está em sua rede local.
 Se o nível de segurança for superior, as conexões com [!DNL Workfront Proof] poderão ser bloqueadas por:
 
-   * Seu software AV local
-   * Sua solução de segurança de rede
-   * Configuração de DNS, firewall ou proxy
-   * Essas são as configurações que estão além de nosso controle. Há várias soluções de segurança disponíveis e não podemos saber quais estão implementadas em sua rede e quais podem estar bloqueando conexões com o [!DNL Workfront Proof]. Também não cabe a [!DNL Workfront Proof] decidir a configuração de segurança interna. Se estiver com problemas para abrir as provas nos vários computadores em seu local/rede, recomendamos que você entre em contato com a equipe de TI para que ela possa verificar as configurações da rede e autorizar ou adicionar o [!DNL Workfront Proof] ao incluo na lista de permissões, se necessário.
+  * Seu software AV local
+  * Sua solução de segurança de rede
+  * Configuração de DNS, firewall ou proxy
+  * Essas são as configurações que estão além de nosso controle. Há várias soluções de segurança disponíveis e não podemos saber quais estão implementadas em sua rede e quais podem estar bloqueando conexões com o [!DNL Workfront Proof]. Também não cabe a [!DNL Workfront Proof] decidir a configuração de segurança interna. Se estiver com problemas para abrir as provas nos vários computadores em seu local/rede, recomendamos que você entre em contato com a equipe de TI para que ela possa verificar as configurações da rede e autorizar ou adicionar o [!DNL Workfront Proof] ao incluo na lista de permissões, se necessário.
 
 * As conexões com [!DNL Workfront Proof] são permitidas em sua rede?
 Dentro do Visualizador de prova, carregamos os blocos - fragmentos das páginas. Se esse conteúdo não for carregado corretamente no seu lado, pode ser que algumas conexões com [!DNL Workfront Proof] estejam bloqueadas na sua rede. Verifique se todas as conexões e todo o conteúdo de *.proofhq.com foram adicionados ao incluo na lista de permissões. Sua equipe de TI deve poder ajudar na verificação.

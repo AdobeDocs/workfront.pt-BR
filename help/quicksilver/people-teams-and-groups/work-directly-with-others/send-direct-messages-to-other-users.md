@@ -7,13 +7,20 @@ description: O Adobe Workfront permite enviar mensagens rápidas e fáceis que n
 author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 0%
-
+source-wordcount: '567'
+ht-degree: 7%
 ---
-
 # Enviar mensagens diretas a outros usuários
 
 O [!DNL Adobe Workfront] permite que você envie mensagens com rapidez e facilidade que não estejam relacionadas a nenhum item de trabalho diretamente para outros usuários do [!DNL Workfront]. As mensagens enviadas conforme descrito nesta seção aparecem na guia [!UICONTROL Atualizações] da página de perfil do usuário e estão visíveis para todos os usuários. Para obter informações adicionais sobre atualizações, consulte [Atualizar itens de trabalho e exibir atualizações: índice do artigo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
@@ -27,7 +34,7 @@ O usuário para o qual você está enviando a mensagem recebe os seguintes tipos
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,8 +51,8 @@ O usuário para o qual você está enviando a mensagem recebe os seguintes tipos
    <p>Leve ou superior</p>
    <p>Revisar ou superior</p>
    <p>Para enviar uma mensagem a partir da lista de usuários, você deve ter:</p>
-   <p>Standard</p>
-   <p>Trabalhar ou superior</p></td>
+   <p>Padrão</p>
+   <p>Trabalho ou maior</p></td>
   </tr> 
  </tbody> 
 </table>

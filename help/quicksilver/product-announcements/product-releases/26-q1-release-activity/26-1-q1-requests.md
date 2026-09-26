@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ea2668c-cab9-4ee3-95c9-44996e951c29
-TQID: https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y
+TQID: 'https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 95%
-
+source-wordcount: '948'
+ht-degree: 99%
 ---
-
 # Melhorias nas solicitações do primeiro trimestre de 2026
 
 Esta página descreve as melhorias nas solicitações feitas com a versão do primeiro trimestre de 2026 para o ambiente de pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -29,12 +36,13 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026\
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026\
 >Produção para todos: 15 de janeiro de 2026
 
 Para facilitar o acesso ao objeto criado por uma solicitação específica, adicionamos links à coluna Objeto criado. Agora, você pode clicar no link nesta coluna para ser direcionado diretamente para a página do objeto criado.
 
-Esse link só está disponível para solicitações do Planning, nos casos em que a própria solicitação criou um objeto. Se uma solicitação do Workfront for convertida em um projeto ou outro objeto, um link para esse objeto convertido não estará disponível na lista de solicitações na nova experiência de solicitação.
+Esse link só está disponível para solicitações do Planejamento, nos casos em que a própria solicitação criou um objeto. Se uma solicitação do Workfront for convertida em um projeto ou outro objeto, um link para esse objeto convertido não estará disponível na lista de solicitações na nova experiência de solicitação.
 
 Anteriormente, esta coluna continha apenas o nome do objeto, e não o seu link.
 
@@ -63,7 +71,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026\
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026\
 >Produção para todos: 15 de janeiro de 2026
 
 Para facilitar a visualização das informações necessárias, adicionamos a possibilidade de compartilhar visualizações à nova experiência de solicitação. Agora, você pode compartilhar visualizações com outros usuários, equipes ou grupos.
@@ -74,7 +83,8 @@ Para obter informações sobre visualizações de solicitações, incluindo comp
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026\
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026\
 >Produção para todos: 15 de janeiro de 2026
 
 Para facilitar a visualização das informações necessárias, adicionamos a possibilidade de incluir campos personalizados como colunas na lista Solicitações e no widget Minhas solicitações na página inicial. Agora, você pode adicionar campos de formulários personalizados como uma coluna, e as solicitações que tiverem informações nesses campos exibirão essas informações na lista ou no widget.
@@ -92,7 +102,8 @@ Para obter instruções sobre como adicionar colunas, consulte:
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026\
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026\
 >Produção para todos: 15 de janeiro de 2026
 
 Para facilitar a filtragem das solicitações que se aplicam a você, criamos um curinga para o usuário atual. Agora, ao filtrar, você pode selecionar “Eu (usuário conectado)”. O filtro será então aplicado ao usuário que estiver visualizando a lista de solicitações.
@@ -107,7 +118,8 @@ Para obter mais informações sobre como configurar exibições na lista Solicit
 
 >[!NOTE]
 >
->Visualização: 11 de dezembro de 2025>Versão rápida de produção: 11 de dezembro de 2025\
+>Visualização: 11 de dezembro de 2025
+>Versão rápida de produção: 11 de dezembro de 2025\
 >Produção para todos: 11 de dezembro de 2025
 
 Para facilitar a criação de solicitações, criamos o preenchimento de formulários com tecnologia de IA. Agora, você pode colar um prompt ou fazer upload de um documento para um formulário de solicitação, e a IA irá obter as informações relevantes e preencherá o formulário.
@@ -121,7 +133,8 @@ Para obter mais informações sobre o preenchimento de formulários com tecnolog
 
 >[!NOTE]
 >
->Visualização: 20 de novembro de 2025>Versão rápida de produção: 14 de janeiro de 2026\
+>Visualização: 20 de novembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026\
 >Produção para todos: 15 de janeiro de 2026
 
 Para facilitar a criação e o envio de solicitações, adicionamos a possibilidade de salvar rascunhos à nova experiência de solicitação. Agora, quando você começa a preencher uma solicitação e a fecha, ela é salva no status Rascunho e pode ser encontrada no formulário de solicitação usado para criar o rascunho. Você pode então reabrir, atualizar e enviar o rascunho quando for conveniente.
@@ -134,10 +147,11 @@ Para obter mais informações sobre rascunhos de solicitações, consulte [Criar
 
 >[!NOTE]
 >
->Visualização: 20 de novembro de 2025>Versão rápida de produção: 14 de janeiro de 2026\
+>Visualização: 20 de novembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026\
 >Produção para todos: 15 de janeiro de 2026
 
-Para facilitar a organização e a clareza de suas solicitações, adicionamos a possibilidade de excluir solicitações à nova experiência de solicitação. Agora, você pode excluir as solicitações que enviou. Os administradores do Workfront e do espaço de trabalho do Workfront Planning também podem excluir solicitações.
+Para facilitar a organização e a clareza de suas solicitações, adicionamos a possibilidade de excluir solicitações à nova experiência de solicitação. Agora, você pode excluir as solicitações que enviou. Os administradores do Workfront e do espaço de trabalho do Planejamento do Workfront também podem excluir solicitações.
 
 Anteriormente, esse recurso não estava disponível na nova experiência de solicitação.
 
@@ -148,7 +162,8 @@ Para obter informações e instruções, consulte [Excluir uma solicitação env
 
 >[!NOTE]
 >
->Visualização: 20 de novembro de 2025>Versão rápida de produção: 11 de dezembro de 2025\
+>Visualização: 20 de novembro de 2025
+>Versão rápida de produção: 11 de dezembro de 2025\
 >Produção para todos: 15 de janeiro de 2026
 
 Para facilitar o envio de solicitações, adicionamos a possibilidade de copiar solicitações para a nova experiência de solicitação. Agora, você pode copiar uma solicitação, editar qualquer campo e enviá-la como uma nova solicitação.

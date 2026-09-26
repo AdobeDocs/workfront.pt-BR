@@ -8,26 +8,33 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-TQID: https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY
+TQID: 'https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: '1029'
 ht-degree: 5%
-
 ---
-
 # Restaurar itens excluídos
 
 <!--Audited: 12/2023-->
@@ -95,15 +102,15 @@ Quando você restaura um projeto, tarefa ou problema, as seguintes informações
 * Status
 * Informações Financeiras:
 
-   * Registros de cobrança
-   * Preços
-   * Despesas
+  * Registros de cobrança
+  * Preços
+  * Despesas
 
 * Informações da linha do tempo:
 
-   * Predecessoras
-   * Restrições de tarefa
-   * Tipo de duração
+  * Predecessoras
+  * Restrições de tarefa
+  * Tipo de duração
 
 * Linhas de base
 
@@ -125,12 +132,12 @@ Quando você restaura um projeto, tarefa ou problema, as seguintes informações
 
   Considere o seguinte ao restaurar documentos e versões de documentos:
 
-   * Os documentos que foram excluídos individualmente podem ser restaurados individualmente.
+  * Os documentos que foram excluídos individualmente podem ser restaurados individualmente.
 
-     Os documentos que foram excluídos junto com o projeto, tarefa ou problema pai são recuperados quando você restaura o pai, mas não é possível restaurá-los individualmente.
+    Os documentos que foram excluídos junto com o projeto, tarefa ou problema pai são recuperados quando você restaura o pai, mas não é possível restaurá-los individualmente.
 
-   * Todas as versões de um documento ou de uma prova de documento são restauradas quando o documento é restaurado.\
-     As versões individuais de um documento ou de uma prova de documento que foram excluídas individualmente não podem ser recuperadas.
+  * Todas as versões de um documento ou de uma prova de documento são restauradas quando o documento é restaurado.\
+    As versões individuais de um documento ou de uma prova de documento que foram excluídas individualmente não podem ser recuperadas.
 
 ## Informações que não são recuperadas quando você restaura um projeto, tarefa ou problema
 
@@ -179,13 +186,13 @@ Quando você restaura um projeto, tarefa ou problema, as seguintes informações
 
 * Após restaurar um item:
 
-   * Uma mensagem é exibida para informar se você foi bem-sucedido.
+  * Uma mensagem é exibida para informar se você foi bem-sucedido.
 
-     Você também receberá uma notificação por email. Se você restaurou vários itens, o email os lista.
+    Você também receberá uma notificação por email. Se você restaurou vários itens, o email os lista.
 
-   * Um comentário é exibido na área Atualizações do projeto, tarefa ou problema e na área do objeto principal.
+  * Um comentário é exibido na área Atualizações do projeto, tarefa ou problema e na área do objeto principal.
 
-     Isso não acontece quando você restaura um documento ou um modelo.
+    Isso não acontece quando você restaura um documento ou um modelo.
 
 ## Provas restauradas
 

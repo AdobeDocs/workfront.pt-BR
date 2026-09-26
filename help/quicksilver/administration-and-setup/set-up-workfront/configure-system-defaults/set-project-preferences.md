@@ -3,32 +3,38 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Configurar Preferências de Projeto do Sistema
-description: Como administrador  [!DNL Adobe Workfront] , você pode configurar as preferências padrão para todos os projetos criados no sistema. Essas preferências afetam o comportamento do projeto, tarefa e problema.
+description: Como administrador do [!DNL Adobe Workfront], você pode configurar as preferências padrão para todos os projetos criados no sistema. Essas preferências afetam o comportamento do projeto, tarefa e problema.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/h8QFgoFvlsgYnlPsYOe9BMMzaCRWkHDTkg0AtuM9EpU
+TQID: 'https://experienceleague.adobe.com/h8QFgoFvlsgYnlPsYOe9BMMzaCRWkHDTkg0AtuM9EpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2619
+source-wordcount: '2623'
 ht-degree: 2%
-
 ---
-
 # Configurar preferências de projeto em todo o sistema
 
 <!--Audited: 12/2023-->
@@ -116,7 +122,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
           </li>
          </ul>
         <p>Essa preferência é ativada por padrão. </p> 
-        <p><b>Nota</b></p>
+        <p><b>NOTA</b></p>
         <p> Um administrador de grupo pode alterar essa preferência por um grupo. Quando um usuário pertence a vários grupos com preferências diferentes, ele pode criar um projeto sem um modelo se o Grupo padrão tiver essa preferência ativada.</p> 
         </td> 
   </tr>
@@ -155,7 +161,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término ]</p> </td> 
    <td> <p>Determine quais dados [!DNL Workfront] usa para calcular a [!UICONTROL Estimativa no Término] (EAC) que representa o custo total projetado de um projeto.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calcular no nível do projeto]</strong>: EAC da tarefa pai e do projeto são determinados pela inserção de [!UICONTROL Horas Reais] ou [!UICONTROL Custo Real do Trabalho] nas Fórmulas EAC. Este cálculo inclui [!UICONTROL Horas efetivas] ou [!UICONTROL Custos e despesas] adicionados diretamente à tarefa ou projeto pai.</li> 

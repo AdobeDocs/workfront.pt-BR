@@ -1,30 +1,33 @@
 ---
 navigation-topic: notifications
-title: Visão geral das notificações do Experience Cloud
-description: A Adobe Workfront unificou todos os produtos de experiências digitais (DX) em um único sistema de notificação consistente chamado Notificações Experience Cloud.
+title: Visão geral das notificações da Experience Cloud
+description: A Adobe Workfront unificou todos os produtos de experiências digitais (DX) em um único sistema de notificação consistente chamado Notificações da Experience Cloud.
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
-TQID: https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ
+TQID: 'https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
+# Visão geral das notificações da Experience Cloud
 
-# Visão geral das notificações do Experience Cloud
+As notificações do Adobe Workfront estão sendo transferidas para o sistema de notificação centralizado da Adobe chamado Notificações da Experience Cloud. Esse sistema de notificações é usado por todos os produtos de experiência digital.
 
-As notificações do Adobe Workfront estão sendo transferidas para o sistema de notificação centralizado da Adobe chamado Notificações do Experience Cloud. Esse sistema de notificações é usado por todos os produtos de experiência digital.
-
-A partir de fevereiro de 2026, ou por volta dessa data, os emails e as notificações no aplicativo atuais do Workfront serão migrados para as Notificações do Experience Cloud. Este trabalho será concluído em fases. A equipe da Workfront informará sua organização antes que a migração comece.
+A partir de fevereiro de 2026, ou por volta dessa data, os emails e as notificações no aplicativo atuais do Workfront serão migrados para as Notificações da Experience Cloud. Este trabalho será concluído em fases. A equipe da Workfront informará sua organização antes que a migração comece.
 
 Após essa transição, os usuários poderão acessar todas as notificações no Adobe Workfront e em outros aplicativos Adobe DX em um único local, simplificando o modo como se mantêm informados e gerenciam suas preferências.
 
@@ -32,7 +35,7 @@ Após essa transição, os usuários poderão acessar todas as notificações no
 
 ## Por que estamos fazendo essa mudança?
 
-O Workfront faz parte do pacote de produtos de experiência digital da Adobe. A migração para o Experience Cloud traz vários benefícios, incluindo os seguintes:
+O Workfront faz parte do pacote de produtos de experiência digital da Adobe. A migração para a Experience Cloud traz vários benefícios, incluindo os seguintes:
 
 * Experiência de notificações unificadas: agora você pode experimentar uma interface que funciona em todas as soluções Adobe DX.
 * Manter-se informado: a unificação de notificações em um único local reduz o risco de notificações ausentes.
@@ -54,11 +57,11 @@ O Workfront faz parte do pacote de produtos de experiência digital da Adobe. A 
 
 * Os dados e permissões do Workfront permanecerão inalterados.
 
-## Exibir novas notificações no Experience Cloud
+## Exibir novas notificações na Experience Cloud
 
 1. No canto superior direito do Workfront, clique no ícone **Notificações** ![Ícone Notificações](assets/bell-icon.png).
 
-1. No painel **Notificações do Experience Cloud** que é aberto, selecione **Notificações**. Uma lista de suas notificações é exibida, com a notificação mais recente aparecendo no topo da lista.
+1. No painel **Notificações da Experience Cloud** que é aberto, selecione **Notificações**. Uma lista de suas notificações é exibida, com a notificação mais recente aparecendo no topo da lista.
 
 1. Clique em uma notificação para marcá-la como *Lida* e removê-la da lista de notificações recentes.
 
@@ -90,12 +93,12 @@ O Workfront faz parte do pacote de produtos de experiência digital da Adobe. A 
 
 +++Minhas notificações existentes serão perdidas?
 
-Não. Suas notificações históricas permanecerão acessíveis no Workfront, mas novas notificações serão enviadas por meio do Experience Cloud quando a transição for concluída.
+Não. Suas notificações históricas permanecerão acessíveis no Workfront, mas novas notificações serão enviadas por meio da Experience Cloud após a conclusão da transição.
 +++
 
 +++ Meus usuários precisarão fazer alguma coisa?
 
-Inicialmente não. Os administradores do Workfront verificarão a configuração primeiro e os usuários notarão o novo ícone Notificações após a transição para o Experience Cloud. A partir daí, eles precisarão aprender a acessar as notificações pessoais.
+Inicialmente não. Os administradores do Workfront verificarão a configuração primeiro e os usuários notarão o novo ícone Notificações após a transição para a Experience Cloud. A partir daí, eles precisarão aprender a acessar as notificações pessoais.
 +++
 
 +++E se minha organização não estiver pronta para a transição para a Experience Cloud?

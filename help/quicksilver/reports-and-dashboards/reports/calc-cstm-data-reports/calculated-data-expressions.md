@@ -9,26 +9,33 @@ feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/a2yfues0ClR-ZnG1Vo5foOuzaw6d3yiGlU33DUt0Kx0
+TQID: 'https://experienceleague.adobe.com/a2yfues0ClR-ZnG1Vo5foOuzaw6d3yiGlU33DUt0Kx0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2553
+source-wordcount: '2553'
 ht-degree: 98%
-
 ---
-
 # Visão geral das expressões de dados calculadas
 
 <!--Audited: 12/2023-->
@@ -151,7 +158,7 @@ Você pode criar um campo personalizado calculado de data ou hora usando as segu
    <td> <p>Adiciona o número de horas à data e é formatado da seguinte forma:</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
-   <p>Observação: esta expressão não é compatível com o Workfront Planning.</p></td> 
+   <p>Observação: esta expressão não é compatível com o Planejamento do Workfront.</p></td> 
   </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
@@ -472,7 +479,7 @@ Você pode criar um campo personalizado calculado que exiba um valor formatado c
    <p>As opções de cor são $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE e as outras opções de formatação são $$BOLD, $$ITALIC, $$UNDERLINE. É permitida apenas uma opção de cor, juntamente com até três outras opções de formatação. Se nenhuma opção de cor for especificada, a cor padrão do sistema será aplicada.</p>
    <p>A expressão é formatada da seguinte maneira:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>Observação: esta expressão não é compatível com o Workfront Planning.</p></td> 
+   <p>Observação: esta expressão não é compatível com o Planejamento do Workfront.</p></td> 
   </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
@@ -591,7 +598,7 @@ Você pode criar um campo personalizado calculado que exiba um valor formatado c
    <p>A expressão é formatada da seguinte maneira:</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>Por exemplo, ["–12,6", –13,0] torna-se ["–12,6", "–13"].</p>
-   <p>Observação: esta expressão não é compatível com o Workfront Planning.</p></td> 
+   <p>Observação: esta expressão não é compatível com o Planejamento do Workfront.</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCARRAY</strong> </td> 
@@ -599,7 +606,7 @@ Você pode criar um campo personalizado calculado que exiba um valor formatado c
    <p>A expressão é formatada da seguinte maneira:</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>Por exemplo, ["–12,6", –13,0] torna-se ["–13", "–12.6"].</p>
-   <p>Observação: esta expressão não é compatível com o Workfront Planning.</p></td> 
+   <p>Observação: esta expressão não é compatível com o Planejamento do Workfront.</p></td> 
   </tr>
   <tr> 
    <td><strong>STRING</strong> </td> 
@@ -628,7 +635,7 @@ Você pode criar um campo personalizado calculado que exiba um valor formatado c
    <td> <p>Avalia a expressão em contraste com uma lista de valores e retorna o resultado equivalente ao primeiro valor correspondente.</p>
    <p>A expressão é formatada da seguinte forma:</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>Esta expressão não é suportada no Workfront Planning.</p></td> 
+   <p>Esta expressão não é permitida no Planejamento do Workfront.</p></td> 
   </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 

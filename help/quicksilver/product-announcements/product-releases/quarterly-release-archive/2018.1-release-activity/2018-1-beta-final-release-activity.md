@@ -7,18 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 35bd3604-5452-4b46-afb1-78bc2fbb48ec
-TQID: https://experienceleague.adobe.com/d8MDB-E0EtqYt8meTvwOQPKwyJC1iCjgjklVdGdy5Rk
+TQID: 'https://experienceleague.adobe.com/d8MDB-E0EtqYt8meTvwOQPKwyJC1iCjgjklVdGdy5Rk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 895
+source-wordcount: '910'
 ht-degree: 1%
-
 ---
-
 # Atividade de lançamento da versão 2018.1 Beta Final
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.1. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 31 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.

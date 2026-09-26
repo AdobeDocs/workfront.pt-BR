@@ -7,24 +7,29 @@ author: Courtney
 hide: true
 feature: Get Started with Workfront
 exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
-TQID: https://experienceleague.adobe.com/Qs0ZW7b--KQ3vFSo2W-taevADl7iiRgQ416ZUl0sOXk
+TQID: 'https://experienceleague.adobe.com/Qs0ZW7b--KQ3vFSo2W-taevADl7iiRgQ416ZUl0sOXk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1667
+source-wordcount: '1667'
 ht-degree: 6%
-
 ---
-
 # Mudar da página inicial legada para a nova página inicial
 
 A página inicial herdada será removida do Workfront em 17/10 com a versão do quarto trimestre. Este artigo fornece informações sobre qual funcionalidade estará disponível na nova página inicial, bem como recomendações para os administradores do Workfront que migram os usuários para a nova experiência na página inicial.
@@ -282,7 +287,7 @@ Fazer isso o mais rápido possível dará aos usuários tempo para se ajustarem 
 
 **Treinamento**
 
-* [Tutorial Remover, adicionar e reorganizar widgets na Página inicial](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Tutorial Remover, adicionar e reorganizar widgets na Página inicial](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Fundamentos do trabalhador no Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

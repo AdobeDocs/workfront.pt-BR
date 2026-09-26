@@ -9,20 +9,24 @@ role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+TQID: 'https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1864
+source-wordcount: '1864'
 ht-degree: 10%
-
 ---
-
 # Visão geral da sintaxe do modo texto
 
 <!--Audited: 1/2025-->
@@ -48,8 +52,8 @@ As diretrizes a seguir são comuns ao criar qualquer elemento de relatório ou l
 * Sempre use camel case ao referenciar objetos ou atributos no banco de dados do Workfront.
 * Lembre-se da hierarquia de objetos no Workfront. As seguintes diferenças existem entre exibições, filtros e agrupamentos:
 
-   * Você pode exibir um objeto que esteja a três objetos de distância do relatório ou da lista em uma visualização.
-   * Você não pode fazer referência a objetos que estejam a mais de 2 objetos de distância do objeto principal em um prompt de agrupamento, filtro ou personalizado.
+  * Você pode exibir um objeto que esteja a três objetos de distância do relatório ou da lista em uma visualização.
+  * Você não pode fazer referência a objetos que estejam a mais de 2 objetos de distância do objeto principal em um prompt de agrupamento, filtro ou personalizado.
 
   **Exemplo:** Você pode exibir o nome ou GUID do Proprietário do Portfolio em uma exibição de tarefa:
 
@@ -63,8 +67,8 @@ As diretrizes a seguir são comuns ao criar qualquer elemento de relatório ou l
 
   Para obter informações sobre a hierarquia de objetos no Workfront, consulte:
 
-   * [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [API Explorer](../../../wf-api/general/api-explorer.md)
+  * [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+  * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * Use curingas sempre que possível para tornar seus relatórios e listas mais dinâmicos e evitar a duplicação deles para usuários diferentes e linhas do tempo semelhantes.
 
@@ -96,15 +100,15 @@ Existem as seguintes semelhanças entre a sintaxe dos conjuntos de elementos de 
 
   Para obter informações sobre as linhas principais dos códigos para exibições e agrupamentos ao criá-los no modo de texto, consulte:
 
-   * [Editar uma exibição usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Editar um agrupamento usando o modo texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+  * [Editar uma exibição usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+  * [Editar um agrupamento usando o modo texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * As linhas de código e sintaxe são semelhantes para filtros e prompts personalizados.
 
   Para obter mais informações, consulte:
 
-   * [Editar um filtro usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+  * [Editar um filtro usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+  * [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Sintaxe para exibições e agrupamentos
 
@@ -197,22 +201,22 @@ As regras a seguir se aplicam ao fazer referência a objetos Workfront usando um
 
   **Exemplo:** Para exibir o nome de um projeto concatenado com o nome da tarefa em um relatório de tarefa, use as seguintes linhas:
 
-   * Em uma exibição:
+  * Em uma exibição:
 
-     `valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-   * Em um agrupamento:
+  * Em um agrupamento:
 
-     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
   Para obter informações sobre como os objetos estão se referenciando no banco de dados do Workfront, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * Ao fazer referência a um campo personalizado, use as seguintes regras:
 
-   * Use o nome do campo exatamente como ele aparece na interface.
-   * Coloque &quot;DE:&quot; antes do nome do campo.
-   * Coloque o campo entre chaves.
-   * Separe os campos relacionados ao objeto por pontos.
+  * Use o nome do campo exatamente como ele aparece na interface.
+  * Coloque &quot;DE:&quot; antes do nome do campo.
+  * Coloque o campo entre chaves.
+  * Separe os campos relacionados ao objeto por pontos.
 
   **Exemplo:** Para exibir o campo personalizado de projeto Detalhes Adicionais em uma exibição de tarefa em uma linha de expressão de valor, use a seguinte linha:
 
@@ -284,14 +288,14 @@ Você pode usar os seguintes elementos para criar filtros e prompts personalizad
 
 * Um conector de instrução que conecta várias instruções de filtro:
 
-   * E
+  * E
 
-     Este é o conector padrão entre as instruções de filtro.
+    Este é o conector padrão entre as instruções de filtro.
 
-   * OR
+  * OR
 
-     >[!TIP]
-     >
-     >Os conectores de instrução fazem distinção entre maiúsculas e minúsculas. &quot;AND&quot; pode ser omitido no modo de texto.
+    >[!TIP]
+    >
+    >Os conectores de instrução fazem distinção entre maiúsculas e minúsculas. &quot;AND&quot; pode ser omitido no modo de texto.
 
 * Curingas para tornar os filtros mais dinâmicos e personalizá-los para o horário atual ou para o usuário que está conectado. Para obter informações sobre curingas, consulte [Visão geral das variáveis de filtro de curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

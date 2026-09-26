@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 326ca4c6-f5d6-4060-9e2b-712d8bcd2ff1
-TQID: https://experienceleague.adobe.com/HR7S7Kj-JqPsJIx7fx9MCXomVrLJMGujYF3icuY4t-M
+TQID: 'https://experienceleague.adobe.com/HR7S7Kj-JqPsJIx7fx9MCXomVrLJMGujYF3icuY4t-M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 94%
-
+source-wordcount: '1000'
+ht-degree: 99%
 ---
-
 # Melhorias na geração de relatórios no primeiro trimestre de 2026
 
 Esta página descreve as melhorias nos relatórios feitas com a versão do primeiro trimestre de 2026 para o ambiente de pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -31,7 +38,9 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
 
 Fizemos as seguintes atualizações para os campos de moeda nativa:
 
@@ -47,7 +56,9 @@ Fizemos as seguintes atualizações para os campos de moeda nativa:
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
 
 Adicionamos uma pesquisa rápida aos relatórios da tabela. Esta pesquisa funciona em todas as páginas, para que você possa encontrar dados mesmo que eles não estejam visíveis no momento.
 
@@ -56,7 +67,9 @@ Adicionamos uma pesquisa rápida aos relatórios da tabela. Esta pesquisa funcio
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
 
 Introduzimos uma nova opção Mostrar total que converte gráficos de pizza em gráficos de rosquinha. Esse recurso permite que os usuários exibam um valor central que representa o total de todos os segmentos no gráfico.
 
@@ -72,7 +85,9 @@ Para obter mais informações, consulte [Criar um relatório de gráfico em um p
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
 
 Introduzimos duas novas opções de configuração para gráficos de pizza:
 
@@ -85,7 +100,9 @@ Para obter mais informações, consulte [Criar um relatório de gráfico em um p
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
 
 Atualizamos a barra de agrupamento nos painéis de tela para exibir a contagem de registros da página atual e a contagem geral de registros do agrupamento em todas as páginas.
 
@@ -97,7 +114,9 @@ Anteriormente, a barra de agrupamento não fornecia essas informações detalhad
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
 
 Agora é possível definir uma linha de referência nos gráficos de barra, coluna e linha para definir uma meta ou um limite para seus relatórios baseados em séries.
 
@@ -109,7 +128,9 @@ Para obter mais informações, consulte [Criar um relatório de gráfico em um p
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
 
 Agora é possível personalizar os rótulos de eixo nos relatórios de gráfico. Esse novo recurso permite inserir um rótulo de eixo de substituição para ser exibido em vez do objeto padrão e do caminho de campo. Além disso, você pode optar por ocultar totalmente os rótulos dos eixos.
 
@@ -119,7 +140,9 @@ Para obter mais informações, consulte [Criar um relatório de gráfico em um p
 
 >[!NOTE]
 >
->Versão de visualização: 23 de outubro de 2025>Produção para todos os clientes: 23 de outubro de 2025>[!BADGE Fora do cronograma]{type=Neutral}
+>Versão preliminar: 23 de outubro de 2025
+>Produção para todos os clientes: 23 de outubro de 2025
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora é possível duplicar um relatório de KPI, tabela ou gráfico em um painel de tela após sua criação. Após a duplicação, é possível editar o relatório conforme necessário antes de salvar.
 
@@ -127,7 +150,9 @@ Agora é possível duplicar um relatório de KPI, tabela ou gráfico em um paine
 
 >[!NOTE]
 >
->Visualização: 6 de novembro de 2025>Versão rápida de produção: 13 de novembro de 2025>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 6 de novembro de 2025
+>Versão rápida de produção: 13 de novembro de 2025
+>Produção para todos: 15 de janeiro de 2026
 
 Removemos as seguintes opções de campo que estavam disponíveis anteriormente ao aplicar um filtro a um relatório:
 
@@ -148,7 +173,9 @@ As seguintes opções de campo estão disponíveis, se preferir:
 
 >[!NOTE]
 >
->Visualização: 6 de novembro de 2025>Versão rápida de produção: 13 de novembro de 2025>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 6 de novembro de 2025
+>Versão rápida de produção: 13 de novembro de 2025
+>Produção para todos: 15 de janeiro de 2026
 
 Para evitar atrasos de tempo de carregamento e melhorar o desempenho geral nos painéis de tela, aplicamos limites em quantos componentes de painel podem ser adicionados a um painel:
 

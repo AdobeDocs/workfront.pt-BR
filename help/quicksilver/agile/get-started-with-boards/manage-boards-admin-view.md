@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU
+TQID: 'https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 604
-ht-degree: 8%
-
+source-wordcount: '635'
+ht-degree: 7%
 ---
-
 # Gerenciar a visualização de administrador do Boards
 
 A Exibição de administrador dos painéis contém uma lista de todos os painéis na sua conta que os administradores do sistema podem usar para obter um instantâneo rápido dos detalhes gerais dos painéis, incluindo a última atualização, quantos cartões cada um tem e muito mais.
@@ -84,7 +91,7 @@ Para obter mais informações, consulte [Criar ou editar um quadro](/help/quicks
    1. (Opcional) Clique no ícone **Calendário** ![Ícone de calendário](assets/calendar-icon.png) e selecione um intervalo de datas para filtrar pelos Quadros que foram modificados pela última vez dentro desse período.
 
    1. (Opcional) Na seção **Modelo**, selecione o tipo de modelo de Quadro pelo qual a lista será filtrada. Você pode selecionar mais de um tipo de template.
-Para obter mais informações sobre os tipos de modelo de quadro, consulte [Criar ou editar um quadro](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+      Para obter mais informações sobre os tipos de modelo de quadro, consulte [Criar ou editar um quadro](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
    1. (Opcional) Na seção **Está arquivado**, selecione se os painéis arquivados ou não arquivados serão exibidos. É possível selecionar mais de uma opção.
 

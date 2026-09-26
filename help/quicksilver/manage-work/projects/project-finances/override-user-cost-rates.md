@@ -7,13 +7,17 @@ description: Este artigo descreve como é possível substituir as taxas de custo
 author: Lisa
 feature: Work Management
 exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
-source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 5%
-
 ---
-
 # Substituir taxas de custo do usuário no nível do projeto
 
 Você pode especificar qual é a taxa de custo para um usuário em um projeto específico. Essa taxa de custo no nível do projeto substitui a taxa de custo no nível do sistema para esse usuário. O Workfront usa a taxa de custo no nível do projeto da função de trabalho para calcular o custo, em vez de usar a taxa de custo no nível do sistema.

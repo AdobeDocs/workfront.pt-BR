@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 2%
-
+source-wordcount: '1381'
+ht-degree: 1%
 ---
-
 # Aprimoramentos nas operações corporativas do segundo trimestre de 2026
 
 Esta página descreve as melhorias nas Operações empresariais feitas com a versão do Segundo trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -23,8 +30,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >[!NOTE]
 >
 >Visualização: 2 de abril de 2026
->Versão rápida de produção: quinta-feira, 15 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 Os recursos avançados de operações corporativas da Adobe Workfront são uma maneira unificada e escalável de gerenciar finanças, projetos e acesso corporativo. Esses recursos fornecem a visibilidade e o controle de que as empresas precisam para operar de forma lucrativa e eficiente.
 
@@ -36,7 +43,7 @@ Os recursos avançados de operações corporativas da Adobe Workfront são uma m
 
 Preveja, controle e otimize suas finanças com hierarquias de custo e taxa de faturamento de vários níveis.
 
-[Assista a uma demonstração em vídeo de 13 minutos dos recursos avançados de gerenciamento financeiro.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
+[Assista a uma demonstração em vídeo de 13 minutos dos recursos avançados do gerenciamento financeiro.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
 
 Os aprimoramentos na gestão financeira incluem:
 
@@ -99,7 +106,7 @@ Para obter mais informações, consulte [Criar e exibir instantâneos de projeto
 
 Para obter mais informações, consulte [Visão geral dos perfis empresariais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
-[Exibir uma demonstração em vídeo de perfis comerciais.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
+[Assista a uma demonstração em vídeo de perfis empresariais.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -115,7 +122,7 @@ Além disso, as permissões para visualizar dados de custo e faturamento foram s
 
 A lógica avançada em formulários personalizados fornece insights mais claros e gerenciamento de projetos e financeiros mais preciso.
 
-[Exiba uma demonstração em vídeo dos aprimoramentos de campo e formulário personalizados.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
+[Assista a uma demonstração em vídeo do formulário personalizado e das melhorias de campo.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 As melhorias nos formulários personalizados incluem:
 
@@ -128,9 +135,9 @@ As melhorias nos formulários personalizados incluem:
   >Os novos tipos lógicos só estão disponíveis para organizações nos pacotes Prime ou Ultimate do Workflow.
 
 * Melhorias na interface do designer do formulário:
-   * O nome do formulário agora aparece na parte superior esquerda do designer, permitindo que você veja o nome em um formulário longo ao rolar a tela.
-   * Os tipos de objeto que o formulário pode anexar estão em uma lista suspensa.
-   * Você pode optar por exibir ou ocultar indicadores lógicos nos campos, para todos os tipos lógicos. Os tipos lógicos Exibir e Ignorar mostram indicadores para ambos os campos afetados. Todos os outros tipos lógicos afetam um campo.
+  * O nome do formulário agora aparece na parte superior esquerda do designer, permitindo que você veja o nome em um formulário longo ao rolar a tela.
+  * Os tipos de objeto que o formulário pode anexar estão em uma lista suspensa.
+  * Você pode optar por exibir ou ocultar indicadores lógicos nos campos, para todos os tipos lógicos. Os tipos lógicos Exibir e Ignorar mostram indicadores para ambos os campos afetados. Todos os outros tipos lógicos afetam um campo.
 
   Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -165,7 +172,7 @@ Nos modelos de layout, você pode personalizar os cabeçalhos e os menus de nave
 
 Para obter mais informações, consulte [Criar e gerenciar modelos de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-[Exiba uma demonstração em vídeo das melhorias do modelo de layout.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+[Assista a uma demonstração em vídeo das melhorias no modelo de layout.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
 
 ### Localização personalizada
 

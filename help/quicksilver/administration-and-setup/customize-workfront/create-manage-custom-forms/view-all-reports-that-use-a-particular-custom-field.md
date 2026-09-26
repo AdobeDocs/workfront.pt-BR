@@ -5,24 +5,29 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-TQID: https://experienceleague.adobe.com/d1xDsB4-oibobguCMqRvm5S46gwUS76W1xUvB3IfycU
+TQID: 'https://experienceleague.adobe.com/d1xDsB4-oibobguCMqRvm5S46gwUS76W1xUvB3IfycU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: '756'
 ht-degree: 5%
-
 ---
-
 # Exibir todos os relatórios que usam um campo ou widget personalizado específico
 
 Você pode adicionar uma visualização personalizada na área Forms personalizado que mostra quais relatórios estão usando um campo ou widget personalizado específico. Isso é útil quando você precisa editar ou excluir o campo ou widget, pois ele pode já estar implementado em um ou mais relatórios. É importante avaliar se esses relatórios precisarão de ajustes para continuar funcionando corretamente.

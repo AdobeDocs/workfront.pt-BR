@@ -8,28 +8,39 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 15e03405-63ff-48ea-b873-cf44f1f46282
-TQID: https://experienceleague.adobe.com/6l1X-py3VV1LysiT-WtBvW4zJjGseRKfAL6C6ysdhUI
+TQID: 'https://experienceleague.adobe.com/6l1X-py3VV1LysiT-WtBvW4zJjGseRKfAL6C6ysdhUI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 790
+source-wordcount: '790'
 ht-degree: 2%
-
 ---
-
 # Aprimoramentos para dispositivos móveis e na integração na 2019.3
 
 Esta página descreve todas as alterações, integração e aprimoramentos móveis feitos na versão 2019.3. Ele será disponibilizado no ambiente de Produção na semana de 19 de agosto de 2019.
@@ -114,8 +125,8 @@ Adicionamos as seguintes melhorias de aparência para aprimorar sua experiência
 
 * Os itens a seguir foram movidos da barra superior da página Detalhes para áreas mais proeminentes da tela:
 
-   * O ícone de adição agora está no canto inferior esquerdo da tela
-   * A marca de seleção para começar a trabalhar em um item agora é um botão Trabalhar nisso na parte superior central da tela
+  * O ícone de adição agora está no canto inferior esquerdo da tela
+  * A marca de seleção para começar a trabalhar em um item agora é um botão Trabalhar nisso na parte superior central da tela
 
 * Agora é possível exibir os formulários personalizados anexados tocando em Mostrar mais na parte inferior da página Detalhes.
 * Alteração da aparência das páginas usadas para enviar tarefas, problemas e solicitações.

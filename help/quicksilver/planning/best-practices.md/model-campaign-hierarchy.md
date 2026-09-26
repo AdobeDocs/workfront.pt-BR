@@ -8,36 +8,48 @@ recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ
+TQID: 'https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1564
+source-wordcount: '1572'
 ht-degree: 2%
-
 ---
-
 # Arquiteto do seu sucesso: modelagem da hierarquia de campanhas
 
 <!--see the file again for additional comments from Seth and others-->
 
 >[!IMPORTANT]
 >
->As informações contidas neste artigo referem-se ao Adobe Workfront Planning, um recurso adicional do Adobe Workfront.
+>As informações contidas neste artigo referem-se ao Planejamento do Adobe Workfront, um recurso adicional do Adobe Workfront.
 >
 >Sua organização deve ter um pacote do Workfront Planning Prime ou superior para oferecer suporte aos recursos recomendados neste artigo.
 >
->Para obter uma lista dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Para obter uma lista dos requisitos para acessar o Planejamento do Workfront, consulte [Visão geral do acesso ao Planejamento do Adobe Workfront](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -67,25 +79,25 @@ A seguir estão os níveis de uma implementação bem-sucedida do Planning e os 
 
 * **Nível 1: Campanhas (Workfront Planning)**
 
-   * **Foco:** Defina os pilares estratégicos de longo prazo e as iniciativas anuais. Por exemplo, defina uma iniciativa para sua organização chamada &quot;Reconhecimento global da marca no ano fiscal de 2026&quot;. Este é o seu foco por um determinado período. Crie campanhas para apoiar esta iniciativa.
+  * **Foco:** Defina os pilares estratégicos de longo prazo e as iniciativas anuais. Por exemplo, defina uma iniciativa para sua organização chamada &quot;Reconhecimento global da marca no ano fiscal de 2026&quot;. Este é o seu foco por um determinado período. Crie campanhas para apoiar esta iniciativa.
 
-   * **Pessoas:** As partes interessadas neste nível podem ser Diretoras de Marketing, vice-presidentes de Marketing ou outros líderes estratégicos.
+  * **Pessoas:** As partes interessadas neste nível podem ser Diretoras de Marketing, vice-presidentes de Marketing ou outros líderes estratégicos.
 
   Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * **Nível 2: Táticas de Canal (Workfront Planning)**
 
-   * **Foco:** Defina os resumos operacionais que descrevem o &quot;quê&quot; de canais específicos. Esta é a camada final de intenção estratégica antes do início do trabalho. Por exemplo, crie uma tática &quot;Q1 Social Media Blitz&quot;. Em seguida, você pode emparelhá-lo com suas campanhas.
+  * **Foco:** Defina os resumos operacionais que descrevem o &quot;quê&quot; de canais específicos. Esta é a camada final de intenção estratégica antes do início do trabalho. Por exemplo, crie uma tática &quot;Q1 Social Media Blitz&quot;. Em seguida, você pode emparelhá-lo com suas campanhas.
 
-   * **Personalidades:** os principais interessados são um líder de operações de marketing, líderes de canal ou gerentes de campanha.
+  * **Personalidades:** os principais interessados são um líder de operações de marketing, líderes de canal ou gerentes de campanha.
 
 * **Nível 3: Projetos (Planning e Workfront)**
 
-   * **Foco:** Execute as experiências ou atividades exatas que eventualmente realizarão sua iniciativa. Alguns dos resultados são específicos, como publicações sociais, emails, páginas da Web.
+  * **Foco:** Execute as experiências ou atividades exatas que eventualmente realizarão sua iniciativa. Alguns dos resultados são específicos, como publicações sociais, emails, páginas da Web.
 
-   * **Implementação:** você pode criar Táticas no Planning e vinculá-las diretamente aos **Projetos** no Workfront, onde os resultados individuais são gerenciados como tarefas e problemas.
+  * **Implementação:** você pode criar Táticas no Planning e vinculá-las diretamente aos **Projetos** no Workfront, onde os resultados individuais são gerenciados como tarefas e problemas.
 
-   * **Pessoa:** os principais interessados aqui são pessoas criativas, colaboradores individuais e qualquer pessoa responsável por fazer o trabalho de apoio à iniciativa.
+  * **Pessoa:** os principais interessados aqui são pessoas criativas, colaboradores individuais e qualquer pessoa responsável por fazer o trabalho de apoio à iniciativa.
 
 ### Expansão estratégica: como adicionar mais níveis
 
@@ -102,7 +114,7 @@ Talvez seja útil criar os seguintes itens adicionais:
 >Se sua organização produzir mais de 5.000 atividades por ano, você deverá mover o rastreamento de entrega individual para o Workfront.
 >
 >O gerenciamento de registros de experiência de alto volume no Planning pode levar a um acúmulo de dados que obscurece sua visibilidade estratégica.
->Recomendamos esta diretriz ampla para obter o máximo de eficiência:
+>Recomendamos esta orientação ampla para obter o máximo de eficiência:
 >
 >* Use o Planning para &quot;por que&quot; e &quot;o que&quot;
 >* Use o Workfront para o &quot;como&quot; de alto volume.

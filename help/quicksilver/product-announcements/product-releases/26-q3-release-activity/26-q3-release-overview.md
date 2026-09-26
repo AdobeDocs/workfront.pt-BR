@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 13%
-
 ---
-
 # Visão geral da versão do terceiro trimestre de 2026
 
 Esta página fornece informações sobre a funcionalidade incluída na versão do terceiro trimestre de 2026 programada para julho de 2026.
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do terceiro trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -576,7 +583,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 
 Os novos recursos do Workfront Fusion são disponibilizados em Produção em um ritmo fora do cronograma de lançamentos padrão. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Aprimoramentos do Workfront Planning
+### Aprimoramentos do Planejamento do Workfront
 
 <!--
 New features in Workfront Planning are available in Production.
@@ -616,7 +623,7 @@ Se você for um administrador da Workfront com usuários de leitores de Data Con
 
 Essa alteração foi anunciada pela primeira vez nas notas de versão de abril de 2026 do Workfront e este é o lembrete final antes do prazo. Certifique-se de que todos os usuários de leitores afetados ativem o MFA antes de 8 de agosto de 2026 para evitar a interrupção de seu acesso.
 
-Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/pt-br/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Adobe Workfront Planning como um produto independente
 
@@ -679,7 +686,7 @@ Para obter mais informações, consulte [Introdução à avaliação gratuita do
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

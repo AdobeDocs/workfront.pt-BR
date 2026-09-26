@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: Configurar Logon Único para  [!DNL Workfront Proof]  usuários
-description: Se você tiver o plano Select ou Premium, poderá fornecer o recurso de Logon Único (SSO) que permite usar o nome de usuário e a senha da sua organização existente para acessar sua conta  [!DNL Workfront Proof] .
+title: Configurar Logon Único para [!DNL Workfront Proof] usuários
+description: Se você tiver o plano Select ou Premium, poderá fornecer o recurso de Logon Único (SSO) que permite usar o nome de usuário e a senha da sua organização existente para acessar sua conta do [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-TQID: https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA
+TQID: 'https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1084
+source-wordcount: '1374'
 ht-degree: 0%
-
 ---
-
 # Configurar Logon Único para [!DNL Workfront Proof] usuários
 
 >[!IMPORTANT]
@@ -64,7 +74,7 @@ Para configurar o SSO:
 
 1. Abra a guia **[!UICONTROL Logon Único]** (1).
 1. Insira a **URL do SSO** (2).
-Este é o link para o seu servidor SSO (por exemplo, **https://sso.mycompany.com/opensso**).
+Este é o link para seu servidor SSO (por exemplo, **https://sso.mycompany.com/opensso**).
 
 1. Insira a **URL de Logon** (3).
 Este é o URL que será chamado para redirecionar os usuários para o seu provedor de identidade.
@@ -80,7 +90,7 @@ Este é o URL ao qual você retornará depois de fazer logoff, por exemplo
 1. A impressão digital SHA1 do certificado SAML fornecido pelo Provedor de Identidade SAML.
 1. Certifique-se de incluir as informações principais definindo isso no Provedor de identidade.
 1. Alternar **SSO** para **[!UICONTROL Habilitado]** (6).
-Quando o SSO estiver habilitado, você e outros usuários da sua conta farão logon usando seu próprio mecanismo de autenticação. Isso significa que quando os usuários acessarem a tela de logon da sua conta do [!DNL Workfront Proof] (por exemplo, **yourcompany.proofhq.com/login**), será exibida a janela de transferência para sua própria página de logon de autenticação.
+Quando o SSO estiver habilitado, você e outros usuários da sua conta farão logon usando seu próprio mecanismo de autenticação. Isso significa que quando os usuários acessarem a tela de logon da conta do [!DNL Workfront Proof] (por exemplo, **yourcompany.proofhq.com/login**), será exibida a janela de transferência para a sua própria página de logon de autenticação.
 
 1. (Opcional) Habilitar **Provisionar usuários automaticamente** (7).
 Quando esta opção estiver habilitada, as contas de usuário serão criadas automaticamente para pessoas que não têm seus próprios perfis do [!DNL Workfront Proof], mas acessarão sua conta do [!DNL Workfront Proof] usando suas credenciais de Logon Único. Isso será ativado somente quando o limite do usuário ainda não for atingido em sua conta.
@@ -104,8 +114,8 @@ Single Sign-On é um recurso Select e Premium, portanto, o Single Sign-On só po
 Aqui você terá dois métodos (5) de configuração:
 
 1. **Herdado:** SSO com a configuração retirada da sua conta de hub.
-Se um usuário acessar [!DNL Workfront Proof] por meio da **página de logon padrão** ([https://business.adobe.com/br/products/workfront/proofing-approvals.html](https://business.adobe.com/br/products/workfront/proofing-approvals.html)), haverá **dois níveis de autorização**: primeiro, um usuário é solicitado a fazer logon usando os dados de acesso do [!DNL Workfront Proof] (email e senha); em seguida, o usuário é transferido por meio de uma janela SSO para a página de logon SSO.
-Portanto, com o serviço SSO habilitado, recomendamos fazer logon por meio de seu próprio subdomínio/domínio do [!DNL Workfront Proof].
+Se um usuário acessar [!DNL Workfront Proof] por meio da **página de logon padrão** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)), haverá **dois níveis de autorização**: primeiro, um usuário é solicitado a fazer logon usando os dados de acesso do [!DNL Workfront Proof] (email e senha); em seguida, o usuário é transferido por meio de uma janela SSO para a página de logon SSO.
+Portanto, com o serviço SSO habilitado, recomendamos fazer logon por meio de seu próprio subdomínio/domínio [!DNL Workfront Proof].
 
    >[!NOTE]
    >
@@ -153,7 +163,7 @@ Se a configuração de SSO Manual tiver sido escolhida para uma conta satélite 
 Com o Logon único habilitado, o URL de logon de subdomínio (por exemplo, yourcompany.proofhq.com/login) exibe uma tela de transferência (2) que o direciona diretamente para a página de logon com SSO.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. Se um usuário acessar [!DNL Workfront Proof] por meio da **página de logon padrão** ([https://business.adobe.com/br/products/workfront/proofing-approvals.html](https://business.adobe.com/br/products/workfront/proofing-approvals.html)), haverá **dois níveis de autorização**. Primeiro, um usuário é solicitado a fazer logon usando os dados de acesso do [!DNL Workfront Proof] (email e senha). Em seguida, o usuário é transferido por meio de uma janela SSO (2) para a página de logon SSO.\
+1. Se um usuário acessar [!DNL Workfront Proof] por meio da **página de logon padrão** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)), haverá **dois níveis de autorização**. Primeiro, um usuário é solicitado a fazer logon usando os dados de acesso do [!DNL Workfront Proof] (email e senha). Em seguida, o usuário é transferido por meio de uma janela SSO (2) para a página de logon SSO.\
    Portanto, com o serviço SSO habilitado, recomendamos fazer logon por meio de seu próprio subdomínio/domínio [!DNL Workfront Proof].
 
 1. Neste momento, quando o Logon único está ativado na sua conta da Workfront Proof, você não poderá fazer logon no aplicativo da iPhone com essas credenciais.

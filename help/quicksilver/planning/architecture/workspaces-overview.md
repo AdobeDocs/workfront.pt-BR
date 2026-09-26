@@ -6,19 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+TQID: 'https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 3%
-
 ---
-
 # Visão geral dos espaços de trabalho
 
 <!--
@@ -41,10 +48,10 @@ Um espaço de trabalho é uma coleção de tipos de registro usados por uma unid
 * O Workfront Planning não vem com nenhum espaço de trabalho pré-configurado. Você deve criá-los de acordo com as necessidades de sua organização.
 * Você pode criar espaços de trabalho das seguintes maneiras:
 
-   * Do zero
-   * Uso de um template. Os modelos contêm um número pré-configurado de tipos de registro e seus campos.
-   * Uso da Designer do Planning habilitada por IA. Este recurso atualmente está no Beta.
-   * Uso de um pacote de modelo de vários espaços de trabalho.
+  * Do zero
+  * Uso de um template. Os modelos contêm um número pré-configurado de tipos de registro e seus campos.
+  * Uso da Designer do Planning habilitada por IA. Este recurso atualmente está no Beta.
+  * Uso de um pacote de modelo de vários espaços de trabalho.
 
   Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -53,9 +60,9 @@ Um espaço de trabalho é uma coleção de tipos de registro usados por uma unid
   Para obter informações, consulte [Visão geral dos tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * Os espaços de trabalho são exibidos nas seguintes guias na área Planejamento:
 
-   * **Espaços de trabalho em que estou**: exibe os espaços de trabalho que você criou ou os espaços de trabalho que são compartilhados com você.
-   * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema. Isso só está disponível para Administradores do sistema.
-   * **Espaços de trabalho de exemplo**: exibe exemplos internos de espaços de trabalho de práticas recomendadas. Não é possível editar os espaços de trabalho, os tipos de registro ou adicionar registros ou campos, mas você pode adicionar, editar e compartilhar exibições com outras pessoas.
+  * **Espaços de trabalho em que estou**: exibe os espaços de trabalho que você criou ou os espaços de trabalho que são compartilhados com você.
+  * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema. Isso só está disponível para Administradores do sistema.
+  * **Espaços de trabalho de exemplo**: exibe exemplos internos de espaços de trabalho de práticas recomendadas. Não é possível editar os espaços de trabalho, os tipos de registro ou adicionar registros ou campos, mas você pode adicionar, editar e compartilhar exibições com outras pessoas.
 
   >[!NOTE]
   >
@@ -107,8 +114,8 @@ Considere o seguinte sobre o uso da pesquisa global:
 
 * Você pode acessar a pesquisa na página de aterrissagem do Planning ou em qualquer página do Planning pressionando a seguinte combinação de teclado:
 
-   * CTRL+K para Windows
-   * ⌘+K para Mac
+  * CTRL+K para Windows
+  * ⌘+K para Mac
 * Os últimos 7 resultados de cada objeto são exibidos na caixa de pesquisa.
 * Você pode executar uma pesquisa geral ou selecionar um objeto e pesquisar listas individuais.
 

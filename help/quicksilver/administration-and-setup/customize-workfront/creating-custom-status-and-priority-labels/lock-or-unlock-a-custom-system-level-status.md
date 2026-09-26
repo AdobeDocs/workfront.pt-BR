@@ -8,24 +8,29 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-TQID: https://experienceleague.adobe.com/i7J3tErfajw5FTDEnF-a-dgJDqBkDv1BfQ8Xhm6PjAg
+TQID: 'https://experienceleague.adobe.com/i7J3tErfajw5FTDEnF-a-dgJDqBkDv1BfQ8Xhm6PjAg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: '504'
 ht-degree: 1%
-
 ---
-
 # Status bloqueados e desbloqueados no nível do sistema
 
 Bloquear status personalizados é uma maneira de garantir que as pessoas em toda a organização usem os mesmos processos no fluxo de trabalho. Quando um status é bloqueado, ele fica disponível para todos os usuários no sistema. Embora você possa editar ou excluir um status bloqueado, os administradores de grupos não podem fazer isso para seus grupos; eles podem alterar apenas sua ordem de exibição na lista Status.

@@ -7,29 +7,34 @@ feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/8c5WRCNHRseRR3jcv2c-mPmE-D-zzfjMcxG0m4EjWVo
+TQID: 'https://experienceleague.adobe.com/8c5WRCNHRseRR3jcv2c-mPmE-D-zzfjMcxG0m4EjWVo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: '886'
 ht-degree: 94%
-
 ---
-
 # Assistente de IA no Workfront
 
 >[!IMPORTANT]
 >
->A partir de setembro de 2026, o AI Assistant estará fazendo a transição para o CX Coworker, uma interface conversacional para realizar o trabalho. Para obter informações sobre o CX Co-worker, consulte a [Visão geral do CX Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>A partir de setembro de 2026, o Assistente de IA está fazendo a transição para o CX Coworker, uma interface conversacional para concluir o trabalho. Para obter informações sobre o CX Coworker, consulte [visão geral do CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 O Assistente de IA do Workfront ajuda você a realizar seu trabalho, oferecendo informações e sugestões no aplicativo em uma conversa em linguagem natural. O Assistente de IA pode proporcionar uma experiência de trabalho mais tranquila ao
 
@@ -80,9 +85,9 @@ Para habilitar o Assistente de IA para sua organização, **todos** os seguintes
 
   Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-* O Assistente de IA do Workfront Planning tem funcionalidades diferentes do Assistente de IA do Workfront.
+* O Assistente de IA do Planejamento do Workfront tem funcionalidades diferentes do Assistente de IA do Workfront.
 
-  Para obter mais informações sobre o Assistente de IA no Workfront Planning, consulte [Visão geral do Assistente de IA do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+  Para obter mais informações sobre o Assistente de IA no Planejamento do Workfront, consulte [Visão geral do Assistente de IA do Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 * O Assistente de IA está disponível apenas em inglês no momento.
 
@@ -127,7 +132,7 @@ O Assistente de IA pode consultar dados associados aos seguintes tipos de objeto
 * Problemas
 * Formulários personalizados
 * Usuários
-* Registros do Workfront Planning
+* Registros do Planejamento do Workfront
 
 
 ## Acessar o Assistente de IA
@@ -171,9 +176,9 @@ Ao inserir seu prompt, inclua a frase `using (keyword)`.
 | Palavra-chave | Efeito |
 | --- | --- |
 | `workfront` | Interagir com o Workfront. |
-| `planning` | Interagir com o Workfront Planning. |
+| `planning` | Interagir com o Planejamento do Workfront. |
 | `help` | Retorna informações da documentação do Experience League. |
-| `formula` | Verifica e retorna fórmulas para uso no Planning, na Configuração ou em formulários personalizados. |
+| `formula` | Verifica e retorna fórmulas para uso no Planejamento, na Configuração ou em formulários personalizados. |
 | `health` | Verifica a integridade do projeto com o Project Health Advisor. |
 | `summarize` | Resume itens, como ao fazer upload de um arquivo ou resumir um projeto. |
 
@@ -181,8 +186,8 @@ Ao inserir seu prompt, inclua a frase `using (keyword)`.
 >
 > Nem todas as palavras-chave estão disponíveis em todas as áreas.
 >
->* A palavra-chave `formula` está disponível apenas no Planning, na Configuração e no construtor de formulários personalizados.
->* A palavra-chave `planning` está disponível apenas no Workfront Planning.
+>* A palavra-chave `formula` está disponível apenas no Planejamento, na Configuração e no construtor de formulários personalizados.
+>* A palavra-chave `planning` está disponível apenas no Planejamento do Workfront.
 
 
 

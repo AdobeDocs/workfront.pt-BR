@@ -5,32 +5,38 @@ product-area: system-administration;timesheets
 keywords: user,schedule
 navigation-topic: configure-timesheets-and-schedules
 title: Visão geral de cronogramas
-description: Você pode definir sua semana de trabalho usando programações. Você pode associar um agendamento a um usuário ou projeto. Isso permite [!DNL Adobe Workfront] calcular linhas do tempo e disponibilidade de usuários. Para obter instruções, consulte Criar um agendamento.
+description: Você pode definir sua semana de trabalho usando programações. Você pode associar um agendamento a um usuário ou projeto. Isso permite que [!DNL Adobe Workfront] calcule linhas do tempo e a disponibilidade do usuário. Para obter instruções, consulte Criar um agendamento.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g
+TQID: 'https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '763'
 ht-degree: 0%
-
 ---
-
 # Visão geral de cronogramas
 
 <!-- Audited: 1/2024 -->
@@ -84,17 +90,17 @@ A ordem em que as programações são usadas pelo sistema quando existe mais de 
 
 * Quando um usuário é atribuído a uma tarefa, [!DNL Workfront] usa um dos seguintes agendamentos, conforme definido na área [!UICONTROL Preferências do Projeto] da [!UICONTROL Instalação]:
 
-   * O cronograma do usuário atribuído à tarefa
-   * A programação associada ao projeto.
+  * O cronograma do usuário atribuído à tarefa
+  * A programação associada ao projeto.
 
-     Para obter mais informações sobre tempo pessoal, consulte [Configurar tempo pessoal](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+    Para obter mais informações sobre tempo pessoal, consulte [Configurar tempo pessoal](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Quando vários usuários são atribuídos a uma tarefa e os usuários têm agendamentos diferentes durante o período da tarefa, [!DNL Workfront] usa um dos seguintes agendamentos, conforme definido na área [!UICONTROL Preferências do Projeto] da [!UICONTROL Instalação]:
 
-   * A programação do usuário designado como Principal Designado
-   * A programação associada ao projeto.
+  * A programação do usuário designado como Principal Designado
+  * A programação associada ao projeto.
 
-     Para obter mais informações sobre preferências de projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+    Para obter mais informações sobre preferências de projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Se o usuário atribuído à tarefa não tiver cronograma, ou a tarefa for atribuída apenas a uma função de trabalho, uma equipe ou não for atribuída, [!DNL Workfront] usará o cronograma do projeto para os cálculos da linha do tempo.
 * Se o usuário atribuído à tarefa não tiver cronograma, ou a tarefa for atribuída somente a uma função de trabalho, uma equipe ou não for atribuída, e o projeto não tiver cronograma, então [!DNL Workfront] usa o cronograma no sistema designado como Cronograma Padrão para cálculos de cronograma.

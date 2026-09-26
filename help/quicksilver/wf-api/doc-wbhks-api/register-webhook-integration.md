@@ -8,22 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
+TQID: 'https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 8%
-
+source-wordcount: '409'
+ht-degree: 10%
 ---
-
 # Registrar uma integração de webhook
 
 {{highlighted-preview}}
@@ -89,11 +93,11 @@ Ao adicionar uma integração, o administrador inserirá valores nos seguintes c
    <td> <p>(Somente ApiKey) Usado para fazer chamadas de API autorizadas para o provedor de webhook. A chave da API emitida pelo provedor do webhook.</p> </td> 
   </tr> 
   <tr class="preview"> 
-   <td>Habilitar upload fragmentado para arquivos grandes</td> 
+   <td>Habilitar upload em blocos para arquivos grandes</td> 
    <td> <p>Marque esta caixa de seleção para habilitar uploads de várias partes (fragmentados) para arquivos com mais de 25 MB. Quando não selecionada, os arquivos são carregados em uma única solicitação independentemente do tamanho.</p> </td> 
   </tr> 
   <tr class="preview"> 
-   <td>Limite de Carregamento Bloqueado (MB)</td> 
+   <td>Limite de upload por bloco (MB)</td> 
    <td> <p>O tamanho máximo, em MB, de cada bloco quando um arquivo grande é dividido para upload. Aceita valores de até 100 MB.</p> </td> 
   </tr> 
  </tbody> 

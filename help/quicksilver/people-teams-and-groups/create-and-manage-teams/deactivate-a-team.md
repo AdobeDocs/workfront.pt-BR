@@ -6,15 +6,22 @@ description: Você pode desativar as equipes que não usam mais enquanto retém 
 author: Courtney
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 10%
-
 ---
-
 # Desativar ou excluir uma equipe
 
 Você pode desativar as equipes que não usam mais enquanto retém os dados históricos associados. Os administradores do [!DNL Adobe Workfront] podem reativar uma equipe a qualquer momento na área Equipes em Configuração. Se você desativar um grupo, ele não será mais exibido nas seguintes áreas:

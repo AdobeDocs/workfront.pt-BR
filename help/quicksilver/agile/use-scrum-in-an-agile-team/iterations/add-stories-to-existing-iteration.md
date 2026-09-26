@@ -8,22 +8,29 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8
+TQID: 'https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '601'
 ht-degree: 7%
-
 ---
-
 # Adicionar stories a uma iteração existente
 
 Você pode adicionar histórias a uma iteração de qualquer uma das seguintes maneiras:
@@ -69,23 +76,23 @@ Por padrão, quando você adiciona uma tarefa existente a uma iteração, a [!UI
 
 * A tarefa usa a Data inicial da iteração quando:
 
-   * O projeto não tem uma [!UICONTROL Data de Início Planejada] definida.
-   * A [!UICONTROL Data de Início Planejada] do projeto é *antes* ou *em* da data de início da iteração.
+  * O projeto não tem uma [!UICONTROL Data de Início Planejada] definida.
+  * A [!UICONTROL Data de Início Planejada] do projeto é *antes* ou *em* da data de início da iteração.
 
 * A tarefa usa a [!UICONTROL Data de Início Planejada] do projeto quando:
 
-   * A [!UICONTROL Data de Início Planejada] do projeto é *após* a data de início da iteração.
+  * A [!UICONTROL Data de Início Planejada] do projeto é *após* a data de início da iteração.
 
 ### [!UICONTROL Data de Término Planejada] da tarefa
 
 * A tarefa usa a Data final da iteração quando:
 
-   * O projeto não tem uma [!UICONTROL Data de conclusão planejada] definida.
-   * A [!UICONTROL Data de Início Planejada] do projeto é *antes ou na* a Data de Início da iteração ou a [!UICONTROL Data de Conclusão Planejada] do projeto é *antes ou na* a Data de Término da iteração.
+  * O projeto não tem uma [!UICONTROL Data de conclusão planejada] definida.
+  * A [!UICONTROL Data de Início Planejada] do projeto é *antes ou na* a Data de Início da iteração ou a [!UICONTROL Data de Conclusão Planejada] do projeto é *antes ou na* a Data de Término da iteração.
 
 * A tarefa usa a [!UICONTROL Data de Término Planejada] do projeto quando:
 
-   * A [!UICONTROL Data de Início Planejada] do projeto é *após* a Data de Início da iteração e a [!UICONTROL Data de Conclusão Planejada] do projeto é *após* a Data de Término da iteração.
+  * A [!UICONTROL Data de Início Planejada] do projeto é *após* a Data de Início da iteração e a [!UICONTROL Data de Conclusão Planejada] do projeto é *após* a Data de Término da iteração.
 
 Você pode configurar equipes Scrum individuais para usar as datas do projeto por padrão, em vez das datas de iteração. Para obter informações, consulte a seção [Configurar como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) no artigo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 

@@ -8,26 +8,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-TQID: https://experienceleague.adobe.com/BK1OTfwr8q8XTrCeQh50s-wXtnCKzv2Bbn-PzDes4hc
+TQID: 'https://experienceleague.adobe.com/BK1OTfwr8q8XTrCeQh50s-wXtnCKzv2Bbn-PzDes4hc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3451
+source-wordcount: '3451'
 ht-degree: 3%
-
 ---
-
 # Editar o perfil de um usuário
 
 Como administrador do Adobe Workfront, você pode criar usuários e gerenciar os perfis dos existentes. Para obter informações sobre como criar usuários, consulte [Adicionar usuários](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
@@ -188,11 +195,11 @@ Para obter mais informações, consulte [Configurar notificações de eventos pa
 
   A lista a seguir descreve como a lista de modelos disponíveis neste campo depende do seu acesso:
 
-   * Como administrador do Workfront, você pode ver todos os modelos de layout de nível de sistema e de grupo.
-   * Como administrador de grupo, você pode ver o modelo de layout no nível do sistema, bem como aqueles associados aos grupos que gerencia.
-   * Como um usuário com uma licença Padrão ou de Plano e acesso para editar usuários, você pode ver apenas modelos de layout no nível do sistema.
+  * Como administrador do Workfront, você pode ver todos os modelos de layout de nível de sistema e de grupo.
+  * Como administrador de grupo, você pode ver o modelo de layout no nível do sistema, bem como aqueles associados aos grupos que gerencia.
+  * Como um usuário com uma licença Padrão ou de Plano e acesso para editar usuários, você pode ver apenas modelos de layout no nível do sistema.
 
-     Para obter mais informações sobre modelos de layout de nível de grupo, consulte [Criar e modificar modelos de layout de um grupo](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+    Para obter mais informações sobre modelos de layout de nível de grupo, consulte [Criar e modificar modelos de layout de um grupo](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ### Organização
 
@@ -207,9 +214,9 @@ Para obter mais informações, consulte [Configurar notificações de eventos pa
 
   Você pode atribuir um grupo a um usuário somente se um dos seguintes for verdadeiro:
 
-   * você é um administrador do Workfront
-   * você é o administrador do grupo
-   * o grupo é público
+  * você é um administrador do Workfront
+  * você é o administrador do grupo
+  * o grupo é público
 
 * **Outros grupos**: os usuários podem pertencer a vários grupos. Você pode atribuir um grupo a um usuário somente se for um administrador do Workfront, se for o administrador do grupo ou se o grupo for público.
 
@@ -290,9 +297,9 @@ Para obter mais informações, consulte [Configurar notificações de eventos pa
 
   A lista de perfis que você tem disponível neste campo depende do seu acesso:
 
-   * Como administrador do Workfront, você pode ver todos os perfis de planilha de horas no nível do sistema e no nível do grupo.
-   * Como administrador de grupo, você pode ver os Perfis de planilha de horas no nível do sistema, bem como aqueles associados aos grupos que você gerencia.
-   * Como um usuário com uma licença Padrão ou de Plano e acesso para editar usuários, você pode ver somente Perfis de planilha de horas no nível do sistema. Para obter mais informações sobre Perfis de Planilha de Horas no nível do grupo, consulte [Criar, editar e atribuir perfis de planilha de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+  * Como administrador do Workfront, você pode ver todos os perfis de planilha de horas no nível do sistema e no nível do grupo.
+  * Como administrador de grupo, você pode ver os Perfis de planilha de horas no nível do sistema, bem como aqueles associados aos grupos que você gerencia.
+  * Como um usuário com uma licença Padrão ou de Plano e acesso para editar usuários, você pode ver somente Perfis de planilha de horas no nível do sistema. Para obter mais informações sobre Perfis de Planilha de Horas no nível do grupo, consulte [Criar, editar e atribuir perfis de planilha de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **Tipo de Hora Padrão**: Selecione o tipo de hora padrão para o usuário. Esse é o tipo de hora usado por padrão quando o usuário registra horas.
 * **Tipos de Horas Disponíveis**: Selecione os tipos de horas que devem estar disponíveis para o usuário. Esses tipos de horas estão visíveis em qualquer lugar no Workfront, onde o usuário possa registrar horas. Um usuário só pode ver os tipos de horas que estão ativados no nível do projeto, bem como no nível do usuário. Para obter mais informações sobre quais tipos de horas estão disponíveis para os usuários, consulte [Definir tipos de horas e disponibilidade](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).

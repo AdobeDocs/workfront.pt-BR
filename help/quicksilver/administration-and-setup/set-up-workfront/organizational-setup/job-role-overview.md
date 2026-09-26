@@ -8,27 +8,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-TQID: https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo
+TQID: 'https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: '440'
 ht-degree: 7%
-
 ---
-
 # Visão geral das funções de trabalho
 
 Uma função de trabalho representa uma capacidade funcional ou um conjunto de habilidades que um usuário pode preencher. Este artigo descreve os vários usos das funções de trabalho no [!DNL Adobe Workfront].
@@ -48,24 +56,24 @@ Você pode usar funções de trabalho para as seguintes finalidades:
 
   Por exemplo, recomendamos que você associe tarefas a funções de trabalho ao criar modelos, quando ainda não estiver claro qual usuário pode ser atribuído posteriormente ao trabalho real. Para obter informações, consulte os seguintes artigos:
 
-   * [Criar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/create-template.md)
-   * [Atribuir tarefas](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
-   * [Atribuir problemas](../../../manage-work/issues/manage-issues/assign-issues.md)
+  * [Criar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/create-template.md)
+  * [Atribuir tarefas](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
+  * [Atribuir problemas](../../../manage-work/issues/manage-issues/assign-issues.md)
 
 * Você pode associar funções de trabalho a processos de aprovação de projetos, tarefas ou problemas e qualquer usuário que possa preencher a função de trabalho pode tomar uma decisão sobre a aprovação. Para obter mais informações, consulte [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 * Você pode compartilhar os seguintes objetos com funções de trabalho:
 
-   * Projetos
-   * Tarefas
-   * Problemas
-   * Portfólios
-   * Programas
-   * Modelos
-   * Modelos de tarefa
-   * Relatórios
-   * Painéis
+  * Projetos
+  * Tarefas
+  * Problemas
+  * Portfólios
+  * Programas
+  * Modelos
+  * Modelos de tarefa
+  * Relatórios
+  * Painéis
 
-     Para obter informações sobre objetos de compartilhamento, consulte [Visão geral das permissões de compartilhamento em objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+    Para obter informações sobre objetos de compartilhamento, consulte [Visão geral das permissões de compartilhamento em objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 * Você pode associar funções de trabalho a regras de roteamento ao criar filas de solicitações. Para obter informações, consulte [Criar Regras de Roteamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 * É possível atribuir modelos de layout a funções de trabalho. Qualquer pessoa com a função de trabalho atribuída como sua função principal pode visualizar [!DNL Workfront] de acordo com o modelo de layout atribuído.

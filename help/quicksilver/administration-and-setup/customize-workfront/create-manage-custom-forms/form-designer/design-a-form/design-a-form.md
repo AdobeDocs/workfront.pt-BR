@@ -10,27 +10,35 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
+TQID: 'https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 8056
+source-wordcount: '8056'
 ht-degree: 76%
-
 ---
-
 # Criar um formulário personalizado
 
 <!-- Audited: 6/2025 -->
@@ -122,7 +130,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * [Adicionar imagens, PDFs e vídeos](#add-images-pdfs-and-videos)
    * [Adicionar campos nativos do Workfront](#add-workfront-native-fields)
    * [Adicionar arquivos do Adobe XD](#add-adobe-xd-files)
-   * [Adicionar campos de conexão do Planning](#add-planning-connection-fields)
+   * [Adicionar campos de conexão do Planejamento](#add-planning-connection-fields)
 
 ## Adicionar campos novos ou existentes ao formulário personalizado
 
@@ -807,12 +815,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no formato a seguir, será possível usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o caminho JSON e garantir que você o escreva corretamente, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1251,7 +1259,7 @@ Para adicionar um arquivo do Adobe XD:
 
    Clique em **Salvar e fechar**.
 
-### Adicionar campos de conexão do Planning
+### Adicionar campos de conexão do Planejamento
 
 >[!IMPORTANT]
 >

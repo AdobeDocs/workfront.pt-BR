@@ -7,13 +7,20 @@ description: Esta página contém informações sobre a estrutura e o conteúdo 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
-
 ---
-
 # Dicionário de dados da conexão de dados do Workfront
 
 Esta página contém informações sobre a estrutura e o conteúdo dos dados no Workfront Data Connect.
@@ -1708,15 +1715,15 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
 >
 >O tipo de registro é identificado por meio da propriedade `enumClass`. Estes são os tipos esperados:<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Documento
@@ -7146,7 +7153,7 @@ Disponibilidade limitada para o cliente
       <tbody>
         <tr>
             <td>Predecessora da Tarefa de Modelo</td>
-            <td>Predecessora do modelo</td>
+            <td>Predecessor do modelo</td>
             <td>TPRED</td>
             <td>Predecessor</td>
             <td>TEMPLATEPREDECESSORS_CURRENT<br>TEMPLATEPREDECESSORS_DAILY_HISTORY<br>TEMPLATEPREDECESSORS_EVENT</td>
@@ -8660,7 +8667,7 @@ Disponibilidade limitada para o cliente
     </tbody>
 </table>
 
-### Conjunto de Funções do Usuário
+### Conjunto de funções de usuário
 
 <table>
     <thead>
@@ -8675,7 +8682,7 @@ Disponibilidade limitada para o cliente
       <tbody>
         <tr>
             <td>UserRoleSet</td>
-            <td>Conjunto de Funções do Usuário</td>
+            <td>Conjunto de funções de usuário</td>
             <td>URSET</td>
             <td>UserRoleSet</td>
             <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>

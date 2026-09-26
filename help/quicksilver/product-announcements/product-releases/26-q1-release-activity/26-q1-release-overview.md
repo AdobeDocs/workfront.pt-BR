@@ -7,30 +7,41 @@ recommendations: noDisplay, noCatalog
 exl-id: ed348f44-eae1-4478-8425-6114f2b310ad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/XpMJHQS6S5MemL-GKQETlWJy3PC2EaxvySQO1TvFVZQ
+TQID: 'https://experienceleague.adobe.com/XpMJHQS6S5MemL-GKQETlWJy3PC2EaxvySQO1TvFVZQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 705031456bf63cdc25a56bd7faaf95b2501d63bb
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3163
+source-wordcount: '3177'
 ht-degree: 98%
-
 ---
-
 # Visão geral da versão do primeiro trimestre de 2026
 
 Esta página fornece informações sobre as funcionalidades incluídas na versão do primeiro trimestre de 2026, prevista para janeiro de 2026.
@@ -470,7 +481,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Excluir solicitações enviadas na nova experiência de solicitação</a>
-            <p>Para facilitar a organização e a clareza de suas solicitações, adicionamos a possibilidade de excluir solicitações à nova experiência de solicitação. Agora, você pode excluir as solicitações que enviou. Os administradores do Workfront e do espaço de trabalho do Workfront Planning também podem excluir solicitações.</p>
+            <p>Para facilitar a organização e a clareza de suas solicitações, adicionamos a possibilidade de excluir solicitações à nova experiência de solicitação. Agora, você pode excluir as solicitações que enviou. Os administradores do Workfront e do espaço de trabalho do Planejamento do Workfront também podem excluir solicitações.</p>
         </td>
         <td>20 de novembro de 2025</td>
         <td>14 de janeiro de 2026</td>
@@ -554,9 +565,9 @@ Estamos atualizando a interface em todo o Adobe Workfront para melhorar a experi
 
 Os novos recursos do Workfront Fusion são disponibilizados em Produção em um ritmo fora do cronograma de lançamentos padrão. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Aprimoramentos do Workfront Planning
+### Aprimoramentos do Planejamento do Workfront
 
-Novos recursos no Workfront Planning estão disponíveis em Produção. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do primeiro trimestre de 2026 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md).
+Novos recursos no Planejamento do Workfront estão disponíveis em Produção. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do primeiro trimestre de 2026 para o Planejamento do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md).
 
 Ainda não há atualizações para o seguinte nesta versão:
 
@@ -624,7 +635,7 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Jira
 * Workfront para Salesforce.
 
-Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
+Recomendamos usar a Automação e Integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
 Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 

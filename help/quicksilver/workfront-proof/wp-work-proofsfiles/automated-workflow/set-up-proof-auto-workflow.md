@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Configurar uma prova com um Fluxo de Trabalho Automatizado no  [!DNL Workfront Proof]
+title: Configurar uma prova com um Fluxo de Trabalho Automatizado no [!DNL Workfront Proof]
 description: Isso repete as informações encontradas em Configuração de provas no Workfront. Consolide aqui ou ali. Talvez melhor aqui.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+TQID: 'https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1659'
 ht-degree: 0%
-
 ---
-
 # Configurar uma prova com um Fluxo de Trabalho Automatizado no [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -57,15 +66,15 @@ Você pode adicionar um fluxo de trabalho automatizado a uma prova ao carregar o
    * **[!UICONTROL Da ativação do estágio]:** Selecione o número de dias úteis que serão adicionados à data de ativação do estágio para definir automaticamente um prazo na prova.
    * **[!UICONTROL Ativar estágio]:** Para cada estágio do fluxo de trabalho, você pode decidir quando ele deve ser ativado. Para o primeiro estágio, as seguintes opções estão disponíveis.
 
-      * Na criação da prova
-      * Em uma hora e data específicas
-      * Manualmente\
+     * Na criação da prova
+     * Em uma hora e data específicas
+     * Manualmente\
 
-        Opções adicionais estão disponíveis para estágios subsequentes. Essas opções exigem um estágio principal. São eles:
-      * Depois que o prazo final anterior é atingido
-      * Todas as decisões são aprovadas ou aprovadas com alterações
-      * Todas as decisões são aprovadas
-      * Todas as decisões são tomadas
+       Opções adicionais estão disponíveis para estágios subsequentes. Essas opções exigem um estágio principal. São eles:
+     * Depois que o prazo final anterior é atingido
+     * Todas as decisões são aprovadas ou aprovadas com alterações
+     * Todas as decisões são aprovadas
+     * Todas as decisões são tomadas
    * **[!UICONTROL Prazo calculado de]:** A opção selecionada nesta lista suspensa afeta as opções disponíveis no campo **[!UICONTROL Prazo]**.
 
    * **[!UICONTROL Criação da prova]:** No campo **[!UICONTROL Prazo]**, selecione a data do prazo final para a prova.
@@ -124,26 +133,26 @@ Se não precisar ver o diagrama, você pode ocultá-lo (1).
 * **[!UICONTROL Nome do estágio]**: aparece no diagrama de Fluxo de Trabalho e está incluído nas notificações por email enviadas aos revisores.
 * **[!UICONTROL Ativar estágio]**: para cada estágio do fluxo de trabalho, você pode decidir quando ele deve ser ativado. Para o primeiro estágio, as seguintes opções estarão disponíveis:
 
-   * Na criação da prova
-   * Em uma hora e data específicas
-   * Manual
-   * Somente essas três opções estão disponíveis para o primeiro estágio. As outras opções ficarão disponíveis quando você adicionar um segundo estágio; elas exigem que você selecione um estágio principal.
-   * Depois que o prazo final anterior é atingido (requer a escolha de um estágio principal)
-   * Todas as decisões são Aprovadas ou [!UICONTROL Aprovadas com alterações] (é necessário escolher um estágio principal)
-   * Todas as decisões são Aprovadas (requer a escolha de um estágio principal)
-   * Todas as decisões são tomadas (requer a escolha de um estágio principal)
+  * Na criação da prova
+  * Em uma hora e data específicas
+  * Manual
+  * Somente essas três opções estão disponíveis para o primeiro estágio. As outras opções ficarão disponíveis quando você adicionar um segundo estágio; elas exigem que você selecione um estágio principal.
+  * Depois que o prazo final anterior é atingido (requer a escolha de um estágio principal)
+  * Todas as decisões são Aprovadas ou [!UICONTROL Aprovadas com alterações] (é necessário escolher um estágio principal)
+  * Todas as decisões são Aprovadas (requer a escolha de um estágio principal)
+  * Todas as decisões são tomadas (requer a escolha de um estágio principal)
 
 * **[!UICONTROL Prazo]:** Você pode decidir como o prazo deve ser calculado em cada estágio de um fluxo de trabalho. As opções são:
 
-   * Na criação da prova: no campo [!UICONTROL deadline] (9), é possível selecionar a data do prazo para a prova.
-   * Na lista suspensa [!UICONTROL prazo]: selecione o número de dias úteis que serão adicionados à data de ativação do estágio para definir automaticamente um prazo na prova.
+  * Na criação da prova: no campo [!UICONTROL deadline] (9), é possível selecionar a data do prazo para a prova.
+  * Na lista suspensa [!UICONTROL prazo]: selecione o número de dias úteis que serão adicionados à data de ativação do estágio para definir automaticamente um prazo na prova.
 
 * **[!UICONTROL Bloqueio]:** Há várias opções que determinam quando um estágio pode ser bloqueado. As opções incluem:
 
-   * Bloqueio manual
-   * Nunca
-   * Quando o próximo estágio começar
-   * Quando todas as decisões são tomadas
+  * Bloqueio manual
+  * Nunca
+  * Quando o próximo estágio começar
+  * Quando todas as decisões são tomadas
 
 **[!UICONTROL Tomador de decisão principal]**: você define o tomador de decisão principal no estágio. Os tomadores de decisão disponíveis aparecem na lista somente após adicionar os revisores ao estágio.
 

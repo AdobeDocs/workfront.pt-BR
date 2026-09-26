@@ -7,20 +7,27 @@ description: Se sua organização usar o Adobe Workfront para inserir horas trab
 author: Lisa
 feature: Timesheets
 exl-id: b26f8156-f9dc-43e7-8e0d-8c0905dc7a12
-TQID: https://experienceleague.adobe.com/BmOfadMjmjTQp77SeKauSY6hN7t3okIpamvVQO13YdE
+TQID: 'https://experienceleague.adobe.com/BmOfadMjmjTQp77SeKauSY6hN7t3okIpamvVQO13YdE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 344
+source-wordcount: '344'
 ht-degree: 4%
-
 ---
-
 # Rastrear registros de horas com a API do Adobe Workfront
 
 Se sua organização usar o Adobe Workfront para inserir horas trabalhadas, mas usar outra ferramenta como sistema de registro desses dados, você poderá usar a API do Workfront para sincronizar dados entre os dois sistemas.
@@ -32,11 +39,11 @@ Depois de recuperar um conjunto inicial de todas as horas atuais no sistema, voc
 
 * **changeType:** O tipo de alteração que está sendo feita no objeto:
 
-   * **A:** Adicionar
+  * **A:** Adicionar
 
-   * **E:** Editar
+  * **E:** Editar
 
-   * **D:** Excluir
+  * **D:** Excluir
 
 * **aux2:** o nome do usuário para o qual o registro de hora é.
 

@@ -2,17 +2,24 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Navegação à esquerda em [!DNL Adobe Workfront]
-description: O painel de navegação esquerdo do  [!DNL Workfront]  facilita a navegação pelo sistema.
+description: O painel de navegação esquerdo no [!DNL Workfront] facilita a navegação pelo sistema.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1420'
 ht-degree: 3%
-
 ---
-
 # Navegação à esquerda em [!DNL Adobe Workfront]
 
 A maioria das áreas e objetos no WF usam um painel de navegação simples no lado esquerdo da tela. Estes são os benefícios da navegação no painel esquerdo:
@@ -89,7 +96,7 @@ O painel esquerdo está disponível para as seguintes áreas:
 * [Seções padrão na área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
 * [Seções padrão na área [!UICONTROL Projetos]](#default-sections-in-the-projects-area)
 * [Seções padrão na área [!UICONTROL Folhas de horas]](#default-sections-in-the-timesheets-area)
-* [Seções padrão na área  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Seções padrão na área  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Seções padrão na área [!UICONTROL Painéis]
 

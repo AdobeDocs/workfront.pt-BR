@@ -7,18 +7,26 @@ description: A página [!UICONTROL Exibições] permite que você veja e trabalh
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
-TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
+TQID: 'https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1544
+source-wordcount: '1544'
 ht-degree: 0%
-
 ---
-
 # Gerenciar Itens na Página [!UICONTROL Exibições] em [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -202,4 +210,4 @@ Se você tiver os direitos de edição necessários, poderá mover provas, arqui
 1. Siga um destes procedimentos:
 
    * Para mover um item, clique nele e segure-o, arrastando-o e soltando-o na pasta onde deseja colocá-lo.
-   * Para mover vários itens ao mesmo tempo, marque as caixas de seleção à esquerda dos itens e clique em **[!UICONTROL Mover para]**&#x200B;acima da lista, selecione a pasta onde deseja colocá-los ou crie uma nova pasta para eles.
+   * Para mover vários itens ao mesmo tempo, marque as caixas de seleção à esquerda dos itens e clique em **[!UICONTROL Mover para]**acima da lista, selecione a pasta onde deseja colocá-los ou crie uma nova pasta para eles.

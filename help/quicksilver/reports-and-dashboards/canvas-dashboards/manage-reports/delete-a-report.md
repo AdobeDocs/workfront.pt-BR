@@ -8,30 +8,35 @@ feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/TYPSpxHLlCuFMv2WJRpSZKH7Gi5p-nqr5sdXLLE-vdg
+TQID: 'https://experienceleague.adobe.com/TYPSpxHLlCuFMv2WJRpSZKH7Gi5p-nqr5sdXLLE-vdg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 247
-ht-degree: 24%
-
+source-wordcount: '361'
+ht-degree: 21%
 ---
-
 # Excluir um relatório em um painel da tela
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que este beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -92,7 +97,7 @@ Para obter mais informações, consulte [Criar um painel da Tela](/help/quicksil
 >[!WARNING]
 >
 >Depois que um relatório é excluído, ele não pode ser recuperado. <br>
->Se você tiver adicionado um relatório clássico existente a um painel da Tela de Pintura, excluí-lo do painel não excluirá o relatório original.
+>Se você tiver adicionado um relatório clássico existente a um painel da Tela de desenho, excluí-lo do painel não excluirá o relatório original.
 
 {{step1-to-dashboards}}
 

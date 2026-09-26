@@ -6,18 +6,24 @@ description: Com a versão 20.3 (prevista para agosto de 2020), o Adobe Workfron
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-TQID: https://experienceleague.adobe.com/q3IdES8LZlJDDBjUqTkHmWqjtVdMV-w80o7wC-uRSXg
+TQID: 'https://experienceleague.adobe.com/q3IdES8LZlJDDBjUqTkHmWqjtVdMV-w80o7wC-uRSXg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 7%
-
 ---
-
 # Remover SMTP personalizado como uma opção de email de saída
 
 >[!NOTE]
@@ -34,4 +40,4 @@ A configuração destacada nesta captura de tela fará a transição automática
 
 Se você configurou um servidor de email SMTP personalizado, **recomendamos que você entre em contato com a equipe de TI** para garantir que os emails de notifications@my.workfront.com não sejam bloqueados para emails de entrada em seu sistema. Você também pode consultar Configuração do firewall para obter detalhes sobre os endereços IP de onde vêm nosso tráfego e email.
 
-Se tiver outras dúvidas ou dúvidas, entre em contato com a [Equipe de suporte da Workfront](https://experienceleague.adobe.com/pt-br?support-tab=home&lang=pt-BR#support).
+Se tiver outras dúvidas ou dúvidas, entre em contato com a [Equipe de suporte da Workfront](https://experienceleague.adobe.com/?support-tab=home&lang=pt-BR#support).

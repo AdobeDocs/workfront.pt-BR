@@ -2,31 +2,39 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Acessar [!DNL Adobe Workfront] de [!DNL Slack]
-description: A integração [!DNL Adobe Workfront] com [!DNL Slack] permite acessar [!DNL Workfront] do Slack ou executar determinadas ações [!DNL Workfront] usando um comando de barra. A integração pode ser usada em qualquer ambiente  [!DNL Slack] , incluindo o aplicativo móvel  [!DNL Slack] .
+description: Integrar [!DNL Adobe Workfront] com [!DNL Slack] permite que você acesse [!DNL Workfront] do Slack ou execute determinadas ações em [!DNL Workfront] usando um comando de barra. A integração pode ser usada de qualquer ambiente [!DNL Slack], incluindo o aplicativo móvel [!DNL Slack].
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-TQID: https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k
+TQID: 'https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1099'
 ht-degree: 5%
-
 ---
-
 # Acessar [!DNL Adobe Workfront] de [!DNL Slack]
 
 Integrar [!DNL Adobe Workfront] com [!DNL Slack] permite que você acesse [!DNL Workfront] de [!DNL Slack] ou execute determinadas ações em [!DNL Workfront] usando um comando de barra. A integração pode ser usada de qualquer ambiente [!DNL Slack], incluindo o aplicativo móvel [!DNL Slack].
@@ -184,20 +192,20 @@ Para fazer login em [!DNL Workfront] a partir de [!DNL Slack]:
 
      Procure por uma palavra-chave específica. Você pode pesquisar pelos seguintes tipos de objetos:
 
-      * Projeto
-      * Tarefa
-      * Problema
-      * Relatório
-      * People
-      * Modelo
-      * Documento
-      * Portfólio
-      * Programa
-      * Painel
-      * Empresa
-      * Nota \
+     * Projeto
+     * Tarefa
+     * Problema
+     * Relatório
+     * People
+     * Modelo
+     * Documento
+     * Portfólio
+     * Programa
+     * Painel
+     * Empresa
+     * Nota \
 
-        Para obter mais informações sobre a pesquisa no [!DNL Slack], consulte [Pesquisar [!DNL Adobe Workfront] itens do Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
+       Para obter mais informações sobre a pesquisa no [!DNL Slack], consulte [Pesquisar [!DNL Adobe Workfront] itens do Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
    * `/wf log in`
 
      Faz logon em [!DNL Workfront] de [!DNL Slack].
@@ -212,7 +220,7 @@ Para fazer login em [!DNL Workfront] a partir de [!DNL Slack]:
      Para obter informações sobre como definir as configurações de [!DNL Workfront] no Slack, consulte [Definir configurações](#configure-settings-configure-settings).
 
    * `/wf help`
-Exibe uma lista completa de comandos para [!DNL Workfront].
+     Exibe uma lista completa de comandos para [!DNL Workfront].
 
 
    * `Visit Workfront Help`: Abre a seção [!UICONTROL Slack] no Site de Ajuda [!DNL Workfront] em uma nova guia do navegador.

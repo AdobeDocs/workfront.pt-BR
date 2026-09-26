@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Criar e Gerenciar Exibições Personalizadas em [!DNL Workfront Proof]
+title: Criar e Gerenciar Modos de Exibição Personalizados no [!DNL Workfront Proof]
 description: É possível criar exibições personalizadas de seus arquivos e provas para listar os itens desejados da maneira que você desejar que eles sejam exibidos. Você também pode exportar as informações na visualização personalizada como um relatório (em CSV, valor separado por vírgulas, formato de arquivo).
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-TQID: https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA
+TQID: 'https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2482
+source-wordcount: '2482'
 ht-degree: 1%
-
 ---
-
 # Criar e Gerenciar Modos de Exibição Personalizados no [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -229,34 +238,34 @@ Para criar uma exibição personalizada:
 
      Se quiser ver apenas provas com comentários zero, selecione os seguintes valores:
 
-      * Campo: Comentários
-      * Operador: Igual a
-      * Campo de valor: 0
+     * Campo: Comentários
+     * Operador: Igual a
+     * Campo de valor: 0
 
      Se quiser ver apenas provas com dois ou mais comentários, selecione os seguintes valores:
 
-      * Campo: Comentários
-      * Operador: maior ou igual a
-      * Campo de valor: 2
+     * Campo: Comentários
+     * Operador: maior ou igual a
+     * Campo de valor: 2
 
      Se quiser ver apenas provas com comentários entre 1 e 4, selecione os seguintes valores:
 
-      * Campo: Comentários
-      * Operador: Entre
-      * Campo de valor (primeiro campo): 1
-      * Campo de valor (segundo campo): 4
+     * Campo: Comentários
+     * Operador: Entre
+     * Campo de valor (primeiro campo): 1
+     * Campo de valor (segundo campo): 4
 
-        Você pode alterar um filtro adicionado ao modo de exibição Personalizado sem problemas ou removê-lo clicando no ícone cruzado ao lado do filtro [!UICONTROL instalação], se necessário.
+       Você pode alterar um filtro adicionado ao modo de exibição Personalizado sem problemas ou removê-lo clicando no ícone cruzado ao lado do filtro [!UICONTROL instalação], se necessário.
 
-        Como a lista Campo não está limitada às colunas selecionadas na guia [!UICONTROL Colunas], tenha cuidado ao criar um filtro que inclua uma coluna que você não selecionou para exibição no modo de exibição personalizado. Por exemplo, o filtro a seguir para a exibição selecionará todas as provas com um valor de contador de Versão de 2 ou mais:
+       Como a lista Campo não está limitada às colunas selecionadas na guia [!UICONTROL Colunas], tenha cuidado ao criar um filtro que inclua uma coluna que você não selecionou para exibição no modo de exibição personalizado. Por exemplo, o filtro a seguir para a exibição selecionará todas as provas com um valor de contador de Versão de 2 ou mais:
 
-         * Campo = Contador de versão
-         * Operador = Maior ou igual a
-         * Campo de valor = 2
+       * Campo = Contador de versão
+       * Operador = Maior ou igual a
+       * Campo de valor = 2
 
-           >[!NOTE]
-           >
-           >Você pode alterar um filtro adicionado ao modo de exibição Personalizado sem problemas ou removê-lo clicando no ícone cruzado ao lado do filtro [!UICONTROL instalação], se necessário.
+         >[!NOTE]
+         >
+         >Você pode alterar um filtro adicionado ao modo de exibição Personalizado sem problemas ou removê-lo clicando no ícone cruzado ao lado do filtro [!UICONTROL instalação], se necessário.
 
 
 

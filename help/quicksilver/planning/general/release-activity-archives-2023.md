@@ -8,21 +8,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk
+TQID: 'https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: '3065'
 ht-degree: 3%
-
 ---
-
 # Atividade de lançamento do Planejamento do Adobe Workfront para 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -119,11 +127,11 @@ Com essa melhoria, observe o seguinte:
 
 * Você pode escolher qualquer campo dos seguintes tipos para ser um campo principal e substituir o campo Name na primeira coluna:
 
-   * Texto de linha única
+  * Texto de linha única
 
-   * Número
+  * Número
 
-   * Fórmula
+  * Fórmula
 
 * O campo principal de uma exibição de tabela é sempre congelado e não pode ser movido, a menos que você defina outro campo como campo principal.
 
@@ -201,11 +209,11 @@ Considere o seguinte:
 
 * Não é possível copiar e colar valores de campo para os seguintes tipos de campo:
 
-   * People
+  * People
 
-   * Campos do sistema
+  * Campos do sistema
 
-   * Campos vinculados criados como resultado da conexão de registros
+  * Campos vinculados criados como resultado da conexão de registros
 
 Para obter mais informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
@@ -292,19 +300,19 @@ A seguir estão opções para as cores que você pode escolher exibir para as ba
 
 * Os agrupamentos podem corresponder às seguintes cores:
 
-   * Cinza (o padrão)
+  * Cinza (o padrão)
 
-   * A cor do campo pelo qual você agrupa
+  * A cor do campo pelo qual você agrupa
 
 * As barras podem corresponder às seguintes cores:
 
-   * A cor do tipo de registro
+  * A cor do tipo de registro
 
-   * A cor de um campo selecionado
+  * A cor de um campo selecionado
 
-   * A cor do agrupamento
+  * A cor do agrupamento
 
-   * Sem cor (o padrão)
+  * Sem cor (o padrão)
 
 Ao corresponder cores a um determinado campo, é possível selecionar apenas campos com opções codificadas por cores.
 
@@ -346,8 +354,8 @@ Considere o seguinte:
 
   Para obter mais informações, consulte os seguintes artigos:
 
-   * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
+  * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 
 ### Suporte de URL para campos de texto de linha única
 
@@ -397,8 +405,8 @@ Introduzimos as seguintes melhorias na visualização da linha do tempo:
 
 * Agora é possível exibir a exibição de linha do tempo nos seguintes modos:
 
-   * Standard: exibe registros em linhas separadas.
-   * Compacto: exibe os registros cujas datas não se cruzam na mesma linha.
+  * Standard: exibe registros em linhas separadas.
+  * Compacto: exibe os registros cujas datas não se cruzam na mesma linha.
 
 * Alteramos a aparência das linhas de agrupamento na exibição de linha do tempo para exibição acima da linha do tempo dos registros que elas contêm. Antes dessa melhoria, as linhas de agrupamento eram exibidas em toda a extensão da linha do tempo.
 

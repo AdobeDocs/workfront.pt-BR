@@ -6,13 +6,14 @@ navigation-topic: configure-proofing-functionality
 title: Visão geral do Workfront Proof independente para prova integrada no Workfront
 description: Se sua organização mudar da versão independente do Workfront Proof para o plano do Workfront Pro, no qual o Workfront Proof Premium é integrado ao Workfront, alguma funcionalidade de prova não estará disponível.
 author: Courtney
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 
 # Visão geral do Workfront Proof independente para prova integrada no Workfront
 
@@ -45,28 +46,28 @@ Se sua organização mudar da versão independente do Workfront Proof para o pla
 * Capacidade de se conectar entre a nova conta integrada e a conta do Workfront Proof.
 * Capacidade de executar relatórios do Workfront Proof:
 
-   * Itens Acessados Recentemente
-   * Provas que eu gerencio no prazo, em risco e status atrasado
-   * Provas Aguardando Minha Decisão Com Status No Prazo, Em Risco E Atrasado
-   * Provas que preciso revisar
-   * Provas ativas
-   * Provas arquivadas
-   * Provas bloqueadas
-   * Ir para prova diretamente do relatório
-   * Ir para detalhes da prova diretamente do relatório
-   * Compartilhar prova diretamente do relatório
-   * Prova de mensagem diretamente do relatório
-   * Copiar prova do relatório
-   * Baixar original do relatório
-   * Delegar propriedade do relatório
-   * Compartilhar links de prova do relatório
-   * Imprimir comentários do relatório
-   * Exportar Excel do Relatório
-   * Bloquear provas em massa
-   * Resumo detalhado junto com a matriz de progresso do fluxo de trabalho
-   * Ativar provas em massa
-   * Arquivar provas em massa
-   * Desarquivar provas em massa
-   * Alterar proprietário em massa
-   * Delegar propriedade em massa
+  * Itens Acessados Recentemente
+  * Provas que eu gerencio no prazo, em risco e status atrasado
+  * Provas Aguardando Minha Decisão Com Status No Prazo, Em Risco E Atrasado
+  * Provas que preciso revisar
+  * Provas ativas
+  * Provas arquivadas
+  * Provas bloqueadas
+  * Ir para prova diretamente do relatório
+  * Ir para detalhes da prova diretamente do relatório
+  * Compartilhar prova diretamente do relatório
+  * Prova de mensagem diretamente do relatório
+  * Copiar prova do relatório
+  * Baixar original do relatório
+  * Delegar propriedade do relatório
+  * Compartilhar links de prova do relatório
+  * Imprimir comentários do relatório
+  * Exportar Excel do Relatório
+  * Bloquear provas em massa
+  * Resumo detalhado junto com a matriz de progresso do fluxo de trabalho
+  * Ativar provas em massa
+  * Arquivar provas em massa
+  * Desarquivar provas em massa
+  * Alterar proprietário em massa
+  * Delegar propriedade em massa
 

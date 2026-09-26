@@ -5,18 +5,24 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-TQID: https://experienceleague.adobe.com/MuQQDV7Uvjj7qcG3nwa4Ec7lhAig2o4FiuifiR4Fz9I
+TQID: 'https://experienceleague.adobe.com/MuQQDV7Uvjj7qcG3nwa4Ec7lhAig2o4FiuifiR4Fz9I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1323
+source-wordcount: '1323'
 ht-degree: 1%
-
 ---
-
 # Aprimoramentos ágeis na 23.3
 
 Esta página descreve todas as melhorias nas Placas e no Agile feitas com a versão 23.3. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
@@ -57,7 +63,7 @@ Agora é possível exibir todas as placas e fluxos de trabalho no modo escuro. A
 
 >[!NOTE]
 >
->Se a instância do Workfront da sua organização tiver sido integrada à Experiência unificada da Adobe, você poderá ativar a formatação de tema escuro para todas as Adobe Experience Cloud no menu de preferências (imagem do perfil), e não verá uma opção separada de modo escuro para placas Workfront.
+>Se a instância do Workfront da sua organização tiver sido integrada à Experiência unificada da Adobe, você poderá ativar a formatação de tema escuro para toda a Adobe Experience Cloud por meio do menu de preferências (imagem do perfil), e não verá uma opção separada de modo escuro para painéis do Workfront.
 
 Para obter mais informações, consulte [Notificações e preferências de email dos painéis](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 

@@ -6,14 +6,23 @@ description: Você pode criar itens de tarefas pessoais na área [!UICONTROL Pá
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
-source-git-commit: 29c82cd8265f3d05f4ae241c5c723a4ab09a6504
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
-
+source-wordcount: '394'
+ht-degree: 9%
 ---
-
-# Criar e gerenciar item pessoal para fazer
+# Criar e gerenciar item da lista de tarefas pessoal
 
 Você pode criar um item de tarefa pessoal no widget de tarefas na área [!UICONTROL Página inicial]. Os itens de tarefa são tarefas pessoais que você cria para si mesmo.
 
@@ -25,7 +34,7 @@ Você e outros usuários podem exibir suas tarefas pessoais em um relatório de 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,8 +47,8 @@ Você e outros usuários podem exibir suas tarefas pessoais em um relatório de 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
    <td> 
-   <p>Standard</p>
-   <p>Trabalhar ou superior</p> </td> 
+   <p>Padrão</p>
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
@@ -62,7 +71,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. (Condicional) Clique em **Personalizar** e em **Tarefas pendentes** para adicionar o widget Tarefas à sua tela inicial.
 1. Vá para o widget **Tarefa pendente** e clique em **Adicionar tarefa**.
 1. Digite o nome do seu item de tarefa pessoal e clique em Enter.
-1. (Opcional) Clique no ícone **de** Data![](assets/date-icon.png) para adicionar uma data de conclusão para o item.
+1. (Opcional) Clique no ícone ![](assets/date-icon.png) de **Data** para adicionar uma data de conclusão para o item.
    ![](assets/my-work-to-dos.png)
 1. (Opcional) Crie um relatório ou filtro de tarefa pessoal. Para obter informações sobre como criar um filtro de tarefa pessoal, consulte [Filtro: tarefa pessoal](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 Você pode visualizar seus itens de tarefa, bem como os itens de tarefa de outros usuários no relatório de tarefas pessoais.

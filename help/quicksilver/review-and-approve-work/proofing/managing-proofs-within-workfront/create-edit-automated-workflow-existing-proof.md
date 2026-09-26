@@ -6,22 +6,29 @@ description: Os fluxos de trabalho automatizados facilitam o gerenciamento do pr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-TQID: https://experienceleague.adobe.com/-DB-GcrMJXtRFlMwPnH6yTfoN7MMy1-9Q1weey8U6r4
+TQID: 'https://experienceleague.adobe.com/-DB-GcrMJXtRFlMwPnH6yTfoN7MMy1-9Q1weey8U6r4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: '1149'
 ht-degree: 6%
-
 ---
-
 # Criar ou editar um fluxo de trabalho automatizado de uma prova existente
 
 Os fluxos de trabalho automatizados facilitam o gerenciamento do processo de revisão se ele for complexo ou se você enviar conteúdo regularmente para revisão para os mesmos grupos de pessoas. Ao criar uma prova com um fluxo de trabalho automatizado, a prova é movida de estágio para estágio até a aprovação final. Os participantes são notificados quando é a vez de revisar o documento.

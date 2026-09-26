@@ -7,31 +7,43 @@ recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/n5lx62Rt8OEspaQx3l6gvV63JUnOVJ7GYqH1-lbIi88
+TQID: 'https://experienceleague.adobe.com/n5lx62Rt8OEspaQx3l6gvV63JUnOVJ7GYqH1-lbIi88'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1684
+source-wordcount: '1737'
 ht-degree: 16%
-
 ---
-
 # Visão geral da versão do segundo trimestre de 2025
 
 Esta página fornece informações sobre a funcionalidade incluída na versão do Segundo trimestre de 2025. Essas melhorias estão previstas para serem disponibilizadas no ambiente de produção ao longo do trimestre.
@@ -73,7 +85,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Melhorias na lógica de formulários personalizados</a></p><p>[!BADGE Na produção &#x200B;]{type=Informative}</p>
+            Melhorias na lógica de formulários personalizados</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
             <p>O construtor de lógica de formulários personalizados tem uma interface atualizada para fornecer mais espaço para a criação de regras de lógica. Esse novo design pode acomodar mais facilmente outros tipos de lógica que poderão ser adicionados no futuro.</p><p>Além das opções atuais de exibição e lógica de salto, a lógica de validação também está disponível.</p>
         </td>
         <td>
@@ -88,7 +100,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Expressões adicionadas a campos personalizados calculados</a></p>
-            [!BADGE Na produção &#x200B;]{type=Informative}
+            [!BADGE Na produção ]{type=Informative}
             <p>As seguintes expressões agora estão disponíveis nos campos personalizados calculados do Workfront: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT e ADDHOUR. As definições e exemplos de cada expressão estão disponíveis no editor de cálculo e no Experience League.</p>
         </td>
         <td>
@@ -127,7 +139,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Atualização do Visualizador de provas de desktop </a></p>[!BADGE Na produção &#x200B;]{type=Informative}
+            Atualização do Visualizador de provas de desktop </a></p>[!BADGE Na produção ]{type=Informative}
             <p>O Desktop Proofing Viewer foi atualizado para a versão 2.1.45. Essa atualização permite que o visualizador use
             <ul><li>Elétron versão 35</li><li>Crômio versão 134</li><ul></p>
         </td>
@@ -142,7 +154,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Editar vários documentos de uma só vez em um Relatório de documentos </a></p>[!BADGE Na produção &#x200B;]{type=Informative}
+            Editar vários documentos de uma só vez em um Relatório de documentos </a></p>[!BADGE Na produção ]{type=Informative}
             <p>Agora é possível editar vários documentos de uma só vez em um Relatório de documentos. É possível editar as descrições e atualizar formulários personalizados.</p>
         </td>
         <td>
@@ -165,7 +177,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Aprimoramentos nas provas no aplicativo móvel (somente iOS)</a><p>[!BADGE Na produção &#x200B;]{type=Informative}</p></p>
+            Aprimoramentos nas provas no aplicativo móvel (somente iOS)</a><p>[!BADGE Na produção ]{type=Informative}</p></p>
             <p>Vários aprimoramentos estão disponíveis para a funcionalidade de prova no aplicativo móvel do Adobe Workfront:
             <ul>
             <li>Agora é possível abrir um arquivo de prova no aplicativo de email móvel, em um link que foi compartilhado com você. Anteriormente, os links de emails não eram compatíveis e você tinha que acessar provas do aplicativo móvel do Workfront.</li>
@@ -197,7 +209,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Adicionar um comentário aos projetos ao editá-los na caixa Editar projeto</a><p>[!BADGE Na produção &#x200B;]{type=Informative}</p>
+            Adicionar um comentário aos projetos ao editá-los na caixa Editar projeto</a><p>[!BADGE Na produção ]{type=Informative}</p>
             <p>Agora é possível adicionar um comentário a um projeto ao editá-lo na caixa Editar projeto. Você também pode adicionar um comentário a vários projetos ao editá-los em massa. Antes dessa atualização, essa funcionalidade não existia ao editar projetos.</p>
         </td>
         <td>
@@ -221,7 +233,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Os dados de aprovação e decisão de documentos agora estão disponíveis no Data Connect</a><p>[!BADGE Na produção &#x200B;]{type=Informative}</p>
+            Os dados de aprovação e decisão de documentos agora estão disponíveis no Data Connect</a><p>[!BADGE Na produção ]{type=Informative}</p>
             <p>Agora você pode acessar dados para aprovações e decisões de documentos no Data Connect. Este conjunto de dados une aprovações de documentos de recursos de prova do Workfront e aprovações do Frame.io que estão acontecendo em documentos do Workfront. Agora é possível ilustrar o tempo do ciclo, o número de ciclos e os impactos da linha do tempo de aprovações atrasadas por meio das visualizações de BI.</p>
         </td>
         <td>
@@ -234,7 +246,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Atualizações no Calendário do Workfront</a></p><p>[!BADGE Na produção &#x200B;]{type=Informative}</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Atualizações no Calendário do Workfront</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
             <p>Atualizamos a aparência do Calendário do Workfront para um design moderno consistente com outras áreas do Workfront. Há pequenas diferenças de funcionalidade em relação ao Calendário atual do Workfront, incluindo:
             <ul>
             <li>Como adicionar itens ad-hoc ao calendário</li>
@@ -264,7 +276,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Atualize para a nova versão de assinatura de evento com pontos de extremidade de atualização de versão</a></p>
-            [!BADGE Na produção &#x200B;]{type=Informative}
+            [!BADGE Na produção ]{type=Informative}
             <p>O Workfront agora tem versões de assinaturas de eventos. A nova versão não é uma alteração na API do Workfront, mas uma alteração na funcionalidade de assinatura do evento. É possível alternar as assinaturas do evento para a nova versão sem criar uma lacuna na assinatura do evento</p>
         </td>
         <td>
@@ -277,7 +289,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Representar as alterações de usuário do Adobe Admin Console como "Sistema" no feed de atualização do Workfront</a></p><p>[!BADGE Na produção &#x200B;]{type=Informative}</p><p>Agora, quando o administrador do Adobe Admin Console faz uma alteração nas informações de usuário de um usuário do Workfront, o Workfront registra essa alteração na guia Atividade do sistema da área Atualizações do usuário, como pertencente ao "Sistema". Refere-se ao administrador do Adobe Admin Console.</p>
+            Representar as alterações de usuário do Adobe Admin Console como "Sistema" no feed de atualização do Workfront</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Agora, quando o administrador do Adobe Admin Console faz uma alteração nas informações de usuário de um usuário do Workfront, o Workfront registra essa alteração na guia Atividade do sistema da área Atualizações do usuário, como pertencente ao "Sistema". Refere-se ao administrador do Adobe Admin Console.</p>
         </td>
         <td>
             <p><b>Disponível nas seguintes datas:</b></p>
@@ -348,9 +360,9 @@ Estamos atualizando a interface em todo o Adobe Workfront para melhorar a experi
 
 Os novos recursos do Workfront Fusion são disponibilizados em Produção em um ritmo fora do cronograma de lançamentos padrão. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Aprimoramentos do Workfront Planning
+### Aprimoramentos do Planejamento do Workfront
 
-Novos recursos no Workfront Planning estão disponíveis em Produção. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade da versão do Adobe Workfront Planning Second Quarter 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
+Novos recursos no Planejamento do Workfront estão disponíveis em Produção. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade da versão do Adobe Workfront Planning Second Quarter 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
 
 ### Aprimoramentos no Planejador de cenários do Workfront
 
@@ -378,4 +390,4 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 
 ### Atualizações de treinamento
 
-Explore as últimas atualizações feitas nos programas de aprendizagem, caminhos de aprendizagem, vídeos e guias para cada versão do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página de tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
+Explore as últimas atualizações feitas nos programas de aprendizagem, caminhos de aprendizagem, vídeos e guias para cada versão do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página de tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).

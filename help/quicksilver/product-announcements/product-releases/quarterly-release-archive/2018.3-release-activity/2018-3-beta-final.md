@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+TQID: 'https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 1%
-
 ---
-
 # 2018.3 Beta Final
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.3. A funcionalidade estará disponível no ambiente de Pré-visualização em 10 de outubro de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
@@ -128,10 +134,10 @@ Os novos recursos a seguir serão lançados para as lojas de aplicativos iOS e A
 
   Agora você pode executar as seguintes ações pressionando por muito tempo o aplicativo Workfront na tela inicial:
 
-   * Pesquisar
-   * Acessar notificações
-   * Acessar o projeto acessado mais recentemente 
-   * Acessar tarefa ou problema acessado mais recentemente
+  * Pesquisar
+  * Acessar notificações
+  * Acessar o projeto acessado mais recentemente 
+  * Acessar tarefa ou problema acessado mais recentemente
 
 * Novas notificações por push e introdução de ações de notificações por push
 
@@ -141,18 +147,18 @@ Os novos recursos a seguir serão lançados para as lojas de aplicativos iOS e A
 
   Você pode fazer o seguinte pressionando por muito tempo uma notificação por push, sem precisar ir para o aplicativo ou para o item que o gerou:
 
-   * Comentar em um item
-   * Aceitar para trabalhar nisto
-   * Tomar uma decisão de aprovação
+  * Comentar em um item
+  * Aceitar para trabalhar nisto
+  * Tomar uma decisão de aprovação
 
 * Suporte para orientação de paisagem para dispositivos iOS
 
   Agora oferecemos suporte total às orientações de paisagem e retrato para aplicativos móveis iOS e Android, exceto para os seguintes tamanhos de iPhone:
 
-   * IPHONE 5
-   * iPhone 5S
-   * IPHONE SE\
-     Antes desse aprimoramento, a orientação paisagem era compatível somente com dispositivos Android.
+  * IPHONE 5
+  * iPhone 5S
+  * IPHONE SE\
+    Antes desse aprimoramento, a orientação paisagem era compatível somente com dispositivos Android.
 
 * Suporte para plataformas iOS 12 e Android P
 * Suporte para tablets iOS e Android

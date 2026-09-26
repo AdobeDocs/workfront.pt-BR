@@ -6,13 +6,14 @@ navigation-topic: configure-proofing-functionality
 title: Configurar se as provas são geradas automaticamente
 description: É possível configurar se o sistema gera provas automaticamente quando os usuários especificados adicionam documentos ao Workfront. Essa configuração é desativada por padrão.
 author: Courtney
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
-
+source-wordcount: '251'
+ht-degree: 3%
 ---
-
 
 # Configurar se as provas são geradas automaticamente
 
@@ -27,7 +28,7 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/br/products/workfront/pricing.html" target="_blank">Plano do Adobe Workfront</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plano do Adobe Workfront</a> </td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 

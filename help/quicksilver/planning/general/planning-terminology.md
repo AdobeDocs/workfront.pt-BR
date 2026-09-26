@@ -1,16 +1,28 @@
 ---
 title: Visão Geral da Terminologia do Workfront Planning
-description: Embora o Adobe Workfront Planning seja um produto Workfront, ele vem com conceitos e terminologia proprietários. Não se esqueça de se familiarizar com esses conceitos antes de iniciar a configuração do Workfront Planning para sua organização.
+description: Embora o Adobe Workfront Planning seja um produto Workfront, ele vem com conceitos e terminologia proprietários. Não se esqueça de se familiarizar com esses conceitos antes de iniciar a configuração do Planejamento do Workfront para sua organização.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 59%
-
 ---
-
 # Visão geral da terminologia do Workfront Planning
 
 
@@ -33,13 +45,13 @@ ht-degree: 59%
 >
 >Para obter informações sobre o Workfront Planning como um produto independente, consulte [Introdução ao Adobe Workfront Planning como um produto independente](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
-Embora o Workfront Planning faça parte do Workfront, ele vem com conceitos e terminologia próprios. Não se esqueça de se familiarizar com esses conceitos antes de iniciar a configuração do Workfront Planning para sua organização.
+Embora o Planejamento do Workfront faça parte do Workfront, ele vem com conceitos e terminologia próprios. Não se esqueça de se familiarizar com esses conceitos antes de iniciar a configuração do Planejamento do Workfront para sua organização.
 
-A estrutura do Workfront Planning é totalmente personalizável. Você pode criar todos os tipos de registros, seus atributos e quaisquer campos associados a eles para atender às necessidades específicas da sua organização.
+A estrutura do Planejamento do Workfront é totalmente personalizável. Você pode criar todos os tipos de registros, seus atributos e quaisquer campos associados a eles para atender às necessidades específicas da sua organização.
 
-Existem limitações quanto ao número de objetos do Workfront Planning que você pode criar. Para obter mais informações, consulte [Visão geral das limitações de objetos Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+Existem limitações quanto ao número de objetos do Planejamento do Workfront que você pode criar. Para obter mais informações, consulte [Visão geral das limitações de objetos do Planejamento do Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md).
 
-A seguir estão os principais objetos e conceitos do Workfront Planning:
+A seguir estão os principais objetos e conceitos do Planejamento do Workfront:
 
 * [Espaços de trabalho](#workspaces)
 * [Tipos de registro](#record-types)
@@ -67,11 +79,11 @@ Os tipos de registro são os tipos de objeto no Workfront Planning.
 
 Os tipos de registro preenchem as áreas de trabalho.
 
-Ao contrário do Workfront, onde os tipos de objeto são predefinidos, no Workfront Planning você pode criar seus próprios tipos de objeto.
+Ao contrário do Workfront, onde os tipos de objeto são predefinidos, no Planejamento do Workfront você pode criar seus próprios tipos de objeto.
 
 Por exemplo, no Workfront, os tipos de objeto Programa, Portfólio, Projeto, Tarefa ou Problema já estão criados.
 
-No Workfront Planning, você pode criar qualquer tipo de registro que atenda aos fluxos de trabalho da sua organização. Posteriormente, você poderá definir como os tipos de registros se relacionam entre si ou formam dependências.
+No Planejamento do Workfront, você pode criar qualquer tipo de registro que atenda aos fluxos de trabalho da sua organização. Posteriormente, você poderá definir como os tipos de registros se relacionam entre si ou formam dependências.
 
 Para obter mais informações, consulte [Visão geral dos tipos de registros](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
@@ -93,7 +105,7 @@ Você pode criar um espaço de trabalho usando modelos predefinidos. Você pode 
 
 ![Página de espaços de trabalho com miniaturas de modelos](assets/workspaces-page-with-templates-thumbnails.png)
 
-O Adobe Workfront Planning contém os seguintes modelos:
+O Planejamento do Adobe Workfront contém os seguintes modelos:
 
 * Operações do Initiative Studio
 * Communications Planning Studio
@@ -131,7 +143,7 @@ Considerações sobre campos de registro:
 
 * Os campos são exclusivos de um tipo de registro e não são transferidos de um para outro.
 
-* Os campos são totalmente personalizáveis e podem ser acessados somente no Workfront Planning. Não é possível acessar os campos do Workfront Planning no Workfront.
+* Os campos são totalmente personalizáveis e podem ser acessados somente no Planejamento do Workfront. Não é possível acessar os campos do Planejamento do Workfront.
 
 Para obter mais informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -170,7 +182,7 @@ Você pode criar campos personalizados dos seguintes tipos:
 
 Você pode criar uma conexão entre as seguintes entidades no Workfront Planning:
 
-* Dois tipos de registro do Workfront Planning.
+* Dois tipos de registro do Planejamento do Workfront.
 * Um tipo de registro e um tipo de objeto de projeto, programa, portfólio, empresa ou grupo do Workfront.
 * Um tipo de registro e um ativo ou pasta do Adobe Experience Manager.
 
@@ -186,7 +198,7 @@ Você pode criar uma conexão entre as seguintes entidades no Workfront Planning
 
 Depois de estabelecer uma conexão entre os tipos de registro ou os tipos de registro e objeto, você pode conectar registros ou objetos individuais desses tipos uns aos outros. A conexão entre os registros é exibida como um campo de registro conectado, ou uma conexão.
 
-Conectar tipos de registro é útil quando você tem vários tipos de objetos de trabalho que afetam uns aos outros. Por exemplo, você pode trabalhar com campanhas, e cada campanha pode atender a várias marcas. Para indicar essa relação, você pode conectar campanhas a marcas. Além disso, o trabalho de cada campanha pode ser planejado em vários projetos no Workfront. Para indicar isso, você pode conectar as campanhas aos projetos relevantes. Conectar tipos de registro e, em seguida, conectar registros individuais estabelece essa relação no Workfront Planning.
+Conectar tipos de registro é útil quando você tem vários tipos de objetos de trabalho que afetam uns aos outros. Por exemplo, você pode trabalhar com campanhas, e cada campanha pode atender a várias marcas. Para indicar essa relação, você pode conectar campanhas a marcas. Além disso, o trabalho de cada campanha pode ser planejado em vários projetos no Workfront. Para indicar isso, você pode conectar as campanhas aos projetos relevantes. Conectar tipos de registro e, em seguida, conectar registros individuais estabelece essa relação no Planejamento do Workfront.
 
 ## Campos de pesquisa
 

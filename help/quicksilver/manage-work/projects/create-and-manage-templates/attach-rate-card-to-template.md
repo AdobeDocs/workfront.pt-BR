@@ -6,13 +6,17 @@ title: Anexar um cartão de taxa a um modelo
 description: Quando você atribui um cartão de taxa a um modelo, o cartão de taxa é anexado a todos os projetos criados a partir do modelo.
 author: Lisa
 feature: Work Management
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 8%
-
 ---
-
 # Anexar um cartão de taxa a um modelo
 
 Quando você atribui um cartão de taxa a um modelo, o cartão de taxa é anexado a todos os projetos criados a partir do modelo. O cartão de taxa se torna o padrão no projeto, mas pode ser substituído, se necessário.
@@ -71,7 +75,7 @@ O campo **Cartão de Taxa** deve ser habilitado para Modelos no seu modelo de la
 1. Na seção Detalhes do modelo > Visão geral > Associação do modelo, selecione um cartão de taxa no campo **Cartão de taxa**.
 
    Somente os cartões de taxa com os quais você tem permissão estão disponíveis para a escolha.
-Você pode começar a digitar o nome de um cartão de taxa para restringir a lista de resultados.
+   Você pode começar a digitar o nome de um cartão de taxa para restringir a lista de resultados.
 
    ![Selecione um cartão de taxa no modelo](assets/select-rate-card-on-template.png)
 

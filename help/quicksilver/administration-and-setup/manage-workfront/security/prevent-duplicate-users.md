@@ -8,24 +8,30 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-TQID: https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw
+TQID: 'https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '577'
 ht-degree: 6%
-
 ---
-
 # Impedir usuários duplicados
 
 Ao criar um novo usuário no Adobe Workfront, você não pode mais usar um endereço de email que já esteja sendo usado por outro usuário, mesmo que o endereço de email varie de acordo com letras maiúsculas e minúsculas (por exemplo, JohnDoe@example.com e johndoe@example.com). Além disso, para se preparar para futuros aprimoramentos de autenticação, verifique se todos os usuários têm endereços de email exclusivos em uma instância do Workfront.
@@ -107,8 +113,8 @@ Para corrigir endereços de email duplicados em uma instância do Workfront:
 
      Por exemplo, John Doe pode ter uma conta de usuário para sua conta de uso diário e uma para usar para fins de teste:
 
-      * johndoe@workfront.com
-      * johndoe+reviewer@workfront.com
+     * johndoe@workfront.com
+     * johndoe+reviewer@workfront.com
 
    * Altere o domínio para usar um domínio falso anexando o seguinte texto ao endereço de email:
 
@@ -116,8 +122,8 @@ Para corrigir endereços de email duplicados em uma instância do Workfront:
 
      Por exemplo, João da Silva pode ter os seguintes domínios: (eles devem ser exclusivos.)
 
-      * johndoe@workfront.inactive
-      * johndoe@workfront.inactive2
+     * johndoe@workfront.inactive
+     * johndoe@workfront.inactive2
 
      Você não pode mais fazer logon nessas contas porque as redefinições de senha exigem um endereço de email válido. Essas contas podem ser acessadas somente usando o recurso Fazer logon como.
 

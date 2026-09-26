@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+TQID: 'https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 4%
-
 ---
-
 # Requisitos de entrega de assinatura de evento
 
 As mensagens de assinatura de evento são notificações que podem ser configuradas para notificar os usuários quando determinados eventos ocorrem. Para saber mais sobre o que são Assinaturas de Eventos, consulte [Perguntas frequentes - Assinaturas de Eventos](../../wf-api/general/event-subs-faq.md).
@@ -37,7 +40,7 @@ Os endpoints de serviço que consomem mensagens de assinatura de eventos do Adob
 
 * Se um processo de negócios de longa duração for acionado a partir de uma mensagem de assinatura de evento, a Workfront recomenda que
 
-   1. o endpoint salva as informações da mensagem no recebimento e responde imediatamente com um status de nível 200.
-   1. Depois que um endpoint responde a uma solicitação de delivery de subscrição de evento, as mensagens salvas podem ser processadas.
+  1. o endpoint salva as informações da mensagem no recebimento e responde imediatamente com um status de nível 200.
+  1. Depois que um endpoint responde a uma solicitação de delivery de subscrição de evento, as mensagens salvas podem ser processadas.
 
 * Mensagens ou objetos de inscrição em eventos não podem ter mais de 1 MB.

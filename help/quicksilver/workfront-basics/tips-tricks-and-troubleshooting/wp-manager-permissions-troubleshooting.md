@@ -4,25 +4,29 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Solução de problemas de permissões do Workfront Proof Manager
-description: Os perfis de permissão disponíveis no  [!DNL Adobe] Workfront para usuários de comprovação são Administrador, Supervisor e Gerente.
+description: Os perfis de permissão disponíveis no Workfront [!DNL Adobe] para usuários de comprovação são Administrador, Supervisor e Gerente.
 feature: Get Started with Workfront
 auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-TQID: https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI
+TQID: 'https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '256'
 ht-degree: 2%
-
 ---
-
-# [!UICONTROL [!DNL Workfront] Gerenciador de provas &#x200B;] permissões solução de problemas
+# [!UICONTROL [!DNL Workfront] Gerenciador de provas ] permissões solução de problemas
 
 A seguir estão os perfis de permissão disponíveis em [!DNL Adobe Workfront] para usuários de revisão:
 
@@ -43,8 +47,8 @@ Ao conceder permissões de [!UICONTROL Gerente] a um usuário, as seguintes info
 * **PROBLEMA:** usuários com permissões de [!UICONTROL Gerente] não podem adicionar versões de prova às provas criadas por outros usuários (possivelmente eles poderiam enviar uma prova no conjunto de documentos, mas as versões NÃO estariam conectadas ao conjunto original criado por outro usuário).\
    **SOLUÇÃO:** usuários com permissões de [!UICONTROL Gerente] podem enviar as versões para prova de outro usuário somente se o usuário com permissões de [!UICONTROL Gerente] tiver ambas as seguintes permissões:
 
-   * Adicionado explicitamente às provas
-   * Definir como [!UICONTROL Autores] (função de prova) nas provas
+  * Adicionado explicitamente às provas
+  * Definir como [!UICONTROL Autores] (função de prova) nas provas
 
 * **PROBLEMA:** usuários com permissões de [!UICONTROL Gerente] não podem editar comentários de outros usuários em uma prova que não sejam seus ou que não tenham sido criados.\
    **SOLUÇÃO:** Se os usuários com permissões de [!UICONTROL Gerente] não forem proprietários das provas, mas não puderem editar comentários, adicione-os como [!UICONTROL Autores] (ou [!UICONTROL Moderadores]).\

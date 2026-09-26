@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM
+TQID: 'https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 12%
-
 ---
-
 # Visão geral do status de uma meta no Adobe Workfront Goals
 
 <!--Audited: 4/2025-->
@@ -69,10 +75,10 @@ Old:
 * Abrir uma meta fechada também atualiza o progresso da meta.
 * Certas ações que você executa em uma meta também atualizam seu status. Para obter informações sobre como atualizar status de meta, consulte os seguintes artigos:
 
-   * [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-   * [Ativar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
-   * [Excluir e desativar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
-   * [Fechar e reabrir metas no Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
+  * [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+  * [Ativar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
+  * [Excluir e desativar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+  * [Fechar e reabrir metas no Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Visão geral dos status das metas no Workfront Goals
 
@@ -96,8 +102,8 @@ As metas podem ter um dos seguintes status nas Metas do Workfront:
 * Metas rascunhadas não contribuem para o cálculo do progresso de outras metas, e não são consideradas em gráficos.
 * Metas rascunhadas são exibidas nas seguintes áreas das Metas do Workfront:
 
-   * Lista de metas
-   * Seção Alinhamento de metas (somente como uma meta alinhada)
+  * Lista de metas
+  * Seção Alinhamento de metas (somente como uma meta alinhada)
 
 
 >[!IMPORTANT]
@@ -111,9 +117,9 @@ As metas podem ter um dos seguintes status nas Metas do Workfront:
 * As metas ativas contribuem para o cálculo do progresso de outras metas e são consideradas em gráficos.
 * As metas ativas são exibidas nas seguintes áreas das Metas do Workfront:
 
-   * Lista de metas
-   * Seção Alinhamento de metas
-   * O progresso das metas ativas é exibido em gráficos
+  * Lista de metas
+  * Seção Alinhamento de metas
+  * O progresso das metas ativas é exibido em gráficos
 
 * Você pode reativar uma meta Fechada ou Inativa.
 
@@ -131,8 +137,8 @@ As metas podem ter um dos seguintes status nas Metas do Workfront:
 * As metas inativas têm um histórico de progresso porque já foram ativas, ao contrário das metas rascunhadas.
 * Metas inativas são exibidas nas seguintes áreas do Workfront Goals:
 
-   * Lista de metas
-   * Seção Alinhamento de metas (somente como metas alinhadas)
+  * Lista de metas
+  * Seção Alinhamento de metas (somente como metas alinhadas)
 
 ### Fechado {#closed}
 
@@ -148,6 +154,6 @@ As metas podem ter um dos seguintes status nas Metas do Workfront:
 * Não é possível atualizar o progresso de uma meta encerrada.
 * As metas fechadas são exibidas na seguinte área das Metas do Workfront:
 
-   * Lista de metas
-   * Seção Alinhamento de metas (somente como metas alinhadas)
-   * Informações de metas fechadas também são consideradas na seção Gráficos.
+  * Lista de metas
+  * Seção Alinhamento de metas (somente como metas alinhadas)
+  * Informações de metas fechadas também são consideradas na seção Gráficos.

@@ -8,20 +8,24 @@ feature: Reports and Dashboards
 exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/i-F8ebsLAFO-0mP-bXzzEyFDsfvuWH-qswPc7C5cyMg
+TQID: 'https://experienceleague.adobe.com/i-F8ebsLAFO-0mP-bXzzEyFDsfvuWH-qswPc7C5cyMg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 362
-ht-degree: 7%
-
+source-wordcount: '413'
+ht-degree: 6%
 ---
-
 # Usar a visualização de atualizações de dados de monitoramento na conexão de dados
 
 A visualização Monitoramento de atualizações de dados exibe as atualizações recentes feitas na data do data lake durante a atualização mais recente. Os dados dessa visualização são atualizados após cada conclusão bem-sucedida de um carregamento de dados.
@@ -60,13 +64,13 @@ As colunas de view Atualizações de Dados de Monitoramento contêm as seguintes
         <td>RECORD_LOAD_TIMESTAMP </td>
         <td>Carimbo de data/hora_NTZ</td>
         <td>
- A data e o horário da atualização de dados mais recente para o tipo de objeto exibido na coluna OBJ_TYPE.  </td>
+ A data e a hora da atualização de dados mais recente para o tipo de objeto exibido na coluna OBJ_TYPE.  </td>
     </tr>
         <tr>
         <td>PREVIOUS_RECORD_LOAD_TIMESTAMP </td>
         <td>Carimbo de data/hora_NTZ </td>
         <td>
-       A data e o horário da segunda atualização de dados mais recente para o tipo de objeto exibido na coluna OBJ_TYPE. </td>
+       A data e a hora da segunda atualização de dados mais recente para o tipo de objeto exibido na coluna OBJ_TYPE. </td>
     </tr>
         <tr>
         <td>MINUTES_SINCE_PREVIOUS_LOAD </td>

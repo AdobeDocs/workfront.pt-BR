@@ -1,19 +1,26 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notificações: informações sobre os projetos que possuo'
+title: 'Notificações: informações sobre projetos de minha propriedade'
 description: As notificações a seguir alertam você sobre atividades que ocorrem em um projeto que você possui. Para obter informações sobre como configurar as notificações recebidas, consulte Modificar suas próprias notificações por email.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: cf605849-bcc0-4982-b8fa-f69eef7a4fb6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 1%
-
+source-wordcount: '1636'
+ht-degree: 2%
 ---
-
-# Notificações: informações sobre os projetos que possuo
+# Notificações: informações sobre projetos de minha propriedade
 
 As notificações a seguir alertam você sobre atividades que ocorrem em um projeto que você possui. Para obter informações sobre como configurar as notificações recebidas, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -43,7 +50,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Quando um projeto for alterado de uma status positiva de progresso (no prazo) para uma status negativa de progresso (em atraso), enviar email para o proprietário do projeto</strong> </p> <p>O Proprietário do projeto recebe uma notificação por email quando o projeto está atrasado. Um projeto está atrasado no agendamento quando o Status de Progresso é "[!UICONTROL em Risco]", "[!UICONTROL Atrasado]" ou "[!UICONTROL Atrasado]".</p> <p>A prática recomendada é manter essa notificação ativa. </p> <p>Os usuários com uma licença de [!UICONTROL Review] não recebem uma notificação.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Alteração de Progresso do Projeto]: &lt;Nome do Projeto&gt;</em></p> <p> O assunto da notificação de resumo diário é: <em> [!UICONTROL Resumo dos Projetos que Você Possui] &lt;Data do resumo diário&gt; </em></p> </td> 
-   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status de Progresso do Projeto<br>Data de Início Planejada do Projeto <br>Data de Conclusão Planejada do Projeto <br>Projeto [!UICONTROL Data de Início Projetada]<br>Projeto [!UICONTROL Data de Conclusão Projetada]<br>Percentual de Conclusão do Projeto<br>Status do Projeto<br>Proprietário do Projeto<br>*Nome da Referência do Projeto<br>*Número de Referência do Projeto<br>*Status de Progresso do Projeto<br> do Projeto do Projeto*Data do resumo diário<br></p> </td> 
+   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status de Progresso do Projeto<br>Data de Início Planejada do Projeto [!UICONTROL]<br>Data de Conclusão Planejada do Projeto [!UICONTROL]<br>Projeto [!UICONTROL Data de Início Projetada]<br>Projeto [!UICONTROL Data de Conclusão Projetada]<br>Percentual de Conclusão do Projeto<br>Status do Projeto<br>Proprietário do Projeto<br>*Nome da Referência do Projeto<br>*Número de Referência do Projeto<br>*Status de Progresso do Projeto<br> do Projeto do Projeto*Data do resumo diário<br></p> </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 

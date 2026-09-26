@@ -6,22 +6,26 @@ description: Você pode exibir informações adicionais sobre o [!UICONTROL proj
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-TQID: https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M
+TQID: 'https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 8%
-
 ---
-
 # Atualizar widgets no modo de exibição [!UICONTROL Detalhes do Projeto]
 
 Você pode exibir informações adicionais sobre o [!UICONTROL projeto] depois de acessá-lo na lista de projetos, adicionando widgets à sua tela [!UICONTROL Detalhes do Projeto]. Cada usuário pode personalizar seus próprios widgets.
@@ -78,8 +82,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * **[!UICONTROL Progresso da Tarefa]**: Exibe todas as tarefas do projeto por [!UICONTROL Status do Progresso] em um gráfico de pizza.
    * **[!UICONTROL Tarefas Futuras]**: mostra até 6 tarefas futuras. O widget classifica as tarefas do projeto na seguinte ordem:
 
-      * primeiro, pela [!UICONTROL Data de Vencimento Estimada]
-      * segundo, por [!UICONTROL Estrutura Analítica de Projeto]
+     * primeiro, pela [!UICONTROL Data de Vencimento Estimada]
+     * segundo, por [!UICONTROL Estrutura Analítica de Projeto]
 
      Ela exibe as duas últimas tarefas concluídas (se aplicável) e as próximas 4 tarefas. Para entender quais tarefas serão exibidas no aplicativo móvel de exibição [!DNL Workfront], você pode criar um relatório de tarefas para o projeto que está visualizando e classificá-lo pela Data de Conclusão Estimada e, em seguida, pela Estrutura Analítica de [!DNL Workfront]. As primeiras 6 tarefas serão as tarefas listadas no aplicativo móvel do Workfront View no widget de tarefas [!UICONTROL Próximas].
 
@@ -88,17 +92,17 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
      Você pode abrir os seguintes formatos de documento com [!DNL Workfront View]:
 
-      * todos os arquivos de texto
-      * .pdf
-      * arquivos de imagem (.jpg, .jpeg, .png etc.)
-      * .xls
+     * todos os arquivos de texto
+     * .pdf
+     * arquivos de imagem (.jpg, .jpeg, .png etc.)
+     * .xls
    * **[!UICONTROL Detalhes]**: exibe os seguintes detalhes sobre o projeto:
 
-      * Nome do Projeto
-      * Nome do criador do projeto
-      * Status do projeto
-      * Grupo do Projeto
-      * Cronograma do Projeto
+     * Nome do Projeto
+     * Nome do criador do projeto
+     * Status do projeto
+     * Grupo do Projeto
+     * Cronograma do Projeto
    * **[!UICONTROL Equipe]**: exibe os nomes dos usuários que fazem parte da Equipe do Projeto.\
 
      Para obter mais informações sobre as equipes de projeto, consulte [Visão geral da Equipe de Projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).

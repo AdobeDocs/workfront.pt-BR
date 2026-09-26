@@ -6,13 +6,17 @@ description: É possível usar os campos de moeda em um Painel da tela de desenh
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 9%
-
+source-wordcount: '687'
+ht-degree: 10%
 ---
-
 # Usar campos de moeda nos Painéis do Canvas
 
 >[!IMPORTANT]
@@ -147,7 +151,7 @@ A tabela a seguir descreve as limitações quando as moedas são definidas na á
 <li>Usar campos de moeda personalizados em relatórios de gráfico de tela, KPI e gráfico</li>
 <li>Usar campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela </li>
 </ul>
-<p><b>Nota</b></p>
+<p><b>NOTA</b></p>
 Se um campo de moeda do Planning usar uma moeda sem uma taxa de câmbio definida, o Painel de Controle do Canvas poderá exibir uma mensagem de erro quando.
 </td>
 <td>
@@ -171,7 +175,7 @@ Se um campo de moeda do Planning usar uma moeda sem uma taxa de câmbio definida
   <li>Bloqueie uma moeda específica para exibição em um gráfico de tela, KPI ou relatório de tabela para ignorar a preferência de alternância de moeda do painel</li>
   <li>Usar campos de moeda do Planning em um gráfico de tela, KPI e relatórios de tabela </li>
 </ul>
-<p><b>Nota</b></p>
+<p><b>NOTA</b></p>
 
 <p>Se um campo de moeda do Planning usar uma moeda sem uma taxa de câmbio definida, o Painel de Controle do Canvas poderá exibir uma mensagem de erro quando.</p>
 </td>

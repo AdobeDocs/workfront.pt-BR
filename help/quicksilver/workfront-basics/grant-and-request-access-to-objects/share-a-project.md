@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA
+TQID: 'https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1530
+source-wordcount: '1558'
 ht-degree: 5%
-
 ---
-
 # Compartilhar um projeto
 
 <!-- Audited: 1/2024 -->
@@ -79,13 +83,13 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 * Você pode compartilhar projetos individualmente ou vários deles de cada vez. O compartilhamento de projetos é idêntico ao compartilhamento de outros objetos. Para obter mais informações sobre como compartilhar itens no Workfront, consulte [Compartilhar um objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Você pode conceder as seguintes permissões a um projeto:
 
-   * Exibir
-   * Gerenciar
-   * Contribuir
+  * Exibir
+  * Gerenciar
+  * Contribuir
 
 * Quando você compartilha um projeto, todas as tarefas, problemas e documentos herdam as mesmas permissões, a menos que especificado de outra forma.
 
-  Para obter informações sobre como gerenciar o acesso a tarefas e problemas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+  Para obter informações sobre como gerenciar o acesso a tarefas e problemas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
   O administrador do Workfront pode especificar se os documentos devem herdar permissões de objetos superiores no nível de acesso do usuário. Para obter mais informações sobre como restringir permissões herdadas em documentos, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -104,25 +108,25 @@ Você pode compartilhar um projeto das seguintes maneiras:
 
 * Manualmente, seguindo um destes procedimentos:
 
-   * Adicionar usuários à equipe do projeto. Quando você adiciona usuários à equipe do projeto, eles obtêm automaticamente permissões de Visualização para o projeto.\
-     Para obter mais informações sobre como adicionar usuários a uma equipe de projeto, consulte a seção Adicionando usuários a uma equipe de projeto na [Visão geral da Equipe de Projeto](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * Compartilhamento individual ou em massa de projetos ao usar a opção **Compartilhamento**.
+  * Adicionar usuários à equipe do projeto. Quando você adiciona usuários à equipe do projeto, eles obtêm automaticamente permissões de Visualização para o projeto.\
+    Para obter mais informações sobre como adicionar usuários a uma equipe de projeto, consulte a seção Adicionando usuários a uma equipe de projeto na [Visão geral da Equipe de Projeto](../../manage-work/projects/planning-a-project/project-team-overview.md).
+  * Compartilhamento individual ou em massa de projetos ao usar a opção **Compartilhamento**.
 
 * Automaticamente, seguindo um destes procedimentos:
 
-   * Coloque um projeto em um **Portfolio** ou **Programa** que já esteja compartilhado com outras pessoas. Os usuários obtêm as mesmas permissões para o projeto que têm para o portfólio ou programa.\
-     Para obter informações sobre como adicionar um projeto a um **Portfolio**, consulte [Adicionar projetos a um portfólio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-     Para obter informações sobre como adicionar um projeto a um **Programa**, consulte [Adicionar um projeto a um programa](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
-Para obter informações sobre como visualizar permissões herdadas em um objeto, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  * Coloque um projeto em um **Portfolio** ou **Programa** que já esteja compartilhado com outras pessoas. Os usuários obtêm as mesmas permissões para o projeto que têm para o portfólio ou programa.\
+    Para obter informações sobre como adicionar um projeto a um **Portfolio**, consulte [Adicionar projetos a um portfólio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+    Para obter informações sobre como adicionar um projeto a um **Programa**, consulte [Adicionar um projeto a um programa](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+    Para obter informações sobre a exibição de permissões herdadas em um objeto, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Adicione entidades ao Compartilhamento de projeto em um modelo usado para criar o projeto. Para obter informações sobre como compartilhar projetos a partir de modelos, consulte [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
-   * Defina o modelo de acesso ao projeto.
+  * Adicione entidades ao Compartilhamento de projeto em um modelo usado para criar o projeto. Para obter informações sobre como compartilhar projetos a partir de modelos, consulte [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+  * Defina o modelo de acesso ao projeto.
 
-     >[!TIP]
-     >
-     >Ao anexar ou salvar um modelo, você pode apagar as regras de Compartilhamento do projeto de modelo.
+    >[!TIP]
+    >
+    >Ao anexar ou salvar um modelo, você pode apagar as regras de Compartilhamento do projeto de modelo.
 
-   * Editar um projeto e definir a configuração **Quando alguém tiver acesso a este projeto**.  Para obter mais informações, consulte [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+  * Editar um projeto e definir a configuração **Quando alguém tiver acesso a este projeto**.  Para obter mais informações, consulte [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

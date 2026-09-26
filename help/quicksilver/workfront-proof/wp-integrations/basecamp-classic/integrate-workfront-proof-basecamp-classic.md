@@ -2,25 +2,33 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
-title: Integrar  [!DNL Workfront Proof]  ao Basecamp Classic
+title: Integrar [!DNL Workfront Proof] ao Basecamp Classic
 description: Se você usar o [!DNL Basecamp] para gerenciamento de projetos, poderá oferecer à sua equipe de projetos ferramentas de revisão e aprovação mais avançadas usando o [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
-TQID: https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo
+TQID: 'https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 796
+source-wordcount: '799'
 ht-degree: 0%
-
 ---
-
 # Integrar [!DNL Workfront Proof] a [!DNL Basecamp Classic]
 
 >[!IMPORTANT]
@@ -89,7 +97,7 @@ Depois de configurar as [configurações da conta](https://support.workfront.com
 >
 >Concluir essas etapas é mais fácil se você tiver a sessão do [!DNL Basecamp] aberta em uma janela do navegador e a sessão do [!DNL Workfront Proof] aberta em outra janela.
 
-* [Recuperando o Token de API  [!DNL Basecamp] &#x200B;](#retrieving-your-basecamp-api-token)
+* [Recuperando o Token de API  [!DNL Basecamp] ](#retrieving-your-basecamp-api-token)
 * [Adicionar o token de API  [!DNL Basecamp]  às suas configurações pessoais](#adding-your-basecamp-api-token-to-your-personal-settings)
 
 ### Recuperando seu token de API [!DNL Basecamp]

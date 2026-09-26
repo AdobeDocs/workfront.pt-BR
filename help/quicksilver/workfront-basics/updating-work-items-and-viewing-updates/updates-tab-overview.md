@@ -7,25 +7,31 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-TQID: https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI
+TQID: 'https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 4%
-
 ---
-
 # Visão geral da seção de atualizações
 
 <!-- Audited: 1/2024 -->
@@ -155,44 +161,44 @@ Há diferenças entre a forma como comentários e atualizações são exibidos p
 
 * Os seguintes objetos têm experiências semelhantes nas três guias na seção Atualizações:
 
-   * Projetos
-   * Tarefas
-   * Problemas
-   * Programas
-   * Portfólios
-   * Usuários
-   * Planilhas de horas
+  * Projetos
+  * Tarefas
+  * Problemas
+  * Programas
+  * Portfólios
+  * Usuários
+  * Planilhas de horas
 
 * Os seguintes objetos não têm uma guia de atividade Sistema ou uma guia Todos, e a experiência na guia Comentários corresponde à de todos os outros objetos:
 
-   * Equipe
-   * Modelo
-   * Tarefa de modelo
+  * Equipe
+  * Modelo
+  * Tarefa de modelo
 
 * Os seguintes objetos não têm uma guia de atividade Sistema ou uma guia Todos, e a experiência na guia Comentários é diferente da de todos os outros objetos:
 
-   * Iterações
-   * Cartões ad-hoc na área Quadros
+  * Iterações
+  * Cartões ad-hoc na área Quadros
 
-     Para obter mais informações sobre atualizações em cartões, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+    Para obter mais informações sobre atualizações em cartões, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 * Os seguintes objetos têm uma guia de atividade Sistema e não têm uma guia Todos:
 
-   * Placas conectadas na área Quadros
+  * Placas conectadas na área Quadros
 
-     Para obter informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+    Para obter informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 * Os seguintes objetos têm uma guia History que substitui a guia System activity:
 
-   * Registros no Workfront Planning
+  * Registros no Workfront Planning
 
-     Para obter informações, consulte [Visão geral da seção de histórico](/help/quicksilver/planning/records/history-section-overview.md).
+    Para obter informações, consulte [Visão geral da seção de histórico](/help/quicksilver/planning/records/history-section-overview.md).
 
 * Os seguintes objetos não têm uma guia Todos e a experiência na guia Comentários corresponde à maioria dos objetos:
 
-   * Metas
+  * Metas
 
-     Para obter mais informações sobre atualizações de metas, consulte [Gerenciar comentários de meta](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+    Para obter mais informações sobre atualizações de metas, consulte [Gerenciar comentários de meta](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -250,7 +256,7 @@ A tabela a seguir mostra os objetos cujos comentários também são exibidos em 
   </tr> 
  </tr> 
   <tr data-mc-conditions=""> 
-   <td>Prova </td> 
+   <td>Proof </td> 
    <td>Documento </td> 
   </tr>
 
@@ -324,19 +330,19 @@ Considere o seguinte ao visualizar atualizações para usuários e equipes:
 
 * A seção Atualizações para equipes é preenchida com comentários adicionados aos seguintes objetos:
 
-   * Usuários
-   * Histórias
-   * Planilhas de horas
-   * Iterações
+  * Usuários
+  * Histórias
+  * Planilhas de horas
+  * Iterações
 
 * A guia Atualizações de sistema da área Atualizações para usuários é preenchida por atualizações para outros objetos. A seguir estão as atualizações que são exibidas na guia Atualizações do sistema do perfil do usuário, quando esses campos são rastreados na área Feeds de atualizações da Configuração:
 
-   * Adição, remoção e outras atualizações de documentos
-   * Adição de hora, remoção, adição em nome de e outras atualizações de entrada de hora
-   * Atualizações em campos personalizados
-   * Atualizações do perfil do usuário (atualizações do avatar do usuário, número de celular, Fale comigo sobre o campo, Título)
-   * Adição do usuário, remoção, alteração no nível de acesso, alterações nos campos de usuário incorporados
-   * Informações financeiras de tarefas e projetos.
+  * Adição, remoção e outras atualizações de documentos
+  * Adição de hora, remoção, adição em nome de e outras atualizações de entrada de hora
+  * Atualizações em campos personalizados
+  * Atualizações do perfil do usuário (atualizações do avatar do usuário, número de celular, Fale comigo sobre o campo, Título)
+  * Adição do usuário, remoção, alteração no nível de acesso, alterações nos campos de usuário incorporados
+  * Informações financeiras de tarefas e projetos.
 
 ### Limitações ao inserir comentários em nome de outro usuário
 

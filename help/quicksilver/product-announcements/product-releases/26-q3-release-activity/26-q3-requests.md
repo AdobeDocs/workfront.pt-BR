@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 7%
-
+ht-degree: 8%
 ---
-
 # Melhorias nas solicitações do terceiro trimestre de 2026
 
 Esta página descreve as melhorias nas Solicitações feitas com a versão do Terceiro Trimestre de 2026 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -22,7 +29,9 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 27 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 27 de maio de 2026
+>Versão rápida de produção: 11 de junho de 2026
+>Produção para todos: 16 de julho de 2026
 
 Para obter mais contexto sobre o estado correto em que suas solicitações estão, estamos atualizando os status para solicitações na nova experiência de solicitação.
 
@@ -41,7 +50,10 @@ Para obter mais informações, consulte [Exibir solicitações enviadas](/help/q
 
 >[!NOTE]
 >
->Visualização: 23 de abril de 2026Versão rápida de produção: 23 de abril de 2026Produção para todos: 23 de abril de 2026Fora do cronograma&rbrack;{type=Neutral}
+>Visualização: 23 de abril de 2026
+>Versão rápida de produção: 23 de abril de 2026
+>Produção para todos: 23 de abril de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Para ajudá-lo a organizar melhor sua lista de solicitações, adicionamos as seguintes exibições predefinidas à lista de solicitações na área Solicitações e ao widget Minhas solicitações na Página inicial:
 

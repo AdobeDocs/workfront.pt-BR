@@ -7,25 +7,31 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
+TQID: 'https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 2%
-
+source-wordcount: '663'
+ht-degree: 1%
 ---
-
 # Aprimoramentos do administrador no segundo trimestre de 2026
 
 Esta página descreve as melhorias de Administrador feitas com a versão do Segundo trimestre de 2026 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -36,7 +42,9 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 2 de abril de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 Para facilitar o benefício da IA no seu trabalho diário, criamos o Colaborador da IA de revisão de conteúdo. O Collaborator é uma maneira de integrar agentes de IA em seus projetos e tarefas. Você pode configurar um Colaborador de IA com diretrizes de marca e, em seguida, atribuí-lo a uma tarefa como faria com um usuário.
 
@@ -48,7 +56,9 @@ Para obter mais informações, consulte [Configurar colaboradores de IA](/help/q
 
 >[!NOTE]
 >
->Visualização: 27 de março de 2026>Lançamento rápido de produção: 27 de março de 2026>Produção para todos: 27 de março de 2026
+>Visualização: 27 de março de 2026
+>Lançamento rápido de produção: 27 de março de 2026
+>Produção para todos: 27 de março de 2026
 
 Atualizamos os fusos horários disponíveis no Workfront para seguir os padrões IANA. Isso garante a compatibilidade com outros sistemas e a precisão ao longo do tempo.
 
@@ -60,7 +70,9 @@ Para obter uma lista dessas alterações, consulte [Nomes de fuso horário atual
 
 >[!NOTE]
 >
->Visualização: 5 de março de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 5 de março de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 Movemos a área Trimestre personalizado da seção Preferências do projeto. Agora é uma seção independente na Configuração do. 
 Essa atualização inclui o seguinte:
@@ -75,7 +87,9 @@ Para obter informações, consulte [Habilitar trimestres personalizados](/help/q
 
 >[!NOTE]
 >
->Visualização: 26 de fevereiro de 2026>Lançamento rápido de produção: 12 de março de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 26 de fevereiro de 2026
+>Lançamento rápido de produção: 12 de março de 2026
+>Produção para todos: 16 de abril de 2026
 
 Por padrão, todas as seções em um formulário personalizado são expandidas quando o próprio formulário é expandido. Uma nova opção no designer de formulário personalizado permite marcar uma seção para ser recolhida por padrão quando um usuário abrir o formulário. Essa opção é aplicada no nível da seção, não em campos.
 
@@ -85,7 +99,9 @@ Para obter mais informações, consulte [Organizar e visualizar um formulário](
 
 >[!NOTE]
 >
->Visualização: 29 de janeiro de 2026>Versão rápida de produção: 12 de fevereiro de 2026>Produção para todos: a ser definida
+>Visualização: 29 de janeiro de 2026
+>Versão rápida de produção: 12 de fevereiro de 2026
+>Produção para todos: a ser definida
 >
 >Esse recurso foi removido temporariamente do ambiente de Produção do em 13 de fevereiro de 2026.
 

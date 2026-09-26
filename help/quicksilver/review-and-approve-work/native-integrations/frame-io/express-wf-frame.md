@@ -7,13 +7,22 @@ description: Introdução à integração do Adobe Express e do Frame.io
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 8%
-
 ---
-
 
 # Introdução ao Adobe Express e Workfront com integração do Frame.io
 
@@ -80,7 +89,7 @@ Quando um modelo expresso for remisturado, uma aprovação será necessária ant
 
 Os usuários devem ter uma licença Standard Workfront para solicitar aprovação da Adobe Express.
 
-Saiba como [obter aprovação em designs](https://helpx.adobe.com/br/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Saiba como [obter aprovação em designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Modelos Remix Express e enviar para revisão e aprovação
@@ -100,7 +109,7 @@ Ao solicitar aprovação em um modelo remixado do Express, os usuários podem es
 
 Se nenhum projeto for selecionado, o ativo assumirá como padrão um projeto específico do Express.
 
-Para obter mais informações, consulte [Enviar modelos para revisão e aprovação](https://helpx.adobe.com/br/express/web/invite-collaborate/request-approval.html).
+Para obter mais informações, consulte [Enviar modelos para revisão e aprovação](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 
 ## Revisar e aprovar arquivos Express remixados com Frame.io

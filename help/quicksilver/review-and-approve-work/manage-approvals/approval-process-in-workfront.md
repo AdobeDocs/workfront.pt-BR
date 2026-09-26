@@ -7,26 +7,35 @@ description: Você pode criar um processo de aprovação e anexá-lo a um objeto
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-TQID: https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y
+TQID: 'https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: '1816'
 ht-degree: 0%
-
 ---
-
 # Visão geral do processo de aprovação
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +57,15 @@ Se você for um administrador do Adobe Workfront ou um usuário com acesso admin
 
 * **Um processo de aprovação global em nível de sistema**: os usuários podem anexá-los a qualquer um dos seguintes:
 
-   * Um projeto, tarefa ou problema na seção Aprovações
-   * Na caixa Editar projeto na área Processo de aprovação padrão de tarefa
-   * Na seção Detalhes da fila ou Tópico da fila de um projeto nas áreas Processo de aprovação padrão. O projeto deve ser ativado como uma fila de solicitações.
+  * Um projeto, tarefa ou problema na seção Aprovações
+  * Na caixa Editar projeto na área Processo de aprovação padrão de tarefa
+  * Na seção Detalhes da fila ou Tópico da fila de um projeto nas áreas Processo de aprovação padrão. O projeto deve ser ativado como uma fila de solicitações.
 
 * **Um processo de aprovação global em nível de grupo**: os usuários podem anexá-los ao seguinte:
 
-   * Um projeto, tarefa ou problema pertencente ao grupo associado ao processo de aprovação na seção Aprovações
-   * Na caixa Editar projeto na área Processo de aprovação padrão de tarefa para um projeto pertencente ao grupo associado ao processo de aprovação
-   * Na seção Detalhes da fila ou Tópico da fila de um projeto nas áreas Processo de aprovação padrão. O projeto deve ser ativado como uma fila de solicitações e deve pertencer ao grupo associado ao processo de aprovação.
+  * Um projeto, tarefa ou problema pertencente ao grupo associado ao processo de aprovação na seção Aprovações
+  * Na caixa Editar projeto na área Processo de aprovação padrão de tarefa para um projeto pertencente ao grupo associado ao processo de aprovação
+  * Na seção Detalhes da fila ou Tópico da fila de um projeto nas áreas Processo de aprovação padrão. O projeto deve ser ativado como uma fila de solicitações e deve pertencer ao grupo associado ao processo de aprovação.
 
   Para obter informações sobre como criar um processo de aprovação de nível de sistema ou de grupo, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -77,31 +86,33 @@ Para obter informações sobre como criar um processo de aprovação em nível d
 * Você deve criar o projeto, tarefa, problema, modelo ou tarefa de modelo antes que o processo de aprovação possa ser associado a eles.
 * Um processo de aprovação está sempre associado a dois itens essenciais:
 
-   * Cada processo de aprovação corresponde a um determinado status de item de trabalho no sistema Workfront. Quando você altera o status de um item de trabalho, uma aprovação anexada para esse status requer que a alteração do status seja confirmada antes que o novo status possa ser atribuído ao item.
+  * Cada processo de aprovação corresponde a um determinado status de item de trabalho no sistema Workfront. Quando você altera o status de um item de trabalho, uma aprovação anexada para esse status requer que a alteração do status seja confirmada antes que o novo status possa ser atribuído ao item.
 
-     >[!TIP]
-     >
-     >
-     >   
-     >   
-     >   * Você pode associar uma aprovação de nível de grupo a um status global ou de nível de grupo.
-     >   * Você não pode alterar o status de um item usando um processo de aprovação para um status diferente daquele associado ao processo de aprovação.
-     >   
-     >   
-     >     Por exemplo, se você tiver uma aprovação de tarefa associada ao status Em andamento, a tarefa alterará automaticamente seu status para Em andamento quando a aprovação for concedida. Ele não pode alterar automaticamente seu status para Completed ou qualquer outro status que não esteja associado à aprovação.
-     >   
-     >   
-     >* As entidades associadas a um processo de aprovação podem ser usuários, funções de trabalho ou equipes. Os usuários são os principais responsáveis por aceitar ou rejeitar a aprovação. Você pode atribuir aprovações a usuários que desempenham uma determinada função no projeto. Por exemplo, você pode atribuir uma aprovação a um Proprietário do projeto ou Patrocinador. Para obter mais informações, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+    >[!TIP]
+    >
+    >
+    >   
+    >   
+    >   * Você pode associar uma aprovação de nível de grupo a um status global ou de nível de grupo.
+    >   * Você não pode alterar o status de um item usando um processo de aprovação para um status diferente daquele associado ao processo de aprovação.
+    >   
+    >   
+    >     Por exemplo, se você tiver uma aprovação de tarefa associada ao status Em andamento, a tarefa alterará automaticamente seu status para Em andamento quando a aprovação for concedida. Ele não pode alterar automaticamente seu status para Completed ou qualquer outro status que não esteja associado à aprovação.
+    >   
+    >   
+    >
 
-     Existem os seguintes cenários:
+  * As entidades associadas a um processo de aprovação podem ser usuários, funções de trabalho ou equipes. Os usuários são os principais responsáveis por aceitar ou rejeitar a aprovação. Você pode atribuir aprovações a usuários que desempenham uma determinada função no projeto. Por exemplo, você pode atribuir uma aprovação a um Proprietário do projeto ou Patrocinador. Para obter mais informações, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-      * Quando você atribui uma aprovação a funções de trabalho, qualquer usuário na Equipe do projeto que esteja associado à função de trabalho pode tomar uma decisão sobre a aprovação. A função associada à aprovação pode ser sua função principal ou qualquer outra função.
+    Existem os seguintes cenários:
 
-        Para obter informações sobre a Equipe do Projeto, consulte [Visão geral da Equipe do Projeto](../../manage-work/projects/planning-a-project/project-team-overview.md).
+    * Quando você atribui uma aprovação a funções de trabalho, qualquer usuário na Equipe do projeto que esteja associado à função de trabalho pode tomar uma decisão sobre a aprovação. A função associada à aprovação pode ser sua função principal ou qualquer outra função.
 
-      * Quando você atribui uma aprovação a uma equipe, qualquer membro dessa equipe pode tomar uma decisão sobre a aprovação. A equipe associada à aprovação pode ser sua Equipe inicial ou qualquer uma de suas Outras equipes.
+      Para obter informações sobre a Equipe do Projeto, consulte [Visão geral da Equipe do Projeto](../../manage-work/projects/planning-a-project/project-team-overview.md).
 
-        Para obter informações sobre as funções e equipes de um usuário, consulte [Editar perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+    * Quando você atribui uma aprovação a uma equipe, qualquer membro dessa equipe pode tomar uma decisão sobre a aprovação. A equipe associada à aprovação pode ser sua Equipe inicial ou qualquer uma de suas Outras equipes.
+
+      Para obter informações sobre as funções e equipes de um usuário, consulte [Editar perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Quando você cria um item de trabalho, ele não tem automaticamente um processo de aprovação anexado. Você deve anexar um manualmente se desejar usar um. Para obter informações sobre como anexar um processo de aprovação a um item, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 * O administrador do Workfront ou um usuário com acesso administrativo a processos de aprovação pode criar processos de aprovação globais no nível do sistema para uso em todo o sistema. Um administrador de grupo com acesso administrativo a processos de aprovação pode criar um processo de aprovação global de nível de grupo para uso somente por um determinado grupo gerenciado por ele.

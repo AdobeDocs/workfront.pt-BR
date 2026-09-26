@@ -6,22 +6,26 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-TQID: https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU
+TQID: 'https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: '1226'
 ht-degree: 6%
-
 ---
-
 # Compartilhar um problema
 
 O administrador do Adobe Workfront concede aos usuários acesso para visualizar ou editar problemas ao atribuir níveis de acesso. Para obter mais informações sobre como conceder acesso a problemas, consulte [Conceder acesso a problemas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
@@ -76,9 +80,9 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 * Você pode compartilhar problemas individualmente ou compartilhar vários deles de cada vez. O compartilhamento de problemas é idêntico ao compartilhamento de outros itens no Workfront. Para obter mais informações sobre como compartilhar itens no Workfront, consulte [Compartilhar um objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Você pode conceder as seguintes permissões a um problema:
 
-   * Exibir
-   * Contribuir
-   * Gerenciar
+  * Exibir
+  * Contribuir
+  * Gerenciar
 
 * Quando você compartilha um problema, todos os documentos anexados ao problema herdam as mesmas permissões.
 
@@ -91,27 +95,27 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 * Manualmente, que é semelhante ao compartilhamento de qualquer outro objeto no Workfront.
 * Automaticamente, seguindo um destes procedimentos:
 
-   * Especifique as permissões em qualquer um dos objetos principais do problema: projeto, programa ou portfólio. Os problemas herdam as permissões de seus objetos principais. Para obter informações sobre a exibição de permissões herdadas em objetos, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Adicione entidades ao Compartilhamento de projeto em um modelo usado para criar o projeto no qual o problema está. Para obter informações sobre como compartilhar projetos a partir de modelos, consulte [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+  * Especifique as permissões em qualquer um dos objetos principais do problema: projeto, programa ou portfólio. Os problemas herdam as permissões de seus objetos principais. Para obter informações sobre a exibição de permissões herdadas em objetos, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  * Adicione entidades ao Compartilhamento de projeto em um modelo usado para criar o projeto no qual o problema está. Para obter informações sobre como compartilhar projetos a partir de modelos, consulte [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique as permissões em todos os problemas em um projeto ao editá-lo. Para obter informações sobre como gerenciar o acesso a problemas ou solicitações no projeto com base nas permissões de um usuário para o projeto, consulte a seção [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+  * Especifique as permissões em todos os problemas em um projeto ao editá-lo. Para obter informações sobre como gerenciar o acesso a problemas ou solicitações no projeto com base nas permissões de um usuário para o projeto, consulte a seção [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
-     >[!TIP]
-     >
-     >Se você não especificar as permissões de problema que deseja que os usuários tenham quando são atribuídos aos problemas no projeto, eles receberão as mesmas permissões que têm no projeto por padrão.
+    >[!TIP]
+    >
+    >Se você não especificar as permissões de problema que deseja que os usuários tenham quando são atribuídos aos problemas no projeto, eles receberão as mesmas permissões que têm no projeto por padrão.
 
-   * Especifique as permissões que os usuários recebem sobre problemas enviados em uma fila de solicitações ao criar uma fila de solicitações. Para obter informações, consulte [Criar uma fila de solicitações](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  * Especifique as permissões que os usuários recebem sobre problemas enviados em uma fila de solicitações ao criar uma fila de solicitações. Para obter informações, consulte [Criar uma fila de solicitações](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-     >[!IMPORTANT]
-     >
-     >As permissões são concedidas de forma diferente se o projeto for publicado ou não como uma fila de solicitações:
-     >
-     >   
-     >   
-     >   * Quando um usuário envia uma solicitação a um projeto publicado como uma fila de solicitações, o contato principal e os usuários Cadastrados por recebem a permissão especificada.
-     >   * Quando um usuário envia uma solicitação a um projeto não publicado como uma fila de solicitações, o contato principal (se for diferente do usuário Informado por) recebe a permissão especificada e o usuário Informado por recebe as permissões Gerenciar para a ocorrência.
-     >   
-     >
+    >[!IMPORTANT]
+    >
+    >As permissões são concedidas de forma diferente se o projeto for publicado ou não como uma fila de solicitações:
+    >
+    >   
+    >   
+    >   * Quando um usuário envia uma solicitação a um projeto publicado como uma fila de solicitações, o contato principal e os usuários Cadastrados por recebem a permissão especificada.
+    >   * Quando um usuário envia uma solicitação a um projeto não publicado como uma fila de solicitações, o contato principal (se for diferente do usuário Informado por) recebe a permissão especificada e o usuário Informado por recebe as permissões Gerenciar para a ocorrência.
+    >   
+    >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -1,49 +1,54 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Faça logon no  [!DNL Adobe Workfront]
+title: Faça logon no [!DNL Adobe Workfront]
 description: Leia este artigo para saber como fazer logon no Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU
+TQID: 'https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '222'
 ht-degree: 11%
-
 ---
-
 # Faça logon no [!DNL Adobe Workfront]
 
 <!--Audited: 2024-->
 
-Um login é usado para o Workfront e todos os seus aplicativos Adobe CX Enterprise.
+Um logon é usado para o Workfront e todos os aplicativos da Adobe CX Enterprise.
 
-Para obter informações, consulte [Interface e administração do CX Enterprise](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud).
+Para obter informações, consulte [interface e administração do CX Enterprise](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud).
 
 ## Acessar [!DNL Workfront]
 
-Depois de fazer logon no CX Enterprise, você poderá ver todas as organizações e ambientes do [!DNL Workfront] aos quais tem acesso clicando no alternador da organização na área de navegação superior. Selecione a organização ou o ambiente [!DNL Workfront] em que você deseja trabalhar. Os ambientes podem incluir [!UICONTROL Visualização] e [!UICONTROL Sandbox] se sua organização os utilizar.
+Depois de fazer logon no CX Enterprise, você poderá exibir todas as organizações e ambientes do [!DNL Workfront] aos quais tem acesso clicando no alternador de organização na área de navegação superior. Selecione a organização ou o ambiente [!DNL Workfront] em que você deseja trabalhar. Os ambientes podem incluir [!UICONTROL Visualização] e [!UICONTROL Sandbox] se sua organização os utilizar.
 
 ![Exibir [!DNL Workfront] organizações e ambientes](assets/wf-org-instance-switcher-2026.png)
 
 >[!NOTE]
 >
->Na primeira vez que você efetuar login no CX Enterprise, a organização assumirá como padrão o primeiro item na lista em ordem alfabética. Na próxima vez que você fizer logon, a organização assumirá como padrão a última que você visitou.
+>Na primeira vez que você fizer logon no CX Enterprise, a organização assumirá como padrão o primeiro item na lista em ordem alfabética. Na próxima vez que você fizer logon, a organização assumirá como padrão a última que você visitou.
 
-[!DNL Workfront] aparece na lista de produtos CX Enterprise aos quais você tem acesso. Você pode escolher [!DNL Workfront] no menu de acesso rápido da home page do CX Enterprise ou usar o alternador de produto ![alternador de produto](assets/main-menu-icon.png) para alterar os aplicativos a qualquer momento.
+[!DNL Workfront] aparece na lista de produtos da CX Enterprise aos quais você tem acesso. Você pode escolher [!DNL Workfront] no menu de acesso rápido da home page do CX Enterprise ou usar o alternador de produto ![Alternador de produto](assets/main-menu-icon.png) para alterar aplicativos a qualquer momento.
 
 ![Selecione [!DNL Workfront] para acessar o aplicativo](assets/cx-enterprise-home-2026.png)
 

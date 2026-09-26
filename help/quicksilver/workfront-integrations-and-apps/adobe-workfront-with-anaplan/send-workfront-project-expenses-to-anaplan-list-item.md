@@ -1,32 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Enviar  [!DNL Adobe Workfront] despesas para um [!DNL Anaplan] item de lista
-description: Este cenário de integração compartilha os detalhes relacionados às despesas de um projeto [!DNL Adobe Workfront] com um item de lista de orçamento [!DNL Anaplan] a. O compartilhamento dessas informações permite que você aproveite melhor a otimização de gastos e a análise financeira que o [!DNL Anaplan] fornece.
+title: Enviar despesas de [!DNL Adobe Workfront] para um item de lista [!DNL Anaplan]
+description: Este cenário de integração compartilha detalhes relacionados a despesas de um projeto [!DNL Adobe Workfront] com um item de lista de orçamento [!DNL Anaplan]. O compartilhamento dessas informações permite aproveitar melhor a otimização de gastos e a análise financeira fornecidas pelo [!DNL Anaplan].
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-TQID: https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA
+TQID: 'https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: '985'
 ht-degree: 13%
-
 ---
-
 # Enviar despesas de [!DNL Adobe Workfront] para um item de lista [!DNL Anaplan]
 
 Este cenário de integração compartilha detalhes relacionados a despesas de um projeto [!DNL Adobe Workfront] com um item de lista de orçamento [!DNL Anaplan]. O compartilhamento dessas informações permite aproveitar melhor a otimização de gastos e a análise financeira fornecidas pelo [!DNL Anaplan].
@@ -69,7 +79,7 @@ Este cenário de integração compartilha detalhes relacionados a despesas de um
 
 Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obter informações sobre licenças do Adobe Workfront Fusion, consulte [Licenças do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Para obter informações sobre licenças do Adobe Workfront Fusion, consulte [Licenças do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 +++
 
@@ -105,31 +115,31 @@ Você deve ter o seguinte em [!DNL Anaplan] para usar este cenário:
 * A Lista dentro do Modelo [!DNL Anaplan] que você deseja capturar orçamentos de campanha.
 * Um arquivo **[!UICONTROL Importação de Despesas Reais do Anaplan]** que contém as seguintes colunas, nesta ordem:
 
-   1. [!UICONTROL [!DNL Workfront] Despesas GUID]
+  1. [!UICONTROL [!DNL Workfront] Despesas GUID]
 
-   2. [!UICONTROL [!DNL Workfront] GUID do Projeto]
+  2. [!UICONTROL [!DNL Workfront] GUID do Projeto]
 
-   3. [!UICONTROL Valor Efetivo]
+  3. [!UICONTROL Valor Efetivo]
 
-   4. [!UICONTROL Descrição]
+  4. [!UICONTROL Descrição]
 
-   5. [!UICONTROL Tipo de Despesa]
+  5. [!UICONTROL Tipo de Despesa]
 
-   6. [!UICONTROL Data efetiva]
+  6. [!UICONTROL Data efetiva]
 
-   7. [!UICONTROL Nome da campanha]
+  7. [!UICONTROL Nome da campanha]
 
-   8. [!UICONTROL [!DNL Anaplan] ID do Item de Lista]
+  8. [!UICONTROL [!DNL Anaplan] ID do Item de Lista]
 
   Para preparar o arquivo [!UICONTROL [!DNL Anaplan] Importação de Despesas Reais]:
 
-   1. Copie e cole o seguinte em um editor de texto ou [!DNL Excel].
-   1. Salve o arquivo em formato CSV.
-   1. Carregar o arquivo em [!DNL Anaplan].
+  1. Copie e cole o seguinte em um editor de texto ou [!DNL Excel].
+  1. Salve o arquivo em formato CSV.
+  1. Carregar o arquivo em [!DNL Anaplan].
 
-      Para obter instruções, consulte a documentação do [!DNL Anaplan] sobre como importar dados para módulos de um arquivo.
+     Para obter instruções, consulte a documentação do [!DNL Anaplan] sobre como importar dados para módulos de um arquivo.
 
-   1. Anote o nome que você deu ao arquivo; ele será usado durante a implantação do modelo de cenário [!UICONTROL Fusion].
+  1. Anote o nome que você deu ao arquivo; ele será usado durante a implantação do modelo de cenário [!UICONTROL Fusion].
 
   Exemplo de conteúdo CSV
 
@@ -138,31 +148,31 @@ Você deve ter o seguinte em [!DNL Anaplan] para usar este cenário:
 
 * Um arquivo **[!UICONTROL [!DNL Anaplan]de Importação de Despesas Planejadas]** que contém as seguintes colunas, nesta ordem:
 
-   1. [!UICONTROL [!DNL Workfront] Despesas GUID]
+  1. [!UICONTROL [!DNL Workfront] Despesas GUID]
 
-   2. [!UICONTROL [!DNL Workfront] GUID do Projeto]
+  2. [!UICONTROL [!DNL Workfront] GUID do Projeto]
 
-   3. [!UICONTROL Valor Efetivo]
+  3. [!UICONTROL Valor Efetivo]
 
-   4. [!UICONTROL Descrição]
+  4. [!UICONTROL Descrição]
 
-   5. [!UICONTROL Tipo de Despesa]
+  5. [!UICONTROL Tipo de Despesa]
 
-   6. [!UICONTROL Data efetiva]
+  6. [!UICONTROL Data efetiva]
 
-   7. [!UICONTROL Nome da campanha]
+  7. [!UICONTROL Nome da campanha]
 
-   8. [!UICONTROL [!DNL Anaplan] ID do Item de Lista]
+  8. [!UICONTROL [!DNL Anaplan] ID do Item de Lista]
 
   Para preparar o arquivo [!UICONTROL [!DNL Anaplan] de Importação de Despesas Planejadas]:
 
-   1. Copie e cole o seguinte em um editor de texto ou [!DNL Excel]
-   1. Salvar o arquivo em formato CSV
-   1. Carregue o arquivo no Anaplan.
+  1. Copie e cole o seguinte em um editor de texto ou [!DNL Excel]
+  1. Salvar o arquivo em formato CSV
+  1. Carregue o arquivo no Anaplan.
 
-      Para obter instruções, consulte a documentação do [!DNL Anaplan] sobre como importar dados para módulos de um arquivo.
+     Para obter instruções, consulte a documentação do [!DNL Anaplan] sobre como importar dados para módulos de um arquivo.
 
-   1. Anote o nome que você deu ao arquivo; ele será usado durante a implantação do modelo de cenário [!UICONTROL Fusion].
+  1. Anote o nome que você deu ao arquivo; ele será usado durante a implantação do modelo de cenário [!UICONTROL Fusion].
 
   Exemplo de conteúdo CSV
 

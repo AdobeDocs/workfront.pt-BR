@@ -6,15 +6,22 @@ description: Você pode excluir solicitações enviadas ou solicitar rascunhos n
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 9%
-
+source-wordcount: '689'
+ht-degree: 8%
 ---
-
 # Excluir uma solicitação enviada ou um rascunho de solicitação
 
 É possível excluir solicitações enviadas do Adobe Workfront ou do Adobe Workfront Planning ou solicitar rascunhos criados por você ou para os quais você tenha permissões de gerenciamento.
@@ -29,7 +36,7 @@ Para obter mais informações, consulte:
 
 * [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Criar solicitações a partir de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
-* [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md)
+* [Enviar solicitações do Planejamento do Adobe Workfront para criar registros](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## Requisitos de acesso
 

@@ -9,30 +9,35 @@ recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jklN-Kfhi1HPkmFXKn-cu8ro6awWpv2v5NUsR9cLXF4
+TQID: 'https://experienceleague.adobe.com/jklN-Kfhi1HPkmFXKn-cu8ro6awWpv2v5NUsR9cLXF4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 482
-ht-degree: 11%
-
+source-wordcount: '590'
+ht-degree: 12%
 ---
-
 # Informações de painéis de tela na versão beta
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Forneça comentários](#provide-feedback) abaixo.<br>
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que este beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -92,7 +97,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
    >[!NOTE]
    >
-   >Depois que os termos beta são aceitos, os recursos do Painel de controle do Canvas serão habilitados para todos os usuários no ambiente do Workfront. Qualquer usuário com acesso de Visualização e Gerenciamento a painéis poderá visualizar e editar Painéis da Tela de acordo com seu nível de acesso.<br>
+   >Depois que os termos beta são aceitos, os recursos do Painel de controle do Canvas serão habilitados para todos os usuários no ambiente do Workfront. Qualquer usuário com acesso de Visualização e Gerenciamento a painéis poderá visualizar e editar Painéis da tela de acordo com seu nível de acesso.<br>
    >Observe que a visibilidade da landing page dos Painéis do Canvas é controlada por meio do Modelo de layout atribuído pelo usuário. Para obter mais informações, consulte [Criar e gerenciar modelos de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 

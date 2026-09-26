@@ -1,27 +1,31 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Experiência unificada da Adobe para  [!DNL Workfront]
-description: Acessar o  [!DNL Workfront] por meio do Adobe CX Enterprise proporciona uma experiência perfeita e unificada para gerenciar todos os seus aplicativos Adobe.
+title: Experiência unificada da Adobe para [!DNL Workfront]
+description: Acessar o [!DNL Workfront] por meio do Adobe CX Enterprise proporciona uma experiência perfeita e unificada para gerenciar todos os seus aplicativos Adobe.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-TQID: https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8
+TQID: 'https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 96bd3d0995911ae32279972c891f92281ce7f0a1
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: '698'
 ht-degree: 4%
-
 ---
-
 # [!DNL Adobe Unified Experience] para [!DNL Workfront]
 
 <!--Audited: 10/2024-->
@@ -96,7 +100,7 @@ Depois de fazer logon no [!DNL Adobe CX Enterprise], você poderá exibir todas 
 Use o ícone [!UICONTROL Menu Principal] ![Ícone do Menu Principal](assets/main-menu-icon-left-nav.png) à esquerda da barra de navegação [!DNL Workfront] para navegar até as páginas às quais você tem acesso. As opções disponíveis no [!UICONTROL Menu Principal] dependem do seguinte:
 
 * **Configurações do modelo de layout**: para saber como um administrador [!DNL Workfront] pode modificar o [!UICONTROL Menu Principal] de um modelo de layout, consulte [Personalizar o [!UICONTROL Menu Principal] usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-* **Tipo de licença**: para saber mais sobre as configurações padrão para diferentes tipos de licença, consulte [Compreender a navegação para um [!UICONTROL usuário de licença &lbrace;Light]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Compreender a navegação para um [!UICONTROL usuário de licença &#x200B;]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Tipo de licença**: para saber mais sobre as configurações padrão para diferentes tipos de licença, consulte [Compreender a navegação para um [!UICONTROL usuário de licença {Light]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Compreender a navegação para um [!UICONTROL usuário de licença ]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 ![Menu principal](assets/main-menu-options-2026.png)
 
@@ -130,6 +134,6 @@ Se sua organização usar um aplicativo separado para gerenciar senhas, você al
 
 Se a sua senha for gerenciada por [!DNL Adobe], você poderá alterá-la em sua conta da Adobe.
 
-[Consulte este artigo para alterar a senha do Adobe.](https://helpx.adobe.com/br/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[Consulte este artigo para alterar a senha do Adobe.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 Para obter mais informações sobre como alterar sua senha, entre em contato com o administrador.
