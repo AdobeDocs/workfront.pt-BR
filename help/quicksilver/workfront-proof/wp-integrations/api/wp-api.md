@@ -39,5 +39,5 @@ ht-degree: 34%
 
 Esta seção contém os seguintes artigos:
 
-* [A API  [!DNL Workfront Proof] ](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)
+* [A API  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)
 

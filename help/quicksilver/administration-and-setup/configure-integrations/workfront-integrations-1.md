@@ -161,7 +161,7 @@ O [!DNL Workfront] fornece as seguintes integrações nativas sem custo adiciona
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Baixe/instale a partir de <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <li><p>Baixe/instale a partir de <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Para obter informações e instruções, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar o plugin do [!DNL Adobe Workfront] para os aplicativos da [!DNL Creative Cloud]</a></p> 
      </td>  <td> </td> 
    <td> </td> 
@@ -282,7 +282,7 @@ O [!DNL Workfront] permite aproveitar outras integrações nativas e produtos in
 
   O [!DNL Adobe Workfront Fusion] vincula ações dentro e entre aplicativos e serviços para criar um cenário que transfere e transforma seus dados automaticamente. Possui conectores dedicados para muitos aplicativos, mas pode se conectar a qualquer aplicativo com uma API pública.
 
-  Para obter mais informações, consulte a visão geral do [[!DNL Adobe Workfront Fusion] ](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Para obter mais informações, consulte a visão geral do [[!DNL Adobe Workfront Fusion] &#x200B;](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Requer o [!DNL Workfront Fusion])
