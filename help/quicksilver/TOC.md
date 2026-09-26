@@ -3,10 +3,10 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 593889d180b39e3c0cd6409947f0ec29a83bfe74
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '14588'
-ht-degree: 91%
+ht-degree: 92%
 ---
 # Guia do Workfront {#using}
 
@@ -1941,13 +1941,13 @@ ht-degree: 91%
     * [Aprovações de documentos unificados: índice de artigos](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Funcionalidade disponível para aprovações de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [Visão geral do status de decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-    * [Introdução ao Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+    * [Introdução ao revisor com IA do Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Visão geral do armazenamento em nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento em nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
     * [Transferência de aprovações de documentos herdados para Aprovações unificadas](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * Configurar e gerenciar aprovações de ativos e documentos {#manage-asset-review-and-approval}
       * [Configurar e gerenciar aprovações unificadas: índice de artigos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-      * [Criar e gerenciar marcas para o Revisor de conteúdo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+      * [Criar e gerenciar marcas para o Revisor do AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [Criar uma revisão de documento ou solicitação de aprovação](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Adicionar novos revisores ou aprovadores a um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remover aprovadores ou revisores de um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1958,7 +1958,7 @@ ht-degree: 91%
       * [Criar um painel de relatórios para revisão e aprovações](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
     * Revisar e aprovar ativos e documentos {#review-and-approve-documents}
       * [Revisar e aprovar documentos: índice de artigos](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-      * [Exibir pontuação e feedback do revisor de conteúdo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+      * [Exibir pontuação e feedback do revisor com IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
       * [Revisar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
       * [Aprovar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
       * [Revisar e aprovar um documento no visualizador do Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)

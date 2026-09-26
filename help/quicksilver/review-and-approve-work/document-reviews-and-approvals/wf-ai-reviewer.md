@@ -1,52 +1,60 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Introdução ao Workfront Content Reviewer
-description: Use o Workfront Content Reviewer AI Collaborator para avaliar o conteúdo em relação às diretrizes da marca durante os workflows de revisão e aprovação.
+title: Introdução ao Workfront AI Reviewer
+description: Use o Revisor da IA do Workfront para avaliar o conteúdo em relação às diretrizes da marca durante os fluxos de trabalho de revisão e aprovação.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/5nwapHAbb8wRWqen7a49QfpsAMLPZNEfJUJ2vm4R7SA
+TQID: 'https://experienceleague.adobe.com/5nwapHAbb8wRWqen7a49QfpsAMLPZNEfJUJ2vm4R7SA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
+    internal-label: User
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 960
+source-wordcount: '958'
 ht-degree: 3%
-
 ---
+# Introdução ao Workfront AI Reviewer
 
-# Introdução ao Workfront Content Reviewer
+O Revisor de IA é um Colaborador de IA, um tipo de agente de IA que pode ser adicionado aos seus projetos, tarefas e documentos. Os Colaboradores de IA podem ser configurados na área Configuração e atribuídos da mesma forma que os usuários.
 
-O Revisor de conteúdo é um Colaborador de IA, um tipo de agente de IA que pode ser adicionado aos seus projetos, tarefas e documentos. Os Colaboradores de IA podem ser configurados na área Configuração e atribuídos da mesma forma que os usuários.
-
-No Workfront, o Revisor de conteúdo ajuda a aumentar a velocidade do conteúdo e melhorar a conformidade da marca em todo o processo de revisão e aprovação. É possível adicionar Revisores de conteúdo aos modelos de aprovação ou incluí-los em solicitações individuais de revisão e aprovação.
+No Workfront, o Revisor de IA ajuda a aumentar a velocidade do conteúdo e melhorar a conformidade da marca em todo o processo de revisão e aprovação. Você pode adicionar Revisores de IA aos modelos de aprovação ou incluí-los em solicitações individuais de revisão e aprovação.
 
 ## Requisitos de acesso
 
-Para configurar Revisores de conteúdo no Workfront, você deve ser um administrador do sistema.
+Para configurar Revisores de IA no Workfront, você deve ser um administrador do sistema.
 
-Qualquer usuário pode adicionar o Revisor de conteúdo a uma solicitação de revisão e aprovação.
+Qualquer usuário pode adicionar o Revisor de IA a uma solicitação de revisão e aprovação.
 
 ## Requisitos
 
 * Sua instância do Workfront deve ter as Aprovações unificadas habilitadas.
 * Sua organização deve ter o GenStudio Foundation.
-  * O Revisor de conteúdo no Workfront fornece a funcionalidade disponível no GenStudio Foundation para revisão de ativos e fluxos de trabalho de aprovação. Não é necessário acessar o GenStudio Foundation diretamente para concluir o trabalho. Seu acesso à funcionalidade do GenStudio Foundation por meio do Revisor de conteúdo se enquadra nos termos de seu contrato com a Workfront.
+  * O Revisor de IA no Workfront fornece a funcionalidade disponível no GenStudio Foundation para revisão de ativos e fluxos de trabalho de aprovação. Não é necessário acessar o GenStudio Foundation diretamente para concluir o trabalho. Seu acesso à funcionalidade do GenStudio Foundation por meio do AI Reviewer se enquadra nos termos de seu contrato do Workfront.
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
 Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato da Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
-* O Revisor de conteúdo não está disponível em ambientes de sandbox.
+* O AI Reviewer não está disponível em ambientes de sandbox.
 
 
 ## Tipos de arquivo compatíveis {#supported-file-types-ai-reviewer}
@@ -54,9 +62,9 @@ Para obter mais informações sobre como assinar o contrato, consulte [Assinar o
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Tipo de arquivo incompatível"
->abstract="Este Revisor de conteúdo não é compatível com o tipo de arquivo selecionado. Faça o upload de um tipo de arquivo compatível ou remova o Revisor de Conteúdo para enviar a solicitação."
+>abstract="Este revisor com IA não é compatível com o tipo de arquivo selecionado. Faça upload de um tipo de arquivo compatível ou remova o Revisor da IA para enviar a solicitação."
 
-O Revisor de conteúdo pode revisar os seguintes tipos de arquivos:
+O Revisor do AI pode revisar os seguintes tipos de arquivos:
 
 * PNG (.png)
 * JPEG (.jpeg, .jpg)
@@ -66,43 +74,43 @@ O Revisor de conteúdo pode revisar os seguintes tipos de arquivos:
 * PPT (.ppt, .pptx)
 * DOC (.doc, .docx)
 
-Se você fizer upload de um tipo de arquivo não compatível, a opção Revisor de conteúdo não estará disponível ao criar um fluxo de trabalho de aprovação.
+Se você fizer upload de um tipo de arquivo não compatível, a opção Revisor de IA não estará disponível ao criar um fluxo de trabalho de aprovação.
 
 ## Configurar diretrizes da marca
 
-O Revisor de conteúdo do Workfront usa as diretrizes da marca ao revisar seu conteúdo. Os administradores do Workfront podem configurar diretrizes de marca na área Configuração do Workfront. As marcas criadas na GenStudio Foundation também estão disponíveis no Workfront.
+O Revisor da IA do Workfront usa as diretrizes da marca ao revisar seu conteúdo. Os administradores do Workfront podem configurar diretrizes de marca na área Configuração do Workfront. As marcas criadas na GenStudio Foundation também estão disponíveis no Workfront.
 
 Para configurar as diretrizes da marca, os administradores do sistema devem:
 
 1. [Conceder acesso às permissões da marca](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
-1. [Criar e gerenciar marcas para o Revisor de Conteúdo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+1. [Criar e gerenciar marcas para o Revisor da IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
-## Criar revisores de conteúdo
+## Criar revisores de IA
 
-Depois que pelo menos uma marca for configurada, os administradores do Workfront poderão começar a criar Revisores de conteúdo na área Configuração. Você pode criar vários Revisores de conteúdo com foco em diferentes diretrizes:
+Depois que pelo menos uma marca for configurada, os administradores do Workfront poderão começar a criar Revisores de IA na área Configuração. Você pode criar vários Revisores de IA com foco em diferentes diretrizes:
 
-* **Imagem**: este Revisor de Conteúdo revisará o ativo em relação às diretrizes de marca de imagem que você configurou no Workfront. [!BADGE Beta]{type=Positive tooltip="No momento, esse recurso está na versão beta."}
+* **Imagem**: esse Revisor da IA revisará o ativo em relação às diretrizes da marca da imagem que você configurou no Workfront. [!BADGE Beta]{type=Positive tooltip="No momento, esse recurso está na versão beta."}
   * Os administradores do sistema devem assinar o contrato beta para habilitar esse recurso.
-* **Voz da marca**: o revisor de conteúdo revisará o ativo em relação às diretrizes de voz da marca que você configurou no Workfront.
+* **Voz da marca**: o Revisor da IA revisará o ativo em relação às diretrizes de voz da marca que você configurou no Workfront.
 
-Os Revisores de conteúdo podem ser atribuídos a modelos de aprovação e a solicitações individuais de revisão e aprovação.
+Os Revisores de IA podem ser atribuídos a modelos de aprovação e solicitações individuais de revisão e aprovação.
 
 Para obter mais informações, consulte [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
-## O que o revisor de conteúdo avalia {#what-content-reviewer-evaluates}
+## O que o revisor da IA avalia {#what-ai-reviewer-evaluates}
 
-O Revisor de conteúdo avalia o conteúdo de forma diferente, dependendo do tipo de diretriz: Imagem ou Voz da marca.
+O Revisor de IA avalia o conteúdo de forma diferente, dependendo do tipo de diretriz: voz de imagem ou marca.
 
 ### Imagem
 
-O Revisor de conteúdo avalia:
+O Revisor do AI avalia:
 
 * **Composição**: ponto focal, plano de fundo, recorte, enquadramento criativo
 * **Luminosidade e humor**: uso de luz, vibração, otimismo
 * **Diversidade e inclusão**: representação de pessoas (raça, gênero, idade, habilidade)
 
-O Revisor de conteúdo não avalia:
+O Revisor da IA não avalia:
 
 * **Uso do logotipo**: posicionamento, espaço livre, dimensionamento, versão correta do logotipo
 * **Paleta de cores**: conformidade de cores da marca, evitação de cores não aprovadas
@@ -112,27 +120,27 @@ O Revisor de conteúdo não avalia:
 
 ### Voz da marca
 
-O Revisor de conteúdo avalia:
+O Revisor do AI avalia:
 
 * **Tone of voice**: conversacional, claro, humano, alinhado com a personalidade da marca
 * **Jargão/formalidade**: evitar chavões, elitismo ou formalidade excessiva
 * **Mensagens**: incentivo, honestidade, posicionamento responsável (por exemplo, para tópicos de IA)
 
-O Revisor de conteúdo não avalia:
+O Revisor da IA não avalia:
 
 * **Avisos legais/conformidade**: uso de marca comercial, avisos de isenção de responsabilidade, regras de localização
 
-Para obter orientação sobre como escrever diretrizes de marca que se alinhem ao que o Revisor de Conteúdo avalia, consulte [Criar e gerenciar marcas para o Revisor de Conteúdo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+Para obter orientação sobre como escrever diretrizes de marca alinhadas ao que o Revisor de IA avalia, consulte [Criar e gerenciar marcas para o Revisor de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
-## Adicionar revisores de conteúdo para revisar e aprovar solicitações
+## Adicionar Revisores de IA para revisar e aprovar solicitações
 
-Os usuários podem adicionar Revisores de conteúdo aos modelos de aprovação existentes ou às solicitações individuais de revisão e aprovação.
+Os usuários podem adicionar Revisores de IA a modelos de aprovação existentes ou a solicitações individuais de revisão e aprovação.
 
 ### Modelos de aprovação
 
 Se sua organização costuma adicionar as mesmas pessoas para revisar e aprovar solicitações, os usuários da licença Standard poderão criar modelos de aprovação na área Configuração do Workfront.
 
-Os usuários podem adicionar Revisores de conteúdo aos modelos de aprovação para verificar automaticamente a conformidade da marca quando um modelo é usado para criar uma solicitação.
+Os usuários podem adicionar Revisores de IA a modelos de aprovação para verificar automaticamente a conformidade da marca quando um modelo é usado para criar uma solicitação.
 
 Depois de criados, os modelos de aprovação podem ser aplicados a ativos na área Documentos de um projeto, tarefa ou problema.
 
@@ -142,22 +150,22 @@ Para obter mais informações, consulte [Criar um modelo de fluxo de trabalho de
 
 ### Solicitação de revisão e aprovação individual
 
-Quando os usuários criam solicitações individuais de revisão e aprovação, eles podem adicionar um Revisor de conteúdo com outros participantes ou criar uma única solicitação com apenas o Revisor de conteúdo para verificar a conformidade da marca.
+Quando os usuários criam solicitações individuais de revisão e aprovação, eles podem adicionar um Revisor de IA com outros participantes ou criar uma única solicitação com apenas o Revisor de IA para verificar a conformidade da marca.
 
 Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
-![Revisor de conteúdo adicionado à solicitação de aprovação individual](assets/new-stage.png)
+![Revisor da IA adicionado à solicitação de aprovação individual](assets/new-stage.png)
 
-## Exibir pontuação e feedback do revisor de conteúdo
+## Exibir pontuação e feedback do revisor com IA
 
-Segundos após o envio da solicitação de revisão e aprovação com um Revisor de conteúdo, a pontuação e o feedback do Revisor de conteúdo ficam disponíveis no painel Resumo do documento, mesmo que outros participantes ainda estejam revisando e tomando decisões.
+Segundos após o envio da solicitação de revisão e aprovação com um Revisor de IA, a pontuação e o feedback do Revisor de IA ficam disponíveis no painel Resumo do documento, mesmo que outros participantes ainda estejam revisando e tomando decisões.
 
 Os proprietários de aprovação também recebem um email notificando-os de que uma revisão foi concluída no ativo. No email, clique em **Ir para a revisão** e veja a pontuação e os comentários no Workfront.
 
-O Revisor de conteúdo não foi projetado para ser um tomador de decisão no fluxo de trabalho de revisão e aprovação. Ela só fornece uma pontuação e recomendações para alinhar o ativo aos requisitos da marca especificados.
+O Revisor de IA não foi projetado para ser um tomador de decisão no fluxo de trabalho de revisão e aprovação. Ela só fornece uma pontuação e recomendações para alinhar o ativo aos requisitos da marca especificados.
 
-Se o ativo não atender às diretrizes da marca, o criativo poderá fazer upload de uma nova versão e o proprietário da aprovação poderá criar uma segunda solicitação de revisão e aprovação com o Revisor de conteúdo.
+Se o ativo não atender às diretrizes da marca, o criativo poderá fazer upload de uma nova versão e o proprietário da aprovação poderá criar uma segunda solicitação de revisão e aprovação com o Revisor da IA.
 
-Para obter mais informações sobre como exibir pontuações e comentários, consulte [Exibir pontuação e feedback do revisor de conteúdo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
+Para obter mais informações sobre como exibir pontuações e feedback, consulte [Exibir pontuação e feedback do revisor da IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
 

@@ -6,9 +6,21 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2783'
 ht-degree: 0%
 ---
 # Atividade da versão do quarto trimestre de 2026 para o Adobe Workfront Planning
@@ -21,7 +33,7 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 
 >[!NOTE]
 >
->Visualização: 24 de setembro de 2026
+>Visualização: 25 de setembro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
 >Produção para todos: 15 de outubro de 2026
 
@@ -37,7 +49,7 @@ Para obter informações, consulte [Compartilhar campos do Workfront Planning](/
 
 >[!NOTE]
 >
->Visualização: 24 de setembro de 2026
+>Visualização: 25 de setembro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
 >Produção para todos: 15 de outubro de 2026
 
@@ -51,7 +63,7 @@ Para obter informações, consulte [Compartilhar registros do Planning](/help/qu
 
 >[!NOTE]
 >
->Visualização: 24 de setembro de 2026
+>Visualização: 25 de setembro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
 >Produção para todos: 15 de outubro de 2026
 
@@ -63,7 +75,7 @@ Para obter informações, consulte [Criar e gerenciar um formulário de solicita
 
 >[!NOTE]
 >
->Visualização: 24 de setembro de 2026
+>Visualização: 25 de setembro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
 >Produção para todos: 15 de outubro de 2026
 
@@ -73,11 +85,11 @@ Além disso, agora é possível editar as opções de um campo diretamente do fo
 
 Para obter informações, consulte [Criar formulário de solicitação](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Configurar recursos para cada camada de acesso por formulário de solicitação
+## Configurar permissões padrão para solicitantes em formulários de solicitação do Planning
 
 >[!NOTE]
 >
->Visualização: 24 de setembro de 2026
+>Visualização: 25 de setembro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
 >Produção para todos: 15 de outubro de 2026
 
@@ -87,7 +99,7 @@ Os solicitantes podem obter as seguintes permissões para uma solicitação envi
 
 Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-## O Preenchimento de formulário de IA agora extrai dados de registros referenciados com um link
+## O preenchimento de formulário de IA extrai dados de registros referenciados com um link
 
 >[!NOTE]
 >
@@ -98,7 +110,7 @@ O Preenchimento de formulário de IA agora pode recuperar dados de campo diretam
 
 Para obter informações, consulte [Usar preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
-## CX Coworker agora disponível no Workfront Planning
+## CX Coworker disponível no Workfront Planning
 
 >[!NOTE]
 >
@@ -108,7 +120,7 @@ Para obter informações, consulte [Usar preenchimento de formulário fornecido 
 
 O CX Coworker agora está disponível no Workfront Planning. Agora, você pode acessar o CX Coworker em um painel que está disponível em todo o Workfront Planning.
 
-O CX Coworker Chat é uma interface conversacional para realizar o trabalho. Descreva uma meta em linguagem simples e o Colaborador planeja o trabalho, executa-o no Workfront Planning e em seus sistemas Adobe conectados, valida os resultados e retorna o trabalho concluído a você para aprovação.
+O CX Co-worker Chat é uma interface conversacional para realizar o trabalho. Descreva uma meta em linguagem simples e o Colaborador planeja o trabalho, executa-o no Workfront Planning e em seus sistemas Adobe conectados, valida os resultados e retorna o trabalho concluído a você para aprovação.
 
 O parceiro respeita os controles de acesso existentes de sua organização, com acesso somente leitura por padrão e os administradores de sistema controlam quando os usuários obtêm acesso de gravação.
 
@@ -118,9 +130,9 @@ O parceiro de trabalho está substituindo o Assistente de IA atual como uma mane
 >
 >Atualmente, o CX Coworker não está disponível para organizações de assistência médica, finanças ou alguns outros setores com dados confidenciais. O Assistente de IA ainda está disponível para essas organizações.
 
-Para obter mais informações, consulte [visão geral do CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Para obter mais informações, consulte [Visão geral do CX Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-## Remoção do ícone do Assistente de IA na caixa de visualização Detalhes, como preparo para a inicialização do CX Coworker
+## O ícone do Assistente de IA foi removido da caixa de visualização Detalhes do registro em preparação para o lançamento do CX Coworker
 
 >[!NOTE]
 >
@@ -194,7 +206,7 @@ Para obter mais informações, consulte [Configurar regras de negócios do tipo 
 >* **Criar formulários de solicitação** e **Gerenciar formulários de solicitação** foram alterados para **Formulários de solicitação**
 >* **Gerenciar automações** alterada para **Automações**
 
-## Introdução de semanas personalizadas para a exibição de linha do tempo
+## Semanas personalizadas para a exibição da linha do tempo
 
 >[!NOTE]
 >
@@ -238,7 +250,7 @@ As exibições de linha do tempo agora incluem Recolher tudo e Expandir todas as
 
 Para obter mais informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-## Ver nomes completos dos grupos e redimensionar o painel de agrupamento na visualização de linha do tempo
+## Exibir nomes completos dos grupos e redimensionar o painel de agrupamento na exibição de linha do tempo
 
 >[!NOTE]
 >
@@ -331,7 +343,7 @@ Para obter informações, consulte [Habilidades disponíveis para instalação d
 >Versão rápida de produção: 13 de agosto de 2026
 >Produção para todos: 15 de outubro de 2026
 
-A experiência de arrastar e soltar linhas na exibição de tabela foi aprimorada visualmente.
+A experiência de arrastar e soltar linhas únicas na exibição em tabela foi aprimorada visualmente.
 
 Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -356,9 +368,6 @@ Os seguintes recursos estão incluídos nesta atualização:
 
 
 Para obter informações, consulte [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
-
-
 
 ## Mostrar novo indicador de comentário para um registro na exibição de tabela
 

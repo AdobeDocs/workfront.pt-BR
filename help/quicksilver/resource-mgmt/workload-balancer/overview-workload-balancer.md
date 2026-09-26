@@ -10,25 +10,32 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 TQID: https://experienceleague.adobe.com/fMt1jY5l7jMYTHUeKNyCE-HJdDEH89xmLqG2UacvU7c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1256
+source-wordcount: '1256'
 ht-degree: 92%
-
 ---
-
 # Visão geral do Balanceador de carga de trabalho {#workload-balancer-overview}
 
 >[!CONTEXTUALHELP]
@@ -44,7 +51,7 @@ Depois que gerentes de projeto planejam o trabalho nos projetos criando tarefas 
 
 >[!IMPORTANT]
 >
->Você pode usar o Balanceador de carga de trabalho para atribuir trabalho real (tarefas e problemas) a usuários e Colaboradores de tarefas.
+>Você pode usar o Balanceador de carga de trabalho para atribuir trabalho real (tarefas e problemas) a usuários e Agentes de trabalho.
 >
 >Você deve usar o planejador de recursos e não o Balanceador de carga de trabalho para estimar as alocações de funções de trabalho para seus projetos em nível geral. Para obter mais informações sobre o planejador de recursos, consulte [Visão geral do planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -130,9 +137,9 @@ Para obter informações sobre como criar e usar filtros no Balanceador de carga
 
   Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* Você pode atribuir trabalho a um Colaborador de Tarefas da mesma forma que atribui trabalho a um usuário. O Colaborador de Tarefas deve existir no Workfront antes de ser atribuído a tarefas.
+* É possível atribuir trabalho a um Agente de trabalho da mesma maneira que você atribui trabalho a um usuário. O Agente de trabalho deve existir no Workfront antes de ser atribuído a tarefas.
 
-  Para obter informações sobre como criar Colaboradores de tarefas, consulte [Configurar um Colaborador de tarefas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) no artigo [Configurar Colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+  Para obter informações sobre como criar Agentes de Trabalho, consulte [Configurar um Agente de Trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) no artigo [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ### Práticas recomendadas para configurar tarefas e problemas {#best-practices-for-setting-up-tasks-and-issues}
 

@@ -1,36 +1,44 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Criar e gerenciar marcas para o Revisor de conteúdo
-description: Criar e gerenciar marcas para o Revisor de conteúdo
+title: Criar e gerenciar marcas para o Revisor do AI
+description: Criar e gerenciar marcas para o Revisor do AI
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg
+TQID: 'https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: '627'
 ht-degree: 7%
-
 ---
+# Criar e gerenciar marcas para o Revisor do AI
 
-# Criar e gerenciar marcas para o Revisor de conteúdo
-
-O Revisor de conteúdo usa diretrizes de marca para avaliar o conteúdo durante o processo de revisão. Você pode criar marcas no Workfront fazendo upload de arquivos PDF que contêm as diretrizes da marca ou inserindo manualmente os elementos da marca.
+O Revisor da IA usa diretrizes da marca para avaliar o conteúdo durante o processo de revisão. Você pode criar marcas no Workfront fazendo upload de arquivos PDF que contêm as diretrizes da marca ou inserindo manualmente os elementos da marca.
 
 ## Requisitos de acesso
 
@@ -69,7 +77,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 * Sua instância do Workfront deve ter as Aprovações unificadas habilitadas.
 
 * Sua organização deve ter o GenStudio Foundation.
-  * O Revisor de conteúdo no Workfront fornece a funcionalidade disponível no GenStudio Foundation para revisão de ativos e fluxos de trabalho de aprovação. Não é necessário acessar o GenStudio Foundation diretamente para concluir o trabalho. Seu acesso à funcionalidade do GenStudio Foundation por meio do Revisor de conteúdo se enquadra nos termos de seu contrato com a Workfront.
+  * O Revisor de IA no Workfront fornece a funcionalidade disponível no GenStudio Foundation para revisão de ativos e fluxos de trabalho de aprovação. Não é necessário acessar o GenStudio Foundation diretamente para concluir o trabalho. Seu acesso à funcionalidade do GenStudio Foundation por meio do AI Reviewer se enquadra nos termos de seu contrato do Workfront.
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
 Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato da Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -96,7 +104,7 @@ Para obter mais informações sobre como assinar o contrato, consulte [Assinar o
    >
    >As diretrizes são geradas usando seus arquivos e a tecnologia de IA gerativa e podem ser imprecisas. Revise as diretrizes extraídas para ver detalhes ausentes ou incorretos e edite-os antes de publicar esta marca.
 
-1. Quando terminar, clique em **Publicar** para disponibilizar a marca para o Revisor de Conteúdo.
+1. Quando terminar, clique em **Publicar** para disponibilizar a marca para o Revisor da IA.
 
 ## Criar uma marca manualmente
 
@@ -138,14 +146,14 @@ Para obter mais informações sobre como assinar o contrato, consulte [Assinar o
    ![adicionar elementos de marca manualmente](assets/brand-elements.png)
 
 
-1. Quando terminar, clique em **Publicar** para disponibilizar a marca para o Revisor de Conteúdo.
+1. Quando terminar, clique em **Publicar** para disponibilizar a marca para o Revisor da IA.
 
 
 ## Práticas recomendadas para escrever as diretrizes da marca
 
-Antes de escrever suas diretrizes, revise [o que o Revisor de Conteúdo avalia](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates) para os tipos de diretrizes de voz da imagem e da marca. Diretrizes fora dessas áreas de avaliação não serão pontuadas.
+Antes de escrever suas diretrizes, revise [o que o Revisor da IA avalia](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-ai-reviewer-evaluates) para os tipos de diretrizes de voz da imagem e da marca. Diretrizes fora dessas áreas de avaliação não serão pontuadas.
 
-*  Escreva as diretrizes da marca que descrevem critérios mensuráveis. O Revisor de conteúdo avalia o conteúdo literalmente, de modo que as regras objetivas produzem pontuações mais consistentes do que as subjetivas.
+*  Escreva as diretrizes da marca que descrevem critérios mensuráveis. O Revisor da IA avalia o conteúdo literalmente, de modo que as regras objetivas produzem pontuações mais consistentes do que as subjetivas.
 
 * Procure palavras como &quot;evitar&quot;, &quot;manter&quot; ou &quot;certificar-se&quot; em suas diretrizes. Estes geralmente sinalizam uma regra que você pode apertar. Substitua a instrução vaga por uma lista específica de palavras, formatos ou limites. Por exemplo, substitua &quot;evite clichês de esqui comuns&quot; por &quot;não use &#39;gnar&#39;, &#39;pow&#39; ou &#39;shred&#39;&quot;.
 

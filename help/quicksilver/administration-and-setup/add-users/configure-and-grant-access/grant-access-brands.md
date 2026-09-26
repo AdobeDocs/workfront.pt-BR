@@ -8,13 +8,20 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
-source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '722'
 ht-degree: 7%
-
 ---
-
 # Conceder acesso às permissões da marca
 
 Os usuários recebem as permissões de criação, edição e publicação da marca dos gerentes de sistema do Adobe GenStudio quando adicionados a um grupo de usuários.
@@ -55,11 +62,11 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 * Sua instância do Workfront deve ter as Aprovações unificadas habilitadas.
 
 * Sua organização deve ter o GenStudio Foundation.
-   * O Revisor de conteúdo no Workfront fornece a funcionalidade disponível no GenStudio Foundation para revisão de ativos e fluxos de trabalho de aprovação. Não é necessário acessar o GenStudio Foundation diretamente para concluir o trabalho. Seu acesso à funcionalidade do GenStudio Foundation por meio do Revisor de conteúdo se enquadra nos termos de seu contrato com a Workfront.
+  * O Revisor de IA no Workfront fornece a funcionalidade disponível no GenStudio Foundation para revisão de ativos e fluxos de trabalho de aprovação. Não é necessário acessar o GenStudio Foundation diretamente para concluir o trabalho. Seu acesso à funcionalidade do GenStudio Foundation por meio do AI Reviewer se enquadra nos termos de seu contrato do Workfront.
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
 Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato da Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
-## &#x200B;1. Configurar as permissões da marca no Admin Console
+## &#x200B;1. Configurar permissões de marca no Admin Console
 
 ### Etapa 1: Criar um grupo de usuários
 
@@ -147,4 +154,4 @@ Para conceder acesso às marcas nos níveis de acesso do Workfront:
    ![permitir acesso à configuração de marcas](assets/access-for-brands.png)
 1. Clique em **Salvar**.
 
-Depois de configurar as Marcas, é possível criar um Revisor de conteúdo para revisar os ativos em relação às diretrizes da marca no fluxo de trabalho de revisão e aprovação. Para obter mais informações, consulte [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+Depois de configurar as Marcas, é possível criar um Revisor de IA para revisar os ativos em relação às diretrizes da marca no fluxo de trabalho de revisão e aprovação. Para obter mais informações, consulte [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
