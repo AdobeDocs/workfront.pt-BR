@@ -148,4 +148,4 @@ A pesquisa de documentação pode ser mais eficiente com algumas abordagens estr
 
 ### Encontre respostas nos fóruns da comunidade
 
-* **Faça perguntas**: se a documentação não responder à sua pergunta, tente publicá-la nos [fóruns da comunidade Workfront](https://experienceleaguecommunities.adobe.com/adobe-workfront-22?lang=pt), onde outros usuários e especialistas podem oferecer assistência.
+* **Faça perguntas**: se a documentação não responder à sua pergunta, tente publicá-la nos [fóruns da comunidade Workfront](https://experienceleaguecommunities.adobe.com/adobe-workfront-22?profile.language=pt&lang=pt), onde outros usuários e especialistas podem oferecer assistência.

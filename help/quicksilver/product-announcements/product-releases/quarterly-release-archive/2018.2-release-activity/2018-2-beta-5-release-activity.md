@@ -175,7 +175,7 @@ Antes dessa melhoria, a coluna vizinha à direita da coluna redimensionada tamb�
 
 Para obter informações sobre como redimensionar as colunas de reordenação em listas, consulte [Modificar largura e ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Para participar do nosso programa de teste beta para as melhorias da lista atual, consulte [Estudo de Novas Listas.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Login necessário)
+Para participar do nosso programa de teste beta para as melhorias da lista atual, consulte [Estudo de Novas Listas.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=pt) (Login necessário)
 
 ## Ícone Suporte para novas listas de projeto {#icon-support-for-the-new-project-lists}
 

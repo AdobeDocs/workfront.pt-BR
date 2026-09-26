@@ -121,7 +121,7 @@ Você pode conectar o seguinte:
    <ul><li><p>Uma licença do Adobe Experience Manager e uma integração entre o Adobe Experience Manager e o Workfront para conectar ativos do AEM ou Fragmentos de conteúdo com tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas GenStudio ou para ter acesso ao espaço de trabalho da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
 <p><b>NOTA</b></p>
 <p>Você deve comprar um pacote de Fluxo de Trabalho do Workfront para conectar registros do Planning a objetos do Workfront. </p>
 
@@ -488,11 +488,11 @@ Para conectar registros a objetos do Adobe Experience Manager:
    >[!IMPORTANT]
    >
    > É possível conectar somente ativos que você tenha acesso para visualizar no Experience Manager. Depois de conectados, todos os usuários do Workfront Planning podem exibir os ativos no Workfront Planning, independentemente do acesso deles ao Experience Manager Assets.
-   > Para obter mais informações sobre o Supervisor de Conteúdo, consulte [Usar o Supervisor de Conteúdo para acessar conteúdo do AEM em aplicativos do Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   > Para obter mais informações sobre o Supervisor de Conteúdo, consulte [Usar o Supervisor de Conteúdo para acessar conteúdo do AEM em aplicativos do Adobe](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Na guia **Fragmentos de conteúdo**, selecione fragmentos de conteúdo a serem adicionados ao campo de registro vinculado.
 
-   Para obter mais informações sobre fragmentos de conteúdo, consulte [Usar o Supervisor de Conteúdo para acessar conteúdo do AEM em aplicativos do Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   Para obter mais informações sobre fragmentos de conteúdo, consulte [Usar o Supervisor de Conteúdo para acessar conteúdo do AEM em aplicativos do Adobe](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Quando você terminar de escolher os ativos ou fragmentos de conteúdo, clique em **Selecionar**. <!-- we might change this to Connect-->
 

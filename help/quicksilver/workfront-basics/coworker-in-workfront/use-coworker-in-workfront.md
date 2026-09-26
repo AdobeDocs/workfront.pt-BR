@@ -86,7 +86,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Para exibir e gerenciar os chats anteriores, clique no ícone ![Ícone de chats](assets/ai-icon.png) no painel do CX Coworker.
 
-   Para obter detalhes sobre Bate-papos, consulte [Gerenciar seus bate-papos](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) na documentação do Adobe CX Coworker.
+   Para obter detalhes sobre Bate-papos, consulte [Gerenciar seus bate-papos](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) na documentação do Adobe CX Coworker.
 1. Para exibir e gerenciar artefatos de chat, como listas de saída, clique no ícone Artefatos ![ícone Artefatos](assets/artifacts-icon.png).
 
    Para obter mais informações sobre artefatos no CX Coworker, consulte [Artefatos](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) na documentação do Adobe CX Coworker.

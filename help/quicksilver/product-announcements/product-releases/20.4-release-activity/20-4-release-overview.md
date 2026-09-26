@@ -342,7 +342,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
+Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 12](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Para obter mais informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](../../../wf-api/api/api-version-support-schedule.md)
 
