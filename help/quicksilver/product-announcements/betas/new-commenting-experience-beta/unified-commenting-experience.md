@@ -10,18 +10,24 @@ hide: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw
+TQID: 'https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1043
+source-wordcount: '1043'
 ht-degree: 1%
-
 ---
-
 # Nova experiência de comentários
 
 <!--take out legacy, preview, prod references from below-->
@@ -272,7 +278,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
   </tr>
   <tr>
-   <td>Log de tempo 
+   <td>Registrar de tempo 
    </td>
    <td>✓ 
    </td>
@@ -424,26 +430,26 @@ Para obter informações sobre os recursos lançados para a nova experiência de
 A seguir, uma linha do tempo planejada para o lançamento da nova experiência de comentários:
 
 * Com a versão 23.2 (6 de abril de 2023):
-   * Iniciada a experiência de comentários do Beta para problemas
-   * Lançamento da nova experiência de comentários para metas (como a única experiência)
+  * Iniciada a experiência de comentários do Beta para problemas
+  * Lançamento da nova experiência de comentários para metas (como a única experiência)
 * Com a versão 23.3 (20 de julho de 2023):
-   * Iniciada a experiência de comentários do Beta para projetos, tarefas e documentos.
-   * Lançamento da nova experiência de comentários para cartões na área Quadros (como a única experiência)
+  * Iniciada a experiência de comentários do Beta para projetos, tarefas e documentos.
+  * Lançamento da nova experiência de comentários para cartões na área Quadros (como a única experiência)
 * Durante a versão do quarto trimestre de 2023 (versão limitada, disponível somente para clientes que escolhem a versão rápida):
-   * Lançamento da nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência)
-   * Atualização da experiência de comentários no Beta para que projetos, tarefas, problemas e documentos se tornem a opção padrão. O rótulo &quot;Beta&quot; foi removido.
+  * Lançamento da nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência)
+  * Atualização da experiência de comentários no Beta para que projetos, tarefas, problemas e documentos se tornem a opção padrão. O rótulo &quot;Beta&quot; foi removido.
 * Com a versão do quarto trimestre de 2023 (23.10) (26 de outubro de 2023)
-   * Lançada a nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência) para todos os clientes.
-   * A nova experiência de comentários para projetos, tarefas, problemas e documentos tornou-se a opção padrão.
+  * Lançada a nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência) para todos os clientes.
+  * A nova experiência de comentários para projetos, tarefas, problemas e documentos tornou-se a opção padrão.
 
   >[!IMPORTANT]
   >
   >    Isso encerrou o estágio Beta da nova experiência de comentários.
 
-   * Todos os recursos lançados para a nova experiência de comentários começando com essa data fizeram parte das versões mensais e trimestrais atuais.
+  * Todos os recursos lançados para a nova experiência de comentários começando com essa data fizeram parte das versões mensais e trimestrais atuais.
 * Final de 2023:
-   * Manteve a experiência de comentários herdada como uma opção secundária para os seguintes objetos: projetos, tarefas, problemas e documentos. A nova experiência de comentários é a opção padrão para todos os usuários desses objetos.
-   * A nova experiência de comentários foi a única experiência para todos os outros objetos.
+  * Manteve a experiência de comentários herdada como uma opção secundária para os seguintes objetos: projetos, tarefas, problemas e documentos. A nova experiência de comentários é a opção padrão para todos os usuários desses objetos.
+  * A nova experiência de comentários foi a única experiência para todos os outros objetos.
 
 * Com a segunda versão do trimestre de 2024 (11 de abril de 2024):
 

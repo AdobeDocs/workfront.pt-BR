@@ -6,29 +6,41 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+TQID: 'https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 7679
+source-wordcount: '7679'
 ht-degree: 2%
-
 ---
-
 # Atividade de lançamento do Planejamento do Adobe Workfront para 2024
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -77,19 +89,19 @@ Implementamos novas limitações para objetos do Workfront Planning, de acordo c
 
 * O Workfront Planning permite ter:
 
-   * Espaços de trabalho limitados
+  * Espaços de trabalho limitados
 
-   * 25.000 registros por espaço de trabalho
+  * 25.000 registros por espaço de trabalho
 
-   * Total de 500.000 registros para sua instância
+  * Total de 500.000 registros para sua instância
 
 * O Workfront Planning Plus permite ter:
 
-   * Espaços de trabalho limitados
+  * Espaços de trabalho limitados
 
-   * 500.000 registros por espaço de trabalho
+  * 500.000 registros por espaço de trabalho
 
-   * 2 milhões de registros totais para sua instância.
+  * 2 milhões de registros totais para sua instância.
 
 Para obter mais informações, consulte [visão geral da limitação de objetos do Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
@@ -149,10 +161,10 @@ Os seguintes recursos estão incluídos nesta atualização:
 
 * Dependendo de como estiver configurado, o formulário de solicitação pode exibir todos os campos do tipo de registro, exceto os campos dos seguintes tipos:
 
-   * People
-   * Campos conectados (inclui conexões com ativos do Experience Manager)
-   * Campos de pesquisa conectados
-   * Fórmula
+  * People
+  * Campos conectados (inclui conexões com ativos do Experience Manager)
+  * Campos de pesquisa conectados
+  * Fórmula
 
 Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -179,13 +191,13 @@ Há uma nova opção de Configurações com a qual você pode personalizar a apa
 
 * Altere a cor das barras de registro ou seus agrupamentos para corresponder a um dos seguintes:
 
-   * A cor do tipo de registro
+  * A cor do tipo de registro
 
-   * A cor de um campo selecionado
+  * A cor de um campo selecionado
 
-   * A cor do agrupamento
+  * A cor do agrupamento
 
-   * Sem cor (o padrão)
+  * Sem cor (o padrão)
 
 Ao corresponder cores a um determinado campo, é possível selecionar apenas campos com opções codificadas por cores.
 
@@ -281,7 +293,7 @@ Por exemplo, se você conectar campanhas do Workfront Planning a projetos do Wor
 
 Nesse momento, você pode criar o seguinte ao conectar registros:
 
-* Registros do Workfront Planning
+* Registros do Planejamento do Workfront
 * Projetos Workfront sem um modelo
 * Portfólios Workfront
 
@@ -494,9 +506,9 @@ Esta atualização inclui as seguintes melhorias:
 
 * Removemos o modelo de gerenciamento de marketing. Adicionamos os seguintes modelos para o Gerenciamento de marketing e recomendamos usar o modelo apropriado, dependendo da complexidade dos fluxos de trabalho:
 
-   * Básico: Gestão de Marketing
-   * Avançado: Gestão de Marketing
-   * Corporativo: Gestão de Marketing
+  * Básico: Gestão de Marketing
+  * Avançado: Gestão de Marketing
+  * Corporativo: Gestão de Marketing
 
 Para obter informações, consulte os seguintes artigos:
 
@@ -622,9 +634,9 @@ Algumas das informações na landing page incluem o seguinte:
 
 * Se você for um administrador do Workfront, as seguintes guias serão exibidas:
 
-   * Meus espaços de trabalho: exibe somente os espaços de trabalho criados por você.
+  * Meus espaços de trabalho: exibe somente os espaços de trabalho criados por você.
 
-   * Outros espaços de trabalho: exibe os espaços de trabalho que você criou ou que são compartilhados com você.
+  * Outros espaços de trabalho: exibe os espaços de trabalho que você criou ou que são compartilhados com você.
 
 * Links para documentação e atividade de lançamento para o Workfront Planning
 
@@ -815,7 +827,7 @@ Produção: 8 de maio de 2024
 
 Visualização: a ser determinado
 
-Se você for um cliente da Experiência unificada da Adobe e alguém adicioná-lo a um comentário na página de registro, você receberá uma notificação no aplicativo e uma notificação por email sobre o comentário. É possível gerenciar as preferências de notificação na área Preferências do perfil do Adobe Experience Cloud. Para obter mais informações, consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences).
+Se você for um cliente da Experiência unificada da Adobe e alguém adicioná-lo a um comentário na página de registro, você receberá uma notificação no aplicativo e uma notificação por email sobre o comentário. Você pode gerenciar suas preferências de notificação na área Preferências do seu perfil da Adobe Experience Cloud. Para obter mais informações, consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences).
 
 Para obter mais informações sobre notificações de planejamento do Workfront, consulte [Notificações do Adobe Workfront Planning: índice do artigo](/help/quicksilver/planning/notifications/notifications-information.md).
 

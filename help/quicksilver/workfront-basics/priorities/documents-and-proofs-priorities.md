@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
+TQID: 'https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 14%
-
+source-wordcount: '592'
+ht-degree: 19%
 ---
-
 # Fazer upload de documentos e criar provas em Prioridades
 
 Você pode fazer upload de documentos e criar provas em Prioridades.
@@ -77,7 +82,7 @@ Você pode fazer upload de um documento para um item de trabalho na lista de tra
 1. Na lista de trabalho, passe o mouse sobre o nome do trabalho e clique no ícone **Resumo** ![abrir ícone de resumo](assets/summary-icon.png).
 1. Verifique se você está na guia **Tarefa** ou **Problemas** no painel de resumo.
 1. Clique no ícone **Carregar arquivo** ![ícone Carregar arquivo](assets/upload-file-icon.png).
-1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
+1. Arraste e solte seu arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
 ou
 Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
    ![Adicionar arquivos](assets/add-files.png)
@@ -96,7 +101,7 @@ Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de 
 1. Na lista de trabalho, clique no nome do item de trabalho.
 1. Clique na guia **Documentos** na parte superior da tela.
 1. Clique em **Carregar documento** no canto superior direito e selecione **Documento**.
-1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
+1. Arraste e solte seu arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
 ou
 Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
    ![Adicionar arquivos](assets/add-files.png)
@@ -160,7 +165,7 @@ Você pode criar uma prova de um documento da lista de trabalho ou da página De
 1. Clique na guia **Documentos** na parte superior da tela.
 1. Clique em **Carregar documento** no canto superior direito e selecione **Prova**.
 1. Crie uma prova conforme descrito em
-   [Criar uma prova avançada com um fluxo de trabalho Básico](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   [Criar uma prova avançada com um fluxo de trabalho básico](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [Criar uma prova avançada com um fluxo de trabalho automatizado](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 <!--

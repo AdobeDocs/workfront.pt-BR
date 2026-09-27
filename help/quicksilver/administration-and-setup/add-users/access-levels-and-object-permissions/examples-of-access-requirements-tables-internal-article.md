@@ -3,14 +3,15 @@ title: Exemplos de tabelas de requisitos de acesso - artigo interno
 description: Este é um artigo interno para nossa equipe manter um inventário das tabelas que usamos para os Requisitos de acesso. Isso não deve ser publicado.
 author: Alina
 hide: true
-hidefromtoc: true
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+hidefromtoc: 'yes'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 36%
-
 ---
-
 
 # Exemplos de tabelas de requisitos de acesso - artigo interno
 

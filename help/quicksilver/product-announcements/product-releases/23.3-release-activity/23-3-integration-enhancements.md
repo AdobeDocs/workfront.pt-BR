@@ -5,26 +5,33 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-TQID: https://experienceleague.adobe.com/dbwl44iOJoBWysGDsJYaFmjdMqoo-wL5sHiRxNqc4qQ
+TQID: 'https://experienceleague.adobe.com/dbwl44iOJoBWysGDsJYaFmjdMqoo-wL5sHiRxNqc4qQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 2%
-
+source-wordcount: '764'
+ht-degree: 1%
 ---
-
 # Aprimoramentos na integração na 23.3
 
 Esta página descreve todas as melhorias de integração feitas com a versão 23.3 do. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
@@ -94,14 +101,14 @@ Agora, você pode categorizar e encontrar rapidamente ativos com base em dados d
 Anteriormente, o mapeamento de dados do Workfront para tags da Experience Manager Assets não estava disponível.
 
 Para obter mais informações sobre essa funcionalidade no Experience Manager Assets as a Cloud Service, consulte [Configurar a [!UICONTROL integração do Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
-Para obter mais informações sobre essa funcionalidade no Experience Manager Assets Essentials, consulte [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Para obter mais informações sobre esta funcionalidade no Experience Manager Assets Essentials, consulte [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Mapear campos do Workfront para campos de metadados personalizados do Experience Manager Assets
 
 Com a integração nativa, agora é possível mapear campos nativos e integrados do Workfront para campos de esquema de metadados personalizados no Experience Manager Assets as a Cloud Service.
 
 Para obter mais informações sobre essa funcionalidade no Experience Manager Assets as a Cloud Service, consulte [Configurar a [!UICONTROL integração do Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
-Para obter mais informações sobre essa funcionalidade no Experience Manager Assets Essentials, consulte [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Para obter mais informações sobre esta funcionalidade no Experience Manager Assets Essentials, consulte [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Ajustar as configurações do modelo de fluxo de trabalho de prova automática usando o Adobe Workfront para Creative Cloud
 

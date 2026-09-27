@@ -7,20 +7,26 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 134e4d1a-0acf-4ecb-b409-23f26b68c3f6
-TQID: https://experienceleague.adobe.com/y-uIKCrAsBoiFJVetyrga8WNrckTOtzaTC23JhUdvOo
+TQID: 'https://experienceleague.adobe.com/y-uIKCrAsBoiFJVetyrga8WNrckTOtzaTC23JhUdvOo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 903
+source-wordcount: '903'
 ht-degree: 1%
-
 ---
-
 # Visão geral da atividade de lançamento da versão R1
 
 Esta página fornece informações sobre a funcionalidade incluída na versão R1. 
@@ -131,9 +137,9 @@ Os seguintes aprimoramentos estão sendo lançados para o aplicativo ProofHQ com
 * [Pesquisar nos Documentos do PDF (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-pdf-documents)
 * [A Barra de Navegação Global (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#updated-global-navigation-bar) foi atualizada:
 
-   * Nova imagem de perfil de usuário
-   * Novo link para o aplicativo Workfront (quando a conta ProofHQ é integrada a uma conta Workfront)
-   * Aparência e comportamento atualizados
+  * Nova imagem de perfil de usuário
+  * Novo link para o aplicativo Workfront (quando a conta ProofHQ é integrada a uma conta Workfront)
+  * Aparência e comportamento atualizados
 
 * [Incluir Informações Adicionais em Modos de Exibição Personalizados (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#include-additional-information-in-custom-views)
 * [Melhorias nos relatórios de provas (antigo Analytics) (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improvements-to-proofing-reports)

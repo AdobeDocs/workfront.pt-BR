@@ -7,13 +7,17 @@ description: Este artigo descreve como você pode sobrepor as taxas de faturamen
 author: Lisa
 feature: Work Management
 exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '749'
 ht-degree: 4%
-
 ---
-
 # Substituir taxas de cobrança do usuário no nível do projeto
 
 Como um gerente de projeto, você pode especificar a taxa de faturamento de um usuário em um projeto específico. Essa taxa de cobrança no nível do projeto substitui a taxa de cobrança no nível do sistema para esse usuário. O Workfront usa a taxa de cobrança no nível do projeto do usuário para calcular a receita, em vez de usar a taxa de cobrança no nível do sistema.

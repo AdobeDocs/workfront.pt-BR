@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a74d036b-e4fa-49e0-bb10-4baf379e1b1c
-TQID: https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA
+TQID: 'https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 669
-ht-degree: 96%
-
+source-wordcount: '733'
+ht-degree: 100%
 ---
-
 # Aprimoramentos de administrador no primeiro trimestre de 2026
 
 Esta página descreve as melhorias de Administrador feitas com a versão do primeiro trimestre de 2026 no ambiente de pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -34,7 +40,10 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Este recurso está temporariamente indisponível no ambiente de Visualização>Visualização: 2 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
+>Este recurso está temporariamente indisponível no ambiente de pré-visualização
+>Visualização: 2 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
 
 
 Agora você pode habilitar ou desabilitar prioridades para usuários específicos no modelo de layout. Se você já tinha as prioridades desabilitadas para sua organização, elas permanecerão desabilitadas no modelo de layout com essa alteração.
@@ -48,7 +57,9 @@ Para obter mais informações, consulte [Personalizar o menu principal usando um
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025>Versão rápida de produção: 14 de janeiro de 2026>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
 
 O mesmo campo calculado pode ter fórmulas diferentes quando anexado a formulários personalizados diferentes. Se dois ou mais formulários contendo o mesmo campo calculado estiverem anexados a um objeto, as fórmulas devem ser idênticas em todos os formulários. Não é permitido editar a fórmula se a alteração puder causar um conflito.
 
@@ -61,7 +72,9 @@ Para obter mais informações, consulte [Adicionar campos calculados a um formul
 
 >[!NOTE]
 >
->Visualização: 13 de novembro de 2025>Versão rápida de produção: 13 de novembro de 2025>Produção para todos: 13 de novembro de 2025
+>Pré-visualização: 13 de novembro de 2025
+>Versão rápida de produção: 13 de novembro de 2025
+>Produção para todos: 13 de novembro de 2025
 
 A data de entrada e a ID de quem realizou a entrada agora são armazenados em formulários personalizados, campos e seções. Você pode usar essas opções de dados em relatórios como filtros, exibições ou agrupamentos. Para exibi-los na lista de formulários personalizados, campos ou seções em Configuração, adicione “Data de entrada” e “Inserido por: nome” como colunas em uma exibição nova ou já existente.
 
@@ -73,7 +86,9 @@ A data de entrada e a ID de quem realizou a entrada agora são armazenados em fo
 
 >[!NOTE]
 >
->Visualização: 30 de outubro de 2025>Versão rápida de produção: 13 de novembro de 2025>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 30 de outubro de 2025
+>Versão rápida de produção: 13 de novembro de 2025
+>Produção para todos: 15 de janeiro de 2026
 
 Para proporcionar mais consistência com outras áreas da configuração, como o designer de formulários personalizados, os botões exibidos ao editar um modelo de layout foram alterados para **Aplicar**, **Salvar e Fechar** e **Cancelar**. A nova opção, **Aplicar**, permite salvar as alterações no modelo de layout e continuar editando. Anteriormente, as opções disponíveis eram **Salvar** e **Cancelar**.
 
@@ -83,7 +98,9 @@ Para obter mais informações, consulte [Criar e gerenciar modelos de layout](/h
 
 >[!NOTE]
 >
->Visualização: 30 de outubro de 2025>Versão rápida de produção: 13 de novembro de 2025>Produção para todos: 15 de janeiro de 2026
+>Pré-visualização: 30 de outubro de 2025
+>Versão rápida de produção: 13 de novembro de 2025
+>Produção para todos: 15 de janeiro de 2026
 
 Quando há um grande número de campos personalizados no sistema, o gerenciamento desses campos em formulários e relatórios personalizados pode ser difícil. Agora você pode marcar campos personalizados como inativos com o novo sinalizador **Ativo**. Este sinalizador está disponível ao trabalhar com um campo em um formulário personalizado ou ao adicionar ou editar um campo da lista Campos.
 

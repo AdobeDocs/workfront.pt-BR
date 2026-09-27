@@ -7,22 +7,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+TQID: 'https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '987'
 ht-degree: 1%
-
 ---
-
 # Perguntas frequentes: assinaturas de eventos
 
 <!--
@@ -70,16 +74,16 @@ Alguns dos seguintes cenários podem ser responsáveis:
 * Cálculos de longa duração ou cálculos de linha do tempo em projetos grandes podem estar causando um atraso na publicação de mensagens para o consumo de Assinaturas de eventos.
 * A assinatura pode ter sido desabilitada.
 
-   * Após um período de carência de 100 mensagens, se um URL específico, que pode estar associado a uma ou mais assinaturas, falhar mais de 70% do tempo ou se o URL falhar ao ser entregue após 2000 tentativas consecutivas, nenhuma tentativa de entrega será feita para todas as mensagens que correspondam às assinaturas com o mesmo URL. Em vez disso, essas mensagens são imediatamente enfileiradas para uma nova tentativa.
+  * Após um período de carência de 100 mensagens, se um URL específico, que pode estar associado a uma ou mais assinaturas, falhar mais de 70% do tempo ou se o URL falhar ao ser entregue após 2000 tentativas consecutivas, nenhuma tentativa de entrega será feita para todas as mensagens que correspondam às assinaturas com o mesmo URL. Em vez disso, essas mensagens são imediatamente enfileiradas para uma nova tentativa.
 
-     A cada 10 minutos depois que um URL é desativado, tentamos enviar a próxima mensagem que aparece para processamento. Se essa mensagem for bem-sucedida, reativaremos esse URL e, subsequentemente, quaisquer assinaturas correspondentes. Se essa mensagem não for enviada, esse cronômetro de 10 minutos será redefinido e tentaremos novamente depois que expirar.
+    A cada 10 minutos depois que um URL é desativado, tentamos enviar a próxima mensagem que aparece para processamento. Se essa mensagem for bem-sucedida, reativaremos esse URL e, subsequentemente, quaisquer assinaturas correspondentes. Se essa mensagem não for enviada, esse cronômetro de 10 minutos será redefinido e tentaremos novamente depois que expirar.
 
-     Esse comportamento pode ser percebido como deliveries inconsistentes ou atrasados, mas simplesmente segue nossas políticas para a maneira como as mensagens de Assinatura de evento são tratadas.
+    Esse comportamento pode ser percebido como deliveries inconsistentes ou atrasados, mas simplesmente segue nossas políticas para a maneira como as mensagens de Assinatura de evento são tratadas.
 
-   * Um URL de Assinatura de Evento será desabilitado permanentemente se uma das seguintes condições for atendida:
+  * Um URL de Assinatura de Evento será desabilitado permanentemente se uma das seguintes condições for atendida:
 
-      * O URL de assinatura não foi entregue por 7 dias e falhou em pelo menos 2.000 tentativas de entrega consecutivas nas últimas 72 horas.
-      * O URL de assinatura não entregou 50.000 tentativas consecutivas.
+    * O URL de assinatura não foi entregue por 7 dias e falhou em pelo menos 2.000 tentativas de entrega consecutivas nas últimas 72 horas.
+    * O URL de assinatura não entregou 50.000 tentativas consecutivas.
 
 ## O que devo fazer se estiver recebendo um status de resposta 500 ao tentar chamar a API de assinatura de evento?
 

@@ -1,19 +1,29 @@
 ---
-title: 22.2 Outras melhorias
-description: 22.2 Outras melhorias
+title: Outros aprimoramentos na 22.2
+description: Outros aprimoramentos na 22.2
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0f4e08bb-20f1-49f5-ad8a-fb0c42c0e2be
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
-
+source-wordcount: '317'
+ht-degree: 2%
 ---
-
-# 22.2 Outras melhorias
+# Outros aprimoramentos na 22.2
 
 Esta página descreve todas as outras melhorias feitas na versão 22.2 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção
 
@@ -32,7 +42,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão 22.2, c
 Fizemos várias melhorias na barra de navegação superior do Adobe Workfront.
 
 * Favoritos e Recentes agora têm ícones separados na barra de navegação superior. Cada página ainda exibe o mesmo conteúdo (páginas marcadas como favoritas e páginas visitadas recentemente), e você pode continuar a adicionar e remover páginas favoritas da mesma maneira.
-* A aparência dos pinos e do menu principal foi atualizada para os padrões de design de Adobe, incluindo cores e fontes. A maneira de adicionar e remover pinos e as áreas às quais você tem acesso no menu principal não foram alteradas.
+* A aparência dos pinos e do menu principal foi atualizada para os padrões de design do Adobe, incluindo cores e fontes. A maneira de adicionar e remover pinos e as áreas às quais você tem acesso no menu principal não foram alteradas.
 * Os ícones à direita da barra de navegação superior foram reordenados para serem mais intuitivos. A ordem dos ícones é: link de ajuda, notificações, favoritos, recentes, pesquisa, menu principal.
 
 Para obter mais informações, consulte [Visão geral da barra de navegação superior](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).

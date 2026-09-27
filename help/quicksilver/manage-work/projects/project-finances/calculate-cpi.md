@@ -3,17 +3,24 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calcular o Índice de desempenho de custos (CPI)
-description: O Índice de Desempenho de Custo (CPI) descreve o relacionamento no nível do projeto ou da tarefa entre o custo planejado e o custo real. Os gerentes de projeto revisam essa métrica para identificar tarefas ou projetos que atualmente rastreiam com custo baixo ou acima em um determinado momento.
+description: O Índice de Desempenho de Custo (CPI) descreve o relacionamento no nível do projeto ou da tarefa entre o custo planejado e o custo real. Os gerentes de projeto analisam essa métrica para identificar tarefas ou projetos que estejam atualmente com custos abaixo ou acima do previsto em um determinado momento.
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 11%
-
+source-wordcount: '592'
+ht-degree: 14%
 ---
-
 # Calcular o Índice de desempenho de custos (CPI)
 
 <!-- Audited: 5/2025 -->

@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc
+TQID: 'https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: '481'
 ht-degree: 4%
-
 ---
-
 # Visão geral do campo
 
 <!--
@@ -43,8 +50,8 @@ Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o cic
 
   Para obter informações sobre como gerenciar campos, consulte também os seguintes artigos:
 
-   * [Editar configurações de campo](/help/quicksilver/planning/fields/edit-fields.md)
-   * [Excluir campos](/help/quicksilver/planning/fields/delete-fields.md)
+  * [Editar configurações de campo](/help/quicksilver/planning/fields/edit-fields.md)
+  * [Excluir campos](/help/quicksilver/planning/fields/delete-fields.md)
 
 * Os campos associados a um tipo de registro estão disponíveis para serem associados a todos os registros desse tipo. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
@@ -52,45 +59,45 @@ Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o cic
 
 * Você pode criar campos manual ou automaticamente das seguintes maneiras:
 
-   * Manualmente:
+  * Manualmente:
 
-      * Ao adicionar colunas na exibição de tabela de uma página do tipo registro. As colunas da tabela são os campos associados ao tipo de registro. São os mesmos campos exibidos na página de um registro.
+    * Ao adicionar colunas na exibição de tabela de uma página do tipo registro. As colunas da tabela são os campos associados ao tipo de registro. São os mesmos campos exibidos na página de um registro.
 
-        Não é possível criar campos a partir da página do registro.
+      Não é possível criar campos a partir da página do registro.
 
-      * Ao conectar tipos de registro. É possível criar campos de registro vinculados ao adicionar uma nova conexão entre dois tipos de registro ou um tipo de registro e tipos de objeto de outros aplicativos.
+    * Ao conectar tipos de registro. É possível criar campos de registro vinculados ao adicionar uma nova conexão entre dois tipos de registro ou um tipo de registro e tipos de objeto de outros aplicativos.
 
-        Para obter mais informações sobre como conectar tipos de registro, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+      Para obter mais informações sobre como conectar tipos de registro, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-      * Ao importar campos existentes do Workfront.
+    * Ao importar campos existentes do Workfront.
 
-        Para obter informações, consulte [Importar campos do Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+      Para obter informações, consulte [Importar campos do Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
-   * Automaticamente:
+  * Automaticamente:
 
-      * Ao criar um tipo de registro:
+    * Ao criar um tipo de registro:
 
-         * Nome
-         * Descrição
-         * Data de início
-         * Data final
-         * Status. Os valores padrão para status de registro são:
-            * Desenvolvimento
-            * Planejado
-            * Ativo
-            * Concluídos
-            * Em Espera
+      * Nome
+      * Descrição
+      * Data de início
+      * Data final
+      * Status. Os valores padrão para status de registro são:
+        * Desenvolvimento
+        * Planejado
+        * Ativo
+        * Concluídos
+        * Em Espera
 
-        É possível adicionar mais valores ou renomear os existentes.
+      É possível adicionar mais valores ou renomear os existentes.
 
-      * Ao criar um espaço de trabalho a partir de um modelo.
+    * Ao criar um espaço de trabalho a partir de um modelo.
 
-        Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
+      Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Ao importar tipos de registro usando um arquivo Excel ou CSV.
+    * Ao importar tipos de registro usando um arquivo Excel ou CSV.
 
-        Para obter mais informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+      Para obter mais informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * Os campos do Workfront Planning não podem ser acessados no Workfront.
 

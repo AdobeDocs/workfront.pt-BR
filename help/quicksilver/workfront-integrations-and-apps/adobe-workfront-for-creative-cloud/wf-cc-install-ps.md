@@ -1,30 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Instalar e abrir [!DNL Adobe Workfront for Photoshop]
+title: Instalar e abrir o [!DNL Adobe Workfront for Photoshop]
 description: Você pode instalar o plug-in do Adobe Workfront para Photoshop no Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-TQID: https://experienceleague.adobe.com/JMhdlpEdwvqkfNHjIjifRIFoXznmNienvTFdt2muUuo
+TQID: 'https://experienceleague.adobe.com/JMhdlpEdwvqkfNHjIjifRIFoXznmNienvTFdt2muUuo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 592
+source-wordcount: '592'
 ht-degree: 7%
-
 ---
-
 # Instalar e abrir o [!DNL Adobe Workfront for Photoshop]
 
 Você pode instalar o plug-in [!DNL Adobe Workfront for Photoshop] do [!DNL Adobe Marketplace]. O plug-in é compatível com os seguintes idiomas:
@@ -111,7 +123,7 @@ Você pode instalar o plug-in [!DNL Adobe Workfront for Photoshop] por conta pr�
    >* Para localizar seu domínio, abra um navegador, navegue até a instância do [!DNL Workfront] e copie a primeira parte da URL:\
    >![Localizar domínio](assets/domain-350x50.png)
    >
-   >* Se sua instância do Workfront estiver integrada ao Experience Cloud e o domínio começar com `experience.adobe.com`, peça ao administrador para fornecer o domínio do Workfront encontrado em Produto > Workfront no Admin Console.
+   >* Se sua instância do Workfront estiver integrada à Experience Cloud e o domínio começar com `experience.adobe.com`, peça ao administrador para fornecer o domínio do Workfront encontrado em Produto > Workfront na Admin Console.
 
 1. No navegador, insira suas credenciais do [!DNL Adobe] e clique em **[!UICONTROL Fazer logon]**. Se sua empresa usa um logon único (SSO), você será direcionado à página do seu provedor de SSO para fazer logon.
 

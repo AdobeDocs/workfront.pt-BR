@@ -5,20 +5,26 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-TQID: https://experienceleague.adobe.com/0abYVe3tHVDckYTIqVMlT-5i3tM5mp5KF-UOUe5P8fM
+TQID: 'https://experienceleague.adobe.com/0abYVe3tHVDckYTIqVMlT-5i3tM5mp5KF-UOUe5P8fM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 492
-ht-degree: 24%
-
+source-wordcount: '496'
+ht-degree: 25%
 ---
-
 # Outras melhorias durante o período da versão do quarto trimestre de 2025
 
 Esta página descreve as melhorias feitas com a versão do quarto trimestre de 2025 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -31,7 +37,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >
 >* Visualização: 13 de outubro de 2025
 >* Versão rápida de produção: 13 de outubro de 2025
->* Produção para todos os clientes: 13 de outubro de 2025>[!BADGE Fora do cronograma]{type=Neutral}
+>* Produção para todos os clientes: 13 de outubro de 2025
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 A guia Resumo de um relatório foi atualizada com os seguintes aprimoramentos:
 

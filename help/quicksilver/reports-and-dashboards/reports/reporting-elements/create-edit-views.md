@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc
+TQID: 'https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '891'
 ht-degree: 9%
-
 ---
-
 # Criar ou editar visualizações no Adobe Workfront
 
 <!-- Audited: 11/2024 -->
@@ -131,9 +136,9 @@ A caixa de diálogo **Personalizar exibição** é exibida.
      >
      >Para obter mais informações sobre como usar agrupamentos em um relatório, consulte o artigo [Visão geral sobre agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-      * (Opcional) Clique em **Opções Avançadas** para especificar as seguintes informações para a coluna:
+     * (Opcional) Clique em **Opções Avançadas** para especificar as seguintes informações para a coluna:
 
-        <table style="table-layout:auto"> 
+       <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -156,7 +161,7 @@ A caixa de diálogo **Personalizar exibição** é exibida.
          </tbody> 
         </table>
 
-        Para obter mais informações sobre modos de exibição de formatação condicional nos relatórios, consulte o artigo [Usar formatação condicional no Modo de Texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+       Para obter mais informações sobre modos de exibição de formatação condicional nos relatórios, consulte o artigo [Usar formatação condicional no Modo de Texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Condicional) Se você clicou em **Opções Avançadas**, clique em **Concluído**.
 

@@ -7,20 +7,29 @@ description: Esta página descreve todas as melhorias feitas com a versão 21.2 
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 8439b983-7817-403e-b9be-dcbf209ad3ee
-TQID: https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic
+TQID: 'https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 4%
-
 ---
-
 # Atividade de lançamento do Adobe Workfront Goals 21.2: Semana de 5 de abril de 2021
 
 Esta página descreve todas as melhorias feitas com a versão 21.2 do Adobe Workfront Goals para o ambiente de Pré-visualização na semana de 5 de abril de 2021. Essas melhorias serão disponibilizadas no ambiente de Produção no primeiro trimestre de 21.2.
@@ -41,15 +50,15 @@ Agora você pode fazer o seguinte para ver as informações da meta nos relatór
 
 * Criar um relatório de meta. Este é um novo objeto de relatório na área Relatórios. Agora é possível exibir várias informações sobre a meta no relatório de Meta (por exemplo: nome, proprietário, datas, progresso etc.) que inclui o seguinte:
 
-   * Hierarquia de metas: exibe todas as metas principais e como elas se conectam entre si.
-   * É Objetivo da Empresa: indica se sua organização foi designada como Proprietária de uma meta
-   * Tipo de proprietário: indica se o Proprietário de uma meta é um usuário, equipe ou grupo.
+  * Hierarquia de metas: exibe todas as metas principais e como elas se conectam entre si.
+  * É Objetivo da Empresa: indica se sua organização foi designada como Proprietária de uma meta
+  * Tipo de proprietário: indica se o Proprietário de uma meta é um usuário, equipe ou grupo.
 
 * Crie um relatório de Projeto que mostre informações de meta, incluindo o seguinte:
 
-   * Hierarquia de metas
-   * Metas: é um campo de coleção que exibe todas as metas associadas a um projeto.
-   * Número de metas vinculadas: o número de metas associadas ao projeto.
+  * Hierarquia de metas
+  * Metas: é um campo de coleção que exibe todas as metas associadas a um projeto.
+  * Número de metas vinculadas: o número de metas associadas ao projeto.
 
 Para obter informações sobre como localizar informações de meta em projetos, consulte [Adicionar projetos a metas no Adobe Workfront Goals](../../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 

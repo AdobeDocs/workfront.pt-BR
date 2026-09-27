@@ -6,13 +6,23 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '3111'
-ht-degree: 2%
-
+source-wordcount: '3226'
+ht-degree: 5%
 ---
-
 # Atividade da versão do terceiro trimestre de 2026 para o Adobe Workfront Planning
 
 <!--
@@ -49,9 +59,9 @@ Fizemos as seguintes alterações de campo na caixa Nível de acesso:
 * Para clientes que também compraram um pacote do Workfront Planning, adicionamos um novo campo Tipo de Licença do Planning para ilustrar a licença de um usuário no Workfront Planning.
 Os clientes que compraram um número igual de licenças do Workflow e do Planning têm os seguintes tipos de licença disponíveis:
 
-   * Planejamento padrão
-   * Colaborador de planejamento
-   * Nenhum
+  * Planejamento padrão
+  * Colaborador de planejamento
+  * Nenhum
 
 >[!NOTE]
 >

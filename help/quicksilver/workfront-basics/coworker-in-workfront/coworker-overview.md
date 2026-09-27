@@ -4,13 +4,17 @@ content-type: reference
 description: Saiba mais sobre o Colaborador no Adobe Workfront.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
-
 ---
-
 # Visão geral do CX Co-worker
 
 {{preview-fast-release-general}}
@@ -29,7 +33,7 @@ O colega de trabalho faz parte do ecossistema do Adobe e não se limita apenas a
 
 Para obter informações sobre como usar o CX Coworker no Workfront, consulte [Usar o CX Coworker no Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
-Para obter mais informações sobre o Colaborador e seus recursos, consulte a [visão geral do Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/chat/overview).
+Para obter mais informações sobre o Colaborador e seus recursos, consulte [visão geral do Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview).
 
 Para obter as habilidades disponíveis no Co-worker na Workfront, consulte [CX Habilidades do Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 

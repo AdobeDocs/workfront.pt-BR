@@ -4,13 +4,20 @@ description: Melhorias no gerenciamento financeiro do terceiro trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 4%
-
+source-wordcount: '344'
+ht-degree: 3%
 ---
-
 # Melhorias no gerenciamento financeiro do terceiro trimestre de 2026
 
 Esta página descreve os aprimoramentos do Financial Management feitos com a versão do Terceiro Trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -21,7 +28,10 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 25 de junho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026>Esse recurso só está disponível para organizações no pacote Ultimate de fluxo de trabalho.
+>Visualização: 25 de junho de 2026
+>Versão rápida de produção: 15 de julho de 2026
+>Produção para todos: 16 de julho de 2026
+>Esse recurso só está disponível para organizações no pacote Workflow Ultimate.
 
 Agora é possível selecionar um cartão de taxa para adicionar a um modelo, que é anexado automaticamente a todos os projetos criados a partir do modelo. O cartão de taxa se torna o padrão no projeto, mas pode ser substituído, se necessário.
 
@@ -31,7 +41,10 @@ Para obter informações, consulte [Anexar um cartão de taxa a um modelo](/help
 
 >[!NOTE]
 >
->Visualização: 25 de junho de 2026>Versão rápida de produção: 15 de julho de 2026>Produção para todos: 16 de julho de 2026>Esse recurso só está disponível para organizações no pacote Ultimate de fluxo de trabalho.
+>Visualização: 25 de junho de 2026
+>Versão rápida de produção: 15 de julho de 2026
+>Produção para todos: 16 de julho de 2026
+>Esse recurso só está disponível para organizações no pacote Workflow Ultimate.
 
 Agora é possível ajustar a lista de taxas de faturamento com data efetiva em um cartão de taxa mais rapidamente, adicionando uma nova taxa em um local específico na lista. Selecione o menu **Mais** ao lado de uma taxa existente para inserir uma linha acima ou abaixo dessa taxa.
 
@@ -43,7 +56,10 @@ Para obter informações, consulte [Gerenciar cartões de taxa](/help/quicksilve
 
 >[!NOTE]
 >
->Visualização: 21 de maio de 2026>Versão rápida de produção: 21 de maio de 2026>Produção para todos: 21 de maio de 2026>Esse recurso só está disponível para organizações no pacote Ultimate de fluxo de trabalho.
+>Visualização: 21 de maio de 2026
+>Versão rápida de produção: 21 de maio de 2026
+>Produção para todos: 21 de maio de 2026
+>Esse recurso só está disponível para organizações no pacote Workflow Ultimate.
 
 Depois que um atributo é adicionado a uma taxa no Workfront, você não pode mais editar esse atributo e seus filtros na área Configuração. Isso preserva a integridade dos dados e impede que as taxas sejam alteradas acidentalmente quando os atributos são atualizados.
 

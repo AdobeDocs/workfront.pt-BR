@@ -9,18 +9,24 @@ feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw
+TQID: 'https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 810
+source-wordcount: '810'
 ht-degree: 0%
-
 ---
-
 # Visão geral do quadro [!UICONTROL Scrum]
 
 <!-- Audited: 5/2025 -->
@@ -42,12 +48,12 @@ O storyboard consiste nos seguintes elementos:
 
   Em uma iteração, essa coluna aparece no storyboard somente quando uma ou mais matérias no storyboard contêm pelo menos uma subtarefa que atende aos seguintes requisitos:
 
-   * Atribuída à mesma equipe Agile que a tarefa pai.
-   * Pertence à iteração.
+  * Atribuída à mesma equipe Agile que a tarefa pai.
+  * Pertence à iteração.
 
-     Em um projeto, essa coluna aparece sempre que uma tarefa tem pelo menos uma subtarefa.
+    Em um projeto, essa coluna aparece sempre que uma tarefa tem pelo menos uma subtarefa.
 
-     ![Coluna de história principal](assets/agile-parentstory-swimlane.png)
+    ![Coluna de história principal](assets/agile-parentstory-swimlane.png)
 
 * **Status da tarefa**: indique como uma história está progredindo pela iteração ou projeto com base na coluna de status em que a história está.
 
@@ -57,8 +63,8 @@ O storyboard consiste nos seguintes elementos:
 
   Em uma iteração, as faixas de natação aparecem no storyboard somente quando uma história no storyboard contém pelo menos uma subtarefa que atende aos seguintes requisitos:
 
-   * Atribuída à mesma equipe Agile que a tarefa pai.
-   * Pertence à iteração.
+  * Atribuída à mesma equipe Agile que a tarefa pai.
+  * Pertence à iteração.
 
   Em um projeto, as faixas de natação aparecem sempre que uma tarefa tem pelo menos uma subtarefa ou uma tarefa pai.
 

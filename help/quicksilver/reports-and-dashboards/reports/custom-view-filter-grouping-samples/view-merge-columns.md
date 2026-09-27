@@ -9,23 +9,28 @@ feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dRtLS8f9jhxP-1heLPeHViuBeIIQy66-k-NwPxqMT84
+TQID: 'https://experienceleague.adobe.com/dRtLS8f9jhxP-1heLPeHViuBeIIQy66-k-NwPxqMT84'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: '1073'
 ht-degree: 4%
-
 ---
-
 # Exibição: mesclar informações de várias colunas em uma coluna compartilhada
 
 <!-- Audited: 11/2024 -->
@@ -75,9 +80,9 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
   As seguintes exceções existem:
 
-   * Ao exibir informações no Workfront, a formatação da primeira coluna é mantida e a formatação de todas as outras colunas é ignorada se as colunas que compõem uma coluna mesclada tiverem formatação diferente umas das outras,.
-   * Ao exportar a exibição para um arquivo PDF, a formatação condicional se aplica à primeira coluna em uma coluna mesclada.
-   * Ao exportar a exibição para um arquivo do Excel, as colunas mescladas são exibidas como colunas separadas. As colunas individuais também exibem suas respectivas regras de formatação condicional.
+  * Ao exibir informações no Workfront, a formatação da primeira coluna é mantida e a formatação de todas as outras colunas é ignorada se as colunas que compõem uma coluna mesclada tiverem formatação diferente umas das outras,.
+  * Ao exportar a exibição para um arquivo PDF, a formatação condicional se aplica à primeira coluna em uma coluna mesclada.
+  * Ao exportar a exibição para um arquivo do Excel, as colunas mescladas são exibidas como colunas separadas. As colunas individuais também exibem suas respectivas regras de formatação condicional.
 
 * As colunas com o atributo **viewalias** podem limitar a quantidade de colunas que podem ser mescladas. Para evitar esses limites, evite usar o atributo **viewalias**. Se você precisar incluir o atributo **viewalias** em uma coluna, verifique se ele é o último item listado na coluna.
 

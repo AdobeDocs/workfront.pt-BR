@@ -5,23 +5,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-TQID: https://experienceleague.adobe.com/hnZPQ8LCzcfU9SyyK3-qoWlkYoXyk5Bxcx0-yprX1pw
+TQID: 'https://experienceleague.adobe.com/hnZPQ8LCzcfU9SyyK3-qoWlkYoXyk5Bxcx0-yprX1pw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 6%
-
 ---
-
 # Criar e personalizar prioridades
 
 <!--
@@ -129,10 +134,10 @@ Além das prioridades padrão fornecidas no Workfront, você pode adicionar suas
 
      A prioridade padrão é indicada com um ícone ![Ícone de prioridade padrão](assets/default-icon.png). Para escolher um novo padrão, siga um destes procedimentos:
 
-      * Marque a caixa de seleção ao lado do nome da prioridade e selecione **Tornar padrão** na barra de ações, na parte inferior da tela.
-      * Passe o mouse sobre o nome da prioridade e clique no menu **Mais** que é exibido. Em seguida, selecione **Tornar Padrão**.
+     * Marque a caixa de seleção ao lado do nome da prioridade e selecione **Tornar padrão** na barra de ações, na parte inferior da tela.
+     * Passe o mouse sobre o nome da prioridade e clique no menu **Mais** que é exibido. Em seguida, selecione **Tornar Padrão**.
 
-        A nova prioridade padrão é rotulada com o ícone.
+       A nova prioridade padrão é rotulada com o ícone.
 
    * **Descrição**: digite uma descrição para a prioridade para explicar sua função.
    * **Ocultar Opção**: selecione **Sim** para ocultar uma prioridade que não é mais necessária.

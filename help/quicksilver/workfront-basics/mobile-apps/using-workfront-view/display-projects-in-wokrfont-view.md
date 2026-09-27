@@ -3,26 +3,30 @@ product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: Exibir projetos no Adobe Workfront View
-description: Por padrão, a lista de projetos exibida no  [!DNL Adobe Workfront] Modo de Exibição mostra os 100 projetos ativos mais recentes. A lista de projetos não é agrupada por nenhum critério.
+description: Por padrão, a lista de projetos exibida na Exibição [!DNL Adobe Workfront] mostra os 100 projetos ativos mais recentes. A lista de projetos não é agrupada por nenhum critério.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-TQID: https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI
+TQID: 'https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 359
+source-wordcount: '360'
 ht-degree: 11%
-
 ---
-
 # Exibir projetos na [!UICONTROL Exibição do Adobe Workfront]
 
 Por padrão, a lista de projetos exibida em [!DNL Adobe Workfront View] mostra os 100 projetos ativos mais recentes. A lista de projetos não é agrupada por nenhum critério.
@@ -69,7 +73,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * **[!UICONTROL Progresso]**
    * **[!UICONTROL Status]**
    * **[!UICONTROL Patrocinador]**
-Os projetos agora são listados agrupados pelos valores possíveis desses campos.\
+     Os projetos agora são listados agrupados pelos valores possíveis desses campos.\
       Você pode agrupar projetos por um critério de cada vez. Os critérios são pré-carregados no aplicativo nos gráficos na parte superior da lista de projetos e não podem ser modificados.
 
 ## Exibir detalhes do projeto

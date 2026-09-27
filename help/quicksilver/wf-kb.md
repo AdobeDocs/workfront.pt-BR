@@ -3,13 +3,14 @@ filename: wf-kb
 title: Base de conhecimento Workfront
 recommendations: noDisplay, noCatalog
 description: .
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 12%
-
+ht-degree: 25%
 ---
-
 
 # Base de conhecimento Workfront
 
@@ -17,7 +18,7 @@ ht-degree: 12%
 * [noções básicas do Adobe Workfront: índice do artigo](workfront-basics/workfront-basics.md)
 * [Pessoas, equipes e grupos](people-teams-and-groups/people-teams-and-groups.md)
 * [Gerenciar recursos](resource-mgmt/manage-resources.md)
-* [Ágil](agile/agile.md)
+* [Agile](agile/agile.md)
 * [Gerenciar trabalho](manage-work/manage-work.md)
 * [Revisar e aprovar trabalho](review-and-approve-work/review-and-approve-work.md)
 * [Documentos](documents/documents-overview.md)
@@ -31,7 +32,7 @@ ht-degree: 12%
 * [Integrações do Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
 * [Prova do Workfront](workfront-proof/workfront-proof.md)
-* [Anúncios de produtos](product-announcements/product-announcements.md)
+* [Anúncios de produto](product-announcements/product-announcements.md)
 
 .
 <!--

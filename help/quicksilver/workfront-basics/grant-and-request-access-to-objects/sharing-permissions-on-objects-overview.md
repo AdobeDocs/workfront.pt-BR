@@ -6,27 +6,35 @@ description: Você pode compartilhar ou remover permissões de um objeto criado 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-TQID: https://experienceleague.adobe.com/1qu77g6G1MGEEHPki6hVXfP5PG2TMD0xg5Gg3PC5G2Y
+TQID: 'https://experienceleague.adobe.com/1qu77g6G1MGEEHPki6hVXfP5PG2TMD0xg5Gg3PC5G2Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1382
+source-wordcount: '1382'
 ht-degree: 4%
-
 ---
-
 # Visão geral das permissões de compartilhamento em objetos
 
 <!-- Audited: 12/2023 -->
@@ -68,9 +76,9 @@ Você pode compartilhar os seguintes objetos no Workfront com outros usuários:
 
 * **Relatórios, painéis e calendários**: Para obter informações, consulte [Compartilhar relatórios, painéis e calendários](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).  Além disso, consulte os seguintes artigos:
 
-   * [Compartilhar um relatório no Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [Compartilhar um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [Compartilhar um relatório de calendário](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [Compartilhar um relatório no Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [Compartilhar um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [Compartilhar um relatório de calendário](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * **Filtros, exibições e agrupamentos**: para obter informações, consulte [Compartilhar um filtro, exibição ou agrupamento](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -108,8 +116,8 @@ Você pode compartilhar os seguintes objetos no Workfront com outros usuários:
 
 * O Workfront envia notificações aos usuários quando você compartilha um objeto com eles. As notificações são enviadas quando ambas as configurações estão ativadas:
 
-   * As notificações por email do **Compartilhamento de Objetos com o Usuário** e do **Compartilhamento de Objetos com a Equipe** estão habilitadas na área Instalação por um administrador de sistema ou de grupo. Para obter informações, consulte [Configurar notificações de eventos para todos no sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-   * As notificações de **Alguém compartilhar um objeto comigo** e **Alguém compartilhar um objeto com minha equipe** estão habilitadas na página de perfil do usuário. Para obter informações, consulte [Modificar suas próprias notificações por email](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+  * As notificações por email do **Compartilhamento de Objetos com o Usuário** e do **Compartilhamento de Objetos com a Equipe** estão habilitadas na área Instalação por um administrador de sistema ou de grupo. Para obter informações, consulte [Configurar notificações de eventos para todos no sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  * As notificações de **Alguém compartilhar um objeto comigo** e **Alguém compartilhar um objeto com minha equipe** estão habilitadas na página de perfil do usuário. Para obter informações, consulte [Modificar suas próprias notificações por email](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
   As configurações no nível do sistema ou do grupo devem ser habilitadas primeiro, antes que você possa habilitar as configurações de notificação para o usuário.
 

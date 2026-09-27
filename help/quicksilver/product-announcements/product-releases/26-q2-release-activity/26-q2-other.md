@@ -5,18 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-TQID: https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU
+TQID: 'https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 21%
-
+source-wordcount: '620'
+ht-degree: 20%
 ---
-
 # Outras melhorias durante o período da versão do segundo trimestre de 2026
 
 Esta página descreve as melhorias feitas com a versão do segundo trimestre de 2026 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -27,7 +33,9 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 2 de abril de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 Adicionamos uma nova configuração para ajustar a altura da linha em listas aprimoradas.
 
@@ -37,7 +45,9 @@ Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksil
 
 >[!NOTE]
 >
->Visualização: 2 de abril de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 Adicionamos os seguintes nomes personalizados para um filtro de equipe, grupo, empresa e função em listas aprimoradas:
 
@@ -57,7 +67,9 @@ Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksil
 
 >[!NOTE]
 >
->Visualização: 2 de abril de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 Agora você pode aplicar formatação condicional a listas de solicitações na área Solicitações e ao widget Minhas solicitações na Página inicial. Essa funcionalidade não existia na exibição de lista antes dessa melhoria.
 
@@ -84,7 +96,9 @@ Para obter informações, consulte [Criar e gerenciar exibições na área Solic
 
 >[!NOTE]
 >
->Visualização: 2 de abril de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 Para facilitar a localização das solicitações necessárias, adicionamos agrupamentos à lista Solicitações e ao widget Minhas solicitações. Agora é possível agrupar solicitações por qualquer coluna na lista. Esses agrupamentos se tornam parte da exibição que você está usando ao criar o agrupamento.
 
@@ -94,7 +108,8 @@ Para obter mais informações sobre como criar exibições para a Lista de solic
 
 >[!NOTE]
 >
->Visualização: 11 de dezembro de 2025>Versão rápida de produção: 11 de fevereiro de 2026\
+>Visualização: 11 de dezembro de 2025
+>Versão rápida de produção: 11 de fevereiro de 2026\
 >Produção para todos: 11 de fevereiro de 2026
 
 Para permitir que as organizações tenham acesso aos benefícios da Experiência Unificada da Adobe, estamos continuando a disponibilizá-la para clientes do Workfront.

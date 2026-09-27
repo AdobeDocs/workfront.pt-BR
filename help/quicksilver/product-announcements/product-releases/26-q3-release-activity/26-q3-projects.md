@@ -4,13 +4,20 @@ description: Aprimoramentos do projeto do terceiro trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
-
 ---
-
 # Aprimoramentos do projeto do terceiro trimestre de 2026
 
 Esta página descreve as melhorias no Project feitas com a versão do terceiro trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -23,9 +30,13 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026Produção para lançamento rápido: 11 de junho de 2026Produção para lançamento trimestral: 11 de junho de 2026Fora do cronograma&rbrack;{type=Neutral}
+>Visualização: 11 de junho de 2026
+>Produção para lançamento rápido: 11 de junho de 2026
+>Produção para lançamento trimestral: 11 de junho de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
 
-Se sua organização usa o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe, agora é possível converter uma tarefa de armazenamento herdada em um projeto de armazenamento em nuvem do Adobe.Ao fazer isso, os documentos e as aprovações de documentos permanecem no objeto principal em vez de serem transferidos para o projeto recém-criado.
+Se sua organização usa o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe, agora é possível converter uma tarefa de armazenamento herdada em um projeto de armazenamento em nuvem do Adobe.
+Ao fazer isso, os documentos e as aprovações de documentos permanecem no objeto principal em vez de serem transferidos para o projeto recém-criado.
 
 Anteriormente, as tarefas só podiam ser convertidas em projetos usando o mesmo tipo de armazenamento.
 
@@ -39,7 +50,8 @@ Para obter mais informações, consulte [Converter uma tarefa em um projeto](/he
 
 >[!NOTE]
 >
->Visualização: 11 de junho de 2026Produção para todos: 11 de junho de 2026
+>Visualização: 11 de junho de 2026
+>Produção para todos: 11 de junho de 2026
 
 Se sua organização usa o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe, agora é possível usar um modelo de armazenamento herdado para criar um projeto de armazenamento em nuvem do Adobe nos seguintes cenários:
 

@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '870'
 ht-degree: 3%
-
 ---
-
 # Aprimoramentos nos documentos do segundo trimestre de 2026
 
 <!--hide this article until multi stage goes out-->
@@ -24,7 +31,9 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Visualização: 16 de abril de 2026>Versão rápida de produção: 16 de abril de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 16 de abril de 2026
+>Versão rápida de produção: 16 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 O Supervisor de conteúdo agora está disponível no Workfront com a integração do Adobe Experience Manager Assets, facilitando a descoberta e a reutilização de conteúdo de alto valor existente pelas equipes.
 
@@ -43,7 +52,9 @@ Essa integração ajuda as equipes a reduzir a criação de conteúdo duplicado,
 
 >[!NOTE]
 >
->Visualização: 31 de março de 2026>Lançamento rápido de produção: 31 de março de 2026>Produção para todos: 31 de março de 2026
+>Visualização: 31 de março de 2026
+>Lançamento rápido de produção: 31 de março de 2026
+>Produção para todos: 31 de março de 2026
 
 Em 31 de março de 2026, todos os clientes do Workfront foram provisionados para o GenStudio Foundation, e os administradores de sistema do Admin Console receberão um email informando sobre essa adição. Esse produto é provisionado apenas para que os clientes da Workfront possam conceder às marcas acesso aos clientes da Workfront, conforme necessário, para o lançamento dos colaboradores de IA. O produto em si é apenas um mecanismo de acesso para Marcas e não há nenhuma funcionalidade adicional disponível no produto GenStudio Foundation.
 
@@ -53,7 +64,9 @@ Os clientes não serão cobrados por esse novo produto.
 
 >[!NOTE]
 >
->Visualização: 2 de abril de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 Adicionamos as seguintes melhorias ao widget Minhas aprovações na Página inicial:
 
@@ -70,7 +83,9 @@ Para obter mais informações, consulte [Gerenciar suas aprovações com o widge
 
 >[!NOTE]
 >
->Visualização: 12 de março de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 12 de março de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 
 Estamos animados em apresentar a Revisão e aprovação unificadas potencializadas pelo Workfront e Frame.io, uma experiência simplificada de revisão e aprovação.
@@ -105,7 +120,9 @@ Para obter mais informações, consulte [visão geral do armazenamento na nuvem 
 
 >[!NOTE]
 >
->Visualização: 12 de março de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 12 de março de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 Os fluxos de trabalho de aprovação em vários estágios agora estão disponíveis em aprovações unificadas, ajudando as organizações a aplicar processos de aprovação estruturados e repetíveis que refletem como o trabalho é revisado no mundo real. Com aprovações de vários estágios, você pode:
 
@@ -121,7 +138,9 @@ Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovaç�
 
 >[!NOTE]
 >
->Visualização: 12 de março de 2026>Versão rápida de produção: 15 de abril de 2026>Produção para todos: 16 de abril de 2026
+>Visualização: 12 de março de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 Agora é possível configurar e reutilizar modelos de fluxo de trabalho de aprovação de vários estágios, facilitando a aplicação de governança consistente em fluxos de trabalho de aprovação repetíveis.
 

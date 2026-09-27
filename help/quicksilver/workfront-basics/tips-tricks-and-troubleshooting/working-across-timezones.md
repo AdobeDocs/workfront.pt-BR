@@ -2,32 +2,39 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Trabalhando em diferentes fusos horários
-description: Pode ser útil entender como o  [!DNL Adobe Workfront] usa fusos horários para calcular campos de tempo para objetos e horários em outras áreas, como emails.
+description: Pode ser útil entender como o [!DNL Adobe Workfront] usa fusos horários para calcular campos de tempo para objetos e horários em outras áreas, como emails.
 feature: Get Started with Workfront
 author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc
+TQID: 'https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: '1260'
 ht-degree: 0%
-
 ---
-
 # Trabalhando em diferentes fusos horários
 
 <!-- Audited: 2/2024 -->
@@ -97,13 +104,13 @@ O fuso horário no navegador deve ser configurado para o local em que você trab
   Se usuários em vários fusos horários forem atribuídos a um objeto, o [!DNL Workfront] converterá os horários do objeto para todos os envolvidos, usando o fuso horário configurado no navegador de cada usuário.
 
   **EXEMPLO**
-Na zona Horário Padrão da Costa Leste (EST) onde você trabalha, você define uma tarefa para começar às 16h10 e a atribui aos usuários que trabalham na zona Horário Padrão do Pacífico (PST). :00Para esses usuários, a hora de início é exibida como 1:00 PM. Se fosse exibido como 4:00 PM, eles começariam a trabalhar nele com três horas de atraso.
+  Na zona Horário Padrão da Costa Leste (EST) onde você trabalha, você define uma tarefa para começar às 16h e a atribui aos usuários que trabalham na zona Horário Padrão do Pacífico (PST). Para esses usuários, a hora de início é exibida como 13h. Se fosse exibido como 16h, começariam a trabalhar nele com três horas de atraso.
 
   Se o criador do objeto não souber a diferença entre os fusos horários dos atribuídos e não fizer os ajustes necessários ao definir os tempos do objeto, ou se os atribuídos não souberem essa diferença, pode ser difícil obter o tempo correto enquanto todos colaboram no objeto.
 
   **EXEMPLO**
 
-  Você configura uma tarefa de um dia para começar às 9:00 AM EST, esquecendo que alguns usuários na tarefa trabalham na zona PST. Para eles, a hora de início é 6:00 AM. Como eles não começarão a trabalhar nela até o dia 9:00 de cada vez (meio-dia, horário local), a tarefa será iniciada e finalizada com três horas de atraso.
+  Você configura uma tarefa de um dia para começar às 9h EST, esquecendo que alguns usuários na tarefa trabalham na zona PST. Para eles, a hora de início é 6:00. Como eles não começarão a trabalhar nisso até às 9:00 da hora (meio-dia, horário de vocês), a tarefa começa e termina com três horas de atraso.
 
 A configuração do fuso horário é diferente entre os navegadores. Para obter mais informações, consulte a documentação de cada navegador ou informações de ajuda.
 
@@ -126,20 +133,20 @@ Os administradores do [!DNL Workfront] criam cronogramas separados para cada fus
 
   Se vários usuários forem atribuídos a uma tarefa, o sistema usará um dos seguintes, conforme configurado nas preferências do projeto do sistema ou do grupo:
 
-   * O fuso horário do agendamento do proprietário principal da tarefa
-   * O fuso horário para o agendamento do projeto.
+  * O fuso horário do agendamento do proprietário principal da tarefa
+  * O fuso horário para o agendamento do projeto.
 
   Se um usuário for atribuído a uma tarefa, o sistema usará um dos seguintes, conforme configurado nas preferências do projeto do sistema ou do grupo:
 
-   * O fuso horário do agendamento do destinatário da tarefa
-   * O fuso horário para o agendamento do projeto.
+  * O fuso horário do agendamento do destinatário da tarefa
+  * O fuso horário para o agendamento do projeto.
 
   Isso pode fazer com que as datas das tarefas mudem.
 
 >[!BEGINSHADEBOX]
 
 **EXEMPLO:**
-Um usuário EST é atribuído a uma tarefa de um dia agendada para iniciar às 9:00 AM PST, que é meio-dia EST. Como o usuário EST tem apenas 2 horas de trabalho restantes para o dia, a data de conclusão da tarefa se estende por cerca de 6 horas no próximo dia útil.
+Um usuário EST é atribuído a uma tarefa de um dia agendada para iniciar às 9h00 PST, que é meio-dia EST. Como o usuário EST tem apenas 2 horas de trabalho restantes para o dia, a data de conclusão da tarefa se estende por cerca de 6 horas no próximo dia útil.
 
 
 >[!ENDSHADEBOX]

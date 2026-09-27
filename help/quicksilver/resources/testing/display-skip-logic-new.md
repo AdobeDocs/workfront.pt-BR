@@ -2,13 +2,14 @@
 title: Adicionar lógica de exibição e lógica de salto a um formulário personalizado
 description: Adicionar lógica de exibição e lógica de salto a um formulário personalizado
 draft: Probably
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1491'
 ht-degree: 0%
-
 ---
-
 # Adicionar lógica de exibição e lógica de salto a um formulário personalizado
 
 Você pode usar regras inteligentes para tornar um formulário personalizado dinâmico e mais relevante para os usuários que o preenchem. Quando um usuário responde de determinada maneira a um campo de múltipla escolha em um formulário, uma regra inteligente mostra a ele o que você deseja que veja a seguir, com base nessa resposta.
@@ -36,7 +37,7 @@ Os tipos de campo de múltipla escolha são Suspenso, Caixas de seleção e Bot�
   Nesse caso, é possível adicionar um campo Texto descritivo que faça referência ao usuário ao departamento de vendas. No primeiro campo personalizado que pergunta qual tipo de conteúdo de marketing o usuário precisa, é possível adicionar uma regra de lógica de salto que exibe somente a linha do texto quando um usuário seleciona o botão de opção White Paper no primeiro campo.
 
   Isso seria especialmente útil se você adicionar muitos outros campos sobre logotipos, atualizações de sites e folhetos que este usuário não precisa ver.
-É possível aplicar uma regra lógica de salto somente a um campo personalizado, não a um widget ou seção.
+  É possível aplicar uma regra lógica de salto somente a um campo personalizado, não a um widget ou seção.
 
 
 ## Requisitos de acesso
@@ -75,7 +76,7 @@ A melhor maneira de aprender a adicionar lógica de exibição e salto a um form
 
 Neste exemplo, você criará um formulário personalizado com um campo de botão de opção de múltipla escolha. Em seguida, você adicionará a lógica de exibição que conecta esse campo a um segundo campo.
 
-1. Clique no ícone **do** Menu Principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, selecione **Forms Personalizado** ![](assets/custom-forms-icon.png).
 
@@ -91,7 +92,7 @@ Neste exemplo, você criará um formulário personalizado com um campo de botão
 
       ![](assets/add-a-field-tab-350x237.png)
 
-   1. Selecione o tipo de campo **Botões de opção** e digite *Qual tipo de conteúdo de marketing é necessário?* como o **Rótulo** do campo.
+   1. Selecione o tipo de campo **Botões de Opção** e digite *Qual tipo de conteúdo de marketing é necessário?* como o **Rótulo** do campo.
 
    1. Em **Opções**, substitua **Opção 1** e **Opção 2** pelo seguinte texto para criar duas opções que os usuários podem escolher no campo:
 
@@ -129,11 +130,11 @@ A lógica de ignorar funciona de forma semelhante à lógica de exibição, mas 
 
 Para saber mais sobre isso, continue trabalhando no exemplo de formulário personalizado criado na seção [Lógica de exibição - exemplo prático](#display-logic-practical-example) deste artigo.
 
-1. Clique no ícone **do** Menu Principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Clique em **Forms Personalizado**.
 1. Clique no nome do formulário **Exemplo de formulário personalizado - Lógica de exibição de aprendizado e lógica de salto** que você criou nas etapas acima para abri-lo para edição.
-1. Selecione o campo suspenso criado com o nome *De que tipo de site você precisa?*, adicione as seguintes opções para o campo e clique em **Aplicar**:
+1. Selecione o campo suspenso que você criou chamado *Qual tipo de site você precisa?*, adicione as seguintes opções para o campo e clique em **Aplicar**:
 
    *Comércio eletrônico*
 
@@ -141,7 +142,7 @@ Para saber mais sobre isso, continue trabalhando no exemplo de formulário perso
 
    *Associação*
 
-1. Abra a guia **Adicionar um campo**, crie um campo **Campo de Texto com Formatação** chamado *Qual é a meta do site?* e clique em **Aplicar**.
+1. Abra a guia **Adicionar um campo**, crie um campo **Texto com Formatação** chamado *Qual é a meta do site?* e clique em **Aplicar**.
 
    Nesta organização, um site de documentação de ajuda é criado pela equipe técnica de redação, não pelo departamento de Marketing. Portanto, não são necessárias mais informações de um usuário que seleciona a documentação de Ajuda no segundo campo. Criaremos uma linha de texto (um campo de texto descritivo) dizendo para eles verem a equipe de Redação técnica em vez disso. E usaremos uma regra de lógica de salto que ignora esse usuário para essa linha de texto.
 
@@ -167,7 +168,7 @@ Para saber mais sobre isso, continue trabalhando no exemplo de formulário perso
 
    ![](assets/notice-skip-logic-squares-350x249.png)
 
-1. Clique em **Visualizar**  para garantir que a lógica se aplique da maneira desejada.
+1. Clique em **Visualizar** para verificar se a lógica se aplica da maneira que você deseja.
 1. Clique em **Salvar +Fechar**.
 
 Ao criar um formulário como esse, você pode adicionar mais campos de texto para solicitar informações de usuários que selecionam Comércio eletrônico ou Folheto no segundo campo. Esses campos podem perguntar quem é o público-alvo do site, qual é o objetivo da criação, qual é o orçamento e assim por diante.

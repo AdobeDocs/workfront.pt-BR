@@ -9,20 +9,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ
+TQID: 'https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: '944'
 ht-degree: 1%
-
 ---
-
 # Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento em nuvem do Adobe
 
 <!--linked in UI -->
@@ -41,8 +47,8 @@ O acesso a documentos se comporta de forma diferente dependendo se o projeto est
 * **Adobe Cloud Storage**: projetos, programas, portfólios e modelos que usam o Adobe Cloud Storage seguem a lógica de nível de acesso do Adobe Cloud Storage para outros produtos da Adobe.
 
 
-   * **Permissões de objeto de projetos, programas, portfólios e modelos**: quando um nível de acesso tem **Nenhum acesso** selecionado para projetos, programas, portfólios e modelos, mas o objeto é compartilhado com eles, os usuários não podem ver o objeto no Workfront, mas ainda podem exibir o nome do objeto e quaisquer documentos associados em outras ferramentas do Adobe, como Frame.io e Adobe Creative Cloud.
-   * **Permissões de documentos**: quando um nível de acesso tem **Nenhum acesso** selecionado para documentos, os usuários não podem ver documentos em projetos no Workfront, mas ainda podem exibir e gerenciar documentos de projetos compartilhados com eles em outras ferramentas do Adobe, como Frame.io e Adobe Creative Cloud. Isso ocorre porque o acesso a documentos é determinado por permissões no nível do projeto no Adobe Cloud Storage, em vez de apenas nos níveis de acesso do Workfront.
+  * **Permissões de objeto de projetos, programas, portfólios e modelos**: quando um nível de acesso tem **Nenhum acesso** selecionado para projetos, programas, portfólios e modelos, mas o objeto é compartilhado com eles, os usuários não podem ver o objeto no Workfront, mas ainda podem exibir o nome do objeto e quaisquer documentos associados em outras ferramentas do Adobe, como Frame.io e Adobe Creative Cloud.
+  * **Permissões de documentos**: quando um nível de acesso tem **Nenhum acesso** selecionado para documentos, os usuários não podem ver documentos em projetos no Workfront, mas ainda podem exibir e gerenciar documentos de projetos compartilhados com eles em outras ferramentas do Adobe, como Frame.io e Adobe Creative Cloud. Isso ocorre porque o acesso a documentos é determinado por permissões no nível do projeto no Adobe Cloud Storage, em vez de apenas nos níveis de acesso do Workfront.
 
 Se você tiver o Adobe Cloud Storage habilitado em seu ambiente Workfront, poderá criar projetos Adobe Cloud Storage e projetos Workfront Storage herdados. Os projetos de armazenamento herdados do Workfront mostram um ícone ao lado do nome do projeto em toda a Workfront. Os projetos de armazenamento na nuvem do Adobe não mostram um ícone.
 

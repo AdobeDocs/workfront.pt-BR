@@ -6,22 +6,26 @@ description: Como admin do Adobe Workfront, você pode conceder aos usuários ac
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-TQID: https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E
+TQID: 'https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 15%
-
 ---
-
 # Compartilhar um modelo
 
 Como admin do Adobe Workfront, você pode conceder aos usuários acesso para visualizar ou editar modelos, definindo seus níveis de acesso. Um usuário deve ter uma licença Padrão ou de Plano para ter acesso a Editar modelos.
@@ -42,18 +46,18 @@ As permissões são específicas a um item no Workfront e definem quais ações 
 * Por padrão, o criador de um modelo, bem como o Proprietário do modelo, têm permissões de Gerenciamento para o modelo. Para obter informações sobre como designar um usuário como Proprietário do Modelo, consulte [Editar modelos de projeto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 * Você pode compartilhar o seguinte ao compartilhar um modelo:
 
-   * O modelo
+  * O modelo
 
-     Para obter mais informações sobre como compartilhar um modelo, consulte [Compartilhar modelos de projeto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+    Para obter mais informações sobre como compartilhar um modelo, consulte [Compartilhar modelos de projeto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-     Você pode conceder as seguintes permissões a um modelo:
+    Você pode conceder as seguintes permissões a um modelo:
 
-      * Exibir
-      * Gerenciar
+    * Exibir
+    * Gerenciar
 
-   * Os projetos futuros que são criados usando o modelo. Você pode conceder aos projetos criados a partir de um modelo os mesmos níveis de permissões que você daria a um projeto individual.
+  * Os projetos futuros que são criados usando o modelo. Você pode conceder aos projetos criados a partir de um modelo os mesmos níveis de permissões que você daria a um projeto individual.
 
-     Para obter informações sobre como compartilhar um projeto de um modelo no nível do modelo, consulte [Compartilhar modelos de projeto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+    Para obter informações sobre como compartilhar um projeto de um modelo no nível do modelo, consulte [Compartilhar modelos de projeto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * Quando você compartilha um modelo ou um projeto criado a partir do modelo, os usuários herdam as mesmas permissões para todos os objetos secundários associados ao modelo ou ao projeto, por padrão.
 

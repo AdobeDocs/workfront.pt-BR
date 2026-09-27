@@ -1,6 +1,6 @@
 ---
 title: Recomendações de planejamento do Adobe Workfront para implementação
-description: Como líder de operações de marketing, você pode usar o Adobe Workfront Planning para organizar o trabalho em todo o ciclo de vida de marketing para todas as suas equipes. Estas são algumas das práticas recomendadas que recomendamos ao iniciar o Workfront Planning.
+description: Como líder de operações de marketing, você pode usar o Planejamento do Adobe Workfront para organizar o trabalho em todo o ciclo de vida de marketing para todas as suas equipes. Estas são algumas das práticas recomendadas que recomendamos ao iniciar o Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,22 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w
+TQID: 'https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3410
+source-wordcount: '3415'
 ht-degree: 2%
-
 ---
-
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
 # Recomendações de implementação do Adobe Workfront Planning
@@ -32,15 +41,15 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->As informações contidas neste artigo referem-se ao Adobe Workfront Planning, um recurso adicional do Adobe Workfront.
+>As informações contidas neste artigo referem-se ao Planejamento do Adobe Workfront, um recurso adicional do Adobe Workfront.
 >
->Para obter uma lista dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Para obter uma lista dos requisitos para acessar o Planejamento do Workfront, consulte [Visão geral do acesso ao Planejamento do Adobe Workfront](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 >Para obter mais informações, também recomendamos consultar os artigos no [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
-Como líder de operações de marketing, você pode usar o Adobe Workfront Planning para organizar o trabalho em todo o ciclo de vida de marketing para todas as suas equipes.
+Como líder de operações de marketing, você pode usar o Planejamento do Adobe Workfront para organizar o trabalho em todo o ciclo de vida de marketing para todas as suas equipes.
 
 Este artigo documenta algumas perguntas frequentes e práticas recomendadas que recomendamos ao iniciar o Workfront Planning.
 
@@ -59,12 +68,12 @@ Veja a seguir algumas perguntas frequentes sobre a configuração do Workfront P
 * ✅ Comece explorando nossos modelos de espaço de trabalho predefinidos para ideias de casos de uso semelhantes existentes. Você pode usar os tipos de registros e campos predefinidos que vêm em um modelo ou pode adicionar os seus próprios.
 * ✅ Identifique os principais casos de uso que deseja resolver com o Workfront Planning. Por exemplo, a maioria das organizações quer melhorar a visibilidade das atividades estratégicas, o que pode incluir a criação de um &quot;Calendário de campanha&quot; melhor. Portanto, nesse caso de uso, você deve começar respondendo algumas perguntas:
 
-   * Quem está pedindo isso?
-   * Como eles chamam as coisas que querem colocar no calendário?
-Campanhas? Táticas? Iniciativas? Atividades? Eventos?
-   * Que tipos de perguntas eles desejam responder com este calendário?
-   * Eles têm campanhas sobrepostas para o mesmo público-alvo?
-   * Qual é o orçamento para essa campanha, tática, atividade ou evento?
+  * Quem está pedindo isso?
+  * Como eles chamam as coisas que querem colocar no calendário?
+    Campanhas? Táticas? Iniciativas? Atividades? Eventos?
+  * Que tipos de perguntas eles desejam responder com este calendário?
+  * Eles têm campanhas sobrepostas para o mesmo público-alvo?
+  * Qual é o orçamento para essa campanha, tática, atividade ou evento?
 
   As respostas a essas perguntas ditariam o que é necessário criar dentro do Workfront Planning.
 
@@ -210,9 +219,9 @@ Use o recurso de compartilhamento para conceder permissões apropriadas a outras
 
   Você pode escolher entre os seguintes níveis de permissão:
 
-   * **Gerenciar**: as pessoas podem editar, excluir e compartilhar o espaço de trabalho, os tipos de registro e editar, excluir e criar registros.
-   * **Contribute**: as pessoas podem criar, editar e excluir registros.
-   * **Exibir**: as pessoas podem exibir registros.
+  * **Gerenciar**: as pessoas podem editar, excluir e compartilhar o espaço de trabalho, os tipos de registro e editar, excluir e criar registros.
+  * **Contribute**: as pessoas podem criar, editar e excluir registros.
+  * **Exibir**: as pessoas podem exibir registros.
 
 * ✅ Embora muitos clientes tenham a impressão de que concederiam permissões de **Gerenciar** para espaços de trabalho à maioria das pessoas, restrinja as permissões de **Gerenciar** a um grupo selecionado de pessoas confiáveis que não excluirão acidentalmente um tipo de registro ou criarão campos e tipos de registro desnecessários. Eles podem editar, compartilhar e até mesmo excluir o espaço de trabalho. Esse nível de permissões concede a eles acesso administrativo total à Workspace.
 
@@ -289,14 +298,14 @@ Você pode criar um formulário de solicitação para cada tipo de registro quan
 
   Você pode escolher entre as seguintes opções de compartilhamento:
 
-   * Para compartilhamento interno com as pessoas no Workfront:
+  * Para compartilhamento interno com as pessoas no Workfront:
 
-      * **Qualquer pessoa com acesso de exibição ou superior ao espaço de trabalho:** Permite que todos os usuários com permissões de exibição ou superiores ao espaço de trabalho enviem uma solicitação que crie um registro.
-      * **Qualquer pessoa com acesso de contribuir ou superior ao espaço de trabalho**: restringe os envios a usuários com permissões do Contribute ou superiores ao espaço de trabalho.
-      * **Somente pessoas convidadas podem acessar**: Adicione pessoas, equipes, funções, grupos ou empresas que possam enviar solicitações ao formulário.
-   * Para compartilhamento externo com pessoas que não têm uma conta do Workfront:
-      * **Crie um link público** e, em seguida, copie-o e compartilhe-o com qualquer pessoa, até mesmo pessoas sem uma conta da Workfront: permite que qualquer pessoa que tenha o link do formulário envie uma solicitação.
-      * **Data de expiração do link:** Verifique se você definiu uma data de expiração para o link público para melhorar a segurança.
+    * **Qualquer pessoa com acesso de exibição ou superior ao espaço de trabalho:** Permite que todos os usuários com permissões de exibição ou superiores ao espaço de trabalho enviem uma solicitação que crie um registro.
+    * **Qualquer pessoa com acesso de contribuir ou superior ao espaço de trabalho**: restringe os envios a usuários com permissões do Contribute ou superiores ao espaço de trabalho.
+    * **Somente pessoas convidadas podem acessar**: Adicione pessoas, equipes, funções, grupos ou empresas que possam enviar solicitações ao formulário.
+  * Para compartilhamento externo com pessoas que não têm uma conta do Workfront:
+    * **Crie um link público** e, em seguida, copie-o e compartilhe-o com qualquer pessoa, até mesmo pessoas sem uma conta da Workfront: permite que qualquer pessoa que tenha o link do formulário envie uma solicitação.
+    * **Data de expiração do link:** Verifique se você definiu uma data de expiração para o link público para melhorar a segurança.
 
 ### Práticas recomendadas para gerenciar formulários de solicitação
 
@@ -364,7 +373,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
 * Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   

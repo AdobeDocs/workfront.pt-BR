@@ -5,18 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: def76c9c-d808-489b-82c7-b1f44c241116
-TQID: https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I
+TQID: 'https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 262
+source-wordcount: '282'
 ht-degree: 6%
-
 ---
-
 # Aprimoramentos do projeto do segundo trimestre de 2026
 
 Esta página descreve as melhorias feitas no Project com a versão do segundo trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -27,7 +33,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Pré-visualização: 5 de fevereiro de 2026>Produção: a partir de 5 de fevereiro de 2026\
+>Visualização: 5 de fevereiro de 2026
+>Produção: a partir de 5 de fevereiro de 2026\
 >[!BADGE Fora do cronograma]{type=Neutral}
 
 Atualizamos a seção Atribuições na caixa Editar Tarefas de Modelo ao editar tarefas de modelo único ou editá-las em massa.  
@@ -35,9 +42,9 @@ As seguintes alterações estão incluídas nesta atualização: 
 
 * Há uma nova experiência para atribuir recursos a tarefas de modelo. Isso agora está disponível ao editar uma tarefa de modelo ou ao editar várias tarefas de modelo em massa. Adicionamos os seguintes campos à seção Atribuições: 
 
-   * Alocações 
-   * Proprietário ou proprietário da tarefa 
-   * Função do atribuidor 
+  * Alocações 
+  * Proprietário ou proprietário da tarefa 
+  * Função do atribuidor 
 
 * A opção &quot;Retornar à experiência antiga&quot; foi removida.
 
@@ -47,7 +54,8 @@ Para obter informações, consulte [Editar tarefas de modelo](/help/quicksilver/
 
 >[!NOTE]
 >
->Pré-visualização: 26 de janeiro de 2026>Produção: a partir de 5 de fevereiro de 2026
+>Visualização: 26 de janeiro de 2026
+>Produção: a partir de 5 de fevereiro de 2026
 
 Atualizamos a seção Atribuições na caixa Editar tarefas ao editar tarefas únicas ou editá-las em massa.
 
@@ -55,11 +63,11 @@ As seguintes alterações estão incluídas nesta atualização:
 
 * Há uma nova experiência para atribuir recursos a tarefas. Isso agora está disponível ao editar uma tarefa ou ao editar várias tarefas em massa. Adicionamos os seguintes campos à seção Atribuições:
 
-   * Alocações
+  * Alocações
 
-   * Proprietário ou proprietário da tarefa
+  * Proprietário ou proprietário da tarefa
 
-   * Função do atribuidor
+  * Função do atribuidor
 
 * A opção &quot;Retornar à experiência antiga&quot; foi removida.
 

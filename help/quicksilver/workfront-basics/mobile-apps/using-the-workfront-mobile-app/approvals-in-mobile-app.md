@@ -1,23 +1,26 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Aprovações no  [!DNL Adobe Workfront] aplicativo móvel
-description: Você pode gerenciar aprovações atribuídas ou delegadas a você na área [!UICONTROL Aprovações] do  [!DNL Adobe Workfront] aplicativo móvel.
+title: Aprovações no aplicativo móvel [!DNL Adobe Workfront]
+description: Você pode gerenciar aprovações atribuídas ou delegadas a você na área [!UICONTROL Aprovações] do aplicativo móvel [!DNL Adobe Workfront].
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-TQID: https://experienceleague.adobe.com/gHOishp5DInktXg4JXo73IGOSJCTfYGtzYirRPnqR-Y
+TQID: 'https://experienceleague.adobe.com/gHOishp5DInktXg4JXo73IGOSJCTfYGtzYirRPnqR-Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 264
+source-wordcount: '266'
 ht-degree: 3%
-
 ---
-
 # Aprovações no aplicativo móvel [!DNL Adobe Workfront]
 
 Você pode gerenciar aprovações atribuídas ou delegadas a você na área [!UICONTROL Aprovações] do aplicativo móvel [!DNL Adobe Workfront]. Na área [!UICONTROL aprovações], você pode aprovar:

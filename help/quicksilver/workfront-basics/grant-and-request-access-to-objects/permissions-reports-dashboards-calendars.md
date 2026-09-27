@@ -7,23 +7,28 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-TQID: https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk
+TQID: 'https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 2%
-
 ---
-
 # Compartilhar relatórios, painéis e calendários
 
 O administrador do Adobe Workfront concede aos usuários acesso para exibir ou editar relatórios, painéis e calendários quando eles atribuem níveis de acesso. Para obter mais informações sobre como conceder acesso a relatórios, painéis e calendários, consulte [Conceder acesso a relatórios, painéis e calendários](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
@@ -49,9 +54,9 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
   Consulte também os seguintes artigos para saber como compartilhar relatórios, painéis e calendários:
 
-   * [Compartilhar um relatório no Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [Compartilhar um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [Compartilhar um relatório de calendário](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [Compartilhar um relatório no Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [Compartilhar um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [Compartilhar um relatório de calendário](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * Você pode compartilhar relatórios e painéis individualmente ou em massa.
 
@@ -63,8 +68,8 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
 * Você pode conceder as seguintes permissões a relatórios, painéis e calendários:
 
-   * Exibir
-   * Gerenciar
+  * Exibir
+  * Gerenciar
 
 * Quando você compartilha um painel, os usuários têm permissões de Exibição por padrão para todos os relatórios, calendários e páginas externas no painel.
 * Os usuários com uma Solicitação de licença não podem exibir um relatório geral do sistema. Um relatório deve ser compartilhado com os Solicitantes individualmente se eles precisarem visualizá-lo.

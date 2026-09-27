@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo
+TQID: 'https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '590'
 ht-degree: 8%
-
 ---
-
 # Exibir relatórios de calendário e detalhes do evento
 
 Você pode exibir relatórios de calendário e detalhes de eventos que você criou ou que foram compartilhados com você no Adobe Workfront.
@@ -85,7 +90,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 1. (Condicional) Clique no menu suspenso **[!UICONTROL Exibir]** e selecione a duração do calendário que deseja exibir.
    ![Duração do calendário](assets/view-menu-calendar-report-350x189.png)
-Você pode escolher entre as seguintes exibições de relatório do calendário:
+   Você pode escolher entre as seguintes exibições de relatório do calendário:
 
    * **[!UICONTROL Mês]**: exibe quatro semanas do calendário
    * **[!UICONTROL Semana]**: exibe uma semana do calendário
@@ -110,17 +115,17 @@ Você pode escolher entre as seguintes exibições de relatório do calendário:
 
    * Para alterar rapidamente as datas exibidas:
 
-      1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique na seta para a esquerda do indicador de data para voltar no calendário ou na seta para a direita para avançar.
+     1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique na seta para a esquerda do indicador de data para voltar no calendário ou na seta para a direita para avançar.
 
-         ![Clique na seta para alterar a data](assets/click-arrows-to-change-dates-calendar-report.png)
+        ![Clique na seta para alterar a data](assets/click-arrows-to-change-dates-calendar-report.png)
 
-         As datas exibidas são ajustadas por um intervalo com base na exibição do calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição **Semana**, o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.
+        As datas exibidas são ajustadas por um intervalo com base na exibição do calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição **Semana**, o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.
 
-      1. (Opcional) Para voltar ao dia atual, clique em [!UICONTROL **Hoje**].
+     1. (Opcional) Para voltar ao dia atual, clique em [!UICONTROL **Hoje**].
 
 1. (Opcional) Para ocultar os eventos de um projeto ou agrupamento de calendário vinculado ao calendário, desmarque o projeto ou agrupamento de calendário na lista de projetos.
    ![Ocultar eventos](assets/hide-events-for-project-or-cal-grouping.png)
-Você pode tornar os eventos visíveis novamente selecionando o [!UICONTROL projeto] ou o agrupamento de calendário na lista de projetos.
+   Você pode tornar os eventos visíveis novamente selecionando o [!UICONTROL projeto] ou o agrupamento de calendário na lista de projetos.
 
 ## Exibir detalhes do evento de relatório do calendário
 

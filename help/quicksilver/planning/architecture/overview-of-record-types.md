@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA
+TQID: 'https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 8%
-
 ---
-
 # Visão geral dos tipos de registro
 
 <!--
@@ -51,8 +58,8 @@ Para obter informações sobre como criar tipos de registro, consulte [Criar tip
 
 * Quando você cria um espaço de trabalho a partir de um gabarito, os tipos de registro são criados nas seguintes seções do espaço de trabalho:
 
-   * **Tipos de Registros Operacionais**: Tipos de registros que representam planos estratégicos, iniciativas ou trabalho planejado. Por exemplo, Campanha, Atividade, Tática e Oportunidade são tipos de registro operacional.
-   * **Taxonomias**: tipos de registro que capturam atributos sobre um tipo de registro operacional. Por exemplo, Região, Endereço e Público são taxonomias.
+  * **Tipos de Registros Operacionais**: Tipos de registros que representam planos estratégicos, iniciativas ou trabalho planejado. Por exemplo, Campanha, Atividade, Tática e Oportunidade são tipos de registro operacional.
+  * **Taxonomias**: tipos de registro que capturam atributos sobre um tipo de registro operacional. Por exemplo, Região, Endereço e Público são taxonomias.
 
   Você pode renomear ou excluir as seções e os tipos de registro, ou criar mais.
 
@@ -63,8 +70,8 @@ Para obter informações sobre como criar tipos de registro, consulte [Criar tip
   Para limitações sobre quantos tipos de registros você pode ter em um espaço de trabalho ou instância do Workfront, consulte [Visão geral das limitações de objetos do Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 * Para usar tipos de registro em mais de um espaço de trabalho, você pode designar tipos de registro como globais ou conectáveis.
 
-   * Os tipos de registro globais podem ser adicionados como tipos de registro existentes a outros espaços de trabalho.
-   * Os tipos de registro conectáveis podem ser conectados a partir de outros espaços de trabalho.
+  * Os tipos de registro globais podem ser adicionados como tipos de registro existentes a outros espaços de trabalho.
+  * Os tipos de registro conectáveis podem ser conectados a partir de outros espaços de trabalho.
 
   Para obter mais informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 

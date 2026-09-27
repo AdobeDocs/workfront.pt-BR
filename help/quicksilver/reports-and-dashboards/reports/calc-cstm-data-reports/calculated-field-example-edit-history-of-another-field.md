@@ -10,25 +10,31 @@ feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ
+TQID: 'https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: '620'
 ht-degree: 10%
-
 ---
-
 # Exemplo de campo personalizado calculado: exibir o histórico de edições de um campo
 
 Se os usuários atualizarem campos personalizados regularmente e você quiser capturar um log de todas as alterações feitas em um campo, bem como uma data quando as alterações ocorrerem, será possível capturar essas informações em um campo personalizado calculado.
@@ -44,8 +50,8 @@ Isso faz o seguinte:
 * Limita o campo Instruções Editar histórico aos 2000 caracteres mais recentes para permanecer dentro do limite do banco de dados do Workfront.
 * Verifica se o valor atual do campo Instruções corresponde à parte frontal do valor do Histórico de Edição de Instruções; presume que está em branco e, se não estiver, faz o seguinte:
 
-   * Se houver correspondência, o Histórico de edição de instruções será deixado como está;
-   * Se não corresponderem, substituirá o Histórico de edição de instruções pelo valor mais recente no campo Instruções, seguido da data atual entre parênteses, uma barra vertical e o Histórico de edição de instruções anterior, que preserva os valores anteriores e as datas quando foram inseridos.
+  * Se houver correspondência, o Histórico de edição de instruções será deixado como está;
+  * Se não corresponderem, substituirá o Histórico de edição de instruções pelo valor mais recente no campo Instruções, seguido da data atual entre parênteses, uma barra vertical e o Histórico de edição de instruções anterior, que preserva os valores anteriores e as datas quando foram inseridos.
 
 ## Requisitos de acesso
 

@@ -7,24 +7,33 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y
+TQID: 'https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2321
-ht-degree: 2%
-
+source-wordcount: '2346'
+ht-degree: 3%
 ---
-
 # Começar a avaliação gratuita do Planejamento do Adobe Workfront
 
 <!--add screen shots-->
@@ -60,10 +69,10 @@ A versão de avaliação gratuita do Workfront Planning oferece o seguinte:
 * Um ambiente de planejamento com curadoria de vários espaços de trabalho
 * Um pacote do Workfront Planning Prime que inclui os seguintes recursos:
 
-   * Espaços de trabalho limitados
-   * 500.000 registros por espaço de trabalho
-   * 2 milhões de espaços de trabalho no total
-   * Tipos de registro global
+  * Espaços de trabalho limitados
+  * 500.000 registros por espaço de trabalho
+  * 2 milhões de espaços de trabalho no total
+  * Tipos de registro global
 * Dados de amostra para lhe dar uma ideia de onde começar
 * A integração guiada por IA, onde é possível usar linguagem simples ou carregar um artefato existente, e o Planning gerará uma estrutura personalizada usando IA. Isso cria automaticamente espaços de trabalho, tipos de registro, campos e exibições.
 * Treinamento e orientação no produto
@@ -75,12 +84,12 @@ Sua empresa deve atender aos seguintes requisitos para poder participar da avali
 
 * Ter qualquer um dos seguintes pacotes novos de Adobe Workfront ou Fluxo de trabalho:
 
-   * Selecionar
-   * Prime
-   * Ultimate
+  * Selecionar
+  * Prime
+  * Ultimate
 
   A versão de avaliação do Workfront Planning não está disponível para os pacotes herdados do Workfront.
-Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+  Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Aceite o contrato de avaliação jurídica disponível na instância do Workfront de sua organização entre 26 de janeiro e 1º de abril de 2026. Você deve ser um administrador do Workfront para aceitar o contrato de avaliação.
 
 ## Visão geral de datas importantes
@@ -88,31 +97,31 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 Estas são datas importantes associadas à oferta de avaliação gratuita do Adobe Workfront Planning:
 
 * **26 de janeiro de 2026**: os banners de avaliação gratuita do Workfront Planning foram lançados para clientes do Workfront. Os banners incluíam o seguinte:
-   * Um link para este documento.
-   * A janela de aceitação do contrato de avaliação. Somente um administrador do Workfront pode aceitar o contrato. Você pode aceitar o contrato de avaliação a qualquer momento a partir desta data.
+  * Um link para este documento.
+  * A janela de aceitação do contrato de avaliação. Somente um administrador do Workfront pode aceitar o contrato. Você pode aceitar o contrato de avaliação a qualquer momento a partir desta data.
 * **2 de março de 2026**: a avaliação do Workfront Planning foi iniciada.
 
   Com a inicialização da avaliação, os seguintes itens são adicionados à instância do Workfront:
 
-   * Os banners do Workfront Planning continuam sendo exibidos para todos os usuários. Um link para este documento está incluído nos banners.
-   * A preferência **Contrato de avaliação de revisão** é adicionada à área **Instalação**.
+  * Os banners do Workfront Planning continuam sendo exibidos para todos os usuários. Um link para este documento está incluído nos banners.
+  * A preferência **Contrato de avaliação de revisão** é adicionada à área **Instalação**.
 
   Existem os seguintes cenários:
 
-   * Se o administrador do Workfront tiver aceitado o contrato antes dessa data, você poderá encontrar a área Planejamento no Menu Principal e começar a usar o Workfront Planning.
+  * Se o administrador do Workfront tiver aceitado o contrato antes dessa data, você poderá encontrar a área Planejamento no Menu Principal e começar a usar o Workfront Planning.
 
   >[!NOTE]
   >
   >A área Planejamento é exibida no Menu Principal para todos os usuários no sistema, independentemente do tipo de licença Workfront.
 
-   * Se o administrador do Workfront não tiver aceitado o contrato antes dessa data, os banners que anunciam os programas de avaliação do Planning serão exibidos para todos os usuários, mas o Planning ainda não estará disponível no Menu principal. Primeiro, o Administrador do Sistema deve aceitar o contrato para que você possa ter acesso ao Workfront Planning.
+  * Se o administrador do Workfront não tiver aceitado o contrato antes dessa data, os banners que anunciam os programas de avaliação do Planning serão exibidos para todos os usuários, mas o Planning ainda não estará disponível no Menu principal. Primeiro, o Administrador do Sistema deve aceitar o contrato para que você possa ter acesso ao Workfront Planning.
 
 * **1 de abril de 2026**: você não pode mais se inscrever na avaliação.
 
   Os seguintes itens foram removidos da instância do Workfront:
 
-   * Os banners de avaliação do Workfront Planning.
-   * A preferência **Contrato de avaliação de revisão** foi removida da área **Instalação**.
+  * Os banners de avaliação do Workfront Planning.
+  * A preferência **Contrato de avaliação de revisão** foi removida da área **Instalação**.
 
 * **1º de maio de 2026**: a versão de avaliação do Workfront Planning é fechada e seu acesso ao Planning é removido. O acesso permanecerá ativo até 15 de maio de 2026.
 
@@ -137,9 +146,9 @@ Todos os usuários em sua organização recebem o seguinte pacote do Workfront P
 
   Os usuários em seu sistema recebem as seguintes permissões para os espaços de trabalho na área do Planning durante a avaliação gratuita:
 
-   * Todos os Administradores do Sistema têm permissões de Gerenciamento para os Espaços de Trabalho em que estou e para a guia Todos os Espaços de Trabalho.
-   * Todos os outros usuários têm permissões de Exibição na área Espaços de trabalho, mas o Administrador do Sistema pode conceder a eles permissões de Gerenciamento para espaços de trabalho exibidos lá.
-   * Todos os usuários, incluindo o Administrador do Sistema, têm permissões de Exibição para a guia Espaços de trabalho de amostra na área do Planning.
+  * Todos os Administradores do Sistema têm permissões de Gerenciamento para os Espaços de Trabalho em que estou e para a guia Todos os Espaços de Trabalho.
+  * Todos os outros usuários têm permissões de Exibição na área Espaços de trabalho, mas o Administrador do Sistema pode conceder a eles permissões de Gerenciamento para espaços de trabalho exibidos lá.
+  * Todos os usuários, incluindo o Administrador do Sistema, têm permissões de Exibição para a guia Espaços de trabalho de amostra na área do Planning.
 
 * **Após 1º de maio de 2026:**
 
@@ -260,10 +269,10 @@ Você pode revisar espaços de trabalho de amostra do Planning e seus objetos, b
      Para obter a nossa recomendação sobre como usar o espaço de trabalho Taxonomias Globais, consulte [Transformar sua primeira vitória em um impulso sustentável: um manual para dimensionamento gerenciado](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
    * Espaços de trabalho de amostra adicionais: os seguintes espaços de trabalho servem como exemplos do que uma empresa de amostra (Fréscopa) pode precisar como espaços de trabalho específicos, tipos de registro, campos e exibições para arquitetar sua organização e estrutura de trabalho:
 
-      * **Marketing Global Fréscopa**
-      * **Fréscopa Social Marketing**
-      * **Fréscopa Mídia e PR**
-      * **Liderança da Fréscopa Executive Company**
+     * **Marketing Global Fréscopa**
+     * **Fréscopa Social Marketing**
+     * **Fréscopa Mídia e PR**
+     * **Liderança da Fréscopa Executive Company**
 
    >[!NOTE]
    >
@@ -304,8 +313,8 @@ Você pode revisar espaços de trabalho de amostra do Planning e seus objetos, b
 
      Para obter informações, consulte os seguintes artigos:
 
-      * [Criar campos](/help/quicksilver/planning/fields/create-fields.md)
-      * [Visão geral da conexão de tipos de registro](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
+     * [Criar campos](/help/quicksilver/planning/fields/create-fields.md)
+     * [Visão geral da conexão de tipos de registro](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 
 1. Nos espaços de trabalho criados, compartilhe qualquer uma das seguintes entidades:
 

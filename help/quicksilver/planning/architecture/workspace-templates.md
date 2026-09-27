@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk
+TQID: 'https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 7%
-
 ---
-
 # Lista de modelos de espaço de trabalho
 
 {{planning-important-intro}}
@@ -35,8 +42,8 @@ Este artigo descreve os modelos de espaço de trabalho disponíveis no Adobe Wor
 
 * Dependendo de quantos espaços de trabalho você cria ao usar um modelo de espaço de trabalho do Planning, você pode usar os seguintes tipos de modelos:
 
-   * Modelos únicos: um modelo cria um espaço de trabalho.
-   * Conjunto de modelos de vários espaços de trabalho: o conjunto de modelos cria seis espaços de trabalho que são interconectados.
+  * Modelos únicos: um modelo cria um espaço de trabalho.
+  * Conjunto de modelos de vários espaços de trabalho: o conjunto de modelos cria seis espaços de trabalho que são interconectados.
 * Cada modelo vem com um conjunto de tipos de registro.
 
   Para obter informações, consulte [Visão geral dos tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
@@ -108,82 +115,82 @@ A seguir, os modelos de espaço de trabalho no Workfront Planning e os tipos de 
 
   O modelo do Operations Initiative Studio inclui os seguintes tipos de registros e seus campos:
 
-   * Iniciativas
-   * Fluxos de trabalho
-   * Riscos e problemas
-   * Decisões
-   * Sistemas
-   * Equipes
+  * Iniciativas
+  * Fluxos de trabalho
+  * Riscos e problemas
+  * Decisões
+  * Sistemas
+  * Equipes
 * **Communications Planning Studio**: ideia de configurar rapidamente um hub de planejamento de comunicações. Comece duplicando o registro do modelo de Plano de comunicações longas ou curtas e, em seguida, desenvolva a implantação adicionando Táticas e rastreando Pontos de verificação de aprovação. Referencie públicos, mercados e canais para obter relatórios, filtragem e reutilização consistentes. Inclui registros de amostra e visualizações de tabela, linha do tempo e calendário prontas para uso, para que as equipes possam explorar os recursos do Planning imediatamente.
 
   O modelo do Communications Planning Studio inclui os seguintes tipos de registros e seus campos:
 
-   * Comunicações
-   * Públicos-alvo
-   * Táticas
-   * Pontos de verificação de aprovação
-   * Canais
-   * Mercados
-   * Funções das partes interessadas
+  * Comunicações
+  * Públicos-alvo
+  * Táticas
+  * Pontos de verificação de aprovação
+  * Canais
+  * Mercados
+  * Funções das partes interessadas
 
 * **Básico: Gerenciamento de marketing**: ideal para organizações que estabelecem a base de um sistema de marketing básico. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
 
-   * Campaign
-   * Personas
-   * Marcas
-   * Produtos
+  * Campaign
+  * Personas
+  * Marcas
+  * Produtos
 
 * **Avançado: Gerenciamento de marketing**: apropriado para equipes prontas para explorar estratégias de marketing mais avançadas. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
 
-   * Campanhas
-   * Programas
-   * Regiões
-   * Estágios de Jornada do cliente
-   * Públicos-alvo
-   * Entregáveis
-   * Marcas
+  * Campanhas
+  * Programas
+  * Regiões
+  * Estágios de Jornada do cliente
+  * Públicos-alvo
+  * Entregáveis
+  * Marcas
 
 * **Empresa: Gerenciamento de marketing**: projetado para organizações grandes ou maduras com sistemas de marketing complexos. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
 
-   * Campanhas
-   * Programas
-   * Táticas
-   * Atividades
-   * Produtos
-   * Entregáveis
-   * Públicos-alvo
-   * Regiões
-   * Sub-regiões
-   * Parceiros
-   * Casos de uso
-   * Estágios de Jornada do cliente
+  * Campanhas
+  * Programas
+  * Táticas
+  * Atividades
+  * Produtos
+  * Entregáveis
+  * Públicos-alvo
+  * Regiões
+  * Sub-regiões
+  * Parceiros
+  * Casos de uso
+  * Estágios de Jornada do cliente
 
 * Gerenciamento de vendas: você pode criar um sistema de vendas abrangente que simplifique seu processo de vendas e melhore a eficiência. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
 
-   * Oportunidade
-   * Atividade
-   * Campaign
-   * Conta
-   * Lead
-   * Contato
-   * Região
-   * Setor
-   * Centro de compras
-   * Produto/Serviço
-   * Concorrência
+  * Oportunidade
+  * Atividade
+  * Campaign
+  * Conta
+  * Lead
+  * Contato
+  * Região
+  * Setor
+  * Centro de compras
+  * Produto/Serviço
+  * Concorrência
 
 
 * Gerenciamento de produtos: você pode criar um processo de gerenciamento de produtos eficiente e estruturado usando esse modelo. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
 
-   * Tema
-   * Iniciativa
-   * Épico
-   * História de usuário
-   * Cliente
-   * Sprint
-   * Equipe do produto
-   * Solicitações de recursos
-   * Setor
+  * Tema
+  * Iniciativa
+  * Épico
+  * História de usuário
+  * Cliente
+  * Sprint
+  * Equipe do produto
+  * Solicitações de recursos
+  * Setor
 
 ## Vários modelos de espaço de trabalho do Workfront Planning
 
@@ -203,56 +210,56 @@ O conjunto de modelos de vários espaços de trabalho contém os seguintes model
   >Usamos o nome &quot;Fréscopa&quot; apenas como um exemplo geral de uma empresa.
 
 
-   * Jornadas do cliente
-   * Países
-   * Canais
-   * Regiões
-   * Estados, províncias ou prefeituras
-   * Idiomas
-   * Plataformas
-   * Tipos de experiência
-   * Anos
-   * Trimestres
-   * Estratégias de mensagens
-   * Públicos-alvo
-   * Personas
-   * Produtos
-   * Marcas
-   * Categorias de produto
-   * Valores
-   * Visão e missão
-   * Pilares
-   * Indicadores-chave de desempenho
+  * Jornadas do cliente
+  * Países
+  * Canais
+  * Regiões
+  * Estados, províncias ou prefeituras
+  * Idiomas
+  * Plataformas
+  * Tipos de experiência
+  * Anos
+  * Trimestres
+  * Estratégias de mensagens
+  * Públicos-alvo
+  * Personas
+  * Produtos
+  * Marcas
+  * Categorias de produto
+  * Valores
+  * Visão e missão
+  * Pilares
+  * Indicadores-chave de desempenho
 
 * **2.Fréscopa Global Marketing**: o espaço de trabalho centralizado para gerenciar a estratégia e a execução de marketing corporativo da Fréscopa. Ele reúne campanhas, conteúdo e métricas para impulsionar o impacto da marca.
 
-   * Campanhas
-   * Táticas do canal
-   * Experiências
-   * Eventos
+  * Campanhas
+  * Táticas do canal
+  * Experiências
+  * Eventos
 
 * **3.Fréscopa Social Marketing**: o espaço de trabalho dedicado para gerenciar a presença e as campanhas de mídia social da Fréscopa. Centraliza o planejamento, a publicação e o rastreamento do desempenho em todas as plataformas sociais.
 
-   * Influenciadores
+  * Influenciadores
 
 * **4.Fréscopa Media &amp; PR**: onde as equipes de Mídia e PR coordenam atividades em apoio aos objetivos globais de Marketing.
 
-   * Repórteres
-   * Meios de comunicação
-   * Envolvimentos de mídia
+  * Repórteres
+  * Meios de comunicação
+  * Envolvimentos de mídia
 
 * **5.Eventos Globais da Fréscopa**: um local centralizado para planejar e rastrear eventos da Fréscopa em todas as regiões, países e Unidades de Negócios.
 
-   * Tipos de evento
-   * Tipos de fluxo de trabalho
-   * Alto-falantes
-   * Locais do evento
-   * Tipo de público-alvo do evento
+  * Tipos de evento
+  * Tipos de fluxo de trabalho
+  * Alto-falantes
+  * Locais do evento
+  * Tipo de público-alvo do evento
 
 * **6.Liderança da Empresa Executiva Fréscopa**: o espaço de trabalho centralizado para líderes estratégicos interagirem com dados acionáveis, como Metas e Objetivos da Empresa.
 
-   * Metas empresariais
-   * Objetivos do Departamento
-   * Objetivos da equipe
-   * Resultados principais
+  * Metas empresariais
+  * Objetivos do Departamento
+  * Objetivos da equipe
+  * Resultados principais
 

@@ -4,13 +4,20 @@ description: Outras melhorias durante o período do terceiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 2%
-
 ---
-
 # Outras melhorias durante o período do terceiro trimestre de 2026
 
 Esta página descreve as melhorias feitas com a versão do terceiro trimestre de 2026 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -22,7 +29,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Pré-visualização e produção para todos os clientes: a partir de 7 de julho de 2026Fora do cronograma&rbrack;{type=Neutral}
+>Pré-visualização e produção para todos os clientes: a partir de 7 de julho de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 No momento, estamos otimizando o arquivamento de comentários para comentários com mais de 1 ano para todos os objetos do Workfront que exibem uma área Atualizações. Isso é um esforço interno e não deve afetar sua experiência com a área Atualizações. Não há alterações visuais na área Atualizações para nenhum tipo de objeto e não há alterações na funcionalidade com esta atualização. Todos os comentários permanecem visíveis para todos os tipos de objeto.
 
@@ -32,7 +40,9 @@ Para obter informações, consulte [Visão geral da seção Atualizações](/hel
 
 >[!NOTE]
 >
->Visualização: 7 de julho de 2026Versão rápida de produção: 15 de julho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 7 de julho de 2026
+>Versão rápida de produção: 15 de julho de 2026
+>Produção para todos: 16 de julho de 2026
 
 Atualizamos a aparência dos ícones de navegação geral no Workfront, incluindo o Menu principal e os ícones da barra de navegação, para fornecer um design moderno e uma experiência consistente com outros aplicativos da Adobe. Além disso, a experiência de adicionar e remover páginas fixadas foi simplificada para exigir menos cliques.
 
@@ -62,7 +72,9 @@ Essa alteração está sendo implementada para os clientes em fases. Essa págin
 
 >[!NOTE]
 >
->Visualização: 28 de maio de 2026Versão rápida de produção: 11 de junho de 2026Produção para todos: 16 de julho de 2026
+>Visualização: 28 de maio de 2026
+>Versão rápida de produção: 11 de junho de 2026
+>Produção para todos: 16 de julho de 2026
 
 Vários tipos de campo em listas aprimoradas foram atualizados para incluir navegação pelo teclado e outros aprimoramentos.
 

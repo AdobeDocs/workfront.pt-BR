@@ -4,18 +4,21 @@ title: Acessar a ajuda do Adobe Workfront
 description: O Workfront oferece uma grande variedade de conteúdo para ajudá-lo a encontrar respostas para suas dúvidas relacionadas à funcionalidade nos vários produtos oferecidos pelo Workfront.
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-TQID: https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk
+TQID: 'https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 183
+source-wordcount: '183'
 ht-degree: 19%
-
 ---
-
 # Acessar a ajuda do [!DNL Adobe Workfront]
 
 O [!DNL Workfront] oferece uma grande variedade de conteúdo para ajudá-lo a encontrar respostas para suas dúvidas relacionadas à funcionalidade nos vários produtos oferecidos pelo [!DNL Workfront].
@@ -39,5 +42,5 @@ Além de pesquisar a documentação de ajuda, você também pode acessar os segu
 
 >[!NOTE]
 >
->Você também pode acessar a ajuda pelo ícone da central de ajuda na parte superior direita do cabeçalho. Para obter mais informações, consulte [Interface e administração do CX Enterprise](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud).
+>Você também pode acessar a ajuda pelo ícone da central de ajuda na parte superior direita do cabeçalho. Para obter mais informações, consulte [interface e administração do CX Enterprise](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud).
 

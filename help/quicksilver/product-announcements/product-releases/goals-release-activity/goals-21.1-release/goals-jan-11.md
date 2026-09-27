@@ -5,18 +5,26 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 9898531c-f520-46ed-8943-0878e5193a33
-TQID: https://experienceleague.adobe.com/22mMyIr-ezmtfD6pkPhmn-0n04x2K6hwMtASaE--zRA
+TQID: 'https://experienceleague.adobe.com/22mMyIr-ezmtfD6pkPhmn-0n04x2K6hwMtASaE--zRA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 607
+source-wordcount: '607'
 ht-degree: 1%
-
 ---
-
 # Atividade de lançamento do Adobe Workfront Goals 21.1: Semana de 11 de janeiro de 2021
 
 Esta página descreve todas as melhorias feitas com a versão 21.1 do Adobe Workfront Goals para o ambiente de Pré-visualização na semana de 11 de janeiro de 2021. Essas melhorias serão disponibilizadas no ambiente de Produção no primeiro trimestre de 21.1.

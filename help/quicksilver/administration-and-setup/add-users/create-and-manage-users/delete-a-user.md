@@ -8,24 +8,30 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-TQID: https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8
+TQID: 'https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: '835'
 ht-degree: 5%
-
 ---
-
 # Excluir usuários
 
 <!--Remove me October 2026-->
@@ -96,17 +102,17 @@ A desativação de um usuário faz com que as seguintes coisas aconteçam:
 * Os objetos não podem mais ser compartilhados com o usuário.
 * Sua associação com os seguintes objetos permanece intacta:
 
-   * Tarefas, problemas, projetos, portfólios
-   * Painéis
+  * Tarefas, problemas, projetos, portfólios
+  * Painéis
 
-     >[!NOTE]
-     >
-     >Se você desativar um usuário e não puder mais exibir os relatórios ou painéis associados a um usuário, talvez seja necessário atualizar o campo **Executar este relatório com os Direitos de Acesso de:**.\
-     >Para saber mais, consulte [Por que não posso acessar um relatório de propriedade de um usuário desativado?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) do artigo [Perguntas frequentes sobre relatórios](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+    >[!NOTE]
+    >
+    >Se você desativar um usuário e não puder mais exibir os relatórios ou painéis associados a um usuário, talvez seja necessário atualizar o campo **Executar este relatório com os Direitos de Acesso de:**.\
+    >Para saber mais, consulte [Por que não posso acessar um relatório de propriedade de um usuário desativado?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) do artigo [Perguntas frequentes sobre relatórios](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
-   * Documentos
-   * Atualizações
-   * Horas
+  * Documentos
+  * Atualizações
+  * Horas
 
 * Se o usuário tiver feito check-out de documentos, eles permanecerão com check-out quando você os desativar. Somente um administrador do Workfront pode fazer o check-in deles novamente. Para obter mais informações sobre o check-out de documentos, consulte [Check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
 
@@ -119,8 +125,8 @@ Excluir um usuário faz com que as seguintes coisas aconteçam:
 * Os objetos não podem mais ser compartilhados com o usuário.
 * Exclui a associação desse usuário com os seguintes objetos:
 
-   * Tarefas, problemas, projetos, portfólio
-   * Painéis
+  * Tarefas, problemas, projetos, portfólio
+  * Painéis
 
   <!--
 
@@ -132,12 +138,12 @@ Excluir um usuário faz com que as seguintes coisas aconteçam:
 
    -->
 
-   * Atualizações
-   * Horas
+  * Atualizações
+  * Horas
 
-     >[!NOTE]
-     >
-     >Esses objetos permanecem no Workfront, mas o proprietário do objeto agora está em branco.
+    >[!NOTE]
+    >
+    >Esses objetos permanecem no Workfront, mas o proprietário do objeto agora está em branco.
 
 * Se o usuário tiver carregado algum documento na área Documentos na Barra de navegação global, os documentos também serão excluídos.
 * Se o usuário tiver feito check-out dos documentos que possui e os documentos forem carregados na área Documentos principal (acessada no Menu principal), os documentos serão excluídos com o usuário. Para obter mais informações sobre o check-out de documentos, consulte [Check-out de documentos](../../../documents/managing-documents/check-out-documents.md).

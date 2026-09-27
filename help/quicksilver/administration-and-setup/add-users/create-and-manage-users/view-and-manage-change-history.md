@@ -6,13 +6,20 @@ description: O histórico de alterações permite exibir um log de alterações 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1e06115eb5688271e2a6f4c8a41647eb644d8292
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 5%
-
 ---
-
 # Exibir e gerenciar o histórico de alterações
 
 {{preview-fast-release-general}}

@@ -6,18 +6,21 @@ description: 'Este artigo lista as notificações no aplicativo que você pode r
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
+TQID: 'https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 2%
-
 ---
-
 # Visão geral das notificações no aplicativo
 
 Este artigo lista as notificações no aplicativo que você pode receber. As Notificações no aplicativo mantêm você informado sobre dois tipos de informações: notificações de anúncio e notificações de item de trabalho. Eles estão disponíveis no aplicativo web e no aplicativo móvel.
@@ -103,9 +106,9 @@ Ao clicar no ícone numerado ![Ícone Notificações](assets/notifications-icon-
 * ![Ícone de problema](assets/issue.png) [!UICONTROL Problema atribuído a] [nome da equipe] - [nome do atribuidor]
 * ![Tarefa atribuída a você](assets/icon-taskassngdtoyou.png) [!UICONTROL Tarefa atribuída a] [nome da equipe] - [nome do atribuidor]
 
-   * As notificações de atribuição são enviadas apenas quando o status do projeto está definido como [!UICONTROL Atual] (ou para um status personalizado equivalente a [!UICONTROL Atual]).
-   * Não se destina a que Solicitantes e Revisores recebam trabalhos. Portanto, não são notificados se estiverem atribuídos a tarefas e problemas.
-   * Se você atribuir um trabalho a si mesmo ou a uma equipe da qual pertence, não receberá uma notificação.
+  * As notificações de atribuição são enviadas apenas quando o status do projeto está definido como [!UICONTROL Atual] (ou para um status personalizado equivalente a [!UICONTROL Atual]).
+  * Não se destina a que Solicitantes e Revisores recebam trabalhos. Portanto, não são notificados se estiverem atribuídos a tarefas e problemas.
+  * Se você atribuir um trabalho a si mesmo ou a uma equipe da qual pertence, não receberá uma notificação.
 
 ### [!UICONTROL Comentários]
 

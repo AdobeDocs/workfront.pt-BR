@@ -6,25 +6,31 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-TQID: https://experienceleague.adobe.com/Q2r-5wTiX9FLEQBmyh-E7JaIwPHIoHlDmTDSdAxujEs
+TQID: 'https://experienceleague.adobe.com/Q2r-5wTiX9FLEQBmyh-E7JaIwPHIoHlDmTDSdAxujEs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 946
+source-wordcount: '946'
 ht-degree: 0%
-
 ---
-
 # Aprimoramentos de admin na 22.2
 
 Esta página descreve todas as melhorias de Administrador feitas com a versão 22.2 no ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção
@@ -83,18 +89,18 @@ Todas essas alterações desativam uma opção que estava ativada anteriormente 
 
 * Em um novo nível de acesso com um tipo de licença de Plano:
 
-   * Compartilhar em todo o sistema agora está desativado para projetos, tarefas, problemas, portfólios, programas, relatórios, filtros, documentos e modelos.
-   * Exibir relatórios internos e compartilhar relatórios publicamente também estão desativados para relatórios.
-   * Compartilhar documentos publicamente também está desativado para documentos.
+  * Compartilhar em todo o sistema agora está desativado para projetos, tarefas, problemas, portfólios, programas, relatórios, filtros, documentos e modelos.
+  * Exibir relatórios internos e compartilhar relatórios publicamente também estão desativados para relatórios.
+  * Compartilhar documentos publicamente também está desativado para documentos.
 
 * Em um novo nível de acesso com um tipo de licença de Trabalho:
 
-   * O compartilhamento em todo o sistema agora está desativado para filtros e documentos.
-   * Compartilhar documentos publicamente também está desativado para documentos.
+  * O compartilhamento em todo o sistema agora está desativado para filtros e documentos.
+  * Compartilhar documentos publicamente também está desativado para documentos.
 
 * Em um novo nível de acesso com um tipo de licença de Solicitação ou Revisão:
 
-   * O compartilhamento em todo o sistema agora está desativado para filtros.
+  * O compartilhamento em todo o sistema agora está desativado para filtros.
 
 ## Desativar um grupo
 

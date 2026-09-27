@@ -6,13 +6,25 @@ description: Inventarie, classifique e corrija cenários do Workfront Fusion cri
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
-
 ---
-
 # Atualizar cenários do Workfront Fusion para revisão e aprovação unificadas
 
 Os cenários do Workfront Fusion criados na revisão herdada do Workfront não funcionam automaticamente em projetos de armazenamento na nuvem da Adobe. Módulos específicos de prova, webhooks e endpoints de API têm equivalentes diretos em alguns casos e alterações significativas em outros. Este artigo ajuda você a inventariar cenários afetados, classificá-los e decidir um caminho de correção antes de trazer equipes que dependem desses cenários para a implantação do Adobe Cloud Storage.

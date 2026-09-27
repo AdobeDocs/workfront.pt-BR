@@ -9,23 +9,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+TQID: 'https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2290
-ht-degree: 2%
-
+source-wordcount: '2416'
+ht-degree: 3%
 ---
-
 # Atividade de lançamento do terceiro trimestre de 2025 do Planejamento do Adobe Workfront
 
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do terceiro trimestre de 2025.
@@ -38,7 +44,9 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 
 >[!NOTE]
 >
->Visualização: 10 de julho de 2025>Produção para todos: 10 de julho de 2025>[!BADGE Fora do cronograma]{type=Neutral}
+>Visualização: 10 de julho de 2025
+>Produção para todos: 10 de julho de 2025
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 
 Atualizamos a guia Configurações avançadas ao criar ou editar um tipo de registro.
@@ -54,7 +62,9 @@ Para obter mais informações, consulte [Criar tipos de registro](/help/quicksil
 
 >[!NOTE]
 >
->Visualização: 10 de julho de 2025>Produção para todos: 10 de julho de 2025>[!BADGE Fora do cronograma]{type=Neutral}
+>Visualização: 10 de julho de 2025
+>Produção para todos: 10 de julho de 2025
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora, quando você adiciona uma equipe a um comentário de registro no Workfront Planning, todos os membros da equipe recebem uma notificação no aplicativo e uma notificação por email sobre o comentário. Antes dessa melhoria, somente os usuários adicionados aos comentários individualmente eram notificados.
 
@@ -64,7 +74,9 @@ Para obter informações, consulte Gerenciar comentários de registro [Gerenciar
 
 >[!NOTE]
 >
->Visualização: 10 de julho de 2025>Versão rápida de produção: 14 de agosto de 2025>Produção para todos: 16 de outubro de 2025
+>Visualização: 10 de julho de 2025
+>Versão rápida de produção: 14 de agosto de 2025
+>Produção para todos: 16 de outubro de 2025
 
 
 Agora, quando você tiver agrupamentos aplicados a uma visualização de tabela, adicionar um registro à tabela preencherá automaticamente os campos associados aos agrupamentos aos quais você adiciona o registro.
@@ -79,7 +91,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
 >[!NOTE]
 >
->Visualização: 9 de julho de 2025>Produção para todos: 17 de julho de 2025
+>Visualização: 9 de julho de 2025
+>Produção para todos: 17 de julho de 2025
 
 Agora é possível compartilhar uma exibição, bem como um tipo de registro, no mesmo botão na página do tipo de registro. Antes desse aprimoramento, você só podia compartilhar o tipo de registro no botão Compartilhar na página do tipo de registro e uma exibição na guia da exibição.
 
@@ -116,11 +129,11 @@ Para tornar a experiência ao compartilhar um formulário de solicitação no Wo
 * Separamos a caixa de diálogo Compartilhar formulário em compartilhamento interno (seleção de com quem compartilhar) e compartilhamento público (criação de um link de compartilhamento).
 * Agora você pode compartilhar formulários de solicitação com o seguinte:
 
-   * Usuários
-   * Equipes
-   * Grupos
-   * Empresas
-   * Funções de trabalho
+  * Usuários
+  * Equipes
+  * Grupos
+  * Empresas
+  * Funções de trabalho
 
   Anteriormente, só era possível compartilhar com base no acesso ao espaço de trabalho ou ao compartilhar um link.
 * Removemos permissões herdadas para formulários de solicitação. Agora, o formulário de solicitação é compartilhado somente com aqueles que você seleciona.
@@ -153,7 +166,8 @@ Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quic
 >[!NOTE]
 >
 >* Visualização: 26 de junho de 2025
->* Produção para todos: 26 de junho de 2025>[!BADGE Fora do cronograma]{type=Neutral}
+>* Produção para todos: 26 de junho de 2025
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora, ao conectar tipos de registro e trazer um campo de fórmula como uma pesquisa, você pode aplicar as funções agregadas (SUM, AVERAGE, MIN, MAX etc.) dependendo do formato do campo de fórmula. Por exemplo, se o campo de fórmula for numérico, você poderá usar funções como SUM ou AVG; se o campo de fórmula estiver formatado como texto, as funções agregadas como SUM não serão aplicadas.
 
@@ -188,7 +202,8 @@ Para obter mais informações, consulte [Habilitar trimestres personalizados par
 >[!NOTE]
 >
 >* Visualização: 12 de junho de 2025
->* Produção para todos: 12 de junho de 2025>[!BADGE Fora do cronograma]{type=Neutral}
+>* Produção para todos: 12 de junho de 2025
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Introduzimos uma melhoria que atualiza todos os campos de fórmula dependentes uns dos outros ao mesmo tempo depois que um campo referenciado é atualizado manualmente. Os campos de fórmula que estão a 2, 3 ou 4 campos do campo cujo valor é alterado manualmente e que fazem referência uns aos outros agora serão atualizados automaticamente ao mesmo tempo.
 
@@ -201,7 +216,8 @@ Para obter informações, consulte [Visão geral dos campos da fórmula](/help/q
 >[!NOTE]
 >
 >* Visualização: 6 de junho de 2025
->* Produção para todos os clientes: 6 de junho de 2025>[!BADGE Fora do cronograma]{type=Neutral}
+>* Produção para todos os clientes: 6 de junho de 2025
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Adicionamos as seguintes expressões aos campos de fórmula:
 
@@ -228,12 +244,12 @@ Adicionamos a seguinte funcionalidade a uma lista de solicitações na guia Plan
 * Coluna Informado por para indicar a pessoa que adicionou uma solicitação
 * Filtros para limitar o número de solicitações exibidas na guia Planning. Você pode filtrar a lista pelos seguintes itens:
 
-   * o Workspace do qual o formulário de solicitação se originou
-   * o tipo de registro associado ao formulário de solicitação
-   * a Data de Entrada da solicitação
-   * o nome do formulário de solicitação
-   * o Status das solicitações
-   * o nome da pessoa que inseriu a solicitação.
+  * o Workspace do qual o formulário de solicitação se originou
+  * o tipo de registro associado ao formulário de solicitação
+  * a Data de Entrada da solicitação
+  * o nome do formulário de solicitação
+  * o Status das solicitações
+  * o nome da pessoa que inseriu a solicitação.
 
 * Controle de colunas para exibir ou ocultar campos (ou colunas) na lista de solicitações do Planning.
 
@@ -343,7 +359,7 @@ Antes desse aprimoramento, os usuários com todos os níveis de licença precisa
 >[!NOTE]
 >
 >Esta alteração ficará visível para todos os usuários novos e existentes com uma licença de Administrador do sistema e Padrão.
->Os usuários existentes atribuídos a um modelo de layout continuarão a ver tudo de acordo com as configurações definidas no modelo de layout.
+>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
 
 Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

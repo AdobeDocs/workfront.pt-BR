@@ -10,20 +10,27 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 2%
-
+source-wordcount: '374'
+ht-degree: 54%
 ---
-
 # Visão geral das licenças herdadas
 
 <!-- Audited: 12/2023 -->
 
 >[!NOTE]
 >
->As informações neste artigo se referem aos níveis de acesso herdados. Para obter informações sobre os níveis de acesso atuais, consulte [Visão geral sobre novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>As informações contidas neste artigo referem-se aos níveis de acesso legados. Para obter informações sobre os níveis de acesso atuais, consulte [Visão geral dos novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Sua organização adquiriu um determinado número de licenças quando adquiriu a Adobe Workfront. Como administrador do Workfront, você fornece um dos cinco tipos de licenças do Workfront a cada usuário ao atribuir a ele um nível de acesso.
 
@@ -63,4 +70,4 @@ Por exemplo, se você atribuir o nível de acesso Planejador a um usuário, o n�
 
 Você pode visualizar as licenças e os níveis de acesso atribuídos aos usuários. Para obter mais informações, consulte [Listar os níveis de acesso e as licenças dos usuários](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-Para obter informações sobre como gerenciar suas licenças, consulte [Gerenciar licenças disponíveis em seu sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Para obter informações sobre como gerenciar suas licenças, consulte [Gerenciar licenças disponíveis no sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

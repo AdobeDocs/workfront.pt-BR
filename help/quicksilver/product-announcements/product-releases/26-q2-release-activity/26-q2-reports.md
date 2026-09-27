@@ -5,15 +5,22 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 8%
-
+source-wordcount: '929'
+ht-degree: 1%
 ---
-
 # Melhorias na geração de relatórios no segundo trimestre de 2026
 
 Esta página descreve os aprimoramentos de relatórios feitos com a versão do segundo trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
@@ -25,8 +32,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >[!NOTE]
 >
 >Visualização: 2 de abril de 2026
->Versão rápida de produção: quinta-feira, 15 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 Adicionamos um campo booleano `currentVersion` ao objeto Versão do documento para facilitar a identificação e o relatório da versão mais recente de um documento.
 Com esta atualização:
@@ -36,8 +43,8 @@ Com esta atualização:
 
 * Quando uma nova versão é carregada:
 
-   * A nova versão está marcada como `TRUE`
-   * As versões anteriores estão marcadas como `FALSE`
+  * A nova versão está marcada como `TRUE`
+  * As versões anteriores estão marcadas como `FALSE`
 
 * Os relatórios podem identificar consistentemente as versões atuais nos painéis do Canvas e nos relatórios herdados
 
@@ -48,8 +55,8 @@ Os filtros existentes para relatórios clássicos usando o `isCurrentVersion` ou
 >[!NOTE]
 >
 >Visualização: 3 de abril de 2026
->Versão rápida de produção: quinta-feira, 15 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 
 O Workfront agora inclui um novo tipo de entrega de link para relatórios agendados. Em vez de gerar e anexar um arquivo, essa opção envia um email contendo um link direto para o relatório no Workfront, permitindo que os destinatários visualizem `{{$include }}` os dados mais atuais no aplicativo.
 
@@ -64,8 +71,8 @@ Para obter mais informações, consulte [Agendar uma entrega automática de rela
 >[!NOTE]
 >
 >Visualização: 2 de abril de 2026
->Versão rápida de produção: quinta-feira, 15 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Versão rápida de produção: 15 de abril de 2026
+>Produção para todos: 16 de abril de 2026
 >
 >Painéis do Canvas atualmente está na versão beta.
 
@@ -80,8 +87,8 @@ Para obter mais informações, consulte [Criar um relatório de KPI em um Painel
 >[!NOTE]
 >
 >Visualização: 12 de março de 2026
->Versão rápida de produção: sexta-feira, 12 de março de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Lançamento rápido de produção: 12 de março de 2026
+>Produção para todos: 16 de abril de 2026
 
 Agora você pode autenticar para a Conexão de dados usando chaves RSA ou conexões de tokens de acesso programático (PAT), adicionando alternativas mais seguras e flexíveis às credenciais tradicionais de nome de usuário/senha.
 
@@ -96,8 +103,8 @@ Essas novas opções permitem que as organizações mantenham conexões estávei
 >[!NOTE]
 >
 >Visualização: 26 de fevereiro de 2026
->Versão rápida de produção: sexta-feira, 12 de março de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Lançamento rápido de produção: 12 de março de 2026
+>Produção para todos: 16 de abril de 2026
 
 O rótulo de campo personalizado agora é exibido antes do nome do campo e do objeto nas ferramentas de criação de relatório, ajudando a localizar campos mais facilmente. Os rótulos de campo também são exibidos ao definir filtros, visualizações e agrupamentos em listas.
 
@@ -110,15 +117,15 @@ Para obter mais informações, consulte [Criar um relatório personalizado](/hel
 >[!NOTE]
 >
 >Visualização: 26 de fevereiro de 2026
->Versão rápida de produção: sexta-feira, 12 de março de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Lançamento rápido de produção: 12 de março de 2026
+>Produção para todos: 16 de abril de 2026
 
 Agora é possível organizar e compartilhar relatórios usando pastas de relatórios compartilháveis. Esse novo recurso ajuda as equipes que gerenciam grandes volumes de relatórios a manter um controle de acesso escalável e consistente:
 
 * **Criar estruturas de pastas organizadas**: os administradores do sistema podem criar pastas de nível superior, e os usuários com acesso de gerenciamento podem criar subpastas de até quatro níveis de profundidade.
 * **Controles de permissão granulares**: compartilhe pastas com dois níveis de permissão:
-   * Exibição: os usuários podem abrir relatórios e compartilhar pastas
-   * Gerenciar: Os usuários podem editar os detalhes da pasta, adicionar/remover itens e receber automaticamente acesso de gerenciamento a todos os relatórios na pasta
+  * Exibição: os usuários podem abrir relatórios e compartilhar pastas
+  * Gerenciar: Os usuários podem editar os detalhes da pasta, adicionar/remover itens e receber automaticamente acesso de gerenciamento a todos os relatórios na pasta
 * **Permissões herdadas**: permissões em cascata de pastas pai para todas as subpastas e relatórios dentro da árvore de pastas
 * **Experiência de lista aprimorada**: ao habilitar pastas compartilháveis, você terá acesso à experiência de lista aprimorada. Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -130,8 +137,8 @@ Para obter mais informações, consulte [Usar pastas de relatórios compartilhá
 >[!NOTE]
 >
 >Visualização: 26 de fevereiro de 2026
->Versão rápida de produção: sexta-feira, 12 de março de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
+>Lançamento rápido de produção: 12 de março de 2026
+>Produção para todos: 16 de abril de 2026
 
 >[!NOTE]
 >
@@ -139,6 +146,6 @@ Para obter mais informações, consulte [Usar pastas de relatórios compartilhá
 
 Os gráficos que agrupam dados por data agora exibem rótulos de data mais claros e legíveis. Com essa atualização, os rótulos de data se ajustam dinamicamente com base na opção Agrupar por selecionada, como dia, semana, mês ou ano, facilitando a leitura e a interpretação rápida dos gráficos:
 
-<table> <tbody> <tr> <td>Day</td> <td>Exibe a data completa. Exemplo: 12/3/2026</td> </tr> <tr> <td>Semana</td> <td>Exibe uma data de início da semana formatada. Exemplo, 8 de março de 2026</td> </tr> <tr> <td>Month</td> <td>Exibe o mês e o ano. Exemplo em março de 2026</td> </tr> <tr> <td>Year</td> <td>Exibe somente o ano. Exemplo: 2026</td> </tr> </tbody> </table>
+<table> <tbody> <tr> <td>Dia</td> <td>Exibe a data completa. Exemplo: 12/3/2026</td> </tr> <tr> <td>Semana</td> <td>Exibe uma data de início da semana formatada. Exemplo, 8 de março de 2026</td> </tr> <tr> <td>Month</td> <td>Exibe o mês e o ano. Exemplo em março de 2026</td> </tr> <tr> <td>Year</td> <td>Exibe somente o ano. Exemplo: 2026</td> </tr> </tbody> </table>
 
 Anteriormente, os agrupamentos de gráfico sempre mostravam a data de início do período selecionado em um formato numérico.

@@ -8,22 +8,27 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-TQID: https://experienceleague.adobe.com/a2VtxPZJ9Ut4VHmwqhrCbUH-3i2nMqOnzR18vyg8buQ
+TQID: 'https://experienceleague.adobe.com/a2VtxPZJ9Ut4VHmwqhrCbUH-3i2nMqOnzR18vyg8buQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 914
-ht-degree: 98%
-
+source-wordcount: '936'
+ht-degree: 100%
 ---
-
 # Cronograma e processo de lançamento do Adobe Workfront
 
 ## Atualizar programação para Pré-visualização
@@ -66,24 +71,24 @@ Se os recursos forem removidos da versão agendada após todos os recursos estar
 ## Versões beta
 
 Às vezes, a Workfront lança novos recursos como parte de um programa beta.
-As informações específicas sobre cada beta, incluindo como participar, versões quando cada programa beta é iniciado e todos os programas beta são diferentes.
+As informações específicas sobre cada beta, incluindo como participar, são disponibilizadas quando cada programa beta é lançado, e todos os programas beta são diferentes.
 
 Os seguintes programas beta estão disponíveis no Workfront:
 
 * **Beta fechado ou privado**: as características a seguir são de uma versão beta fechada ou privada:
 
-   * Os recursos estão disponíveis para um pequeno grupo de clientes, cuidadosamente selecionados pelo Workfront.
-   * Os participantes normalmente trabalham com um gerente de produto e fornecem feedback regularmente.
-   * Os novos recursos que fazem parte do beta podem ser lançados em pré-visualização ou produção, ou em um ambiente separado disponibilizado para fins do programa beta. Os recursos beta fechados são lançados em intervalos aleatórios e sem aviso.
-   * Não há informações de lançamento para betas fechados nas páginas de lançamentos do produto.
+  * Os recursos estão disponíveis para um pequeno grupo de clientes, cuidadosamente selecionados pelo Workfront.
+  * Os participantes normalmente trabalham com um gerente de produto e fornecem feedback regularmente.
+  * Os novos recursos que fazem parte do beta podem ser lançados em pré-visualização ou produção, ou em um ambiente separado disponibilizado para fins do programa beta. Os recursos beta fechados são lançados em intervalos aleatórios e sem aviso.
+  * Não há informações de lançamento para betas fechados nas páginas de lançamentos do produto.
 
 * **Beta aberto ou público**: as características a seguir são de uma versão beta aberta ou pública:
 
-   * Os recursos estão disponíveis para todos os clientes do Workfront, mas estão em estado beta. Eles podem nem sempre ser totalmente funcionais e o feedback é sempre bem-vindo.
-   * A participação em um beta público é opcional e os clientes podem decidir se ativam os recursos beta.
-   * Os novos recursos que fazem parte do beta podem ser lançados em pré-visualização ou produção.
-   * Os recursos podem ser lançados com mais frequência do que os padrões de lançamento normais do Workfront.
-   * As informações sobre quando os recursos são liberados para um beta público são incluídas nas páginas de versão do produto.
+  * Os recursos estão disponíveis para todos os clientes do Workfront, mas estão em estado beta. Eles podem nem sempre ser totalmente funcionais e o feedback é sempre bem-vindo.
+  * A participação em um beta público é opcional e os clientes podem decidir se ativam os recursos beta.
+  * Os novos recursos que fazem parte do beta podem ser lançados em pré-visualização ou produção.
+  * Os recursos podem ser lançados com mais frequência do que os padrões de lançamento normais do Workfront.
+  * As informações sobre quando os recursos são liberados para um beta público são incluídas nas páginas de versão do produto.
 
 Para obter informações sobre as notas de versão do produto, consulte [Versões do produto](../../product-announcements/product-releases/product-releases.md).
 

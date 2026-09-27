@@ -6,13 +6,14 @@ navigation-topic: use-the-desktop-proofing-viewer
 title: Solução de problemas de falhas de criação de prova
 description: O processo de criação de prova inclui a importação e a geração de prova. Ocasionalmente, ao criar uma prova, um arquivo pode não ser importado ou a prova pode não ser gerada após a importação do arquivo.
 author: Courtney
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 
 # Solução de problemas de falhas de criação de prova
 
@@ -47,11 +48,11 @@ O processo de criação de prova inclui a importação e a geração de prova. O
 
 * Ao revisar arquivos do PDF, os motivos para a falha de geração de prova incluem:
 
-   * Fontes e imagens são vinculadas de fontes externas (como do sistema de arquivos local)
+  * Fontes e imagens são vinculadas de fontes externas (como do sistema de arquivos local)
 
-     Fontes e imagens devem ser incorporadas ao arquivo PDF para serem exibidas em outro computador ou no Workfront Proof.
+    Fontes e imagens devem ser incorporadas ao arquivo PDF para serem exibidas em outro computador ou no Workfront Proof.
 
-   * Seu arquivo PDF contém camadas vazias ou campos transparentes ou sobrepostos.
+  * Seu arquivo PDF contém camadas vazias ou campos transparentes ou sobrepostos.
 
-     Se você não puder determinar qual camada ou objeto causa isso, exporte o design/documento como um PDF otimizado (isso remove todos os elementos indesejados).
+    Se você não puder determinar qual camada ou objeto causa isso, exporte o design/documento como um PDF otimizado (isso remove todos os elementos indesejados).
 
