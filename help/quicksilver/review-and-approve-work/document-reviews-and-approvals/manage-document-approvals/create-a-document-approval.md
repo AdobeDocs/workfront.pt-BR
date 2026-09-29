@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 267e7ab4279a86112b343d32e96b482a490d73c4
+source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 1%
@@ -111,10 +111,10 @@ Para criar um workflow de aprovação de estágio único:
    <td><strong>Adicionar nomes ou emails</strong></td>
    <td>Comece a digitar um nome de usuário ou de equipe para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.</td>
    </tr>
-   <tr class="preview">
-   <td><strong>Adicionar pessoas ou equipes na visualização</strong></td>
-   <td><p>Comece a digitar um nome de usuário, equipe ou endereço de email. A equipe é adicionada como um único aprovador ou revisador por padrão, mas você pode optar por adicionar cada membro da equipe como um participante individual.</p>
-   <p>Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez.</p></td>
+   <tr>
+   <td><strong><span class="preview">Adicionar pessoas ou equipes na visualização</span></strong></td>
+   <td><p><span class="preview">Comece a digitar um nome de usuário, equipe ou endereço de email. A equipe é adicionada como um único aprovador ou revisador por padrão, mas você pode optar por adicionar cada membro da equipe como um participante individual.</span></p>
+   <p><span class="preview">Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez.</span></p></td>
    </tr>
    <tr>
    <td><strong>É necessária apenas uma decisão (opcional)</strong></td>
@@ -181,10 +181,10 @@ Para criar um workflow avançado de aprovação:
    <td><strong>Adicionar nomes ou emails</strong></td>
    <td>Comece a digitar um nome de usuário ou de equipe para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.<p>Nota: Um revisor ou aprovador pode ser atribuído a apenas um estágio aberto por vez no mesmo ativo. Se vários estágios paralelos forem abertos simultaneamente, a mesma pessoa não poderá ser adicionada a mais de um.</p></td>
    </tr>
-   <tr class="preview">
-   <td><strong>Adicionar pessoas ou equipes na visualização</strong></td>
-   <td><p>Comece a digitar um nome de usuário, equipe ou endereço de email. A equipe é adicionada como um único aprovador ou revisador por padrão, mas você pode optar por adicionar cada membro da equipe como um participante individual.</p>
-   <p>Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez. Além disso, os participantes podem ser atribuídos somente a um estágio aberto por vez no mesmo ativo.</p></td>
+   <tr>
+   <td><strong><span class="preview">Adicionar pessoas ou equipes na visualização</span></strong></td>
+   <td><p><span class="preview">Comece a digitar um nome de usuário, equipe ou endereço de email. A equipe é adicionada como um único aprovador ou revisador por padrão, mas você pode optar por adicionar cada membro da equipe como um participante individual.</span></p>
+   <p><span class="preview">Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez. Além disso, os participantes podem ser atribuídos somente a um estágio aberto por vez no mesmo ativo.</span></p></td>
    </tr>
    <tr>
    <td><strong>É necessária apenas uma decisão (opcional)</strong></td>
@@ -247,10 +247,10 @@ Para criar um workflow de aprovação de estágio único:
    <td><strong>Adicionar nomes ou emails</strong></td>
    <td>Comece a digitar um nome de usuário ou email para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.</td>
    </tr>
-   <tr class="preview">
-   <td><strong>Adicionar pessoas ou equipes na visualização</strong></td>
-   <td><p>Comece digitando um nome de usuário, equipe ou endereço de email e escolha se eles são um <strong>Aprovador</strong> ou <strong>Revisor</strong>. O Workfront adiciona cada membro ativo de uma equipe individualmente.</p>
-   <p>Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez.</p></td>
+   <tr>
+   <td><strong><span class="preview">Adicionar pessoas ou equipes na visualização</span></strong></td>
+   <td><p><span class="preview">Comece digitando um nome de usuário, equipe ou endereço de email e escolha se eles são um <strong>Aprovador</strong> ou <strong>Revisor</strong>. O Workfront adiciona cada membro ativo de uma equipe individualmente.</span></p>
+   <p><span class="preview">Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez.</span></p></td>
    </tr>
    <tr>
    <td><strong>É necessária apenas uma decisão (opcional)</strong></td>
@@ -323,10 +323,10 @@ Para criar um workflow avançado de aprovação:
    <td><strong>Adicionar nomes ou emails</strong></td>
    <td>Comece a digitar um nome de usuário ou email para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.<p>Nota: Um revisor ou aprovador pode ser atribuído a apenas um estágio aberto por vez no mesmo ativo. Se vários estágios paralelos forem abertos simultaneamente, a mesma pessoa não poderá ser adicionada a mais de um.</p></td>
    </tr>
-   <tr class="preview">
-   <td><strong>Adicionar pessoas ou equipes na visualização</strong></td>
-   <td><p>Comece digitando um nome de usuário, equipe ou endereço de email e escolha se eles são um <strong>Aprovador</strong> ou <strong>Revisor</strong>. O Workfront adiciona cada membro ativo de uma equipe individualmente.</p>
-   <p>Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez. Além disso, os participantes podem ser atribuídos somente a um estágio aberto por vez no mesmo ativo.</p></td>
+   <tr>&gt;
+   <td><strong><span class="preview">Adicionar pessoas ou equipes na visualização</span></strong></td>
+   <td><p><span class="preview">Comece digitando um nome de usuário, equipe ou endereço de email e escolha se eles são um <strong>Aprovador</strong> ou <strong>Revisor</strong>. O Workfront adiciona cada membro ativo de uma equipe individualmente.</span></p>
+   <p><span class="preview">Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez. Além disso, os participantes podem ser atribuídos somente a um estágio aberto por vez no mesmo ativo.</span></p></td>
    </tr>
    <tr>
    <td><strong>É necessária apenas uma decisão (opcional)</strong></td>
