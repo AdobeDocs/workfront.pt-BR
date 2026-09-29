@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1ee0f2de61c518fc608a03045339ac9c50afc7f9
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2863'
 ht-degree: 9%
 ---
 # Visão geral da versão do quarto trimestre de 2026
@@ -707,11 +707,11 @@ Para obter informações sobre como baixar e atualizar o Visualizador de Provas 
 
 ## Avisos
 
-### Substituição de campos de taxa de custo e cobrança herdados
+### Substituição de campos de taxa de custo e cobrança herdados nas exibições de lista de funções de trabalho
 
 Com o tempo, introduzimos recursos aprimorados de gerenciamento de taxas e experiências dedicadas de Função de trabalho que fornecem uma abordagem mais completa e escalável para manter as informações de taxas. Como resultado, a administração de taxas está migrando para essas experiências dedicadas, em vez de fluxos de trabalho de gerenciamento baseados em lista.
 
-Com a versão de janeiro de 2027, os campos herdados **Faturamento por hora** e **Custo por hora** não estarão mais disponíveis na API do Workfront ou nas exibições de lista de Usuários e Funções de Trabalho, incluindo as configurações Filtro/Exibição/Agrupamento (tanto referências diretas quanto colunas calculadas do modo de texto).
+Com a versão de janeiro de 2027, os campos herdados **Faturamento por hora** e **Custo por hora** não estarão mais disponíveis na API do Workfront ou nas exibições de lista de Funções de trabalho, incluindo as configurações Filtro/Exibição/Agrupamento (tanto referências diretas quanto colunas calculadas do modo de texto).
 
 Como substituição nos relatórios, você pode usar o código recomendado do Modo de texto (use `costRates` ou `billingRates` conforme necessário):
 
@@ -724,15 +724,14 @@ Como substituição nos relatórios, você pode usar o código recomendado do Mo
     valueformat=HTML
     &quot;
 
-Para gerenciar e revisar taxas, use as experiências dedicadas de gerenciamento de taxas:
+Para gerenciar e revisar taxas de funções de trabalho, use as experiências dedicadas de gerenciamento de taxas:
 
-* Acessar taxas de usuário diretamente do perfil do usuário.
 * Acesse e gerencie taxas de funções de trabalho diretamente na página Função do trabalho > Taxas.
-* Use Relatórios de Taxas para revisar, analisar e gerar relatórios sobre informações de taxas entre usuários e funções de trabalho.
+* Use Relatórios de Taxa para revisar, analisar e relatar informações de taxa em funções de trabalho.
 
-Nenhuma ação é necessária para se preparar para a alteração. No entanto, os administradores que atualmente exibem os campos **Faturamento por Hora** e **Custo por Hora** nas exibições da lista de Usuários ou Funções de Trabalho devem atualizar seus fluxos de trabalho para usar as experiências de gerenciamento de taxa recomendadas descritas acima.
+Nenhuma ação é necessária para se preparar para a alteração. No entanto, os administradores que atualmente exibem os campos **Cobrança por Hora** e **Custo por Hora** nas exibições da lista de Funções de Trabalho devem atualizar seus fluxos de trabalho para usar as experiências de gerenciamento de taxa recomendadas descritas acima.
 
-Para obter informações sobre funções de trabalho e taxas de usuário, consulte [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) e [Editar perfil de usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obter informações sobre taxas de funções de trabalho, consulte [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### A autenticação somente senha para usuários de leitores de Data Connect termina em 8 de agosto de 2026
 
