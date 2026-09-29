@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
+source-git-commit: f894d1715579ab66cc5acb03ceaae5d70a203519
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 6%
@@ -150,9 +150,9 @@ Para criar um relatório para projetos que estão pendentes de aprovação de se
 
    O status do projeto será alterado para **Rejeitado** se o Plano de Negócio for rejeitado.
 
-   >[!NOTE]
-   >
-   >Não há notificações que alertem o usuário que enviou a aprovação do business case se a solicitação do projeto foi aprovada ou rejeitada.
+>[!NOTE]
+>
+>Não há notificações que alertem o usuário que enviou a aprovação do business case se a solicitação do projeto foi aprovada ou rejeitada.
 
 ## Aprove o business case acessando os projetos solicitados em um portfólio
 

@@ -27,12 +27,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1404'
 ht-degree: 6%
 ---
 # Agendar envio automático de relatórios
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -150,7 +152,7 @@ Para agendar um relatório para entrega automática:&#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repete</p> </td> 
-      <td> <p>Selecione se o relatório deve ser entregue diariamente, semanalmente, mensalmente ou anualmente.</p> </td> 
+      <td> <p>Selecione se o relatório deve ser entregue diariamente, semanalmente, mensalmente ou anualmente. <span class="preview">Em Visualizar, selecione se o relatório deve ser entregue diariamente, semanalmente ou mensalmente.</span></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repete a cada</p> </td> 
@@ -174,11 +176,15 @@ Para agendar um relatório para entrega automática:&#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Termina em</p> </td> 
-      <td>Selecione uma data para o término do delivery agendado.</td> 
+      <td><p>Selecione uma data para o término do delivery agendado.</p> <p class="preview">Em Visualizar, selecione uma data para o término do delivery agendado.</p> <p class="preview">Observação: a data de término não pode ser superior a 13 meses a partir do dia em que você criar ou atualizar a regra de entrega.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Nunca</p> </td> 
-      <td>Selecione <strong>Nunca</strong> se desejar que a entrega agendada dure indefinidamente.</td> 
+      <td><p>Selecione <strong>Nunca</strong> se desejar que a entrega agendada dure indefinidamente.</p> <p class="preview">Essa opção não está mais disponível em ambientes de Pré-visualização ou Lançamento Rápido.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><div class="preview"><p>Ativo</p></div></td> 
+      <td><div class="preview"><p>Ative para manter esta entrega ativa. Novos deliveries estão Ativos por padrão.</p> <p>Quando a data <strong>Termina em</strong> passar, o Workfront desativará automaticamente esse botão de alternância e o desativará. Para retomar a entrega, atualize a data <strong>Termina em</strong> para uma data no futuro e ative novamente a alternância.</p></div></td> 
      </tr> 
     </tbody> 
    </table>

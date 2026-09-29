@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1636'
 ht-degree: 1%
 ---
 # Visão geral da entrega do relatório
+
+{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -58,6 +60,7 @@ Considere o seguinte ao agendar relatórios para entrega:
 
 * Você pode agendar até 10 entregas de relatório repetitivo para qualquer relatório.
 * Você pode programar um relatório para ser entregue somente se for o criador do relatório. Se precisar enviar um relatório que não foi criado, é possível enviá-lo manualmente.
+* <span class="preview">Em Visualizar, cada entrega de relatório agendada deve ter uma data de término definida. Se uma entrega foi definida anteriormente como Nunca, o Workfront define automaticamente a data de término para 13 meses a partir da próxima data em que o relatório for enviado.</span>
 
 ## Exportar limites
 
@@ -146,6 +149,7 @@ Ao enviar um relatório do Workfront, o usuário recebe um email com o relatóri
 * [Identidade visual](#branding)
 * [Formatação](#formatting)
 * [Links](#links)
+* [Avisos de expiração de relatório](#report-expiration-notices)
 
 ### Linha de assunto, nome do anexo e título do relatório {#subject-line-attachment-name-and-report-title}
 
@@ -197,6 +201,18 @@ Para obter mais informações sobre como selecionar a guia padrão de um relató
 Ao enviar um relatório do Workfront para o formato do PDF ou Excel, os links de trabalho existentes no documento original permanecem ativos no arquivo enviado. Os links podem apontar para qualquer objeto no Workfront que ofereça suporte a links.
 
 O nome do relatório na mensagem de email também é um link.
+
+<div class="preview">
+
+### Avisos de expiração de relatório {#report-expiration-notices}
+
+Em Visualizar, os emails de relatório entregues incluem a data de expiração do relatório.
+
+Se o delivery se repetir diariamente, o email incluirá um aviso de expiração em cada delivery quando a data de expiração estiver dentro de 45 dias.
+
+Se o delivery se repetir semanal ou mensalmente, o email incluirá um aviso de expiração durante os últimos quatro deliveries agendados antes da data de expiração.
+
+</div>
 
 ## Relatório sobre relatórios agendados
 
