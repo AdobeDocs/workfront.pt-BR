@@ -120,7 +120,7 @@ Para vincular conteúdo:
       </tr>
       <tr>
          <td><strong>Exibir sugestões inteligentes com base no contexto e na intenção.</strong> Descubra ativos que se alinham às suas necessidades de conteúdo usando as recomendações com reconhecimento de contexto do aplicativo host do Adobe.</td>
-         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Sugestões inteligentes com base no contexto e na intenção</a>.</td>
+         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Sugestões inteligentes com base no contexto e na intenção</a>.</td>
       </tr>
       <tr>
          <td><strong>Carregue um resumo da campanha para descobrir ativos relevantes.</strong> Faça upload de um documento de resumo da campanha PDF, DOCX ou TXT para que o Supervisor de conteúdo possa analisá-lo e recomendar ativos relevantes.</td>
@@ -148,7 +148,7 @@ Para vincular conteúdo:
       </tr>
       <tr>
          <td><strong>Salvar e reutilizar pesquisas.</strong> Crie pesquisas salvas especificando um termo de pesquisa e opções de filtro, depois reutilize-as no Experience Manager Assets e em outros aplicativos da Adobe.</td>
-         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Acessar e reutilizar pesquisas recentes e salvas</a>.</td>
+         <td>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Acessar e reutilizar pesquisas recentes e salvas</a>.</td>
       </tr>
       <tr>
          <td><strong>Pesquisar ativos entre e dentro de coleções.</strong> Pesquise ativos ou coleções em todas as coleções ou limite a pesquisa a uma coleção específica.</td>
