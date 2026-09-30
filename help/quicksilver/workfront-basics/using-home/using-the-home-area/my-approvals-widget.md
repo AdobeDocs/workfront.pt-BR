@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 16%
+source-wordcount: '498'
+ht-degree: 15%
 ---
 # Gerenciar aprovações com o widget Minhas aprovações
 
@@ -82,7 +82,14 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
-1. (Condicional) Clique no menu suspenso **Filtro** e selecione **Todos** para ver as aprovações atribuídas e delegadas a você.
+1. (Opcional) Ajuste as opções de filtro no widget Minhas aprovações para escolher quais aprovações exibir. As seguintes opções de filtro estão disponíveis:
+
+   | Opção Filtrar | Descrição |
+   |--------|-------------|
+   | Todos | Exibe todas as aprovações atribuídas a você, delegadas a você por outros usuários e enviadas por você. |
+   | Minhas aprovações | Exibe as aprovações atribuídas a você. Esta é a opção padrão. |
+   | Aprovações delegadas | Exibe aprovações que foram delegadas a você por outros usuários. |
+   | Aprovações que enviei | Exibe aprovações que você enviou a outros usuários. |
 
    >[!NOTE]
    >
