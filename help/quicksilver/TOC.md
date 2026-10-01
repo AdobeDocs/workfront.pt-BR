@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: dc90b81e2781351d61f014ef7952ba71bdf55c92
 workflow-type: tm+mt
-source-wordcount: '14593'
+source-wordcount: '14604'
 ht-degree: 91%
 ---
 # Guia do Workfront {#using}
@@ -1950,6 +1950,9 @@ ht-degree: 91%
       * [Configurar e gerenciar aprovações unificadas: índice de artigos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [Criar e gerenciar marcas para o Revisor do AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [Criar uma revisão de documento ou solicitação de aprovação](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+      * [Criar uma aprovação agrupada](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
+      * {hide-from-toc}[Revisar uma aprovação agrupada](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * {hide-from-toc}[Gerenciar aprovações agrupadas](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [Adicionar novos revisores ou aprovadores a um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remover aprovadores ou revisores de um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Criar um modelo de aprovação para ativos e documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
