@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 97207d72bce4b03f6080996b9c5e4edde47633ab
 workflow-type: tm+mt
-source-wordcount: '4041'
+source-wordcount: '4037'
 ht-degree: 2%
 ---
 # Gerenciar a exibição de tabela
@@ -198,12 +198,10 @@ Os itens a seguir são exibidos em uma exibição de tabela por padrão:
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-500 registros são exibidos por padrão
 
 Para gerenciar uma exibição de tabela:
 
@@ -314,6 +312,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
       Não é possível usar palavras-chave associadas a campos ocultos na exibição de tabela.
 
       <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -325,12 +324,20 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    1. Clique no ícone **x** na caixa de pesquisa para limpar a palavra-chave de pesquisa.
 
-1. Para campos de número, moeda, porcentagem e fórmula formatados como qualquer um desses tipos de campo, expanda o menu suspenso do agregador na parte inferior das colunas e selecione uma das seguintes opções:
+1. (Condicional) Para campos de número, moeda, porcentagem e fórmula formatados como qualquer um desses tipos de campo, expanda o menu suspenso do agregador na parte inferior das colunas e selecione uma das seguintes opções:
 
    * **SOMA**: exibe o total de todas as células da coluna. Esta é a seleção padrão.
    * **MIN**: exibe o valor mais baixo de todas as células da coluna.
    * **MAX**: exibe o valor mais alto de todas as células da coluna.
    * **AVG**: exibe o valor médio de todas as células na coluna.
+
+   <!-- 
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    
+    </div> 
+    -->
 
    Considere o seguinte ao trabalhar com agregadores:
 
@@ -338,6 +345,61 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    * Como um Gerenciador de exibições, você pode escolher o agregador e ele será compartilhado com a exibição quando você compartilhá-la com outras pessoas.
    * Como visualizador, você pode modificar o agregador, mas ele não é salvo com a visualização.
    * As exibições públicas compartilhadas são compartilhadas com os agregadores salvos que não podem ser modificados.
+
+<!--
+At preview release, replace the last procedure step with this:
+
+1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+
+    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+        * **MIN**: Displays the lowest value from all the cells in the column. 
+        * **MAX**: Displays the highest value from all the cells in the column. 
+        * **AVG**: Displays the average value of all the cells in the column.  
+
+        <div class="preview">
+
+        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    
+        </div> 
+   
+    <div class="preview">
+
+    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values. 
+        * **MIN**: Displays the earliest date.
+        * **MAX**: Displays the latest date. 
+    
+    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values.  
+
+    </div>
+        
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+    <div class="preview">
+
+    * The following field types do not have an aggregator: 
+
+        * Created by
+        * Last modified by
+        * Record ID
+    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+
+    </div>
+    -->
 
 ### Adicionar linhas (ou registros) {#add-rows-1}
 
@@ -455,10 +517,10 @@ Para adicionar um filtro a uma exibição de tabela:
         </tr>
         <tr>
             <td>Multisseleção, Pessoas</td>
-            <td><p>Tem qualquer um dos</p>
+            <td><p>Tem qualquer um dos</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>Possui todos os</p>
             <p>É exatamente</p>
-            <p>Não tem nenhum dos</p>
+            <p>Não tem nenhum dos</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>Está vazio</p>
             <p>Não está vazio</p></td>
         </tr>
@@ -604,7 +666,7 @@ Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***—>
+&lt;!—!—******************* É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto *******************—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
@@ -615,7 +677,7 @@ Considere o seguinte:
 * Os agrupamentos são listados na ordem alfabética de seus valores.
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -630,6 +692,14 @@ Para adicionar um agrupamento:
 1. Clique em um dos campos sugeridos ou clique em **Escolher um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
    O agrupamento é aplicado automaticamente à tabela e os registros são exibidos na linha de separação de agrupamento.
+
+   <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    -->
 
 1. (Opcional) Clique em **Adicionar condição** e repita as etapas acima para adicionar até três agrupamentos.
 

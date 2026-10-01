@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 3%
+source-wordcount: '1210'
+ht-degree: 2%
 ---
 # Compartilhar espaços de trabalho
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -173,6 +173,15 @@ Old:
 * Quando você compartilha um espaço de trabalho, as exibições não são compartilhadas. Você deve compartilhar exibições separadamente.
 * As permissões do Workspace são exibidas como permissões herdadas em tipos de registro.
 
+<div class="preview">
+
+* Você pode alterar o proprietário de um espaço de trabalho para um usuário ativo licenciado pelo Standard. Não é possível tornar um grupo, equipe, empresa ou função de trabalho o proprietário de um espaço de trabalho.
+
+</div>
+
+
+&lt;!—!—verifique o que foi descrito acima durante a produção: você PRECISA substituí-lo por um usuário ATIVO? Ou inativo também é OK — não tinha um ambiente—>
+
 ## Compartilhar permissões em um espaço de trabalho
 
 Os seguintes usuários podem compartilhar um espaço de trabalho com outros usuários:
@@ -202,7 +211,7 @@ Para compartilhar um espaço de trabalho com outras pessoas:
 
      Você deve solicitar a um Administrador do sistema que altere uma permissão global para um espaço de trabalho.
 
-1. No campo **Conceder acesso a este espaço de trabalho**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e clique nele quando ele for exibido na lista.
+1. No campo **Conceder acesso a este espaço de trabalho**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e clique nele quando ele for exibido na lista. <!--update screen shot at production-->
 
    ![Compartilhando a interface com grupos](assets/sharing-ui-with-groups.png)
 
@@ -212,7 +221,7 @@ Para compartilhar um espaço de trabalho com outras pessoas:
    >
    >* Quando você compartilha um espaço de trabalho com um usuário, sua função de trabalho principal e seu email também são exibidos no campo. Você deve ter a configuração Exibir informações de contato ativada para que o objeto Usuários em seu nível de acesso possa ver o email do usuário.
 
-1. (Opcional) Ao compartilhar com um grupo, equipe, função ou empresa, passe o mouse sobre o nome da entidade e clique na seta que aponta para a direita para expandir uma lista de usuários que estão recebendo as permissões.
+1. (Opcional) Ao compartilhar com um grupo, equipe, função ou empresa, passe o mouse sobre o nome da entidade e clique na seta que aponta para a direita para expandir uma lista de usuários que estão recebendo as permissões. <!--update screen shot at preview-->
 
    ![Compartilhar espaço de trabalho com um grupo](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
@@ -222,6 +231,18 @@ Para compartilhar um espaço de trabalho com outras pessoas:
    * Gerenciar
 
      Para obter informações sobre níveis de permissão e quais ações os usuários podem executar para cada nível, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+   <div class="preview">
+
+   * Proprietário
+
+     Você só pode tornar outro usuário de licença ativa e Standard o proprietário de um espaço de trabalho. O proprietário original permanece no espaço de trabalho com permissões para Gerenciar.
+
+   </div>
+
+1. <span class="preview">(Condicional) Se você optou por alterar o Proprietário do espaço de trabalho, clique em **Alterar proprietário** para confirmar.</span>
+
+
 1. Clique em **Copiar link** para copiar um link para o espaço de trabalho para a área de transferência.
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho.
 1. Clique em **Salvar**.
@@ -254,7 +275,6 @@ Na notificação por email, clique em **Exibir todas as notificações** e cliqu
 1. Clique na seta à esquerda de **Solicitações de acesso pendentes** e clique em **Salvar**.
 
    Se você aprovou a solicitação, os usuários são adicionados à caixa de compartilhamento do espaço de trabalho. O usuário que solicita a permissão recebe uma confirmação por email de que sua solicitação foi aprovada. <!--will they also get an in-app notification??-->
-
 
 ## Remover permissões para um espaço de trabalho
 

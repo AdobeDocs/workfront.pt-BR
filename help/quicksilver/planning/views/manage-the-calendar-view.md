@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
 source-wordcount: '2002'
 ht-degree: 5%
@@ -287,10 +287,10 @@ Para adicionar um filtro a uma exibição de calendário:
         </tr>
         <tr>
             <td>Multisseleção, Pessoas</td>
-            <td><p>Tem qualquer um dos</p>
+            <td><p>Tem qualquer um dos</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>Possui todos os</p>
             <p>É exatamente</p>
-            <p>Não tem nenhum dos</p>
+            <p>Não tem nenhum dos</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>Está vazio</p>
             <p>Não está vazio</p></td>
         </tr>

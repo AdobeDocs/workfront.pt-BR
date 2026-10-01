@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
 source-wordcount: '3235'
 ht-degree: 1%
@@ -231,6 +231,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
     >
     >![Global search box](assets/global-search-box.png)
     -->
+
+   <!--update the screen shot above-->
 
 1. Clique dentro da linha de um registro para começar a editar informações sobre o registro em linha.
 

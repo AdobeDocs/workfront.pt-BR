@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1495'
 ht-degree: 2%
 ---
 
@@ -91,19 +91,22 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 ## Considerações sobre o compartilhamento de campos
 
 * Você pode compartilhar campos com usuários, funções de trabalho, grupos, equipes ou empresas.
+* O compartilhamento de campos controla o acesso a valores, não a configurações de campo. Somente gerentes de espaço de trabalho podem alterar a configuração de um campo.
+* Não é possível remover o acesso a um campo de alguém com acesso ao tipo de registro.
 * Você só pode compartilhar campos da exibição de tabela de um tipo de registro.
 * Não é possível compartilhar os seguintes tipos de campos:
 
   * Campos do sistema (por exemplo, Criado por, ID de registro)
   * Campos primários
   * Campos de pesquisa. Eles sempre herdam as permissões de seus campos de objeto de origem.
+* Os campos de fórmula sempre mostram o valor calculado corretamente, independentemente do acesso do visualizador aos campos referenciados. Você deve compartilhar o campo da fórmula separadamente para restringir sua saída.
 * O acesso a um campo vem da combinação das seguintes configurações:
 
   * **Permissões herdadas**: por padrão, um campo herda o mesmo acesso que alguém tem no tipo de registro. Você pode desativar as Permissões herdadas e conceder aos usuários um acesso ao campo menor do que eles têm para o tipo de registro.
   * O **Todos com acesso ao tipo de registro podem exibir** ou **Somente pessoas convidadas podem acessar a seleção**. Você pode permitir que qualquer pessoa com permissões para o espaço de trabalho exiba o campo ou conceder permissões somente a entidades individuais.
 
   Se várias regras se aplicarem à mesma pessoa, ela receberá a permissão mais alta disponível de uma das regras.
-
+* Você deve ter permissões de registro e campo para ver os valores de um campo para um registro.
 * Para tornar um campo somente para visualização para todos em um espaço de trabalho, verifique se a seguinte configuração existe:
 
   * Desativar permissões herdadas
@@ -116,14 +119,17 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
   * As permissões de tipo de registro do Contribute ou do Manage fornecem ao usuário permissões para gerenciar valores de campo
 
 * Somente proprietários e gerentes de espaços de trabalho podem ajustar as permissões de campo. Os gerentes do Workspace sempre mantêm o acesso Gerenciar a todos os campos e isso não pode ser reduzido.
-* O compartilhamento de campos controla o acesso a valores, não a configurações de campo. Somente gerentes de espaço de trabalho podem alterar a configuração de um campo.
 * Adicionar alguém a uma lista de compartilhamento de campo não concede a ele acesso de espaço de trabalho ou tipo de registro. Se não tiverem esse acesso, um ícone de aviso indicará que a permissão só terá efeito depois que forem adicionadas ao tipo de registro.
-* Campos com permissões restritas são aplicados em todos os locais em que o campo é exibido. Isso inclui todas as exibições, páginas de detalhes de registro, formulários de solicitação, conexões e campos de pesquisa, painéis do Canvas, a API e ferramentas do MCP.
+* Campos com permissões restritas são aplicados em todos os locais em que o campo é exibido. Isso inclui todas as exibições, páginas de detalhes de registro, conexões e campos de pesquisa, painéis do Canvas, a API e ferramentas do MCP.
+* Os campos em formulários de solicitação estão abertos para qualquer pessoa que enviar o formulário, independentemente do compartilhamento de campos.
+* Os campos restritos também não estão visíveis nos arquivos exportados, nem nos arquivos importados.
 * As visualizações públicas permanecem totalmente visíveis e somente leitura para qualquer pessoa que possa acessá-las.
   <!--Not sure if this is right - right now, it allows me to duplicate with the values in the new record - checking with Lilit: * When you duplicate a record, the restricted values are not copied to the new records.-->
 * As alterações de valor de campo restrito não são registradas no Histórico de um registro.
 * As alterações de permissão para campos não acionam notificações.
 * Para tipos de registros globais, as permissões de campo se aplicam a todos os espaços de trabalho secundários e não podem ser ajustadas localmente.
+* Quando alguém adiciona um campo a um tipo de registro global no espaço de trabalho principal, uma exibição privada é criada.  Essa exibição não pode ser acessada no espaço de trabalho do registro global secundário. Você deve abrir o registro global no espaço de trabalho secundário com uma nova visualização em que o campo adicionado, se as permissões não forem restritas, será exibido como um campo oculto.
+
 
 <!--
 From Claude: 
@@ -197,7 +203,7 @@ Como um gerenciador de espaço de trabalho, você pode ajustar permissões para 
       >
       >Os gerentes do Workspace continuam a ter permissões de gerenciamento para o tipo de registro e o campo.
 
-   1. (Opcional) Clique no menu suspenso **Todos com acesso ao tipo de registro podem exibir** e selecione **Somente pessoas convidadas podem acessar**.
+   1. (Opcional) Clique no menu suspenso **Todos com acesso ao tipo de registro podem exibir** e selecione **Somente pessoas convidadas podem acessar**. A opção **Somente pessoas convidadas podem acessar** não está disponível para campos primários.
 
       >[!IMPORTANT]
       >
