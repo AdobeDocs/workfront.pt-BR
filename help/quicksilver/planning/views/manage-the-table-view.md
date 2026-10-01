@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: cc47859cfb1dc1946050ba679b2678ccb9408223
 workflow-type: tm+mt
-source-wordcount: '4045'
+source-wordcount: '3630'
 ht-degree: 3%
 ---
 # Gerenciar a exibição de tabela
@@ -331,10 +331,10 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    * **MAX**: exibe o valor mais alto de todas as células da coluna.
    * **AVG**: exibe o valor médio de todas as células na coluna.
 
-   <!-- 
+   <!--    
     <div class="preview"> 
 
-    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    * **NONE**: The values of the column are not aggregated.This is the default option. 
     
     </div> 
     -->
@@ -398,69 +398,70 @@ At preview release, replace the last procedure step with this:
         * Record ID
     * Formula fields and look up fields have the aggregators that correspond to their field format. 
 
-    </div>
-    -->
+    </div> 
 
-### Adicionar linhas (ou registros) {#add-rows-1}
+### Add rows (or records) {#add-rows-1}
 
-As linhas de uma exibição de tabela exibem registros individuais do tipo de registro selecionado. A adição de linhas é idêntica à criação de registros.
+The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
 
-É possível ter até 50.000 registros (ou linhas) para um tipo de registro.
+You can have up to 50,000 records (or rows) for a record type. 
 
-1. Vá para uma página de tipo de registro e selecione um modo de exibição de tabela ou clique em **+ Modo de Exibição** para adicionar um novo modo de exibição e, em seguida, escolha **Tabela**.
+1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
 
-1. Comece a adicionar registros (ou linhas), conforme descrito no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
+1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
 
-   Os registros adicionados na exibição de tabela são salvos imediatamente e ficam visíveis para todos os usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
+    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
 
-   Uma imagem de miniatura padrão <span class="preview">e cor</span> também são adicionadas ao novo registro.
+    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
 
-   >[!TIP]
-   >
-   ><span class="preview">Quando um registro tem comentários não lidos, um indicador **Novo comentário** é exibido no canto superior direito do campo principal do registro.</span>
-   >
-   >![Novo ícone de comentário na exibição de tabela](assets/new-comment-icon-in-table-view-highlighted.png)
+    >[!TIP]
+    >
+    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
+    >
+    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+    
+1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
 
-1. (Opcional) Selecione um ou vários registros ou linhas, em seguida, arraste e solte o **ícone Identificador** ![ícone Identificador](assets/handle-icon.png) à esquerda do registro para reordenar as linhas.
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
+    >
+    >The changes you make to the row order are visible to all users who access the record type in the same view. 
+    >
+    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
 
-   >[!NOTE]
-   >
-   >Não é possível reordenar linhas se você aplicar pelo menos uma classificação ou agrupamento à exibição de tabela.
-   >
-   >As alterações feitas na ordem das linhas ficam visíveis para todos os usuários que acessam o tipo de registro na mesma visualização.
-   >
-   ><span class="preview">Na linha de arrastar e soltar, um indicador de número exibe o número de registros selecionados, se houver mais de um. </span>
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
+1. Click **Fields** at the top of the table in the Production environment
 
-1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do registro e clique em **Editar miniatura** para editar a miniatura.
-1. Clique em **Campos** na parte superior da tabela no ambiente Produção
+    Or 
+    
+    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
 
-   Ou
+    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-   <span class="preview">Passe o mouse sobre o cabeçalho do campo principal</span>, em seguida, selecione o alternador do campo **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
+1. <span class="preview">Click **Fields** at the top of the table</span>
+   
+   Or 
+   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
 
-   Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
-
-1. <span class="preview">Clique em **Campos** na parte superior da tabela</span>
-
-   Ou
-   <span class="preview">Passe o mouse sobre o cabeçalho do campo principal e selecione o alternador do campo **Cor** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão. </span>
-
-1. <span class="preview"> (Opcional e condicional) Se você ativou a configuração **Cor**, clique na barra de cores à esquerda do campo principal do registro e selecione uma cor nas guias **Amostras** ou **Personalizado** e clique fora da caixa para fechá-la. A cor é aplicada imediatamente.</span>
+1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
 
 <div class="preview">
 
-![Caixa do seletor de cores para codificação de cores de registro](assets/color-picker-for-record-color-coding.png)
+![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
 
-Para obter mais informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
 </div>
 
 
-### Adicionar filtros {#add-filters-1}
+### Add filters {#add-filters-1}
 
-Os filtros ajudam a reduzir a quantidade de informações exibidas na tela.
+Filters help you reduce the amount of information displayed on the screen.
 
-Considere o seguinte ao trabalhar com filtros na exibição de tabela:
+Consider the following when working with filters in the table view: 
+
+-->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -666,7 +667,7 @@ Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***—>
+&lt;!—!—******************* É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto *******************—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
