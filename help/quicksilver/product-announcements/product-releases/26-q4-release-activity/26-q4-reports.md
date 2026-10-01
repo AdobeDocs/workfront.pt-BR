@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3599b27bb1b838ebe7d0a2648e6c67333da83dc8
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 8%
+source-wordcount: '1434'
+ht-degree: 5%
 ---
 # Melhorias na emissão de relatórios no quarto trimestre de 2026
 
@@ -24,23 +24,99 @@ Esta página descreve as melhorias de relatórios feitas com a versão do quarto
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## Filter on collection relationships in Canvas Dashboards
+## Painéis do Canvas agora disponíveis na Google Cloud Platform e no Microsoft Azure
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Visualização: N/D
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
 
-When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+As instâncias do Workfront na Google Cloud Platform (GCP) e no Azure agora podem aceitar o beta aberto dos Painéis do Canvas. Para obter mais informações, consulte [Usar Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
-Previously, filtering on collection relationships required text mode.
+## Registrar uma lista privada do Snowflake para Workfront Data Connect
 
-For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+>[!NOTE]
+>
+>Visualização: N/D
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
 
--->
+Agora você pode compartilhar os dados do Workfront Data Connect diretamente com a conta da Snowflake de sua organização registrando uma lista privada. Esse método de conexão usa o recurso de listagem privada da Snowflake para compartilhar dados com segurança entre organizações sem expô-los publicamente, e funciona em regiões e plataformas de hospedagem.
+
+Uma lista privada é útil quando você deseja unir seus dados do Workfront a outros dados no data warehouse da empresa. Como os dados chegam à sua própria conta do Snowflake, você pode consultá-los junto com o restante dos dados.
+
+Para obter mais informações, consulte [Registrar uma lista privada para o Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/register-a-private-listing.md).
+
+## As Ferramentas de MCP de relatórios agora estão disponíveis para Painéis do Canvas
+
+>[!NOTE]
+>
+>Visualização: 1 de outubro de 2026
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Para facilitar o uso dos Painéis do Canvas, adicionamos ferramentas ao Workfront MCP. Agora, você pode criar e gerenciar Painéis do Canvas por meio do chat, e o painel e os widgets são criados para você usando os dados do Workfront. Isso funciona com clientes MCP como Claude e Cursor.
+
+Por exemplo, você pode:
+
+* Crie relatórios solicitando. Descreva um painel ou um gráfico em linguagem natural em vez de criá-lo manualmente.
+* Edição no local. Peça para renomear um widget, alterar um filtro, trocar um tipo de gráfico ou redimensionar e as alterações se aplicam ao painel em tempo real.
+* Reutilize o que você tem. Duplique um painel ou widget existente como ponto de partida, em vez de reconstruir do zero.
+
+### Recursos compatíveis
+
+**Painéis**
+
+* Criar um novo painel
+* Liste seus painéis (seus, compartilhados com você, todos ou favoritos) e pesquise por título
+* Abrir ou exibir a estrutura de um painel
+* Atualizar título, descrição, moeda, filtros e prompts
+* Duplicação de um painel (com ou sem widgets, prompts e filtros)
+* Excluir um painel
+
+**Widgets**
+
+* KPI — um único número agregado (soma, média, contagem, mínimo, máximo etc.)
+* Gráfico — barra, coluna, linha e pizza; suporta gráficos simples, de várias séries e empilhados
+* Tabela — tabelas de várias colunas com agrupamento de linhas
+* Exibir a configuração de um widget e atualizar, copiar, redimensionar ou reposicionar, ou excluí-lo
+
+**Opções de relatório**
+
+* Filtrar dados com condições e grupos E/OU
+* Agrupar e agregar por qualquer campo
+* Fazer drill-down de um KPI ou gráfico nos registros subjacentes
+* Rótulos de coluna personalizados, formatação de número, data e moeda e estilo condicional de célula
+* Prompts e filtros no nível do painel
+
+Para obter mais informações, consulte [Usar Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+
+## Copiar ou mover widgets entre Painéis do Canvas
+
+>[!NOTE]
+>
+>Visualização: 1 de outubro de 2026
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Agora é possível copiar um widget para o mesmo painel, para outro painel ao qual você tem acesso de edição ou para um novo painel. Você também pode mover um widget para outro painel ao qual tem acesso de edição ou para um novo painel.
+
+Ao copiar um widget, uma caixa de diálogo agora é aberta, onde você seleciona o painel de destino e onde deseja copiar ou mover o widget. Anteriormente, o Report Builder abria imediatamente.
+
+## Filtrar os relacionamentos entre coleções nos Painéis do Canvas
+
+>[!NOTE]
+>
+>Visualização: 1 de outubro de 2026
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Ao criar um filtro em um Painel da tela, agora é possível filtrar os relacionamentos de coleção, que são campos vinculados a um grupo de registros relacionados, em vez de a um único registro. Por exemplo, você pode filtrar o status de tarefas pertencentes a um projeto para mostrar uma lista de projetos que têm tarefas no status &quot;Novo&quot;.
+
+Anteriormente, a filtragem em relações de coleção exigia o modo de texto.
+
+Para obter mais informações, consulte [Referência do filtro de relatório para Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 
 ## Copiar painéis nos painéis da tela
 
