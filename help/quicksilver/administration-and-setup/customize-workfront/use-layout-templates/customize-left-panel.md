@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1262'
 ht-degree: 5%
 ---
 # Personalizar o painel esquerdo usando um modelo de layout
@@ -199,7 +199,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      <tr> 
        <td>[!UICONTROL Detalhes do Usuário]</td> 
        <td>O nome de um usuário</td> 
-       <td>[!UICONTROL Detalhes], [!UICONTROL Organograma], [!UICONTROL Folga], [!UICONTROL Forms Personalizado], [!UICONTROL Perfis de Negócios], [!UICONTROL Atualizações], [!UICONTROL Balanceador de Carga de Trabalho]</td> 
+       <td>[!UICONTROL Detalhes], [!UICONTROL Organograma], [!UICONTROL Folga], [!UICONTROL Forms Personalizado], [!UICONTROL Perfis de Negócios], [!UICONTROL Atualizações], [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL Histórico de Emprego]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL Cartão de Taxa]</td> 
