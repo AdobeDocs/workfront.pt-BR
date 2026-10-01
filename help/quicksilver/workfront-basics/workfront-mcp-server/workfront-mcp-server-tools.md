@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
+source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 4%
 ---
 
@@ -50,6 +50,7 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 
 | Título | Nome da ferramenta | O que faz | Ação |
 | --- | --- | --- | --- |
+| Carregar documento no Workfront** | `upload_document_ui` | Ele permite fazer upload de um arquivo para um projeto, tarefa, problema, programa, portfólio ou modelo e, opcionalmente, em uma pasta. | Gravar |
 | Localizar versão do documento por nome | `approvals_find_document_version_by_name` | Pesquisa a ID de versão atual de um documento por nome de arquivo. Suporta correspondências parciais. | Ler |
 | Obter documento por ID de versão | `approvals_get_document_by_version_id` | Busca detalhes do documento (nome, tamanho, data de upload, carregador) para uma ID de versão de documento conhecida. | Ler |
 | Resolver escopo do documento | `approvals_resolve_document_scope` | Expande um projeto ou pasta para a lista de IDs de versão de documento que ela contém. Suporta escopos de projeto, pasta e pasta por nome. | Ler |
@@ -62,7 +63,7 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 
 
 *O envio de documentos para uma pasta do AEM ainda não é compatível com projetos no Adobe Cloud Storage. O suporte é esperado em uma versão futura.
-
+**Esta ferramenta abre um painel de upload interativo no chat, para que funcione somente em ferramentas compatíveis com aplicativos MCP. Atualmente, somente o Claude é suportado para esta ferramenta. Ele aparece em &quot;Ferramentas interativas&quot; nas permissões da ferramenta e solicita aprovação por padrão.
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
