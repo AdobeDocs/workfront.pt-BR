@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '4584'
+source-wordcount: '5023'
 ht-degree: 2%
 ---
 # Gerenciar a exibição de linha do tempo
@@ -192,11 +192,16 @@ Para gerenciar uma exibição de linha do tempo:
 
    ![Exemplo de exibição da linha do tempo](assets/timeline-view-example.png)
 
-   Os registros associados ao tipo de registro selecionado são exibidos como barras em uma linha do tempo e são classificados em ordem cronológica de sua Data inicial, por padrão.
+   Os registros associados ao tipo de registro selecionado são exibidos como barras em uma linha do tempo e são classificados automaticamente em ordem cronológica de sua Data inicial, por padrão.
+
+   <!--
+    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
+    -->
+   <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
    >
-   >    A classificação dos registros na linha do tempo não está visível na exibição Compacta.
+   >    A classificação automática dos registros na linha do tempo não está visível na exibição Compacta.
 
 1. (Condicional) Se o administrador tiver ativado trimestres personalizados e o Workfront detectar problemas na forma como os trimestres personalizados são configurados, você poderá receber um aviso ao abrir a exibição de linha do tempo.
 
@@ -263,6 +268,14 @@ Para gerenciar uma exibição de linha do tempo:
       Você pode usar qualquer palavra ou caractere especial visível na tela.
 
       Não é possível usar palavras-chave associadas a campos que não são exibidos na exibição de linha do tempo.
+
+      <!--
+        this might change at the release of table lazy loading:
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
+      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
 
    1. Pressione Enter no teclado para ir para o próximo campo encontrado.
    1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
@@ -361,10 +374,10 @@ Para adicionar um filtro a uma exibição de linha do tempo:
         </tr>
         <tr>
             <td>Multisseleção, Pessoas</td>
-            <td><p>Tem qualquer um dos</p>
+            <td><p>Tem qualquer um dos</p> ou <span class="preview"><p>É algum dos</p></span>
             <p>Possui todos os</p>
             <p>É exatamente</p>
-            <p>Não tem nenhum dos</p>
+            <p>Não tem nenhum dos</p> ou <span class="preview"><p>Não é nenhum dos</p></span>
             <p>Está vazio</p>
             <p>Não está vazio</p></td>
         </tr>
@@ -486,6 +499,16 @@ Para adicionar um agrupamento na exibição de linha do tempo:
 
    Os agrupamentos são aplicados imediatamente.
 
+   <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    -->
 1. <span class="preview">(Opcional) Clique no ícone **Agrupamento** ![Ícone Agrupamento](assets/grouping-icon.png) na barra de ferramentas para abrir a caixa **Agrupar registros por** e clique em **Expandir tudo** para expandir todos os agrupamentos ou **Recolher tudo** para recolher todos os agrupamentos e recolher manualmente apenas os agrupamentos necessários. </span>
 1. <span class="preview">(Opcional e condicional) Na exibição da raia, arraste e solte o separador do painel esquerdo para ajustar sua largura. A largura do painel de cada usuário é salva entre sessões, com uma largura padrão para novos usuários.</span>
 1. <span class="preview">(Opcional) Para nomes longos de agrupamento, passe o mouse sobre a linha de um agrupamento para ver o nome completo do agrupamento em uma dica de ferramenta.</span>
@@ -504,50 +527,50 @@ Para adicionar um agrupamento na exibição de linha do tempo:
    >Quando você arrasta e solta registros de um agrupamento para outro, os campos selecionados no agrupamento atualizam automaticamente os valores nos registros movidos.
 1. (Opcional) Clique em **Configurações** e depois em **Cor** para agrupar o código de cores. Para obter mais informações, consulte a seção [Editar as configurações de exibição da linha do tempo](#edit-the-timeline-view-settings) neste artigo.
 
-<!--
-
 <div class="preview">
 
-### Add sort
+### Adicionar classificação
 
-You can sort records and groupings in the timeline view. 
+Você pode classificar registros e agrupamentos na exibição de linha do tempo.
 
-Consider the following when working with record sorting in the timeline view: 
+Considere o seguinte ao trabalhar com a classificação de registros na exibição de linha do tempo:
 
-* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
-* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+* É possível aplicar a classificação nas exibições de tabela e linha do tempo. A classificação da exibição de tabela é independente daquela na exibição de linha do tempo do mesmo tipo de registro.
+* Você pode aplicar 10 condições de classificação para registros e quantas condições de classificação tiver agrupamentos na exibição de linha do tempo (você pode ter até 3 condições de agrupamento na exibição de linha do tempo).
 
-* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
-* You cannot name the sorting you build for a timeline view.
-* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+* As classificações são exclusivas da exibição selecionada. Duas exibições de linha do tempo do mesmo tipo de registro podem ter classificações diferentes aplicadas a elas. Dois usuários que visualizam a mesma linha do tempo veem a mesma classificação aplicada no momento.
+* Não é possível nomear a classificação criada para uma exibição de linha do tempo.
+* Remover a classificação a remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
 
-* You can sort by connected record fields or lookup fields.  
+* Você pode classificar por campos de registro conectados ou campos de pesquisa.
 
-To add a sort in the timeline view:
+Para adicionar uma classificação na exibição de linha do tempo:
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Sort** in the view's toolbar. 
+1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Clique em **Classificar** na barra de ferramentas do modo de exibição.
 
-    The sorting box opens. 
+   A caixa de classificação é aberta.
 
-    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
-1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
-1. (Optional) Click **Add condition** to add up to 10 conditions. 
-1. (Optional) Click **Clear all** to remove all conditions.
-1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+   ![Classificar na linha do tempo com classificação de agrupamento](assets/sort-in-timeline.png)
+1. No menu suspenso, selecione **Classificar registros** e clique em um campo listado na lista **Iniciar com um campo sugerido** ou clique em **Escolher um campo diferente**. Em seguida, procure pelo campo e clique nele quando ele for exibido na lista.
+1. Selecione a direção na qual deseja que a classificação de registro seja aplicada (alfabética, descendente reverso etc.). A direção na qual uma classificação é aplicada depende do formato do campo selecionado.
+1. (Opcional) Clique em **Adicionar condição** para adicionar até 10 condições.
+1. (Opcional) Clique em **Limpar tudo** para remover todas as condições.
+1. No menu suspenso no canto superior esquerdo da caixa de classificação, selecione **Classificar agrupamentos**.
 
-    >[!TIP]
-    >
-    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
-1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
-1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+   >[!TIP]
+   >
+   >Se não houver agrupamentos aplicados ao modo de exibição de linha do tempo, a opção **Classificar agrupamentos** não estará disponível.
+1. (Opcional) Selecione a direção na qual deseja que a classificação de agrupamento seja aplicada (alfabética, inverter descendente etc.). A direção na qual uma classificação é aplicada depende do formato do campo selecionado.
+1. (Condicional) Clique em **Redefinir tudo** para redefinir a direção da classificação, se você a modificou do padrão.
+1. Para reordenar a ordem de classificação dos campos, clique em **Agrupamento** na barra de ferramentas e reordene os agrupamentos. A ordem dos campos de classificação também muda.
+1. (Opcional) Para remover a classificação de agrupamento, remova os agrupamentos da exibição de linha do tempo.
 
-    Sorting is applied immediately.
-1. Click anywhere on the page to close the sorting box. 
+   A classificação é aplicada imediatamente.
+1. Clique em qualquer lugar na página para fechar a caixa de classificação.
 
 </div>
--->
+
 
 <!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
 

@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
 workflow-type: tm+mt
-source-wordcount: '8056'
-ht-degree: 76%
+source-wordcount: '8284'
+ht-degree: 75%
 ---
 # Criar um formulário personalizado
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -483,7 +485,8 @@ Para adicionar botões de opção, grupos de caixas de seleção e listas suspen
     <li>Menu suspenso de seleção única</li>
     <li>Menu suspenso de seleção múltipla</li>
     </ul></td>
-    </tr> 
+    </tr>
+    <tr>
     <td role="rowheader">Seleções </td> 
     <td> 
     <p>Selecione qualquer uma das seguintes opções:</p> 
@@ -507,6 +510,36 @@ Para adicionar botões de opção, grupos de caixas de seleção e listas suspen
     </ul>
     </td>
      </tr>
+    <tr>
+    <td role="rowheader"><span class="preview">Seleções</span></td> 
+    <td>
+    <div class="preview">
+    <p>Clique em <strong>Editar opções</strong> para adicionar ou editar opções para o campo.</p>
+    <p>Para adicionar uma nova opção na caixa de diálogo Editar opções:</p>
+    <ol>
+    <li><p>Clique em <strong>Nova linha</strong> na parte inferior da tabela.</p> <p><b>Observação:</b> não há limite para o número de escolhas que você pode adicionar.</p></li>
+    <li>Digite o <strong>Nome da opção</strong> e o <strong>Valor da opção</strong>. Normalmente, são as mesmas, assim como o nome e o rótulo da API de campo.</li>
+    <li>(Opcional) Selecione <strong>Selecionar por padrão</strong> para que a opção seja selecionada por padrão no campo.</li> 
+    </ol>
+    <p>Para ações adicionais:</p>
+    <ul>
+    <li>Para editar uma opção existente, clique duas vezes na área que deseja alterar.</li>
+    <li> Para ocultar uma opção no campo, selecione-a e clique em <strong>Ocultar Opção</strong> na barra de ações na parte inferior da tela. As escolhas ocultas permanecem acessíveis nos relatórios.</li> 
+    <li> <p>Para excluir uma opção do campo, selecione-a e clique em <strong>Remover opção</strong> na barra de ações, na parte inferior da tela.</p> <p><b>Aviso</b>: se você tiver objetos atuais usando essa escolha, não a remova do campo. A remoção fará com que os dados históricos sejam perdidos. Em vez disso, selecione a opção para ocultá-la, o que impede que os usuários a selecionem no futuro.</p> </li> 
+    <li>Use o ícone <img src="assets/drag-icon.png"> de <strong>Arrastar</strong> para classificar as opções manualmente.</li>
+    <li>Clique em <strong>Classificar seleções de A a Z</strong> para classificar as seleções em ordem alfabética no campo.</li>
+    </ul>
+    <p>Clique em <strong>Salvar</strong> quando terminar de editar as opções.</p>
+    </div>
+    </td> 
+    <td><ul>
+    <li><span class="preview">Botões de opção</span></li>
+    <li><span class="preview">Grupo de caixas de seleção</span></li>
+    <li><span class="preview">Menu suspenso de seleção única</span></li>
+    <li><span class="preview">Menu suspenso de seleção múltipla</span></li>
+    </ul>
+    </td>
+    </tr> 
     <tr>
      <td>Ativo</td>
      <td><p>Essa opção está desabilitada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído de relatórios, filtros e visualizações, e não está mais disponível na biblioteca de campos dos formulários personalizados.</p></td>

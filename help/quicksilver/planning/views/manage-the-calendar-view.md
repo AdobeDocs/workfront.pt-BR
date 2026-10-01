@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 5%
+source-wordcount: '2010'
+ht-degree: 6%
 ---
 # Gerenciar a exibição de calendário
 
@@ -287,10 +287,10 @@ Para adicionar um filtro a uma exibição de calendário:
         </tr>
         <tr>
             <td>Multisseleção, Pessoas</td>
-            <td><p>Tem qualquer um dos</p>
+            <td><p>Tem qualquer um dos</p> ou <span class="preview"><p>É algum dos</p></span>
             <p>Possui todos os</p>
             <p>É exatamente</p>
-            <p>Não tem nenhum dos</p>
+            <p>Não tem nenhum dos</p> ou <span class="preview"><p>É algum dos</p></span>
             <p>Está vazio</p>
             <p>Não está vazio</p></td>
         </tr>

@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
 workflow-type: tm+mt
-source-wordcount: '2811'
+source-wordcount: '3020'
 ht-degree: 4%
 ---
 
@@ -316,7 +316,22 @@ As ferramentas do Insights recuperam informações sobre objetos do Workfront.
 | --- | --- | --- | --- |
 | <span class="preview">Compartilhar feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Registra o sentimento relatado e o que aconteceu durante a conversa, para que as ferramentas MCP do Workfront possam ser aprimoradas. Usado apenas quando você pede explicitamente para compartilhar feedback (por exemplo, &quot;compartilhar feedback&quot; ou &quot;relatar um erro&quot;).</span> | <span class="preview">Write</span> |
 
+## Ferramentas de relatórios
 
+As ferramentas de relatórios permitem criar e gerenciar Painéis do Canvas por meio do chat. Descreva o relatório desejado em linguagem simples, e a plataforma de agente de IA cria o painel e os widgets para você usando os dados do Workfront.
+
+
+### Painéis de tela
+
+| Título | Nome da ferramenta | O que faz | Ação |
+| --- | --- | --- | --- |
+| Ler | `read` | Lê os dados de relatório em três modos selecionados pelas IDs transmitidas: lista os painéis visíveis para você, busca uma única estrutura de painel ou busca a configuração completa de um widget. | Ler |
+| Criar painel | `create_dashboard` | Cria um novo painel Relatórios vazio e o retorna com um link para abri-lo. | Gravar |
+| Atualizar painel | `update_dashboard` | Atualiza parcialmente os metadados, prompt, filtro e posicionamento por widget de um painel. Os campos omitidos são deixados inalterados. | Gravar |
+| Criar widget | `create_widget` | Cria um widget e sua configuração de relatório em um painel. Uma ferramenta lida com todos os três tipos de widget: gráfico, KPI e tabela. | Gravar |
+| Atualizar widget | `update_widget` | Atualiza parcialmente a configuração de um widget existente. O tipo de widget é inferido automaticamente, portanto, você só envia os campos que deseja alterar. | Gravar |
+| Copiar objeto | `copy_object` | Copia um painel inteiro, incluindo seus widgets, prompts e filtros, em um novo painel, ou copia um único widget dentro ou entre painéis. | Gravar |
+| Excluir objeto | `delete_object` | Exclui permanentemente um painel de Relatórios e todos os seus widgets ou um único widget. Esta ação não pode ser desfeita. | Gravar |
 
 ## Como as ferramentas são atualizadas
 
@@ -329,5 +344,6 @@ Quando o Adobe lança uma nova versão do servidor MCP do Workfront, a plataform
 Estamos trabalhando para adicionar as seguintes ferramentas ao servidor MCP do Workfront no futuro:
 
 * Quadros
+
 
 

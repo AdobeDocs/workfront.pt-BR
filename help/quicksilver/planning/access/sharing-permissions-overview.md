@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1529'
 ht-degree: 5%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
@@ -172,9 +172,9 @@ A seguir estão os níveis de permissões para espaços de trabalho:
 | Excluir | ✓ |            |       |
 | Exibir | ✓ | ✓ | ✓ |
 
-<!--
-<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
--->
+
+<span class="preview">Além das permissões descritas na tabela acima, você também pode alterar o proprietário de um espaço de trabalho ao compartilhá-lo. Para obter informações, consulte [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md).</span>
+
 
 ### Permissões para tipos de registro
 

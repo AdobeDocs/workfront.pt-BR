@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1262'
 ht-degree: 5%
 ---
 # Personalizar o painel esquerdo usando um modelo de layout
@@ -199,7 +199,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      <tr> 
        <td>[!UICONTROL Detalhes do Usuário]</td> 
        <td>O nome de um usuário</td> 
-       <td>[!UICONTROL Detalhes], [!UICONTROL Organograma], [!UICONTROL Folga], [!UICONTROL Forms Personalizado], [!UICONTROL Perfis de Negócios], [!UICONTROL Atualizações], [!UICONTROL Balanceador de Carga de Trabalho]</td> 
+       <td>[!UICONTROL Detalhes], [!UICONTROL Organograma], [!UICONTROL Folga], [!UICONTROL Forms Personalizado], [!UICONTROL Perfis de Negócios], [!UICONTROL Atualizações], [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL Histórico de Emprego]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL Cartão de Taxa]</td> 
@@ -237,6 +237,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    * Clique nos ícones **Mostrar** ![Mostrar ícone](assets/add-secondary-nav-item.png) ou **Ocultar** ![Ocultar ícone](assets/delete-secondary-nav-item.png) para exibir ou ocultar seções no painel esquerdo. Você não pode ocultar itens que não tenham um ícone **Mostrar** ou **Ocultar**.
 
+     Cada área ou tipo de objeto deve ter pelo menos uma seção no painel esquerdo. Se todos os outros itens estiverem ocultos, não será possível ocultar o último item restante.
+
    * Arraste os itens ![ícone Mover](assets/move-icon---dots.png) para alterar sua ordem no painel esquerdo.
 
    >[!NOTE]
@@ -247,7 +249,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >* [!UICONTROL Página inicial]
    >* [!UICONTROL Identidade visual]
    > 
-   >Para obter informações sobre como personalizar as áreas adicionais, consulte os seguintes artigos:
+   >Para obter informações sobre como personalizar essas áreas adicionais, consulte os seguintes artigos:
    >
    >* [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Personalizar o [!UICONTROL Painel de resumo] usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)

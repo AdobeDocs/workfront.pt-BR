@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e0951a7451bbf17dcca388eee841abddb1618a0b
 workflow-type: tm+mt
-source-wordcount: '4041'
-ht-degree: 2%
+source-wordcount: '4233'
+ht-degree: 3%
 ---
 # Gerenciar a exibição de tabela
 
@@ -198,12 +198,10 @@ Os itens a seguir são exibidos em uma exibição de tabela por padrão:
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-500 registros são exibidos por padrão
 
 Para gerenciar uma exibição de tabela:
 
@@ -314,6 +312,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
       Não é possível usar palavras-chave associadas a campos ocultos na exibição de tabela.
 
       <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -325,19 +324,83 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    1. Clique no ícone **x** na caixa de pesquisa para limpar a palavra-chave de pesquisa.
 
-1. Para campos de número, moeda, porcentagem e fórmula formatados como qualquer um desses tipos de campo, expanda o menu suspenso do agregador na parte inferior das colunas e selecione uma das seguintes opções:
 
-   * **SOMA**: exibe o total de todas as células da coluna. Esta é a seleção padrão.
-   * **MIN**: exibe o valor mais baixo de todas as células da coluna.
-   * **MAX**: exibe o valor mais alto de todas as células da coluna.
-   * **AVG**: exibe o valor médio de todas as células na coluna.
+1. (Condicional) Dependendo dos tipos de campos que você está visualizando, execute um dos procedimentos a seguir;
+
+   * Para campos de número, moeda, porcentagem e fórmula formatados como qualquer um desses tipos de campo, expanda o menu suspenso do agregador na parte inferior das colunas e selecione uma das seguintes opções:
+
+     * **SOMA**: exibe o total de todas as células da coluna. Esta é a seleção padrão.
+     * **MIN**: exibe o valor mais baixo de todas as células da coluna.
+     * **MAX**: exibe o valor mais alto de todas as células da coluna.
+     * **AVG**: exibe o valor médio de todas as células na coluna.
+
+     <div class="preview">
+
+     * **NONE**: os valores da coluna não são agregados.Esta é a opção padrão.
+
+     </div>
+
+   <div class="preview">
+
+   * Para campos de data, expanda o menu suspenso do agregador na parte inferior das colunas e selecione entre as seguintes opções:
+
+     * **NONE**: os valores da coluna não são agregados.Esta é a opção padrão.
+     * **EMPTY**: exibe uma contagem dos campos que não têm valores.
+     * **NÃO ESTÁ VAZIO**: exibe uma contagem dos campos que têm valores.
+     * **MIN**: exibe a data mais antiga.
+     * **MAX**: exibe a data mais recente.
+
+   * Para texto, selecione os campos booleano, Pessoas expanda o menu suspenso do agregador na parte inferior das colunas e selecione entre as seguintes opções:
+
+     * **NONE**: os valores da coluna não são agregados.Esta é a opção padrão.
+     * **EMPTY**: exibe uma contagem dos campos que não têm valores.
+     * **NÃO ESTÁ VAZIO**: exibe uma contagem dos campos que têm valores.
+
+   </div>
 
    Considere o seguinte ao trabalhar com agregadores:
 
-   * A linha do agregador na coluna está congelada e faz parte das configurações de exibição.
+   * A linha do agregador na coluna fica congelada quando exibe valores e faz parte das configurações de exibição.
    * Como um Gerenciador de exibições, você pode escolher o agregador e ele será compartilhado com a exibição quando você compartilhá-la com outras pessoas.
    * Como visualizador, você pode modificar o agregador, mas ele não é salvo com a visualização.
    * As exibições públicas compartilhadas são compartilhadas com os agregadores salvos que não podem ser modificados.
+
+   <div class="preview">
+
+   * Os seguintes tipos de campo não têm um agregador:
+
+     * Criado por
+     * Última modificação por
+     * ID do registro
+   * Os campos de fórmula e de pesquisa têm os agregadores que correspondem ao formato do campo.
+
+   </div>
+
+<!--
+
+FROM LISA: This is the old section. I commented it out vs deleting.
+
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
+
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    
+    </div> 
+
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+-->
 
 ### Adicionar linhas (ou registros) {#add-rows-1}
 
@@ -400,6 +463,7 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na tela.
 
 Considere o seguinte ao trabalhar com filtros na exibição de tabela:
 
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * Os filtros criados para a exibição de tabela funcionam independentemente dos filtros na exibição de linha do tempo quando aplicados ao mesmo tipo de registro.
@@ -455,10 +519,10 @@ Para adicionar um filtro a uma exibição de tabela:
         </tr>
         <tr>
             <td>Multisseleção, Pessoas</td>
-            <td><p>Tem qualquer um dos</p>
+            <td><p>Tem qualquer um dos</p> ou <span class="preview"><p>É algum dos</p></span>
             <p>Possui todos os</p>
             <p>É exatamente</p>
-            <p>Não tem nenhum dos</p>
+            <p>Não tem nenhum dos</p> ou <span class="preview"><p>Não é nenhum dos</p></span>
             <p>Está vazio</p>
             <p>Não está vazio</p></td>
         </tr>
@@ -615,7 +679,7 @@ Considere o seguinte:
 * Os agrupamentos são listados na ordem alfabética de seus valores.
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -630,6 +694,14 @@ Para adicionar um agrupamento:
 1. Clique em um dos campos sugeridos ou clique em **Escolher um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
    O agrupamento é aplicado automaticamente à tabela e os registros são exibidos na linha de separação de agrupamento.
+
+   <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    -->
 
 1. (Opcional) Clique em **Adicionar condição** e repita as etapas acima para adicionar até três agrupamentos.
 
@@ -1195,9 +1267,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 
