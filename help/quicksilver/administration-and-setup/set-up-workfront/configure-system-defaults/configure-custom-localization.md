@@ -16,16 +16,18 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b077c95d8bb795fcd7c0983c78b7533cb8167270
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 11%
+source-wordcount: '862'
+ht-degree: 5%
 ---
 # Configurar localização personalizada
 
-A localização personalizada permite definir termos e frases personalizados em diferentes idiomas. O Workfront exibe esses termos no conjunto de idiomas nas configurações do Adobe Identity Management (IMS) do usuário.
+{{highlighted-preview}}
 
-Por exemplo, você pode definir o rótulo &quot;Público-alvo&quot; para traduzir para a palavra alemã &quot;Zielgruppe&quot;. Qualquer usuário com o alemão selecionado como idioma principal do navegador verá a palavra &quot;Zielgruppe&quot; como um rótulo para qualquer campo rotulado como &quot;Público-alvo&quot; em inglês.
+A localização personalizada permite que você <span class="preview"> use a IA</span> para definir termos e frases personalizados em diferentes idiomas. O Workfront exibe esses termos no conjunto de idiomas nas configurações do Adobe Identity Management (IMS) do usuário.
+
+Por exemplo, o rótulo &quot;Público-alvo&quot; pode ser localizado para a palavra alemã &quot;Zielgruppe&quot;. Qualquer usuário com o alemão selecionado como idioma principal do navegador verá a palavra &quot;Zielgruppe&quot; como um rótulo para qualquer campo rotulado como &quot;Público-alvo&quot; em inglês.
 
 Você pode configurar traduções para vários idiomas. Os idiomas disponíveis no momento incluem:
 
@@ -86,5 +88,66 @@ As traduções são configuradas na área Configuração.
 1. Para adicionar uma nova tradução, clique em **Nova linha**.
 1. Na coluna **Inglês**, digite o termo em inglês que deve ser traduzido.
 1. Na coluna do idioma em que você deseja que o termo seja traduzido, insira o termo no idioma de destino.
-1. Para traduzir a palavra em idiomas adicionais, adicione a tradução na coluna de idioma apropriada.
-1. Para reordenar as colunas de idioma, clique no cabeçalho de uma coluna que você deseja mover e arraste-a para o local desejado.
+1. (Opcional) Para traduzir a palavra em idiomas adicionais, adicione a tradução na coluna de idioma apropriada.
+1. (Opcional) Para reordenar colunas de idioma, clique no cabeçalho de uma coluna que você deseja mover e arraste-a para o local desejado.
+1. (Opcional) Para excluir as traduções de um termo, clique na caixa de seleção ao lado do termo e em **Excluir** na barra azul na parte inferior da página.
+
+<div class="preview">
+
+## Localizar texto personalizado não traduzido usando traduções de IA
+
+Você pode usar a IA para localizar texto personalizado. Você seleciona o termo e os idiomas e pode aprovar as traduções antes de serem aplicadas.
+
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
+1. Na área Configuração, clique em **Localização** no painel de navegação esquerdo.
+1. Na área Localização, selecione a guia **Texto personalizado não traduzido**.
+
+   Uma lista de texto personalizado não traduzido é exibida. Isso inclui texto como rótulos de campo e mensagens de regras personalizadas.
+
+1. Selecione um ou mais termos que deseja traduzir.
+1. Na barra azul na parte inferior da tela, selecione **Traduzir com IA**.
+
+   A janela Gerar traduções é aberta.
+
+1. Clique nos idiomas para os quais você deseja traduzir o termo ou termos. Para selecionar rapidamente todos os idiomas, clique em **Selecionar tudo**.
+1. (Opcional) Para fornecer orientações mais específicas para a tradução, insira instruções no campo &quot;Instruções para IA&quot;.
+1. Clique em **Gerar**.
+
+   A IA começa a gerar traduções.
+
+   A janela Revisar traduções é aberta.
+
+1. (Opcional) Para ajustar as traduções ou adicionar sua própria tradução, clique no quadrado apropriado da tabela e digite a tradução desejada.
+1. Clique em **Salvar**.
+
+## Traduzir um termo localizado para idiomas adicionais
+
+Você pode traduzir um termo localizado anteriormente para novos idiomas usando IA ou fornecer sua própria tradução.
+
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
+1. Na área Configuração, clique em **Localização** no painel de navegação esquerdo.
+1. Na área Localização, selecione a guia **Traduções**.
+
+   Uma lista de termos traduzidos anteriormente e suas traduções são exibidas.
+
+1. (Opcional) Para editar ou inserir diretamente uma tradução, clique na caixa apropriada na tabela e digite a tradução desejada.
+1. Selecione os termos para os quais você deseja gerar traduções adicionais clicando nas caixas de seleção ao lado desses termos.
+1. Na barra azul na parte inferior da página, clique em **Preencher com IA**.
+
+
+   A janela Gerar traduções é aberta.
+
+1. Clique nos idiomas para os quais você deseja traduzir o termo ou termos. Para selecionar rapidamente todos os idiomas, clique em **Selecionar tudo**.
+1. (Opcional) Para fornecer orientações mais específicas para a tradução, insira instruções no campo &quot;Instruções para IA&quot;.
+1. Clique em **Gerar**.
+
+   A IA começa a gerar traduções.
+
+   A janela Revisar traduções é aberta.
+
+1. (Opcional) Para ajustar as traduções ou adicionar sua própria tradução, clique no quadrado apropriado da tabela e digite a tradução desejada.
+1. Clique em **Salvar**.
+1. (Opcional) Para excluir todas as traduções de um termo, clique na caixa de seleção ao lado do termo e em **Excluir** na barra azul na parte inferior da página.
+
+
+</div>
