@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '5015'
+source-wordcount: '5023'
 ht-degree: 2%
 ---
 # Gerenciar a exibição de linha do tempo
@@ -374,10 +374,10 @@ Para adicionar um filtro a uma exibição de linha do tempo:
         </tr>
         <tr>
             <td>Multisseleção, Pessoas</td>
-            <td><p>Tem qualquer um dos</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>Tem qualquer um dos</p> ou <span class="preview"><p>É algum dos</p></span>
             <p>Possui todos os</p>
             <p>É exatamente</p>
-            <p>Não tem nenhum dos</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>Não tem nenhum dos</p> ou <span class="preview"><p>Não é nenhum dos</p></span>
             <p>Está vazio</p>
             <p>Não está vazio</p></td>
         </tr>
