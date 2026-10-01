@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3374'
 ht-degree: 1%
 ---
 # Usar listas aprimoradas
@@ -78,27 +78,32 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 | lista do Workfront | Local da lista de objetos |
 | --- | --- |
 | Prioridades | <ul><li>Início > selecione o ícone Prioridades no menu esquerdo</li><li>Menu principal > Prioridades</li></ul> |
-| Lista de solicitações | <ul><li>Solicitações (somente nova experiência)</li><li>Widget Minhas solicitações na página inicial</li></ul> |
+| Lista de solicitações | <ul><li>Menu principal > Solicitações (somente nova experiência)</li><li>Widget Minhas solicitações na página inicial</li></ul> |
 | Listas de status, prioridades, severidades, <span class="preview">condições</span> e taxas de câmbio na Instalação | <ul><li>Configuração > Preferências do Projeto > Status</li><li>Configuração > Preferências do Projeto > Prioridades</li><li>Configuração > Preferências do Projeto > Severidades</li><li><span class="preview">Configuração > Preferências do Projeto > Condições</span></li><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
 | <span class="preview">Listas de ações e campos rastreados nos Feeds de Atualização</span> | <ul><li><span class="preview">Configuração > Interface > Atualizar feeds > guia Campos rastreados</span></li> <li><span class="preview">Configuração > Interface > Feeds de Atualização > guia Ações</span></li></ul> |
 | <span class="preview">Lista de scorecards</span> | <span class="preview">Configuração > Scorecards</span> |
 | <span class="preview">Lista de tipos de riscos</span> | <span class="preview">Configuração > Tipos de Riscos</span> |
+| <span class="preview">Lista de notificações de eventos</span> | <ul><li><span class="preview">Configuração > Email > Notificações > Notificações de Eventos</span></li><li><span class="preview">Página de Detalhes do Grupo > Notificações de Eventos</span></li></ul> |
 | Lista de funções e taxas de trabalho em um cartão de taxa | Configuração > Cartões de Taxa > selecione um cartão de taxa > Funções e Taxas de Ordem de Produção |
 | <span class="preview">Lista de locais</span> | <span class="preview">Configuração > Locais</span> |
 | Lista de traduções | Configuração > Localização |
-| <span class="preview">Listas de integrações </span> | <ul><li><span class="preview">Configuração > Documentos > Integração do SharePoint</span></li><li><span class="preview">Configuração > Documentos > Integração personalizada</span></li></ul> |
-| Lista de relatórios | Relatórios (**Usar pastas compartilháveis** deve estar ativado) |
+| <span class="preview">Listas de integrações </span> | <ul><li><span class="preview">Configuração > Documentos > Integração do SharePoint</span></li><li><span class="preview">Configuração > Documentos > Integração personalizada</span></li><li><span class="preview">Configuração > Documentos > Experience Manager Assets</span></li></ul> |
+| Lista de relatórios | Menu Principal > Relatórios (**Usar pastas compartilháveis** deve estar ativado) |
+| <span class="preview">Listas de tópicos da fila, grupos de tópicos e regras de roteamento</span> | <ul><li><span class="preview">Projeto ou Modelo > Enfileirar Tópicos</span></li><li><span class="preview">Projeto ou Modelo > Grupos de Tópicos</span></li><li><span class="preview">Projeto ou Modelo > Regras de Encaminhamento</span></li></ul> |
 | Lista de instantâneos | Projeto > Instantâneos |
 | Lista de recursos para faturamento | Projeto > Recurso para Faturamento |
+| <span class="preview">Lista de predecessores</span> | <span class="preview">Configuração > Tarefa ou Modelo de Tarefa > Predecessores</span> |
 | Novas atribuições avançadas em uma tarefa | Tarefa > Atribuições > Avançado |
 | <span class="preview">Modo de exibição de todas as versões de um documento</span> | <span class="preview">Projeto > Documentos > Detalhes do documento > Todas as versões</span> |
 | Exibição do administrador dos painéis | Quadros > Exibição do administrador |
 | Documentos no armazenamento em nuvem do Adobe | Projeto, tarefa, problema, portfólio, programa, modelo, tarefa de modelo > Documentos |
 | <span class="preview">Listas de planos de cenário e iniciativas</span> | <span class="preview">Menu Principal > Cenários</span> |
+| <span class="preview">Listas de metas e indicadores de progresso</span> | <ul><li><span class="preview">Menu Principal > Metas</span></li><li><span class="preview">Menu Principal > Metas > Indicadores de Progresso</span></li></ul> |
 
 <!--
 
-Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+Under integrations?
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -424,7 +429,7 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na lista.
 1. Clique em **Filtro** acima da lista.
 1. Na caixa Filtro, clique em **Adicionar condição**.
 1. Selecione um campo para filtrar.
-1. Selecione um modificador de filtro, como &quot;Tem qualquer um de&quot;, &quot;Não tem nenhum de&quot;, &quot;É antes&quot; ou &quot;É depois de&quot;. As opções do modificador são diferentes dependendo do tipo de campo pelo qual você está filtrando.
+1. Selecione um modificador de filtro, como &quot;É qualquer um de&quot;, &quot;É nenhum de&quot;, &quot;É antes&quot; ou &quot;É após&quot;. As opções do modificador são diferentes dependendo do tipo de campo pelo qual você está filtrando.
 1. Selecione o valor ou os valores do campo. Dependendo do tipo de campo pelo qual você está filtrando, talvez seja solicitado que você selecione o item em uma lista, pesquise por ele ou use um calendário para selecionar um intervalo de datas.
 
    ![Filtrar em listas aprimoradas](assets/glist-filter-with-options.png)
@@ -471,7 +476,7 @@ O Workfront fornece um número limitado de agrupamentos predefinidos e você nã
    ![Selecionar um agrupamento](assets/glist-grouping-choose-a-group-by.png)
 
 1. Clique em **Recolher tudo** para exibir a lista com todos os agrupamentos recolhidos. A opção padrão é exibir a lista com todos os agrupamentos expandidos.
-1. Quando o agrupamento é aplicado, você pode abrir as opções de Grupo novamente para recolher ou expandir todos os agrupamentos de uma vez, alterar o agrupamento para agrupar por um campo diferente ou limpar todos os agrupamentos.
+1. Quando o agrupamento é aplicado, você pode abrir as opções de Agrupamento novamente para recolher ou expandir todos os agrupamentos de uma vez, alterar o agrupamento para agrupar por um campo diferente ou limpar todos os agrupamentos.
 
    ![Agrupamento em listas aprimoradas](assets/glist-group-by-due-date-priorities.png)
 
