@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: '4466'
 ht-degree: 0%
 ---
 # Visão geral unificada de revisão e aprovação
@@ -50,16 +50,18 @@ Os coordenadores de projeto gerenciam o trabalho no Workfront enquanto criativos
 
 ## Baseado no armazenamento em nuvem do Adobe
 
-A análise e a aprovação unificadas são criadas com base no Adobe Cloud Storage — uma solução de armazenamento em nuvem que serve como repositório central para ativos em produtos corporativos da Adobe, incluindo Workfront e Frame.io. <!--, and Creative Cloud.-->
+A análise e a aprovação unificadas são criadas com base no armazenamento em nuvem da Adobe — uma solução de armazenamento baseada em nuvem que serve como repositório central para ativos em produtos corporativos da Adobe, incluindo Workfront, Frame.io e Creative Cloud.
 
 Os principais benefícios do armazenamento em nuvem da Adobe incluem:
 
 * Camada de armazenamento unificado para ativos criativos e de gerenciamento de trabalho
 * Permissões centralizadas com o Adobe Identity Management System (IMS) para controle de acesso seguro
-* Visibilidade completa de ativos no Workfront e Frame.io <!--, and Creative Cloud apps -->
+* Visibilidade completa de ativos em aplicativos Workfront, Frame.io e Creative Cloud
 * Gerenciamento dimensionável de armazenamento e cotas para as necessidades corporativas
 
 Para obter mais detalhes, consulte [visão geral do armazenamento na nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Os aplicativos do Creative Cloud (Photoshop, Illustrator e InDesign) também podem acessar diretamente os projetos do Workfront. Para obter mais informações, consulte [Visão geral dos Projetos Adobe Creative Cloud](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Revisão e aprovação unificadas
 

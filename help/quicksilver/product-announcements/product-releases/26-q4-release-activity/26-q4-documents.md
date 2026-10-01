@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 3ec19d8268ff33a8cf773d0460d2af07f497687e
+source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1617'
 ht-degree: 2%
 ---
 # Aprimoramentos nos documentos do quarto trimestre de 2026
@@ -23,6 +23,30 @@ ht-degree: 2%
 Esta página descreve as melhorias de documentos feitas com a versão do quarto trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Acessar projetos Workfront por meio de aplicativos Creative Cloud
+
+>[!NOTE]
+>  
+>Visualização: N/D\
+>Versão rápida de produção: 1 de outubro de 2026\
+>Produção para todos: 1 de outubro de 2026
+
+Agora você pode acessar os projetos do Workfront diretamente da Adobe Photoshop, do Illustrator e do InDesign. Os projetos do Workfront que usam o Adobe Cloud Storage são exibidos no painel Projetos no lado esquerdo da janela do aplicativo, junto com os outros projetos do Creative Cloud.
+
+Você pode abrir um documento de uma pasta do projeto, editá-lo e salvá-lo. Suas alterações são salvas no Workfront. Você também pode salvar novos arquivos diretamente em um projeto Workfront.
+
+Quando você salva um documento que tem um fluxo de trabalho de aprovação, o Workfront cria uma nova versão e preserva o histórico de aprovação. Ao salvar um documento que não tem um fluxo de trabalho de aprovação, o Workfront atualiza a versão mais recente.
+
+Para usar essa integração:
+
+* Sua organização deve ter uma versão do Workfront compatível com o armazenamento em nuvem da Adobe.
+* O Workfront e o Photoshop, o Illustrator ou o InDesign devem ter direito à mesma organização do Adobe Identity Management System (IMS).
+
+Para obter mais informações, consulte:
+
+* [Visão geral do Adobe Creative Cloud Projects](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+* [Usar documentos do Workfront em aplicativos Creative Cloud](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
 
 ## Agrupar vários documentos em um único fluxo de trabalho de aprovação
 
@@ -38,27 +62,9 @@ Aprovações agrupadas oferecem suporte aos modos Básico e Avançado, vários e
 
 As aprovações agrupadas estão disponíveis somente na nova área Documentos, que aparece quando sua organização usa uma versão do Workfront compatível com o armazenamento em nuvem do Adobe.
 
-<!--
-For more information, see [Create a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md).
--->
+Para obter mais informações, consulte [Criar uma aprovação agrupada](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md).
 
 <!--
-## Access Workfront projects in Adobe Creative Cloud apps
-
->[!NOTE]
->
->Preview: N/A
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
-
-You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign, using the Projects panel. Projects that use Adobe cloud storage appear in the panel, allowing you to open, edit, and save documents in a Workfront project without leaving the app.
-
-The Documents folder structure in a Workfront project is mirrored in the Projects panel. When you open a document from a project folder, edit it, and save, your changes appear in Workfront. You can also request a document approval on any document connected with Photoshop, Illustrator, or InDesign from Workfront.
-
-For more information, see:
-
-* [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
-* [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
 
 ## Add a web link as a document
 

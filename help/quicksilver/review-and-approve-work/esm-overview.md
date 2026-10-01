@@ -29,16 +29,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1066'
 ht-degree: 0%
 ---
 # Visão geral do armazenamento em nuvem do Adobe
 
 O Adobe Cloud Storage é uma solução de armazenamento em nuvem que serve como repositório central para ativos em produtos corporativos da Adobe. A integração do Workfront e do Frame.io é criada no armazenamento em nuvem do Adobe, permitindo colaboração e gerenciamento de ativos ininterruptos entre essas plataformas.
 
-Essa opção de armazenamento também prepara o caminho para futuras integrações de gerenciamento de ativos com outros produtos da Adobe, como o Adobe Creative Cloud.
+Essa opção de armazenamento também permite integrações de gerenciamento de ativos com outros produtos da Adobe, incluindo aplicativos Adobe Creative Cloud. Para obter mais informações, consulte [Visão geral dos Projetos Adobe Creative Cloud](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Recursos principais
 
