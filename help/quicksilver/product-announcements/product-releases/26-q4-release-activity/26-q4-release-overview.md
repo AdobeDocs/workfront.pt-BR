@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3473'
 ht-degree: 7%
 ---
 # Visão geral da versão do quarto trimestre de 2026
@@ -452,7 +452,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Uma mensagem personalizada definida em uma aprovação de documento agora também aparece na linha de assunto do email de solicitação de aprovação.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>17 de setembro de 2026</p></td>
+            <td><p>15 de outubro de 2026</p></td>
             <td><p>15 de outubro de 2026</p></td>
         </tr>
         <tr>
@@ -524,18 +524,16 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Pré-visualização</strong></td>
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
-        </tr>
-<!--        
+        </tr>       
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to billing rates on templates</a>
-                <p>Project templates now support enhanced list improvements and rate attribute updates for billing rates.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Melhorias nas taxas de cobrança de modelos</a>
+                <p>Os modelos de projeto agora oferecem suporte a melhorias aprimoradas de listas e atualizações de atributos de taxa para taxas de cobrança.</p>
             </td>
-            <td><p>October 1, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->        
+            <td><p>1 de outubro de 2026</p></td>
+            <td><p>14 de outubro de 2026</p></td>
+            <td><p>15 de outubro de 2026</p></td>
+        </tr>    
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Melhorias nas taxas de cobrança da empresa</a>
