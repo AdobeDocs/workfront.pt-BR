@@ -3,10 +3,10 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '14588'
-ht-degree: 92%
+source-wordcount: '14626'
+ht-degree: 91%
 ---
 # Guia do Workfront {#using}
 
@@ -970,11 +970,11 @@ ht-degree: 92%
     * [Usar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Ferramentas de servidor Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [Habilidades disponíveis para instalação direta](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * CX Co-worker no Workfront {#coworker-in-workfront}
-    * [CX Co-worker no Workfront: índice de artigos](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [Visão geral do CX Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [Habilidades do CX Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
-    * [Use o CX Co-worker no Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+  * CX Coworker no Workfront {#coworker-in-workfront}
+    * [CX Coworker no Workfront: índice de artigos](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [Visão geral do CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [Habilidades do CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Usar o CX Coworker no Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * Atualizar itens de trabalho e visualizar atualizações {#update-work-items-view-updates}
     * [Atualizar itens de trabalho e visualizar atualizações: índice de artigos](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Visão geral da seção de atualizações](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1225,6 +1225,10 @@ ht-degree: 92%
     * [Usar o Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
     * [Configurar e gerenciar o Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
     * [Solução de problemas do Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
+  * Projetos Adobe Creative Cloud {#adobe-creative-cloud-projects}
+    * [Projetos Adobe Creative Cloud: índice de artigos](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects.md)
+    * [Visão geral do Adobe Creative Cloud Projects](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+    * [Usar documentos do Workfront em aplicativos Creative Cloud](documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
   * Integrações do Workfront e do Experience Manager Assets {#wf-aem-integrations}
     * [Integrações do Workfront e do Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Conector aprimorado do Workfront para o Experience Manager {#wf-aem-enhanced-connector}
@@ -1324,6 +1328,7 @@ ht-degree: 92%
       * [Compreender as métricas do projeto](manage-work/projects/manage-projects/project-metrics.md)
       * [Visão geral dos limites do projeto](manage-work/projects/manage-projects/project-maximums.md)
       * [Resumir atualizações com o Assistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+      * {hide-from-toc}[Usar o colaborador do Coordenador de projetos](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)
       * [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](manage-work/projects/manage-projects/manage-documents-on-projects.md)
     * Criar e gerenciar modelos de projeto {#create-and-manage-project-templates}
       * [Criar e gerenciar modelos de projeto: índice do artigo](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
@@ -1431,7 +1436,7 @@ ht-degree: 92%
       * [Atribuir tarefas](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [Atribuir tarefas](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [Criar atribuições avançadas](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-      * [Usar colaboradores de tarefas](manage-work/tasks/assign-tasks/use-task-collaborators.md)
+      * [Usar agentes de trabalho](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [Visão geral de atribuições inteligentes](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [Visão geral da modificação de atribuições de tarefas](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [Modificar várias atribuições de usuário em uma lista de tarefas](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
@@ -1949,6 +1954,9 @@ ht-degree: 92%
       * [Configurar e gerenciar aprovações unificadas: índice de artigos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [Criar e gerenciar marcas para o Revisor do AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [Criar uma revisão de documento ou solicitação de aprovação](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+      * [Criar uma aprovação agrupada](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
+      * {hide-from-toc}[Revisar uma aprovação agrupada](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * {hide-from-toc}[Gerenciar aprovações agrupadas](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [Adicionar novos revisores ou aprovadores a um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remover aprovadores ou revisores de um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Criar um modelo de aprovação para ativos e documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

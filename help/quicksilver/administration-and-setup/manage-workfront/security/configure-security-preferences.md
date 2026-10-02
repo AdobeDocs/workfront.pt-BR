@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1543'
 ht-degree: 9%
 ---
 # Configurar preferências do sistema
@@ -226,7 +226,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 <div class="preview">
 
-Os URLs de redirecionamento autorizados permitem conectar uma plataforma de IA personalizada cujo URL de retorno de chamada do OAuth é exclusivo para a sua organização, por exemplo, um URL que contém uma conexão ou ID de locatário. Para obter mais informações sobre quando isso é necessário, consulte [Conectar-se com OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) em [Configurar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+Os URLs de redirecionamento autorizados permitem conectar uma plataforma de IA personalizada cujo URL de retorno de chamada do OAuth é exclusivo para a sua organização, como um URL que contém uma conexão ou ID de locatário.
+
+Para obter mais informações sobre quando pode ser necessário uma URL de redirecionamento autorizada, consulte [Conectar-se com o OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) em [Configurar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 +++ Expanda para visualizar as instruções passo a passo para gerenciar URLs de redirecionamento autorizados para MCP.
 
@@ -238,12 +240,11 @@ Para adicionar um URL:
 1. Insira a **URL** de retorno de chamada.
 1. Clique em **Adicionar**.
 1. Clique em **Salvar**.
+1. Para remover uma URL, abra **Gerenciar URLs**, remova a entrada e clique em **Salvar**. Isso pode ser necessário quando uma integração associada for removida ou comprometida.
 
 >[!IMPORTANT]
 >
->As URLs de retorno de chamada devem corresponder exatamente. O Workfront não oferece suporte a curinga ou prefixo correspondente para URLs de retorno de chamada personalizadas.
-
-Para remover uma URL — por exemplo, se a integração associada for removida ou comprometida — abra **Gerenciar URLs**, remova a entrada e clique em **Salvar**.
+>As URLs de retorno de chamada devem corresponder exatamente, incluindo quaisquer parâmetros de URL. O Workfront não oferece suporte a curinga ou prefixo correspondente para URLs de retorno de chamada personalizadas.
 
 +++
 

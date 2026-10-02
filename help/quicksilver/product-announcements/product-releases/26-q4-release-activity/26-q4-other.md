@@ -13,16 +13,69 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 3%
+source-wordcount: '1108'
+ht-degree: 2%
 ---
 # Outras melhorias durante o período da versão do quarto trimestre de 2026
 
 Esta página descreve as melhorias feitas com a versão do quarto trimestre de 2026 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Atualizações das listas aprimoradas
+
+>[!NOTE]
+>
+>Visualização: 1 de outubro de 2026
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+As seguintes alterações foram feitas aos filtros e agrupamentos aprimorados da lista:
+
+* Em filtros e agrupamentos que usam grupos de campos, os grupos agora são recolhidos por padrão. Não é mais necessário rolar a tela até o fim de localizar o grupo de campos correto.
+* Os operadores de filtro &quot;Tem qualquer um de&quot; e &quot;Não tem nenhum de&quot; foram alterados para &quot;É qualquer um de&quot; e &quot;Não é nenhum de&quot;.
+
+As seguintes alterações foram feitas aos cabeçalhos de coluna da lista aprimorada para fornecer consistência em todas as listas aprimoradas no Workfront:
+
+* Um ícone foi adicionado a cada cabeçalho para indicar o tipo de campo que a coluna representa. Por exemplo, uma coluna para Atribuídos ou Usuários tem o ícone de uma pessoa, e um campo de data mostra um calendário. Esses ícones também são exibidos ao lado dos campos no Gerenciador de colunas.
+* Os cabeçalhos de coluna agora fornecem uma experiência mais suave e consistente ao alterar o tamanho da coluna.
+
+Para obter informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Várias telas atualizadas para listas aprimoradas
+
+>[!NOTE]
+>
+>Visualização: 1 de outubro de 2026
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+As listas do Workfront a seguir agora usam o formato de lista aprimorado:
+
+* Configuração > Email > Notificações > Notificações de Eventos e página Detalhes do Grupo > Notificações de Eventos
+* Configuração > Documentos > Experience Manager Assets
+* Projeto ou modelo > Tópicos da fila
+* Projeto ou modelo > Grupos de tópicos
+* Projeto ou Modelo > Regras de Encaminhamento
+* Tarefa ou Modelo de Tarefa > Predecessoras
+
+As atualizações incluem o seguinte para algumas ou todas as listas:
+
+* Uma nova aparência da lista, com atualizações de cores, formatação e fontes.
+* A opção para criar um novo objeto na lista foi movida para o canto superior direito e é exibida como um botão azul.
+* A barra de ferramentas foi removida. Agora, quando você seleciona um ou mais objetos na tabela, a barra de ação aparece na parte inferior da lista em azul.
+* Algumas colunas podem ter sido reposicionadas ou removidas, ou novas colunas foram adicionadas.
+* Algumas confirmações e avisos foram removidos ou alterados.
+* Salvar em algumas listas agora é automático e o botão Salvar pode ter sido removido.
+* Algumas listas aprimoradas permitem que as colunas sejam renomeadas ou classificadas.
+* Algumas listas aprimoradas incluem o Gerenciador de colunas, que permite adicionar e organizar colunas. Você pode selecionar colunas por campos nativos ou personalizados no Workfront.
+* Os ícones nas células da tabela foram substituídos por Mais menus com várias opções.
+
+OBSERVAÇÃO: nem todas as atualizações estão disponíveis em todas as listas.
+
+Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Atualizações da lista aprimorada
 
