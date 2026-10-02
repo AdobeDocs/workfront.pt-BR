@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
 source-wordcount: '3473'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Quarto trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -452,7 +452,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Uma mensagem personalizada definida em uma aprovação de documento agora também aparece na linha de assunto do email de solicitação de aprovação.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>17 de setembro de 2026</p></td>
+            <td><p>15 de outubro de 2026</p></td>
             <td><p>15 de outubro de 2026</p></td>
         </tr>
         <tr>
@@ -898,7 +898,7 @@ Se você for um administrador da Workfront com usuários de leitores de Data Con
 
 Essa alteração foi anunciada pela primeira vez nas notas de versão de abril de 2026 do Workfront e este é o lembrete final antes do prazo. Certifique-se de que todos os usuários de leitores afetados ativem o MFA antes de 8 de agosto de 2026 para evitar a interrupção de seu acesso.
 
-Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/pt-br/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Atualizações de treinamento
 
