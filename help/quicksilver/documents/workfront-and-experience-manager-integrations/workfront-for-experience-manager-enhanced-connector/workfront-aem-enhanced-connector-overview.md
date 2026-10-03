@@ -68,7 +68,7 @@ O conector aprimorado do Workfront para Experience Manager agora permite:
 
 * Adobe Workfront
 * [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
-* [Adobe Experience Manager 6.5 Assets no local](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
+* [Adobe Experience Manager 6.5 Assets no local](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-manager-on-premise.html)
 * [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 * Adobe Experience Manager Assets no local
 * Adobe Experience Manager Assets as a Managed Service

@@ -94,7 +94,7 @@ Para saber mais sobre [!DNL Workfront], você pode:
   </tr> 
   <tr> 
    <td><strong>Saiba mais sob demanda e aprofunde-se com o [!DNL Workfront] Treinamento</strong> </td> 
-   <td>A <a href="https://experienceleague.adobe.com">Experience League</a> oferece caminhos de aprendizado baseados em funções para colocar planejadores, trabalhadores, colaboradores e administradores de sistema em funcionamento com a funcionalidade principal do [!DNL Workfront].<br>Expanda o seu conhecimento do [!DNL Workfront]</a> explorando caminhos de aprendizado, tutoriais em vídeo e guias baixáveis sobre os seus tópicos de interesse.<br></td> 
+   <td>A <a href="https://experienceleague.adobe.com/pt-br">Experience League</a> oferece caminhos de aprendizado baseados em funções para colocar planejadores, trabalhadores, colaboradores e administradores de sistema em funcionamento com a funcionalidade principal do [!DNL Workfront].<br>Expanda o seu conhecimento do [!DNL Workfront]</a> explorando caminhos de aprendizado, tutoriais em vídeo e guias baixáveis sobre os seus tópicos de interesse.<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -112,7 +112,7 @@ Os seguintes recursos podem ajudá-lo a determinar como você pode usar o [!DNL 
    <td>Essa é a sua fonte inicial para webinários, ebooks, whitepapers, vídeos e relatórios.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Estudos de caso </a></td> 
+   <td><a href="https://business.adobe.com/br/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Estudos de caso </a></td> 
    <td>Leia uma coleção crescente de mais de 60 estudos de caso, destacando os desafios dos clientes e as soluções e benefícios do [!DNL Workfront].</td> 
   </tr> 
   <tr> 

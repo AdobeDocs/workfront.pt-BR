@@ -109,7 +109,7 @@ Ao solicitar aprovação em um modelo remixado do Express, os usuários podem es
 
 Se nenhum projeto for selecionado, o ativo assumirá como padrão um projeto específico do Express.
 
-Para obter mais informações, consulte [Enviar modelos para revisão e aprovação](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+Para obter mais informações, consulte [Enviar modelos para revisão e aprovação](https://helpx.adobe.com/br/express/web/invite-collaborate/request-approval.html).
 
 
 ## Revisar e aprovar arquivos Express remixados com Frame.io
