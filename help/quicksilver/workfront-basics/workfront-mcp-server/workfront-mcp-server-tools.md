@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
+source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3281'
 ht-degree: 4%
 ---
 
@@ -28,6 +28,19 @@ Para obter informações sobre como usar essas ferramentas por meio de uma plata
 >[!IMPORTANT]
 >
 >A plataforma do agente de IA atua no Workfront usando sua conta da Workfront, o nível de acesso e as permissões do objeto. Uma ferramenta só funciona se você tiver o acesso correspondente no Workfront. A Adobe não se responsabiliza pelas alterações que a plataforma de IA Agent faz nos dados do Workfront.
+
+## Como os direitos do produto afetam a lista de ferramentas
+
+As ferramentas que aparecem na plataforma de agente de IA dependem dos direitos de produto da Workfront da sua organização.
+
+* Os clientes licenciados somente para o Workfront Planning veem as ferramentas do Planning, mas não as ferramentas do Workflow.
+* Os clientes licenciados somente para o Workfront Workflow veem Ferramentas de fluxo de trabalho, mas não Ferramentas de planejamento.
+* Os clientes licenciados para o Workfront Workflow e o Workfront Planning veem os dois conjuntos de ferramentas.
+* Os insights e as ferramentas de contexto estão disponíveis para todos os clientes.
+
+Se sua organização não tiver direito a uma área de produto, as ferramentas relacionadas não aparecerão na lista de ferramentas para essa conexão. Se uma plataforma de agente de IA tentar chamar uma ferramenta que não está disponível para seus direitos, a solicitação será bloqueada.
+
+As tabelas a seguir identificam a área do produto à qual cada ferramenta pertence.
 
 
 ## Ações de leitura e gravação
@@ -45,6 +58,10 @@ O administrador do Workfront controla quais categorias de ferramentas a platafor
 Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não puder criá-los, atualizá-los ou excluí-los, peça ao administrador do Workfront para habilitar ações de gravação. Para obter mais informações, consulte [Pré-requisitos de administração](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites) em *Configurar o servidor MCP do Adobe Workfront*.
 
 ## Ferramentas de aprovação
+
+Requisito do produto: Todos os clientes
+
+No momento, não há limitações de direitos nas ferramentas de aprovação.
 
 ### Documentos
 
@@ -123,6 +140,8 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 | Encontrar projetos | `approvals_find_projects` | Obsoleto. Em vez disso, use `insights_find_workfront_data`. Essa ferramenta pesquisava projetos do Workfront, opcionalmente filtrados por nome e/ou restritos a projetos pertencentes ao usuário que faz a chamada. | Ler |
 
 ## Ferramentas de planejamento
+
+Requisito do produto: Workfront Planning
 
 >[!IMPORTANT]
 >
@@ -208,6 +227,8 @@ Se a plataforma do agente de IA puder encontrar itens do Workfront, mas não pud
 
 ## Ferramentas de fluxo de trabalho
 
+Requisito do produto: Fluxo de trabalho do Workfront
+
 As ferramentas de fluxo de trabalho são ações de uso geral que a plataforma de IA usa para trabalhar com qualquer objeto do Workfront — projetos, tarefas, problemas, horas, atribuições, programas, portfólios e assim por diante.
 
 ### Objetos e campos
@@ -291,6 +312,8 @@ Exemplo de prompts:
 
 ### Ferramentas do Insights
 
+Requisito do produto: Workfront Workflow ou Workfront Planning.
+
 As ferramentas do Insights recuperam informações sobre objetos do Workfront.
 
 >[!NOTE]
@@ -311,6 +334,8 @@ As ferramentas do Insights recuperam informações sobre objetos do Workfront.
 
 ## Ferramentas de feedback
 
+Requisito do produto: Workfront Workflow ou Workfront Planning.
+
 <span class="preview">As ferramentas de feedback permitem relatar sua experiência com o servidor MCP do Workfront diretamente da sua plataforma de agente de IA.</span>
 
 | Título | Nome da ferramenta | O que faz | Ação |
@@ -318,6 +343,8 @@ As ferramentas do Insights recuperam informações sobre objetos do Workfront.
 | <span class="preview">Compartilhar feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Registra o sentimento relatado e o que aconteceu durante a conversa, para que as ferramentas MCP do Workfront possam ser aprimoradas. Usado apenas quando você pede explicitamente para compartilhar feedback (por exemplo, &quot;compartilhar feedback&quot; ou &quot;relatar um erro&quot;).</span> | <span class="preview">Write</span> |
 
 ## Ferramentas de relatórios
+
+Requisito do produto: Todos os clientes
 
 As ferramentas de relatórios permitem criar e gerenciar Painéis do Canvas por meio do chat. Descreva o relatório desejado em linguagem simples, e a plataforma de agente de IA cria o painel e os widgets para você usando os dados do Workfront.
 
@@ -336,7 +363,9 @@ As ferramentas de relatórios permitem criar e gerenciar Painéis do Canvas por 
 
 ## Como as ferramentas são atualizadas
 
-Quando o Adobe lança uma nova versão do servidor MCP do Workfront, a plataforma de agente de IA usa o conjunto de ferramentas atualizado automaticamente. Você não precisa reconectar ou alterar nada em seu lado.
+Quando o Adobe lança uma nova versão do servidor MCP do Workfront, a plataforma de agente de IA usa o conjunto de ferramentas atualizado automaticamente.
+
+A lista de ferramentas é definida quando a conexão é iniciada. Se os direitos de produto da sua organização forem alterados, a lista de ferramentas atualizada será exibida na próxima vez que você iniciar uma nova conexão com o servidor MCP do Workfront.
 
 
 

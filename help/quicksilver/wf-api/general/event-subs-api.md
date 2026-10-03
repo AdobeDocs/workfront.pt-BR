@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3560'
 ht-degree: 88%
 ---
 # API de Assinatura de evento
@@ -42,6 +42,10 @@ ht-degree: 88%
 Quando ocorre uma ação em um objeto do Adobe Workfront que é compatível com assinaturas de evento, você pode configurar o Workfront para enviar uma resposta para o ponto de acesso desejado. Isso significa que aplicativos de terceiros podem receber atualizações das interações do Workfront por meio da API do Workfront, logo após ocorrerem. Em geral, você pode esperar receber notificações de webhook em menos de 5 segundos após a alteração de dados que está sendo registrada. Em média, clientes recebem notificações de webhook em menos de 1 segundo após a alteração de dados que está sendo registrada.
 
 Como as assinaturas de evento enviam dados para outro serviço, elas são gerenciadas por meio de comandos, não pelo aplicativo do Workfront.
+
+>[!NOTE]
+>
+>Para trabalhar com assinaturas de evento no aplicativo Workfront, consulte [Configurar assinaturas de evento no Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
 
 Para receber conteúdos de assinaturas de evento por meio do firewall, você deve adicionar os seguintes endereços IP à lista de permissões:
 

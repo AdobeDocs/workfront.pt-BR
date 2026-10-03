@@ -1,8 +1,8 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Duplicar um relatório em um painel de tela
-description: É possível duplicar um relatório em um painel da Tela de desenho.
+title: Copiar e mover relatórios nos Painéis do Canvas
+description: Você pode copiar ou mover um relatório entre Painéis do Canvas.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 45491118778279522358f87c1c4185c4cf824829
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 24%
+source-wordcount: '693'
+ht-degree: 12%
 ---
-# Duplicar um relatório em um painel de tela
+# Copiar e mover relatórios nos Painéis do Canvas
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -91,7 +93,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 Para obter mais informações, consulte [Criar um painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplicação de um relatório
+## Duplicação de um relatório na produção
 
 {{step1-to-dashboards}}
 
@@ -109,3 +111,53 @@ Para obter mais informações, consulte [Criar um painel da Tela](/help/quicksil
    >Essas guias variam dependendo se você duplicou um relatório de KPI, tabela ou gráfico.  Para obter mais informações, consulte [Criar um relatório de KPI em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Criar um relatório de gráfico em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) e [Criar um relatório de tabela em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
 1. Clique em **Salvar**. O relatório duplicado é exibido no painel.
+
+<div class="preview">
+
+## Copiar ou mover um relatório na Visualização
+
+Você pode copiar um relatório para o painel atual, copiá-lo para outro painel ou movê-lo para outro painel. Copiar cria uma duplicata do relatório no destino; mover realoca-o do painel atual.
+
+>[!IMPORTANT]
+>
+>* Para copiar um relatório, você precisa de permissões de Gerenciamento para o painel de destino.
+>* Para mover um relatório, você precisa do acesso de Gerenciar aos painéis de origem e destino.
+>* Se o relatório tiver uma configuração Executar como usuário e você não for um Administrador do sistema ou o Executar como usuário, você ainda poderá copiá-lo ou movê-lo, mas a opção Executar como usuário será removida do relatório resultante.
+
+
+Para copiar ou mover um relatório:
+
+{{step1-to-dashboards}}
+
+1. No painel esquerdo, clique em **Painéis do Canvas**.
+1. Abra o painel que contém o relatório.
+1. Clique no ícone do **Mais** ![Mais botão](assets/more-icon.png) no canto superior direito do relatório e selecione **Copiar relatório**.
+
+   ![Opção Copiar relatório](assets/copy-report-button.png)
+
+1. Na caixa de diálogo **Copiar relatório**, escolha uma das seguintes opções:
+
+   <table>
+   <tr>
+   <td><strong>Copiar</strong></td>
+   <td>Clique em <strong>Copiar</strong> na parte inferior da tela para copiar o relatório. O painel atual é selecionado por padrão. Você precisa de acesso de Gerenciar ao painel para copiar um relatório.</td>
+   </tr>
+   <tr>
+   <td><strong>Copiar e mover</strong></td>
+   <td>Selecione um painel de destino diferente para copiar o relatório e movê-lo para um novo painel. O relatório original permanece no painel atual.Você precisa de acesso de Gerenciamento ao painel de destino para copiar e mover um relatório. </td>
+   </tr>
+   <tr>
+   <td><strong>Mover</strong></td>
+   <td>Selecione um painel de destino diferente para o qual mover o relatório. Isso realoca o relatório no painel de destino e o remove do painel atual. Você precisa de acesso de Gerenciar aos painéis de origem e destino para mover um relatório.</td>
+   </tr>
+   </table>
+
+   >[!NOTE]
+   >
+   >Se o relatório tiver uma configuração Executar como usuário e você não for um Administrador do sistema ou o usuário definido como Executar como usuário, você ainda poderá copiar ou mover o relatório. A opção Executar como usuário é removida do relatório resultante.
+
+1. Clique em **Salvar**.
+
+   ![copiar e mover](assets/copy-and-move.png)
+
+</div>

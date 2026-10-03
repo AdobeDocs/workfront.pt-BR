@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '14626'
+source-wordcount: '14631'
 ht-degree: 91%
 ---
 # Guia do Workfront {#using}
@@ -694,6 +694,7 @@ ht-degree: 91%
       * [Excluir uma condição personalizada](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Gerenciar o Adobe Workfront {#manage-wf}
     * [Gerenciar o Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
+    * [Configurar assinaturas de evento no Workfront](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
     * Configurar funcionalidade de revisão {#configure-proofing}
       * [Configurar revisão](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [Configurações de prova](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
@@ -1644,7 +1645,7 @@ ht-degree: 91%
       * [Usar campos de moeda nos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
       * [Filtrar um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
       * [Alterar o nome ou a descrição de um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
-      * [Duplicar um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
+      * [Copiar um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
       * [Excluir um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
       * [Adicionar um painel tela a um modelo de layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
     * Gerenciar relatórios {#manage-reports}
@@ -1653,7 +1654,7 @@ ht-degree: 91%
       * [Filtrar um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
       * [Referência de filtro de relatório para Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
       * [Agrupar dados de relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
-      * [Duplicar um relatório em um painel de tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
+      * [Copiar e mover relatórios nos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [Excluir um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * Relatórios {#reports}
     * [Relatórios](reports-and-dashboards/reports/reports-overview.md)

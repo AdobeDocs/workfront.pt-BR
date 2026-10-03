@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2735'
 ht-degree: 9%
 ---
 # Adicionar campos calculados a um formulário
@@ -103,9 +103,9 @@ Você também pode ter um cálculo diferente para o mesmo campo, no novo formul�
 >
 >As alterações em expressões calculadas podem fazer com que o valor do campo em objetos fique desatualizado. Para garantir que o cálculo sempre esteja atualizado nesses campos, siga um destes procedimentos:
 >
->* Depois de salvar um objeto com os dados editados em um formulário personalizado anexado, clique no ícone Mais ![ícone Mais](assets/more-icon.png) na página principal do objeto e Recalcule as Expressões Personalizadas.
->* Selecione a opção Recalcular expressões personalizadas ao editar objetos em massa.
->* Selecione a opção Update previous calculations ao editar um Campo personalizado calculado em um formulário personalizado.
+>* Depois de salvar um objeto com os dados editados em um formulário personalizado anexado, clique no ícone **Mais** ícone ![Mais ícone](assets/more-icon.png) na página principal do objeto e **Recalcular Expressões Personalizadas**.
+>* Selecione a opção **Recalcular Expressões Personalizadas** ao editar objetos em massa.
+>* Selecione a opção Update previous calculations ao editar um campo personalizado calculado em um formulário personalizado.
 
 Para reutilizar um campo personalizado calculado existente:
 
@@ -334,18 +334,18 @@ Para reutilizar um campo personalizado calculado existente:
       >
       >Você pode executar qualquer um dos seguintes procedimentos para obter ajuda com o cálculo:
       > 
-      >* Passe o mouse sobre uma expressão no cálculo para ver uma descrição, um exemplo mostrando como ela pode ser usada e um link **Saiba mais** para obter mais informações no artigo [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![Texto de ajuda da expressão](assets/hover-expression-help-text.jpg)
+      >* Passe o mouse sobre uma expressão no cálculo para ver uma descrição e um exemplo mostrando como ela pode ser usada. <!--and a **Learn More** link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).-->
+      >  ![Texto de ajuda da expressão](assets/hover-expression-help-text.png)
       >* Use a codificação de cores para identificar os componentes adicionados. As expressões são exibidas em azul e os campos são exibidos em verde.
-      >  ![Cores para expressões de campo](assets/colors-fields-expressions.jpg)
-      >* Encontre erros de cálculo, destacados em rosa, conforme você avança. Você pode passar o mouse sobre um erro destacado para exibir uma breve descrição da causa.
+      >  ![Cores para expressões de campo](assets/colors-fields-expressions.png)
+      >* Encontre erros de cálculo, sublinhados em vermelho, conforme você avança. Você pode passar o mouse sobre um erro destacado para exibir uma breve descrição da causa.
       >  ![Ajuda do erro](assets/error-help.png)
       >* Na área abaixo do cálculo, visualize os resultados em um objeto do Workfront existente.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![Visualizar cálculo](assets/preview-calc.jpg)
+      >  ![Visualizar cálculo](assets/preview-calc.png)
       >* Referencie expressões em um cálculo longo usando os números de linha exibidos à esquerda.
 
       +++
+
    1. Clique em **Minimizar** quando terminar de criar o cálculo para o campo personalizado calculado.
 
    1. (Opcional) Use qualquer uma das seguintes opções para configurar ainda mais seu campo personalizado calculado:
@@ -356,7 +356,7 @@ Para reutilizar um campo personalizado calculado existente:
     <tbody> 
      <tr> 
       <td role="rowheader">Adicionar Lógica</td> 
-      <td>Você pode adicionar Lógica de exibição para determinar se o campo calculado é exibido com base em pelo menos uma escolha que um usuário faz em um campo de múltipla escolha anterior (Suspenso, Caixas de seleção ou Botões de opção) ao preencher o formulário. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>Isso está disponível somente quando pelo menos uma caixa de seleção, botão de opção ou campo suspenso precede o campo personalizado calculado no formulário. </p> <p>A Lógica de salto não está disponível para campos personalizados calculados.</p> </td> 
+      <td>Você pode adicionar a Lógica de exibição para determinar se o campo calculado é exibido com base em pelo menos uma escolha que um usuário faz em um campo de múltipla escolha anterior (Suspenso, Caixas de seleção ou Botões de opção) ao preencher o formulário. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Adicionar regras de lógica a formulários e campos personalizados</a>. <p>Isso está disponível somente quando pelo menos uma caixa de seleção, botão de opção ou campo suspenso precede o campo personalizado calculado no formulário. </p> <p>A lógica de salto e outros tipos lógicos não estão disponíveis para campos personalizados calculados.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Atualizar cálculos anteriores</td> 
