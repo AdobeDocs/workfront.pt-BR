@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '984'
 ht-degree: 1%
 ---
 # Perguntas frequentes: assinaturas de eventos
@@ -82,7 +82,7 @@ Alguns dos seguintes cenários podem ser responsáveis:
 
   * Um URL de Assinatura de Evento será desabilitado permanentemente se uma das seguintes condições for atendida:
 
-    * O URL de assinatura não foi entregue por 7 dias e falhou em pelo menos 2.000 tentativas de entrega consecutivas nas últimas 72 horas.
+    * O URL de assinatura não foi entregue por pelo menos 72 horas e falhou em mais de 2.000 tentativas de entrega consecutivas.
     * O URL de assinatura não entregou 50.000 tentativas consecutivas.
 
 ## O que devo fazer se estiver recebendo um status de resposta 500 ao tentar chamar a API de assinatura de evento?
