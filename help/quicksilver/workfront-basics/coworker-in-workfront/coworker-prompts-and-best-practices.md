@@ -1,5 +1,5 @@
 ---
-title: Solicitações e práticas recomendadas do CX Coworker
+title: Solicitações e práticas recomendadas do CX Enterprise Coworker
 content-type: reference
 description: Saiba mais sobre as práticas recomendadas para usar o Coworker no Workfront e exiba uma lista de exemplos de prompts.
 author: Becky
@@ -10,20 +10,20 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2241'
 ht-degree: 2%
 ---
-# Solicitações e práticas recomendadas do CX Coworker
+# Solicitações e práticas recomendadas do CX Enterprise Coworker
 
 &lt;!—NÃO USE ISSO—Em vez disso, vincule-se ao artigo de solicitações de exemplo do MCP, certifique-se de atualizá-lo com as versões recentes para o MCP—>
 
 >[!IMPORTANT]
 >
->No momento, o CX Coworker não está disponível para organizações nos setores de assistência médica, financeiro ou de alguns outros setores com dados confidenciais. O Assistente de IA está disponível para essas organizações. Para obter mais informações, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>No momento, o CX Enterprise Coworker não está disponível para organizações nos setores de assistência médica, financeiro ou de alguns outros setores com dados confidenciais. O Assistente de IA está disponível para essas organizações. Para obter mais informações, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-Com o CX Coworker, você pode usar a linguagem natural para interagir com o Workfront Workflow e o Workfront Planning.
+Com o CX Enterprise Coworker, você pode usar a linguagem natural para interagir com o Workfront Workflow e o Workfront Planning.
 
 O parceiro faz parte da Adobe Experience Cloud Agent Orchestrator.
 
