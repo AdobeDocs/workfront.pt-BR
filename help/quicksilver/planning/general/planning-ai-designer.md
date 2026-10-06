@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 5%
+source-wordcount: '1639'
+ht-degree: 6%
 ---
 # Introdução ao Adobe Workfront Planning Designer
 
@@ -55,7 +55,7 @@ ht-degree: 5%
 
 Você pode usar o Adobe Planning Designer alimentado por IA para configurar facilmente seus espaços de trabalho e estruturas de dados. O Planning Designer oferece suporte a tudo, desde a criação e configuração de espaços de trabalho até a definição de campos e fórmulas, gerenciamento de registros, revisão do histórico de alterações e criação de exibições personalizadas.
 
-Seja usado diretamente, por meio do Assistente de IA ou <span class="preview"> do CX Coworker</span>, o Planning Designer fornece um ambiente flexível e eficiente para criar e manter informações estruturadas e conectadas.
+Seja usado diretamente, por meio do Assistente de IA ou do <span class="preview"> CX Coworker</span>, o Planning Designer fornece um ambiente flexível e eficiente para criar e manter informações estruturadas e conectadas.
 
 Para obter informações sobre o Workfront Planning, consulte os seguintes artigos:
 
@@ -63,7 +63,7 @@ Para obter informações sobre o Workfront Planning, consulte os seguintes artig
 * [Introdução ao Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md)
 * [Visão geral de acesso do Planejamento do Adobe Workfront](/help/quicksilver/planning/access/access-overview.md)
 
-Para obter informações sobre o Assistente de IA e o CX Coworker no Planning, consulte os seguintes artigos:
+Para obter informações sobre o Assistente de IA e Colaborador no Planning, consulte os seguintes artigos:
 
 * [Visão geral do Assistente de IA do Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Visão geral do Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
@@ -215,15 +215,15 @@ Sargis and Ashot  said these are not required:
 -->
 
 * O administrador do Workfront deve ativar o Planning Designer para sua organização. Depois disso, o Planning Designer estará disponível para todos os usuários, por padrão.
-* Se sua organização tiver assinado um contrato de IA, as ações executadas pelo Planning Designer também poderão ser executadas pelo Assistente de IA ou <span class="preview">pelo CX Coworker</span>, quando você usá-lo na área do Planning.
-* As ações executadas pelo Assistente de IA ou <span class="preview">pelo CX Coworker</span> na área de Planejamento ou aquelas executadas pelo Planning Designer estão no contexto das suas permissões do Workfront Planning e do seu nível de acesso ao Workfront.
+* Se sua organização tiver assinado um contrato de IA, as ações executadas pelo Planning Designer também poderão ser executadas pelo Assistente de IA ou pelo <span class="preview"> Colaborador</span>, quando você usá-lo na área do Planning.
+* As ações executadas pelo Assistente de IA ou <span class="preview">Colaborador</span> na área de Planejamento ou aquelas executadas pelo Planning Designer estão no contexto das suas permissões do Workfront Planning e do seu nível de acesso do Workfront.
 
   Para obter informações, consulte os seguintes artigos:
 
   * [Visão geral das permissões de compartilhamento no Planejamento do Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Visão geral dos tipos de licença ao usar o Planejamento do Adobe Workfront](/help/quicksilver/planning/access/license-type-overview.md)
 
-* As alterações feitas pelo Assistente de IA, <span class="preview">CX Coworker</span>, ou pelo Planning Designer em nome do usuário são rastreadas no painel de histórico do registro.
+* As alterações feitas pelo Assistente de IA, <span class="preview">Colaborador</span>, ou pelo Planning Designer em nome do usuário são rastreadas no painel de histórico do registro.
 
 * As ações realizadas pelo Planning Designer são permanentes e podem ser irreversíveis. Por exemplo, a exclusão de um campo não pode ser revertida. Revise todas as ações propostas pela Designer antes de aceitá-las.
 
@@ -235,7 +235,7 @@ Sargis and Ashot  said these are not required:
 
 ## Funcionalidade atualmente disponível para o Planning Designer
 
-Você pode usar o Planning Designer ou o Assistente de IA ou <span class="preview">o CX Coworker</span> para executar qualquer uma das seguintes ações:
+Você pode usar o Planning Designer, o Assistente de IA ou o <span class="preview">Colaborador</span> para executar uma das seguintes ações:
 
 * Criar e configurar espaços de trabalho
 
@@ -274,7 +274,7 @@ Você pode usar o Planning Designer ou o Assistente de IA ou <span class="previe
 
 ## Criar ou atualizar objetos usando o Planning Designer
 
-Você pode criar ou atualizar objetos no Workfront Planning usando o Planning Designer, o AI Assistant ou <span class="preview"> o CX Coworker</span>, a menos que especificado de outra forma.
+Você pode criar ou atualizar objetos no Workfront Planning usando o Planning Designer, o AI Assistant ou o <span class="preview"> Co-worker</span>, a menos que especificado de outra forma.
 
 1. Faça logon no Workfront, clique no ícone **Menu Principal** ![Menu principal Linhas](assets/lines-main-menu.png) no canto superior esquerdo e clique em **Planning**.
 
@@ -288,7 +288,7 @@ Você pode criar ou atualizar objetos no Workfront Planning usando o Planning De
 
    ![Janela do Planning Designer](assets/planning-designer-window.png)
 
-1. No espaço fornecido, comece a digitar os prompts do Assistente de IA <span class="preview"> no CX Coworker</span> e, em seguida, clique em Inserir quando terminar.
+1. No espaço fornecido, comece a digitar os prompts do Assistente de IA <span class="preview"> ou Colaborador</span> e, em seguida, clique em Inserir quando terminar.
 
    <!--add screen shot-->
 

@@ -22,16 +22,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '352'
 ht-degree: 12%
 ---
 # Habilitar ou desabilitar o Assistente de IA
 
 >[!IMPORTANT]
 >
->A partir de setembro de 2026, o AI Assistant estará fazendo a transição para o CX Coworker, uma interface conversacional para realizar o trabalho. Para obter informações sobre o CX Co-worker, consulte a [Visão geral do CX Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>A partir de setembro de 2026, o Assistente de IA está fazendo a transição para o CX Coworker, uma interface conversacional para concluir o trabalho. Para obter informações sobre o Colaborador, consulte [visão geral do CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Como administrador do Workfront, você pode controlar quais usuários em sua organização têm o Assistente de IA ativado. Isso é gerenciado pelos níveis de acesso.
 

@@ -1,5 +1,5 @@
 ---
-title: Habilidades do CX Co-worker
+title: Habilidades do CX Coworker
 content-type: reference
 description: Saiba mais sobre as habilidades disponíveis para o Colaborador no Adobe Workfront.
 author: Becky
@@ -10,22 +10,22 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 6%
 ---
-# Habilidades do CX Co-worker
+# Habilidades do CX Coworker
 
 {{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
->Atualmente, o CX Coworker não está disponível para organizações de assistência médica, finanças ou alguns outros setores com dados confidenciais. O Assistente de IA está disponível para essas organizações. Para obter mais informações, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>No momento, o CX Coworker não está disponível para organizações nos setores de assistência médica, financeiro ou de alguns outros setores com dados confidenciais. O Assistente de IA está disponível para essas organizações. Para obter mais informações, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Este artigo lista as habilidades que estão disponíveis no momento para o CX Coworker no Workfront.
 
-As habilidades cobertas por essas habilidades estão disponíveis no CX Coworker por meio da interface conversacional, e você não precisa chamá-las diretamente. No entanto, se você quiser chamar as habilidades diretamente, poderá fazê-lo no painel Colaborador inserindo uma barra `/` e digitando o nome da habilidade.
+As habilidades cobertas por essas habilidades estão disponíveis no Co-worker por meio da interface de conversação, e você não precisa chamar essas habilidades diretamente. No entanto, se você quiser chamar as habilidades diretamente, poderá fazê-lo no painel Colaborador inserindo uma barra `/` e digitando o nome da habilidade.
 
 Por exemplo, prompts, consulte os prompts no artigo [Usar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 

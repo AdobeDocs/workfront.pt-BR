@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '984'
 ht-degree: 6%
 ---
 # Visão geral do Assistente de IA do Planejamento do Adobe Workfront
@@ -55,11 +55,11 @@ Os comandos do usuário e a execução desses comandos pela IA trabalham juntos 
 
 >[!IMPORTANT]
 >
-><span class="preview">Em algumas organizações, o Assistente de IA foi substituído pela CX Coworker. Para obter informações, consulte [visão geral do Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+><span class="preview">Em algumas organizações, o Assistente de IA foi substituído pelo CX Coworker. Para obter informações, consulte [visão geral do Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -160,7 +160,7 @@ Você pode usar o Assistente de IA para executar as seguintes ações neste mome
 
 >[!NOTE]
 >
-><span class="preview">Se sua organização tiver recebido acesso à CX Coworker, localizar a CX Coworker será semelhante a localizar o Assistente de IA. Para obter informações, consulte [visão geral do Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+><span class="preview">Se sua organização tiver recebido acesso ao CX Coworker, a localização do Colaborador será semelhante à localização do Assistente de IA. Para obter informações, consulte [visão geral do Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 
 Você pode localizar o Assistente de IA nas seguintes áreas do Workfront Planning:
