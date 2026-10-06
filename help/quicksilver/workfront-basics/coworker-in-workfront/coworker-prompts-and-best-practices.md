@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2237'
 ht-degree: 2%
 ---
 # Solicitações e práticas recomendadas do CX Coworker
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Atualmente, o CX Coworker não está disponível para organizações de assistência médica, finanças ou alguns outros setores com dados confidenciais. O Assistente de IA está disponível para essas organizações. Para obter mais informações, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>No momento, o CX Coworker não está disponível para organizações nos setores de assistência médica, financeiro ou de alguns outros setores com dados confidenciais. O Assistente de IA está disponível para essas organizações. Para obter mais informações, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Com o CX Coworker, você pode usar a linguagem natural para interagir com o Workfront Workflow e o Workfront Planning.
 
@@ -73,7 +73,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Considerações
 
-Considere as seguintes restrições ao usar o CX Coworker:
+Considere as seguintes restrições ao usar o Colaborador:
 
 ### Reversibilidade
 
@@ -87,13 +87,13 @@ Entretanto, algumas ações, como exclusão de objeto, podem **não** ser revert
 
 ### Limitações de interação/UX
 
-* No momento, o CX Coworker não &quot;aprende&quot; a longo prazo com o estilo ou as preferências de um usuário individual. Cada chat usa apenas a conversa atual e o conhecimento do produto.
+* Atualmente, o colega de trabalho não &quot;aprende&quot; a longo prazo com o estilo ou as preferências de um usuário individual. Cada chat usa apenas a conversa atual e o conhecimento do produto.
 * O contexto da conversa é mantido em uma única sessão de chat. Abrir uma nova página ou fechar o assistente redefine o histórico da conversa.
 * Se os procedimentos de aprovação viverem em um aplicativo externo, como Confluence ou SharePoint, e forem vinculados somente por meio de campos de URL, o Colaborador não fará a busca no momento e o raciocínio nessas páginas.
 
 ### Armazenamento de dados / chaves gerenciadas pelo cliente
 
-* Como o CX Coworker faz parte da Adobe Experience Platform Agent Orchestrator, os dados das suas interações com o Colaborador são armazenados no Adobe Experience Platform, não no Workfront. Portanto, esses dados não são cobertos pelos contratos de Chaves gerenciadas pelo cliente da Workfront (BYOK).
+* Como o Coworker faz parte da Adobe Experience Platform Agent Orchestrator, os dados das interações com o Coworker são armazenados no Adobe Experience Platform, não no Workfront. Portanto, esses dados não são cobertos pelos contratos de Chaves gerenciadas pelo cliente da Workfront (BYOK).
 
 ## Competências essenciais de IA de uso geral
 
@@ -107,7 +107,7 @@ Para conhecer as práticas recomendadas e os prompts dessas habilidades de uso g
 
 ### Conhecimento do produto
 
-O CX Coworker pode fornecer instruções ou informações de referência extraídas da documentação do Workfront.
+O colaborador pode fornecer instruções ou informações de referência extraídas da documentação da Workfront.
 
 Para obter mais informações sobre como obter informações da documentação do Workfront, consulte [Obter ajuda do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
@@ -115,7 +115,7 @@ Exemplo: como alterar o tipo de duração da tarefa?
 
 ### Resumo de projetos, tarefas e problemas
 
-A CX Coworker pode resumir projetos, tarefas ou problemas<!--, or documents--> que foram carregados no Workfront.
+O colega de trabalho pode resumir projetos, tarefas ou problemas<!--, or documents--> que foram carregados no Workfront.
 
 Para obter mais informações sobre resumos de projetos, tarefas e problemas, consulte [Resumir usando o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
@@ -125,7 +125,7 @@ Exemplo: resuma o projeto chamado Campanha do último trimestre de 2026.
 
 ### Locate work items
 
-CX Coworker can find work items like projects, tasks, and issues
+Coworker can find work items like projects, tasks, and issues
 
 Example: Find all tasks assigned to me that are due this week.
 
@@ -155,7 +155,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 -->
 
-## CX Co-worker no Workfront
+## Colaborador no Workfront
 
 * [Informações sobre projetos, tarefas e problemas](#project-task-and-issue-information)
 * [Gerenciamento de projetos e trabalhos](#project-and-work-management)
@@ -163,7 +163,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ### Informações sobre projetos, tarefas e problemas
 
-O CX Coworker pode fornecer informações sobre projetos, tarefas e problemas, incluindo resumos e a integridade do projeto.
+O colaborador pode fornecer informações sobre projetos, tarefas e problemas, incluindo resumos e a integridade do projeto.
 
 Consulte exemplos de solicitações para aprovações de documentos e ativos nas seguintes áreas:
 
@@ -202,7 +202,7 @@ Consulte exemplos de solicitações para aprovações de documentos e ativos nas
 
 ### Gerenciamento de projetos e trabalhos
 
-Você pode usar o CX Coworker para criar e gerenciar projetos, incluindo tarefas e atribuições.
+Você pode usar o Colaborador para criar e gerenciar projetos, incluindo tarefas e atribuições.
 
 Consulte exemplos de prompts para gerenciamento de projeto e trabalho nas seguintes áreas:
 
@@ -266,7 +266,7 @@ Você pode criar, atualizar e excluir atribuições de usuário ou funções de 
 
 ### Conteúdo e aprovações
 
-O CX Coworker pode ajudar a gerenciar aprovações de documentos e ativos no Workfront.
+O colega de trabalho pode ajudar a gerenciar aprovações de documentos e ativos no Workfront.
 
 Considere o seguinte ao trabalhar com aprovações de documentos e ativos:
 
@@ -313,7 +313,7 @@ Consulte exemplos de solicitações para aprovações de documentos e ativos nas
 * Atualize o template &quot;Creative Review&quot; removendo Rick Kuvec e adicionando Karen Sterling ao estágio 2.
 
 
-## CX Coworker no Workfront Planning
+## Colaborador no Workfront Planning
 
 ### Trabalhar com registros do Planning
 
