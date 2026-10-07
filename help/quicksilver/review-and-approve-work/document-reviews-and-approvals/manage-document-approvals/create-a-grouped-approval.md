@@ -2,10 +2,10 @@
 product-area: documents
 navigation-topic: approvals
 title: Criar uma aprovação agrupada
-description: É possível agrupar vários ativos em um único fluxo de trabalho de aprovação para que eles percorram os mesmos estágios juntos.
+description: É possível agrupar vários documentos em um único fluxo de trabalho de aprovação para que eles se movam pelos mesmos estágios juntos.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: f55042154ac3d93544c152b7b1ad26746a209772
+source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <span class="preview">As informações desta página não estão disponíveis no ambiente de Pré-visualização da Sandbox porque a integração Frame.io não está disponível lá. Essa funcionalidade estará disponível em ambientes de Produção em 14 e 15 de outubro de 2026.</span>
 
-Uma aprovação agrupada agrupa vários ativos em um único fluxo de trabalho de aprovação. Você pode usar o modo Básico e Avançado, vários estágios e caminhos paralelos com aprovações agrupadas, da mesma forma que com aprovações de ativo único.
+Uma aprovação agrupada agrupa vários documentos em um único fluxo de trabalho de aprovação. Você pode usar o modo Básico e Avançado, vários estágios e caminhos paralelos com aprovações agrupadas, da mesma forma que com aprovações de documento único.
 
 Aprovações agrupadas estão disponíveis somente na nova área Documentos, que aparece quando sua organização usa o armazenamento em nuvem da Adobe. Para obter mais informações, consulte [visão geral do armazenamento na nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -60,9 +60,9 @@ Para criar uma aprovação agrupada de estágio único:
 
 1. Vá para o projeto, tarefa ou problema que contém os documentos e selecione **Documentos** no painel esquerdo.
 
-1. Clique no primeiro ativo que deseja incluir e Shift + clique nos ativos adicionais para selecionar vários ativos.
+1. Clique no primeiro documento que deseja incluir e pressione Shift e clique nos documentos adicionais para selecionar vários documentos.
 
-1. Com os ativos selecionados, clique em **Solicitar aprovação** no menu inferior. A caixa de diálogo **Solicitar aprovação** é aberta no modo Básico.
+1. Com os documentos selecionados, clique em **Solicitar Aprovação** no menu inferior. A caixa de diálogo **Solicitar aprovação** é aberta no modo Básico.
 
    ![criar uma aprovação agrupada](assets/requeset-grouped-approval.png)
 
@@ -92,7 +92,7 @@ Para criar uma aprovação agrupada de estágio único:
    </tr>
    </table>
 
-1. (Opcional) Clique na guia **Documentos** para revisar os ativos incluídos nesta aprovação.
+1. (Opcional) Clique na guia **Documentos** para revisar os documentos incluídos nesta aprovação.
 
 1. Clique em **Solicitar aprovação**.
 
@@ -112,9 +112,9 @@ Para criar uma aprovação agrupada avançada:
 
 1. Vá para o projeto, tarefa ou problema que contém os documentos e selecione **Documentos** no painel esquerdo.
 
-1. Clique no primeiro ativo que deseja incluir e Shift + clique nos ativos adicionais para selecionar vários ativos.
+1. Clique no primeiro documento que deseja incluir e pressione Shift e clique nos documentos adicionais para selecionar vários documentos.
 
-1. Com os ativos selecionados, clique em **Solicitar aprovação** no menu inferior.
+1. Com os documentos selecionados, clique em **Solicitar Aprovação** no menu inferior.
 
    ![criar uma aprovação agrupada](assets/requeset-grouped-approval.png)
 
@@ -167,7 +167,7 @@ Para criar uma aprovação agrupada avançada:
 
 1. (Opcional) Para limpar todos os caminhos e estágios e começar novamente, clique em **Redefinir** no canto superior direito.
 
-1. (Opcional) Clique na guia **Documentos** para revisar os ativos incluídos nesta aprovação.
+1. (Opcional) Clique na guia **Documentos** para revisar os documentos incluídos nesta aprovação.
 
 1. Clique em **Solicitar aprovação**.
 
@@ -194,4 +194,4 @@ To add an additional document to a grouped approval:
 ## Limitações conhecidas
 
 * Atualmente, não é possível adicionar ou remover documentos de um fluxo de trabalho de aprovação agrupado depois de criado. Essa funcionalidade está planejada para uma versão futura.
-* As aprovações agrupadas são temporariamente limitadas a 3 caminhos e 25 ativos por grupo.
+* As aprovações agrupadas estão temporariamente limitadas a 3 caminhos e 25 documentos por grupo.

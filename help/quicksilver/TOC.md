@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '14631'
+source-wordcount: '14637'
 ht-degree: 91%
 ---
 # Guia do Workfront {#using}
@@ -971,11 +971,11 @@ ht-degree: 91%
     * [Usar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Ferramentas de servidor Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [Habilidades disponíveis para instalação direta](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * CX Coworker no Workfront {#coworker-in-workfront}
-    * [CX Coworker no Workfront: índice de artigos](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [Visão geral do CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [Habilidades do CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
-    * [Usar o CX Coworker no Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+  * CX Enterprise Coworker no Workfront {#coworker-in-workfront}
+    * [CX Enterprise Coworker no Workfront: índice de artigos](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [Visão geral do CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [Habilidades do CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Usar o CX Enterprise Coworker no Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * Atualizar itens de trabalho e visualizar atualizações {#update-work-items-view-updates}
     * [Atualizar itens de trabalho e visualizar atualizações: índice de artigos](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Visão geral da seção de atualizações](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2205,7 +2205,7 @@ ht-degree: 91%
     * [Recomendações de implementação do Adobe Workfront Planning](planning/general/planning-best-practices.md)
     * [Noções básicas da API do Planejamento do Adobe Workfront](planning/general/planning-api-basics.md)
     * [Visão geral do Assistente de IA do Planejamento do Adobe Workfront](planning/general/planning-ai-assistant-overview.md)
-    * [Visão geral do Adobe Workfront Planning CX Coworker](planning/general/planning-cx-coworker-overview.md)
+    * [Visão geral do Adobe Workfront Planning CX Enterprise Coworker](planning/general/planning-cx-coworker-overview.md)
     * [Introdução ao Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
     * [Atividade de lançamento do Planejamento do Adobe Workfront para 2024](planning/general/release-activity.md)
     * [Atividade de lançamento do Planejamento do Adobe Workfront para 2023](planning/general/release-activity-archives-2023.md)
