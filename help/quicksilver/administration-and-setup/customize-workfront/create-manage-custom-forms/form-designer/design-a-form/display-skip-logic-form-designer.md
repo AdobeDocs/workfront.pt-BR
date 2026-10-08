@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '3693'
-ht-degree: 2%
+source-wordcount: '3711'
+ht-degree: 1%
 ---
 # Adicionar regras de lógica a formulários e campos personalizados
 
@@ -120,6 +120,7 @@ Para obter informações sobre campos e widgets personalizados em formulários p
   * Campos personalizados não incluídos em uma instrução lógica de exibição são exibidos em um formulário personalizado por padrão.
   * Você pode criar instruções lógicas de exibição de vários campos.
   * Se todos os campos em uma quebra de seção tiverem lógica de exibição aplicada a eles e todos estiverem ocultos como resultado da lógica, a seção inteira será ocultada no formulário personalizado.
+  * Os campos ocultos pela lógica de exibição mantêm seus valores e ainda são incluídos em expressões como CONCAT.
 
 ## Adicionar lógica de exibição a um formulário personalizado
 
