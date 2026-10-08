@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Atribuir problemas
-description: Você pode atribuir problemas a usuários, funções e equipes para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte Modificar visão geral de atribuições de problemas.
+description: Você pode atribuir problemas a usuários, funções, equipes e Agentes de trabalho para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte Modificar visão geral de atribuições de problemas.
 author: Lisa
 feature: Work Management
 role: User
@@ -12,23 +12,29 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jJLBz6MVWaSCabnj-y8FKnqtQlT5PGRfZ9KZtrgOar8
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+    internal-label: Administration
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: 1367
+source-wordcount: '1380'
 ht-degree: 4%
-
 ---
-
 # Atribuir problemas
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -42,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-Você pode atribuir problemas a usuários, funções e equipes para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte [Visão geral da modificação de atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Você pode atribuir problemas a usuários, funções, equipes ou Agentes de trabalho para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte [Visão geral da modificação de atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
->Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
+>Você pode atribuir vários usuários, funções de trabalho, equipes ou Agentes de trabalho. Você pode atribuir somente usuários ativos, funções de trabalho, equipes e Agentes de trabalho.
 >
->Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
+>Se um usuário, função de trabalho, equipe ou Agente de trabalho foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
 >
 >* Reatribuir o item de trabalho aos recursos ativos.
 >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
@@ -109,9 +115,9 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 
   Se uma tarefa ou um problema for atribuído a uma ou várias funções e você também atribuir um usuário, o Adobe Workfront decide qual função de trabalho deve ser associada ao usuário adicional (se houver) de acordo com as seguintes regras:
 
-   * Se houver apenas uma função de trabalho atribuída e ela corresponder à função principal do usuário, a tarefa ou o problema será atribuído apenas ao usuário que desempenha sua função principal.
-   * Se houver várias funções atribuídas e pelo menos uma das funções corresponder às funções secundárias do usuário, a tarefa ou o problema será atribuído ao usuário que desempenha uma de suas Outras funções — que o Workfront seleciona aleatoriamente se houver várias correspondências — bem como quaisquer funções adicionais atribuídas.
-   * Se houver uma ou mais funções de trabalho atribuídas e não houver correspondência entre as funções do usuário, a tarefa ou o problema será atribuído à função ou às funções, bem como ao usuário.
+  * Se houver apenas uma função de trabalho atribuída e ela corresponder à função principal do usuário, a tarefa ou o problema será atribuído apenas ao usuário que desempenha sua função principal.
+  * Se houver várias funções atribuídas e pelo menos uma das funções corresponder às funções secundárias do usuário, a tarefa ou o problema será atribuído ao usuário que desempenha uma de suas Outras funções — que o Workfront seleciona aleatoriamente se houver várias correspondências — bem como quaisquer funções adicionais atribuídas.
+  * Se houver uma ou mais funções de trabalho atribuídas e não houver correspondência entre as funções do usuário, a tarefa ou o problema será atribuído à função ou às funções, bem como ao usuário.
 
 * Se uma tarefa ou um problema for atribuído a uma equipe e você também atribuir um usuário, a tarefa ou o problema permanecerá atribuído à equipe e ao usuário.
 
@@ -143,7 +149,7 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 
 1. Siga um destes procedimentos:
 
-   * Comece a digitar o nome de um usuário, função ou equipe que deseja atribuir e clique nele quando ele aparecer na lista.
+   * Comece digitando o nome de um usuário, função, equipe ou Agente de trabalho que deseja atribuir e, em seguida, clique nele quando ele aparecer na lista.
 
      ![Pesquisa de atribuições](assets/smart-assignments-issue-header.png)
 
@@ -192,7 +198,7 @@ Para atribuir ocorrências em uma lista:
 
      ![Atribuído ao campo](assets/assigned-to-field-task-list-nwe.png)
 
-   * Clique dentro do campo **Atribuições** e comece a digitar o nome de um usuário, função de trabalho ou equipe ativa que deseja atribuir ao problema, em seguida, clique nele quando ele for exibido na lista.
+   * Clique dentro do campo **Atribuições** e comece a digitar o nome de um usuário, função de trabalho, equipe ou Agente de Trabalho ativo que deseja atribuir ao problema, em seguida, clique nele quando ele for exibido na lista.
 
      ![Campo de atribuições](assets/assignments-field-0825.png)
 
