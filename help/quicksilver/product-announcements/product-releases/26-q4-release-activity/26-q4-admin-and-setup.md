@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
+source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1793'
 ht-degree: 1%
 ---
 # Aprimoramentos do administrador do quarto trimestre de 2026
@@ -23,6 +23,22 @@ ht-degree: 1%
 Esta página descreve as melhorias de Administrador feitas com a versão do Quarto trimestre de 2026 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Exibir o histórico de emprego de um usuário
+
+>[!NOTE]
+>
+>Visualização: 1 de outubro de 2026
+>Versão rápida de produção: 14 de outubro de 2026
+>Produção para todos: 15 de outubro de 2026
+
+Para ajudá-lo a acompanhar como a função de trabalho, a agência, o centro de custo e as taxas de faturamento de um usuário mudaram ao longo do tempo, adicionamos o Histórico de Emprego.
+
+O histórico de emprego exibe uma exibição cronológica desses detalhes para um ou mais usuários. Cada linha representa um conjunto específico de valores e o intervalo de datas durante o qual eles foram aplicados.
+
+Você pode exibir o histórico de emprego de vários usuários ou exibir o histórico completo de um único usuário. Em ambas as exibições, você pode filtrar os resultados, personalizar quais colunas serão exibidas e exportar os dados como um arquivo CSV ou XLSX.
+
+Para obter mais informações, consulte [Exibir histórico de emprego do usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md).
 
 ## Usar IA para gerar localização personalizada
 
@@ -73,7 +89,7 @@ Vários aprimoramentos foram feitos nos modelos de layout:
 * Agora é possível reposicionar aplicativos personalizados para que estejam em qualquer ordem com as opções de menu padrão do Workfront. Isso permite posicionar cada aplicativo no local mais relevante. Anteriormente, os aplicativos personalizados eram sempre os últimos itens nas opções do Menu principal do modelo de layout e não podiam ser reposicionados.
 * Agora você pode ocultar a página Detalhes de um objeto no painel de navegação esquerdo. Um objeto deve ter pelo menos um item exibido no painel esquerdo. Se todos os outros itens estiverem ocultos, não será possível ocultar o último item restante.
 
-Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e[Personalizar o painel esquerdo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e [Personalizar o painel esquerdo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 ## Experiência aprimorada para atualizar opções de campo no designer de formulário personalizado
 

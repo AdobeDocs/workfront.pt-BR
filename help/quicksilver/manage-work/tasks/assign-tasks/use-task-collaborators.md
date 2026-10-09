@@ -1,7 +1,7 @@
 ---
 title: Usar agentes de trabalho
 content-type: reference
-description: Saiba como usar agentes de trabalho, colaboradores de IA que podem ser atribuídos a tarefas do Workfront.
+description: Saiba como usar Agentes de trabalho, Colaboradores de IA que podem ser atribuídos a tarefas, problemas e solicitações do Workfront.
 author: Becky
 feature: Work Management, Tasks
 product_v2:
@@ -16,16 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1085'
 ht-degree: 2%
 ---
 # Usar agentes de trabalho
 
 {{preview-fast-release-general}}
 
-Os agentes de trabalho são colaboradores de IA que podem ser atribuídos diretamente a tarefas e problemas do Workfront. Como outros Colaboradores de IA, os Agentes de trabalho são configurados na área Configuração e atribuídos a tarefas como um usuário.
+Os agentes de trabalho são colaboradores de IA que podem ser atribuídos diretamente a tarefas, problemas e solicitações do Workfront. Como outros Colaboradores de IA, os Agentes de trabalho são configurados na área Configuração e atribuídos a itens de trabalho como um usuário.
 
 Os Agentes de Trabalho conectam-se aos agentes configurados no Copilot Studio, Claude, Writer, <span class="preview">OpenAI ou IBM. </span>
 
@@ -125,13 +125,13 @@ As seguintes situações não fazem com que o Agente de trabalho comece a trabal
 * Um Agente de trabalho é atribuído a uma tarefa que já tem um Agente de trabalho atribuído. Nesse caso, o primeiro Agente de trabalho atribuído já terá iniciado o trabalho e o segundo Agente de trabalho não fará nada.
 * Um Agente de Trabalho é atribuído a uma tarefa que não está pronta para ser iniciada. (Por exemplo, se a tarefa tiver predecessoras, elas ainda não estarão concluídas.)
 
-## Atribuir um Agente de Trabalho a uma tarefa <span class="preview">ou problema</span>
+## Atribuir um Agente de Trabalho a uma tarefa, problema ou solicitação
 
-Os Agentes de Trabalho são atribuídos às tarefas <span class="preview">ou problemas</span> da mesma forma que os usuários são atribuídos.
+Os agentes de trabalho são atribuídos a tarefas, problemas ou solicitações da mesma forma que os usuários são atribuídos.
 
 Quando você está procurando um Agente de trabalho na lista de designados disponíveis, o nome do Agente de trabalho é apenas um nome.
 
-Para obter instruções, consulte [Atribuir tarefas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+Para obter instruções, consulte [Atribuir tarefas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) e [Gerenciar solicitações de trabalho e de equipe](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 >[!NOTE]
 >

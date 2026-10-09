@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '2735'
+source-wordcount: '2755'
 ht-degree: 9%
 ---
 # Adicionar campos calculados a um formulário
@@ -356,7 +356,7 @@ Para reutilizar um campo personalizado calculado existente:
     <tbody> 
      <tr> 
       <td role="rowheader">Adicionar Lógica</td> 
-      <td>Você pode adicionar a Lógica de exibição para determinar se o campo calculado é exibido com base em pelo menos uma escolha que um usuário faz em um campo de múltipla escolha anterior (Suspenso, Caixas de seleção ou Botões de opção) ao preencher o formulário. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Adicionar regras de lógica a formulários e campos personalizados</a>. <p>Isso está disponível somente quando pelo menos uma caixa de seleção, botão de opção ou campo suspenso precede o campo personalizado calculado no formulário. </p> <p>A lógica de salto e outros tipos lógicos não estão disponíveis para campos personalizados calculados.</p> </td> 
+      <td>Você pode adicionar a Lógica de exibição para determinar se o campo calculado é exibido com base em pelo menos uma escolha que um usuário faz em um campo de múltipla escolha anterior (Suspenso, Caixas de seleção ou Botões de opção) ao preencher o formulário. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Adicionar regras de lógica a formulários e campos personalizados</a>. <p>Isso está disponível somente quando pelo menos uma caixa de seleção, botão de opção ou campo suspenso precede o campo personalizado calculado no formulário. </p> <p>A lógica de salto e outros tipos lógicos não estão disponíveis para campos personalizados calculados.</p> <p><b>Observação:</b> campos personalizados ocultos pela lógica de exibição mantêm seus valores e ainda são incluídos em expressões como CONCAT.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Atualizar cálculos anteriores</td> 
