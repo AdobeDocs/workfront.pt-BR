@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 7%
+source-wordcount: '1048'
+ht-degree: 6%
 ---
 # Exibir itens na [!UICONTROL lista de trabalho] na área [!UICONTROL Página Inicial]
 
@@ -120,7 +120,8 @@ Você pode filtrar itens na [!UICONTROL Lista de Trabalho] de um widget para ver
 
 >[!NOTE]
 >
->As opções de filtro são armazenadas no navegador. Se você usar consistentemente o mesmo navegador no mesmo computador (e não limpar os dados do site), os filtros selecionados não serão alterados. Se você alternar navegadores ou computadores, os filtros serão revertidos para a opção padrão, que é com todos os filtros desmarcados.
+>As opções de filtro para a maioria dos widgets são armazenadas no navegador. Se você usar consistentemente o mesmo navegador no mesmo computador (e não limpar os dados do site), os filtros selecionados não serão alterados. Se você alternar navegadores ou computadores, os filtros serão revertidos para a opção padrão, que é com todos os filtros desmarcados. <br>
+>O widget Minhas aprovações não armazena opções de filtro no navegador. O widget Minhas aprovações sempre usa como padrão a opção de filtro Minhas aprovações, que exibe as aprovações atribuídas a você.
 
 Para filtrar o trabalho:
 
