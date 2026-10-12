@@ -12,26 +12,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/u2Ifl47l4tOd-g-WC-8Io96xmV8ut4RLvwzxyFBwmeA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 12%
-
 ---
-
 # Criar um projeto
 
 <!--
@@ -162,76 +170,76 @@ Para copiar um projeto:
 
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
       <td role="rowheader">Selecionar tudo</td> 
       <td> <p>Seleciona todas as opções e limpa todos os campos e objetos listados do novo projeto. </p>
 
    <p> Desmarcar essa opção desmarca todos os itens. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Atribuições</td> 
-      <td>Remove todas as atribuições de projeto e tarefa.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Progresso</td> 
-      <td>Remove o progresso de todas as tarefas, exibindo-as como Novas. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Dados personalizados</td> 
-      <td> <p>Remove as informações do formulário personalizado no projeto, bem como as informações nos formulários personalizados associados aos seguintes itens:</p> 
-       <ul> 
-        <li>Tarefas</li> 
-        <li>Despesas</li> 
-        <li> Documentos</li> 
-       </ul> 
-      <p>Os formulários personalizados permanecem anexados às tarefas, despesas, documentos e projetos, mas as informações nos campos personalizados do formulário não são copiadas para o novo projeto. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Documentos</td> 
-      <td> <p>Remove tudo na guia Documentos, incluindo versões de documentos, documentos vinculados e pastas.</p> <p>Por padrão, provas e aprovações de documentos não podem ser copiadas para outro projeto. </p> </td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Atribuições</td> 
+        <td>Remove todas as atribuições de projeto e tarefa.</td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Progresso</td> 
+        <td>Remove o progresso de todas as tarefas, exibindo-as como Novas. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Dados personalizados</td> 
+        <td> <p>Remove as informações do formulário personalizado no projeto, bem como as informações nos formulários personalizados associados aos seguintes itens:</p> 
+        <ul> 
+          <li>Tarefas</li> 
+          <li>Despesas</li> 
+          <li> Documentos</li> 
+        </ul> 
+        <p>Os formulários personalizados permanecem anexados às tarefas, despesas, documentos e projetos, mas as informações nos campos personalizados do formulário não são copiadas para o novo projeto. </p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Documentos</td> 
+        <td> <p>Remove tudo na guia Documentos, incluindo versões de documentos, documentos vinculados e pastas.</p> <p>Por padrão, provas e aprovações de documentos não podem ser copiadas para outro projeto. </p> </td> 
+      </tr> 
+      <tr> 
       <td role="rowheader">Todos os predecessores</td> 
       <td> <p>Remove todas as relações predecessoras entre as tarefas do projeto. </p> <p>
 
    Predecessoras entre projetos nunca são transferidas para o novo projeto, independentemente de isso estar selecionado ou não. </p> </td>
    </tr>
 
-<tr> 
-      <td role="rowheader">Horas orçadas</td> 
-      <td> <p>Remove as horas orçadas na área Planejamento de recursos do Business Case do projeto copiado.</p> 
-    <p>
-   Horas orçadas usando o Planejador de cenários nunca são copiadas para o novo projeto porque o novo projeto não está vinculado a uma iniciativa no Planejador de cenários. Para obter mais informações, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Recursos de orçamento no Business Case usando o Planejador de cenários</a></p>
-   </tr></td>
-    <tr> 
-      <td role="rowheader">Informações financeiras</td> 
-      <td> <p>Remove as informações nas seguintes áreas: </p> 
-       <ul> 
-        <li>Subguia Finanças do projeto</li> 
-        <li> Benefício planejado no Business Case</li> 
-        <li>Informações financeiras de todas as tarefas<br></li> 
-       </ul> <p>Para obter mais informações sobre a subguia Project Finance, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gerenciar informações na área Project Finance</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Processo de aprovação</td> 
-      <td>Remove todas as aprovações associadas às tarefas ou ao projeto. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Notificações de Lembrete</td> 
-      <td> Remove as Notificações de Lembrete associadas às tarefas ou ao projeto. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Despesas</td> 
-      <td>Remove despesas associadas às tarefas ou ao projeto. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Permissões</td> 
-      <td> Remove permissões para todos os usuários nas tarefas ou no projeto.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   <tr> 
+        <td role="rowheader">Horas orçadas</td> 
+        <td> <p>Remove as horas orçadas na área Planejamento de recursos do Business Case do projeto copiado.</p> 
+      <p>
+    Horas orçadas usando o Planejador de cenários nunca são copiadas para o novo projeto porque o novo projeto não está vinculado a uma iniciativa no Planejador de cenários. Para obter mais informações, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Recursos de orçamento no Business Case usando o Planejador de cenários</a></p>
+    </tr></td>
+      <tr> 
+        <td role="rowheader">Informações financeiras</td> 
+        <td> <p>Remove as informações nas seguintes áreas: </p> 
+        <ul> 
+          <li>Subguia Finanças do projeto</li> 
+          <li> Benefício planejado no Business Case</li> 
+          <li>Informações financeiras de todas as tarefas<br></li> 
+        </ul> <p>Para obter mais informações sobre a subguia Project Finance, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gerenciar informações na área Project Finance</a>.</p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Processo de aprovação</td> 
+        <td>Remove todas as aprovações associadas às tarefas ou ao projeto. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Notificações de Lembrete</td> 
+        <td> Remove as Notificações de Lembrete associadas às tarefas ou ao projeto. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Despesas</td> 
+        <td>Remove despesas associadas às tarefas ou ao projeto. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Permissões</td> 
+        <td> Remove permissões para todos os usuários nas tarefas ou no projeto.</td> 
+      </tr> 
+      </tbody> 
+    </table>
 
 1. Clique em **Copiar projeto**. O projeto copiado é criado.
