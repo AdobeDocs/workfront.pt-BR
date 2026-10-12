@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3249'
 ht-degree: 1%
 ---
 # Enviar solicitações do Planejamento do Adobe Workfront para criar registros
@@ -223,10 +223,19 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
 
    >[!TIP]
    >
-   >Os valores dos campos de registro conectados dependentes são limitados pelas regras de dependência entre os registros. Para obter mais informações, consulte [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+   ><span class="preview">Os valores dos campos de registro conectados dependentes são limitados pelas regras de dependência entre os registros. Para obter mais informações, consulte [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
+
+1. (Opcional e condicional) Clique em **Preencher formulário** para que a IA preencha o formulário para você. O Workfront preenche os campos no formulário com base nas informações das solicitações anteriores.
+
+   >[!TIP]
+   >
+   >Sua organização deve permitir o **Preenchimento de formulário de IA** na área Preferências do Sistema para usar o recurso Preencher formulário.
+   >
+   >Para obter instruções, consulte [Usar preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
-1. (Condicional) Se sua organização permitir o **Preenchimento de formulário** ativado por IA, você poderá carregar documentos como prompts. A IA usa esses documentos para preencher o formulário e você pode aceitar ou rejeitar as sugestões de IA antes de enviar a solicitação.
+
+1. (Condicional) Se sua organização permitir o **Preenchimento de formulário de IA**, você poderá carregar documentos como prompts. A IA usa esses documentos para preencher o formulário e você pode aceitar ou rejeitar as sugestões de IA antes de enviar a solicitação.
 
 
    Para obter instruções, consulte [Usar preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
@@ -345,7 +354,15 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
    O formulário de solicitação é aberto.
 1. Comece a inserir todas as informações em todos os campos disponíveis
 
-   Ou clique em **Preencher formulário** para que a IA preencha o formulário para você.
+   Ou clique em **Preencher formulário** para que a IA preencha o formulário para você. O Workfront preenche os campos no formulário com base nas informações das solicitações anteriores.
+
+   >[!TIP]
+   >
+   >Se sua organização permitir o **Preenchimento de formulário de IA** na área Preferências do Sistema, você poderá carregar documentos como prompts. A IA usa esses documentos para preencher o formulário e você pode aceitar ou rejeitar as sugestões de IA antes de enviar a solicitação.
+   >
+   >Para obter instruções, consulte [Usar preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+
 1. Clique em **Enviar solicitação**.
 
    A solicitação foi enviada.

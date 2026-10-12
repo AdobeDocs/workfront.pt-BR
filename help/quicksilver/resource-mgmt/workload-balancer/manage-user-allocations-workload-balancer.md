@@ -8,25 +8,29 @@ feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw
+TQID: 'https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2839
+source-wordcount: '2870'
 ht-degree: 2%
-
 ---
-
 # Gerenciar alocações de usuário no Balanceador de carga de trabalho
 
 <!-- Audited: 01/2024 -->
@@ -105,7 +109,7 @@ Considere o seguinte ao localizar alocações diárias, semanais ou mensais para
 
   >[!INFO]
   >
-  > Por exemplo, uma tarefa pode ter uma Duração de 2 dias e 2 Horas planejadas e tem uma Hora de início planejada de 12:00 PM no primeiro dia da duração com um usuário e um Cronograma de projeto que termina às 17:00. A capacidade do usuário para o primeiro dia é de 5 horas. A capacidade do usuário para o segundo dia é de 8 horas (se a programação começar às 9:00 AM).
+  > Por exemplo, uma tarefa pode ter uma Duração de 2 dias e 2 Horas planejadas e tem uma Hora de início planejada de 12h no primeiro dia da duração com um usuário e um Cronograma do projeto que termina às 17h. A capacidade do usuário para o primeiro dia é de 5 horas. A capacidade do usuário para o segundo dia é de 8 horas (se a programação começar às 9:00 AM).
   >
   >O Workfront calcula a alocação das 2 horas nos 2 dias da duração usando a seguinte fórmula:
   >
@@ -127,15 +131,15 @@ Considere o seguinte ao localizar alocações diárias, semanais ou mensais para
   >
   >Se o tempo de folga tiver sido marcado depois que o usuário foi atribuído a um item de trabalho, você deverá recalcular a linha do tempo do projeto para exibir a alocação movida. Para obter informações, consulte [Recalcular linhas do tempo do projeto](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-   * Quando vários usuários são atribuídos a uma tarefa e o principal responsável tem uma folga agendada, a linha do tempo é deslocada (se as datas não forem fixas) e as horas planejadas de todos os responsáveis são redistribuídas pela nova duração da tarefa. Se a tarefa tiver datas fixas, a linha do tempo não será alterada devido ao tempo livre e as horas serão realocadas entre os dias restantes.
-   * Se as alocações forem feitas manualmente, as horas planejadas não serão realocadas após o tempo de folga.
+  * Quando vários usuários são atribuídos a uma tarefa e o principal responsável tem uma folga agendada, a linha do tempo é deslocada (se as datas não forem fixas) e as horas planejadas de todos os responsáveis são redistribuídas pela nova duração da tarefa. Se a tarefa tiver datas fixas, a linha do tempo não será alterada devido ao tempo livre e as horas serão realocadas entre os dias restantes.
+  * Se as alocações forem feitas manualmente, as horas planejadas não serão realocadas após o tempo de folga.
 
 * Se houver vários usuários atribuídos à tarefa, a quantidade de Horas planejadas será distribuída uniformemente para cada usuário primeiro e, em seguida, uniformemente para cada dia dentro da Duração da tarefa. Essa distribuição se torna a alocação de cada usuário para a tarefa.
 
   Por exemplo, os seguintes cenários podem existir:
 
-   * Para uma tarefa com Duração de 2 dias e com 10 Horas planejadas atribuídas a um usuário, a alocação diária para o usuário é de 5 horas para cada dia, por padrão.
-   * Para uma tarefa com uma Duração de 2 dias e com 10 Horas planejadas atribuídas a dois usuários, a alocação diária para cada usuário é de 2,5 horas para cada dia por padrão.
+  * Para uma tarefa com Duração de 2 dias e com 10 Horas planejadas atribuídas a um usuário, a alocação diária para o usuário é de 5 horas para cada dia, por padrão.
+  * Para uma tarefa com uma Duração de 2 dias e com 10 Horas planejadas atribuídas a dois usuários, a alocação diária para cada usuário é de 2,5 horas para cada dia por padrão.
 
 * Se uma tarefa ou problema for concluído antes da Data de conclusão planejada, o número de horas alocadas para os dias restantes será atingido e não contará para a alocação geral do usuário. Isso é exibido somente quando o ícone Mostrar alocações e a configuração Mostrar datas projetadas estão ativados. Para obter mais informações sobre como habilitar configurações no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
@@ -285,8 +289,8 @@ Isso é possível quando as seguintes condições existem:
 
 * Você tem as permissões e o acesso corretos para gerenciar as Horas planejadas no Balanceador de carga de trabalho. Isso inclui o seguinte:
 
-   * Gerencie permissões para as tarefas.
-   * Atualize o Trabalho necessário no acesso Balanceador de carga de trabalho na área Gerenciamento de recursos do seu Nível de acesso.
+  * Gerencie permissões para as tarefas.
+  * Atualize o Trabalho necessário no acesso Balanceador de carga de trabalho na área Gerenciamento de recursos do seu Nível de acesso.
 
   Para obter mais informações sobre o acesso necessário para usar o Balanceador de carga de trabalho, consulte a seção [Requisitos de acesso](#access-requirements) neste artigo.
 
