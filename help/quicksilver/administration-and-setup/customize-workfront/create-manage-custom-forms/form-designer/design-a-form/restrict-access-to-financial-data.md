@@ -22,10 +22,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 10%
+source-wordcount: '755'
+ht-degree: 8%
 ---
 # Restringir o acesso a dados financeiros em campos personalizados
 
@@ -33,7 +33,7 @@ Ao criar um campo personalizado, é possível definir configurações opcionais 
 
 Para obter informações sobre como criar um campo personalizado, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Para obter informações sobre níveis de acesso, consulte [Visão geral sobre níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). Para obter informações sobre compartilhamento e permissões, consulte [Visão geral das permissões de compartilhamento em objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Para obter informações sobre como definir o acesso a dados financeiros por meio de níveis de acesso e permissões, consulte [Conceder acesso a dados financeiros](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Compartilhar permissões financeiras em um objeto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 ## Requisitos de acesso
 
@@ -89,16 +89,27 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >
    >Para campos calculados, qualquer formato é permitido. Todos os outros tipos de campo devem usar o formato **Moeda** ou o campo **Tipo de permissão de finanças** não estará disponível.
 
-1. (Opcional) Somente para campos calculados, ative a opção **Permissão automática** para permitir que as permissões financeiras venham automaticamente dos campos na fórmula.
+1. (Opcional) Somente para campos calculados, ative a opção **Permissão automática** para permitir que as permissões financeiras sejam criadas automaticamente a partir dos campos na fórmula.
 
 1. Selecione uma opção para o **tipo de permissão Finanças**.
 
-   Os usuários devem ter esse tipo de permissão financeira antes de visualizar ou editar esse campo personalizado no formulário.
+   Essa configuração define o tipo de acesso e as permissões que os usuários devem ter antes de exibir ou editar esse campo personalizado no formulário.
 
-   * **Nenhuma permissão necessária:** todos os usuários podem ver este campo
-   * **Geral:** os usuários devem ter permissões para editar ou exibir Finanças Gerais
-   * **Cobrança:** Os usuários devem ter permissões para editar ou exibir taxas de cobrança
-   * **Custo:** Os usuários devem ter permissões para editar ou exibir taxas de custo
+   * **Nenhuma permissão necessária:** todos os usuários podem ver o campo, independentemente de seus níveis de acesso e permissões de objeto.
+   * **Geral:** os usuários devem ter um destes para ver o campo:
+
+     * O nível de acesso inclui o acesso de Visualização ou Edição de Dados Financeiros, com acesso habilitado para o General Finance.
+     * As permissões para o objeto ao qual o formulário personalizado está anexado incluem exibir ou editar o General Finance.
+
+   * **Conta:** os usuários devem ter um destes para ver o campo:
+
+     * O nível de acesso inclui o acesso de Visualização ou Edição de Dados Financeiros, com acesso ativado para Taxas de Cobrança.
+     * As permissões para o objeto ao qual o formulário personalizado está anexado incluem exibir ou editar Taxas de cobrança.
+
+   * **Custo:** Os usuários devem ter um destes para ver o campo:
+
+     * O nível de acesso inclui acesso de Visualização ou Edição a Dados Financeiros, com acesso habilitado para Taxas de Custo.
+     * As permissões para o objeto ao qual o formulário personalizado está anexado incluem exibir ou editar Taxas de custo.
 
    Para campos calculados:
 
