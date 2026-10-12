@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4e0576ab13efb4bbf127722be9b71c8abb8950c9
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '376'
 ht-degree: 9%
 ---
 # Personalizar o menu Mais usando um modelo de layout
@@ -75,5 +75,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * Clique nos ícones **Mostrar** ![Mostrar ícone](assets/add-secondary-nav-item.png) ou **Ocultar** ![Ocultar ícone](assets/delete-secondary-nav-item.png) para exibir ou ocultar seções no painel esquerdo. Você não pode ocultar itens que não tenham um ícone **Mostrar** ou **Ocultar**.
 
    * Arraste os itens ![ícone Mover](assets/move-icon---dots.png) para alterar sua ordem no painel esquerdo.
+
+   >[!NOTE]
+   >
+   >Se você ocultar a opção **Compartilhar** no menu Mais para projetos, tarefas ou problemas, o botão Compartilhar ficará oculto no cabeçalho do objeto.
 
 1. Clique em **Concluído**.
