@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: c1d154d2d6ce0cedbd61c2b311ad95ddf86c48f8
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 4%
@@ -48,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-Você pode atribuir problemas a usuários, funções, equipes ou Agentes de trabalho para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte [Visão geral da modificação de atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Você pode atribuir problemas a usuários, funções, equipes, <span class="preview">ou Agentes de Trabalho</span> para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte [Visão geral da modificação de atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
->Você pode atribuir vários usuários, funções de trabalho, equipes ou Agentes de trabalho. Você pode atribuir somente usuários ativos, funções de trabalho, equipes e Agentes de trabalho.
+>Você pode atribuir vários usuários, funções de trabalho, equipes, <span class="preview">ou Agentes de Trabalho</span>. Você pode atribuir somente usuários ativos, funções de trabalho, equipes, <span class="preview">e Agentes de Trabalho</span>.
 >
->Se um usuário, função de trabalho, equipe ou Agente de trabalho foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
+>Se um usuário, função de trabalho, equipe ou <span class="preview">Agente de Trabalho</span> foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
 >
 >* Reatribuir o item de trabalho aos recursos ativos.
 >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
@@ -149,7 +149,7 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 
 1. Siga um destes procedimentos:
 
-   * Comece digitando o nome de um usuário, função, equipe ou Agente de trabalho que deseja atribuir e, em seguida, clique nele quando ele aparecer na lista.
+   * Comece digitando o nome de um usuário, função, equipe, <span class="preview">ou Agente de Trabalho</span> que você deseja atribuir, em seguida, clique nele quando ele aparecer na lista.
 
      ![Pesquisa de atribuições](assets/smart-assignments-issue-header.png)
 
@@ -198,7 +198,7 @@ Para atribuir ocorrências em uma lista:
 
      ![Atribuído ao campo](assets/assigned-to-field-task-list-nwe.png)
 
-   * Clique dentro do campo **Atribuições** e comece a digitar o nome de um usuário, função de trabalho, equipe ou Agente de Trabalho ativo que deseja atribuir ao problema, em seguida, clique nele quando ele for exibido na lista.
+   * Clique dentro do campo **Atribuições** e comece a digitar o nome de um usuário, função de trabalho, equipe, <span class="preview">ou Agente de Trabalho</span> ativo que você deseja atribuir ao problema, em seguida, clique nele quando ele for exibido na lista.
 
      ![Campo de atribuições](assets/assignments-field-0825.png)
 
