@@ -6,26 +6,31 @@ description: O Adobe Workfront pode gerar um URL exclusivo para a Visualização
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-TQID: https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow
+TQID: 'https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 7%
-
 ---
-
 # Compartilhar a visualização de usuário do planejador de recursos com um link
 
 O Adobe Workfront pode gerar um URL exclusivo para a Visualização de usuário do Planejador de recursos, que você pode incorporar em um painel como uma Página externa ou abri-lo separadamente em uma nova guia do navegador. Isso é útil ao compartilhar as informações do Planejador de recursos com usuários que podem não ter acesso direto à área Recursos.
@@ -72,9 +77,9 @@ Considere o seguinte ao gerar o URL exclusivo para a Exibição de Usuário do P
   Eles devem ter acesso para exibir outros usuários para exibir as informações no Planejador de recursos do URL que você compartilha com eles.
 * As seguintes informações são salvas quando você compartilha o URL com outros usuários:
 
-   * O tipo de períodos (semana, mês, trimestre).
-   * Os filtros que você aplica.
-   * O tipo de exibição (Horas ou FTE).
+  * O tipo de períodos (semana, mês, trimestre).
+  * Os filtros que você aplica.
+  * O tipo de exibição (Horas ou FTE).
 
 Para obter um URL único na visualização Usuário do Planejador de recursos e compartilhá-lo com outros usuários:
 
@@ -112,11 +117,11 @@ Para obter um URL único na visualização Usuário do Planejador de recursos e 
      </MadCap:conditionalText>   
      -->
 
-      1. Ir para **Relatórios**>**Painéis**>**Novo Painel**>**Adicionar Página Externa.**
+     1. Ir para **Relatórios**>**Painéis**>**Novo Painel**>**Adicionar Página Externa.**
 
-      1. Cole o link copiado para a área de transferência no campo **URL**.
-      1. Clique em **Salvar** e depois em **Salvar + Fechar**.\
-         Isso incorporará o URL ao painel e a visualização Usuário do Planejador de recursos será exibida em um painel separado.
+     1. Cole o link copiado para a área de transferência no campo **URL**.
+     1. Clique em **Salvar** e depois em **Salvar + Fechar**.\
+        Isso incorporará o URL ao painel e a visualização Usuário do Planejador de recursos será exibida em um painel separado.
 
 1. (Opcional) Se você incorporou o URL a um painel, considere adicioná-lo a um modelo de layout ou compartilhá-lo com outros usuários que podem não ter acesso à área Gerenciamento de recursos.\
    Para obter informações sobre como adicionar painéis a um modelo de layout, consulte [Criar e gerenciar modelos de layout](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).\

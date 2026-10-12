@@ -8,25 +8,30 @@ feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM
+TQID: 'https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 6542
+source-wordcount: '7183'
 ht-degree: 1%
-
 ---
-
 # Exibir informações de utilização de recursos {#view-resource-utilization-information}
 
 >[!CONTEXTUALHELP]
@@ -151,7 +156,7 @@ As seguintes informações estão disponíveis no relatório de Utilização ao 
    <td scope="col"><strong>Horas orçadas</strong> </td> 
    <td scope="col"> <p>O total de horas orçadas nos projetos incluídos. Você pode exibir o total de horas orçadas para a vida geral dos projetos incluídos, ou pode exibir o total de horas orçadas somente para o intervalo de datas especificado (você pode especificar uma semana ou mês individual). </p> <p>As horas orçadas são preenchidas com base nas informações disponíveis na área de orçamento de recursos do Business Case ou do Planejador de recursos<em>.</em></p> <p>As Horas Orçadas são exibidas no relatório de Utilização em qualquer uma das seguintes linhas:</p> 
     <ul> 
-     <li> As horas orçadas são resumidas por função de trabalho e por usuário individual no relatório de Utilização, da seguinte maneira:<br><strong>Usuário Individual:</strong> As horas orçadas são resumidas para cada usuário no relatório de utilização. Essas horas orçadas estão associadas às tarefas e problemas aos quais o usuário está atribuído nos projetos incluídos. (Você pode expandir a linha da função de trabalho correspondente para exibir uma lista de usuários com essa função de trabalho.)<br><strong>Função:</strong> as horas orçadas são resumidas por função de trabalho no relatório de utilização.<br>As horas orçadas aparecem em uma função de trabalho específica como resultado de qualquer um dos seguintes cenários:
+     <li> As horas orçadas são resumidas por função de trabalho e por usuário individual no relatório de Utilização, da seguinte maneira:<br><strong>Usuário Individual:</strong> As horas orçadas são resumidas para cada usuário no relatório de utilização. Essas horas orçadas estão associadas às tarefas e problemas aos quais o usuário está atribuído nos projetos incluídos. (Você pode expandir a linha da função de trabalho correspondente para exibir uma lista de usuários com essa função de trabalho.)<br><strong>Função:</strong> As horas orçadas são resumidas por função de trabalho no relatório de utilização.<br>As horas orçadas aparecem em uma função de trabalho específica como resultado de qualquer um dos seguintes cenários:
      <ul>
      <li>A função de trabalho é definida como a função de trabalho principal do usuário atribuído à tarefa ou problema ao qual as Horas orçadas estão associadas. </li> 
        <li>Quando você exibe informações de utilização para um único projeto, a função de trabalho do usuário atribuído às horas é usada independentemente de não haver atribuição na tarefa ou problema, outro usuário é atribuído sem atribuição de função de trabalho, outro usuário é atribuído com uma função de trabalho diferente ou outra equipe é atribuída.</li> 
@@ -230,7 +235,7 @@ As Horas Planejadas são exibidas no relatório de Utilização em qualquer uma 
    <td><strong>Horas efetivas</strong> </td> 
    <td> <p> O total de horas registradas nas tarefas, problemas, <span>e no projeto</span> para os projetos incluídos. Você pode exibir o total de horas reais para a vida geral dos projetos incluídos, ou pode exibir o total de horas reais somente para o intervalo de datas especificado (você pode especificar uma semana ou mês individual). </p> <p><strong>Aviso:</strong> o relatório de utilização inclui horas registradas no projeto, tarefas filhas, problemas e tarefas pai que tenham pelo menos uma atribuição. Não inclui horas registradas em tarefas pai sem atribuições. Recomendamos que você não use tarefas pai como tarefas de trabalho e atribua somente tarefas filho aos seus recursos. </p> <p>As Horas Reais são exibidas no relatório de utilização em qualquer uma das seguintes linhas:</p> 
     <ul> 
-     <li> As horas efetivas são resumidas por função de trabalho e por usuário individual no relatório de utilização de um projeto, da seguinte forma:<br><strong>Usuário individual:</strong> as horas efetivas são exibidas no relatório de utilização na linha do usuário que registrou as horas. (Você pode expandir a linha da função de trabalho correspondente para exibir uma lista de usuários com essa função de trabalho que registraram horas.)<br><strong>Função:</strong> As horas reais registradas pelos usuários associados a essas funções são resumidas no relatório de utilização na linha da função de trabalho correspondente.<br>As horas reais aparecem em uma função de trabalho específica como resultado de qualquer um dos seguintes cenários: 
+     <li> As horas efetivas são resumidas por função de trabalho e por usuário individual no relatório de utilização de um projeto, da seguinte forma:<br><strong>Usuário individual:</strong> as horas efetivas são exibidas no relatório de utilização na linha do usuário que registrou as horas. (Você pode expandir a linha da função de trabalho correspondente para exibir uma lista de usuários com essa função de trabalho que registraram horas.)<br><strong>Função:</strong> As horas reais registradas pelos usuários associados a essas funções são resumidas no relatório de utilização na linha da função de trabalho correspondente.<br>As horas efetivas aparecem em uma função de trabalho específica como resultado de qualquer um dos seguintes cenários: 
       <ul> 
        <li>A função de trabalho é definida como a função de trabalho principal do usuário que registrou as horas</li> 
        <li>Não há atribuição na tarefa ou problema</li> 
@@ -459,37 +464,37 @@ Para acompanhar o andamento ou o custo de um ou mais projetos com um relatório 
 
    * Para exibir as informações de utilização de um único projeto:
 
-      1. Vá para um projeto para o qual deseja exibir as informações de utilização e clique em **Utilização** no painel esquerdo.
-      1. As informações de utilização são exibidas automaticamente ao visualizar um projeto individual, e a aplicação de um filtro não é necessária.\
-         Para filtrar o relatório de Utilização, aplique um filtro e clique em **Executar**.\
-         Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\
-         As informações de utilização são exibidas para usuários individuais e funções (os usuários são agrupados em suas funções associadas).
+     1. Vá para um projeto para o qual deseja exibir as informações de utilização e clique em **Utilização** no painel esquerdo.
+     1. As informações de utilização são exibidas automaticamente ao visualizar um projeto individual, e a aplicação de um filtro não é necessária.\
+        Para filtrar o relatório de Utilização, aplique um filtro e clique em **Executar**.\
+        Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\
+        As informações de utilização são exibidas para usuários individuais e funções (os usuários são agrupados em suas funções associadas).
 
    * Para exibir informações de utilização de vários projetos:
 
      {{step1-to-utilization-report}}
 
-      1. Aplique um filtro ao relatório de Utilização e clique em **Executar**.
-Você deve especificar um ou mais projetos no filtro antes de executar o relatório de Utilização. Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\
-         As informações de utilização são exibidas para funções e projetos individuais (as funções são agrupadas em seus projetos associados).
+     1. Aplique um filtro ao relatório de Utilização e clique em **Executar**.
+        Você deve especificar um ou mais projetos no filtro antes de executar o relatório de Utilização. Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\
+        As informações de utilização são exibidas para funções e projetos individuais (as funções são agrupadas em seus projetos associados).
 
    * Para exibir as informações de utilização de um programa:
 
      {{step1-to-utilization-report}}
 
-      1. Clique em **Mostrar** > **Programas**.
-      1. Aplique um filtro ao relatório de Utilização e clique em **Executar**.\
-         Você deve especificar um ou mais programas no filtro antes de executar o relatório de Utilização. Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\
-         As informações de utilização são exibidas para projetos e programas individuais (os projetos são agrupados em seus programas associados).
+     1. Clique em **Mostrar** > **Programas**.
+     1. Aplique um filtro ao relatório de Utilização e clique em **Executar**.\
+        Você deve especificar um ou mais programas no filtro antes de executar o relatório de Utilização. Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\
+        As informações de utilização são exibidas para projetos e programas individuais (os projetos são agrupados em seus programas associados).
 
    * Para exibir informações sobre utilização de um portfólio:
 
      {{step1-to-utilization-report}}
 
-      1. Clique em **Mostrar** > **Portfólios**.
-      1. Aplique um filtro ao relatório de Utilização e clique em **Executar**.\
-         Você deve especificar um ou mais portfólios no filtro antes de executar o relatório de Utilização. Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\
-         As informações de utilização são exibidas para projetos, programas e portfólios individuais (os projetos são agrupados em seus programas associados e os programas são agrupados em seus portfólios associados).
+     1. Clique em **Mostrar** > **Portfólios**.
+     1. Aplique um filtro ao relatório de Utilização e clique em **Executar**.\
+        Você deve especificar um ou mais portfólios no filtro antes de executar o relatório de Utilização. Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\
+        As informações de utilização são exibidas para projetos, programas e portfólios individuais (os projetos são agrupados em seus programas associados e os programas são agrupados em seus portfólios associados).
 
 1. No canto superior direito do relatório de Utilização, clique em **Exibir** e selecione uma das seguintes opções no menu:
 
@@ -553,7 +558,7 @@ Para criar ou modificar um filtro:
      As informações de custo para problemas nem sempre são incluídas no relatório de Utilização. Para obter mais informações sobre quando as informações de custo de problemas são incluídas no relatório de Utilização, consulte [Rastrear progresso, custo e receita com o relatório de Utilização](#track-progress-cost-and-revenue-with-the-utilization-report) neste artigo.
 
    * **Funções:** comece a digitar o nome da função que você deseja que seja representada no Relatório de Utilização e, em seguida, clique no nome quando ele aparecer na lista suspensa. Repita esse processo para incluir funções adicionais.
-O Relatório de Utilização contém informações apenas para as funções especificadas. Por exemplo, uma tarefa contém 10 Horas Reais. Seis dessas horas são de uma função do Designer e quatro são de uma função de Desenvolvedor. Se você filtrar o Relatório de utilização por função para o Designer, as quatro horas provenientes da função de Desenvolvedor serão excluídas do relatório.
+     O Relatório de Utilização contém informações apenas para as funções especificadas. Por exemplo, uma tarefa contém 10 Horas Reais. Seis dessas horas são de uma função do Designer e quatro são de uma função de Desenvolvedor. Se você filtrar o Relatório de utilização por função para o Designer, as quatro horas provenientes da função de Desenvolvedor serão excluídas do relatório.
 
    * **Adicionar Regra de Filtro:** Clique em **Adicionar Regra de Filtro**, clique no campo de texto e comece a digitar o nome do campo no qual deseja filtrar. Se o campo estiver disponível, ele será preenchido para cada objeto em que puder ser associado. Clique no nome do campo para adicioná-lo ao filtro.
 
@@ -567,8 +572,8 @@ O Relatório de Utilização contém informações apenas para as funções espe
 1. Para criar um novo filtro, clique em **Salvar Filtro**.\
    Ou\
    Para modificar um filtro existente, clique na seta ao lado do botão **Salvar filtro** e clique em **Salvar novo filtro**.
-No campo **Nome do Filtro**, digite um nome para o filtro e clique em **Salvar**.
-A área Utilização é filtrada com as informações incluídas no filtro.
+   No campo **Nome do Filtro**, digite um nome para o filtro e clique em **Salvar**.
+   A área Utilização é filtrada com as informações incluídas no filtro.
 
 ### Aplicar um filtro salvo {#apply-a-saved-filter}
 
@@ -658,13 +663,13 @@ Consulte [Rastrear progresso, custo e receita com o relatório de Utilização](
 
    * **PDF:** exporta o relatório no formato PDF. Este é o formato recomendado se você estiver planejando imprimir o relatório.\
      Selecione **Carta - Retrato**, **Carta - Paisagem** ou **Outros Tamanhos** (fornece opções para exportação em Ofício (8,5&quot; x 14&quot;), Razão (11&quot; x 17&quot;) e A4).
-Dependendo do sistema operacional usado, talvez você tenha a opção de abrir ou salvar o arquivo. Abra o arquivo com o aplicativo associado ou salve-o no computador.
+     Dependendo do sistema operacional usado, talvez você tenha a opção de abrir ou salvar o arquivo. Abra o arquivo com o aplicativo associado ou salve-o no computador.
 
    * **Excel:** exporta o relatório no formato XLSX. Esse é o formato recomendado se você estiver planejando analisar mais os dados no Excel.
-Dependendo do sistema operacional usado, talvez você tenha a opção de abrir ou salvar o arquivo. Abra o arquivo com o aplicativo associado ou salve-o no computador.
+     Dependendo do sistema operacional usado, talvez você tenha a opção de abrir ou salvar o arquivo. Abra o arquivo com o aplicativo associado ou salve-o no computador.
 
    * **Delimitado por tabulação:** exporta o relatório no formato TSV. Esse é o formato recomendado se você estiver planejando importar os dados para um software de terceiros para análise adicional.
-Dependendo do sistema operacional usado, talvez você tenha a opção de abrir ou salvar o arquivo. Abra o arquivo com o aplicativo associado ou salve-o no computador.
+     Dependendo do sistema operacional usado, talvez você tenha a opção de abrir ou salvar o arquivo. Abra o arquivo com o aplicativo associado ou salve-o no computador.
 
 1. Leia as informações no artigo [Exportar dados](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) para entender como usar o arquivo exportado.
 

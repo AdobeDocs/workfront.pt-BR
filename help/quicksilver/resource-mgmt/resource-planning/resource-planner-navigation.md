@@ -7,25 +7,29 @@ description: Ao usar o Planejador de recursos da Adobe Workfront, você pode ent
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+TQID: 'https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2411
+source-wordcount: '2442'
 ht-degree: 2%
-
 ---
-
 # Visão geral da navegação do planejador de recursos
 
 <!-- Audited: 5/2025 -->
@@ -131,13 +135,13 @@ Considere o seguinte ao selecionar a Exibição do projeto no Planejador de recu
 
 * Você pode exibir as seguintes informações de hora, FTE ou Custo na exibição Projeto:
 
-   * Disponível
-   * Planejado
-   * Estimado
-   * Variância
-   * Líquido
+  * Disponível
+  * Planejado
+  * Estimado
+  * Variância
+  * Líquido
 
-     Para obter mais informações, consulte [Recursos de orçamento no Planejador de recursos usando as exibições de Projeto e Função](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+    Para obter mais informações, consulte [Recursos de orçamento no Planejador de recursos usando as exibições de Projeto e Função](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ### Visualizar por Função {#view-by-role}
 
@@ -152,13 +156,13 @@ Considere o seguinte ao selecionar a Exibição de função no Planejador de rec
 * Quando essa exibição é aplicada, as Horas do projeto, FTE ou Custo somam as Horas da função, FTE ou Custo.
 * Você pode exibir as seguintes informações de hora, FTE ou Custo na exibição Função:
 
-   * Disponível
-   * Planejado
-   * Estimado
-   * Variância
-   * Líquido
+  * Disponível
+  * Planejado
+  * Estimado
+  * Variância
+  * Líquido
 
-     Para obter mais informações, consulte [Recursos de orçamento no Planejador de recursos usando as exibições de Projeto e Função](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+    Para obter mais informações, consulte [Recursos de orçamento no Planejador de recursos usando as exibições de Projeto e Função](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ### Visualizar por Usuário {#view-by-user}
 
@@ -191,23 +195,23 @@ Considere o seguinte ao selecionar a Exibição de Usuário no Planejador de Rec
 
   Existem os seguintes cenários:
 
-   * Quando você não tem permissões para ver projetos e as tarefas ou problemas atribuídos aos usuários exibidos no Planejador de recursos, esses itens são listados nas seções Itens inacessíveis. Nesse caso, essas seções substituem as seções Projeto ou Tarefa.
+  * Quando você não tem permissões para ver projetos e as tarefas ou problemas atribuídos aos usuários exibidos no Planejador de recursos, esses itens são listados nas seções Itens inacessíveis. Nesse caso, essas seções substituem as seções Projeto ou Tarefa.
 
-   * Quando você não tem permissões para ver os projetos, mas tem acesso para ver as tarefas ou problemas nos projetos, os projetos, tarefas e problemas são listados nos nomes dos usuários atribuídos a eles.
-   * Quando você tem permissões para ver os projetos, mas não tem tarefas ou problemas nos projetos, o nome do projeto é exibido e as tarefas e problemas são listados na seção Itens inacessíveis.
+  * Quando você não tem permissões para ver os projetos, mas tem acesso para ver as tarefas ou problemas nos projetos, os projetos, tarefas e problemas são listados nos nomes dos usuários atribuídos a eles.
+  * Quando você tem permissões para ver os projetos, mas não tem tarefas ou problemas nos projetos, o nome do projeto é exibido e as tarefas e problemas são listados na seção Itens inacessíveis.
 
-     Para obter mais informações, consulte [Visão geral das permissões de compartilhamento de objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+    Para obter mais informações, consulte [Visão geral das permissões de compartilhamento de objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 
 * Você pode exibir as seguintes informações de hora e FTE na exibição Usuário:
 
-   * Disponível
-   * Planejado
-   * Efetivo
-   * Diferença entre Planejado e Real
-   * Porcentagem de alocação planejada
+  * Disponível
+  * Planejado
+  * Efetivo
+  * Diferença entre Planejado e Real
+  * Porcentagem de alocação planejada
 
-     Para obter mais informações, consulte [Exibir Horas Disponíveis, Planejadas e Efetivas ou FTE no Planejador de Recursos ao usar a exibição Usuário](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+    Para obter mais informações, consulte [Exibir Horas Disponíveis, Planejadas e Efetivas ou FTE no Planejador de Recursos ao usar a exibição Usuário](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
 
 ## Nome do Projeto
 
@@ -259,9 +263,9 @@ Nas Exibições de projetos e funções, os usuários podem aparecer listados no
 * Sua função principal de trabalho
 * Sua função de trabalho secundário, nos seguintes cenários:
 
-   * Se a função de trabalho secundária tiver um número válido para a Porcentagem de Disponibilidade de FTE em seu perfil de usuário.
-   * Se o usuário estiver atribuído a tarefas nessas funções.
-Para obter mais informações sobre a Porcentagem de Disponibilidade de FTE para uma função de trabalho, consulte [Editar perfil de usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  * Se a função de trabalho secundária tiver um número válido para a Porcentagem de Disponibilidade de FTE em seu perfil de usuário.
+  * Se o usuário estiver atribuído a tarefas nessas funções.
+    Para obter mais informações sobre a Porcentagem de Disponibilidade de FTE para uma função de trabalho, consulte [Editar perfil de usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Seções Sem Função e Sem Usuário
 
@@ -300,12 +304,12 @@ Aqui, é possível ativar uma ou ambas as configurações a seguir:
 
   Considere o seguinte ao habilitar essa configuração:
 
-   * O nome do usuário atribuído aos problemas é exibido na função de trabalho associada a eles no problema. Você pode especificar Horas orçadas para o usuário e a função de trabalho nas visualizações Projeto e Função.
-   * Os problemas aos quais os usuários estão atribuídos são listados nos nomes das funções de trabalho na exibição Usuário.
+  * O nome do usuário atribuído aos problemas é exibido na função de trabalho associada a eles no problema. Você pode especificar Horas orçadas para o usuário e a função de trabalho nas visualizações Projeto e Função.
+  * Os problemas aos quais os usuários estão atribuídos são listados nos nomes das funções de trabalho na exibição Usuário.
 
-     >[!IMPORTANT]
-     >
-     >Quando as datas de início e de conclusão planejadas do problema estão fora da linha do tempo do projeto, as horas planejadas do problema são exibidas de acordo com as datas do problema. Por exemplo, se a linha do tempo do projeto estiver entre janeiro e março, mas a linha do tempo das ocorrências estiver em agosto, as horas planejadas para as ocorrências aparecerão no período de agosto.
+    >[!IMPORTANT]
+    >
+    >Quando as datas de início e de conclusão planejadas do problema estão fora da linha do tempo do projeto, as horas planejadas do problema são exibidas de acordo com as datas do problema. Por exemplo, se a linha do tempo do projeto estiver entre janeiro e março, mas a linha do tempo das ocorrências estiver em agosto, as horas planejadas para as ocorrências aparecerão no período de agosto.
 
 
 * **Exibir prioridades do Portfolio**: mostra as prioridades de projeto de acordo com a Portfolio à qual estão atribuídas.

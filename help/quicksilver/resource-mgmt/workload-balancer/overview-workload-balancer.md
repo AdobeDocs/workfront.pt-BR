@@ -7,7 +7,7 @@ description: Depois que gerentes de projeto planejam o trabalho nos projetos cri
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-TQID: https://experienceleague.adobe.com/fMt1jY5l7jMYTHUeKNyCE-HJdDEH89xmLqG2UacvU7c
+TQID: 'https://experienceleague.adobe.com/fMt1jY5l7jMYTHUeKNyCE-HJdDEH89xmLqG2UacvU7c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,7 +15,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
     internal-label: Workload Balancer
@@ -31,7 +31,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 92%
@@ -57,7 +57,7 @@ Depois que gerentes de projeto planejam o trabalho nos projetos criando tarefas 
 
 Este artigo descreve a finalidade geral do Balanceador de carga de trabalho e algumas das práticas recomendadas para configurar seus projetos e recursos, a fim de usá-lo de forma eficiente.
 
-Para examinar os tutoriais em vídeo do Balanceador de carga de trabalho, acesse a página [Tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR). No menu esquerdo, selecione **Gerenciar recursos** > **Balanceador de carga de trabalho** e escolha um tutorial.
+Para examinar os tutoriais em vídeo do Balanceador de carga de trabalho, acesse a página [Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR). No menu esquerdo, selecione **Gerenciar recursos** > **Balanceador de carga de trabalho** e escolha um tutorial.
 
 ## Localize o Balanceador de carga de trabalho
 

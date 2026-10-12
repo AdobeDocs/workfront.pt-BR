@@ -6,26 +6,31 @@ description: Você pode estimar recursos no Planejador de recursos do Adobe Work
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
+TQID: 'https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2087
+source-wordcount: '2121'
 ht-degree: 3%
-
 ---
-
 # Orçar recursos no planejador de recursos usando as visualizações Projeto e Função
 
 <!--
@@ -117,7 +122,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    * Clique no menu **Mais** do projeto e em **Definir as horas planejadas das funções como orçadas**.\
      As horas orçadas para cada função são calculadas usando a seguinte fórmula:\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -130,9 +135,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    * Na coluna **BDG**, especifique manualmente um número de horas orçadas, FTE ou custo para o projeto. Isso distribui o número de Horas Orçadas do Projeto para cada função no projeto. Existem os seguintes cenários:
 
-      * Se o número de Horas orçadas do projeto especificado for igual às Horas planejadas do projeto, as Horas orçadas da função corresponderão às Horas planejadas da função.
-      * Se o número de Horas Orçadas do Projeto especificado não for igual às Horas Planejadas do Projeto, as Horas Orçadas da Função serão distribuídas de acordo com a porcentagem de Horas Planejadas necessárias para cada função.\
-        Por exemplo, se um projeto tiver 20 Horas planejadas e elas estiverem distribuídas entre duas funções de trabalho (o Consultor exige 12 Horas planejadas e o Engenheiro requer 8 Horas planejadas) e você fizer um orçamento de 30 horas para o Projeto, as horas serão distribuídas da seguinte maneira: a função Consultor recebe 18 Horas orçadas e a função Engenheiro recebe 12 Horas orçadas.
+     * Se o número de Horas orçadas do projeto especificado for igual às Horas planejadas do projeto, as Horas orçadas da função corresponderão às Horas planejadas da função.
+     * Se o número de Horas Orçadas do Projeto especificado não for igual às Horas Planejadas do Projeto, as Horas Orçadas da Função serão distribuídas de acordo com a porcentagem de Horas Planejadas necessárias para cada função.\
+       Por exemplo, se um projeto tiver 20 Horas planejadas e elas estiverem distribuídas entre duas funções de trabalho (o Consultor exige 12 Horas planejadas e o Engenheiro requer 8 Horas planejadas) e você fizer um orçamento de 30 horas para o Projeto, as horas serão distribuídas da seguinte maneira: a função Consultor recebe 18 Horas orçadas e a função Engenheiro recebe 12 Horas orçadas.
 
 1. Para alocar orçamento para o projeto, siga um destes procedimentos:
 
@@ -166,7 +171,7 @@ Você deve ter acesso de Edição a Gerenciamento de Recursos e a Dados Financei
 
 Para obter informações sobre o acesso necessário para recursos de orçamento, consulte o artigo [Acesso necessário para recursos de orçamento no Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Para alocações de orçamento no Planejador de recursos na visualização de função **&#x200B;**:
+Para alocações de orçamento no Planejador de recursos na visualização de função ****:
 
 1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 
@@ -187,8 +192,8 @@ Para alocações de orçamento no Planejador de recursos na visualização de fu
    * Na coluna **BDG**, especifique manualmente um número de horas orçadas, FTE ou custo para as funções de trabalho.\
      Isso distribui as Horas orçadas da função para as Horas orçadas do projeto para os projetos que você tem acesso para gerenciar.
 
-   * Clique no menu **Mais** da função de trabalho e clique em **Definir as horas planejadas dos projetos como orçadas.**&#x200B;As horas orçadas da função são calculadas usando a seguinte fórmula:\
-     &#x200B;*
+   * Clique no menu **Mais** da função de trabalho e clique em **Definir as horas planejadas dos projetos como orçadas.**As horas orçadas da função são calculadas usando a seguinte fórmula:\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
@@ -225,7 +230,7 @@ Para alocações de orçamento no Planejador de recursos na visualização de fu
 
 1. Clique em **Salvar**.\
    Depois de fazer o orçamento dos recursos no Planejador de recursos, as horas orçadas dos recursos e qualquer custo associado a eles são listados no Business Case de cada projeto.
-Para obter mais informações sobre como entender a área Orçamento de Recursos do Business Case, consulte o artigo [Recursos de orçamento no Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Para obter mais informações sobre como entender a área Orçamento de Recursos do Business Case, consulte o artigo [Recursos de orçamento no Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Opcional) Selecione a visualização **Visualizar por Usuário** para observar qualquer superalocação ou subutilização de usuário entre as Horas Disponíveis e Planejadas para cada usuário. As horas orçadas não estão visíveis na visualização Visualizar por usuário.
 

@@ -6,26 +6,31 @@ description: Você pode visualizar a disponibilidade de seus recursos e a quanti
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-TQID: https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E
+TQID: 'https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1200
+source-wordcount: '1200'
 ht-degree: 8%
-
 ---
-
 # Revisar a disponibilidade e alocação de recursos usando o planejador de recursos do Adobe Workfront
 
 Você pode visualizar a disponibilidade de seus recursos e a quantidade de trabalho planejado ou orçado para seus projetos no Planejador de recursos. Esses valores são exibidos em Horas, FTE (Equivalente a Tempo Integral) ou quantias de Custo e são organizados em colunas.
@@ -92,18 +97,18 @@ Considere o seguinte ao alterar sua exibição para o Planejador de recursos:
 
 
 
-   * Horas Disponíveis, FTE ou Custo
-   * Horas planejadas, FTE ou Custo
-   * Horas orçadas, FTE ou Custo
-   * Horas, FTE ou variação de custo
-   * Horas líquidas, FTE ou custo
+  * Horas Disponíveis, FTE ou Custo
+  * Horas planejadas, FTE ou Custo
+  * Horas orçadas, FTE ou Custo
+  * Horas, FTE ou variação de custo
+  * Horas líquidas, FTE ou custo
 
 * Ao aplicar a exibição **Exibir por Usuário**, você poderá ver as seguintes colunas:
 
-   * Horas Disponíveis ou FTE
-   * Horas planejadas ou FTE
-   * Diferença de Hora ou FTE
-   * Porcentagem de Alocação de Horas Planejadas
+  * Horas Disponíveis ou FTE
+  * Horas planejadas ou FTE
+  * Diferença de Hora ou FTE
+  * Porcentagem de Alocação de Horas Planejadas
 
 >[!TIP]
 >

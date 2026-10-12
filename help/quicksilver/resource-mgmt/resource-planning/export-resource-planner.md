@@ -6,25 +6,29 @@ description: É possível exportar informações de qualquer exibição do Plane
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-TQID: https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4
+TQID: 'https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '599'
 ht-degree: 13%
-
 ---
-
 # Exportar informações do planejador de recursos
 
 É possível exportar informações de qualquer exibição do Planejador de recursos para um arquivo do Excel (.xlsx) que esteja salvo no computador.
@@ -95,25 +99,25 @@ O **Planejador** é exibido por padrão.
    * 12 trimestres
 
    **Selecionar para Exportar**: Dependendo do modo de exibição selecionado, você pode optar por exportar as informações de disponibilidade e orçamento de todos os objetos listados na tela ou de objetos específicos.
-Você pode optar por exportar as seguintes informações:
+   Você pode optar por exportar as seguintes informações:
 
    * Na Exibição do Projeto, selecione para exportar:
 
-      * Projetos
-      * Projetos e funções
-      * Tudo (esta é a opção padrão)
+     * Projetos
+     * Projetos e funções
+     * Tudo (esta é a opção padrão)
 
    * Na Exibição de usuário, selecione para exportar:
 
-      * Usuários
-      * Usuários e projetos
-      * Tudo (esta é a opção padrão)
+     * Usuários
+     * Usuários e projetos
+     * Tudo (esta é a opção padrão)
 
    * Na Exibição de função, selecione para exportar:
 
-      * Funções
-      * Funções e projetos
-      * Tudo (esta é a opção padrão)
+     * Funções
+     * Funções e projetos
+     * Tudo (esta é a opção padrão)
 
    **Formatação de Dados**: Dependendo de como você deseja que o arquivo do Excel seja exibido, selecione as seguintes opções:
 
@@ -125,7 +129,7 @@ Você pode optar por exportar as seguintes informações:
 1. Clique em **Exportar** para exportar as informações do Planejador de recursos.\
    Somente as informações salvas são exportadas.
 
-1. (Condicional) Se você tem Horas Orçadas não salvas nas exibições Função ou Projeto, clique em **Salvar e Continuar.**
+1. (Condicional) Se você tem Horas orçadas não salvas nas exibições Função ou Projeto, clique em **Salvar e continuar.**
 Um arquivo do Excel (.xlsx) é baixado no computador.\
    A exportação do Planejador de recursos não está disponível enquanto o arquivo está preparado para download.\
    (Condicional) Se exportar uma grande quantidade de dados, você receberá um email com um link para baixar o arquivo.\

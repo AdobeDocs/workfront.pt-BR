@@ -6,26 +6,31 @@ description: Você pode compartilhar o Balanceador de carga de trabalho com outr
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-TQID: https://experienceleague.adobe.com/MORtojfX-Dbzm-sI-D-zYirqaNrbYwDtBe-LNXh8xYM
+TQID: 'https://experienceleague.adobe.com/MORtojfX-Dbzm-sI-D-zYirqaNrbYwDtBe-LNXh8xYM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: '675'
 ht-degree: 6%
-
 ---
-
 # Compartilhar o Balanceador de carga de trabalho com um link
 
 Você pode compartilhar o Balanceador de carga de trabalho com outros usuários que talvez não tenham a área Recursos disponível no Menu principal. Para obter informações sobre como usar o Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
@@ -87,9 +92,9 @@ As seguintes opções estão disponíveis para o usuário que está visualizando
 
 * As seguintes seleções de linha do tempo:
 
-   * Hoje
-   * Ícones para voltar e avançar
-   * Seleção de calendário
+  * Hoje
+  * Ícones para voltar e avançar
+  * Seleção de calendário
 
 * Os ícones Dia, Semana e Mês
 * O ícone Configurações

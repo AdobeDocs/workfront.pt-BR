@@ -6,27 +6,33 @@ description: Usando filtros, você pode modificar quais informações são exibi
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
+TQID: 'https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2369
+source-wordcount: '2381'
 ht-degree: 2%
-
 ---
-
 # Filtrar informações no planejador de recursos
 
 <!--
@@ -84,9 +90,9 @@ Considere o seguinte ao usar filtros no Planejador de recursos:
 * A aplicação de um filtro não altera os dados de alocação e disponibilidade no Planejador de recursos para projetos, funções ou usuários. Um filtro altera somente o número de objetos que você vê no Planejador de recursos.
 * A filtragem se aplica a todos os objetos exibidos no Planejador de recursos ao mesmo tempo. Por exemplo, se você filtrar por um usuário específico, o Planejador de recursos exibirá apenas os seguintes resultados:
 
-   * Projetos em que esse usuário faz parte do Conjunto de recursos (para as exibições Projeto e Função) ou tem uma atribuição no projeto (para a exibição Usuário)
-   * Funções associadas ao usuário nesses projetos\
-     Outras funções ou usuários nos projetos aos quais o usuário está associado não são exibidos.
+  * Projetos em que esse usuário faz parte do Conjunto de recursos (para as exibições Projeto e Função) ou tem uma atribuição no projeto (para a exibição Usuário)
+  * Funções associadas ao usuário nesses projetos\
+    Outras funções ou usuários nos projetos aos quais o usuário está associado não são exibidos.
 
 ## Visão geral do filtro padrão no Planejador de recursos {#overview-of-the-default-filter-in-the-resource-planner}
 
@@ -96,9 +102,9 @@ Considere o seguinte ao usar o filtro Padrão:
 
 * O Filtro padrão recupera informações somente de projetos com o seguinte:
 
-   * Uma Data de conclusão planejada que ocorre após a primeira data do mês atual
-   * Uma Data de Início Planejada que ocorre antes do último dia do quarto mês a partir da data atual
-   * Um Status de Atual ou de Planejamento
+  * Uma Data de conclusão planejada que ocorre após a primeira data do mês atual
+  * Uma Data de Início Planejada que ocorre antes do último dia do quarto mês a partir da data atual
+  * Um Status de Atual ou de Planejamento
 
   >[!IMPORTANT]
   >
@@ -136,7 +142,7 @@ O **Planejador** é exibido por padrão.
 Por padrão, na primeira vez que você acessa o Planejador de recursos, o <strong>Filtro padrão</strong> é aplicado.<br>Para obter mais informações sobre o filtro Padrão, consulte a <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Visão Geral do Filtro Padrão na seção Planejador de Recursos</a> neste artigo.
 
 1. No canto superior esquerdo do, clique no ícone **Filtro**.
-   ![ícone_de_filtro.png](assets/filter-icon.png)
+   ![filter_icon.png](assets/filter-icon.png)
 Ou
 Expanda o menu suspenso **Filtro** e clique em **Adicionar Novo Filtro**.
    ![Lista suspensa de filtros](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
