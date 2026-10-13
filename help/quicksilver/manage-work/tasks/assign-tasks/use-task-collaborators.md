@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1080'
 ht-degree: 2%
 ---
 # Usar agentes de trabalho
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 Os agentes de trabalho são colaboradores de IA que podem ser atribuídos diretamente a tarefas, problemas e solicitações do Workfront. Como outros Colaboradores de IA, os Agentes de trabalho são configurados na área Configuração e atribuídos a itens de trabalho como um usuário.
 
-Os Agentes de Trabalho conectam-se aos agentes configurados no Copilot Studio, Claude, Writer, <span class="preview">OpenAI ou IBM. </span>
+Os Agentes de Trabalho conectam-se aos agentes configurados no Copilot Studio, Claude, <span class="preview">OpenAI ou IBM. </span>
 
 >[!IMPORTANT]
 >
->O Writer está reduzindo seu uso de agentes. Os Agentes de trabalho configurados com os agentes do Writer não funcionarão após 9 de outubro. 2026.
+>O Writer substituiu o uso de agentes. Os Agentes de trabalho configurados com os agentes do Writer não funcionarão mais após 9 de outubro. 2026.
 >
 >Para obter informações sobre a descontinuação, consulte [Migração e descontinuação da Biblioteca de Agentes](https://support.writer.com/articles/8335689949-migrating-no-code-agents) na documentação do Writer.
 
@@ -66,11 +66,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Pré-requisitos
 
-* Você deve configurar um agente no Copilot, Claude, Writer.ai, OpenAI ou IBM antes de usá-lo como um Agente de trabalho no Workfront.
+* Você deve configurar um agente no Copilot, Claude, OpenAI ou IBM antes de usá-lo como um Agente de trabalho no Workfront.
 
 ## Visão geral do agente de trabalho
 
-Os agentes de trabalho são uma maneira de atribuir agentes a tarefas específicas no Workfront. Você configura o agente em um aplicativo, como o Copilot Studio, o Claude ou o Writer.ai, e depois conecta esse agente ao Workfront como um Agente de trabalho. Em seguida, é possível atribuí-la a tarefas como atribuiria a um usuário.
+Os agentes de trabalho são uma maneira de atribuir agentes a tarefas específicas no Workfront. Você configura o agente em um aplicativo, como o Copilot Studio ou o Claude.ai, e depois conecta esse agente ao Workfront como um Agente de trabalho. Em seguida, é possível atribuí-la a tarefas como atribuiria a um usuário.
 
 Alguns exemplos de workflows podem incluir:
 
@@ -82,7 +82,7 @@ Alguns exemplos de workflows podem incluir:
 >
 >* Detalhes específicos sobre as responsabilidades e capacidades de um agente são configurados no aplicativo em que o agente é criado, não no Workfront.
 >* O servidor MCP do Workfront não precisa ser adicionado ao agente usado como um Agente de trabalho e não precisa estar conectado para que o Agente de trabalho funcione.
->* Atualmente, os Agentes de Trabalho oferecem suporte aos agentes criados no Copilot Studio, Claude e Writer.ai, <span class="preview">OpenAI e IBM. </span>
+>* Atualmente, os Agentes de Trabalho oferecem suporte aos agentes criados no Copilot Studio, Claude, <span class="preview">OpenAI e IBM. </span>
 >* Ao configurar um agente no Copilot Studio, defina a segurança como **Sem autenticação**.
 >* Para obter informações e instruções sobre como criar um Agente de trabalho no Workfront, consulte [Configurar um Agente de Trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) no artigo Configurar Colaboradores de IA.
 
