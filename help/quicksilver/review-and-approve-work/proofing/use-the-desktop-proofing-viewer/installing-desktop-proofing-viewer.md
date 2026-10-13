@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4fb6d9113cf01ba92abf627fc64e4c10c9f2302
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 7%
@@ -69,8 +69,6 @@ Este aplicativo é compatível com os seguintes sistemas operacionais:
 Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-
 
 ## Instale o Visualizador de provas de desktop no Mac
 

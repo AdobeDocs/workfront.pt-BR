@@ -15,7 +15,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f23ba23479facf21a382314b02a95cf18401f4b8
+source-git-commit: 905f4417aac97d95a3e170e0ead1b067a9436617
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 2%
@@ -49,8 +49,8 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Quando um projeto for alterado de uma status positiva de progresso (no prazo) para uma status negativa de progresso (em atraso), enviar email para o proprietário do projeto</strong> </p> <p>O Proprietário do projeto recebe uma notificação por email quando o projeto está atrasado. Um projeto está atrasado no agendamento quando o Status de Progresso é "[!UICONTROL em Risco]", "[!UICONTROL Atrasado]" ou "[!UICONTROL Atrasado]". Uma notificação será enviada somente se o status do projeto for [!UICONTROL Atual] ou [!UICONTROL Planning].</p> <p>A prática recomendada é manter essa notificação ativa. </p> <p>Os usuários com uma licença de [!UICONTROL Review] não recebem uma notificação.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Alteração de Progresso do Projeto]: &lt;Nome do Projeto&gt;</em></p> <p> O assunto da notificação de resumo diário é: <em> [!UICONTROL Resumo dos Projetos que Você Possui] &lt;Data do resumo diário&gt; </em></p> </td> 
-   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status de Progresso do Projeto<br>Data de Início Planejada do Projeto <br>Data de Conclusão Planejada do Projeto <br>Projeto [!UICONTROL Data de Início Projetada]<br>Projeto [!UICONTROL Data de Conclusão Projetada]<br>Percentual de Conclusão do Projeto<br>Status do Projeto<br>Proprietário do Projeto<br>*Nome da Referência do Projeto<br>*Número de Referência do Projeto<br>*Status de Progresso do Projeto<br> do Projeto do Projeto*Data do resumo diário<br></p> </td> 
+   <td> <p><strong>Quando um projeto for alterado de uma status positiva de progresso (no prazo) para uma status negativa de progresso (em atraso), enviar email para o proprietário do projeto</strong> </p> <p>O Proprietário do projeto recebe uma notificação por email quando o projeto está atrasado. Um projeto está atrasado no agendamento quando o Status de Progresso é "[!UICONTROL em Risco]", "[!UICONTROL Atrasado]" ou "[!UICONTROL Atrasado]". <p>Uma notificação será enviada somente se o status do projeto for [!UICONTROL Atual] ou [!UICONTROL Planning].</p> <p>A prática recomendada é manter essa notificação ativa. </p> <p>Os usuários com uma licença de [!UICONTROL Review] não recebem uma notificação.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Alteração de Progresso do Projeto]: &lt;Nome do Projeto&gt;</em></p> <p> O assunto da notificação de resumo diário é: <em> [!UICONTROL Resumo dos Projetos que Você Possui] &lt;Data do resumo diário&gt; </em></p> </td> 
+   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status de Progresso do Projeto<br>Data de Início Planejada do Projeto [!UICONTROL]<br>Data de Conclusão Planejada do Projeto [!UICONTROL]<br>Projeto [!UICONTROL Data de Início Projetada]<br>Projeto [!UICONTROL Data de Conclusão Projetada]<br>Percentual de Conclusão do Projeto<br>Status do Projeto<br>Proprietário do Projeto<br>*Nome da Referência do Projeto<br>*Número de Referência do Projeto<br>*Status de Progresso do Projeto<br> do Projeto do Projeto*Data do resumo diário<br></p> </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
