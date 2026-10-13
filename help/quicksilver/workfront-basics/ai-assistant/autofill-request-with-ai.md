@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 7%
+source-wordcount: '173'
+ht-degree: 6%
 ---
 # Preencher uma solicitação automaticamente usando IA
 
 >[!IMPORTANT]
 >
->A partir de setembro de 2026, o Assistente de IA está fazendo a transição para o CX Enterprise Coworker, uma interface conversacional para concluir o trabalho. Para obter informações sobre o Colaborador, consulte [visão geral do CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>A partir de setembro de 2026, o Assistente de IA está fazendo a transição para o CX Enterprise Coworker, uma interface conversacional para concluir o trabalho. Para obter informações sobre o Colaborador, consulte [Visão geral do CX Enterprise Coworker no Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 A IA pode ajudar a preencher automaticamente os campos de solicitação. Ele pode sugerir valores de campo com base em solicitações anteriores ou analisá-los a partir de texto, como se emails fossem documentos carregados.
 
