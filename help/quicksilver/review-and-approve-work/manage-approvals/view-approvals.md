@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b449628309a82d7880612ea60dd5ee7de7f37e03
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '772'
 ht-degree: 5%
 ---
 # Visualizar aprovações
@@ -97,7 +97,8 @@ Você pode exibir ou gerenciar aprovações das seguintes áreas:
 
   * Todos os projetos, tarefas, problemas, folhas de horas, documentos, acessos e <span class="preview">solicitações do Workfront Planning</span> aguardando sua aprovação são exibidos no widget Minhas aprovações, na área Página inicial.
   * As aprovações enviadas por você mesmo também são exibidas no widget Minhas aprovações na área Página inicial, ao escolher a opção de filtro Aprovações enviadas. Para obter mais informações, consulte a seção [Revisar trabalho enviado para aprovação na área Página inicial](#review-work-you-submit-for-approval-in-the-home-area) neste artigo.
-  * As aprovações são removidas do widget Minhas aprovações na área Página inicial quando o projeto, tarefa ou problema associado é marcado como Resolvido, Em espera, Fechado ou Cancelado.
+  * As aprovações de trabalho são removidas do widget Minhas aprovações quando o projeto, tarefa ou problema é marcado como Resolvido, Em espera, Fechado ou Cancelado.
+  * As aprovações de documentos unificados e provas são removidas do widget Minhas aprovações quando o fluxo de trabalho de documento ou prova é concluído ou excluído.
 
   Para obter informações sobre como usar a Página inicial, consulte [Introdução à Página inicial](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 

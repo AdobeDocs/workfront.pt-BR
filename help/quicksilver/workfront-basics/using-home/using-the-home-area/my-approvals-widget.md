@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
+source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 15%
+source-wordcount: '523'
+ht-degree: 14%
 ---
 # Gerenciar aprovações com o widget Minhas aprovações
 
@@ -162,3 +162,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    </table>
 
 Depois de tomar uma decisão, a aprovação é removida do widget Minha aprovação.
+
+>[!NOTE]
+>
+>As aprovações de trabalho também podem ser removidas do widget Minhas aprovações quando o projeto, tarefa ou problema é marcado como Resolvido, Em espera, Fechado ou Cancelado.
