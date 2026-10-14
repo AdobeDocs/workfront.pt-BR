@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
+source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1137'
 ht-degree: 2%
 ---
 # Outras melhorias durante o período da versão do quarto trimestre de 2026
@@ -54,7 +54,7 @@ Para obter informações, consulte [Usar listas aprimoradas](/help/quicksilver/w
 
 As listas do Workfront a seguir agora usam o formato de lista aprimorado:
 
-* Configuração > Email > Notificações > Notificações de Eventos e página Detalhes do Grupo > Notificações de Eventos
+* Configuração > Email > Notificações > Página Notificações de eventos e Detalhes do grupo > Notificações de eventos (essa atualização foi removida do ambiente de Pré-visualização em 14 de outubro e não fará parte da versão trimestral. Essas listas serão atualizadas posteriormente.)
 * Configuração > Documentos > Experience Manager Assets
 * Projeto ou modelo > Tópicos da fila
 * Projeto ou modelo > Grupos de tópicos
