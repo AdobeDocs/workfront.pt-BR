@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
 source-wordcount: '2416'
 ht-degree: 3%
@@ -115,6 +115,7 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
 -->
 
 ## Experiência atualizada ao compartilhar um formulário de solicitação
@@ -140,7 +141,7 @@ Para tornar a experiência ao compartilhar um formulário de solicitação no Wo
 * Removemos as opções gerenciar e contribuir para usuários com os quais você compartilha o formulário de solicitação. Agora, os usuários adicionados só podem enviar o formulário.
 * A guia compartilhamento público agora exibe o link e o campo data de expiração após a opção Criar link público ter sido habilitada.
 
-Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandir e recolher todos os agrupamentos na exibição de tabela
 
@@ -195,7 +196,7 @@ Você pode configurar até 100 trimestres personalizados. Antes desta atualizaç
 
 Não há alterações na experiência de trimestre personalizada para clientes que não compraram o Workfront Planning.
 
-Para obter mais informações, consulte [Habilitar trimestres personalizados para projetos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Para obter mais informações, consulte [Habilitar trimestres e semanas personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Calcular todas as fórmulas dependentes ao mesmo tempo
 

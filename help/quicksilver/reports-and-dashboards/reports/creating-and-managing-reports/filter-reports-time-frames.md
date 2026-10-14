@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 10%
 ---
 # Filtrar relatórios por períodos de tempo
@@ -201,7 +201,7 @@ Por exemplo, se você estiver criando um relatório de horas e quiser exibir as 
   </tr> 
   <tr> 
    <td role="rowheader">Último trimestre</td> 
-   <td> <p>Exibe horas em que a Data de Entrada é uma data no trimestre anterior ao trimestre atual, em que os trimestres estão definidos acima.</p> <p><b>NOTA</b></p>  Se o administrador do Workfront tiver ativado e definido trimestres personalizados para seu sistema, os filtros integrados para trimestres serão substituídos pelas informações de trimestre personalizadas. Para obter mais informações sobre como habilitar trimestres personalizados, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar trimestres personalizados</a>.</p> </td> 
+   <td> <p>Exibe horas em que a Data de Entrada é uma data no trimestre anterior ao trimestre atual, em que os trimestres estão definidos acima.</p> <p><b>NOTA</b></p>  Se o administrador do Workfront tiver ativado e definido trimestres personalizados para seu sistema, os filtros integrados para trimestres serão substituídos pelas informações de trimestre personalizadas. Para obter mais informações sobre como habilitar trimestres personalizados, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar trimestres e semanas personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Este ano</td> 

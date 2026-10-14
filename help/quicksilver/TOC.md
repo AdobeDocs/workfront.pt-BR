@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: c61cdd05b9b7470a45b8706035992b12c5d34711
+source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
 workflow-type: tm+mt
-source-wordcount: '14646'
+source-wordcount: '14645'
 ht-degree: 91%
 ---
 # Guia do Workfront {#using}
@@ -484,7 +484,7 @@ ht-degree: 91%
       * [Criar tipos de despesa](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
       * [Criar um cartão de pontuação](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [Recálculos da linha do tempo do projeto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-      * [Habilitar trimestres personalizados](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+      * [Habilitar trimestres e semanas personalizados](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Habilitar ou desabilitar lançamentos rápidos na organização](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
       * [Habilitar o armazenamento em nuvem do Adobe para sua organização](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [Converter portfólios herdados em armazenamento em nuvem do Adobe](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
