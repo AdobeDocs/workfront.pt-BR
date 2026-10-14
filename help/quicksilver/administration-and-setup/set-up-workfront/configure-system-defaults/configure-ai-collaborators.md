@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1347'
 ht-degree: 2%
 ---
 # Configurar colaboradores de IA
@@ -36,7 +36,7 @@ Os tipos disponíveis do AI Collaborator incluem:
 
   Para obter mais informações, consulte [Introdução ao Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Agente de trabalho: crie um colaborador usando uma plataforma de IA padrão, como Claude, OpenAI, Copilot ou Writer e, em seguida, atribua o colaborador a uma tarefa ou problema para concluir os itens de trabalho.
+* Agente de trabalho: crie um colaborador usando uma plataforma de IA padrão, como Claude, OpenAI ou Copilot, e atribua o colaborador a uma tarefa ou problema para concluir os itens de trabalho.
 
   Para obter mais informações, consulte [Usar Agentes de Trabalho](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
@@ -93,7 +93,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ### Para agentes de trabalho
 
-Você deve configurar um agente no Claude, Copilot Studio, Writer, OpenAI ou IBM antes de usá-lo como um Agente de trabalho.
+Você deve configurar um agente no Claude, Copilot Studio, OpenAI ou IBM antes de usá-lo como um Agente de trabalho.
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ Os Revisores de IA podem ser configurados para usar marcas da Workfront ou Adobe
 
 Agentes de trabalho são agentes que podem ser atribuídos a tarefas ou problemas no Workfront. Você configura o Agente de trabalho com um nome, nível de acesso e outros detalhes e o atribui a uma tarefa da mesma forma que atribuiria a um usuário.
 
-Como os Agentes de trabalho são agentes, suas ações e habilidades são configuradas onde você configura os agentes. Atualmente, os agentes usados como Agentes de trabalho podem ser criados no Copilot Studio, Claude ou Writer, OpenAI e IBM.
+Como os Agentes de trabalho são agentes, suas ações e habilidades são configuradas onde você configura os agentes. Atualmente, os agentes usados como Agentes de trabalho podem ser criados no Copilot Studio, Claude, OpenAI e IBM.
 
 Os agentes de trabalho podem ser atribuídos a tarefas ou problemas.
 
@@ -146,14 +146,13 @@ Para obter uma lista de práticas recomendadas ao criar um agente para trabalhar
    >
    ><span class="preview">Se você for um administrador de grupo, este campo exibirá somente os grupos para os quais é um administrador. Os administradores de grupo devem selecionar pelo menos um grupo.</span>
 
-1. Na área **Escolher origem do agente**, selecione se deseja conectar um agente criado em uma plataforma comum, como Copilot ou Writer, ou usar um agente personalizado.
+1. Na área **Escolher origem do agente**, selecione se deseja conectar um agente criado em uma plataforma comum, como o Copilot, ou usar um agente personalizado.
 1. (Condicional) Se você estiver usando um agente de uma plataforma comum, insira os detalhes de autenticação da plataforma do agente:
 
    | Plataforma | Autenticação necessária |
    |---|---|
    | Copilot Studio | Segredo do canal da web |
    | Agentes gerenciados do Claude | Chave da API antropica<br>ID do agente<br>ID do ambiente |
-   | Agente Gravador | Chave de API<br>ID do Aplicativo |
    | <span class="preview">Agentes OpenAI</span> | <span class="preview">Chave da API <br>ID do Agente</span> |
    | <span class="preview">Orquestração watsonx da IBM</span> | <span class="preview">URL do Serviço<br>Chave da API<br> ID do Agente</span> |
 
@@ -209,25 +208,38 @@ As práticas recomendadas a seguir podem ser úteis ao criar um agente para usar
 -->
 +++ Gravador
 
+
+
+>[!IMPORTANT]
+>
+>O Writer substituiu o uso de agentes. Os Agentes de trabalho configurados com os agentes do Writer não funcionarão mais após 9 de outubro. 2026.
+>
+>Para obter informações sobre a descontinuação, consulte [Migração e descontinuação da Biblioteca de Agentes](https://support.writer.com/articles/8335689949-migrating-no-code-agents) na documentação do Writer.
+
+
+<!--
+
 >[!NOTE]
 >
-> Você pode usar um agente Escritor como um Agente de trabalho, mas os manuais do Escritor não podem ser usados como Agentes de trabalho.
+> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
 
-Ao criar um agente para usar como um Agente de trabalho no Writer, recomendamos o seguinte fluxo de trabalho.
+When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
 
-Informações mais detalhadas sobre a criação de agentes podem ser encontradas na [Documentação do autor](https://dev.writer.com/no-code/introduction).
+More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
 
-1. Crie um aplicativo sem código no Writer AI Studio.
-1. Adicione um único campo de entrada Text. Você pode usar o nome padrão &quot;Entrada de texto&quot;.
-1. Adicione `@TextInput` ao seu prompt. Na seção Prompts da configuração do aplicativo, verifique se o modelo de prompt faz referência à variável de entrada. Sem isso, o modelo nunca vê os dados da tarefa.
-1. Ajuste o Prompt para gerar a saída imediatamente. Remova quaisquer instruções que solicitem esclarecimentos ou contexto adicional ao usuário antes de responder. Por exemplo: &quot;Ao receber entrada, trate-a como uma solicitação de geração de conteúdo e produza a saída imediatamente. Não peça esclarecimentos.&quot;
-1. Copie a chave da API e a ID do aplicativo. Você precisará deles para configurar o Agente de trabalho no Workfront.
+1. Create a no-code app in Writer AI Studio. 
+1. Add a single Text input field. You can use the default name "Text input."
+1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
+1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
+1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
 
-   * Para obter instruções sobre como configurar uma chave de API no Writer, consulte [Quickstart](https://dev.writer.com/home/quickstart) na documentação do Writer.
-   * Para obter instruções sobre como configurar uma ID de aplicativo no Writer, consulte [Invocar agentes sem código por meio da API](https://dev.writer.com/home/applications) na documentação do Writer.
+   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
+   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
+ 
+1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
+1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
 
-1. Configure o Agente de trabalho no Workfront. Como parte da configuração, insira sua chave de API e ID do Aplicativo, depois clique em **Testar conexão** para verificar.
-1. Atribua o Agente de trabalho a uma tarefa do Workfront. O Agente de Trabalho inicia o trabalho quando todas as tarefas predecessoras da tarefa são concluídas.
+-->
 
 +++
 

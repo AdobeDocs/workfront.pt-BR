@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '610'
 ht-degree: 7%
 ---
 # Usar o CX Enterprise Coworker no Workfront
@@ -32,7 +32,7 @@ Ao usar o Colaborador no Workfront, ele pode trabalhar com informações e objet
 
 Como o Coworker faz parte de um ecossistema maior do Adobe CX Enterprise, você pode usar o Coworker para trabalhar com informações e objetos em outros produtos da Adobe, no painel direito do Workfront, ou pode pular do Workfront para a interface do Adobe Coworker.
 
-Para obter mais informações sobre o Colaborador e seus recursos fora do Workfront, consulte [Visão geral do Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/chat/overview).
+Para obter mais informações sobre o Colaborador e seus recursos fora do Workfront, consulte [Visão geral do Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/pt-br/docs/coworker/content/chat/overview).
 
 
 ## Requisitos de acesso

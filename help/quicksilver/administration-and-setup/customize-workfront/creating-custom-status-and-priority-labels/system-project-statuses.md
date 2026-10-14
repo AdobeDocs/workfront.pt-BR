@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8560eeda3684b849383dca0c1c4b729ad5b9db4d
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1635'
 ht-degree: 1%
 ---
 # Visão geral dos status de projeto do sistema
@@ -64,7 +64,7 @@ O Workfront fornece os seguintes status de projeto com sua instância do Adobe W
   <tr> 
    <td>Planejamento (status obrigatório)</td> 
    <td> <p>O gerente de projeto está planejando a linha do tempo do projeto, a atribuição das tarefas e as aprovações. O gerente de projeto define esse status em um projeto manualmente.</p> <p><b>DICA</p> <p> Recomendamos que você defina o status padrão para novos projetos no Workfront como Planning. Como administrador do Workfront, você pode alterar o status padrão de todos os novos projetos na área Projetos das Preferências do projeto.</p> <p>Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configurar preferências de projeto do sistema</a>.</p></td> 
-   <td> <p>Os usuários na equipe do projeto podem ver o projeto em suas listas de Projetos por padrão (sem um filtro personalizado), na área Projetos do Workfront. As tarefas e problemas atribuídos a eles no projeto não preenchem sua Lista de trabalho. Somente aprovações e itens de trabalho aceitos são exibidos na Lista de trabalho da página inicial.</p> <p>Nenhuma notificação é enviada enquanto um projeto tem esse status.</p> <p>Recomendamos que você faça todas as alterações que possam acionar uma atualização na linha do tempo do projeto ou qualquer alteração nas atribuições de tarefas e problemas enquanto o projeto estiver no status Planejamento. Isso minimiza a quantidade de notificações que os usuários recebem.</p> <p>A linha do tempo do projeto não é calculada automaticamente pelo sistema.</p> </td> 
+   <td> <p>Os usuários na equipe do projeto podem ver o projeto em suas listas de Projetos por padrão (sem um filtro personalizado), na área Projetos do Workfront. As tarefas e problemas atribuídos a eles no projeto não preenchem sua Lista de trabalho. Somente aprovações e itens de trabalho aceitos são exibidos na Lista de trabalho da página inicial.</p> <p>Quando um projeto está no status Planejamento, algumas notificações sobre atribuições, aprovações e atividades de problemas são enviadas aos usuários na equipe do projeto, enquanto muitas notificações relacionadas à linha do tempo não são.</p> <p>Recomendamos que você faça todas as alterações que possam acionar uma atualização na linha do tempo do projeto ou qualquer alteração nas atribuições de tarefas e problemas enquanto o projeto estiver no status Planejamento. Isso minimiza a quantidade de notificações que os usuários recebem.</p> <p>A linha do tempo do projeto não é calculada automaticamente pelo sistema.</p> </td> 
   </tr> 
   <tr> 
    <td>Atual (status obrigatório)</td> 

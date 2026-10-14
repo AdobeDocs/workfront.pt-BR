@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 4%
 ---
 # Configurar preferências de tarefas e problemas para um grupo
@@ -165,7 +165,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td> <p>As configurações nesta seção determinam o que acontece durante o processo de conversão de problema em tarefa:</p> 
        <ul> 
         <li><strong>Mantenha o problema original e vincule sua resolução à tarefa</strong>: quando você está convertendo o problema, ele permanece visível como um problema até que a tarefa seja concluída. O status do problema muda automaticamente para Closed quando a tarefa é concluída.</li> 
-        <li><strong>Permitir que o Contato Principal tenha acesso à tarefa</strong>: concede ao contato principal (criador de problemas) acesso à tarefa para revisar a tarefa, fazer atualizações e permanecer informado sobre seu progresso</li> 
+        <li><strong>Permitir que o Contato Principal tenha acesso à tarefa</strong>: concede ao contato principal (criador de problemas) o acesso de Visualização à tarefa para revisar a tarefa, manter-se informado sobre seu progresso e fazer comentários na seção Atualizações da tarefa.</li> 
         <li> <p><strong>Permitir que estas configurações sejam alteradas durante a conversão</strong>: permite que o usuário que está convertendo o problema altere estas opções durante a conversão de um problema em uma tarefa.</p>
         <!--
           Screenshot when possible</p>
