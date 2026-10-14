@@ -27,10 +27,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c61cdd05b9b7470a45b8706035992b12c5d34711
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 33%
+source-wordcount: '130'
+ht-degree: 32%
 ---
 # Criar e gerenciar usuários: índice de artigos
 
@@ -54,6 +54,7 @@ Esta seção contém os seguintes artigos:
 * [Visualizar e exportar logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
 * [Configurar campos para rastrear no histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
+* [Exibir histórico de emprego do usuário](../../../administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)
 * [Exibir informações de logon do usuário](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Gerenciar usuários no Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
 * [Visão geral dos perfis empresariais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
