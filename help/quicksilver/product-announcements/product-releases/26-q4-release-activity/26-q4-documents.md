@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 2%
@@ -55,8 +55,8 @@ Para obter mais informações, consulte:
 >[!NOTE]
 >
 >Preview: October 8, 2026
->Production fast release: October 16, 2026
->Production for everyone: October 16, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period. Delegated decisions show both names in the approval workflow, so it's clear who made each decision.
@@ -72,8 +72,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >Visualização: esse recurso não está disponível no ambiente Visualização da sandbox porque a integração do Frame.io não está disponível lá.
->Versão rápida de produção: 16 de outubro de 2026
->Produção para todos: 16 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora é possível agrupar vários documentos em um único fluxo de trabalho de aprovação, para que eles percorram os mesmos estágios juntos.
 
@@ -88,8 +88,8 @@ Para obter mais informações, consulte [Criar uma aprovação agrupada](/help/q
 >[!NOTE]
 >
 >Visualização: esse recurso não está disponível no ambiente Visualização da sandbox porque a integração do Frame.io não está disponível lá.
->Versão rápida de produção: 16 de outubro de 2026
->Produção para todos: 16 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 >[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora é possível adicionar um site ao Adobe Workfront como um link da Web na nova área Documentos. Depois de adicioná-lo, você pode solicitar aprovação na página da Web ao vivo da mesma maneira que solicita aprovação em um arquivo carregado.
@@ -102,7 +102,7 @@ Para obter mais informações, consulte <!-- [Add a web link as a document](/hel
 >
 >Visualização: 30 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 16 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Os modelos de aprovação agora são privados por padrão. Anteriormente, cada solicitante de aprovação podia ver cada modelo no sistema, o que tornava as listas de modelos longas e difíceis de navegar. Agora, um modelo fica visível somente para o usuário que o criou, a menos que o criador o compartilhe.
 
@@ -134,7 +134,7 @@ Para obter mais informações, consulte [Gerenciar modelos de aprovação](/help
 >
 >Visualização: N/D
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 16 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Quando um workflow de aprovação é criado para um documento, os usuários podem deixar comentários e fazer anotações no visualizador Frame.io. Esses comentários não são exibidos no painel Comentários do Workfront, mas você pode visualizá-los no visualizador Frame.io.
 
@@ -148,7 +148,7 @@ Para obter mais informações, consulte [Adicionar uma atualização a um docume
 >
 >Visualização: N/D
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 16 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Quando um documento tem uma prova anexada, o link &quot;Ir para revisão&quot; nos emails de aprovação agora abre o visualizador de prova diretamente, para que revisores e aprovadores possam iniciar sua revisão imediatamente. Se um documento não tiver prova, o link continuará a abrir a seção Aprovações do documento, como antes.
 
@@ -158,7 +158,7 @@ Quando um documento tem uma prova anexada, o link &quot;Ir para revisão&quot; n
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 16 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora é possível adicionar uma Equipe do Workfront como aprovador ou revisor em uma aprovação de documento ou modelo de aprovação, em vez de adicionar cada pessoa individualmente:
 
@@ -178,7 +178,7 @@ Para obter mais informações, consulte:
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 16 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Se sua organização usa o armazenamento na nuvem do Adobe e você tem uma licença Frame.io Enterprise, agora é possível escolher um espaço de trabalho Frame.io nos Detalhes do projeto em um modelo de projeto. Os projetos criados a partir do modelo usam automaticamente o espaço de trabalho definido no modelo, de modo que os projetos são direcionados para o espaço de trabalho Frame.io desejado sem nenhuma ação extra necessária na criação do projeto.
 
@@ -198,7 +198,7 @@ Para obter mais informações, consulte [Editar modelos de projeto](/help/quicks
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 16, 2026
+>Production for everyone: October 22, 2026
 
 Review and approval buttons now look and work the same everywhere you review documents: My approvals widget in Home, Document summary panel, the Document Details page, and the document preview page.
 
@@ -220,8 +220,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >Visualização: N/D
->Produção para todos: 16 de outubro de 2026
->Esse recurso não foi lançado na versão rápida de Produção em 17 de setembro de 2026, como planejado originalmente. Agora ele estará disponível na Produção para todos em 16 de outubro de 2026.
+>Produção para todos: 22 de outubro de 2026
+>Esse recurso não foi lançado na versão rápida de Produção em 17 de setembro de 2026, como planejado originalmente. Agora ele estará disponível na Produção para todos em 22 de outubro de 2026.
 
 Ao definir uma mensagem personalizada em uma aprovação de documento, essa mensagem agora também aparece na linha de assunto do email de solicitação de aprovação, precedida pela data de vencimento quando uma é definida. Isso permite que os revisores vejam o que precisa de atenção e quando diretamente da caixa de entrada, sem abrir o email.
 
@@ -233,7 +233,7 @@ Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovaç�
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 16 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Se sua organização usar o armazenamento em nuvem do Adobe, o painel Versões na nova área Documentos terá um novo design:
 
@@ -251,7 +251,7 @@ Para obter mais informações, consulte [Gerenciar versões do documento](/help/
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 16 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Se sua organização usar o armazenamento na nuvem da Adobe, o painel Aprovações na nova área Documentos agora mostrará o histórico de aprovação nas versões:
 
@@ -284,7 +284,7 @@ Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/w
 >
 >Visualização: 30 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 16 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Se sua organização usar o armazenamento em nuvem da Adobe, você poderá vincular ativos individuais do Experience Manager Assets a qualquer objeto do Workfront que ofereça suporte a documentos. O conteúdo vinculado permanece sincronizado automaticamente: as alterações feitas no Experience Manager Assets aparecem no Workfront e você pode obter novas versões de ativos sem sair do Workfront.
 
@@ -300,7 +300,7 @@ Para obter mais informações, consulte [Vincular conteúdo do Experience Manage
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 16, 2026
+>Production for everyone: October 22, 2026
 
 Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
 
