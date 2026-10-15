@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
+source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3561'
 ht-degree: 4%
 ---
 
@@ -353,13 +353,20 @@ As ferramentas de relatórios permitem criar e gerenciar Painéis do Canvas por 
 
 | Título | Nome da ferramenta | O que faz | Ação |
 | --- | --- | --- | --- |
-| Ler | `read` | Lê os dados de relatório em três modos selecionados pelas IDs transmitidas: lista os painéis visíveis para você, busca uma única estrutura de painel ou busca a configuração completa de um widget. | Ler |
-| Criar painel | `create_dashboard` | Cria um novo painel Relatórios vazio e o retorna com um link para abri-lo. | Gravar |
-| Atualizar painel | `update_dashboard` | Atualiza parcialmente os metadados, prompt, filtro e posicionamento por widget de um painel. Os campos omitidos são deixados inalterados. | Gravar |
-| Criar widget | `create_widget` | Cria um widget e sua configuração de relatório em um painel. Uma ferramenta lida com todos os três tipos de widget: gráfico, KPI e tabela. | Gravar |
-| Atualizar widget | `update_widget` | Atualiza parcialmente a configuração de um widget existente. O tipo de widget é inferido automaticamente, portanto, você só envia os campos que deseja alterar. | Gravar |
-| Copiar objeto | `copy_object` | Copia um painel inteiro, incluindo seus widgets, prompts e filtros, em um novo painel, ou copia um único widget dentro ou entre painéis. | Gravar |
-| Excluir objeto | `delete_object` | Exclui permanentemente um painel de Relatórios e todos os seus widgets ou um único widget. Esta ação não pode ser desfeita. | Gravar |
+| Listar Painéis de Controle | `reporting_relist_dashboards` | Lista os painéis de Relatórios visíveis a você. Suporta os valores `view` `"my"`, `"shared"`, `"all"` e `"favorites"`. Retorna somente metadados do painel, incluindo um URL para abrir cada painel. | Ler |
+| Obter Painel | `reporting_get_dashboard` | Busca um Painel da tela por ID, incluindo metadados, layout, prompts, filtro e IDs de widget. Os dados do widget não estão hidratados. | Ler |
+| Obter widget | `reporting_get_widget` | Obtém um shell de widget e sua configuração de conteúdo nivelado. As referências de campo são retornadas como `{id, label, dataType}` para que possam ser reutilizadas diretamente nas ferramentas `reporting_update_*_widget`. Os tipos de conteúdo compatíveis são Tabela, KPI e MultiSeries. | Ler |
+| Criar painel | `reporting_create_dashboard` | Cria um painel Relatórios vazio. Retorna o painel criado completo, incluindo ID, título, descrição, moeda, ID do criador, data de criação e widget, prompt e coleções de filtros vazios. | Gravar |
+| Atualizar painel | `reporting_update_dashboard` | Atualiza parcialmente o título, a descrição, a moeda, o prompt, o filtro e as configurações de layout `ignoreDashboardFilters` por widget. Os campos omitidos são deixados inalterados e o prompt e o filtro são substituídos totalmente quando fornecidos. | Gravar |
+| Criar widget de tabela | `reporting_create_table_widget` | Cria um widget Tabela e sua configuração de relatório em um painel. Retorna o widget criado completo na forma `get_widget` nivelada. | Gravar |
+| Atualizar widget de tabela | `reporting_update_table_widget` | Atualiza um widget Tabela existente e sua configuração de relatório. Substitui a configuração da tabela armazenada, incluindo colunas, buckets, limite de linha, legenda, descrição, condição e configurações de executar como usuário. | Gravar |
+| Criar Widget de KPI | `reporting_create_kpi_widget` | Cria um widget KPI e sua configuração de relatório em um painel. Retorna o widget criado completo na forma `get_widget` nivelada. | Gravar |
+| Atualizar Widget do KPI | `reporting_update_kpi_widget` | Atualiza um widget KPI existente e sua configuração de relatório. `fieldId` e `aggregation` são obrigatórios e o relatório subjacente é totalmente substituído. | Gravar |
+| Criar widget de gráfico | `reporting_create_chart_widget` | Cria um widget Gráfico e sua configuração de relatório. Os tipos de gráfico compatíveis são BARRA, COLUNA, LINHA e PIZZA, incluindo as variantes SIMPLE, MULTI_SERIES e STACKED, onde houver suporte. | Gravar |
+| Atualizar widget de gráfico | `reporting_update_chart_widget` | Atualiza um widget Gráfico existente e sua configuração de relatório. `aggregationFieldId`, `aggregationType`, `groupByFields` e `chartType` são obrigatórios e o relatório subjacente é totalmente substituído. | Gravar |
+| Copiar widget | `reporting_copy_widget` | Copia um widget existente para o mesmo painel ou para um painel diferente, duplicando o widget e sua configuração de relatório. | Gravar |
+| Copiar o Painel | `reporting_copy_dashboard` | Copia um painel para um novo painel, incluindo seus widgets e configurações de relatório. Opcionalmente, você pode copiar apenas um subconjunto de widgets e escolher se deseja incluir o prompt e o filtro. | Gravar |
+| Excluir objeto | `reporting_delete_object` | Exclui permanentemente um painel de Relatórios e todos os seus widgets ou um único widget. Esta ação não pode ser desfeita. | Gravar |
 
 ## Como as ferramentas são atualizadas
 
