@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
+source-git-commit: d6c8ce2904153bc2556e2026626993632d573bf0
 workflow-type: tm+mt
-source-wordcount: '14645'
+source-wordcount: '14674'
 ht-degree: 91%
 ---
 # Guia do Workfront {#using}
@@ -486,7 +486,6 @@ ht-degree: 91%
       * [Recálculos da linha do tempo do projeto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Habilitar trimestres e semanas personalizados](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Habilitar ou desabilitar lançamentos rápidos na organização](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-      * [Habilitar o armazenamento em nuvem do Adobe para sua organização](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [Converter portfólios herdados em armazenamento em nuvem do Adobe](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
       * [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configurar localização personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
@@ -1929,9 +1928,14 @@ ht-degree: 91%
   * [Revisar e aprovar trabalho](review-and-approve-work/review-and-approve-work.md)
   * [Visão geral unificada de revisão e aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
   * [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-  * [Migrar para o Workfront no Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md)
   * [Visão geral das limitações do recurso de decisão de prova e documentos para usuários sem licenças pagas](review-and-approve-work/proof-doc-decision-limits.md)
   * {hide-from-toc}[Configurar Revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+  * Migrar para o Workfront no Adobe Cloud Storage {#move-to-adobe-cloud-storage}
+    * [Migrar para o Workfront no Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+    * [O que há de diferente no armazenamento em nuvem do Adobe](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)
+    * [Planejar a implantação do armazenamento em nuvem do Adobe](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md)
+    * [Habilitar o armazenamento em nuvem do Adobe para sua organização](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+    * [Converter objetos herdados para o armazenamento em nuvem do Adobe](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)
   * Aprovações de trabalho {#work-approvals}
     * [Aprovações de trabalho](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Visão geral do processo de aprovação](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
