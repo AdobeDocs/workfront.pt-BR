@@ -6,16 +6,16 @@ description: Entenda as principais diferenças nos objetos de armazenamento na n
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4f63b6c4f4c73bedba707aed6b02c9046f9b356c
+source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1702'
 ht-degree: 0%
 ---
 # O que há de diferente no armazenamento em nuvem do Adobe
 
-Depois que seu contrato for atualizado para incluir a nova experiência unificada de revisão e aprovação, seu ambiente poderá conter dois tipos de objetos: objetos no armazenamento herdado do Workfront (os objetos que você tem hoje) e objetos criados usando o armazenamento em nuvem da Adobe. A nova área Documentos, o visualizador Frame.io e os outros comportamentos descritos aqui se aplicam apenas a objetos que usam o armazenamento na nuvem do Adobe.
+Com o Adobe Cloud Storage, seu ambiente pode conter dois tipos de objetos: objetos no armazenamento Workfront herdado (os objetos que você tem hoje) e objetos criados usando o Adobe Cloud Storage. A nova área Documentos, o visualizador Frame.io e os outros comportamentos descritos aqui se aplicam apenas a objetos que usam o armazenamento na nuvem do Adobe.
 
-Para obter uma orientação para a movimentação e o que é ativado quando, consulte [Mover para o Workfront no Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+Para obter uma orientação para a movimentação, consulte [Mover para o Workfront no Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Entenda o armazenamento herdado do Workfront e o armazenamento em nuvem do Adobe
 
