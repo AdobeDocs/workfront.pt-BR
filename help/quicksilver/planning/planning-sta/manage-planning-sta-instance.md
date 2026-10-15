@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 3%
 ---
 
@@ -99,7 +99,7 @@ Você pode configurar até 100 trimestres para sua instância do Workfront Plann
 
 A configuração de trimestres personalizados no Workfront Planning é semelhante à configuração de trimestres personalizados no Workfront.
 
-Para obter informações, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Para obter informações, consulte [Habilitar trimestres e semanas personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Configurar informações do cliente
 

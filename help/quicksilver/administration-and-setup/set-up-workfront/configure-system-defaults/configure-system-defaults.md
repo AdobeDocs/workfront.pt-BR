@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 36%
+source-wordcount: '137'
+ht-degree: 33%
 ---
 # Configurar padrões do sistema: índice de artigos
 
@@ -49,7 +49,7 @@ Esta seção contém os seguintes artigos:
 * [Criar tipos de despesas personalizados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [Criar um cartão de pontuação](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
 * [Configurar recálculos de cronograma de projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-* [Habilitar trimestres personalizados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+* [Habilitar trimestres e semanas personalizados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
 * [Habilitar ou desabilitar lançamentos rápidos na organização](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
 * [Configurar localização personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
 * [Habilitar o armazenamento em nuvem do Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)

@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2453'
 ht-degree: 0%
 ---
 # Visão geral do gerenciamento de documentos para projetos e objetos relacionados
@@ -138,6 +138,7 @@ As seções a seguir documentam como o armazenamento de documentos funciona para
 Leve em consideração o seguinte ao trabalhar com projetos:
 
 * Ao criar um projeto de armazenamento na nuvem do Adobe, o Workfront cria uma pasta na seção Documentos do projeto em que os documentos são salvos. O nome da pasta é igual ao do projeto. Não é possível excluir ou renomear manualmente a pasta. A pasta será renomeada se você alterar o nome do projeto para corresponder ao novo nome do projeto.
+* Ao renomear um projeto com o Adobe Cloud Storage, a pasta de documentos é renomeada automaticamente. No entanto, se houver um problema e o armazenamento não puder ser acessado nesse momento, o novo nome será rejeitado para o projeto e a pasta, e os nomes antigos serão deixados inalterados. Você pode tentar renomear novamente depois de um tempo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * Ao criar ou mover um projeto do Adobe Cloud Storage para um portfólio ou programa herdado do Workfront Storage, o portfólio ou programa é convertido automaticamente em um objeto do Adobe Cloud Storage se o portfólio ou programa não tiver documentos anexados antes de o projeto ser adicionado.
 * Não é possível criar um projeto herdado do Workfront Storage para um portfólio ou programa do Adobe Cloud Storage.
 * Quando você importa um projeto do MS Project, o Workfront cria um projeto de armazenamento herdado do Workfront, mesmo quando o administrador do Workfront tornou o armazenamento em nuvem do Adobe padrão para o seu sistema.
@@ -150,6 +151,7 @@ Para obter mais informações, consulte também a seção [Gerenciamento de docu
 Considere o seguinte ao trabalhar com portfólios:
 
 * Ao criar um portfólio de armazenamento em nuvem do Adobe, o Workfront cria uma pasta na seção Documentos do portfólio em que os documentos são salvos. O nome da pasta é igual ao do portfólio. Não é possível excluir ou renomear manualmente a pasta. A pasta será renomeada se você alterar o nome do portfólio para corresponder ao novo nome dele.
+* Ao renomear um portfólio com o Adobe Cloud Storage, a pasta de documentos é renomeada automaticamente. No entanto, se houver um problema e o armazenamento não puder ser acessado nesse momento, o novo nome será rejeitado para o portfólio e a pasta, e os nomes antigos serão deixados inalterados. Você pode tentar renomear novamente depois de um tempo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 <!--
 This is not possible anymore: 
@@ -172,6 +174,7 @@ Para obter informações, consulte [Configurar preferências do sistema](/help/q
 Leve em consideração o seguinte ao trabalhar com programas:
 
 * Ao criar um programa de armazenamento na nuvem do Adobe, o Workfront cria uma pasta na seção Documentos do programa em que os documentos são salvos. O nome da pasta é igual ao nome do programa. Não é possível excluir ou renomear manualmente a pasta. A pasta será renomeada se você alterar o nome do programa para corresponder ao novo nome do programa.
+* Ao renomear um programa com o Adobe Cloud Storage, a pasta de documentos é renomeada automaticamente. No entanto, se houver um problema e o armazenamento não puder ser acessado nesse momento, o novo nome será rejeitado para o programa e a pasta, e os nomes antigos serão deixados inalterados. Você pode tentar renomear novamente depois de um tempo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 * Não é possível adicionar um projeto herdado do Workfront Storage a um programa do Adobe Cloud Storage.
 
@@ -191,7 +194,8 @@ Considere o seguinte ao trabalhar com tarefas:
 
 * As tarefas herdam o tipo de armazenamento dos projetos.
 * Quando você faz upload de um documento para uma tarefa em um projeto de armazenamento na nuvem do Adobe, o Workfront cria automaticamente uma pasta na seção Documentos da tarefa. O nome da pasta é igual ao da tarefa.
-* É possível renomear e excluir a pasta de documentos da tarefa de armazenamento na nuvem do Adobe, que também exclui os documentos na pasta. Depois de adicionar novos documentos à tarefa, a pasta é automaticamente recriada. Os documentos excluídos não são colocados de volta na pasta.
+* Renomear a tarefa não renomeia a pasta de documentos.
+* Você pode excluir a pasta de documentos da tarefa de armazenamento na nuvem do Adobe, que também exclui os documentos na pasta. Depois de adicionar novos documentos à tarefa, a pasta é automaticamente recriada. Os documentos excluídos não são colocados de volta na pasta.
 * Para projetos do Adobe Cloud Storage, a pasta de documentos em uma tarefa é exibida como uma subpasta na pasta de documentos criada automaticamente para o projeto.
 * Não é possível copiar ou mover uma tarefa de um projeto herdado do Workfront Storage para um projeto do Adobe Cloud Storage. O inverso também não é possível.
 * Os seguintes cenários existem ao converter uma tarefa em um projeto: <!--this info also duplicated in Convert tasks to projects-->
@@ -207,7 +211,8 @@ Leve em consideração o seguinte ao trabalhar com problemas:
 
 * Problemas herdam o tipo de armazenamento de projetos.
 * Ao fazer upload de um documento para um problema em um projeto de armazenamento em nuvem do Adobe, o Workfront cria automaticamente uma pasta na seção Documentos do problema. O nome da pasta é igual ao nome do problema.
-* Você pode renomear e excluir a pasta de documentos do problema de armazenamento na nuvem do Adobe, que também exclui os documentos na pasta. Depois de adicionar novos documentos ao problema, a pasta é recriada automaticamente. Os documentos excluídos não são colocados de volta na pasta.
+* Renomear um problema não renomeia a pasta de documentos.
+* Você pode excluir a pasta de documentos do problema de armazenamento na nuvem do Adobe, que também exclui os documentos na pasta. Depois de adicionar novos documentos ao problema, a pasta é recriada automaticamente. Os documentos excluídos não são colocados de volta na pasta.
 * Para projetos do Adobe Cloud Storage, a pasta de documentos sobre um problema é exibida como uma subpasta na pasta de documentos criada automaticamente para o projeto.
 * Não é possível copiar ou mover um problema de um projeto herdado do Workfront Storage para um projeto do Adobe Cloud Storage. O inverso também não é possível.
 * Os seguintes cenários existem ao converter um problema em um projeto: <!--this info also duplicated in Convert an issue to a project-->
@@ -227,6 +232,7 @@ Leve em consideração o seguinte ao trabalhar com problemas:
 Considere o seguinte ao trabalhar com modelos:
 
 * Ao criar um modelo de armazenamento na nuvem do Adobe, o Workfront cria uma pasta na seção Documentos do modelo em que os documentos são salvos. O nome da pasta é igual ao do programa. Não é possível excluir ou renomear manualmente a pasta. A pasta será renomeada se você alterar o nome do modelo para corresponder ao novo nome do modelo.
+* Ao renomear um modelo com o Adobe Cloud Storage, a pasta de documentos é renomeada automaticamente. No entanto, se houver um problema e o armazenamento não puder ser acessado nesse momento, o novo nome será rejeitado para o modelo e a pasta, e os nomes antigos serão deixados inalterados. Você pode tentar renomear novamente depois de um tempo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * Você pode usar um modelo herdado do Workfront Storage para criar projetos herdados do Workfront Storage; pode usar um modelo do Adobe Cloud Storage para criar um projeto do Adobe Cloud Storage.
 
 * Ao criar projetos usando modelos de um portfólio ou programa, existem os seguintes cenários:
@@ -244,7 +250,8 @@ Considere o seguinte ao trabalhar com tarefas de modelo:
 
 * Tarefas de modelo herdam o tipo de armazenamento dos modelos.
 * Quando você faz upload de um documento para uma tarefa de modelo em um modelo de armazenamento na nuvem do Adobe, o Workfront cria automaticamente uma pasta na seção Documentos da tarefa de modelo. O nome da pasta é igual ao da tarefa de modelo.
-* Você pode renomear e excluir a pasta de documentos da tarefa de modelo de armazenamento na nuvem do Adobe, que também exclui os documentos na pasta. Após adicionar novos documentos à tarefa de modelo, a pasta será automaticamente recriada. Os documentos excluídos não são colocados de volta na pasta.
+* Renomear a tarefa de modelo não renomeia a pasta de documentos.
+* Você pode excluir a pasta de documentos da tarefa de modelo de armazenamento na nuvem do Adobe, que também exclui os documentos na pasta. Após adicionar novos documentos à tarefa de modelo, a pasta será automaticamente recriada. Os documentos excluídos não são colocados de volta na pasta.
 * Para modelos de armazenamento na nuvem do Adobe, a pasta de documentos em uma tarefa de modelo é exibida como uma subpasta na pasta de documentos criada automaticamente para o modelo.
 * Não é possível copiar ou mover uma tarefa de modelo de um modelo de armazenamento herdado do Workfront para um modelo de armazenamento na nuvem do Adobe. O inverso também não é possível.
 

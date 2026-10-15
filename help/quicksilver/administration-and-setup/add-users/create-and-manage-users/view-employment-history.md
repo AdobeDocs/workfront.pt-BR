@@ -7,7 +7,7 @@ description: Você pode exibir o histórico de emprego de um usuário, incluindo
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f0560dc380160725c12d3f222e3fe7f3d8d32d63
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -66,7 +66,5 @@ Você pode exibir o histórico de emprego na lista Usuários ou pode exibir o hi
 1. Para filtrar os resultados, clique em **Filtrar** e insira o campo, o operador e o valor pelo qual deseja filtrar. Os resultados são filtrados automaticamente.
 1. Para adicionar ou remover colunas, clique no ícone Adicionar ![ícone Adicionar](assets/add-column.png) à direita da tabela e clique no ícone de adição ao lado de cada coluna que você deseja adicionar ou clique no ícone de subtração ao lado de cada coluna que você deseja remover do modo de exibição.
 1. Para exportar o histórico de emprego, clique em **Exportar**. Você pode exportar o histórico de emprego como um arquivo CSV ou XLSX.
-
-
 
 

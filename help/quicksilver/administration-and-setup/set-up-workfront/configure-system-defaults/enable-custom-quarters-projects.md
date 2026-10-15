@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Habilitar Trimestre personalizado
-description: Para fins de relatórios, você pode criar trimestres personalizados se os trimestres de sua organização forem baseados em critérios específicos diferentes das datas do calendário (como dias úteis ou dias de compras).
+title: Habilitar Trimestres e Semanas Personalizados
+description: Para fins de relatório, você pode configurar trimestres personalizados se os trimestres de sua organização forem baseados em critérios específicos diferentes das datas do calendário (como dias úteis ou dias de compras). Se sua organização comprar pacotes do Workfront Planning, você também poderá configurar semanas personalizadas.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 5%
+source-wordcount: '912'
+ht-degree: 4%
 ---
-# Habilitar trimestres personalizados
+# Habilitar trimestres e semanas personalizados
 
 <!--Audited: 03/2026-->
 

@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '3226'
+source-wordcount: '3286'
 ht-degree: 5%
 ---
 # Atividade da versão do terceiro trimestre de 2026 para o Adobe Workfront Planning
@@ -384,6 +384,17 @@ Com esta versão, os metadados principais são consistentes em ambas as platafor
 
 Para obter informações, consulte [Gerenciar o espaço de trabalho do GenStudio no Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
+## Recursos do Planning disponíveis no servidor MCP do Workfront
+
+>[!NOTE]
+>
+>* Visualização: 28 de maio de 2026
+>* Versão rápida de produção: 11 de junho de 2026
+>* Produção para todos: 16 de julho de 2026
+
+Os recursos do Workfront Planning agora podem ser acessados no servidor MCP do Workfront, para que as equipes possam fazer referência ao contexto do Planning e executar a configuração e as aprovações com as novas ferramentas do Conector MCP.
+
+Para obter informações, consulte [ferramentas do servidor Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
 
 ## Atualizações da exibição de lista
 

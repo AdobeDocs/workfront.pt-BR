@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '3154'
+source-wordcount: '3156'
 ht-degree: 0%
 ---
 # Atividade da versão do quarto trimestre de 2026 para o Adobe Workfront Planning
@@ -300,7 +300,7 @@ Você pode personalizar rótulos de semana que estejam visíveis na exibição d
 
 As semanas personalizadas não estão visíveis no Workfront. Elas só são visíveis na exibição de linha do tempo do Workfront Planning.
 
-Para obter informações, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Para obter informações, consulte [Habilitar trimestres e semanas personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Filtros para campos de registro conectados
 

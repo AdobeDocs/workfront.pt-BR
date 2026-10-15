@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
 workflow-type: tm+mt
-source-wordcount: '14642'
+source-wordcount: '14645'
 ht-degree: 91%
 ---
 # Guia do Workfront {#using}
@@ -484,7 +484,7 @@ ht-degree: 91%
       * [Criar tipos de despesa](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
       * [Criar um cartão de pontuação](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [Recálculos da linha do tempo do projeto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-      * [Habilitar trimestres personalizados](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+      * [Habilitar trimestres e semanas personalizados](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Habilitar ou desabilitar lançamentos rápidos na organização](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
       * [Habilitar o armazenamento em nuvem do Adobe para sua organização](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [Converter portfólios herdados em armazenamento em nuvem do Adobe](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
@@ -547,6 +547,7 @@ ht-degree: 91%
       * [Visualizar e exportar logs de auditoria](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
       * [Configurar campos para rastrear no histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
+      * [Exibir histórico de emprego do usuário](administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)
       * [Visualizar informações de logon do usuário](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Gerenciar usuários no Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [Visão geral dos perfis empresariais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
