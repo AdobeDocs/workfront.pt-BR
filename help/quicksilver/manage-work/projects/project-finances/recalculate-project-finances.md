@@ -9,22 +9,26 @@ exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 035783e301929fe2a26a9e7886276f49899b0e4a
 workflow-type: tm+mt
-source-wordcount: 1614
+source-wordcount: '1753'
 ht-degree: 2%
-
 ---
-
 # Recalcular as finanças do projeto
 
 As finanças são calculadas em um projeto à medida que ocorrem alterações nas horas registradas para o projeto ou nas taxas usadas para calcular custos e receita.
@@ -125,7 +129,7 @@ Para obter mais informações sobre como criar registros de cobrança, consulte 
 
 #### Preservar Receita do Projeto usando várias sobreposições de Taxa de Faturamento {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
-Quando as taxas de faturamento são alteradas para funções de trabalho no nível do projeto, é possível preservar a receita existente que já foi calculada no projeto usando várias sobreposições de taxas de faturamento que estão bloqueadas em um intervalo de tempo especificado.
+Quando as taxas de faturamento forem alteradas para funções de trabalho no nível do projeto, será possível preservar a receita existente que já foi calculada no projeto usando várias sobreposições de taxa de faturamento, que são bloqueadas em um período especificado.
 
 Para obter mais informações sobre o uso de várias substituições de taxas de cobrança, consulte [Visão geral da substituição de taxas de cobrança e cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
@@ -146,7 +150,7 @@ As taxas de custo podem mudar nos seguintes níveis:
 * Nível do projeto (para usuários)
 Para obter mais informações sobre como substituir taxas de custo de usuário, consulte [Substituir taxas de custo de usuário no nível do projeto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
-Quando as taxas de faturamento são alteradas em qualquer nível mencionado acima, é possível preservar os custos existentes que já foram calculados no projeto, bloqueando o tempo registrado no projeto e calculado usando a taxa antiga em um registro de faturamento com status Faturado. Para obter mais informações sobre como criar registros de cobrança, consulte [Criar registros de cobrança](../../../manage-work/projects/project-finances/create-billing-records.md).
+Quando as taxas de custo mudam em qualquer nível mencionado acima, é possível preservar os custos existentes que já foram calculados no projeto bloqueando o tempo registrado no projeto e calculado usando a taxa antiga em um registro de cobrança com status Faturado. Para obter mais informações sobre como criar registros de cobrança, consulte [Criar registros de cobrança](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 Você também pode evitar o uso da opção manual Recalcular Finanças se não quiser criar um registro de cobrança, conforme descrito na seção [Recalcular manualmente as finanças de um projeto](#manually-recalculate-finances-for-a-project) deste artigo.
 
@@ -183,7 +187,7 @@ Você pode recalcular as finanças enquanto as edita em massa. Para obter inform
    Todos os custos e receitas planejados no projeto são recalculados com qualquer nova informação.
 
    Você deve receber uma confirmação na parte superior do navegador de que as finanças do projeto foram recalculadas com êxito.
-Os valores de custo existentes e alguns valores de receita que não foram bloqueados são atualizados para refletir as novas taxas.
+   Os valores de custo existentes e alguns valores de receita que não foram bloqueados são atualizados para refletir as novas taxas.
 
 ## Recalcular manualmente as finanças em massa{#manually-recalculate-finances-in-bulk}
 
@@ -217,9 +221,25 @@ As seguintes ações acionam o recálculo financeiro de projetos no Workfront:
 * Alterando status da tarefa
 * Mover uma tarefa com horas para outro projeto
 * Alteração do status de Concluído para ativo
+* Adicionar uma despesa faturável no nível do projeto ou da tarefa
 
 >[!NOTE]
 >
 >Quando você altera o status do projeto, somente os valores planejados são recalculados.
 
 Você também pode recalcular as finanças manualmente no menu **Mais** ![Mais menu](assets/qs-more-menu.png) no nível do projeto, clicando em **Recalcular Finanças**.
+
+### Como as despesas afetam o recálculo financeiro automático
+
+Estes cenários existem ao adicionar despesas a projetos e tarefas:
+
+* Adicionar uma despesa não faturável a um projeto atualiza os custos do projeto, sem recalcular todas as finanças.
+* Adicionar uma despesa não faturável a uma tarefa recalcula os custos dessa tarefa e os custos do projeto. Nenhuma outra tarefa foi recalculada.
+* Adicionar uma despesa faturável no nível do projeto ou da tarefa aciona um recálculo financeiro no projeto, incluindo custos e receitas de mão de obra.
+
+>[!NOTE]
+>
+>Quando um Valor Planejado é salvo na despesa, o Custo Planejado é atualizado. Quando uma Quantia Efetiva é salva na despesa, o Custo Efetivo é atualizado.
+
+Para obter mais informações sobre despesas, consulte [Gerenciar despesas do projeto](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
