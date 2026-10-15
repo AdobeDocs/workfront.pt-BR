@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 7%
@@ -30,7 +30,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >
 >Visualização: 30 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 16 de outubro de 2026
 
 Quando um modelo contém dados financeiros, esses valores de campo são preservados quando um usuário cria um projeto a partir do modelo. O usuário deve ter acesso de Visualização de Dados Financeiros para visualizar os campos financeiros nos detalhes do projeto.
 

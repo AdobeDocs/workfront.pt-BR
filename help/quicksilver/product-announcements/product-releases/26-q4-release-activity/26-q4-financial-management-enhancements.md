@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 2%
@@ -29,8 +29,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >[!NOTE]
 >
 >Visualização: 1 de outubro de 2026
->Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Versão rápida de produção: 16 de outubro de 2026
+>Produção para todos: 16 de outubro de 2026
 
 Várias atualizações foram feitas na funcionalidade de taxas de faturamento em um modelo de projeto.
 
@@ -52,7 +52,7 @@ Para obter mais informações, consulte [Editar modelos de projeto](/help/quicks
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 16 de outubro de 2026
 
 Várias atualizações foram feitas na funcionalidade de taxas de cobrança da empresa.
 
@@ -76,7 +76,7 @@ Para obter mais informações, consulte [Substituir taxas de cobrança de funç�
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 16 de outubro de 2026
 >Esse recurso só está disponível para organizações no pacote Workflow Ultimate.
 
 Ao usar atributos de taxa como filtros em várias áreas do Workfront, como Atribuições avançadas, a validação adicional agora é aplicada à filtragem pai-filho.
