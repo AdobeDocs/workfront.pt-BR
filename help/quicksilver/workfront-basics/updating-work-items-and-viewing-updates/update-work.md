@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '3232'
+source-wordcount: '3436'
 ht-degree: 2%
 ---
 # Atualizar trabalho
@@ -40,11 +40,11 @@ ht-degree: 2%
 <!-- Audited: 4/2025 -->
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -623,28 +623,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-<!--
 <div class="preview">
 
-## Pin comments
+## Fixar comentários
 
-You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+Você pode fixar comentários de nível superior na parte superior da guia Comentários. Não é possível fixar respostas que fazem parte de um thread.
 
-1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+1. Vá para um objeto que ofereça suporte à fixação de comentários, clique em Atualizações no painel esquerdo e clique na guia **Comentários**.
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   Para obter informações, consulte [Visão geral da guia Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+1. Adicione um comentário ou clique em **Mais** menu ![Mais](assets/more-menu.png) à direita do comentário, clique em **Fixar thread**. O comentário e todas as respostas existentes são fixados na parte superior da guia Comments.
 
-   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+   Uma nova seção **Threads fixados** é criada na parte superior da guia **Comentários**.
 
-   The number of pinned threads is listed in parentheses to the right of the section name. 
+   O número de threads fixados é listado entre parênteses à direita do nome da seção.
 
-1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+   ![Threads fixados na seção Comentários](assets/pin-thread-comments-areas-and-link.png)
+
+1. (Opcional) Para desafixar um thread, clique no ícone **Desafixar** ![Ícone Desafixar](assets/unpin-icon-comments.png) no canto superior direito do comentário fixado.
 
 </div>
 
--->
+
 
 ## Excluir comentário ou resposta
 

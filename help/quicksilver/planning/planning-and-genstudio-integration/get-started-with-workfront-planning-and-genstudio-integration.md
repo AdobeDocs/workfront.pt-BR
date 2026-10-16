@@ -29,23 +29,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2621'
 ht-degree: 2%
 ---
-<!--
-Better metadata, at publishing:
----
-title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
-
----
--->
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
@@ -148,7 +136,7 @@ Ou
    <td role="rowheader"><p>Funções de usuário do Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualquer função de usuário do GenStudio para acessar Campanhas, Produtos e Personalidades</li>
    <li>GenStudio System Manager para acessar Ativações <!--and Events--></li></ul>
-   Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
+   Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
    </p>
   </td> 
   </tr>   
@@ -204,7 +192,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -351,7 +339,6 @@ Considere o seguinte ao trabalhar com Ativações:
 
 * Não é possível criar um registro de ativação no Workfront Planning.
 
-
 * Um Projeto do GenStudio mapeia 1:1 para um espaço de trabalho do Workfront Planning; as ativações são armazenadas e referenciadas nesse espaço de trabalho.
 
 * A visibilidade e as ações dependem do acesso a esse projeto e espaço de trabalho do GenStudio.
@@ -360,18 +347,11 @@ Considere o seguinte ao trabalhar com Ativações:
 
 * Quando você ativa no GenStudio, os detalhes da ativação são registrados e rastreados no Workfront Planning. O GenStudio e o Planning mantêm registros compartilhados (Campanhas, Produtos, Personalidades, Ativações e muito mais) alinhados.
 
-<!--
+* Os registros de ativações incluem o seguinte:
 
-<div class="preview">
+  * Um campo de ID de rastreamento que armazena o valor resolvido para cada segmento de uma fórmula de ID de rastreamento, juntamente com quaisquer erros.
+  * Uma opção de status &quot;Gerando&quot; que indica que a geração da ID de rastreamento está em andamento. O status de ativação retorna para &quot;Rascunho&quot; quando a geração é concluída ou falha. As ativações existentes não são afetadas.
 
-* Activations records include the following:
-
-    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
-    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
-
-</div>
-
--->
 
 <!--
 They're stored in Planning even when a customer hasn't separately purchased Planning.

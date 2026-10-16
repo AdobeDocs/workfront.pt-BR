@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1296'
 ht-degree: 0%
 ---
 
@@ -45,17 +45,28 @@ O espaço Adobe Ideation é o recurso de ideação estratégica alimentado por I
 
 Acessível somente pelo Workfront Planning ou pelo Menu principal do Workfront, o espaço de ideação está localizado na parte frontal do ciclo de vida da campanha, antes do planejamento, da produção e do delivery, e se alimenta diretamente no espaço de trabalho do Workfront Planning, onde as equipes planejam e executam seu trabalho.
 
+Os espaços de ideação usam o Enterprise CX Coworker para gerar resumos que podem ser convertidos posteriormente em registros do Planning ou baixados como PDFs.
+
 ## Disponibilidade do produto
 
 A linha do tempo de lançamento planejada para o espaço de ideação que está sujeito a alterações inclui os seguintes marcos:
 
-* **Beta fechado:** lançado em julho de 2026, com um pequeno número de clientes.
-* **Abrir Beta:** Direcionado para outubro de 2026. Essa será uma oferta de aceitação, em que os clientes devem ativar e configurar ativamente a opção, em vez de recusar ativamente a participação.
-* **Disponibilidade geral:** programada para o final do segundo semestre de 2026.
+* **Beta fechado:** lançado em julho de 2026, para um pequeno número de clientes.
+* **Abrir Beta:** Direcionado para novembro de 2026. Essa será uma oferta de aceitação, em que os clientes devem ativar e configurar ativamente a opção, em vez de recusar ativamente a participação.
+* **Disponibilidade geral:** direcionada para 2027.
 
 ## Requisitos do produto
 
-Você poderá acessar o espaço de ideação se sua organização e tiver acesso aos seguintes pacotes, dependendo de quando acessar o espaço de ideação:
+É possível acessar o espaço de ideação se sua organização e você tiverem acesso aos seguintes produtos:
+
+* Adobe Workfront com o Workfront Planning
+* Enterprise CX Coworker
+
+  >[!IMPORTANT]
+  >
+  >No momento, o CX Enterprise Coworker não está disponível para organizações nos setores de assistência médica, financeiro ou de alguns outros setores com dados confidenciais. O Assistente de IA está disponível para essas organizações, mas o espaço de ideação não está disponível para clientes do Workfront que não têm o CX Coworker.
+
+Dependendo do acesso ao espaço de ideação, é necessário ter acesso aos seguintes pacotes:
 
 * Durante a versão do Open Beta, você deve ter o seguinte:
 
@@ -68,13 +79,13 @@ Você poderá acessar o espaço de ideação se sua organização e tiver acesso
 
 >[!NOTE]
 >
->O espaço de ideação só pode ser acessado no Menu principal do Adobe Workfront ou no Workfront Planning. Não é necessário um logon separado para acessar o espaço de ideação. Ela estará disponível imediatamente se você puder fazer logon no Workfront.
+>O espaço de ideação só pode ser acessado no Menu principal do Workfront ou no Workfront Planning. Não é necessário um logon separado para acessar o espaço de ideação. Ela estará disponível imediatamente se você puder fazer logon no Workfront.
+
+Para obter mais informações sobre o acesso necessário para usar o espaço de ideação, consulte [Acesso necessário para usar o espaço de ideação](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
-
-Para obter mais informações sobre o acesso necessário para usar o espaço de ideação, consulte [Acesso necessário para usar o espaço de ideação](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
 <!--
 No longer required or recommended, per Et:
@@ -120,20 +131,6 @@ Veja a seguir casos de uso para saber como usar o Espaço de ideação:
   * Por exemplo, você pode criar uma campanha ao iniciar um novo produto, segmento ou iniciativa sem um histórico de campanha direto.
   * Isso produz um resumo novo por meio da ideação guiada, uma combinação de canais recomendada e o conceito inicial ou as direções da mensagem.
 
-## Obter acesso ao espaço de ideação
-
-Para obter acesso ao espaço de ideação, você pode fazer o seguinte:
-
-1. Verifique se você atende aos requisitos do produto conforme descrito na seção [Requisitos do produto](#product-requirements) deste artigo.
-1. Entre em contato com seu representante de conta da Adobe para expressar interesse em participar da Beta fechada ou ingressar na lista de espera da Open Beta.
-1. Identifique a primeira campanha: uma recente para atualizar ou uma nova iniciativa para criar do zero.
-
-Para obter mais informações sobre como usar o espaço de ideação, consulte também os seguintes artigos:
-
-* [Acesso necessário para usar o espaço de ideação](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [Criar registros do Planning a partir de resumos de espaço de ideação](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [Criar resumos no espaço de ideação](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
 ## Visão geral do espaço de ideação
 
 O espaço de ideação é uma ferramenta colaborativa de ideação de marketing estratégica para profissionais de marketing de marca e produto que criam campanhas mais robustas com mais rapidez e melhor alinhamento de equipes. Ele fundamenta as sugestões de IA em um contexto de marketing real — resumos passados, dados de desempenho, insights de público-alvo, diretrizes da marca e ativos de campanha existentes — de modo que os resultados são relevantes, não genéricos.
@@ -155,9 +152,49 @@ A seguir estão alguns exemplos de como aproveitar ao máximo sua ideação ao c
   * **Verifique antes de finalizar**. As respostas geradas por IA podem ser imprecisas, portanto, sempre verifique **Fontes** em um cartão e confirme em relação às fontes vinculadas antes de finalizar um registro.
   * **Misture cartões de IA com registros reais**. Arraste e solte registros reais no espaço de ideação.
 
-## Espaço de ideação disponível no Adobe CX Enterprise Coworker
+## Obter acesso ao espaço de ideação
 
-O espaço de ideação também é compatível com um modo conversacional, de ida e volta por meio do CX Enterprise Coworker da Adobe.
+Para obter acesso ao espaço de ideação:
+
+1. Verifique se você atende aos requisitos do produto conforme descrito na seção [Requisitos do produto](#product-requirements) deste artigo.
+1. Entre em contato com seu representante de conta da Adobe para expressar interesse em participar do Closed Beta ou associar-se ao Open Beta, quando ele estiver disponível.
+1. (Recomendado) Identifique a primeira campanha: uma recente para atualizar ou uma nova iniciativa para criar do zero.
+
+Para obter mais informações sobre como usar o espaço de ideação, consulte também os seguintes artigos:
+
+* [Acesso necessário para usar o espaço de ideação](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+* [Criar registros do Planning a partir de resumos de espaço de ideação](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* [Criar resumos no espaço de ideação](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+
+## Localize o espaço de ideação
+
+Depois de garantir o acesso aos produtos, pacotes e sistema adequados e ao nível de acesso configurado, é possível localizar o espaço de ideação nas seguintes áreas do Workfront:
+
+* Ao adicionar manualmente um novo registro no Workfront Planning
+
+  ![Espaço de ideação em planejamento](assets/ideation-space-in-planning-new-record.png)
+* No menu principal do Workfront, abrindo a área Espaço de ideação
+
+  ![Área do espaço de ideação no menu principal](assets/ideation-space-area-icon-in-main-menu.png)
+
+  >[!TIP]
+  >
+  >Não é possível remover a área Espaço de ideação do menu Principal usando um modelo de layout. Se quiser que os usuários não tenham acesso ao espaço de ideação, ative a configuração Desativar espaço de ideação no nível de acesso, conforme descrito no [Acesso necessário para usar O espaço de ideação](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+
+## Objetos gerados pelo espaço de ideação
+
+Você pode usar o espaço de ideação para debater e formular ideias que poderão ser convertidas posteriormente em itens importantes para o seu fluxo de trabalho.
+
+O espaço de ideação pega todas as suas ideias e informações de fontes internas ou externas (Web) e cria um resumo. Depois de decidir que o resumo está concluído, você pode exportá-lo para os seguintes arquivos ou objetos:
+
+* Um dos seguintes formatos de arquivo: PDF, Word, PowerPoint, modelo do PowerPoint
+* Um registro do Planning
+
+  É possível exportar um resumo para um registro de Planejamento somente quando você acessa o espaço de Ideação do Workfront Planning ou quando você conecta anteriormente um registro de Planejamento a um resumo de Ideação.
+
+## Espaço de ideação e a Adobe CX Enterprise Coworker
+
+O espaço de ideação usa o CX Enterprise Coworker do Adobe como sua interface de prompt.
 
 Os usuários podem fazer perguntas de acompanhamento e refinar um breve diálogo em vez de obter um único resultado instantâneo.
 
@@ -200,10 +237,10 @@ Worth noting
 
 ## Recursos adicionais
 
-* [Planejamento de campanha do Adobe Workfront](https://business.adobe.com/br/products/workfront/campaign-planning.html)
+* [Planejamento de campanha do Adobe Workfront](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Documentação de planejamento do Adobe Workfront](/help/quicksilver/planning/planning-information.md)
-* [Visão geral do Adobe GenStudio](https://business.adobe.com/br/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/br/products/adobe-analytics/customer-journey-analytics.html)
+* [Visão geral do Adobe GenStudio](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

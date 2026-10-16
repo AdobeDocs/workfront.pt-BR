@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Para pesquisar no Workfront itens que correspondam ao que você está procurando
 * *Receba todas as tarefas atribuídas a Joan Harris.*
 * *Mostre-me todos os problemas no projeto &quot;Redesign de Site&quot; na categoria &quot;Técnico&quot;.*
 
-### Criar novos itens
+### Criar itens
 
 Para criar projetos, tarefas ou outros itens do Workfront, pergunte:
 
@@ -134,9 +134,14 @@ Para gerenciar aprovações de documentos e ativos, peça:
 
 Para gerenciar registros de planejamento, pergunte:
 
-* *Crie um novo registro de planejamento chamado &quot;Plano de marketing do segundo trimestre&quot; para a equipe de marketing da marca.*
-* *Adicione uma nova tarefa chamada &quot;Auditoria de Mídia Social&quot; ao registro de planejamento.*
-* *Atualize a tarefa &quot;Auditoria de mídia social&quot; para que seja concluída em 18 de abril e atribua-a à equipe criativa.*
+* *Crie um registro de planejamento chamado &quot;Plano de marketing do segundo trimestre&quot; para a equipe de marketing da marca.*
+* *Adicione um novo projeto chamado &quot;Auditoria de Mídia Social&quot; ao registro de planejamento.*
+* *Atualize o projeto &quot;Auditoria de mídia social&quot; para que ele termine em 18 de abril e atribua suas tarefas à equipe do Creative.*
+<!--
+* *Create / update / fix a business rule*
+* *Add a validation rule to a business rule*
+* *List the business rules on record type "X"*
+-->
 
 ### Trabalhar com fluxo de trabalho
 
@@ -261,31 +266,22 @@ you undo an action, you can't undo it through the AI agentic platform either.
 
 ### Por que a plataforma de agente de IA retornou os itens incorretos do Workfront?
 
-A plataforma de agente IA escolhe itens com base nas palavras usadas. Se o seu
-for ambígua — por exemplo, dois projetos têm nomes semelhantes — ela
-pode escolher a errada. Pergunte novamente com nomes, IDs, datas e endereços mais específicos
-ou filtros para restringir os resultados.
+A plataforma de agente IA escolhe itens com base nas palavras usadas. Se a sua solicitação for ambígua (por exemplo, dois projetos têm nomes semelhantes), ela pode escolher o errado. Pergunte novamente com nomes, IDs, datas ou filtros mais específicos para restringir os resultados.
 
 
 ### Com quais itens do Workfront posso trabalhar por meio de uma plataforma de agente de IA?
 
-Todos os itens aos quais você tem acesso no Workfront por meio do seu nível de acesso e
-permissões de objeto. Isso inclui projetos, tarefas, problemas, documentos,
-aprovações, registros do Planning e muito mais.
+Todos os itens aos quais você tem acesso no Workfront por meio do seu nível de acesso e permissões de objeto. Isso inclui projetos, tarefas, problemas, documentos, aprovações, registros de Planejamento e muito mais.
 
 ### Outras pessoas podem ver minhas conversas com a plataforma de agente de IA?
 
 A Workfront não armazena seus prompts nem as respostas da plataforma de agente de IA.
-Quem quer que forneça sua plataforma de agente de IA controla como suas conversas
-são armazenados ou compartilhados. Consulte seu provedor de plataforma de IA para obter
-detalhes.
+Quem fornecer sua plataforma de agente de IA controla como suas conversas são armazenadas ou compartilhadas. Consulte seu provedor de plataforma de IA para obter detalhes.
 
 ### Preciso saber a API do Workfront ou qual ferramenta de MCP usar?
 
-Não. A plataforma de agente de IA traduz sua solicitação em linguagem natural para
-as ações certas do Workfront e escolhe as ferramentas certas para você. Se você estiver
-já familiarizadas com a API do Workfront, as ações se sentirão familiares,
-mas não é um requisito.
+Não. A plataforma de agente de IA traduz sua solicitação em linguagem natural para as ações certas do Workfront e escolhe as ferramentas certas para você. Se você estiver
+já familiarizado com a API do Workfront, as ações se sentirão familiares, mas não é um requisito.
 
 ### Meus dados do Workfront são enviados ao provedor de plataforma do agente de IA ou armazenados por ele?
 

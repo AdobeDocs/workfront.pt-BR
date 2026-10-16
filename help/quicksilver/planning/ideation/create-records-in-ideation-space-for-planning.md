@@ -1,5 +1,5 @@
 ---
-title: Criar registros de planejamento a partir de resumos do espaço de ideação
+title: Criar ou editar registros de planejamento a partir de resumos do espaço de ideação
 description: Usando o Espaço de ideação, um novo recurso do Adobe Workfront Planning, você pode transformar resumos em registros do Planning. Os resumos exportados criam novos registros ou atualizam os existentes. Este artigo descreve como criar ou editar registros existentes do Planning usando o espaço Ideação.
 role: User, Admin
 author: Alina
@@ -11,13 +11,13 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 0%
 ---
 
-# Criar registros do Planning a partir de resumos de espaço de ideação
+# Criar ou editar registros do Planning a partir de resumos de espaço de ideação
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
@@ -64,8 +64,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
-Ou
-<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
+<!--
+Not available for beta:
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -108,7 +112,7 @@ Ou
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -120,13 +124,13 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++   
 
-## Considerações sobre o uso do espaço de ideação para criar registros
+## Considerações sobre o uso do espaço de ideação para criar ou editar registros do Planning
 
-* Você só pode iniciar o espaço de ideação no Workfront Planning ou no Menu principal do Workfront, à medida que cria ou edita registros. O espaço de ideação não existe fora do Workfront.
-* Para acessar o espaço Ideação, você deve ter um espaço de trabalho e um tipo de registro no Workfront Planning.
+* Você deve iniciar o espaço de ideação no Workfront Planning para poder criar ou editar um registro do Planning. Acessar o espaço de ideação no menu Principal do Workfront não conecta um resumo de ideação a um registro do Planning.
+* Para usar o espaço de ideação para criar ou editar registros, você deve ter um espaço de trabalho e um tipo de registro no Workfront Planning.
 * Os novos registros sempre começam com conteúdo de espaço reservado, independentemente de como você os cria.
-* Quando você exclui um registro de Planejamento vinculado a um resumo de ideação, o resumo permanece no espaço de ideação e sua tela associada no espaço de ideação não é excluída.
-* A sincronização de informações ocorre somente a partir do espaço Ideação para o Workfront Planning. Não há sincronização reversa ou automática de um registro de Planejamento para o resumo do espaço de ideação.
+* Quando você exclui um registro de Planejamento vinculado a um resumo de ideação, o resumo permanece no espaço de ideação e seu espaço associado não é excluído.
+* A sincronização de informações ocorre somente a partir do espaço Ideação para o Workfront Planning. Não há sincronização reversa ou automática de um registro de Planejamento para o resumo do espaço de ideação. <!--this might change?-->
 * Os cenários a seguir existem quando os campos são criados, editados ou removidos no Workfront Planning:
 
   * Novos campos criados em registros vinculados aos resumos de ideação são adicionados diariamente ao resumo. Os novos campos aparecem vazios no resumo da ideação.
@@ -134,7 +138,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
   * Campos renomeados atualizam seus nomes no resumo.
 * Você pode adicionar documentos como cartões no espaço de ideação. Isso também inclui imagens.
 
-  Os seguintes tipos de arquivos são compatíveis: PDF, Excel, CSV, PNG (e outros formatos de imagem), Word, PowerPoint. Vídeos não são compatíveis.
+  Você pode adicionar os seguintes tipos de arquivos: PDF, Excel, CSV, PNG (e outros formatos de imagem), Word, PowerPoint. Vídeos não são compatíveis.
 
   Todos os documentos carregados são convertidos para o PDF no back-end para processamento.
 * Você pode arrastar e soltar registros diretamente do Workfront Planning no espaço e eles aparecem da mesma forma que os arquivos carregados manualmente.
@@ -201,7 +205,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    Isso finaliza a criação do registro com as informações adicionais e o adiciona ao tipo de registro selecionado originalmente.
 
-## Editar registros existentes no espaço de ideação
+## Editar registros existentes usando o espaço de ideação
 
 É possível abrir o espaço de ideação a partir de registros existentes para atualizá-los.
 
