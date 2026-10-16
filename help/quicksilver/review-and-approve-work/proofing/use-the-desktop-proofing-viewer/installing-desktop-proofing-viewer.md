@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d4fb6d9113cf01ba92abf627fc64e4c10c9f2302
+source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 7%
+source-wordcount: '574'
+ht-degree: 8%
 ---
 # Instalar o visualizador de provas para desktop
 
@@ -79,7 +79,7 @@ Se esse não for o caso, você pode seguir as etapas abaixo.
 1. Siga um destes procedimentos para baixar o aplicativo:
 
    * Se você estiver usando o ambiente de Produção, clique em [Download de Produção do Mac para o Visualizador de Revisão de Texto para Desktop.](https://app.proofhq.com/desktopviewer/mac)
-   * Se você estiver usando o ambiente de Visualização, clique em [Download da Visualização do Mac para o Visualizador de Revisão de Texto para Desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
+   * Se você estiver usando o ambiente de Visualização, clique em [Download da Visualização do Mac para o Visualizador de Revisão de Texto para Desktop.](https://app.preview.proofhq.com/desktopviewer/mac)
 
 1. Abra o arquivo que acabou de baixar para iniciar a instalação.
 1. Na caixa de instalação exibida, clique em **Continuar** e em **Instalar**.
