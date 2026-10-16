@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2235'
 ht-degree: 3%
 ---
 # Noções básicas da API do Planejamento do Adobe Workfront
@@ -67,9 +67,7 @@ Dependendo do seu tipo de integração, oferecemos suporte aos dois fluxos a seg
 
 Para começar, crie um projeto no Adobe Developer Console e adicione a API do Workfront Planning para obter suas credenciais.
 
-Para configurar credenciais, crie um aplicativo OAuth2 no Workfront.
-
-Para obter informações, consulte [Criar aplicativos OAuth2 para integrações do Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+Para obter orientações sobre autenticação, consulte [visão geral sobre autenticação do Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
 >[!NOTE]
 >
@@ -458,7 +456,7 @@ Para obter mais documentação relacionada à API, consulte também os seguintes
 * Documentação e referência do desenvolvedor da [API do Workfront Planning](https://developer.adobe.com/wf-planning)
 * [Introdução ao Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md)
 * [Visão geral de acesso do Planejamento do Adobe Workfront](/help/quicksilver/planning/access/access-overview.md)
-* [Criar aplicativos OAuth2 para integrações do Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+* [Visão geral da autenticação do Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/)
 
 <!--
 
