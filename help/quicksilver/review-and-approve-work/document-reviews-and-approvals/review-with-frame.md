@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 7%
+source-wordcount: '903'
+ht-degree: 5%
 ---
 # Revisar e aprovar com o visualizador Frame.io
 
@@ -84,6 +84,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 * Você deve ter a integração do Workfront e do Frame.io configurada na instância do Workfront. Para obter mais informações, consulte [Visão geral de revisão e aprovação unificada](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 * Para revisar um documento de link da Web, você precisa ter a [extensão do Chrome Frame.io](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) instalada. Se não estiver instalado, você será solicitado a baixá-lo na primeira vez que abrir o visualizador Frame.io para um documento de link da Web no Workfront.
 
+
 ## Revisar um documento
 
 Como revisor, você pode adicionar comentários e marcar ativos. Depois de concluído, você pode marcar sua revisão como concluída no Workfront. Não é necessário marcar a revisão como concluída para que o ativo possa avançar no processo de aprovação.
@@ -135,3 +136,28 @@ Vá para a página inicial do Workfront, localize o widget Minhas aprovações e
    Para obter mais informações sobre decisões no Workfront, consulte [Visão geral do status da decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
    ![Visualizador e decisão de quadros](assets/make-decision-frame.png)
+
+## Revisar um link da Web
+
+Se o documento for um URL ativo da Web, você poderá revisar a página no visualizador Frame.io e deixar feedback diretamente na página.
+
+1. Vá para a notificação por email de revisão e clique em **Ir para revisão**.
+ou
+Vá para a página inicial do Workfront, localize o widget Minhas aprovações e clique em **Abrir revisão**.
+
+   >[!NOTE]
+   > 
+   >Talvez seja necessário adicionar o widget Minhas aprovações à página inicial. Para obter mais informações, consulte [Adicionar, editar ou remover widgets na Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
+1. No Frame.io, abra o documento de link da Web. Se solicitado, instale a [extensão do Chrome Frame.io](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) para que você possa exibir a página, capture um estado atual da URL.
+
+1. Use o visualizador para adicionar comentários, anotações e muito mais diretamente na página.
+
+1. Quando terminar de revisar o documento do link da Web, você poderá escolher uma das seguintes decisões no visualizador Frame.io:
+
+   * **Aprovar**: o ativo não precisa de alterações e está pronto para uso.
+   * **Precisa do trabalho**: o ativo precisa de alterações e não está pronto para uso. Depois que as alterações especificadas forem feitas, o ativo deverá ser carregado como uma nova versão e passar por outra rodada de aprovações. Para obter mais informações, consulte [Carregar uma nova versão do documento e solicitar uma aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md). <!--do they need to tell someone it was uploaded via comment tagging?-->
+
+   Depois de tomar uma decisão, o proprietário do documento é notificado por email.
+
+Para obter instruções detalhadas sobre como visualizar e revisar URLs da Web em tempo real, incluindo URLs com suporte, requisitos de extensão do navegador e opções de comentários, consulte [HTML review for Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
