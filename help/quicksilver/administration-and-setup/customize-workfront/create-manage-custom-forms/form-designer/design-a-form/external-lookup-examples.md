@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 4%
@@ -246,4 +246,3 @@ Exemplo de URL da API base para modelos, para substituir um campo de digitação
 
 **Caso de uso:** Integração com objetos fora do Workfront. Por exemplo, acessar outro sistema para obter o nome de cada usuário, em vez de ser restrito em um campo de digitação antecipada.
 **Solução:** automação do Webhook/Fusion para conexão com outros sistemas.
-

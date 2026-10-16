@@ -9,24 +9,30 @@ exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
 TQID: https://experienceleague.adobe.com/6ngmKzkpxxHYM7L9Z16JsJKcEW7CdFjJcdp6B6hgTtc
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: 1071
-ht-degree: 5%
-
+source-wordcount: '1048'
+ht-degree: 7%
 ---
-
 # Criar uma folha de horas de uso único
 
 <!--Audited: 6/2025-->
@@ -77,34 +83,29 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 {{step1-to-timesheets}}
 
-O filtro **Todos** é selecionado por padrão. Isso exibe todas as planilhas de horas que você tem acesso para visualizar.
+Todas as planilhas de horas que você tem acesso para visualizar são exibidas por padrão.
 
-![Lista de planilhas de horas com uma planilha de horas selecionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista de planilhas de horas](assets/list-of-all-timesheets.png)
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
-   * Selecione **Minhas planilhas de horas aprovadas** no canto superior direito da página para exibir somente as planilhas de horas aprovadas por você
+   * Selecione **Minhas planilhas de horas aprovadas** no canto superior direito da página para exibir somente as planilhas de horas aprovadas por você,
 
      Ou
 
      Selecione **Minhas Planilhas de Horas** para exibir apenas suas planilhas de horas.
 
-     Isso aplica os filtros Minhas planilhas de horas ou Minha planilha de horas à lista de planilhas de horas.
+     Isso aplica os filtros **Minhas Aprovações de Planilha de Horas** ou **Minha Planilha de Horas** à lista de planilhas de horas.
 
-     ![Botões de filtro de Minhas Planilhas de Horas na página de lista Planilhas de Horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-nwepng.png) para aplicar um filtro ou criar um novo filtro. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >As opções Minhas aprovações de folha de horas e Minhas folhas de horas não são exibidas na parte superior da lista de folha de horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu os filtros Minhas aprovações de folha de horas e Minhas folhas de horas dos Controles de lista na área Configuração ou do Modelo de layout. Para obter mais informações, consulte os seguintes artigos:
-   > 
-   >   * [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-
+   >As opções Minhas aprovações de folha de horas e Minhas folhas de horas não são exibidas na parte superior da lista de folha de horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu os filtros Minhas aprovações de folha de horas e Minhas folhas de horas dos Controles de lista na área Configuração ou do Modelo de layout. Para obter mais informações, consulte [Personalizar Filtros, Exibições e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Opcional) Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) para digitar uma palavra-chave e procurar uma folha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de planilha de horas do nome do proprietário.
 
-1. (Opcional) Clique nos ícones **Exibir** ![Exibir](assets/view-icon.png) ou **Agrupamento** ![Agrupamento](assets/grouping.png) para aplicar um modo de exibição ou agrupamento diferente ou para criar um novo.
+1. (Opcional) Clique nos ícones **Exibir** ![Exibir](assets/view-icon.png) ou **Agrupamento** ![Agrupamento](assets/grouping.png) para aplicar um modo de exibição ou agrupamento ou para criar um novo.
 
    Para obter informações sobre como criar filtros, visualizações ou agrupamentos, consulte os seguintes artigos:
 
@@ -114,65 +115,18 @@ O filtro **Todos** é selecionado por padrão. Isso exibe todas as planilhas de 
 
 1. Clique em **Nova Planilha de Horas** na parte superior da lista de planilhas de horas.
 
-   Especifique as seguintes informações:
+   Insira a seguinte informação:
 
-   <table style="table-layout:auto"> 
-      <col> 
-      <col> 
-      <tbody> 
-      <tr> 
-      <td role="rowheader"><strong>Criar planilha de horas para</strong> </td> 
-      <td>Comece a inserir o nome do usuário, uma função de trabalho ou uma equipe para a qual você está criando a folha de horas e clique neles quando eles forem exibidos na lista.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Data de Início</strong> </td> 
-      <td>Esta é a data de início da folha de horas.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Data de término</strong> </td> 
-      <td> Esta é a data de término da folha de horas.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Aprovadores</strong> </td> 
-      <td>Os aprovadores são usuários que aprovam a folha de horas para os usuários associados à folha de horas. Somente usuários com direitos administrativos de planilha de horas podem ser definidos como aprovadores. Para obter mais informações sobre direitos administrativos de planilha de horas, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.<br>Comece a inserir os nomes dos aprovadores de planilhas de horas e clique neles quando eles aparecerem na lista.<br>Você pode ter vários aprovadores em uma planilha de horas. Nesse caso, depois que um dos aprovadores aprovar a folha de horas, ela será marcada como <strong>Fechada</strong> e desaparecerá da lista de aprovações da folha de horas de todos os aprovadores restantes.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Pode editar as horas</strong> </td>
-
-   <td> <p>Selecione esta opção se quiser permitir que os aprovadores editem horas na folha de horas.</p>
-
-   Esta opção funciona junto com a configuração **Restringir edição da folha de horas a proprietários e administradores** na área Configuração > Folhas de horas e horas > Preferências. Para obter mais informações, consulte <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurar preferências de horas e folha de horas</a>.
-
-   Existem os seguintes cenários:
-
-   <ul>
-      <li>Quando a opção <b>Restringir edição da folha de horas a proprietários e administradores</b> está habilitada:</li>
-   <ul><li>Os aprovadores só podem aprovar e rejeitar a folha de horas, independentemente de o <b>Pode editar as horas</b> estar habilitado ou não. </li>
-   <li>Os gerentes dos proprietários da folha de horas só podem exibir as folhas de horas de seus subordinados diretos.</li></ul>
-   <li>Quando a opção <b>Restringir edição da folha de horas a proprietários e administradores</b> está desabilitada:</li>
-   <ul><li>Quando a <b>Pode editar as horas</b> estiver habilitada, os aprovadores poderão enviar, reabrir ou fechar a folha de horas e editar as horas.</li>
-   <li>Quando a <b>Pode editar as horas</b> está desabilitada, os aprovadores não podem enviar, reabrir ou fechar a folha de horas e não podem editar as horas. Os aprovadores só podem aprovar ou rejeitar a folha de horas. </li>
-   <li>Os gerentes dos proprietários da folha de horas podem enviar, retroceder, reabrir e editar as folhas de horas de seus subordinados diretos.</li></ul>
-   </ul>
-
-   <p><b>Nota</b>
-
-   Depois que você enviar uma folha de horas para aprovação, não poderá mais editar as horas. Para retornar uma folha de horas enviada a um estado editável, cancele a folha de horas ou peça ao aprovador para rejeitar a folha de horas. Para obter mais informações, consulte <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Enviar uma folha de horas para aprovação</a> e <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Aprovar uma folha de horas</a>.</p> </p>
-
-   </td> 
-      </tr>
-
-   <tr>
-
-   <td role="rowheader"><span style="font-weight: bold;">Hora extra</span> </td> 
-      <td>Você pode optar por ocultar a caixa Horas extras na folha de horas. Essa opção está desabilitada por padrão.</td> 
-      </tr> 
-      </tbody> 
-   </table>
+   | Nome do Campo | Descrição |
+   | --------- | ---------- |
+   | Criar planilha de horas para | Comece a inserir o nome do usuário, uma função de trabalho ou uma equipe para a qual você está criando a folha de horas e clique neles quando eles forem exibidos na lista. |
+   | Data de início | Esta é a data de início da folha de horas. |
+   | Data final | Esta é a data de término da folha de horas. |
+   | Aprovadores | <p>Os aprovadores são usuários que aprovam a folha de horas para os usuários associados à folha de horas. Somente usuários com direitos administrativos de planilha de horas podem ser definidos como aprovadores. Para obter mais informações sobre direitos administrativos de planilha de horas, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).</p> <p>Comece a inserir os nomes dos aprovadores de folha de horas e selecione-os quando eles aparecerem na lista.</p> <p>Você pode ter múltiplos aprovadores em uma planilha de horas. Nesse caso, depois que um dos aprovadores aprovar a folha de horas, ela será marcada como **Fechada** e desaparecerá da lista de aprovações da folha de horas de todos os aprovadores restantes.</p> |
+   | Pode editar as horas | <p>Selecione esta opção se quiser permitir que os aprovadores editem horas na folha de horas.</p><p>Esta opção funciona junto com a configuração **Restringir edição da folha de horas a proprietários e administradores** na área Configuração > Folhas de horas e horas > Preferências. Para obter mais informações, consulte [Configurar preferências de horas e folha de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).</p><p>Existem os seguintes cenários:</p><p>Quando a opção **Restringir edição da folha de horas a proprietários e administradores** está habilitada:</p><ul><li>Os aprovadores só podem aprovar e rejeitar a folha de horas, independentemente de **Poder editar as horas** estar habilitada ou não.</li><li>Os gerentes dos proprietários da folha de horas só podem exibir as folhas de horas de seus subordinados diretos.</li></ul><p>Quando a opção **Restringir edição da folha de horas a proprietários e administradores** está desabilitada:</p><ul><li>Quando **Pode editar as horas** estiver habilitado, os aprovadores poderão enviar, reabrir ou fechar a folha de horas e editar as horas.</li><li>Quando a opção **Pode editar as horas** está desabilitada, os aprovadores não podem enviar, reabrir ou fechar a folha de horas e não podem editar as horas. Os aprovadores só podem aprovar ou rejeitar a folha de horas.</li><li>Os gerentes dos proprietários da folha de horas podem enviar, retroceder, reabrir e editar as folhas de horas de seus subordinados diretos.</li></ul><p>**OBSERVAÇÃO**</br> Depois que você enviar uma folha de horas para aprovação, não poderá mais editar as horas. Para retornar uma folha de horas enviada a um estado editável, cancele a folha de horas ou peça ao aprovador para rejeitar a folha de horas. Para obter mais informações, consulte [Enviar uma folha de horas para aprovação](/help/quicksilver/timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) e [Aprovar uma folha de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/timesheet-approvals.md). |
+   | Hora extra | Você pode optar por ocultar a caixa **Horas extras** na folha de horas. Essa opção está desabilitada por padrão. |
 
 1. Clique em **Criar planilha de horas**.
-
-<!--the content in the table above will need to match the content in the Create timesheet profiles article-->
 
 ## Quando tarefas e problemas aparecem na planilha de horas dos usuários
 
