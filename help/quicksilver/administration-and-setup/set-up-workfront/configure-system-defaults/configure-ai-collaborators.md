@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1348'
 ht-degree: 2%
 ---
 # Configurar colaboradores de IA
@@ -160,7 +160,7 @@ Para obter uma lista de práticas recomendadas ao criar um agente para trabalhar
 1. No **Depois que o Colaborador terminar o trabalho, ele poderá** alternar a área e as ações que você deseja que o colaborador execute.
 
    * <span class="preview">Enviar notificação: o Agente faz um comentário no fluxo de atualização, marcando o usuário que solicitou o trabalho, atribuiu o Agente ou que é proprietário do projeto. </span>
-   * <span class="preview">Carregar um documento</span>
+   * <span class="preview">Carregar documentos baseados em texto</span>
    * <span class="preview">Marcar tarefa como concluída</span>
    * Gravar campos de tarefa: selecione os formulários e campos nos quais o Agente pode gravar.
 
