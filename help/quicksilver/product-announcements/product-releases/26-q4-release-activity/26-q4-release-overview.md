@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
+source-git-commit: 50078481f5318fd1fe1b79548ccd0f9385848c9a
 workflow-type: tm+mt
-source-wordcount: '3584'
+source-wordcount: '3579'
 ht-degree: 7%
 ---
 # Visão geral da versão do quarto trimestre de 2026
@@ -24,7 +24,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Quarto trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -382,12 +382,12 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 -->        
          <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Agrupar vários documentos em um único fluxo de trabalho de aprovação</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Agrupar vários documentos em um único fluxo de trabalho de aprovação</a>
                 <p>Agora é possível agrupar vários documentos em um único fluxo de trabalho de aprovação, para que eles percorram os mesmos estágios juntos.</p>
             </td>
             <td><p>Esse recurso não está disponível no ambiente Visualização da sandbox porque a integração Frame.io não está disponível lá.</p></td>
-            <td><p>15 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -914,7 +914,7 @@ Se você for um administrador da Workfront com usuários de leitores de Data Con
 
 Essa alteração foi anunciada pela primeira vez nas notas de versão de abril de 2026 do Workfront e este é o lembrete final antes do prazo. Certifique-se de que todos os usuários de leitores afetados ativem o MFA antes de 8 de agosto de 2026 para evitar a interrupção de seu acesso.
 
-Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/pt-br/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Atualizações de treinamento
 
