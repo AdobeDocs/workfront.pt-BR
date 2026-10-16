@@ -1,6 +1,6 @@
 ---
 title: Compartilhar um espaço de ideação com outros
-description: O Adobe Workfront Planning agora oferece um recurso adicional para identificar antes de você iniciar suas campanhas. Aproveite o potencial da IA para criar e colaborar com ideias antes que elas se tornem registros de planejamento.
+description: O Adobe Workfront Planning agora oferece um recurso adicional para identificar antes de você iniciar suas campanhas. Você pode compartilhar o espaço de ideação e seu respectivo resumo com outros usuários para melhor colaboração.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '591'
 ht-degree: 2%
 ---
 
@@ -39,15 +39,19 @@ ht-degree: 2%
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-As permissões de registro do Workfront Planning são transferidas para o espaço de ideação de um registro.
+Você pode usar o Espaço de ideação do Adobe Workfront para criar resumos para suas campanhas e outros tipos de registros antes de lançá-los. Isso convida outras pessoas a fazer um brainstorming e coletar informações para criar colaborativamente o resumo antes de lançar seu trabalho.
 
-Além disso, você pode conceder permissões a outros usuários para usar o espaço de ideação e adicionar ideias a ele.
+Você pode compartilhar o espaço de ideação e seu respectivo resumo com outros usuários para melhor colaboração.
 
 Considere o seguinte:
 
+* As permissões de registro do Workfront Planning são transferidas para o espaço de ideação de um registro.
+
+* Além disso, você pode conceder permissões a outros usuários para usar o espaço de ideação e adicionar ideias a ele.
+
 * Os criadores de ideações sempre têm permissões de Editor em suas próprias ideações.
 
-* Você deve ter permissões de Editor em um espaço de ideação para criar resumos e exportá-los para outros aplicativos.
+* Você deve ter permissões de Editor em um espaço de ideação para criar ou contribuir com resumos e exportá-los para outros aplicativos.
 
 ## Requisitos de acesso
 
@@ -71,8 +75,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
-Ou
-<li><p>Qualquer pacote do Planning quando adquirido como um produto independente</p></li></ul>
+<!--
+Not available right now: 
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -107,7 +115,7 @@ Ou
    <td> <p>Permissões do Contribute ou superior para o espaço de trabalho e tipo de registro ao qual você deseja adicionar registros </p>
       <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
       <p>Exibir permissões para objetos do Workfront para adicioná-los a resumos <!--not sure if this is available--></p>
-      <p>Permissões do editor no espaço de ideação para criar resumos</p>
+      <p>Permissões do editor no espaço de ideação de um resumo para criar resumos</p>
    </td> 
   </tr>  
   <!--
@@ -115,7 +123,7 @@ Ou
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -129,15 +137,12 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 ## Compartilhar um espaço de ideação
 
-1. Acesse o espaço Ideação de um registro de Planejamento.
+1. Acesse o espaço de ideação.
 
-   Para obter informações, consulte um dos seguintes artigos:
+   Para obter informações, consulte [Criar resumos no espaço de ideação](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
-   * [Criar registros do Planning a partir de resumos de espaço de ideação](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-   * [Criar resumos no espaço de ideação](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
-1. Clique em **Compartilhar** no canto superior direito e no ícone **Configurações** ícone ![Configurações](assets/setting-icon.png) no canto superior direito da caixa **Compartilhar documento**.
-1. Na lista Quem tem acesso, escolha uma das seguintes opções:
+1. Clique em **Compartilhar** no canto superior direito e no ícone **Configurações** ícone ![Configurações](assets/setting-icon.png) no canto superior direito da caixa **Compartilhar documento**. <!--should this say "document"?-->
+1. Na lista **Quem tem acesso**, escolha uma das seguintes opções:
 
    * **Somente pessoas convidadas podem acessar**
 

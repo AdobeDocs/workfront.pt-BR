@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1791'
 ht-degree: 2%
 ---
 # Gerenciar o layout da página do registro
@@ -273,6 +273,11 @@ Todas as seções são expandidas por padrão.
    Todas as alterações nas seções e na ordem dos campos são salvas automaticamente.
 
 1. (Opcional) Clique no menu **Exportar** ![ícone Exportar na página de detalhes do registro](assets/export-icon-in-record-details-page.png) para exportar a guia Detalhes para um arquivo do Word ou PDF. Para obter mais informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
+
+   >[!TIP]
+   >
+   >A exportação não está disponível para páginas de detalhes personalizadas nas quais os campos estão ocultos.
+
 
 1. (Opcional) Clique na guia **Conexões** ao lado da guia **Detalhes**. Talvez seja necessário clicar em **Mais** antes da guia **Conexões**.
 
