@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f3b3d154728bbaec422e4786452bac4b9ba9a400
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '513'
 ht-degree: 11%
 ---
 # Criar uma prova de um ativo vinculado do Experience Manager Assets ou do Assets Essentials
@@ -101,7 +101,7 @@ Para criar uma prova:
 
    >[!NOTE]
    >
-   >Se você tiver o **Gerar provas automaticamente ao carregar documentos** habilitado no seu perfil de usuário, o sistema criará automaticamente uma prova simples.
+   >A configuração **Gerar provas automaticamente ao carregar documentos** não se aplica a documentos em pastas vinculadas. Você deve criar provas para esses documentos manualmente.
 
 1. Escolha uma das seguintes opções no menu suspenso:
 
