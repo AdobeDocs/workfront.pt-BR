@@ -11,10 +11,10 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 87fa240bc7d5694d475072b9787dca6f05702c3c
+source-git-commit: 85f0798c7956369e7b3c92a6c777414fa81511b6
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 9%
+source-wordcount: '481'
+ht-degree: 8%
 ---
 # Adicionar um link da Web como um documento
 
@@ -56,13 +56,16 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Adicionar um link da Web como um documento
 
-Você pode fazer upload de uma página da Web html para o Workfront como um link da Web. Depois de adicioná-lo, você pode solicitar aprovação na página da Web ao vivo da mesma maneira que solicita aprovação em um arquivo carregado. Para obter mais informações sobre como o Frame.io processa links da Web, consulte [Links da Web do Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
+Você pode fazer upload de uma página da Web html para o Workfront como um link da Web. Depois de adicioná-lo, você pode solicitar aprovação na página da Web ao vivo da mesma maneira que solicita aprovação em um arquivo carregado. Para obter mais informações sobre como o Frame.io processa links da Web, consulte [HTML Review for Frame.io](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
 
-<!--
+
 >[!IMPORTANT]
 >
->A web page behind single sign-on or a login page can't be displayed for review.
--->
+>* Os URLs são suportados se o site permitir incorporações de iFrame.
+>* URLs da Web privados são suportados, mas determinados fluxos de autenticação podem não funcionar, dependendo da configuração do servidor.
+>* No momento, não há suporte para URLs do Youtube e do Figma.<br>
+>Para obter mais informações, consulte [Que tipos de URLs são suportados no Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported).
+
 
 Para adicionar um link da Web:
 
