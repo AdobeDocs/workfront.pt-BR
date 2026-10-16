@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 868f8c0ad40f66244559a52bd8afd96b92bc3e54
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '519'
 ht-degree: 3%
 ---
 # Visão geral das folhas de horas
@@ -71,19 +71,19 @@ Para acessar uma planilha de horas:
 
 {{step1-to-timesheets}}
 
-Todas as suas folhas de horas, bem como folhas de horas que você tem acesso para exibir por padrão. Para obter informações sobre o layout de folha de horas no Adobe Workfront, consulte [Visão geral do layout de folha de horas](../../timesheets/timesheets/timesheet-layout.md).
+Todas as suas planilhas de horas, bem como as planilhas de horas às quais você tem acesso, são exibidas por padrão. Para obter informações sobre o layout de folha de horas no Adobe Workfront, consulte [Visão geral do layout de folha de horas](../../timesheets/timesheets/timesheet-layout.md).
 
-![Lista de Todas as Planilhas de Horas](assets/all-timesheets-list-nwe-350x68.png)
+![Lista de Todas as Planilhas de Horas](assets/list-of-all-timesheets.png)
 
 1. Clique em uma das seguintes opções no canto superior direito para exibir suas folhas de horas:
 
    * **Minhas Planilhas de Horas** para exibir somente suas planilhas de horas.
 
-   ![Minha lista de Planilhas de Horas](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   <!--![My Timesheets list](assets/my-timesheets-list-various-statuses-nwe-350x60.png)-->
 
    * **Minhas planilhas de horas aprovadas** para exibir somente as planilhas de horas aprovadas por você.
 
-     ![Lista Aprovação de Planilhas de Horas](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+   <!--![Timesheets I Approve list](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)-->
 
 
 1. (Opcional) Atualize a exibição, o filtro e o agrupamento na parte superior da lista de folhas de horas. Para obter mais informações, consulte [Elementos de relatório: filtros, exibições e agrupamentos](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).

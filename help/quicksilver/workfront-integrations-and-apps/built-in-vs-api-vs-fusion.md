@@ -31,10 +31,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 3%
+source-wordcount: '1085'
+ht-degree: 2%
 ---
 # Métodos de integração do Adobe Workfront
 
@@ -81,7 +81,11 @@ As vantagens de criar um aplicativo [!UICONTROL OAuth2] podem incluir o seguinte
 * Configurar ou usar um aplicativo [!UICONTROL OAuth2] não requer conhecimento técnico adicional, como familiaridade com a API [!DNL Workfront].
 * Sua organização pode usar um software que não é oferecido como um aplicativo interno do [!DNL Workfront]. Você ainda pode integrar este software com o [!DNL Workfront] usando um aplicativo do [!UICONTROL OAuth2], mesmo que o software seja proprietário da sua organização.
 
-Para obter mais informações, consulte [Criar aplicativos OAuth2 para integrações do Workfront](../administration-and-setup/configure-integrations/create-oauth-application.md).
+Os aplicativos OAuth2 personalizados do Workfront estão sendo removidos. Não será mais possível criar novos aplicativos OAuth2 personalizados depois de 1° de novembro de 2026, e os aplicativos OAuth2 personalizados existentes deixarão de funcionar em 1° de fevereiro de 2027.
+
+Para obter informações sobre migração, consulte [Migrar do Workfront OAuth2 para o Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+
+Para obter orientações sobre autenticação para novas integrações, consulte [visão geral sobre autenticação do Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
 ## API do [!DNL Workfront]
 

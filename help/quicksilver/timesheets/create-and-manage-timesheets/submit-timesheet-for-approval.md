@@ -9,24 +9,30 @@ exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: '821'
 ht-degree: 6%
-
 ---
-
 # Enviar uma folha de horas para aprovação
 
 <!--Audited: 8/2024-->
@@ -80,7 +86,7 @@ Para submeter uma planilha de horas para aprovação:
 1. Registrar hora, conforme descrito em [Registrar hora](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Clique em **Enviar para aprovação** para iniciar o processo de aprovação da folha de horas.
 
-   ![Botão Enviar para aprovação](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![Botão Enviar para aprovação](assets/submit-for-approval-button-on-timesheet.png)
 
    O botão **Enviar para aprovação** foi substituído pelos botões **Aprovar**, **Rejeitar** e **Cancelar**. O status da planilha de horas muda para **Enviado**.
 
@@ -103,23 +109,21 @@ Para exibir o status de uma planilha de horas:
 
 {{step1-to-timesheets}}
 
-O filtro **Todos** é selecionado por padrão.
+Todas as planilhas de horas que você tem acesso para visualizar são exibidas por padrão.
 
-![Lista de planilhas de horas com uma planilha de horas selecionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista de planilhas de horas](assets/list-of-all-timesheets.png)
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
-   * Selecione **Minhas planilhas de horas aprovadas** no canto superior direito da página para exibir somente as planilhas de horas aprovadas por você
+   * Selecione **Minhas planilhas de horas aprovadas** no canto superior direito da página para exibir somente as planilhas de horas aprovadas por você,
 
      Ou
 
      Selecione **Minhas Planilhas de Horas** para exibir apenas suas planilhas de horas.
 
-     Isso aplica os filtros Minhas planilhas de horas ou Minha planilha de horas à lista de planilhas de horas.
+     Isso aplica os filtros **Minhas Aprovações de Planilha de Horas** ou **Minha Planilha de Horas** à lista de planilhas de horas.
 
-     ![Botões de filtro de Minhas Planilhas de Horas na página de lista Planilhas de Horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Clique no ícone Filtro ![ícone Filtro](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-nwepng.png) para aplicar um filtro ou criar um novo filtro. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -127,34 +131,14 @@ O filtro **Todos** é selecionado por padrão.
 
 1. (Condicional) Se você selecionou **Minhas Planilhas de Horas**, verifique se a exibição **Padrão** foi aplicada e observe a coluna **Status**.
 
-   As planilhas de horas podem ter os seguintes status:
+   As folhas de horas podem ter os seguintes status:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Abrir</td> 
-      <td> <p>Sua planilha de horas está aberta no momento e você pode registrar horas. </p> <p>Uma folha de horas cancelada é exibida com um status de Aberta. Para obter informações, consulte a seção <a href="#recall-a-timesheet" class="MCXref xref">Cancelar uma folha de horas</a> neste artigo. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Enviado</td> 
-      <td>Você enviou sua planilha de horas para aprovação, mas ela ainda não foi aprovada. Você pode cancelar uma folha de horas enviada para continuar a editá-la. Para obter informações, consulte a seção <a href="#recall-a-timesheet" class="MCXref xref">Cancelar uma folha de horas</a> neste artigo. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Fechado</td> 
-      <td> <p>Existem os seguintes cenários:</p> 
-       <ul> 
-        <li> <p>Se a folha de horas não tiver um aprovador, você salvou seu tempo e a fechou.</p> </li> 
-        <li> <p>Se a planilha de horas tiver um aprovador, você a submeteu para aprovação e ela foi aprovada.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Rejeitado</td> 
-      <td>Você enviou a planilha de horas para aprovação e o aprovador a rejeitou.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   | Status | Descrição |
+   | --------- | ---------- |
+   | Abrir | <p>Sua planilha de horas está aberta no momento e você pode registrar horas.</p><p>Uma folha de horas cancelada é exibida com um status de Aberta. Para obter informações, consulte a seção [Cancelar uma folha de horas](#recall-a-timesheet) neste artigo.</p> |
+   | Enviado | Você enviou sua planilha de horas para aprovação, mas ela ainda não foi aprovada. Você pode cancelar uma folha de horas enviada para continuar a editá-la. Para obter informações, consulte a seção [Cancelar uma folha de horas](#recall-a-timesheet) neste artigo. |
+   | Fechado | <p>Existem os seguintes cenários:</p><ul><li>Se a folha de horas não tiver um aprovador, você salvou seu tempo e a fechou.</li><li>Se a planilha de horas tiver um aprovador, você a submeteu para aprovação e ela foi aprovada.</li></ul> |
+   | Rejeitado | Você enviou a planilha de horas para aprovação e o aprovador a rejeitou. |
 
 ## Cancelar uma planilha de horas {#recall-a-timesheet}
 

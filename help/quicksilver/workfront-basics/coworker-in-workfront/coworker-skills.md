@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 6%
+source-wordcount: '270'
+ht-degree: 5%
 ---
 # Habilidades do Workfront no CX Enterprise Coworker
 
@@ -59,6 +59,9 @@ Essa habilidade consulta e gerencia objetos do Workfront Planning como:
 * Campos
 * Exibições
 * Registros
+<!--
+* Business rules
+-->
 
 ### Gerenciar objetos do Workfront
 
@@ -75,13 +78,12 @@ Essa habilidade cria e atualiza projetos, tarefas, problemas, portfólios e prog
 
 Nome: `query-workfront-data`
 
-Essa habilidade encontra, lista e cria relatórios sobre objetos do Workfront como:
+Esta habilidade encontra, lista e cria relatórios sobre objetos do Workfront. Veja a seguir alguns exemplos desses objetos do Workfront, mas a lista não está completa:
 
 * Projetos
 * Tarefas
 * Problemas
 * Usuários
 * Portfólios
-* e muito mais
 
 
