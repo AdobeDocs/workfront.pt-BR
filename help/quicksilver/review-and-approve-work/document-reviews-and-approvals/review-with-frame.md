@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 8%
+source-wordcount: '668'
+ht-degree: 7%
 ---
 # Revisar e aprovar com o visualizador Frame.io
 
@@ -82,6 +82,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 ## Pré-requisitos
 
 * Você deve ter a integração do Workfront e do Frame.io configurada na instância do Workfront. Para obter mais informações, consulte [Visão geral de revisão e aprovação unificada](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+* Para revisar um documento de link da Web, você precisa ter a [extensão do Chrome Frame.io](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) instalada. Se não estiver instalado, você será solicitado a baixá-lo na primeira vez que abrir o visualizador Frame.io para um documento de link da Web no Workfront.
 
 ## Revisar um documento
 
@@ -117,7 +118,6 @@ Vá para a página inicial do Workfront, localize o widget Minhas aprovações e
    > 
    >Talvez seja necessário adicionar o widget Minhas aprovações à página inicial. Para obter mais informações, consulte [Adicionar, editar ou remover widgets na Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
-
 1. No Frame.io, use as ferramentas de comentários para deixar comentários ou fazer perguntas. Comentários e marcação de ativos estão visíveis somente no visualizador Frame.io. Para obter mais informações sobre como usar o visualizador Frame.io, consulte [Comentários na mídia](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 
    >[!NOTE]
@@ -135,7 +135,3 @@ Vá para a página inicial do Workfront, localize o widget Minhas aprovações e
    Para obter mais informações sobre decisões no Workfront, consulte [Visão geral do status da decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
    ![Visualizador e decisão de quadros](assets/make-decision-frame.png)
-
-
-
-<!--is document owner the correct term?-->
