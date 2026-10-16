@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 3599b27bb1b838ebe7d0a2648e6c67333da83dc8
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 5%
@@ -29,8 +29,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >[!NOTE]
 >
 >Visualização: N/D
->Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 As instâncias do Workfront na Google Cloud Platform (GCP) e no Azure agora podem aceitar o beta aberto dos Painéis do Canvas. Para obter mais informações, consulte [Usar Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
@@ -39,8 +39,8 @@ As instâncias do Workfront na Google Cloud Platform (GCP) e no Azure agora pode
 >[!NOTE]
 >
 >Visualização: N/D
->Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora você pode compartilhar os dados do Workfront Data Connect diretamente com a conta da Snowflake de sua organização registrando uma lista privada. Esse método de conexão usa o recurso de listagem privada da Snowflake para compartilhar dados com segurança entre organizações sem expô-los publicamente, e funciona em regiões e plataformas de hospedagem.
 
@@ -53,8 +53,8 @@ Para obter mais informações, consulte [Registrar uma lista privada para o Work
 >[!NOTE]
 >
 >Visualização: 1 de outubro de 2026
->Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Para facilitar o uso dos Painéis do Canvas, adicionamos ferramentas ao Workfront MCP. Agora, você pode criar e gerenciar Painéis do Canvas por meio do chat, e o painel e os widgets são criados para você usando os dados do Workfront. Isso funciona com clientes MCP como Claude e Cursor.
 
@@ -97,8 +97,8 @@ Para obter mais informações, consulte [Usar Painéis da Tela](/help/quicksilve
 >[!NOTE]
 >
 >Visualização: 1 de outubro de 2026
->Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora é possível copiar um widget para o mesmo painel, para outro painel ao qual você tem acesso de edição ou para um novo painel. Você também pode mover um widget para outro painel ao qual tem acesso de edição ou para um novo painel.
 
@@ -109,8 +109,8 @@ Ao copiar um widget, uma caixa de diálogo agora é aberta, onde você seleciona
 >[!NOTE]
 >
 >Visualização: 1 de outubro de 2026
->Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Ao criar um filtro em um Painel da tela, agora é possível filtrar os relacionamentos de coleção, que são campos vinculados a um grupo de registros relacionados, em vez de a um único registro. Por exemplo, você pode filtrar o status de tarefas pertencentes a um projeto para mostrar uma lista de projetos que têm tarefas no status &quot;Novo&quot;.
 
@@ -124,7 +124,7 @@ Para obter mais informações, consulte [Referência do filtro de relatório par
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora você pode Copiar um Painel da Tela usando a nova ação **Copiar painel**. Essa ação está disponível para qualquer usuário cujo nível de acesso conceda direitos de edição ou criação aos Painéis, mesmo que ele só tenha acesso de visualização ao painel específico que está sendo copiado. Os usuários sem direitos de edição ou criação para Painéis não veem essa ação.
 
@@ -170,7 +170,7 @@ Essa alteração não afeta a forma como os relatórios atuais funcionam.
 >
 >Visualização: 27 de agosto de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 O novo tipo de relatório de tabela dinâmica nos Painéis da tela agrega dados com roll-ups precisos e completos. Você pode criar métricas como contagens, somas e médias diretamente no painel e, em seguida, detalhar os registros subjacentes atrás de qualquer total.
 
@@ -182,7 +182,7 @@ Para obter mais informações, consulte [Criar um relatório de tabela dinâmica
 >
 >Visualização: 13 de agosto de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Os relatórios agendados agora exigem uma data de término para evitar entrega indefinida. Os cronogramas que passarem da data final serão desativados automaticamente.
 
@@ -196,7 +196,7 @@ Para obter mais informações, consulte [Agendar uma entrega automática de rela
 >
 >Visualização: 30 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora é possível adicionar campos de referência nativos a listas e relatórios no Workfront.
 
@@ -211,7 +211,7 @@ Para obter informações sobre como adicionar campos a relatórios, consulte [Cr
 >
 >Visualização: 30 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora você vê as opções selecionadas para seleção múltipla de campos personalizados em uma ordem consistente e previsível em listas e relatórios herdados. A ordem dos campos é determinada pela organização dos campos no formulário personalizado.
 

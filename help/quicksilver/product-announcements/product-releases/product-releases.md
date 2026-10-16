@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: edfbd866e7d385b99aac07c323a84ed66159a168
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 94%
+source-wordcount: '461'
+ht-degree: 93%
 ---
 # Versões do produto
 
@@ -133,6 +133,19 @@ Para obter informações sobre como ajudar sua organização a se adaptar facilm
     <tr>
       <td>Versões do Workfront</td>
       <td>Outras versões de produtos</td>
+    </tr>
+    <tr data-mc-conditions="">
+      <td>
+        <p>Versões em 2027</p>
+        <ul>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão do primeiro trimestre de 2027</a></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><a href="https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Atividade de versões do Adobe Workfront Fusion</a></li>
+        </ul>
+      </td>
     </tr>
     <tr data-mc-conditions="">
       <td>
@@ -280,3 +293,5 @@ Para obter informações sobre como ajudar sua organização a se adaptar facilm
     </tr>
   </tbody>
 </table>
+
+

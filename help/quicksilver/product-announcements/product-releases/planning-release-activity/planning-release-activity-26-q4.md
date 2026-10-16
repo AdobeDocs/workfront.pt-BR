@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 34b3f57d2339d13dd3b331b1c51e2bd0f9333843
 workflow-type: tm+mt
-source-wordcount: '3156'
+source-wordcount: '3259'
 ht-degree: 0%
 ---
 # Atividade da versão do quarto trimestre de 2026 para o Adobe Workfront Planning
@@ -31,13 +31,43 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 
 <!--
 
+## New Status field value and Tracking ID field for Activations records
+
+>[!NOTE]
+>
+>Preview and production: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only for customers with GenStudio for Performance Marketing
+
+GenStudio for Performance Marketing Activations records now include an optional Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. A new "Generating" status choice indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected.
+
+ For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+-->
+
+## Criar e gerenciar regras de negócios com o Colaborador e o servidor MCP do Workfront para o Workfront Planning
+
+>[!NOTE]
+>
+>Visualização: 12 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
+
+Adicionamos habilidades ao Colaborador e ao servidor MCP do Workfront para gerenciar as regras de negócios do Planning.
+
+Agora é possível criar, listar, exibir, atualizar e excluir regras de negócios para tipos de registro usando o Colaborador ou o Workfront MCP. As novas habilidades também ajudam a gerar fórmulas de regras de negócios aceitas pelo mecanismo de fórmula, para que você obtenha menos fórmulas inválidas.
+
+Para obter informações, consulte [Habilidades do Workfront no CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md) ou [Usar o servidor MCP do Adobe Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+
+<!--
+
 ## See the total record count in table views
 
 >[!NOTE]
 >
 >Preview: October 1, 2026
 >Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
 
@@ -53,7 +83,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >Visualização: 1 de outubro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Os operadores de filtro de vários valores em todas as exibições do Planning foram atualizados para &quot;É qualquer um de&quot; e &quot;É nenhum de&quot; em vez de &quot;Tem qualquer um de&quot; e &quot;Não tem nenhum de&quot;, fornecendo uma redação mais clara e consistente nos construtores de filtros do Workfront.
 
@@ -67,7 +97,7 @@ As alterações são visíveis em filtros em todas as exibições do Planning. P
 >
 >Visualização: 1 de outubro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Introduzimos agregadores para tipos de campo adicionais na visualização de tabela. Antes desse aprimoramento, somente os campos relacionados ao número exibiam agregadores na parte inferior das colunas.
 
@@ -89,7 +119,7 @@ Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quic
 >
 >Visualização: 1 de outubro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Atualmente, os criadores do Workspace são atribuídos como proprietário padrão. Com essa atualização, os gerentes de espaço de trabalho podem transferir a propriedade da caixa de diálogo de compartilhamento para outro usuário de licença Standard.
 
@@ -103,7 +133,7 @@ Para obter informações, consulte [Compartilhar espaços de trabalho](/help/qui
 >
 >Visualização: 1 de outubro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora você pode classificar registros e agrupamentos na exibição de linha do tempo. Antes desse aprimoramento, essa funcionalidade não estava disponível.
 
@@ -115,7 +145,7 @@ Para obter mais informações, consulte [Gerenciar a exibição da linha do temp
 >
 >Visualização: 25 de setembro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora, os gerentes da Workspace podem controlar o acesso a campos individuais, permitindo que usuários e equipes específicos visualizem, editem ou sejam completamente restritos a dados confidenciais no mesmo tipo de registro.
 
@@ -131,7 +161,7 @@ Para obter informações, consulte [Compartilhar campos do Workfront Planning](/
 >
 >Visualização: 25 de setembro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora é possível compartilhar uma solicitação do Planning com outras pessoas na área Solicitações na nova experiência de solicitação.
 
@@ -145,7 +175,7 @@ Para obter informações, consulte [Compartilhar registros do Planning](/help/qu
 >
 >Visualização: 25 de setembro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Os administradores do Workspace agora podem criar processos de aprovação em um ou vários estágios para cada formulário de solicitação do Planning, atribuindo um ou mais aprovadores ou equipes a cada estágio e reutilizando modelos de aprovação existentes para acelerar a configuração. As solicitações avançam automaticamente assim que todos os aprovadores necessários em um estágio são aprovados e cada aprovador é notificado quando uma solicitação atinge seu estágio. Solicitantes e aprovadores podem rastrear em qual estágio uma solicitação está e ver quais aprovações ainda estão pendentes.
 
@@ -157,7 +187,7 @@ Para obter informações, consulte [Criar e gerenciar um formulário de solicita
 >
 >Visualização: 25 de setembro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora é possível criar uma lógica de exibição avançada nos formulários de solicitação do Planning com base nos valores do campo de conexão, para que os formulários se adaptem ao que os solicitantes selecionam. Todos os campos do Planning, incluindo campos de conexão, são suportados ao criar essa lógica.
 
@@ -171,7 +201,7 @@ Para obter informações, consulte [Criar formulário de solicitação](/help/qu
 >
 >Visualização: 25 de setembro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora, os administradores do Workfront e do espaço de trabalho podem indicar o nível de permissões que um solicitante recebe em suas solicitações ao configurar o formulário de solicitação.
 
@@ -196,7 +226,7 @@ Para obter informações, consulte [Usar preenchimento de formulário fornecido 
 >
 >Pré-visualização: implantação em fases a partir de 3 de setembro de 2026
 >Versão rápida de produção: implantação em fases a partir de 17 de setembro de 2026
->Produção para todos: implantação em fases a partir de 15 de outubro de 2026
+>Produção para todos: implantação em fases a partir de 22 de outubro de 2026
 
 O CX Enterprise Coworker agora está disponível no Workfront Planning. Agora, você pode acessar o CX Enterprise Coworker em um painel que está disponível em todo o Workfront Planning.
 
@@ -218,7 +248,7 @@ Para obter mais informações, consulte [Visão geral do CX Enterprise Coworker 
 >
 >Pré-visualização: implantação em fases a partir de 16 de setembro de 2026
 >Versão rápida de produção: implantação em fases a partir de 17 de setembro de 2026
->Produção para todos: implantação em fases a partir de 15 de outubro de 2026
+>Produção para todos: implantação em fases a partir de 22 de outubro de 2026
 >[!BADGE Fora do cronograma]{type=Neutral}
 
 Essa alteração está disponível para clientes que têm a CX Enterprise Coworker no Workfront.
@@ -237,7 +267,7 @@ Para obter informações, consulte [CX Enterprise Coworker no Workfront](/help/q
 >
 >Visualização: 17 de setembro de 2026
 >Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora os registros podem ser duplicados mesmo quando existem registros conectados um para um ou um para muitos. Após a duplicação, os usuários podem optar por manter o registro conectado no registro original ou conectá-lo ao novo registro. Manter no original é a opção padrão.
 
@@ -251,7 +281,7 @@ Para obter informações, consulte [Registros duplicados](/help/quicksilver/plan
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora é possível gerenciar a visibilidade das miniaturas e cores dos registros ao editar a coluna de campo principal na exibição de tabela.
 
@@ -265,7 +295,7 @@ Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quic
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Como um gerenciador de espaço de trabalho, agora é possível definir regras de negócios para tipos de registro que refletirão posteriormente sobre como os registros desse tipo são gerenciados. Você pode definir regras que permitam aos usuários editar ou excluir registros somente quando determinadas condições forem atendidas ou determinados campos forem preenchidos.
 
@@ -292,7 +322,7 @@ Para obter mais informações, consulte [Configurar regras de negócios do tipo 
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Como administrador do Workfront, agora você pode configurar semanas personalizadas, além de trimestres personalizados. Semanas e trimestres personalizados são visíveis na exibição da linha do tempo do Workfront Planning. O Workfront gera semanas sequenciais a partir da Semana 1 no início do Trimestre personalizado 1.
 
@@ -308,7 +338,7 @@ Para obter informações, consulte [Habilitar trimestres e semanas personalizado
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora é possível filtrar por determinados tipos de registro que atendem a um critério de filtro quando você adiciona conexões no Planning.
 
@@ -324,7 +354,7 @@ Para obter informações, consulte [Gerenciar conexões dependentes](/help/quick
 >
 >Visualização: 27 de agosto de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 As exibições de linha do tempo agora incluem Recolher tudo e Expandir todas as opções de linhas do tempo agrupadas. Isso facilita a navegação em exibições de roteiro grandes: você pode reduzir rapidamente a exibição para cabeçalhos de agrupamento e expandir apenas as seções que deseja revisar.
 
@@ -336,7 +366,7 @@ Para obter mais informações, consulte [Gerenciar a exibição da linha do temp
 >
 >Visualização: 27 de agosto de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Na exibição de linha do tempo, passar o mouse sobre um rótulo de grupo truncado agora mostra o texto completo em uma dica de ferramenta, na exibição de grupo Raia e Empilhado. Rótulos não truncados não mostram nenhuma dica de ferramenta.
 
@@ -350,7 +380,7 @@ Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/h
 >
 >Visualização: 27 de agosto de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 A exibição da semana do calendário agora exibe apenas os primeiros 1.000 registros no período semanal visível. Se houver mais registros, a seguinte mensagem será exibida na parte inferior do calendário, indicando que registros adicionais estão disponíveis: &quot;Há mais registros. Carregue mais.&quot;
 
@@ -362,7 +392,7 @@ Para obter informações, consulte [Gerenciar a exibição de calendário](/help
 >
 >Visualização: 20 de agosto de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Fizemos melhorias visuais nos cabeçalhos de coluna para um campo de registro conectado dependente na exibição de tabela.
 
@@ -374,7 +404,7 @@ Para obter informações, consulte [Gerenciar conexões dependentes](/help/quick
 >
 >Visualização: 13 de agosto de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 >[!BADGE Fora do cronograma]{type=Neutral}
 
 Há novos indicadores visuais quando você arrasta e solta várias linhas na exibição de tabela. Um sinal de adição mais proeminente e um indicador de número agora mostram quantas linhas estão selecionadas para a ação arrastar e soltar.
@@ -387,7 +417,7 @@ Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quic
 >
 >Visualização: 13 de agosto de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Os registros criados para tipos de registros globais enviando um formulário de solicitação agora são encaminhados automaticamente para o espaço de trabalho do qual foram enviados.
 
@@ -421,7 +451,7 @@ Para obter informações, consulte [Habilidades disponíveis para instalação d
 >
 >Visualização: 30 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 A experiência de arrastar e soltar linhas únicas na exibição em tabela foi aprimorada visualmente.
 
@@ -434,7 +464,7 @@ Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quic
 >
 >Visualização: 30 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Agora, os gerentes do Workspace podem definir dependências entre tipos de registro conectados. Por exemplo, garantir que um campo Região mostre apenas valores vinculados à Geografia selecionada. Isso é configurado diretamente na configuração do campo de conexão: ao adicionar uma conexão de um tipo de registro Geográfico a um tipo de registro dependente (como Região), uma nova configuração permite que os gerentes de espaço de trabalho marquem-na como dependente do tipo de registro Geográfico, usando os relacionamentos já estabelecidos entre esses tipos de registro.
 
@@ -455,7 +485,7 @@ Para obter informações, consulte [Gerenciar conexões dependentes](/help/quick
 >
 >Visualização: 30 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Adicionamos um novo indicador que mostra quando há comentários não lidos em um registro. O indicador é exibido no canto superior direito do campo principal do registro na exibição de tabela.
 
@@ -467,7 +497,7 @@ Para obter mais informações, consulte [Gerenciar comentários de registro](/he
 > 
 >Visualização: 23 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Os registros agora oferecem suporte a paletas de cores personalizáveis, que permitem atualizar as cores automaticamente atribuídas a novos registros para cores padrão ou personalizadas.
 

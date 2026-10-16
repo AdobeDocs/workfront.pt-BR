@@ -2,26 +2,28 @@
 product-area: documents
 navigation-topic: approvals
 title: Revisar uma aprovação agrupada
-description: Você pode revisar e tomar decisões sobre todos os ativos em uma aprovação agrupada do widget Minhas aprovações na Página inicial ou no visualizador Frame.io.
+description: Você pode revisar e tomar decisões sobre todos os documentos em uma aprovação agrupada do widget Minhas aprovações na Página inicial ou no visualizador Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8250a95bec88df91e3422c8da7c05ac802b3cb22
+source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 7%
+source-wordcount: '630'
+ht-degree: 6%
 ---
 
 # Revisar uma aprovação agrupada
 
 {{highlighted-preview-article-level}}
 
-Quando você está atribuído a uma aprovação agrupada, todos os ativos no grupo aparecem juntos para que você possa tomar uma decisão sobre cada um. Você pode aprovar ou solicitar alterações em cada ativo de uma só vez ou tomar uma decisão sobre cada ativo individualmente.
+Quando você está atribuído a uma aprovação agrupada, todos os documentos do grupo aparecem juntos para que você possa tomar uma decisão sobre cada um. Você pode aprovar ou solicitar alterações em cada documento de uma só vez ou tomar uma decisão sobre cada documento individualmente.
 
-Este artigo aborda o que é específico para revisar um grupo de ativos. Para obter os mecanismos de tomada de uma única decisão, adição de marcação e outros locais que podem ser aprovados, consulte [Aprovar um documento no Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md), [Revisar um documento no Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md) e [Revisar e aprovar com o visualizador Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
+Se um ou mais documentos estiverem marcados como **Precisa de trabalho** em uma aprovação agrupada de vários estágios, o grupo não poderá avançar para o próximo estágio até que todos os documentos do grupo tenham uma decisão aprovada. Para obter mais informações, consulte [Resolver uma decisão &quot;Precisa de trabalho&quot; em um único documento em uma aprovação agrupada de vários estágios](#resolve-a-needs-work-decision-on-a-single-document-in-a-multi-stage-grouped-approval).
+
+
 
 >[!IMPORTANT]
 >
->O conteúdo deste artigo se refere à funcionalidade atualizada de aprovação de documentos, disponível somente para contas específicas. Para obter informações sobre processos de aprovação padrão, consulte os artigos listados em [Aprovações de trabalho](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Aprovações agrupadas estão disponíveis somente na nova área Documentos. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acesso
 
@@ -59,7 +61,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Revisar uma aprovação agrupada do widget Minhas aprovações na Página inicial
 
-O widget Minhas aprovações na Página inicial agrupa os ativos em uma única aprovação para que você possa agir em todos eles juntos.
+O widget Minhas aprovações na página inicial agrupa os documentos em uma única aprovação para que você possa agir em todos eles juntos.
 
 >[!NOTE]
 >
@@ -67,30 +69,43 @@ O widget Minhas aprovações na Página inicial agrupa os ativos em uma única a
 
 1. Clique no ícone **Página inicial** no canto superior esquerdo do Adobe Workfront e localize o widget **Minhas aprovações**.
 
-1. Abra a aprovação agrupada. Todos os ativos no grupo são listados juntos, com o número de itens no grupo na parte superior.
+1. Abra a aprovação agrupada. Todos os documentos do grupo são listados juntos, com o número de itens no grupo na parte superior.
 
 1. Tome uma decisão usando um dos seguintes procedimentos:
 
-   * **Marcar todos os aprovados** — registra uma decisão aprovada em cada ativo do grupo de uma só vez.
-   * **Marcar todo o trabalho necessário** — registra uma decisão de trabalho necessário em cada ativo do grupo de uma só vez.
-   * **Tome uma decisão** — tome uma decisão individual sobre um único ativo. Repita o procedimento para cada ativo que deseja decidir separadamente.
+   * **Marcar todos os aprovados**: registra uma decisão aprovada em cada documento do grupo de uma só vez.
+   * **Marcar todo o trabalho necessário**: registra uma decisão de necessidades-trabalho em cada documento do grupo de uma só vez.
+   * **Tomar uma decisão**: tomar uma decisão individual em um único documento. Repita o procedimento para cada documento que você deseja decidir separadamente.
+
+
+   ![minha aprovação agrupada do widget de aprovações](assets/my-approvals-group.png)
 
 ## Revisar uma aprovação agrupada no visualizador Frame.io
 
-No visualizador Frame.io, todos os ativos no grupo são exibidos juntos para que você possa tomar uma decisão rápida sobre cada um ou abrir um ativo para analisá-lo em detalhes.
+No visualizador Frame.io, todos os documentos do grupo são exibidos juntos para que você possa tomar uma decisão rápida sobre cada um ou abrir um documento para analisá-lo em detalhes.
 
 1. Vá para a notificação por email de revisão e clique em **Ir para revisão** ou abra a aprovação agrupada do widget **Minhas aprovações** na Página inicial.
 
 1. Siga um destes procedimentos:
 
-   * Tome uma decisão rápida sobre cada ativo diretamente da página do grupo, sem abri-lo.
-   * Clique em um ativo para abri-lo, adicionar comentários ou marcação e, em seguida, use a seta para ir até o próximo ativo no grupo. O contador de ativos (por exemplo, **1 de 2**) mostra seu lugar no grupo.
+   * Tome uma decisão rápida sobre cada documento diretamente da página do grupo, sem abri-lo.
+   * Clique em um documento para abri-lo, adicionar comentários ou marcação e, em seguida, use a seta para ir até o próximo documento no grupo. O contador de documentos (por exemplo, **1 de 2**) mostra seu lugar no grupo.
 
    Para obter mais informações sobre comentários e marcação no visualizador Frame.io, consulte [Revisar e aprovar com o visualizador Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
 
-1. Escolha uma decisão para cada ativo:
+1. Escolha uma decisão para cada documento:
 
-   * **Aprovado** — o ativo não precisa de alterações e está pronto para uso.
-   * **Precisa de Trabalho** — o ativo precisa de alterações e não está pronto para uso.
+   * **Aprovado**: o documento não precisa de alterações e está pronto para uso.
+   * **Precisa de Trabalho**: o documento precisa de alterações e não está pronto para uso.
 
    Para obter mais informações sobre decisões, consulte [Visão geral do status de decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+
+   ![aprovação agrupada do visualizador do frame.io](assets/frame-group-approval.png)
+
+## Recursos adicionais
+
+Este artigo aborda informações sobre como revisar um grupo de documentos. Para obter informações sobre como tomar uma decisão em um único documento, adicionar marcação e muito mais, consulte
+
+* [Aprovar um documento no Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+* [Revisar um documento no Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+* [Revisar e aprovar com o visualizador Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)

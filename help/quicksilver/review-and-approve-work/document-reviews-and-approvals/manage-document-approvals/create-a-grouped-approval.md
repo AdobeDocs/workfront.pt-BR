@@ -5,9 +5,9 @@ title: Criar uma aprovação agrupada
 description: É possível agrupar vários documentos em um único fluxo de trabalho de aprovação para que eles se movam pelos mesmos estágios juntos.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
+source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1188'
 ht-degree: 3%
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 3%
 
 Uma aprovação agrupada agrupa vários documentos em um único fluxo de trabalho de aprovação. Você pode usar o modo Básico e Avançado, vários estágios e caminhos paralelos com aprovações agrupadas, da mesma forma que com aprovações de documento único.
 
-Aprovações agrupadas estão disponíveis somente na nova área Documentos, que aparece quando sua organização usa o armazenamento em nuvem da Adobe. Para obter mais informações, consulte [visão geral do armazenamento na nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>[!IMPORTANT]
+>
+>Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Aprovações agrupadas estão disponíveis somente na nova área Documentos. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 
 ## Requisitos de acesso
 

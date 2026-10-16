@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 2%
@@ -29,8 +29,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >[!NOTE]
 >
 >Visualização: 1 de outubro de 2026
->Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 As seguintes alterações foram feitas aos filtros e agrupamentos aprimorados da lista:
 
@@ -49,8 +49,8 @@ Para obter informações, consulte [Usar listas aprimoradas](/help/quicksilver/w
 >[!NOTE]
 >
 >Visualização: 1 de outubro de 2026
->Versão rápida de produção: 14 de outubro de 2026
->Produção para todos: 15 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 As listas do Workfront a seguir agora usam o formato de lista aprimorado:
 
@@ -83,7 +83,7 @@ Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksil
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Em todas as listas aprimoradas, as seguintes atualizações estão disponíveis:
 
@@ -98,7 +98,7 @@ Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksil
 >
 >Visualização: 3 de setembro de 2026
 >Versão rápida de produção: 17 de setembro de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 As listas do Workfront a seguir agora usam o formato de lista aprimorado:
 
@@ -159,7 +159,7 @@ Para obter mais informações, consulte [Navegação à esquerda no Adobe Workfr
 >
 >Visualização: 30 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Várias atualizações foram feitas nas listas aprimoradas:
 
@@ -174,7 +174,7 @@ Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksil
 >
 >Visualização: 30 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
->Produção para todos: 15 de outubro de 2026
+>Produção para todos: 22 de outubro de 2026
 
 Ao passar o mouse sobre a navegação estrutural de um objeto, agora é possível copiar seu nome e vincular em uma ação. Isso agiliza o compartilhamento de objetos no Slack, email ou outras ferramentas, sem copiar o nome e o URL separadamente.
 

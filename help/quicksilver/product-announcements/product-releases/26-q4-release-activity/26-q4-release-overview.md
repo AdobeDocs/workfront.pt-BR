@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
+source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
 workflow-type: tm+mt
-source-wordcount: '3601'
+source-wordcount: '3584'
 ht-degree: 7%
 ---
 # Visão geral da versão do quarto trimestre de 2026
@@ -33,9 +33,9 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 >
 >| Versão mensal | Versão trimestral |
 >|----|----|
->| <ul><li>26.8 (13 de agosto de 2026)</li><li>26.9 (17 de setembro de 2026)</li><li>26.10 (14 de outubro de 2026)</li></ul> | <ul><li>26.10 (15 de outubro de 2026)</li></ul> |
+>| <ul><li>26.8 (13 de agosto de 2026)</li><li>26.9 (17 de setembro de 2026)</li><li>26.10 (14 de outubro de 2026)</li></ul> | <ul><li>26.10 (22 de outubro de 2026)</li></ul> |
 >
->* Observe que, para o lançamento final de cada trimestre (26.10 neste trimestre), os usuários no cronograma de lançamento rápido receberão o lançamento um dia antes (14 de outubro de 2026).
+>* O 26.10 (outubro de 2026) foi transferido para 22 de outubro de 2026.
 >
 >   Para obter mais informações sobre o processo de lançamento rápido, consulte [Habilitar ou desabilitar o processo de lançamento rápido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 >* Para a versão 26.10 (outubro de 2026), a última data em que os recursos podem aparecer no ambiente de Pré-visualização é 1º de outubro.
@@ -69,8 +69,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Os administradores do Workfront agora podem rastrear alterações na função de trabalho, agência, centro de custo e taxas de faturamento de um usuário ao longo do tempo em uma única exibição do Histórico de emprego filtrável.</p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -78,8 +78,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Agora, os administradores do Workfront podem usar a IA para gerar traduções para um texto de localização personalizado e revisar ou ajustar os resultados antes de salvar.</p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -87,8 +87,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Foram feitos vários aprimoramentos nos modelos de layout, incluindo ocultar ou exibir itens no menu principal, posicionar aplicativos personalizados no menu principal e ocultar Detalhes na navegação à esquerda.</p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -97,8 +97,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Administrators can now configure MCP Tools permissions by access level to control how Workfront data is used through the Workfront MCP.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
 <!--
@@ -108,8 +108,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Several enhancements have been made to layout templates, including the ability to hide or display system items in the Main Menu, reposition custom applications, and hide an object's Details page from the left navigation panel.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -118,8 +118,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Para facilitar a criação e o gerenciamento das assinaturas de evento de sua organização, adicionamos a área Assinaturas de Evento à Configuração.</p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -127,8 +127,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Ao trabalhar com campos suspensos, botões de opção e caixas de seleção no designer de formulário, agora é possível adicionar, editar e excluir opções de campo em uma única caixa de diálogo.</p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -136,8 +136,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Agora os administradores do Workfront podem manter um incluo na lista de permissões de URLs de retorno de chamada OAuth confiáveis, para que as plataformas de agente de IA personalizada possam se conectar aos servidores MCP do Workfront.</p>
             </td>
             <td><p>22 de setembro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -146,7 +146,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -155,7 +155,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -164,7 +164,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -174,7 +174,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -184,7 +184,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -193,7 +193,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -202,7 +202,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -211,7 +211,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -220,7 +220,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -229,7 +229,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -238,7 +238,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -247,7 +247,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -270,8 +270,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -280,8 +280,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Os colaboradores de IA agora podem trabalhar com agentes em tarefas e problemas, usar o contexto do documento e publicar atualizações em tempo real na área Atualizações.</p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -290,7 +290,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>Implantação em fases, a partir de 3 de setembro de 2026</p></td>
             <td><p>Implantação em fases, a partir de 17 de setembro de 2026</p></td>
-            <td><p>Implantação em fases, a partir de 15 de outubro de 2026</p></td>
+            <td><p>Implantação em fases, a partir de 22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -326,7 +326,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -335,7 +335,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -344,7 +344,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -376,8 +376,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
             </td>
             <td><p>October 8, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
          <tr>
@@ -386,7 +386,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Agora é possível agrupar vários documentos em um único fluxo de trabalho de aprovação, para que eles percorram os mesmos estágios juntos.</p>
             </td>
             <td><p>Esse recurso não está disponível no ambiente Visualização da sandbox porque a integração Frame.io não está disponível lá.</p></td>
-            <td><p>14 de outubro de 2026</p></td>
+            <td><p>15 de outubro de 2026</p></td>
             <td><p>15 de outubro de 2026</p></td>
         </tr>
         <tr>
@@ -395,7 +395,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Agora é possível adicionar um site ao Adobe Workfront como um link da Web na nova área Documentos e solicitar aprovação na página da Web em tempo real.</p>
             </td>
             <td><p>Esse recurso não está disponível no ambiente Visualização da sandbox porque a integração Frame.io não está disponível lá.</p></td>
-            <td><p>14 de outubro de 2026</p></td>
+            <td><p>15 de outubro de 2026</p></td>
             <td><p>15 de outubro de 2026</p></td>
         </tr>
         <tr>
@@ -423,7 +423,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>N/D</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -432,7 +432,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>N/D</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Adicionar equipes às aprovações de objetos usando o armazenamento na nuvem do Adobe</a>
@@ -440,7 +440,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -449,7 +449,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -459,7 +459,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -468,8 +468,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Uma mensagem personalizada definida em uma aprovação de documento agora também aparece na linha de assunto do email de solicitação de aprovação.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>15 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -478,7 +478,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -487,7 +487,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -496,7 +496,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -514,7 +514,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -524,7 +524,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
     </tbody>
@@ -547,8 +547,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Os modelos de projeto agora oferecem suporte a melhorias aprimoradas de listas e atualizações de atributos de taxa para taxas de cobrança.</p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>    
         <tr>
             <td>
@@ -557,7 +557,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -566,7 +566,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -589,7 +589,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -611,8 +611,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>As instâncias do Workfront na Google Cloud Platform (GCP) e no Azure agora podem aceitar o beta aberto dos Painéis do Canvas.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
            <tr>
             <td>
@@ -620,8 +620,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Agora você pode compartilhar os dados do Workfront Data Connect diretamente com a conta da Snowflake de sua organização registrando uma lista privada. Esse método de conexão usa o recurso de listagem privada da Snowflake para compartilhar dados com segurança entre organizações sem expô-los publicamente, e funciona em regiões e plataformas de hospedagem.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -629,8 +629,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Agora é possível criar e gerenciar Painéis do Canvas por meio de clientes MCP, como Claude e Cursor, usando prompts de linguagem natural e ações estruturadas do painel.</p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -638,8 +638,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Agora é possível copiar um widget para o mesmo painel, para outro painel ao qual você tem acesso de edição ou para um novo painel. Você também pode mover um widget para outro painel ao qual tem acesso de edição ou para um novo painel. </p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -647,8 +647,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Agora você pode filtrar por relacionamentos de coleção, que são campos vinculados a um grupo de registros relacionados em vez de um único registro.</p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -657,7 +657,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -684,7 +684,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>27 de agosto de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -693,7 +693,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>13 de agosto de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -702,7 +702,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -711,7 +711,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -733,8 +733,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Agora você pode acessar solicitações de problemas do Workfront enviadas até 3 anos antes de julho de 2025 a partir da nova experiência de solicitação.</p>
             </td>
             <td><p>24 de setembro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -787,8 +787,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Várias listas em Configuração, Projetos, Modelos e Tarefas agora usam o formato de lista aprimorado.</p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -796,8 +796,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <p>Fizemos algumas melhorias nos filtros e agrupamentos de lista aprimorados: os grupos são recolhidos por padrão e os operadores de filtro foram atualizados para rótulos mais claros.</p>
             </td>
             <td><p>1 de outubro de 2026</p></td>
-            <td><p>14 de outubro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -806,7 +806,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -815,7 +815,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>3 de setembro de 2026</p></td>
             <td><p>17 de setembro de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
            <tr>
             <td>
@@ -842,7 +842,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -851,7 +851,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             </td>
             <td><p>30 de julho de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
         </tr>
     </tbody>
 </table>

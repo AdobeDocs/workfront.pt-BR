@@ -2,26 +2,24 @@
 product-area: documents
 navigation-topic: approvals
 title: Gerenciar aprovações agrupadas
-description: Você pode adicionar ou remover participantes e ativos em uma aprovação agrupada sem interromper o fluxo de trabalho do restante do grupo.
+description: Você pode adicionar ou remover participantes e documentos em uma aprovação agrupada sem interromper o fluxo de trabalho para o restante do grupo.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8250a95bec88df91e3422c8da7c05ac802b3cb22
+source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 4%
+source-wordcount: '1030'
+ht-degree: 5%
 ---
 
 # Gerenciar aprovações agrupadas
 
-{{highlighted-preview-article-level}}
-
-Uma aprovação agrupada agrupa vários ativos em um único fluxo de trabalho de aprovação, de modo que todos os ativos passam pelos mesmos estágios juntos, em vez de exigir uma aprovação separada por ativo. Você pode adicionar ou remover participantes e ativos em uma aprovação agrupada ativa sem recriar o fluxo de trabalho.
+Uma aprovação agrupada agrupa vários documentos em um único fluxo de trabalho de aprovação, de modo que todos os documentos passam pelos mesmos estágios juntos em vez de exigir uma aprovação separada por documento. Você pode adicionar ou remover participantes e documentos em uma aprovação agrupada ativa sem recriar o fluxo de trabalho.
 
 As aprovações agrupadas oferecem suporte ao modo Básico e Avançado, vários estágios e caminhos paralelos da mesma forma que as aprovações de ativo único. Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
->O conteúdo deste artigo se refere à funcionalidade atualizada de aprovação de documentos, disponível somente para contas específicas. Para obter informações sobre processos de aprovação padrão, consulte os artigos listados em [Aprovações de trabalho](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Aprovações agrupadas estão disponíveis somente na nova área Documentos. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acesso
 
@@ -90,19 +88,19 @@ Para remover participantes de uma aprovação agrupada ativa:
 
 1. Clique em qualquer documento do grupo e, em seguida, clique no ícone **Aprovações**, no lado direito da página.
 
+   ![Remover aprovadores no resumo do documento](assets/approvals-icon-new.png)
+
 1. Clique em **Editar workflow**.
 
 1. Localize o participante que você deseja remover do estágio ativo e clique no ícone **Remover** ao lado do nome.
 
 1. Clique em **Salvar**.
 
-   O status de aprovação dos participantes restantes é reavaliado para contabilizar a alteração.
+## Adicionar documentos a uma aprovação agrupada
 
-## Adicionar ativos a uma aprovação agrupada
+Você pode adicionar documentos a uma aprovação agrupada até que seu primeiro estágio seja bloqueado. Depois que o primeiro estágio for bloqueado, não será mais possível adicionar documentos.
 
-Você pode adicionar ativos a uma aprovação agrupada até que seu primeiro estágio seja bloqueado. Depois que o primeiro estágio é bloqueado, não é mais possível adicionar ativos, pois os participantes desse estágio não teriam a chance de analisá-los.
-
-Para adicionar um ativo a uma aprovação agrupada:
+Para adicionar um documento a uma aprovação agrupada:
 
 1. Vá para o projeto, tarefa ou problema que contém a aprovação agrupada e selecione **Documentos** no painel esquerdo.
 
@@ -110,17 +108,17 @@ Para adicionar um ativo a uma aprovação agrupada:
 
 1. Clique em **Editar fluxo de trabalho** e na guia **Documentos**.
 
-1. Selecione o ativo ou os ativos que deseja adicionar ao grupo.
+1. Selecione os documentos que deseja adicionar ao grupo.
 
 1. Clique em **Salvar**.
 
-   Todos os participantes do grupo são notificados de que um ativo adicional foi adicionado para que analisem.
+   Todos os participantes do grupo são notificados de que um documento adicional foi adicionado para que eles revisem.
 
-## Remover ativos de uma aprovação agrupada
+## Remover documentos de uma aprovação agrupada
 
-É possível remover um ativo de uma aprovação agrupada em qualquer ponto do fluxo de trabalho. O ativo removido se torna sua própria aprovação independente e mantém todas as decisões, comentários e histórico existentes sem reiniciar. Como o ativo já carrega uma decisão de aprovação, você não pode adicioná-lo novamente a uma aprovação agrupada posteriormente.
+Você pode remover um documento de uma aprovação agrupada em qualquer ponto do fluxo de trabalho. O documento removido se torna sua própria aprovação independente e mantém todas as decisões, comentários e históricos existentes sem reiniciar o. Como o documento já carrega uma decisão de aprovação, você não pode adicioná-lo novamente a uma aprovação agrupada posteriormente.
 
-Para remover um ativo de uma aprovação agrupada:
+Para remover um documento de uma aprovação agrupada:
 
 1. Vá para o projeto, tarefa ou problema que contém a aprovação agrupada e selecione **Documentos** no painel esquerdo.
 
@@ -132,16 +130,30 @@ Para remover um ativo de uma aprovação agrupada:
 
 1. Clique em **Salvar**.
 
-   O status de aprovação do ativo permanece visível e inalterado a partir do momento em que foi removido. A visualização de aprovação agrupada é atualizada para refletir os ativos restantes no grupo.
+   >[!NOTE]
+   >
+   >O status de aprovação do documento permanece visível e inalterado a partir do momento em que foi removido. A visualização de aprovação agrupada é atualizada para refletir os documentos restantes no grupo.
 
-## Resolver uma decisão do tipo &quot;Precisa de trabalho&quot; em uma aprovação agrupada de vários estágios
 
-Em uma aprovação agrupada de vários estágios, todos os ativos em um estágio devem chegar a uma decisão antes que o grupo possa avançar para o próximo estágio. Se um ativo estiver marcado como **Precisa de trabalho**, ele não poderá avançar com o restante do grupo e, portanto, deverá ser removido do grupo para que o estágio avance.
+## Resolver uma decisão do tipo &quot;Precisa de trabalho&quot; em um único documento em uma aprovação agrupada de várias etapas
+
+Em uma aprovação agrupada de vários estágios, todos os documentos em um estágio devem chegar a uma decisão antes que o grupo possa avançar para o próximo estágio. Se um documento estiver marcado como **Precisa de trabalho**, ele não poderá avançar com o restante do grupo; portanto, ele deverá ser removido manualmente do grupo para que o estágio possa prosseguir.
+
+Ao remover o documento do grupo, ele se torna sua própria aprovação independente e mantém todas as decisões, comentários e históricos existentes sem reiniciar o. Você pode adicionar o documento revisado como uma nova versão à aprovação independente ou criar uma nova aprovação agrupada com ela.
 
 Para resolver uma decisão &quot;Precisa de trabalho&quot;:
 
-1. Remova o ativo marcado como **Precisa do trabalho** do grupo. Para obter mais informações, consulte [Remover ativos de uma aprovação agrupada](#remove-assets-from-a-grouped-approval). O ativo removido se torna sua própria aprovação independente e mantém suas decisões, comentários e histórico existentes.
+1. Remova o documento marcado como **Precisa do trabalho** do grupo. Para obter mais informações, consulte [Remover documentos de uma aprovação agrupada](#remove-documents-from-a-grouped-approval). O documento removido se torna sua própria aprovação independente e mantém suas decisões, comentários e histórico existentes.
 
-1. Depois que o ativo for atualizado, solicite aprovação novamente, como um único ativo ou como parte de um novo grupo. Como o ativo já carrega uma decisão de aprovação, você não pode adicioná-lo de volta ao grupo original.
+1. Depois que o documento for atualizado, carregue-o como uma nova versão e solicite aprovação novamente ou adicione-o como parte de um novo grupo.
 
-   Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovação de documento](create-a-document-approval.md) e [Criar uma aprovação agrupada](create-a-grouped-approval.md).
+   Para obter mais informações, consulte
+
+   * [Fazer upload de uma nova versão do documento e solicitar uma aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+   * [Criar um fluxo de trabalho de aprovação de documento](create-a-document-approval.md)
+   * [Criar uma aprovação agrupada](create-a-grouped-approval.md)
+
+
+## Limitações conhecidas
+
+Há um problema temporário de sincronização com o Frame.io quando você adiciona ou remove documentos em uma aprovação agrupada. As alterações não serão refletidas no Frame.io até a próxima vez que o documento for sincronizado.

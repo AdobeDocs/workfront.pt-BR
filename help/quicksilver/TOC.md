@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: d6c8ce2904153bc2556e2026626993632d573bf0
+source-git-commit: 23c046611fccec4106f0830fdf7fa89c18613f9e
 workflow-type: tm+mt
-source-wordcount: '14674'
+source-wordcount: '14687'
 ht-degree: 91%
 ---
 # Guia do Workfront {#using}
@@ -17,6 +17,9 @@ ht-degree: 91%
     * [Visão geral de versões do produto](product-announcements/product-releases/product-releases.md)
     * [Cronograma e processo de lançamento do Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare-se para a versão trimestral do Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+    * Versão do primeiro trimestre de 2027 {#release-27-q1}
+      * [Visão geral da versão do primeiro trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [Aprimoramentos do projeto do primeiro trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
     * Versão do quarto trimestre de 2026 {#release-26-q4}
       * [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
       * [Aprimoramentos do administrador do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
@@ -1961,8 +1964,8 @@ ht-degree: 91%
       * [Criar e gerenciar marcas para o Revisor do AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [Criar uma revisão de documento ou solicitação de aprovação](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Criar uma aprovação agrupada](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
-      * {hide-from-toc}[Revisar uma aprovação agrupada](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
-      * {hide-from-toc}[Gerenciar aprovações agrupadas](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
+      * [Revisar uma aprovação agrupada](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * [Gerenciar aprovações agrupadas](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [Adicionar novos revisores ou aprovadores a um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remover aprovadores ou revisores de um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Criar um modelo de aprovação para ativos e documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
