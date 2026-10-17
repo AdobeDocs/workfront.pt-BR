@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '916'
 ht-degree: 0%
 ---
 
@@ -158,50 +158,40 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    ![Nova caixa de registro com botão Abrir espaço de ideação](assets/new-record-creation-picker-with-ideation.png)
 
-   O espaço de ideação é aberto em uma nova guia com um prompt vazio.
+   O espaço de ideação é aberto em uma nova guia.
 
-   O registro é criado imediatamente com texto de espaço reservado.
+   O CX Coworker é aberto no painel direito.
 
-1. (Opcional) Clique em **Usar resumo existente** na caixa de prompt para procurar e adicionar um documento existente que o espaço de ideação usará para criar o resumo e o registro futuro. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
+   O registro é criado imediatamente com um nome de espaço reservado.
 
-   ![Breve prompt de ideação vazio](assets/empty-ideation-prompt.png)
+   <!--
+    1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
+    -->
 
-1. (Opcional) Clique no **ícone Abrir telas anteriores** <!--accurate??--> ![ícone Abrir resumos existentes](assets/open-existing-briefs-icon.png) no canto superior direito da caixa de prompt, para abrir resumos existentes
-
-1. No **Em que você está trabalhando?** , descreva o tipo de registro que deseja criar.
+1. Adicione um prompt na caixa de diálogo **CX Coworker** e pressione Enter.
 
    Quanto mais detalhes você compartilhar, mais útil será a informação fornecida pelo espaço de ideação. Por exemplo, digite uma descrição da campanha que você está planejando: &quot;campanha de volta às aulas para uma agência de marketing&quot;.
 
-1. Clique em **Iniciar idealização**.
+1. Continue criando o resumo da ideação conforme descrito no artigo [Criar resumos no espaço de ideação](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
-   O Espaço de ideação funciona através das seguintes etapas enquanto compila sua ideia: <!--check some of these in the UI - there might have been UI text changes-->
+   <!--
+    1. Click **Start ideating**.
+        The Ideation space works through the following steps while it builds your idea: 
+        1. Understand your goal and context
+        2. Review your space and selected materials
+        3. Gather evidence from documents, web, and data
+        4. Synthesize findings into a research summary
+        5. Create and refine cards with citations
+        During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
+        For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. 
+        When the ideation completes, the following things are added to the Ideation space:  
+        * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
+        * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
+        ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
+    1. Continue to add information to the ideation space to complete creating your brief. 
+    -->
 
-   1. Entender sua meta e contexto
-   2. Revisar seu espaço e os materiais selecionados
-   3. Coletar evidências de documentos, Web e dados
-   4. Sintetizar achados em um resumo de pesquisa
-   5. Criar e refinar cartões com citações
-
-   Durante esse processo, você verá o espaço Ideação pesquisando ativamente dados ou informações conectados do Workfront Planning disponíveis na Web.
-
-   Por exemplo, ela pode procurar programas, produtos, perfis ou regiões existentes, bem como por conceitos semelhantes disponíveis online. <!--check on this with Et-->
-
-   Quando a ideação é concluída, as seguintes coisas são adicionadas ao espaço de ideação:
-
-   * Um resumo dos resultados de IA vinculado a vários cartões com informações detalhadas sobre os aspectos a serem considerados. Os cartões de detalhes são exibidos em uma nova seção. Um conector indica qual seção de placa pertence a qual resumo.
-
-   * Um arquivo **Brief** no canto inferior esquerdo do espaço de ideação. O resumo é um rascunho do registro futuro e é exibido como a página Detalhes de um registro.
-
-   ![Cartão de ideação com ramificações](assets/ideation-card-with-branched-off-additional-cards.png)
-
-1. Continue a adicionar informações ao espaço de ideação para concluir a criação do seu resumo.
-
-1. (Condicional) Quando o resumo for concluído, clique na imagem de visualização no canto inferior esquerdo e, em seguida, clique em uma das seguintes opções:
-
-   * **Exportar para arquivo** para criar um arquivo
-   * **Exportar para o Workfront Planning** para criar um registro do Planning
-
-   Para obter informações sobre como adicionar itens ao resumo e exportá-lo, consulte [Criar resumos no espaço de ideação](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+1. (Condicional) Quando o resumo for concluído, clique na imagem de visualização no canto inferior esquerdo e, em seguida, clique em **Exportar para o Workfront Planning** para criar um registro do Planning.
 
    Isso finaliza a criação do registro com as informações adicionais e o adiciona ao tipo de registro selecionado originalmente.
 
@@ -213,7 +203,7 @@ Não é possível editar registros em massa no espaço de ideação.
 
 1. Vá para um registro existente no Workfront Planning e abra sua página de detalhes.
 
-1. Clique em **Abrir no espaço de ideação**. Isso abre o espaço Ideação em uma nova guia.
+1. Clique em **Abrir no espaço de ideação** ![](assets/open-in-ideation-space.png). Isso abre o espaço Ideação em uma nova guia.
 
    Se uma ideação para o registro já existir, ela abre esse espaço.
 
@@ -221,19 +211,14 @@ Não é possível editar registros em massa no espaço de ideação.
 
    >[!TIP]
    >
-   >Os registros de edição de itens em massa usando o espaço de ideação não estão disponíveis.
+   >Não é possível editar registros em massa usando o espaço de ideação.
+1. Continue editando o resumo conforme descrito na seção [Criar registros usando o espaço de ideação](#create-records-using-the-ideation-space) deste artigo.
 
    <!-- 
     I don't think these steps are still valid but the environment was not available to test: 
     - If a record is already linked to a Catalyze canvas, a link appears beneath the record title; clicking it opens the associated canvas.
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
-
-1. Continue editando o resumo conforme descrito na seção [Criar registros usando o espaço de ideação](#create-records-using-the-ideation-space) deste artigo.
-
-
-
-
 
 
 <!--

@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 34b3f57d2339d13dd3b331b1c51e2bd0f9333843
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
 source-wordcount: '3259'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Para obter informações, consulte [Habilidades do Workfront no CX Enterprise Co
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
@@ -82,7 +82,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Visualização: 1 de outubro de 2026
->Versão rápida de produção: 14 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
 >Produção para todos: 22 de outubro de 2026
 
 Os operadores de filtro de vários valores em todas as exibições do Planning foram atualizados para &quot;É qualquer um de&quot; e &quot;É nenhum de&quot; em vez de &quot;Tem qualquer um de&quot; e &quot;Não tem nenhum de&quot;, fornecendo uma redação mais clara e consistente nos construtores de filtros do Workfront.
@@ -96,7 +96,7 @@ As alterações são visíveis em filtros em todas as exibições do Planning. P
 >[!NOTE]
 >
 >Visualização: 1 de outubro de 2026
->Versão rápida de produção: 14 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
 >Produção para todos: 22 de outubro de 2026
 
 Introduzimos agregadores para tipos de campo adicionais na visualização de tabela. Antes desse aprimoramento, somente os campos relacionados ao número exibiam agregadores na parte inferior das colunas.
@@ -118,7 +118,7 @@ Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quic
 >[!NOTE]
 >
 >Visualização: 1 de outubro de 2026
->Versão rápida de produção: 14 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
 >Produção para todos: 22 de outubro de 2026
 
 Atualmente, os criadores do Workspace são atribuídos como proprietário padrão. Com essa atualização, os gerentes de espaço de trabalho podem transferir a propriedade da caixa de diálogo de compartilhamento para outro usuário de licença Standard.
@@ -132,7 +132,7 @@ Para obter informações, consulte [Compartilhar espaços de trabalho](/help/qui
 >[!NOTE]
 >
 >Visualização: 1 de outubro de 2026
->Versão rápida de produção: 14 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
 >Produção para todos: 22 de outubro de 2026
 
 Agora você pode classificar registros e agrupamentos na exibição de linha do tempo. Antes desse aprimoramento, essa funcionalidade não estava disponível.
@@ -144,7 +144,7 @@ Para obter mais informações, consulte [Gerenciar a exibição da linha do temp
 >[!NOTE]
 >
 >Visualização: 25 de setembro de 2026
->Versão rápida de produção: 14 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
 >Produção para todos: 22 de outubro de 2026
 
 Agora, os gerentes da Workspace podem controlar o acesso a campos individuais, permitindo que usuários e equipes específicos visualizem, editem ou sejam completamente restritos a dados confidenciais no mesmo tipo de registro.
@@ -160,7 +160,7 @@ Para obter informações, consulte [Compartilhar campos do Workfront Planning](/
 >[!NOTE]
 >
 >Visualização: 25 de setembro de 2026
->Versão rápida de produção: 14 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
 >Produção para todos: 22 de outubro de 2026
 
 Agora é possível compartilhar uma solicitação do Planning com outras pessoas na área Solicitações na nova experiência de solicitação.
@@ -174,7 +174,7 @@ Para obter informações, consulte [Compartilhar registros do Planning](/help/qu
 >[!NOTE]
 >
 >Visualização: 25 de setembro de 2026
->Versão rápida de produção: 14 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
 >Produção para todos: 22 de outubro de 2026
 
 Os administradores do Workspace agora podem criar processos de aprovação em um ou vários estágios para cada formulário de solicitação do Planning, atribuindo um ou mais aprovadores ou equipes a cada estágio e reutilizando modelos de aprovação existentes para acelerar a configuração. As solicitações avançam automaticamente assim que todos os aprovadores necessários em um estágio são aprovados e cada aprovador é notificado quando uma solicitação atinge seu estágio. Solicitantes e aprovadores podem rastrear em qual estágio uma solicitação está e ver quais aprovações ainda estão pendentes.
@@ -186,7 +186,7 @@ Para obter informações, consulte [Criar e gerenciar um formulário de solicita
 >[!NOTE]
 >
 >Visualização: 25 de setembro de 2026
->Versão rápida de produção: 14 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
 >Produção para todos: 22 de outubro de 2026
 
 Agora é possível criar uma lógica de exibição avançada nos formulários de solicitação do Planning com base nos valores do campo de conexão, para que os formulários se adaptem ao que os solicitantes selecionam. Todos os campos do Planning, incluindo campos de conexão, são suportados ao criar essa lógica.
@@ -200,7 +200,7 @@ Para obter informações, consulte [Criar formulário de solicitação](/help/qu
 >[!NOTE]
 >
 >Visualização: 25 de setembro de 2026
->Versão rápida de produção: 14 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
 >Produção para todos: 22 de outubro de 2026
 
 Agora, os administradores do Workfront e do espaço de trabalho podem indicar o nível de permissões que um solicitante recebe em suas solicitações ao configurar o formulário de solicitação.
@@ -266,7 +266,7 @@ Para obter informações, consulte [CX Enterprise Coworker no Workfront](/help/q
 >[!NOTE]
 >
 >Visualização: 17 de setembro de 2026
->Versão rápida de produção: 14 de outubro de 2026
+>Versão rápida de produção: 22 de outubro de 2026
 >Produção para todos: 22 de outubro de 2026
 
 Agora os registros podem ser duplicados mesmo quando existem registros conectados um para um ou um para muitos. Após a duplicação, os usuários podem optar por manter o registro conectado no registro original ou conectá-lo ao novo registro. Manter no original é a opção padrão.
