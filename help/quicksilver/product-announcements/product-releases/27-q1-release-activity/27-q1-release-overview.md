@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 58f437f05fd68d14ac96dae0449d8e67db816406
+source-git-commit: 20b6b1fc08e06d2305d1e73c81ad0b15c19d621f
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 50%
+source-wordcount: '322'
+ht-degree: 52%
 ---
 
 # Visão geral da versão do primeiro trimestre de 2027
@@ -58,7 +58,7 @@ As melhorias nesta página estão disponíveis no ambiente de pré-visualizaçã
 ## Notas de versão para outras áreas
 
 * [Atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Atividade de versão do Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-planning/get-started/planning-overview).
+* [Atividade de versão do Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 Ainda não há atualizações para o seguinte nesta versão:
 
