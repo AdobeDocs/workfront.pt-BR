@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 77%
+source-wordcount: '83'
+ht-degree: 61%
 ---
 # Assinaturas de eventos
 
@@ -28,9 +28,10 @@ A seguir, há vários recursos sobre Assinaturas de evento no Adobe Workfront:
 
 >[!NOTE]
 >
->Para trabalhar com assinaturas de evento no aplicativo Workfront, consulte [Configurar assinaturas de evento no Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+>Para trabalhar com assinaturas de evento no aplicativo Workfront, consulte [Configurar assinaturas de evento no Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) e [Gerenciar assinaturas de evento como um usuário não administrador](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 * [API de assinatura de evento](../../wf-api/general/event-subs-api.md)
+* [Gerenciar assinaturas de evento como um usuário não administrador](../../wf-api/general/event-subs-non-admin.md)
 * [Práticas recomendadas de assinatura de evento](../../wf-api/general/event-sub-best-practice.md)
 * [Requisitos de entrega de assinatura de evento](../../wf-api/general/setup-event-sub-endpoint.md)
 * [Campos de recursos de assinatura de evento](../../wf-api/api/event-sub-resource-fields.md)

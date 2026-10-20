@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '14694'
+source-wordcount: '14700'
 ht-degree: 91%
 ---
 # Guia do Workfront {#using}
@@ -697,7 +697,9 @@ ht-degree: 91%
       * [Excluir uma condição personalizada](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Gerenciar o Adobe Workfront {#manage-wf}
     * [Gerenciar o Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
-    * [Configurar assinaturas de evento no Workfront](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
+    * Gerenciar assinaturas de evento {#manage-event-subscriptions}
+      * [Gerenciar assinaturas de evento](administration-and-setup/manage-workfront/manage-event-subscriptions/manage-event-subscriptions.md)
+      * [Configurar assinaturas de evento no Workfront](administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)
     * Configurar funcionalidade de revisão {#configure-proofing}
       * [Configurar revisão](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [Configurações de prova](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
