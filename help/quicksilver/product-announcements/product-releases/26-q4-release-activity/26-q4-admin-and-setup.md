@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 1%
@@ -112,7 +112,6 @@ Para facilitar a criação e o gerenciamento das assinaturas de evento de sua or
 * Excluir assinaturas de evento.
 
 Para obter informações, consulte [Configurar assinaturas de evento no Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md).
-
 
 ## Adicionar URLs de redirecionamento autorizados para integrações MCP
 

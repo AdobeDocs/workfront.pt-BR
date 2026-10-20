@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1288'
 ht-degree: 2%
 ---
 # Outras melhorias durante o período da versão do quarto trimestre de 2026
@@ -23,6 +23,22 @@ ht-degree: 2%
 Esta página descreve as melhorias feitas com a versão do quarto trimestre de 2026 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2026, consulte [Visão geral da versão do quarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Agora, não administradores podem criar assinaturas de eventos
+
+>[!NOTE]
+>
+>Pré-visualização e produção para todos: 16 de outubro de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
+
+
+Para facilitar a reação a alterações importantes em objetos do Workfront sem acesso de administrador do sistema, adicionamos assinaturas de eventos do usuário. Agora você pode receber notificações de webhook para objetos do Workfront compatíveis usando um token de acesso de usuário IMS e uma assinatura direcionada para cada combinação de objeto e evento.
+
+As assinaturas de eventos do usuário oferecem suporte a objetos de Tarefa, Projeto, Nota ou comentário e Atribuição com eventos CREATE, UPDATE e DELETE. Você pode criar assinaturas separadas para cada combinação de objeto e evento necessária e usar IDs de objeto ou filtros para restringir o delivery aos registros exatos que deseja.
+
+Esta versão é útil principalmente para equipes que precisam de integrações leves orientadas por eventos sem conceder permissões administrativas amplas, como ao usar o Workfront Fusion.
+
+Para obter mais informações, consulte [Gerenciar assinaturas de evento como um usuário não administrador](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 ## Atualizações das listas aprimoradas
 
