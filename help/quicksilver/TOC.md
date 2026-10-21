@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: a940bad993b8e0be1328d84dc8b113e9b513fbdb
 workflow-type: tm+mt
-source-wordcount: '14700'
+source-wordcount: '14708'
 ht-degree: 91%
 ---
 # Guia do Workfront {#using}
@@ -2715,6 +2715,7 @@ ht-degree: 91%
   * Assinaturas de eventos {#event-subscriptions}
     * [Assinaturas de eventos](wf-api/api/event-subscriptions.md)
     * [API de Assinatura de evento](wf-api/general/event-subs-api.md)
+    * [Gerenciar assinaturas de evento como um usuário não administrador](wf-api/general/event-subs-non-admin.md)
     * [Práticas recomendadas de assinatura de evento](wf-api/general/event-sub-best-practice.md)
     * [Requisitos de entrega de assinatura de evento](wf-api/general/setup-event-sub-endpoint.md)
     * [Tentativas de assinatura do evento](wf-api/api/event-sub-retries.md)
