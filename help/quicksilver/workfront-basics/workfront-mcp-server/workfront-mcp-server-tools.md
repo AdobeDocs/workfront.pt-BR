@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
+source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3537'
 ht-degree: 4%
 ---
 
@@ -235,11 +235,11 @@ As ferramentas de fluxo de trabalho são ações de uso geral que a plataforma d
 
 | Título | Nome da ferramenta | O que faz | Ação |
 | --- | --- | --- | --- |
-| Pesquisar objetos | `workflow_search_any_object` | Pesquisa por objetos do Workfront com parâmetros de filtro, ordenação e paginação flexíveis. | Ler |
+| Pesquisar objetos | `workflow_search_any_object` | Esta ferramenta foi descontinuada. | Ler |
 | Criar objeto | `workflow_create_any_object` | Cria um novo objeto do Workfront, como um projeto, tarefa, problema, hora, atribuição, programa ou portfólio. | Gravar |
 | Atualizar objeto | `workflow_update_any_object` | Atualiza os campos de um objeto existente. Também permite mover uma tarefa ou problema para outro projeto, converter uma tarefa ou problema em um novo projeto (ou um problema em uma tarefa) e definir predecessores da tarefa (dependências). | Gravar |
 | Excluir objeto | `workflow_delete_any_object` | Exclui um objeto do Workfront por ID. Requer confirmação explícita do usuário antes que a ação seja executada. | Gravar |
-| Resolver nomes de campo | `workflow_resolve_field_names_any_object` | Converte nomes de campo ou rótulos fornecidos pelo usuário em nomes de campo subjacentes da API do Workfront para que a plataforma do agente de IA possa criar solicitações precisas. | Ler |
+| Resolver nomes de campo | `workflow_resolve_field_names_any_object` | Esta ferramenta foi descontinuada. | Ler |
 | Ler documentos do fluxo de trabalho | `workflow_read_workflow_docs` | Carrega a documentação do Fluxo de trabalho do Workfront, incluindo guias de uso da ferramenta e manuais de operações específicos do objeto. Esta é a primeira etapa necessária antes de executar as ações do Fluxo de trabalho. | Ler |
 
 ### Atualizar habilidades da ferramenta de objeto

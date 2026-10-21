@@ -4,14 +4,14 @@ content-type: how-to
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Configurar assinaturas de evento no Workfront
-description: Como administrador do Adobe Workfront, você pode criar, exibir e excluir assinaturas de eventos na área Configuração para enviar eventos do Workfront para um endpoint externo.
+description: Os administradores do Workfront podem criar, exibir e excluir assinaturas de eventos da Configuração. Os usuários com o acesso necessário também podem gerenciar assinaturas de eventos dentro do escopo permitido por suas permissões e configuração do sistema.
 feature: System Setup and Administration
 role: Admin
 author: Courtney
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 9%
+source-wordcount: '452'
+ht-degree: 8%
 ---
 
 # Configurar assinaturas de evento no Workfront
@@ -21,6 +21,8 @@ ht-degree: 9%
 Como administrador do Adobe Workfront, você pode criar, exibir e excluir assinaturas de eventos na área Configuração. As assinaturas de evento enviam informações de evento do Workfront para um endpoint externo quando eventos especificados ocorrem.
 
 Você pode criar e excluir assinaturas de evento no Workfront, mas não pode editar uma assinatura existente. Se precisar alterar uma assinatura, exclua-a e crie uma nova.
+
+Os usuários que têm o acesso necessário também podem gerenciar assinaturas de eventos no Workfront, mas somente dentro do escopo permitido por suas permissões e configuração do sistema. Para obter mais informações, consulte [Gerenciar assinaturas de evento como um usuário não administrador](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 Para obter mais informações sobre assinaturas de eventos, consulte os artigos em [Assinaturas de Eventos](/help/quicksilver/wf-api/api/event-subscriptions.md).
 
@@ -45,7 +47,10 @@ Para obter mais informações sobre assinaturas de eventos, consulte os artigos 
   </tr>
   <tr>
    <td role="rowheader">Configurações de nível de acesso</td>
-   <td>Você deve ser um administrador do Workfront.</td>
+   <td>
+    <p>Você deve ter o acesso apropriado para gerenciar assinaturas de evento.</p>
+    <p>Usuários não administradores podem ter acesso somente ao escopo permitido por suas permissões e pela configuração do sistema.</p>
+   </td>
   </tr>
  </tbody>
 </table>

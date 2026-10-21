@@ -11,9 +11,9 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 85f0798c7956369e7b3c92a6c777414fa81511b6
+source-git-commit: 05f148f2c28555e37fb415f606e314a5df564047
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '463'
 ht-degree: 8%
 ---
 # Adicionar um link da Web como um documento
@@ -64,7 +64,7 @@ Você pode fazer upload de uma página da Web html para o Workfront como um link
 >* Os URLs são suportados se o site permitir incorporações de iFrame.
 >* URLs da Web privados são suportados, mas determinados fluxos de autenticação podem não funcionar, dependendo da configuração do servidor.
 >* No momento, não há suporte para URLs do Youtube e do Figma.<br>
->Para obter mais informações, consulte [Que tipos de URLs são suportados no Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported).
+>Para obter mais informações, consulte [HTML Review for Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
 
 
 Para adicionar um link da Web:

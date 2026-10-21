@@ -52,7 +52,7 @@ Todos os desenvolvedores trabalham constantemente em seus aplicativos e lançam 
 <!--
 ### [!DNL Flash Player] Plugin Version
 
-To check your current [!DNL Flash Player] version visit the [[!DNL Adobe] website](http://www.adobe.com/software/flash/about/).
+To check your current [!DNL Flash Player] version visit the [[!DNL Adobe] website](http://www.adobe.com/br/software/flash/about/).
 
 ![ProofView_2.png](assets/proofview-2-350x199.png)
 

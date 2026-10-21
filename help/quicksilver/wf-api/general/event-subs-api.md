@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 88%
+source-wordcount: '3623'
+ht-degree: 85%
 ---
 # API de Assinatura de evento
 
@@ -45,7 +45,7 @@ Como as assinaturas de evento enviam dados para outro serviço, elas são gerenc
 
 >[!NOTE]
 >
->Para trabalhar com assinaturas de evento no aplicativo Workfront, consulte [Configurar assinaturas de evento no Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+>Para trabalhar com assinaturas de evento no aplicativo Workfront, consulte [Configurar assinaturas de evento no Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) e [Gerenciar assinaturas de evento como um usuário não administrador](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 Para receber conteúdos de assinaturas de evento por meio do firewall, você deve adicionar os seguintes endereços IP à lista de permissões:
 
@@ -118,12 +118,14 @@ Os seguintes objetos do Workfront são compatíveis com assinaturas de evento.
 
 ## Autenticação da assinatura de evento
 
-Para criar, consultar ou excluir uma assinatura de evento, o usuário do Workfront precisa do seguinte:
+Para criar, consultar ou excluir uma assinatura de evento, o usuário do Workfront deve ter o acesso necessário ao recurso Assinaturas de evento e as permissões apropriadas para a ação que está sendo executada.
 
-* Um nível de acesso de “Admin do sistema” é exigido para usar assinaturas de evento.
-* Um cabeçalho `sessionID` é exigido para usar a API de assinaturas de evento
+* Um usuário com o acesso necessário pode gerenciar assinaturas de eventos no Workfront, mas somente dentro do escopo permitido por suas permissões e configuração do sistema.
+* Um cabeçalho `sessionID` é necessário para usar a API de Assinaturas de Eventos.
 
   Para obter mais informações, consulte [Autenticação](api-basics.md#authentication) em [Noções básicas sobre API](api-basics.md).
+
+Para obter informações sobre como gerenciar assinaturas de eventos no aplicativo do Workfront quando você não é um administrador do Workfront, consulte [Gerenciar assinaturas de eventos como um usuário não administrador](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 ## Evitar sobrecarregar as assinaturas de evento
 
