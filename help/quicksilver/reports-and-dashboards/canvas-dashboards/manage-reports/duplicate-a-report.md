@@ -25,14 +25,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 12%
+source-wordcount: '568'
+ht-degree: 14%
 ---
 # Copiar e mover relatórios nos Painéis do Canvas
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -93,28 +91,8 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 Para obter mais informações, consulte [Criar um painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplicação de um relatório na produção
 
-{{step1-to-dashboards}}
-
-1. No painel esquerdo, clique em **Painéis do Canvas**.
-1. Na página **Painéis da Tela**, clique no ícone **Mais** ![Mais](assets/more-icon.png) no canto superior direito do relatório que você deseja duplicar e selecione **Duplicar**.
-
-   ![Botão duplicado](assets/duplicate-button.png)
-
-1. (Opcional) Na caixa **Configurar** exibida, insira um novo relatório **Nome** na guia **Detalhes**.
-
-1. (Opcional) Faça os ajustes necessários nas configurações usando as guias no lado esquerdo.
-
-   >[!NOTE]
-   >
-   >Essas guias variam dependendo se você duplicou um relatório de KPI, tabela ou gráfico.  Para obter mais informações, consulte [Criar um relatório de KPI em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Criar um relatório de gráfico em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) e [Criar um relatório de tabela em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
-
-1. Clique em **Salvar**. O relatório duplicado é exibido no painel.
-
-<div class="preview">
-
-## Copiar ou mover um relatório na Visualização
+## Copiar ou mover um relatório
 
 Você pode copiar um relatório para o painel atual, copiá-lo para outro painel ou movê-lo para outro painel. Copiar cria uma duplicata do relatório no destino; mover realoca-o do painel atual.
 
@@ -160,4 +138,3 @@ Para copiar ou mover um relatório:
 
    ![copiar e mover](assets/copy-and-move.png)
 
-</div>

@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b5e412f9131f469cd926b20a4879bb638eda7ffb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 8%
 ---
 # Adicionar uma atualização a um documento
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -112,9 +110,7 @@ Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova 
    ![Painel de comentários de novo documento](assets/comments-new-doc.png)
 
 
-<div class="preview">
-
-### Indicador de comentário do Frame.io na Visualização
+### Indicador de comentário do Frame.io
 
 Quando um workflow de aprovação é criado para um documento, os usuários podem deixar comentários e fazer anotações no visualizador Frame.io. Esses comentários não são exibidos no painel Comentários do Workfront, mas você pode visualizá-los no visualizador Frame.io.
 
@@ -125,5 +121,3 @@ O painel Comentários no Workfront exibe uma mensagem que informa quando novos c
 >[!NOTE]
 >
 >* Se você tiver uma licença Frame.io Enterprise, poderá exibir comentários no visualizador Frame.io sem um fluxo de trabalho de aprovação.
-
-</div>

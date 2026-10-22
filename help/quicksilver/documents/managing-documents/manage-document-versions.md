@@ -26,16 +26,14 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1130'
 ht-degree: 4%
 ---
 # Gerenciar versões de documentos
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 É possível gerenciar várias versões de um documento no Workfront.
 
@@ -162,9 +160,7 @@ Para excluir uma versão do documento:
 
    ![Excluir a versão do documento](assets/more-versions-350x143.png)
 
-<div class="preview">
-
-## Gerenciar versões do documento na nova área Documentos em Visualização
+## Gerenciar versões do documento na nova área Documentos
 
 Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -239,12 +235,6 @@ O Workfront numera cada versão na ordem em que ela é carregada (por exemplo, V
    >
    >A exclusão de uma versão não altera os números das outras versões. Por exemplo, se você excluir a V3 de um documento com as versões V1 a V5, as versões restantes manterão seus números originais e não haverá a V3 posteriormente. A próxima versão da qual você fizer upload será a V6.
 
-</div>
+### Visualizar o arquivo atual durante uma aprovação
 
-<!--
-
-### View the current file during an approval
-
-If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
-
--->
+Se um documento for um arquivo Creative Cloud (por exemplo, um documento na nuvem do Photoshop) e alguém o editar enquanto uma aprovação estiver em andamento, o Workfront mostrará uma seção **Arquivo atual** com um selo indicando que existem novas atualizações no documento ativo, separadas da versão sob aprovação.

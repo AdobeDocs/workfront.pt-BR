@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 4%
 ---
 # Utilizar painéis da tela
@@ -110,9 +110,9 @@ Você pode personalizar temporariamente relatórios de tabela em painéis. Essas
    >
    >Essas alterações se aplicam somente à sessão atual e não afetam a configuração original do relatório. Para tornar permanentes essas alterações, é necessário editar o relatório.
 
-<div class="preview">
 
-### Detalhar dados de tabela dinâmica em Visualização
+
+### Detalhar dados da tabela dinâmica
 
 Você pode clicar em um valor em um relatório de tabela dinâmica para detalhar e ver os registros individuais que compõem esse valor agregado.
 
@@ -126,7 +126,7 @@ Você pode clicar em um valor em um relatório de tabela dinâmica para detalhar
 
    A tabela de drill-down exibe as colunas que o criador do relatório configurou nas Configurações de Coluna de Drilldown. Para obter mais informações, consulte [Criar um relatório de tabela dinâmica em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
-</div>
+
 
 
 <!--
