@@ -7,9 +7,9 @@ description: Você pode habilitar o armazenamento em nuvem da Adobe para que sua
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 5d487a068f747eb538775846cca80ab5a3a612bf
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '647'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 5%
 
 O armazenamento em nuvem da Adobe é uma solução de armazenamento unificada baseada em nuvem que serve como repositório central para ativos em produtos corporativos da Adobe. Este artigo descreve como ativar o Adobe Cloud Storage como a opção de armazenamento padrão para toda a organização ou para grupos específicos.
 
-Essa é a única ação que ativa a nova experiência: depois de habilitá-la, novos projetos usam o armazenamento em nuvem do Adobe, que inclui o visualizador Frame.io e Aprovações unificadas. Nada é alterado até que você opte por habilitar o armazenamento na nuvem do Adobe.
+>[!IMPORTANT]
+>
+>Nada é alterado em seu ambiente até que você ative o armazenamento na nuvem do Adobe na área Configuração do workfront.<br>
+>Depois de habilitar o armazenamento em nuvem do Adobe, somente novos projetos usam o armazenamento em nuvem do Adobe, que inclui o visualizador de Frame.io e Aprovações unificadas. Seus projetos existentes continuam a usar o armazenamento atual e permanecem intactos.
 
 Como você controla o tempo, pode testar a experiência, atualizar seus cenários do Workfront Fusion e planejar as alterações de relatório antes que qualquer pessoa trabalhe neles. Para obter mais informações sobre as diferenças e como planejar a implantação, consulte [Mover para o Workfront no Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
