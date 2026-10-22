@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 8%
@@ -100,7 +100,7 @@ Você pode enviar um tíquete de suporte do portal de autoatendimento [!DNL Expe
 >Somente contatos de suporte autorizados (ou usuários autorizados) podem enviar tíquetes de suporte online.
 
 
-1. No site [[!DNL Experience League]](https://experienceleague.adobe.com/pt-br), clique em **[!UICONTROL Suporte]** na parte superior da página.
+1. No site [[!DNL Experience League]](https://experienceleague.adobe.com), clique em **[!UICONTROL Suporte]** na parte superior da página.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -142,7 +142,7 @@ Em caso de dúvidas ou problemas ao enviar uma solicitação, entre em contato c
 
 1. Navegue até a página **[!UICONTROL Meus Casos]**. Esta página é aberta quando você envia um caso ou você pode abri-la clicando em **[!UICONTROL Meus Casos]** na navegação à esquerda.
 
-1. (Opcional) Use as opções na parte superior da página para filtrar por **Produto ([!DNL Experience Cloud] solução)** ou caso **[!UICONTROL Status]** ([!UICONTROL Abrir] ou Closed). Você também pode usar a caixa [!UICONTROL pesquisar] para procurar quaisquer palavras-chave relacionadas aos seus casos de suporte.
+1. (Opcional) Use as opções na parte superior da página para filtrar por **Produto ([!DNL CX Enterprise] solução)** ou caso **[!UICONTROL Status]** ([!UICONTROL Aberto] ou [!UICONTROL Fechado]). Você também pode usar a caixa [!UICONTROL pesquisar] para procurar quaisquer palavras-chave relacionadas aos seus casos de suporte.
 
 1. (Opcional) Para exibir mais detalhes sobre uma ocorrência, clique no **Número da Ocorrência** para acessá-la.
 
@@ -156,7 +156,7 @@ Em caso de dúvidas ou problemas ao enviar uma solicitação, entre em contato c
 
 
 <!--
-drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=pt)
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

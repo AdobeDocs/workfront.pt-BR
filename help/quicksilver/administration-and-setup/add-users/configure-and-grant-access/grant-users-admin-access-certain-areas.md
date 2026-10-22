@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 11%
 ---
 # Conceder aos usuários acesso administrativo a determinadas áreas
-
-{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -95,9 +93,9 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
       <td><p>Crie e gerencie processos de aprovação para uso em todo o sistema e para grupos específicos.</p><p>Sem esse acesso, os usuários podem criar apenas processos de aprovação ad hoc em itens que eles tenham acesso para gerenciar.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="preview">Histórico de alterações</span></td> 
-      <td><p><span class="preview">Exiba os logs do histórico de alterações do Workfront em Configurar &gt; Controle de alterações &gt; Lista do histórico de alterações.</span></p>
-      <p><span class="preview">Sem esse acesso, os usuários não terão essa opção na área Configuração.</span></p></td> 
+      <td role="rowheader">Histórico de alterações</td> 
+      <td><p>Exiba os logs do histórico de alterações do Workfront em Configurar &gt; Controle de alterações &gt; Lista do histórico de alterações.</p>
+      <p>Sem esse acesso, os usuários não terão essa opção na área Configuração.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Empresas</td> 

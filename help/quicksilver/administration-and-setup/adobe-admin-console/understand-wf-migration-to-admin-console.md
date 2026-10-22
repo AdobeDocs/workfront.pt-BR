@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Como administrador do Perfil de produto do Workfront (administrador do Workfront
 
 * **À medida que os usuários forem migrados, eles receberão um email da Adobe notificando-os sobre a alteração na maneira como entram no Workfront.** Os usuários serão convidados a aceitar um convite para fazer logon usando a Adobe Identity pela primeira vez, fazendo logon com uma Adobe ID existente ou configurando uma nova Adobe ID usando o mesmo endereço de email.
 
-  Para obter informações sobre como fazer logon no Workfront com uma Adobe ID, consulte [Fazer logon na Adobe Experience Cloud](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
+  Para obter informações sobre como fazer logon no Workfront com uma Adobe ID, consulte [Fazer logon no Adobe CX Enterprise](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-cx-enterprise).
 
 ### Migração de usuário concluída
 

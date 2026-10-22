@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: '3388'
+source-wordcount: '3386'
 ht-degree: 2%
 ---
 # Configurar Minhas Definições
@@ -370,7 +370,7 @@ Especifique o que deseja exibir na interface do [!DNL Workfront] nesta seção.
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Local de Email]</strong> </td> 
    <td><p>Especifique seu idioma preferido aqui. Controla o idioma, a data e o formato do número usados nas mensagens de email de saída.</p>
-   <p><strong>OBSERVAÇÃO:</strong> quando sua organização está na Experiência unificada do Adobe, as preferências de idioma são armazenadas em seu perfil do Adobe e a localidade de email não é usada. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Alterar o idioma da Adobe Experience Cloud</a> no artigo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas com suporte na Adobe Workfront</a>.</p></td> 
+   <p><strong>OBSERVAÇÃO:</strong> quando sua organização está na Experiência unificada do Adobe, as preferências de idioma são armazenadas em seu perfil do Adobe e a localidade de email não é usada. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-cx-enterprise-language">Alterar o idioma do Adobe CX Enterprise</a> no artigo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas com suporte no Adobe Workfront</a>.</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL Definir automaticamente o status da tarefa como Em Andamento quando as tarefas forem autoatribuídas]</strong> </td>
   <td>Selecione esta opção se quiser que o status do trabalho atribuído a você mesmo seja automaticamente definido como Em andamento em vez de Novo.</td>

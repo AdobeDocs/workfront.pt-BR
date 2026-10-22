@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 3%
+source-wordcount: '638'
+ht-degree: 4%
 ---
 # Substituir taxas de cobrança de função de trabalho no nível da empresa
-
-{{preview-fast-release-general}}
 
 Quando uma função de trabalho é criada, você tem a opção de selecionar uma taxa de cobrança por hora para essa função. Você pode criar várias taxas de faturamento por hora específicas para uma empresa. Cada taxa de faturamento é efetiva para uma faixa de datas específica.
 
@@ -74,38 +72,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. Localize a empresa à qual a função de trabalho está atribuída.
 1. Clique no nome da empresa na lista.
 1. Clique em **[!UICONTROL Taxas de cobrança]** no painel esquerdo.
-1. Clique em **[!UICONTROL Adicionar Taxa de Cobrança] > [!UICONTROL Nova Taxa de Cobrança]** ou <span class="preview">**Adicionar Taxa de Cobrança**</span>.
+1. Clique em **[!UICONTROL Adicionar taxa de cobrança]**.
 1. Na caixa de diálogo [!UICONTROL Nova taxa de cobrança], selecione uma [!UICONTROL **Função de trabalho**] para definir a taxa de cobrança para.
-
-### No ambiente de produção:
-
-A [!UICONTROL **Taxa de Cobrança Padrão**] exibe a taxa no nível do sistema para esta função de trabalho.
-
-![Caixa de diálogo Nova Taxa de Cobrança](assets/date-effective-billing-rates-for-company.png)
-
-1. No campo [!DNL **Taxas de Cobrança 1**], insira a taxa de cobrança. Em seguida, clique em [!UICONTROL **Salvar**] para substituir a taxa de cobrança uma vez.
-
-   Ou
-
-   Clique em [!UICONTROL **Adicionar taxa**] para adicionar mais taxas de cobrança com datas efetivas.
-
-1. (Condicional) Se você estiver adicionando mais de uma taxa de faturamento, especifique as seguintes informações:
-
-   * **[!UICONTROL Taxas de Cobrança 1], 2, etc.**: o valor da taxa de cobrança para o período de tempo.
-   * **[!UICONTROL Data de Início]**: a data quando a taxa se torna efetiva.
-   * **[!UICONTROL Data de término]**: a data em que a taxa termina.
-
-     A Taxa de Cobrança 1 não terá uma data inicial e a última taxa de cobrança não terá uma data final. Algumas datas são adicionadas automaticamente. Por exemplo, se a Taxa de cobrança 1 não tiver uma data final e você adicionar a Taxa de cobrança 2 com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à Taxa de cobrança 1 para que não haja lacunas.
-
-1. Clique em [!UICONTROL **Salvar**].
-
-   >[!NOTE]
-   >
-   >As taxas de função de trabalho alteradas no projeto afetarão somente esse projeto. As taxas alteradas no nível da empresa afetarão todos os projetos. Para obter mais informações, consulte [Visão geral da substituição de taxas de cobrança e do cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
-
-<div class="preview">
-
-### No ambiente de Pré-visualização:
 
 1. Selecione atributos para a taxa, como Agência, Local ou Centro de Custo.
 
@@ -145,5 +113,35 @@ A [!UICONTROL **Taxa de Cobrança Padrão**] exibe a taxa no nível do sistema p
    >
    >As taxas de função de trabalho alteradas no projeto afetarão somente esse projeto. As taxas alteradas no nível da empresa afetarão todos os projetos aos quais a empresa está atribuída. Para obter mais informações, consulte [Visão geral da substituição de taxas de cobrança e do cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-</div>
+
+
+
+<!--
+
+   The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
+
+   ![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)
+
+1. In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.
+
+   Or
+
+   Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.
+
+1. (Conditional) If you are adding more than one billing rate, enter the following information:
+
+   * **[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.
+   * **[!UICONTROL Start Date]**: The date when the rate becomes effective.
+   * **[!UICONTROL End Date]**: The date when the rate ends.
+
+     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+
+1. Click [!UICONTROL **Save**].
+
+   >[!NOTE]
+   >
+   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+-->
+
 
