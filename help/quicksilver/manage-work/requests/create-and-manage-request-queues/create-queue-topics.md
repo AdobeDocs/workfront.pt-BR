@@ -35,14 +35,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '991'
 ht-degree: 6%
 ---
 # Criar tópicos de fila
-
-{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -206,8 +204,7 @@ Para editar um Tópico de Fila existente:
 
 1. Vá para o projeto ou modelo que contém o Tópico da fila que deseja editar.
 1. Clique em **Enfileirar tópicos** no painel esquerdo.
-1. Clique no tópico da fila que deseja editar.
-   <span class="preview">Marque a caixa de seleção ao lado do tópico da fila que você deseja editar e clique em **Editar** na barra de ação azul na parte inferior da tela.</span>
+1. Marque a caixa de seleção ao lado do tópico da fila que você deseja editar e clique em **Editar** na barra de ação azul, na parte inferior da tela.
 
 Para obter informações sobre as opções de edição disponíveis, consulte [Criar um tópico da fila](#create-a-queue-topic) neste artigo.
 
@@ -218,6 +215,5 @@ Para obter informações sobre as opções de edição disponíveis, consulte [C
 1. Vá para o projeto ou modelo que contém o Tópico da fila que deseja excluir.
 1. Clique em **Enfileirar tópicos** no painel esquerdo.
 1. Clique na caixa ao lado do nome de cada Tópico da Fila que você deseja excluir. Uma marca de seleção aparece na caixa.
-1. Clique no ícone **Excluir** ![Ícone Excluir](assets/delete-icon.png) na parte superior da página.
-   <span class="preview">Clique em **Excluir** na barra de ações na parte inferior da tela.</span>
+1. Clique em **Excluir** na barra de ações na parte inferior da tela.
 

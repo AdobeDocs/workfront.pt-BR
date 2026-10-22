@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 16%
+source-wordcount: '237'
+ht-degree: 18%
 ---
 # Excluir uma condição personalizada
-
-{{preview-fast-release-general}}
 
 Você poderá excluir uma condição personalizada se ela não for mais necessária.
 
@@ -67,11 +65,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 {{step-1-to-setup}}
 
 1. Clique em **Preferências do projeto** > **Condições**.
-
 1. Selecione a guia do tipo de objeto (**Projeto**, **Tarefa** ou **Problema**) onde está localizada a condição que você deseja excluir.
-1. No ambiente de Produção, clique em **Excluir** ao lado do nome da condição que deseja excluir.
-   <span class="preview">No ambiente de Visualização, marque a caixa de seleção ao lado do nome da condição que você deseja excluir e clique em **Excluir** na barra de ações na parte inferior da tela.</span>
-
+1. Marque a caixa de seleção ao lado do nome da condição que você deseja excluir e clique em **Excluir** na barra de ações, na parte inferior da tela.
 1. Na caixa **Excluir condição** exibida, selecione uma nova condição na lista suspensa para todos os projetos, tarefas ou problemas que estavam usando a condição que você está excluindo.
 
    As condições personalizadas só estarão disponíveis na lista suspensa se forem equivalentes à mesma condição interna que aquela que você está excluindo. Por exemplo, se você estiver excluindo uma condição que equivale a Em risco, apenas condições personalizadas que também equivalem a Em risco estarão disponíveis para seleção.

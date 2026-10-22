@@ -32,14 +32,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1345'
 ht-degree: 4%
 ---
 # Organizar e pré-visualizar um formulário
-
-{{preview-fast-release-general}}
 
 Você pode organizar um formulário personalizado com o designer do formulário e visualizá-lo para verificar se ele está configurado corretamente.
 
@@ -197,11 +195,4 @@ Em um formulário personalizado com uma quebra de seção configurada com a perm
 1. Comece a criar ou editar um formulário personalizado e adicionar campos, conforme descrito em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Clique em **Visualizar** no canto superior direito para ver como o formulário será exibido quando estiver sendo usado e clique em **Finalizar Visualização** para retornar à edição do formulário.
-
-   >[!NOTE]
-   >
-   >No ambiente de Produção, a lógica avançada não é compatível com o modo de visualização do designer de formulário.
-   >
-   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
-
 

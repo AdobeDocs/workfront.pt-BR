@@ -34,14 +34,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '8284'
+source-wordcount: '8130'
 ht-degree: 75%
 ---
 # Criar um formulário personalizado
-
-{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -487,33 +485,8 @@ Para adicionar botões de opção, grupos de caixas de seleção e listas suspen
     </ul></td>
     </tr>
     <tr>
-    <td role="rowheader">Seleções </td> 
-    <td> 
-    <p>Selecione qualquer uma das seguintes opções:</p> 
-    <ul> 
-    <li><strong>Mostrar valores</strong>: mostra os valores de cada escolha no campo. O rótulo de cada escolha é exibido por padrão.</li>
-   <li><strong>Classificar escolhas de A a Z</strong>: classifica as escolhas adicionadas em ordem alfabética no campo.</li>
-    </ul>
-     <p>Para cada escolha adicionada para o usuário, clique no ícone de engrenagem <img src="assets/gear-icon-settings.png"> e selecione uma das seguintes opções:</p> 
-    <ul> 
-    <li><strong>Selecionar por padrão</strong>: selecione a escolha por padrão no campo.</li> 
-    <li> <p><strong>Ocultar escolha</strong>: oculta a escolha no campo. As escolhas ocultas permanecem acessíveis nos relatórios.</p> </li> 
-    <li> <p><strong>Remover escolha</strong>: remova a escolha do campo.</p> <p><b>Aviso</b>: se você tiver objetos atuais usando essa escolha, não a remova do campo. A remoção fará com que os dados históricos sejam perdidos. Em vez disso, selecione a opção para ocultá-la, o que impede que os usuários a selecionem no futuro.</p> </li> 
-    </ul>   
-    <p><b>Observação:</b> não há limite para a quantidade de opções que você pode selecionar. </p>    
-    </td> 
-    <td><ul>
-    <li>Botões de opção</li>
-    <li>Grupo de caixas de seleção</li>
-    <li>Menu suspenso de seleção única</li>
-    <li>Menu suspenso de seleção múltipla</li>
-    </ul>
-    </td>
-     </tr>
-    <tr>
-    <td role="rowheader"><span class="preview">Seleções</span></td> 
+    <td role="rowheader">Seleções</td> 
     <td>
-    <div class="preview">
     <p>Clique em <strong>Editar opções</strong> para adicionar ou editar opções para o campo.</p>
     <p>Para adicionar uma nova opção na caixa de diálogo Editar opções:</p>
     <ol>
@@ -530,13 +503,12 @@ Para adicionar botões de opção, grupos de caixas de seleção e listas suspen
     <li>Clique em <strong>Classificar seleções de A a Z</strong> para classificar as seleções em ordem alfabética no campo.</li>
     </ul>
     <p>Clique em <strong>Salvar</strong> quando terminar de editar as opções.</p>
-    </div>
     </td> 
     <td><ul>
-    <li><span class="preview">Botões de opção</span></li>
-    <li><span class="preview">Grupo de caixas de seleção</span></li>
-    <li><span class="preview">Menu suspenso de seleção única</span></li>
-    <li><span class="preview">Menu suspenso de seleção múltipla</span></li>
+    <li>Botões de opção</span></li>
+    <li>Grupo de caixas de seleção</span></li>
+    <li>Menu suspenso de seleção única</span></li>
+    <li>Menu suspenso de seleção múltipla</span></li>
     </ul>
     </td>
     </tr> 
@@ -576,6 +548,37 @@ Para adicionar botões de opção, grupos de caixas de seleção e listas suspen
    Ou
 
    Clique em **Salvar e fechar**.
+
+
+<!--
+
+    <tr>
+    <td role="rowheader">Choices </td> 
+    <td> 
+    <p>Select any of the following options:</p> 
+    <ul> 
+    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li>
+   <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li>
+    </ul>
+     <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
+    <ul> 
+    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
+    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
+    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+    </ul>   
+    <p><b>Note:</b> There is no limit for how many choices you can select. </p>    
+    </td> 
+    <td><ul>
+    <li>Radio buttons</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
+    </ul>
+    </td>
+    </tr>
+
+-->
+
 
 <!--
 

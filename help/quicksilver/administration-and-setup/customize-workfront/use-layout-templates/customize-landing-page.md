@@ -32,21 +32,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 15%
+ht-degree: 16%
 ---
 # Personalizar a página de aterrissagem usando um modelo de layout
-
-{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para especificar a área que os usuários devem ver sempre que fizerem logon no Workfront.
 
 Os usuários podem abrir uma das seguintes opções:
 
 * Uma área designada do Workfront
-* Um painel personalizado.
+* Um painel personalizado
 
 Para obter informações sobre como criar modelos de layout, consulte [Criar e gerenciar modelos de layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -114,11 +112,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * Usuários
    * Blueprints
    * Em Planejamento
-   * <span class="preview">Aplicativo personalizado</span>
+   * Aplicativo personalizado
 
      >[!NOTE]
      >
-     ><span class="preview">Os aplicativos personalizados que já foram adicionados ao Menu Principal estão disponíveis para uso como página de aterrissagem. Eles devem ser criados separadamente antes de serem disponibilizados como Menu principal ou Opções de página de aterrissagem. Para obter mais informações, consulte [Criar um aplicativo personalizado para o Workfront com o Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
+     >Os aplicativos personalizados que já foram adicionados ao menu principal estão disponíveis para uso como uma página de aterrissagem. Eles devem ser criados separadamente antes de serem disponibilizados como Menu principal ou Opções de página de aterrissagem. Para obter mais informações, consulte [Criar um aplicativo personalizado para o Workfront com o Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
    >[!IMPORTANT]
    >

@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 7%
+source-wordcount: '318'
+ht-degree: 8%
 ---
 # Configurar locais
-
-{{preview-fast-release-general}}
 
 Você pode configurar as localizações padrão disponíveis para designar como atributos a funções de trabalho em cartões de taxa. Isso garante que os cartões de taxa reflitam com precisão as taxas de mercado em cada local.
 
@@ -62,13 +60,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em [!UICONTROL **Locais**].
-1. No ambiente de Produção, clique em [!UICONTROL **Adicionar mais locais**] na parte inferior da lista.
-   <span class="preview">No ambiente de Visualização, clique em [!UICONTROL **Nova linha**] na parte inferior da lista.</span>
-
+1. Clique em [!UICONTROL **Nova linha**] na parte inferior da lista.
 1. Insira o nome e a descrição do local.
 1. Clique fora da linha para salvar o local.
-1. Para excluir um local no ambiente de Produção, selecione-o na lista e clique no ícone **Excluir** ![Ícone Excluir](assets/delete.png).
-   <span class="preview">Para excluir um local no ambiente de Visualização, selecione-o na lista e clique em [!UICONTROL **Excluir**] na barra de ações na parte inferior da tela.</span>
+1. Para excluir um local, selecione-o na lista e clique em [!UICONTROL **Excluir**] na barra de ações, na parte inferior da tela.
 
 >[!NOTE]
 >
@@ -85,18 +80,12 @@ Cada sublocal pode ser adicionado como um atributo em um cartão de taxa da mesm
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em [!UICONTROL **Locais**].
-1. No ambiente de Produção, selecione um local existente na lista e clique em [!UICONTROL **Adicionar sublocal**].
-   <span class="preview">No ambiente de Visualização, selecione um local existente na lista e clique em [!UICONTROL **Adicionar sublocal**] na barra de ações na parte inferior da tela.</span>
-
+1. Selecione um local existente na lista e clique em [!UICONTROL **Adicionar sublocal**] na barra de ações na parte inferior da tela.
 1. Insira o nome e a descrição do local.
 1. Clique fora da área de entrada para salvar o local.
 
    O sublocal é recuado abaixo do local de nível superior.
 
-   Imagem de amostra no ambiente de produção:
-   ![Locais e sublocais](assets/locations-sublocations.png)
-
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Locais e sublocais](assets/locations-sublocations-082526.png)
 
 
