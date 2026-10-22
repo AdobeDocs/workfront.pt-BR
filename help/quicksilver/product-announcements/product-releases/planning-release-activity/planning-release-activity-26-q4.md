@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: f18e4b5c5ae56df3923879a2f58d44ffc4184480
+source-git-commit: a3f75cbd27f4e881e7a49a77675c55345aab95f9
 workflow-type: tm+mt
 source-wordcount: '3425'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Agora é possível habilitar um espaço de trabalho existente do Workfront Plann
 
 Usando projetos de armazenamento do GenStudio Adobe, você pode mapear os tipos de registro e campos do Planning para os tipos de registro e campos do espaço de trabalho do GenStudio e, em seguida, acessar as informações do espaço de trabalho do Planning no GenStudio a partir do alternador de projetos.
 
-Para obter informações, consulte [Promover um espaço de trabalho do Adobe Workfront Planning para o GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md).
+Para obter informações, consulte [Habilitar um espaço de trabalho do Adobe Workfront Planning para o GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
 
 ## Tipos de ativação criativa dinâmica do Meta
 
