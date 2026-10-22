@@ -40,14 +40,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 2%
 ---
 # Configurar a integração do [!DNL SharePoint]
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -153,8 +151,8 @@ Para exibir e gerenciar as integrações do [!DNL SharePoint] da sua organizaç�
 
    Uma lista das integrações [!DNL SharePoint] da sua organização é exibida.
 
-1. (Opcional) Para editar uma integração do [!DNL SharePoint], marque a caixa de seleção ao lado dela e clique em **[!UICONTROL Editar]** <span class="preview">na barra azul na parte inferior da tela</span>.
-1. <span class="preview">(Opcional) Para desabilitar uma integração do [!DNL SharePoint], marque a caixa de seleção ao lado dela e clique em **[!UICONTROL Desabilitar]** na barra azul na parte inferior da tela.</span>
+1. (Opcional) Para editar uma integração do [!DNL SharePoint], marque a caixa de seleção ao lado dela e clique em **[!UICONTROL Editar]** na barra azul na parte inferior da tela.
+1. (Opcional) Para desabilitar uma integração com o [!DNL SharePoint], marque a caixa de seleção ao lado dela e clique em **[!UICONTROL Desabilitar]**, na barra azul, na parte inferior da tela.
 
 ## Informações de segurança, acesso e autorização para a integração do [!DNL SharePoint]
 
@@ -199,8 +197,8 @@ Se um ativo foi carregado pela primeira vez para [!DNL Workfront] e enviado para
 
 Para garantir que seus usuários tenham acesso contínuo a documentos vinculados ao Workfront por meio da integração herdada do [!DNL SharePoint], você deve reconfigurar o acesso à integração herdada do [!DNL SharePoint] e manter o Segredo do Cliente do SharePoint atualizado.
 
-* [Reconfigurar o acesso à integração herdada  [!DNL SharePoint] &#x200B;](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Configure o Segredo do Cliente para obter acesso contínuo à integração herdada  [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Reconfigurar o acesso à integração herdada  [!DNL SharePoint] ](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Configure o Segredo do Cliente para obter acesso contínuo à integração herdada  [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Reconfigurar o acesso à integração herdada [!DNL SharePoint]
 
@@ -213,7 +211,7 @@ A reconfiguração da integração herdada [!DNL SharePoint] permite que seus us
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
 1. Selecione **[!UICONTROL Documentos]** na navegação à esquerda e **[!UICONTROL Provedores de nuvem]**.
-1. Verifique se as opções **[!DNL SharePoint]** e **[!UICONTROL [!DNL SharePoint] (API gráfica)]** estão habilitadas.
+1. Verifique se as opções **[!DNL SharePoint]** e **[!UICONTROL [!DNL SharePoint](API gráfica)]** estão habilitadas.
 1. Clique em **[!UICONTROL Salvar]**.
 1. Selecione **[!UICONTROL Documentos]** na navegação à esquerda e **[!UICONTROL [!DNL SharePoint]Integração]**.
 1. Selecione a marca de seleção à esquerda da lista para todas as integrações existentes e selecione **[!UICONTROL Desativar]**.

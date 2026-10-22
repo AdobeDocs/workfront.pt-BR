@@ -30,18 +30,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 5%
+source-wordcount: '1610'
+ht-degree: 6%
 ---
 # Introdução ao Adobe Workfront Planning Designer
 
 <!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -55,7 +59,7 @@ ht-degree: 5%
 
 Você pode usar o Adobe Planning Designer alimentado por IA para configurar facilmente seus espaços de trabalho e estruturas de dados. O Planning Designer oferece suporte a tudo, desde a criação e configuração de espaços de trabalho até a definição de campos e fórmulas, gerenciamento de registros, revisão do histórico de alterações e criação de exibições personalizadas.
 
-Seja usado diretamente, por meio do Assistente de IA ou do <span class="preview"> CX Enterprise Coworker</span>, o Planning Designer fornece um ambiente flexível e eficiente para criar e manter informações estruturadas e conectadas.
+Seja usado diretamente, por meio do Assistente de IA ou do CX Enterprise Coworker, o Planning Designer fornece um ambiente flexível e eficiente para criar e manter informações estruturadas e conectadas.
 
 Para obter informações sobre o Workfront Planning, consulte os seguintes artigos:
 
@@ -215,15 +219,15 @@ Sargis and Ashot  said these are not required:
 -->
 
 * O administrador do Workfront deve ativar o Planning Designer para sua organização. Depois disso, o Planning Designer estará disponível para todos os usuários, por padrão.
-* Se sua organização tiver assinado um contrato de IA, as ações executadas pelo Planning Designer também poderão ser executadas pelo Assistente de IA ou pelo <span class="preview"> Colaborador</span>, quando você usá-lo na área do Planning.
-* As ações executadas pelo Assistente de IA ou <span class="preview">Colaborador</span> na área de Planejamento ou aquelas executadas pelo Planning Designer estão no contexto das suas permissões do Workfront Planning e do seu nível de acesso do Workfront.
+* Se sua organização tiver assinado um contrato de IA, as ações executadas pelo Designer do Planning também poderão ser executadas pelo Assistente de IA ou Colaborador, quando você usá-lo na área do Planning.
+* As ações executadas pelo Assistente de IA ou Colaborador na área de Planejamento ou aquelas executadas pelo Planning Designer estão no contexto das suas permissões do Workfront Planning e do seu nível de acesso ao Workfront.
 
   Para obter informações, consulte os seguintes artigos:
 
   * [Visão geral das permissões de compartilhamento no Planejamento do Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Visão geral dos tipos de licença ao usar o Planejamento do Adobe Workfront](/help/quicksilver/planning/access/license-type-overview.md)
 
-* As alterações feitas pelo Assistente de IA, <span class="preview">Colaborador</span>, ou pelo Planning Designer em nome do usuário são rastreadas no painel de histórico do registro.
+* As alterações feitas pelo Assistente de IA, Colaborador ou pelo Planning Designer em nome do usuário são rastreadas no painel de histórico do registro.
 
 * As ações realizadas pelo Planning Designer são permanentes e podem ser irreversíveis. Por exemplo, a exclusão de um campo não pode ser revertida. Revise todas as ações propostas pela Designer antes de aceitá-las.
 
@@ -235,7 +239,7 @@ Sargis and Ashot  said these are not required:
 
 ## Funcionalidade atualmente disponível para o Planning Designer
 
-Você pode usar o Planning Designer, o Assistente de IA ou o <span class="preview">Colaborador</span> para executar uma das seguintes ações:
+Você pode usar o Planning Designer, o AI Assistant ou o Colaborador para executar qualquer uma das seguintes ações:
 
 * Criar e configurar espaços de trabalho
 
@@ -274,7 +278,7 @@ Você pode usar o Planning Designer, o Assistente de IA ou o <span class="previe
 
 ## Criar ou atualizar objetos usando o Planning Designer
 
-Você pode criar ou atualizar objetos no Workfront Planning usando o Planning Designer, o AI Assistant ou o <span class="preview"> Co-worker</span>, a menos que especificado de outra forma.
+Você pode criar ou atualizar objetos no Workfront Planning usando o Planning Designer, o AI Assistant ou o Co-worker, a menos que especificado de outra forma.
 
 >[!TIP]
 >
@@ -293,7 +297,7 @@ Você pode criar ou atualizar objetos no Workfront Planning usando o Planning De
 
    ![Janela do Planning Designer](assets/planning-designer-window.png)
 
-1. No espaço fornecido, comece a digitar os prompts do Assistente de IA <span class="preview"> ou Colaborador</span> e, em seguida, clique em Inserir quando terminar.
+1. No espaço fornecido, comece a digitar os prompts do Assistente do AI ou Colaborador e, em seguida, clique em Inserir quando terminar.
 
    <!--add screen shot-->
 

@@ -16,16 +16,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b077c95d8bb795fcd7c0983c78b7533cb8167270
+source-git-commit: da04199570bf7317c4cee5254d8f1fc8a0746c6c
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 5%
 ---
 # Configurar localização personalizada
 
-{{highlighted-preview}}
-
-A localização personalizada permite que você <span class="preview"> use a IA</span> para definir termos e frases personalizados em diferentes idiomas. O Workfront exibe esses termos no conjunto de idiomas nas configurações do Adobe Identity Management (IMS) do usuário.
+A localização personalizada permite usar a IA para definir termos e frases personalizados em diferentes idiomas. O Workfront exibe esses termos no conjunto de idiomas nas configurações do Adobe Identity Management (IMS) do usuário.
 
 Por exemplo, o rótulo &quot;Público-alvo&quot; pode ser localizado para a palavra alemã &quot;Zielgruppe&quot;. Qualquer usuário com o alemão selecionado como idioma principal do navegador verá a palavra &quot;Zielgruppe&quot; como um rótulo para qualquer campo rotulado como &quot;Público-alvo&quot; em inglês.
 
@@ -92,8 +90,6 @@ As traduções são configuradas na área Configuração.
 1. (Opcional) Para reordenar colunas de idioma, clique no cabeçalho de uma coluna que você deseja mover e arraste-a para o local desejado.
 1. (Opcional) Para excluir as traduções de um termo, clique na caixa de seleção ao lado do termo e em **Excluir** na barra azul na parte inferior da página.
 
-<div class="preview">
-
 ## Localizar texto personalizado não traduzido usando traduções de IA
 
 Você pode usar a IA para localizar texto personalizado. Você seleciona o termo e os idiomas e pode aprovar as traduções antes de serem aplicadas.
@@ -149,5 +145,3 @@ Você pode traduzir um termo localizado anteriormente para novos idiomas usando 
 1. Clique em **Salvar**.
 1. (Opcional) Para excluir todas as traduções de um termo, clique na caixa de seleção ao lado do termo e em **Excluir** na barra azul na parte inferior da página.
 
-
-</div>
