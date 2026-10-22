@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8c35fd2f1059bd91de7d6d59db7e447ec6af6a9
+source-git-commit: 4af92ba2774dc7fea7f91df14d8c3cdc8e865025
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 30%
+source-wordcount: '564'
+ht-degree: 28%
 ---
 
 # Visão geral da versão do primeiro trimestre de 2027
@@ -30,7 +30,31 @@ As melhorias nesta página estão disponíveis no ambiente de pré-visualizaçã
 
 ## Aprimoramentos do Adobe Workfront
 
+* [Aprimoramentos de IA](#ai-enhancements)
 * [Aprimoramentos de projeto](#project-enhancements)
+
+### Aprimoramentos de IA
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Recurso</strong>
+            </td>
+            <td><strong>Pré-visualização</strong></td>
+            <td><strong>Lançamento rápido</strong></td>
+            <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Conjuntos de ferramentas do servidor Workfront MCP</a></p>
+                <p>Agora é possível limitar o catálogo do Workfront MCP a conjuntos de ferramentas específicos e filtrar a disponibilidade por direito do produto, para que os clientes de IA acessem apenas os recursos de que precisam.</p>
+            </td>
+            <td><p>21 de outubro de 2026</p></td>
+            <td><p>12 de novembro de 2026</p></td>
+            <td><p>21 de janeiro de 2027</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Aprimoramentos de projeto
 
@@ -98,7 +122,7 @@ Para obter informações sobre taxas de funções de trabalho, consulte [Criar e
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
