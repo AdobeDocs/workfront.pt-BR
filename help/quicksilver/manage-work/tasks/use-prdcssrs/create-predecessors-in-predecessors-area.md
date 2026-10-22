@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '428'
 ht-degree: 8%
 ---
 # Criar uma relação de predecessor usando a área Predecessores
-
-{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -122,7 +120,6 @@ Para criar uma tarefa predecessora para uma tarefa do projeto:
 
 1. Clique em **Salvar**.
 
-1. (Opcional) Para remover um predecessor, selecione-o na lista de predecessores, em seguida, clique no ícone **Remover** ícone ![Remover](assets/remove-or-delete-icon.png).
-   <span class="preview">Para remover um predecessor, selecione-o na lista de predecessores e clique em **Remover** na barra de ações na parte inferior da tela.</span>
+1. (Opcional) Para remover um predecessor, selecione-o na lista de predecessores e clique em **Remover** na barra de ações na parte inferior da tela.
 
    O antecessor é removido da lista. A tarefa predecessora não é excluída de seu projeto.

@@ -30,14 +30,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '483'
 ht-degree: 9%
 ---
 # Criar grupos de tópicos
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -114,4 +112,4 @@ Para criar um Grupo de Tópicos:
    Isso cria um novo Grupo de Tópicos na sua Fila de solicitações. Agora é possível selecionar categorias adicionais no primeiro menu suspenso em uma Fila de solicitações.\
    Para obter mais informações sobre o envio de solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-1. Para editar um Grupo de Tópicos existente, selecione o Grupo de Tópicos na lista Grupos de Tópicos, <span class="preview">clique em **Editar** na barra de ações na parte inferior da tela</span> e edite os detalhes na janela que é aberta. Clique em **Salvar** para salvar as alterações.
+1. Para editar um Grupo de Tópicos existente, marque a caixa de seleção ao lado de Grupo de Tópicos na lista Grupos de Tópicos, clique em **Editar** na barra de ações na parte inferior da tela e edite os detalhes na janela que é aberta. Clique em **Salvar** para salvar as alterações.
