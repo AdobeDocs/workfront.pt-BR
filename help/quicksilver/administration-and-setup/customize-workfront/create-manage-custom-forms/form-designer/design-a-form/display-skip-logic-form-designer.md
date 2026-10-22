@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 039e2feb5b235023f23405bc17f098cf0872e294
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 1%
+source-wordcount: '3574'
+ht-degree: 2%
 ---
 # Adicionar regras de lógica a formulários e campos personalizados
-
-{{preview-fast-release-general}}
 
 As regras lógicas permitem personalizar ainda mais os campos no formulário.
 
@@ -209,12 +207,6 @@ Usando a condição a seguir, o campo KPI Vendido só ficará visível quando o 
 
    A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
 
-   >[!NOTE]
-   >
-   >No ambiente de Produção, a lógica de exibição avançada não é compatível com o modo de visualização do designer de formulário.
-   >
-   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
-
 ## Adicionar lógica de salto a um formulário personalizado
 
 A lógica de salto define campos de formulário personalizados que são ignorados quando o usuário seleciona um valor específico em um campo de múltipla escolha. Os campos ignorados estão ocultos no formulário. A lógica é aplicada ao campo de definição onde a seleção é feita, não aos campos que são ignorados.
@@ -289,12 +281,6 @@ Quando o formulário personalizado é anexado a um projeto e o status do projeto
 
    A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
 
-   >[!NOTE]
-   >
-   >No ambiente de Produção, a lógica do valor padrão não é compatível com o modo de visualização do designer de formulário.
-   >
-   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
-
 ## Adicionar lógica de validação a um formulário personalizado
 
 A lógica de validação é criada usando fórmulas e você pode tornar a lógica tão simples ou complexa quanto necessário. A validação pode ser baseada nos valores de outros campos ou no status dos objetos, e você pode fornecer uma mensagem de erro para quando a validação falhar.
@@ -339,12 +325,6 @@ Para obter mais exemplos de lógica de validação, consulte [Exemplos de lógic
 1. Clique em **Aplicar**.
 
    A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
-
-   >[!NOTE]
-   >
-   >No ambiente de Produção, a lógica de validação não é compatível com o modo de visualização do designer de formulário.
-   >
-   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
 
 ## Adicionar lógica de formatação a um formulário personalizado
 
@@ -405,12 +385,6 @@ IF(
 
    A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
 
-   >[!NOTE]
-   >
-   >No ambiente de Produção, a lógica de formatação não é suportada no modo de visualização do designer de formulário.
-   >
-   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
-
 ## Adicionar lógica de editabilidade a um formulário personalizado
 
 A lógica da capacidade de edição determina se um campo de formulário personalizado pode ser editado ou se é somente leitura. Essa lógica é criada usando fórmulas e, quando o campo atende às condições definidas, pode ser definido como editável ou somente leitura.
@@ -456,10 +430,4 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 1. Clique em **Aplicar**.
 
    A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
-
-   >[!NOTE]
-   >
-   >No ambiente de Produção, a lógica de capacidade de edição não é compatível com o modo de visualização do designer de formulário.
-   >
-   ><span class="preview">No ambiente de Visualização, todos os tipos lógicos estão disponíveis no modo de visualização.</span>
 

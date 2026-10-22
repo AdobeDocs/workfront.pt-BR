@@ -32,14 +32,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '700'
 ht-degree: 11%
 ---
 # Personalizar o menu principal usando um modelo de layout
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -152,18 +150,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * Mostrar ![ícone Mostrar](assets/add-icon-plus-in-circle.png) itens que você deseja exibir no Menu Principal.
    * Arraste ![ícone Arrastar](assets/move-icon---dots.png) itens para alterar sua ordem de exibição no Menu Principal.
 
-     >[!NOTE]
-     >
-     >Você não pode alterar a ordem dos itens do sistema. Esses itens sempre são exibidos na parte inferior do menu principal quando estão ativos. <!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
-
-<div class="preview">
-
 1. Siga um destes procedimentos para os itens do **Sistema**:
 
    * Ocultar ![Ícone Ocultar](assets/remove-icon---x-in-circle.png) itens que você não deseja exibir no Menu Principal.
    * Mostrar ![ícone Mostrar](assets/add-icon-plus-in-circle.png) itens que você deseja exibir no Menu Principal.
-
-</div>
 
 1. Clique em **Concluído**.
 
