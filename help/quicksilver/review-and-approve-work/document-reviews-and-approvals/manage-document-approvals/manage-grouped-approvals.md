@@ -5,15 +5,13 @@ title: Gerenciar aprovações agrupadas
 description: Você pode adicionar ou remover participantes e documentos em uma aprovação agrupada sem interromper o fluxo de trabalho para o restante do grupo.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: e62ae215bcc7ea42701d6eb92cf43f531a6afc0d
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1030'
 ht-degree: 5%
 ---
 
 # Gerenciar aprovações agrupadas
-
-<span class="preview">As informações desta página não estão disponíveis no ambiente de Pré-visualização da Sandbox porque a integração Frame.io não está disponível lá. Essa funcionalidade estará disponível em ambientes de Produção em 22 de outubro de 2026.</span>
 
 Uma aprovação agrupada agrupa vários documentos em um único fluxo de trabalho de aprovação, de modo que todos os documentos passam pelos mesmos estágios juntos em vez de exigir uma aprovação separada por documento. Você pode adicionar ou remover participantes e documentos em uma aprovação agrupada ativa sem recriar o fluxo de trabalho.
 
