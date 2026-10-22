@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 2%
 ---
 <!--keep the global record type reference in yellow till January 2026-->
@@ -287,6 +287,8 @@ Para deletar um tipo de registro global de um espaço de trabalho secundário:
    * O tipo de registro criado de um tipo de registro global é removido do espaço de trabalho secundário selecionado.
    * O tipo de registro original com seus campos permanecem em seu espaço de trabalho original.
    * O tipo de registro permanece em todos os outros espaços de trabalho aos quais foi adicionado.
-   * Os registros <!--and fields--> adicionados ao tipo de registro do espaço de trabalho secundário são excluídos. Todos os outros registros adicionados de espaços de trabalho adicionais onde o tipo de registro global foi adicionado são preservados em seus respectivos espaços de trabalho e no espaço de trabalho original. &lt;!—!—Os campos são preservados nos espaços de trabalho onde foram adicionados.
+   * Os registros <!--and fields--> adicionados ao tipo de registro do espaço de trabalho secundário são excluídos. Todos os outros registros adicionados de espaços de trabalho adicionais onde o tipo de registro global foi adicionado são preservados em seus respectivos espaços de trabalho e no espaço de trabalho original.
+
+     <!--Fields are preserved in the workspaces where they were added.-->
 
 

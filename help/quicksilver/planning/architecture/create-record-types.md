@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 4%
+source-wordcount: '1200'
+ht-degree: 5%
 ---
 <!--this is linked to the UI in an empty workspace screen-->
 
@@ -41,11 +41,11 @@ ht-degree: 4%
 
 # Criar tipos de registro
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -301,18 +301,14 @@ Você pode adicionar tipos de registro manualmente nas seções Tipos de Registr
 
    As alterações são salvas automaticamente.
 
-   Para obter informações adicionais sobre como adicionar registros, excluir ou editar tipos de registro, <span class="preview">criar regras de negócios</span> ou atualizar a exibição na página tipo de registro, consulte os seguintes artigos:
+   Para obter informações adicionais sobre como adicionar e gerenciar registros a um tipo de registro, consulte os seguintes artigos:
 
    * [Criar registros](/help/quicksilver/planning/records/create-records.md)
    * [Excluir tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md)
-   * [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md)
-
-   <div class="preview">
-
+   * [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md)
    * [Criar regras de negócios de tipos de registro](/help/quicksilver/planning/architecture/configure-business-rules.md)
 
-   </div>
 
 ## Criar tipos de registro importando informações de um arquivo CSV ou do Excel
 

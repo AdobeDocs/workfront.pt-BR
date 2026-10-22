@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 1%
+source-wordcount: '884'
+ht-degree: 2%
 ---
 # Gerenciar comentários do registro
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -232,13 +234,9 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 
    Os usuários marcados na mensagem recebem notificações de que há uma nova mensagem.
 
-   <div class="preview">
-
    Todos os usuários com permissões de Exibição para o tipo de registro podem ver um indicador **Novo comentário** na exibição de tabela para o registro ao qual você adicionou o comentário.
 
    ![Novo ícone de comentário na exibição de tabela](assets/new-comment-icon-in-table-view-highlighted.png)
-
-   </div>
 
 1. (Opcional) Clique no ícone **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do comentário e em **Excluir** para excluir o comentário.
 1. (Opcional) Clique no ícone **Ocultar Comentários** ![Ocultar comentários](assets/hide-comments-icon.png) para fechar o painel direito.

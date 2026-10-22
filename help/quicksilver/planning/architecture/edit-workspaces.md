@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '819'
 ht-degree: 3%
 ---
 # Editar espaços de trabalho
@@ -78,8 +78,8 @@ Você pode editar um espaço de trabalho das seguintes maneiras:
 <tr> 
 </tr>
 
-tr>
-<td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
+<tr> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
 <ul> 
 <li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>

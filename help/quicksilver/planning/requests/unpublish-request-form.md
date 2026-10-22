@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '695'
 ht-degree: 7%
 ---
 # Desfazer a publicação de um formulário de solicitação no Planejamento do Adobe Workfront
@@ -40,10 +40,11 @@ ht-degree: 7%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -112,7 +113,7 @@ Para alterar o compartilhamento de um formulário de solicitação:
 
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 
-1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Gerenciar formulários de solicitação** ou <span class="preview">**Solicitar formulários**</span>.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Solicitar formulários**.
 
    Todos os formulários de solicitação associados ao tipo de registro são exibidos em uma exibição de tabela.
 1. Passe o cursor do mouse sobre o nome de um formulário de solicitação e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome e clique em **Compartilhar**.
@@ -139,7 +140,7 @@ Quando um formulário de solicitação se torna irrelevante e você não deseja 
 
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 
-1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Gerenciar formulários de solicitação** <span class="preview"> ou **Solicitar formulários**</span>.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Solicitar formulários**.
 
    Todos os formulários de solicitação associados ao tipo de registro são exibidos em uma exibição de tabela.
 1. Passe o cursor do mouse sobre o nome de um formulário de solicitação e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome e clique em **Cancelar publicação**

@@ -34,26 +34,26 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 2%
+source-wordcount: '1141'
+ht-degree: 3%
 ---
 # Adicionar uma aprovação a um formulário de solicitação no Planejamento do Adobe Workfront
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Você pode adicionar um processo de aprovação a um formulário de solicitação do Adobe Workfront Planning para iniciar uma aprovação para cada solicitação submetida, antes que ele crie um registro.
 
-<!--<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+Vários estágios são compatíveis com o processo de aprovação. Quando todas as decisões necessárias em um estágio são tomadas, o próximo estágio começa e os aprovadores do novo estágio recebem uma notificação por email.
 
 Este artigo descreve como um gerente de espaço de trabalho pode adicionar uma aprovação a um formulário de solicitação associado a um tipo de registro.
 
@@ -116,7 +116,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 * Quando vários aprovadores são necessários, todos eles devem tomar uma decisão antes que a solicitação seja aprovada ou rejeitada, a menos que a opção Only one decision is required esteja habilitada.
 * Se uma equipe for definida como um aprovador, somente uma decisão será necessária de um membro dessa equipe.
 * As aprovações são opcionais — se um formulário de solicitação não tiver nenhuma aprovação anexada, o Workfront Planning criará o registro imediatamente após a submissão.
-* <span class="preview">Você pode adicionar um ou mais estágios às aprovações.</span>
+* É possível adicionar um ou mais estágios às aprovações.
 
 ## Adicionar regras de aprovação a um formulário de solicitação
 
@@ -156,29 +156,29 @@ Para definir regras de aprovação para um formulário de solicitação:
    >   * Se uma regra personalizada for atendida, o padrão não será aplicado ao fluxo de trabalho de solicitação de aprovação. Somente as regras personalizadas correspondentes se aplicam às aprovações e a regra padrão é ignorada.
    >   * Se várias regras personalizadas forem atendidas, a primeira regra na ordem será aplicada. Nesse caso, a aprovação padrão não se aplica, se houver.
 
-1. <span class="preview">(Opcional) Clique em **Adicionar estágio** para adicionar outro estágio à aprovação.</span>
+1. (Opcional) Clique em **Adicionar estágio** para adicionar outro estágio à aprovação.
 
 1. Clique em **Salvar** para salvar as regras de aprovação.
 
-1. <span class="preview">(Opcional) Para adicionar mais estágios à aprovação, faça o seguinte:</span>
+1. (Opcional) Para adicionar mais estágios à aprovação, faça o seguinte:
 
-   1. <span class="preview">Clique em **Adicionar estágio**.</span>
+   1. Clique em **Adicionar estágio**.
 
-      <span class="preview">A caixa **Aprovação de vários estágios** é exibida. Se você já criou uma ação de aprovação padrão, esses aprovadores serão adicionados automaticamente ao Estágio 1.</span>
+      A caixa **Aprovação de vários estágios** é exibida. Se você já criou uma ação de aprovação padrão, esses aprovadores são adicionados automaticamente ao Estágio 1.
 
-   1. <span class="preview">No campo **Adicionar pessoas ou equipes**, adicione pelo menos um usuário ou equipe a ser definido como aprovador para o estágio.</span>
-   1. <span class="preview">(Condicional e opcional) Se quiser que o registro avance para o próximo estágio depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**. Caso contrário, todos os aprovadores devem decidir sobre a aprovação antes que a solicitação seja movida para o próximo estágio.</span>
-   1. <span class="preview">Clique em **Adicionar estágio** e repita da etapa B para adicionar mais estágios à aprovação.</span>
+   1. No campo **Adicionar pessoas ou equipes**, adicione pelo menos um usuário ou equipe a ser definido como o aprovador do estágio.
+   1. (Condicional e opcional) Se quiser que o registro avance para o próximo estágio depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**. Caso contrário, todos os aprovadores devem decidir sobre a aprovação antes que a solicitação seja movida para o próximo estágio.
+   1. Clique em **Adicionar estágio** e repita da etapa B para adicionar mais estágios à aprovação.
 
-      <span class="preview">Quando existirem dois ou mais estágios, você poderá clicar no ícone **Arrastar** ![Ícone Arrastar](assets/drag-icon.png) para arrastá-los e soltá-los em ordem.</span>
+      Quando existirem dois ou mais estágios, você poderá clicar no **ícone Arrastar** ![ícone Arrastar](assets/drag-icon.png) para arrastá-los e soltá-los em ordem.
 
-      <span class="preview">Clique em **Excluir este estágio** para excluir um estágio da aprovação ou clique no **ícone Excluir** ![ícone Excluir](assets/delete.png) ao lado de um aprovador para excluir o usuário ou a equipe da lista de aprovadores em um estágio.</span>
+      Clique em **Excluir este estágio** para excluir um estágio da aprovação, ou clique no **ícone Excluir** ![ícone Excluir](assets/delete.png) ao lado de um aprovador para excluir o usuário ou a equipe da lista de aprovadores em um estágio.
 
       ![Caixa de aprovação de vários estágios](assets/planning-request-multi-stage-approval-box.png)
 
-   1. <span class="preview">Quando terminar de criar o fluxo de trabalho de aprovação, clique em **Salvar**.</span>
+   1. Quando terminar de criar o fluxo de trabalho de aprovação, clique em **Salvar**.
 
-      <span class="preview">Você pode editar ou excluir a aprovação de vários estágios da página Aprovações.</span>
+      Você pode editar ou excluir a aprovação de vários estágios da página Aprovações.
 
 1. (Opcional) Clique em **Publicar** se você nunca compartilhou o formulário de solicitação antes.
 

@@ -30,17 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3769'
 ht-degree: 1%
 ---
 # Criar registros
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -57,6 +58,7 @@ Você pode criar registros seguindo um destes procedimentos:
 * [Conectá-los a partir de outros registros](#create-records-as-you-connect-them)
 * [Enviar um formulário de solicitação para um tipo de registro](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Importar informações de um arquivo CSV ou do Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Criar registros com o CX Enterprise Coworker](#create-records-using-cx-enterprise-coworker)
 * [Usar automações](#create-records-by-using-automations)
 
 Para obter informações sobre o gerenciamento de registros nas exibições de tabela ou linha do tempo, consulte os seguintes artigos:
@@ -196,14 +198,9 @@ Old:
   >
   >Um gerenciador de espaço de trabalho deve criar um formulário de solicitação para o tipo de registro para que os usuários com permissões de Exibição adicionem registros usando um formulário de solicitação. Caso contrário, os usuários com permissão de exibição não poderão criar registros.
 
-<div class="preview">
-
 * Todos os registros são automaticamente codificados por cores ao serem criados, independentemente do método usado para criá-los.
 
   Para obter mais informações, consulte a seção [Registros de codificação de cores](#color-coding-records) neste artigo.
-
-</div>
-
 
 ## Criar registros usando o botão Novo registro ou Solicitar registro de qualquer exibição de tipo de registro
 
@@ -602,6 +599,16 @@ Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/p
 
 Para obter informações, consulte [Criar registros importando informações de um arquivo CSV ou do Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
+## Criar registros usando o CX Enterprise Coworker
+
+Você pode usar o CX Enterprise Coworker para criar registros solicitando que a IA os crie para você.
+
+Você também pode usar o recurso **Anexar arquivo** do Workfront CX Enterprise Coworker para carregar um grande número de registros de cada vez. Você pode importar 10.000 ou mais registros usando esse método.
+
+No momento, o CX Enterprise Coworker não está disponível para organizações nos setores de assistência médica, financeiro ou de alguns outros setores com dados confidenciais. O Assistente de IA está disponível para essas organizações.
+
+Para obter informações, consulte [Usar o CX Enterprise Coworker no Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+
 ## Criar registros usando automações
 
 Você pode configurar automações no Workfront Planning que, quando ativadas, criam registros quando acionadas a partir de um registro do Planning. Os registros criados são conectados automaticamente aos registros dos quais você está acionando a automação.
@@ -613,8 +620,6 @@ Para obter informações, consulte [Criar objetos usando as automações de regi
 <!--
 Move to its own article after production release in 10/2026:
 -->
-
-<div class="preview">
 
 ## Registros de codificação de cores
 
@@ -657,4 +662,3 @@ Todos os registros são associados automaticamente a uma cor quando são criados
 
       Depois de selecionada, a nova cor é aplicada imediatamente.
 
-</div>

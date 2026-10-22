@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 64%
@@ -186,7 +186,9 @@ Para localizar o Planejamento do Workfront:
 * [Informações gerais e índice de artigo do Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): um índice de todos os artigos que contêm documentação sobre o Workfront Planning, agrupados por área de interesse.
 * [Introdução ao Adobe Workfront Planning como um produto independente](/help/quicksilver/planning/planning-sta/planning-sta-overview.md): Informações gerais sobre o Workfront Planning, quando adquirido como um produto independente.
 * [Visão geral do Assistente de IA do Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): com o Assistente de IA do Planejamento do Workfront, você pode pesquisar registros ou criar, atualizar e excluir registros usando comandos, deixando que o assistente execute o trabalho para você.
+
 * [Visão geral do Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): uma interface conversacional na qual você descreve uma meta em linguagem simples e, em seguida, ela planeja, executa e valida o trabalho no Workfront Planning e em outros sistemas Adobe conectados antes de trazê-lo de volta para sua aprovação. O CX Enterprise Coworker preserva tudo o que o AI Assistant faz hoje e, ao mesmo tempo, adiciona recursos completos mais avançados em uma nova experiência de tela cheia e no painel direito do Workfront.
+
 * [Módulos do Planejamento do Adobe Workfront para Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Planejamento do Adobe Workfront, é possível acionar um cenário quando eventos ocorrem no Planejamento do Workfront. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Planejamento do Adobe Workfront. Você deve adquirir uma licença adicional para ter acesso ao Workfront Fusion.
 
 * [Noções básicas sobre a API do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): a meta da API do Adobe Workfront Planning é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura REST-ful que opera sobre HTTP.

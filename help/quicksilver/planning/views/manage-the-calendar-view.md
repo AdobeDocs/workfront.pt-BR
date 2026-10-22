@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '1898'
 ht-degree: 6%
 ---
 # Gerenciar a exibição de calendário
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -200,9 +202,9 @@ Para gerenciar uma exibição de calendário:
        * Os registros que se estendem por vários dias são exibidos na parte superior do calendário.
        * Os registros que duram um dia ou menos são exibidos na metade inferior da exibição do calendário. Se você optou por exibir a hora das datas inicial e final, o registro será exibido no horário apropriado no dia em que ocorre.
 
-         <span class="preview">O calendário exibe até 1.000 registros nas semanas anterior, atual e seguinte para ambas as áreas na exibição semanal.</span>
+         O calendário exibe até 1.000 registros nas semanas anterior, atual e seguinte para ambas as áreas na exibição semanal.
 
-1. <span class="preview">(Opcional e condicional) Clique em **Carregar mais** na parte inferior do calendário, se houver mais de 1.000 registros e alguns deles não forem exibidos por padrão, ao exibir o calendário por semana.</span>
+1. (Opcional e condicional) Clique em **Carregar mais** na parte inferior do calendário, se houver mais de 1.000 registros e alguns deles não forem exibidos por padrão, ao exibir o calendário por semana.
 
 1. (Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.
 
@@ -287,10 +289,10 @@ Para adicionar um filtro a uma exibição de calendário:
         </tr>
         <tr>
             <td>Multisseleção, Pessoas</td>
-            <td><p>Tem qualquer um dos</p> ou <span class="preview"><p>É algum dos</p></span>
+            <td><p>É algum dos</p>
             <p>Possui todos os</p>
             <p>É exatamente</p>
-            <p>Não tem nenhum dos</p> ou <span class="preview"><p>É algum dos</p></span>
+            <p>É algum dos</p>
             <p>Está vazio</p>
             <p>Não está vazio</p></td>
         </tr>
@@ -459,7 +461,11 @@ Atualize as configurações de exibição do calendário para indicar quais info
 
    * **Tipo de registro**: a cor das barras de registro no calendário corresponde à cor do tipo de registro selecionado. Esta é a opção padrão.
    * **Valores de campo**: a cor dos registros corresponde à cor de um campo especificado.
-   * **Nenhum**: os registros são exibidos em uma barra branca. <span class="preview">A opção **Nenhuma** foi removida do ambiente de Visualização.</span>
+   * **Registro**: a cor corresponde às cores dos registros.
+
+   <!-- 
+    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span
+    -->
 
 
 
@@ -477,9 +483,7 @@ Atualize as configurações de exibição do calendário para indicar quais info
    >[!NOTE]
    >
    >* É possível corresponder a cor somente a campos com opções codificadas por cores. Por exemplo, é possível corresponder a cor aos campos Status ou aos campos com opções associadas a cores.
-   >    
-   >* No ambiente de Produção, não é possível corresponder a cor aos registros conectados ou seus campos de pesquisa. <span class="preview">No ambiente de Visualização, você pode corresponder a cor aos registros conectados, mas não aos seus campos de pesquisa. </span>
-
+   >            
 
 1. Clique em **Salvar**.
 

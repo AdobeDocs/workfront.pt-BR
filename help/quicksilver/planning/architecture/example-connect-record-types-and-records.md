@@ -21,16 +21,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2129'
 ht-degree: 1%
 ---
 # Exemplo de conexão entre tipos de registro e registros
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -63,14 +65,10 @@ Para fazer isso:
    * **Nome**: dê um nome ao novo campo. Por exemplo, &quot;Informações do produto&quot;. Este é o nome do campo de registro vinculado.
    * **Descrição**: adicione uma descrição para o novo campo. Por exemplo, &quot;Estes são os produtos aos quais desejo associar minhas campanhas&quot;. A descrição do campo é exibida ao passar o mouse sobre o campo no cabeçalho da coluna.
 
-   <div class="preview">
-
    * **Tornar esta conexão dependente**: quando habilitada e os dois registros conectados são exibidos em um terceiro registro ao mesmo tempo, as opções de um tipo de registro dependem das opções do outro.
 
      Para obter informações, consulte [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
    * **Criar campo correspondente no tipo de registro vinculado**: quando habilitado, um campo de conexão também é criado no tipo de registro ao qual você está conectado (Produto).
-
-   </div>
 
    * **Tipo de conexão**: selecione entre as seguintes opções:
      * **De muitos para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a várias campanhas.
@@ -87,13 +85,11 @@ Para fazer isso:
      * **Nome**: exibe somente o nome dos registros conectados.
      * **Imagem**: exibe somente a miniatura ou o ícone dos registros conectados.
 
-     <div class="preview">
+     * **Cor e nome**: exibe somente a cor e o nome dos registros conectados.
 
-     * **Cor e nome**: exibe somente a cor e o nome dos registros conectados
+   * **Campos de pesquisa**: expanda essa opção para também conectar campos de pesquisa dos registros conectados.
 
-     </div>
-
-   * <span class="preview">**Campos de pesquisa**: expanda essa opção para também conectar campos de pesquisa dos registros conectados. </span>A caixa **Adicionar campos de pesquisa** será aberta em seguida, para permitir vincular campos de Produto ao tipo de registro de Campanha. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos de Produto posteriormente.
+     A caixa **Adicionar campos de pesquisa** é aberta em seguida, para permitir vincular campos de Produto ao tipo de registro de Campanha. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos de Produto posteriormente.
 
      ![Nova conexão com o tipo de registro de produto](assets/new-connection-with-product-record-type.png)
 
