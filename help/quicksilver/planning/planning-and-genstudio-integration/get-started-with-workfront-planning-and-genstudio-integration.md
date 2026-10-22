@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2638'
 ht-degree: 2%
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 2%
 
 
 # Introdução à integração entre o Planejamento do Adobe Workfront e o Adobe GenStudio for Performance Marketing
+
+{{planning-important-intro}}
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -350,6 +352,7 @@ Considere o seguinte ao trabalhar com Ativações:
 * Os registros de ativações incluem o seguinte:
 
   * Um campo de ID de rastreamento que armazena o valor resolvido para cada segmento de uma fórmula de ID de rastreamento, juntamente com quaisquer erros.
+  * Uma imagem criativa dinâmica e um tipo de Ativação de vídeo criativo dinâmico para armazenar informações de Objetos Creative dinâmicos do Meta.
   * Uma opção de status &quot;Gerando&quot; que indica que a geração da ID de rastreamento está em andamento. O status de ativação retorna para &quot;Rascunho&quot; quando a geração é concluída ou falha. As ativações existentes não são afetadas.
 
 

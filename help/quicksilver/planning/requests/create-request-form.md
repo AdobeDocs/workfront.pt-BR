@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
 source-wordcount: '3098'
 ht-degree: 2%
@@ -335,10 +335,30 @@ Para definir configurações de formulário:
    >
    ><span class="preview">A permissão granular que você desmarcar aqui ficará esmaecida ao compartilhar a solicitação com esses usuários na página de solicitação. </span>
 
-1. <span class="preview">Clique em **Salvar**.</span>
-
-
 1. Continue em [Publicar formulário](#publish-form).
+
+1. Clique em **Salvar**.
+
+
+
+<!--
+
+Add these before Continue to Publish form above:
+
+1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
+
+      >[!TIP]
+      >
+      ><span class="preview">You must attach a file when using AI to fill the request form for the prompt to take effect. </span>   
+
+1. <span class="preview">Turn on the **Enable default prompt setting**, then add a default prompt. </span> 
+
+   <span class="preview">Make the prompt as detailed as possible. For example, if you always use files with dates in them when using Fill form, you may add "Always store dates in European format" to the prompt. </span> 
+
+   <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
+
+   ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
+-->
 
 ### Publicar formulário
 
