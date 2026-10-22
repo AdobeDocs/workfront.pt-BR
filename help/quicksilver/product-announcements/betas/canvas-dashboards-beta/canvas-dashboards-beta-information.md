@@ -26,22 +26,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 12%
+source-wordcount: '561'
+ht-degree: 9%
 ---
 # Informações de painéis de tela na versão beta
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Forneça comentários](#provide-feedback) abaixo.<br>
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que esse beta não está disponível nos seguintes provedores de nuvem:
->
->* Traga sua própria chave para o Amazon Web Services
->* Azure
->* Google Cloud Platform
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+
 
 Painéis de tela de desenho é um recurso atualmente em desenvolvimento que permite visualizar facilmente os dados do Adobe Workfront adicionando vários tipos de relatório em uma tela de desenho que oferece muitas opções de layout flexíveis, incluindo redimensionamento, arrastar e soltar, e muito mais.
 

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '550'
 ht-degree: 22%
 ---
 # Visão geral dos painéis da tela
@@ -43,11 +43,7 @@ ht-degree: 22%
 >
 >Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 >
->Observe que esse beta não está disponível nos seguintes provedores de nuvem:
->
->* Traga sua própria chave para o Amazon Web Services
->* Azure
->* Google Cloud Platform
+
 
 Os Painéis de tela de desenho permitem visualizar facilmente os dados do Adobe Workfront adicionando tipos de relatório em uma tela que oferece muitas opções de layout flexíveis, incluindo redimensionamento, arrastar e soltar e muito mais.
 

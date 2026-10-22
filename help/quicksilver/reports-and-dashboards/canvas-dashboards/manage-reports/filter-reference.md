@@ -21,22 +21,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 40%
+source-wordcount: '993'
+ht-degree: 39%
 ---
 # Referência de filtro de relatório para Painéis do Canvas
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que esse beta não está disponível nos seguintes provedores de nuvem:
->
->* Traga sua própria chave para o Amazon Web Services
->* Azure
->* Google Cloud Platform
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+
 
 Este artigo descreve os campos, operadores, curingas e regras especiais disponíveis ao filtrar um relatório. Para obter as etapas para criar ou editar um filtro, consulte [Filtrar um relatório em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 

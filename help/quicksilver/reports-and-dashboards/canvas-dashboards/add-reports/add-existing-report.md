@@ -30,22 +30,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 21%
+source-wordcount: '369'
+ht-degree: 17%
 ---
 # Adicionar um relatório existente a um painel da tela
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que esse beta não está disponível nos seguintes provedores de nuvem:
->
->* Traga sua própria chave para o Amazon Web Services
->* Azure
->* Google Cloud Platform
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+
 
 Os relatórios criados por meio da ferramenta Relatórios do Adobe Workfront podem ser adicionados a um Painel de controle da tela. Para obter mais informações sobre como criar relatórios, consulte [Introdução aos relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
