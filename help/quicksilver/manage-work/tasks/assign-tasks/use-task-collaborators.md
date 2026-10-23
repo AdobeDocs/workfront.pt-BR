@@ -16,18 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 2%
 ---
 # Usar agentes de trabalho
 
-{{preview-fast-release-general}}
-
 Os agentes de trabalho são colaboradores de IA que podem ser atribuídos diretamente a tarefas, problemas e solicitações do Workfront. Como outros Colaboradores de IA, os Agentes de trabalho são configurados na área Configuração e atribuídos a itens de trabalho como um usuário.
 
-Os Agentes de Trabalho conectam-se aos agentes configurados no Copilot Studio, Claude, <span class="preview">OpenAI ou IBM. </span>
+Os Agentes de trabalho conectam-se aos agentes configurados no Copilot Studio, Claude, OpenAI ou IBM.
 
 >[!IMPORTANT]
 >
@@ -82,7 +80,7 @@ Alguns exemplos de workflows podem incluir:
 >
 >* Detalhes específicos sobre as responsabilidades e capacidades de um agente são configurados no aplicativo em que o agente é criado, não no Workfront.
 >* O servidor MCP do Workfront não precisa ser adicionado ao agente usado como um Agente de trabalho e não precisa estar conectado para que o Agente de trabalho funcione.
->* Atualmente, os Agentes de Trabalho oferecem suporte aos agentes criados no Copilot Studio, Claude, <span class="preview">OpenAI e IBM. </span>
+>* Atualmente, os agentes de trabalho oferecem suporte aos agentes criados no Copilot Studio, Claude, OpenAI e IBM.
 >* Ao configurar um agente no Copilot Studio, defina a segurança como **Sem autenticação**.
 >* Para obter informações e instruções sobre como criar um Agente de trabalho no Workfront, consulte [Configurar um Agente de Trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) no artigo Configurar Colaboradores de IA.
 
@@ -94,8 +92,8 @@ Quando um Agente de trabalho começa a trabalhar em uma tarefa, ele lê automati
 * Descrição da tarefa
 * Comentários no fluxo de atualização da tarefa
 * Informações em qualquer formulário personalizado anexado à tarefa
-* <span class="preview">Documentos baseados em texto anexados, como arquivos DOC e PDF</span>
-* <span class="preview">Campos de projeto, se estiverem configurados na configuração do Agente de Trabalho</span>
+* Documentos baseados em texto anexados, como arquivos DOC e PDF
+* Campos de projeto, se estiverem configurados na configuração do Agente de trabalho
 
 Essas informações são sempre lidas e não podem ser definidas como uma configuração do Workfront.
 
@@ -116,7 +114,7 @@ Dependendo de como o Agente de trabalho está configurado no Workfront, ele pode
 
 ## Acionadores de início do Agente de Trabalho
 
-Quando um Agente de Trabalho é atribuído a uma tarefa <span class="preview">ou problema</span>, ele começa a trabalhar quando qualquer uma das seguintes situações é atendida:
+Quando um Agente de Trabalho é atribuído a uma tarefa ou problema, ele começa a trabalhar quando qualquer uma das seguintes situações for atendida:
 
 <!--update wording to include issues when this goes to production-->
 

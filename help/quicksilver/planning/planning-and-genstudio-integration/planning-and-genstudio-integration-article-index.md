@@ -21,12 +21,14 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 11%
 ---
 # Integração do Adobe Workfront Planning e do Adobe GenStudio for Performance Marketing: índice do artigo
+
+{{planning-important-intro}}
 
 O espaço de trabalho do GenStudio estará disponível no Adobe Workfront Planning quando sua empresa tiver comprado o Adobe GenStudio for Performance Marketing e o Adobe Workfront.
 

@@ -27,14 +27,12 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '4466'
+source-wordcount: '4464'
 ht-degree: 0%
 ---
 # Visão geral unificada de revisão e aprovação
-
-{{highlighted-preview}}
 
 A análise e a aprovação unificadas reúnem o Adobe Workfront e o Adobe Frame.io em uma única experiência profundamente conectada, preenchendo as lacunas entre o gerenciamento de marketing, a análise criativa e a entrega de conteúdo.
 Os coordenadores de projeto gerenciam o trabalho no Workfront enquanto criativos, profissionais de marketing e participantes revisam e aprovam ativos no visualizador de Frame.io de nível profissional, tudo sem mover arquivos entre ferramentas desconectadas.
@@ -110,9 +108,9 @@ A funcionalidade Workfront Proofing não está disponível com essa integração
 
 ## Concluir trilha de auditoria
 
-<span class="preview">A revisão e aprovação unificadas incluem um registro de auditoria abrangente que cria uma trilha de governança completa no Workfront e no Frame.io. Os logs de rastreamento de alterações capturam as decisões de aprovação tomadas no visualizador do Frame.io e no ciclo de vida do documento. Cada entrada de log inclui atribuição do sistema de origem (Workfront ou Frame.io) juntamente com os campos de auditoria padrão do Workfront: data e hora, tipo de log, nome de usuário, ação e nome do objeto. Os comentários do visualizador Frame.io não estão incluídos nos logs de auditoria.</span>
+A revisão e aprovação unificadas incluem um registro de auditoria abrangente que cria uma trilha de governança completa no Workfront e no Frame.io. Os logs de rastreamento de alterações capturam as decisões de aprovação tomadas no visualizador do Frame.io e no ciclo de vida do documento. Cada entrada de log inclui atribuição do sistema de origem (Workfront ou Frame.io) juntamente com os campos de auditoria padrão do Workfront: data e hora, tipo de log, nome de usuário, ação e nome do objeto. Os comentários do visualizador do Frame.io não estão incluídos nos logs de auditoria.
 
-<span class="preview">Os logs de controle de alterações aparecem na área Configuração do Workfront e estão disponíveis para exportação. Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).</span>
+Os logs de rastreamento de alterações aparecem na área Configuração do Workfront e estão disponíveis para exportação. Para obter mais informações, consulte [Exibir e gerenciar o histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Gerenciamento eficiente de projetos no Workfront
 
@@ -360,17 +358,11 @@ O visualizador Frame.io inclui um conjunto completo de ferramentas de marcação
 
 Comentários e anotações permanecem no visualizador Frame.io para que mantenham seu contexto completo, incluindo carimbos de data e hora e marcações visuais. Isso pode evoluir em versões futuras.
 
-<span class="preview">
-
-Na visualização, o painel Comentários no Workfront exibe uma mensagem informando quando novos comentários estão disponíveis no Frame.io.</span>
-
-<div class="preview">
+O painel Comentários no Workfront exibe uma mensagem que informa quando novos comentários estão disponíveis no Frame.io.
 
 **Quem pode ver o indicador de comentário Frame.io no Workfront?**
 
 Somente os usuários que já conseguiam ver esses comentários no Frame.io podem ver o indicador. Se você tiver uma licença Frame.io Enterprise, poderá vê-la para qualquer comentário no documento. Se você não tiver uma licença Frame.io Enterprise, ela será exibida somente depois que existir uma aprovação para o documento. As aprovações tornam todos os comentários anteriores no documento visíveis para você também.
-
-</div>
 
 **É possível adicionar comentários a uma versão baixada de um ativo (por exemplo, uma PDF)?**
 

@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1396'
 ht-degree: 5%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
@@ -34,11 +34,11 @@ ht-degree: 5%
 
 # Visão geral das permissões de compartilhamento no Planejamento do Adobe Workfront
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ A seguir estão os níveis de permissões para espaços de trabalho:
 | Exibir | ✓ | ✓ | ✓ |
 
 
-<span class="preview">Além das permissões descritas na tabela acima, você também pode alterar o proprietário de um espaço de trabalho ao compartilhá-lo. Para obter informações, consulte [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md).</span>
+Além das permissões descritas na tabela acima, você também pode alterar o proprietário de um espaço de trabalho ao compartilhá-lo. Para obter informações, consulte [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md).
 
 
 ### Permissões para tipos de registro
@@ -263,25 +263,22 @@ Existem os seguintes cenários:
 
 ### Permissões para registrar campos
 
+<!--
 
-#### Permissões para registrar campos no ambiente de produção
+#### Permissions to record fields in the Production environment
 
 
-As permissões para editar configurações de campo são herdadas do tipo de registro, ao conceder permissões ao espaço de trabalho e ao tipo de registro.
+Permissions to edit field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
 
-As permissões a seguir se referem às configurações de campos e não aos valores associados a cada campo. Para editar valores de campo, você deve ter permissões para editar registros.
+The following permissions refer to the fields settings and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
-|        | Gerenciar | Contribuir | Exibir |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Criar | ✓ |            |       |
-| Excluir | ✓ |            |       |
-| Editar | ✓ |            |       |
-| Exibir | ✓ | ✓ | ✓ |
-
-
-<div class="preview">
-
-#### Permissões para registrar campos no ambiente de Pré-visualização
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
 As permissões para configurações de campo são herdadas do tipo de registro, quando você concede permissões ao espaço de trabalho e ao tipo de registro.
 
@@ -308,8 +305,6 @@ Você pode conceder as seguintes permissões aos valores de campo compartilhando
 | Exibir | ✓ | ✓ |
 
 Os usuários devem ter pelo menos permissões de Exibição para o tipo de registro para acessar os campos.
-
-</div>
 
 ### Permissões para visualizações
 

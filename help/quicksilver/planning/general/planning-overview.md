@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 61%
+source-wordcount: '1300'
+ht-degree: 64%
 ---
 # Introdução ao Planejamento do Adobe Workfront
 
@@ -53,10 +53,13 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -184,11 +187,7 @@ Para localizar o Planejamento do Workfront:
 * [Introdução ao Adobe Workfront Planning como um produto independente](/help/quicksilver/planning/planning-sta/planning-sta-overview.md): Informações gerais sobre o Workfront Planning, quando adquirido como um produto independente.
 * [Visão geral do Assistente de IA do Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): com o Assistente de IA do Planejamento do Workfront, você pode pesquisar registros ou criar, atualizar e excluir registros usando comandos, deixando que o assistente execute o trabalho para você.
 
-<div class="preview">
-
 * [Visão geral do Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): uma interface conversacional na qual você descreve uma meta em linguagem simples e, em seguida, ela planeja, executa e valida o trabalho no Workfront Planning e em outros sistemas Adobe conectados antes de trazê-lo de volta para sua aprovação. O CX Enterprise Coworker preserva tudo o que o AI Assistant faz hoje e, ao mesmo tempo, adiciona recursos completos mais avançados em uma nova experiência de tela cheia e no painel direito do Workfront.
-
-</div>
 
 * [Módulos do Planejamento do Adobe Workfront para Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Planejamento do Adobe Workfront, é possível acionar um cenário quando eventos ocorrem no Planejamento do Workfront. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Planejamento do Adobe Workfront. Você deve adquirir uma licença adicional para ter acesso ao Workfront Fusion.
 

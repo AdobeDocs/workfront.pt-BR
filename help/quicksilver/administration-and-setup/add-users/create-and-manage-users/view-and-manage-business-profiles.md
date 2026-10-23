@@ -20,18 +20,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 12%
 ---
 # Exibir e gerenciar perfis empresariais
 
-{{highlighted-preview}}
-
 Para atribuir um perfil de negócios a um usuário, você deve atribuir um grupo e um nível de acesso associado.
 
-Como administrador do Workfront, você pode definir o perfil de negócios de um usuário atribuindo combinações de níveis de acesso e grupos. Isso é gerenciado na página Usuário no Workfront. <span class="preview">Os administradores de grupo também podem criar, editar e excluir perfis comerciais, mas somente para grupos que administram.</span>
+Como administrador do Workfront, você pode definir o perfil de negócios de um usuário atribuindo combinações de níveis de acesso e grupos. Isso é gerenciado na página Usuário no Workfront. Os administradores de grupo também podem criar, editar e excluir perfis comerciais, mas somente para grupos que administram.
 
 Para obter mais informações sobre Perfis Comerciais, consulte [Visão geral sobre perfis comerciais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
@@ -56,7 +54,7 @@ Para obter mais informações sobre Perfis Comerciais, consulte [Visão geral so
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td><p>Administrador de sistema</p><p><span class="preview">Administrador de grupo (para grupos que eles administram)</span></p></td>
+   <td><p>Administrador de sistema</p><p>Administrador de grupo (para grupos que eles administram)</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -79,8 +77,6 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Editar um perfil de empresa
 
-<div class="preview">
-
 A edição de um perfil de empresa abre a mesma janela usada para criar um.
 
 {{step-1-to-users}}
@@ -95,11 +91,7 @@ A edição de um perfil de empresa abre a mesma janela usada para criar um.
 >
 >Os administradores de grupo só podem editar perfis comerciais para grupos que administram.
 
-</div>
-
 ## Excluir um perfil de empresa
-
-<div class="preview">
 
 {{step-1-to-users}}
 
@@ -111,5 +103,3 @@ A edição de um perfil de empresa abre a mesma janela usada para criar um.
 >[!NOTE]
 >
 >Os administradores de grupo só podem excluir perfis comerciais para grupos que administram.
-
-</div>

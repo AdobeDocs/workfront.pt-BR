@@ -26,16 +26,19 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1831'
 ht-degree: 0%
 ---
 # Visão geral do tipo de registro entre espaços de trabalho
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -205,8 +208,8 @@ These two capabilities will come later - and edit some of the bullets below afte
   * Criar e gerenciar automações
   * Criar e gerenciar formulários de solicitação
 
-    <span class="preview">Você pode criar registros para um tipo de registro secundário usando um formulário de solicitação da página de tipo de registro secundário ou indicando especificamente para qual espaço de trabalho o registro deve ser salvo ao preencher um formulário de solicitação criado para o tipo de registro global primário e atualizar o campo do Workspace.
-    Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).</span>
+    Você pode criar registros para um tipo de registro secundário usando um formulário de solicitação da página de tipo de registro secundário ou indicando especificamente para qual espaço de trabalho o registro deve ser salvo ao preencher um formulário de solicitação criado para o tipo de registro global principal e atualizar o campo do Workspace.
+    Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
 
 * Os registros adicionados em um espaço de trabalho secundário ficam visíveis nos seguintes espaços de trabalho, quando você tem permissões de Exibição ou superiores para esses espaços de trabalho:

@@ -32,20 +32,18 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '928'
 ht-degree: 6%
 ---
 # Visão geral do Assistente de IA do Planejamento do Adobe Workfront
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -55,7 +53,7 @@ Os comandos do usuário e a execução desses comandos pela IA trabalham juntos 
 
 >[!IMPORTANT]
 >
-><span class="preview">Em algumas organizações, o Assistente de IA foi substituído pelo CX Enterprise Coworker. Para obter informações, consulte [visão geral do Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+>Em algumas organizações, o Assistente de IA foi substituído pelo CX Enterprise Coworker. Para obter informações, consulte [visão geral do Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).
 
 ## Requisitos de acesso
 
@@ -160,7 +158,7 @@ Você pode usar o Assistente de IA para executar as seguintes ações neste mome
 
 >[!NOTE]
 >
-><span class="preview">Se sua organização tiver recebido acesso ao CX Enterprise Coworker, a localização do Colaborador será semelhante à localização do Assistente de IA. Para obter informações, consulte [visão geral do Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+>Se sua organização tiver recebido acesso ao CX Enterprise Coworker, a localização do Colaborador será semelhante à localização do Assistente de IA. Para obter informações, consulte [visão geral do Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).
 
 
 Você pode localizar o Assistente de IA nas seguintes áreas do Workfront Planning:

@@ -28,19 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '4867'
 ht-degree: 2%
 ---
 # Gerenciar a exibição de linha do tempo
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -245,14 +246,10 @@ Para gerenciar uma exibição de linha do tempo:
      * **Trimestre**: exibe meses e semanas com indicação de trimestre.
      * **Mês**: exibe semanas e dias.
 
-     >[!TIP]
-     >
-     >Dependendo do ambiente que você está usando para acessar a visualização da linha do tempo, os seguintes cenários existem:
-     >
-     >* No ambiente de Produção, a exibição da linha do tempo só exibe semanas personalizadas de acordo com trimestres clássicos. Se o administrador do Workfront ativar Trimestres personalizados na área Configuração, as informações da semana não serão exibidas na exibição de linha do tempo.
-     >
-     >* <span class="preview">No ambiente de Visualização, o modo de exibição de linha do tempo mostra semanas personalizadas de acordo com trimestres clássicos, por padrão. Se o administrador do Workfront ativar Trimestres personalizados e Semanas personalizadas na área Configuração, a exibição da linha do tempo exibirá os trimestres e semanas personalizados no Trimestre e no Mês. </span>
-     >
+     A exibição da linha do tempo exibe semanas personalizadas de acordo com trimestres clássicos, por padrão. Se o administrador do Workfront ativar Trimestres personalizados e Semanas personalizadas na área Configuração, a exibição da linha do tempo exibirá os trimestres e semanas personalizados nos modos Trimestre e Mês.
+
+     Para obter informações, consulte [Habilitar trimestres e semanas personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
 
 
 1. (Opcional) Clique em **Alternar para o modo de exibição Compacto** para exibir os registros cujas datas não se cruzam na mesma linha. <!--check to see if they updated the name of the setting here-->
@@ -374,10 +371,10 @@ Para adicionar um filtro a uma exibição de linha do tempo:
         </tr>
         <tr>
             <td>Multisseleção, Pessoas</td>
-            <td><p>Tem qualquer um dos</p> ou <span class="preview"><p>É algum dos</p></span>
+            <td><p>É algum dos</p>
             <p>Possui todos os</p>
             <p>É exatamente</p>
-            <p>Não tem nenhum dos</p> ou <span class="preview"><p>Não é nenhum dos</p></span>
+            <p><p>Não é nenhum dos</p>
             <p>Está vazio</p>
             <p>Não está vazio</p></td>
         </tr>
@@ -509,9 +506,9 @@ Para adicionar um agrupamento na exibição de linha do tempo:
     500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
     </div>
     -->
-1. <span class="preview">(Opcional) Clique no ícone **Agrupamento** ![Ícone Agrupamento](assets/grouping-icon.png) na barra de ferramentas para abrir a caixa **Agrupar registros por** e clique em **Expandir tudo** para expandir todos os agrupamentos ou **Recolher tudo** para recolher todos os agrupamentos e recolher manualmente apenas os agrupamentos necessários. </span>
-1. <span class="preview">(Opcional e condicional) Na exibição da raia, arraste e solte o separador do painel esquerdo para ajustar sua largura. A largura do painel de cada usuário é salva entre sessões, com uma largura padrão para novos usuários.</span>
-1. <span class="preview">(Opcional) Para nomes longos de agrupamento, passe o mouse sobre a linha de um agrupamento para ver o nome completo do agrupamento em uma dica de ferramenta.</span>
+1. (Opcional) Clique no ícone **Agrupamento** ![Ícone Agrupamento](assets/grouping-icon.png) na barra de ferramentas para abrir a caixa **Agrupar registros por** e clique em **Expandir tudo** para expandir todos os agrupamentos, ou **Recolher tudo** para recolher todos os agrupamentos e recolher manualmente apenas os agrupamentos necessários.
+1. (Opcional e condicional) Na exibição da raia, arraste e solte o separador do painel esquerdo para ajustar sua largura. A largura do painel de cada usuário é salva entre as sessões, com uma largura padrão para usuários pela primeira vez.
+1. (Opcional) Para nomes de agrupamento longos, passe o mouse sobre a linha de um agrupamento para ver o nome completo do agrupamento em uma dica de ferramenta.
 
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
@@ -527,7 +524,6 @@ Para adicionar um agrupamento na exibição de linha do tempo:
    >Quando você arrasta e solta registros de um agrupamento para outro, os campos selecionados no agrupamento atualizam automaticamente os valores nos registros movidos.
 1. (Opcional) Clique em **Configurações** e depois em **Cor** para agrupar o código de cores. Para obter mais informações, consulte a seção [Editar as configurações de exibição da linha do tempo](#edit-the-timeline-view-settings) neste artigo.
 
-<div class="preview">
 
 ### Adicionar classificação
 
@@ -568,12 +564,6 @@ Para adicionar uma classificação na exibição de linha do tempo:
 
    A classificação é aplicada imediatamente.
 1. Clique em qualquer lugar na página para fechar a caixa de classificação.
-
-</div>
-
-
-<!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
-
 
 ### Editar as configurações de exibição da linha do tempo {#edit-the-timeline-view-settings}
 
@@ -652,10 +642,8 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
    >
    >* É possível corresponder a cor somente a campos com opções codificadas por cores. Por exemplo, é possível corresponder a cor aos campos Status ou aos campos com opções associadas a cores.
    >    
-   >* No ambiente de Produção, não é possível corresponder a cor aos registros conectados ou seus campos de pesquisa. <span class="preview">No ambiente de Visualização, você pode corresponder a cor aos registros conectados, mas não aos seus campos de pesquisa. </span>
+   >* Você pode corresponder a cor aos registros conectados, mas não aos seus campos de pesquisa.
 
-
-   Por exemplo, campos de seleção múltipla ou seleção única podem ter opções codificadas por cores.
 
    Se você agrupar por campos sem opções codificadas por cores, a cor de agrupamento permanecerá cinza.
 
@@ -667,8 +655,8 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    * **Tipo de registro**: a cor dos registros corresponde à cor do tipo de registro selecionado. Esta é a opção padrão.
    * **Valores de campo**: a cor dos registros corresponde à cor de um campo especificado. Continue na etapa 10. <!--ensure this stays accurate-->
+   * **Registro**: a cor corresponde às cores dos registros.
    * **Agrupamento**: a cor dos registros corresponde à cor indicada para os agrupamentos. Essa opção fica esmaecida quando não há agrupamentos aplicados à exibição de linha do tempo.
-   * **Nenhum**: os registros são exibidos em uma barra branca. <span class="preview">A opção Nenhum foi removida do ambiente de Visualização.</span>
 
 1. (Condicional) Se você selecionou **Valores de campo** para as cores do registro, selecione um campo no menu suspenso **Corresponder a cor do registro a**.
 

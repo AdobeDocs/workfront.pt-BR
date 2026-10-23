@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
 workflow-type: tm+mt
 source-wordcount: '3774'
 ht-degree: 4%
@@ -41,10 +41,6 @@ As ferramentas que aparecem na plataforma de agente de IA dependem dos direitos 
 Se sua organização não tiver direito a uma área de produto, as ferramentas relacionadas não aparecerão na lista de ferramentas para essa conexão. Se uma plataforma de agente de IA tentar chamar uma ferramenta que não está disponível para seus direitos, a solicitação será bloqueada.
 
 As tabelas a seguir identificam a área do produto à qual cada ferramenta pertence.
-
-<div class="preview">
-
-<!--This section is for the 27.1 release-->
 
 ## Conjuntos de ferramentas no servidor MCP do Workfront
 
@@ -86,7 +82,6 @@ Os conjuntos de ferramentas não alteram as permissões. O nível de acesso do W
 
 Se desejar que o cliente de IA acesse um domínio diferente, atualize a configuração de conexão para selecionar o conjunto de ferramentas apropriado.
 
-</div>
 
 ## Ações de leitura e gravação
 

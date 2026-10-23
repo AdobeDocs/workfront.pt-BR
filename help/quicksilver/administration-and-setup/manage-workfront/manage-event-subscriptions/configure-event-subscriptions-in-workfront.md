@@ -7,16 +7,14 @@ title: Configurar assinaturas de evento no Workfront
 description: Os administradores do Workfront podem criar, exibir e excluir assinaturas de eventos da Configuração. Os usuários com o acesso necessário também podem gerenciar assinaturas de eventos dentro do escopo permitido por suas permissões e configuração do sistema.
 feature: System Setup and Administration
 role: Admin
-author: Courtney
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+author: Becky
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 8%
 ---
 
 # Configurar assinaturas de evento no Workfront
-
-{{highlighted-preview-article-level}}
 
 Como administrador do Adobe Workfront, você pode criar, exibir e excluir assinaturas de eventos na área Configuração. As assinaturas de evento enviam informações de evento do Workfront para um endpoint externo quando eventos especificados ocorrem.
 

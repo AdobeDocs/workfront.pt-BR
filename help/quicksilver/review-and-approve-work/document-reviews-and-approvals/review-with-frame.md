@@ -26,22 +26,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '901'
 ht-degree: 5%
 ---
 # Revisar e aprovar com o visualizador Frame.io
-
-{{highlighted-preview}}
 
 Você pode revisar e aprovar documentos no Workfront usando o visualizador Frame.io.
 
 A revisão de documentos do Workfront com o visualizador Frame.io permite que você deixe comentários ou marque seções específicas de um documento, imagem ou vídeo para colaborar com sua equipe de maneira eficiente e garantir que o feedback seja claro e acionável.
 
 Para obter mais informações sobre a integração do Frame.io com o Workfront, consulte [Visão geral de revisão e aprovação unificada](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
-
-
 
 ## Requisitos de acesso
 
@@ -98,7 +94,7 @@ Vá para a página inicial do Workfront, localize o widget Minhas aprovações e
    >Talvez seja necessário adicionar o widget Minhas aprovações à página inicial. Para obter mais informações, consulte [Adicionar, editar ou remover widgets na Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. No Frame.io, use as ferramentas de comentários para deixar comentários ou fazer perguntas.
-A marcação de comentários e ativos está visível somente no visualizador Frame.io. Os comentários não são exibidos no Workfront. <span class="preview">No entanto, o painel de comentários do documento no Workfront mostra uma chamada com uma contagem desses comentários, quando uma contagem está disponível, e um link para abrir o visualizador Frame.io e lê-los.</span> Para obter mais informações sobre como usar o visualizador Frame.io, consulte [Comentários na mídia](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+A marcação de comentários e ativos está visível somente no visualizador Frame.io. Os comentários não são exibidos no Workfront. No entanto, o painel de comentários do documento no Workfront mostra uma chamada com uma contagem desses comentários, quando uma contagem está disponível, e um link para abrir o visualizador Frame.io e lê-los. Para obter mais informações sobre como usar o visualizador Frame.io, consulte [Comentários na mídia](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Quando estiver satisfeito com o documento, navegue de volta para a página Detalhes do documento no Workfront e marque sua revisão como concluída.
 
    ![Marcar revisão como concluída](assets/mark-review-complete.png)
@@ -123,7 +119,7 @@ Vá para a página inicial do Workfront, localize o widget Minhas aprovações e
 
    >[!NOTE]
    >
-   > <span class="preview">Na visualização, o painel Comentários no Workfront exibe uma mensagem que informa quando novos comentários estão disponíveis no Frame.io.</span>
+   >O painel Comentários no Workfront exibe uma mensagem informando quando novos comentários estão disponíveis no Frame.io.</span>
 
 
 1. Quando estiver satisfeito com o documento, você poderá escolher uma das seguintes decisões no visualizador Frame.io:

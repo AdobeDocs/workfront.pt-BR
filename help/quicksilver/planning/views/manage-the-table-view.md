@@ -28,18 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '4228'
-ht-degree: 3%
+source-wordcount: '4138'
+ht-degree: 2%
 ---
 # Gerenciar a exibição de tabela
 
 <!-- remove Production and Preview references at release-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -207,7 +209,7 @@ Para gerenciar uma exibição de tabela:
 
 1. Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![Exemplo de exibição em tabela](assets/table-view-example-g-list.png)
+   ![Exemplo de exibição em tabela](assets/table-view-example.png)
 
 1. (Opcional) Clique em **Altura da linha** e selecione uma das seguintes opções para modificar a altura das linhas da tabela:
    * Pequena
@@ -333,9 +335,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
      * **MIN**: exibe o valor mais baixo de todas as células da coluna.
      * **MAX**: exibe o valor mais alto de todas as células da coluna.
      * **AVG**: exibe o valor médio de todas as células na coluna.
-     * <span class="preview">**NONE**: os valores da coluna não são agregados. Esta é a opção padrão.</span>
-
-   <div class="preview">
+     * **NONE**: os valores da coluna não são agregados. Esta é a opção padrão.
 
    * Para campos de data, expanda o menu suspenso do agregador na parte inferior das colunas e selecione entre as seguintes opções:
 
@@ -351,17 +351,12 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
      * **EMPTY**: exibe uma contagem dos campos que não têm valores.
      * **NÃO ESTÁ VAZIO**: exibe uma contagem dos campos que têm valores.
 
-   </div>
-
    Considere o seguinte ao trabalhar com agregadores:
 
    * A linha do agregador na coluna fica congelada quando exibe valores e faz parte das configurações de exibição.
    * Como um Gerenciador de exibições, você pode escolher o agregador e ele será compartilhado com a exibição quando você compartilhá-la com outras pessoas.
    * Como visualizador, você pode modificar o agregador, mas ele não é salvo com a visualização.
    * As exibições públicas compartilhadas são compartilhadas com os agregadores salvos que não podem ser modificados.
-
-   <div class="preview">
-
    * Os seguintes tipos de campo não têm um agregador:
 
      * Criado por
@@ -369,7 +364,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
      * ID do registro
    * Os campos de fórmula e de pesquisa têm os agregadores que correspondem ao formato do campo.
 
-   </div>
+
 
 <!--
 
@@ -409,11 +404,11 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 
    Os registros adicionados na exibição de tabela são salvos imediatamente e ficam visíveis para todos os usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
 
-   Uma imagem de miniatura padrão <span class="preview">e cor</span> também são adicionadas ao novo registro.
+   Uma imagem e uma cor de miniatura padrão também são adicionadas ao novo registro.
 
    >[!TIP]
    >
-   ><span class="preview">Quando um registro tem comentários não lidos, um indicador **Novo comentário** é exibido no canto superior direito do campo principal do registro.</span>
+   >Quando um registro tem comentários não lidos, um indicador **Novo comentário** é exibido no canto superior direito do campo principal do registro.
    >
    >![Novo ícone de comentário na exibição de tabela](assets/new-comment-icon-in-table-view-highlighted.png)
 
@@ -425,32 +420,20 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
    >
    >As alterações feitas na ordem das linhas ficam visíveis para todos os usuários que acessam o tipo de registro na mesma visualização.
    >
-   ><span class="preview">Na linha de arrastar e soltar, um indicador de número exibe o número de registros selecionados, se houver mais de um. </span>
+   >Na linha arrastar e soltar, um indicador de número exibe o número de registros selecionados, se houver mais de um.
 
 1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do registro e clique em **Editar miniatura** para editar a miniatura.
-1. Clique em **Campos** na parte superior da tabela no ambiente Produção
-
-   Ou
-
-   <span class="preview">Passe o mouse sobre o cabeçalho do campo principal</span>, em seguida, selecione o alternador do campo **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
+1. Passe o mouse sobre o cabeçalho do campo principal e selecione o botão de alternância do campo **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
 
    Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">Clique em **Campos** na parte superior da tabela</span>
+1. Passe o mouse sobre o cabeçalho do campo principal e selecione o botão de alternância do campo **Cor** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
 
-   Ou
-   <span class="preview">Passe o mouse sobre o cabeçalho do campo principal e selecione o alternador do campo **Cor** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão. </span>
-
-1. <span class="preview"> (Opcional e condicional) Se você ativou a configuração **Cor**, clique na barra de cores à esquerda do campo principal do registro e selecione uma cor nas guias **Amostras** ou **Personalizado** e clique fora da caixa para fechá-la. A cor é aplicada imediatamente.</span>
-
-<div class="preview">
+1. (Opcional e condicional) Se você ativou a configuração **Cor**, clique na barra de cores à esquerda do campo principal do registro e selecione uma cor nas guias **Amostras** ou **Personalizado** e clique fora da caixa para fechá-la. A cor é aplicada imediatamente.
 
 ![Caixa do seletor de cores para codificação de cores de registro](assets/color-picker-for-record-color-coding.png)
 
 Para obter mais informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
-
-</div>
-
 
 ### Adicionar filtros {#add-filters-1}
 
@@ -514,10 +497,10 @@ Para adicionar um filtro a uma exibição de tabela:
         </tr>
         <tr>
             <td>Multisseleção, Pessoas</td>
-            <td><p>Tem qualquer um dos</p> ou <span class="preview"><p>É algum dos</p></span>
+            <td><p>É algum dos</p>
             <p>Possui todos os</p>
             <p>É exatamente</p>
-            <p>Não tem nenhum dos</p> ou <span class="preview"><p>Não é nenhum dos</p></span>
+            <p>Não é nenhum dos</p>
             <p>Está vazio</p>
             <p>Não está vazio</p></td>
         </tr>

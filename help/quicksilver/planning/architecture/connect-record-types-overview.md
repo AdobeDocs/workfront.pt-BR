@@ -32,19 +32,20 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2479'
 ht-degree: 1%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # Visão geral dos tipos de registro conectados
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -210,18 +211,12 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
     * Você pode conectar Marcas do GenStudio a partir de tipos de registro do GenStudio e de tipos de registro do Planning.
     * Não é possível incluir Marcas do GenStudio em uma hierarquia.
 
-  <div class="preview">
-
   * Você pode tornar um campo de conexão dependente do campo conectado correspondente do tipo de registro conectado. Quando os dois campos são exibidos em um terceiro tipo de registro, as seleções disponíveis para um campo dependem das seleções do outro campo.
 
     Para obter mais informações e considerações adicionais, consulte [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
-  </div>
 
-* Os cenários a seguir existem ao duplicar registros com um registro conectado em um tipo de conexão Um para um ou Um para muitos:
-
-  * No ambiente de produção, o registro conectado é movido para o registro duplicado ou você deve removê-lo manualmente do original antes de duplicar o registro e, em seguida, adicioná-lo novamente.
-  * <span class="preview">No ambiente de Visualização, você pode selecionar se o registro conectado permanece no original ou se move para o registro duplicado.</span>
+* Ao duplicar registros com um registro conectado em um tipo de conexão Um para um ou Um para muitos, é possível selecionar se o registro conectado permanece no original ou se é movido para o registro duplicado.
 
   Para obter mais informações, consulte [Duplicar registros](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 

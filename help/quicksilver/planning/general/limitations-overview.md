@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 5%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
@@ -67,6 +67,7 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Tamanho do CSV do arquivo do Excel que você pode importar para criar tipos de registro | 5 MB |
 | Número de linhas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro | 25.000 |
 | Número de colunas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro | 500 |
+| Número de linhas que você pode importar em um arquivo CSV ou Excel usando o CX Enterprise Coworker para criar registros | mais de 10.000 |
 | Número de campos de fórmula para um tipo de registro | 20 |
 | Número de campos de conexão para um tipo de registro | 30 |
 | Número de caracteres em uma expressão de campo de fórmula | 50.000 |

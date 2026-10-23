@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3098'
+source-wordcount: '3176'
 ht-degree: 2%
 ---
 # Criar e gerenciar um formulário de solicitação no Planejamento do Adobe Workfront
@@ -160,7 +160,7 @@ Para criar um formulário de solicitação, você deve preencher o seguinte:
 
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página de tipo de registro é aberta na exibição em lista.
 
-1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação** se estiver criando o formulário pela primeira vez. Clique em **Gerenciar formulários de solicitação** ou <span class="preview">**Formulários de solicitação**.</span>, se você já tiver um formulário e quiser criar outros.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação** se estiver criando o formulário pela primeira vez. Clique em **Solicitar formulários**.
 
    A página **Formulários de solicitação** é aberta e as solicitações são exibidas na exibição de lista.
 
@@ -212,49 +212,35 @@ Para criar um formulário de solicitação, você deve preencher o seguinte:
    * **Rótulo**: este é o nome do campo como ele aparecerá no formulário de solicitação. Isso não altera o nome do campo de registro.
    * **Instruções**: adicione mais informações sobre o campo.
 
-   <div class="preview">
-
    * **Opções**: está disponível somente para campos selecionados. Siga um destes procedimentos:
 
      * Clique em **Classificar opções de A a Z** para ordená-las automaticamente.
      * Arraste e solte as opções ou ordene-as manualmente.
      * Clique no ícone **Configurações** ![Ícone Configurações](assets/settings-icon.png) e **Selecione por Padrão** para indicar qual opção é a padrão ou **Ocultar opção** para ocultá-la.
 
-   </div>
-
    >[!TIP]
    >
-   ><span class="preview">Não é possível renomear ou remover opções em um formulário de solicitação do Planning. Você deve editar as opções de campo na exibição de tabela do tipo de registro.</span>
-
+   >Não é possível renomear ou remover opções em um formulário de solicitação do Planning. Você deve editar as opções de campo na exibição de tabela do tipo de registro.
 
 1. Na área **Configurações avançadas**, selecione uma das opções listadas abaixo. Nem todas as opções estão disponíveis para todos os tipos de campo.
 
    * **Criar um campo obrigatório**: quando selecionado, o campo deve ter um valor. Caso contrário, o formulário não poderá ser enviado.
-   * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto. A lógica de adição está disponível somente quando os campos são, ou são precedidos por, campos de seleção única e múltipla. <span class="preview">As regras de validação e valor padrão não estão disponíveis para todos os tipos de campo.</span>
+   * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto. A lógica de adição está disponível somente quando os campos são, ou são precedidos por, campos de seleção única e múltipla. As regras de validação e valor padrão não estão disponíveis para todos os tipos de campo.
 
-     No ambiente de Produção, selecione uma das seguintes opções:
+   Selecione entre as seguintes opções:
 
-     * **Lógica de Exibição**: o campo selecionado deve ser precedido por um campo de seleção múltipla ou única.
-     * **Lógica de salto**: adicionar regras de salto para quando os usuários devem ignorar o campo e deixá-lo em branco.
+   * **Exibir**
+   * **Ignorar**
+   * **Valor padrão**
+   * **Validação**
+   * **Formatação**
+   * **Capacidade de edição**
 
-     <div class="preview">
+   Para obter mais informações, consulte [Adicionar regras de lógica a formulários e campos personalizados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
 
-     No ambiente de Pré-visualização, selecione uma das seguintes opções:
-
-     * **Exibir**
-     * **Ignorar**
-     * **Valor padrão**
-     * **Validação**
-     * **Formatação**
-     * **Capacidade de edição**
-
-     </div>
-
-     Para obter mais informações, consulte [Adicionar regras de lógica a formulários e campos personalizados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
-
-     >[!TIP]
-     >
-     ><span class="preview">O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.</span>
+   >[!TIP]
+   >
+   >O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.
 
 1. (Opcional) Clique com o botão direito do mouse em um campo, arraste-o e solte-o em outra posição do formulário.
 1. (Opcional) Clique na guia **Elementos de conteúdo** no lado esquerdo do formulário e adicione qualquer um dos seguintes elementos:
@@ -269,24 +255,25 @@ Para criar um formulário de solicitação, você deve preencher o seguinte:
 1. (Opcional) Clique em **Visualizar** para ver como o formulário será exibido para outros usuários quando eles o usarem para enviar uma solicitação.
 1. Prossiga para um dos seguintes:
 
-   * [Definir configurações de formulário](#configure-form-settings) se desejar definir mais detalhes para o formulário no ambiente de Produção
-   * [Publicar formulário](#publish-form) se não quiser definir mais configurações.
+   * [Definir configurações do formulário](#configure-form-settings) se desejar definir mais detalhes para o formulário
+   * [Publicar formulário](#publish-form) para publicar o formulário de modo que os usuários possam enviar solicitações para ele
+   * [Compartilhar um formulário de solicitação](#share-a-request-form) para compartilhar o formulário com outras pessoas ou publicamente
 
 ### Definir configurações de formulário
 
-Na guia Configurações, você pode definir regras de aprovação, configurar quando uma solicitação criada a partir deste formulário será marcada como Concluída e <span class="preview">atribuir permissões padrão aos usuários que interagem com solicitações futuras enviadas usando o formulário.</span>
+Na guia Configurações, é possível definir regras de aprovação, configurar quando uma solicitação criada a partir deste formulário será marcada como Concluída e atribuir permissões padrão a usuários que interajam com solicitações futuras enviadas usando o formulário.
 
 As regras de aprovação definem o processo de aprovação com base nos valores dos campos nas solicitações enviadas.
 
 Por exemplo, se um formulário de solicitação tiver o campo &quot;Tipo de campanha&quot;, poderá ser criada uma regra que envia a solicitação para uma pessoa quando o campo tem o valor &quot;Digital&quot; e outra pessoa quando ele tem o valor &quot;Imprimir&quot;.
 
-<span class="preview">Há suporte para vários estágios no processo de aprovação. Quando todas as decisões necessárias em um estágio são tomadas, o próximo estágio começa e os aprovadores do novo estágio recebem uma notificação por email.</span>
+Vários estágios são compatíveis com o processo de aprovação. Quando todas as decisões necessárias em um estágio são tomadas, o próximo estágio começa e os aprovadores do novo estágio recebem uma notificação por email.
 
 Para obter mais informações sobre como adicionar aprovações, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 As opções de conclusão permitem definir se uma solicitação é marcada como concluída quando o objeto solicitado é criado ou quando o objeto criado é concluído. Você define quando o objeto é concluído com base em uma condição especificada.
 
-<span class="preview">Use a seção Permissões na área Configurações de um formulário de solicitação para definir as permissões padrão dos solicitantes <!--and non-requestors--> para as solicitações criadas usando o formulário.</span>
+Use a seção Permissões na área Configurações de um formulário de solicitação para definir as permissões padrão dos solicitantes <!--and non-requestors--> para as solicitações criadas usando o formulário.
 
 Para definir configurações de formulário:
 
@@ -297,7 +284,7 @@ Para definir configurações de formulário:
 
 1. Para começar a configurar as regras de aprovação, clique em **Aprovações** ![ícone Aprovações](assets/approvals-icon-on-form.png) no painel de navegação esquerdo.
 
-   Você pode criar <span class="preview"> regras de aprovação em uma única etapa ou em várias etapas </span> e atribuir usuários ou equipes a uma aprovação.
+   Você pode criar regras de aprovação de estágio único ou múltiplo e atribuir usuários ou equipes a uma aprovação.
 
    Para obter mais informações sobre como adicionar aprovações, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
@@ -309,56 +296,41 @@ Para definir configurações de formulário:
 
 1. (Condicional) Se você selecionou que a solicitação seja marcada como concluída quando o objeto solicitado for concluído, selecione o campo e o valor que indica quando o objeto será concluído. Por exemplo, você pode selecionar o campo Status e o valor Concluído para concluir a solicitação quando o status do objeto criado for definido como Concluído.
 
-1. <span class="preview">Clique em **Permissões** no painel esquerdo.</span>
-1. <span class="preview">Selecione o nível de permissão para os usuários que enviam solicitações por meio deste formulário:</span>
-
-   <div class="preview">
+1. Clique em **Permissões** no painel esquerdo.
+1. Selecione o nível de permissão para os usuários que enviam solicitações por meio deste formulário:
 
    * **Exibir**: todos os solicitantes podem comentar e compartilhar o formulário.
    * **Contribute**: todos os solicitantes podem comentar, compartilhar e editar o formulário.
    * **Gerenciar**: todos os solicitantes podem comentar, compartilhar, editar e excluir o formulário.
 
-   </div>
-
-1. <span class="preview"> (Opcional) Desmarque qualquer uma das permissões granulares para cada nível de permissão para impedir que os solicitantes executem as seguintes ações:</span>
-
-   <div class="preview">
+1. (Opcional) Desmarque qualquer uma das permissões granulares de cada nível de permissão para impedir que os solicitantes executem as seguintes ações:
 
    * Comentário
    * Compartilhar
    * Editar. Não disponível para Exibição.
    * Excluir. Não disponível para o Contribute e a Exibição.
 
-   </div>
+   >[!TIP]
+   >
+   >A permissão granular que você desmarcar aqui ficará esmaecida ao compartilhar a solicitação com os usuários da página de solicitação.
+
+1. <span class="preview">Clique em **Preenchimento de formulário de IA** para configurar um prompt personalizado ao usar a funcionalidade **Preencher formulário** ao enviar solicitações. </span>
 
    >[!TIP]
    >
-   ><span class="preview">A permissão granular que você desmarcar aqui ficará esmaecida ao compartilhar a solicitação com esses usuários na página de solicitação. </span>
+   ><span class="preview">Você deve anexar um arquivo ao usar a IA para preencher o formulário de solicitação para que o prompt entre em vigor. </span>
+
+1. <span class="preview">Ative a **configuração Habilitar prompt padrão** e adicione um prompt padrão. </span>
+
+   <span class="preview">Torne o prompt o mais detalhado possível. Por exemplo, se você sempre usar arquivos com datas ao usar Preencher formulário, poderá adicionar &quot;Sempre armazenar datas no formato europeu&quot; ao prompt. </span>
+
+   <span class="preview">Quando você usar o recurso **Preencher formulário** e anexar um arquivo ao enviar uma solicitação usando este formulário, a IA executará as edições que você está prescrevendo neste prompt padrão na nova solicitação. Você terá uma alteração para revisar as alterações antes de enviá-la. </span>
+
+   ![Exemplo de prompt padrão de preenchimento de formulário de IA](assets/ai-form-fill-with-default-prompt-example.png)
 
 1. Continue em [Publicar formulário](#publish-form).
 
 1. Clique em **Salvar**.
-
-
-
-<!--
-
-Add these before Continue to Publish form above:
-
-1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">You must attach a file when using AI to fill the request form for the prompt to take effect. </span>   
-
-1. <span class="preview">Turn on the **Enable default prompt setting**, then add a default prompt. </span> 
-
-   <span class="preview">Make the prompt as detailed as possible. For example, if you always use files with dates in them when using Fill form, you may add "Always store dates in European format" to the prompt. </span> 
-
-   <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
-
-   ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
--->
 
 ### Publicar formulário
 
@@ -446,7 +418,7 @@ Add these before Continue to Publish form above:
 
 1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Gerenciar formulários de solicitação** ou <span class="preview">**Solicitar formulários**</span>.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Solicitar formulários**.
 
    A página **Formulários de solicitação** é aberta e todos os formulários de solicitação associados ao tipo de registro são exibidos em uma exibição de lista.
 1. (Opcional) Atualize os seguintes elementos de exibição na página **Formulários de solicitação** para alterar como as informações são exibidas na tabela:

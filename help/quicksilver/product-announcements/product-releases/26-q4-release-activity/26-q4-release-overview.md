@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '3622'
+source-wordcount: '3661'
 ht-degree: 7%
 ---
 # Visão geral da versão do quarto trimestre de 2026
@@ -274,6 +274,15 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><p>October 22, 2026</p></td>
         </tr>
 -->        
+       <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Conjuntos de ferramentas do servidor Workfront MCP</a></p>
+                <p>Agora é possível limitar o catálogo do Workfront MCP a conjuntos de ferramentas específicos e filtrar a disponibilidade por direito do produto, para que os clientes de IA acessem apenas os recursos de que precisam.</p>
+            </td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+            <td><p>22 de outubro de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Atualizações aos colaboradores de IA</a>

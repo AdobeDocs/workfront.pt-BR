@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 4%
+source-wordcount: '647'
+ht-degree: 3%
 ---
 # Utilizar painéis da tela
 
@@ -34,12 +34,7 @@ ht-degree: 4%
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.
 >
 >Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
->
->Observe que esse beta não está disponível nos seguintes provedores de nuvem:
->
->* Traga sua própria chave para o Amazon Web Services
->* Azure
->* Google Cloud Platform
+
 
 Os Painéis de tela de desenho permitem visualizar os dados do Adobe Workfront adicionando diferentes tipos de relatório em um layout de tela flexível. Este artigo fornece uma visão geral de como usar Painéis do Canvas de maneira eficaz.
 
@@ -110,9 +105,9 @@ Você pode personalizar temporariamente relatórios de tabela em painéis. Essas
    >
    >Essas alterações se aplicam somente à sessão atual e não afetam a configuração original do relatório. Para tornar permanentes essas alterações, é necessário editar o relatório.
 
-<div class="preview">
 
-### Detalhar dados de tabela dinâmica em Visualização
+
+### Detalhar dados da tabela dinâmica
 
 Você pode clicar em um valor em um relatório de tabela dinâmica para detalhar e ver os registros individuais que compõem esse valor agregado.
 
@@ -126,7 +121,7 @@ Você pode clicar em um valor em um relatório de tabela dinâmica para detalhar
 
    A tabela de drill-down exibe as colunas que o criador do relatório configurou nas Configurações de Coluna de Drilldown. Para obter mais informações, consulte [Criar um relatório de tabela dinâmica em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
-</div>
+
 
 
 <!--

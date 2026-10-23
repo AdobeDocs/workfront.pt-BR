@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3233'
 ht-degree: 1%
 ---
 # Enviar solicitações do Planejamento do Adobe Workfront para criar registros
@@ -156,31 +156,25 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
 * Ao enviar um formulário de solicitação para criar registros a partir de um tipo de registro global, os novos registros são salvos no tipo de registro principal ou secundário, dependendo de onde você os envia.
 
-  Dependendo do ambiente usado para enviar solicitações e criar registros, os cenários a seguir existem quando você envia formulários para formulários de solicitação associados a tipos de registro globais:
+  <!--
+   Depending on which environment you use to submit requests and create records,
+   -->
+  Existem os seguintes cenários quando você envia formulários para formulários de solicitação associados a tipos de registro global:
 
-  * No ambiente de produção:
+  * Quando você envia um formulário de solicitação da página de um tipo de registro global secundário, o registro é exibido na página do tipo de registro secundário. Os usuários também verão o novo registro na página do tipo de registro principal, se tiverem acesso para exibir o espaço de trabalho secundário.
+  * Quando você envia um formulário de solicitação da página do tipo de registro principal ou usa qualquer outro método descrito neste artigo, os registros são exibidos na página do tipo de registro principal.
+  * Se o campo **Workspace** estiver disponível no formulário de solicitação e o usuário escolher manualmente um espaço de trabalho específico ao qual adicionar o registro, o registro será salvo nesse espaço, independentemente de o formulário ter sido selecionado nas páginas do tipo de registro primário ou secundário.
 
-    * Se você enviar um formulário de solicitação associado a um tipo de registro global usando qualquer método descrito neste artigo, os registros serão exibidos na página do tipo de registro principal.
-
-  * <span class="preview"> No ambiente de Visualização, existem os seguintes cenários: </span>
-
-    <div class="preview">
-
-    * Quando você envia um formulário de solicitação da página de um tipo de registro global secundário, o registro é exibido na página do tipo de registro secundário. Os usuários também verão o novo registro na página do tipo de registro principal, se tiverem acesso para exibir o espaço de trabalho secundário.
-    * Quando você envia um formulário de solicitação da página do tipo de registro principal ou usa qualquer outro método descrito neste artigo, os registros são exibidos na página do tipo de registro principal.
-    * Se o campo **Workspace** estiver disponível no formulário de solicitação e o usuário escolher manualmente um espaço de trabalho específico ao qual adicionar o registro, o registro será salvo nesse espaço, independentemente de o formulário ter sido selecionado nas páginas do tipo de registro primário ou secundário.
-
-    </div>
+  <!--
+   * In the Production environment:
+        * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+   -->
 
   Para obter mais informações, consulte [Visão geral do tipo de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
-
-<div class="preview">
 
 * Você pode compartilhar uma solicitação com outras pessoas depois que ela for enviada.
 
   Para obter informações, consulte [Compartilhar solicitações do Planning](/help/quicksilver/planning/requests/share-requests.md).
-
-</div>
 
 
 <!--
@@ -223,15 +217,19 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
 
    >[!TIP]
    >
-   ><span class="preview">Os valores dos campos de registro conectados dependentes são limitados pelas regras de dependência entre os registros. Para obter mais informações, consulte [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
+   >Os valores dos campos de registro conectados dependentes são limitados pelas regras de dependência entre os registros. Para obter mais informações, consulte [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
-1. (Opcional e condicional) Clique em **Preencher formulário** para que a IA preencha o formulário para você. O Workfront preenche os campos no formulário com base nas informações das solicitações anteriores.
+1. (Opcional e condicional) Clique em **Preencher formulário** para anexar um arquivo e fazer com que a IA preencha o formulário para você com informações dentro do arquivo. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
    >[!TIP]
    >
-   >Sua organização deve permitir o **Preenchimento de formulário de IA** na área Preferências do Sistema para usar o recurso Preencher formulário.
+   >* Sua organização deve permitir o **Preenchimento de formulário de IA** na área Preferências do Sistema para usar o recurso Preencher formulário.
    >
-   >Para obter instruções, consulte [Usar preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+   >     Para obter instruções, consulte [Usar preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+   >
+   >* <span class="preview">Se o gerenciador de espaço de trabalho tiver adicionado um prompt padrão ao formulário de solicitação, a IA preencherá o formulário com informações com base nas regras estabelecidas no prompt padrão.
+   >
+   >     Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 

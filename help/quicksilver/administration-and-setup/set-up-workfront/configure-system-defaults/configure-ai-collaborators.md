@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 2%
+source-wordcount: '1362'
+ht-degree: 3%
 ---
 # Configurar colaboradores de IA
-
-{{preview-fast-release-general}}
 
 Os Colaboradores de IA são uma maneira de integrar agentes de IA em seus projetos, tarefas e problemas. Você pode configurar um Colaborador de IA e atribuí-lo como faria com um usuário.
 
@@ -65,7 +63,7 @@ Os tipos disponíveis do AI Collaborator incluem:
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td>[!UICONTROL Administrador do Sistema] <span class="preview">ou Administrador de Grupo</span></td> 
+   <td>[!UICONTROL Administrador do Sistema] ou Administrador de Grupo</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -144,7 +142,7 @@ Para obter uma lista de práticas recomendadas ao criar um agente para trabalhar
 
    >[!NOTE]
    >
-   ><span class="preview">Se você for um administrador de grupo, este campo exibirá somente os grupos para os quais é um administrador. Os administradores de grupo devem selecionar pelo menos um grupo.</span>
+   >Se você for um administrador de grupo, este campo exibirá somente os grupos para os quais você é um administrador. Os administradores de grupo devem selecionar pelo menos um grupo.
 
 1. Na área **Escolher origem do agente**, selecione se deseja conectar um agente criado em uma plataforma comum, como o Copilot, ou usar um agente personalizado.
 1. (Condicional) Se você estiver usando um agente de uma plataforma comum, insira os detalhes de autenticação da plataforma do agente:
@@ -153,16 +151,17 @@ Para obter uma lista de práticas recomendadas ao criar um agente para trabalhar
    |---|---|
    | Copilot Studio | Segredo do canal da web |
    | Agentes gerenciados do Claude | Chave da API antropica<br>ID do agente<br>ID do ambiente |
-   | <span class="preview">Agentes OpenAI</span> | <span class="preview">Chave da API <br>ID do Agente</span> |
-   | <span class="preview">Orquestração watsonx da IBM</span> | <span class="preview">URL do Serviço<br>Chave da API<br> ID do Agente</span> |
+   | Agentes da OpenAI | Chave de API <br>ID do Agente |
+   | IBM watsonx Orchestrate | ID do Agente da <br>Chave de API<br> da URL de serviço |
 
 1. Clique em **Testar conexão**. Isso permite saber se a conexão foi configurada corretamente.
 1. No **Depois que o Colaborador terminar o trabalho, ele poderá** alternar a área e as ações que você deseja que o colaborador execute.
 
-   * <span class="preview">Enviar notificação: o Agente faz um comentário no fluxo de atualização, marcando o usuário que solicitou o trabalho, atribuiu o Agente ou que é proprietário do projeto. </span>
-   * <span class="preview">Carregar documentos baseados em texto</span>
-   * <span class="preview">Marcar tarefa como concluída</span>
+   * Enviar notificação: o agente faz um comentário no fluxo de atualização, marcando o usuário que solicitou o trabalho, atribuiu o agente ou que é proprietário do projeto.
+   * Fazer upload de documentos baseados em texto
+   * Marcar a tarefa como concluída
    * Gravar campos de tarefa: selecione os formulários e campos nos quais o Agente pode gravar.
+   * Gravar campos do projeto: selecione os formulários e campos nos quais o agente pode gravar.
 
 1. Clique em **Salvar**.
 
@@ -282,7 +281,7 @@ Você pode editar, copiar e excluir os colaboradores de IA existentes.
 
 >[!NOTE]
 >
-><span class="preview">Os administradores de grupo podem exibir e interagir somente com os Colaboradores de IA associados aos grupos para os quais são administradores. Se outros grupos também estiverem associados a um determinado Colaborador de IA, um administrador de grupo poderá exibi-lo, mas não editá-lo.</span>
+>Os administradores de grupo podem visualizar e interagir somente com os colaboradores de IA associados aos grupos para os quais são administradores. Se outros grupos também estiverem associados a um determinado colaborador de IA, um administrador de grupo poderá exibi-lo, mas não editá-lo.
 
 {{step-1-to-setup}}
 

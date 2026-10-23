@@ -25,24 +25,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 12%
+source-wordcount: '539'
+ht-degree: 11%
 ---
 # Copiar e mover relatórios nos Painéis do Canvas
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que esse beta não está disponível nos seguintes provedores de nuvem:
->
->* Traga sua própria chave para o Amazon Web Services
->* Azure
->* Google Cloud Platform
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+
 
 Você pode duplicar um relatório de KPI, tabela ou gráfico em um Painel da tela após sua criação. Após a duplicação, é possível editar o relatório conforme necessário antes de salvar.
 
@@ -93,28 +87,8 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 Para obter mais informações, consulte [Criar um painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplicação de um relatório na produção
 
-{{step1-to-dashboards}}
-
-1. No painel esquerdo, clique em **Painéis do Canvas**.
-1. Na página **Painéis da Tela**, clique no ícone **Mais** ![Mais](assets/more-icon.png) no canto superior direito do relatório que você deseja duplicar e selecione **Duplicar**.
-
-   ![Botão duplicado](assets/duplicate-button.png)
-
-1. (Opcional) Na caixa **Configurar** exibida, insira um novo relatório **Nome** na guia **Detalhes**.
-
-1. (Opcional) Faça os ajustes necessários nas configurações usando as guias no lado esquerdo.
-
-   >[!NOTE]
-   >
-   >Essas guias variam dependendo se você duplicou um relatório de KPI, tabela ou gráfico.  Para obter mais informações, consulte [Criar um relatório de KPI em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Criar um relatório de gráfico em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) e [Criar um relatório de tabela em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
-
-1. Clique em **Salvar**. O relatório duplicado é exibido no painel.
-
-<div class="preview">
-
-## Copiar ou mover um relatório na Visualização
+## Copiar ou mover um relatório
 
 Você pode copiar um relatório para o painel atual, copiá-lo para outro painel ou movê-lo para outro painel. Copiar cria uma duplicata do relatório no destino; mover realoca-o do painel atual.
 
@@ -160,4 +134,3 @@ Para copiar ou mover um relatório:
 
    ![copiar e mover](assets/copy-and-move.png)
 
-</div>
