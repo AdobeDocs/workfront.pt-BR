@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '4867'
+source-wordcount: '4882'
 ht-degree: 2%
 ---
 # Gerenciar a exibição de linha do tempo
@@ -484,7 +484,6 @@ Para adicionar um agrupamento na exibição de linha do tempo:
 
 1. Na caixa **Agrupar registros por**, arraste e solte os agrupamentos na ordem correta.
 
-
 1. Na área **Layout** da caixa **Agrupar registros por**, selecione uma das seguintes opções:
 
    * **Empilhado**: os agrupamentos são exibidos sem uma coluna congelada à esquerda e se ajustam à largura das linhas do tempo de seus itens.
@@ -524,6 +523,11 @@ Para adicionar um agrupamento na exibição de linha do tempo:
    >Quando você arrasta e solta registros de um agrupamento para outro, os campos selecionados no agrupamento atualizam automaticamente os valores nos registros movidos.
 1. (Opcional) Clique em **Configurações** e depois em **Cor** para agrupar o código de cores. Para obter mais informações, consulte a seção [Editar as configurações de exibição da linha do tempo](#edit-the-timeline-view-settings) neste artigo.
 
+<!--
+1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+
+    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
+-->
 
 ### Adicionar classificação
 
@@ -549,7 +553,17 @@ Para adicionar uma classificação na exibição de linha do tempo:
 
    ![Classificar na linha do tempo com classificação de agrupamento](assets/sort-in-timeline.png)
 1. No menu suspenso, selecione **Classificar registros** e clique em um campo listado na lista **Iniciar com um campo sugerido** ou clique em **Escolher um campo diferente**. Em seguida, procure pelo campo e clique nele quando ele for exibido na lista.
-1. Selecione a direção na qual deseja que a classificação de registro seja aplicada (alfabética, descendente reverso etc.). A direção na qual uma classificação é aplicada depende do formato do campo selecionado.
+1. Selecione a direção na qual deseja que a classificação de registro seja aplicada (alfabética, descendente reverso etc.).
+
+   Por exemplo, a classificação de um campo de texto pode ser A -> Z ou Z -> A.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
+    -->
+
+   A direção na qual uma classificação é aplicada depende do formato do campo selecionado.
 1. (Opcional) Clique em **Adicionar condição** para adicionar até 10 condições.
 1. (Opcional) Clique em **Limpar tudo** para remover todas as condições.
 1. No menu suspenso no canto superior esquerdo da caixa de classificação, selecione **Classificar agrupamentos**.

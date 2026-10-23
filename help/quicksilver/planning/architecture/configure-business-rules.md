@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 1%
@@ -101,7 +101,19 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 * As regras não bloqueiam a criação de registros. Os usuários ainda podem criar registros, mas devem garantir que os campos obrigatórios não estejam vazios ou contenham o valor especificado.
 * As regras não editam ou excluem registros automaticamente. A alteração deve ser deliberada e acionada por um usuário.
 * As regras não são aplicadas retroativamente: os registros antigos não são afetados. A verificação de regra só é executada na próxima vez que alguém tentar editar ou excluir um registro.
-* Não é possível adicionar regras de negócios a tipos de registros globais nos espaços de trabalho principal ou secundário.
+* <!--In the Production environment,--> Não é possível adicionar regras de negócios a tipos de registros globais nos espaços de trabalho principal ou secundário.
+
+<!--
+<div class="preview">
+* In the Preview environment, you can add business rules to the following: 
+
+   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
+   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+
+* Business rules in read-only mode can be edited only from their original workspaces. 
+</div>
+-->
+
 * É possível criar uma condição para a regra de negócios que faça referência a todos os tipos de campo, exceto para o seguinte:
   * Campos de fórmula
   * Campos de pesquisa

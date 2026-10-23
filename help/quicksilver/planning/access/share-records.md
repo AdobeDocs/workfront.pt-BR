@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1735'
 ht-degree: 2%
 ---
 <!--update metadata with real information at release-->
@@ -234,7 +234,15 @@ Como gerenciador de espaço de trabalho, você pode ajustar permissões para reg
    >
    >Não é possível compartilhar permissões para registros adicionados em espaços de trabalho diferentes. Quando você compartilha registros em massa, todos os registros devem ser criados no mesmo espaço de trabalho.
 
-1. (Opcional) Na área **Quem tem acesso**, a opção **Todos os usuários do espaço de trabalho podem visualizar** é selecionada por padrão.  Todos os usuários com permissões de **Exibição** ou superior para o espaço de trabalho e o tipo de registro têm as mesmas permissões para o registro.
+1. (Opcional) A opção **Todos no espaço de trabalho podem visualizar** está selecionada por padrão.  Todos os usuários com permissões de **Exibição** ou superior para o espaço de trabalho e o tipo de registro têm as mesmas permissões para o registro. Não é possível restringir permissões para todos os usuários com acesso ao espaço de trabalho.
+
+   <!--
+   Replace the point above with this at record-level permissions re-release: 
+   1. (Optional and conditional) In the Production environment, the **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. You cannot restrict permissions for all users with access to the workspace.
+   1. <span class="preview">(Optional and conditional) In the Preview environment, expand the **Everyone in the workspace can view** drop-down menu (which is selected by default), and select **Only invited people can access**, then add the names of people, teams, roles, groups, or companies in the **Grant access to this record** box  and specify the level of access. </span>
+      <span class="preview">No one in the workspace will have access the record by default, and only the people you specify here will have access to the record. </span>
+      <span class="preview">Users you share a record with must have permissions to the workspace and the record type. </span>
+   -->
 
 1. (Opcional) Clique nos avatares dos usuários na opção **Permissões herdadas de** para exibir usuários, equipes, grupos, empresas ou funções de trabalho que herdam permissões do espaço de trabalho. <!--logged bug to move "Permissions" to lowercase-->
 
@@ -277,6 +285,7 @@ Como gerenciador de espaço de trabalho, você pode ajustar permissões para reg
       >* Você não pode conceder aos usuários uma permissão menor para o registro se eles tiverem o Contribute ou superior ao tipo de registro.
       >Para obter mais informações, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
       >* Não é possível conceder permissões a usuários que não estão no espaço de trabalho. Os usuários que não têm permissões para o espaço de trabalho e o tipo de registro não podem acessar nenhum dos registros.
+      >* Você deve ter permissões para gerenciar um registro para compartilhá-lo com outras pessoas.
 
    <!--   
    Not possible:
