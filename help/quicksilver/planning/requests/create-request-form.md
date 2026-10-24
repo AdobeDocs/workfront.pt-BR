@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3223'
 ht-degree: 2%
 ---
 # Criar e gerenciar um formulário de solicitação no Planejamento do Adobe Workfront
@@ -296,14 +296,14 @@ Para definir configurações de formulário:
 
 1. (Condicional) Se você selecionou que a solicitação seja marcada como concluída quando o objeto solicitado for concluído, selecione o campo e o valor que indica quando o objeto será concluído. Por exemplo, você pode selecionar o campo Status e o valor Concluído para concluir a solicitação quando o status do objeto criado for definido como Concluído.
 
-1. Clique em **Permissões** no painel esquerdo.
-1. Selecione o nível de permissão para os usuários que enviam solicitações por meio deste formulário:
+1. Clique em **Permissões** no painel esquerdo para configurar as permissões que os usuários terão nas solicitações enviadas usando este formulário por padrão. As permissões concedidas aqui entrarão em vigor imediatamente para solicitações futuras e não afetarão solicitações existentes.
+1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> Selecione o nível de permissão para as solicitações enviadas a este formulário para os usuários que enviam solicitações usando este formulário:
 
    * **Exibir**: todos os solicitantes podem comentar e compartilhar o formulário.
    * **Contribute**: todos os solicitantes podem comentar, compartilhar e editar o formulário.
-   * **Gerenciar**: todos os solicitantes podem comentar, compartilhar, editar e excluir o formulário.
+   * **Gerenciar**: todos os solicitantes podem comentar, compartilhar, editar e excluir o formulário. Essa é a permissão padrão.
 
-1. (Opcional) Desmarque qualquer uma das permissões granulares de cada nível de permissão para impedir que os solicitantes executem as seguintes ações:
+1. (Opcional) <!--<span class="preview">In the **Requestor access** section,</span>--> Desmarque qualquer uma das permissões granulares de cada nível de permissão para impedir que os solicitantes executem as seguintes ações:
 
    * Comentário
    * Compartilhar
@@ -313,6 +313,28 @@ Para definir configurações de formulário:
    >[!TIP]
    >
    >A permissão granular que você desmarcar aqui ficará esmaecida ao compartilhar a solicitação com os usuários da página de solicitação.
+
+   <!--
+   1. <span class="preview">In the **Additional access** section (*************check UI name, submitted a bug********), select the permission level to the requests submitted to this form for **Everyone in this workspace**: </span>
+      <div class="preview">
+      * **No access**: No users in the workspace can access requests submitted using this form. 
+      * **View**: Workspace users can comment on and share the form. This is the default permission. 
+      * **Contribute**: Workspace users can comment on, share, and edit the form.
+      * **Manage**: Workspace users can comment on, share, edit, and delete the form. 
+      </div>
+   1. <span class="preview">(Optional) In the **Additional access** section,</span>, deselect any of the granular permissions for each permission level to prevent workspace users to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+
+   1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page.</span>
+   -->
 
 1. <span class="preview">Clique em **Preenchimento de formulário de IA** para configurar um prompt personalizado ao usar a funcionalidade **Preencher formulário** ao enviar solicitações. </span>
 

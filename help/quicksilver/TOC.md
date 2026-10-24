@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 95ff5491c4fccc69a672d395ebd7573c0b905c9e
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '14725'
 ht-degree: 91%
@@ -2328,7 +2328,7 @@ ht-degree: 91%
     * [Integração entre o Planejamento do Adobe Workfront e o Adobe GenStudio for Performance Marketing: índice do artigo](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
     * [Introdução à integração entre o Planejamento do Adobe Workfront e o Adobe GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
     * [Gerenciar o espaço de trabalho do GenStudio no Planejamento do Adobe Workfront](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-    * [Ativar um espaço de trabalho do Workfront Planning para o GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
+    * {hide-from-toc}[Habilitar um espaço de trabalho do Workfront Planning para o GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
   * Adobe Workfront Planning como um produto independente {#planning-standalone}
     * [Adobe Workfront Planning como um produto independente: índice do artigo](planning/planning-sta/planning-sta-article-index.md)
     * [Introdução ao Adobe Workfront Planning como um produto independente](planning/planning-sta/planning-sta-overview.md)

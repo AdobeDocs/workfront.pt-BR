@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1424'
 ht-degree: 3%
 ---
 # Configurar colaboradores de IA
@@ -37,6 +37,8 @@ Os tipos disponíveis do AI Collaborator incluem:
 * Agente de trabalho: crie um colaborador usando uma plataforma de IA padrão, como Claude, OpenAI ou Copilot, e atribua o colaborador a uma tarefa ou problema para concluir os itens de trabalho.
 
   Para obter mais informações, consulte [Usar Agentes de Trabalho](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+As licenças usadas pelos Colaboradores de IA não são cobradas. Se sua organização tiver 200 licenças do Workfront e criar um Colaborador de IA, 201 licenças estarão em uso, mas somente 200 serão cobradas.
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
@@ -123,6 +125,8 @@ Como os Agentes de trabalho são agentes, suas ações e habilidades são config
 
 Os agentes de trabalho podem ser atribuídos a tarefas ou problemas.
 
+As licenças usadas pelos agentes de trabalho não são cobradas. Se sua organização tiver 200 licenças da Workfront e criar um Agente de trabalho, 201 licenças estarão em uso, mas somente 200 serão cobradas.
+
 Para obter uma lista de práticas recomendadas ao criar um agente para trabalhar como Agente de Trabalho, consulte [Práticas recomendadas para criar um agente para um Agente de Trabalho](#best-practices-for-creating-an-agent-for-a-work-agent).
 
 * [Configurar um agente de trabalho no Workfront](#configure-a-work-agent-in-workfront)
@@ -200,7 +204,6 @@ As práticas recomendadas a seguir podem ser úteis ao criar um agente para usar
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++
