@@ -32,22 +32,22 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1465'
 ht-degree: 6%
 ---
 # Configurar o incluo na lista de permissões do firewall
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
 >O procedimento descrito nesta página foi aplicado apenas a organizações que ainda não foram integradas ao Admin Console. Como todas as organizações foram integradas à Adobe Admin Console, é necessário executar essa ação por meio da Adobe Admin Console.
 >
->Para configurar seu incluo na lista de permissões depois que sua organização for integrada à Adobe Admin Console, consulte [Domínios a serem permitidos para Aplicativos e Serviços Adobe](https://helpx.adobe.com/br/enterprise/kb/network-endpoints.html).
+>Para configurar seu incluo na lista de permissões depois que sua organização for integrada à Adobe Admin Console, consulte [Domínios a serem permitidos para Aplicativos e Serviços Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração entre a Adobe Workfront e a Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -406,12 +406,7 @@ Como sua organização faz parte da Experiência unificada da Adobe, ela usa os 
 
 Para o Workfront Fusion, adicione os seguintes domínios:
 
-<!--Remove me October 2026-->
-
-* Para organizações que não fazem parte da Experiência unificada da Adobe:
-  * app.workfrontfusion.com (AWS EUA)
-  * app-eu.workfrontfusion.com (EU AWS)
-  * app-az.workfrontfusion.com (Azure EUA)
+<!--Remove me January 2027-->
 
 * Para organização na experiência unificada da Adobe
 (Esses domínios são cobertos em `*.adobe.com`, mas podem ser adicionados se desejado.)
@@ -419,6 +414,14 @@ Para o Workfront Fusion, adicione os seguintes domínios:
   * fusion.adobe.com
   * app-eu.fusion.adobe.com
   * app-az.fusion.adobe.com
+
+  >[!NOTE]
+  >
+  >Como todas as organizações agora estão na Experiência unificada da Adobe, os domínios a seguir não são mais necessários.
+  >
+  >* app.workfrontfusion.com (AWS EUA)
+  >* app-eu.workfrontfusion.com (EU AWS)
+  >* app-az.workfrontfusion.com (Azure EUA)
 
 
 

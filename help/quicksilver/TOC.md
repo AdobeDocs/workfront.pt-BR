@@ -3,10 +3,10 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: f56dd9bec282768b8cda59a39bca502c1a796070
 workflow-type: tm+mt
 source-wordcount: '14725'
-ht-degree: 91%
+ht-degree: 90%
 ---
 # Guia do Workfront {#using}
 
@@ -599,14 +599,14 @@ ht-degree: 91%
       * [Conceder acesso às Metas do Workfront](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
       * [Conceder acesso às permissões da marca](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
     * Logon único no Workfront {#sso}
-      * [Logon único: índice de artigos](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-      * [Visão geral do logon único](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-      * [Atualizar usuários para logon único](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * [Configurar o Workfront com SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      * [Atualizar metadados de SAML 2.0 no provedor de identidade](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-      * [Configurar o Adobe Workfront com SAML 2.0 usando ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-      * [Habilitar o Outlook para Workfront e SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
-      * [Desativar logon único](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+      * {hide-from-toc}[Logon único: índice do artigo](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * {hide-from-toc}[Visão geral do logon único](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+      * {hide-from-toc}[Atualizar usuários para logon único](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+      * {hide-from-toc}[Configurar o Workfront com SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+      * {hide-from-toc}[Atualizar metadados do SAML 2.0 no provedor de identidade](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+      * {hide-from-toc}[Configurar o Adobe Workfront com SAML 2.0 usando ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+      * {hide-from-toc}[Habilitar o Outlook para Workfront e SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
+      * {hide-from-toc}[Desativar logon único](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
     * Criar e gerenciar equipes {#create-manage-teams}
       * [Gerenciar equipes](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [Criar uma equipe](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
@@ -859,9 +859,9 @@ ht-degree: 91%
     * [Ações a serem executadas após a instalação de um blueprint](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [Lista de blueprint disponíveis](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Administração no Adobe Admin Console {#admin-in-admin-console}
-    * [Administração do Workfront no Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-    * [Prepare-se para o Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-    * [Noções básicas sobre a migração do Workfront para o Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+    * {hide-from-toc}[Administração do Workfront na Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * {hide-from-toc}[Prepare-se para o Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+    * {hide-from-toc}[Noções básicas sobre a migração do Workfront para o Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
   * Dicas, truques e solução de problemas para administração e configuração {#admin-setup-tips}
     * [Dicas, truques e solução de problemas](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Admins de grupo devem ter um acesso superior aos usuários que gerenciam](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)

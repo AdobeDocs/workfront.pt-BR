@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 27%
+source-wordcount: '120'
+ht-degree: 26%
 ---
 # Navegar [!DNL Adobe Workfront]: índice do artigo
 
@@ -31,9 +31,9 @@ Leia estes artigos para entender como navegar no Adobe Workfront e aprender a te
 Esta seção contém as seguintes subseções e artigos:
 
 * [Compreender objetos em  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-* [Glossário da terminologia do  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
+* [Glossário da terminologia do  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [[!DNL Adobe Unified Experience] para [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
-* [[!DNL Adobe Unified Experience] Perguntas frequentes](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
+  <!--* [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)-->
 * [[!DNL Adobe Workfront] Pesquisa](../../workfront-basics/navigate-workfront/search/search.md)
 * [Recentes e favoritos em  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
 * [Visão geral da barra de navegação superior](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
@@ -44,7 +44,7 @@ Esta seção contém as seguintes subseções e artigos:
 * [Fixar páginas para personalizar o espaço de trabalho](../../workfront-basics/the-new-workfront-experience/pin-pages.md)
 * [Listas em  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
 * [Adicionar um painel na tela esquerda de um objeto ou área do Workfront](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
-* [Acessar a ajuda do  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
+* [Acessar a ajuda do  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [Visão geral das datas de Projeto, Tarefa e Problema em [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Compreender a navegação de um usuário de licença do [!UICONTROL Trabalho]](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 * [Compreender a navegação de um usuário de licença do [!UICONTROL Light]](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)

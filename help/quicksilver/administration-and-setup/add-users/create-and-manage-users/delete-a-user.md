@@ -27,38 +27,26 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6275fff5d615a8db678f16d99c38c96319a57155
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 5%
+source-wordcount: '608'
+ht-degree: 9%
 ---
 # Excluir usuários
 
-<!--Remove me October 2026-->
-
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página foi aplicado apenas a organizações que ainda não foram integradas à Adobe Business Platform. Se você foi integrado à Adobe Business Platform, é necessário excluir usuários na Adobe Admin Console.
+>O procedimento descrito nesta página se aplicava apenas a organizações que não tinham sido integradas no Admin Console. Como sua organização foi integrada à Adobe Admin Console, você deve executar essa ação por meio da Adobe Admin Console.
 >
->**Como todas as organizações foram integradas à Adobe Admin Console, as informações desta página serão removidas em breve.**
->
->Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Business Platform, consulte [Diferenças de administração entre a Adobe Workfront e a Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  Para obter instruções sobre como excluir um usuário na Adobe Admin Console, consulte a seção &quot;Excluir usuários permanentemente&quot; no artigo [Gerenciar usuários individualmente](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) ou entre em contato com o administrador do Adobe Admin Console.
 
 Quando um usuário deixa a organização, você pode removê-lo do Adobe Workfront.
+
+A exclusão de um usuário deve ser realizada por meio da Adobe Admin Console. Para obter instruções, consulte a seção &quot;Excluir usuários permanentemente&quot; no artigo [Gerenciar usuários individualmente](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) ou entre em contato com o administrador do Adobe Admin Console.
 
 >[!IMPORTANT]
 >
 >A exclusão de um usuário do sistema também exclui as informações associadas ao usuário que você pode querer manter. Recomendamos desativar os usuários em vez de excluí-los. Para obter mais informações, consulte [Desativar ou reativar um usuário](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
-<!--
->* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
->
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
->
--->
 
 ## Requisitos de acesso
 
@@ -78,11 +66,8 @@ Quando um usuário deixa a organização, você pode removê-lo do Adobe Workfro
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td> <p>Você deve ter um dos seguintes:</p> 
-    <ul> 
-     <li> <p>O nível de acesso Administrador do sistema. </li> 
-     <li> <p>A configuração <b>Usuários</b> no seu nível de acesso foi configurada para <b>Editar</b> acesso, com as opções <b>Criar</b> e pelo menos uma das duas opções <b>Administrador de Usuários</b> habilitadas em <b>Ajustar suas configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se <b>Administrador de Usuários (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> </li> 
-    </ul> </td> 
+   <td> <p>Você deve ser um administrador na Adobe Admin Console.</p> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +113,7 @@ Excluir um usuário faz com que as seguintes coisas aconteçam:
   * Tarefas, problemas, projetos, portfólio
   * Painéis
 
-  <!--
+<!--
 
      >[!NOTE]
      >
@@ -136,33 +121,35 @@ Excluir um usuário faz com que as seguintes coisas aconteçam:
      >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-   -->
+-->
+* Atualizações
+* Horas
 
-  * Atualizações
-  * Horas
-
-    >[!NOTE]
-    >
-    >Esses objetos permanecem no Workfront, mas o proprietário do objeto agora está em branco.
+  >[!NOTE]
+  >
+  >Esses objetos permanecem no Workfront, mas o proprietário do objeto agora está em branco.
 
 * Se o usuário tiver carregado algum documento na área Documentos na Barra de navegação global, os documentos também serão excluídos.
 * Se o usuário tiver feito check-out dos documentos que possui e os documentos forem carregados na área Documentos principal (acessada no Menu principal), os documentos serão excluídos com o usuário. Para obter mais informações sobre o check-out de documentos, consulte [Check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
 
 Para obter mais informações sobre como desativar usuários, consulte [Desativar ou reativar um usuário](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-É possível excluir permanentemente os usuários, um de cada vez, ou excluir permanentemente vários usuários simultaneamente. Ao excluir usuários individuais, você deve aguardar a conclusão do processo de exclusão antes de passar para outras atividades no Workfront. O processo de exclusão de vários usuários simultaneamente é executado como um processo em segundo plano, para que você possa continuar usando o Workfront enquanto os usuários são excluídos.
 
-## Excluir um ou mais usuários
+<!--
+
+## Delete one or more users
 
 {{step-1-to-users}}
 
-1. Selecione pelo menos um usuário que você deseja excluir, clique no menu Mais ![ícone Mais](assets/more-icon.png) e em **Excluir**.
-1. Na caixa exibida, clique em **Excluir** para confirmar a exclusão.
+1. Select at least one user that you want to delete, click the More menu ![More icon](assets/more-icon.png), then click **Delete**.
+1. In the box that appears, click **Delete** to confirm the deletion.
 
-   O processo de exclusão de usuários é executado como um processo em segundo plano, para que você possa continuar usando o Workfront como o usuário ou usuários são excluídos.
+   The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
 
-   Dependendo do número de usuários que você está excluindo, o processo pode levar vários minutos ou até mesmo algumas horas.
+   Depending on the number of users you are deleting, the process can take several minutes or even a few hours.
 
-   Depois de receber a confirmação no Workfront de que os usuários foram excluídos, você pode continuar vendo-os no sistema até que o processo de exclusão seja concluído em segundo plano.
+   After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
-   Posteriormente, se você descobrir que um ou mais usuários não foram excluídos com êxito, tente excluí-los um de cada vez.
+   At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
+
+   -->
