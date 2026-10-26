@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: addf646d45d70c4806e7285b000c26165aff8eb3
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 6%
@@ -87,7 +87,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    ![Guia Modelos de email](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Clique em **Novo Modelo de email**.
-
+<!--
+new screen for monthly. delete screen in previous step.
+    ![add new email template](assets/email-template-add-new.png)
+-->
 1. Na caixa **Novo Modelo de email**, especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
