@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 30%
+source-wordcount: '641'
+ht-degree: 25%
 ---
 
 # Visão geral da versão do primeiro trimestre de 2027
@@ -67,7 +67,24 @@ Ainda não há atualizações para o seguinte nesta versão:
 * Proof
 * Metas
 
-## Anúncios
+## Atualizações do visualizador de prova para desktop
+
+### Versão 2.3.0
+
+>[!NOTE]
+>
+>Visualização: 27 de outubro de 2026
+>Versão de produção para todos os clientes: 28 de outubro de 2026
+
+O Visualizador de provas de desktop foi atualizado para a versão 2.3.0. Esta atualização inclui as seguintes alterações:
+
+* Correção de um problema com provas interativas em que um clique no link sob a captura de tela ao percorrer várias versões abria a página em várias guias. O link agora abre a página em uma única guia.
+
+* Atualização da estrutura subjacente (Eletron) para a versão mais recente, que é executada na versão 156 do Chrome, para melhorias de desempenho e segurança.
+
+Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+
+## Avisos
 
 ### Substituição de campos de taxa de custo e cobrança herdados nas exibições de lista de funções de trabalho
 
@@ -99,7 +116,7 @@ Para obter informações sobre taxas de funções de trabalho, consulte [Criar e
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
