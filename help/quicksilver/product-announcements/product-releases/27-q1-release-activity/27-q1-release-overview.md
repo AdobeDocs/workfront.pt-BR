@@ -82,7 +82,7 @@ O Visualizador de provas de desktop foi atualizado para a versão 2.3.0. Esta at
 
 * Atualização da estrutura subjacente (Eletron) para a versão mais recente, que é executada na versão 156 do Chrome, para melhorias de desempenho e segurança.
 
-Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Avisos
 
@@ -116,7 +116,7 @@ Para obter informações sobre taxas de funções de trabalho, consulte [Criar e
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
 
 -->
 
