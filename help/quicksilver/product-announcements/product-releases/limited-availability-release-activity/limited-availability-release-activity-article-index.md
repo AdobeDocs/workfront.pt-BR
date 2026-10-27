@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1a2e52fc5c832ebd94b32bb58e5faaee06cf3d6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 22%
+source-wordcount: '115'
+ht-degree: 20%
 ---
 # atividade de lançamento dos recursos de disponibilidade limitada do Adobe Workfront: índice de artigos
 
@@ -34,7 +34,7 @@ Este artigo contém uma lista de artigos de atividade de lançamento sobre recur
 
 Para obter informações sobre a atividade atual da versão de recursos de disponibilidade limitada do Workfront, consulte o seguinte artigo:
 
-* [Atividade da quarta versão do trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+* [Atividade de lançamento do primeiro trimestre de 2027 para recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-27-q1.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,3 +45,5 @@ Para obter informações sobre versões anteriores do, consulte os seguintes art
 * 2026
   * [Atividade de lançamento do primeiro trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
   * [Atividade de lançamento do segundo trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+  * [Atividade da quarta versão do trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+
