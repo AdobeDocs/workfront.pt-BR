@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 96a3eac63c25b2a6cf7d4a10f0db05aab84c68e8
+source-git-commit: 20cb536b40af2dc7d3c5ddd1e3c08d6fbccb8466
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2484'
 ht-degree: 0%
 ---
 
@@ -243,6 +243,30 @@ A janela do agente é aberta.
 
 +++ Expanda para visualizar as instruções passo a passo para conectar o Workfront ao GitHub Copilot.
 
+>[!NOTE]
+>
+>Se o GitHub Copilot informar que o Registro de Cliente Dinâmico não é suportado ou solicitar uma ID de Cliente OAuth, use a solução alternativa abaixo em vez da configuração HTTP padrão. Alguns clientes MCP GitHub Copilot não oferecem suporte ao fluxo de descoberta Dinâmica usado na configuração padrão.
+>
+>Para contornar isso, configure o GitHub Copilot para iniciar o servidor MCP do Workfront por meio de `mcp-remote` e defina `NODE_OPTIONS=--use-system-ca`:
+>
+>```json
+>{
+>   "servers": {
+>       "wf-mcp": {
+>           "command": "npx.cmd",
+>           "args": [
+>               "-y",
+>               "mcp-remote",
+>               "https://mcp.workfront.adobe.com/mcp/v1/workfront"
+>           ],
+>           "env": {
+>               "NODE_OPTIONS": "--use-system-ca"
+>           }
+>       }
+>   }
+>}
+>```
+>
 
 1. No GitHub Copilot, acesse **Personalizar**.
 1. Clique em **Adicionar** > **Servidor MCP**.
