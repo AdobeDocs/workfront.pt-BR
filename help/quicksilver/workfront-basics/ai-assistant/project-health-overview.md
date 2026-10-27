@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2092'
 ht-degree: 4%
 ---
 # Visão geral da integridade do projeto
@@ -93,9 +93,6 @@ Sua organização deve ter o Assistente de IA habilitado para usar o Project Hea
 
 Para ativar o Assistente de IA e a Integridade do projeto para sua organização, todos os itens a seguir devem ser aplicados:
 
-<!--Remove me October 2026-->
-
-* Sua organização deve ter migrado para o Adobe Identity Management System (IMS).
 * Sua organização deve ter um pacote do Workfront ou Workflow Select, Prime ou Ultimate.
 * A Experiência unificada do Adobe deve ser habilitada.
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
