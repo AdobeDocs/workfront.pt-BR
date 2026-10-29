@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '8130'
-ht-degree: 75%
+source-wordcount: '8508'
+ht-degree: 72%
 ---
 # Criar um formulário personalizado
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -141,6 +143,11 @@ Os formulários personalizados são limitados a 500 campos. Um contador no canto
 ### Reutilizar um campo ou widget já usado em outro formulário personalizado
 
 1. No lado superior esquerdo da tela, clique em **Biblioteca de campos**.
+1. Procure o campo que deseja adicionar ao formulário.
+
+   >[!TIP]
+   >
+   ><span class="preview">Os campos marcados como favoritos aparecem na seção **Sugeridos**, na parte superior da biblioteca de campos.</span>
 
 1. Arraste e solte o campo ou widget desejado na tela. Repita essa etapa para adicionar outros campos ou widgets.
 
@@ -332,6 +339,15 @@ Para adicionar um campo de texto:
     <td><ul><li>Texto descritivo</li></ul></td>
     </tr>
     <tr>
+     <td>Marcar como favorito</td>
+     <td><p><span class="preview">Selecione esta opção para que o campo apareça como um campo Sugerido ao criar filtros, visualizações e agrupamentos em listas e relatórios, e na parte superior da biblioteca de campos no designer de formulário.</span></td>
+     <td><ul>
+     <li>Texto de linha única</li>
+     <li>Parágrafo</li>
+     <li>Rich text</li>
+     <li>Texto descritivo</li></ul></td>
+    </tr>
+    <tr>
      <td>Ativo</td>
      <td><p>Essa opção está desabilitada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído de relatórios, filtros e visualizações, e não está mais disponível na biblioteca de campos dos formulários personalizados.</p></td>
      <td><ul>
@@ -511,6 +527,15 @@ Para adicionar botões de opção, grupos de caixas de seleção e listas suspen
     <li>Menu suspenso de seleção múltipla</span></li>
     </ul>
     </td>
+    </tr>
+    <tr>
+     <td>Marcar como favorito</td>
+     <td><span class="preview">Selecione esta opção para que o campo apareça como um campo Sugerido ao criar filtros, visualizações e agrupamentos em listas e relatórios, e na parte superior da biblioteca de campos no designer de formulário.</span></td>
+     <td><ul>
+     <li>Botões de opção</li>
+     <li>Grupo de caixas de seleção</li>
+     <li>Menu suspenso de seleção única</li>
+     <li>Menu suspenso de seleção múltipla</li></ul></td>
     </tr> 
     <tr>
      <td>Ativo</td>
@@ -754,6 +779,10 @@ Para adicionar campos de data:
       <td><p>Selecione essa opção se quiser mostrar a hora do dia junto com a data no campo.</p></td>
      </tr> 
      <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Selecione esta opção para que o campo apareça como um campo Sugerido ao criar filtros, visualizações e agrupamentos em listas e relatórios, e na parte superior da biblioteca de campos no designer de formulário.</span></td>
+     </tr>
+     <tr>
       <td>Ativo</td>
       <td><p>Essa opção está desabilitada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído de relatórios, filtros e visualizações, e não está mais disponível na biblioteca de campos dos formulários personalizados.</p></td>
      </tr>
@@ -851,12 +880,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no formato a seguir, será possível usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o caminho JSON e garantir que você o escreva corretamente, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -868,6 +897,10 @@ Para adicionar uma pesquisa externa:
      <tr> 
       <td role="rowheader">Menu suspenso de seleção múltipla</td>
       <td><p>Selecione essa opção para permitir que o usuário selecione mais de um valor no menu suspenso.</p></td>
+     </tr>
+     <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Selecione esta opção para que o campo apareça como um campo Sugerido ao criar filtros, visualizações e agrupamentos em listas e relatórios, e na parte superior da biblioteca de campos no designer de formulário.</span></td>
      </tr>
      <tr>
       <td>Ativo</td>
@@ -971,6 +1004,10 @@ Para adicionar uma pesquisa interna:
       <td><p>Selecione essa opção para permitir que o usuário selecione mais de um valor no menu suspenso.</p></td>
      </tr>
      <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Selecione esta opção para que o campo apareça como um campo Sugerido ao criar filtros, visualizações e agrupamentos em listas e relatórios, e na parte superior da biblioteca de campos no designer de formulário.</span></td>
+     </tr>
+     <tr>
       <td>Ativo</td>
       <td><p>Essa opção está desabilitada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído de relatórios, filtros e visualizações, e não está mais disponível na biblioteca de campos dos formulários personalizados.</p></td>
      </tr>
@@ -1054,7 +1091,11 @@ Para adicionar imagens, PDFs ou vídeos:
      <tr> 
       <td role="rowheader">Instruções</td> 
       <td> <p>Digite quaisquer informações adicionais sobre o widget. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Selecione esta opção para que o campo apareça como um campo Sugerido ao criar filtros, visualizações e agrupamentos em listas e relatórios, e na parte superior da biblioteca de campos no designer de formulário.</span></td>
+     </tr>
      <tr>
       <td>Ativo</td>
       <td><p>Essa opção está desabilitada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído de relatórios, filtros e visualizações, e não está mais disponível na biblioteca de campos dos formulários personalizados.</p></td>
@@ -1218,6 +1259,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td>
      </tr>
      <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Selecione esta opção para que o campo apareça como um campo Sugerido ao criar filtros, visualizações e agrupamentos em listas e relatórios, e na parte superior da biblioteca de campos no designer de formulário.</span></td>
+     </tr>
+     <tr>
       <td>Ativo</td>
       <td><p>Essa opção está desabilitada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído de relatórios, filtros e visualizações, e não está mais disponível na biblioteca de campos dos formulários personalizados.</p></td>
      </tr>
@@ -1273,6 +1318,10 @@ Para adicionar um arquivo do Adobe XD:
       <td role="rowheader">Instruções</td> 
       <td> <p>Digite quaisquer informações adicionais sobre o widget. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.
     <img src="assets/instructions-form-designer.png"></p> </td> 
+     </tr>
+     <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Selecione esta opção para que o campo apareça como um campo Sugerido ao criar filtros, visualizações e agrupamentos em listas e relatórios, e na parte superior da biblioteca de campos no designer de formulário.</span></td>
      </tr>
      <tr>
       <td>Ativo</td>
@@ -1369,6 +1418,10 @@ Para adicionar um campo de conexão do Planejamento:
       <td role="rowheader">Campos de tipo de registro</td> 
       <td><p>(Opcional) Selecione até 7 campos de pesquisa do tipo de registro conectado para exibir no formulário personalizado. O campo principal é selecionado por padrão e não pode ser editado. </p> <p> Os campos do registro conectado que você selecionar são exibidos em uma visualização de tabela no formulário personalizado. Quando o formulário é anexado a um objeto do Workfront, a visualização de tabela é somente leitura. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Selecione esta opção para que o campo apareça como um campo Sugerido ao criar filtros, visualizações e agrupamentos em listas e relatórios, e na parte superior da biblioteca de campos no designer de formulário.</span></td>
      </tr>
      <tr>
       <td>Ativo</td>

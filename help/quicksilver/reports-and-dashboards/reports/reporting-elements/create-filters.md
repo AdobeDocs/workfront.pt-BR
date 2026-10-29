@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2420'
 ht-degree: 4%
 ---
 # Criar ou editar filtros no Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -250,6 +252,10 @@ Criar um filtro usando a interface padrão do construtor:
 
 1. Clique no menu suspenso do campo para exibir uma lista de campos usados recentemente e os campos sugeridos para filtrar. Os campos sugeridos são exibidos atualmente na lista que você está filtrando.
 
+   >[!TIP]
+   >
+   ><span class="preview">Campos personalizados marcados como favoritos aparecem na seção **Sugeridos**, na parte superior dos resultados da pesquisa.</span>
+
    Você também pode selecionar **Procurar campos** para exibir uma lista de todos os campos que você pode filtrar. Os campos na pesquisa avançada são agrupados por categoria de objeto.
 
    ![Localizar um campo para filtrar por](assets/new-filter-search-for-field.png)
@@ -390,6 +396,10 @@ Independentemente do método usado para criar filtros, criar um filtro do zero o
    * Adicione uma regra de filtro clicando em **Adicionar outra regra de filtro**, comece digitando o nome da opção para a qual deseja adicionar uma regra na caixa **Comece a digitar o nome do campo** e clique nela quando ele aparecer na lista suspensa.
 
      Os campos associados ao objeto do filtro estão listados na caixa **Comece a digitar o nome do campo**.
+
+     >[!TIP]
+     >
+     ><span class="preview">Campos personalizados marcados como favoritos aparecem na seção **Sugeridos**, na parte superior dos resultados da pesquisa.</span>
 
    * Clique em **AND** ou **OR** ao adicionar uma regra de filtro.\
      Ao adicionar regras de filtro, use os modificadores de filtro para estabelecer a condição do filtro. Para obter mais informações sobre modificadores de filtro, consulte [Modificadores de filtro e condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).

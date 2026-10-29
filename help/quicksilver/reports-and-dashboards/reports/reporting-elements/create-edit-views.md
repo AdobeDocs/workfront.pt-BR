@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '908'
 ht-degree: 9%
 ---
 # Criar ou editar visualizações no Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -94,6 +96,11 @@ A caixa de diálogo **Personalizar exibição** é exibida.
 
    * Modifique o valor de qualquer coluna clicando no título da coluna e selecionando um novo campo.
    * Adicione uma coluna clicando em **Adicionar coluna**, comece digitando o nome da coluna que deseja adicionar e clique nela quando ela aparecer na lista suspensa.
+
+   >[!TIP]
+   >
+   ><span class="preview">Campos personalizados marcados como favoritos aparecem na seção **Sugeridos**, na parte superior dos resultados da pesquisa.</span>
+
    * Ajuste a ordem em que as colunas aparecem arrastando o título da coluna para um novo local.
 
    * Na área **Configurações de Coluna**, clique em **Resumir esta coluna por** e escolha como deseja que os dados sejam exibidos na coluna. Essa opção está disponível para os seguintes tipos de coluna:

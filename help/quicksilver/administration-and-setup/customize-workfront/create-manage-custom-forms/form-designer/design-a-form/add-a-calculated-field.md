@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2792'
 ht-degree: 9%
 ---
 # Adicionar campos calculados a um formulário
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -184,7 +186,11 @@ Para reutilizar um campo personalizado calculado existente:
       <td> <p>O formato no qual você deseja que os resultados do campo sejam armazenados e exibidos.</p> <p>Se o campo for usado em cálculos matemáticos, sempre use o formato <strong>Número</strong> ou <strong>Moeda</strong>. Ao selecionar <strong>Número</strong> ou <strong>Moeda</strong>, o sistema trunca automaticamente os números que começam com 0.</p> 
       <p><b>IMPORTANTE</b>: antes de escolher um formato, considere o formato correto para o novo campo. O campo de formato não pode ser editado depois que o formulário personalizado é salvo. E selecionar o formato errado poderia afetar cálculos futuros e agregar valores em agrupamentos de relatórios e listas.</p>
       <p><strong>OBSERVAÇÃO</strong>: campos calculados com um formato <strong>Moeda</strong> não devem incluir aspas. (Por exemplo, use 800.00 e não "800.00".) O uso de aspas pode causar consequências inesperadas devido a nuances na formatação de idioma para tipos de moeda.</p></td>
-     </tr> 
+     </tr>
+     <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Selecione esta opção para que o campo apareça como um campo Sugerido ao criar filtros, visualizações e agrupamentos em listas e relatórios, e na parte superior da biblioteca de campos no designer de formulário.</span></td>
+     </tr>
      <tr>
       <td>Ativo</td>
       <td><p>Essa opção está desabilitada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído de relatórios, filtros e visualizações, e não está mais disponível na biblioteca de campos dos formulários personalizados.</p></td>
