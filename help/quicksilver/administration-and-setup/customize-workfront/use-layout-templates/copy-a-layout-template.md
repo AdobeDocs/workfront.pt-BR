@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 13%
+source-wordcount: '337'
+ht-degree: 12%
 ---
 # Copiar um modelo de layout
+
+{{preview-fast-release-general}}
 
 <!--Audited: 09/2024-->
 
@@ -74,10 +76,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. No painel esquerdo, clique em **Interface** > **Modelos de layout**.
 
-1. Clique no nome do modelo de layout que deseja modificar.
-1. Clique no ícone **Copiar** ![Copiar ícone](assets/copy-icon.png).
+1. Marque a caixa de seleção ao lado do modelo de layout que você deseja modificar.
+1. Clique no ícone **Copiar** ![Copiar ícone](assets/copy-icon.png), <span class="preview">ou clique em **Copiar** na barra de ações na parte inferior da tela.</span>
 
    Todas as configurações, exceto nome, descrição e atribuições de usuário no modelo de layout existente, são copiadas para o novo modelo.
+
+   Para obter informações sobre a barra de ações e outros recursos das listas avançadas, consulte [Usar listas avançadas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. Na tela exibida, digite um novo **Nome do modelo de layout** e (opcional) uma **Descrição** para ele.
 
@@ -92,3 +96,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * [Personalizar a página de aterrissagem usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Personalizar a terminologia da interface de usuário usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+
+1. Clique em **Criar**.
+

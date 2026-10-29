@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 198d06b55407ebff9f5454ce75eb776601a51dbf
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '377'
 ht-degree: 9%
 ---
 # Criar e modificar os modelos de layout de um grupo
@@ -88,9 +88,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
      Para obter informações sobre como copiar um modelo de layout para criar um novo, consulte [Copiar um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
+     Para obter informações sobre a barra de ações e outros recursos das listas avançadas, consulte [Usar listas avançadas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
    * Para editar um modelo de layout de grupo existente, selecione-o e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
 
      Para obter informações sobre como editar um modelo de layout, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
    * Para excluir um ou mais modelos de layout, selecione-os e clique no ícone **Excluir** ![Ícone Excluir](assets/delete.png).
    * Para exportar a lista de modelos de layout, clique no ícone **Exportar** ![Ícone Exportar](assets/export-icon.png).
+
