@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '4353'
+source-wordcount: '4357'
 ht-degree: 2%
 ---
 # Gerenciar a exibição de tabela
@@ -395,7 +395,8 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 As linhas de uma exibição de tabela exibem registros individuais do tipo de registro selecionado. A adição de linhas é idêntica à criação de registros.
 
-É possível ter até 50.000 registros (ou linhas) para um tipo de registro. <span class="preview">Somente 500 linhas são exibidas por padrão. Carregue mais conforme você rola a página.</span>
+É possível ter até 50.000 registros (ou linhas) para um tipo de registro. <span class="preview">Somente 500 linhas são exibidas por padrão. Carregue mais conforme rola a página.</span>
+<span class="preview">O número total de registros é exibido à esquerda da caixa de pesquisa rápida, no canto superior direito da tabela.</span>
 
 1. Vá para uma página de tipo de registro e selecione um modo de exibição de tabela ou clique em **+ Modo de Exibição** para adicionar um novo modo de exibição e, em seguida, escolha **Tabela**.
 
@@ -411,7 +412,6 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
    >
    >![Novo ícone de comentário na exibição de tabela](assets/new-comment-icon-in-table-view-highlighted.png)
 
-   <span class="preview">O número total de registros é exibido à esquerda da caixa de pesquisa rápida, no canto superior direito da tabela.</span>
 
 1. (Opcional) Selecione um ou vários registros ou linhas, em seguida, arraste e solte o **ícone Identificador** ![ícone Identificador](assets/handle-icon.png) à esquerda do registro para reordenar as linhas.
 
@@ -647,7 +647,7 @@ Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***—>
+&lt;!—!—******************* É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto *******************—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
