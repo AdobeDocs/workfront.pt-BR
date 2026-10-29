@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 735544e2ce8702d03532a979ea8e31a7a0296d73
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '545'
 ht-degree: 5%
 ---
 # Exibir e gerenciar o histórico de alterações
@@ -30,6 +30,7 @@ O histórico de alterações pode rastrear os seguintes tipos de dados definidos
 * Atualizações em nível de campo, como edição de uma descrição de projeto ou alteração do modelo de layout de um usuário
 * Atualizações de objeto, como atualização de um status de projeto ou anexação de um formulário personalizado a uma tarefa
 * Atividade unificada de fluxo de trabalho de revisão e aprovação, incluindo participantes e decisões
+* Atividade do Painéis do Canvas, como quem criou, atualizou ou excluiu um painel ou relatório, quando as atualizações foram feitas e o que foi alterado
 
 Para obter informações sobre como definir quais objetos e campos são rastreados, consulte [Configurar campos para rastrear no histórico de alterações](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 

@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 6%
+source-wordcount: '669'
+ht-degree: 4%
 ---
 # Exibir e configurar notificações de eventos para um grupo
 
@@ -73,7 +73,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Exibir e configurar as notificações de eventos de um grupo
+## Exibir e configurar as notificações de eventos de um grupo na produção
 
 >[!TIP]
 >
@@ -108,3 +108,31 @@ This step (with substeps) is for functionality from a Sprint 3 2021 story that g
   For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. 
 -->
 
+
+
+
+<div class="preview">
+
+## Exibir e configurar as notificações de eventos de um grupo em Visualizar
+
+>[!TIP]
+>
+>Se você for um administrador do Workfront e já estiver na página Notificações por email (Configurar > Email > Notificações), faça o seguinte e pule para a etapa 6: Excluir **Notificações de eventos do sistema** na caixa acima da lista, começar a digitar o nome do grupo na caixa e, em seguida, clicar nele quando ele aparecer.
+
+{{step-1-to-setup}}
+
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
+
+1. Clique no nome do grupo de nível superior.
+1. No menu esquerdo, clique em **Notificações de eventos**.
+1. Clique na coluna **Ativo** para o evento e selecione **Ativo** para ativá-lo ou **Inativo** para desativá-lo.
+
+   >[!IMPORTANT]
+   >
+   >Itens com um ícone de bloqueio não podem ser editados ou configurados para grupos.
+
+   ![Área Notificações em emails de configuração](assets/group-event-notifications-g.png)
+
+   Para ver o status de notificação padrão de um evento, consulte [Notificações de eventos](../../../workfront-basics/using-notifications/event-notifications.md).
+
+</div>

@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
+source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
 workflow-type: tm+mt
-source-wordcount: '3345'
+source-wordcount: '3388'
 ht-degree: 1%
 ---
 # Usar listas aprimoradas
+
+{{preview-fast-release-general}}
 
 As listas aprimoradas estão disponíveis em algumas áreas do Adobe Workfront. Essas listas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão. O gerenciamento de visualizações também é aprimorado, incluindo filtragem, agrupamento, gerenciamento de colunas e pesquisa.
 
@@ -77,14 +79,16 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 | --- | --- |
 | Prioridades | <ul><li>Início > selecione o ícone Prioridades no menu esquerdo</li><li>Menu principal > Prioridades</li></ul> |
 | Lista de solicitações | <ul><li>Menu principal > Solicitações (somente nova experiência)</li><li>Widget Minhas solicitações na página inicial</li></ul> |
-| Listas de status, prioridades, severidades, <span class="preview">condições</span> e taxas de câmbio na Instalação | <ul><li>Configuração > Preferências do Projeto > Status</li><li>Configuração > Preferências do Projeto > Prioridades</li><li>Configuração > Preferências do Projeto > Severidades</li><li><span class="preview">Configuração > Preferências do Projeto > Condições</span></li><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
-| <span class="preview">Listas de ações e campos rastreados nos Feeds de Atualização</span> | <ul><li><span class="preview">Configuração > Interface > Atualizar feeds > guia Campos rastreados</span></li> <li><span class="preview">Configuração > Interface > Feeds de Atualização > guia Ações</span></li></ul> |
-| <span class="preview">Lista de scorecards</span> | <span class="preview">Configuração > Scorecards</span> |
-| <span class="preview">Lista de tipos de riscos</span> | <span class="preview">Configuração > Tipos de Riscos</span> |
+| Listas de status, prioridades, severidades, condições e taxas de câmbio em Configuração | <ul><li>Configuração > Preferências do Projeto > Status</li><li>Configuração > Preferências do Projeto > Prioridades</li><li>Configuração > Preferências do Projeto > Severidades</li><li>Configuração > Preferências do Projeto > Condições</li><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
+| Listas de ações e campos rastreados nos Feeds de atualização | <ul><li>Configuração > Interface > Atualizar feeds > guia Campos rastreados</li> <li>Configuração > Interface > Atualizar feeds > guia Ações</li></ul> |
+| Lista de cartões de pontuação | Configuração > Scorecards |
+| Lista de tipos de risco | Configuração > Tipos de Risco |
 | Lista de funções e taxas de trabalho em um cartão de taxa | Configuração > Cartões de Taxa > selecione um cartão de taxa > Funções e Taxas de Ordem de Produção |
 | Lista de localizações | Configuração > Locais |
 | Lista de traduções | Configuração > Localização |
 | Listas de integrações | <ul><li>Configuração > Documentos > Integração do SharePoint</li><li>Configuração > Documentos > Integração personalizada</li><li>Configuração > Documentos > Experience Manager Assets</li></ul> |
+| <span class="preview">Lista de modelos de layout</span> | <span class="preview">Configuração > Interface > Modelos de Layout</span> |
+| <span class="preview">Lista de notificações de eventos</span> | <ul><li><span class="preview">Configuração > Email > Notificações > Notificações de Eventos</span></li><li><span class="preview">Página de Detalhes do Grupo > Notificações de Eventos</span></li></ul> |
 | Lista de relatórios | Menu Principal > Relatórios (**Usar pastas compartilháveis** deve estar ativado) |
 | Listas de tópicos da fila, grupos de tópicos e regras de roteamento | <ul><li>Projeto ou modelo > Tópicos da fila</li><li>Projeto ou modelo > Grupos de tópicos</li><li>Projeto ou Modelo > Regras de Encaminhamento</li></ul> |
 | Lista de instantâneos | Projeto > Instantâneos |
@@ -99,10 +103,7 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 
 <!--
 
-Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -470,14 +471,18 @@ O Workfront fornece um número limitado de agrupamentos predefinidos e você nã
 
    ![Selecionar um agrupamento](assets/glist-grouping-choose-a-group-by.png)
 
-1. Clique em **Recolher tudo** para exibir a lista com todos os agrupamentos recolhidos. A opção padrão é exibir a lista com todos os agrupamentos expandidos.
+1. Clique em **Recolher tudo** para exibir a lista com todos os agrupamentos recolhidos. A opção padrão é exibir a lista com todos os agrupamentos expandidos.<!--Delete this line at January release-->
 1. Quando o agrupamento é aplicado, você pode abrir as opções de Agrupamento novamente para recolher ou expandir todos os agrupamentos de uma vez, alterar o agrupamento para agrupar por um campo diferente ou limpar todos os agrupamentos.
 
-   ![Agrupamento em listas aprimoradas](assets/glist-group-by-due-date-priorities.png)
+   ![Agrupamento em listas aprimoradas](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    Um indicador é exibido no botão **Agrupamento** quando um agrupamento é aplicado à lista.
 
    ![Indicador de agrupamento aplicado](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview">Para recolher ou expandir todos os agrupamentos na lista, clique na seta ao lado do título da primeira coluna.</span>
+
+   <span class="preview">![Recolher todos os agrupamentos](assets/collapse-expand-all-groupings.png)</span>
 
 ### Classificar em uma lista aprimorada
 
