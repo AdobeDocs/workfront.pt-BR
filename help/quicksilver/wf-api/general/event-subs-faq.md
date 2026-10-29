@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
+source-git-commit: 7f5bcddadcd27c359a5ae872144f04b049949ca9
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1101'
 ht-degree: 1%
 ---
 # Perguntas frequentes: assinaturas de eventos
@@ -96,6 +96,16 @@ Você pode usar qualquer autenticação que use um token de portador. O campo **
 ## Quanto tempo deve levar até que eu receba minha carga de evento das Assinaturas de Evento do Workfront?
 
 Em geral, você pode esperar receber solicitações de entrega de eventos de Assinatura de eventos em menos de 5 segundos a partir da alteração de dados que está sendo registrada. Em média, as notificações de webhook são recebidas em menos de 1 segundo a partir do momento em que a alteração de dados é feita. No entanto, o serviço pode receber mensagens em quantidades tão grandes que também pode levar mais tempo.
+
+## Posso receber o mesmo evento mais de uma vez?
+
+Sim. O Workfront usa a desduplicação para reduzir entregas de eventos duplicados, mas não garante a entrega exatamente uma vez.
+
+Depois que um endpoint retorna uma resposta HTTP bem-sucedida (2xx), o Workfront registra temporariamente esse delivery e usa esse registro para suprimir deliveries subsequentes do mesmo evento para a mesma assinatura. Os deliveries para assinaturas separadas são rastreados de forma independente.
+
+As duplicatas ainda podem ocorrer, por exemplo, quando as tentativas de delivery se sobrepõem, um endpoint processa um evento, mas sua resposta não alcança a Workfront ou o registro de delivery expira ou está indisponível.
+
+Projete seu terminal para processar entregas repetidas com segurança (de forma idempotente). Use o cabeçalho da solicitação `X-Event-ID` junto com a `subscriptionId` da carga para identificar entregas repetidas de uma assinatura.
 
 ## Recursos adicionais
 
