@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
 source-wordcount: '3223'
 ht-degree: 2%
@@ -297,7 +297,7 @@ Para definir configurações de formulário:
 1. (Condicional) Se você selecionou que a solicitação seja marcada como concluída quando o objeto solicitado for concluído, selecione o campo e o valor que indica quando o objeto será concluído. Por exemplo, você pode selecionar o campo Status e o valor Concluído para concluir a solicitação quando o status do objeto criado for definido como Concluído.
 
 1. Clique em **Permissões** no painel esquerdo para configurar as permissões que os usuários terão nas solicitações enviadas usando este formulário por padrão. As permissões concedidas aqui entrarão em vigor imediatamente para solicitações futuras e não afetarão solicitações existentes.
-1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> Selecione o nível de permissão para as solicitações enviadas a este formulário para os usuários que enviam solicitações usando este formulário:
+1. <!--<span class="preview">In the **Requestor access** section,</span>--> Selecione o nível de permissão para as solicitações enviadas a este formulário para os usuários que enviam solicitações usando este formulário:
 
    * **Exibir**: todos os solicitantes podem comentar e compartilhar o formulário.
    * **Contribute**: todos os solicitantes podem comentar, compartilhar e editar o formulário.
@@ -329,7 +329,6 @@ Para definir configurações de formulário:
       * Edit. Not available for View. 
       * Delete. Not available for Contribute and View. 
       </div>
-
    1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
       >[!TIP]
       >

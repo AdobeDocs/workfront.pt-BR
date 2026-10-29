@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2583'
 ht-degree: 1%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
@@ -168,7 +168,7 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
     * Os campos de registros de planejamento não podem ser acessados de objetos do Workfront.
     * Os registros do Planning ficam visíveis na seção Planejamento do objeto Workfront. Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
     * Você pode criar um campo personalizado de conexão do Planning e anexá-lo ao formulário personalizado de um objeto do Workfront. Para obter informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-    * Os campos de registro do Planning podem ser acessados a partir de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
+    * Os campos de registro do Planning podem ser acessados a partir de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
     * Os campos de registro de planejamento não podem ser acessados nas Marcas no GenStudio for Performance Marketing.
 
   * **Ao adicionar campos de pesquisa a partir do registro ou objeto ao qual você se conecta**: além de criar um campo de registro vinculado, você também pode se conectar a campos do registro ou tipo de objeto conectado que são chamados de campos de pesquisa. Um campo vinculado (ou de pesquisa) com informações do registro ao qual você está se conectando é exibido no registro do qual você está se conectando.
@@ -201,6 +201,22 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
       >As informações do campo de data dos objetos do Workfront são exibidas no formato de 24 horas no Workfront Planning, independentemente de como são exibidas no Workfront.
       >
       >Por exemplo, se a Data de início planejada de um projeto for exibida às 15h no Workfront, ela será exibida como 15h no Workfront Planning em um campo de pesquisa importado.
+
+  <div class="preview">
+
+  * Existem as seguintes limitações ao adicionar campos de pesquisa:
+
+    * É possível ter até 40 campos de pesquisa por tipo de registro.
+
+    * Você pode ter até 5 campos de pesquisa de texto longo por tipo de registro. Os campos de pesquisa conectados são contados em relação ao limite de seu campo original.
+
+    * Você pode ter até 50.000 caracteres no valor de uma única célula de pesquisa de texto longo.
+
+      Se o conteúdo combinado dos valores de pesquisa exceder isso, os valores serão mostrados na ordem de conexão até que o limite seja atingido.
+
+      O primeiro valor que excederia ele e todos os valores depois dele são omitidos. O campo original do objeto conectado nunca é alterado.
+
+  </div>
 
   * Você deve conectar tipos de registro para poder criar hierarquias no Workfront Planning. Quando não existem, as conexões do tipo de registro são criadas automaticamente quando você cria uma hierarquia. Para obter informações, consulte [Criar hierarquias do espaço de trabalho](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 

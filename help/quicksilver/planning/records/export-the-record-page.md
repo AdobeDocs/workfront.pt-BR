@@ -28,18 +28,16 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 4%
+source-wordcount: '518'
+ht-degree: 3%
 ---
 # Exportar os detalhes de um registro
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -171,7 +169,13 @@ Old:
 
 * O arquivo exportado preserva o layout da página de registro, incluindo a miniatura e as imagens de capa.
 
-* Não é possível exportar uma página Detalhes personalizada, onde vários campos estão ocultos.
+* No ambiente de Produção, não é possível exportar uma página Detalhes personalizada, onde vários campos estão ocultos.
+
+<div class="preview">
+
+* No ambiente de Pré-visualização, você pode exportar uma página de Detalhes personalizada, onde vários campos estão ocultos.
+
+</div>
 
 ## Exportar os detalhes de um registro
 
@@ -206,7 +210,6 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
    >[!NOTE]
    >
    >    As informações adicionais que não são exibidas na página e só são visíveis depois de clicar em Mostrar mais na área de detalhes do registro não são exibidas no arquivo PDF exportado. Somente as informações visíveis na página são exibidas no arquivo exportado.
-
 
 1. (Opcional) Vá para o arquivo baixado, abra-o e edite-o (se for um arquivo do Word) ou compartilhe-o com outras pessoas.
 

@@ -28,20 +28,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4353'
 ht-degree: 2%
 ---
 # Gerenciar a exibição de tabela
 
 <!-- remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 
 {{planning-important-intro}}
@@ -195,15 +194,13 @@ Em uma exibição de tabela, todos os registros do tipo de registro selecionado 
 
 Os itens a seguir são exibidos em uma exibição de tabela por padrão:
 
-* Todos os campos e todos os registros do tipo de registro selecionado.
+* No ambiente de Produção, selecione todos os campos e todos os registros para o tipo de registro selecionado.
 
-<!--
 <div class="preview">
 
-* 500 records upload by default. Additional records display as you scroll the view. 
+* No ambiente de Pré-visualização, 500 registros são exibidos por padrão. Registros adicionais são exibidos à medida que você rola a página.
 
 </div>
--->
 
 Para gerenciar uma exibição de tabela:
 
@@ -244,6 +241,10 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 1. Comece a adicionar campos (ou colunas), conforme descrito no artigo [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
    As colunas adicionadas ficam visíveis para todos os usuários que acessam o tipo de registro e são adicionadas como novos campos na página do registro.
+
+   No ambiente de Produção, os campos recém-adicionados são adicionados e ficam visíveis em todas as exibições.
+
+   <span class="preview">No ambiente de Visualização, os campos recém-adicionados são adicionados como campos ocultos em todas as exibições, exceto na exibição em que você os está adicionando. </span>
 
 1. (Opcional) Clique no ícone **Campos** ![Ícone Campos](assets/fields-icon.png) na barra de ferramentas, procure um campo e desmarque a opção de alternância à direita do nome do campo para ocultar o campo.
 
@@ -301,11 +302,11 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    >Por padrão, campos ocultos não são exibidos na caixa de visualização **Detalhes** do registro. Todos os campos são exibidos na página Detalhes do registro. Para obter informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
-1. Clique no ícone **Campos** e selecione a alternância associada aos campos que deseja exibir nas colunas da tabela. Todos os campos são exibidos por padrão.
+1. Clique no ícone **Campos** e ative a alternância associada aos campos que deseja exibir nas colunas da tabela. Todos os campos são exibidos por padrão.
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. Na caixa **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png), comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
+   1. Na caixa **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png), comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado. <span class="preview">O número total de registros exibidos à esquerda da caixa de pesquisa é substituído pelo número de registros encontrados na pesquisa. A tabela é filtrada para exibir somente os itens que correspondem à pesquisa. </span>
 
       ![Caixa de pesquisa com estrutura azul de resultados na exibição de tabela](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -313,12 +314,10 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
       Não é possível usar palavras-chave associadas a campos ocultos na exibição de tabela.
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
+      >[!TIP]
+      >
+      ><span class="preview">A Pesquisa rápida funciona para todos os registros, não apenas para aqueles exibidos no modo de exibição atual. Mais registros são carregados à medida que você rola a tela. </span>
+
 
    1. Pressione **Enter** no teclado para ir para o próximo campo encontrado.
 
@@ -396,7 +395,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 As linhas de uma exibição de tabela exibem registros individuais do tipo de registro selecionado. A adição de linhas é idêntica à criação de registros.
 
-É possível ter até 50.000 registros (ou linhas) para um tipo de registro.
+É possível ter até 50.000 registros (ou linhas) para um tipo de registro. <span class="preview">Somente 500 linhas são exibidas por padrão. Carregue mais conforme você rola a página.</span>
 
 1. Vá para uma página de tipo de registro e selecione um modo de exibição de tabela ou clique em **+ Modo de Exibição** para adicionar um novo modo de exibição e, em seguida, escolha **Tabela**.
 
@@ -411,6 +410,8 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
    >Quando um registro tem comentários não lidos, um indicador **Novo comentário** é exibido no canto superior direito do campo principal do registro.
    >
    >![Novo ícone de comentário na exibição de tabela](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   <span class="preview">O número total de registros é exibido à esquerda da caixa de pesquisa rápida, no canto superior direito da tabela.</span>
 
 1. (Opcional) Selecione um ou vários registros ou linhas, em seguida, arraste e solte o **ícone Identificador** ![ícone Identificador](assets/handle-icon.png) à esquerda do registro para reordenar as linhas.
 
@@ -646,7 +647,7 @@ Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***—>
+&lt;!—!—******************* É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto *******************—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.

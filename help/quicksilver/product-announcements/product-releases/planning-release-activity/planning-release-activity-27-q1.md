@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 949503fecba92a7b8536b4af0b9c684e7f9e3300
+source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1191'
 ht-degree: 0%
 ---
 # Atividade da versão do primeiro trimestre de 2027 para o Adobe Workfront Planning
@@ -65,13 +65,15 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >Versão rápida de produção: 12 de novembro de 2026
 >Produção para todos: 21 de janeiro de 2027
 
-Quando dois tipos de registros globais conectados são adicionados a um espaço de trabalho secundário, agora é possível desativar a conectividade entre espaços de trabalho e ainda vincular registros localmente. Cada espaço de trabalho secundário vê apenas seus próprios registros para ambos os tipos de registro e pode conectá-los uns aos outros. Os registros do espaço de trabalho global e de outros espaços de trabalho secundários não são mais exibidos.
+Quando dois tipos de registros globais conectados são adicionados a um espaço de trabalho secundário, você pode desativar a conectividade entre espaços de trabalho e ainda vincular registros localmente.
+
+Cada tipo de registro secundário exibe somente seus próprios registros para ambos os tipos de registro e pode conectá-los uns aos outros. Os registros do espaço de trabalho global e de outros espaços de trabalho secundários não são mais exibidos.
 
 Antes desse aprimoramento, se a conectividade entre espaços de trabalho fosse desativada para tipos de registros globais conectados, os espaços de trabalho secundários não poderiam vincular seus próprios registros uns aos outros. Se ele fosse ativado, os usuários poderiam ver e vincular registros do espaço de trabalho global e de todos os outros espaços de trabalho secundários.
 
 Para obter mais informações, consulte [Visão geral do tipo de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-## Veja a contagem total de registros em exibições de tabela
+## Exibir a contagem total de registros nas exibições de tabela, linha do tempo e lista
 
 >[!NOTE]
 >
@@ -79,9 +81,11 @@ Para obter mais informações, consulte [Visão geral do tipo de registro entre 
 >Versão rápida de produção: 12 de novembro de 2026
 >Produção para todos: 21 de janeiro de 2027
 
-A exibição de tabela agora mostra o número total de registros, e a contagem é atualizada automaticamente à medida que você aplica filtros, pesquisa ou altera a exibição. A contagem de registros sempre reflete os resultados completos filtrados e respeita as permissões.
+As exibições de tabela, linha do tempo e lista agora mostram o número total de registros e a contagem de atualizações automaticamente à medida que você aplica filtros, pesquisa ou altera a exibição. A contagem de registros sempre reflete os resultados completos filtrados e respeita as permissões.
 
-Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
+A contagem de registros é exibida à esquerda da caixa de pesquisa rápida, no canto superior direito da tabela, linha do tempo ou exibição de lista.
+
+Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 <!--
 
@@ -197,8 +201,6 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 ## Desempenho aprimorado com carregamento de dados incremental nas visualizações de tabela e linha do tempo
 
-<!-- NOTE FROM CSV: Must check with Lilit whether this will come to the timeline view in addition to the table (Lilit said yes; this was messaged before but pulled). The second bullet will change; check with Lilit first. -->
-
 >[!NOTE]
 >
 >Visualização: 29 de outubro de 2026
@@ -207,8 +209,10 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 Para melhorar o desempenho em um grande número de registros, fizemos as seguintes melhorias nas exibições de tabela e linha do tempo:
 
-* A exibição agora carrega os primeiros 500 registros inicialmente, com registros adicionais carregados automaticamente à medida que você rolar a tela em lotes de 500.
-* A pesquisa rápida e o agrupamento afetam apenas os registros carregados na visualização.
+* A exibição em tabela agora carrega os primeiros 500 registros inicialmente, com registros adicionais carregados automaticamente à medida que você rolar a tela em lotes de 500.
+* A exibição de linha do tempo tem um comportamento semelhante, mas carrega 1000 registros de uma vez com os próximos 1000 carregados à medida que você rolar a tela.
+* A pesquisa rápida se aplica a todos os registros, não apenas àqueles exibidos na exibição atual. Mais registros são carregados à medida que você rolar a tela na linha do tempo e na exibição de tabela.
+* Ao aplicar uma pesquisa rápida na exibição de linha do tempo e houver mais de 1000 itens encontrados, você poderá clicar em Carregar mais na parte inferior da linha do tempo para exibir mais registros que correspondam à pesquisa.
 
 Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md) e [Gerenciar a exibição de linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 

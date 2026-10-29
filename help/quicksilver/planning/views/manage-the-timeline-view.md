@@ -28,20 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4882'
+source-wordcount: '5111'
 ht-degree: 2%
 ---
 # Gerenciar a exibição de linha do tempo
 
 <!--remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -195,9 +193,10 @@ Para gerenciar uma exibição de linha do tempo:
 
    Os registros associados ao tipo de registro selecionado são exibidos como barras em uma linha do tempo e são classificados automaticamente em ordem cronológica de sua Data inicial, por padrão.
 
-   <!--
-    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
-    -->
+   <span class="preview">Os primeiros 1000 registros são exibidos por padrão. Registros adicionais continuam a ser exibidos à medida que você rola a página, em lotes de 1000.</span>
+
+   <span class="preview">O número total de registros é exibido à esquerda da caixa de pesquisa rápida, no canto superior direito da tabela.</span>
+
    <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
@@ -255,10 +254,13 @@ Para gerenciar uma exibição de linha do tempo:
 1. (Opcional) Clique em **Alternar para o modo de exibição Compacto** para exibir os registros cujas datas não se cruzam na mesma linha. <!--check to see if they updated the name of the setting here-->
 1. (Condicional) Se você alterou seu modo para **Compacto**, clique no modo de exibição **Alternar para Padrão** para exibir registros em linhas separadas. A opção **Padrão** é a padrão.  <!--check to see if they updated the name of the setting here-->
 
-
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o registro com a correspondência correta é realçado.
+   1. Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela.
+
+      O número de correspondências corretas é exibido ao lado do item de pesquisa e o registro com a correspondência correta é realçado.
+
+      <span class="preview">O número total de registros exibidos à esquerda da caixa de pesquisa é substituído pelo número de registros encontrados na pesquisa. </span>
 
       ![Caixa de pesquisa e exibição da linha do tempo dos resultados](assets/search-box-and-results-timeline-view.png)
 
@@ -266,19 +268,15 @@ Para gerenciar uma exibição de linha do tempo:
 
       Não é possível usar palavras-chave associadas a campos que não são exibidos na exibição de linha do tempo.
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
-      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
+      >[!TIP]
+      >
+      ><span class="preview">A Pesquisa rápida funciona para todos os registros, e não apenas para aqueles que são exibidos atualmente na página. 1000 registros são exibidos por padrão. Clique em **Carregar mais** para exibir mais registros encontrados na pesquisa rápida. </span>
 
    1. Pressione Enter no teclado para ir para o próximo campo encontrado.
    1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
    1. Clique no ícone **x** na caixa de pesquisa para limpar a palavra-chave de pesquisa.
 
-   1. (Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.
+1. (Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.
 
 1. (Opcional) Clique em **Detalhamento** para exibir os registros conectados na linha do tempo.
 
@@ -523,11 +521,9 @@ Para adicionar um agrupamento na exibição de linha do tempo:
    >Quando você arrasta e solta registros de um agrupamento para outro, os campos selecionados no agrupamento atualizam automaticamente os valores nos registros movidos.
 1. (Opcional) Clique em **Configurações** e depois em **Cor** para agrupar o código de cores. Para obter mais informações, consulte a seção [Editar as configurações de exibição da linha do tempo](#edit-the-timeline-view-settings) neste artigo.
 
-<!--
-1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+1. <span class="preview">(Opcional) Na organização **Raia** ou **Empilhada**, selecione um agrupamento na exibição de linha do tempo e solte-o em outra posição.</span>
 
-    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
--->
+   <span class="preview">Isso altera a ordem de agrupamento e altera a classificação do agrupamento para **Personalizado**. Para obter mais informações, consulte a seção [Adicionar classificação](#add-sort) neste artigo.</span>
 
 ### Adicionar classificação
 
@@ -557,11 +553,9 @@ Para adicionar uma classificação na exibição de linha do tempo:
 
    Por exemplo, a classificação de um campo de texto pode ser A -> Z ou Z -> A.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Se o modo de exibição de linha do tempo tiver agrupamentos e você tiver reorganizado manualmente a ordem dos agrupamentos, a direção da classificação será exibida como **Personalizada**. </span>
 
    A direção na qual uma classificação é aplicada depende do formato do campo selecionado.
 1. (Opcional) Clique em **Adicionar condição** para adicionar até 10 condições.

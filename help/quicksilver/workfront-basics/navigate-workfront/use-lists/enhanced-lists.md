@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '3388'
+source-wordcount: '3531'
 ht-degree: 1%
 ---
 # Usar listas aprimoradas
@@ -249,6 +249,25 @@ Para adicionar e remover colunas:
 >[!NOTE]
 >
 >Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+Para exibir o número total de itens em uma lista, siga um destes procedimentos:
+
+* No ambiente de produção:
+
+  1. Abra uma lista aprimorada.
+  1. Role para o final da lista.
+
+     O número total de itens, levando em conta os filtros aplicados, é exibido no canto inferior direito da lista.
+
+<div class="preview">
+
+* No ambiente de Pré-visualização:
+
+  1. Abra uma lista aprimorada.
+  1. Quando disponível, exiba o número total de itens à esquerda da caixa de pesquisa rápida, no canto superior direito da lista.
+  1. (Condicional) Se houver itens que não sejam exibidos na tela por padrão, role a página para exibir mais.
+
+</div>
 
 Para alterar a altura da linha em uma view:
 
@@ -516,7 +535,11 @@ Para classificar colunas individuais:
 >
 >Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
 
-1. Digite a palavra-chave pela qual deseja pesquisar na caixa Pesquisar no canto superior direito da lista. Os resultados são destacados na lista à medida que você digita.
+1. Digite a palavra-chave pela qual você deseja pesquisar na caixa **Pesquisar**, no canto superior direito da lista.
+
+   No ambiente de Produção, os resultados são destacados na lista à medida que você digita.
+
+   <span class="preview">No ambiente de Visualização, a lista é filtrada para exibir somente os itens que correspondem aos critérios de pesquisa. O número total de registros à esquerda da caixa de pesquisa rápida é substituído pelo número de itens encontrados.</span>
 
    ![Termo de pesquisa destacado](assets/glist-search-highlighted.png)
 
