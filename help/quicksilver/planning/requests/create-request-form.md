@@ -297,7 +297,7 @@ Para definir configurações de formulário:
 1. (Condicional) Se você selecionou que a solicitação seja marcada como concluída quando o objeto solicitado for concluído, selecione o campo e o valor que indica quando o objeto será concluído. Por exemplo, você pode selecionar o campo Status e o valor Concluído para concluir a solicitação quando o status do objeto criado for definido como Concluído.
 
 1. Clique em **Permissões** no painel esquerdo para configurar as permissões que os usuários terão nas solicitações enviadas usando este formulário por padrão. As permissões concedidas aqui entrarão em vigor imediatamente para solicitações futuras e não afetarão solicitações existentes.
-1. <!--<span class="preview">In the **Requestor access** section,</span>--> Selecione o nível de permissão para as solicitações enviadas a este formulário para os usuários que enviam solicitações usando este formulário:
+1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> Selecione o nível de permissão para as solicitações enviadas a este formulário para os usuários que enviam solicitações usando este formulário:
 
    * **Exibir**: todos os solicitantes podem comentar e compartilhar o formulário.
    * **Contribute**: todos os solicitantes podem comentar, compartilhar e editar o formulário.
