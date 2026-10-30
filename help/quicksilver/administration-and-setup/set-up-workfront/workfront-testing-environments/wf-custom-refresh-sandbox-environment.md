@@ -28,14 +28,16 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1842'
 ht-degree: 2%
 ---
 # O ambiente de sandbox de atualização personalizada do [!DNL Adobe Workfront]
 
 A sandbox de atualização personalizada é um ambiente em que você pode testar e trabalhar usando dados de seu ambiente de produção. Também é ideal para executar treinamentos e determinar a funcionalidade de configuração.
+
+
 
 >[!NOTE]
 >
@@ -132,6 +134,10 @@ Para acessar sua sandbox de atualização personalizada:
    Suas credenciais de sandbox de atualização personalizada são as mesmas de sua produção, a menos que você tenha alterado suas credenciais de produção desde a última atualização de sua sandbox de atualização personalizada. Os logons são sincronizados somente quando ocorre uma atualização. Eles não são sincronizados automaticamente.
 
    A sandbox de atualização personalizada mostra a versão, bem como a data da última atualização no banner na parte superior da tela. Todas as informações da produção estão disponíveis e prontas para uso após a conclusão de uma atualização.
+
+>[!IMPORTANT]
+>
+>Os dados de planejamento nos Painéis do Canvas estão visíveis apenas para administradores do [!DNL Workfront] em ambientes de sandbox.
 
 ## Acesse a sandbox de atualização personalizada usando um URL {#access-the-custom-refresh-sandbox-using-a-url}
 

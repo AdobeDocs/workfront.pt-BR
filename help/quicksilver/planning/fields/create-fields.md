@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '5576'
+source-wordcount: '5676'
 ht-degree: 2%
 ---
 <!--
@@ -51,11 +51,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # Criar campos
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -181,6 +181,14 @@ Old:
 </tbody> 
 </table>
 -->
+
+
+## Considerações sobre campos de registro
+
+* Você pode criar campos somente a partir da exibição de tabela.
+* No ambiente de Produção, os campos recém-adicionados são adicionados e ficam visíveis em todas as exibições de tabela.
+
+  <span class="preview">No ambiente de Visualização, os campos recém-adicionados são adicionados como campos ocultos em todas as exibições de tabela que os contêm. Os novos campos estão visíveis na visualização usada para adicioná-los. </span>
 
 ## Criar campos conectando tipos de registro
 

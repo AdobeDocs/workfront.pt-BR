@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '2673'
+source-wordcount: '2622'
 ht-degree: 1%
 ---
 # Criar um fluxo de trabalho de aprovação de documento
@@ -106,13 +106,9 @@ Para criar um workflow de aprovação de estágio único:
    <td>Selecione um modelo no menu suspenso. O menu lista apenas os modelos que você criou ou que foram compartilhados com você — especificamente com você ou com todos em sua organização. Os administradores do sistema veem todos os modelos na conta aqui, independentemente de quem os criou ou compartilhou. Se o modelo tiver um caminho e um estágio, ele se aplica no modo Básico. Se o modelo tiver mais de um estágio ou mais de um caminho, a caixa de diálogo alternará automaticamente para o modo Avançado e qualquer entrada inserida no modo Básico será substituída pelo conteúdo do modelo.</td>
    </tr>
    <tr>
-   <td><strong>Adicionar nomes ou emails</strong></td>
-   <td>Comece a digitar um nome de usuário ou de equipe para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Adicionar pessoas ou equipes na visualização</span></strong></td>
-   <td><p><span class="preview">Comece a digitar um nome de usuário, equipe ou endereço de email. A equipe é adicionada como um único aprovador ou revisador por padrão, mas você pode optar por adicionar cada membro da equipe como um participante individual.</span></p>
-   <p><span class="preview">Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez.</span></p></td>
+   <td><strong>Adicionar pessoas ou equipes</strong></td>
+   <td><p>Comece a digitar um nome de usuário, equipe ou endereço de email. A equipe é adicionada como um único aprovador ou revisador por padrão, mas você pode optar por adicionar cada membro da equipe como um participante individual.</p>
+   <p>Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez.</p></td>
    </tr>
    <tr>
    <td><strong>É necessária apenas uma decisão (opcional)</strong></td>
@@ -176,7 +172,7 @@ Para criar um workflow avançado de aprovação:
    <td>Os estágios são nomeados como <em>Estágio 1</em>, <em>Estágio 2</em> e assim por diante por padrão. Renomeie o estágio para algo mais descritivo, como <em>Revisão inicial</em> ou <em>Aprovação final</em>.</td>
    </tr>
    <tr>
-   <td><strong>Adicionar pessoas ou equipes na visualização</strong></td>
+   <td><strong>Adicionar pessoas ou equipes</strong></td>
    <td><p>Comece a digitar um nome de usuário, equipe ou endereço de email. A equipe é adicionada como um único aprovador ou revisador por padrão, mas você pode optar por adicionar cada membro da equipe como um participante individual.</p>
    <p>Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez. Além disso, os participantes podem ser atribuídos somente a um estágio aberto por vez no mesmo ativo.</p></td>
    </tr>
@@ -200,12 +196,7 @@ Para criar um workflow avançado de aprovação:
 
 1. (Opcional) Para remover um caminho, passe o mouse sobre o rótulo do caminho e clique no ícone de lixeira. **O Caminho 1** não pode ser removido e os caminhos não podem ser reordenados. Outros caminhos podem ser removidos somente se nenhum estágio no caminho estiver bloqueado ou concluído.
 
-   ![Modo avançado com caminhos paralelos](assets/request-approval-parallel-paths.jpeg)
-
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+   ![Modo avançado com caminhos paralelos](assets/parallel-path-v2.png)
 
 1. (Opcional) Para limpar todos os caminhos e estágios e começar novamente, clique em **Redefinir** na parte superior direita.
 
@@ -238,7 +229,7 @@ Para criar um workflow de aprovação de estágio único:
    <td>O campo templates é recolhido por padrão. Clique no campo para expandi-lo e selecione um template no menu suspenso. O menu lista apenas os modelos que você criou ou que foram compartilhados com você — especificamente com você ou com todos em sua organização. Os administradores do sistema veem todos os modelos na conta aqui, independentemente de quem os criou ou compartilhou. Se o modelo tiver um caminho e um estágio, ele se aplica no modo Básico. Se o modelo tiver mais de um estágio ou mais de um caminho, a caixa de diálogo alternará automaticamente para o modo Avançado e qualquer entrada inserida no modo Básico será substituída pelo conteúdo do modelo.</td>
    </tr>
    <tr>
-   <td><strong>Adicionar pessoas ou equipes na visualização</strong></td>
+   <td><strong>Adicionar pessoas ou equipes</strong></td>
    <td><p>Comece digitando um nome de usuário, equipe ou endereço de email e escolha se eles são um <strong>Aprovador</strong> ou <strong>Revisor</strong>. O Workfront adiciona cada membro ativo de uma equipe individualmente.</p>
    <p>Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez.</p></td>
    </tr>
@@ -258,11 +249,10 @@ Para criar um workflow de aprovação de estágio único:
 
 1. Clique em **Solicitar aprovação**.
 
-   ![Solicitar aprovação no modo Básico](assets/request-approval-basic.jpeg)
+   ![Solicitar aprovação no modo Básico](assets/request-approval-basic-v2.png)
 
-<!--
-preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
--->
+
+
 
 
 
@@ -310,7 +300,7 @@ Para criar um workflow avançado de aprovação:
    <td>Os estágios são nomeados como <em>Estágio 1</em>, <em>Estágio 2</em> e assim por diante por padrão. Renomeie o estágio para algo mais descritivo, como <em>Revisão inicial</em> ou <em>Aprovação final</em>.</td>
    </tr>
    <tr>
-   <td><strong>Adicionar pessoas ou equipes na visualização</strong></td>
+   <td><strong>Adicionar pessoas ou equipes</strong></td>
    <td><p>Comece digitando um nome de usuário, equipe ou endereço de email e escolha se eles são um <strong>Aprovador</strong> ou <strong>Revisor</strong>. O Workfront adiciona cada membro ativo de uma equipe individualmente.</p>
    <p>Observação: se um usuário já tiver sido adicionado ou pertencer a mais de uma equipe adicionada, ele será incluído uma vez. Além disso, os participantes podem ser atribuídos somente a um estágio aberto por vez no mesmo ativo.</p></td>
    </tr>
@@ -335,12 +325,11 @@ Para criar um workflow avançado de aprovação:
 
 1. (Opcional) Para remover um caminho, passe o mouse sobre o rótulo do caminho e clique no ícone de lixeira. **O Caminho 1** não pode ser removido e os caminhos não podem ser reordenados. Outros caminhos podem ser removidos somente se nenhum estágio no caminho estiver bloqueado ou concluído.
 
-   ![Modo avançado com caminhos paralelos](assets/request-approval-advanced.jpeg)
+   ![Modo avançado com caminhos paralelos](assets/parallel-path-v2.png)
 
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+
+
+
 
 1. (Opcional) Para limpar todos os caminhos e estágios e começar novamente, clique em **Redefinir** na parte superior direita.
 

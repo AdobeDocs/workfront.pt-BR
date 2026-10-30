@@ -26,20 +26,18 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 5%
+source-wordcount: '598'
+ht-degree: 4%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Visão geral das limitações de objetos do Planejamento do Adobe Workfront
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases.</span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que habilitaram lançamentos rápidos.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -77,6 +75,9 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Número de hierarquias em um espaço de trabalho | 5 |
 | Número de registros de um tipo de registro pai conectados a um registro de um tipo de registro filho, dentro de uma hierarquia | 10 |
 | Número de registros conectados a um registro em um tipo de conexão de seleção múltipla, sem uma hierarquia configurada entre os registros | 500 |
+| <span class="preview">Número de campos de pesquisa por tipo de registro</span> | 40 |
+| <span class="preview">Número de campos de pesquisa de texto longo por tipo de registro</span> | 5 |
+| <span class="preview">Número de caracteres no valor de uma única célula de campo de pesquisa de texto longo (na exibição de tabela)</span> | 50.000 caracteres |
 
 *Recomendamos não ter muitos espaços de trabalho, pois eles podem se tornar difíceis de gerenciar e seus fluxos de trabalho podem estar muito fragmentados.
 

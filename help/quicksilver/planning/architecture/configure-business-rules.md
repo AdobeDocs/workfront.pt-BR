@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1300'
 ht-degree: 1%
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Você pode configurar regras de negócios para tipos de registro do Adobe Workfront Planning para indicar que determinados campos são obrigatórios antes que uma ação em um registro desse tipo seja permitida ou impedida.
 
@@ -101,18 +100,18 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 * As regras não bloqueiam a criação de registros. Os usuários ainda podem criar registros, mas devem garantir que os campos obrigatórios não estejam vazios ou contenham o valor especificado.
 * As regras não editam ou excluem registros automaticamente. A alteração deve ser deliberada e acionada por um usuário.
 * As regras não são aplicadas retroativamente: os registros antigos não são afetados. A verificação de regra só é executada na próxima vez que alguém tentar editar ou excluir um registro.
-* &#x200B;<!--In the Production environment,--> Não é possível adicionar regras de negócios a tipos de registros globais nos espaços de trabalho principal ou secundário.
+* No ambiente de Produção, não é possível adicionar regras de negócios a tipos de registro global em seus espaços de trabalho primários ou secundários.
 
-<!--
 <div class="preview">
-* In the Preview environment, you can add business rules to the following: 
 
-   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
-   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+* No ambiente de Pré-visualização, você pode adicionar regras de negócios ao seguinte:
 
-* Business rules in read-only mode can be edited only from their original workspaces. 
+  * Tipos de registro global em seu espaço de trabalho principal. As regras criadas para tipos de registros globais são visíveis no modo somente leitura dos espaços de trabalho secundários e se aplicam a todos os registros do mesmo tipo em todos os espaços de trabalho.
+  * Tipos de registro secundário, importados de outros espaços de trabalho. As regras criadas para tipos de registros secundários são visíveis no modo somente leitura a partir do tipo de registro global e se aplicam a todos os registros do mesmo tipo em todos os espaços de trabalho.
+
+* Regras de negócios no modo somente leitura podem ser editadas somente a partir dos espaços de trabalho originais.
+
 </div>
--->
 
 * É possível criar uma condição para a regra de negócios que faça referência a todos os tipos de campo, exceto para o seguinte:
   * Campos de fórmula

@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a62afa30eb4727619e64ea2a98e639891a29af
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 4%
+source-wordcount: '1117'
+ht-degree: 3%
 ---
 # Atribuir usuários a um modelo de layout
 
@@ -104,17 +104,28 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Prioridade de atribuição do modelo de layout {#layout-template-assignment-priority}
 
-Você e outros administradores do Workfront podem atribuir vários modelos de layout diferentes para o mesmo usuário destas quatro maneiras diferentes:
+Você e outros administradores do Workfront podem atribuir vários modelos de layout diferentes para o mesmo usuário das seguintes maneiras:
 
 * Para o usuário individual
 * Para uma função de trabalho específica, o usuário tem
 * Para uma determinada equipe da qual o usuário faz parte
 * Para um determinado grupo em que o usuário está
 * Para um determinado nível de acesso ao qual o usuário está atribuído
+* Para um perfil de negócios atribuído ao usuário
 
 No entanto, somente um modelo de layout fica visível para o usuário em um determinado momento. O modelo visível é determinado pela seguinte hierarquia de prioridade:
 
-* **Usuário individual**: o modelo de layout atribuído à pessoa como um usuário individual substitui todos os outros. Você pode sobrepor uma atribuição anterior feita para um usuário individual fazendo uma nova atribuição; a mais recente tem prioridade.
+* **Perfil comercial**: os perfis comerciais representam o nível mais alto de prioridade para um modelo de layout. Se o usuário tiver um perfil de negócios com modelos de layout atribuídos aos níveis de acesso e estiver em uma página específica do grupo (como um projeto associado a um grupo), todos os modelos de layout de perfil de negócios para esse grupo serão combinados com o modelo de layout atribuído pelo usuário. Quando o usuário não está em uma página específica do grupo, todos os modelos de layout de perfil de negócios são combinados com o modelo de layout atribuído pelo usuário.
+
+  Quando modelos de layout para vários perfis comerciais e níveis de acesso são combinados, todos os elementos de layout disponíveis são exibidos. Se um item de menu for exibido em um modelo, mas oculto em outro, ele será exibido. Somente os itens ocultos em todos os modelos para o perfil comercial ficam ocultos.
+
+  >[!NOTE]
+  >
+  >Os perfis empresariais estão disponíveis somente para organizações que têm um pacote Ultimate de fluxo de trabalho.
+
+  Para obter mais informações, consulte [Visão geral dos perfis empresariais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+
+* **Usuário individual**: o modelo de layout atribuído à pessoa como usuário individual substitui todos os outros, exceto os modelos de layout provenientes de um perfil comercial. Você pode sobrepor uma atribuição anterior feita a um usuário individual fazendo uma nova atribuição; a mais recente tem prioridade.
 * **Função de trabalho principal**: se não for atribuído um modelo de layout à pessoa como um único usuário, ela verá o modelo atribuído para sua função de trabalho principal.
 
   Somente o modelo de layout atribuído à função de trabalho principal de um usuário é visível para o usuário. Os modelos atribuídos a quaisquer funções de trabalho secundárias mantidas pelo usuário não estão visíveis.
@@ -127,7 +138,7 @@ No entanto, somente um modelo de layout fica visível para o usuário em um dete
 
   Somente o modelo atribuído ao Grupo inicial de um usuário é visível para o usuário. Os modelos atribuídos a qualquer um de seus outros grupos não estão visíveis.
 
-* Nível de acesso: se não for atribuído um modelo de layout à pessoa como usuário individual, como usuário com função de trabalho principal, como membro de uma Equipe da página inicial ou como membro de um Grupo da página inicial, ela verá o modelo atribuído ao seu nível de acesso.
+* **Nível de acesso**: se não for atribuído um modelo de layout à pessoa como usuário individual, como usuário com função de trabalho primária, como membro de uma Equipe da página inicial ou como membro de um Grupo da página inicial, ela verá o modelo atribuído ao seu nível de acesso.
 
 ## Grande número de usuários atribuídos a um modelo de layout
 

@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 0%
 ---
 # O Ambiente de Sandbox de Visualização [!DNL Adobe Workfront]
@@ -83,6 +83,10 @@ Os dados fluem de forma unidirecional, da Produção para a Pré-visualização,
 A Pré-visualização de Sandbox também permite que o [!DNL Workfront] implante novos recursos em um ambiente seguro, antes que eles estejam prontos para serem implantados em produção. Você pode testar os novos recursos e fornecer feedback de [!DNL Workfront] sobre suas funcionalidades acessando a Sandbox de Visualização. Por esse motivo, o código da sandbox de visualização está sempre à frente do código de produção, embora os dados sejam atualizados semanalmente.
 
 O ambiente de visualização é ideal para executar treinamentos, testar novos recursos e determinar a funcionalidade de configuração.
+
+>[!IMPORTANT]
+>
+>Os dados de planejamento nos Painéis do Canvas estão visíveis apenas para administradores do [!DNL Workfront] em ambientes de sandbox.
 
 >[!NOTE]
 >

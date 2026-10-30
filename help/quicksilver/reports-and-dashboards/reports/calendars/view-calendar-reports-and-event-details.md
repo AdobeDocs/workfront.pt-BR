@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 8%
+source-wordcount: '648'
+ht-degree: 7%
 ---
 # Exibir relatórios de calendário e detalhes do evento
+
+{{highlighted-preview}}
 
 Você pode exibir relatórios de calendário e detalhes de eventos que você criou ou que foram compartilhados com você no Adobe Workfront.
 
@@ -108,20 +110,26 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 1. (Opcional) Se você estiver exibindo o calendário nos modos de exibição **Mês** ou **Semana**, poderá alterar o modo de exibição do calendário com as seguintes opções:
 
-   <!--
-         * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
-      -->
-
-   * Para alterar rapidamente as datas exibidas:
-
-     1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique na seta para a esquerda do indicador de data para voltar no calendário ou na seta para a direita para avançar.
-
-        ![Clique na seta para alterar a data](assets/click-arrows-to-change-dates-calendar-report.png)
-
-        As datas exibidas são ajustadas por um intervalo com base na exibição do calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição **Semana**, o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.
-
-     1. (Opcional) Para voltar ao dia atual, clique em [!UICONTROL **Hoje**].
+   <table style="table-layout:auto"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Excluir fins de semana ao visualizar o calendário na exibição Mês</td> 
+      <td>No canto superior direito do calendário, alterne <b>Mostrar fins de semana</b> para ligado ou desligado.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">Mostrar ou ocultar as horas do dia ao exibir o calendário no modo de exibição <b>[!UICONTROL Semana]</b></span></td> 
+      <td><span class="preview">No canto superior direito do calendário, ative ou desative a opção <b>Mostrar horas</b>.</span></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Para alterar rapidamente as datas exibidas</td> 
+      <td> <p>Na barra de ferramentas <b>[!UICONTROL Calendar]</b>, clique na seta para a esquerda do indicador de data para voltar no calendário ou na seta para a direita para avançar.</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="Clique na seta para alterar a data"></p> <p>As datas exibidas são ajustadas por um intervalo com base na exibição do calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição <b>Semana</b>, o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.</p> <p>(Opcional) Para retornar ao dia atual, clique em <b>[!UICONTROL Hoje]</b>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. (Opcional) Para ocultar os eventos de um projeto ou agrupamento de calendário vinculado ao calendário, desmarque o projeto ou agrupamento de calendário na lista de projetos.
    ![Ocultar eventos](assets/hide-events-for-project-or-cal-grouping.png)
