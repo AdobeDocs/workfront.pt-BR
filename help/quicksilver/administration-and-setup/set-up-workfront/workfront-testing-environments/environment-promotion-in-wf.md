@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 3%
@@ -64,7 +64,9 @@ Como a promoção do ambiente lida com a configuração de objetos, os objetos t
 * [Objetos de dados personalizados](#custom-data-objects)
 * [Objetos da organização](#organization-objects)
 * [Outros objetos de configuração](#other-configuration-objects)
-
+<!--
+* [Workfront Planning objects](#workfront-planning-objects)
+-->
 
 ### Objetos de trabalho
 
@@ -137,6 +139,22 @@ Como a promoção do ambiente lida com a configuração de objetos, os objetos t
 
 -->
 
+<!--
+## Workfront Planning objects
+
+>[!IMPORTANT]
+>
+>Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+
+| Promotable object | Included promotable linked objects |
+| --- | --- |
+| Workspaces | Workspace sections |
+| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
+| Sharing for all objects |  |
+| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
+-->
+
+
 ## Status de promoção do ambiente
 
 Os pacotes de promoção de ambiente passam por vários status à medida que são criados e preparados para se moverem entre ambientes. Você pode ver esses status na lista de pacotes dentro do Workfront ou nas respostas da API, se estiver usando a API do Workfront.
@@ -173,7 +191,7 @@ Esses status incluem o seguinte:
   </tr> 
   <tr> 
    <td>FALHA_NA_MONTAGEM</td> 
-   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote ao estágio MONTAGEM, você deve acionar o processo de montagem novamente.</p><p>Para obter detalhes sobre como montar um pacote, consulte a seção <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar ou montar um pacote existente</a> no artigo Criar ou editar um pacote de promoção de ambiente.</td> 
+   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote ao estágio MONTAGEM, você deve acionar o processo de montagem novamente.</p><p>Para obter detalhes sobre como montar um pacote, consulte a seção <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar ou montar um pacote existente</a> no artigo Criar ou editar um pacote de promoção de ambiente.</td> 
   </tr> 
   </tbody> 
 </table>
