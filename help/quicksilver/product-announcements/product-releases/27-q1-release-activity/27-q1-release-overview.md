@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1137'
 ht-degree: 17%
 ---
 
@@ -61,6 +61,15 @@ As melhorias nesta página estão disponíveis no ambiente de pré-visualizaçã
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Marcar um campo personalizado como favorito</a></p>
                 <p>Agora é possível marcar um campo personalizado como favorito para que ele apareça na parte superior dos campos disponíveis ao criar filtros, exibições e agrupamentos, e na biblioteca de campos do designer de formulário.</p>
+            </td>
+            <td><p>29 de outubro de 2026</p></td>
+            <td><p>12 de novembro de 2026</p></td>
+            <td><p>21 de janeiro de 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Valores verificados em campos personalizados ao alterar o formato</a></p>
+                <p>O sistema agora verifica se há valores incompatíveis ao alterar um formato de campo personalizado Texto existente para Número ou Moeda.</p>
             </td>
             <td><p>29 de outubro de 2026</p></td>
             <td><p>12 de novembro de 2026</p></td>
