@@ -17,7 +17,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Uma vez configurado, qualquer tipo de registro que referencie ambos os campos (c
    <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registro a objetos e marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -141,6 +141,10 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * Para que a cadeia de dependências funcione, todos os campos dependentes devem existir no mesmo tipo de registro ao mesmo tempo.
 
 * Os campos dependentes são suportados para todas as áreas em que os campos de registros conectados são exibidos, incluindo as áreas Detalhes de um registro ou formulários de solicitação.
+
+<!--
+* <span class="preview">When there is a conflict in the selected values of a dependent field on a request form or a submitted request, you must resolve the conflict before you can save the form or the request.</span>
+-->
 
 ## Criar uma conexão dependente
 
