@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '3233'
 ht-degree: 1%
@@ -132,7 +132,7 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
 ## Considerações sobre o envio de solicitações ao Workfront Planning
 
-* você pode editar uma solicitação enviada somente antes que um registro seja criado a partir dela. Depois que o registro for criado, não será mais possível editar a solicitação enviada.
+* Você pode editar uma solicitação enviada somente antes de um registro ser criado a partir dela. Depois que o registro for criado, não será mais possível editar a solicitação enviada.
 * Cada solicitação enviada cria um registro para o tipo de registro associado ao form usado, se o form não estiver associado a uma aprovação ou se a aprovação tiver sido concedida por todos os aprovadores.
 * Os registros criados ao enviar formulários de solicitação são idênticos aos registros adicionados por qualquer outro método no Workfront Planning.
 
@@ -218,6 +218,8 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    >[!TIP]
    >
    >Os valores dos campos de registro conectados dependentes são limitados pelas regras de dependência entre os registros. Para obter mais informações, consulte [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+   >
+   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
 
 1. (Opcional e condicional) Clique em **Preencher formulário** para anexar um arquivo e fazer com que a IA preencha o formulário para você com informações dentro do arquivo. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -292,6 +294,7 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    >* A edição de uma solicitação só é possível quando um registro ainda não foi criado e a solicitação está aguardando aprovação.
    >* Alguns campos são somente leitura e não podem ser editados.
    >* Não é mais possível editar uma solicitação depois que um registro foi criado a partir dela.
+   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
 
 1. (Opcional) Após editar a solicitação, clique em **Enviar alterações**.
 1. (Condicional) Se o formulário de solicitação não estiver associado a uma aprovação ou se a solicitação tiver sido aprovada, clique no nome da solicitação e, em seguida, clique no nome do registro no campo **Objeto criado**.

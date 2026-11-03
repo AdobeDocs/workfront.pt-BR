@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1295'
 ht-degree: 0%
 ---
 
@@ -52,8 +52,8 @@ Os espaços de ideação usam o Enterprise CX Coworker para gerar resumos que po
 A linha do tempo de lançamento planejada para o espaço de ideação que está sujeito a alterações inclui os seguintes marcos:
 
 * **Beta fechado:** lançado em julho de 2026, para um pequeno número de clientes.
-* **Abrir Beta:** Direcionado para novembro de 2026. Essa será uma oferta de aceitação, em que os clientes devem ativar e configurar ativamente a opção, em vez de recusar ativamente a participação.
-* **Disponibilidade geral:** direcionada para 2027.
+* **Abrir Beta:** Direcionado para 12 de novembro de 2026. Essa é uma oferta de aceitação, em que você deve ativar ativamente a opção, em vez de recusá-la ativamente.
+* **Disponibilidade geral:** programada para 1º de fevereiro de 2027.
 
 ## Requisitos do produto
 

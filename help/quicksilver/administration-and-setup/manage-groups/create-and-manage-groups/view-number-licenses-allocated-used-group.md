@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cb0f538ff392ebff585fbdeeba3729d9b2247292
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 7%
+source-wordcount: '476'
+ht-degree: 6%
 ---
 # Exibir o número de licenças alocadas e usadas em um grupo
 
@@ -72,11 +72,16 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Clique no nome do grupo.
-1. Na página exibida, na área de cabeçalho próxima ao canto superior direito, exiba a área **Licenças em uso** para ver o número de licenças do **Plano** e do **Trabalho** que estão sendo usadas no momento.
+1. Na página exibida, na área de cabeçalho próxima ao canto superior direito, exiba a área **Licenças em uso** para ver o número de licenças que estão sendo usadas no momento.
 
-   Se você estiver visualizando um grupo de nível superior e o administrador do Workfront tiver definido um número máximo de cada tipo de licença para o grupo, esses números também serão exibidos. Por exemplo, no grupo abaixo, um máximo de 10 usuários pode ter uma licença de Plano e um máximo de 15 usuários pode ter uma licença de Trabalho:
+   Dependendo do pacote do Workfront, as licenças podem ser:
 
-   ![Licenças alocadas](assets/licenses-used-allocated.png)
+   * **Padrão** e **Leve**
+   * **Plano** e **Trabalho**
+
+   ![Licenças alocadas](assets/how-many-licenses-standard-light.png)
+
+   Se você estiver visualizando um grupo de nível superior e o administrador do Workfront tiver definido um número máximo de cada tipo de licença para o grupo, esses números também serão exibidos como uma proporção. Por exemplo, 2/10 significa que duas licenças foram atribuídas de dez licenças disponíveis.
 
    Para obter informações sobre como um administrador do Workfront define um número máximo de licenças alocadas para um grupo, consulte a seção [Definir a contagem máxima de licenças para um Grupo Doméstico](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) no artigo [Gerenciar licenças disponíveis no sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
@@ -84,15 +89,14 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >
    >Se o grupo que você está observando for um subgrupo, você poderá ver somente os números de licenças que estão sendo usadas, não o número máximo de licenças alocadas para o grupo. Isso ocorre porque os administradores do Workfront não definem uma contagem máxima de licenças para um subgrupo.
    >
-   >![Licenças usadas no subgrupo](assets/subgroup-used-licenses-only.png)
-   >
 
-1. Para contagens separadas de cada tipo de licença usada atualmente no grupo (incluindo Revisão e Solicitação), clique na área de texto diretamente abaixo de **Licenças em uso:**
+1. Para contagens separadas de cada tipo de licença usada atualmente no grupo (incluindo Revisão e Solicitação), clique na área que exibe as licenças em uso.
 
-   ![Clique para ver mais](assets/click-text-to-see-more.png)
+   A caixa que é exibida fornece as mesmas informações para todos os tipos de licença do Workfront aplicáveis. Dependendo do pacote do Workfront, pode ser:
 
-   A caixa que é exibida fornece as mesmas informações para todos os quatro tipos de licença do Workfront: Plano, Trabalho, Revisão e Solicitação. Na parte inferior da caixa, é possível ver o número total de licenças que estão sendo usadas pelos membros deste grupo ou de um de seus subgrupos:
+   * Padrão, Claro, Contribuinte e Externo
+   * Planejar, Trabalhar, Revisar e Solicitar
 
-   ![Mais informações sobre a licença](assets/more-license-info.png)
+   Na parte inferior da caixa, é possível ver o número total de licenças que estão sendo usadas por membros desse grupo ou de um de seus subgrupos.
 
    Para licenças de Revisão e Solicitação, a coluna Máximo sempre exibe Ilimitado.
