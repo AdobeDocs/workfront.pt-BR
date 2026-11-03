@@ -35,13 +35,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: 7995
+source-wordcount: '8209'
 ht-degree: 2%
-
 ---
-
 # Editar projetos
 
 <!--Audited: 07/2024-->
@@ -146,8 +144,8 @@ Considere o seguinte ao editar projetos:
 * Você pode anexar documentos ou modelos a um projeto com status Concluído, Inativo ou Pendente de Aprovação somente se o administrador do Workfront ou um administrador de grupo tiver ativado essa funcionalidade na área Preferências do projeto. Para obter informações sobre como definir preferências de projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Você só pode editar as seguintes informações em um projeto com status Desativado ou Concluído:
 
-   * Modificar despesas existentes.
-   * Adicionar, remover ou editar formulários personalizados.
+  * Modificar despesas existentes.
+  * Adicionar, remover ou editar formulários personalizados.
 
 ## Editar um projeto
 
@@ -456,7 +454,10 @@ Para editar campos na área Finanças:
     <tbody> 
      <tr>
       <td><strong>Usar taxas de câmbio efetivas na data do sistema</strong></td>
-      <td><p>Quando essa opção é selecionada, as taxas de câmbio efetivas no nível do sistema são sempre usadas e as substituições de taxa de câmbio não são permitidas no projeto.</p> <p>Você também deve selecionar a <strong>Data da Taxa de Câmbio</strong> de onde começar, quando a opção estiver selecionada.</p></td> 
+      <td><p>Quando essa opção é selecionada, as taxas de câmbio efetivas no nível do sistema são sempre usadas e as substituições de taxa de câmbio não são permitidas no projeto.</p><p>Para obter mais informações sobre taxas de câmbio, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>. </p></td> 
+     </tr>
+     <tr><td><strong>Data da taxa de câmbio</strong></td>
+     <td><p>Quando você opta por usar as taxas de câmbio de data de efetivação do sistema, deve selecionar uma data. Essa data é usada para definir as taxas de câmbio para custo e receita planejados.</p><p>Para custo e receita reais, é usada a taxa de câmbio para a data em que as horas são registradas em log.</p></td>
      </tr>
      <tr>
       <td><strong>Preservar informações sobre as taxas de faturamento do projeto</strong></td>
@@ -813,17 +814,17 @@ Leve em consideração o seguinte ao editar projetos em massa:
 
 * Além do indicador &quot;Valores múltiplos&quot;, quando as opções escolhidas são diferentes em pelo menos um dos projetos selecionados, os campos com várias opções são exibidos de uma das seguintes maneiras:
 
-   * Os campos de caixa de seleção têm uma linha em vez de uma caixa de seleção para a opção marcada para alguns, mas não para todos os projetos selecionados.
+  * Os campos de caixa de seleção têm uma linha em vez de uma caixa de seleção para a opção marcada para alguns, mas não para todos os projetos selecionados.
 
-     ![Caixas de seleção de indicador de vários valores na caixa de edição de projetos em massa](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+    ![Caixas de seleção de indicador de vários valores na caixa de edição de projetos em massa](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-   * Os campos do tipo alternância são exibidos esmaecidos, com a opção no meio ativada para alguns projetos selecionados, mas não para todos.
+  * Os campos do tipo alternância são exibidos esmaecidos, com a opção no meio ativada para alguns projetos selecionados, mas não para todos.
 
   ![Vários valores destacados em projetos de edição em massa](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-   * Os campos do tipo botão de opção que têm algumas opções selecionadas, mas não todas, exibem todos os botões de opção como vazios.
+  * Os campos do tipo botão de opção que têm algumas opções selecionadas, mas não todas, exibem todos os botões de opção como vazios.
 
-     ![Caixa de edição em massa do projeto dos botões de opção do indicador de vários valores](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+    ![Caixa de edição em massa do projeto dos botões de opção do indicador de vários valores](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Ao atualizar uma opção em um campo de várias opções (como um campo exibido como um conjunto de alternâncias ou caixas de seleção), todas as outras opções devem corresponder entre os projetos selecionados.
 
@@ -891,9 +892,9 @@ Para obter mais informações sobre como editar a área Finanças, consulte a se
 1. Clique em **Configurações do projeto** para editar as configurações de todos os projetos selecionados.
 Para obter mais informações sobre como editar a área Configurações do Projeto, consulte a seção [Configurações do Projeto](#project-settings) neste artigo.
 1. Clique em **Configurações da tarefa** para editar as configurações da tarefa para todos os projetos selecionados.
-Para obter mais informações sobre como editar a área Configurações da tarefa, consulte a seção [Configurações da tarefa](#task-settings) neste artigo.
+Para obter mais informações sobre como editar a área Configurações da Tarefa, consulte a seção [Configurações da Tarefa](#task-settings) neste artigo.
 1. Clique em **Configurações de problema** para editar as configurações de problema de todos os projetos selecionados.
-Para obter mais informações sobre como editar a área Configurações de problema, consulte a seção [Configurações de problema](#issue-settings) neste artigo.
+Para obter mais informações sobre como editar a área Configurações de Problema, consulte a seção [Configurações de Problema](#issue-settings) neste artigo.
 1. Clique em **Acessar** para editar as configurações de acesso de todos os projetos selecionados.
 Para obter mais informações sobre como editar a área de Acesso, consulte a seção [Acesso](#access) neste artigo.
 1. Clique em **Comentário** e adicione um comentário no espaço fornecido. O Workfront adiciona o comentário na área **Atualizações** de cada projeto. Para obter informações sobre como atualizar o trabalho, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '938'
 ht-degree: 5%
 ---
 # Configurar taxas de câmbio
@@ -35,6 +35,7 @@ ht-degree: 5%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
 
 Como administrador do Adobe Workfront, você pode configurar taxas de câmbio de moeda no Workfront. Isso inclui o seguinte:
 
@@ -109,6 +110,14 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 ## Definir datas de efetivação nas taxas de câmbio de uma moeda
 
 As datas de efetivação das taxas de câmbio de uma moeda são configuradas de forma que um valor de taxa termine em uma data específica e outra taxa comece. A taxa de câmbio para a data correta é então usada nos cálculos financeiros.
+
+>[!NOTE]
+>
+>A configuração de taxas de câmbio de data efetiva define qual taxa de câmbio do sistema se aplica a uma data específica. Isso não significa que todos os cálculos financeiros de projeto usam uma taxa de câmbio diferente para cada dia.
+>
+>Quando a configuração **Usar taxas de câmbio de data de efetivação do sistema** está ativada para um projeto, o custo e a receita planejados usam a taxa de câmbio do sistema em vigor na **Data da Taxa de Câmbio** do projeto. Eles não usam automaticamente a taxa efetiva em cada dia de trabalho planejado.
+>
+>Para obter informações sobre como configurar um projeto para usar as taxas de câmbio efetivas de data no nível do sistema, consulte [Editar projetos](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance).
 
 {{step-1-to-setup}}
 
