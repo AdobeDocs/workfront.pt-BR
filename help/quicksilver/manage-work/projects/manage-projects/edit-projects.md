@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: '8209'
+source-wordcount: '8244'
 ht-degree: 2%
 ---
 # Editar projetos
@@ -454,10 +454,10 @@ Para editar campos na área Finanças:
     <tbody> 
      <tr>
       <td><strong>Usar taxas de câmbio efetivas na data do sistema</strong></td>
-      <td><p>Quando essa opção é selecionada, as taxas de câmbio efetivas no nível do sistema são sempre usadas e as substituições de taxa de câmbio não são permitidas no projeto.</p><p>Para obter mais informações sobre taxas de câmbio, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>. </p></td> 
+      <td><p>Selecione esta opção para sempre usar as taxas de câmbio efetivas no nível do sistema e impedir substituições de taxa de câmbio no projeto.</p><p>Para obter mais informações sobre taxas de câmbio, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>. </p></td> 
      </tr>
      <tr><td><strong>Data da taxa de câmbio</strong></td>
-     <td><p>Quando você opta por usar as taxas de câmbio de data de efetivação do sistema, deve selecionar uma data. Essa data é usada para definir as taxas de câmbio para custo e receita planejados.</p><p>Para custo e receita reais, é usada a taxa de câmbio para a data em que as horas são registradas em log.</p></td>
+     <td><p>Quando você seleciona a opção para usar as taxas de câmbio de efetivação de data do sistema, também deve selecionar uma data. Essa data é usada para definir as taxas de câmbio para custo e receita planejados.</p><p>Por exemplo, se a Data da Taxa de Câmbio for 12 de fevereiro, o Workfront usará a taxa de câmbio no nível do sistema em 12 de fevereiro para conversões de moeda de custo e receita planejadas, mesmo quando o trabalho planejado ocorrer em outras datas.</p><p>Para custo e receita reais, é usada a taxa de câmbio para a data em que as horas são registradas em log.</p></td>
      </tr>
      <tr>
       <td><strong>Preservar informações sobre as taxas de faturamento do projeto</strong></td>
