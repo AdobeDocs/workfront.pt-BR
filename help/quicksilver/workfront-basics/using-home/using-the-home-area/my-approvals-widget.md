@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 14%
+source-wordcount: '757'
+ht-degree: 10%
 ---
 # Gerenciar aprovações com o widget Minhas aprovações
 
@@ -44,6 +44,10 @@ O widget Minhas aprovações é compatível com aprovações dos seguintes objet
 * Provas
 * Solicitações de registro de planejamento
 * Planilhas de horas
+
+>[!NOTE]
+>
+>Se sua organização usar o Adobe Cloud Storage, uma aprovação de documento aparecerá no widget somente quando o projeto que contém o documento for compartilhado com você.
 
 ## Requisitos de acesso
 
@@ -79,6 +83,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 +++
 
 ## Aprovar trabalho no widget Minhas aprovações
+
 
 1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
@@ -161,8 +166,25 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    </tr>
    </table>
 
-Depois de tomar uma decisão, a aprovação é removida do widget Minha aprovação.
+## Quando as aprovações são removidas do widget
 
->[!NOTE]
->
->As aprovações de trabalho também podem ser removidas do widget Minhas aprovações quando o projeto, tarefa ou problema é marcado como Resolvido, Em espera, Fechado ou Cancelado.
+Uma aprovação é removida do widget Minhas aprovações depois que você toma uma decisão sobre ela. As aprovações também são removidas nas seguintes situações:
+
+* **Aprovações de trabalho**: aprovações de projetos, tarefas e problemas são removidas do widget quando o projeto está em um dos seguintes status:
+  * Completo
+  * Parado
+  * Em Espera
+
+  >[!NOTE]
+  >
+  >Se um projeto estiver com aprovação pendente, a própria aprovação do projeto ainda poderá ser exibida para seus aprovadores atuais, mas quaisquer aprovações em suas tarefas e problemas não serão exibidas.
+
+
+* **Aprovações de documentos herdados**: as aprovações de documentos herdados são removidas do widget com base no status do objeto ao qual o documento está diretamente anexado, não em um objeto pai. A aprovação é removida quando esse objeto está em um dos seguintes status:
+  * Projeto: concluído ou inativo
+  * Tarefa: Concluída
+  * Problema: Fechado ou um status que equivale a Fechado. Isso inclui Resolvido, Não resolverá, Não pode duplicar e Verificado como concluído.
+
+* **Aprovações unificadas**: as aprovações unificadas permanecem no widget, independentemente do status do projeto, tarefa ou problema. A visibilidade deles é controlada pelo fluxo de trabalho de aprovação e suas responsabilidades de aprovação pendente, de modo que uma aprovação pode ser removida do widget antes que todo o fluxo de trabalho seja concluído.
+
+Os status personalizados seguem o mapeamento Igual a, para que um status que seja igual a qualquer um dos status acima produza o mesmo resultado. A aprovação pode permanecer Pendente no objeto mesmo quando ele é removido do widget. Para obter mais informações sobre status personalizados, consulte [Criar ou editar um status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '2622'
+source-wordcount: '2647'
 ht-degree: 1%
 ---
 # Criar um fluxo de trabalho de aprovação de documento
@@ -206,6 +206,10 @@ Para criar um workflow avançado de aprovação:
 ## Criar um fluxo de trabalho de aprovação na nova área Documentos
 
 Se sua organização usar o armazenamento em nuvem do Adobe, você verá a nova área Documentos ao acessar documentos no Workfront. Para obter mais informações sobre o Adobe Cloud Storage, consulte [Visão geral do Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!NOTE]
+>
+>O aprovador ou revisor deve ter o projeto que contém o documento compartilhado com ele, ou a aprovação não aparecerá em seu widget Minhas aprovações.
 
 A caixa de diálogo **Solicitar aprovação** é aberta no modo **Básico** por padrão. O modo básico é um estágio único com um conjunto de aprovadores ou revisores. Mudar para o modo **Avançado** para configurar aprovações de vários estágios ou caminhos paralelos.
 
