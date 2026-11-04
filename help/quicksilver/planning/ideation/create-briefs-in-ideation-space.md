@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 17607dd765bdd4892ddc455cee48ab45db1fcd6b
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1776'
 ht-degree: 1%
 ---
 
@@ -122,7 +122,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -138,27 +138,36 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 Você pode criar resumos para criar ou editar registros do Planning ou criar arquivos que podem ser exportados para outros aplicativos.
 
-1. Faça logon no Workfront com o Planning onde o Colaborador foi ativado e siga um destes procedimentos:
+1. Faça logon no Workfront com Planejamento, onde o Colaborador foi ativado, e siga um destes procedimentos para abrir o espaço de ideação pela primeira vez e criar resumos:
 
-   * Vá para o **Menu Principal** > **Espaço de ideação**
-   * Vá para **Menu Principal** > **Planejamento** > clique em um espaço de trabalho > clique em um tipo de registro > **Novo registro** > **Iniciar espaço de ideação**
-
-     Para obter mais informações sobre como criar registros usando o espaço de ideação, consulte [Criar registros de planejamento a partir de resumos do espaço de ideação](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
-   * Vá para **Menu Principal** > **Planejamento** > clique em um espaço de trabalho > clique em um tipo de registro > clique em um registro existente > **Abrir no espaço de ideação**
+   * Vá para o **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Espaço de ideação**
+   * Vá para **Menu Principal** ![Menu principal](assets/main-menu-lines.png) > **Planejamento** > clique em um espaço de trabalho > clique em um tipo de registro > **Novo registro** > **Iniciar espaço de ideação**
 
    O espaço de ideação é aberto e uma nova ideação é intitulada por padrão, seguindo o seguinte formato:
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   Se você abrir uma ideação de um registro existente, o nome da ideação corresponderá ao nome do registro.
+   Para obter mais informações sobre como criar registros usando o espaço de ideação, consulte [Criar registros de planejamento a partir de resumos do espaço de ideação](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
-1. (Recomendado) Clique no nome da ideação para alterar o nome.
+1. (Condicional) Para abrir um resumo existente no espaço de ideação, faça logon no Workfront com o Planning onde o Co-worker foi ativado e siga um destes procedimentos:
+
+   * Vá para **Menu Principal** ![Menu principal](assets/main-menu-lines.png) > **Planejamento** > clique em um espaço de trabalho > clique em um tipo de registro > clique em um registro existente > **Abrir no espaço de ideação**
+
+     O nome da ideação corresponde ao nome do registro.
+
+1. (Recomendado) Clique no nome da ideação para alterar o nome, se você a abriu pela primeira vez.
 
 1. (Condicional e opcional) Para abrir outro espaço de ideação existente, clique no menu suspenso à direita do nome da ideação, procure-o pelo nome e clique na ideação quando ela for exibida na lista.
 
-1. Quando o **Espaço de ideação** for aberto, a CX Coworker será aberta à direita. Use o prompt de colaborador para descrever o tipo de resumo que deseja criar.
+   O **Espaço de ideação** é aberto e o CX Coworker, à direita.
+1. Use o prompt de colaborador para descrever o tipo de resumo que deseja criar.
 
    Por exemplo, digite &quot;Create a back-to-school campaign for K-12 student to run through the month of August, for parent and professors in the US&quot; (Crie uma campanha de volta às aulas para os alunos do ensino fundamental que durará o mês de agosto para os pais e os professores nos EUA).  Para tornar o resumo o mais completo possível, indique quantas informações você tem disponíveis para que tipo de campanha, a linha do tempo, as partes interessadas, pontos de verificação de aprovações e outros detalhes.
+1. (Opcional) Clique no ícone **+** na caixa de prompt Colaborador e anexe informações das seguintes maneiras:
+
+   * **Comandos**: use um comando da lista para solicitar conteúdo ao Co-worker.
+   * **Anexar arquivo**: anexe um arquivo à caixa de prompt para adicioná-lo ou suas informações ao espaço de ideação. Você deve pedir ao Coworker para criar cartões com base no arquivo para depois enviar os cartões ao resumo.
+   * **Referenciar um objeto**: selecione um objeto da lista para referenciá-lo na sua ideação. O objeto deve existir no Workfront.
 
 1. Clique em Enter.
 
@@ -171,6 +180,11 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
 1. (Condicional) Quando o Colaborador oferecer a criação de cartões para a ideação, responda **Sim**.
 
    Cartões são adicionados ao espaço de ideação e você pode ver as fontes de cada cartão e decidir quais serão adicionados ao seu resumo.
+
+   >[!TIP]
+   >
+   >Não é possível adicionar arquivos diretamente ao resumo. Você deve primeiro transferir as informações do arquivo para os cartões que você pode enviar ao resumo.
+
 
 1. Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) para procurar itens no espaço de ideação e clique quando ele for exibido na lista para navegar até ele.
 
