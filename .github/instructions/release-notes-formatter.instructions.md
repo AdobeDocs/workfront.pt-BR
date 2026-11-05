@@ -18,7 +18,7 @@ verdade, que inclui os modelos e o calendário de lançamento:
 
 ## Regra crítica — determinar primeiro o trimestre do doc
 
-> [!IMPORTANT]
+&#x200B;> [!IMPORTANT]
 > Nunca atribua um recurso a um trimestre-documento usando matemática de trimestre-calendário em seu
 > Data de Pré-visualização ou Produção. O trimestre-documento é baseado em qual versão **mensal**
 > o recurso é enviado, de acordo com o agrupamento interno de calendário de lançamento do Workfront, que
