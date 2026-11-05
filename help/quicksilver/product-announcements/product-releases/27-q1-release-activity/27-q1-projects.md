@@ -4,10 +4,10 @@ description: Aprimoramentos do projeto do primeiro trimestre de 2027
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b15349a7451b15009bce3902d874a97de1e6021a
+source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 7%
+source-wordcount: '251'
+ht-degree: 6%
 ---
 
 # Aprimoramentos do projeto do primeiro trimestre de 2027
@@ -15,6 +15,19 @@ ht-degree: 7%
 Esta página descreve as melhorias feitas no Project com a versão do Primeiro Trimestre de 2027 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2027, consulte [Visão geral da versão do Primeiro trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Orientação de status indisponível
+
+>[!NOTE]
+>
+>Visualização: 4 de novembro de 2026
+>Versão rápida de produção: 4 de novembro de 2026
+>Produção para todos: 4 de novembro de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
+
+Quando um problema, tarefa ou status de projeto salvo não está disponível para o objeto atual, um aviso agora explica por que e mostra o código do status salvo. &quot;Não disponível&quot; é exibido somente como texto de exibição, não como status de substituição. Os usuários com permissões para Gerenciar no objeto podem selecionar outro status. Os administradores podem criar outro status.
+
+Para obter mais informações, consulte [Atualizar status do problema](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-issue-status.md). A atualização do status do projeto e da tarefa é semelhante à atualização do status do problema.
 
 ## Fixar threads importantes no início das atualizações
 

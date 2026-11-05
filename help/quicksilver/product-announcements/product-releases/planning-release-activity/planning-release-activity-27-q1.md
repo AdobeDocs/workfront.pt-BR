@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
+source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1313'
 ht-degree: 0%
 ---
 # Atividade da versão do primeiro trimestre de 2027 para o Adobe Workfront Planning
@@ -28,6 +28,18 @@ ht-degree: 0%
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Primeiro Trimestre de 2027.
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Detecção de conflitos aprimorada em campos dependentes ao enviar solicitações
+
+>[!NOTE]
+>
+>Visualização: 5 de novembro de 2026
+>Versão rápida de produção: 17 de dezembro de 2026
+>Produção para todos: 21 de janeiro de 2027
+
+Quando você submete uma solicitação em que um campo conectado dependente tem um conflito de dependência, o sistema exibe um erro e impede que você envie a solicitação até que o conflito seja resolvido. As solicitações que ainda não foram aprovadas também exibem quaisquer conflitos causados por alterações posteriores em campos dependentes na configuração de regras, tanto quando você exibe quanto quando edita uma solicitação.
+
+Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Melhor visibilidade de descobertas de pesquisa rápida na exibição de tabela
 
