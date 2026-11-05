@@ -16,7 +16,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 43aa6b279bef07ccc2c02beda018d138274d95f4
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
@@ -31,7 +31,7 @@ Esta página contém informações sobre a estrutura e o conteúdo dos dados no 
 
 ## Exibir tipos
 
-Há vários tipos de exibição que você pode usar no Data Connect para exibir seus dados do Workfront de uma maneira que forneça mais insight.
+Há vários tipos de visualização que você pode utilizar no Data Connect para visualizar os dados do Workfront de uma maneira que forneça mais insight.
 
 * **Modo de exibição atual**
 
@@ -112,11 +112,11 @@ Há vários objetos de data que fornecem informações sobre quando eventos espe
 
 ## Tabela de terminologia e descrições do Workfront
 
-A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nomes na interface e na API) com seus nomes equivalentes no Data Connect e inclui campos de referência para cada objeto a outros objetos do Workfront.
+A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nomes na interface e na API) com seus nomes equivalentes no Data Connect e inclui campos de referência para cada objeto para outros objetos do Workfront.
 
 >[!NOTE]
 >
->Novos campos podem ser adicionados às visualizações de objetos sem aviso prévio para suportar as necessidades de dados em evolução do aplicativo Workfront. Recomendamos não usar consultas &quot;SELECT&quot; em que o recipient de dados downstream não esteja preparado para lidar com colunas adicionais conforme são adicionadas.<br>
+>Novos campos podem ser adicionados às visualizações de objetos sem aviso prévio para suportar as necessidades de dados em evolução do aplicativo Workfront. Recomendamos não usar consultas &quot;SELECT *&quot; em que o recipient de dados downstream não está preparado para lidar com colunas adicionais conforme são adicionadas.<br>
 >Se for necessário renomear ou remover uma coluna, informaremos com antecedência dessas alterações.
 
 ### Nível de acesso
@@ -4428,7 +4428,7 @@ Auto</td>
       </thead>
       <tbody>
         <tr>
-            <td>Seção do Portal</td>
+            <td>Seção do portal</td>
             <td>Relatório</td>
             <td>PTLSEC</td>
             <td>Relatório</td>
@@ -6659,7 +6659,7 @@ Disponibilidade limitada para o cliente
 >[!NOTE]
 >
 >Há três tipos de equipes que são armazenados nas tabelas de objetos da Equipe: PROJETO, MODELO e ADHOC. <br>
->Cada um desses tipos de equipe é representado juntos nas visualizações do data lake da Data Connect. Para isolar o tipo específico de grupo que você quer que seja retornado, você precisará filtrar na coluna `teamtype`. Por exemplo, se você quiser apenas as equipes tradicionais que fazem parte de suas estruturas organizacionais, configuradas na área Equipes do aplicativo, você pode ter uma consulta com esta aparência: <code>select * from team_current where teamtype = &#39;ADHOC&#39;;</code>
+>Cada um desses tipos de equipe é representado juntos nas visualizações do data lake do Data Connect. Para isolar o tipo específico de grupo que você quer que seja retornado, você precisará filtrar na coluna `teamtype`. Por exemplo, se você quiser apenas as equipes tradicionais que fazem parte de suas estruturas organizacionais, configuradas na área Equipes do aplicativo, você pode ter uma consulta com esta aparência: <code>select * from team_current where teamtype = &#39;ADHOC&#39;;</code>
 
 ### Integrante da Equipe
 
@@ -8861,7 +8861,7 @@ Disponibilidade limitada para o cliente
 
 ## Descrições e relacionamentos da view de planejamento
 
-As tabelas a seguir descrevem as visualizações de dados disponíveis no esquema do Planning na Conexão de Dados. Diferentemente das exibições de dados do Workflow, as exibições de dados do Planning incluem uma descrição completa coluna por coluna para cada exibição.
+As tabelas a seguir descrevem as visualizações de dados disponíveis no esquema do Planning no Data Connect. Diferentemente das exibições de dados do Workflow, as exibições de dados do Planning incluem uma descrição completa coluna por coluna para cada exibição.
 
 Os dados de planejamento estão disponíveis nas seguintes exibições:
 

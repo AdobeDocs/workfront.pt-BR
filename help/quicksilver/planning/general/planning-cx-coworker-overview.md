@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 4%
+source-wordcount: '1088'
+ht-degree: 3%
 ---
 
 # Visão geral do Adobe Workfront Planning CX Enterprise Coworker
@@ -42,6 +42,8 @@ O CX Enterprise Coworker é uma interface conversacional em que você descreve u
 O Colaborador preserva tudo o que o AI Assistant faz hoje e, ao mesmo tempo, adiciona recursos completos mais avançados em uma nova experiência de tela cheia e no painel direito do Workfront.
 
 Ela opera nos controles de acesso de nível de produto existentes em sua organização, de modo que os usuários só podem realizar ações para as quais já têm permissão no Workfront, com acesso somente leitura por padrão e acesso de gravação controlado por administradores do Workfront.
+
+O Colaborador usa os recursos do servidor MCP do Workfront para executar ações em seu nome. Para obter informações, consulte [habilidades do Workfront no CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 >[!IMPORTANT]
 >
@@ -159,11 +161,11 @@ Você pode usar o Colaborador para executar as seguintes ações:
 
    Localize o ícone **Colaborador** ![Colaborador](assets/coworker-icon.png) no canto superior direito da página ou continue com as etapas abaixo.
 
-1. Clique em um **cartão de espaço de trabalho**.
+1. Siga um destes procedimentos:
 
-1. Clique em um **cartão de tipo de registro**.
-
-1. Clique em um **registro** para abrir a página **Detalhes** do registro e clique no ícone **Abrir em nova guia** ![Abrir em nova guia](assets/open-workspace-on-new-tab-icon.png).
+* Clique em um **cartão de espaço de trabalho**.
+* Clique em um **cartão de tipo de registro**.
+* Clique em um **registro** para abrir a página **Detalhes** do registro e clique no ícone **Abrir em nova guia** ![Abrir em nova guia](assets/open-workspace-on-new-tab-icon.png).
 
 1. Clique no **ícone de Colaborador** ![ícone de Colaborador](assets/coworker-icon.png) no canto superior direito da tela.
 
@@ -173,7 +175,9 @@ Você pode usar o Colaborador para executar as seguintes ações:
 
    Por exemplo, você pode digitar um dos seguintes:
 
-   * Crie um novo registro de campanha chamado Vendas de verão 2026
+   * Crie um espaço de trabalho e nomeie-o como &quot;Equipe de marketing&quot;.
+   * Crie um tipo de registro de Campanha e Personas neste espaço de trabalho.
+   * Crie um registro de campanha chamado Vendas de verão 2026
    * Atualize o campo de orçamento no registro da Campanha de Verão para US$ 75.000
    * Exclua o registro de campanha chamado Promoção antiga
    * Restaurar a campanha que eu excluí acidentalmente

@@ -5,9 +5,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1277'
 ht-degree: 2%
 ---
 
@@ -24,9 +24,30 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>As informações neste artigo se referem ao Adobe Workfront Planning. Sua empresa deve adquirir um pacote adicional do Planning para acessar o Workfront Planning.
+>
+>A funcionalidade descrita aqui não estará disponível se sua organização tiver adquirido o Workfront Planning como um produto independente.
+>
+>Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>
 
-<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
 
 Você pode copiar espaços de trabalho, tipos de registro, campos e exibições do Workfront Planning de um ambiente Workfront para outro usando os recursos de Promoção do Ambiente.
 
@@ -77,7 +98,7 @@ O uso da Promoção do ambiente com o Planning é semelhante ao uso dela para o 
    <td role="rowheader"><p>Pacotes Adobe Workfront</p></td> 
    <td> 
 <p>Pacote de fluxo de trabalho do Prime ou Ultimate com um pacote do Prime ou Ultimate Planning</p>
-<p>Pacote de planejamento do Prime ou Ultimate quando adquirido como um produto independente</p>
+<!--This might come later: <p>Prime or Ultimate Planning package when purchased as a standalone product</p>-->
    </td> 
    </tr>
   <tr> 
