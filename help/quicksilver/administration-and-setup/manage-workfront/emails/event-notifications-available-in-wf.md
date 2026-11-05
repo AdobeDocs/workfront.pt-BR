@@ -30,16 +30,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '5242'
-ht-degree: 8%
+source-wordcount: '5600'
+ht-degree: 9%
 ---
 # Tipos de notificação de evento
 
 <!-- Audited: 1/2024 -->
 
+{{highlighted-preview}}
+
 As notificações de eventos são emails acionados por vários tipos de eventos em objetos, como projetos, tarefas e problemas, conforme explicado em [Notificações de eventos](../../../workfront-basics/using-notifications/event-notifications.md).
+
 
 Essas notificações podem ser configuradas no nível do sistema e do grupo:
 
@@ -957,3 +960,156 @@ Consulte também [Notificações: Delegação](../../../workfront-basics/using-n
 | Tarefas e problemas | Interromper delegação de tarefas e problemas | Atribuidor | Interrompo a delegação de minhas tarefas e problemas (confirmação) | Ativo (apenas instantâneo) |
 | Tarefas e problemas | Delegação de tarefas e problemas | Pessoa delegada | Alguém delega suas tarefas e problemas para mim | Ativo (apenas instantâneo) |
 | Tarefas e problemas | Interromper delegação de tarefas e problemas | Pessoa delegada | Alguém interrompe a delegação de suas tarefas e problemas para mim | Ativo (apenas instantâneo) |
+
+<div class="preview">
+
+## Aprovações unificadas
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Tipo de objeto</th> 
+   <th>Evento</th> 
+   <th>Destinatário</th> 
+   <th>Descrição</th> 
+   <th>Estado padrão</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Adicionado como aprovador ou revisor</p> </td> 
+   <td> <p>Aprovador ou Revisor</p> </td> 
+   <td> <p>Você foi adicionado como aprovador ou revisor em uma aprovação de documento.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Removido como aprovador ou revisor</p> </td> 
+   <td> <p>Aprovador ou Revisor</p> </td> 
+   <td> <p>Você foi removido como aprovador ou revisor de uma aprovação de documento.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Função alterada</p> </td> 
+   <td> <p>Aprovador ou Revisor</p> </td> 
+   <td> <p>Sua função de aprovador ou revisor é alterada em uma aprovação de documento.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Decisão tomada - Aprovada</p> </td> 
+   <td> <p>Proprietário do Documento</p> </td> 
+   <td> <p>Um aprovador toma uma decisão de Aprovado em uma aprovação de documento.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Decisão tomada - Aprovada com alterações</p> </td> 
+   <td> <p>Proprietário do Documento</p> </td> 
+   <td> <p>Um aprovador toma uma decisão de Aprovado com alterações em uma aprovação de documento.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Decisão tomada - Precisa de trabalho</p> </td> 
+   <td> <p>Proprietário do Documento</p> </td> 
+   <td> <p>Um aprovador toma a decisão de Precisa trabalhar em uma aprovação de documento.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Aprovação concluída - Aprovada</p> </td> 
+   <td> <p>Proprietário do Documento</p> </td> 
+   <td> <p>Uma aprovação de documento termina com uma decisão final de Aprovado.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Aprovação concluída - Aprovada com alterações</p> </td> 
+   <td> <p>Proprietário do Documento</p> </td> 
+   <td> <p>Uma aprovação de documento termina com uma decisão final de Aprovado com alterações.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Aprovação concluída - Precisa de trabalho</p> </td> 
+   <td> <p>Proprietário do Documento</p> </td> 
+   <td> <p>Uma aprovação de documento termina com uma decisão final de Trabalho necessário.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Revisão concluída</p> </td> 
+   <td> <p>Proprietário do Documento</p> </td> 
+   <td> <p>Um revisor conclui sua revisão em uma aprovação de documento.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Todas as revisões concluídas</p> </td> 
+   <td> <p>Proprietário do Documento</p> </td> 
+   <td> <p>Cada revisor conclui sua revisão em uma aprovação de documento.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Prazo se aproximando</p> </td> 
+   <td> <p>Aprovador ou Revisor</p> </td> 
+   <td> <p>Uma aprovação de documento da qual você faz parte está se aproximando do prazo.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Prazo expirado</p> </td> 
+   <td> <p>Aprovador ou Revisor</p> </td> 
+   <td> <p>Uma aprovação de documento da qual você faz parte ultrapassa o prazo sem uma decisão final.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Lembrete — 24 horas</p> </td> 
+   <td> <p>Aprovador ou Revisor</p> </td> 
+   <td> <p>Você tem 24 horas para revisar e aprovar o documento.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Lembrete — 72 horas</p> </td> 
+   <td> <p>Aprovador ou Revisor</p> </td> 
+   <td> <p>Você tem 72 horas para revisar e aprovar o documento.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Documentos adicionados ou removidos de uma aprovação agrupada</p> </td> 
+   <td> <p>Aprovador ou Revisor</p> </td> 
+   <td> <p>Os documentos são adicionados ou removidos de uma aprovação de documento agrupada da qual você faz parte.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Vídeo</p> </td> 
+   <td> <p>Limite de aprovação de vídeo se aproximando (80%)</p> </td> 
+   <td> <p>Administrador do sistema/grupo</p> </td> 
+   <td> <p>Uma aprovação de vídeo atinge 80% do limite de aprovação de vídeo do seu plano.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Vídeo</p> </td> 
+   <td> <p>Limite de aprovação de vídeo atingido</p> </td> 
+   <td> <p>Administrador do sistema/grupo</p> </td> 
+   <td> <p>Uma aprovação de vídeo atinge o limite de aprovação de vídeo do plano.</p> </td> 
+   <td> <p>Ativo</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+</div>
