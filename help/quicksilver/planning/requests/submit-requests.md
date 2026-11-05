@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3288'
 ht-degree: 1%
 ---
 # Enviar solicitações do Planejamento do Adobe Workfront para criar registros
@@ -219,7 +219,7 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    >
    >Os valores dos campos de registro conectados dependentes são limitados pelas regras de dependência entre os registros. Para obter mais informações, consulte [Gerenciar conexões dependentes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
    >
-   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
+   ><span class="preview">Quando houver um conflito nos valores selecionados de um campo dependente no formulário de solicitação, você deverá resolver o conflito antes de salvar o formulário.</span>
 
 1. (Opcional e condicional) Clique em **Preencher formulário** para anexar um arquivo e fazer com que a IA preencha o formulário para você com informações dentro do arquivo. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -294,7 +294,7 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    >* A edição de uma solicitação só é possível quando um registro ainda não foi criado e a solicitação está aguardando aprovação.
    >* Alguns campos são somente leitura e não podem ser editados.
    >* Não é mais possível editar uma solicitação depois que um registro foi criado a partir dela.
-   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
+   >* <span class="preview">Quando houver um conflito nos valores selecionados de um campo dependente na solicitação, você deverá resolver o conflito antes de poder salvar a solicitação.</span>
 
 1. (Opcional) Após editar a solicitação, clique em **Enviar alterações**.
 1. (Condicional) Se o formulário de solicitação não estiver associado a uma aprovação ou se a solicitação tiver sido aprovada, clique no nome da solicitação e, em seguida, clique no nome do registro no campo **Objeto criado**.

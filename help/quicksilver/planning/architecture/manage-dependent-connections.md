@@ -17,19 +17,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1442'
 ht-degree: 1%
 ---
 
 # Gerenciar conexões dependentes
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -142,9 +141,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
 * Os campos dependentes são suportados para todas as áreas em que os campos de registros conectados são exibidos, incluindo as áreas Detalhes de um registro ou formulários de solicitação.
 
-<!--
-* <span class="preview">When there is a conflict in the selected values of a dependent field on a request form or a submitted request, you must resolve the conflict before you can save the form or the request.</span>
--->
+* <span class="preview">Quando houver um conflito nos valores selecionados de um campo dependente em um formulário de solicitação ou uma solicitação enviada, você deverá resolver o conflito antes de salvar o formulário ou a solicitação.</span>
+
 
 ## Criar uma conexão dependente
 
