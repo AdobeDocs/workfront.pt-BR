@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4784329bf6d1e8e1ba0c1061809bfcec3ab3873f
+source-git-commit: cda89e85b94d1669e33aa572dfd21cd9e594def9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 8%
+source-wordcount: '553'
+ht-degree: 7%
 ---
 # Criar regras de roteamento
 
@@ -132,6 +132,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    Esse processo define apenas a Regra de Encaminhamento. Para garantir que o problema seja roteado quando for enviado à fila de solicitações, você deve selecionar a regra de roteamento na guia **Detalhes da fila** em **Rota padrão**.
 
+   Para editar uma regra de roteamento existente, clique em qualquer célula para adicionar ou alterar informações. A regra de roteamento é atualizada automaticamente.
+   A lista de regras de roteamento é uma lista aprimorada e pode ter funcionalidade diferente de outras listas no Workfront. Para obter mais informações sobre listas aprimoradas, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
    Para obter informações sobre como adicionar uma Rota Padrão a uma fila de solicitações, consulte [Criar uma Fila de Solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Se quiser associar várias regras de roteamento à fila de solicitações, você deverá criar vários tópicos de fila e associar cada um a uma regra de roteamento separada. Para obter mais informações sobre como criar um tópico de fila, consulte [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
