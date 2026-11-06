@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
 workflow-type: tm+mt
-source-wordcount: '3531'
+source-wordcount: '3611'
 ht-degree: 1%
 ---
 # Usar listas aprimoradas
@@ -149,6 +149,19 @@ Dependendo da lista aprimorada que você estiver visualizando, execute um dos pr
    >Observe que nem todas as listas suportam todos os tipos de campo.
 
 ![Exemplo de lista aprimorada](assets/glist-exchange-rates.png)
+
+## Editar itens em linha
+
+Algumas listas aprimoradas permitem editar objetos em linha. Quando você edita as informações nos objetos exibidos em uma lista, o objeto é atualizado imediatamente.
+
+Na lista:
+
+1. Localize o item que deseja editar e clique dentro de qualquer campo na lista.
+1. Edite as informações dentro dessa célula e pressione Enter.
+1. Pressione Tab para ir para a próxima célula editável.
+1. Depois de terminar de modificar todas as células, pressione Enter para salvar as alterações.
+
+![Editar lista aprimorada em linha](assets/edit-enhanced-list-inline.png)
 
 ## Editar itens usando a barra de ação
 
