@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1849'
 ht-degree: 1%
 ---
 
@@ -148,7 +148,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -185,7 +185,7 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
 
 1. (Condicional e opcional) Para abrir outro espaço de ideação existente, clique no menu suspenso à direita do nome da ideação, procure-o pelo nome e clique na ideação quando ela for exibida na lista.
 
-   O **Espaço de ideação** é aberto e o CX Coworker, à direita.
+   O **Espaço de ideação** é aberto e o Colaborador é aberto à direita.
 1. Use o prompt de colaborador para descrever o tipo de resumo que deseja criar.
 
    Por exemplo, digite &quot;Create a back-to-school campaign for K-12 student to run through the month of August, for parent and professors in the US&quot; (Crie uma campanha de volta às aulas para os alunos do ensino fundamental que durará o mês de agosto para os pais e os professores nos EUA).  Para tornar o resumo o mais completo possível, indique quantas informações você tem disponíveis para que tipo de campanha, a linha do tempo, as partes interessadas, pontos de verificação de aprovações e outros detalhes.
