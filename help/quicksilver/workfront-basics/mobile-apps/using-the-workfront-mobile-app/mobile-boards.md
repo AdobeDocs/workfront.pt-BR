@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 1%
 ---
 # [!DNL Adobe Workfront] [!UICONTROL Quadros] para dispositivos móveis
+
+{{mobile-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL Quadros] são ferramentas flexíveis que permitem a colaboração em equipe, fornecendo acesso a um quadro compartilhado que contém colunas e cartões. Para obter informações adicionais sobre quadros, consulte [Visão geral dos quadros](/help/quicksilver/agile/boards-overview.md).
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 2%
 ---
 # Trechos
@@ -362,6 +362,12 @@ OLD:
 ## Prova para dispositivos móveis - Menu Mais {#mobile-proof-more-menu}
 
 1. Abra a prova do documento e selecione o menu **[!UICONTROL Mais]** ![Mais menu](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) na parte superior direita do documento. Em seguida, selecione **[!UICONTROL Mais]**.
+
+## Dispositivo móvel - sem novo desenvolvimento {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>O aplicativo móvel do Workfront está no modo de manutenção e não está mais passando por um novo desenvolvimento.
 
 <!-- My Updates -->
 
