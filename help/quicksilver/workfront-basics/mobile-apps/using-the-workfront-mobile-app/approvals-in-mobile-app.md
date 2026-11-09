@@ -16,12 +16,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '290'
 ht-degree: 3%
 ---
 # Aprovações no aplicativo móvel [!DNL Adobe Workfront]
+
+>[!IMPORTANT]
+>
+>O aplicativo móvel do Workfront está no modo de manutenção e não está mais passando por um novo desenvolvimento.
+> 
+>As Aprovações unificadas não são compatíveis com o aplicativo móvel do Workfront.
 
 Você pode gerenciar aprovações atribuídas ou delegadas a você na área [!UICONTROL Aprovações] do aplicativo móvel [!DNL Adobe Workfront]. Na área [!UICONTROL aprovações], você pode aprovar:
 

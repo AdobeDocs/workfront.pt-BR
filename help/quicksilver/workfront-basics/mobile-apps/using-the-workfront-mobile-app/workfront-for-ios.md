@@ -20,12 +20,14 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 4%
 ---
 # [!DNL Adobe Workfront] para [!DNL iOS]
+
+{{mobile-maintenance-mode}}
 
 O aplicativo [!DNL Adobe Workfront] permite acessar seu trabalho em qualquer dispositivo [!DNL iOS]. Você pode instalar e usar o aplicativo móvel [!DNL Workfront] em telefones e tablets com iOS 10 ou posterior. Um aplicativo móvel [!DNL Workfront] dedicado está disponível para [!DNL iPhone] e [!DNL iPad].
 
