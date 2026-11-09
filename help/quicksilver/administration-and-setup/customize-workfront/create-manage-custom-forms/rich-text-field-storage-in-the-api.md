@@ -26,12 +26,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 4%
+source-wordcount: '252'
+ht-degree: 2%
 ---
 # Armazenamento de campo de rich text na API
+
+>[!NOTE]
+>
+>Os campos de rich text descritos neste artigo são os campos &quot;texto com formatação&quot;. Esse tipo de campo não está mais disponível para ser adicionado a novos campos, e os campos existentes devem ser convertidos para o tipo de campo &quot;rich text&quot;.
+> 
+>Observe que os novos campos de rich text armazenam o conteúdo como HTML, mas não armazenam os estilos aplicados no editor de campos. A remoção de informações de estilo do armazenamento pode ajudar a evitar problemas inesperados da interface do usuário e vulnerabilidades de segurança.
 
 Se um objeto como um projeto, problema ou tarefa contiver rich text, ele será armazenado e acessível como um valor de parâmetro por meio da API do Workfront.
 

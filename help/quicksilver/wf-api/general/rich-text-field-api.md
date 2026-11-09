@@ -17,16 +17,22 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 3%
+source-wordcount: '855'
+ht-degree: 2%
 ---
 # Campos de rich text na API do Adobe Workfront
 
 <!-- Audited: 5/2025 -->
 
 Alguns objetos no Adobe Workfront permitem o armazenamento de texto com formatação rich text. Na API do Workfront, o rich text é armazenado como JSON usando a estrutura de código aberto Draft.js.
+
+>[!NOTE]
+>
+>Os campos de rich text descritos neste artigo são os campos &quot;texto com formatação&quot;. Esse tipo de campo não está mais disponível para ser adicionado a novos campos, e os campos existentes devem ser convertidos para o tipo de campo &quot;rich text&quot;.
+> 
+>Observe que os novos campos de rich text armazenam o conteúdo como HTML, mas não armazenam os estilos aplicados no editor de campos. A remoção de informações de estilo do armazenamento pode ajudar a evitar problemas inesperados da interface do usuário e vulnerabilidades de segurança.
 
 ## Exemplo de visão geral
 
