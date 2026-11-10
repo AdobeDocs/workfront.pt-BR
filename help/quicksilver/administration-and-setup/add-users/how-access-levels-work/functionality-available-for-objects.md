@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 20%
@@ -56,12 +56,12 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 >[!NOTE]
 >
 >* Este artigo descreve a funcionalidade disponível para níveis de acesso no novo modelo de pacote do Workfront. Para ver a funcionalidade disponível no modelo de pacote atual, consulte [Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Para obter uma lista de funcionalidades disponíveis para os diferentes pacotes no modelo mais recente, consulte [Preços e Empacotamento da Adobe Workfront](https://business.adobe.com/br/products/workfront/pricing.html).
+>* Para obter uma lista de funcionalidades disponíveis para os diferentes pacotes no modelo mais recente, consulte [Preços e Empacotamento da Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projetos
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|------------------------------|----------|--------|-------------|---------------|
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
 | Criar | ✓&#42; |   |   |   |
 | Copiar | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; |   |   |   |
@@ -100,7 +100,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 ## Tarefas
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|--------------------------------|----------|--------|-------------|---------------|
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Criar | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; |   |   |   |
 | Compartilhar | ✓&#42; |   |   |   |
@@ -132,7 +132,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 ## Problemas
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|-------------------------------|----------|--------|-------------|---------------|
+| ------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Criar | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Editar | ✓ | ✓ | ✓ |   |
 | Excluir | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -162,7 +162,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 Somente os usuários com uma licença Standard podem ter acesso total aos portfólios.
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|--------------------------|----------|--------|-------------|---------------|
+| -------------------------- | ---------- | -------- | ------------- | --------------- |
 | Criar | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; |   |   |   |
 | Compartilhar | ✓&#42; |   |   |   |
@@ -186,7 +186,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos portf�
 Somente os usuários com uma licença Standard podem ter acesso total aos programas.
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|------------------------------|----------|--------|-------------|---------------|
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
 | Criar | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; |   |   |   |
 | Compartilhar | ✓&#42; |   |   |   |
@@ -210,7 +210,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos progra
 Os usuários com uma licença Standard podem ter acesso total aos relatórios. Todos os outros Níveis de Acesso têm acesso de Visualização aos relatórios.
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|--------------------------------------|----------|--------|-------------|---------------|
+| -------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Criar | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; |   |   |   |
 | Exibir relatórios internos | ✓&#42; |   |   |   |
@@ -232,7 +232,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 ## Filtros, visualizações e agrupamentos
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Criar | ✓* | ✓* | ✓* |   |
 | Excluir | ✓* | ✓* | ✓* |   |
 | Compartilhar | ✓* | ✓* | ✓* |   |
@@ -247,7 +247,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 ## Documentos
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|--------------------------------|----------|--------|-------------|---------------|
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Criar | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Excluir (documentos e pastas) | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartilhar | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -284,7 +284,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 Essas opções estão disponíveis no ambiente de Pré-visualização:
 
 | Ação | Padrão | Light | Colaborador | Usuário externo** |
-|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| ---------------------------------------------------------------------------------------------------- | ---------- | -------- | ------------- | ----------------- |
 | Criar | ✓* |   |   |   |
 | Excluir | ✓* |   |   |   |
 | Editar taxas de faturamento | ✓* |   |   |   |
@@ -308,7 +308,7 @@ Essas opções estão disponíveis no ambiente de Pré-visualização:
 ## Função no trabalho
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Exibir | ✓ | ✓ | ✓ |   |
 | Editar | ✓ |   |   |   |
 | Criar | ✓* |   |   |   |
@@ -328,18 +328,18 @@ Essas opções estão disponíveis no ambiente de Pré-visualização:
 
 ## Companies
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| View | ✓ | ✓ | ✓ | &nbsp; |
+| Edit | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Create | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Billing Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Cost Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit General Finance | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View Billing Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View Cost Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View General Finance | ✓ | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -347,10 +347,10 @@ Essas opções estão disponíveis no ambiente de Pré-visualização:
 
 ## Groups
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| Share | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓ | ✓ | ✓ | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -361,7 +361,7 @@ Essas opções estão disponíveis no ambiente de Pré-visualização:
 ## Equipes
 
 | Ação | Padrão | Light | Colaborador | Usuário externo* |
-|-----------------------------------------|-----------|------------|-------------|------------------|
+| ----------------------------------------- | ----------- | ------------ | ------------- | ------------------ |
 | Criar | ✓* |   |   |   |
 | Excluir | ✓* |   |   |   |
 | Editar equipes em que estão | ✓* |   |   |   |
@@ -376,7 +376,7 @@ Essas opções estão disponíveis no ambiente de Pré-visualização:
 ## Modelos
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|-----------------------|----------|--------|-------------|---------------|
+| ----------------------- | ---------- | -------- | ------------- | --------------- |
 | Criar | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; |   |   |   |
 | Compartilhar | ✓&#42; |   |   |   |
@@ -394,7 +394,7 @@ Essas opções estão disponíveis no ambiente de Pré-visualização:
 Somente os usuários com uma licença Standard podem ter acesso total aos dados financeiros.
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| -------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Editar taxas de faturamento | ✓&#42; |   |   |   |
 | Editar taxas de custo | ✓&#42; |   |   |   |
 | Editar finanças gerais | ✓&#42; |   |   |   |
@@ -418,7 +418,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos dados 
 Somente os usuários com uma licença Standard podem ter acesso total ao gerenciamento de recursos. Outros tipos de licença podem ter acesso limitado ou inexistente ao Gerenciamento de recursos no Workfront.
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|----------------------------------------------------------------|----------|--------|-------------|---------------|
+| ---------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Editar prioridades e horas de orçamento no Planejador | ✓&#42; |   |   |   |
 | Criar, editar, excluir Conjuntos de Recursos&#42;&#42; | ✓&#42; |   |   |   |
 | Atualizar Horas Planejadas no Balanceador de Carga de Trabalho&#42;&#42;&#42; | ✓&#42; |   |   |   |
@@ -439,7 +439,7 @@ Somente os usuários com uma licença Standard podem ter acesso total ao gerenci
 ## Área do Planejador de Cenários
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|-----------------------------------------------------------------------|----------|-------|-------------|---------------|
+| ----------------------------------------------------------------------- | ---------- | ------- | ------------- | --------------- |
 | Criar/editar planos e iniciativas existentes | ✓ | ✓ |   |   |
 | Adicionar ou editar informações de função de trabalho em planos e iniciativas&#42; | ✓ | ✓ |   |   |
 | Adicionar ou editar informações de custo em planos e iniciativas&#42; | ✓ | ✓ |   |   |
@@ -460,7 +460,7 @@ Somente os usuários com uma licença Standard podem ter acesso total ao gerenci
 Somente os usuários com uma licença Standard podem ter acesso total aos cartões de taxa.
 
 | Ação | Padrão | Light | Colaborador | Usuário externo |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Exibir | ✓ | ✓ |   |   |
 | Editar | ✓ |   |   |   |
 | Criar | ✓* |   |   |   |
@@ -476,7 +476,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos cartõ
 <!-- ask Alina about this section -->
 
 | Ações | Exibir | Editar |
-|---|---|---|
+| --- | --- | --- |
 | Criar |   | ✓ |
 | Editar/excluir todas as metas |   | ✓ |
 | Exibir Metas no menu Principal | ✓ | ✓ |
