@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a10a7acd51fcbcd0f42ef1ca4ceedc6124459896
+source-git-commit: fb173da014e7411a9b7bb3ef36eae77f6ec44cb9
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 18%
+source-wordcount: '592'
+ht-degree: 19%
 ---
 # Fazer upload de documentos e criar provas em Prioridades
 
@@ -112,29 +112,6 @@ Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de 
    >
    >Arquivos adicionais são carregados como documentos separados.
 1. Clique em **Fazer upload**.
-
-## Carregar um documento em um projeto de armazenamento na nuvem do Adobe
-
-Não é possível carregar documentos diretamente em uma tarefa ou problema em um projeto do Adobe Cloud Storage. Em vez disso, carregue o documento para o projeto da guia **Projeto**.
-
-{{step1-to-priorities}}
-
-1. Na lista de trabalho, passe o mouse sobre o nome do trabalho e clique no ícone **Resumo** ![abrir ícone de resumo](assets/summary-icon.png).
-1. No painel de resumo, clique na guia **Projeto**.
-1. Clique no ícone **Carregar Arquivo** ![Ícone Carregar arquivo](assets/upload-file-icon.png).
-1. Arraste e solte seu arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
-
-   ou
-
-   Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
-1. (Opcional) Adicione um comentário.
-1. (Opcional) Adicione mais arquivos.
-
-   >[!NOTE]
-   >
-   >Arquivos adicionais são carregados como documentos separados.
-1. Clique em **Fazer upload**.
-
 
 ## Criar uma prova simples ou avançada
 
