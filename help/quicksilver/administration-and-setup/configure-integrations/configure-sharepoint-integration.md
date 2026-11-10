@@ -197,8 +197,8 @@ Se um ativo foi carregado pela primeira vez para [!DNL Workfront] e enviado para
 
 Para garantir que seus usuários tenham acesso contínuo a documentos vinculados ao Workfront por meio da integração herdada do [!DNL SharePoint], você deve reconfigurar o acesso à integração herdada do [!DNL SharePoint] e manter o Segredo do Cliente do SharePoint atualizado.
 
-* [Reconfigurar o acesso à integração herdada  [!DNL SharePoint] ](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Configure o Segredo do Cliente para obter acesso contínuo à integração herdada  [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Reconfigurar o acesso à integração herdada  [!DNL SharePoint] &#x200B;](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Configure o Segredo do Cliente para obter acesso contínuo à integração herdada  [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Reconfigurar o acesso à integração herdada [!DNL SharePoint]
 
@@ -211,7 +211,7 @@ A reconfiguração da integração herdada [!DNL SharePoint] permite que seus us
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo do Workfront e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
 1. Selecione **[!UICONTROL Documentos]** na navegação à esquerda e **[!UICONTROL Provedores de nuvem]**.
-1. Verifique se as opções **[!DNL SharePoint]** e **[!UICONTROL [!DNL SharePoint](API gráfica)]** estão habilitadas.
+1. Verifique se as opções **[!DNL SharePoint]** e **[!UICONTROL [!DNL SharePoint] (API gráfica)]** estão habilitadas.
 1. Clique em **[!UICONTROL Salvar]**.
 1. Selecione **[!UICONTROL Documentos]** na navegação à esquerda e **[!UICONTROL [!DNL SharePoint]Integração]**.
 1. Selecione a marca de seleção à esquerda da lista para todas as integrações existentes e selecione **[!UICONTROL Desativar]**.
@@ -235,7 +235,7 @@ O segredo do cliente [!DNL SharePoint] expira uma vez por ano. Para garantir o a
 1. Gere um novo segredo de cliente conforme descrito em [Substituir um segredo de cliente que está expirando em um [!DNL SharePoint] Suplemento](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Copiar este Segredo do Cliente para um local seguro.
 1. Entre em [!DNL Workfront] como administrador.
-1. No Workfront, clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** {6](/help/_includes/assets/gear-icon-setup.png).![
+1. No Workfront, clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** &lbrace;6![&#128279;](/help/_includes/assets/gear-icon-setup.png).
 1. No painel esquerdo, clique em **[!UICONTROL Documentos]** > **[!UICONTROL [!DNL SharePoint]Integração]**.
 1. Clique na integração [!DNL SharePoint] que deseja atualizar e em **[!UICONTROL Editar]**.
 1. Localize a seção **Informações de Conexão** da janela de edição e digite o novo Segredo do Cliente no campo **[!UICONTROL Segredo do Cliente do SharePoint]**.
