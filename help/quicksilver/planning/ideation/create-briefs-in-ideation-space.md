@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1899'
 ht-degree: 1%
 ---
 
@@ -32,12 +32,10 @@ ht-degree: 1%
 
 <span class="preview">Para obter mais informações, consulte [Introdução ao Espaço de ideação para o Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente como parte do programa **Espaço de ideação Beta**. </span>\
-</span>
 
 >[!IMPORTANT]
 >
->As informações neste artigo se referem ao Adobe Workfront Planning. Sua empresa deve adquirir um pacote adicional do Planning para acessar o Workfront Planning.
+>As informações neste artigo se referem à funcionalidade disponível somente para clientes do Workfront que também têm o Adobe Workfront Planning. Sua empresa deve adquirir um pacote adicional do Planning.
 >
 >A funcionalidade descrita aqui não estará disponível se sua organização tiver adquirido o Workfront Planning como um produto independente.
 >
@@ -91,12 +89,19 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Requisitos do provedor de nuvem</p></td> 
+   <td><p>AWS</p>
+   <p><b>NOTA:</b></p>
+   <p>Nenhum outro provedor de nuvem é compatível</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Qualquer Workfront ou Fluxo de trabalho com um pacote do Planning</p></li>
+<li><p>Qualquer fluxo de trabalho com um pacote de planejamento</p></li>
 <!--
 Add this at GA - not available in beta:
 Or
@@ -114,6 +119,11 @@ Or
 </td> 
 </tr> 
 -->
+<tr> 
+   <td role="rowheader"><p>Requisitos do sistema</p></td> 
+   <td><p>As configurações de preferências de Colaborador e MCP nas Preferências do Sistema na área Configuração devem estar ativadas</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workflow</p></td> 
    <td><p>Padrão</p>
@@ -128,8 +138,9 @@ Or
    <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
    <td> 
    <ul>
-   <li><p>Você deve adicionar um Workflow e um tipo de licença do Planning ao nível de acesso quando tiver um Workflow e um pacote do Planning</p>   </li>
+   <li><p>Você deve adicionar um tipo de licença do Workflow e do Planning ao nível de acesso <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>A configuração Desativar espaço de ideação no seu nível de acesso deve ser desmarcada</p></li>
+   <li><p>A configuração Desativar o painel CX Coworker no Workfront no seu nível de acesso deve ser desmarcada</p></li></ul>
 </td> 
   </tr>  
    <tr> 
@@ -148,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -300,25 +311,29 @@ Existem controles para o espaço de ideação que configuram o que você vê na 
     -->
 1. Clique em **Salvar**.
 
-1. Clique no ícone suspenso **nível de zoom** à esquerda do ícone **Ajuda** ou no ícone ![Ajuda **para selecionar uma opção ou revisar os atalhos de teclado que você pode usar para navegar pelo espaço de ideação ou selecionar um valor de zoom diferente.**](assets/more-information-icon.png)
+1. Clique no menu suspenso **nível de zoom** à esquerda do ícone ![Ícone de Ajuda **do**&#x200B;Ícone de ajuda](assets/more-information-icon.png) para selecionar uma opção.
 
-   Escolha entre os seguintes níveis de zoom:
+   Escolha entre as seguintes opções:
 
-   * Nível de zoom 100%
-   * Nível de Zoom 200%
-   * Zoom para ajustar
+   * **Aplicar zoom para ajustar**
+   * **Mais zoom**
+   * **Diminuir o zoom**
+   * Nível de zoom: **50**, **100**, **150** ou **200%**
+   * **Mostrar grade de pontos**: ative a seleção para exibir a grade de pontos.
+   * **Tour do produto**: desative a seleção para recusar as dicas de orientação ao usar o espaço de ideação.
 
-   Ou use um dos seguintes atalhos para navegar na página:
+1. Clique no ícone da **Ajuda** ![Ícone da Ajuda](assets/more-information-icon.png) para examinar os atalhos de teclado que você pode usar para navegar pelo espaço de ideação ou selecionar um valor de zoom diferente:
 
-   | Ação | Atalho |
-   | --- | --- |
-   | Aumentar/diminuir o zoom | Ctrl/⌘ + / - |
-   | Zoom para ajustar / ajustar a seleção | — |
-   | Aplicar zoom ao cursor | Ctrl/⌘ + rolagem |
-   | Deslocar a tela | Espaço pressionado + arrastar |
-   | Mostrar/ocultar grade de pontos | Gb |
-
-
+| Ação | Atalho |
+| --- | --- |
+| Aumentar/diminuir o zoom | Ctrl/⌘ + / - |
+| Nível de zoom 100% / | Ctrl/⌘ 1 / 1 |
+| Nível de zoom 200% / | Ctrl/⌘ 2 / 2 |
+| Zoom para ajustar | Ctrl/⌘ 0 / 0 |
+| Zoom para ajustar a seleção | Alt Ctrl 0 |
+| Aplicar zoom ao cursor | Ctrl/⌘ rolagem |
+| Panorâmica | Arrastar com espaço pressionado |
+| Mostrar/ocultar grade de pontos | Gb |
 
 <!--
 
