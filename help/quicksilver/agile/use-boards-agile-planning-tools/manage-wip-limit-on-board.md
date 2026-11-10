@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 14%
 ---
 # Gerenciar o limite de [!UICONTROL Trabalho em andamento] (WIP) em um quadro
+
+{{boards-maintenance-mode}}
 
 Você pode configurar um limite de [!UICONTROL Trabalho em andamento] (WIP) para cada coluna de um quadro.
 
@@ -74,7 +76,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    Para adicionar uma nova coluna, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 1. Clique no menu **[!UICONTROL Mais]** na coluna e selecione **[!UICONTROL Editar]** para abrir a área Configurações.
-1. Em [!UICONTROL Políticas de Coluna], habilite a política de limite **de**&#x200B;[!UICONTROL &#x200B; Trabalho em andamento] para limitar o número de cartões que podem ser adicionados à coluna.
+1. Em [!UICONTROL Políticas de Coluna], habilite a política de limite **de**[!UICONTROL  Trabalho em andamento] para limitar o número de cartões que podem ser adicionados à coluna.
 1. Digite o número de limite no campo **[!UICONTROL Definir limite]**.
 
    ![Limite de WIP para a coluna](assets/boards-wip-limit-in-column.png)

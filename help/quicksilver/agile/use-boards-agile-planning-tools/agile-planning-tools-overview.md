@@ -22,14 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 37%
+source-wordcount: '179'
+ht-degree: 40%
 ---
 # Visão geral das ferramentas de planejamento ágil: índice do artigo
 
 <!-- Audited: 5/2025 -->
+
+{{boards-workstreams}}
 
 Ao criar um quadro usando cartões ad hoc e conectados, você pode aproveitar as ferramentas adicionais de planejamento Agile.
 
@@ -44,10 +46,6 @@ As ferramentas úteis para Scrum incluem:
 * Fluxos de trabalho e quadros de iteração
 * Lista de cartões ou backlog
 * Métricas de iteração
-
->[!IMPORTANT]
->
->Os fluxos de trabalho e suas ferramentas relacionadas estão disponíveis somente para um grupo específico de clientes.
 
 Você pode usar qualquer uma ou todas essas ferramentas de uma maneira que funcione para você e sua equipe, sem se comprometer com uma metodologia Agile específica.
 

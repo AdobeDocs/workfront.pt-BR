@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 9%
 ---
 # Gerenciar itens da lista de verificação em cartões
+
+{{boards-maintenance-mode}}
 
 Usar uma lista de verificação em um cartão permite dividir o trabalho em incrementos menores ou adicionar observações ao cartão. Os itens da lista de verificação estão disponíveis em cartões ad hoc e conectados.
 
