@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 5%
 ---
 # Bloquear ou desbloquear uma planilha de horas e uma preferência de horas do grupo
@@ -100,7 +100,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. No painel esquerdo, clique em **Grupos**.
 1. Clique no nome do grupo no qual você deseja bloquear ou desbloquear a preferência de horas e folhas de horas.
-1. No painel esquerdo, clique em **Folhas de horas e Preferências de horas**.
+1. À esquerda, clique em **Folhas de horas e Preferências de horas**.
 
 1. Na página exibida, siga um destes procedimentos:
 
