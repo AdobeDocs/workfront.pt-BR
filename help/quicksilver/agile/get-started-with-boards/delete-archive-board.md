@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 12%
 ---
 # Excluir ou arquivar um quadro
+
+{{boards-maintenance-mode}}
 
 Você pode excluir ou arquivar um quadro no [!DNL Workfront]. Excluir um quadro o remove permanentemente de [!DNL Workfront], enquanto o arquivamento de um quadro retém todos os cartões e permite que ele seja restaurado posteriormente.
 

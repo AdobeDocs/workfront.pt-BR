@@ -28,16 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '579'
 ht-degree: 6%
 ---
 # Adicionar tarefas ou problemas existentes a um quadro [!DNL Workfront]
 
->[!IMPORTANT]
->
->Os fluxos de trabalho só estão disponíveis para um grupo específico de clientes.
+{{boards-workstreams}}
 
 Você pode adicionar qualquer tarefa ou problema a um quadro ou fluxo de trabalho em [!DNL Adobe Workfront] a partir de uma lista ou exibição de relatório, ou dos detalhes do objeto.
 

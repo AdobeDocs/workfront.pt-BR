@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1351'
 ht-degree: 4%
 ---
 # Configurar preferências de horas e planilha de horas para um grupo
@@ -107,7 +107,7 @@ Considere as seguintes informações sobre a configuração de uma folha de hora
 1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Clique no nome do grupo cujas preferências de folha de horas ou de horas você deseja configurar.
-1. No painel esquerdo, clique em **Folhas de horas e Horas**.
+1. Na página exibida, à esquerda, clique em **Folhas de horas e horas**.
 
 1. Na página exibida, na seção **Preferências gerais**, configure uma das seguintes opções:
 

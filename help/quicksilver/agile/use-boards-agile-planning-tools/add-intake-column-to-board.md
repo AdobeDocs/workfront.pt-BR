@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 7%
@@ -39,6 +39,8 @@ ht-degree: 7%
 # Adicionar uma coluna de entrada a um quadro
 
 <!-- Audited: 5/2025 -->
+
+{{boards-maintenance-mode}}
 
 Opcionalmente, é possível adicionar uma coluna de entrada ao quadro que automaticamente obtém tarefas e problemas como cartões conectados quando adicionados em [!DNL Workfront] com base nos filtros definidos por você. A coluna de entrada pode servir como uma coluna de backlog para uma equipe Kanban, um local de entrada para uma equipe de suporte ver os problemas à medida que são adicionados a uma fila de solicitações ou qualquer outro propósito necessário.
 

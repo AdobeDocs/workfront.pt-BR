@@ -26,18 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '808'
 ht-degree: 4%
 ---
 # Utilize o painel de quadros
 
 <!-- Audited: 1/2024 -->
 
->[!IMPORTANT]
->
->Os fluxos de trabalho só estão disponíveis para um grupo específico de clientes.
+{{boards-workstreams}}
 
 O painel de painéis mostra a lista de painéis e fluxos de trabalho aos quais você tem acesso, incluindo painéis que você criou e painéis aos quais você foi adicionado. As placas individuais a que você tem acesso que não fazem parte de um fluxo de trabalho são exibidas primeiro.
 

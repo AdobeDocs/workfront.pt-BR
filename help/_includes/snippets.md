@@ -1,7 +1,7 @@
 ---
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2437'
 ht-degree: 2%
 ---
 # Trechos
@@ -131,6 +131,24 @@ Você pode verificar se está associando o grupo certo com a equipe, passando o 
 ## Etapa 1 - Acesso aos painéis - {#step1-to-boards}
 
 1. Clique no ícone **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo do Adobe Workfront e clique em **[!UICONTROL Quadros]**.
+
+## Placas - modo de manutenção {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Os Workfront Boards não estão passando por um novo desenvolvimento no momento.
+
+## Quadros - fluxos de trabalho não disponíveis {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Os Workfront Boards não estão passando por um novo desenvolvimento no momento.
+> 
+>O recurso de fluxos de trabalho em placas foi descontinuado, mas permanece disponível para clientes que já o estavam usando.
+>
+>* É recomendável parar de usar fluxos de trabalho porque eles não são mais compatíveis.
+>* Se não tiver uma guia Workstreams no painel de painéis, não será possível adicionar workstreams.
+>* Se você tiver acesso a fluxos de trabalho, poderá adicionar novos fluxos de trabalho e gerenciar fluxos de trabalho existentes. Se você arquivar ou excluir um fluxo de trabalho, não poderá recuperá-lo. Se você tiver um fluxo de trabalho restante e arquivá-lo ou excluí-lo, os fluxos de trabalho serão totalmente descontinuados para sua instância do Workfront e não será possível adicionar novos fluxos de trabalho.
 
 <!-- Blueprints -->
 

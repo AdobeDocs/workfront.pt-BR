@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 98410f6d8632eb9842fdbcff88b52f4bc6a87b2e
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 0%
+source-wordcount: '2214'
+ht-degree: 1%
 ---
 # Programa beta de recursos de organizações conectadas
 
@@ -98,37 +98,211 @@ A primeira fase do programa beta permite conectar as duas instâncias e iniciar 
 | **Solicitar aceitação** | Quando ambos os lados concordarem, o provedor aceitará a solicitação e o cliente poderá ver que ela foi aceita. |
 | **Atualizações de status de rascunho de IA** | Quando um solicitante solicita o status em um comentário, o provedor pode usar os comandos da IA para gerar uma resposta de rascunho de maneira rápida e consistente. <br> O rascunho inclui informações dos objetos conectados à solicitação, como a Data de conclusão planejada, a Condição e as horas registradas nas Horas planejadas. <br> É um resumo das informações mais importantes, não uma exportação campo a campo. Uma pessoa a revisa e edita antes de enviar uma resposta ao cliente. |
 
+## Participe da versão beta
+
+Fale com o gerente de programa do Adobe beta para participar do beta.
+
+### O que pedimos aos participantes
+
+* Participe de uma chamada de feedback semanal.
+
+* Reserve cerca de uma hora por semana para testes práticos por conta própria. Sessões de trabalho em tempo real na chamada do são uma opção do.
+
+* Sempre que possível, levar as perspectivas de ambos os parceiros para as reuniões.
+
+* Identifique os ambientes do Workfront a serem conectados e provisione contas de administrador para um pequeno número de engenheiros da Adobe para que eles possam validar a conexão.
+
+### O que queremos aprender
+
+* O espelhamento de um objeto e a sincronização somente dos dados selecionados são o modelo de compartilhamento correto? Ele é flexível o suficiente para cada lado?
+
+* O sequenciamento de fases está correto ou um recurso posterior deve vir antes?
+
+* Quais pontos de contato estão faltando na colaboração?
+
+* Como a nomeação e o mapeamento de campos devem funcionar entre as duas instâncias?
+
+  Hoje, o formulário e a solicitação são de propriedade do cliente e o provedor os vê como somente leitura com os nomes de campo do cliente.
+
+* O que a TI precisa para aprovar e administrar uma conexão?
+
 ## Fluxo de trabalho completo
 
-Esta seção descreve o fluxo de trabalho para duas partes envolvidas nessa integração, após as instâncias Workfront de suas organizações respeitadas terem sido conectadas.
+Esta seção descreve o fluxo de trabalho para duas partes envolvidas nessa integração.
 
 Estamos usando um fluxo de trabalho de cliente e provedor como exemplos.
 
-### Fluxo de trabalho do cliente
+O fluxo de trabalho inclui as seguintes etapas:
 
-Como solicitante na organização do cliente, você pode fazer o seguinte:
+1. [Criar uma conexão de instância](#1-create-an-instance-connection)
+1. [Confirmar a conexão](#2-acknowledge-the-connection)
+1. [Compartilhar um formulário de solicitação com a organização conectada](#3-share-a-request-form-with-the-connected-organization)
+1. [Envie uma solicitação](#4-submit-a-request)
+1. [Revisar a solicitação e criar um projeto](#5-review-the-request-and-create-a-project)
+1. [Colaborar na conversa entre empresas](#6-collaborate-in-the-cross-company-conversation)
 
-1. Crie ou peça a um administrador para criar um formulário de solicitação, publicá-lo e compartilhá-lo com a organização do provedor conectado.
+### Antes de começar
 
-2. Abra o formulário publicado na área Solicitações, insira um prompt e anexe quaisquer arquivos.
+* Você deve ser um administrador do sistema com acesso total à área **Instalação** em ambas as instâncias.
+* A instância solicitante precisa do cliente exclusivo **GUID** da instância de recebimento.
+* O formulário que você deseja compartilhar deve ser publicado.
 
-3. Revise como o conteúdo é mapeado para os campos de formulário, aceite e envie.
+### &#x200B;1. Criar uma conexão de instância
 
-### Fluxo de trabalho do provedor
+Configure o seguinte na instância solicitante (o cliente):
 
-Como gerente de trabalho na organização do provedor, faça o seguinte:
+1. Faça logon no ambiente do cliente e vá para **Instalação** > **Conexões de instância**. A página lista todas as conexões e fica vazia se nenhuma ainda existir.
+1. Clique em **Criar conexão**.
+1. Na caixa **Criar conexão**, adicione o **GUID da instância de recebimento**. É um campo obrigatório.
+1. (Opcional) Defina uma **Data de expiração**. A conexão para de funcionar após essa data.
+1. Clique em **Criar conexão**.
 
-1. Receba a solicitação na área Solicitações como uma cópia somente leitura.
+   A nova conexão é exibida na lista de conexões com o status **Pendente**.
+1. Selecione a nova conexão para ver seus detalhes.
 
-2. Discuta a solicitação por meio de comentários até que ambos os lados estejam alinhados e, em seguida, aceite-a.
+   >[!TIP]
+   >
+   >Uma conexão pendente não compartilha nada. A instância de recebimento deve confirmá-la primeiro.
 
-3. Converta a solicitação em um projeto, escolhendo o portfólio, programa e modelo, se necessário.
 
-4. Escolha quais campos de projeto são espelhados de volta para a solicitação do cliente.
+### &#x200B;2. Confirmar a conexão
 
-5. Responda as perguntas de status nos comentários ou gere uma atualização de status de rascunho, revise-a e publique na sua solicitação. Ele também será exibido na solicitação original do cliente.
+Configure o seguinte na instância de recebimento (o provedor):
 
-   A partir desse ponto, a solicitação do lado do provedor atua como uma réplica da solicitação original do cliente, portanto, os comentários e os dados acordados permanecem sincronizados.
+1. Faça logon na instância do provedor e acesse **Menu Principal** > **Instalação** > **Conexões de instância**.
+1. Clique no nome para abrir a conexão da instância de recebimento. Um banner exibe a seguinte mensagem: **Uma instância deseja se conectar à sua. Escolha pelo menos um recipient elegível e reconheça a conexão. Nada é compartilhado até que você o faça.**
+1. Em **Destinatários qualificados**, abra a lista **Grupos e usuários de pesquisa** e escolha quem pode receber trabalho da instância solicitante. Você pode escolher grupos e usuários individuais. <!--asking Anna K if this should be teams and users, instead of groups; it's groups in the UI-->
+1. Clique em **Confirmar** para aceitar a conexão ou clique em uma das seguintes opções:
+
+   * **Recusar** para recusar a conexão.
+   * **Fechar** para deixar pendente.
+
+   Uma mensagem &quot;Alterações salvas&quot; é exibida, e o status da conexão é alterado para **Ativo**. A lista agora mostra os recipients qualificados, a data de criação e a data de expiração.
+
+   >[!TIP]
+   >
+   >**Confirmar** permanece esmaecido até que você escolha pelo menos um destinatário qualificado.
+
+### &#x200B;3. Compartilhar um formulário de solicitação da organização solicitante
+
+Na instância do Workfront do cliente:
+
+1. Vá para **Menu principal** > **Solicitações** e clique em **Solicitar formulários**.
+1. Abra o formulário publicado que deseja compartilhar.
+1. Clique em **Compartilhar**.
+
+   Observe as seguintes guias dentro da caixa **Compartilhar**:
+
+   * **Compartilhamento interno**
+   * **Compartilhamento público**
+   * **Organizações conectadas**
+1. Abra a guia **Organizações conectadas**.
+1. No campo **Organização**, selecione a instância do provedor conectado.
+1. No campo **Usuários e grupos**, escolha quem nessa organização pode usar o formulário. Adicione usuários e grupos.
+1. Clique em **Salvar**.
+
+Uma mensagem **Suas alterações foram salvas com êxito** confirma o compartilhamento. <!--need to submit a UI text change - remove "successfully"-->
+
+### &#x200B;4. Envie uma solicitação
+
+Como um usuário na instância do cliente, envie uma solicitação do fazendo o seguinte:
+
+1. Faça logon na instância Workfront do cliente e acesse **Menu Principal** > **Solicitações**.
+
+   A página **Enviar nova solicitação** lista formulários recentes, incluindo aquele que você acabou de compartilhar.
+
+   Uma observação na parte superior exibe **Solicitação entre empresas: as solicitações enviadas com este formulário estão visíveis para a organização conectada.**
+1. Preencha o formulário manualmente ou use **Preencher formulário** para que a IA faça isso por você.
+1. (Opcional) Para usar Preencher formulário, faça o seguinte:
+
+   1. Clique em **Preencher formulário**.
+   1. Descreva sua solicitação, cole um email relacionado ou clique em **Anexar arquivos** para carregar um arquivo. A IA encontra os detalhes relevantes e os aplica ao formulário.
+   1. Clique em **Aplicar ao formulário**. Uma barra de progresso mostra **Preenchendo seu formulário** enquanto os valores de campo são gerados.
+   1. Para ignorar a etapa de IA, clique em **Ignorar**.
+1. Revise os valores gerados e edite qualquer coisa que precise ser alterada.
+1. Clique em **Enviar** para enviar a solicitação.
+
+   Uma mensagem **Solicitação enviada com êxito** é exibida com um link **Exibir sua solicitação**.
+
+   A nova solicitação é adicionada à lista de solicitações com o nome do formulário e um status de **Nova**.
+
+   >[!TIP]
+   >
+   >As respostas da IA podem ser imprecisas. Sempre verifique novamente os valores preenchidos antes de enviar.
+
+### &#x200B;5. Revisar a solicitação e criar um projeto
+
+1. Faça logon na instância Workfront do provedor e acesse **Menu Principal** > **Solicitações**.
+
+A solicitação de entrada é exibida na lista.
+
+O **Tipo** da solicitação está marcado como **Externo: &lt; nome da instância do cliente >**, que a marca como proveniente da organização conectada.
+
+1. Abra a solicitação. Um selo **Compartilhado com: &lt; nome da instância do cliente >** é exibido ao lado do título, e o painel de comentários mostra o seguinte aviso de **Conversação entre empresas**: **Esta discussão está visível para &lt; nome da organização do cliente >.**
+1. Revise as informações da solicitação e as respostas do formulário.
+1. Clique no menu **Mais** à direita do nome da solicitação e, em seguida, em **Criar objeto**.
+1. Na caixa de diálogo **Criar objeto**, atualize os seguintes campos:
+   * **Ação**: selecione uma ação no menu. Por exemplo, **Criar um único projeto**
+   * **Modelo de projeto**: selecione um modelo disponível.
+   * **Proprietário do projeto**: adicione um proprietário de projeto.
+   * **Módulo**: escolha um produto onde o objeto será exibido. Se você escolher **Fluxo de trabalho**, um projeto será criado na instância do provedor do Workfront.
+   * **Formulários personalizados**: anexe formulários personalizados, se necessário.
+   * **Portfolio** e **Programa**: adicionar portfólios ou programas para o novo projeto.
+1. Clique em **Criar**.
+
+   A solicitação na instância do provedor agora vincula ao novo projeto, e o status da solicitação muda para **Em andamento**. A instância solicitante do cliente vê a alteração de status em sua própria cópia da solicitação.
+
+### &#x200B;6. Colaborar na conversa entre empresas
+
+Os usuários em ambas as organizações podem comentar em suas respectivas solicitações. O banner de **conversa entre empresas** é um lembrete de que tudo o que foi escrito aqui está visível para a outra organização.
+
+Siga um destes procedimentos:
+
+1. Para solicitar uma atualização da instância do cliente:
+
+   1. Abra a solicitação e vá para o painel **Comentários**.
+   1. Clique em **Novo comentário**, digite sua mensagem e clique em **Enviar**.
+
+1. Para atualizar a solicitação da instância do provedor:
+
+   1. Abra a solicitação. O novo comentário está realçado com um rótulo **Novo**.
+   1. Clique em **Responder**, escreva a resposta e clique em **Enviar**.
+
+1. Para fazer o acompanhamento a partir da instância do cliente:
+
+   1. Abra a solicitação. A resposta do provedor aparece abaixo do comentário original.
+   1. Clique em **Curtir** para confirmar a confirmação ou **Adicionar resposta** para continuar a discussão.
+
+
+
+
+<!--
+### Client's workflow
+
+As a requestor in the client's organization, you can do the following:  
+
+1. Create or ask an administrator to create a request form, publish it, and share it with the connected provider's organization.
+
+2. Open the published form from the Requests area, enter a prompt, and attach any files.
+
+3. Review how the content maps to the form fields, accept, and submit.
+
+### Provider's workflow
+
+As a work manager in the provider's organization, do the following: 
+
+1. Receive the request in your Requests area as a read-only copy.
+
+2. Discuss the request through comments until both sides are aligned, then accept it.
+
+3. Convert the request into a project, choosing the portfolio, program, and template, if needed.
+
+4. Choose which project fields are mirrored back to the client's request. 
+
+5. Answer status questions in comments, or generate a draft status update, review it, and publish to your request. It will also display on the client's original request. 
+
+    From that point on, the request on the provider's side acts as a replica of the client's original request, so comments and agreed-upon data stay in sync.
+-->
 
 ## Segurança e governança
 
@@ -193,33 +367,7 @@ As fases abaixo descrevem nosso plano atual de desenvolvimento e versão. O sequ
 </tbody>
 </table>
 
-## Participe da versão beta
 
-Fale com o gerente de programa do Adobe beta para participar do beta.
-
-### O que pedimos aos participantes
-
-* Participe de uma chamada de feedback semanal.
-
-* Reserve cerca de uma hora por semana para testes práticos por conta própria. Sessões de trabalho em tempo real na chamada do são uma opção do.
-
-* Sempre que possível, levar as perspectivas de ambos os parceiros para as reuniões.
-
-* Identifique os ambientes do Workfront a serem conectados e provisione contas de administrador para um pequeno número de engenheiros da Adobe para que eles possam validar a conexão.
-
-### O que queremos aprender
-
-* O espelhamento de um objeto e a sincronização somente dos dados selecionados são o modelo de compartilhamento correto? Ele é flexível o suficiente para cada lado?
-
-* O sequenciamento de fases está correto ou um recurso posterior deve vir antes?
-
-* Quais pontos de contato estão faltando na colaboração?
-
-* Como a nomeação e o mapeamento de campos devem funcionar entre as duas instâncias?
-
-  Hoje, o formulário e a solicitação são de propriedade do cliente e o provedor os vê como somente leitura com os nomes de campo do cliente.
-
-* O que a TI precisa para aprovar e administrar uma conexão?
 
 
 
