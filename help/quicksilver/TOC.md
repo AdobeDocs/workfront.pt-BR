@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 3bc7dd1ed87bb99e08183a82dcd38ff65a14b73b
 workflow-type: tm+mt
-source-wordcount: '14762'
+source-wordcount: '14769'
 ht-degree: 90%
 ---
 # Guia do Workfront {#using}
@@ -2345,6 +2345,7 @@ ht-degree: 90%
   * {hide-from-toc}O espaço de ideação no Workfront Planning {#ideation}
     * {hide-from-toc}[Espaço de ideação para o Adobe Workfront Planning: índice do artigo](planning/ideation/planning-ideation-article-index.md)
     * {hide-from-toc}[Introdução ao Espaço de ideação para planejamento do Adobe Workfront](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[Acesso necessário para usar o espaço de ideação](planning/ideation/access-needed-to-use-ideation-space.md)
     * {hide-from-toc}[Criar resumos no espaço de ideação](planning/ideation/create-briefs-in-ideation-space.md)
     * {hide-from-toc}[Criar registros de Planejamento a partir de resumos de espaço de ideação](planning/ideation/create-records-in-ideation-space-for-planning.md)
     * {hide-from-toc}[Compartilhar um espaço de ideação com outras pessoas](planning/ideation/share-the-ideation-space.md)
