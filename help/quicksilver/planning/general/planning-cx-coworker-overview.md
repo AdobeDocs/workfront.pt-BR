@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 3%
+source-wordcount: '1097'
+ht-degree: 4%
 ---
 
 # Visão geral do Adobe Workfront Planning CX Enterprise Coworker
@@ -129,7 +129,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 * Ao criar, atualizar ou excluir um objeto por meio do Colaborador, o Colaborador exibe as ações desejadas e solicita a confirmação. Você pode confirmar ou cancelar as ações.
 
-## Funcionalidade atualmente disponível para colaborador
+## Funcionalidade atualmente disponível para Colaborador no Workfront Planning
 
 Atualmente, o Colaborador está disponível na área Planejamento do Workfront e usa um conjunto de habilidades para acessar e manipular informações para objetos do Planejamento. Para obter mais informações, consulte [Habilidades do Workfront no CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
@@ -137,14 +137,16 @@ Você pode usar o Colaborador para executar as seguintes ações:
 
 * Pesquisar registros. Você pode pesquisar pelas informações contidas em qualquer campo de registro.
 * Criar registros. Uma ID com um link para o novo registro é exibida após a criação do registro. Você pode especificar os campos que deseja atualizar durante o processo de criação, como datas ou descrição.
-* Crie registros com base em um documento do qual você fez upload. O Workfront é compatível com os seguintes formatos de documento para o Colaborador:
+* Crie registros com base em um documento do qual você fez upload. O Workfront oferece suporte aos seguintes formatos de documento para anexar ao Co-worker:
 
   PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT e a maioria dos formatos de imagem
 * Atualize os campos dos registros exibidos na tela
 * Excluir, duplicar ou restaurar registros
 * Vincular registros a outros registros
 * Exibir histórico de alterações de um registro
-* Importe 10.000 ou mais registros anexando um arquivo do Excel ao Co-worker.
+* Importar 10.000 ou mais registros anexando um arquivo do Excel ao Co-worker
+* Criar e gerenciar regras de negócios
+
 
 ## Localizar Colaborador no Workfront Planning
 
