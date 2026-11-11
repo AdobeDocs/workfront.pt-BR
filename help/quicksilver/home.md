@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 260299ae364ca925a9b3e95e93dd64ff2a2dc2d1
+source-git-commit: e6e1bd35cc525995ea48509b48640fb9f24a6c23
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 93%
@@ -157,5 +157,4 @@ A pesquisa de documentação pode ser mais eficiente com algumas abordagens estr
 ### Encontre respostas nos fóruns da comunidade
 
 * **Faça perguntas**: se a documentação não responder à sua pergunta, tente publicá-la nos [fóruns da comunidade Workfront](https://experienceleaguecommunities.adobe.com/adobe-workfront-22?lang=pt), onde outros usuários e especialistas podem oferecer assistência.
-
 

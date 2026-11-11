@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '660'
 ht-degree: 5%
 ---
 # Usar um status personalizado como status padrão para um grupo
@@ -77,16 +77,16 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Status de problemas
 
-Se o status personalizado for um status de Problema, todos os quatro tipos de problemas deverão ser habilitados para ele (Relatório de erros, Pedido de alteração, Problema e Solicitação). Por exemplo, no status de ocorrência mostrado abaixo, o status Reaberto não pode ser usado como um status padrão porque o tipo de ocorrência de Pedido de alteração não está selecionado:
+Se o status personalizado for um status de Problema, todos os quatro tipos de problemas deverão ser habilitados para ele (Relatório de erros, Pedido de alteração, Problema e Solicitação). Por exemplo, no status de ocorrência mostrado abaixo, o status Ideia não pode ser usado como um status padrão porque o tipo de ocorrência Pedido de alteração não está selecionado:
 
-![Todos os tipos de problemas habilitados](assets/all-4-issue-types-enabled.png)
+![Todos os tipos de problemas habilitados](assets/new-all-issue-types-enabled.png)
 
 ## Definir um status personalizado como status padrão para um grupo
 
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png) e depois clique no nome do grupo no qual deseja criar ou personalizar os status.
-1. No painel esquerdo, clique em **Status** ![Ícone de configurações de engrenagem](assets/gear-icon-settings.png).
+1. No painel esquerdo, clique em **Status** ![Ícone de status](assets/status-icon.png).
 1. Abra a guia **Projeto**, **Tarefas** ou **Problemas**, dependendo do tipo de status que você deseja definir como um status padrão.
 1. Clique em **Definir status padrão** próximo ao canto superior direito.
 1. Na área suspensa que é exibida, ao lado do status em que você deseja definir o status padrão, selecione o status padrão que deseja definir.
@@ -122,4 +122,3 @@ Se você ocultar um status padrão (ativando a opção Ocultar status para ele),
 
 Se não houver status disponível do tipo equivalente, o tipo de status será exibido como **Oculto** e não estará disponível para itens de trabalho.
 
-![Nenhum status disponível](assets/when-hide-default-status-no-equivalent.png)
