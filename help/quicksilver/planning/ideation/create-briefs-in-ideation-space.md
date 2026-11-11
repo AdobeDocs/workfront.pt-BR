@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '2011'
 ht-degree: 1%
 ---
 
@@ -92,9 +92,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Requisitos do provedor de nuvem</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>NOTA:</b></p>
-   <p>Nenhum outro provedor de nuvem é compatível</p>
+   <p>Não oferecemos suporte a nenhum outro provedor de nuvem.</p>
    </td> 
   </tr>
 <tr> 
@@ -180,11 +180,13 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
    * Vá para o **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Espaço de ideação**
    * Vá para **Menu Principal** ![Menu principal](assets/main-menu-lines.png) > **Planejamento** > clique em um espaço de trabalho > clique em um tipo de registro > **Novo registro** > **Iniciar espaço de ideação**
 
-   O espaço de ideação é aberto e uma nova ideação é intitulada por padrão, seguindo o seguinte formato:
+1. Leia o contrato beta e clique em **Concordo**. Você deve assinar o contrato para usar o espaço de ideação.
+
+   A tela Espaço de ideação é aberta e uma nova ideação é intitulada por padrão após o seguinte formato:
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   Para obter mais informações sobre como criar registros usando o espaço de ideação, consulte [Criar registros de planejamento a partir de resumos do espaço de ideação](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+   Para obter mais informações sobre como criar registros usando o espaço de ideação, consulte [Criar registros do Planning a partir de resumos do espaço de ideação](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
 1. (Condicional) Para abrir um resumo existente no espaço de ideação, faça logon no Workfront com o Planning onde o Co-worker foi ativado e siga um destes procedimentos:
 
@@ -203,7 +205,7 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
 1. (Opcional) Clique no ícone **+** na caixa de prompt Colaborador e anexe informações das seguintes maneiras:
 
    * **Comandos**: use um comando da lista para solicitar conteúdo ao Co-worker.
-   * **Anexar arquivo**: anexe um arquivo à caixa de prompt para adicioná-lo ou suas informações ao espaço de ideação. Você deve pedir ao Coworker para criar cartões com base no arquivo para depois enviar os cartões ao resumo.
+   * **Anexar arquivo**: anexe um arquivo à caixa de prompt para adicioná-lo ou suas informações à tela de ideação. Você deve pedir ao Coworker para criar cartões com base no arquivo para depois enviar os cartões ao resumo.
    * **Referenciar um objeto**: selecione um objeto da lista para referenciá-lo na sua ideação. O objeto deve existir no Workfront.
 
 1. Clique em Enter.
@@ -216,14 +218,14 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
 
 1. (Condicional) Quando o Colaborador oferecer a criação de cartões para a ideação, responda **Sim**.
 
-   Cartões são adicionados ao espaço de ideação e você pode ver as fontes de cada cartão e decidir quais serão adicionados ao seu resumo.
+   Os cartões são adicionados à tela de ideação e você pode ver as fontes de cada cartão e decidir qual deles adicionar ao seu resumo.
 
    >[!TIP]
    >
    >Não é possível adicionar arquivos diretamente ao resumo. Você deve primeiro transferir as informações do arquivo para os cartões que você pode enviar ao resumo.
 
 
-1. Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) para procurar itens no espaço de ideação e clique quando ele for exibido na lista para navegar até ele.
+1. Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) para procurar itens na tela de ideação e clique quando ele for exibido na lista para navegar até ele.
 
 1. (Opcional) Clique em **Fontes** na parte inferior de cada cartão para entender de onde as informações foram coletadas.
 
@@ -233,7 +235,7 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
 1. (Opcional) Clique em **Comentários** ![Ícone de comentário](assets/comments-icon.png) no canto superior direito do espaço e **@** marque outros para começar a fazer brainstorming dentro do espaço.
 
    Os usuários receberão uma notificação por email sobre a tag.
-1. (Opcional) Clique no ícone ![](assets/filter-comments-icon.png) do **Filtro** dentro do cartão de comentários para filtrar os comentários de acordo com os seguintes critérios:
+1. (Opcional) Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-comments-icon.png) dentro do cartão de comentários para filtrar os comentários de acordo com os seguintes critérios:
 
    * Revisores
    * Hora em que o comentário foi adicionado
@@ -247,27 +249,31 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
    Por exemplo, linhas do tempo são adicionadas a campos do tipo data, descrições a campos do tipo parágrafo.
 
 1. (Condicional) Clique em um cartão e em **Pedir IA para ...** para obter ideias sobre a próxima etapa antes de adicionar as informações ao resumo. As respostas estão no contexto das informações de cada cartão.
-1. Clique no ícone **Adicionar documentos** ![Ícone Adicionar documentos](assets/add-documents-in-ideation-space.png) no canto superior esquerdo do espaço de ideação para carregar documentos para o espaço. É possível adicionar novos documentos ou documentos que já foram adicionados ao espaço anterior.
+1. Clique no ícone **Adicionar documentos** ![Ícone Adicionar documentos](assets/add-documents-in-ideation-space.png) no canto superior esquerdo da tela de ideação para carregar documentos para o espaço. É possível adicionar novos documentos ou documentos que já foram adicionados ao espaço anterior.
 
    >[!TIP]
    >
    >A configuração Documentos deve estar ativada para poder acessar documentos e carregá-los no espaço.
-   >Para obter informações, consulte a seção [Configurar o espaço de ideação](#configure-the-ideation-space) neste artigo.
+   >Para obter informações, consulte a seção [Configurar a tela do espaço de ideação](#configure-the-ideation-space-canvas) neste artigo.
    > 
-1. Clique no ícone **Adicionar cartão de Taxonomia WF** ![Adicionar do Workfront Planning](assets/add-from-wf-planning-on-ideations-space.png) <!--asked to change this tooltip--> e selecione um tipo de registro conectado e, em seguida, um registro de cada tipo para adicionar as informações desse registro ao tipo de registro selecionado.
+1. Clique no ícone **Adicionar registros do Workfront Connected Planning** ![Adicionar registros do Workfront Connected Planning](assets/add-from-wf-planning-on-ideations-space.png) e selecione um tipo de registro conectado e, em seguida, um registro de cada tipo para adicionar as informações desse registro ao tipo de registro selecionado.
 
    Um cartão é criado para o registro selecionado para ser adicionado ao espaço. O tipo de registro é exibido no canto superior esquerdo do cartão do registro.
 
    >[!TIP]
    >
-   >O ícone <!--check UI name--> do cartão **Adicionar Taxonomia WF** não está disponível quando você acessa o espaço de ideação no menu Principal e o resumo não é conectado a um registro do Planning.
+   >* O ícone **Adicionar registros do Workfront Connected Planning** não está disponível quando você acessa o espaço Ideação no menu Principal e o resumo não é conectado a um registro do Planning.
+   >
+   >* Somente os registros de planejamento conectados estarão disponíveis para serem adicionados à tela Espaço de ideação como contexto para sua ideação. Cada cartão de registro conectado adicionado à tela influenciará o tipo de conteúdo criado e usará esse contexto, onde aplicável, durante sua ideação.
+   >
+   >   Por exemplo, se você deseja criar uma campanha que deve aproveitar os tipos de registro existentes, adicione esses registros à tela.
 
 1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) no cartão de registro conectado e clique em **Exibir no Workfront**.
 
    A página de detalhes do registro é aberta em outra guia do navegador no Workfront Planning.
-1. (Opcional) Selecione o quadro de ideação ou um cartão, clique no ícone **Excluir** e em **Excluir** para confirmar. A placa é removida do espaço de ideação.
+1. (Opcional) Selecione o quadro de ideação ou um cartão, clique no ícone **Excluir** e em **Excluir** para confirmar. A placa é removida da tela Espaço de ideação.
 
-   Ao excluir cartões correspondentes a um documento armazenado ou a um registro, os itens são removidos do espaço de ideação, mas permanecem em seus respectivos aplicativos.
+   Quando você exclui cartões correspondentes a um documento armazenado ou a um registro, os itens são removidos da tela, mas permanecem em seus respectivos aplicativos.
 
 1. (Opcional) Use a caixa **Pergunte qualquer coisa ao Colaborador** no canto inferior direito a qualquer momento para refinar sua ideia.
 
@@ -277,7 +283,7 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
 
    ![Ícone Copiar para a barra de prompts](assets/copy-to-prompt-bar-icon-highlighted.png)
 
-1. (Opcional) Clique nos ícones **Desfazer** ou **Refazer** ![Desfazer e refazer ícones](assets/undo-redo-icons.png) na parte superior do espaço de ideação para cancelar ou reverter uma ação.
+1. (Opcional) Clique nos ícones **Desfazer** ou **Refazer** ![Desfazer e refazer ícones](assets/undo-redo-icons.png) na parte superior da tela para cancelar ou reverter uma ação.
 1. Reduza o zoom para ver a imagem completa: seu objetivo original de campanha, todos os cartões de conceito gerados por IA com citações, documentos adicionais, os registros reais do Workfront Planning que você obteve (produtos, personas etc.). O cartão de resumo **Brief** no canto inferior esquerdo puxa tudo junto.
 
 1. Clique na imagem de visualização breve no canto inferior esquerdo, revise o resumo e clique em uma das seguintes opções:
@@ -296,11 +302,13 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
    Isso finaliza a criação do registro ou do arquivo com as informações adicionais. Se você tiver começado a partir de um registro existente, as informações do resumo serão adicionadas ao registro. Se você começou com um novo registro, ele é criado com as informações do resumo.
 
    Para obter mais informações sobre a atualização de registros do Planning usando resumos, consulte a seção &quot;Considerações sobre o uso do espaço de ideação para criar registros&quot; no artigo [Criar registros do Planning a partir de resumos do espaço de ideação](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+1. (Opcional) Clique em **Compartilhar** para compartilhar a tela de ideação com outras pessoas.
 
+   Para obter mais informações, consulte [Compartilhar um espaço de ideação com outras pessoas](/help/quicksilver/planning/ideation/share-the-ideation-space.md).
 
-## Configurar o espaço de ideação
+## Configurar a tela do espaço de ideação
 
-Existem controles para o espaço de ideação que configuram o que você vê na tela, bem como ajudam a navegar pelo espaço.
+Existem controles para o espaço de ideação que configuram o que você vê na tela, bem como ajudam a navegar pela tela.
 
 1. Clique no ícone **Configurações** ![Configurações](assets/setting-icon.png) para controlar de onde a IA extrai informações e escolha um dos **Tipos de Source** a seguir:
 
@@ -322,7 +330,7 @@ Existem controles para o espaço de ideação que configuram o que você vê na 
    * **Mostrar grade de pontos**: ative a seleção para exibir a grade de pontos.
    * **Tour do produto**: desative a seleção para recusar as dicas de orientação ao usar o espaço de ideação.
 
-1. Clique no ícone da **Ajuda** ![Ícone da Ajuda](assets/more-information-icon.png) para examinar os atalhos de teclado que você pode usar para navegar pelo espaço de ideação ou selecionar um valor de zoom diferente:
+1. Clique no ícone da **Ajuda** ![Ícone da Ajuda](assets/more-information-icon.png) para examinar os atalhos de teclado que você pode usar para navegar na tela ou selecionar um valor de zoom diferente:
 
 | Ação | Atalho |
 | --- | --- |

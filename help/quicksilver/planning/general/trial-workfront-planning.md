@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2348'
 ht-degree: 3%
 ---
 # Começar a avaliação gratuita do Planejamento do Adobe Workfront
@@ -254,7 +254,7 @@ Você pode revisar espaços de trabalho de amostra do Planning e seus objetos, b
 1. (Condicional e obrigatório) Como administrador do Workfront, assine o contrato de avaliação gratuita.
 
    Para obter informações, consulte a seção [Inscrever-se na avaliação gratuita do Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) neste artigo.
-1. (Condicional) Após a assinatura do contrato de avaliação por um administrador do Workfront, clique no ícone ![](assets/main-menu-shell.png) do **Menu Principal** e em um dos seguintes itens para acessar a área **Planejamento**:
+1. (Condicional) Após a assinatura do contrato de avaliação por um administrador do Workfront, clique no ícone **Menu Principal** ![Menu principal](assets/main-menu-shell.png) e clique em um dos seguintes itens para acessar a área **Planning**:
 
    * **Planejamento**. O ícone exibe um rótulo de **Avaliação** ao lado dele.
    * **Projetos**, **Solicitações**, **Calendários** e clique em **Explorar calendários da campanha**
