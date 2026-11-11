@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1302'
 ht-degree: 1%
 ---
 
@@ -187,7 +187,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 1. Clique em **Ativar** para tornar a regra ativa para este tipo de registro e em **Salvar**.
 
    As regras são aplicadas imediatamente após serem ativadas e todos os usuários com permissões para editar ou excluir registros no tipo de registro selecionado devem segui-las.
-1. (Opcional) Clique no menu **Mais** ![](assets/more-menu.png) para exibir o nome da regra de negócios no cabeçalho da página para abrir a caixa **Detalhes da regra** e atualizar as informações sobre a regra de negócios.
+1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) para exibir o nome da regra de negócios no cabeçalho da página para abrir a caixa **Detalhes da regra** e atualizar as informações sobre a regra de negócios.
 1. (Opcional e recomendado) Clique na seta para trás à esquerda das **Regras de negócio** no cabeçalho da página para exibir a página de tipo de registro e ir para uma exibição de tabela ou abrir a página de um registro e, em seguida, tente editar ou excluir um registro para testar a regra que acabou de criar.
 
 ## Gerenciar regras de negócios

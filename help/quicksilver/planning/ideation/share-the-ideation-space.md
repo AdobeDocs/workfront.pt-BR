@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '675'
 ht-degree: 2%
 ---
 
@@ -63,7 +63,7 @@ Future - when they make it available in Planning: replace the above with this OR
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Você pode usar o Espaço de ideação do Adobe Workfront para criar resumos para suas campanhas e outros tipos de registros antes de lançá-los. Isso convida outras pessoas a fazer um brainstorming e coletar informações para criar colaborativamente o resumo antes de lançar seu trabalho.
+Você pode usar o espaço de ideação do Adobe Workfront para criar resumos para suas campanhas e outros tipos de registros antes de lançá-los. Isso convida outras pessoas a fazer um brainstorming e coletar informações para criar colaborativamente o resumo antes de lançar seu trabalho.
 
 Você pode compartilhar o espaço de ideação e seu respectivo resumo com outros usuários para melhor colaboração.
 
@@ -96,9 +96,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Requisitos do provedor de nuvem</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>NOTA:</b></p>
-   <p>Nenhum outro provedor de nuvem é compatível</p>
+   <p>Não oferecemos suporte a nenhum outro provedor de nuvem.</p>
    </td> 
   </tr>
 <tr> 
@@ -163,7 +163,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -192,7 +192,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
      Todas as pessoas na organização que tenham um Fluxo de trabalho e uma licença do Planning em seu nível de acesso podem encontrar e comentar a ideação.
    * **Qualquer pessoa com o link pode fazer um comentário**
 
-     Qualquer pessoa com quem você compartilhar um link para a ideação pode comentá-la, incluindo pessoas externas à sua organização.
+     Qualquer pessoa com quem você compartilha um link para a tela de ideação pode comentar sobre ela, incluindo pessoas externas à sua organização.
 
 1. Clique em **Copiar link** para gerar um link para a ideação e compartilhá-lo com outras pessoas. O link é adicionado à área de transferência.
 1. Clique na seta para trás na caixa Configurações para voltar para o compartilhamento.
@@ -200,13 +200,13 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    | Permissão de espaço de ideação | Recursos |
    |---|---|
-   | **Editor** | Pode editar, baixar e compartilhar o espaço de ideação |
-   | **Comentário** | Pode exibir e comentar no espaço de ideação |
-   | **Visualizador** | Pode visualizar o espaço de ideação |
+   | **Editor** | Pode editar, baixar e compartilhar a tela de ideação |
+   | **Comentário** | Pode exibir e comentar na tela de ideação |
+   | **Visualizador** | Pode visualizar a tela de ideação |
 
-1. (Opcional) Inclua uma mensagem com sua atribuição e clique em **Convidar**.
+1. (Opcional) Inclua uma mensagem com seu convite de compartilhamento e clique em **Convidar**.
 
-   Os usuários convidados recebem uma notificação por email sobre sua atribuição de permissão.
+   Os usuários convidados receberão uma notificação por email sobre sua atribuição de permissão.
 
 1. Clique no ícone **X** para fechar a caixa **Compartilhar documento**.
 
