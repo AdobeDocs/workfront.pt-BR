@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1409'
 ht-degree: 3%
 ---
 # Visão geral da seção de atualizações
@@ -154,7 +154,7 @@ A seção Updates exibe informações nas seguintes guias:
 
   Para obter informações sobre como atualizar objetos, consulte [Trabalho de atualização](../updating-work-items-and-viewing-updates/update-work.md).
 
-  <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+  <span class="preview">A guia **Comentários** inclui um filtro que oculta ou exibe comentários resolvidos. Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>
 
 * **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pela Workfront para registrar determinados eventos em um objeto. Por exemplo, alterações em status, nome ou campos personalizados são capturadas com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Todas as respostas feitas aos registros de atividade do sistema na experiência de comentários herdada são preenchidas na guia Atividade do sistema como somente leitura. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Todos (somente leitura)**: exibe os comentários do usuário e os comentários da atividade do sistema em um único local. Esta é uma guia somente para visualização. Não é possível responder a comentários ou marcar outros usuários em comentários existentes na guia Todos. Para responder a um comentário específico, use o link da guia All para a guia Comments. Para obter informações sobre como atualizar objetos, consulte [Trabalho de atualização](../updating-work-items-and-viewing-updates/update-work.md).

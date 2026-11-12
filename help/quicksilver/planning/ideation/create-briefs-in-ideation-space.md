@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2052'
 ht-degree: 1%
 ---
 
@@ -177,8 +177,17 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
 
 1. Faça logon no Workfront com Planejamento, onde o Colaborador foi ativado, e siga um destes procedimentos para abrir o espaço de ideação pela primeira vez e criar resumos:
 
-   * Vá para o **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Espaço de ideação**
-   * Vá para **Menu Principal** ![Menu principal](assets/main-menu-lines.png) > **Planejamento** > clique em um espaço de trabalho > clique em um tipo de registro > **Novo registro** > **Iniciar espaço de ideação**
+   * Vá para o **Menu principal** ![Menu principal](assets/main-menu-lines.png) > clique em **Espaço de ideação**
+
+     ![Espaço de ideação no menu principal](assets/ideation-space-area-icon-in-main-menu.png)
+
+   * Vá para **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planejamento** > clique em um espaço de trabalho > clique em um tipo de registro > clique em **Novo registro** > clique em **Iniciar espaço de ideação**
+
+     ![Espaço de ideação em novo registro](assets/ideation-space-in-planning-new-record.png)
+
+   * Vá para **Menu Principal** ![Menu principal](assets/main-menu-lines.png) > **Planejamento** > clique em um espaço de trabalho > clique em um tipo de registro > clique em um registro existente > clique em **Abrir no Espaço de ideação**
+
+     ![Espaço de ideação nos detalhes do registro](assets/ideation-space-button-in-details-page.png)
 
 1. Leia o contrato beta e clique em **Concordo**. Você deve assinar o contrato para usar o espaço de ideação.
 

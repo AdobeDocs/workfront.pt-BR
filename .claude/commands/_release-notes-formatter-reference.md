@@ -1,9 +1,8 @@
 ---
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '308'
 ht-degree: 0%
-
 ---
 # Modelos de referência das notas de versão
 
@@ -98,6 +97,13 @@ The enhancements on this page are available in the Preview environment. This pag
 >Note that for the final release of each quarter ({VV}.{M} this quarter), users on the fast release schedule will receive the release one day early ({Month Day, Year}).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Features that do not follow this schedule display one of the following badges:
+>
+>* [!BADGE Concurrent release]{type=Neutral}
+>   These features are released concurrently to Preview and Production environments due to technical situations, such as the release schedules of other Adobe products that are part of the feature.
+>* [!BADGE Off schedule]{type=Neutral}
+>   These features are released outside of the standard Workfront release schedule.
 
 ## Adobe Workfront enhancements
 
@@ -144,9 +150,9 @@ Cada seção da área de produto H3 contém uma tabela do HTML. Use esta estrutu
 - Célula de recurso: marca `<a>` com `class="MCXref xref" xrefformat="{para}"` seguida de descrição `<p>`
 - O `href` vincula à página da área do produto (não é uma âncora específica)
 - Células de data: encapsuladas em `<p>` marcas
-- Para itens fora do cronograma, adicione `<p>[!BADGE Off schedule]{type=Neutral}</p>` após o link
-- `<p></p>` vazio após o link ser aceitável quando nenhuma medalha for necessária
-- Manter o recuo do HTML consistente com os arquivos existentes
+- Para itens fora do cronograma, adicione `<p>[!BADGE Off schedule]{type=Neutral}</p>` como seu próprio parágrafo diretamente no parágrafo de link, antes do parágrafo de descrição
+- Para itens liberados simultaneamente para Visualização e Produção, adicione `<p>[!BADGE Concurrent release]{type=Neutral}</p>` na mesma posição
+- `<p></p>` vazio depois que o link é aceitável quando nenhum selo é necessário - Mantenha o recuo do HTML consistente com os arquivos existentes
 
 ### Visão geral das seções finais
 
