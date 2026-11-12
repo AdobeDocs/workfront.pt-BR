@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
+source-git-commit: be4623920eb86efac831d92d741cd0a10251eed2
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1797'
 ht-degree: 1%
 ---
 # Aprimoramentos do administrador do quarto trimestre de 2026
@@ -194,6 +194,7 @@ Para obter mais informações, consulte [Configurar integrações de documentos]
 >Visualização: 30 de julho de 2026
 >Versão rápida de produção: 13 de agosto de 2026
 >Produção para todos: 22 de outubro de 2026
+>[!BADGE Fluxo de trabalho Ultimate]{type=Informative}
 
 Os administradores de grupo agora podem criar, editar e excluir perfis de negócios para os grupos que administram, sem exigir acesso de Administrador do sistema. Isso dá às organizações mais flexibilidade para delegar o gerenciamento de perfis empresariais no nível do grupo.
 

@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
+source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
 workflow-type: tm+mt
-source-wordcount: '3777'
+source-wordcount: '3931'
 ht-degree: 4%
 ---
 
@@ -387,10 +387,28 @@ Requisito do produto: Workfront Workflow ou Workfront Planning.
 
 Requisito do produto: Todos os clientes
 
-As ferramentas de relatórios permitem criar e gerenciar Painéis do Canvas por meio do chat. Descreva o relatório desejado em linguagem simples, e a plataforma de agente de IA cria o painel e os widgets para você usando os dados do Workfront.
+### Quadros
+
+| Título | Nome da ferramenta | O que faz | Ação |
+| --- | --- | --- | --- |
+| Obter painel | `boards_get_board` | Busca dados do quadro em diferentes níveis de detalhes. | Ler |
+| Obter cartão | `boards_get_card` | Busca um único cartão por ID de placa e ID de cartão. | Ler |
+| Criar cartão | `boards_create_card` | Cria um novo cartão em um quadro em uma determinada coluna. | Gravar |
+| Atualizar cartão | `boards_update_card` | Atualiza um cartão, incluindo campos escalares, movimentações, estado de arquivamento, tags, membros ou desconectando-o do Workfront. | Gravar |
+| Conectar cartão | `boards_connect_card` | Cria uma tarefa ou problema do Workfront e a vincula a um cartão. | Gravar |
+| Criar tag do painel | `boards_create_board_tag` | Cria uma nova tag no catálogo de tags de um quadro. | Gravar |
+| Criar item da lista de verificação | `boards_create_checklist_item` | Adiciona um item ou uma subtarefa da lista de verificação a um cartão. | Gravar |
+| Atualizar item da lista de verificação | `boards_update_checklist_item` | Atualiza o nome, a descrição, a data de vencimento, o status ou a estimativa de um item da lista de verificação. | Gravar |
+| Excluir item da lista de verificação | `boards_delete_checklist_item` | Exclui um item da lista de verificação de seu cartão principal. | Gravar |
+| Criar coluna | `boards_create_column` | Adiciona uma nova coluna simples a um quadro. | Gravar |
+| Atualizar coluna | `boards_update_column` | Renomeia uma coluna do quadro. | Gravar |
+| Excluir coluna | `boards_delete_column` | Exclui uma coluna de quadro, movendo cartões primeiro se necessário. | Gravar |
+| Criar quadro | `boards_create_board` | Cria um novo quadro básico, opcionalmente dentro de um espaço de trabalho. | Gravar |
 
 
 ### Painéis de tela
+
+As ferramentas do Canvas Dashboards permitem construir e gerenciar Painéis do Canvas por meio do chat. Descreva o relatório desejado em linguagem simples, e a plataforma de agente de IA cria o painel e os widgets para você usando os dados do Workfront.
 
 | Título | Nome da ferramenta | O que faz | Ação |
 | --- | --- | --- | --- |
@@ -424,8 +442,3 @@ O servidor MCP do Workfront rastreia a intenção do usuário para os clientes. 
 Os usuários podem desabilitar a coleta de telemetria entrando em contato com o suporte ao cliente para arquivar uma solicitação.
 
 
-## Ferramentas adicionais em breve
-
-Estamos trabalhando para adicionar as seguintes ferramentas ao servidor MCP do Workfront no futuro:
-
-* Quadros
