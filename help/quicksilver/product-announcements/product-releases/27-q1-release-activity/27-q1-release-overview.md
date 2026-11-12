@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 13%
 ---
 
@@ -57,12 +57,12 @@ As melhorias nesta página estão disponíveis no ambiente de pré-visualizaçã
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Promoção do ambiente disponível para o Workfront Planning</a></p>
-                <p>[!BADGE versão simultânea]{type=Neutral}</p>
+                <p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Agora, os administradores do Workfront podem promover espaços de trabalho do Workfront Planning e seus objetos de um ambiente para outro.</p>
             </td>
+            <td><p>A comunicar em breve</p></td>
             <td><p>12 de novembro de 2026</p></td>
-            <td><p>12 de novembro de 2026</p></td>
-            <td><p>12 de novembro de 2026</p></td>
+            <td><p>A comunicar em breve</p></td>
         </tr>
         <tr>
             <td>
@@ -380,7 +380,7 @@ O Visualizador de provas de desktop foi atualizado para a versão 2.3.0. Esta at
 
 * Atualização da estrutura subjacente (Eletron) para a versão mais recente, que é executada na versão 156 do Chrome, para melhorias de desempenho e segurança.
 
-Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Avisos
 
@@ -437,7 +437,7 @@ Para obter informações sobre taxas de funções de trabalho, consulte [Criar e
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
