@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 5%
@@ -199,7 +199,7 @@ O usuário vê erros de validação se não selecionar o número correto de opç
 
 ![Exemplos de erro de validação](assets/min-max-selections.png)
 
-## Fórmula para acionar a validação somente quando o campo estiver visível
+### Fórmula para acionar a validação somente quando o campo estiver visível
 
 A lógica de validação é sempre marcada, mesmo se o campo não for exibido. Se um usuário interagir com um campo contendo a lógica de validação e o campo for oculto posteriormente pela lógica de exibição, o erro de validação ocorrerá, mesmo que o valor do campo tenha sido limpo antes de o campo estar oculto.
 
