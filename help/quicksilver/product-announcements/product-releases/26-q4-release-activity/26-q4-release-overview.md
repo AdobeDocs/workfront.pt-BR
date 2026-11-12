@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
+source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
 workflow-type: tm+mt
-source-wordcount: '3631'
+source-wordcount: '3626'
 ht-degree: 7%
 ---
 # Visão geral da versão do quarto trimestre de 2026
@@ -24,7 +24,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Quarto trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -895,6 +895,11 @@ Com o tempo, introduzimos recursos aprimorados de gerenciamento de taxas e exper
 
 Com a versão de janeiro de 2027, os campos herdados **Faturamento por hora** e **Custo por hora** não estarão mais disponíveis na API do Workfront ou nas exibições de lista de Funções de trabalho, incluindo as configurações Filtro/Exibição/Agrupamento (tanto referências diretas quanto colunas calculadas do modo de texto).
 
+Embora esses campos ainda estejam disponíveis até janeiro, eles podem não funcionar corretamente. Os administradores que atualmente exibem os campos **Faturamento por Hora** e **Custo por Hora** nas exibições da lista de Funções de Trabalho devem atualizar seus fluxos de trabalho para usar as experiências de gerenciamento de taxas recomendadas para gerenciar e examinar as taxas de funções de trabalho:
+
+* Acesse e gerencie taxas de funções de trabalho diretamente na página Função do trabalho > Taxas.
+* Use Relatórios de Taxa para revisar, analisar e relatar informações de taxa em funções de trabalho.
+
 Como substituição nos relatórios, você pode usar o código recomendado do Modo de texto (use `costRates` ou `billingRates` conforme necessário):
 
     &quot;
@@ -906,13 +911,6 @@ Como substituição nos relatórios, você pode usar o código recomendado do Mo
     valueformat=HTML
     &quot;
 
-Para gerenciar e revisar taxas de funções de trabalho, use as experiências dedicadas de gerenciamento de taxas:
-
-* Acesse e gerencie taxas de funções de trabalho diretamente na página Função do trabalho > Taxas.
-* Use Relatórios de Taxa para revisar, analisar e relatar informações de taxa em funções de trabalho.
-
-Nenhuma ação é necessária para se preparar para a alteração. No entanto, os administradores que atualmente exibem os campos **Cobrança por Hora** e **Custo por Hora** nas exibições da lista de Funções de Trabalho devem atualizar seus fluxos de trabalho para usar as experiências de gerenciamento de taxa recomendadas descritas acima.
-
 Para obter informações sobre taxas de funções de trabalho, consulte [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### A autenticação somente senha para usuários de leitores de Data Connect termina em 8 de agosto de 2026
@@ -923,7 +921,7 @@ Se você for um administrador da Workfront com usuários de leitores de Data Con
 
 Essa alteração foi anunciada pela primeira vez nas notas de versão de abril de 2026 do Workfront e este é o lembrete final antes do prazo. Certifique-se de que todos os usuários de leitores afetados ativem o MFA antes de 8 de agosto de 2026 para evitar a interrupção de seu acesso.
 
-Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/pt-br/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obter informações, consulte [Criar uma conta ou conexão de leitor para o Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Atualizações de treinamento
 

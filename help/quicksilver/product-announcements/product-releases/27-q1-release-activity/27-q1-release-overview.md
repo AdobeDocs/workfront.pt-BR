@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
+source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1537'
 ht-degree: 13%
 ---
 
@@ -380,7 +380,7 @@ O Visualizador de provas de desktop foi atualizado para a versão 2.3.0. Esta at
 
 * Atualização da estrutura subjacente (Eletron) para a versão mais recente, que é executada na versão 156 do Chrome, para melhorias de desempenho e segurança.
 
-Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Avisos
 
@@ -415,6 +415,11 @@ Com o tempo, introduzimos recursos aprimorados de gerenciamento de taxas e exper
 
 Com a versão de janeiro de 2027, os campos herdados **Faturamento por hora** e **Custo por hora** não estarão mais disponíveis na API do Workfront ou nas exibições de lista de Funções de trabalho, incluindo as configurações Filtro/Exibição/Agrupamento (tanto referências diretas quanto colunas calculadas do modo de texto).
 
+Embora esses campos ainda estejam disponíveis até janeiro, eles podem não funcionar corretamente. Os administradores que atualmente exibem os campos **Faturamento por Hora** e **Custo por Hora** nas exibições da lista de Funções de Trabalho devem atualizar seus fluxos de trabalho para usar as experiências de gerenciamento de taxas recomendadas para gerenciar e examinar as taxas de funções de trabalho:
+
+* Acesse e gerencie taxas de funções de trabalho diretamente na página Função do trabalho > Taxas.
+* Use Relatórios de Taxa para revisar, analisar e relatar informações de taxa em funções de trabalho.
+
 Como substituição nos relatórios, você pode usar o código recomendado do Modo de texto (use `costRates` ou `billingRates` conforme necessário):
 
     &quot;
@@ -426,20 +431,13 @@ Como substituição nos relatórios, você pode usar o código recomendado do Mo
     valueformat=HTML
     &quot;
 
-Para gerenciar e revisar taxas de funções de trabalho, use as experiências dedicadas de gerenciamento de taxas:
-
-* Acesse e gerencie taxas de funções de trabalho diretamente na página Função do trabalho > Taxas.
-* Use Relatórios de Taxa para revisar, analisar e relatar informações de taxa em funções de trabalho.
-
-Nenhuma ação é necessária para se preparar para a alteração. No entanto, os administradores que atualmente exibem os campos **Cobrança por Hora** e **Custo por Hora** nas exibições da lista de Funções de Trabalho devem atualizar seus fluxos de trabalho para usar as experiências de gerenciamento de taxa recomendadas descritas acima.
-
 Para obter informações sobre taxas de funções de trabalho, consulte [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
