@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
 source-wordcount: '14776'
 ht-degree: 90%
@@ -2343,13 +2343,13 @@ ht-degree: 90%
     * [Gerencie sua instância do Adobe Workfront Planning como um produto independente](planning/planning-sta/manage-planning-sta-instance.md)
     * [Gerenciar usuários no Adobe Workfront Planning como um produto independente](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Gerenciar equipes no Adobe Workfront Planning como um produto independente](planning/planning-sta/manage-teams-in-planning-sta.md)
-  * {hide-from-toc}O espaço de ideação no Workfront Planning {#ideation}
-    * {hide-from-toc}[Espaço de ideação para o Adobe Workfront Planning: índice do artigo](planning/ideation/planning-ideation-article-index.md)
-    * {hide-from-toc}[Introdução ao Espaço de ideação para planejamento do Adobe Workfront](planning/ideation/get-started-with-planning-ideation.md)
-    * {hide-from-toc}[Acesso necessário para usar o espaço de ideação](planning/ideation/access-needed-to-use-ideation-space.md)
-    * {hide-from-toc}[Criar resumos no espaço de ideação](planning/ideation/create-briefs-in-ideation-space.md)
-    * {hide-from-toc}[Criar registros de Planejamento a partir de resumos de espaço de ideação](planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * {hide-from-toc}[Compartilhar um espaço de ideação com outras pessoas](planning/ideation/share-the-ideation-space.md)
+  * O espaço de ideação no Workfront Planning {#ideation}
+    * [Espaço de ideação para o Adobe Workfront Planning: índice do artigo](planning/ideation/planning-ideation-article-index.md)
+    * [Introdução ao espaço de ideação para o Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * [Acesso necessário para usar o espaço de ideação](planning/ideation/access-needed-to-use-ideation-space.md)
+    * [Criar resumos no espaço de ideação](planning/ideation/create-briefs-in-ideation-space.md)
+    * [Criar registros do Planning a partir de resumos de espaço de ideação](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [Compartilhar um espaço de ideação com outras pessoas](planning/ideation/share-the-ideation-space.md)
 
 * Integrações do Adobe Workfront {#adobe-workfront-integrations}
   * [Integrações do Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
