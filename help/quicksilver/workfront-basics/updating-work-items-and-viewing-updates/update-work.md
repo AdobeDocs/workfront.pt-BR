@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: '3504'
+source-wordcount: '3799'
 ht-degree: 2%
 ---
 # Atualizar trabalho
@@ -653,41 +653,39 @@ Para fixar uma thread de comentário:
 
 </div>
 
-<!--
 <div class="preview">
 
-## Resolve comment threads
+## Resolver threads de comentário
 
-To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+Para economizar espaço e facilitar a navegação da guia Comentários, você pode resolver threads de comentário que as ocultam do fluxo de atualizações.
 
-Consider the following when resolving comments: 
+Considere o seguinte ao resolver comentários:
 
-* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
-* Comments that are part of a resolved thread are read-only. 
-* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
-* You can display resolved comments or hide them for yourself.
-* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+* Você pode resolver threads de comentário, não comentários individuais. O recurso existe somente para o primeiro comentário em um thread.
+* Os comentários que fazem parte de um thread resolvido são somente leitura.
+* Não é possível editar, excluir, responder, curtir ou fixar comentários que façam parte de um thread resolvido.
+* Você pode exibir comentários resolvidos ou ocultá-los para si mesmo.
+* Você pode desfazer a resolução de threads, o que os traz de volta ao fluxo de Atualizações com todos os recursos.
 
-To resolve comment threads: 
+Para resolver threads de comentário:
 
-1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+1. Vá para um objeto que tenha uma guia **Atualizações**, clique em **Atualizações** no painel esquerdo e clique na guia **Comentários**.
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   Para obter informações, consulte [Visão geral da guia Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+1. No comentário superior de um thread existente, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do comentário e clique em **Resolver**.
 
-   ************add a screen shot***************
+   ![Comente mais menu com as opções Fixar e Resolver](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
-   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+   A caixa **Resolver comentário** é aberta para lembrá-lo de que o comentário ficará oculto na área Atualizações e você não poderá mais interagir com ele.
 
-1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
-1. Click **Resolve**.
+1. (Opcional) Selecione a configuração **Não mostrar isto novamente**, se não quiser que o aviso seja exibido toda vez que você resolver comentários. Não é possível exibir a caixa **Resolver comentário** novamente se você selecionar essa configuração.
+1. Clique em **Resolver**.
 
-   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
-1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+   O thread está resolvido e todos os comentários nele estão ocultos na guia **Atualizações**.
+1. (Opcional) Clique no filtro no canto superior direito da guia Atualizações e desative a configuração **Ocultar comentários resolvidos**. Os threads resolvidos são exibidos na guia Atualizações. Essa configuração afeta somente o que você visualiza. Outros usuários poderiam manter os comentários resolvidos ocultos.
 
 </div>
--->
 
 ## Excluir comentário ou resposta
 
@@ -700,7 +698,7 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 1. Vá para o comentário ou resposta que deseja excluir.
 1. Clique no menu **Mais** ao lado do comentário ou da resposta que você deseja excluir e clique em **Excluir**.
 
-   ![Atualizar comentário de fluxo Mais menu](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Comente mais menu com as opções Fixar e Resolver](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
 1. Na mensagem exibida, clique em **Excluir**.
 

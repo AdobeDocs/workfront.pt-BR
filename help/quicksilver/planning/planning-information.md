@@ -1,7 +1,7 @@
 ---
 title: Informações gerais e Índice de artigos para o Adobe Workfront Planning
-description: Como líder de operações de marketing, você pode usar o Adobe Workfront Planning para organizar o trabalho em todo o ciclo de vida de marketing para todas as suas equipes. Os artigos desta seção descrevem como você pode configurar os recursos de planejamento e como pode começar a usá-los como parte de suas operações de gerenciamento de campanhas.
-short-description: Usar documentos e recursos adicionais para aprender como implementar e usar com eficácia o Adobe Workfront Planning em sua organização.
+description: Como líder de operações de marketing, você pode usar o Planejamento do Adobe Workfront para organizar o trabalho em todo o ciclo de vida de marketing para todas as suas equipes. Os artigos desta seção descrevem como você pode configurar os recursos de planejamento e como pode começar a usá-los como parte de suas operações de gerenciamento de campanhas.
+short-description: Usar documentos e recursos adicionais para aprender a implementar e usar com eficácia o Planejamento do Adobe Workfront em sua organização.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -35,13 +35,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 72%
-
+source-wordcount: '796'
+ht-degree: 66%
 ---
-
 # Informações gerais e índice de artigo para o Adobe Workfront Planning
 
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
@@ -55,15 +53,15 @@ ht-degree: 72%
 
 {{planning-important-intro}}
 
-Você pode usar esta página como ponto de partida para toda a documentação relacionada ao Adobe Workfront Planning.
+Você pode usar esta página como ponto de partida para toda a documentação relacionada ao Planejamento do Adobe Workfront.
 
-Os artigos nas seções listadas abaixo descrevem como você pode configurar o Workfront Planning e começar a usá-lo.
+Os artigos nas seções listadas abaixo descrevem como você pode configurar o Planejamento do Workfront e começar a usá-lo.
 
-Para obter informações gerais e compreender a terminologia do Adobe Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+Para obter informações gerais e compreender a terminologia do Planejamento do Adobe Workfront, consulte [Introdução ao Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md)
 
-## Arquitetura e funcionalidade do Workfront Planning
+## Arquitetura e funcionalidade do Planejamento do Workfront
 
-As seções a seguir contêm artigos que descrevem detalhadamente os recursos atualmente disponíveis para o Workfront Planning:
+As seções a seguir contêm artigos que descrevem detalhadamente os recursos atualmente disponíveis para o Planejamento do Workfront:
 
 * [Informações de acesso e permissão: o índice de artigos](/help/quicksilver/planning/access/access-information.md) contém as seguintes informações:
 
@@ -96,9 +94,9 @@ As seções a seguir contêm artigos que descrevem detalhadamente os recursos at
   * Gerenciar o layout de uma página de registro
   * Registrar comentários e a seção Histórico
   * Compartilhar registros
-  * Gerenciar registros do Workfront Planning no Workfront
+  * Gerenciar registros do Planejamento do Workfront no Workfront
 
-* [Solicitações do Adobe Workfront Planning: o índice do artigo](/help/quicksilver/planning/requests/requests-article-index.md) contém as seguintes informações:
+* [Solicitações do Planejamento do Adobe Workfront: o índice do artigo](/help/quicksilver/planning/requests/requests-article-index.md) contém as seguintes informações:
 
   * Como criar um formulário de solicitação para um tipo de registro.
   * Como os usuários podem enviar uma solicitação para um formulário de solicitação de tipo de registro e criar registros.
@@ -111,20 +109,20 @@ As seções a seguir contêm artigos que descrevem detalhadamente os recursos at
 * [Notificações: o índice de artigo](/help/quicksilver/planning/notifications/notifications-information.md) contém as seguintes informações:
 
   * Gerenciar preferências de notificação
-  * Notificações no aplicativo do Planning
-  * Notificações por email do Planning
+  * Notificações no aplicativo do Planejamento
+  * Notificações por email do Planejamento
 
 ## Recursos adicionais disponíveis para o Workfront Planning
 
 * [Noções básicas sobre a API do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): a meta da API do Adobe Workfront Planning é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura REST-ful que opera sobre HTTP.
 
-* [Módulos do Adobe Workfront Planning para o Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Adobe Workfront Planning, você pode acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
+* [Módulos do Planejamento do Adobe Workfront para Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Planejamento do Adobe Workfront, é possível acionar um cenário quando eventos ocorrem no Planejamento do Workfront. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Planejamento do Adobe Workfront.
 
-* [Visão geral do Assistente de IA do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): com o Assistente de IA do Workfront para o Planning, você pode pesquisar registros ou criar, atualizar e excluir registros usando comandos e deixando que o assistente faça o trabalho por você.
+* [Visão geral do Assistente de IA do Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): com o Assistente de IA do Planejamento do Workfront, você pode pesquisar registros ou criar, atualizar e excluir registros usando comandos, deixando que o assistente execute o trabalho para você.
 
 * [Usar o servidor MCP do Workfront para objetos do Planning](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md): o servidor MCP do Adobe Workfront permite localizar, criar, atualizar e gerenciar itens do Workfront solicitando uma plataforma de agente de IA em linguagem natural. A plataforma decide quais ações do Workfront chamar e lida com a conversa com o Workfront para você.
 
-* [Configurar automações do Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md): você pode configurar automações no Adobe Workfront Planning que, quando ativadas, criam objetos no Workfront ou registros no Workfront Planning quando acionadas a partir de um registro do Planning.
+* [Configurar automações do Planejamento do Adobe Workfront](/help/quicksilver/planning/records/configure-automations-to-create-records.md): você pode configurar automações no Planejamento do Adobe Workfront que, quando ativadas, criam objetos no Workfront ou registros no Planejamento do Workfront quando acionadas a partir de um registro do Planejamento.
 
 * [Integração do Adobe Workfront Planning e do Adobe GenStudio for Performance Marketing: índice do artigo](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): você pode gerenciar registros do GenStudio for Performance Marketing no espaço de trabalho do GenStudio no Workfront Planning.
 
@@ -132,14 +130,22 @@ As seções a seguir contêm artigos que descrevem detalhadamente os recursos at
 
 * [Práticas recomendadas do Adobe Workfront Planning: índice do artigo](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md): Aprenda dicas sobre como implantar o Adobe Workfront Planning em sua organização usando uma estratégia que priorize a segurança, minimize as interrupções e forneça ganhos rápidos.
 
-## Atividade de versão do Workfront Planning
+## Atividade de versão do Planejamento do Workfront
 
 <!--update this with the new release activity page - the article index for all Planning releases-->
 
-Estamos lançando novos recursos regularmente no Workfront Planning.
+Estamos lançando novos recursos regularmente no Planejamento do Workfront.
 
-Para obter uma lista atualizada dos recursos lançados, consulte [atividade de lançamentos do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Para obter uma lista atualizada dos recursos lançados, consulte [atividade de lançamentos do Planejamento do Adobe Workfront: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Workfront Planning como um produto independente
 
 Os clientes podem adquirir o Workfront Planning sem adquirir uma licença do Workflow. Para obter informações, consulte [Introdução ao Adobe Workfront Planning como um produto independente](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
+
+## Espaço de planejamento e ideação do Workfront (Beta)
+
+O espaço Adobe Ideation é o recurso de ideação estratégica alimentado por IA da Adobe, integrado diretamente ao Workfront Planning. Ele oferece às equipes de marketing um ponto de partida estruturado e informado por dados para a estratégia de campanha, substituindo a pesquisa e a adivinhação manuais por resumos gerados por IA com base no histórico de desempenho real de uma organização.
+
+No momento, esse recurso está disponível como um programa beta.
+
+Para obter mais informações, consulte [Introdução ao Espaço de ideação para o Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
