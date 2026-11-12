@@ -4,10 +4,10 @@ description: Aprimoramentos do administrador no primeiro trimestre de 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 3%
+source-wordcount: '554'
+ht-degree: 2%
 ---
 
 # Aprimoramentos do administrador no primeiro trimestre de 2027
@@ -15,6 +15,27 @@ ht-degree: 3%
 Esta página descreve as melhorias de Administrador feitas com a versão do Primeiro trimestre de 2027 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2027, consulte [Visão geral da versão do Primeiro trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Promoção do ambiente disponível para o Workfront Planning
+
+>[!NOTE]
+>
+>Visualização: 12 de novembro de 2026
+>Versão rápida de produção: 12 de novembro de 2026
+>Produção para todos: 12 de novembro de 2026
+>[!BADGE Versão simultânea]{type=Neutral}
+
+>[!NOTE]
+>
+>A Promoção de Ambiente do Workfront Planning está disponível somente para clientes que compraram um pacote do Workfront Planning além de um pacote do Workflow. Não está disponível para clientes que compraram o Workfront Planning como um produto independente.
+
+Agora, os administradores do Workfront podem promover espaços de trabalho do Workfront Planning e seus objetos de um ambiente para outro, de modo que não seja mais necessário recriar as configurações manualmente. Isso economiza tempo e reduz os erros que vêm com a configuração manual.
+
+Registros, automações e campos que não pertencem aos espaços de trabalho exportados não podem ser promovidos.
+
+Esse recurso exige pacotes do Prime ou do Ultimate Workflow and Planning, uma licença Standard e acesso de administrador do Workfront.
+
+Para obter informações, consulte [Usar Promoção de Ambiente para o Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
 
 ## Permissões para remover um formulário personalizado anexado
 
@@ -33,7 +54,7 @@ Para obter mais informações, consulte [Compartilhar um formulário personaliza
 >[!NOTE]
 >
 >Visualização: 29 de outubro de 2026
->Versão rápida de produção: 12 de novembro de 2026
+>Versão rápida de produção: 17 de dezembro de 2026
 >Produção para todos: 21 de janeiro de 2027
 
 Agora é possível marcar um campo personalizado como favorito, na lista de campos ou no designer de formulário personalizado. Quando você trabalha em determinadas listas e relatórios (como listas de projetos, tarefas e problemas) e cria filtros, visualizações e agrupamentos, os campos favoritos são exibidos na parte superior da lista de campos disponíveis na seção Sugerido.

@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
+source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1614'
 ht-degree: 0%
 ---
 # Atividade da versão do primeiro trimestre de 2027 para o Adobe Workfront Planning
@@ -28,6 +28,52 @@ ht-degree: 0%
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Primeiro Trimestre de 2027.
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Promoção do ambiente disponível para o Workfront Planning
+
+>[!NOTE]
+>
+>Visualização: 12 de novembro de 2026
+>Versão rápida de produção: 12 de novembro de 2026
+>Produção para todos: 12 de novembro de 2026
+>[!BADGE Versão simultânea]{type=Neutral}
+
+>[!NOTE]
+>
+>A Promoção de Ambiente do Workfront Planning está disponível somente para clientes que compraram um pacote do Workfront Planning além de um pacote do Workflow. Não está disponível para clientes que compraram o Workfront Planning como um produto independente.
+
+Agora, os administradores do Workfront podem promover espaços de trabalho do Workfront Planning e seus objetos de um ambiente para outro, de modo que não seja mais necessário recriar as configurações manualmente. Isso economiza tempo e reduz os erros que vêm com a configuração manual.
+
+Registros, automações e campos que não pertencem aos espaços de trabalho exportados não podem ser promovidos.
+
+Esse recurso exige pacotes do Prime ou do Ultimate Workflow and Planning, uma licença Standard e acesso de administrador do Workfront.
+
+Para obter informações, consulte [Usar Promoção de Ambiente para o Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
+
+## Espaço de ideação para o Workfront Planning agora disponível no Open Beta
+
+>[!NOTE]
+>
+>Visualização: 12 de novembro de 2026
+>Versão rápida de produção: 12 de novembro de 2026
+>Produção para todos: 12 de novembro de 2026
+>[!BADGE Versão simultânea]{type=Neutral}
+
+>[!NOTE]
+>
+>Esse recurso está disponível como um programa beta aberto. O espaço de ideação está disponível somente para clientes que compraram um pacote do Workfront Planning além de um pacote do Workflow. Não está disponível para clientes que compraram o Workfront Planning como um produto independente.
+
+O Planejamento do Workfront agora inclui o espaço de ideação, uma área colaborativa em que as equipes podem capturar, organizar, refinar e avaliar ideias antes de transformá-las em trabalho acionável. O espaço de ideação ajuda as partes interessadas a centralizar o brainstorming, alinhar-se às prioridades e mover facilmente os conceitos aprovados para os fluxos de trabalho de planejamento.
+
+Usando o CX Enterprise Coworker, agora é possível criar resumos de ideação que podem ser exportados para arquivos ou para registros do Workfront Planning.
+
+Com o Espaço de ideação, é possível:
+
+* Capture e colabore em ideias com suas equipes e partes interessadas.
+* Organize, avalie e priorize ideias com visibilidade sobre o processo de entrada.
+* Transforme ideias aprovadas em registros e workflows de planejamento.
+
+Para obter mais informações, consulte [Introdução ao Espaço de ideação do Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
 ## Detecção de conflitos aprimorada em campos dependentes ao enviar solicitações
 

@@ -1,13 +1,11 @@
 ---
 name: release-notes-formatter
 description: Formatar e validar as notas de versão do Workfront para fins de consistência, estrutura correta e vinculação adequada. Use somente para arquivos de notas de versão em diretórios de versões de produtos, ou quando o usuário mencionar notas de versão, versões de produtos ou versões trimestrais. Não se aplique a artigos explicativos ou documentação geral.
-source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2336'
 ht-degree: 2%
-
 ---
-
 
 # Formatador das notas de versão
 
@@ -83,7 +81,7 @@ Regras:
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Corpo**: descrição do recurso e, em seguida, link para a documentação de ajuda
+5. **Corpo**: descrição do recurso e, em seguida, link para a documentação de ajuda
 
 #### Páginas de visão geral
 
@@ -91,7 +89,7 @@ Regras:
 
 2. **Parágrafo de introdução** com mês de lançamento agendado
 
-3. **`>[!IMPORTANT]`bloco** com tabela de cronograma de lançamento
+3. **`>[!IMPORTANT]`bloco** com tabela de agendamento de lançamento, seguido pela legenda do selo que descreve os selos de lançamento simultâneo e Fora do agendamento (consulte o modelo da página de visão geral no arquivo de referência)
 
 4. **H2`Adobe Workfront enhancements`** com lista de marcadores de links âncora:
 
@@ -100,10 +98,13 @@ Regras:
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 por área de produto** com a tabela de recursos do HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
-   - Em cada tabela, **os recursos mais recentes primeiro** — a linha mais recente aparece na parte superior da tabela (após a linha de cabeçalho)
+- Se uma seção da área do produto for comentada, remova totalmente o link dessa lista. Não comente o link.
 
-&#x200B;6. **Seções finais** (H2): Notas de versão para outras áreas, atualizações do visualizador de provas de desktop, Avisos, versão da API, Atualizações de manutenção, Atualizações de treinamento
+5. **H3 por área de produto** com a tabela de recursos do HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
+   - Em cada tabela, **os recursos mais recentes primeiro** — a linha mais recente aparece na parte superior da tabela (após a linha de cabeçalho)
+     - Se um recurso tiver uma medalha (`[!BADGE Off schedule]{type=Neutral}` ou `[!BADGE Concurrent release]{type=Neutral}`), coloque-o em seu próprio `<p>` diretamente sob o parágrafo do link de recurso, antes do parágrafo de descrição.
+
+6. **Seções finais** (H2): Notas de versão para outras áreas, atualizações do visualizador de provas de desktop, Avisos, versão da API, Atualizações de manutenção, Atualizações de treinamento
 
 ### Etapa 3: Validar links
 
@@ -134,6 +135,8 @@ Aplicar essas correções ao formatar:
 | Espaços adicionais em linhas de texto explicativo | Cortar espaço em branco à direita |
 | HTML nas páginas de área de produto | Manter como marcação (o HTML é somente para tabelas de visão geral) |
 | `exl-id` ausente | Deixe-o fora — não gere um |
+| Medalha colocada após a descrição em uma tabela de visão geral | Mova-o para seu próprio `<p>` diretamente no link de recurso |
+| Link do mini sumário para uma seção comentada | Remover o link da lista; não comente-o |
 
 ### Etapa 6: sincronizar a página de visão geral
 
@@ -193,15 +196,9 @@ Erros comuns a evitar:
 - Criar uma nova página de visão geral do trimestre sem atualizar a guia &quot;Versão mais recente&quot; de `home.md` (continuará apontando para o trimestre antigo).
 - Esquecendo-se de adicionar também o novo trimestre à lista de guias do ano atual.
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Atualizado upstream
-
-### Etapa 8: atualizar a página de índice de versões de produto
-=======
-
 ### Etapa 9: atualizar a página de índice de versões de produtos
-&#x200B;>>>>>>>>>>Alterações no stash
-> 
->Ao criar uma **nova página de visão geral do trimestre**, atualize também `help/quicksilver/product-announcements/product-releases/product-releases.md` na mesma alteração:
+
+Ao criar uma **nova página de visão geral do trimestre**, atualize também `help/quicksilver/product-announcements/product-releases/product-releases.md` na mesma alteração:
 
 - Localize o bloco `<p>Releases in {year}</p>` do ano atual na coluna &quot;Versões do Workfront&quot;.
 - Adicione um novo `<li>` no **top** da lista desse ano, vinculando à página de visão geral do novo trimestre, no mesmo formato das entradas existentes:
@@ -288,6 +285,9 @@ Ao revisar um arquivo de notas de versão, verifique:
 - [ ] As linhas da tabela de recursos na visão geral correspondem ao conteúdo da página da área de produto
 - [ ] Não há links internos corrompidos
 - [ ] Links de âncora na visão geral correspondem às IDs de seção H3
+- [ ] Visão geral: o mini índice não tem links para seções comentadas e os selos ficam diretamente no link do recurso
+- [ O bloco `>[!IMPORTANT]` da Visão Geral de ] inclui a legenda do selo e cada selo usado em uma tabela está descrito nele
+- [ ] Todas as tabelas de aprimoramento na visão geral que não foram comentadas têm um link correspondente no mini sumário, portanto, as seções adicionadas novamente quando não foram comentadas não serão perdidas
 - [ Os recursos do ] são ordenados mais recentemente (tanto páginas de área de produtos quanto tabelas de visão geral)
 - [ ] As novas páginas de notas de versão estão listadas em `help/quicksilver/TOC.md` no trimestre correto, com a primeira visão geral e as áreas de produtos em ordem alfabética (Outras por último)
 - [ ] Se uma nova página de visão geral de um trimestre for criada, `help/quicksilver/home.md` a guia &quot;Versão mais recente&quot; e a guia do ano atual apontam para ela
