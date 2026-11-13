@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 3%
+source-wordcount: '1993'
+ht-degree: 2%
 ---
 # Configurar colaboradores de IA
 
@@ -42,15 +42,11 @@ Os tipos disponíveis do AI Collaborator incluem:
 
   Para obter mais informações sobre o Adobe CX Enterprise Coworker, consulte [Visão geral do CX Enterprise Coworker no Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
-
 As licenças usadas pelos Colaboradores de IA não são cobradas. Se sua organização tiver 200 licenças do Workfront e criar um Colaborador de IA, 201 licenças estarão em uso, mas somente 200 serão cobradas.
 
-<!--
-* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+* <span class="preview">Coordenador de projetos: um colaborador pronto para uso que monitora o status do projeto e envia atualizações de projeto, sem precisar configurar um agente externo.</span>
 
-   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
--->
+  <span class="preview">Para obter mais informações, consulte [Usar o colaborador do Coordenador de Projetos](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
 
 
 ## Requisitos de acesso
@@ -108,8 +104,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 >
 >Nosso objetivo é conectar-se com qualquer provedor de agente; portanto, se o provedor que você está usando não for compatível com Agentes de trabalho, entre em contato com a equipe de conta para obter assistência.
 
-<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
-
 ## Criar um novo Revisor de IA
 
 Os Revisores de IA podem ser configurados para usar marcas da Workfront ou Adobe Brand Intelligence.
@@ -137,8 +131,6 @@ Agentes de trabalho são agentes que podem ser atribuídos a tarefas ou problema
 Como os Agentes de trabalho são agentes, suas ações e habilidades são configuradas onde você configura os agentes. Os Agentes de Trabalho podem ser <span class="preview">Agentes de Trabalho Nativos que usam o Coworker,</span> ou podem ser de uma plataforma externa com suporte, como o Copilot Studio, Claude, OpenAI e IBM.
 
 >Os agentes de trabalho podem ser atribuídos a tarefas ou problemas.
-
-<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
 
 As licenças usadas pelos agentes de trabalho não são cobradas. Se sua organização tiver 200 licenças da Workfront e criar um Agente de trabalho, 201 licenças estarão em uso, mas somente 200 serão cobradas.
 
@@ -263,34 +255,41 @@ More detailed information about creating agents can be found in the [Writer docu
 
 <div class="preview">
 
-<!--
-## Configure a Project Coordinator
+## Configurar um coordenador de projetos
 
-The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+O coordenador de projetos é um colaborador pronto para uso que monitora o status do projeto e ajuda a manter o trabalho no controle. Ao contrário dos Agentes de trabalho, o Coordenador de projetos não exige que você configure um agente externo.
 
 {{step-1-to-setup}}
 
-1. In the left navigation, click **AI Collaborators**.
-1. Click **New Collaborator** in the upper-right corner of the screen.
-1. Select **Project Coordinator**.
-1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
-1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
-1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
-1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
-   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
-   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
-   * In the **Time (MST)** field, select the time to send updates.
-   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
-   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
-   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
-   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
-1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
-1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
-1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
-1. Click **Save**.
+1. Na navegação à esquerda, clique em **Colaboradores de IA**.
+1. Clique em **Novo Colaborador** no canto superior direito da tela.
+1. Selecione **Coordenador do projeto** e clique em **Continuar**.
+1. No campo **Nome do Colaborador da IA**, digite um nome para o Coordenador do Projeto. Esse é o nome que aparece como o colaborador em seu projeto.
+1. (Opcional) No campo **Descrição do AI Collaborator**, insira uma descrição do que o Coordenador de Projetos faz ou sua finalidade.
+1. No campo **Nível de Acesso**, selecione um nível de acesso para o Coordenador de Projetos. Esse nível de acesso controla o que o colaborador pode fazer nos projetos, da mesma forma que um nível de acesso controla o que um usuário pode fazer.
+1. (Opcional) No campo **Grupos**, selecione os grupos aos quais o Coordenador de projetos será associado.
 
-For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
--->
+   >[!NOTE]
+   >
+   >Se você for um administrador de grupo, este campo exibirá somente os grupos para os quais você é um administrador. Os administradores de grupo devem selecionar pelo menos um grupo.
+
+1. Na área **Ações do coordenador**, especifique como o coordenador do projeto envia atualizações do projeto. O coordenador de projetos deve ter permissão para executar essas ações. Um coordenador de projeto também pode comentar sobre o projeto e suas tarefas.
+
+   As atualizações de projeto podem incluir um resumo do progresso, integridade do projeto, tarefas ou aprovações vencidas ou em risco e campos ou atribuições ausentes.
+
+   * No campo **Cadência**, selecione se o Coordenador de projetos envia atualizações diariamente ou semanalmente.
+   * (Condicional) Se você selecionou semanalmente, no campo **Dia**, selecione o dia da semana em que as atualizações são enviadas.
+   * No campo **Hora**, selecione a hora em que as atualizações serão enviadas.
+   * No campo **Fuso horário**, selecione o fuso horário para o horário de atualização.
+   * No campo **Quem recebe a atualização**, selecione se a atualização vai para o proprietário do projeto ou para os participantes do projeto. O padrão é o proprietário do projeto.
+
+1. Clique em **Salvar**.
+
+Depois de salvar o Coordenador de projetos, adicione o campo **Coordenador de projetos** ao cabeçalho do projeto nos modelos de layout que seus usuários usam. Os usuários não podem atribuir um coordenador de projeto a um projeto até que o campo esteja disponível no cabeçalho.
+
+Para obter instruções, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+
+Para obter mais informações sobre o Coordenador de Projetos, incluindo como atribuí-lo a projetos, consulte [Usar o colaborador do Coordenador de Projetos](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
 
 </div>
 

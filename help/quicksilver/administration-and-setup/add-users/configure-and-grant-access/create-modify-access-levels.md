@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1673'
 ht-degree: 12%
 ---
 # Criar e modificar níveis de acesso personalizados
@@ -250,19 +250,18 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
       <td role="rowheader">Permitir que os usuários acessem Marcas</td> 
       <td>Permite que os usuários acessem e gerenciem Marcas GenStudio na Workfront. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Conceder acesso às permissões de marca</a>.</td> 
      </tr>
-    <!--
-    <tr>
-      <td role="rowheader">Disable Ideation space</td> 
+        <tr>
+      <td role="rowheader">Desabilitar espaço de idealização</td> 
       <td>
-      <p>Select this setting to allow users to access Ideation space.</p> 
-      <p>This is selected by default.</p>
-      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
-      <p><b>NOTE:</b></p>
-      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      <p>Selecione esta configuração para permitir que os usuários acessem o espaço de ideação.</p> 
+      <p>É selecionado por padrão.</p>
+      <p>Para obter mais informações, consulte <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Introdução ao Espaço de ideação para o Adobe Workfront Planning </a>.</p>
+      <p><b>NOTA:</b></p>
+      <p>O espaço de ideação está disponível no Beta somente para clientes que também têm um pacote do Workfront Planning.</p>
       </td> 
      </tr>
-    -->
-    </tbody> 
+
+   </tbody> 
    </table>
 
 

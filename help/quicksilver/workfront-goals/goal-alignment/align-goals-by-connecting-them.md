@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: 717
-ht-degree: 12%
-
+source-wordcount: '729'
+ht-degree: 11%
 ---
-
 # Alinhar metas conectando-as no Adobe Workfront Goals
 
 <!--Audited P&P only: 10/2025-->
@@ -41,15 +39,16 @@ Quando todos na organização têm suas metas alinhadas às metas da organizaç�
 
 Há duas abordagens para conectar metas no Adobe Workfront Goals:
 
-* Você pode criar alinhamento entre metas ao conectar metas umas às outras.
+* Você pode criar alinhamento entre metas ao conectar metas umas às outras. Este artigo descreve essa abordagem.
 
-* Você pode alinhar duas metas manualmente ou converter resultados e atividades de uma meta existente para outra meta. O resultado ou a atividade convertida se torna a meta secundária da meta original.
+* Você também pode alinhar duas metas convertendo resultados e atividades de uma meta existente em outra meta. O resultado ou a atividade convertida se torna a meta secundária da meta original.
+
+  Para obter informações sobre como alinhar metas convertendo resultados e atividades em metas, consulte [Alinhar metas convertendo resultados e atividades em metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 >[!IMPORTANT]
 >
 >Uma meta pode ter um total de 1000 indicadores de progresso.
 
-Este artigo descreve como alinhar metas ao conectá-las umas às outras. Para obter informações sobre como alinhar metas convertendo resultados e atividades em metas, consulte [Alinhar metas convertendo resultados e atividades em metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Requisitos de acesso
 
@@ -215,7 +214,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
    A meta com a qual você começou (Meta 2) agora é a meta secundária da meta principal à qual você a alinhou (Meta 1).\
    As metas alinhadas são exibidas conectadas na seção Alinhamento de metas com a Meta 2 como secundária à Meta 1.
-A meta secundária é exibida na seção Indicadores de progresso da meta principal, pois seu progresso atualiza o progresso da meta principal.
+   A meta secundária é exibida na seção Indicadores de progresso da meta principal, pois seu progresso atualiza o progresso da meta principal.
 
    ![Cartões alinhados](assets/goal-1-and-2-aligned-cards-350x427.png)
 
