@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2366'
 ht-degree: 2%
 ---
 # Solicitações e práticas recomendadas do CX Enterprise Coworker
@@ -355,7 +355,7 @@ Consulte exemplos de solicitações para aprovações de documentos e ativos nas
 * Você pode exibir quem modificou este projeto e o que eles alteraram?
 * Preciso ver todas as atualizações feitas neste registro na semana passada
 
-### Uso do System Designer no Workfront Planning
+### Usar o Planning Designer no Workfront Planning
 
 * [Criar e configurar espaços de trabalho](#create-and-configure-workspaces)
 * [Definir tipos de registro](#define-record-types)
@@ -386,3 +386,15 @@ Consulte exemplos de solicitações para aprovações de documentos e ativos nas
 * Criar uma exibição de linha do tempo no Planning para ver minha programação de campanha por datas de início e término
 * Adicionar uma nova exibição de tabela às minhas Iniciativas de Planejamento que filtra somente o status ativo
 * Duplique minha visualização de Campanhas ativas de planejamento e modifique a classificação.
+
+### Colaborador no espaço de ideação para o Workfront Planning (beta)
+
+<!--duplicated in help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md-->
+
+* Ideação de campanha — Elabore e gere cartões de ideia na tela para campanhas e outros tópicos, usando seus documentos de origem anexados e outras fontes. Este é o principal ponto de partida para a ideação.
+* Conversa da campanha — Trabalhe com as ideias da campanha de forma conversacional no aplicativo Espaço de ideação.
+* Resumo da campanha — crie e refine um resumo estruturado da campanha, com medidas de proteção para mantê-lo completo e sob controle.
+* Perguntas e respostas sobre documentos — faça perguntas sobre documentos anexados à sessão de ideação.
+* Pesquisa — Realize pesquisas para informar sua ideação sobre a tela.
+* Prompts de início — Receba sugestões de prompts para iniciar ou expandir sua ideação.
+* Tela aberta — Inicie ou entre em uma tela do Ideation Space (usada ao iniciar um chat regular fora do aplicativo).

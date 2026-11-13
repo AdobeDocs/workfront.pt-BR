@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1041'
 ht-degree: 3%
 ---
 # Visão geral da movimentação de objetos entre ambientes do Workfront (promoção de ambiente)
@@ -64,9 +64,8 @@ Como a promoção do ambiente lida com a configuração de objetos, os objetos t
 * [Objetos de dados personalizados](#custom-data-objects)
 * [Objetos da organização](#organization-objects)
 * [Outros objetos de configuração](#other-configuration-objects)
-<!--
-* [Workfront Planning objects](#workfront-planning-objects)
--->
+* [Objetos do Workfront Planning](#workfront-planning-objects)
+
 
 ### Objetos de trabalho
 
@@ -139,25 +138,24 @@ Como a promoção do ambiente lida com a configuração de objetos, os objetos t
 
 -->
 
-<!--
 
-**** Automations might not be part of this
-**** Planning STA might not be supported - Lilit is checking on this
-
-## Workfront Planning objects
+## Objetos do Workfront Planning
 
 >[!IMPORTANT]
 >
->Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+>Os objetos do Workfront Planning estão disponíveis somente para clientes que compraram um pacote do Planning além de um pacote do Workfront.
+>
+>A promoção do ambiente não está disponível para clientes que compraram o Workfront Planning como um produto independente.
 
-| Promotable object | Included promotable linked objects |
+| Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
-| Workspaces | Workspace sections |
-| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
-| Sharing for all objects |  |
-| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
--->
+| Espaços de trabalho | Seções do Workspace |
+| Tipos de registro | Tipos de registro conectados* <br> Campos <br> Exibições <br> Hierarquias <br> Formulários de solicitação |
+| Compartilhamento para todos os objetos | Grupos <br> Equipes <br> Funções de trabalho <br> Usuários <br>Empresas |
 
+*Somente os tipos de registro conectados que pertencem aos espaços de trabalho importados serão transferidos para o ambiente de destino.
+
+Para obter informações, consulte [Usar Promoção de Ambiente para o Adobe Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
 
 ## Status de promoção do ambiente
 
@@ -195,7 +193,7 @@ Esses status incluem o seguinte:
   </tr> 
   <tr> 
    <td>FALHA_NA_MONTAGEM</td> 
-   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote ao estágio MONTAGEM, você deve acionar o processo de montagem novamente.</p><p>Para obter detalhes sobre como montar um pacote, consulte a seção <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar ou montar um pacote existente</a> no artigo Criar ou editar um pacote de promoção de ambiente.</td> 
+   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote ao estágio MONTAGEM, você deve acionar o processo de montagem novamente.</p><p>Para obter detalhes sobre como montar um pacote, consulte a seção <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar ou montar um pacote existente</a> no artigo Criar ou editar um pacote de promoção de ambiente.</td> 
   </tr> 
   </tbody> 
 </table>
