@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador no primeiro trimestre de 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 3%
 ---
 
@@ -21,7 +21,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >[!NOTE]
 >
 >Lançamento rápido de produção e sandboxes: 12 de novembro de 2026
->Produção, Pré-visualização, Sandboxes para todos: a ser comunicado em breve
+>Produção, visualização, sandboxes para todos: 17 de dezembro de 2026
 >[!BADGE Fora do cronograma]{type=Neutral}
 
 >[!NOTE]
