@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 98410f6d8632eb9842fdbcff88b52f4bc6a87b2e
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2241'
 ht-degree: 1%
 ---
 # Programa beta de recursos de organizações conectadas
@@ -224,11 +224,13 @@ Como um usuário na instância do cliente, envie uma solicitação do fazendo o 
 
    Uma mensagem **Solicitação enviada com êxito** é exibida com um link **Exibir sua solicitação**.
 
-   A nova solicitação é adicionada à lista de solicitações com o nome do formulário e um status de **Nova**.
+   A nova solicitação é adicionada à lista de solicitações com o nome do formulário e um status de **Novo** na instância do cliente e do provedor.
 
    >[!TIP]
    >
    >As respostas da IA podem ser imprecisas. Sempre verifique novamente os valores preenchidos antes de enviar.
+
+   A solicitação criada é somente leitura na instância do provedor.
 
 ### &#x200B;5. Revisar a solicitação e criar um projeto
 
@@ -250,7 +252,7 @@ O **Tipo** da solicitação está marcado como **Externo: &lt; nome da instânci
    * **Portfolio** e **Programa**: adicionar portfólios ou programas para o novo projeto.
 1. Clique em **Criar**.
 
-   A solicitação na instância do provedor agora vincula ao novo projeto, e o status da solicitação muda para **Em andamento**. A instância solicitante do cliente vê a alteração de status em sua própria cópia da solicitação.
+   A solicitação na instância do provedor agora vincula ao novo projeto, e o status da solicitação muda para **Em andamento**, se o projeto estiver no status Atual. A instância solicitante do cliente vê a alteração de status em sua própria cópia da solicitação.
 
 ### &#x200B;6. Colaborar na conversa entre empresas
 
