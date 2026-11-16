@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1523'
 ht-degree: 3%
 ---
 # Outros aprimoramentos na 20.3
@@ -129,7 +129,7 @@ Agora também há um link Detalhes do usuário que exibe as seguintes informaç�
 
 Agora é possível usar um Modelo de layout para alterar os logotipos na área de navegação superior e no Menu principal para grupos, equipes, funções de trabalho e usuários específicos que têm sua própria marca.
 
-Para obter mais informações, consulte [Marcar sua instância do Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+<!--For more information, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).-->
 
 ## Os administradores de grupo podem criar e gerenciar processos de aprovação
 

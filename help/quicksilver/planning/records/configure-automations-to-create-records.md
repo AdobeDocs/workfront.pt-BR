@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
+source-git-commit: 521ab14f157ae346c8551536239a79332dafb791
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 4%
+source-wordcount: '2476'
+ht-degree: 3%
 ---
 # Configurar automações do Planejamento do Adobe Workfront
 
@@ -237,9 +237,10 @@ A página de detalhes da automação é aberta.
    * **Ações**: selecione a ação que você deseja que o Workfront execute ao acionar a automação. Este campo é obrigatório.
      Selecione uma das seguintes ações:
 
-     * Criar vários projetos
+     * Criar um projeto com um fluxo de trabalho do AEM
      * Criar um projeto único
-     * Criar projeto
+     * Criar vários projetos
+     * Criar vários registros
      * Criar registro
      * Criar programa
      * Criar portfólio
@@ -250,6 +251,12 @@ A página de detalhes da automação é aberta.
      >Depois de salvar a automação, não é mais possível alterar a ação selecionada nesse campo.
 
 1. (Condicional) Dependendo da ação selecionada, atualize os seguintes campos:
+
+   * **Criar um projeto com um fluxo de trabalho do AEM**:
+     * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
+     * **Modelo de projeto**: selecione um modelo de projeto que a Workfront usará para criar o projeto.
+     * **Criar pastas vinculadas**: habilite esta opção se desejar criar pastas vinculadas para o projeto.
+
 
    * **Criar um único projeto**: <!--replace to the left: Create a single project-->
      * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
@@ -284,9 +291,38 @@ A página de detalhes da automação é aberta.
 
        * **Campo no tipo de registro conectado onde o registro atual será exibido**: este é o campo conectado no tipo de registro selecionado para a ação onde o registro atual será exibido.
 
-       Por exemplo, se estiver criando uma automação para que as campanhas conectem registros de Produto do, esse será o campo conectado no tipo de registro de Produto em que as campanhas serão exibidas, depois que os produtos forem criados usando a automação.
+         Por exemplo, se estiver criando uma automação para que as campanhas conectem registros de Produto do, esse será o campo conectado no tipo de registro de Produto em que as campanhas serão exibidas, depois que os produtos forem criados usando a automação.
 
-       Este campo é obrigatório.
+         Este campo é obrigatório.
+
+       <!--submitted a change in functionality and UI text for this - revise??-->
+                                                                                 Na área **Mapear campos**, atualize as seguintes informações:
+
+       * **Transferir de**: selecione campos do tipo de registro para o qual a automação é criada para mapeá-los para os campos do tipo de registro conectado.
+       * **Transferir para**: selecione campos do registro recém-criado que serão preenchidos com informações do registro a partir do qual você está executando a automação.
+
+       >[!TIP]
+       >
+       >* Os tipos de campo do tipo de registro original devem corresponder aos tipos de campo do tipo de registro recém-criado.
+       >* Se você não escolher nenhum campo, os nomes dos novos registros serão **Registro sem título**.
+
+
+   * **Criar vários registros**:
+     * **Tipo de registro**: selecione o tipo de registro que deseja criar.
+
+       A subseção **Settings** é exibida. Atualize os seguintes campos na subseção **Configurações**:
+
+       * **Campo no tipo de registro conectado onde o registro atual será exibido**: este é o campo conectado no tipo de registro selecionado para a ação onde o registro atual será exibido.
+
+         Por exemplo, se estiver criando uma automação para que as campanhas conectem registros de Produto do, esse será o campo conectado no tipo de registro de Produto em que as campanhas serão exibidas, depois que os produtos forem criados usando a automação.
+
+         Este campo é obrigatório.
+
+       * **Campo cujas opções criarão novos registros:**
+
+         Este é o campo a partir do qual os novos registros serão criados.
+
+         Por exemplo, se um registro de planejamento tiver um campo que represente três regiões, como Reino Unido, UE e EUA, selecionar esse campo criará três novos registros, um para cada opção.
 
        <!--submitted a change in functionality and UI text for this - revise??-->
                                                                                  Na área **Mapear campos**, atualize as seguintes informações:
@@ -365,6 +401,10 @@ A página de detalhes da automação é aberta.
      Os registros que foram criados usando uma automação excluída permanecem conectados ao registro selecionado originalmente.
 
 ## Compartilhar automações
+
+>[!NOTE]
+>
+>Esse recurso foi removido temporariamente de todos os ambientes em 16 de novembro de 2026 e será ativado em uma data futura.
 
 Como criador de uma automação, você tem Permissões de gerenciamento para ela, por padrão.
 
