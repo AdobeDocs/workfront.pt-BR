@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1147'
 ht-degree: 0%
 ---
 # Visão geral do armazenamento em nuvem do Adobe
@@ -138,6 +138,12 @@ Para obter informações sobre como habilitar o armazenamento em nuvem do Adobe 
 ## Armazenamento em nuvem do Adobe em ambientes de sandbox
 
 O armazenamento na nuvem do Adobe está disponível em ambientes de sandbox [!DNL Workfront] para que você possa testá-lo antes de habilitá-lo na produção. No entanto, o visualizador Frame.io não está disponível na sandbox, portanto, a experiência de revisão e aprovação unificada completa deve ser validada na produção.
+
+>[!IMPORTANT]
+>
+>Quando uma sandbox é atualizada da produção, nenhum dado do Adobe Cloud Storage é copiado para a sandbox. Os projetos de armazenamento em nuvem do Adobe, seus documentos e dados associados não são incluídos na atualização. Esse é um comportamento esperado e um resultado de como o armazenamento em nuvem do Adobe é arquitetado. Os projetos e documentos herdados de armazenamento do Workfront continuam a copiar para a sandbox como de costume.
+>
+>Para testar o armazenamento em nuvem do Adobe em uma sandbox, crie novos projetos de armazenamento em nuvem do Adobe e faça upload de documentos diretamente nesse ambiente.
 
 Se você tiver uma sandbox de atualização personalizada, atualize-a depois de atualizar para uma versão do Workfront compatível com o Adobe Cloud Storage para acessar a funcionalidade de armazenamento em nuvem da Adobe na sandbox. Para obter mais informações, consulte [O [!DNL Adobe Workfront] ambiente de Sandbox de Atualização Personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 

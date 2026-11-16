@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1917'
 ht-degree: 2%
 ---
 # O ambiente de sandbox de atualização personalizada do [!DNL Adobe Workfront]
@@ -108,6 +108,12 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 ## Armazenamento em nuvem do Adobe na sandbox de atualização personalizada
 
 O armazenamento na nuvem do Adobe está disponível na sandbox de atualização personalizada para que você possa testá-lo antes de habilitá-lo na produção. No entanto, o visualizador Frame.io não está disponível em ambientes de sandbox, portanto, a experiência de revisão e aprovação unificada completa deve ser validada na produção.
+
+>[!IMPORTANT]
+>
+>Ao atualizar a sandbox de atualização personalizada da produção, nenhum dado do Adobe Cloud Storage é copiado para a sandbox. Os projetos de armazenamento em nuvem do Adobe, seus documentos e dados associados não são incluídos na atualização. Esse é o comportamento esperado. Os projetos e documentos herdados de armazenamento do Workfront continuam a copiar para a sandbox como de costume.
+>
+>Para testar o armazenamento em nuvem do Adobe na sandbox de atualização personalizada, crie novos projetos de armazenamento em nuvem do Adobe e faça upload de documentos diretamente nesse ambiente.
 
 Depois de atualizar para uma versão do Workfront compatível com o Adobe Cloud Storage, você deve atualizar sua sandbox de atualização personalizada para acessar a funcionalidade de armazenamento em nuvem do Adobe na sandbox. Depois que a atualização for concluída, você poderá começar a testar o armazenamento em nuvem do Adobe. Para obter mais informações, consulte [Habilitar o armazenamento na nuvem do Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 

@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1509'
 ht-degree: 0%
 ---
 # O Ambiente de Sandbox de Visualização [!DNL Adobe Workfront]
@@ -83,6 +83,18 @@ Os dados fluem de forma unidirecional, da Produção para a Pré-visualização,
 A Pré-visualização de Sandbox também permite que o [!DNL Workfront] implante novos recursos em um ambiente seguro, antes que eles estejam prontos para serem implantados em produção. Você pode testar os novos recursos e fornecer feedback de [!DNL Workfront] sobre suas funcionalidades acessando a Sandbox de Visualização. Por esse motivo, o código da sandbox de visualização está sempre à frente do código de produção, embora os dados sejam atualizados semanalmente.
 
 O ambiente de visualização é ideal para executar treinamentos, testar novos recursos e determinar a funcionalidade de configuração.
+
+## Armazenamento em nuvem do Adobe na sandbox de visualização
+
+O armazenamento na nuvem do Adobe está disponível na sandbox de visualização para que você possa testá-lo antes de habilitá-lo na produção. No entanto, o visualizador Frame.io não está disponível em ambientes de sandbox, portanto, a experiência de revisão e aprovação unificada completa deve ser validada na produção.
+
+>[!IMPORTANT]
+>
+>Quando a sandbox de visualização é atualizada da produção, nenhum dado do armazenamento em nuvem do Adobe é copiado para a sandbox. Os projetos de armazenamento em nuvem do Adobe, seus documentos e dados associados não são incluídos na atualização. Esse é o comportamento esperado. Os projetos e documentos herdados de armazenamento do Workfront continuam a copiar para a sandbox como de costume.
+>
+>Para testar o armazenamento em nuvem do Adobe na sandbox de visualização, crie novos projetos de armazenamento em nuvem do Adobe e faça upload de documentos diretamente nesse ambiente.
+
+Para obter mais informações, consulte [visão geral do armazenamento na nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 >[!IMPORTANT]
 >

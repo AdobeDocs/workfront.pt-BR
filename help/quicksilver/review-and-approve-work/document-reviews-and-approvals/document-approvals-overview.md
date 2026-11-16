@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '4476'
+source-wordcount: '4571'
 ht-degree: 0%
 ---
 # Visão geral unificada de revisão e aprovação
@@ -580,6 +580,10 @@ você pode trabalhar com a equipe de conta da Adobe para determinar o número ap
 Parcialmente. Os fluxos de trabalho de aprovação podem ser testados em um ambiente de sandbox da Workfront. No entanto, a experiência do visualizador Frame.io não está disponível na sandbox. O teste da própria superfície de revisão requer um ambiente de produção.
 
 Para limitar a exposição durante a implantação, você pode habilitar a revisão e a aprovação unificadas para um grupo específico no ambiente de produção do Workfront. Isso permite executar um piloto direcionado com um conjunto menor de usuários antes de lançar o de forma mais ampla.
+
+**Por que meus projetos e documentos de armazenamento em nuvem do Adobe não aparecem na sandbox após uma atualização?**
+
+Esse é o comportamento esperado. Quando uma sandbox é atualizada da produção, nenhum dado do Adobe Cloud Storage é copiado para a sandbox. Os projetos de armazenamento em nuvem do Adobe, seus documentos e dados associados não são incluídos na atualização. Os projetos e documentos herdados de armazenamento do Workfront continuam a copiar para a sandbox como de costume. Para testar o armazenamento em nuvem do Adobe em uma sandbox, crie novos projetos de armazenamento em nuvem do Adobe e faça upload de documentos diretamente nesse ambiente. Para obter mais informações, consulte [visão geral do armazenamento na nuvem do Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 <!--
 **How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**
