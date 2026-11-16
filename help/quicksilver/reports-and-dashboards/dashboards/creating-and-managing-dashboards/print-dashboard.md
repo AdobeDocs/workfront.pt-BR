@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 11%
+source-wordcount: '431'
+ht-degree: 12%
 ---
 # Imprimir um painel
 
@@ -95,7 +95,7 @@ As seguintes informações estão incluídas no arquivo do painel impresso ou ex
 * Títulos do relatório
 * Carimbo de data e hora de quando o relatório foi gerado pela última vez
 * Todos os objetos no painel, incluindo exibições de lista, páginas da Web externas, relatórios e calendários
-* O logotipo da sua empresa, se o administrador do Workfront o personalizou na Barra de navegação global. Para obter mais informações sobre como marcar o site do Workfront, consulte [Marcar sua instância do Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+  <!--* Your company's logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). NOTE FROM LISA: Branding is no longer available and the article this links to was deprecated.-->
 
 ### O que não é exibido? {#what-is-not-displayed}
 

@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1582'
 ht-degree: 1%
 ---
 # Visão geral da entrega do relatório
@@ -175,13 +175,15 @@ O carimbo de data e hora inclui:
 * Hora
 * Fuso horário em que o relatório foi enviado
 
-### Marca {#branding}
+<!--
+### Branding {#branding}
 
-Se o administrador do Workfront tiver adicionado a marca personalizada à instância do Workfront, os relatórios enviados no formato .pdf também incluirão o logotipo personalizado.
+If your Workfront administrator has added customized branding to your Workfront instance, the reports sent in .pdf format also include your personalized logo.
 
-Relatórios enviados em todos os outros formatos não podem ser personalizados com seu logotipo.
+Reports sent in all other formats cannot be personalized with your logo.
 
-Para obter mais informações sobre como marcar sua instância do Workfront, consulte o artigo [Marcar sua instância do Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+For more information about branding your Workfront instance, see the article [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+-->
 
 ### Formatação {#formatting}
 

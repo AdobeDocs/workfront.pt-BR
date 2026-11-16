@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
+source-git-commit: 69173f21bfd7dd81db69a30a01c1bfee2e575306
 workflow-type: tm+mt
-source-wordcount: '14776'
+source-wordcount: '14764'
 ht-degree: 90%
 ---
 # Guia do Workfront {#using}
@@ -619,10 +619,7 @@ ht-degree: 90%
       * [Editar as configurações de uma equipe](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
   * Personalizar o Adobe Workfront {#customize}
     * [Personalizar o Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
-    * Identidade visual personalizada no Adobe Workfront {#custom-branding}
-      * [Identidade visual personalizada](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
-      * [Adicionar identidade visual à sua instância](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-      * [Configurar um URL de ajuda personalizado](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+    * [Configurar um URL de ajuda personalizado](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
     * Modelos de layout {#layout-templates}
       * [Modelos de layout](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
       * [Layout padrão do Workfront](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -638,7 +635,6 @@ ht-degree: 90%
       * [Personalizar filtros, visualizações e agrupamentos](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
       * [Personalizar a terminologia da interface](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
       * [Personalizar a página de destino](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-      * [Adicionar identidade visual do Workfront](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
       * [Testar um modelo de layout](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
       * [Acesso administrativo para modelos de layout](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
       * [Atribuir usuários a modelos de layout](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
