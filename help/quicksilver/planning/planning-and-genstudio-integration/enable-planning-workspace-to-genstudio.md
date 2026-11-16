@@ -37,7 +37,7 @@ Você deve ter o seguinte:
 * Acesso ao Workfront Planning e ao GenStudio for Performance Marketing.
 * Um projeto do Adobe Cloud Storage para vincular ao espaço de trabalho. Um administrador de organização pode criar um na Adobe Admin Console.
 
-  Para obter informações, consulte [Gerenciar armazenamento do Adobe](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
+  Para obter informações, consulte [Gerenciar armazenamento do Adobe](https://helpx.adobe.com/br/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
 
 ## Requisitos de acesso
 
@@ -73,7 +73,7 @@ Ou
    <td> 
    <p> Você deve criar projetos da Adobe Storage Cloud na Adobe Admin Console </p>
 
-<p>Para obter informações, consulte <a href="https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">Gerenciar projetos</a>
+<p>Para obter informações, consulte <a href="https://helpx.adobe.com/br/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">Gerenciar projetos</a>
 
 </td> 
   </tr>
@@ -99,7 +99,7 @@ Ou
    <td role="rowheader"><p>Funções de usuário do Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualquer função de usuário do GenStudio se precisar acessar Campanhas, Produtos e Personalidades</li>
    <li>GenStudio System Manager se você precisar acessar Ativations <!--and Events--></li></ul>
-   Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
+   Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
    </p>
   </td> 
   </tr>   
