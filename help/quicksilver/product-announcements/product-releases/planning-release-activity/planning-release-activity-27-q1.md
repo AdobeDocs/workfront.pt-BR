@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1856'
 ht-degree: 1%
 ---
 # Atividade da versão do primeiro trimestre de 2027 para o Adobe Workfront Planning
@@ -29,13 +29,27 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Compartilhar uma automação do Planning
+## Novos modelos do Workfront: Criar projeto com o fluxo de trabalho do AEM e Criar vários registros
 
 >[!NOTE]
 >
 >Visualização: 12 de novembro de 2026
 >Versão rápida de produção: 12 de novembro de 2026
 >Produção para todos: 12 de novembro de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
+
+Dois novos modelos de automação agora estão disponíveis no Workfront Fusion.
+
+* **Criar projeto com fluxo de trabalho do AEM:** cria um projeto a partir de um modelo de projeto e, opcionalmente, cria as pastas vinculadas do AEM configuradas para o modelo de projeto e as vincula ao novo projeto.
+* **Criar vários registros:** Cria um ou mais registros em um tipo de registro, com um novo registro para cada escolha em um campo multisseleção ou conectado no registro atual. Cada novo registro é vinculado ao registro atual e você mapeia os campos que são copiados para os novos registros.
+
+Para obter informações, consulte [Configurar automações do Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+## Compartilhar uma automação do Planning
+
+>[!NOTE]
+>
+>Este recurso foi removido temporariamente de todos os ambientes e será ativado em uma data futura.
 >[!BADGE Fora do cronograma]{type=Neutral}
 
 As novas automações do Workfront Planning agora estão disponíveis apenas para o proprietário por padrão, em vez de serem compartilhadas automaticamente com todos no espaço de trabalho. Os proprietários podem escolher quem terá acesso compartilhando a automação com outras pessoas. Você pode conceder um nível de acesso **Gerenciar**, **Editar** ou **Executar** a outros usuários. As automações existentes permanecem compartilhadas com os usuários do espaço de trabalho, de modo que o acesso atual não é afetado.
