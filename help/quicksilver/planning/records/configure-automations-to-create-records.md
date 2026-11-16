@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: 521ab14f157ae346c8551536239a79332dafb791
 workflow-type: tm+mt
-source-wordcount: '2454'
-ht-degree: 4%
+source-wordcount: '2476'
+ht-degree: 3%
 ---
 # Configurar automações do Planejamento do Adobe Workfront
 
@@ -402,6 +402,10 @@ A página de detalhes da automação é aberta.
 
 ## Compartilhar automações
 
+>[!NOTE]
+>
+>Esse recurso foi removido temporariamente de todos os ambientes em 16 de novembro de 2026 e será ativado em uma data futura.
+
 Como criador de uma automação, você tem Permissões de gerenciamento para ela, por padrão.
 
 Além disso, você pode compartilhá-lo com outros usuários ou equipes.
@@ -432,7 +436,7 @@ Por padrão, os usuários que fazem parte do espaço de trabalho não obtêm per
 
 <!-- 
 original info sent in slack from Mikayel: 
-Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
 
 Feature overview
 
