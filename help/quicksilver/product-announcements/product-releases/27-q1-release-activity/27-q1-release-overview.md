@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1568'
 ht-degree: 13%
 ---
 
@@ -114,6 +114,16 @@ As melhorias nesta página estão disponíveis no ambiente de pré-visualizaçã
             <td><strong>Pré-visualização</strong></td>
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Usar manuais de programação do Writer para criar agentes de trabalho</a></p>
+                <p>[!BADGE versão simultânea]{type=Neutral}</p>
+                <p>Agora você pode usar os Guias de reprodução do Writer para criar Agentes de trabalho.</p>
+            </td>
+            <td><p>12 de novembro de 2026</p></td>
+            <td><p>12 de novembro de 2026</p></td>
+            <td><p>12 de novembro de 2026</p></td>
         </tr>
         <tr>
             <td>

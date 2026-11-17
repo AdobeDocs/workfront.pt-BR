@@ -7,9 +7,9 @@ description: Você pode exibir o histórico de emprego de um usuário, incluindo
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
+source-git-commit: aa83e1036d82d5db7a0e22a40fdb8472ff329143
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '511'
 ht-degree: 0%
 ---
 # Exibir histórico de emprego do usuário
@@ -37,6 +37,10 @@ Karen Sterling é diretora executiva desde que foi contratada em 3 de março de 
 ## Exibir histórico de emprego
 
 Você pode exibir o histórico de emprego na lista Usuários ou pode exibir o histórico total de um único usuário na página Usuário.
+
+>[!NOTE]
+>
+>No momento, o histórico de emprego do usuário não considera a data de início de um usuário.
 
 ### Exibir histórico de emprego na lista Usuários
 
