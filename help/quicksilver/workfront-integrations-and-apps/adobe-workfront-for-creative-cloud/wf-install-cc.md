@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 7%
 ---
 # Instalar e abrir o [!DNL Adobe Workfront for design and video]
+
+{{cc-plugin-legacy-only}}
 
 Você pode instalar o [!DNL Adobe Workfront for design and video] a partir do [!DNL Adobe Marketplace]. Este plug-in é compatível com os seguintes aplicativos da Creative Cloud:
 

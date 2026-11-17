@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 5%
 ---
 # Carregar provas de [!DNL Illustrator]
+
+{{cc-plugin-legacy-only}}
 
 Você pode fazer upload de seus quadros de arte como provas diretamente no [!DNL Adobe Workfront] para uma revisão e aprovação completas.
 
@@ -153,7 +155,7 @@ Você pode fazer upload de uma nova versão de uma prova. O plug-in lembra o flu
 1. Clique em **[!UICONTROL Nova versão]** próximo à parte inferior do plug-in.
 1. Habilitar a opção **[!UICONTROL Criar uma prova]**.
 
-1. Na seção *[!UICONTROL *Aprovações de prova]&#x200B;**, escolha &#x200B;** [!UICONTROL Básico] **&#x200B; ou &#x200B;** [!UICONTROL Automatizado]**.
+1. Na seção *[!UICONTROL *Aprovações de prova]**, escolha **[!UICONTROL Básico]** ou **[!UICONTROL Automatizado]**.
 
 1. Adicione **[!UICONTROL Revisores]** ou um **[!UICONTROL modelo de fluxo de trabalho]** com base no tipo de aprovação selecionado na etapa 7.
 

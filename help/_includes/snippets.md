@@ -1,7 +1,7 @@
 ---
-source-git-commit: f366d51780b787e0f37412d558b210897d764e5e
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '2461'
 ht-degree: 2%
 ---
 # Trechos
@@ -233,6 +233,12 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 * Illustrator
 * Premiere Pro
 * After Effects
+
+## Somente armazenamento herdado do plug-in CC {#cc-plugin-legacy-only}
+
+>[!IMPORTANT]
+>
+>O plug-in [!DNL Adobe Workfront] for [!DNL Creative Cloud] funciona somente com projetos no armazenamento herdado do Workfront. Ele não oferece suporte a projetos no Adobe Cloud Storage.
 
 ## Ajustar configurações de prova automática {#adjust-proof-settings}
 

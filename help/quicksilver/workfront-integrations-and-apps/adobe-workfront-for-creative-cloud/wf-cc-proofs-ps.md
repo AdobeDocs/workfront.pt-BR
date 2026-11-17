@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 5%
 ---
 # Carregar provas de [!DNL Photoshop]
 
+{{cc-plugin-legacy-only}}
+
 Você pode fazer upload de certos tipos de predefinição de documento do Photoshop como provas diretamente para [!DNL Adobe Workfront] para uma revisão completa e aprovação.
 
 >[!IMPORTANT]
 >
->O arquivo deve ser uma Predefinição de Documento de Foto, conforme descrito em [Modelos e Predefinições no Photoshop](https://helpx.adobe.com/br/photoshop/using/create-documents.html).
+>O arquivo deve ser uma Predefinição de Documento de Foto, conforme descrito em [Modelos e Predefinições no Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
 
 
 
@@ -159,7 +161,7 @@ Você pode fazer upload de uma nova versão de uma prova. O plug-in lembra o flu
 1. Clique em **[!UICONTROL Nova versão]** próximo à parte inferior do painel [!DNL Workfront].
 1. Habilitar a opção **[!UICONTROL Criar uma prova]**.
 
-1. Na seção *[!UICONTROL *Aprovações de prova]&#x200B;**, escolha &#x200B;** [!UICONTROL Básico] **&#x200B; ou &#x200B;** [!UICONTROL Automatizado]**.
+1. Na seção *[!UICONTROL *Aprovações de prova]**, escolha **[!UICONTROL Básico]** ou **[!UICONTROL Automatizado]**.
 
 1. Adicione **[!UICONTROL Revisores]** ou um **[!UICONTROL modelo de fluxo de trabalho]** com base no tipo de aprovação selecionado na etapa 7.
 
