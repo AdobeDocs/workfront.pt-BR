@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 69173f21bfd7dd81db69a30a01c1bfee2e575306
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '14764'
+source-wordcount: '14759'
 ht-degree: 90%
 ---
 # Guia do Workfront {#using}
@@ -1074,7 +1074,6 @@ ht-degree: 90%
       * [Comentar em provas no Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
       * [Comentar em provas no iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
       * [Adobe Workfront para gerenciamento de dispositivos móveis (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-      * [Configurar o Adobe Workfront para o MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
       * [Aprovações no aplicativo móvel do Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
     * Use Adobe Workfront View {#use-workfront-view}
       * [Use Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)

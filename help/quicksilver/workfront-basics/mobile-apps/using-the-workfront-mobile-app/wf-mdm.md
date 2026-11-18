@@ -20,25 +20,27 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '95'
 ht-degree: 9%
 ---
 # [!DNL Adobe Workfront] para [!DNL Mobile Device Management] (MDM)
 
 {{mobile-maintenance-mode}}
 
-O Adobe [!DNL Workfront] fez parceria com algumas plataformas [!DNL Mobile Device Management] (MDM) para fornecer às organizações uma experiência móvel mais segura e controlada. O aplicativo móvel [!DNL Workfront] está disponível nas seguintes plataformas de gerenciamento de dispositivos móveis:
+O Adobe [!DNL Workfront] fez parceria com plataformas [!DNL Mobile Device Management] (MDM) para fornecer às organizações uma experiência móvel mais segura e controlada. O aplicativo móvel [!DNL Workfront] está disponível nas seguintes plataformas de gerenciamento de dispositivos móveis:
 
+<!--
 ## MobileIron
 
-Consulte a documentação de ajuda de [!DNL MobileIron] para instalar o aplicativo móvel [!DNL Workfront] a partir de sua plataforma:
+See [!DNL MobileIron]'s help documentation to install the [!DNL Workfront] mobile app from their platform:
 
 * iOS
 * Android
 
-Para obter informações sobre como configurar o [!DNL Workfront] para [!DNL MobileIron], consulte [Configurar [!DNL Adobe Workfront] para [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+For information on configuring [!DNL Workfront] for [!DNL MobileIron], see [Configure [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+-->
 
 ## Intune
 
@@ -48,5 +50,3 @@ O aplicativo móvel Workfront agora está disponível na loja de aplicativos [!D
 * Android
 
 Sua instância do Workfront deve estar no Adobe Identity Management System (IMS).
-
-<!--remove this note October 2026-->
