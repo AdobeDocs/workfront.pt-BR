@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 6%
+source-wordcount: '487'
+ht-degree: 5%
 ---
 # Configurar recálculos de cronograma de projetos
 
@@ -67,6 +67,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 ## Configurar recálculos automáticos
 
 Como administrador [!DNL Adobe Workfront], você pode configurar quando [!DNL Workfront] recalcula automaticamente as linhas de tempo do projeto. [!DNL Workfront] pode recalcular as linhas de tempo do projeto todas as noites, quando o escopo do projeto mudar, ou ambos.
+
+>[!NOTE]
+>
+>Para garantir o desempenho ideal, as linhas do tempo não são recalculadas automaticamente para projetos com tarefas com duração superior a 1000 dias. Você deve recalcular manualmente as linhas do tempo desses projetos.
+
 
 {{step-1-to-setup}}
 

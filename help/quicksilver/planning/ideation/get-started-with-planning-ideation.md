@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1540'
 ht-degree: 0%
 ---
 
@@ -174,7 +174,16 @@ Para obter acesso ao espaço de ideação:
 
 ## Localize o espaço de ideação
 
-Depois de garantir o acesso aos produtos, pacotes e sistema adequados e ao nível de acesso configurado, é possível localizar o espaço de ideação nas seguintes áreas do Workfront:
+Depois de ter assegurado o acesso aos produtos, pacotes e sistema adequados e ao nível de acesso configurado, é possível localizar o espaço de ideação em várias áreas do Workfront e do Workfront Planning.
+
+>[!TIP]
+>
+>Não é possível remover a área Espaço de ideação do menu Principal usando um modelo de layout.
+>
+>Para obter mais informações sobre como bloquear o acesso de um usuário ao espaço de ideação, consulte [Acesso necessário para usar o espaço de ideação](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>
+
+Acesse o espaço de ideação nas seguintes áreas do Workfront:
 
 * No menu principal do Workfront, abrindo a área Espaço de ideação
 
@@ -188,11 +197,16 @@ Depois de garantir o acesso aos produtos, pacotes e sistema adequados e ao níve
 
   ![Espaço de ideação na página Detalhes do registro](assets/ideation-space-button-in-details-page.png)
 
+>[!IMPORTANT]
+>
+>O ponto a partir do qual você inicia o espaço de ideação determina qual será a breve estrutura. Existem os seguintes cenários:
+>
+>* Quando você o inicia por meio do botão Novo registro no Planning, o resumo contém os mesmos campos que o tipo de registro com o qual você começa.
+>
+>* Quando você o inicia a partir de um registro existente do Planning, o resumo contém os mesmos campos com os mesmos valores que o registro.
+>
+>* Ao iniciá-lo a partir do Menu principal do Workfront, o resumo contém campos e informações dos arquivos carregados na tela.
 
->[!TIP]
->
->Não é possível remover a área Espaço de ideação do menu Principal usando um modelo de layout. Para obter mais informações sobre como bloquear o acesso de um usuário ao espaço de ideação, consulte [Acesso necessário para usar o espaço de ideação](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
->
 
 ## Espaço de ideação e a Adobe CX Enterprise Coworker
 

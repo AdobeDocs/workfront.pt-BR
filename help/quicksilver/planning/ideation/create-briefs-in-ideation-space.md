@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2224'
 ht-degree: 1%
 ---
 
@@ -189,6 +189,16 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
 
      ![Espaço de ideação nos detalhes do registro](assets/ideation-space-button-in-details-page.png)
 
+     >[!IMPORTANT]
+     >
+     >O ponto a partir do qual você inicia o espaço de ideação determina qual será a breve estrutura. Existem os seguintes cenários:
+     >
+     >* Quando você o inicia por meio do botão Novo registro no Planning, o resumo contém os mesmos campos que o tipo de registro com o qual você começa.
+     >
+     >* Quando você o inicia a partir de um registro existente do Planning, o resumo contém os mesmos campos com os mesmos valores que o registro.
+     >
+     >* Ao iniciá-lo a partir do Menu principal do Workfront, o resumo contém campos e informações dos arquivos carregados na tela.
+
 1. Leia o contrato beta e clique em **Concordo**. Você deve assinar o contrato para usar o espaço de ideação.
 
    A tela Espaço de ideação é aberta e uma nova ideação é intitulada por padrão após o seguinte formato:
@@ -244,10 +254,16 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
    As informações podem ser importadas do Workfront Planning ou da Web.
 
    Você também pode clicar no ícone **Fontes** ícone ![Fontes](assets/sources-icon.png) no canto superior direito do espaço para exibir uma lista de fontes para todos os cartões no espaço.
-1. (Opcional) Clique em **Comentários** ![Ícone de comentário](assets/comments-icon.png) no canto superior direito do espaço e **@** marque outros para começar a fazer brainstorming dentro do espaço.
+1. (Opcional) Clique em **Comentários** ![Ícone de comentário](assets/comments-icon.png) no canto superior direito da tela e **@** marque outros para começar a fazer brainstorming dentro do espaço.
 
    Os usuários receberão uma notificação por email sobre a tag.
+
+   >[!TIP]
+   >
+   >Você pode adicionar comentários a um cartão ou conjunto de cartões.
+
 1. (Opcional) Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-comments-icon.png) dentro do cartão de comentários para filtrar os comentários de acordo com os seguintes critérios:
+
 
    * Revisores
    * Hora em que o comentário foi adicionado

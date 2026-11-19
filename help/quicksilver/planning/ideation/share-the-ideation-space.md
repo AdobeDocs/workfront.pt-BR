@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 2%
 ---
 
@@ -76,6 +76,9 @@ Considere o seguinte:
 * Os criadores de ideações sempre têm permissões de Editor em suas próprias ideações.
 
 * Você deve ter permissões de Editor em um espaço de ideação para criar ou contribuir com resumos e exportá-los para outros aplicativos.
+
+* &#x200B;
+  * O compartilhamento controla somente quem pode acessar e colaborar na tela de ideação. As atualizações de registro ainda ocorrem somente quando alguém exporta o resumo para o Workfront Planning.
 
 ## Requisitos de acesso
 

@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: '1466'
 ht-degree: 6%
-
 ---
-
 # Gerenciar informações na área Visão geral do projeto
 
 {{highlighted-preview}}
@@ -183,7 +181,8 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">Programa</td> 
-      <td>O programa associado ao portfólio do projeto. Você deve criar o programa antes de adicioná-lo a um projeto. </td> 
+      <td></p>O programa associado ao portfólio do projeto. Você deve criar o programa antes de adicioná-lo a um projeto.</p>
+      <p> Quando um portfólio tem mais de 20 programas ativos, o campo Programa da Visão geral de um projeto lista somente os primeiros 20 programas em ordem alfabética. Digitar parte de um nome localiza qualquer programa ativo do portfólio. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Grupo</td> 
