@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '924'
 ht-degree: 1%
 ---
 # A área Documentos
@@ -65,6 +65,11 @@ Se a prova estiver configurada para o documento, a seção Detalhes incluirá in
 Você pode clicar no cabeçalho Detalhes para ir para a área Detalhes do documento completa quando precisar de todas as informações sobre um documento.
 
 ![Área de documentos](assets/documents-area-v2-350x199.png)
+
+<span class="preview">Na visualização:
+![Painel de resumo da área de documentos](assets/legacy-document-summary.png)
+</span>
+
 
 Para obter informações sobre o Resumo, consulte [Resumo de documentos](../../documents/managing-documents/summary-for-documents.md).
 

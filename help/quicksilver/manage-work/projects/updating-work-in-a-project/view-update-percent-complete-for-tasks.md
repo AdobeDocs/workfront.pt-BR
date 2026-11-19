@@ -30,14 +30,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '700'
 ht-degree: 5%
-
 ---
-
 # Exibir e atualizar o percentual concluído das tarefas
+
+{{highlighted-preview}}
 
 <!--Audited: 05/2025-->
 
@@ -130,11 +130,15 @@ Você pode atualizar o percentual concluído de uma tarefa em qualquer uma das s
 
 * **No painel Resumo de uma tarefa**: você pode atualizar a porcentagem concluída de uma tarefa na parte superior do painel Resumo ao visualizar a tarefa nas seguintes áreas:
 
-   * Lista de tarefas ou relatório
-   * Folha de horas
-   * Balanceador de carga de trabalho
+  * Lista de tarefas ou relatório
+  * Folha de horas
+  * Balanceador de carga de trabalho
 
   ![Percentual de atualização no Resumo da tarefa realçado](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  <span class="preview">Na visualização:
+  ![Percentual de atualização no Resumo da tarefa realçado](assets/percent-complete-summary.png)
+  </span>
 
   Para obter mais informações, consulte [Resumo geral](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
@@ -147,8 +151,8 @@ Você pode atualizar o percentual concluído de uma tarefa em qualquer uma das s
 * Quando você marca uma tarefa como 100% concluída, o Status da tarefa é atualizado para Concluído. O status de um problema é atualizado para Fechado.
 * Concluir uma tarefa também atualiza o percentual concluído do pai e do projeto.
 * Existem os seguintes cenários para tarefas e projetos principais:
-   * Não é possível atualizar o percentual concluído de uma tarefa pai para 100% quando o Modo de Conclusão em Resumo do projeto está definido como Automático e as subtarefas não estão concluídas.
-   * Você pode atualizar o percentual concluído de uma tarefa pai ou de um projeto para 100% quando o Modo de Conclusão em Resumo do projeto estiver definido como Manual e as subtarefas estiverem concluídas ou incompletas.
+  * Não é possível atualizar o percentual concluído de uma tarefa pai para 100% quando o Modo de Conclusão em Resumo do projeto está definido como Automático e as subtarefas não estão concluídas.
+  * Você pode atualizar o percentual concluído de uma tarefa pai ou de um projeto para 100% quando o Modo de Conclusão em Resumo do projeto estiver definido como Manual e as subtarefas estiverem concluídas ou incompletas.
 
   Para obter mais informações, consulte [Editar projetos](../manage-projects/edit-projects.md).
 

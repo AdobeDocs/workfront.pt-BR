@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '831'
 ht-degree: 5%
-
 ---
-
 # Exibir e gerenciar comentários em uma folha de horas
 
 <!-- Audited: April, 2024-->
@@ -175,7 +173,7 @@ Você pode comentar somente em tarefas e problemas em uma folha de horas. Você 
 
 1. Vá para a planilha de horas na qual deseja fazer um comentário e clique em [!UICONTROL **Planilha de horas**] no painel esquerdo.
 1. Clique na linha de uma tarefa ou em um problema e em [!UICONTROL **Abrir resumo**].
-1. Comece a digitar uma atualização na área [!UICONTROL **Atualizações**] do Painel de resumo e clique em [!UICONTROL **Enviar**].
+1. Comece a digitar uma atualização na guia [!UICONTROL **Atualizações**] do painel Resumo e clique em [!UICONTROL **Enviar**].
 A atualização é exibida na seção Atualizações da tarefa e do problema.
 1. (Opcional) Clique em [!UICONTROL **Fechar Resumo**] para fechar o painel Resumo.
 

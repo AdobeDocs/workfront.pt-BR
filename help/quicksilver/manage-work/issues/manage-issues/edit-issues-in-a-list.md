@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 769a19f560ba582ef696eb48c144baf41b373c5f
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: '910'
 ht-degree: 6%
-
 ---
-
 # Editar problemas em uma lista
 
 <!--Audited: 10/2025-->
@@ -132,8 +130,8 @@ Leve em consideração o seguinte ao editar problemas em uma lista:
 * É possível editar qualquer campo de problema exibido na lista e que você tenha permissões para atualizar.
 * Você pode editar um problema nas seguintes listas:
 
-   * A seção Problemas de um projeto ou de uma tarefa
-   * Um relatório de problemas
+  * A seção Problemas de um projeto ou de uma tarefa
+  * Um relatório de problemas
 
 Para editar um problema em linha:
 
@@ -181,9 +179,22 @@ Para editar um problema em linha:
    | Horas ![Log de tempo](assets/log-time-icon-in-summary.png) | Clique para registrar horas. |
    | Aprovações ![Ícone de Aprovações](assets/approvals-icon-in-summary.png) | Clique para adicionar aprovações de problemas. |
 
-   *Se sua organização usa o Adobe Cloud Storage para documentos, não é possível adicionar documentos a problemas do Adobe Cloud Storage no painel Resumo.
+<!--
+uncomment for prod
 
-   Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+   | Icon  |Action |
+   |---|---|
+   | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the issue. |
+   | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the issue. |
+   | Details ![Details icon](assets/details.png) |Click to update information about the issue. |
+   | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+   | Approvals ![Approvals icon](assets/approvals.png)  |Click to add issue approvals.  |
+
+-->
+
+*Se sua organização usa o Adobe Cloud Storage para documentos, não é possível adicionar documentos a problemas do Adobe Cloud Storage no painel Resumo.
+
+Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 
 1. (Opcional) Clique novamente no ícone **Abrir resumo** ou no ícone **X** no canto superior direito do resumo para fechar o painel e editar o problema em linha.

@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '818'
 ht-degree: 10%
 ---
 # Atualizar ou editar um item de trabalho na área [!UICONTROL Página inicial]
+
+{{highlighted-preview}}
 
 <!--Audited: 04/2024-->
 
@@ -178,7 +180,5 @@ Você pode fornecer atualizações em qualquer item de trabalho no widget [!UICO
 1. Passe o mouse sobre o item de trabalho e clique no ícone **Resumo**.
    ![Abrir resumo](assets/open-summary-new-home.png)
 
-1. No painel Resumo, passe o mouse sobre o campo que deseja editar.
-Se você tiver direitos para editar o campo, ele será realçado quando você passar o mouse sobre ele.
-1. Clique no campo que deseja editar e faça a atualização desejada.
+1. No painel Resumo, clique no campo que deseja editar e faça a atualização desejada.
 1. Clique em longe do campo para salvar as alterações.

@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 4292
+source-wordcount: '4301'
 ht-degree: 1%
-
 ---
-
 # Registrar de tempo
 
 <!--Audited: 5/2025-->
@@ -282,7 +280,13 @@ Sua Planilha de Horas atual é exibida por padrão.
 
    ![painel-de-resumo-da-tarefa-aberto-na-folha-de-horas](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
-   A atualização é exibida na área Atualizações do item de trabalho associado ao tempo registrado.
+   <span class="preview">Na visualização:
+
+   ![painel-de-resumo-da-tarefa-aberto-na-folha-de-horas](assets/summary-timesheet.png)
+
+   </span>
+
+   A atualização é exibida na guia Atualizações do item de trabalho associado ao tempo registrado.
 
    >[!TIP]
    >
