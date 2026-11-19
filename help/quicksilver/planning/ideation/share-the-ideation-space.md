@@ -77,7 +77,7 @@ Considere o seguinte:
 
 * Você deve ter permissões de Editor em um espaço de ideação para criar ou contribuir com resumos e exportá-los para outros aplicativos.
 
-* 
+* &#x200B;
   * O compartilhamento controla somente quem pode acessar e colaborar na tela de ideação. As atualizações de registro ainda ocorrem somente quando alguém exporta o resumo para o Workfront Planning.
 
 ## Requisitos de acesso
