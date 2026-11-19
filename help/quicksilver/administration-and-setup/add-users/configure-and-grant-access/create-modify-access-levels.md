@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
 source-wordcount: '1673'
 ht-degree: 12%
@@ -242,7 +242,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
       <p>É selecionado por padrão.</p>
       <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">Usar o CX Enterprise Coworker na Workfront</a>.</p>
       <p><b>NOTA:</b></p>
-      <p>Nem todos os clientes têm acesso ao Coworkere.</p>
+      <p>Nem todos os clientes têm acesso ao Colaborador.</p>
       </td> 
      </tr>
 

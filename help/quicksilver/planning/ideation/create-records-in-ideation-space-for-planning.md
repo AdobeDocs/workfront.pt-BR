@@ -11,10 +11,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 1%
+source-wordcount: '1161'
+ht-degree: 0%
 ---
 
 # Criar ou editar registros do Planning a partir de resumos de espaço de ideação
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -167,10 +167,12 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 ## Considerações sobre o uso do espaço de ideação para criar ou editar registros do Planning
 
 * Você deve iniciar o espaço de ideação no Workfront Planning para poder criar ou editar um registro do Planning. Acessar o espaço de ideação no menu Principal do Workfront não conecta um resumo de ideação a um registro do Planning.
+* Quando você inicia o espaço de ideação a partir de um registro, o Workfront usa a estrutura e as informações do registro para criar e atualizar os campos do resumo.
 * Para usar o espaço de ideação para criar ou editar registros, você deve ter um espaço de trabalho e um tipo de registro no Workfront Planning.
 * Os novos registros sempre começam com conteúdo de espaço reservado, independentemente de como você os cria.
 * Quando você exclui um registro de Planejamento vinculado a um resumo de ideação, o resumo permanece no espaço de ideação e seu espaço associado não é excluído.
-* A sincronização de informações ocorre somente a partir do espaço Ideação para o Workfront Planning. Não há sincronização reversa ou automática de um registro de Planejamento para o resumo do espaço de ideação. <!--this might change after beta?-->
+* A sincronização ocorre somente do espaço Ideação para o Workfront Planning. Não há sincronização reversa ou automática de um registro de Planejamento para um resumo de ideação.
+* A exportação para o Workfront Planning substitui todos os dados de campo existentes no registro conectado do Planning.
 * Os cenários a seguir existem quando os campos são criados, editados ou removidos no Workfront Planning:
 
   * Novos campos criados em registros vinculados aos resumos de ideação são adicionados diariamente ao resumo. Os novos campos aparecem vazios no resumo da ideação.
@@ -208,9 +210,15 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    * O registro é criado imediatamente com um nome de espaço reservado.
 
+   * O resumo da ideação é criado com um nome de espaço reservado. Os campos de resumo de ideação são os mesmos campos do tipo de registro do qual você começou.
+
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
+
+1. (Opcional) Passe o mouse sobre a tag **Workfront Planning** no canto superior direito da tela Espaço de ideação para exibir o nome do tipo de registro, o espaço de trabalho para o qual você está criando um registro e o número da versão do resumo que está criando.
+
+   ![marca de informações de tipo de registro e espaço de trabalho do Workfront Planning dentro da tela](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 
 1. Adicione um prompt na caixa de diálogo **Colaborador** e pressione Enter.
 
@@ -253,9 +261,12 @@ Não é possível editar registros em massa no espaço de ideação.
 
    Se nenhuma ideação existir, ela cria um espaço de ideação e um breve.
 
+   O resumo da ideação contém os mesmos campos do registro do qual você começou. Os valores de campo são preenchidos a partir do registro no resumo.
+
    >[!TIP]
    >
    >Não é possível editar registros em massa usando o espaço de ideação.
+
 1. Continue editando o resumo conforme descrito na seção [Criar registros usando o espaço de ideação](#create-records-using-the-ideation-space) deste artigo.
 
    <!-- 

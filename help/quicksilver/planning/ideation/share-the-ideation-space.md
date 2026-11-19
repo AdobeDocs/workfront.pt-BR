@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 2%
 ---
 
@@ -76,6 +76,9 @@ Considere o seguinte:
 * Os criadores de ideações sempre têm permissões de Editor em suas próprias ideações.
 
 * Você deve ter permissões de Editor em um espaço de ideação para criar ou contribuir com resumos e exportá-los para outros aplicativos.
+
+* 
+  * O compartilhamento controla somente quem pode acessar e colaborar na tela de ideação. As atualizações de registro ainda ocorrem somente quando alguém exporta o resumo para o Workfront Planning.
 
 ## Requisitos de acesso
 
@@ -163,7 +166,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
