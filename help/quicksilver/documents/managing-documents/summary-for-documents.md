@@ -31,10 +31,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 12%
+source-wordcount: '759'
+ht-degree: 11%
 ---
 # Resumo para visão geral de documentos
 
@@ -96,7 +96,11 @@ Se sua organização estiver no armazenamento herdado do Workfront, você verá 
 
    ![Detalhes do resumo](assets/document-summary-panel.png)
 
-   Após abrir o Resumo, ele permanecerá aberto nesta página (mesmo se você clicar em outros documentos) até que você o feche manualmente.
+<span class="preview">Na visualização:
+![Detalhes do resumo](assets/document-details-summary-legacy.png)
+</span>
+
+Após abrir o Resumo, ele permanecerá aberto nesta página (mesmo se você clicar em outros documentos) até que você o feche manualmente.
 
 
 ### Detalhes
@@ -112,17 +116,29 @@ Expanda a seção Visão geral para visualizar ou baixar uma miniatura de imagem
 
 ![Visão geral do resumo do documento](assets/details-section.png)
 
+<span class="preview">Na visualização:
+![Detalhes do resumo](assets/document-details-summary-legacy.png)
+</span>
+
 #### Formulários personalizados {#custom-forms}
 
 Use a seção Forms personalizado para adicionar, editar ou exibir quaisquer formulários personalizados associados ao documento. Comece digitando o nome do formulário personalizado para adicioná-lo ao documento. Para obter mais informações, consulte [Adicionar ou editar um formulário personalizado a um documento](../../documents/managing-documents/add-custom-form-documents.md).
 
 ![Adicionar um formulário personalizado no resumo do documento](assets/custom-forms-section.png)
 
+<span class="preview">Na visualização:
+![Adicionar um formulário personalizado no resumo do documento](assets/custom-form-summary-legacy.png)
+</span>
+
 ### Atualizações
 
 Use a seção Atualizações para exibir e atualizar alguém que fez no documento ou na prova. O resumo mostra os dois primeiros comentários feitos. Para obter mais informações sobre atualizações, consulte [Comentar em uma prova](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
 ![Atualiza a seção no painel Resumo](assets/updates-section.png)
+
+<span class="preview">Na visualização:
+![Atualiza a seção no painel Resumo](assets/updates-summary-legacy.png)
+</span>
 
 ### Aprovações
 
@@ -135,6 +151,10 @@ Aprovações de provas devem ser adicionadas no Fluxo de trabalho de provas. Par
 
 ![Aprovações de resumo de documentos](assets/approvals-section.png)
 
+<span class="preview">Na visualização:
+![Aprovações de resumo de documentos](assets/document-approvals-summary-legacy.png)
+</span>
+
 ### Versões
 
 Use a seção Versões para exibir o número de versões criadas para um documento específico. Clique no ícone Mais ![ícone Mais](assets/more-icon.png) para fazer o seguinte:
@@ -146,6 +166,10 @@ Use a seção Versões para exibir o número de versões criadas para um documen
 * Exclua uma prova ou documento.
 
 ![Versões de resumo do documento](assets/versions-section.png)
+
+<span class="preview">Na visualização:
+![Versões de resumo do documento](assets/document-versions-summary-legacy.png)
+</span>
 
 ## Resumo para documentos na nova experiência de documentos
 

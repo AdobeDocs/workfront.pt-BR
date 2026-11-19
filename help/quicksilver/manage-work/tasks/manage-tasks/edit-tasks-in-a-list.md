@@ -34,13 +34,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 2861
+source-wordcount: '2861'
 ht-degree: 4%
-
 ---
-
 # Editar tarefas em uma lista {#edit-tasks-in-a-list}
 
 <!-- Audited: 10/2025 -->
@@ -483,6 +481,7 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
     </tbody> 
    </table>
 
+
 1. O Workfront atualiza todas as dependências entre projetos e no projeto ao alterar a linha do tempo de uma tarefa.
 1. Clique em **Salvar** quando quiser manter as alterações da tarefa permanentemente e salvar a linha do tempo do projeto.
 
@@ -526,6 +525,19 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
       <tr> 
       </tbody> 
       </table>
+
+<!--
+uncomment for production release
+
+      | Icon  |Action |
+      |---|---|
+      | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the task. |
+      | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the task. |
+      | Details ![Details icon](assets/details.png) |Click to update information about the task. |
+      | Subtask ![Subtask icon](assets/subtask.png) |Click to view subtasks of the task. |
+      | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+      | Approvals ![Approvals icon](assets/approvals.png)  |Click to add task approvals.  |
+-->
 
 1. Clique em **X** no canto superior direito do painel para fechá-lo.
 

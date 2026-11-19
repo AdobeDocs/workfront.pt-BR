@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 8%
@@ -100,8 +100,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      <tr> 
       <td role="rowheader">Tarefas</td> 
       <td> <p>Em uma lista de tarefas, essa configuração afeta o painel Resumo exibido no lado direito da página quando um usuário seleciona uma tarefa e clica no ícone Abrir Resumo <img src="assets/summary-panel-icon.png">.</p>
-
-   <p> <img src="assets/summary-area.png"> </p> </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Problemas</td> 
