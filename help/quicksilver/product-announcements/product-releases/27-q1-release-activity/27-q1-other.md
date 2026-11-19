@@ -4,10 +4,10 @@ description: Outras melhorias durante o período da versão do primeiro trimestr
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 1%
+source-wordcount: '704'
+ht-degree: 3%
 ---
 
 # Outras melhorias durante o período da versão do Primeiro trimestre de 2027
@@ -15,6 +15,21 @@ ht-degree: 1%
 Esta página descreve as melhorias feitas com a versão do Primeiro trimestre de 2027 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2027, consulte [Visão geral da versão do Primeiro trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Aparência e comportamento atualizados para o painel de resumo de tarefas, problemas e documentos
+
+>[!NOTE]
+>
+>Visualização: 19 de novembro de 2026
+>Versão rápida de produção: 17 de dezembro de 2026
+>Produção para todos: 21 de janeiro de 2027
+
+O painel Resumo de tarefas, problemas e documentos tem uma aparência atualizada para corresponder a outros estilos no Workfront. Informações e campos agora são organizados em guias separadas no Painel de resumo.
+
+Para obter mais informações, consulte:
+
+* [Visão geral do resumo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+* [Resumo para visão geral de documentos](/help/quicksilver/documents/managing-documents/summary-for-documents.md)
 
 <!--
 
@@ -74,7 +89,7 @@ You can now create sections in the View dropdown menu of an enhanced list to org
 
 This enhancement is available in the following areas: Requests, Home, Priorities in the Main Menu.
 
-For information, see [Use enhanced lists](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/navigate/lists-in-adobe-workfront/enhanced-lists).
+For information, see [Use enhanced lists](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/lists-in-adobe-workfront/enhanced-lists).
 
 -->
 
