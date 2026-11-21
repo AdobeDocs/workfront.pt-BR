@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '642'
 ht-degree: 6%
 ---
 # Nivelar Recursos no [!UICONTROL Gráfico de Gantt]
@@ -120,7 +120,7 @@ Considere o seguinte ao nivelar recursos em um projeto:
   ![Modo de nivelamento de recursos](assets/resource-leveling-mode-350x177.png)
 
 * Como proprietário do projeto ou destinatário da tarefa, você pode introduzir um atraso de nivelamento para uma tarefa para indicar que há uma grande chance de a tarefa precisar de tempo extra. Para obter informações sobre como adicionar um atraso de nivelamento a uma tarefa, consulte [Atualizar Atraso de Nivelamento da tarefa](../../../manage-work/tasks/task-information/task-leveling-delay.md).
-* Para garantir o desempenho ideal, o nivelamento de recursos não funciona para tarefas com duração superior a 1000 dias.
+* Para garantir o desempenho ideal, os recursos de tarefas com duração superior a 1000 dias não podem ser nivelados automaticamente.
 
 ## Aplicar nivelamento de recursos no [!UICONTROL Gráfico de Gantt]
 

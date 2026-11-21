@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -214,7 +214,7 @@ O espaço de ideação usa o Adobe CX Enterprise Coworker como sua interface de 
 
 Os usuários podem fazer perguntas de acompanhamento e refinar um breve diálogo em vez de obter um único resultado instantâneo.
 
-Quando um resumo é vinculado a um registro ativo do Workfront Planning, o Colaborador impede a substituição dele para que o plano subjacente permaneça intacto. O registro é sobreposto somente quando você exporta o resumo para o Workfront Planning.
+Quando um resumo é vinculado a um registro ativo do Workfront Planning, o Colaborador impede a substituição dele para que o plano subjacente permaneça intacto. O registro é substituído somente quando você exporta o resumo para o Workfront Planning.
 
 <!--
 Previous intro but oped for the more direct one above: 
@@ -323,10 +323,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/br/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/br/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/br/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 
