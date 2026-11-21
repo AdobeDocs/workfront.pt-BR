@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3174'
 ht-degree: 1%
 ---
 # Editar registros
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após o lançamento para Pré-visualização, os mesmos recursos também estarão disponíveis mensalmente no ambiente de Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ Old:
   * Campos do sistema (Criado por, Data de criação, Última modificação por, Última data de modificação, Data de aprovação, Aprovado por, ID do registro)
 * Se os registros exibidos estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados em todos os espaços de trabalho onde esse registro estiver vinculado.
 * Não é possível editar registros em massa. <!--this will probably change-->
-* Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .
+* Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou <www>. .
 * Você pode adicionar uma imagem de capa a cada registro. A imagem é exclusiva para cada registro e não se aplica a todos os registros do mesmo tempo. Para obter informações, consulte [Adicionar uma imagem de capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 * É possível editar a ordem dos campos na página de detalhes de um registro. Para obter mais informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 * É possível editar as datas de Início e Término de um registro redimensionando ou reposicionando os registros nas exibições de linha do tempo e calendário.
@@ -389,8 +389,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
    >  * Campos de pesquisa de outros registros criados pela conexão de tipos de registro. Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação, Campos de fórmula.
 
-1. <span class="preview">(Opcional) Clique no círculo de cores à esquerda do nome do registro para alterar a cor do registro. </span>
-   <span class="preview">Os registros recebem cores automaticamente quando são criados. Clique em **Amostras** ou **Personalizado** para selecionar uma nova cor.</span>
+1. (Opcional) Clique no círculo de cores à esquerda do nome do registro para alterar a cor do registro.
+Os registros recebem cores automaticamente ao serem criados. Clique em **Amostras** ou **Personalizado** para selecionar uma nova cor.
 
 1. (Opcional) Clique em **Adicionar capa** para adicionar uma imagem de capa ao registro. Para obter mais informações, consulte [Adicionar uma imagem de capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -448,8 +448,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
    >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação, Campos de fórmula.
 
 1. (Opcional) Clique no ícone de informações à direita de qualquer campo que o exiba para exibir a descrição de um campo.
-1. <span class="preview">(Opcional) Clique no círculo de cores à esquerda do nome do registro para alterar a cor do registro. </span>
-   <span class="preview">Os registros recebem cores automaticamente quando são criados. Clique em **Amostras** ou **Personalizado** para selecionar uma nova cor.</span>
+1. (Opcional) Clique no círculo de cores à esquerda do nome do registro para alterar a cor do registro.
+Os registros recebem cores automaticamente ao serem criados. Clique em **Amostras** ou **Personalizado** para selecionar uma nova cor.
 
    ![Caixa do seletor de cores para caixa de detalhes do registro](assets/color-picker-box-for-record-color-in-details-page.png)
 
