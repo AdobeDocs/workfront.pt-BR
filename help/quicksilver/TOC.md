@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '14764'
+source-wordcount: '14768'
 ht-degree: 90%
 ---
 # Guia do Workfront {#using}
@@ -502,6 +502,7 @@ ht-degree: 90%
       * [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configurar localização personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
       * [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
+      * [Configurar colaboradores de IA pré-criados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)
       * [Colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/ai-collaborators-overview.md)
     * Configurar preferências de cronograma e folha de horas {#configure-timesheets-schedules}
       * [Configurar preferências de cronograma e folha de horas](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)

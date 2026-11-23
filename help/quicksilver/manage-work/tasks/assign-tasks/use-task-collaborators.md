@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1249'
 ht-degree: 2%
 ---
 # Usar agentes de trabalho
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 Os agentes de trabalho são colaboradores de IA que podem ser atribuídos diretamente a tarefas, problemas e solicitações do Workfront. Como outros Colaboradores de IA, os Agentes de trabalho são configurados na área Configuração e atribuídos a itens de trabalho como um usuário.
 
-<span class="preview">Você pode usar um Agente de Trabalho Nativo do Adobe pronto para uso fornecido pelo Adobe CX Coworker</span> ou um Agente de Trabalho conectado a uma plataforma externa. Os recursos disponíveis e os requisitos de configuração dependem da origem do agente.
+<span class="preview">Você pode usar um Agente de Trabalho Nativo da Adobe pronto para uso, como o colaborador da CX Enterprise Coworker ou um Colaborador de IA pré-criado, como o Coordenador de Entrada (para obter mais informações, consulte [Configurar Colaboradores de IA pré-criados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md))</span> ou um Agente de Trabalho conectado a uma plataforma externa. Os recursos disponíveis e os requisitos de configuração dependem da origem do agente.
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
