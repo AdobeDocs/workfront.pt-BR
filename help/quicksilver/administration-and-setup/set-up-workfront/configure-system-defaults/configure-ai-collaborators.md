@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1992'
 ht-degree: 2%
 ---
 # Configurar colaboradores de IA
@@ -156,7 +156,12 @@ Para obter uma lista de práticas recomendadas ao criar um agente para trabalhar
    >Se você for um administrador de grupo, este campo exibirá somente os grupos para os quais você é um administrador. Os administradores de grupo devem selecionar pelo menos um grupo.
 
 1. Na área **Escolher origem do agente**, selecione se deseja <span class="preview">usar o Adobe Native</span>, conectar um agente criado em uma plataforma comum, como o Copilot, ou usar um agente personalizado.
-1. <span class="preview">(Condicional) Se você selecionar Adobe Nativo, confirme se o Adobe CX Coworker está habilitado para a sua organização e se deseja usar o Adobe Native agent pronto para uso.</span>
+1. <span class="preview">(Condicional) Se você selecionar Adobe Nativo, selecione o Colaborador que deseja usar: o Colaborador da CX Enterprise Coworker ou um Colaborador de IA pré-criado, como o Coordenador de entrada. Para obter mais informações sobre colaboradores pré-criados, incluindo descrições, consulte [Configurar colaboradores de IA pré-criados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">Depois de ativar um Colaborador de IA pré-criado, o provisionamento levará cerca de 30 segundos. Um ponteiro é exibido até que o Collaborator esteja pronto.</span>
+
 1. (Condicional) Se você estiver usando um agente de uma plataforma comum, insira os detalhes de autenticação da plataforma do agente:
 
    | Plataforma | Autenticação necessária |

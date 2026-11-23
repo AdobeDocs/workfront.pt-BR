@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
+source-git-commit: 27060a08f07aea5fb0d5ac18b8f903ad407510e6
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1464'
 ht-degree: 3%
 ---
 # Visão geral da seção de atualizações
@@ -350,6 +350,8 @@ Considere o seguinte ao visualizar atualizações para usuários e equipes:
   * Histórias
   * Planilhas de horas
   * Iterações
+
+* A seção Atualizações de uma equipe exibe atualizações feitas por qualquer membro da equipe, incluindo atualizações em projetos aos quais a equipe não está associada. As atualizações não são filtradas pelos projetos ou outros objetos aos quais a equipe está associada. Para exibir as atualizações de um projeto específico, vá para a seção Atualizações desse projeto.
 
 * A guia Atualizações de sistema da área Atualizações para usuários é preenchida por atualizações para outros objetos. A seguir estão as atualizações que são exibidas na guia Atualizações do sistema do perfil do usuário, quando esses campos são rastreados na área Feeds de atualizações da Configuração:
 
