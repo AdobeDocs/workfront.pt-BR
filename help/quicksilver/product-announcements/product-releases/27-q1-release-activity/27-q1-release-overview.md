@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1718'
 ht-degree: 12%
 ---
 
@@ -142,11 +142,12 @@ As melhorias nesta página estão disponíveis no ambiente de pré-visualizaçã
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Configurar o Colaborador de IA pré-criado pelo Coordenador de entrada</a></p>
+                <p>[!BADGE versão simultânea]{type=Neutral}</p>
                 <p>Agora, os administradores podem configurar o Coordenador de entrada, um Colaborador de IA pré-criado, como um Agente de trabalho que verifica problemas de informações ausentes, não claras ou inconsistentes.</p>
             </td>
-            <td><p>22 de novembro de 2026</p></td>
-            <td><p>17 de dezembro de 2026</p></td>
-            <td><p>21 de janeiro de 2027</p></td>
+            <td><p>12 de novembro de 2026</p></td>
+            <td><p>12 de novembro de 2026</p></td>
+            <td><p>12 de novembro de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -161,11 +162,12 @@ As melhorias nesta página estão disponíveis no ambiente de pré-visualizaçã
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Agentes de trabalho: suporte nativo ao Adobe</a></p>
+                <p>[!BADGE versão simultânea]{type=Neutral}</p>
                 <p>Agora você pode criar um Agente de trabalho que usa o colaborador da CX Enterprise Coworker, um agente da CX Enterprise Coworker alimentado pelo Adobe Agent Orchestrator, sem configurar uma plataforma externa ou inserir credenciais externas.</p>
             </td>
-            <td><p>29 de outubro de 2026</p></td>
             <td><p>12 de novembro de 2026</p></td>
-            <td><p>21 de janeiro de 2027</p></td>
+            <td><p>12 de novembro de 2026</p></td>
+            <td><p>12 de novembro de 2026</p></td>
         </tr>
         <tr>
             <td>
