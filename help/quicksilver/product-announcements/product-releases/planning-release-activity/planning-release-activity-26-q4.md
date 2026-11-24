@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3412'
 ht-degree: 0%
 ---
 # Atividade da versão do quarto trimestre de 2026 para o Adobe Workfront Planning
@@ -418,7 +418,7 @@ O painel esquerdo de agrupamento na exibição Swimlane agora pode ser redimensi
 
 Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-## Desempenho de calendário aprimorado para grandes conjuntos de registros na exibição semanal
+## Desempenho aprimorado com carregamento de dados incremental na exibição de calendário
 
 >[!NOTE]
 >

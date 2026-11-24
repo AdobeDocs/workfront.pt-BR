@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '499'
 ht-degree: 6%
 ---
 # Definir a área Configurações de um tipo de registro
@@ -219,3 +219,12 @@ Você pode definir recursos entre espaços de trabalho para um tipo de registro,
    As configurações estão desativadas por padrão.
 
    Para obter mais informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+
+
+## Configurar permissões padrão de registro para um tipo de registro
+
+Você pode definir permissões de registro para todos os registros de um tipo de registro configurando os padrões no nível do tipo de registro.
+
+Por padrão, todos os novos registros receberão as permissões definidas na área Configurações do tipo de registro.
+
+Para obter informações, consulte [Definir permissões padrão para registros](/help/quicksilver/planning/access/set-default-record-permissions.md).

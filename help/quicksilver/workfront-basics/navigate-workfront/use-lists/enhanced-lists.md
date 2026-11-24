@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3611'
+source-wordcount: '3609'
 ht-degree: 1%
 ---
 # Usar listas aprimoradas
@@ -98,8 +98,15 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 | Exibição de um documento em todas as versões | Projeto > Documentos > Detalhes do documento > Todas as versões |
 | Exibição do administrador dos painéis | Quadros > Exibição do administrador |
 | Documentos no armazenamento em nuvem do Adobe | Projeto, tarefa, problema, portfólio, programa, modelo, tarefa de modelo > Documentos |
-| Listas de planos e iniciativas de cenário | Menu Principal > Cenários |
+| Listas de planos de cenário <!--and initiatives--> | Menu Principal > Cenários |
 | Listas de metas e indicadores de progresso | <ul><li>Menu principal > Metas</li><li>Menu principal > Metas > Indicadores de progresso</li></ul> |
+
+
+<!--
+| List of expense types | Setup > Expense Types |
+| List of rate cards | Setup > Rate Cards |
+-->
+
 
 <!--
 
@@ -372,7 +379,7 @@ Para compartilhar uma exibição:
 
 Quando uma exibição é compartilhada com você para a qual você não tem permissão para editar, é possível copiar a exibição e salvá-la com um novo nome. Você deve primeiro fazer alterações na exibição antes de copiá-la.
 
-1. Na lista suspensa Exibições, passe o mouse sobre a exibição em **Exibições Compartilhadas** das quais você modificou as configurações e que deseja copiar, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em **Copiar com preferências**.
+1. Na lista suspensa Exibições, passe o mouse sobre a exibição em **Exibições Compartilhadas** das quais você modificou as configurações e que deseja copiar, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em **Copiar com preferências** <!--<span class="preview">or **Copy with my changes**</span>-->.
 
    Uma nova visualização é criada automaticamente. O nome da exibição copiada segue o seguinte padrão: `Original view name (copy)`e é exibido na seção de exibições **Minhas Exibições**.
 
@@ -380,7 +387,7 @@ Quando uma exibição é compartilhada com você para a qual você não tem perm
 
    >[!NOTE]
    >
-   >A opção **Copiar com Preferências** só estará disponível depois que você fizer alterações em uma exibição que foi compartilhada com você.
+   >A opção **Copiar com Preferências** <!--<span class="preview">or **Copy with my changes**</span>--> só estará disponível depois que você fizer alterações em um modo de exibição que foi compartilhado com você.
 
 ### Redefinir uma visualização
 
@@ -458,6 +465,26 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na lista.
 1. Na caixa Filtro, clique em **Adicionar condição**.
 1. Selecione um campo para filtrar.
 1. Selecione um modificador de filtro, como &quot;É qualquer um de&quot;, &quot;É nenhum de&quot;, &quot;É antes&quot; ou &quot;É após&quot;. As opções do modificador são diferentes dependendo do tipo de campo pelo qual você está filtrando.
+
+   <!--
+
+   >[!TIP]
+   >
+   >   <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+   >
+   >    <div class="preview">
+   >
+   >   * **Is today**
+   >   * **Is yesterday**
+   >   * **Is tomorrow**
+   >   * **Is this month**
+   >   * **Is last month**
+   >   * **Is next month**
+   >
+   >  </div>
+
+   -->
+
 1. Selecione o valor ou os valores do campo. Dependendo do tipo de campo pelo qual você está filtrando, talvez seja solicitado que você selecione o item em uma lista, pesquise por ele ou use um calendário para selecionar um intervalo de datas.
 
    ![Filtrar em listas aprimoradas](assets/glist-filter-with-options.png)

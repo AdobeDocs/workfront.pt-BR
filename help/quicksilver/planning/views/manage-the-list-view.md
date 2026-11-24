@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2096'
 ht-degree: 1%
 ---
 
@@ -172,14 +172,22 @@ Removed - more direct steps below:
 
    1. Expanda o menu suspenso de modos de exibição no canto superior esquerdo da lista para selecionar outro modo de exibição ou clique em **Novo modo de exibição** e crie outro.
 
+      As exibições são exibidas em uma das seguintes seções:
+
+      * **Exibições do Sistema**, criado pelo Workfront.
+      * **Exibições compartilhadas**, compartilhadas com você por outras pessoas.
+      * **Minhas Exibições**, criadas por você.
+
       >[!TIP]
       >
       >As visualizações são compartilhadas em todo o sistema. Se você criar uma visualização Projetos para um tipo de registro, poderá visualizá-la em outros tipos de registro que exibem projetos conectados.
 
    1. Passe o mouse sobre o nome de um modo de exibição existente e clique no menu **Mais** ![Mais menu](assets/more-menu.png), em seguida, clique em um dos seguintes:
       * **Renomear**, para dar um novo nome à exibição
-      * **Compartilhar**, para compartilhar a exibição com outras pessoas
+      * **Compartilhar**, para compartilhar a exibição com outras pessoas. Quando alguém compartilha uma exibição com você, ela é exibida na área **Exibições Compartilhadas** do menu suspenso de exibições.
       * **Excluir**, para excluir o modo de exibição.
+      * **Copiar com preferências** <span class="preview"><!--or **Copy with my changes**</span>-->, para copiar o modo de exibição com as alterações feitas, em vez de copiar o modo de exibição original que foi compartilhado com você. Isso está disponível somente em Exibições do sistema e Exibições compartilhadas.
+        <!--* <span class="preview">**Copy**, to copy the view</span>-->
 
       >[!NOTE]
       >
@@ -193,17 +201,31 @@ Removed - more direct steps below:
 
       >[!TIP]
       >
-      >Para aplicar um filtro personalizado, selecione uma das seguintes opções para um valor de campo:
+      >* Para aplicar um filtro personalizado, selecione uma das seguintes opções para um valor de campo:
       >
-      >* **Eu (usuário conectado)** para fazer referência ao usuário conectado em campos referentes a usuários.
+      >   * **Eu (usuário conectado)** para fazer referência ao usuário conectado em campos referentes a usuários.
       >
-      >* **Minhas equipes** ou **Minha equipe doméstica** para consultar suas equipes em campos referentes a equipes.
+      >   * **Minhas equipes** ou **Minha equipe doméstica** para consultar suas equipes em campos referentes a equipes.
       >
-      >* **Meus grupos** ou **Meu grupo doméstico** para fazer referência aos seus grupos em campos que fazem referência a grupos.
+      >   * **Meus grupos** ou **Meu grupo doméstico** para fazer referência aos seus grupos em campos que fazem referência a grupos.
       >
-      >* **Minha empresa** para fazer referência à sua empresa nos campos que fazem referência a empresas.
+      >   * **Minha empresa** para fazer referência à sua empresa nos campos que fazem referência a empresas.
       > 
-      >* **Minhas funções** ou **Minha função principal** para fazer referência às suas funções de trabalho em campos que fazem referência às funções.
+      >   * **Minhas funções** ou **Minha função principal** para fazer referência às suas funções de trabalho em campos que fazem referência às funções.
+      <!--
+        >* <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+        >
+        >    <div class="preview">
+        >
+        >   * **Is today**
+        >   * **Is yesterday**
+        >   * **Is tomorrow**
+        >   * **Is this month**
+        >   * **Is last month**
+        >   * **Is next month**
+        >
+        >  </div>
+        -->
 
    1. Clique no ícone **Colunas** ![Ícone Colunas](assets/columns-icon.png) para selecionar quais colunas exibir ou ocultar no modo de exibição.
    1. Passe o mouse sobre o nome de uma coluna, clique na seta para baixo à esquerda do nome da coluna e clique em uma das seguintes opções:
