@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1961'
 ht-degree: 2%
 ---
 # Configurar colaboradores de IA
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Visualização para todos os clientes.</span>
 
 Os Colaboradores de IA são uma maneira de integrar agentes de IA em seus projetos, tarefas e problemas. Você pode configurar um Colaborador de IA e atribuí-lo como faria com um usuário.
 
@@ -36,7 +34,7 @@ Os tipos disponíveis do AI Collaborator incluem:
 
   Para obter mais informações, consulte [Introdução ao Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Agente de Trabalho: crie um colaborador <span class="preview">fornecido pelo Adobe CX Coworker</span> ou conecte um agente de uma plataforma externa compatível e atribua o colaborador a uma tarefa ou problema para concluir os itens de trabalho.
+* Agente de trabalho: crie um colaborador fornecido pela Adobe CX Coworker, use um colaborador pré-criado ou conecte um agente a partir de uma plataforma externa compatível e atribua o colaborador a uma tarefa ou problema para concluir os itens de trabalho.
 
   Para obter mais informações, consulte [Usar Agentes de Trabalho](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
@@ -44,9 +42,9 @@ Os tipos disponíveis do AI Collaborator incluem:
 
 As licenças usadas pelos Colaboradores de IA não são cobradas. Se sua organização tiver 200 licenças do Workfront e criar um Colaborador de IA, 201 licenças estarão em uso, mas somente 200 serão cobradas.
 
-* <span class="preview">Coordenador de projetos: um colaborador pronto para uso que monitora o status do projeto e envia atualizações de projeto, sem precisar configurar um agente externo.</span>
+* Coordenador de projetos: um colaborador pronto para uso que monitora o status do projeto e envia atualizações de projeto, sem precisar configurar um agente externo.
 
-  <span class="preview">Para obter mais informações, consulte [Usar o colaborador do Coordenador de Projetos](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
+  Para obter mais informações, consulte [Usar o colaborador do Coordenador de Projetos](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
 
 
 ## Requisitos de acesso
@@ -95,9 +93,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ### Para agentes de trabalho
 
-<span class="preview">Os pré-requisitos dependem da origem do agente:</span>
+Os pré-requisitos dependem da origem do agente:
 
-* <span class="preview">Adobe Nativo: sua organização deve ter o Adobe CX Coworker habilitado. Não é necessário configurar um agente em uma plataforma externa nem fornecer credenciais de plataforma externa.</span>
+* Adobe nativo: para usar o colaborador da CX Enterprise Coworker, sua organização deve ter o Adobe CX Enterprise Coworker ativado. Não é necessário configurar um agente em uma plataforma externa nem fornecer credenciais de plataforma externa.
 * Plataforma externa ou agente personalizado: configure o agente na plataforma que você planeja conectar antes de criar o Agente de trabalho no Workfront.
 
 >[!NOTE]
@@ -124,11 +122,9 @@ Os Revisores de IA podem ser configurados para usar marcas da Workfront ou Adobe
 
 ## Configurar um agente de trabalho
 
-<span class="preview">As diretrizes de configuração a seguir refletem o suporte nativo do Adobe e o modelo de configuração baseado na origem que ainda está em visualização.</span>
-
 Agentes de trabalho são agentes que podem ser atribuídos a tarefas ou problemas no Workfront. Você configura o Agente de trabalho com um nome, nível de acesso e outros detalhes e o atribui a uma tarefa da mesma forma que atribuiria a um usuário.
 
-Como os Agentes de trabalho são agentes, suas ações e habilidades são configuradas onde você configura os agentes. Os Agentes de Trabalho podem ser <span class="preview">Agentes de Trabalho Nativos que usam o Coworker,</span> ou podem ser de uma plataforma externa com suporte, como o Copilot Studio, Claude, OpenAI e IBM.
+Como os Agentes de trabalho são agentes, suas ações e habilidades são configuradas onde você configura os agentes. Os agentes de trabalho podem ser agentes de trabalho pré-criados, agentes que usam o Coworker ou podem ser de uma plataforma externa compatível, como o Copilot Studio, Claude, OpenAI e IBM.
 
 >Os agentes de trabalho podem ser atribuídos a tarefas ou problemas.
 
@@ -155,12 +151,12 @@ Para obter uma lista de práticas recomendadas ao criar um agente para trabalhar
    >
    >Se você for um administrador de grupo, este campo exibirá somente os grupos para os quais você é um administrador. Os administradores de grupo devem selecionar pelo menos um grupo.
 
-1. Na área **Escolher origem do agente**, selecione se deseja <span class="preview">usar o Adobe Native</span>, conectar um agente criado em uma plataforma comum, como o Copilot, ou usar um agente personalizado.
-1. <span class="preview">(Condicional) Se você selecionar Adobe Nativo, selecione o Colaborador que deseja usar: o Colaborador da CX Enterprise Coworker ou um Colaborador de IA pré-criado, como o Coordenador de entrada. Para obter mais informações sobre colaboradores pré-criados, incluindo descrições, consulte [Configurar colaboradores de IA pré-criados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
+1. Na área **Escolher origem do agente**, selecione se deseja usar o Adobe Native, conectar um agente criado em uma plataforma comum, como o Copilot, ou usar um agente personalizado.
+1. (Condicional) Se você selecionar Adobe Nativo, selecione o Colaborador que deseja usar: o Colaborador do CX Enterprise Coworker ou um Colaborador de IA pré-criado, como o Coordenador de entrada. Para obter mais informações sobre colaboradores pré-criados, incluindo descrições, consulte [Configurar colaboradores de IA pré-criados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).
 
    >[!NOTE]
    >
-   ><span class="preview">Depois de ativar um Colaborador de IA pré-criado, o provisionamento levará cerca de 30 segundos. Um ponteiro é exibido até que o Collaborator esteja pronto.</span>
+   >Após ativar um Colaborador de IA pré-criado, o provisionamento leva cerca de 30 segundos. Um ponteiro é exibido até que o Collaborator esteja pronto.
 
 1. (Condicional) Se você estiver usando um agente de uma plataforma comum, insira os detalhes de autenticação da plataforma do agente:
 
@@ -223,8 +219,6 @@ As práticas recomendadas a seguir podem ser úteis ao criar um agente para usar
 +++
 -->
 
-<div class="preview">
-
 ## Configurar um coordenador de projetos
 
 O coordenador de projetos é um colaborador pronto para uso que monitora o status do projeto e ajuda a manter o trabalho no controle. Ao contrário dos Agentes de trabalho, o Coordenador de projetos não exige que você configure um agente externo.
@@ -260,8 +254,6 @@ Depois de salvar o Coordenador de projetos, adicione o campo **Coordenador de pr
 Para obter instruções, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 Para obter mais informações sobre o Coordenador de Projetos, incluindo como atribuí-lo a projetos, consulte [Usar o colaborador do Coordenador de Projetos](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
-
-</div>
 
 ## Gerenciar colaboradores de IA
 

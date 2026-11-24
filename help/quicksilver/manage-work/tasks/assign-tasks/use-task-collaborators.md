@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 Os agentes de trabalho são colaboradores de IA que podem ser atribuídos diretamente a tarefas, problemas e solicitações do Workfront. Como outros Colaboradores de IA, os Agentes de trabalho são configurados na área Configuração e atribuídos a itens de trabalho como um usuário.
 
-<span class="preview">Você pode usar um Agente de Trabalho Nativo da Adobe pronto para uso, como o colaborador da CX Enterprise Coworker ou um Colaborador de IA pré-criado, como o Coordenador de Entrada (para obter mais informações, consulte [Configurar Colaboradores de IA pré-criados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md))</span> ou um Agente de Trabalho conectado a uma plataforma externa. Os recursos disponíveis e os requisitos de configuração dependem da origem do agente.
+Você pode usar um Agente de Trabalho Nativo da Adobe pronto para uso, como o colaborador da CX Enterprise Coworker ou um Colaborador de IA pré-criado, como o Coordenador de Entrada (para obter mais informações, consulte [Configurar Colaboradores de IA pré-criados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)), ou um Agente de Trabalho conectado a uma plataforma externa. Os recursos disponíveis e os requisitos de configuração dependem da origem do agente.
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
@@ -69,7 +69,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 ## Pré-requisitos
 
 * Um administrador deve configurar o Agente de trabalho no Workfront antes que você possa usá-lo.
-* <span class="preview">Para um Agente de Trabalho Nativo da Adobe, sua organização deve ter o Adobe CX Coworker habilitado.</span>
+* Para um Agente de trabalho nativo da Adobe, sua organização deve ter o Adobe CX Coworker habilitado.
 * Para um Agente de trabalho conectado a uma plataforma externa, o agente também deve ser configurado nessa plataforma.
 
 ## Visão geral do agente de trabalho
@@ -128,7 +128,7 @@ Quando um Agente de Trabalho é atribuído a uma tarefa ou problema, ele começa
 * Uma tarefa para a qual um Agente de trabalho e um usuário já estão atribuídos fica pronta para ser iniciada, e o Agente de trabalho foi atribuído primeiro ou é o designado principal. (Por exemplo, se a tarefa tiver predecessoras, elas serão concluídas.)
 * Um usuário e um Agente de trabalho são atribuídos a uma tarefa e o usuário é removido.
 * Um usuário e um Agente de trabalho são atribuídos a uma tarefa, e o Agente de trabalho é definido como o Principal Designado para a tarefa.
-* <span class="preview">Um Agente de Trabalho nativo do Workfront é @mentioned em uma tarefa.
+* Um agente de trabalho nativo do Workfront é @mentioned em uma tarefa.
 
 As seguintes situações não fazem com que o Agente de trabalho comece a trabalhar na tarefa:
 

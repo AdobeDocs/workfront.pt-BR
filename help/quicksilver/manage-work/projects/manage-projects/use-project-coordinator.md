@@ -4,15 +4,13 @@ content-type: reference
 description: Saiba como usar o Coordenador de projetos, um colaborador de IA pronto para uso que monitora o status do projeto e acompanha tarefas vencidas.
 author: Becky
 feature: Work Management, Projects
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 6%
 
 ---
 # Usar o colaborador do Coordenador de projetos
-
-{{highlighted-preview-article-level}}
 
 O Coordenador de projetos é um colaborador de IA pronto para uso que monitora o projeto e notifica as partes interessadas sobre informações importantes de status.
 
