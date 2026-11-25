@@ -6,10 +6,10 @@ description: Como administrador do Adobe Workfront, você pode configurar Colabo
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: c95c5a71a2706d4ddbf3e53a579b348bd072a04e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 8%
+source-wordcount: '377'
+ht-degree: 7%
 ---
 # Configurar colaboradores de IA pré-criados
 
@@ -71,6 +71,10 @@ Para obter mais informações, consulte [Visão geral do CX Enterprise Coworker 
 ### Coordenador de entrada {#intake-coordinator}
 
 O Coordenador de entrada verifica os detalhes, formulários personalizados e anexos de solicitações quanto a informações ausentes, confusas ou inconsistentes. Ele publica feedback ou faz alterações com a aprovação do usuário.
+
+>[!NOTE]
+>
+>Você pode atribuir o Coordenador de entrada a uma regra de roteamento quando a regra for criada, mas não pode atribuí-la posteriormente.
 
 <!--
 ### Context Carrier {#context-carrier}
