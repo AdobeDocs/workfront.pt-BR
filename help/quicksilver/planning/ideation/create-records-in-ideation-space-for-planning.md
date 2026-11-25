@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1212'
 ht-degree: 0%
 ---
 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -200,6 +200,11 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    ![Nova caixa de registro com botão Abrir espaço de ideação](assets/new-record-creation-picker-with-ideation.png)
 
+   >[!TIP]
+   >
+   >Você também pode acessar o espaço de ideação para criar registros no menu principal do Workfront. Para obter informações, consulte [Criar resumos no espaço de ideação](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+
+
 1. Leia o contrato beta e clique em **Concordo**. Você deve assinar o contrato para usar o espaço de ideação.
 
    As seguintes situações ocorrem:
@@ -216,6 +221,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
+1. (Opcional) Clique no ícone **Página Inicial** ![Ícone da Página Inicial do espaço de ideação](assets/ideation-space-home-icon.png) no canto superior esquerdo da tela para abrir a área **Página Inicial do espaço de ideação** e acessar outra tela.
 1. (Opcional) Passe o mouse sobre a tag **Workfront Planning** no canto superior direito da tela Espaço de ideação para exibir o nome do tipo de registro, o espaço de trabalho para o qual você está criando um registro e o número da versão do resumo que está criando.
 
    ![marca de informações de tipo de registro e espaço de trabalho do Workfront Planning dentro da tela](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
