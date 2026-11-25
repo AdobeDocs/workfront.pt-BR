@@ -4,10 +4,10 @@ description: Aprimoramentos nos documentos do primeiro trimestre de 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: 86dd87865046a4f2dc75e13feb370e338bbf4c92
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '409'
+ht-degree: 2%
 ---
 
 # Aprimoramentos nos documentos do primeiro trimestre de 2027
@@ -15,6 +15,27 @@ ht-degree: 5%
 Esta página descreve as melhorias de Documentos feitas com a versão do Primeiro trimestre de 2027 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2027, consulte [Visão geral da versão do Primeiro trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Novos recursos no Adobe Cloud Drive v1.2.0
+
+>[!NOTE]
+>
+>Visualização: 25 de novembro de 2026
+>Versão rápida de produção: 25 de novembro de 2026
+>Produção para todos: 25 de novembro de 2026
+>[!BADGE Versão simultânea]{type=Neutral}
+>[!BADGE Fluxo de trabalho Ultimate]{type=Informative}
+
+O Adobe Cloud Drive v1.2.0 apresenta novas maneiras de fazer upload de arquivos, gerenciar a sincronização e trabalhar com o conteúdo em nuvem:
+
+* **Carregar para a Nuvem (Carregamento Direto):** Clique com o botão direito do mouse em um arquivo no Localizador ou no Explorador de Arquivos para carregá-lo diretamente para um projeto no Adobe Cloud Storage, sem primeiro copiá-lo para a pasta da Unidade de Nuvem da Adobe. Monitore o progresso na seção Upload direto da Atividade de sincronização.
+* **Pausar e retomar a sincronização:** pausar o Adobe Cloud Drive em uma conexão lenta ou limitada e retomar quando estiver pronto.
+* **Histórico de Versões:** Procure versões de nuvem salvas de um arquivo, edite nomes e descrições de versões e reverta para uma versão anterior.
+* **Gerenciar Armazenamento Local:** Monitore o uso do disco local, defina um limite de armazenamento e exiba arquivos marcados como Sempre neste dispositivo.
+* **Atividade de Sincronização:** Examine carregamentos, downloads e alterações recentes e identifique itens que não puderam ser sincronizados.
+* **Abrir no Workfront:** Abra o local do Workfront de um item diretamente do Localizador, do Explorador de Arquivos ou da Atividade de Sincronização.
+
+Para obter mais informações, consulte [Usar a Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md) e [Solucionar Problemas da Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md).
 
 <!--
 

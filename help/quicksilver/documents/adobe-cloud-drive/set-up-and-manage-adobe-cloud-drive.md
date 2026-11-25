@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3206'
 ht-degree: 1%
 ---
 # Configurar e gerenciar o Adobe Cloud Drive para sua organização
@@ -222,9 +222,13 @@ Para criar o pacote na Adobe Admin Console:
    ![Escolher etapa de aplicativos no assistente de pacotes](assets/choose-apps-step-in-wizard.png)
 
 1. Clique em **Próximo**.
-1. Na etapa **Opções**, clique em **Avançar** sem selecionar nenhuma opção.
+1. Na etapa **Opções**, clique em **Desabilitar atualização para usuários finais** para impedir que os usuários atualizem eles mesmos o aplicativo ou clique em **Avançar** sem selecionar nenhuma opção.
 
-   Essas configurações se aplicam aos aplicativos de desktop do Creative Cloud e não se aplicam ao Adobe Cloud Drive.
+   <!-- Courtney check me: Removed the old sentence saying Options settings don't apply to Adobe Cloud Drive, which contradicted the Disable update for end-users option. Added the note Pulkit requested. Confirm wording, and whether the note duplicates step text above. -->
+
+   >[!NOTE]
+   >
+   >Para impedir que usuários finais atualizem eles mesmos o aplicativo, selecione **Desabilitar atualização para usuários finais** na etapa **Opções**. Outras configurações nesta etapa se aplicam a aplicativos de desktop do Creative Cloud e não se aplicam ao Adobe Cloud Drive.
 
    ![Etapas de opções no assistente de pacote](assets/options-step-in-wizard.png)
 
@@ -238,6 +242,10 @@ Para criar o pacote na Adobe Admin Console:
    ![Pacote em Preparando status](assets/package-is-preparing.png)
 
 1. Clique em **Baixar** e salve o arquivo de pacote no local escolhido.
+
+   >[!NOTE]
+   >
+   >O link de download do pacote e o utilitário downloader expiram 3 dias após a criação do pacote. No entanto, o arquivo .pkg ou .zip baixado não expira e pode ser usado para instalação posterior.
 
 ### Método B: download direto por autoatendimento da Distribuição de software
 

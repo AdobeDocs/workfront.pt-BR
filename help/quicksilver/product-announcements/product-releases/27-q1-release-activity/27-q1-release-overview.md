@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: fa8f434c22cccb4d6a9bed2318f0553c6defb812
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1766'
 ht-degree: 12%
 ---
 
@@ -191,6 +191,17 @@ As melhorias nesta página estão disponíveis no ambiente de pré-visualizaçã
             <td><strong>Pré-visualização</strong></td>
             <td><strong>Lançamento rápido</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Novos recursos no Adobe Cloud Drive v1.2.0</a></p>
+                <p>[!BADGE versão simultânea]{type=Neutral}</p>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>O Adobe Cloud Drive v1.2.0 apresenta Upload direto, pausa e retomada da sincronização, Histórico de versões, gerenciamento de armazenamento local, Atividade de sincronização e Aberto no Workfront.</p>
+            </td>
+            <td><p>25 de novembro de 2026</p></td>
+            <td><p>25 de novembro de 2026</p></td>
+            <td><p>25 de novembro de 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -434,7 +445,7 @@ O Visualizador de provas de desktop foi atualizado para a versão 2.3.0. Esta at
 
 * Atualização da estrutura subjacente (Eletron) para a versão mais recente, que é executada na versão 156 do Chrome, para melhorias de desempenho e segurança.
 
-Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Para obter informações sobre como baixar e atualizar o Visualizador de Provas de Desktop, consulte [Atualizar o Visualizador de Provas de Desktop](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Avisos
 
@@ -491,7 +502,7 @@ Para obter informações sobre taxas de funções de trabalho, consulte [Criar e
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
