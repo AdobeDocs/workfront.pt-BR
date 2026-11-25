@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2386'
 ht-degree: 1%
 ---
 
@@ -179,15 +179,23 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
 
    * Vá para o **Menu principal** ![Menu principal](assets/main-menu-lines.png) > clique em **Espaço de ideação**
 
+     A área **Início do espaço de ideação** é aberta.
+
      ![Espaço de ideação no menu principal](assets/ideation-space-area-icon-in-main-menu.png)
 
    * Vá para **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planejamento** > clique em um espaço de trabalho > clique em um tipo de registro > clique em **Novo registro** > clique em **Iniciar espaço de ideação**
+
+     Uma nova tela imediatamente conectada a um novo registro é aberta.
 
      ![Espaço de ideação em novo registro](assets/ideation-space-in-planning-new-record.png)
 
    * Vá para **Menu Principal** ![Menu principal](assets/main-menu-lines.png) > **Planejamento** > clique em um espaço de trabalho > clique em um tipo de registro > clique em um registro existente > clique em **Abrir no Espaço de ideação**
 
+     A tela conectada ao registro selecionado é aberta.
+
      ![Espaço de ideação nos detalhes do registro](assets/ideation-space-button-in-details-page.png)
+
+     Para obter mais informações sobre como criar registros do Planning usando o espaço de ideação, consulte [Criar registros do Planning a partir de resumos do espaço de ideação](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
      >[!IMPORTANT]
      >
@@ -200,24 +208,39 @@ Você pode criar resumos para criar ou editar registros do Planning ou criar arq
      >* Ao iniciá-lo a partir do Menu principal do Workfront, o resumo contém campos e informações dos arquivos carregados na tela.
 
 1. Leia o contrato beta e clique em **Concordo**. Você deve assinar o contrato para usar o espaço de ideação.
+1. (Condicional) Se você acessou o Espaço de ideação no **Menu principal** e abriu a área **Início do espaço de ideação**, siga um destes procedimentos para abrir uma tela de ideação:
 
-   A tela Espaço de ideação é aberta e uma nova ideação é intitulada por padrão após o seguinte formato:
+   * Clique em uma tela aberta recentemente na parte superior da página para abri-la
+   * Clique em **Iniciar uma nova tela** para abrir uma nova tela e começar a criar um resumo da ideação
 
-   `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+     A tela Espaço de ideação é aberta e a nova ideação é automaticamente intitulada após o seguinte formato:
 
-   Para obter mais informações sobre como criar registros usando o espaço de ideação, consulte [Criar registros do Planning a partir de resumos do espaço de ideação](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+     `Untitled ideation - Month date, year at time`
 
-1. (Condicional) Para abrir um resumo existente no espaço de ideação, faça logon no Workfront com o Planning onde o Co-worker foi ativado e siga um destes procedimentos:
+     ![Tela de ideação vazia com resumo minimizado e Colaborador](assets/empty-ideation-space-with-brief-minimized.png)
+   * Pesquise as telas existentes no canto superior direito da lista **Todas as telas** e clique nela quando ela aparecer na lista
 
-   * Vá para **Menu Principal** ![Menu principal](assets/main-menu-lines.png) > **Planejamento** > clique em um espaço de trabalho > clique em um tipo de registro > clique em um registro existente > **Abrir no espaço de ideação**
+     ![Área inicial do espaço de ideação](assets/ideation-space-home-area.png)
 
-     O nome da ideação corresponde ao nome do registro.
+     >[!TIP]
+     >
+     >Nem todas as telas na área Início do espaço de ideação estão conectadas aos registros do Planning.
+
+1. (Opcional) Na área **Todas as telas**, siga um destes procedimentos:
+
+   * Clique em **Atualizar** ![Ícone Atualizar](assets/refresh-icon.png) para renovar a lista de todas as telas disponíveis.
+   * Clique no **ícone de cartão** ![ícone de cartão](assets/card-icon.png) para exibir as telas disponíveis como cartões.
+   * Clique no **ícone de lista** ![ícone de Lista](assets/list-icon.png) para exibir as telas disponíveis em uma exibição de lista.
+1. (Opcional) Em uma tela aberta, clique no ícone **Página inicial** ![Ícone da Página inicial do espaço de ideação](assets/ideation-space-home-icon.png) na área superior esquerda da tela para retornar à área **Página inicial do espaço de ideação**.
+
+   >[!TIP]
+   >
+   >O ícone da Página Inicial do espaço de ideação ![ícone da Página Inicial do espaço de ideação](assets/ideation-space-home-icon.png) está disponível dentro de qualquer tela, mesmo quando você a abriu no Workfront Planning.
 
 1. (Recomendado) Clique no nome da ideação para alterar o nome, se você a abriu pela primeira vez.
 
-1. (Condicional e opcional) Para abrir outro espaço de ideação existente, clique no menu suspenso à direita do nome da ideação, procure-o pelo nome e clique na ideação quando ela for exibida na lista.
+1. (Condicional e opcional) Para abrir outra tela existente, clique no menu suspenso à direita do nome da ideação, procure-a pelo nome e clique na ideação quando ela for exibida na lista.
 
-   O **Espaço de ideação** é aberto e o Colaborador é aberto à direita.
 1. Use o prompt de colaborador para descrever o tipo de resumo que deseja criar.
 
    Por exemplo, digite &quot;Create a back-to-school campaign for K-12 student to run through the month of August, for parent and professors in the US&quot; (Crie uma campanha de volta às aulas para os alunos do ensino fundamental que durará o mês de agosto para os pais e os professores nos EUA).  Para tornar o resumo o mais completo possível, indique quantas informações você tem disponíveis para que tipo de campanha, a linha do tempo, as partes interessadas, pontos de verificação de aprovações e outros detalhes.

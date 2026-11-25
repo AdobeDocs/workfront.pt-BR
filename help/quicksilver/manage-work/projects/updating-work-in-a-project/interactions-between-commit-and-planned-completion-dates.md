@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: 422
+source-wordcount: '438'
 ht-degree: 9%
-
 ---
-
 # Interações entre a data de confirmação e a data de conclusão planejada
 
 <!--
@@ -73,7 +71,8 @@ O responsável trabalhando na tarefa ou problema pode atualizar manualmente a Da
 >
 >Somente o responsável pode atualizar a Data de confirmação de uma tarefa ou problema.
 
-A pessoa designada que altera a Data de confirmação não altera automaticamente a Data de conclusão planejada. O inverso também é verdadeiro: alterar a Data de conclusão planejada não alterará a Data de confirmação.
+
+A pessoa designada da tarefa ou problema que altera a Data de confirmação não altera automaticamente a Data de conclusão planejada. O inverso também é verdadeiro: alterar a Data de conclusão planejada não alterará a Data de confirmação. A Data de conclusão projetada também muda quando o destinatário atualiza a Data de confirmação.
 
 Quando a Data de confirmação é alterada, o Proprietário do projeto é notificado por meio de uma notificação no aplicativo da Workfront de que essa alteração ocorreu.
 

@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: '885'
 ht-degree: 5%
-
 ---
-
 # Visão geral da data de conclusão projetada para projetos, tarefas e problemas
 
 <!-- Audited: 11/2025 -->
@@ -93,14 +91,14 @@ Os critérios usados para determinar a Data de conclusão projetada diferem, dep
 
 * **Tarefas:** a Data de Conclusão Projetada para tarefas é determinada com base nos seguintes critérios:
 
-   * **Atualizações de progresso feitas na tarefa pelo destinatário da tarefa:** As atualizações de progresso incluem alterações na porcentagem concluída e alterações no status da tarefa.
-   * **Data de confirmação:** se o destinatário da tarefa especificar uma Data de confirmação, a Data de conclusão projetada será alterada para corresponder à Data de confirmação.
+  * **Atualizações de progresso feitas na tarefa pelo destinatário da tarefa:** As atualizações de progresso incluem alterações na porcentagem concluída e alterações no status da tarefa.
+  * **Data de confirmação:** se o destinatário da tarefa especificar uma Data de confirmação, a Data de conclusão projetada será alterada para corresponder à Data de confirmação. Isso não altera a Data de conclusão planejada do problema.
 
-     Para obter mais informações sobre Datas de Confirmação, consulte o artigo [Visão geral da Data de Confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+    Para obter mais informações sobre Datas de Confirmação, consulte o artigo [Visão geral da Data de Confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-   * **Predecessores:** Se não houver atrasos nas tarefas predecessoras, a Data de Conclusão Projetada deverá corresponder à Data de Conclusão Planejada. Conforme ocorrem atrasos, as tarefas dependentes mostram uma Data de Conclusão Projetada posterior à Data de Conclusão Planejada.
+  * **Predecessores:** Se não houver atrasos nas tarefas predecessoras, a Data de Conclusão Projetada deverá corresponder à Data de Conclusão Planejada. Conforme ocorrem atrasos, as tarefas dependentes mostram uma Data de Conclusão Projetada posterior à Data de Conclusão Planejada.
 
-     Para obter mais informações sobre a Data de conclusão planejada das tarefas, consulte [Visão geral da Data de conclusão planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+    Para obter mais informações sobre a Data de conclusão planejada das tarefas, consulte [Visão geral da Data de conclusão planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
   >[!IMPORTANT]
   >
@@ -111,7 +109,9 @@ Os critérios usados para determinar a Data de conclusão projetada diferem, dep
 
 * **Problemas:** a Data de Conclusão Projetada do problema está inicialmente definida para corresponder à Data de Conclusão Planejada do problema.
 
-  Se o destinatário da ocorrência especificar uma data de confirmação, tanto a Data de conclusão projetada quanto a Data de conclusão planejada serão alteradas para corresponder à Data de confirmação.
+  Se o destinatário da ocorrência especificar uma data de confirmação, a Data de conclusão projetada será alterada para corresponder à Data de confirmação. Isso não altera a Data de conclusão planejada do problema.
+
+  <!--Old statement - retired on Nov 25, 2026: If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date changes to match the Commit Date. This does not change the Planned Completion Date of the issue.-->
 
   Para obter mais informações sobre Datas de Confirmação, consulte o artigo [Visão geral da Data de Confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

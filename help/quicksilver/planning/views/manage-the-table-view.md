@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '4357'
+source-wordcount: '4376'
 ht-degree: 2%
 ---
 # Gerenciar a exibição de tabela
@@ -328,7 +328,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
 1. (Condicional) Dependendo dos tipos de campos que você está visualizando, execute um dos procedimentos a seguir;
 
-   * Para campos de número, moeda, porcentagem e fórmula formatados como qualquer um desses tipos de campo, expanda o menu suspenso do agregador na parte inferior das colunas e selecione uma das seguintes opções:
+   * Para campos de número, moeda, porcentagem e fórmula formatados como qualquer um desses tipos de campo, expanda o menu suspenso agregador na parte inferior das colunas <!--<span class="preview">or at the bottom of a grouping</span>--> e selecione uma das seguintes opções:
 
      * **SOMA**: exibe o total de todas as células da coluna.
      * **MIN**: exibe o valor mais baixo de todas as células da coluna.
@@ -362,6 +362,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
      * Última modificação por
      * ID do registro
    * Os campos de fórmula e de pesquisa têm os agregadores que correspondem ao formato do campo.
+   * Os agregadores mostram os resultados ao calcular todos os registros carregados na tela, e não todos os registros disponíveis.
 
 
 
