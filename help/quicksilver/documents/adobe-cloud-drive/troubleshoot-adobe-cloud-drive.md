@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1073'
 ht-degree: 0%
 ---
 # Solução de problemas do Adobe Cloud Drive
@@ -165,6 +165,41 @@ Para obter informações sobre como trabalhar com o Adobe Cloud Drive, consulte 
 
 * Para criar, renomear ou excluir um projeto, use a interface da Web do Workfront.
 * Peça ao proprietário do projeto para compartilhar o projeto com você com acesso de edição.
+
+<!-- Courtney check me: Three new troubleshooting entries below added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf. The PDF's solution wording was minimal, so verify steps and macOS menu paths. -->
+
+### A opção Carregar na nuvem não está disponível
+
+**Causas possíveis:**
+
+* No Mac, o Adobe Cloud Drive Finder Helper não está habilitado.
+
+**Soluções:**
+
+* No Mac, vá para **Configurações do Sistema** > **Geral** > **Itens de Logon e Extensões** e verifique se o Auxiliar do Localizador da Unidade de Nuvem da Adobe está habilitado.
+
+### Os uploads da área de trabalho, documentos ou downloads falham com um erro de autorização (Mac)
+
+**Causas possíveis:**
+
+* O Adobe Cloud Drive não tem permissão para acessar as pastas Área de Trabalho, Documentos ou Downloads.
+* As permissões de acesso necessárias à pasta estão desabilitadas nas configurações do macOS.
+
+**Soluções:**
+
+1. Vá para **Configurações do Sistema** > **Privacidade e Segurança** > **Arquivos e Pastas**.
+1. Conceda acesso ao Adobe Cloud Drive às pastas relevantes.
+1. Tente fazer o upload novamente.
+
+### Vários processos do Finder Sync são exibidos (Mac)
+
+**Causas possíveis:**
+
+* O macOS pode exibir de dois a três processos de sincronização do localizador de unidades da Adobe Cloud no Monitor de Atividade como parte da operação normal.
+
+**Soluções:**
+
+* Nenhuma ação é necessária. É esperado o comportamento de dois a três processos de sincronização do localizador de unidades de nuvem do Adobe em execução.
 
 ## Obter ajuda
 
