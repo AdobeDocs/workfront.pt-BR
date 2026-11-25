@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -214,3 +214,4 @@ Para compartilhar logs com o suporte da Adobe, siga as etapas em [Executar a fer
 * **Siga a estrutura de pastas do projeto.** Organize os arquivos nas pastas do projeto como o proprietário do projeto pretende.
 * **Usar nomes de arquivo descritivos.** Ajude os membros da equipe a encontrar o que precisam.
 * **Evite criar duplicatas.** Não faça cópias desnecessárias de arquivos.
+
